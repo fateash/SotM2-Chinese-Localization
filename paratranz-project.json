@@ -2,7 +2,11 @@
   "projectId": 21585,
   "files": {
     "ui.json": 3595636,
-    "Legacy.json": null,
-    "BaronBlade.json": null
+    "Legacy.json": 3595650,
+    "BaronBlade.json": 3595651
+  },
+  "remoteNames": {
+    "Legacy.json": "heroes/Legacy.json",
+    "BaronBlade.json": "villians/BaronBlade.json"
   }
 }

@@ -27,13 +27,20 @@ def fetch(config,data,request):
     ids=[v for v in files.values() if v is not None]
     if any(type(v) is not int or v<=0 for v in ids) or len(set(ids))!=len(ids):
         raise Invalid('File IDs must be distinct positive integers or null for exact-name discovery')
+    remote_names=config.get('remoteNames',{})
+    if not isinstance(remote_names,dict) or set(remote_names)-set(files):
+        raise Invalid('Remote name mapping contains unconfigured files')
+    names={name:remote_names.get(name,name) for name in files}
+    if any(not isinstance(v,str) or not v for v in names.values()) or len(set(names.values()))!=len(names):
+        raise Invalid('Remote file names must be nonempty and distinct')
     def listing():
         items=request(prefix+'/files')
         if not isinstance(items,list):raise Invalid('Expected files array')
         selected={}
         for name,fid in files.items():
-            found=[f for f in items if (f.get('id')==fid if fid is not None else f.get('name')==name)]
-            if len(found)!=1 or found[0].get('name')!=name:raise Invalid('Remote file identity mismatch: '+name)
+            remote_name=names[name]
+            found=[f for f in items if (f.get('id')==fid if fid is not None else f.get('name')==remote_name)]
+            if len(found)!=1 or found[0].get('name')!=remote_name:raise Invalid('Remote file identity mismatch: '+name)
             if type(found[0].get('id')) is not int or found[0]['id']<=0:raise Invalid('Invalid remote file ID')
             selected[name]=found[0]
         return selected

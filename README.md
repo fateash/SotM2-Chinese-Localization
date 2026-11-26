@@ -27,7 +27,7 @@
 
 ## 首次接入
 
-`paratranz-project.json` 配置项目 `21585`，界面文件固定为 `3595636`；卡组文件为 `Legacy.json`、`BaronBlade.json`。新文件 ID 暂以 `null` 按唯一完整文件名发现，并严格核对每组键集。迁移后可固定实际 ID。旧 `cards-body.json` 不再参与新流程。
+`paratranz-project.json` 配置项目 `21585`，界面文件固定为 `3595636`；卡组文件为 `Legacy.json`、`BaronBlade.json`。已固定新文件 ID：3595650、3595651，并映射实际平台路径 `heroes/Legacy.json`、`villians/BaronBlade.json`，严格核对路径、ID 和每组键集。旧 `cards-body.json` 不再参与新流程。
 
 在仓库 Settings → Secrets and variables → Actions 中添加 Repository secret `PARATRANZ_TOKEN`，值为 ParaTranz 账号 API Token。令牌只存入 Secrets，不写入代码、Issue 或聊天。
 

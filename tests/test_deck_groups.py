@@ -9,6 +9,9 @@ class DeckGroupTests(unittest.TestCase):
         self.reg=c.load(ROOT/'baseline/registry.json')
         self.rows=c.snapshot((ROOT/'translations').glob('*.json'))
         self.config=c.load(ROOT/'paratranz-project.json')
+        # Exercise exact-name discovery independently of production IDs.
+        self.config.pop('remoteNames',None)
+        self.config['files']={'ui.json':3595636,'Legacy.json':None,'BaronBlade.json':None}
         self.files={p.name:c.load(p) for p in (ROOT/'translations').glob('*.json')}
         self.listing=[{'id':i+1,'name':name,'modifiedAt':'v1','total':len(rows)} for i,(name,rows) in enumerate(self.files.items())]
         for f in self.listing:
@@ -73,5 +76,18 @@ class DeckGroupTests(unittest.TestCase):
     def test_legacy_archive_not_read(self):
         self.listing.append({'id':3595635,'name':'cards-body.json','total':7})
         self.assertEqual(fetch(self.config,self.reg,self.fake()),self.files)
+    def test_remote_folders_map_to_local_files(self):
+        names={'Legacy.json':'heroes/Legacy.json','BaronBlade.json':'villians/BaronBlade.json'}
+        self.config['remoteNames']=names
+        contents={f['id']:self.files[f['name']] for f in self.listing}
+        for f in self.listing:
+            self.config['files'][f['name']]=f['id']
+            f['name']=names.get(f['name'],f['name'])
+        def request(path):
+            if path.endswith('/files'):return copy.deepcopy(self.listing)
+            return copy.deepcopy(contents[int(path.split('/')[-2])])
+        self.assertEqual(fetch(self.config,self.reg,request),self.files)
+        self.config['remoteNames']['Legacy.json']='other/Legacy.json'
+        with self.assertRaises(c.Invalid):fetch(self.config,self.reg,request)
 
 if __name__=='__main__':unittest.main()
