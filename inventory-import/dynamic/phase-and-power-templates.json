@@ -1,0 +1,38 @@
+[
+  {
+    "key": "literal.3bbc130f224342c0d982ade3",
+    "original": "<size=75%>{0}</size>\n<voffset=-0.2em>{1} <style={2}Phase>{3} Phase</style>",
+    "translation": "",
+    "context": "程序常量索引：2408；用途：phase-and-power-templates。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
+  },
+  {
+    "key": "literal.60e5e1061cba2b68f60f5f60",
+    "original": "<style=PowerHeading>POWER: </style>",
+    "translation": "",
+    "context": "程序常量索引：2414；用途：phase-and-power-templates。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
+  },
+  {
+    "key": "literal.945322b9ceb6bbea63ff4b0c",
+    "original": "<style={0}Phase>{1} PHASE</style></voffset>",
+    "translation": "",
+    "context": "程序常量索引：2418；用途：phase-and-power-templates。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
+  },
+  {
+    "key": "literal.54874f0da61233492484424c",
+    "original": "{0} Phase",
+    "translation": "",
+    "context": "程序常量索引：19560；用途：phase-and-power-templates。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
+  },
+  {
+    "key": "literal.884e178cb96eb670132dc6e2",
+    "original": "{0} activate {1} <nobr><sprite name=\"{2}Phase\"> <b>{3} PHASE</b></nobr> effect.",
+    "translation": "",
+    "context": "程序常量索引：19565；用途：phase-and-power-templates。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
+  },
+  {
+    "key": "literal.496eee04d0d68892529a0382",
+    "original": "{0}'s {1} Phase",
+    "translation": "",
+    "context": "程序常量索引：19715；用途：phase-and-power-templates。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
+  }
+]

@@ -5,3 +5,9 @@ incoming/
 build/
 *.zip
 build-roundtrip/
+
+**/bin/
+**/obj/
+build-*/
+incoming-inventory*/
+migration-plan/

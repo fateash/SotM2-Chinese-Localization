@@ -1,0 +1,520 @@
+[
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/title",
+    "original": "Omnitron",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：Omnitron；类型：deck.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/title",
+    "original": "Omnitron",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：card.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/subTitle",
+    "original": "Self-Aware Robotics Factory",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：cards.subTitle。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/subTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/setupGameTexts/0/body/0",
+    "original": "Discover 1 Device card. Discover 1 Ongoing card.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/setupGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/gameTexts/0/body/0",
+    "original": "The Heroes cannot win until {Omnitron} is at 0 HP and is the only Device card in play.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/gameTexts/1/body/0",
+    "original": "Discover 1 Device card.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/gameTexts/2/body/0",
+    "original": "{Flip}. {Omnitron} flips only once each Villain turn.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/gameTexts/3/body/0",
+    "original": "Activate the {FabricateAbility} on each Villain card <i>(including any cards that are played this phase)</i>.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/advancedGameTexts/0/body/0",
+    "original": "Shuffle the Villain trash into the Villain deck. Discover {H - 1} Device cards.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/advancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/flippedSubTitle",
+    "original": "Rampaging Robot",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：cards.flippedSubTitle。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/flippedSubTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/flippedGameTexts/0/body/0",
+    "original": "The Heroes cannot win until {Omnitron} is at 0 HP and is the only Device card in play.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/flippedGameTexts/1/body/0",
+    "original": "Discover 1 Ongoing card.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/flippedGameTexts/2/body/0",
+    "original": "{Flip}. {Omnitron} flips only once each Villain turn.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/flippedGameTexts/3/body/0",
+    "original": "Activate the {ExterminateAbility} on each Villain card <i>(including any cards that are played this phase)</i>.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/flippedAdvancedGameTexts/0/body/0",
+    "original": "+1 damage dealt by Device cards.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/flippedAdvancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@AdaptivePlatingSubroutine/title",
+    "original": "Adaptive Plating Subroutine",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：AdaptivePlatingSubroutine；类型：card.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@AdaptivePlatingSubroutine/gameTexts/0/body/0",
+    "original": "{Omnitron} deals the {H} Hero targets with the highest HP 1 lightning, 1 energy, and 1 toxic damage each.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：AdaptivePlatingSubroutine；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@AdaptivePlatingSubroutine/gameTexts/1/body/0",
+    "original": "Until the Villain {Start}, after {Omnitron} is dealt a type of damage, {Omnitron} becomes immune to that type of damage for the rest of that turn.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：AdaptivePlatingSubroutine；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@AdaptivePlatingSubroutine/flavorQuotes/@Ra/text",
+    "original": "The fires of <b>RA</b> can melt steel beams!{BR}How is this robotic monstrosity not burning?!",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：AdaptivePlatingSubroutine / Ra；类型：flavor.quote。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@AdaptivePlatingSubroutine/flavorReference",
+    "original": "Ra, Singularity #4",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：AdaptivePlatingSubroutine；类型：flavor.reference。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@DisintegrationRay/title",
+    "original": "Disintegration Ray",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：DisintegrationRay；类型：card.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@DisintegrationRay/gameTexts/0/body/0",
+    "original": "{Omnitron} deals {H} energy damage to the Hero target with the lowest HP.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：DisintegrationRay；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@DisintegrationRay/gameTexts/1/body/0",
+    "original": "If there are more than {H} Villain Ongoing cards in play, destroy 1 Villain Ongoing card. If a card is destroyed this way, bury the top card of each Hero trash.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：DisintegrationRay；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@DisintegrationRay/flavorQuotes/@AbsoluteZero/text",
+    "original": "One direct hit from that thing{BR}and I'm back in the cryo chamber for a week.{BR}And that's me being hopeful here.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：DisintegrationRay / AbsoluteZero；类型：flavor.quote。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@DisintegrationRay/flavorReference",
+    "original": "Absolute Zero, Freedom Five #311",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：DisintegrationRay；类型：flavor.reference。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ElectroMagneticRailgun/title",
+    "original": "Electro-Magnetic Railgun",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ElectroMagneticRailgun；类型：card.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ElectroMagneticRailgun/gameTexts/0/body/0",
+    "original": "{Omnitron} deals the 2 Hero targets with the highest HP {H} projectile damage each.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ElectroMagneticRailgun；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ElectroMagneticRailgun/gameTexts/1/body/0",
+    "original": "If there are more than {H} Villain Ongoing cards in play, destroy 1 Villain Ongoing card. If a card is destroyed this way, each Hero discards 1 card.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ElectroMagneticRailgun；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ElectroMagneticRailgun/flavorQuotes/@Fanatic/text",
+    "original": "This collection of man-made trash{BR}dares to assault an angel of the Lord?!{BR}There can be <b>no</b> absolution for you!",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ElectroMagneticRailgun / Fanatic；类型：flavor.quote。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ElectroMagneticRailgun/flavorReference",
+    "original": "Fanatic, Mystery Comics Vol. 1 #359",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ElectroMagneticRailgun；类型：flavor.reference。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ElectroPulseExplosive/title",
+    "original": "Electro-Pulse Explosive",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ElectroPulseExplosive；类型：card.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ElectroPulseExplosive/shortTitle",
+    "original": "E-P Explosive",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ElectroPulseExplosive；类型：cards.shortTitle。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/4/shortTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ElectroPulseExplosive/gameTexts/0/body/0",
+    "original": "This card deals the {H} Hero targets with the highest HP 3 lightning damage each.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ElectroPulseExplosive；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ElectroPulseExplosive/gameTexts/1/body/0",
+    "original": "Until the Villain {Start}, −1 damage dealt to Device cards.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ElectroPulseExplosive；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ElectroPulseExplosive/flavorQuotes/@Legacy/text",
+    "original": "It's already gone off once. I don't think this{BR}building can survive another round!",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ElectroPulseExplosive / Legacy；类型：flavor.quote。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ElectroPulseExplosive/flavorReference",
+    "original": "Legacy, Freedom Five #219",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ElectroPulseExplosive；类型：flavor.reference。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@FlechetteLauncher/title",
+    "original": "Flechette Launcher",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：FlechetteLauncher；类型：card.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@FlechetteLauncher/gameTexts/0/body/0",
+    "original": "{Omnitron} deals the Hero character with the highest HP X toxic damage, where X is the number of Ongoing cards in that Hero’s play area plus 1.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：FlechetteLauncher；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@FlechetteLauncher/gameTexts/1/body/0",
+    "original": "Destroy {H - 2} Hero Ongoing cards.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：FlechetteLauncher；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@FlechetteLauncher/flavorQuotes/@Omnitron/text",
+    "original": "Your strength cannot save you. You are still{BR}made of flesh. Flesh is inherently weak.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：FlechetteLauncher / Omnitron；类型：flavor.quote。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@FlechetteLauncher/flavorReference",
+    "original": "Omnitron, Mystery Comics Vol. 1 #309",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：FlechetteLauncher；类型：flavor.reference。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ProtomatterConverter/title",
+    "original": "Protomatter Converter",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ProtomatterConverter；类型：card.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ProtomatterConverter/gameTexts/0/body/0",
+    "original": "Destroy 1 Environment card. Play the top card of the Environment deck.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ProtomatterConverter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ProtomatterConverter/gameTexts/1/body/0",
+    "original": "Play the top card of the Villain deck.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ProtomatterConverter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ProtomatterConverter/flavorQuotes/@Tachyon/text",
+    "original": "In principle, a molecular-decoupling wave could{BR}realign protomatter at the subatomic level.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ProtomatterConverter / Tachyon；类型：flavor.quote。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@ProtomatterConverter/flavorReference",
+    "original": "Tachyon, Freedom Five #315",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：ProtomatterConverter；类型：flavor.reference。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@S83AssaultDrones/title",
+    "original": "S-83 Assault Drones",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：S83AssaultDrones；类型：card.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@S83AssaultDrones/gameTexts/0/body/0",
+    "original": "This card deals the 2 Hero targets with the lowest HP {H - 1} melee damage each.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：S83AssaultDrones；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@S83AssaultDrones/gameTexts/1/body/0",
+    "original": "Until the Villain {Start}, after any Device card is dealt damage by a Hero target, this card deals the attacker 2 melee damage.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：S83AssaultDrones；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@S83AssaultDrones/flavorQuotes/@Haka/text",
+    "original": "Hundreds of those skittering knife-legged{BR}robots surrounded me! It was <b>GREAT</b>!",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：S83AssaultDrones / Haka；类型：flavor.quote。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@S83AssaultDrones/flavorReference",
+    "original": "Haka, Singularity #5",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：S83AssaultDrones；类型：flavor.reference。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@S84AutomatonDrones/title",
+    "original": "S-84 Automaton Drones",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：S84AutomatonDrones；类型：card.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@S84AutomatonDrones/gameTexts/0/body/0",
+    "original": "This card deals the 3 Hero targets with the highest HP {H - 1} energy damage each.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：S84AutomatonDrones；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@S84AutomatonDrones/gameTexts/1/body/0",
+    "original": "Discover 1 Device card.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：S84AutomatonDrones；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@S84AutomatonDrones/flavorQuotes/@TheWraith/text",
+    "original": "The endless sounds of stomping metal feet{BR}filled the air. There was no element of{BR}surprise. They didn't need it.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：S84AutomatonDrones / TheWraith；类型：flavor.quote。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@S84AutomatonDrones/flavorReference",
+    "original": "The Wraith, Singularity #7",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：S84AutomatonDrones；类型：flavor.reference。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@S85RepairDrones/title",
+    "original": "S-85 Repair Drones",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：S85RepairDrones；类型：card.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@S85RepairDrones/gameTexts/0/body/0",
+    "original": "The {H - 1} Device cards with the lowest HP regain 3 HP each.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：S85RepairDrones；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@S85RepairDrones/gameTexts/1/body/0",
+    "original": "Each Device card regains 1 HP. Shuffle the Villain trash into the Villain deck.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：S85RepairDrones；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@S85RepairDrones/flavorQuotes/@Omnitron/text",
+    "original": "Damage dealt to hull can be repaired{BR}Omnitron is not this physical form.{BR}The Omni-Code is everywhere.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：S85RepairDrones / Omnitron；类型：flavor.quote。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@S85RepairDrones/flavorReference",
+    "original": "Omnitron, Singularity #6",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：S85RepairDrones；类型：flavor.reference。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@SingularityProjector/title",
+    "original": "Singularity Projector",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：SingularityProjector；类型：card.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@SingularityProjector/gameTexts/0/body/0",
+    "original": "{Omnitron} deals the Hero character with the highest HP X lightning damage, where X is the number of Item cards in that Hero’s play area plus 1.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：SingularityProjector；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@SingularityProjector/gameTexts/1/body/0",
+    "original": "Destroy {H - 2} Item cards.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：SingularityProjector；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@SingularityProjector/flavorQuotes/@Omnitron/text",
+    "original": "Assuming direct control...",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：SingularityProjector / Omnitron；类型：flavor.quote。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@SingularityProjector/flavorReference",
+    "original": "Omnitron, Singularity #8",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：SingularityProjector；类型：flavor.reference。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/variants/@OmnitronCharacter/title",
+    "original": "Cosmic Omnitron",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：card.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/variants/@OmnitronCharacter/subTitle",
+    "original": "Awakened Intelligence",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：variants.subTitle。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/variants/0/subTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/variants/@OmnitronCharacter/setupGameTexts/0/body/0",
+    "original": "Shuffle and set the {Omnitron} deck in the Villain play area. Put the top card of that deck under this card. Discover 1 Ongoing card.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/variants/0/setupGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/variants/@OmnitronCharacter/gameTexts/0/body/0",
+    "original": "X on this card is the number of cards under this card.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/variants/@OmnitronCharacter/gameTexts/1/body/0",
+    "original": "Whenever a non-Hero Device, card would be played, put it under this card instead and {Omnitron} regains X HP. Then, play the top card of the Villain deck.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/variants/@OmnitronCharacter/gameTexts/2/body/0",
+    "original": "Activate the {FabricateAbility} on each Villain card <i>(including any cards that are played this phase)</i>. Then, if there are more than {H} cards under this card, destroy all cards under this card.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/variants/@OmnitronCharacter/gameTexts/3/body/0",
+    "original": "Activate the {ExterminateAbility} on each Villain card <i>(including any cards that are played this phase)</i>. Then, {Omnitron} deals the Hero target with the highest HP X energy damage.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/variants/@OmnitronCharacter/advancedGameTexts/0/body/0",
+    "original": "{Omnitron} deals the non-Villain target with the second highest HP X times 2 energy damage.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/variants/0/advancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  }
+]

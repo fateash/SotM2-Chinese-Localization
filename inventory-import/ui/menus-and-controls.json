@@ -1,0 +1,74 @@
+[
+  {
+    "key": "ui.source.c0bb437e043c3fb1c3c6",
+    "original": "Abandon",
+    "translation": "",
+    "context": "界面对象：Text；用途：menus-and-controls。\nlevel1 path_id=499 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
+  },
+  {
+    "key": "ui.source.9a87031a5995551cb0fc",
+    "original": "Are you sure you want to abandon your game in progress? It will count as a loss in your statistics.",
+    "translation": "",
+    "context": "界面对象：Abandon Label；用途：menus-and-controls。\nlevel1 path_id=502 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
+  },
+  {
+    "key": "ui.source.b7c13605ff3733db59ee",
+    "original": "Online\nMultiplayer",
+    "translation": "",
+    "context": "界面对象：Text；用途：menus-and-controls。\nlevel1 path_id=505 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
+  },
+  {
+    "key": "ui.source.5c29d0649009a652dcdd",
+    "original": "Abandon Game in Progress?",
+    "translation": "",
+    "context": "界面对象：Title Label；用途：menus-and-controls。\nlevel1 path_id=517 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
+  },
+  {
+    "key": "ui.source.342a8d582583460dcab7",
+    "original": "Revealed Cards",
+    "translation": "",
+    "context": "界面对象：Title Label；用途：menus-and-controls。\nsharedassets2.assets path_id=355 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
+  },
+  {
+    "key": "ui.source.f4bcba4361942faf34e8",
+    "original": "LOSE",
+    "translation": "",
+    "context": "界面对象：Text (TMP)；用途：menus-and-controls。\nlevel2 path_id=783 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
+  },
+  {
+    "key": "ui.source.9834b589c1a0e0a66703",
+    "original": "WIN",
+    "translation": "",
+    "context": "界面对象：Text (TMP)；用途：menus-and-controls。\nlevel2 path_id=793 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
+  },
+  {
+    "key": "ui.source.8464259b02e9f6422a8f",
+    "original": "Confirm",
+    "translation": "",
+    "context": "界面对象：Text；用途：menus-and-controls。\nlevel2 path_id=808 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
+  },
+  {
+    "key": "ui.source.9574ef2e718dfd1935bb",
+    "original": "Advanced...",
+    "translation": "",
+    "context": "界面对象：Advanced Heading Label；用途：menus-and-controls。\nsharedassets3.assets path_id=479 offset=88\nresources.assets path_id=1788 offset=88\nresources.assets path_id=2406 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
+  },
+  {
+    "key": "ui.source.e30e3795f626dca0d434",
+    "original": "Advanced",
+    "translation": "",
+    "context": "界面对象：Advanced Heading Label；用途：menus-and-controls。\nsharedassets4.assets path_id=108 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
+  },
+  {
+    "key": "ui.source.fde6a9533123f7dab123",
+    "original": "Version",
+    "translation": "",
+    "context": "界面对象：Version Label；用途：menus-and-controls。\nlevel6 path_id=83 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
+  },
+  {
+    "key": "ui.source.16972044674c30adbe69",
+    "original": "More",
+    "translation": "",
+    "context": "界面对象：Text (TMP)；用途：menus-and-controls。\nlevel6 path_id=86 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
+  }
+]
