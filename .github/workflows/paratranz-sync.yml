@@ -33,8 +33,7 @@ jobs:
           BASE_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           set -euo pipefail
-          cp incoming/ui.json translations/ui.json
-          cp incoming/cards-body.json translations/cards-body.json
+          cp incoming/*.json translations/
           if git diff --quiet -- translations; then
             echo 'No translation snapshot changes.'
             exit 0
@@ -43,7 +42,7 @@ jobs:
           git switch -c "$branch"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add translations/ui.json translations/cards-body.json
+          git add translations/
           git commit -m 'Import validated ParaTranz translation snapshot'
           git push origin "$branch"
           python3 tools/pr_body.py build/build-report.json > "$RUNNER_TEMP/sotm2-pr.md"

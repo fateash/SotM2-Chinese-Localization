@@ -8,11 +8,11 @@
 
 ## 当前进度
 
-目前为技术样板阶段：37 条界面文本、7 条卡牌正文，共 44 条。样板译文尚未完成正式语言审核；卡名、类型、风味文本和阶段模板尚未纳入运行适配。
+当前候选批次按卡组分文件：37 条界面文本、Legacy 27 条正文、Baron Blade 25 条正文，共 89 条。新增 45 条正文尚待实机验收。样板译文尚未完成正式语言审核；卡名、类型、风味文本和阶段模板尚未纳入运行适配。
 
 运行基线为中文插件 0.1.4 / Steam Build 26880829，已通过重点实机测试。本仓库提供译文维护与构建工具，尚未发布完整汉化补丁，也不包含游戏本体文件或插件安装包。
 
-ParaTranz 导入已完成。首次带授权的线上拉取、PR 与游戏回填验证尚待完成。
+原 44 条样板已完成 ParaTranz → GitHub PR → 游戏显示的单条译文往返测试（2026-11-26）。本批按卡组分组的线上迁移待完成，操作顺序见 [Batch01 迁移与验收](docs/BATCH01.md)。
 
 ## 协作与维护
 
@@ -27,7 +27,7 @@ ParaTranz 导入已完成。首次带授权的线上拉取、PR 与游戏回填�
 
 ## 首次接入
 
-`paratranz-project.json` 已配置项目 `21585`、界面文件 `3595636`、卡牌正文文件 `3595635`。
+`paratranz-project.json` 配置项目 `21585`，界面文件固定为 `3595636`；卡组文件为 `Legacy.json`、`BaronBlade.json`。新文件 ID 暂以 `null` 按唯一完整文件名发现，并严格核对每组键集。迁移后可固定实际 ID。旧 `cards-body.json` 不再参与新流程。
 
 在仓库 Settings → Secrets and variables → Actions 中添加 Repository secret `PARATRANZ_TOKEN`，值为 ParaTranz 账号 API Token。令牌只存入 Secrets，不写入代码、Issue 或聊天。
 

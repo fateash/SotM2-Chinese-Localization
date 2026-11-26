@@ -9,7 +9,8 @@
       "locator": "Text",
       "original": "Cancel",
       "sourceSha256": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0002",
@@ -17,7 +18,8 @@
       "locator": "Text",
       "original": "Options",
       "sourceSha256": "d0db8b5e364b6989e4b8f38a2b3846b87d99a51c1592ebf35d21cc66405a8e39",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0003",
@@ -25,7 +27,8 @@
       "locator": "Text",
       "original": "New Game",
       "sourceSha256": "28f9044138a54b95f198b450b2b02af43921f0d50450885875653e6443115f35",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0004",
@@ -33,7 +36,8 @@
       "locator": "Text",
       "original": "Credits",
       "sourceSha256": "2a6b24ad287220345e96eb8021fe29d42b0785766c8df658827e7251da2d36dc",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0005",
@@ -41,7 +45,8 @@
       "locator": "Text",
       "original": "Quick Play",
       "sourceSha256": "e83ff4c4de42e2d7baa19f3e7c44420aa348042f1968ee8a1e14d92e76b67340",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0006",
@@ -49,7 +54,8 @@
       "locator": "Text",
       "original": "How to Play",
       "sourceSha256": "3bd5547e9467a382417c5cdd194a4e147bb3bbb631a6e3a45bd54c79d735bf62",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0007",
@@ -57,7 +63,8 @@
       "locator": "Text",
       "original": "Achievements",
       "sourceSha256": "74cf2bc63fe122206c82cecc1b3f31a100d5d4aaca6e12682590271276fb4691",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0008",
@@ -65,7 +72,8 @@
       "locator": "Text",
       "original": "Continue Game",
       "sourceSha256": "da518bfbda4eb9da3ef07e330b5bb06edcd583a2f9e5d482499eb7cf4aef501f",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0009",
@@ -73,7 +81,8 @@
       "locator": "Text",
       "original": "Early Access Info",
       "sourceSha256": "5033cffeb28cc37fa9c751a8677ce1cd3ea181d898f34f7046952f5dd2acf2eb",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0010",
@@ -81,7 +90,8 @@
       "locator": "Text",
       "original": "I Understand",
       "sourceSha256": "f02b9628d5767db6b7a20e4a9da7f4a15d93a17cd0e46fcab1ed054e9706dafe",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0011",
@@ -89,7 +99,8 @@
       "locator": "Text",
       "original": "Help & Feedback",
       "sourceSha256": "561e96349ecca61b328b08b07cdbf4c7bffa6997336cff9da3b7b2d9a5c1ad6b",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0012",
@@ -97,7 +108,8 @@
       "locator": "Text",
       "original": "Card Library",
       "sourceSha256": "afbdfb61a147451e1db083c751eea0a6bf9772423328afcffc9d6f2eea52bd92",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0013",
@@ -105,7 +117,8 @@
       "locator": "Selection Button Label",
       "original": "Select",
       "sourceSha256": "2a78025de6aae5e7ff88e5a951bb3a78ddd67388913529cf9e2dd9653e62b02d",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0014",
@@ -113,7 +126,8 @@
       "locator": "Text (TMP)",
       "original": "Quit",
       "sourceSha256": "b3eb37acb66ba4bbe8fb1ba296815daf194be94f5a5fb50dab2fb5e4a57ba29e",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0015",
@@ -121,7 +135,8 @@
       "locator": "Text (TMP)",
       "original": "Continue",
       "sourceSha256": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0016",
@@ -129,7 +144,8 @@
       "locator": "Text (TMP)",
       "original": "Menu",
       "sourceSha256": "99af6606ff9d6cd5154d4d4e9c21e325086d3e904677cdb41d363c8a3480f862",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0017",
@@ -137,7 +153,8 @@
       "locator": "Text (TMP)",
       "original": "Send Feedback",
       "sourceSha256": "84195de9375af87cb637fbb3eb7587d1dcdce5d9ea648de8dfc28b7ea4134509",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0018",
@@ -145,7 +162,8 @@
       "locator": "Skip Button Label",
       "original": "Skip",
       "sourceSha256": "28d03596d24eeb4eab2d6fe21ca1cb95be7cb1fa6f92933db05e2cc4f4cdfa06",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0019",
@@ -153,7 +171,8 @@
       "locator": "Choose For Me Button Label",
       "original": "Choose For Me",
       "sourceSha256": "86cd76341be47e021577b61cf927de8c9ec1a9f28d20987da051920cf3d73232",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0020",
@@ -161,7 +180,8 @@
       "locator": "Text (TMP)",
       "original": "Options",
       "sourceSha256": "d0db8b5e364b6989e4b8f38a2b3846b87d99a51c1592ebf35d21cc66405a8e39",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0021",
@@ -169,7 +189,8 @@
       "locator": "Text (TMP)",
       "original": "How to Play",
       "sourceSha256": "3bd5547e9467a382417c5cdd194a4e147bb3bbb631a6e3a45bd54c79d735bf62",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0022",
@@ -177,7 +198,8 @@
       "locator": "Finish Button Label",
       "original": "Finish",
       "sourceSha256": "a6c7a84baa6750fce33f7512acd6793e53def1d228b5f2efb8074b42648424fc",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0023",
@@ -185,7 +207,8 @@
       "locator": "Text (TMP)",
       "original": "Undo",
       "sourceSha256": "a8283ade31856f71220db0e6f60a257c6889dc4dad0f275f66ad44b9ed9bf8d5",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0024",
@@ -193,7 +216,8 @@
       "locator": "Text",
       "original": "Menu",
       "sourceSha256": "99af6606ff9d6cd5154d4d4e9c21e325086d3e904677cdb41d363c8a3480f862",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0025",
@@ -201,7 +225,8 @@
       "locator": "Heading Label",
       "original": "Options",
       "sourceSha256": "d0db8b5e364b6989e4b8f38a2b3846b87d99a51c1592ebf35d21cc66405a8e39",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0026",
@@ -209,7 +234,8 @@
       "locator": "Heading",
       "original": "Credits",
       "sourceSha256": "2a6b24ad287220345e96eb8021fe29d42b0785766c8df658827e7251da2d36dc",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0027",
@@ -217,7 +243,8 @@
       "locator": "Hint Label",
       "original": "Select Hero to Draw Cards",
       "sourceSha256": "73a10f05aba71d826c594a7edd2bd4b1ade3f07b9da236657da126a9bdeeb9d6",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0028",
@@ -225,7 +252,8 @@
       "locator": "Hint Label",
       "original": "Select Hero to play cards",
       "sourceSha256": "9946b5fc6e952d0530187ce2e4d836aaee0a7e034d19cdf883baf3c8261544d9",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0029",
@@ -233,7 +261,8 @@
       "locator": "Hint Label",
       "original": "Select Hero to use powers",
       "sourceSha256": "65b67f0359b49ddd364eb8edd812b970ffb9a257a228af3a38c5d59adf6cdf84",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0030",
@@ -241,7 +270,8 @@
       "locator": "Hint Label",
       "original": "Select which Hero is considered to have the fewest cards in hand",
       "sourceSha256": "40b3c1958bc4c48837f67595b42c82ad83ef11183f96e1c717b82f789f329fac",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0031",
@@ -249,7 +279,8 @@
       "locator": "Hint Label",
       "original": "Select which of these targets is considered to have the Highest HP",
       "sourceSha256": "143451a792b80f531c7dfda205dba11eed8d86103164b2f80ad288f7500a6aaf",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0032",
@@ -257,7 +288,8 @@
       "locator": "Hint Label",
       "original": "Select the order in which the effects on these cards resolve",
       "sourceSha256": "8b7207a68d126336ddff6259fbfe637dfc33a1acece072b2e9bdc287577f1d91",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0033",
@@ -265,7 +297,8 @@
       "locator": "Skip Button Label",
       "original": "Skip Ability",
       "sourceSha256": "bdd783d9b75237802a9839af9c14747333a9e74b37155d5d783ceebb35aad9d6",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0034",
@@ -273,7 +306,8 @@
       "locator": "Skip Button Label",
       "original": "Skip Draw",
       "sourceSha256": "fa4aace15b6b1e95986e01c76e109ca469292c3c00a7a2c64d39b5d864755fc0",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0035",
@@ -281,7 +315,8 @@
       "locator": "Skip Button Label",
       "original": "Skip Play",
       "sourceSha256": "953772c5a733d2a9b340d2df9e247b279f612244926674bcc62e6c04e1bd5650",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0036",
@@ -289,7 +324,8 @@
       "locator": "Skip Button Label",
       "original": "Skip Power",
       "sourceSha256": "037ecb31e71f7aa38c859d774e9f8b99fc9142c87c9131460337313a23fcacc7",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "ui.label.0037",
@@ -297,7 +333,8 @@
       "locator": "Skip Button Label",
       "original": "Skip Selection",
       "sourceSha256": "dbbdec5e8515f162103c442cac3de8f7e99fa5ac383e97603a3bdb91fe470c19",
-      "context": "界面控件名精确匹配；样板译文可润色。"
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "file": "ui.json"
     },
     {
       "key": "card.LegacyCharacter.body.001",
@@ -305,7 +342,8 @@
       "locator": "LegacyCharacter",
       "original": "Until your {Start}, +1 damage dealt by ally characters.",
       "sourceSha256": "16e0be7334e10dae426f3cb2511edc030ea8e4e47e773a9aa3a911f35ae7cc80",
-      "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。"
+      "context": "牌组：Legacy；卡牌：Legacy (LegacyCharacter)；字段：gameTexts；类型：Power；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
     },
     {
       "key": "card.BolsterAllies.body.001",
@@ -313,7 +351,8 @@
       "locator": "BolsterAllies",
       "original": "Each Hero draws 1 card.",
       "sourceSha256": "7dbd9b614ab49307dc0b3d10c5d444f2b671fd564bdda20ab20b0f0929405c51",
-      "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。"
+      "context": "牌组：Legacy；卡牌：Bolster Allies (BolsterAllies)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
     },
     {
       "key": "card.BolsterAllies.body.002",
@@ -321,7 +360,8 @@
       "locator": "BolsterAllies",
       "original": "1 Hero other than you plays 1 card.",
       "sourceSha256": "c8e5fbf44e3298cc4fff154860fcc7ea90a6d316c5e1f26bd3b0c32a75c6d436",
-      "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。"
+      "context": "牌组：Legacy；卡牌：Bolster Allies (BolsterAllies)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
     },
     {
       "key": "card.FlyingSmash.body.001",
@@ -329,7 +369,8 @@
       "locator": "FlyingSmash",
       "original": "{Legacy} deals up to 3 targets 3 melee damage each.",
       "sourceSha256": "e57530018ff37ffd40008318fe6c88bfd96661e28f026940a3e8b106cf239c50",
-      "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。"
+      "context": "牌组：Legacy；卡牌：Flying Smash (FlyingSmash)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
     },
     {
       "key": "card.BulletproofSkin.body.001",
@@ -337,7 +378,8 @@
       "locator": "BulletproofSkin",
       "original": "-1 damage dealt to {Legacy}.",
       "sourceSha256": "408818334334fcc4031f7d68216b5961656d05759d3958a827ca0171cc442de8",
-      "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。"
+      "context": "牌组：Legacy；卡牌：Bulletproof Skin (BulletproofSkin)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
     },
     {
       "key": "card.BaronBladeCharacter.body.001",
@@ -345,7 +387,8 @@
       "locator": "BaronBladeCharacter",
       "original": "Discard the top {H - 2} cards of the Villain deck.",
       "sourceSha256": "915aef0f6736ae4261c469f5d976ab69350c09d790537e9b5474b9653cd74f2a",
-      "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。"
+      "context": "牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：advancedGameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/advancedGameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
     },
     {
       "key": "card.RemoteWalkingTank.body.001",
@@ -353,7 +396,413 @@
       "locator": "RemoteWalkingTank",
       "original": "This card deals the Hero target with the highest HP {H} energy damage.",
       "sourceSha256": "37de305e0ccf8d8d3fe4f708f2aabfa029b00e2f470829da051b27af4b886c30",
-      "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。"
+      "context": "牌组：BaronBlade；卡牌：Remote Walking Tank (RemoteWalkingTank)；字段：gameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.LegacyCharacter.body.002",
+      "kind": "card.body",
+      "locator": "LegacyCharacter",
+      "original": "1 Hero takes their {Power}.",
+      "sourceSha256": "380b378c6576dcf31e12d0eab03f566e8e140d4510c411f1ef49629e14306d2e",
+      "context": "牌组：Legacy；卡牌：Legacy (LegacyCharacter)；字段：flippedGameTexts；类型：IncapacitatedAbility；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.LegacyCharacter.body.003",
+      "kind": "card.body",
+      "locator": "LegacyCharacter",
+      "original": "1 Hero discovers 1 Ongoing card.",
+      "sourceSha256": "fa0bb7f857016cebc33954b136af1d931271df45b10a5a33884068f200f5e8ba",
+      "context": "牌组：Legacy；卡牌：Legacy (LegacyCharacter)；字段：flippedGameTexts；类型：IncapacitatedAbility；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.LegacyCharacter.body.004",
+      "kind": "card.body",
+      "locator": "LegacyCharacter",
+      "original": "Until your {Start}, −2 damage dealt by Environment targets.",
+      "sourceSha256": "5fde61538f9bf8b3dfef99ac5d8d4b97b2f9720d45f1e624ae2ccbbde2f33551",
+      "context": "牌组：Legacy；卡牌：Legacy (LegacyCharacter)；字段：flippedGameTexts；类型：IncapacitatedAbility；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.DangerSense.body.001",
+      "kind": "card.body",
+      "locator": "DangerSense",
+      "original": "{Legacy} is immune to damage dealt by Environment targets.",
+      "sourceSha256": "20bac510e8a2629affa9995e50882559362ab430ea8b237217fe15758c006386",
+      "context": "牌组：Legacy；卡牌：Danger Sense (DangerSense)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.DangerSense.body.002",
+      "kind": "card.body",
+      "locator": "DangerSense",
+      "original": "Bury 1 Environment target in play. Destroy this card.",
+      "sourceSha256": "eaaf68e281c7731bb369038d88c966669d64a4a05248f378a6369cd20d87e642",
+      "context": "牌组：Legacy；卡牌：Danger Sense (DangerSense)；字段：gameTexts；类型：Power；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.DauntlessDurability.body.001",
+      "kind": "card.body",
+      "locator": "DauntlessDurability",
+      "original": "Whenever {Legacy} would be dealt 5 or more damage, prevent that damage and destroy this card.",
+      "sourceSha256": "5bdee009ce1d7e200aea5d9b1362f61b98f53074cd28781af2473af26632dc50",
+      "context": "牌组：Legacy；卡牌：Dauntless Durability (DauntlessDurability)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.DauntlessDurability.body.002",
+      "kind": "card.body",
+      "locator": "DauntlessDurability",
+      "original": "When this card is destroyed, {Legacy} regains 2 HP.",
+      "sourceSha256": "13f62445594b7f69c7f91db5f29edb7d689d57e354dfaf32946e3649ba7efbb8",
+      "context": "牌组：Legacy；卡牌：Dauntless Durability (DauntlessDurability)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.HeroicInterception.body.001",
+      "kind": "card.body",
+      "locator": "HeroicInterception",
+      "original": "After this card is played, {Legacy} deals himself 3 fixed melee damage.",
+      "sourceSha256": "e33ef8cc52bb932c077261912f6b2ec3c5ae0d7967ab8558954b97448c9ad8cd",
+      "context": "牌组：Legacy；卡牌：Heroic Interception (HeroicInterception)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.HeroicInterception.body.002",
+      "kind": "card.body",
+      "locator": "HeroicInterception",
+      "original": "Your allies are immune to damage.",
+      "sourceSha256": "6b50853aec7af9f25bd9ba46efba8965c2a33935ba1ab03187346336efabb02d",
+      "context": "牌组：Legacy；卡牌：Heroic Interception (HeroicInterception)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.HeroicInterception.body.003",
+      "kind": "card.body",
+      "locator": "HeroicInterception",
+      "original": "Destroy this card.",
+      "sourceSha256": "5862da0690d4f75dc5093012363cc22b82d103db34a8c039e2a43023e867f364",
+      "context": "牌组：Legacy；卡牌：Heroic Interception (HeroicInterception)；字段：gameTexts；类型：PhaseAction；阶段：Start。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/2/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.InspiringPresence.body.001",
+      "kind": "card.body",
+      "locator": "InspiringPresence",
+      "original": "After this card is played, each ally regains 1 HP.",
+      "sourceSha256": "816ac36096290688dbe742e9039d27b754f8b813165a57e7c9eb9ab1c866b4d3",
+      "context": "牌组：Legacy；卡牌：Inspiring Presence (InspiringPresence)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.InspiringPresence.body.002",
+      "kind": "card.body",
+      "locator": "InspiringPresence",
+      "original": "+1 damage dealt by ally characters.",
+      "sourceSha256": "0bb8d89dfccea27b530dc1f4e10b230bacb35e8c8032c8621ee1db6b7ea6c4cd",
+      "context": "牌组：Legacy；卡牌：Inspiring Presence (InspiringPresence)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.KeenVision.body.001",
+      "kind": "card.body",
+      "locator": "KeenVision",
+      "original": "Reveal and replace the top card of 1 deck. If that deck belongs to an ally, they may draw 1 card or use 1 power.",
+      "sourceSha256": "7fd2f3a9b2fb9d166bef996dde6e8728b1db52bec2ab5e285a95ca19751ab9a8",
+      "context": "牌组：Legacy；卡牌：Keen Vision (KeenVision)；字段：gameTexts；类型：Power；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.LeadFromTheFront.body.001",
+      "kind": "card.body",
+      "locator": "LeadFromTheFront",
+      "original": "Whenever an ally would be dealt damage by a Villain target, you may redirect that damage to {Legacy}.",
+      "sourceSha256": "164c1da06cb376e96141d769bdec46acb7ff50cdb50f24f9dd415221421122a2",
+      "context": "牌组：Legacy；卡牌：Lead from the Front (LeadFromTheFront)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.TheLegacyRing.body.001",
+      "kind": "card.body",
+      "locator": "TheLegacyRing",
+      "original": "You may use 1 additional power this phase.",
+      "sourceSha256": "7fca515f6c06723a09cb8bc4e848a3bde074879e2bce80af03a1cfdc7958753d",
+      "context": "牌组：Legacy；卡牌：The Legacy Ring (TheLegacyRing)；字段：gameTexts；类型：PhaseAction；阶段：Power。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.MotivationalCharge.body.001",
+      "kind": "card.body",
+      "locator": "MotivationalCharge",
+      "original": "{Legacy} deals 1 target 3 melee damage. Each of your allies regains 1 HP.",
+      "sourceSha256": "b1d0f0b8dee8393c25bb05471963f1837f9371188957d7acde61584461ce1626",
+      "context": "牌组：Legacy；卡牌：Motivational Charge (MotivationalCharge)；字段：gameTexts；类型：Power；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.TheOlOneTwo.body.001",
+      "kind": "card.body",
+      "locator": "TheOlOneTwo",
+      "original": "{Legacy} deals 1 target 2 melee damage.",
+      "sourceSha256": "ed4d299c9e5da28c90a73f856f000f9872ba75d809d5aacc259908db52442362",
+      "context": "牌组：Legacy；卡牌：The Ol' One-Two (TheOlOneTwo)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.TheOlOneTwo.body.002",
+      "kind": "card.body",
+      "locator": "TheOlOneTwo",
+      "original": "Play 1 card.",
+      "sourceSha256": "ac05fccee14e4f150dacd6be17ff6505f5948778757b96e52a1bf8b82253728f",
+      "context": "牌组：Legacy；卡牌：The Ol' One-Two (TheOlOneTwo)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.TakeDown.body.001",
+      "kind": "card.body",
+      "locator": "TakeDown",
+      "original": "When a Villain card would be played, you may discard that card instead. If you do, the Villain target with the highest HP deals {Legacy} 2 energy damage and destroys this card.",
+      "sourceSha256": "e5e40ac5656a9f7646f2867710bcdfec91158cbd474e2043d47ab56a906308a6",
+      "context": "牌组：Legacy；卡牌：Take Down (TakeDown)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.Thokk.body.001",
+      "kind": "card.body",
+      "locator": "Thokk",
+      "original": "{Legacy} deals 1 target 5 melee damage.",
+      "sourceSha256": "313ee6df68b760bebfb3bf0fe67620f913fc64974e5f6e5fa7b3a747da3da228",
+      "context": "牌组：Legacy；卡牌：Thokk! (Thokk)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.ATrueHero.body.001",
+      "kind": "card.body",
+      "locator": "ATrueHero",
+      "original": "Draw 2 cards.",
+      "sourceSha256": "d431f7496ea56cf6c2970ab414d18e15ae296393776c135f4ec582d724ae5ae1",
+      "context": "牌组：Legacy；卡牌：A True Hero (ATrueHero)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.ATrueHero.body.002",
+      "kind": "card.body",
+      "locator": "ATrueHero",
+      "original": "Each of your allies regains 1 HP.",
+      "sourceSha256": "1d90714b1099336efe7141607e2c960b61f242cfee9feef790500524197ceedf",
+      "context": "牌组：Legacy；卡牌：A True Hero (ATrueHero)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "Legacy.json"
+    },
+    {
+      "key": "card.BaronBladeCharacter.body.002",
+      "kind": "card.body",
+      "locator": "BaronBladeCharacter",
+      "original": "Summon Mobile Defense Platform.",
+      "sourceSha256": "6d85d16571caa9323449ad0bca35c82b4695cb8d185b60f72b3f154dd0a93571",
+      "context": "牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：setupGameTexts；类型：Setup；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/setupGameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.BaronBladeCharacter.body.003",
+      "kind": "card.body",
+      "locator": "BaronBladeCharacter",
+      "original": "When {BaronBlade} would be destroyed, instead: {Flip}",
+      "sourceSha256": "c680ee286e68174cf747c4c25fd13db7a464f2e0982ec41b33c9d1b5e7ecfd64",
+      "context": "牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.BaronBladeCharacter.body.004",
+      "kind": "card.body",
+      "locator": "BaronBladeCharacter",
+      "original": "If there are 15 or more cards in the Villain trash, {BaronBlade}'s TerraLunar Impulsion Beam activates, pulling the moon into the Earth. <b>Game Over.</b>",
+      "sourceSha256": "9189fd0eb0ecc3a1ee0943f56a734f0739f55cdd8c7ee0ac36e256c7f9c66c82",
+      "context": "牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：gameTexts；类型：PhaseAction；阶段：Start。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.BaronBladeCharacter.body.005",
+      "kind": "card.body",
+      "locator": "BaronBladeCharacter",
+      "original": "When flipped to this side, destroy all Villain Ongoing cards and set {BaronBlade}'s HP to 30.",
+      "sourceSha256": "36c7cea61b5dbf9fcd3428fe408e6fbce0ab8f46295139e0aafaf9a5302cd8fe",
+      "context": "牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：flippedGameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.BaronBladeCharacter.body.006",
+      "kind": "card.body",
+      "locator": "BaronBladeCharacter",
+      "original": "{BaronBlade} deals the Hero target with the highest HP {H} melee damage. {BaronBlade} deals each Hero target 1 energy damage.",
+      "sourceSha256": "0b284f20a3d6bec467d04513157e754f2cee988a7bbc8ef88ac8885c9b344c25",
+      "context": "牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：flippedGameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.BaronBladeCharacter.body.007",
+      "kind": "card.body",
+      "locator": "BaronBladeCharacter",
+      "original": "−2 damage dealt to {BaronBlade}.",
+      "sourceSha256": "18602126a37f25cf4510d3c22872a37a2202fe14c2b920fa555556306062a2ad",
+      "context": "牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：flippedAdvancedGameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/flippedAdvancedGameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.BacklashFieldGenerator.body.001",
+      "kind": "card.body",
+      "locator": "BacklashFieldGenerator",
+      "original": "After any Villain target other than this card is dealt damage by a Hero target, this card deals the attacker 2 lightning damage.",
+      "sourceSha256": "4196f4e19e4b43e5e401390886540916ac124499c7752d5af8611870e49f2784",
+      "context": "牌组：BaronBlade；卡牌：Backlash Field Generator (BacklashFieldGenerator)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.BladeBattalion.body.001",
+      "kind": "card.body",
+      "locator": "BladeBattalion",
+      "original": "This card deals the Hero target with the highest HP X melee damage, where X is the current HP of this card.",
+      "sourceSha256": "33d4c6128b6cfc8eea33cee2a95fce0302bb402ebcb25f191366e27691230cac",
+      "context": "牌组：BaronBlade；卡牌：Blade Battalion (BladeBattalion)；字段：gameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.ConsiderThePriceOfVictory.body.001",
+      "kind": "card.body",
+      "locator": "ConsiderThePriceOfVictory",
+      "original": "−1 damage dealt by Hero targets.",
+      "sourceSha256": "0788c6b9e7c1e6e7d31727f780e65b539bd8d35f151b413d9887c2a49adde8ed",
+      "context": "牌组：BaronBlade；卡牌：“Consider the Price of Victory!” (ConsiderThePriceOfVictory)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.ConsiderThePriceOfVictory.body.002",
+      "kind": "card.body",
+      "locator": "ConsiderThePriceOfVictory",
+      "original": "Each Hero discards 1 card. {BaronBlade} deals each Hero target 1 sonic damage. Discard the top {H - 1} cards of the Villain deck. Destroy this card.",
+      "sourceSha256": "d029c58f61b67de41246a9eccef103b2b618482f2469aeecf61d13528990b1a0",
+      "context": "牌组：BaronBlade；卡牌：“Consider the Price of Victory!” (ConsiderThePriceOfVictory)；字段：gameTexts；类型：PhaseAction；阶段：Start。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.DeviousDisruption.body.001",
+      "kind": "card.body",
+      "locator": "DeviousDisruption",
+      "original": "Each Hero may destroy any of their Ongoing and/or Item cards.",
+      "sourceSha256": "54dab3f19f0c3f95e603aab6c16aea84352ea22a4a48a70466ffb32a4c5b972f",
+      "context": "牌组：BaronBlade；卡牌：Devious Disruption (DeviousDisruption)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.DeviousDisruption.body.002",
+      "kind": "card.body",
+      "locator": "DeviousDisruption",
+      "original": "{BaronBlade} deals each Hero character X lightning damage, where X is the number of Hero Ongoing and Item cards in that Hero’s play area plus 3.",
+      "sourceSha256": "1db6fc7a361d35811b65a89ce944a8a694eeacf9851bb4001c6e82f055a8e938",
+      "context": "牌组：BaronBlade；卡牌：Devious Disruption (DeviousDisruption)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.HastenDoom.body.001",
+      "kind": "card.body",
+      "locator": "HastenDoom",
+      "original": "{BaronBlade} deals each Hero target 2 toxic damage.",
+      "sourceSha256": "a43830fd53fbb348c51e0b163e4edccc67d472bdb3285354eb4e25dff9e923c3",
+      "context": "牌组：BaronBlade；卡牌：Hasten Doom (HastenDoom)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.HastenDoom.body.002",
+      "kind": "card.body",
+      "locator": "HastenDoom",
+      "original": "Play the top card of the Villain deck.",
+      "sourceSha256": "11dbf60361900b35765f5f825924254a78e66f14b873bb5020ada1ea8cbff869",
+      "context": "牌组：BaronBlade；卡牌：Hasten Doom (HastenDoom)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.JetJumpBattalion.body.001",
+      "kind": "card.body",
+      "locator": "JetJumpBattalion",
+      "original": "After this card is played, reveal the top card of the Villain deck. If that card is a Device card, play it. Otherwise, discard it.",
+      "sourceSha256": "840d578feca0b38ef792e69d1540e2669941e22843e20a1833fdf2e60e08dfff",
+      "context": "牌组：BaronBlade；卡牌：Jet-Jump Battalion (JetJumpBattalion)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.JetJumpBattalion.body.002",
+      "kind": "card.body",
+      "locator": "JetJumpBattalion",
+      "original": "This card deals the {H - 2} Hero targets with the highest HP 2 energy damage each.",
+      "sourceSha256": "75da2115d25360670fdcca4ded4e5403355a554a7a28ec653d647c9b3dc82e64",
+      "context": "牌组：BaronBlade；卡牌：Jet-Jump Battalion (JetJumpBattalion)；字段：gameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.LivingForceField.body.001",
+      "kind": "card.body",
+      "locator": "LivingForceField",
+      "original": "−1 damage dealt to {BaronBlade}.",
+      "sourceSha256": "7975f33f8e4a68c82ebd0f8f5e1eb5df56ed151aabfad3bba5f46d088e8a99eb",
+      "context": "牌组：BaronBlade；卡牌：Living Force-Field (LivingForceField)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.LivingForceField.body.002",
+      "kind": "card.body",
+      "locator": "LivingForceField",
+      "original": "{BaronBlade} regains {H - 1} HP.",
+      "sourceSha256": "669f84f340e1691a0de8dab634d22a99596621dcc6ef9a9aeb0b27c95de90e49",
+      "context": "牌组：BaronBlade；卡牌：Living Force-Field (LivingForceField)；字段：gameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.MobileDefensePlatform.body.001",
+      "kind": "card.body",
+      "locator": "MobileDefensePlatform",
+      "original": "{BaronBlade} is immune to damage.",
+      "sourceSha256": "d615f4b307d24eb3ac2fc35b94213d6a2f856d417db04007c59807b3be04d6ab",
+      "context": "牌组：BaronBlade；卡牌：Mobile Defense Platform (MobileDefensePlatform)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.MobileDefensePlatform.body.002",
+      "kind": "card.body",
+      "locator": "MobileDefensePlatform",
+      "original": "Reveal the top card of the Villain deck. If it is a Minion card, play it. Otherwise, discard it.",
+      "sourceSha256": "9ed08dbc93258d421de63c310255b5027843d61bf5ca7af5843b5c7766537697",
+      "context": "牌组：BaronBlade；卡牌：Mobile Defense Platform (MobileDefensePlatform)；字段：gameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.PoweredTurret.body.001",
+      "kind": "card.body",
+      "locator": "PoweredTurret",
+      "original": "+1 damage dealt by this card for each other Device card in play.",
+      "sourceSha256": "a2eb467c126e0da499b0a4203d5073a8f5ebd423bf56687bdd794af33ae78a29",
+      "context": "牌组：BaronBlade；卡牌：Powered Turret (PoweredTurret)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.PoweredTurret.body.002",
+      "kind": "card.body",
+      "locator": "PoweredTurret",
+      "original": "This card deals each Hero target 1 energy damage.",
+      "sourceSha256": "73090a7be1bfa33962dc9f1bffd42e5c0756717ec9ec952997e216bacd721cc4",
+      "context": "牌组：BaronBlade；卡牌：Powered Turret (PoweredTurret)；字段：gameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
+    },
+    {
+      "key": "card.RemoteWalkingTank.body.002",
+      "kind": "card.body",
+      "locator": "RemoteWalkingTank",
+      "original": "−1 damage dealt to this card.",
+      "sourceSha256": "1becdfd9d6dd3e5907bfee47b021f9058c3a78016f6a3204d15c2bd111e14faa",
+      "context": "牌组：BaronBlade；卡牌：Remote Walking Tank (RemoteWalkingTank)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
+      "file": "BaronBlade.json"
     }
   ]
 }

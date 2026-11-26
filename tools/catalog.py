@@ -12,6 +12,11 @@ import os
 class Invalid(ValueError): pass
 
 def sha(text): return hashlib.sha256(text.encode('utf-8')).hexdigest()
+def file_for(entry):
+    name=entry.get('file', 'ui.json' if entry['kind']=='ui.label' else 'cards-body.json')
+    if not isinstance(name,str) or not re.fullmatch(r'[A-Za-z0-9_-]+\.json',name):
+        raise Invalid('Invalid translation file name')
+    return name
 def no_duplicates(pairs):
     obj = {}
     for k, v in pairs:
@@ -55,6 +60,8 @@ def validate_text(original, target, kind):
     if kind=='card.body':
         def numbers(s): return Counter(re.findall(r'[+\-−]?\d+(?:\.\d+)?',TOKEN.sub('',s)))
         if numbers(original)!=numbers(target): raise Invalid('Rule numbers/signs changed')
+        def variables(s): return re.findall(r'(?<![A-Za-z])X(?![A-Za-z])',TOKEN.sub('',s))
+        if len(variables(original))!=len(variables(target)): raise Invalid('Rule variable X changed')
     if any(ord(c)<32 and c not in '\t\r\n' for c in target): raise Invalid('Control character in translation')
 
 def registry(data):
@@ -67,6 +74,7 @@ def registry(data):
         k=e.get('key'); kind=e.get('kind'); source=e.get('original'); locator=e.get('locator')
         if not isinstance(k,str) or not re.fullmatch(r'[A-Za-z0-9_.-]+',k) or k in keys: raise Invalid('Duplicate/invalid stable key')
         if kind not in ('ui.label','card.body'): raise Invalid('Runtime does not support this field kind')
+        file_for(e)
         if not isinstance(source,str) or not source: raise Invalid('Empty original')
         if not isinstance(locator,str) or not locator: raise Invalid('Empty runtime locator')
         if e.get('sourceSha256')!=sha(source): raise Invalid('Registry source hash mismatch: '+k)
@@ -114,7 +122,7 @@ def compile_catalog(data, rows, mode='reviewed', allow_empty=False):
             out['Cards'].append({'Card':e['locator'],'Source':e['original'],'Target':target})
     count=len(out['Ui'])+len(out['Cards'])
     if not count and not allow_empty: raise Invalid('No eligible translations; no runtime catalog produced')
-    report={'schemaVersion':1,'toolVersion':'0.1.0','runtimeVersion':'0.1.4','buildId':data['buildId'],'mode':mode,
+    report={'schemaVersion':1,'toolVersion':'0.1.1','runtimeVersion':'0.1.4','buildId':data['buildId'],'mode':mode,
             'registered':len(entries),'included':count,'ui':len(out['Ui']),'cardBody':len(out['Cards']),
             'skipped':skipped,'registrySha256':sha(encode(data)),
             'snapshotSha256':sha(encode({k:rows[k] for k in sorted(rows)})),
@@ -123,12 +131,12 @@ def compile_catalog(data, rows, mode='reviewed', allow_empty=False):
 
 def export_files(data,rows):
     compile_catalog(data,rows,'pilot',allow_empty=True)
-    files={'ui.json':[],'cards-body.json':[]}
+    files={}
     for e in data['entries']:
         row=rows[e['key']]
         context=f"{e['kind']} | {e['locator']} | runtime=0.1.4 | build={data['buildId']}\n{e['context']}\nsourceSha256={e['sourceSha256']}"
         item={'key':e['key'],'original':e['original'],'translation':row['translation'],'context':context}
-        files['ui.json' if e['kind']=='ui.label' else 'cards-body.json'].append(item)
+        files.setdefault(file_for(e),[]).append(item)
     return files
 
 def diff_registries(old,new):

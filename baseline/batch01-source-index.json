@@ -1,0 +1,474 @@
+{
+  "buildId": "26880829",
+  "scope": "cards only; variants and events excluded",
+  "entries": [
+    {
+      "key": "card.LegacyCharacter.body.001",
+      "deck": "Legacy",
+      "card": "LegacyCharacter",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0",
+      "original": "Until your {Start}, +1 damage dealt by ally characters."
+    },
+    {
+      "key": "card.LegacyCharacter.body.002",
+      "deck": "Legacy",
+      "card": "LegacyCharacter",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0",
+      "original": "1 Hero takes their {Power}."
+    },
+    {
+      "key": "card.LegacyCharacter.body.003",
+      "deck": "Legacy",
+      "card": "LegacyCharacter",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1",
+      "original": "1 Hero discovers 1 Ongoing card."
+    },
+    {
+      "key": "card.LegacyCharacter.body.004",
+      "deck": "Legacy",
+      "card": "LegacyCharacter",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2",
+      "original": "Until your {Start}, −2 damage dealt by Environment targets."
+    },
+    {
+      "key": "card.BolsterAllies.body.001",
+      "deck": "Legacy",
+      "card": "BolsterAllies",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0",
+      "original": "Each Hero draws 1 card."
+    },
+    {
+      "key": "card.BolsterAllies.body.002",
+      "deck": "Legacy",
+      "card": "BolsterAllies",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0",
+      "original": "1 Hero other than you plays 1 card."
+    },
+    {
+      "key": "card.BulletproofSkin.body.001",
+      "deck": "Legacy",
+      "card": "BulletproofSkin",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0",
+      "original": "-1 damage dealt to {Legacy}."
+    },
+    {
+      "key": "card.DangerSense.body.001",
+      "deck": "Legacy",
+      "card": "DangerSense",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0",
+      "original": "{Legacy} is immune to damage dealt by Environment targets."
+    },
+    {
+      "key": "card.DangerSense.body.002",
+      "deck": "Legacy",
+      "card": "DangerSense",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0",
+      "original": "Bury 1 Environment target in play. Destroy this card."
+    },
+    {
+      "key": "card.DauntlessDurability.body.001",
+      "deck": "Legacy",
+      "card": "DauntlessDurability",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0",
+      "original": "Whenever {Legacy} would be dealt 5 or more damage, prevent that damage and destroy this card."
+    },
+    {
+      "key": "card.DauntlessDurability.body.002",
+      "deck": "Legacy",
+      "card": "DauntlessDurability",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0",
+      "original": "When this card is destroyed, {Legacy} regains 2 HP."
+    },
+    {
+      "key": "card.FlyingSmash.body.001",
+      "deck": "Legacy",
+      "card": "FlyingSmash",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0",
+      "original": "{Legacy} deals up to 3 targets 3 melee damage each."
+    },
+    {
+      "key": "card.HeroicInterception.body.001",
+      "deck": "Legacy",
+      "card": "HeroicInterception",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0",
+      "original": "After this card is played, {Legacy} deals himself 3 fixed melee damage."
+    },
+    {
+      "key": "card.HeroicInterception.body.002",
+      "deck": "Legacy",
+      "card": "HeroicInterception",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0",
+      "original": "Your allies are immune to damage."
+    },
+    {
+      "key": "card.HeroicInterception.body.003",
+      "deck": "Legacy",
+      "card": "HeroicInterception",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/6/gameTexts/2/body/0",
+      "original": "Destroy this card."
+    },
+    {
+      "key": "card.InspiringPresence.body.001",
+      "deck": "Legacy",
+      "card": "InspiringPresence",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0",
+      "original": "After this card is played, each ally regains 1 HP."
+    },
+    {
+      "key": "card.InspiringPresence.body.002",
+      "deck": "Legacy",
+      "card": "InspiringPresence",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0",
+      "original": "+1 damage dealt by ally characters."
+    },
+    {
+      "key": "card.KeenVision.body.001",
+      "deck": "Legacy",
+      "card": "KeenVision",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0",
+      "original": "Reveal and replace the top card of 1 deck. If that deck belongs to an ally, they may draw 1 card or use 1 power."
+    },
+    {
+      "key": "card.LeadFromTheFront.body.001",
+      "deck": "Legacy",
+      "card": "LeadFromTheFront",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0",
+      "original": "Whenever an ally would be dealt damage by a Villain target, you may redirect that damage to {Legacy}."
+    },
+    {
+      "key": "card.TheLegacyRing.body.001",
+      "deck": "Legacy",
+      "card": "TheLegacyRing",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0",
+      "original": "You may use 1 additional power this phase."
+    },
+    {
+      "key": "card.MotivationalCharge.body.001",
+      "deck": "Legacy",
+      "card": "MotivationalCharge",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0",
+      "original": "{Legacy} deals 1 target 3 melee damage. Each of your allies regains 1 HP."
+    },
+    {
+      "key": "card.TheOlOneTwo.body.001",
+      "deck": "Legacy",
+      "card": "TheOlOneTwo",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0",
+      "original": "{Legacy} deals 1 target 2 melee damage."
+    },
+    {
+      "key": "card.TheOlOneTwo.body.002",
+      "deck": "Legacy",
+      "card": "TheOlOneTwo",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/12/gameTexts/1/body/0",
+      "original": "Play 1 card."
+    },
+    {
+      "key": "card.TakeDown.body.001",
+      "deck": "Legacy",
+      "card": "TakeDown",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0",
+      "original": "When a Villain card would be played, you may discard that card instead. If you do, the Villain target with the highest HP deals {Legacy} 2 energy damage and destroys this card."
+    },
+    {
+      "key": "card.Thokk.body.001",
+      "deck": "Legacy",
+      "card": "Thokk",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0",
+      "original": "{Legacy} deals 1 target 5 melee damage."
+    },
+    {
+      "key": "card.ATrueHero.body.001",
+      "deck": "Legacy",
+      "card": "ATrueHero",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/15/gameTexts/0/body/0",
+      "original": "Draw 2 cards."
+    },
+    {
+      "key": "card.ATrueHero.body.002",
+      "deck": "Legacy",
+      "card": "ATrueHero",
+      "file": "LegacyDeckList.json",
+      "fileSha256": "aa7ff1bb60e3311e4281a67dca02d1a7edd6f3bce4a50cfa2f0cd38085b40e2c",
+      "pointer": "/turnTakers/0/decks/0/cards/15/gameTexts/1/body/0",
+      "original": "Each of your allies regains 1 HP."
+    },
+    {
+      "key": "card.BaronBladeCharacter.body.002",
+      "deck": "BaronBlade",
+      "card": "BaronBladeCharacter",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/0/setupGameTexts/0/body/0",
+      "original": "Summon Mobile Defense Platform."
+    },
+    {
+      "key": "card.BaronBladeCharacter.body.003",
+      "deck": "BaronBlade",
+      "card": "BaronBladeCharacter",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0",
+      "original": "When {BaronBlade} would be destroyed, instead: {Flip}"
+    },
+    {
+      "key": "card.BaronBladeCharacter.body.004",
+      "deck": "BaronBlade",
+      "card": "BaronBladeCharacter",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0",
+      "original": "If there are 15 or more cards in the Villain trash, {BaronBlade}'s TerraLunar Impulsion Beam activates, pulling the moon into the Earth. <b>Game Over.</b>"
+    },
+    {
+      "key": "card.BaronBladeCharacter.body.001",
+      "deck": "BaronBlade",
+      "card": "BaronBladeCharacter",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/0/advancedGameTexts/0/body/0",
+      "original": "Discard the top {H - 2} cards of the Villain deck."
+    },
+    {
+      "key": "card.BaronBladeCharacter.body.005",
+      "deck": "BaronBlade",
+      "card": "BaronBladeCharacter",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0",
+      "original": "When flipped to this side, destroy all Villain Ongoing cards and set {BaronBlade}'s HP to 30."
+    },
+    {
+      "key": "card.BaronBladeCharacter.body.006",
+      "deck": "BaronBlade",
+      "card": "BaronBladeCharacter",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/0/flippedGameTexts/1/body/0",
+      "original": "{BaronBlade} deals the Hero target with the highest HP {H} melee damage. {BaronBlade} deals each Hero target 1 energy damage."
+    },
+    {
+      "key": "card.BaronBladeCharacter.body.007",
+      "deck": "BaronBlade",
+      "card": "BaronBladeCharacter",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/0/flippedAdvancedGameTexts/0/body/0",
+      "original": "−2 damage dealt to {BaronBlade}."
+    },
+    {
+      "key": "card.BacklashFieldGenerator.body.001",
+      "deck": "BaronBlade",
+      "card": "BacklashFieldGenerator",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0",
+      "original": "After any Villain target other than this card is dealt damage by a Hero target, this card deals the attacker 2 lightning damage."
+    },
+    {
+      "key": "card.BladeBattalion.body.001",
+      "deck": "BaronBlade",
+      "card": "BladeBattalion",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0",
+      "original": "This card deals the Hero target with the highest HP X melee damage, where X is the current HP of this card."
+    },
+    {
+      "key": "card.ConsiderThePriceOfVictory.body.001",
+      "deck": "BaronBlade",
+      "card": "ConsiderThePriceOfVictory",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0",
+      "original": "−1 damage dealt by Hero targets."
+    },
+    {
+      "key": "card.ConsiderThePriceOfVictory.body.002",
+      "deck": "BaronBlade",
+      "card": "ConsiderThePriceOfVictory",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0",
+      "original": "Each Hero discards 1 card. {BaronBlade} deals each Hero target 1 sonic damage. Discard the top {H - 1} cards of the Villain deck. Destroy this card."
+    },
+    {
+      "key": "card.DeviousDisruption.body.001",
+      "deck": "BaronBlade",
+      "card": "DeviousDisruption",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0",
+      "original": "Each Hero may destroy any of their Ongoing and/or Item cards."
+    },
+    {
+      "key": "card.DeviousDisruption.body.002",
+      "deck": "BaronBlade",
+      "card": "DeviousDisruption",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0",
+      "original": "{BaronBlade} deals each Hero character X lightning damage, where X is the number of Hero Ongoing and Item cards in that Hero’s play area plus 3."
+    },
+    {
+      "key": "card.HastenDoom.body.001",
+      "deck": "BaronBlade",
+      "card": "HastenDoom",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0",
+      "original": "{BaronBlade} deals each Hero target 2 toxic damage."
+    },
+    {
+      "key": "card.HastenDoom.body.002",
+      "deck": "BaronBlade",
+      "card": "HastenDoom",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0",
+      "original": "Play the top card of the Villain deck."
+    },
+    {
+      "key": "card.JetJumpBattalion.body.001",
+      "deck": "BaronBlade",
+      "card": "JetJumpBattalion",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0",
+      "original": "After this card is played, reveal the top card of the Villain deck. If that card is a Device card, play it. Otherwise, discard it."
+    },
+    {
+      "key": "card.JetJumpBattalion.body.002",
+      "deck": "BaronBlade",
+      "card": "JetJumpBattalion",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0",
+      "original": "This card deals the {H - 2} Hero targets with the highest HP 2 energy damage each."
+    },
+    {
+      "key": "card.LivingForceField.body.001",
+      "deck": "BaronBlade",
+      "card": "LivingForceField",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0",
+      "original": "−1 damage dealt to {BaronBlade}."
+    },
+    {
+      "key": "card.LivingForceField.body.002",
+      "deck": "BaronBlade",
+      "card": "LivingForceField",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0",
+      "original": "{BaronBlade} regains {H - 1} HP."
+    },
+    {
+      "key": "card.MobileDefensePlatform.body.001",
+      "deck": "BaronBlade",
+      "card": "MobileDefensePlatform",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0",
+      "original": "{BaronBlade} is immune to damage."
+    },
+    {
+      "key": "card.MobileDefensePlatform.body.002",
+      "deck": "BaronBlade",
+      "card": "MobileDefensePlatform",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0",
+      "original": "Reveal the top card of the Villain deck. If it is a Minion card, play it. Otherwise, discard it."
+    },
+    {
+      "key": "card.PoweredTurret.body.001",
+      "deck": "BaronBlade",
+      "card": "PoweredTurret",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0",
+      "original": "+1 damage dealt by this card for each other Device card in play."
+    },
+    {
+      "key": "card.PoweredTurret.body.002",
+      "deck": "BaronBlade",
+      "card": "PoweredTurret",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0",
+      "original": "This card deals each Hero target 1 energy damage."
+    },
+    {
+      "key": "card.RemoteWalkingTank.body.002",
+      "deck": "BaronBlade",
+      "card": "RemoteWalkingTank",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0",
+      "original": "−1 damage dealt to this card."
+    },
+    {
+      "key": "card.RemoteWalkingTank.body.001",
+      "deck": "BaronBlade",
+      "card": "RemoteWalkingTank",
+      "file": "BaronBladeDeckList.json",
+      "fileSha256": "f3fd613979c3bfb25895e8fd683545c1e63abc938538dccc2b948f0e4c38d528",
+      "pointer": "/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0",
+      "original": "This card deals the Hero target with the highest HP {H} energy damage."
+    }
+  ]
+}
