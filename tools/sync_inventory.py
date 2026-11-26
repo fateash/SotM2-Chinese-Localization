@@ -1,5 +1,5 @@
 """Read complete ParaTranz inventory; optional additive original-only migration."""
-import argparse,json,os,tempfile,shutil
+import argparse,json,os,tempfile,shutil,uuid
 from pathlib import Path
 from urllib.request import Request,build_opener
 from urllib.error import HTTPError,URLError
@@ -7,9 +7,21 @@ from catalog import Invalid,load,write
 from inventory import registry,build,safe_path
 from pull_paratranz import NoRedirect
 
+def encode_payload(path,method,payload):
+    if payload is None:return None,'application/json'
+    if method=='POST' and path.endswith('/files'):
+        # Documented multipart path field avoids treating a folder as a filename.
+        filename=safe_path(payload['filename']);folder,_,base=filename.rpartition('/')
+        boundary='SotM2-'+uuid.uuid4().hex
+        pieces=[]
+        if folder:pieces.append('--'+boundary+'\r\nContent-Disposition: form-data; name="path"\r\n\r\n'+folder+'/\r\n')
+        pieces.append('--'+boundary+'\r\nContent-Disposition: form-data; name="file"; filename="'+base+'"\r\nContent-Type: application/json\r\n\r\n'+json.dumps(payload['items'],ensure_ascii=False)+'\r\n--'+boundary+'--\r\n')
+        return ''.join(pieces).encode('utf-8'),'multipart/form-data; boundary='+boundary
+    return json.dumps(payload,ensure_ascii=False).encode('utf-8'),'application/json'
+
 def api(path,token,method='GET',payload=None):
-    data=None if payload is None else json.dumps(payload,ensure_ascii=False).encode('utf-8')
-    req=Request('https://paratranz.cn/api'+path,data=data,method=method,headers={'Authorization':'Bearer '+token,'Content-Type':'application/json','Accept':'application/json','User-Agent':'SotM2-Inventory/0.2.0'})
+    data,content_type=encode_payload(path,method,payload)
+    req=Request('https://paratranz.cn/api'+path,data=data,method=method,headers={'Authorization':'Bearer '+token,'Content-Type':content_type,'Accept':'application/json','User-Agent':'SotM2-Inventory/0.2.0'})
     try:
         with build_opener(NoRedirect).open(req,timeout=45) as res:
             body=res.read(16*1024*1024+1)

@@ -87,3 +87,14 @@ class MigrationTests(unittest.TestCase):
   self.assertEqual(len(plan),48);self.assertEqual(self.writes,[])
  def test_incomplete_remote_pull_rejected(self):
   with self.assertRaises(c.Invalid):s.pull(self.config,self.data,self.fake())
+
+class UploadEncodingTests(unittest.TestCase):
+ def test_nested_new_file_uses_separate_folder_and_basename(self):
+  body,ct=s.encode_payload('/projects/21585/files','POST',{'filename':'shared/phases.json','items':[{'key':'a','original':'Start','context':'阶段'}]})
+  text=body.decode('utf-8');self.assertTrue(ct.startswith('multipart/form-data; boundary='))
+  self.assertIn('name="path"\r\n\r\nshared/\r\n',text)
+  self.assertIn('filename="phases.json"',text);self.assertNotIn('filename="shared/',text)
+  self.assertNotIn('"translation"',text);self.assertNotIn('"stage"',text)
+ def test_existing_file_update_keeps_incremental_json(self):
+  body,ct=s.encode_payload('/projects/21585/files/3595650','POST',{'filename':'heroes/Legacy.json','items':[],'incremental':True})
+  self.assertEqual(ct,'application/json');self.assertTrue(__import__('json').loads(body)['incremental'])
