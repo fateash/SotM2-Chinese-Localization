@@ -3,476 +3,476 @@
     "key": "CollectionDeckList.json::decks/@Collection/title",
     "original": "Collection",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：deck.title。\n来源：CollectionDeckList.json#/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：deck.title。\n来源：CollectionDeckList.json#/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MoonfallCollection/title",
     "original": "Moonfall Collection",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：card.title。\n来源：CollectionDeckList.json#/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：card.title。\n来源：CollectionDeckList.json#/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MoonfallCollection/body/0",
     "original": "The Freedom Five destroy{BR}the Terralunar Impulsion{BR}beam! The Baron puts on his{BR}power suit and joins the{BR}fight himself! However, the{BR}heroes prove too much for{BR}the mad inventor. His suit{BR}explodes, taking out a wall.{BR}The rush of water floods{BR}the Baron out, never to be{BR}seen again...",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MoonfallCollection/body/1",
     "original": "Mere days later,{BR}Baron Blade assaults{BR}Megalopolis. Clad once{BR}again in his power suit, Baron{BR}Blade goes toe-to-toe with{BR}Legacy. The battle armor{BR}is repaired but not entirely{BR}fixed from the end of the{BR}Moonfal Event. As a result,{BR}during the fight, when{BR}Legacy punches a sparking{BR}panel on Blade's back, the{BR}entire suit explodes. Baron{BR}Blade is presumed dead. He{BR}couldn't have escaped again,{BR}surely.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MoonfallCollection/flavorReference/0",
     "original": "Moonfall #1 - #6{BR}Freedom Five #223 - #224",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/0/flavorReference/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/0/flavorReference/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MoonfallCollection/gameTexts/0/title",
     "original": "Dangerous Disruption",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MoonfallCollection/gameTexts/0/flavorBody/0",
     "original": "Tachyon hates to admit it, but {BR}she's actually learned a lot{BR}from observing Baron Blade's{BR}rather unsafe practices. She can{BR}replicate some of his effects,{BR}but with safety measures.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/0/gameTexts/0/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/0/gameTexts/0/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MoonfallCollection/gameTexts/0/body/0",
     "original": "Destroy any number of Hero Ongoings and/or Item cards. Then, 1 Villain target deals itself 2 lightning damage, +2 for each card destroyed this way.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MoonfallCollection/gameTexts/1/title",
     "original": "Timestream Tampering",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/0/gameTexts/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/0/gameTexts/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MoonfallCollection/gameTexts/1/flavorBody/0",
     "original": "Someone is altering the{BR}timestream! They seem to know{BR}you, but you've certainly never{BR}heard of anyone called \"La{BR}Comodora.\"",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/0/gameTexts/1/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/0/gameTexts/1/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MoonfallCollection/gameTexts/1/body/0",
     "original": "Put one card from each trash under the top card of the associated deck.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@InvasionOfEarthCollection/title",
     "original": "Invasion of Earth Collection",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：card.title。\n来源：CollectionDeckList.json#/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：card.title。\n来源：CollectionDeckList.json#/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@InvasionOfEarthCollection/body/0",
     "original": "Voss's invasion almost{BR}ended humanity. Legacy{BR}was knocked out early{BR}on and the heroes were{BR}disheartened and in{BR}disarray. But when Felicia,{BR}Legacy's daughter, joined{BR}the fight wearing a Legacy{BR}costume, she provided{BR}much needed inspiration.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@InvasionOfEarthCollection/body/1",
     "original": "The Prime Wardens{BR}joined the fight on Mars,{BR}destroying the gene-{BR}binding facilities and{BR}translocators. They{BR}then returned to Earth...{BR}all except for Tempest.{BR}Instead, he attacked{BR}Voss, not content with{BR}routing the Thorathian{BR}forces. Tempest and Voss{BR}ultimately fought in the{BR}Realm of Discord, but only{BR}Tempest emerged alive.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/1/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/1/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@InvasionOfEarthCollection/flavorReference/0",
     "original": "Cosmic Tales Vol. 2 #202-#204{BR}Freedom Five #440-442{BR}Thorathian Gene-Binding{BR}Journal One-Shot{BR}America's Finest Legacy #180-#182{BR}Justice Comics #381{BR}Prime Wardens Vol. 1 #14-16",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/1/flavorReference/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/1/flavorReference/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@InvasionOfEarthCollection/gameTexts/0/title",
     "original": "Smarter Devices",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/1/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/1/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@InvasionOfEarthCollection/gameTexts/0/flavorBody/0",
     "original": "In the aftermath of the clash{BR}between would-be conquerors,{BR}from beyond the stars and the{BR}stalwart heroes of Earth, science{BR}and technology have advanced{BR}quickly due to recovered{BR}Thorathian devices.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/1/gameTexts/0/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/1/gameTexts/0/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@InvasionOfEarthCollection/gameTexts/0/body/0",
     "original": "1 Hero discovers 1 Item card. Then, that Hero may use 1 power.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@InvasionOfEarthCollection/gameTexts/1/title",
     "original": "Unwavering Order",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/1/gameTexts/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/1/gameTexts/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@InvasionOfEarthCollection/gameTexts/1/flavorBody/0",
     "original": "Grand Warlord Voss was a{BR}tyrant, but his ruthless efficiency{BR}in terms of troop deployment{BR}and military structure cannot be{BR}denied. We can learn from his{BR}successes while not walking{BR}at all in his terrible footsteps.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/1/gameTexts/1/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/1/gameTexts/1/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@InvasionOfEarthCollection/gameTexts/1/body/0",
     "original": "Discover up to 3 targets from 1 deck.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@WaywardSunCollection/title",
     "original": "Wayward Sun Collection",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：card.title。\n来源：CollectionDeckList.json#/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：card.title。\n来源：CollectionDeckList.json#/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@WaywardSunCollection/body/0",
     "original": "Before this event, the{BR}Citizens of the sun were{BR}a mostly faceless group{BR}of powerful minions for{BR}Citizen Dawn, other than a{BR}couple notable exceptions.{BR}However, with the alien{BR}artifact empowering the{BR}citizens, they each took{BR}on new aspects of power,{BR}making them greater{BR}threats and paving the way{BR}for later events featuring{BR}the Citizens of the Sun.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@WaywardSunCollection/body/1",
     "original": "After the artifact was{BR}unearthed by the Citizens,{BR}It hovered around the{BR}island, avoiding capture{BR}and monitoring the fight{BR}between costumed heroes{BR}and super-powered{BR}extremists. Eventually, it{BR}apparently had observed{BR}enough of the conflict, and{BR}the mysterious artifact flew{BR}away, having left its mark{BR}on the Citizens of Sun and{BR}their home.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/2/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/2/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@WaywardSunCollection/flavorReference/0",
     "original": "Freedom Five #445-#447",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/2/flavorReference/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/2/flavorReference/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@WaywardSunCollection/gameTexts/0/title",
     "original": "Power to the Powerless",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/2/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/2/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@WaywardSunCollection/gameTexts/0/flavorBody/0",
     "original": "Citizen Dawn only cares about{BR}superpowered people. All{BR}others are insignificant insects{BR}in her eyes, even her powerless{BR}daughter. As Expatriette joins{BR}the ranks of the heroes, Citizen{BR}Dawn might learn not to ignore{BR}her unpowered foes.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/2/gameTexts/0/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/2/gameTexts/0/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@WaywardSunCollection/gameTexts/0/body/0",
     "original": "1 Hero discoveres 2 Item cards.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@WaywardSunCollection/gameTexts/1/title",
     "original": "Dark Twistings",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/2/gameTexts/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/2/gameTexts/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@WaywardSunCollection/gameTexts/1/flavorBody/0",
     "original": "Citizen Dawn was defeated with{BR}the help of an ally who seems{BR}perhaps not so heroic. \"I'm only{BR}here to help,\" The Visionary{BR}insists, with a sinister smile.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/2/gameTexts/1/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/2/gameTexts/1/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@WaywardSunCollection/gameTexts/1/body/0",
     "original": "1 Hero uses 1 power. If that power deals damage, +3 to that damage, and change that damage to a type of your choice. Then, that Hero discards 1 card.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@NightsPlutonianShoreCollection/title",
     "original": "Night's Plutonian Shore Collection",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：card.title。\n来源：CollectionDeckList.json#/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：card.title。\n来源：CollectionDeckList.json#/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@NightsPlutonianShoreCollection/body/0",
     "original": "The retelling of the{BR}Matriarch's story also{BR}added another layer of{BR}nuance to the character.{BR}During this event, the{BR}readers and the heroes{BR}alike saw how overwhelmed{BR}Lillian Corvus was by the{BR}power of the Matriarch.{BR}As much as she was a{BR}dangerous villain fueled by{BR}fury, she was also a scared{BR}teenager who was being{BR}controlled by the mask as{BR}much as she was using its power.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@NightsPlutonianShoreCollection/body/1",
     "original": "When the heroes defeated{BR}the Matriarch by subduing{BR}her cohort, reaching{BR}the center of the avian{BR}maelstrom, and unmasking{BR}Lillian, she was captured{BR}and sent to prison. However,{BR}from this point forward, her{BR}cousin Dr. Meredith Stinson{BR}visited her often to talk{BR}about what happened.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/3/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/3/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@NightsPlutonianShoreCollection/flavorReference/0",
     "original": "Night's Plutonian Shore One-Shot{BR}Freedom Five #583",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/3/flavorReference/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/3/flavorReference/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@NightsPlutonianShoreCollection/gameTexts/0/title",
     "original": "Focus and Control",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/3/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/3/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@NightsPlutonianShoreCollection/gameTexts/0/flavorBody/0",
     "original": "The Matriarch has a connection{BR}to her mask unlike anything that{BR}NightMist had ever seen. If that{BR}reliance could be tempered, the{BR}bond could be quite the boon.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/3/gameTexts/0/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/3/gameTexts/0/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@NightsPlutonianShoreCollection/gameTexts/0/body/0",
     "original": "1 Hero summons 1 Relic card. Then, that Hero regains up to 5 HP.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@NightsPlutonianShoreCollection/gameTexts/1/title",
     "original": "Overreaction",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/3/gameTexts/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/3/gameTexts/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@NightsPlutonianShoreCollection/gameTexts/1/flavorBody/0",
     "original": "You shudder as you think of{BR}the hordes terrible fowl that{BR}blotted out the sun as they filled{BR}the grey sky. Even the slightest{BR}\"caw\" from a seemingly{BR}innocent passing crow makes{BR}you jump.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/3/gameTexts/1/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/3/gameTexts/1/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@NightsPlutonianShoreCollection/gameTexts/1/body/0",
     "original": "Destroy up to 3 targets with 3 or fewer HP.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MotherEarthCollection/title",
     "original": "Mother Earth Collection",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：card.title。\n来源：CollectionDeckList.json#/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：card.title。\n来源：CollectionDeckList.json#/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MotherEarthCollection/body/0",
     "original": "The Prime Wardens fought{BR}their way through the{BR}heart of Insula Primalis{BR}to separate Akash'Bhuta{BR}from the ancient island's{BR}power. The Argent Adept{BR}had to enter the Void and{BR}face her essence alone. He{BR}was barely able to survive{BR}and sever Akash'Bhuta's{BR}connection, but succeed he{BR}did. And just in time!",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/4/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/4/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MotherEarthCollection/body/1",
     "original": "The Freedom Five arrived{BR}to join forces against the{BR}formidable earth spirit. Even{BR}still, all would have been{BR}lost if not for the timely{BR}intervention by a shadowy{BR}gunman who seemed to{BR}appear from nowhere, take{BR}the precisely necessary{BR}shot, and disappear without{BR}a word. With his aid, the{BR}heroes were able to defeat{BR}Akash'Bhuta and save the day!",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/4/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/4/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MotherEarthCollection/flavorReference/0",
     "original": "Virtuoso of the Void Vol. 1 #152",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/4/flavorReference/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/4/flavorReference/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MotherEarthCollection/flavorReference/1",
     "original": "Absolution #68",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/4/flavorReference/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/4/flavorReference/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MotherEarthCollection/flavorReference/2",
     "original": "Cosmic Tales Vol. 2 #190",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/4/flavorReference/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/4/flavorReference/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MotherEarthCollection/flavorReference/3",
     "original": "Prime Wardens Vol. 1 #1-#6",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/4/flavorReference/3。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/4/flavorReference/3。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MotherEarthCollection/flavorReference/4",
     "original": "Mother Earth, One-Shot",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/4/flavorReference/4。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/4/flavorReference/4。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MotherEarthCollection/flavorReference/5",
     "original": "Freedom Five Annual #10",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/4/flavorReference/5。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/4/flavorReference/5。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MotherEarthCollection/gameTexts/0/title",
     "original": "Bloviating Academic",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/4/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/4/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MotherEarthCollection/gameTexts/0/flavorBody/0",
     "original": "Soothsayer Carmichael is{BR}annoyed by the way you do{BR}things. \"If you would spend{BR}even a moment considering the{BR}ramifications of your actions!\"{BR}he rages, pacing this way and{BR}that. He has some good points,{BR}but he really needs to get over{BR}himself.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/4/gameTexts/0/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/4/gameTexts/0/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MotherEarthCollection/gameTexts/0/body/0",
     "original": "Reveal the top 3 cards of 1 deck. Replace them in any order.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MotherEarthCollection/gameTexts/1/title",
     "original": "Primordial Power",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/4/gameTexts/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/4/gameTexts/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MotherEarthCollection/gameTexts/1/flavorBody/0",
     "original": "Over millenia, Akash'Bhuta{BR}has become part of this world{BR}in a way that cannot be easily{BR}undone. In fighting her, you{BR}fight the planet itself. Similarly,{BR}in defeating her, you gain some{BR}dominion over this world.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/4/gameTexts/1/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/4/gameTexts/1/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@MotherEarthCollection/gameTexts/1/body/0",
     "original": "Destroy and/or bury up to 3 Environment cards.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@SingularityCollection/title",
     "original": "Singularity Collection",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：card.title。\n来源：CollectionDeckList.json#/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：card.title。\n来源：CollectionDeckList.json#/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@SingularityCollection/body/0",
     "original": "At every turn, Omnitron{BR}was ahead of the heroes.{BR}Haka rampaged through a{BR}crowd of robot drones,{BR}destroying them by the{BR}handful, but he was still{BR}surrounded. Ra brought{BR}forth his hottest flames,{BR}only to watch Omnitron's{BR}frame become immune to{BR}extreme temperatures. It{BR}wasn't until the heroes{BR}were unexpectedly aided by{BR}a time-traveling robot that{BR}the conflict changed.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/5/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/5/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@SingularityCollection/body/1",
     "original": "This future version of{BR}Omnitron called itself{BR}\"Omnitron-X\". It was here to{BR}correct its past wrongs.{BR}And it paid the ultimate price{BR}to do so. When Omnitron{BR}attempted to overpower the{BR}Omnitron-X code, the robot{BR}from the future corrupted{BR}the Omnitron programming,{BR}ending its endless{BR}assimilation. The robot{BR}menace was no more.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/5/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.body。\n来源：CollectionDeckList.json#/decks/0/cards/5/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@SingularityCollection/flavorReference/0",
     "original": "Singularity #1-#8",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/5/flavorReference/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/5/flavorReference/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@SingularityCollection/flavorReference/1",
     "original": "Mystery Comics Vol. 1 #359",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/5/flavorReference/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/5/flavorReference/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@SingularityCollection/flavorReference/2",
     "original": "Freedom Five #315-#316",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/5/flavorReference/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：flavor.reference。\n来源：CollectionDeckList.json#/decks/0/cards/5/flavorReference/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@SingularityCollection/gameTexts/0/title",
     "original": "Refactored Code",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/5/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/5/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@SingularityCollection/gameTexts/0/flavorBody/0",
     "original": "Tampering with the Omnicode{BR}is risky, but the possibilities{BR}of such a powerful learning{BR}algorithm are too good to{BR}pass up. Fortunately, there's a{BR}definitely fail-safe way to study{BR}the code that surely will have no{BR}long-term consequences.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/5/gameTexts/0/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/5/gameTexts/0/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@SingularityCollection/gameTexts/0/body/0",
     "original": "1 Hero draws 1 card and summons 1 Item card. Then, that Hero deals each target 1 fixed lightning damage.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@SingularityCollection/gameTexts/1/title",
     "original": "Reverse Engineered Virus",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/5/gameTexts/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：ability.title。\n来源：CollectionDeckList.json#/decks/0/cards/5/gameTexts/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@SingularityCollection/gameTexts/1/flavorBody/0",
     "original": "What doesn't kill you makes you{BR}stronger, so what doesn't make{BR}you stronger, kills you? That{BR}certainly seems to be the core{BR}programming of Omnitron",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/5/gameTexts/1/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：cards.flavorBody。\n来源：CollectionDeckList.json#/decks/0/cards/5/gameTexts/1/flavorBody/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CollectionDeckList.json::decks/@Collection/cards/@SingularityCollection/gameTexts/1/body/0",
     "original": "Destroy 1 non-character Device card, or 1 target with 7 or fewer HP.",
     "translation": "",
-    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Collection；对象：Collection；类型：rules.body。\n来源：CollectionDeckList.json#/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]
