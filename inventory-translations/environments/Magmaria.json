@@ -3,329 +3,329 @@
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/title",
     "original": "Magmaria",
     "translation": "",
-    "context": "卡组：Magmaria；对象：Magmaria；类型：deck.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：Magmaria；类型：deck.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalCollector/title",
     "original": "Crystal Collector",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalCollector；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalCollector；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalCollector/gameTexts/0/body/0",
     "original": "This card deals the 3 targets with the highest HP 1 fire damage each.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalCollector；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalCollector；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalCollector/gameTexts/1/body/0",
     "original": "Each Hero may discard 1 Magma Crystal card. Each Hero that does draws 3 cards.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalCollector；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalCollector；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalCollector/flavorQuotes/@TheNaturalist/text",
     "original": "It's not just that you're hungry. I{BR}understand you're gathering resources{BR}for all your people.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalCollector / TheNaturalist；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/0/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalCollector / TheNaturalist；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/0/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalCollector/flavorReference",
     "original": "The Naturalist, Prime Wardens Vol. 1 #123",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalCollector；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalCollector；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalloidBehemoth/title",
     "original": "Crystalloid Behemoth",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalloidBehemoth；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalloidBehemoth；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalloidBehemoth/gameTexts/0/body/0",
     "original": "When this card is destroyed, put it in 1 Hero's hand. This card cannot be played from a Hero's hand.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalloidBehemoth；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalloidBehemoth；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalloidBehemoth/gameTexts/1/body/0",
     "original": "This card deals each target other than itself 1 fire damage.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalloidBehemoth；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalloidBehemoth；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalloidBehemoth/gameTexts/2/body/0",
     "original": "This card deals the target other than itself with the highest HP 4 melee damage.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalloidBehemoth；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalloidBehemoth；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalloidBehemoth/flavorQuotes/@TheWraith/text",
     "original": "The terrifying beast must never{BR}be allowed to attack the surface world{BR}again! Its a great enough threat here,{BR}miles under the city.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalloidBehemoth / TheWraith；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalloidBehemoth / TheWraith；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalloidBehemoth/flavorReference",
     "original": "The Wraith, Mystery Comics Vol. 1 #148",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalloidBehemoth；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalloidBehemoth；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalloidGremlins/title",
     "original": "Crystalloid Gremlins",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalloidGremlins；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalloidGremlins；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalloidGremlins/gameTexts/0/body/0",
     "original": "When this card is destroyed, put it in 1 Hero's hand. This card cannot be played from a Hero's hand.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalloidGremlins；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalloidGremlins；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalloidGremlins/gameTexts/1/body/0",
     "original": "This card deals the 3 non-Environment targets with the lowest HP 1 melee damage and 1 fire damage each.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalloidGremlins；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalloidGremlins；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalloidGremlins/flavorQuotes/@Ra/text",
     "original": "Enough, you meddling whelps! Foolish{BR}creatures! Stand <b>NOT</b> before Ra!",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalloidGremlins / Ra；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalloidGremlins / Ra；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@CrystalloidGremlins/flavorReference",
     "original": "Ra, Ra: God of the Sun #125",
     "translation": "",
-    "context": "卡组：Magmaria；对象：CrystalloidGremlins；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：CrystalloidGremlins；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@EmberShaman/title",
     "original": "Ember Shaman",
     "translation": "",
-    "context": "卡组：Magmaria；对象：EmberShaman；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：EmberShaman；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@EmberShaman/gameTexts/0/body/0",
     "original": "This card deals the 3 targets with the highest HP 1 fire damage each.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：EmberShaman；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：EmberShaman；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@EmberShaman/gameTexts/1/body/0",
     "original": "Each Hero may discard 1 Magma Crystal card. Any Hero that does may use 1 power.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：EmberShaman；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：EmberShaman；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@EmberShaman/flavorQuotes/@ProfessorPollution/text",
     "original": "These shaman lead by controlling{BR}the crystals. A simple <b>TWIST</b> to{BR}a crystal's energy will give me control{BR}of all of them!",
     "translation": "",
-    "context": "卡组：Magmaria；对象：EmberShaman / ProfessorPollution；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：EmberShaman / ProfessorPollution；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@EmberShaman/flavorReference",
     "original": "Professor Pollution, Prime Wardens Vol. 1 #124",
     "translation": "",
-    "context": "卡组：Magmaria；对象：EmberShaman；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：EmberShaman；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@FieryCrystallization/title",
     "original": "Fiery Crystallization",
     "translation": "",
-    "context": "卡组：Magmaria；对象：FieryCrystallization；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：FieryCrystallization；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@FieryCrystallization/gameTexts/0/body/0",
     "original": "Item cards gain the keyword <nobr>“<style=Keywords>MAGMA CRYSTAL</style>”.</nobr>",
     "translation": "",
-    "context": "卡组：Magmaria；对象：FieryCrystallization；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：FieryCrystallization；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@FieryCrystallization/gameTexts/1/body/0",
     "original": "The Magmarian card with the highest HP deals each non-Environment target X fire damage and destroys X Item cards, where X is the number of Magmarian cards in play. Move each Item card destroyed this way to its Hero's hand.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：FieryCrystallization；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：FieryCrystallization；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@FieryCrystallization/flavorQuotes/@Unity/text",
     "original": "Hey! That's not just some piece of metal!{BR}I take back all the nice things I said about{BR}you. Jerks.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：FieryCrystallization / Unity；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：FieryCrystallization / Unity；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@FieryCrystallization/flavorReference",
     "original": "Unity, Freedom Five #727",
     "translation": "",
-    "context": "卡组：Magmaria；对象：FieryCrystallization；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：FieryCrystallization；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@InnerCoreTunneler/title",
     "original": "Inner Core Tunneler",
     "translation": "",
-    "context": "卡组：Magmaria；对象：InnerCoreTunneler；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：InnerCoreTunneler；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@InnerCoreTunneler/gameTexts/0/body/0",
     "original": "Whenever a Hero character would be dealt damage, they may discard 1 Magma Crystal card. If they do, redirect that damage to this card.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：InnerCoreTunneler；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：InnerCoreTunneler；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@InnerCoreTunneler/gameTexts/1/body/0",
     "original": "This card deals the 3 targets with the highest HP 1 fire damage each.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：InnerCoreTunneler；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：InnerCoreTunneler；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@InnerCoreTunneler/flavorQuotes/@CaptainCosmic/text",
     "original": "Careful there, you large and fiery chap!{BR}It's hot enough as is! We're not interested{BR}in your incredibly hot crystals.{BR}No, thank you!",
     "translation": "",
-    "context": "卡组：Magmaria；对象：InnerCoreTunneler / CaptainCosmic；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：InnerCoreTunneler / CaptainCosmic；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@InnerCoreTunneler/flavorReference",
     "original": "Captain Cosmic, Prime Wardens Vol. 1 #124",
     "translation": "",
-    "context": "卡组：Magmaria；对象：InnerCoreTunneler；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：InnerCoreTunneler；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@MagmarianThrong/title",
     "original": "Magmarian Throng",
     "translation": "",
-    "context": "卡组：Magmaria；对象：MagmarianThrong；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：MagmarianThrong；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@MagmarianThrong/gameTexts/0/body/0",
     "original": "Discover 2 Magmarian cards.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：MagmarianThrong；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：MagmarianThrong；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@MagmarianThrong/gameTexts/1/body/0",
     "original": "Each Magmarian card deals each non-Environment target 1 fire damage.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：MagmarianThrong；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：MagmarianThrong；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@MagmarianThrong/flavorQuotes/@Legacy/text",
     "original": "Thank you for your very warm welcome! A{BR}bit too warm, if you ask me. Any chance you{BR}could turn down the heat?",
     "translation": "",
-    "context": "卡组：Magmaria；对象：MagmarianThrong / Legacy；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：MagmarianThrong / Legacy；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@MagmarianThrong/flavorReference",
     "original": "Legacy, Justice Commics #146",
     "translation": "",
-    "context": "卡组：Magmaria；对象：MagmarianThrong；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：MagmarianThrong；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@SeismicDefender/title",
     "original": "Seismic Defender",
     "translation": "",
-    "context": "卡组：Magmaria；对象：SeismicDefender；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：SeismicDefender；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@SeismicDefender/gameTexts/0/body/0",
     "original": "This card deals the target with the highest HP 2 fire damage.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：SeismicDefender；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：SeismicDefender；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@SeismicDefender/gameTexts/1/body/0",
     "original": "Each Hero may discard 1 Magma Crystal card. This card deals the X Villain targets with the highest HP 3 melee damage and 3 fire damage each, where X is the number of Magma Crystal cards discarded.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：SeismicDefender；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：SeismicDefender；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@SeismicDefender/flavorQuotes/@Haka/text",
     "original": "Oh, I like this one! A great companion in{BR}combat, but also an ancient soul. They are{BR}as old as the stones themselves!",
     "translation": "",
-    "context": "卡组：Magmaria；对象：SeismicDefender / Haka；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：SeismicDefender / Haka；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@SeismicDefender/flavorReference",
     "original": "Haka, Prime Wardens Vol. 1 #125",
     "translation": "",
-    "context": "卡组：Magmaria；对象：SeismicDefender；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：SeismicDefender；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@StoneShaper/title",
     "original": "Stone Shaper",
     "translation": "",
-    "context": "卡组：Magmaria；对象：StoneShaper；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：StoneShaper；类型：card.title。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@StoneShaper/gameTexts/0/body/0",
     "original": "This card deals the 3 targets with the highest HP 1 fire damage each.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：StoneShaper；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：StoneShaper；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@StoneShaper/gameTexts/1/body/0",
     "original": "Each Hero may discard 1 Magma Crystal card to select 1 target. −1 damage dealt to selected targets until the Environment turn {Start}.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：StoneShaper；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：StoneShaper；类型：rules.body。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@StoneShaper/flavorQuotes/@TheArgentAdept/text",
     "original": "In your own way, you sing through{BR}stones and conduct lava in deep music.{BR}This is something older than the{BR}magics I have felt.",
     "translation": "",
-    "context": "卡组：Magmaria；对象：StoneShaper / TheArgentAdept；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：StoneShaper / TheArgentAdept；类型：flavor.quote。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MagmariaDeckList.json::turnTakers/@Magmaria/decks/@Magmaria/cards/@StoneShaper/flavorReference",
     "original": "The Argent Adept, Prime Wardens Vol. 1 #122",
     "translation": "",
-    "context": "卡组：Magmaria；对象：StoneShaper；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：Magmaria；对象：StoneShaper；类型：flavor.reference。\n来源：MagmariaDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   }
 ]

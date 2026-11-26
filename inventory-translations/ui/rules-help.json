@@ -3,91 +3,91 @@
     "key": "ui.source.09b350ca13d6ff3ede5a",
     "original": "Back\n",
     "translation": "",
-    "context": "界面对象：Text (TMP)；用途：rules-help。\nlevel3 path_id=259 offset=88\nlevel6 path_id=85 offset=88\nlevel7 path_id=182 offset=88\nlevel8 path_id=94 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：Text (TMP)；用途：rules-help。\nlevel3 path_id=259 offset=88\nlevel6 path_id=85 offset=88\nlevel7 path_id=182 offset=88\nlevel8 path_id=94 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.513c403e1327091d0298",
     "original": "Hand",
     "translation": "",
-    "context": "界面对象：Hand Label；用途：rules-help。\nlevel7 path_id=171 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：Hand Label；用途：rules-help。\nlevel7 path_id=171 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.baeb670ccb9acdb134b4",
     "original": "Play Area",
     "translation": "",
-    "context": "界面对象：Play Area Label；用途：rules-help。\nlevel7 path_id=172 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：Play Area Label；用途：rules-help。\nlevel7 path_id=172 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.729e0beb7d8103c6efa3",
     "original": "Trash",
     "translation": "",
-    "context": "界面对象：Trash Label；用途：rules-help。\nlevel7 path_id=174 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：Trash Label；用途：rules-help。\nlevel7 path_id=174 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.e76069d3a5e11bdf496e",
     "original": "Deck",
     "translation": "",
-    "context": "界面对象：Deck Label；用途：rules-help。\nlevel7 path_id=175 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：Deck Label；用途：rules-help。\nlevel7 path_id=175 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.08b3bf53065d44bb74ac",
     "original": "An integrated digital rulebook and interactive tutorial will be coming in a future Early Access update.",
     "translation": "",
-    "context": "界面对象：Note Text；用途：rules-help。\nlevel7 path_id=176 offset=88\nlevel8 path_id=93 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：Note Text；用途：rules-help。\nlevel7 path_id=176 offset=88\nlevel8 path_id=93 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.5c737b4ebb9c2917596b",
     "original": "<b>Ally:</b> A target of your type (Hero, Villain, Environment) other than yourself.\n\n<b>Bury:</b> Put the indicated card on the bottom of the associated deck. If that deck has zero cards in it, the card goes to trash instead.\n\n<b>Collect:</b> Search your deck for the indicated amount of the indicated cards and put them in your hand. Shuffle your deck.\n\n<b>Discover:</b> Reveal cards from the top of the deck until you reveal the indicated cards. Shuffle the other revealed cards into the deck. Play the cards in the order revealed.\n\n<b>Reaction:</b> When a Hero target would be dealt damage by a non-Hero target, it may activate any reaction text on cards already in play that give that Hero target a reaction. Like powers, each reaction can only be activated once per turn.\n\n<b>Salvage:</b> Search your trash for the indicated amount of the indicated cards and put them in your hand.\n\n<b>Summon:</b> Search the trash and/or deck for the indicated amount of the indicated cards. Play the cards found. If you searched the deck, shuffle it.\n\nFor more explanation of terms, see pages 15-17 of the rulebook.",
     "translation": "",
-    "context": "界面对象：Body Label；用途：rules-help。\nlevel7 path_id=177 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：Body Label；用途：rules-help。\nlevel7 path_id=177 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.d57fe58d03787beb626e",
     "original": "Turn Sequence",
     "translation": "",
-    "context": "界面对象：TitleLabel；用途：rules-help。\nlevel7 path_id=178 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：TitleLabel；用途：rules-help。\nlevel7 path_id=178 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.56c0061edf0992da432d",
     "original": "<b>• Villain Turn</b>\n<space=2em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style>\n<space=2em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>PLAY PHASE</style>\n<space=2em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style>\n<b>• Each Hero Turn in Play Order</b>\n<space=2em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style>\n<space=2em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>PLAY PHASE</style>\n<space=2em><sprite name=\"PowerPhase\"><space=.5em><style=PowerPhase>POWER PHASE</style>\n<space=2em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style>\n<space=2em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style>\n<b>• Environment Turn</b>\n<space=2em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style>\n<space=2em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>PLAY PHASE</style>\n<space=2em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style>",
     "translation": "",
-    "context": "界面对象：Body Label；用途：rules-help。\nlevel7 path_id=179 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：Body Label；用途：rules-help。\nlevel7 path_id=179 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.fcf64093edf7a980c831",
     "original": "View Rulebook\n",
     "translation": "",
-    "context": "界面对象：Text (TMP)；用途：rules-help。\nlevel7 path_id=180 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：Text (TMP)；用途：rules-help。\nlevel7 path_id=180 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.a5efd716f7bf666de064",
     "original": "Download Rulebook\n",
     "translation": "",
-    "context": "界面对象：Text (TMP)；用途：rules-help。\nlevel7 path_id=181 offset=88\nlevel8 path_id=95 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：Text (TMP)；用途：rules-help。\nlevel7 path_id=181 offset=88\nlevel8 path_id=95 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.7e39e385a7d11060e26e",
     "original": "Useful Terms",
     "translation": "",
-    "context": "界面对象：TitleLabel；用途：rules-help。\nlevel7 path_id=183 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：TitleLabel；用途：rules-help。\nlevel7 path_id=183 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.fc7d813a8a24a808c90f",
     "original": "Card Locations\n",
     "translation": "",
-    "context": "界面对象：TitleLabel；用途：rules-help。\nlevel7 path_id=184 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：TitleLabel；用途：rules-help。\nlevel7 path_id=184 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   }
 ]
