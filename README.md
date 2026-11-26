@@ -2,7 +2,7 @@
 
 《Sentinels of the Multiverse 2》Steam 版中文本地化，ParaTranz 项目 [21585](https://paratranz.cn/projects/21585)。
 
-当前文本库存为 48 个文件、2,444 条原文，英雄、反派、环境按卡组分组。新增内容保持未翻译；已有 89 条译文保留。字体与显示运行支持候选版本为 **0.1.6-rc.1**，适用 Steam Build 26880829，尚待新的 Windows 实机回归；不是正式发行版。
+ParaTranz 与 GitHub 已完成全量同步，当前文本库存为 48 个文件、2,444 条原文，英雄、反派、环境按卡组分组。新增内容保持未翻译；已有 89 条译文保留。字体与显示运行支持候选版本为 **0.1.6-rc.1**，适用 Steam Build 26880829，尚待新的 Windows 实机回归；不是正式发行版。
 
 - `inventory-import/`：原文导入文件。已有文件更新原文，不覆盖译文或删除重建。
 - `inventory-translations/`：完整 ParaTranz 译文快照。
