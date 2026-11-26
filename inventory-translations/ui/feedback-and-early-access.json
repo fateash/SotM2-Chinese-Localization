@@ -3,28 +3,28 @@
     "key": "ui.source.3897671007d4b0fc4e0d",
     "original": "Steam Early Access Information",
     "translation": "",
-    "context": "界面对象：Title Label；用途：feedback-and-early-access。\nlevel1 path_id=486 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：Title Label；用途：feedback-and-early-access。\nlevel1 path_id=486 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.33a52b72d01faa731d15",
     "original": "The Early Access release of Sentinels of the Multiverse 2 is fully playable and includes all hero, villain, and environment decks from the full core game.\n\nThe full version is planned to have the following additional major features and content:\n\n- Interactive tutorial\n- Campaign mode\n- Online multiplayer\n- Villain Events and Critical Events\n- First Appearance Hero Variants\n- Improved music and sound effects\n- More extensive UI animations & interactions\n- How to Play & Card Library screens\n- Steam Achievements & Statistics\n\nWe plan to roll out features and content in several updates during the Early Access phase.\n\nIf you see a problem or have a suggestion, please report it when it occurs using the in-game <b>Send Feedback</b> button. Thanks for playing!",
     "translation": "",
-    "context": "界面对象：Info Label；用途：feedback-and-early-access。\nlevel1 path_id=488 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：Info Label；用途：feedback-and-early-access。\nlevel1 path_id=488 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.53da4947a16863b25697",
     "original": "If the game crashed, please send feedback now.",
     "translation": "",
-    "context": "界面对象：Note Label；用途：feedback-and-early-access。\nlevel1 path_id=495 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：Note Label；用途：feedback-and-early-access。\nlevel1 path_id=495 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.5ce39cc67ba20b9b30ea",
     "original": "Send Early \nAccess Feedback",
     "translation": "",
-    "context": "界面对象：Text；用途：feedback-and-early-access。\nlevel1 path_id=506 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。",
-    "stage": 0
+    "stage": 0,
+    "context": "界面对象：Text；用途：feedback-and-early-access。\nlevel1 path_id=506 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   }
 ]

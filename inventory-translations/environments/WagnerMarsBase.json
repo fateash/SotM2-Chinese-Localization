@@ -3,434 +3,434 @@
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/title",
     "original": "Wagner Mars Base",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：WagnerMarsBase；类型：deck.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：WagnerMarsBase；类型：deck.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@Biosphere/title",
     "original": "Biosphere",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：Biosphere；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：Biosphere；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@Biosphere/gameTexts/0/body/0",
     "original": "After this card is played, each Hero target regains 1 HP.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：Biosphere；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：Biosphere；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@Biosphere/gameTexts/1/body/0",
     "original": "1 Hero may discard 1 Item card. If they do, they play 1 card.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：Biosphere；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：Biosphere；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@Biosphere/flavorQuotes/@ChronoRanger/text",
     "original": "You’re probably thinking you’ve got me{BR}fooled. Maybe, maybe. But maybe I’ve got{BR}you right where I want you...",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：Biosphere / ChronoRanger；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/0/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：Biosphere / ChronoRanger；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/0/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@Biosphere/flavorReference",
     "original": "Chrono-Ranger, Temporal Targets #3",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：Biosphere；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：Biosphere；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@DecompressionProtocol/title",
     "original": "Decompression Protocol",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：DecompressionProtocol；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：DecompressionProtocol；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@DecompressionProtocol/gameTexts/0/body/0",
     "original": "All targets are immune to damage.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：DecompressionProtocol；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：DecompressionProtocol；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@DecompressionProtocol/gameTexts/1/body/0",
     "original": "On each Hero's {Start}, that Hero may skip to their {Draw}. If they do, destroy this card.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：DecompressionProtocol；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：DecompressionProtocol；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@DecompressionProtocol/gameTexts/2/body/0",
     "original": "If there are 2 or more Dome cards in play, destroy this card.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：DecompressionProtocol；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：DecompressionProtocol；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@DecompressionProtocol/flavorQuotes/@Ambuscade/text",
     "original": "And there we are. The lock down!{BR}Right on schedule.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：DecompressionProtocol / Ambuscade；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：DecompressionProtocol / Ambuscade；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@DecompressionProtocol/flavorReference",
     "original": "Ambuscade, Freedom Five #714",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：DecompressionProtocol；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：DecompressionProtocol；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@HangarBay/title",
     "original": "Hangar Bay",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：HangarBay；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：HangarBay；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@HangarBay/gameTexts/0/body/0",
     "original": "When this card is destroyed, each target deals itself 1 fixed psychic damage.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：HangarBay；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：HangarBay；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@HangarBay/gameTexts/1/body/0",
     "original": "1 Hero may discard 1 Item card. If they do, that Hero collects 1 card.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：HangarBay；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：HangarBay；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@HangarBay/flavorQuotes/@Tachyon/text",
     "original": "No time to talk; everyone into the ship! I{BR}mean, I have plenty of time to talk, but you{BR}all need to get moving!",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：HangarBay / Tachyon；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：HangarBay / Tachyon；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@HangarBay/flavorReference",
     "original": "Tachyon, Freedom Five #715",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：HangarBay；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：HangarBay；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@LivingQuarters/title",
     "original": "Living Quarters",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：LivingQuarters；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：LivingQuarters；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@LivingQuarters/gameTexts/0/body/0",
     "original": "After this card is played, each Hero may draw 1 card.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：LivingQuarters；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：LivingQuarters；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@LivingQuarters/gameTexts/1/body/0",
     "original": "1 Hero may discard 1 Ongoing card. If they do, they draw 2 cards.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：LivingQuarters；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：LivingQuarters；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@LivingQuarters/flavorQuotes/@JaneWagner/text",
     "original": "The Wagner Mars Base has every{BR}amenity the modern space man could hope{BR}for, providing comfort while hard at{BR}work on the red planet!",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：LivingQuarters / JaneWagner；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：LivingQuarters / JaneWagner；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@LivingQuarters/flavorReference",
     "original": "Jane Wagner, Justice Comics #243",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：LivingQuarters；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：LivingQuarters；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@MedicalBay/title",
     "original": "Medical Bay",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：MedicalBay；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：MedicalBay；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@MedicalBay/gameTexts/0/body/0",
     "original": "+1 to all HP recovery.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：MedicalBay；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：MedicalBay；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@MedicalBay/gameTexts/1/body/0",
     "original": "1 Hero may discard 1 Ongoing card. If they do, 1 Hero target regains 3 HP.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：MedicalBay；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：MedicalBay；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@MedicalBay/flavorQuotes/@TheVisionary/text",
     "original": "Give me the bad news, Dr. Bortnik.{BR}I know I’ve got this Space Pox or{BR}whatever it is you’re calling it.{BR}But can it be cured?",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：MedicalBay / TheVisionary；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：MedicalBay / TheVisionary；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@MedicalBay/flavorReference",
     "original": "The Visionary, Cosmic Tales Vol. 2 #197",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：MedicalBay；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：MedicalBay；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@MeteorStrike/title",
     "original": "Meteor Strike",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：MeteorStrike；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：MeteorStrike；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@MeteorStrike/gameTexts/0/body/0",
     "original": "Destroy 1 Villain Ongoing card, 1 Hero Ongoing card, and 1 Environment Ongoing card.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：MeteorStrike；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：MeteorStrike；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@MeteorStrike/gameTexts/1/body/0",
     "original": "Destroy 1 Dome card.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：MeteorStrike；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：MeteorStrike；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@MeteorStrike/flavorQuotes/@GrandWarlordVoss/text",
     "original": "This is why we always have a back-up. Get{BR}the secondary gene-binding facility online,{BR}and start building another!",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：MeteorStrike / GrandWarlordVoss；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：MeteorStrike / GrandWarlordVoss；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@MeteorStrike/flavorReference",
     "original": "Grand Warlord Voss, Cosmic Tales Vol. 2 #203",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：MeteorStrike；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：MeteorStrike；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@OxygenLeak/title",
     "original": "Oxygen Leak",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：OxygenLeak；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：OxygenLeak；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@OxygenLeak/gameTexts/0/body/0",
     "original": "The 3 targets with the highest HP deal themselves 3 fixed toxic damage each.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：OxygenLeak；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：OxygenLeak；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@OxygenLeak/gameTexts/1/body/0",
     "original": "Destroy 1 Dome card.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：OxygenLeak；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：OxygenLeak；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@OxygenLeak/flavorQuotes/@Knyfe/text",
     "original": "Och, this is not how I thought I’d go out.{BR}A damn shame.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：OxygenLeak / Knyfe；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：OxygenLeak / Knyfe；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@OxygenLeak/flavorReference",
     "original": "K.N.Y.F.E., Cosmic Tales Vol. 2 #309",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：OxygenLeak；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：OxygenLeak；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@PowerAndEngineering/title",
     "original": "Power and Engineering",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：PowerAndEngineering；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：PowerAndEngineering；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@PowerAndEngineering/gameTexts/0/body/0",
     "original": "When this card is destroyed, also destroy 1 other Dome card.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：PowerAndEngineering；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：PowerAndEngineering；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@PowerAndEngineering/gameTexts/1/body/0",
     "original": "1 Hero may discard 1 card. If they do, play 1 Dome card from the Environment trash.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：PowerAndEngineering；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：PowerAndEngineering；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@PowerAndEngineering/flavorQuotes/@Legacy/text",
     "original": "Careful, team!{BR}If something goes wrong in here,{BR}the chain reaction will{BR}be catastrophic!",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：PowerAndEngineering / Legacy；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：PowerAndEngineering / Legacy；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@PowerAndEngineering/flavorReference",
     "original": "Legacy, Freedom Five #264",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：PowerAndEngineering；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：PowerAndEngineering；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@RedDustStorm/title",
     "original": "Red Dust Storm",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：RedDustStorm；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：RedDustStorm；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@RedDustStorm/gameTexts/0/body/0",
     "original": "Destroy {H - 1} Item cards.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：RedDustStorm；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：RedDustStorm；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@RedDustStorm/gameTexts/1/body/0",
     "original": "Destroy 1 Dome card.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：RedDustStorm；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：RedDustStorm；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@RedDustStorm/flavorQuotes/@AbsoluteZero/text",
     "original": "For you, your guns are offline.{BR}That’s sad and all. My stakes{BR}are a bit higher over here.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：RedDustStorm / AbsoluteZero；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：RedDustStorm / AbsoluteZero；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@RedDustStorm/flavorReference",
     "original": "Absolute Zero, Freedom Five #551",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：RedDustStorm；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：RedDustStorm；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@SecurityStation/title",
     "original": "Security Station",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：SecurityStation；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：SecurityStation；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@SecurityStation/gameTexts/0/body/0",
     "original": "1 Hero may discard 1 One-Shot card. If they do, they deal 1 target 3 energy damage.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：SecurityStation；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：SecurityStation；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@SecurityStation/gameTexts/1/body/0",
     "original": "Reveal the top card of the Environment deck and the Villain deck. Play any revealed Ongoing cards. Discard the other revealed cards.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：SecurityStation；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：SecurityStation；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@SecurityStation/flavorQuotes/@Omnitron/text",
     "original": "Control established. Processes{BR}rerouted. Uploading Omnitron code to{BR}mainframe now.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：SecurityStation / Omnitron；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：SecurityStation / Omnitron；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@SecurityStation/flavorReference",
     "original": "Omnitron, Singularity #5",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：SecurityStation；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：SecurityStation；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@SelfDestructSequence/title",
     "original": "Self-Destruct Sequence",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：SelfDestructSequence；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：SelfDestructSequence；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@SelfDestructSequence/gameTexts/0/body/0",
     "original": "On each Hero’s {Start}, that Hero may skip to their {Power}. After a Hero does so, they put 1 card from their hand under this card.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：SelfDestructSequence；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：SelfDestructSequence；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@SelfDestructSequence/gameTexts/1/body/0",
     "original": "If there are 0 cards under this card, the Wagner Mars Base explodes. <b>Game Over.</b> Otherwise, destroy 1 card under this card.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：SelfDestructSequence；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：SelfDestructSequence；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@SelfDestructSequence/flavorQuotes/@Benchmark/text",
     "original": "Hey, whoa, uh, I haven’t completed{BR}my certification on self-destruction{BR}sequences yet. Anyone have a manual{BR}for this thing?",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：SelfDestructSequence / Benchmark；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：SelfDestructSequence / Benchmark；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@SelfDestructSequence/flavorReference",
     "original": "Benchmark, RevoCorp Presents #17",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：SelfDestructSequence；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：SelfDestructSequence；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@SpaceScienceLab/title",
     "original": "Space Science Lab",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：SpaceScienceLab；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：SpaceScienceLab；类型：card.title。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@SpaceScienceLab/gameTexts/0/body/0",
     "original": "+1 to all salvaging.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：SpaceScienceLab；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：SpaceScienceLab；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@SpaceScienceLab/gameTexts/1/body/0",
     "original": "1 Hero may discard 1 One-Shot card. If they do, they discover 1 Item or Ongoing card.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：SpaceScienceLab；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：SpaceScienceLab；类型：rules.body。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@SpaceScienceLab/flavorQuotes/@CaptainCosmic/text",
     "original": "It somehow survived on that blasted{BR}rock of a world. Maybe we could use it to{BR}solve world hunger? Something good,{BR}certainly.",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：SpaceScienceLab / CaptainCosmic；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：SpaceScienceLab / CaptainCosmic；类型：flavor.quote。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "WagnerMarsBaseDeckList.json::turnTakers/@WagnerMarsBase/decks/@WagnerMarsBase/cards/@SpaceScienceLab/flavorReference",
     "original": "Captain Cosmic, Cosmic Tales Vol. 2 #146",
     "translation": "",
-    "context": "卡组：WagnerMarsBase；对象：SpaceScienceLab；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
-    "stage": 0
+    "stage": 0,
+    "context": "卡组：WagnerMarsBase；对象：SpaceScienceLab；类型：flavor.reference。\n来源：WagnerMarsBaseDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   }
 ]

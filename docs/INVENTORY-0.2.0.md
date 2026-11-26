@@ -14,7 +14,7 @@ The 48 files comprise 12 heroes, 6 villains, 6 environments, 6 event files, 1 co
 
 The first migration must run after this workflow exists on the default branch. Existing `PARATRANZ_TOKEN` secret is used only by Actions. Do not paste credentials into issues or files. Resolve any unexpected remote originals/keys instead of forcing the migration.
 
-All remote translations remain authoritative. Two shorter Baron Blade lines from the prior visual fix are retained in the local baseline, but migration does not overwrite platform translations with them; the first live snapshot may restore the platform's older wording.
+Online expansion completed on 2026-11-26: 37 existing files matched; 11 files containing 110 originals were added. The post-migration snapshot contains all 48 files and 2,444 keys with the existing translation/review states retained. The two visually accepted Baron Blade short lines were then applied separately by an exact, two-key guarded update; a second full pull confirms all 89 translations match the accepted local baseline. New 2,355 translations remain empty. All 48 remote file IDs are now pinned. Actions runs: 45849603351 (expansion), 45850652622 (approved short lines and final snapshot).
 
 ## Runtime boundary
 The tested display surfaces now have semantic routes: card-scoped titles/subtitles/quotes/references, PowerTitle rich-text contents, comma-separated visible keywords, HUD/inline/styled phase labels, and PowerHeading. Phase translations must be complete names (for example 开始阶段), although the source inventory uses the enum label Start. Game enums, rule text storage, identifiers and damage calculations are never modified.
@@ -31,3 +31,5 @@ Run `python3 -m unittest discover -s tests -v`, then `python3 tools/inventory.py
 To compile the game plugin locally, supply the matching extracted interop and BepInEx reference directories as `SotM2InteropDir` and `BepInExReferenceDir` MSBuild properties. These game/runtime dependencies are not committed. CI builds the pure display transformer tests without game binaries.
 
 No artificial line-break edits were introduced. POWER prefix indentation and Chinese typography will be reviewed after actual translated labels are enabled. Advanced styled phase handling is implemented, but the general Advanced heading remains inventory-only until that label is separately registered and tested.
+
+The optional downloadable term-test catalog uses only 9 frozen glossary entries (five phase names, Power label, One-Shot/Ongoing/Limited) to exercise semantic routes. These test translations are not uploaded to ParaTranz. Offline validation: 65 Python checks, 18 C# semantic checks, and 7 installer/restore checks; Windows live verification of runtime 0.1.6-rc.1 remains pending.
