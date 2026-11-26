@@ -1,0 +1,897 @@
+{
+  "registry": {
+    "schemaVersion": 1,
+    "runtimeVersion": "0.1.4",
+    "buildId": "26880829",
+    "entries": [
+      {
+        "key": "ui.label.0001",
+        "kind": "ui.label",
+        "locator": "Text",
+        "original": "Cancel",
+        "sourceSha256": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0002",
+        "kind": "ui.label",
+        "locator": "Text",
+        "original": "Options",
+        "sourceSha256": "d0db8b5e364b6989e4b8f38a2b3846b87d99a51c1592ebf35d21cc66405a8e39",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0003",
+        "kind": "ui.label",
+        "locator": "Text",
+        "original": "New Game",
+        "sourceSha256": "28f9044138a54b95f198b450b2b02af43921f0d50450885875653e6443115f35",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0004",
+        "kind": "ui.label",
+        "locator": "Text",
+        "original": "Credits",
+        "sourceSha256": "2a6b24ad287220345e96eb8021fe29d42b0785766c8df658827e7251da2d36dc",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0005",
+        "kind": "ui.label",
+        "locator": "Text",
+        "original": "Quick Play",
+        "sourceSha256": "e83ff4c4de42e2d7baa19f3e7c44420aa348042f1968ee8a1e14d92e76b67340",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0006",
+        "kind": "ui.label",
+        "locator": "Text",
+        "original": "How to Play",
+        "sourceSha256": "3bd5547e9467a382417c5cdd194a4e147bb3bbb631a6e3a45bd54c79d735bf62",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0007",
+        "kind": "ui.label",
+        "locator": "Text",
+        "original": "Achievements",
+        "sourceSha256": "74cf2bc63fe122206c82cecc1b3f31a100d5d4aaca6e12682590271276fb4691",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0008",
+        "kind": "ui.label",
+        "locator": "Text",
+        "original": "Continue Game",
+        "sourceSha256": "da518bfbda4eb9da3ef07e330b5bb06edcd583a2f9e5d482499eb7cf4aef501f",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0009",
+        "kind": "ui.label",
+        "locator": "Text",
+        "original": "Early Access Info",
+        "sourceSha256": "5033cffeb28cc37fa9c751a8677ce1cd3ea181d898f34f7046952f5dd2acf2eb",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0010",
+        "kind": "ui.label",
+        "locator": "Text",
+        "original": "I Understand",
+        "sourceSha256": "f02b9628d5767db6b7a20e4a9da7f4a15d93a17cd0e46fcab1ed054e9706dafe",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0011",
+        "kind": "ui.label",
+        "locator": "Text",
+        "original": "Help & Feedback",
+        "sourceSha256": "561e96349ecca61b328b08b07cdbf4c7bffa6997336cff9da3b7b2d9a5c1ad6b",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0012",
+        "kind": "ui.label",
+        "locator": "Text",
+        "original": "Card Library",
+        "sourceSha256": "afbdfb61a147451e1db083c751eea0a6bf9772423328afcffc9d6f2eea52bd92",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0013",
+        "kind": "ui.label",
+        "locator": "Selection Button Label",
+        "original": "Select",
+        "sourceSha256": "2a78025de6aae5e7ff88e5a951bb3a78ddd67388913529cf9e2dd9653e62b02d",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0014",
+        "kind": "ui.label",
+        "locator": "Text (TMP)",
+        "original": "Quit",
+        "sourceSha256": "b3eb37acb66ba4bbe8fb1ba296815daf194be94f5a5fb50dab2fb5e4a57ba29e",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0015",
+        "kind": "ui.label",
+        "locator": "Text (TMP)",
+        "original": "Continue",
+        "sourceSha256": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0016",
+        "kind": "ui.label",
+        "locator": "Text (TMP)",
+        "original": "Menu",
+        "sourceSha256": "99af6606ff9d6cd5154d4d4e9c21e325086d3e904677cdb41d363c8a3480f862",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0017",
+        "kind": "ui.label",
+        "locator": "Text (TMP)",
+        "original": "Send Feedback",
+        "sourceSha256": "84195de9375af87cb637fbb3eb7587d1dcdce5d9ea648de8dfc28b7ea4134509",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0018",
+        "kind": "ui.label",
+        "locator": "Skip Button Label",
+        "original": "Skip",
+        "sourceSha256": "28d03596d24eeb4eab2d6fe21ca1cb95be7cb1fa6f92933db05e2cc4f4cdfa06",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0019",
+        "kind": "ui.label",
+        "locator": "Choose For Me Button Label",
+        "original": "Choose For Me",
+        "sourceSha256": "86cd76341be47e021577b61cf927de8c9ec1a9f28d20987da051920cf3d73232",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0020",
+        "kind": "ui.label",
+        "locator": "Text (TMP)",
+        "original": "Options",
+        "sourceSha256": "d0db8b5e364b6989e4b8f38a2b3846b87d99a51c1592ebf35d21cc66405a8e39",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0021",
+        "kind": "ui.label",
+        "locator": "Text (TMP)",
+        "original": "How to Play",
+        "sourceSha256": "3bd5547e9467a382417c5cdd194a4e147bb3bbb631a6e3a45bd54c79d735bf62",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0022",
+        "kind": "ui.label",
+        "locator": "Finish Button Label",
+        "original": "Finish",
+        "sourceSha256": "a6c7a84baa6750fce33f7512acd6793e53def1d228b5f2efb8074b42648424fc",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0023",
+        "kind": "ui.label",
+        "locator": "Text (TMP)",
+        "original": "Undo",
+        "sourceSha256": "a8283ade31856f71220db0e6f60a257c6889dc4dad0f275f66ad44b9ed9bf8d5",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0024",
+        "kind": "ui.label",
+        "locator": "Text",
+        "original": "Menu",
+        "sourceSha256": "99af6606ff9d6cd5154d4d4e9c21e325086d3e904677cdb41d363c8a3480f862",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0025",
+        "kind": "ui.label",
+        "locator": "Heading Label",
+        "original": "Options",
+        "sourceSha256": "d0db8b5e364b6989e4b8f38a2b3846b87d99a51c1592ebf35d21cc66405a8e39",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0026",
+        "kind": "ui.label",
+        "locator": "Heading",
+        "original": "Credits",
+        "sourceSha256": "2a6b24ad287220345e96eb8021fe29d42b0785766c8df658827e7251da2d36dc",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0027",
+        "kind": "ui.label",
+        "locator": "Hint Label",
+        "original": "Select Hero to Draw Cards",
+        "sourceSha256": "73a10f05aba71d826c594a7edd2bd4b1ade3f07b9da236657da126a9bdeeb9d6",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0028",
+        "kind": "ui.label",
+        "locator": "Hint Label",
+        "original": "Select Hero to play cards",
+        "sourceSha256": "9946b5fc6e952d0530187ce2e4d836aaee0a7e034d19cdf883baf3c8261544d9",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0029",
+        "kind": "ui.label",
+        "locator": "Hint Label",
+        "original": "Select Hero to use powers",
+        "sourceSha256": "65b67f0359b49ddd364eb8edd812b970ffb9a257a228af3a38c5d59adf6cdf84",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0030",
+        "kind": "ui.label",
+        "locator": "Hint Label",
+        "original": "Select which Hero is considered to have the fewest cards in hand",
+        "sourceSha256": "40b3c1958bc4c48837f67595b42c82ad83ef11183f96e1c717b82f789f329fac",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0031",
+        "kind": "ui.label",
+        "locator": "Hint Label",
+        "original": "Select which of these targets is considered to have the Highest HP",
+        "sourceSha256": "143451a792b80f531c7dfda205dba11eed8d86103164b2f80ad288f7500a6aaf",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0032",
+        "kind": "ui.label",
+        "locator": "Hint Label",
+        "original": "Select the order in which the effects on these cards resolve",
+        "sourceSha256": "8b7207a68d126336ddff6259fbfe637dfc33a1acece072b2e9bdc287577f1d91",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0033",
+        "kind": "ui.label",
+        "locator": "Skip Button Label",
+        "original": "Skip Ability",
+        "sourceSha256": "bdd783d9b75237802a9839af9c14747333a9e74b37155d5d783ceebb35aad9d6",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0034",
+        "kind": "ui.label",
+        "locator": "Skip Button Label",
+        "original": "Skip Draw",
+        "sourceSha256": "fa4aace15b6b1e95986e01c76e109ca469292c3c00a7a2c64d39b5d864755fc0",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0035",
+        "kind": "ui.label",
+        "locator": "Skip Button Label",
+        "original": "Skip Play",
+        "sourceSha256": "953772c5a733d2a9b340d2df9e247b279f612244926674bcc62e6c04e1bd5650",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0036",
+        "kind": "ui.label",
+        "locator": "Skip Button Label",
+        "original": "Skip Power",
+        "sourceSha256": "037ecb31e71f7aa38c859d774e9f8b99fc9142c87c9131460337313a23fcacc7",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "ui.label.0037",
+        "kind": "ui.label",
+        "locator": "Skip Button Label",
+        "original": "Skip Selection",
+        "sourceSha256": "dbbdec5e8515f162103c442cac3de8f7e99fa5ac383e97603a3bdb91fe470c19",
+        "context": "界面控件名精确匹配；样板译文可润色。"
+      },
+      {
+        "key": "card.LegacyCharacter.body.001",
+        "kind": "card.body",
+        "locator": "LegacyCharacter",
+        "original": "Until your {Start}, +1 damage dealt by ally characters.",
+        "sourceSha256": "16e0be7334e10dae426f3cb2511edc030ea8e4e47e773a9aa3a911f35ae7cc80",
+        "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。"
+      },
+      {
+        "key": "card.BolsterAllies.body.001",
+        "kind": "card.body",
+        "locator": "BolsterAllies",
+        "original": "Each Hero draws 1 card.",
+        "sourceSha256": "7dbd9b614ab49307dc0b3d10c5d444f2b671fd564bdda20ab20b0f0929405c51",
+        "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。"
+      },
+      {
+        "key": "card.BolsterAllies.body.002",
+        "kind": "card.body",
+        "locator": "BolsterAllies",
+        "original": "1 Hero other than you plays 1 card.",
+        "sourceSha256": "c8e5fbf44e3298cc4fff154860fcc7ea90a6d316c5e1f26bd3b0c32a75c6d436",
+        "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。"
+      },
+      {
+        "key": "card.FlyingSmash.body.001",
+        "kind": "card.body",
+        "locator": "FlyingSmash",
+        "original": "{Legacy} deals up to 3 targets 3 melee damage each.",
+        "sourceSha256": "e57530018ff37ffd40008318fe6c88bfd96661e28f026940a3e8b106cf239c50",
+        "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。"
+      },
+      {
+        "key": "card.BulletproofSkin.body.001",
+        "kind": "card.body",
+        "locator": "BulletproofSkin",
+        "original": "-1 damage dealt to {Legacy}.",
+        "sourceSha256": "408818334334fcc4031f7d68216b5961656d05759d3958a827ca0171cc442de8",
+        "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。"
+      },
+      {
+        "key": "card.BaronBladeCharacter.body.001",
+        "kind": "card.body",
+        "locator": "BaronBladeCharacter",
+        "original": "Discard the top {H - 2} cards of the Villain deck.",
+        "sourceSha256": "915aef0f6736ae4261c469f5d976ab69350c09d790537e9b5474b9653cd74f2a",
+        "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。"
+      },
+      {
+        "key": "card.RemoteWalkingTank.body.001",
+        "kind": "card.body",
+        "locator": "RemoteWalkingTank",
+        "original": "This card deals the Hero target with the highest HP {H} energy damage.",
+        "sourceSha256": "37de305e0ccf8d8d3fe4f708f2aabfa029b00e2f470829da051b27af4b886c30",
+        "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。"
+      }
+    ]
+  },
+  "rows": {
+    "card.LegacyCharacter.body.001": {
+      "key": "card.LegacyCharacter.body.001",
+      "original": "Until your {Start}, +1 damage dealt by ally characters.",
+      "translation": "直到你的{Start}，盟友角色造成的伤害+1。",
+      "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。",
+      "stage": 1
+    },
+    "card.BolsterAllies.body.001": {
+      "key": "card.BolsterAllies.body.001",
+      "original": "Each Hero draws 1 card.",
+      "translation": "每位英雄抽1张牌。",
+      "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。",
+      "stage": 1
+    },
+    "card.BolsterAllies.body.002": {
+      "key": "card.BolsterAllies.body.002",
+      "original": "1 Hero other than you plays 1 card.",
+      "translation": "除你以外的1位英雄打出1张牌。",
+      "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。",
+      "stage": 1
+    },
+    "card.FlyingSmash.body.001": {
+      "key": "card.FlyingSmash.body.001",
+      "original": "{Legacy} deals up to 3 targets 3 melee damage each.",
+      "translation": "{Legacy}对至多3个目标各造成3点近战伤害。",
+      "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。",
+      "stage": 1
+    },
+    "card.BulletproofSkin.body.001": {
+      "key": "card.BulletproofSkin.body.001",
+      "original": "-1 damage dealt to {Legacy}.",
+      "translation": "对{Legacy}造成的伤害-1。",
+      "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。",
+      "stage": 1
+    },
+    "card.BaronBladeCharacter.body.001": {
+      "key": "card.BaronBladeCharacter.body.001",
+      "original": "Discard the top {H - 2} cards of the Villain deck.",
+      "translation": "弃掉反派牌堆顶的{H - 2}张牌。",
+      "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。",
+      "stage": 1
+    },
+    "card.RemoteWalkingTank.body.001": {
+      "key": "card.RemoteWalkingTank.body.001",
+      "original": "This card deals the Hero target with the highest HP {H} energy damage.",
+      "translation": "此牌对生命值最高的英雄目标造成{H}点能量伤害。",
+      "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。",
+      "stage": 1
+    },
+    "ui.label.0001": {
+      "key": "ui.label.0001",
+      "original": "Cancel",
+      "translation": "取消",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0002": {
+      "key": "ui.label.0002",
+      "original": "Options",
+      "translation": "选项",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0003": {
+      "key": "ui.label.0003",
+      "original": "New Game",
+      "translation": "新建游戏",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0004": {
+      "key": "ui.label.0004",
+      "original": "Credits",
+      "translation": "制作人员",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0005": {
+      "key": "ui.label.0005",
+      "original": "Quick Play",
+      "translation": "快速游戏",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0006": {
+      "key": "ui.label.0006",
+      "original": "How to Play",
+      "translation": "游戏规则",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0007": {
+      "key": "ui.label.0007",
+      "original": "Achievements",
+      "translation": "成就",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0008": {
+      "key": "ui.label.0008",
+      "original": "Continue Game",
+      "translation": "继续游戏",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0009": {
+      "key": "ui.label.0009",
+      "original": "Early Access Info",
+      "translation": "抢先体验说明",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0010": {
+      "key": "ui.label.0010",
+      "original": "I Understand",
+      "translation": "我已了解",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0011": {
+      "key": "ui.label.0011",
+      "original": "Help & Feedback",
+      "translation": "帮助与反馈",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0012": {
+      "key": "ui.label.0012",
+      "original": "Card Library",
+      "translation": "卡牌图鉴",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0013": {
+      "key": "ui.label.0013",
+      "original": "Select",
+      "translation": "选择",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0014": {
+      "key": "ui.label.0014",
+      "original": "Quit",
+      "translation": "退出",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0015": {
+      "key": "ui.label.0015",
+      "original": "Continue",
+      "translation": "继续",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0016": {
+      "key": "ui.label.0016",
+      "original": "Menu",
+      "translation": "菜单",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0017": {
+      "key": "ui.label.0017",
+      "original": "Send Feedback",
+      "translation": "发送反馈",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0018": {
+      "key": "ui.label.0018",
+      "original": "Skip",
+      "translation": "跳过",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0019": {
+      "key": "ui.label.0019",
+      "original": "Choose For Me",
+      "translation": "替我选择",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0020": {
+      "key": "ui.label.0020",
+      "original": "Options",
+      "translation": "选项",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0021": {
+      "key": "ui.label.0021",
+      "original": "How to Play",
+      "translation": "游戏规则",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0022": {
+      "key": "ui.label.0022",
+      "original": "Finish",
+      "translation": "完成",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0023": {
+      "key": "ui.label.0023",
+      "original": "Undo",
+      "translation": "撤销",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0024": {
+      "key": "ui.label.0024",
+      "original": "Menu",
+      "translation": "菜单",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0025": {
+      "key": "ui.label.0025",
+      "original": "Options",
+      "translation": "选项",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0026": {
+      "key": "ui.label.0026",
+      "original": "Credits",
+      "translation": "制作人员",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0027": {
+      "key": "ui.label.0027",
+      "original": "Select Hero to Draw Cards",
+      "translation": "选择抽牌的英雄",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0028": {
+      "key": "ui.label.0028",
+      "original": "Select Hero to play cards",
+      "translation": "选择打出牌的英雄",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0029": {
+      "key": "ui.label.0029",
+      "original": "Select Hero to use powers",
+      "translation": "选择使用能力的英雄",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0030": {
+      "key": "ui.label.0030",
+      "original": "Select which Hero is considered to have the fewest cards in hand",
+      "translation": "选择视为手牌最少的英雄",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0031": {
+      "key": "ui.label.0031",
+      "original": "Select which of these targets is considered to have the Highest HP",
+      "translation": "选择视为生命值最高的目标",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0032": {
+      "key": "ui.label.0032",
+      "original": "Select the order in which the effects on these cards resolve",
+      "translation": "选择这些卡牌效果的结算顺序",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0033": {
+      "key": "ui.label.0033",
+      "original": "Skip Ability",
+      "translation": "跳过能力",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0034": {
+      "key": "ui.label.0034",
+      "original": "Skip Draw",
+      "translation": "跳过抽牌",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0035": {
+      "key": "ui.label.0035",
+      "original": "Skip Play",
+      "translation": "跳过出牌",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0036": {
+      "key": "ui.label.0036",
+      "original": "Skip Power",
+      "translation": "跳过能力",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    },
+    "ui.label.0037": {
+      "key": "ui.label.0037",
+      "original": "Skip Selection",
+      "translation": "跳过选择",
+      "context": "界面控件名精确匹配；样板译文可润色。",
+      "stage": 1
+    }
+  },
+  "catalog": {
+    "Ui": [
+      {
+        "ObjectName": "Text",
+        "Source": "Cancel",
+        "Target": "取消"
+      },
+      {
+        "ObjectName": "Text",
+        "Source": "Options",
+        "Target": "选项"
+      },
+      {
+        "ObjectName": "Text",
+        "Source": "New Game",
+        "Target": "新建游戏"
+      },
+      {
+        "ObjectName": "Text",
+        "Source": "Credits",
+        "Target": "制作人员"
+      },
+      {
+        "ObjectName": "Text",
+        "Source": "Quick Play",
+        "Target": "快速游戏"
+      },
+      {
+        "ObjectName": "Text",
+        "Source": "How to Play",
+        "Target": "游戏规则"
+      },
+      {
+        "ObjectName": "Text",
+        "Source": "Achievements",
+        "Target": "成就"
+      },
+      {
+        "ObjectName": "Text",
+        "Source": "Continue Game",
+        "Target": "继续游戏"
+      },
+      {
+        "ObjectName": "Text",
+        "Source": "Early Access Info",
+        "Target": "抢先体验说明"
+      },
+      {
+        "ObjectName": "Text",
+        "Source": "I Understand",
+        "Target": "我已了解"
+      },
+      {
+        "ObjectName": "Text",
+        "Source": "Help & Feedback",
+        "Target": "帮助与反馈"
+      },
+      {
+        "ObjectName": "Text",
+        "Source": "Card Library",
+        "Target": "卡牌图鉴"
+      },
+      {
+        "ObjectName": "Selection Button Label",
+        "Source": "Select",
+        "Target": "选择"
+      },
+      {
+        "ObjectName": "Text (TMP)",
+        "Source": "Quit",
+        "Target": "退出"
+      },
+      {
+        "ObjectName": "Text (TMP)",
+        "Source": "Continue",
+        "Target": "继续"
+      },
+      {
+        "ObjectName": "Text (TMP)",
+        "Source": "Menu",
+        "Target": "菜单"
+      },
+      {
+        "ObjectName": "Text (TMP)",
+        "Source": "Send Feedback",
+        "Target": "发送反馈"
+      },
+      {
+        "ObjectName": "Skip Button Label",
+        "Source": "Skip",
+        "Target": "跳过"
+      },
+      {
+        "ObjectName": "Choose For Me Button Label",
+        "Source": "Choose For Me",
+        "Target": "替我选择"
+      },
+      {
+        "ObjectName": "Text (TMP)",
+        "Source": "Options",
+        "Target": "选项"
+      },
+      {
+        "ObjectName": "Text (TMP)",
+        "Source": "How to Play",
+        "Target": "游戏规则"
+      },
+      {
+        "ObjectName": "Finish Button Label",
+        "Source": "Finish",
+        "Target": "完成"
+      },
+      {
+        "ObjectName": "Text (TMP)",
+        "Source": "Undo",
+        "Target": "撤销"
+      },
+      {
+        "ObjectName": "Text",
+        "Source": "Menu",
+        "Target": "菜单"
+      },
+      {
+        "ObjectName": "Heading Label",
+        "Source": "Options",
+        "Target": "选项"
+      },
+      {
+        "ObjectName": "Heading",
+        "Source": "Credits",
+        "Target": "制作人员"
+      },
+      {
+        "ObjectName": "Hint Label",
+        "Source": "Select Hero to Draw Cards",
+        "Target": "选择抽牌的英雄"
+      },
+      {
+        "ObjectName": "Hint Label",
+        "Source": "Select Hero to play cards",
+        "Target": "选择打出牌的英雄"
+      },
+      {
+        "ObjectName": "Hint Label",
+        "Source": "Select Hero to use powers",
+        "Target": "选择使用能力的英雄"
+      },
+      {
+        "ObjectName": "Hint Label",
+        "Source": "Select which Hero is considered to have the fewest cards in hand",
+        "Target": "选择视为手牌最少的英雄"
+      },
+      {
+        "ObjectName": "Hint Label",
+        "Source": "Select which of these targets is considered to have the Highest HP",
+        "Target": "选择视为生命值最高的目标"
+      },
+      {
+        "ObjectName": "Hint Label",
+        "Source": "Select the order in which the effects on these cards resolve",
+        "Target": "选择这些卡牌效果的结算顺序"
+      },
+      {
+        "ObjectName": "Skip Button Label",
+        "Source": "Skip Ability",
+        "Target": "跳过能力"
+      },
+      {
+        "ObjectName": "Skip Button Label",
+        "Source": "Skip Draw",
+        "Target": "跳过抽牌"
+      },
+      {
+        "ObjectName": "Skip Button Label",
+        "Source": "Skip Play",
+        "Target": "跳过出牌"
+      },
+      {
+        "ObjectName": "Skip Button Label",
+        "Source": "Skip Power",
+        "Target": "跳过能力"
+      },
+      {
+        "ObjectName": "Skip Button Label",
+        "Source": "Skip Selection",
+        "Target": "跳过选择"
+      }
+    ],
+    "Cards": [
+      {
+        "Card": "LegacyCharacter",
+        "Source": "Until your {Start}, +1 damage dealt by ally characters.",
+        "Target": "直到你的{Start}，盟友角色造成的伤害+1。"
+      },
+      {
+        "Card": "BolsterAllies",
+        "Source": "Each Hero draws 1 card.",
+        "Target": "每位英雄抽1张牌。"
+      },
+      {
+        "Card": "BolsterAllies",
+        "Source": "1 Hero other than you plays 1 card.",
+        "Target": "除你以外的1位英雄打出1张牌。"
+      },
+      {
+        "Card": "FlyingSmash",
+        "Source": "{Legacy} deals up to 3 targets 3 melee damage each.",
+        "Target": "{Legacy}对至多3个目标各造成3点近战伤害。"
+      },
+      {
+        "Card": "BulletproofSkin",
+        "Source": "-1 damage dealt to {Legacy}.",
+        "Target": "对{Legacy}造成的伤害-1。"
+      },
+      {
+        "Card": "BaronBladeCharacter",
+        "Source": "Discard the top {H - 2} cards of the Villain deck.",
+        "Target": "弃掉反派牌堆顶的{H - 2}张牌。"
+      },
+      {
+        "Card": "RemoteWalkingTank",
+        "Source": "This card deals the Hero target with the highest HP {H} energy damage.",
+        "Target": "此牌对生命值最高的英雄目标造成{H}点能量伤害。"
+      }
+    ]
+  }
+}

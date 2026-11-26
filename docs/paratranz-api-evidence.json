@@ -1,0 +1,47 @@
+{
+  "retrievedDate": "2026-11-26",
+  "url": "https://paratranz.cn/api-docs?format=json",
+  "version": "0.7.1",
+  "openapiSha256": "16a0430a4e4e285bb5c557c87c4e95d1ab6e5c376e2972eb11a45efd4381c44b",
+  "fileTranslation": {
+    "operationId": "getFileStrings",
+    "summary": "词条数据",
+    "description": "通过ID获取文件的全部词条数据，包含原文与译文，不分页。\n\n需项目成员权限。如需按条件筛选或分页获取词条，请用词条列表接口 `GET /projects/{projectId}/strings`\n",
+    "tags": [
+      "Files"
+    ],
+    "responses": {
+      "200": {
+        "description": "返回JSON数据文件，以附件形式下载，文件名为原文件名加 .json",
+        "content": {
+          "application/json": {
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/TinyString"
+              }
+            }
+          }
+        }
+      },
+      "403": {
+        "description": "非项目成员；未登录时为 401，私密项目对非成员为 404"
+      }
+    }
+  },
+  "stage": {
+    "default": 0,
+    "example": 1,
+    "description": "词条状态\n  * `0` - 未翻译\n\n  * `1` - 已翻译\n\n  * `2` - 有疑问\n\n  * `3` - 已检查\n\n  * `5` - 已审核（未开启二次校对的项目审核词条时会直接设为此状态）\n\n  * `9` - 已锁定，此状态下仅管理员可解锁，词条强制按译文导出\n\n  * `-1` - 已隐藏，此状态下词条强制按原文导出\n",
+    "type": "integer",
+    "enum": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      9,
+      -1
+    ]
+  }
+}

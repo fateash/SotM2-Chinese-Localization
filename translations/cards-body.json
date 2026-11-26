@@ -1,0 +1,51 @@
+[
+  {
+    "key": "card.LegacyCharacter.body.001",
+    "original": "Until your {Start}, +1 damage dealt by ally characters.",
+    "translation": "直到你的{Start}，盟友角色造成的伤害+1。",
+    "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。",
+    "stage": 1
+  },
+  {
+    "key": "card.BolsterAllies.body.001",
+    "original": "Each Hero draws 1 card.",
+    "translation": "每位英雄抽1张牌。",
+    "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。",
+    "stage": 1
+  },
+  {
+    "key": "card.BolsterAllies.body.002",
+    "original": "1 Hero other than you plays 1 card.",
+    "translation": "除你以外的1位英雄打出1张牌。",
+    "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。",
+    "stage": 1
+  },
+  {
+    "key": "card.FlyingSmash.body.001",
+    "original": "{Legacy} deals up to 3 targets 3 melee damage each.",
+    "translation": "{Legacy}对至多3个目标各造成3点近战伤害。",
+    "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。",
+    "stage": 1
+  },
+  {
+    "key": "card.BulletproofSkin.body.001",
+    "original": "-1 damage dealt to {Legacy}.",
+    "translation": "对{Legacy}造成的伤害-1。",
+    "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。",
+    "stage": 1
+  },
+  {
+    "key": "card.BaronBladeCharacter.body.001",
+    "original": "Discard the top {H - 2} cards of the Villain deck.",
+    "translation": "弃掉反派牌堆顶的{H - 2}张牌。",
+    "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。",
+    "stage": 1
+  },
+  {
+    "key": "card.RemoteWalkingTank.body.001",
+    "original": "This card deals the Hero target with the highest HP {H} energy damage.",
+    "translation": "此牌对生命值最高的英雄目标造成{H}点能量伤害。",
+    "context": "卡牌规则正文样板；保留所有花括号、标签、数字及正负号。专名与规则术语仍以项目后续审定为准。",
+    "stage": 1
+  }
+]

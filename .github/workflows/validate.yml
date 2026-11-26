@@ -1,0 +1,23 @@
+name: Validate localization
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Test converter and snapshot guards
+        run: python3 -m unittest discover -s tests -v
+      - name: Build candidate from translation snapshot
+        run: python3 tools/catalog.py build --input translations --out build --mode translated
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sotm2-text-candidate
+          path: build/
+          if-no-files-found: error

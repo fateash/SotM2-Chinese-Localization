@@ -1,0 +1,15 @@
+{
+  "runtimeVersion": "0.1.4",
+  "buildId": "26880829",
+  "scope": "user-reported visual pass for requested focused checks; not full-game/full-localization acceptance",
+  "acceptedDate": "2026-11-26",
+  "evidenceArchive": "SotM2-Crash-Evidence-20261126-175058-2c2ea9.zip",
+  "runtimeLogConfirmed": [
+    "PROTOTYPE_LOADED 0.1.4",
+    "DYNAMIC_TEXT_BYPASS input=SetText",
+    "FONT_READY generation=1"
+  ],
+  "pluginSha256": "2EBEB5E1C9DA1D98E465989E5AD8023EFBF54D33BF980F080417CF31C3CE3714",
+  "knownInteropWarningsRetained": true,
+  "languageReview": "sample translations only; not final terminology approval"
+}

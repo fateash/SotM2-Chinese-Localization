@@ -1,0 +1,226 @@
+{
+  "Ui": [
+    {
+      "ObjectName": "Text",
+      "Source": "Cancel",
+      "Target": "取消"
+    },
+    {
+      "ObjectName": "Text",
+      "Source": "Options",
+      "Target": "选项"
+    },
+    {
+      "ObjectName": "Text",
+      "Source": "New Game",
+      "Target": "新建游戏"
+    },
+    {
+      "ObjectName": "Text",
+      "Source": "Credits",
+      "Target": "制作人员"
+    },
+    {
+      "ObjectName": "Text",
+      "Source": "Quick Play",
+      "Target": "快速游戏"
+    },
+    {
+      "ObjectName": "Text",
+      "Source": "How to Play",
+      "Target": "游戏规则"
+    },
+    {
+      "ObjectName": "Text",
+      "Source": "Achievements",
+      "Target": "成就"
+    },
+    {
+      "ObjectName": "Text",
+      "Source": "Continue Game",
+      "Target": "继续游戏"
+    },
+    {
+      "ObjectName": "Text",
+      "Source": "Early Access Info",
+      "Target": "抢先体验说明"
+    },
+    {
+      "ObjectName": "Text",
+      "Source": "I Understand",
+      "Target": "我已了解"
+    },
+    {
+      "ObjectName": "Text",
+      "Source": "Help & Feedback",
+      "Target": "帮助与反馈"
+    },
+    {
+      "ObjectName": "Text",
+      "Source": "Card Library",
+      "Target": "卡牌图鉴"
+    },
+    {
+      "ObjectName": "Selection Button Label",
+      "Source": "Select",
+      "Target": "选择"
+    },
+    {
+      "ObjectName": "Text (TMP)",
+      "Source": "Quit",
+      "Target": "退出"
+    },
+    {
+      "ObjectName": "Text (TMP)",
+      "Source": "Continue",
+      "Target": "继续"
+    },
+    {
+      "ObjectName": "Text (TMP)",
+      "Source": "Menu",
+      "Target": "菜单"
+    },
+    {
+      "ObjectName": "Text (TMP)",
+      "Source": "Send Feedback",
+      "Target": "发送反馈"
+    },
+    {
+      "ObjectName": "Skip Button Label",
+      "Source": "Skip",
+      "Target": "跳过"
+    },
+    {
+      "ObjectName": "Choose For Me Button Label",
+      "Source": "Choose For Me",
+      "Target": "替我选择"
+    },
+    {
+      "ObjectName": "Text (TMP)",
+      "Source": "Options",
+      "Target": "选项"
+    },
+    {
+      "ObjectName": "Text (TMP)",
+      "Source": "How to Play",
+      "Target": "游戏规则"
+    },
+    {
+      "ObjectName": "Finish Button Label",
+      "Source": "Finish",
+      "Target": "完成"
+    },
+    {
+      "ObjectName": "Text (TMP)",
+      "Source": "Undo",
+      "Target": "撤销"
+    },
+    {
+      "ObjectName": "Text",
+      "Source": "Menu",
+      "Target": "菜单"
+    },
+    {
+      "ObjectName": "Heading Label",
+      "Source": "Options",
+      "Target": "选项"
+    },
+    {
+      "ObjectName": "Heading",
+      "Source": "Credits",
+      "Target": "制作人员"
+    },
+    {
+      "ObjectName": "Hint Label",
+      "Source": "Select Hero to Draw Cards",
+      "Target": "选择抽牌的英雄"
+    },
+    {
+      "ObjectName": "Hint Label",
+      "Source": "Select Hero to play cards",
+      "Target": "选择打出牌的英雄"
+    },
+    {
+      "ObjectName": "Hint Label",
+      "Source": "Select Hero to use powers",
+      "Target": "选择使用能力的英雄"
+    },
+    {
+      "ObjectName": "Hint Label",
+      "Source": "Select which Hero is considered to have the fewest cards in hand",
+      "Target": "选择视为手牌最少的英雄"
+    },
+    {
+      "ObjectName": "Hint Label",
+      "Source": "Select which of these targets is considered to have the Highest HP",
+      "Target": "选择视为生命值最高的目标"
+    },
+    {
+      "ObjectName": "Hint Label",
+      "Source": "Select the order in which the effects on these cards resolve",
+      "Target": "选择这些卡牌效果的结算顺序"
+    },
+    {
+      "ObjectName": "Skip Button Label",
+      "Source": "Skip Ability",
+      "Target": "跳过能力"
+    },
+    {
+      "ObjectName": "Skip Button Label",
+      "Source": "Skip Draw",
+      "Target": "跳过抽牌"
+    },
+    {
+      "ObjectName": "Skip Button Label",
+      "Source": "Skip Play",
+      "Target": "跳过出牌"
+    },
+    {
+      "ObjectName": "Skip Button Label",
+      "Source": "Skip Power",
+      "Target": "跳过能力"
+    },
+    {
+      "ObjectName": "Skip Button Label",
+      "Source": "Skip Selection",
+      "Target": "跳过选择"
+    }
+  ],
+  "Cards": [
+    {
+      "Card": "LegacyCharacter",
+      "Source": "Until your {Start}, +1 damage dealt by ally characters.",
+      "Target": "直到你的{Start}，盟友角色造成的伤害+1。"
+    },
+    {
+      "Card": "BolsterAllies",
+      "Source": "Each Hero draws 1 card.",
+      "Target": "每位英雄抽1张牌。"
+    },
+    {
+      "Card": "BolsterAllies",
+      "Source": "1 Hero other than you plays 1 card.",
+      "Target": "除你以外的1位英雄打出1张牌。"
+    },
+    {
+      "Card": "FlyingSmash",
+      "Source": "{Legacy} deals up to 3 targets 3 melee damage each.",
+      "Target": "{Legacy}对至多3个目标各造成3点近战伤害。"
+    },
+    {
+      "Card": "BulletproofSkin",
+      "Source": "-1 damage dealt to {Legacy}.",
+      "Target": "对{Legacy}造成的伤害-1。"
+    },
+    {
+      "Card": "BaronBladeCharacter",
+      "Source": "Discard the top {H - 2} cards of the Villain deck.",
+      "Target": "弃掉反派牌堆顶的{H - 2}张牌。"
+    },
+    {
+      "Card": "RemoteWalkingTank",
+      "Source": "This card deals the Hero target with the highest HP {H} energy damage.",
+      "Target": "此牌对生命值最高的英雄目标造成{H}点能量伤害。"
+    }
+  ]
+}

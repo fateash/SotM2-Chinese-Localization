@@ -1,0 +1,50 @@
+name: Import ParaTranz snapshot
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: paratranz-snapshot
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Test bridge
+        run: python3 -m unittest discover -s tests -v
+      - name: Read complete ParaTranz snapshot
+        env:
+          PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+        run: python3 tools/pull_paratranz.py --out incoming
+      - name: Validate and build candidate
+        run: python3 tools/catalog.py build --input incoming --out build --mode translated
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sotm2-paratranz-candidate
+          path: build/
+          if-no-files-found: error
+      - name: Commit snapshot and open review PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+          cp incoming/ui.json translations/ui.json
+          cp incoming/cards-body.json translations/cards-body.json
+          if git diff --quiet -- translations; then
+            echo 'No translation snapshot changes.'
+            exit 0
+          fi
+          branch="paratranz/snapshot-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git switch -c "$branch"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add translations/ui.json translations/cards-body.json
+          git commit -m 'Import validated ParaTranz translation snapshot'
+          git push origin "$branch"
+          python3 tools/pr_body.py build/build-report.json > "$RUNNER_TEMP/sotm2-pr.md"
+          gh pr create --base "$BASE_BRANCH" --head "$branch" --title 'Update SotM2 translation snapshot' --body-file "$RUNNER_TEMP/sotm2-pr.md"

@@ -1,0 +1,34 @@
+test_blank_project_rejected (test_pipeline.PipelineTests.test_blank_project_rejected) ... ok
+test_diff_preserves_id_across_source_changes (test_pipeline.PipelineTests.test_diff_preserves_id_across_source_changes) ... ok
+test_disputed_not_allowed_in_translated (test_pipeline.PipelineTests.test_disputed_not_allowed_in_translated) ... ok
+test_duplicate_json_property (test_pipeline.PipelineTests.test_duplicate_json_property) ... ok
+test_duplicate_registry_key (test_pipeline.PipelineTests.test_duplicate_registry_key) ... ok
+test_duplicate_runtime_locator (test_pipeline.PipelineTests.test_duplicate_runtime_locator) ... ok
+test_duplicate_snapshot_key_across_files (test_pipeline.PipelineTests.test_duplicate_snapshot_key_across_files) ... ok
+test_edit_returns_only_to_its_context (test_pipeline.PipelineTests.test_edit_returns_only_to_its_context) ... ok
+test_empty_translation_omits_for_english_fallback (test_pipeline.PipelineTests.test_empty_translation_omits_for_english_fallback) ... ok
+test_exact_round_trip (test_pipeline.PipelineTests.test_exact_round_trip) ... ok
+test_failed_build_keeps_previous_output (test_pipeline.PipelineTests.test_failed_build_keeps_previous_output) ... ok
+test_future_field_requires_runtime_support (test_pipeline.PipelineTests.test_future_field_requires_runtime_support) ... ok
+test_invalid_stage_not_silently_exported (test_pipeline.PipelineTests.test_invalid_stage_not_silently_exported) ... ok
+test_line_break_change (test_pipeline.PipelineTests.test_line_break_change) ... ok
+test_missing_key (test_pipeline.PipelineTests.test_missing_key) ... ok
+test_missing_stage_only_pilot (test_pipeline.PipelineTests.test_missing_stage_only_pilot) ... ok
+test_number_change (test_pipeline.PipelineTests.test_number_change) ... ok
+test_order_independent_snapshot (test_pipeline.PipelineTests.test_order_independent_snapshot) ... ok
+test_placeholder_loss (test_pipeline.PipelineTests.test_placeholder_loss) ... ok
+test_pull_changes_during_fetch_rejected (test_pipeline.PipelineTests.test_pull_changes_during_fetch_rejected) ... ok
+test_pull_complete (test_pipeline.PipelineTests.test_pull_complete) ... ok
+test_pull_incomplete_rejected (test_pipeline.PipelineTests.test_pull_incomplete_rejected) ... ok
+test_review_stage_is_allowlist (test_pipeline.PipelineTests.test_review_stage_is_allowlist) ... ok
+test_rich_text_nesting (test_pipeline.PipelineTests.test_rich_text_nesting) ... ok
+test_sign_change (test_pipeline.PipelineTests.test_sign_change) ... ok
+test_source_hash_drift (test_pipeline.PipelineTests.test_source_hash_drift) ... ok
+test_sprite_and_paired_tags (test_pipeline.PipelineTests.test_sprite_and_paired_tags) ... ok
+test_stale_original (test_pipeline.PipelineTests.test_stale_original) ... ok
+test_unknown_key (test_pipeline.PipelineTests.test_unknown_key) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.077s
+
+OK

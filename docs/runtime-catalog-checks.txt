@@ -1,0 +1,32 @@
+PASS exact UI source + object
+PASS context mismatch leaves original
+PASS no fuzzy match
+PASS exact card source
+PASS same source wrong card rejected
+PASS changed English remains English
+PASS active replacements remain English
+PASS multi-line body retains CRLF
+PASS untranslated line preserved
+PASS no substring replacement inside another rule
+PASS block retains card identity
+PASS line whitespace not normalized
+PASS mixed line endings and trailing newline preserved
+PASS no replacement permits translation
+PASS unrelated replacement permits translation
+PASS no-op replacement permits translation
+PASS changed number blocks translation
+PASS changed target blocks translation
+PASS replacement affecting only Chinese blocks translation
+PASS chained replacement blocks translation
+PASS missing H token rejected
+PASS lost rich text tags rejected
+PASS duplicate keys rejected
+PASS missing game files skip loader
+PASS changed game binary skips loader
+PASS uploaded build passes runtime guard
+PASS HP digits are not a font target
+PASS non-ASCII numeric symbols are not Chinese
+PASS styled numeric label excluded
+PASS mixed Chinese card body retains font handling
+PASS translated menu retains font handling
+CHECKS_COMPLETE 31
