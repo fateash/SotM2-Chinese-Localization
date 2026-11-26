@@ -1,0 +1,177 @@
+[
+  {
+    "key": "card.BaronBladeCharacter.body.001",
+    "original": "Discard the top {H - 2} cards of the Villain deck.",
+    "translation": "弃掉反派牌堆顶的{H - 2}张牌。",
+    "context": "card.body | BaronBladeCharacter | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：advancedGameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/advancedGameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=915aef0f6736ae4261c469f5d976ab69350c09d790537e9b5474b9653cd74f2a",
+    "stage": 1
+  },
+  {
+    "key": "card.RemoteWalkingTank.body.001",
+    "original": "This card deals the Hero target with the highest HP {H} energy damage.",
+    "translation": "此牌对生命值最高的英雄目标造成{H}点能量伤害。",
+    "context": "card.body | RemoteWalkingTank | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Remote Walking Tank (RemoteWalkingTank)；字段：gameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=37de305e0ccf8d8d3fe4f708f2aabfa029b00e2f470829da051b27af4b886c30",
+    "stage": 1
+  },
+  {
+    "key": "card.BaronBladeCharacter.body.002",
+    "original": "Summon Mobile Defense Platform.",
+    "translation": "召唤Mobile Defense Platform。",
+    "context": "card.body | BaronBladeCharacter | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：setupGameTexts；类型：Setup；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/setupGameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=6d85d16571caa9323449ad0bca35c82b4695cb8d185b60f72b3f154dd0a93571",
+    "stage": 1
+  },
+  {
+    "key": "card.BaronBladeCharacter.body.003",
+    "original": "When {BaronBlade} would be destroyed, instead: {Flip}",
+    "translation": "{BaronBlade}将被摧毁时，改为：{Flip}",
+    "context": "card.body | BaronBladeCharacter | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=c680ee286e68174cf747c4c25fd13db7a464f2e0982ec41b33c9d1b5e7ecfd64",
+    "stage": 1
+  },
+  {
+    "key": "card.BaronBladeCharacter.body.004",
+    "original": "If there are 15 or more cards in the Villain trash, {BaronBlade}'s TerraLunar Impulsion Beam activates, pulling the moon into the Earth. <b>Game Over.</b>",
+    "translation": "若反派弃牌堆中有15张或更多牌，{BaronBlade}的地月冲击光束便会启动，将月球拉向地球。<b>游戏结束。</b>",
+    "context": "card.body | BaronBladeCharacter | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：gameTexts；类型：PhaseAction；阶段：Start。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=9189fd0eb0ecc3a1ee0943f56a734f0739f55cdd8c7ee0ac36e256c7f9c66c82",
+    "stage": 1
+  },
+  {
+    "key": "card.BaronBladeCharacter.body.005",
+    "original": "When flipped to this side, destroy all Villain Ongoing cards and set {BaronBlade}'s HP to 30.",
+    "translation": "翻至此面时，摧毁所有反派持续牌，并将{BaronBlade}的生命值设为30。",
+    "context": "card.body | BaronBladeCharacter | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：flippedGameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=36c7cea61b5dbf9fcd3428fe408e6fbce0ab8f46295139e0aafaf9a5302cd8fe",
+    "stage": 1
+  },
+  {
+    "key": "card.BaronBladeCharacter.body.006",
+    "original": "{BaronBlade} deals the Hero target with the highest HP {H} melee damage. {BaronBlade} deals each Hero target 1 energy damage.",
+    "translation": "{BaronBlade}对生命值最高的英雄目标造成{H}点近战伤害。{BaronBlade}对每个英雄目标造成1点能量伤害。",
+    "context": "card.body | BaronBladeCharacter | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：flippedGameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=0b284f20a3d6bec467d04513157e754f2cee988a7bbc8ef88ac8885c9b344c25",
+    "stage": 1
+  },
+  {
+    "key": "card.BaronBladeCharacter.body.007",
+    "original": "−2 damage dealt to {BaronBlade}.",
+    "translation": "对{BaronBlade}造成的伤害−2。",
+    "context": "card.body | BaronBladeCharacter | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：flippedAdvancedGameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/flippedAdvancedGameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=18602126a37f25cf4510d3c22872a37a2202fe14c2b920fa555556306062a2ad",
+    "stage": 1
+  },
+  {
+    "key": "card.BacklashFieldGenerator.body.001",
+    "original": "After any Villain target other than this card is dealt damage by a Hero target, this card deals the attacker 2 lightning damage.",
+    "translation": "此牌以外的任意反派目标受到英雄目标造成的伤害后，此牌对攻击者造成2点闪电伤害。",
+    "context": "card.body | BacklashFieldGenerator | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Backlash Field Generator (BacklashFieldGenerator)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=4196f4e19e4b43e5e401390886540916ac124499c7752d5af8611870e49f2784",
+    "stage": 1
+  },
+  {
+    "key": "card.BladeBattalion.body.001",
+    "original": "This card deals the Hero target with the highest HP X melee damage, where X is the current HP of this card.",
+    "translation": "此牌对生命值最高的英雄目标造成X点近战伤害，X为此牌当前的生命值。",
+    "context": "card.body | BladeBattalion | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Blade Battalion (BladeBattalion)；字段：gameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=33d4c6128b6cfc8eea33cee2a95fce0302bb402ebcb25f191366e27691230cac",
+    "stage": 1
+  },
+  {
+    "key": "card.ConsiderThePriceOfVictory.body.001",
+    "original": "−1 damage dealt by Hero targets.",
+    "translation": "英雄目标造成的伤害−1。",
+    "context": "card.body | ConsiderThePriceOfVictory | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：“Consider the Price of Victory!” (ConsiderThePriceOfVictory)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=0788c6b9e7c1e6e7d31727f780e65b539bd8d35f151b413d9887c2a49adde8ed",
+    "stage": 1
+  },
+  {
+    "key": "card.ConsiderThePriceOfVictory.body.002",
+    "original": "Each Hero discards 1 card. {BaronBlade} deals each Hero target 1 sonic damage. Discard the top {H - 1} cards of the Villain deck. Destroy this card.",
+    "translation": "每位英雄弃掉1张牌。{BaronBlade}对每个英雄目标造成1点音波伤害。弃掉反派牌堆顶的{H - 1}张牌。摧毁此牌。",
+    "context": "card.body | ConsiderThePriceOfVictory | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：“Consider the Price of Victory!” (ConsiderThePriceOfVictory)；字段：gameTexts；类型：PhaseAction；阶段：Start。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=d029c58f61b67de41246a9eccef103b2b618482f2469aeecf61d13528990b1a0",
+    "stage": 1
+  },
+  {
+    "key": "card.DeviousDisruption.body.001",
+    "original": "Each Hero may destroy any of their Ongoing and/or Item cards.",
+    "translation": "每位英雄可以摧毁自己任意数量的持续牌和/或物品牌。",
+    "context": "card.body | DeviousDisruption | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Devious Disruption (DeviousDisruption)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=54dab3f19f0c3f95e603aab6c16aea84352ea22a4a48a70466ffb32a4c5b972f",
+    "stage": 1
+  },
+  {
+    "key": "card.DeviousDisruption.body.002",
+    "original": "{BaronBlade} deals each Hero character X lightning damage, where X is the number of Hero Ongoing and Item cards in that Hero’s play area plus 3.",
+    "translation": "{BaronBlade}对每个英雄角色造成X点闪电伤害，X为该英雄场上的英雄持续牌与物品牌的总数加3。",
+    "context": "card.body | DeviousDisruption | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Devious Disruption (DeviousDisruption)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=1db6fc7a361d35811b65a89ce944a8a694eeacf9851bb4001c6e82f055a8e938",
+    "stage": 1
+  },
+  {
+    "key": "card.HastenDoom.body.001",
+    "original": "{BaronBlade} deals each Hero target 2 toxic damage.",
+    "translation": "{BaronBlade}对每个英雄目标造成2点毒素伤害。",
+    "context": "card.body | HastenDoom | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Hasten Doom (HastenDoom)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=a43830fd53fbb348c51e0b163e4edccc67d472bdb3285354eb4e25dff9e923c3",
+    "stage": 1
+  },
+  {
+    "key": "card.HastenDoom.body.002",
+    "original": "Play the top card of the Villain deck.",
+    "translation": "打出反派牌堆的顶牌。",
+    "context": "card.body | HastenDoom | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Hasten Doom (HastenDoom)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=11dbf60361900b35765f5f825924254a78e66f14b873bb5020ada1ea8cbff869",
+    "stage": 1
+  },
+  {
+    "key": "card.JetJumpBattalion.body.001",
+    "original": "After this card is played, reveal the top card of the Villain deck. If that card is a Device card, play it. Otherwise, discard it.",
+    "translation": "此牌打出后，展示反派牌堆的顶牌。若该牌为装置牌，将其打出。否则，将其弃掉。",
+    "context": "card.body | JetJumpBattalion | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Jet-Jump Battalion (JetJumpBattalion)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=840d578feca0b38ef792e69d1540e2669941e22843e20a1833fdf2e60e08dfff",
+    "stage": 1
+  },
+  {
+    "key": "card.JetJumpBattalion.body.002",
+    "original": "This card deals the {H - 2} Hero targets with the highest HP 2 energy damage each.",
+    "translation": "此牌对生命值最高的{H - 2}个英雄目标各造成2点能量伤害。",
+    "context": "card.body | JetJumpBattalion | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Jet-Jump Battalion (JetJumpBattalion)；字段：gameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=75da2115d25360670fdcca4ded4e5403355a554a7a28ec653d647c9b3dc82e64",
+    "stage": 1
+  },
+  {
+    "key": "card.LivingForceField.body.001",
+    "original": "−1 damage dealt to {BaronBlade}.",
+    "translation": "对{BaronBlade}造成的伤害−1。",
+    "context": "card.body | LivingForceField | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Living Force-Field (LivingForceField)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=7975f33f8e4a68c82ebd0f8f5e1eb5df56ed151aabfad3bba5f46d088e8a99eb",
+    "stage": 1
+  },
+  {
+    "key": "card.LivingForceField.body.002",
+    "original": "{BaronBlade} regains {H - 1} HP.",
+    "translation": "{BaronBlade}恢复{H - 1}点生命值。",
+    "context": "card.body | LivingForceField | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Living Force-Field (LivingForceField)；字段：gameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=669f84f340e1691a0de8dab634d22a99596621dcc6ef9a9aeb0b27c95de90e49",
+    "stage": 1
+  },
+  {
+    "key": "card.MobileDefensePlatform.body.001",
+    "original": "{BaronBlade} is immune to damage.",
+    "translation": "{BaronBlade}免疫伤害。",
+    "context": "card.body | MobileDefensePlatform | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Mobile Defense Platform (MobileDefensePlatform)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=d615f4b307d24eb3ac2fc35b94213d6a2f856d417db04007c59807b3be04d6ab",
+    "stage": 1
+  },
+  {
+    "key": "card.MobileDefensePlatform.body.002",
+    "original": "Reveal the top card of the Villain deck. If it is a Minion card, play it. Otherwise, discard it.",
+    "translation": "展示反派牌堆的顶牌。若该牌为喽啰牌，将其打出。否则，将其弃掉。",
+    "context": "card.body | MobileDefensePlatform | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Mobile Defense Platform (MobileDefensePlatform)；字段：gameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=9ed08dbc93258d421de63c310255b5027843d61bf5ca7af5843b5c7766537697",
+    "stage": 1
+  },
+  {
+    "key": "card.PoweredTurret.body.001",
+    "original": "+1 damage dealt by this card for each other Device card in play.",
+    "translation": "场上每有一张其他装置牌，此牌造成的伤害便+1。",
+    "context": "card.body | PoweredTurret | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Powered Turret (PoweredTurret)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=a2eb467c126e0da499b0a4203d5073a8f5ebd423bf56687bdd794af33ae78a29",
+    "stage": 1
+  },
+  {
+    "key": "card.PoweredTurret.body.002",
+    "original": "This card deals each Hero target 1 energy damage.",
+    "translation": "此牌对每个英雄目标造成1点能量伤害。",
+    "context": "card.body | PoweredTurret | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Powered Turret (PoweredTurret)；字段：gameTexts；类型：PhaseAction；阶段：End。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=73090a7be1bfa33962dc9f1bffd42e5c0756717ec9ec952997e216bacd721cc4",
+    "stage": 1
+  },
+  {
+    "key": "card.RemoteWalkingTank.body.002",
+    "original": "−1 damage dealt to this card.",
+    "translation": "对此牌造成的伤害−1。",
+    "context": "card.body | RemoteWalkingTank | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Remote Walking Tank (RemoteWalkingTank)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=1becdfd9d6dd3e5907bfee47b021f9058c3a78016f6a3204d15c2bd111e14faa",
+    "stage": 1
+  }
+]
