@@ -3,189 +3,189 @@
     "key": "card.LegacyCharacter.body.001",
     "original": "Until your {Start}, +1 damage dealt by ally characters.",
     "translation": "直到你的{Start}，盟友角色造成的伤害+1。",
-    "context": "card.body | LegacyCharacter | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Legacy (LegacyCharacter)；字段：gameTexts；类型：Power；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=16e0be7334e10dae426f3cb2511edc030ea8e4e47e773a9aa3a911f35ae7cc80",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | LegacyCharacter | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Legacy (LegacyCharacter)；字段：gameTexts；类型：Power；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=16e0be7334e10dae426f3cb2511edc030ea8e4e47e773a9aa3a911f35ae7cc80"
   },
   {
     "key": "card.BolsterAllies.body.001",
     "original": "Each Hero draws 1 card.",
     "translation": "每位英雄抽1张牌。",
-    "context": "card.body | BolsterAllies | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Bolster Allies (BolsterAllies)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=7dbd9b614ab49307dc0b3d10c5d444f2b671fd564bdda20ab20b0f0929405c51",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | BolsterAllies | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Bolster Allies (BolsterAllies)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=7dbd9b614ab49307dc0b3d10c5d444f2b671fd564bdda20ab20b0f0929405c51"
   },
   {
     "key": "card.BolsterAllies.body.002",
     "original": "1 Hero other than you plays 1 card.",
     "translation": "除你以外的1位英雄打出1张牌。",
-    "context": "card.body | BolsterAllies | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Bolster Allies (BolsterAllies)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=c8e5fbf44e3298cc4fff154860fcc7ea90a6d316c5e1f26bd3b0c32a75c6d436",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | BolsterAllies | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Bolster Allies (BolsterAllies)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=c8e5fbf44e3298cc4fff154860fcc7ea90a6d316c5e1f26bd3b0c32a75c6d436"
   },
   {
     "key": "card.FlyingSmash.body.001",
     "original": "{Legacy} deals up to 3 targets 3 melee damage each.",
     "translation": "{Legacy}对至多3个目标各造成3点近战伤害。",
-    "context": "card.body | FlyingSmash | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Flying Smash (FlyingSmash)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=e57530018ff37ffd40008318fe6c88bfd96661e28f026940a3e8b106cf239c50",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | FlyingSmash | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Flying Smash (FlyingSmash)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=e57530018ff37ffd40008318fe6c88bfd96661e28f026940a3e8b106cf239c50"
   },
   {
     "key": "card.BulletproofSkin.body.001",
     "original": "-1 damage dealt to {Legacy}.",
     "translation": "对{Legacy}造成的伤害-1。",
-    "context": "card.body | BulletproofSkin | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Bulletproof Skin (BulletproofSkin)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=408818334334fcc4031f7d68216b5961656d05759d3958a827ca0171cc442de8",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | BulletproofSkin | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Bulletproof Skin (BulletproofSkin)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=408818334334fcc4031f7d68216b5961656d05759d3958a827ca0171cc442de8"
   },
   {
     "key": "card.LegacyCharacter.body.002",
     "original": "1 Hero takes their {Power}.",
     "translation": "1位英雄进行其{Power}。",
-    "context": "card.body | LegacyCharacter | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Legacy (LegacyCharacter)；字段：flippedGameTexts；类型：IncapacitatedAbility；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=380b378c6576dcf31e12d0eab03f566e8e140d4510c411f1ef49629e14306d2e",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | LegacyCharacter | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Legacy (LegacyCharacter)；字段：flippedGameTexts；类型：IncapacitatedAbility；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=380b378c6576dcf31e12d0eab03f566e8e140d4510c411f1ef49629e14306d2e"
   },
   {
     "key": "card.LegacyCharacter.body.003",
     "original": "1 Hero discovers 1 Ongoing card.",
     "translation": "1位英雄发现1张持续牌。",
-    "context": "card.body | LegacyCharacter | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Legacy (LegacyCharacter)；字段：flippedGameTexts；类型：IncapacitatedAbility；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=fa0bb7f857016cebc33954b136af1d931271df45b10a5a33884068f200f5e8ba",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | LegacyCharacter | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Legacy (LegacyCharacter)；字段：flippedGameTexts；类型：IncapacitatedAbility；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=fa0bb7f857016cebc33954b136af1d931271df45b10a5a33884068f200f5e8ba"
   },
   {
     "key": "card.LegacyCharacter.body.004",
     "original": "Until your {Start}, −2 damage dealt by Environment targets.",
     "translation": "直到你的{Start}，环境目标造成的伤害−2。",
-    "context": "card.body | LegacyCharacter | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Legacy (LegacyCharacter)；字段：flippedGameTexts；类型：IncapacitatedAbility；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=5fde61538f9bf8b3dfef99ac5d8d4b97b2f9720d45f1e624ae2ccbbde2f33551",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | LegacyCharacter | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Legacy (LegacyCharacter)；字段：flippedGameTexts；类型：IncapacitatedAbility；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=5fde61538f9bf8b3dfef99ac5d8d4b97b2f9720d45f1e624ae2ccbbde2f33551"
   },
   {
     "key": "card.DangerSense.body.001",
     "original": "{Legacy} is immune to damage dealt by Environment targets.",
     "translation": "{Legacy}免疫环境目标造成的伤害。",
-    "context": "card.body | DangerSense | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Danger Sense (DangerSense)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=20bac510e8a2629affa9995e50882559362ab430ea8b237217fe15758c006386",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | DangerSense | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Danger Sense (DangerSense)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=20bac510e8a2629affa9995e50882559362ab430ea8b237217fe15758c006386"
   },
   {
     "key": "card.DangerSense.body.002",
     "original": "Bury 1 Environment target in play. Destroy this card.",
     "translation": "埋藏场上的1个环境目标。摧毁此牌。",
-    "context": "card.body | DangerSense | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Danger Sense (DangerSense)；字段：gameTexts；类型：Power；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=eaaf68e281c7731bb369038d88c966669d64a4a05248f378a6369cd20d87e642",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | DangerSense | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Danger Sense (DangerSense)；字段：gameTexts；类型：Power；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=eaaf68e281c7731bb369038d88c966669d64a4a05248f378a6369cd20d87e642"
   },
   {
     "key": "card.DauntlessDurability.body.001",
     "original": "Whenever {Legacy} would be dealt 5 or more damage, prevent that damage and destroy this card.",
     "translation": "每当{Legacy}将受到5点或更多伤害时，防止该次伤害并摧毁此牌。",
-    "context": "card.body | DauntlessDurability | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Dauntless Durability (DauntlessDurability)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=5bdee009ce1d7e200aea5d9b1362f61b98f53074cd28781af2473af26632dc50",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | DauntlessDurability | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Dauntless Durability (DauntlessDurability)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=5bdee009ce1d7e200aea5d9b1362f61b98f53074cd28781af2473af26632dc50"
   },
   {
     "key": "card.DauntlessDurability.body.002",
     "original": "When this card is destroyed, {Legacy} regains 2 HP.",
     "translation": "此牌被摧毁时，{Legacy}恢复2点生命值。",
-    "context": "card.body | DauntlessDurability | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Dauntless Durability (DauntlessDurability)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=13f62445594b7f69c7f91db5f29edb7d689d57e354dfaf32946e3649ba7efbb8",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | DauntlessDurability | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Dauntless Durability (DauntlessDurability)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=13f62445594b7f69c7f91db5f29edb7d689d57e354dfaf32946e3649ba7efbb8"
   },
   {
     "key": "card.HeroicInterception.body.001",
     "original": "After this card is played, {Legacy} deals himself 3 fixed melee damage.",
     "translation": "此牌打出后，{Legacy}对自己造成3点固定近战伤害。",
-    "context": "card.body | HeroicInterception | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Heroic Interception (HeroicInterception)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=e33ef8cc52bb932c077261912f6b2ec3c5ae0d7967ab8558954b97448c9ad8cd",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | HeroicInterception | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Heroic Interception (HeroicInterception)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=e33ef8cc52bb932c077261912f6b2ec3c5ae0d7967ab8558954b97448c9ad8cd"
   },
   {
     "key": "card.HeroicInterception.body.002",
     "original": "Your allies are immune to damage.",
     "translation": "你的盟友免疫伤害。",
-    "context": "card.body | HeroicInterception | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Heroic Interception (HeroicInterception)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=6b50853aec7af9f25bd9ba46efba8965c2a33935ba1ab03187346336efabb02d",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | HeroicInterception | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Heroic Interception (HeroicInterception)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=6b50853aec7af9f25bd9ba46efba8965c2a33935ba1ab03187346336efabb02d"
   },
   {
     "key": "card.HeroicInterception.body.003",
     "original": "Destroy this card.",
     "translation": "摧毁此牌。",
-    "context": "card.body | HeroicInterception | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Heroic Interception (HeroicInterception)；字段：gameTexts；类型：PhaseAction；阶段：Start。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/2/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=5862da0690d4f75dc5093012363cc22b82d103db34a8c039e2a43023e867f364",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | HeroicInterception | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Heroic Interception (HeroicInterception)；字段：gameTexts；类型：PhaseAction；阶段：Start。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/2/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=5862da0690d4f75dc5093012363cc22b82d103db34a8c039e2a43023e867f364"
   },
   {
     "key": "card.InspiringPresence.body.001",
     "original": "After this card is played, each ally regains 1 HP.",
     "translation": "此牌打出后，每个盟友恢复1点生命值。",
-    "context": "card.body | InspiringPresence | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Inspiring Presence (InspiringPresence)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=816ac36096290688dbe742e9039d27b754f8b813165a57e7c9eb9ab1c866b4d3",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | InspiringPresence | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Inspiring Presence (InspiringPresence)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=816ac36096290688dbe742e9039d27b754f8b813165a57e7c9eb9ab1c866b4d3"
   },
   {
     "key": "card.InspiringPresence.body.002",
     "original": "+1 damage dealt by ally characters.",
     "translation": "盟友角色造成的伤害+1。",
-    "context": "card.body | InspiringPresence | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Inspiring Presence (InspiringPresence)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=0bb8d89dfccea27b530dc1f4e10b230bacb35e8c8032c8621ee1db6b7ea6c4cd",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | InspiringPresence | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Inspiring Presence (InspiringPresence)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=0bb8d89dfccea27b530dc1f4e10b230bacb35e8c8032c8621ee1db6b7ea6c4cd"
   },
   {
     "key": "card.KeenVision.body.001",
     "original": "Reveal and replace the top card of 1 deck. If that deck belongs to an ally, they may draw 1 card or use 1 power.",
     "translation": "展示1个牌堆的顶牌，然后将其放回原处。若该牌堆属于盟友，该盟友可以抽1张牌或使用1个能力。",
-    "context": "card.body | KeenVision | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Keen Vision (KeenVision)；字段：gameTexts；类型：Power；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=7fd2f3a9b2fb9d166bef996dde6e8728b1db52bec2ab5e285a95ca19751ab9a8",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | KeenVision | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Keen Vision (KeenVision)；字段：gameTexts；类型：Power；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=7fd2f3a9b2fb9d166bef996dde6e8728b1db52bec2ab5e285a95ca19751ab9a8"
   },
   {
     "key": "card.LeadFromTheFront.body.001",
     "original": "Whenever an ally would be dealt damage by a Villain target, you may redirect that damage to {Legacy}.",
     "translation": "每当盟友将受到反派目标造成的伤害时，你可以将该次伤害转移给{Legacy}。",
-    "context": "card.body | LeadFromTheFront | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Lead from the Front (LeadFromTheFront)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=164c1da06cb376e96141d769bdec46acb7ff50cdb50f24f9dd415221421122a2",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | LeadFromTheFront | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Lead from the Front (LeadFromTheFront)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=164c1da06cb376e96141d769bdec46acb7ff50cdb50f24f9dd415221421122a2"
   },
   {
     "key": "card.TheLegacyRing.body.001",
     "original": "You may use 1 additional power this phase.",
     "translation": "本阶段你可以额外使用1个能力。",
-    "context": "card.body | TheLegacyRing | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：The Legacy Ring (TheLegacyRing)；字段：gameTexts；类型：PhaseAction；阶段：Power。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=7fca515f6c06723a09cb8bc4e848a3bde074879e2bce80af03a1cfdc7958753d",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | TheLegacyRing | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：The Legacy Ring (TheLegacyRing)；字段：gameTexts；类型：PhaseAction；阶段：Power。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=7fca515f6c06723a09cb8bc4e848a3bde074879e2bce80af03a1cfdc7958753d"
   },
   {
     "key": "card.MotivationalCharge.body.001",
     "original": "{Legacy} deals 1 target 3 melee damage. Each of your allies regains 1 HP.",
     "translation": "{Legacy}对1个目标造成3点近战伤害。你的每个盟友各恢复1点生命值。",
-    "context": "card.body | MotivationalCharge | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Motivational Charge (MotivationalCharge)；字段：gameTexts；类型：Power；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=b1d0f0b8dee8393c25bb05471963f1837f9371188957d7acde61584461ce1626",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | MotivationalCharge | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Motivational Charge (MotivationalCharge)；字段：gameTexts；类型：Power；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=b1d0f0b8dee8393c25bb05471963f1837f9371188957d7acde61584461ce1626"
   },
   {
     "key": "card.TheOlOneTwo.body.001",
     "original": "{Legacy} deals 1 target 2 melee damage.",
     "translation": "{Legacy}对1个目标造成2点近战伤害。",
-    "context": "card.body | TheOlOneTwo | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：The Ol' One-Two (TheOlOneTwo)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=ed4d299c9e5da28c90a73f856f000f9872ba75d809d5aacc259908db52442362",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | TheOlOneTwo | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：The Ol' One-Two (TheOlOneTwo)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=ed4d299c9e5da28c90a73f856f000f9872ba75d809d5aacc259908db52442362"
   },
   {
     "key": "card.TheOlOneTwo.body.002",
     "original": "Play 1 card.",
     "translation": "打出1张牌。",
-    "context": "card.body | TheOlOneTwo | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：The Ol' One-Two (TheOlOneTwo)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=ac05fccee14e4f150dacd6be17ff6505f5948778757b96e52a1bf8b82253728f",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | TheOlOneTwo | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：The Ol' One-Two (TheOlOneTwo)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=ac05fccee14e4f150dacd6be17ff6505f5948778757b96e52a1bf8b82253728f"
   },
   {
     "key": "card.TakeDown.body.001",
     "original": "When a Villain card would be played, you may discard that card instead. If you do, the Villain target with the highest HP deals {Legacy} 2 energy damage and destroys this card.",
     "translation": "反派牌将被打出时，你可以改为弃掉该牌。若如此做，生命值最高的反派目标对{Legacy}造成2点能量伤害，并摧毁此牌。",
-    "context": "card.body | TakeDown | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Take Down (TakeDown)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=e5e40ac5656a9f7646f2867710bcdfec91158cbd474e2043d47ab56a906308a6",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | TakeDown | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Take Down (TakeDown)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=e5e40ac5656a9f7646f2867710bcdfec91158cbd474e2043d47ab56a906308a6"
   },
   {
     "key": "card.Thokk.body.001",
     "original": "{Legacy} deals 1 target 5 melee damage.",
     "translation": "{Legacy}对1个目标造成5点近战伤害。",
-    "context": "card.body | Thokk | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Thokk! (Thokk)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=313ee6df68b760bebfb3bf0fe67620f913fc64974e5f6e5fa7b3a747da3da228",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | Thokk | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：Thokk! (Thokk)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=313ee6df68b760bebfb3bf0fe67620f913fc64974e5f6e5fa7b3a747da3da228"
   },
   {
     "key": "card.ATrueHero.body.001",
     "original": "Draw 2 cards.",
     "translation": "抽2张牌。",
-    "context": "card.body | ATrueHero | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：A True Hero (ATrueHero)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=d431f7496ea56cf6c2970ab414d18e15ae296393776c135f4ec582d724ae5ae1",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | ATrueHero | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：A True Hero (ATrueHero)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=d431f7496ea56cf6c2970ab414d18e15ae296393776c135f4ec582d724ae5ae1"
   },
   {
     "key": "card.ATrueHero.body.002",
     "original": "Each of your allies regains 1 HP.",
     "translation": "你的每个盟友各恢复1点生命值。",
-    "context": "card.body | ATrueHero | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：A True Hero (ATrueHero)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=1d90714b1099336efe7141607e2c960b61f242cfee9feef790500524197ceedf",
-    "stage": 1
+    "stage": 1,
+    "context": "card.body | ATrueHero | runtime=0.1.4 | build=26880829\n牌组：Legacy；卡牌：A True Hero (ATrueHero)；字段：gameTexts；类型：普通；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=1d90714b1099336efe7141607e2c960b61f242cfee9feef790500524197ceedf"
   }
 ]
