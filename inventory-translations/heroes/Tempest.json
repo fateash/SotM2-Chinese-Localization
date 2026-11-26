@@ -1,0 +1,667 @@
+[
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/title",
+    "original": "Tempest",
+    "translation": "",
+    "context": "卡组：Tempest；对象：Tempest；类型：deck.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@TempestCharacter/title",
+    "original": "Tempest",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@TempestCharacter/gameTexts/0/title",
+    "original": "Squall",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：ability.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@TempestCharacter/gameTexts/0/body/0",
+    "original": "{Tempest} deals each non-Hero target 1 projectile damage.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@TempestCharacter/flippedGameTexts/0/title",
+    "original": "Gene Bound Failure",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：ability.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@TempestCharacter/flippedGameTexts/0/body/0",
+    "original": "1 Hero takes their {Power}.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@TempestCharacter/flippedGameTexts/0/body/1",
+    "original": "1 Hero salvages 1 Ongoing card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@TempestCharacter/flippedGameTexts/0/body/2",
+    "original": "Select 1 damage type. Until your {Start}, −1 damage dealt of that type to Hero targets.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@AlienWeatherPatterns/title",
+    "original": "Alien Weather Patterns",
+    "translation": "",
+    "context": "卡组：Tempest；对象：AlienWeatherPatterns；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@AlienWeatherPatterns/gameTexts/0/body/0",
+    "original": "You may shuffle your trash into your deck.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：AlienWeatherPatterns；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@AlienWeatherPatterns/gameTexts/1/body/0",
+    "original": "Discover 3 Weather cards.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：AlienWeatherPatterns；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@AlienWeatherPatterns/flavorQuotes/@SkyScraper/text",
+    "original": "These skies are so different from Dok’Thorath.{BR}Are they like or unlike those from your--{BR}ah, er. Oh... I am sorry.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：AlienWeatherPatterns / SkyScraper；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@AlienWeatherPatterns/flavorReference",
+    "original": "Sky-Scraper, Cosmic Tales Vol. 2, #284",
+    "translation": "",
+    "context": "卡组：Tempest；对象：AlienWeatherPatterns；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@AtlanteanStormblade/title",
+    "original": "Atlantean Stormblade",
+    "translation": "",
+    "context": "卡组：Tempest；对象：AtlanteanStormblade；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@AtlanteanStormblade/gameTexts/0/body/0",
+    "original": "After any Weather card is destroyed, {Tempest} deals 1 target 1 lightning damage.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：AtlanteanStormblade；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@AtlanteanStormblade/gameTexts/1/body/0",
+    "original": "{Tempest} deals 1 target 3 irreducible lightning damage. Destroy 1 Weather card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：AtlanteanStormblade；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@AtlanteanStormblade/flavorQuotes/@Leviathan/text",
+    "original": "You too have found power beyond what we{BR}brought from Vognild Prime. There is strength in this{BR}place... strength <b>ripe</b> for our taking!",
+    "translation": "",
+    "context": "卡组：Tempest；对象：AtlanteanStormblade / Leviathan；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@AtlanteanStormblade/flavorReference",
+    "original": "Leviathan, Cosmic Tales Vol. 2 #512",
+    "translation": "",
+    "context": "卡组：Tempest；对象：AtlanteanStormblade；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@BallLightning/title",
+    "original": "Ball Lightning",
+    "translation": "",
+    "context": "卡组：Tempest；对象：BallLightning；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@BallLightning/gameTexts/0/body/0",
+    "original": "You may destroy 1 Ongoing card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：BallLightning；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@BallLightning/gameTexts/1/body/0",
+    "original": "{Tempest} deals 1 target 3 lightning damage.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：BallLightning；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@BallLightning/flavorQuotes/@Tempest/text",
+    "original": "The polarizing power of electricity can{BR}produce many interesting results.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：BallLightning / Tempest；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@BallLightning/flavorReference",
+    "original": "Tempest, Prime Wardens Vol. 1, #190",
+    "translation": "",
+    "context": "卡组：Tempest；对象：BallLightning；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ChainLightning/title",
+    "original": "Chain Lightning",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ChainLightning；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ChainLightning/gameTexts/0/body/0",
+    "original": "Discover 1 Weather card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ChainLightning；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ChainLightning/gameTexts/1/body/0",
+    "original": "{Tempest} deals up to X targets 3 lightning damage each, where X is the number of Weather cards in play plus 1.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ChainLightning；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ChainLightning/flavorQuotes/@Tempest/text",
+    "original": "I will let <b>nothing</b> stop me from saving as many{BR}Maerynians as I can find. And you’re in my way.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ChainLightning / Tempest；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ChainLightning/flavorReference",
+    "original": "Tempest, Cosmic Tales Vol. 2, #36",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ChainLightning；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@DisplacedAmbassador/title",
+    "original": "Displaced Ambassador",
+    "translation": "",
+    "context": "卡组：Tempest；对象：DisplacedAmbassador；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@DisplacedAmbassador/gameTexts/0/body/0",
+    "original": "Reveal the top card of each Hero deck. Replace any non-Item cards revealed this way. Play any Item cards revealed this way.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：DisplacedAmbassador；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@DisplacedAmbassador/gameTexts/1/body/0",
+    "original": "Each Hero draws 1 card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：DisplacedAmbassador；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@DisplacedAmbassador/flavorQuotes/@Legacy/text",
+    "original": "Welcome to this planet we call Earth!{BR}It is an honor to meet you, Mr. Dalton.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：DisplacedAmbassador / Legacy；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@DisplacedAmbassador/flavorReference",
+    "original": "Legacy, Stranger in a Strange World #3",
+    "translation": "",
+    "context": "卡组：Tempest；对象：DisplacedAmbassador；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ElectricalStorm/title",
+    "original": "Electrical Storm",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ElectricalStorm；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ElectricalStorm/gameTexts/0/body/0",
+    "original": "+1 lightning damage dealt by {Tempest}.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ElectricalStorm；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ElectricalStorm/gameTexts/1/body/0",
+    "original": "{Tempest} deals up to 3 targets 1 lightning damage damage. Either destroy this card or discard 1 card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ElectricalStorm；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ElectricalStorm/flavorQuotes/@Tempest/text",
+    "original": "Your circuits are live with electricity.{BR}Surely they won’t mind a bit more!",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ElectricalStorm / Tempest；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ElectricalStorm/flavorReference",
+    "original": "Tempest, Freedom Five #307",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ElectricalStorm；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@FlashFloodWarning/title",
+    "original": "Flash Flood Warning",
+    "translation": "",
+    "context": "卡组：Tempest；对象：FlashFloodWarning；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@FlashFloodWarning/gameTexts/0/body/0",
+    "original": "Destroy up to 2 Environment cards. If you destroy any Environment cards this way, destroy this card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：FlashFloodWarning；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@FlashFloodWarning/flavorQuotes/@CaptainCosmic/text",
+    "original": "Keep your heads up, chaps!{BR}We’ll all be burnt to a crisp if there’s not some{BR}form of timely intervention!",
+    "translation": "",
+    "context": "卡组：Tempest；对象：FlashFloodWarning / CaptainCosmic；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@FlashFloodWarning/flavorReference",
+    "original": "Captain Cosmic, Cosmic Tales Vol. 2, #29",
+    "translation": "",
+    "context": "卡组：Tempest；对象：FlashFloodWarning；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@GiftOfValMaera/title",
+    "original": "Gift of Val'maera",
+    "translation": "",
+    "context": "卡组：Tempest；对象：GiftOfValMaera；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@GiftOfValMaera/gameTexts/0/body/0",
+    "original": "Each Hero character regains 2 HP.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：GiftOfValMaera；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@GiftOfValMaera/flavorQuotes/@Haka/text",
+    "original": "This rain restores <b>more</b> than the body.{BR}This must be the energy you spoke of, friend.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：GiftOfValMaera / Haka；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@GiftOfValMaera/flavorReference",
+    "original": "Haka, Prime Wardens Vol. 1, #5",
+    "translation": "",
+    "context": "卡组：Tempest；对象：GiftOfValMaera；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@GrievousHailstorm/title",
+    "original": "Grievous Hailstorm",
+    "translation": "",
+    "context": "卡组：Tempest；对象：GrievousHailstorm；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@GrievousHailstorm/gameTexts/0/body/0",
+    "original": "{Tempest} deals each non-Hero target 2 cold damage.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：GrievousHailstorm；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@GrievousHailstorm/flavorQuotes/@GrandWarlordVoss/text",
+    "original": "All ships, reverse thrusters, full power!{BR}Get us out of this accursed atmosphere!",
+    "translation": "",
+    "context": "卡组：Tempest；对象：GrievousHailstorm / GrandWarlordVoss；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@GrievousHailstorm/flavorReference",
+    "original": "Grand Warlord Voss, Cosmic Tales Vol. 1, 300",
+    "translation": "",
+    "context": "卡组：Tempest；对象：GrievousHailstorm；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@LightningSlash/title",
+    "original": "Lightning Slash",
+    "translation": "",
+    "context": "卡组：Tempest；对象：LightningSlash；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@LightningSlash/gameTexts/0/body/0",
+    "original": "Discover 1 Weather card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：LightningSlash；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@LightningSlash/gameTexts/1/body/0",
+    "original": "{Tempest} deals 1 target X lightning damage, where X is the number of Weather cards in play plus 1.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：LightningSlash；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@LightningSlash/flavorQuotes/@Tempest/text",
+    "original": "Never again! You and your kind will never{BR}descend upon another world to pick it clean.{BR}Your campaign of terror ends here!",
+    "translation": "",
+    "context": "卡组：Tempest；对象：LightningSlash / Tempest；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@LightningSlash/flavorReference",
+    "original": "Tempest, Prime Wardens Vol. 1, #15",
+    "translation": "",
+    "context": "卡组：Tempest；对象：LightningSlash；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@LocalizedHurricane/title",
+    "original": "Localized Hurricane",
+    "translation": "",
+    "context": "卡组：Tempest；对象：LocalizedHurricane；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@LocalizedHurricane/gameTexts/0/body/0",
+    "original": "{Tempest} deals up to 4 targets 3 projectile damage each.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：LocalizedHurricane；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@LocalizedHurricane/gameTexts/1/body/0",
+    "original": "Either destroy this card or {Tempest} deals the 2 Hero targets with the highest HP 1 fixed projectile damage each.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：LocalizedHurricane；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@LocalizedHurricane/flavorQuotes/@TheArgentAdept/text",
+    "original": "The eye of the storm is a place of great power,{BR}and of great risk.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：LocalizedHurricane / TheArgentAdept；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@LocalizedHurricane/flavorReference",
+    "original": "The Argent Adept, Prime Wardens Vol. 2, #13",
+    "translation": "",
+    "context": "卡组：Tempest；对象：LocalizedHurricane；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@MaerynianAquaculturalist/title",
+    "original": "Maerynian Aquaculturalist",
+    "translation": "",
+    "context": "卡组：Tempest；对象：MaerynianAquaculturalist；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/12/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@MaerynianAquaculturalist/gameTexts/0/body/0",
+    "original": "After you play any Weather card, you may draw 1 card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：MaerynianAquaculturalist；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@MaerynianAquaculturalist/gameTexts/1/body/0",
+    "original": "Reveal the top card of the Environment deck. Replace it or discard it. Draw 1 card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：MaerynianAquaculturalist；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@MaerynianAquaculturalist/flavorQuotes/@Tempest/text",
+    "original": "The coral that grows in the oceans of this{BR}planet can be convinced to form structures{BR}of impressive size.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：MaerynianAquaculturalist / Tempest；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/12/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@MaerynianAquaculturalist/flavorReference",
+    "original": "Tempest, Cosmic Tales Vol. 2, #499",
+    "translation": "",
+    "context": "卡组：Tempest；对象：MaerynianAquaculturalist；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/12/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ReclaimFromTheDeep/title",
+    "original": "Reclaim from the Deep",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ReclaimFromTheDeep；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/13/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ReclaimFromTheDeep/gameTexts/0/body/0",
+    "original": "Each Hero may salvage 1 Ongoing or Item card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ReclaimFromTheDeep；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ReclaimFromTheDeep/gameTexts/1/body/0",
+    "original": "Collect 1 Ongoing or Item card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ReclaimFromTheDeep；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ReclaimFromTheDeep/flavorQuotes/@Tempest/text",
+    "original": "This blade is aligned with the latent energy{BR}housed in the air itself. I could use it as a focus for{BR}my lightning. In fact, I’ll do just that.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ReclaimFromTheDeep / Tempest；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/13/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ReclaimFromTheDeep/flavorReference",
+    "original": "Tempest, Prime Wardens Vol. 2, #2",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ReclaimFromTheDeep；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/13/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@RollingFog/title",
+    "original": "Rolling Fog",
+    "translation": "",
+    "context": "卡组：Tempest；对象：RollingFog；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/14/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@RollingFog/gameTexts/0/body/0",
+    "original": "Either destroy this card or discard 1 card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：RollingFog；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@RollingFog/gameTexts/1/body/0",
+    "original": "Destroy up to 2 targets with 2 or fewer HP. Draw 1 card for each target destroyed this way.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：RollingFog；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@RollingFog/flavorQuotes/@Fanatic/text",
+    "original": "They are the hunters of men. Bloodsuckers. <b>Fiends.</b>{BR}They will not expect to become the hunted.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：RollingFog / Fanatic；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/14/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@RollingFog/flavorReference",
+    "original": "Fanatic, Prime Wardens Vol. 1, #71",
+    "translation": "",
+    "context": "卡组：Tempest；对象：RollingFog；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/14/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ShieldingWinds/title",
+    "original": "Shielding Winds",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ShieldingWinds；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/15/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ShieldingWinds/gameTexts/0/body/0",
+    "original": "-X damage dealt to Hero targets, where X is the number of Weather cards in play.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ShieldingWinds；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ShieldingWinds/gameTexts/1/body/0",
+    "original": "Destroy this card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ShieldingWinds；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ShieldingWinds/flavorQuotes/@TheVisionary/text",
+    "original": "Effective. Not the sort of shielding I have any{BR}experience with, but don’t consider that a{BR}complaint.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ShieldingWinds / TheVisionary；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/15/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@ShieldingWinds/flavorReference",
+    "original": "The Visionary, Prime Wardens Vol. 1, #21",
+    "translation": "",
+    "context": "卡组：Tempest；对象：ShieldingWinds；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/15/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@Thunderclap/title",
+    "original": "Thunderclap",
+    "translation": "",
+    "context": "卡组：Tempest；对象：Thunderclap；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/16/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@Thunderclap/gameTexts/0/body/0",
+    "original": "After this card is played, {Tempest} deals 1 target 3 lightning damage.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：Thunderclap；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@Thunderclap/gameTexts/1/body/0",
+    "original": "When this card is destroyed, {Tempest} deals up to 3 targets 2 sonic damage each.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：Thunderclap；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@Thunderclap/gameTexts/2/body/0",
+    "original": "You may destroy this card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：Thunderclap；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@Thunderclap/flavorQuotes/@Tempest/text",
+    "original": "Thorathian soldiers are all the same. Trained to{BR}be weapons, but not particularly bright ones.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：Thunderclap / Tempest；类型：flavor.quote。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/16/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/cards/@Thunderclap/flavorReference",
+    "original": "Tempest, Thorathian War One-Shot",
+    "translation": "",
+    "context": "卡组：Tempest；对象：Thunderclap；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/cards/16/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/variants/@TempestCharacter/title",
+    "original": "First Appearance: Tempest",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：card.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/variants/@TempestCharacter/gameTexts/0/title",
+    "original": "Surviving Stranger",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：ability.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/variants/@TempestCharacter/gameTexts/0/body/0",
+    "original": "Destroy 1 Weather card. Play the top card of your deck.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/variants/@TempestCharacter/flippedGameTexts/0/title",
+    "original": "Persecuted Refugee",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：ability.title。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/variants/@TempestCharacter/flippedGameTexts/0/body/0",
+    "original": "1 Hero takes their {Play}.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/variants/@TempestCharacter/flippedGameTexts/0/body/1",
+    "original": "1 Hero salvages 1 Item card.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/variants/@TempestCharacter/flippedGameTexts/0/body/2",
+    "original": "Discard the top card of each deck. You may bury 1 target card discarded this way.",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：rules.body。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/variants/@TempestCharacter/flavorReference",
+    "original": "Stranger In A Strange World #1, Mar 1965",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/variants/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TempestDeckList.json::turnTakers/@Tempest/decks/@Tempest/variants/@TempestCharacter/flippedFlavorReference",
+    "original": "Stranger In A Strange World #8, Aug 1965",
+    "translation": "",
+    "context": "卡组：Tempest；对象：TempestCharacter；类型：flavor.reference。\n来源：TempestDeckList.json#/turnTakers/0/decks/0/variants/0/flippedFlavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  }
+]

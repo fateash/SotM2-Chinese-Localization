@@ -1,0 +1,51 @@
+[
+  {
+    "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/events/@WaywardSunEvent/title",
+    "original": "Wayward Sun",
+    "translation": "",
+    "context": "卡组：CitizenDawn；对象：WaywardSunEvent；类型：events.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/events/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/events/@WaywardSunEvent/gameTexts/0/title",
+    "original": "Alien Influence",
+    "translation": "",
+    "context": "卡组：CitizenDawn；对象：WaywardSunEvent；类型：ability.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/events/@WaywardSunEvent/gameTexts/0/body/0",
+    "original": "Citizen cards are immune to any type of damage that their game text says they deal.",
+    "translation": "",
+    "context": "卡组：CitizenDawn；对象：WaywardSunEvent；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/events/@WaywardSunEvent/body/0",
+    "original": "The Freedom Five have picked up a strange transmission that{BR}seems to have come from beyond the stars! Some piece of alien{BR}technology has made its way through the planet’s atmosphere{BR}and is transmitting a distress signal as it plummets towards the{BR}earth. Could this be some alien in need of aid, or might it be a trap{BR}left over from the recent Thorathian invasion?",
+    "translation": "",
+    "context": "卡组：CitizenDawn；对象：WaywardSunEvent；类型：events.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/events/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/events/@WaywardSunEvent/body/1",
+    "original": "Heroes including the Freedom Five and their new ally Expatriette{BR}head to Insula Primalis to investigate, though they know that{BR}Citizen Dawn controls that island. She and her hordes of Citizens{BR}will oppose the heroes at every turn.",
+    "translation": "",
+    "context": "卡组：CitizenDawn；对象：WaywardSunEvent；类型：events.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/events/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/events/@SunriseEvent/title",
+    "original": "Sunrise",
+    "translation": "",
+    "context": "卡组：CitizenDawn；对象：SunriseEvent；类型：events.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/events/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/events/@SunriseEvent/body/0",
+    "original": "Citizen Dawn appears in Megalopolis, accompanied by a more{BR}powerful set of Citizens than ever seen before! But her new allies{BR}aren’t even the key to her plot -- Citizen Dawn knows the solar{BR}eclipse is upon us, and she intends to pull on its power to increase{BR}her abilities by several orders of magnitude! The Ultimate Citizen{BR}Dawn story is here...",
+    "translation": "",
+    "context": "卡组：CitizenDawn；对象：SunriseEvent；类型：events.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/events/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  }
+]

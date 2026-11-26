@@ -1,0 +1,597 @@
+[
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/title",
+    "original": "Legacy",
+    "translation": "",
+    "context": "卡组：Legacy；对象：Legacy；类型：deck.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@LegacyCharacter/title",
+    "original": "Legacy",
+    "translation": "",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@LegacyCharacter/gameTexts/0/title",
+    "original": "Galvanize",
+    "translation": "",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：ability.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.LegacyCharacter.body.001",
+    "original": "Until your {Start}, +1 damage dealt by ally characters.",
+    "translation": "直到你的{Start}，盟友角色造成的伤害+1。",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@LegacyCharacter/flippedGameTexts/0/title",
+    "original": "A Legacy Lost",
+    "translation": "",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：ability.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.LegacyCharacter.body.002",
+    "original": "1 Hero takes their {Power}.",
+    "translation": "1位英雄进行其{Power}。",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "card.LegacyCharacter.body.003",
+    "original": "1 Hero discovers 1 Ongoing card.",
+    "translation": "1位英雄发现1张持续牌。",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "card.LegacyCharacter.body.004",
+    "original": "Until your {Start}, −2 damage dealt by Environment targets.",
+    "translation": "直到你的{Start}，环境目标造成的伤害−2。",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@BolsterAllies/title",
+    "original": "Bolster Allies",
+    "translation": "",
+    "context": "卡组：Legacy；对象：BolsterAllies；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.BolsterAllies.body.001",
+    "original": "Each Hero draws 1 card.",
+    "translation": "每位英雄抽1张牌。",
+    "context": "卡组：Legacy；对象：BolsterAllies；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "card.BolsterAllies.body.002",
+    "original": "1 Hero other than you plays 1 card.",
+    "translation": "除你以外的1位英雄打出1张牌。",
+    "context": "卡组：Legacy；对象：BolsterAllies；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@BolsterAllies/flavorQuotes/@Legacy/text",
+    "original": "We fight this day... for Freedom!",
+    "translation": "",
+    "context": "卡组：Legacy；对象：BolsterAllies / Legacy；类型：flavor.quote。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@BolsterAllies/flavorReference",
+    "original": "Legacy, Freedom Five Annual #8",
+    "translation": "",
+    "context": "卡组：Legacy；对象：BolsterAllies；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@BulletproofSkin/title",
+    "original": "Bulletproof Skin",
+    "translation": "",
+    "context": "卡组：Legacy；对象：BulletproofSkin；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.BulletproofSkin.body.001",
+    "original": "-1 damage dealt to {Legacy}.",
+    "translation": "对{Legacy}造成的伤害-1。",
+    "context": "卡组：Legacy；对象：BulletproofSkin；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@BulletproofSkin/flavorQuotes/@AnInnocentBystander/text",
+    "original": "He told me everything would be fine as{BR}the gunmen opened fire. And the bullets just{BR}ricocheted right off him!",
+    "translation": "",
+    "context": "卡组：Legacy；对象：BulletproofSkin / AnInnocentBystander；类型：flavor.quote。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@BulletproofSkin/flavorReference",
+    "original": "An innocent bystander, Freedom Four #89",
+    "translation": "",
+    "context": "卡组：Legacy；对象：BulletproofSkin；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@DangerSense/title",
+    "original": "Danger Sense",
+    "translation": "",
+    "context": "卡组：Legacy；对象：DangerSense；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.DangerSense.body.001",
+    "original": "{Legacy} is immune to damage dealt by Environment targets.",
+    "translation": "{Legacy}免疫环境目标造成的伤害。",
+    "context": "卡组：Legacy；对象：DangerSense；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "card.DangerSense.body.002",
+    "original": "Bury 1 Environment target in play. Destroy this card.",
+    "translation": "埋藏场上的1个环境目标。摧毁此牌。",
+    "context": "卡组：Legacy；对象：DangerSense；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@DangerSense/flavorQuotes/@Legacy/text",
+    "original": "Too close! Too close for comfort.",
+    "translation": "",
+    "context": "卡组：Legacy；对象：DangerSense / Legacy；类型：flavor.quote。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@DangerSense/flavorReference",
+    "original": "Legacy, Justice Comics #98",
+    "translation": "",
+    "context": "卡组：Legacy；对象：DangerSense；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@DauntlessDurability/title",
+    "original": "Dauntless Durability",
+    "translation": "",
+    "context": "卡组：Legacy；对象：DauntlessDurability；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.DauntlessDurability.body.001",
+    "original": "Whenever {Legacy} would be dealt 5 or more damage, prevent that damage and destroy this card.",
+    "translation": "每当{Legacy}将受到5点或更多伤害时，防止该次伤害并摧毁此牌。",
+    "context": "卡组：Legacy；对象：DauntlessDurability；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "card.DauntlessDurability.body.002",
+    "original": "When this card is destroyed, {Legacy} regains 2 HP.",
+    "translation": "此牌被摧毁时，{Legacy}恢复2点生命值。",
+    "context": "卡组：Legacy；对象：DauntlessDurability；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@DauntlessDurability/flavorQuotes/@Legacy/text",
+    "original": "You have crushed and despoiled your way across{BR}the galaxy, but the people of Earth will <b>not</b>{BR}be so easily broken!",
+    "translation": "",
+    "context": "卡组：Legacy；对象：DauntlessDurability / Legacy；类型：flavor.quote。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@DauntlessDurability/flavorReference",
+    "original": "Legacy, Justice Comics #261",
+    "translation": "",
+    "context": "卡组：Legacy；对象：DauntlessDurability；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@FlyingSmash/title",
+    "original": "Flying Smash",
+    "translation": "",
+    "context": "卡组：Legacy；对象：FlyingSmash；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.FlyingSmash.body.001",
+    "original": "{Legacy} deals up to 3 targets 3 melee damage each.",
+    "translation": "{Legacy}对至多3个目标各造成3点近战伤害。",
+    "context": "卡组：Legacy；对象：FlyingSmash；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@FlyingSmash/flavorQuotes/@BaronBlade/text",
+    "original": "As you can see, we are untouch--{BR}What was that?",
+    "translation": "",
+    "context": "卡组：Legacy；对象：FlyingSmash / BaronBlade；类型：flavor.quote。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@FlyingSmash/flavorReference",
+    "original": "Baron Blade, Moonfall #2",
+    "translation": "",
+    "context": "卡组：Legacy；对象：FlyingSmash；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@HeroicInterception/title",
+    "original": "Heroic Interception",
+    "translation": "",
+    "context": "卡组：Legacy；对象：HeroicInterception；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.HeroicInterception.body.001",
+    "original": "After this card is played, {Legacy} deals himself 3 fixed melee damage.",
+    "translation": "此牌打出后，{Legacy}对自己造成3点固定近战伤害。",
+    "context": "卡组：Legacy；对象：HeroicInterception；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "card.HeroicInterception.body.002",
+    "original": "Your allies are immune to damage.",
+    "translation": "你的盟友免疫伤害。",
+    "context": "卡组：Legacy；对象：HeroicInterception；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "card.HeroicInterception.body.003",
+    "original": "Destroy this card.",
+    "translation": "摧毁此牌。",
+    "context": "卡组：Legacy；对象：HeroicInterception；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@HeroicInterception/flavorQuotes/@Tachyon/text",
+    "original": "Don’t forget to calculate wind-speed and make{BR}sure you’re approaching the projectile at the optimal{BR}angle to prevent-- oh. He got it. OK.",
+    "translation": "",
+    "context": "卡组：Legacy；对象：HeroicInterception / Tachyon；类型：flavor.quote。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@HeroicInterception/flavorReference",
+    "original": "Tachyon, Freedom Five Annual #12",
+    "translation": "",
+    "context": "卡组：Legacy；对象：HeroicInterception；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@InspiringPresence/title",
+    "original": "Inspiring Presence",
+    "translation": "",
+    "context": "卡组：Legacy；对象：InspiringPresence；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.InspiringPresence.body.001",
+    "original": "After this card is played, each ally regains 1 HP.",
+    "translation": "此牌打出后，每个盟友恢复1点生命值。",
+    "context": "卡组：Legacy；对象：InspiringPresence；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "card.InspiringPresence.body.002",
+    "original": "+1 damage dealt by ally characters.",
+    "translation": "盟友角色造成的伤害+1。",
+    "context": "卡组：Legacy；对象：InspiringPresence；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@InspiringPresence/flavorQuotes/@Legacy/text",
+    "original": "For Freedom, for Liberty, for Justice... for{BR}America!",
+    "translation": "",
+    "context": "卡组：Legacy；对象：InspiringPresence / Legacy；类型：flavor.quote。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@InspiringPresence/flavorReference",
+    "original": "Legacy, Legacy Independence Day Spectacular",
+    "translation": "",
+    "context": "卡组：Legacy；对象：InspiringPresence；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@KeenVision/title",
+    "original": "Keen Vision",
+    "translation": "",
+    "context": "卡组：Legacy；对象：KeenVision；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.KeenVision.body.001",
+    "original": "Reveal and replace the top card of 1 deck. If that deck belongs to an ally, they may draw 1 card or use 1 power.",
+    "translation": "展示1个牌堆的顶牌，然后将其放回原处。若该牌堆属于盟友，该盟友可以抽1张牌或使用1个能力。",
+    "context": "卡组：Legacy；对象：KeenVision；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@KeenVision/flavorQuotes/@AbsoluteZero/text",
+    "original": "The truest sight is not of what’s coming up over{BR}the horizon, but what’s deep inside a person.",
+    "translation": "",
+    "context": "卡组：Legacy；对象：KeenVision / AbsoluteZero；类型：flavor.quote。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@KeenVision/flavorReference",
+    "original": "Absolute Zero, Freedom Five #443",
+    "translation": "",
+    "context": "卡组：Legacy；对象：KeenVision；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@LeadFromTheFront/title",
+    "original": "Lead from the Front",
+    "translation": "",
+    "context": "卡组：Legacy；对象：LeadFromTheFront；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.LeadFromTheFront.body.001",
+    "original": "Whenever an ally would be dealt damage by a Villain target, you may redirect that damage to {Legacy}.",
+    "translation": "每当盟友将受到反派目标造成的伤害时，你可以将该次伤害转移给{Legacy}。",
+    "context": "卡组：Legacy；对象：LeadFromTheFront；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@LeadFromTheFront/flavorQuotes/@Bunker/text",
+    "original": "I’d much rather follow a leader{BR}than follow orders.",
+    "translation": "",
+    "context": "卡组：Legacy；对象：LeadFromTheFront / Bunker；类型：flavor.quote。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@LeadFromTheFront/flavorReference",
+    "original": "Bunker, Freedom Five #501",
+    "translation": "",
+    "context": "卡组：Legacy；对象：LeadFromTheFront；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@TheLegacyRing/title",
+    "original": "The Legacy Ring",
+    "translation": "",
+    "context": "卡组：Legacy；对象：TheLegacyRing；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.TheLegacyRing.body.001",
+    "original": "You may use 1 additional power this phase.",
+    "translation": "本阶段你可以额外使用1个能力。",
+    "context": "卡组：Legacy；对象：TheLegacyRing；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@TheLegacyRing/flavorQuotes/@Legacy/text",
+    "original": "And now, just like the ring says, you <b>too</b> will be{BR}furthering your Father’s Legacy.",
+    "translation": "",
+    "context": "卡组：Legacy；对象：TheLegacyRing / Legacy；类型：flavor.quote。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@TheLegacyRing/flavorReference",
+    "original": "Legacy, America’s Finest Legacy #499",
+    "translation": "",
+    "context": "卡组：Legacy；对象：TheLegacyRing；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@MotivationalCharge/title",
+    "original": "Motivational Charge",
+    "translation": "",
+    "context": "卡组：Legacy；对象：MotivationalCharge；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.MotivationalCharge.body.001",
+    "original": "{Legacy} deals 1 target 3 melee damage. Each of your allies regains 1 HP.",
+    "translation": "{Legacy}对1个目标造成3点近战伤害。你的每个盟友各恢复1点生命值。",
+    "context": "卡组：Legacy；对象：MotivationalCharge；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@MotivationalCharge/flavorQuotes/@TheWraith/text",
+    "original": "About time. I was even starting{BR}to miss your idea of jokes!",
+    "translation": "",
+    "context": "卡组：Legacy；对象：MotivationalCharge / TheWraith；类型：flavor.quote。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@MotivationalCharge/flavorReference",
+    "original": "The Wraith, Freedom Five #209",
+    "translation": "",
+    "context": "卡组：Legacy；对象：MotivationalCharge；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@TheOlOneTwo/title",
+    "original": "The Ol' One-Two",
+    "translation": "",
+    "context": "卡组：Legacy；对象：TheOlOneTwo；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/12/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.TheOlOneTwo.body.001",
+    "original": "{Legacy} deals 1 target 2 melee damage.",
+    "translation": "{Legacy}对1个目标造成2点近战伤害。",
+    "context": "卡组：Legacy；对象：TheOlOneTwo；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "card.TheOlOneTwo.body.002",
+    "original": "Play 1 card.",
+    "translation": "打出1张牌。",
+    "context": "卡组：Legacy；对象：TheOlOneTwo；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@TheOlOneTwo/flavorQuotes/@Legacy/text",
+    "original": "Square up, iron-chin!{BR}There’s plenty of American spirit to go{BR}around!",
+    "translation": "",
+    "context": "卡组：Legacy；对象：TheOlOneTwo / Legacy；类型：flavor.quote。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/12/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@TheOlOneTwo/flavorReference",
+    "original": "Legacy, Justice Comics #102",
+    "translation": "",
+    "context": "卡组：Legacy；对象：TheOlOneTwo；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/12/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@TakeDown/title",
+    "original": "Take Down",
+    "translation": "",
+    "context": "卡组：Legacy；对象：TakeDown；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/13/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.TakeDown.body.001",
+    "original": "When a Villain card would be played, you may discard that card instead. If you do, the Villain target with the highest HP deals {Legacy} 2 energy damage and destroys this card.",
+    "translation": "反派牌将被打出时，你可以改为弃掉该牌。若如此做，生命值最高的反派目标对{Legacy}造成2点能量伤害，并摧毁此牌。",
+    "context": "卡组：Legacy；对象：TakeDown；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@TakeDown/flavorQuotes/@Legacy/text",
+    "original": "Your <b>injustices</b> end here!",
+    "translation": "",
+    "context": "卡组：Legacy；对象：TakeDown / Legacy；类型：flavor.quote。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/13/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@TakeDown/flavorReference",
+    "original": "Legacy, America’s Finest Legacy #128",
+    "translation": "",
+    "context": "卡组：Legacy；对象：TakeDown；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/13/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@Thokk/title",
+    "original": "Thokk!",
+    "translation": "",
+    "context": "卡组：Legacy；对象：Thokk；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/14/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.Thokk.body.001",
+    "original": "{Legacy} deals 1 target 5 melee damage.",
+    "translation": "{Legacy}对1个目标造成5点近战伤害。",
+    "context": "卡组：Legacy；对象：Thokk；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@Thokk/flavorQuotes/@Legacy/text",
+    "original": "It’s like looking into a mirror...{BR}but you’re a <b>poor</b> reflection of the real thing!",
+    "translation": "",
+    "context": "卡组：Legacy；对象：Thokk / Legacy；类型：flavor.quote。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/14/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@Thokk/flavorReference",
+    "original": "Legacy, America’s Finest Legacy #224",
+    "translation": "",
+    "context": "卡组：Legacy；对象：Thokk；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/14/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@ATrueHero/title",
+    "original": "A True Hero",
+    "translation": "",
+    "context": "卡组：Legacy；对象：ATrueHero；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/15/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "card.ATrueHero.body.001",
+    "original": "Draw 2 cards.",
+    "translation": "抽2张牌。",
+    "context": "卡组：Legacy；对象：ATrueHero；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "card.ATrueHero.body.002",
+    "original": "Each of your allies regains 1 HP.",
+    "translation": "你的每个盟友各恢复1点生命值。",
+    "context": "卡组：Legacy；对象：ATrueHero；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 1
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@ATrueHero/flavorQuotes/@Legacy/text",
+    "original": "You all have what it takes to be a true hero,{BR}each and every day.",
+    "translation": "",
+    "context": "卡组：Legacy；对象：ATrueHero / Legacy；类型：flavor.quote。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/15/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/cards/@ATrueHero/flavorReference",
+    "original": "Legacy, Legacy Independence Day Spectacular",
+    "translation": "",
+    "context": "卡组：Legacy；对象：ATrueHero；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/15/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/variants/@LegacyCharacter/title",
+    "original": "First Appearance: Legacy",
+    "translation": "",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：card.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/variants/@LegacyCharacter/gameTexts/0/title",
+    "original": "Protector",
+    "translation": "",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：ability.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/variants/@LegacyCharacter/gameTexts/0/body/0",
+    "original": "Until your {Start}, −1 damage dealt to ally characters.",
+    "translation": "",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/variants/@LegacyCharacter/flippedGameTexts/0/title",
+    "original": "End of a Legacy?",
+    "translation": "",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：ability.title。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/variants/@LegacyCharacter/flippedGameTexts/0/body/0",
+    "original": "1 Hero takes their {Play}.",
+    "translation": "",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/variants/@LegacyCharacter/flippedGameTexts/0/body/1",
+    "original": "Each Hero target regains 1 HP.",
+    "translation": "",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/variants/@LegacyCharacter/flippedGameTexts/0/body/2",
+    "original": "1 Hero salvages 1 Ongoing card.",
+    "translation": "",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：rules.body。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/variants/@LegacyCharacter/flavorReference",
+    "original": "Justice Comics #102, Oct 1948",
+    "translation": "",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/variants/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "LegacyDeckList.json::turnTakers/@Legacy/decks/@Legacy/variants/@LegacyCharacter/flippedFlavorReference",
+    "original": "Freedom Five #107, Mar 1959",
+    "translation": "",
+    "context": "卡组：Legacy；对象：LegacyCharacter；类型：flavor.reference。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/variants/0/flippedFlavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  }
+]

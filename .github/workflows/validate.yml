@@ -15,7 +15,12 @@ jobs:
       - name: Test converter and snapshot guards
         run: python3 -m unittest discover -s tests -v
       - name: Build candidate from translation snapshot
-        run: python3 tools/catalog.py build --input translations --out build --mode translated
+        run: python3 tools/inventory.py --input inventory-translations --out build --mode translated
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Check semantic display transforms
+        run: dotnet run --project tests/runtime/RuntimeChecks.csproj -- build/sample-texts.json
       - uses: actions/upload-artifact@v4
         with:
           name: sotm2-text-candidate

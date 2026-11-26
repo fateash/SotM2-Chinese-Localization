@@ -1,0 +1,86 @@
+[
+  {
+    "key": "literal.ca0ca4630aea93fda6b9e15b",
+    "original": "Choose a feedback category using the dropdown above.",
+    "translation": "",
+    "context": "程序常量索引：4131；用途：feedback-and-system-messages。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。",
+    "stage": 0
+  },
+  {
+    "key": "literal.9dc683a42bc4c4eda9af0acc",
+    "original": "Could not load game file. If this file should be compatible (i.e. not older than build 28), please report feedback now.",
+    "translation": "",
+    "context": "程序常量索引：4531；用途：feedback-and-system-messages。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。",
+    "stage": 0
+  },
+  {
+    "key": "literal.14caa34363314aa7d2efb906",
+    "original": "Describe what you were doing when the game crashed. If you have a screen recording, please view the card after and comment there with a link to the recording.",
+    "translation": "",
+    "context": "程序常量索引：5043；用途：feedback-and-system-messages。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。",
+    "stage": 0
+  },
+  {
+    "key": "literal.0a307c9b59fcf21155115340",
+    "original": "Early Access Feedback",
+    "translation": "",
+    "context": "程序常量索引：5316；用途：feedback-and-system-messages。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。",
+    "stage": 0
+  },
+  {
+    "key": "literal.e59fa2eca50ca40192a29817",
+    "original": "Feedback sent successfully!",
+    "translation": "",
+    "context": "程序常量索引：5850；用途：feedback-and-system-messages。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。",
+    "stage": 0
+  },
+  {
+    "key": "literal.ebc35be56f3eba3d16ed5349",
+    "original": "Let us know what you would like! Note that if it's something that was already in Sentinels 1, it's likely already on our to-do list, so there's no need to request it here.",
+    "translation": "",
+    "context": "程序常量索引：7610；用途：feedback-and-system-messages。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。",
+    "stage": 0
+  },
+  {
+    "key": "literal.07da520dda1e63a11eb3f764",
+    "original": "Please describe what occurred and what you saw. A screenshot will be automatically attached, but if it's not on screen right now, please view the card after and comment there with a link to a screenshot of the issue.",
+    "translation": "",
+    "context": "程序常量索引：9033；用途：feedback-and-system-messages。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。",
+    "stage": 0
+  },
+  {
+    "key": "literal.8f1f3ac9dda2febbead693fd",
+    "original": "Please provide details about what the card was supposed to do and what actually happened. Ideally, this should be reported just as the problem occurs, not later on.",
+    "translation": "",
+    "context": "程序常量索引：9035；用途：feedback-and-system-messages。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。",
+    "stage": 0
+  },
+  {
+    "key": "literal.1a463daf2c8d4d0d53c2a66e",
+    "original": "Screenshot from Sentinels 2",
+    "translation": "",
+    "context": "程序常量索引：9829；用途：feedback-and-system-messages。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。",
+    "stage": 0
+  },
+  {
+    "key": "literal.2e032cd7da31d52236e0f2c1",
+    "original": "Screenshot saved to Steam Library!",
+    "translation": "",
+    "context": "程序常量索引：9830；用途：feedback-and-system-messages。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。",
+    "stage": 0
+  },
+  {
+    "key": "literal.1265eb92a9705f1cbca91e7d",
+    "original": "Screenshot shared!",
+    "translation": "",
+    "context": "程序常量索引：9831；用途：feedback-and-system-messages。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。",
+    "stage": 0
+  },
+  {
+    "key": "literal.e41869c22c74dd4600582b0c",
+    "original": "Select a continue file...",
+    "translation": "",
+    "context": "程序常量索引：9901；用途：feedback-and-system-messages。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。",
+    "stage": 0
+  }
+]

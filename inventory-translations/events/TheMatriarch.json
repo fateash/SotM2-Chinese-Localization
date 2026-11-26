@@ -1,0 +1,51 @@
+[
+  {
+    "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/events/@NightsPlutonianShoreEvent/title",
+    "original": "Night's Plutonian Shore",
+    "translation": "",
+    "context": "卡组：TheMatriarch；对象：NightsPlutonianShoreEvent；类型：events.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/events/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/events/@NightsPlutonianShoreEvent/gameTexts/0/title",
+    "original": "Pestilent Corvids",
+    "translation": "",
+    "context": "卡组：TheMatriarch；对象：NightsPlutonianShoreEvent；类型：ability.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/events/@NightsPlutonianShoreEvent/gameTexts/0/body/0",
+    "original": "When a Cohort card is destroyed, it deals the Hero target with the highest HP 3 toxic damage.",
+    "translation": "",
+    "context": "卡组：TheMatriarch；对象：NightsPlutonianShoreEvent；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/events/@NightsPlutonianShoreEvent/body/0",
+    "original": "The Matriarch’s classic first appearance in the Silver Age of{BR}Sentinel Comics was reprised in the late ‘90s with the “Night’s{BR}Plutonian Shore” One-Shot. In this telling of the story, The{BR}Matriarch posed a far greater threat, surrounded by scores of{BR}corvids and accompanied by two powerful avian cohorts.",
+    "translation": "",
+    "context": "卡组：TheMatriarch；对象：NightsPlutonianShoreEvent；类型：events.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/events/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/events/@NightsPlutonianShoreEvent/body/1",
+    "original": "When the foul avian swarm descends upon Rook City, the Heroes{BR}assemble to try to protect the citizens of the blighted boroughs.{BR}Ultimately, the story is a battle of science vs. magic, with the{BR}super-scientist Tachyon attempting to outwit the overwhelming{BR}power of her cousin The Matriarch!",
+    "translation": "",
+    "context": "卡组：TheMatriarch；对象：NightsPlutonianShoreEvent；类型：events.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/events/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/events/@AMurderMostFowlEvent/title",
+    "original": "A Murder Most Fowl",
+    "translation": "",
+    "context": "卡组：TheMatriarch；对象：AMurderMostFowlEvent；类型：events.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/events/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/events/@AMurderMostFowlEvent/body/0",
+    "original": "Lillian Corvus has taken the name \"The Harpy\" and fights alongside{BR}the hero team Dark Watch, mostly operating in the Rook City{BR}area. So when the Matriarch shows up and unleashes her flocks{BR}on unsuspecting citizens, the heroes know that this must be a{BR}fleshchild, made by the nefarious Biomancer! Can this clone be{BR}revealed for what it really is, before the reputation of the Harpy is{BR}forever ruined?",
+    "translation": "",
+    "context": "卡组：TheMatriarch；对象：AMurderMostFowlEvent；类型：events.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/events/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  }
+]

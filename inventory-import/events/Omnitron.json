@@ -1,0 +1,50 @@
+[
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@SingularityEvent/title",
+    "original": "Singularity",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：SingularityEvent；类型：events.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@SingularityEvent/gameTexts/0/title",
+    "original": "Pervasive Omnicode",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：SingularityEvent；类型：ability.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@SingularityEvent/gameTexts/0/body/0",
+    "original": "Each Item card gains the keyword “<style=Keywords>DEVICE</style>”, has 6 HP, and gains the following game text:",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：SingularityEvent；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@SingularityEvent/gameTexts/0/gainGameText/body/0",
+    "original": "This card deals each non-Device Hero target 1 lightning damage.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：SingularityEvent；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/gainGameText/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@SingularityEvent/body/0",
+    "original": "Omnitron in a massive robotic form attacks the Eastern Seaboard,{BR}leading to a conflict in Megalopolis vs. the Freedom Five. The{BR}Heroes mobilize and protect the city, and even seem successful in{BR}destroying the rampaging robot... but their victory is short-lived.{BR}Omnitron isn’t a pile of metal parts -- it’s the code, and that code{BR}has started infecting all electronics it encounters.",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：SingularityEvent；类型：events.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@SingularityEvent/body/1",
+    "original": "Now that Omnitron conflicts are occurring everywhere, the heroes{BR}must scramble to deal with this incursion on many fronts, knowing{BR}that the only way to truly win is to isolate all of the Omnitron code{BR}before it can assimilate everything!",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：SingularityEvent；类型：events.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@DeusExMachinaEvent/title",
+    "original": "Deus Ex Machina",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：DeusExMachinaEvent；类型：events.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  },
+  {
+    "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@DeusExMachinaEvent/body/0",
+    "original": "After the events of Singularity, the various pieces of Omnitron{BR}were considered inert. They were taken to a number of labs for{BR}study. So, when a cosmic force from far beyond our own galaxy{BR}reached out to imbue the remnants of Omnitron with power, the{BR}birth of the entity known as Cosmic Omnitron was a birth of fire{BR}and destruction!",
+    "translation": "",
+    "context": "卡组：Omnitron；对象：DeusExMachinaEvent；类型：events.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  }
+]

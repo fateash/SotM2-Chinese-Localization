@@ -1,0 +1,50 @@
+[
+  {
+    "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/events/@InvasionOfEarthEvent/title",
+    "original": "Invasion of Earth",
+    "translation": "",
+    "context": "卡组：GrandWarlordVoss；对象：InvasionOfEarthEvent；类型：events.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/events/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  },
+  {
+    "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/events/@InvasionOfEarthEvent/gameTexts/0/title",
+    "original": "Warlord's Tactics",
+    "translation": "",
+    "context": "卡组：GrandWarlordVoss；对象：InvasionOfEarthEvent；类型：ability.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  },
+  {
+    "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/events/@InvasionOfEarthEvent/gameTexts/0/body/0",
+    "original": "If there are no Gene-Bound cards in play, +1 damage dealt by Villain cards. If there are any Gene-Bound cards in play, —1 damage dealt to Thorathian cards.",
+    "translation": "",
+    "context": "卡组：GrandWarlordVoss；对象：InvasionOfEarthEvent；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  },
+  {
+    "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/events/@InvasionOfEarthEvent/body/0",
+    "original": "In one of the biggest Sentinel Comics events of all time, Grand{BR}Warlord Voss’s Thorathian Conquering Fleet appears in our solar{BR}system and begins its assault on Planet Earth!",
+    "translation": "",
+    "context": "卡组：GrandWarlordVoss；对象：InvasionOfEarthEvent；类型：events.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/events/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  },
+  {
+    "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/events/@InvasionOfEarthEvent/body/1",
+    "original": "The Grand Warlord’s troops set up a temporary base on Mars, from{BR}which they are able to launch nigh-endless waves of gene-bound{BR}minions to Earth, using Quark-Drive Translocation technology.",
+    "translation": "",
+    "context": "卡组：GrandWarlordVoss；对象：InvasionOfEarthEvent；类型：events.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/events/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  },
+  {
+    "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/events/@InvasionOfEarthEvent/body/2",
+    "original": "Meanwhile, Voss and his Thorathian commanders take the fight to{BR}the heroes themselves, taking down some of the mightiest heroes{BR}early on in an attempt to deprive the planet of its defenders...",
+    "translation": "",
+    "context": "卡组：GrandWarlordVoss；对象：InvasionOfEarthEvent；类型：events.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/events/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  },
+  {
+    "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/events/@StrikeForceInvasionEvent/title",
+    "original": "Strike Force Invasion",
+    "translation": "",
+    "context": "卡组：GrandWarlordVoss；对象：StrikeForceInvasionEvent；类型：events.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/events/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  },
+  {
+    "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/events/@StrikeForceInvasionEvent/body/0",
+    "original": "Jalton Kav’lon -- the brilliant yet unpowered Thorathian military{BR}leader known as “Censor” -- has rallied an elite strike force{BR}of Thorathian combatants. They take their dropship to the planet{BR}Earth, seeking to exact their revenge on the people who took their{BR}most revered Grand Warlord from them. Jalton Kav’lon specifically{BR}has it out for the hero Sky-Scraper...",
+    "translation": "",
+    "context": "卡组：GrandWarlordVoss；对象：StrikeForceInvasionEvent；类型：events.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/events/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
+  }
+]

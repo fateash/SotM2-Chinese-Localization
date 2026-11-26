@@ -1,51 +1,19 @@
-# 次元守护者2（SotM2）简体中文汉化
+# SotM2 Chinese Localization
 
-《Sentinels of the Multiverse 2》Steam 版非官方简体中文本地化项目。
+《Sentinels of the Multiverse 2》Steam 版中文本地化，ParaTranz 项目 [21585](https://paratranz.cn/projects/21585)。
 
-- [ParaTranz 翻译与校对](https://paratranz.cn/projects/21585)
-- [校验与同步工作流](https://github.com/fateash/SotM2-Chinese-Localization/actions)
-- [问题反馈](https://github.com/fateash/SotM2-Chinese-Localization/issues)
+当前文本库存为 48 个文件、2,444 条原文，英雄、反派、环境按卡组分组。新增内容保持未翻译；已有 89 条译文保留。字体与显示运行支持候选版本为 **0.1.6-rc.1**，适用 Steam Build 26880829，尚待新的 Windows 实机回归；不是正式发行版。
 
-## 当前进度
+- `inventory-import/`：原文导入文件。已有文件更新原文，不覆盖译文或删除重建。
+- `inventory-translations/`：完整 ParaTranz 译文快照。
+- `baseline/inventory.json`：稳定键、原文哈希、文件归属及显示映射。
+- `paratranz-inventory.json`：文件 ID 与路径；保留已存在的 `villians/` 拼写。
+- `runtime/`：卡牌身份及显示类型限定的运行支持源码。
 
-当前候选批次按卡组分文件：37 条界面文本、Legacy 27 条正文、Baron Blade 25 条正文，共 89 条。新增 45 条正文尚待实机验收。样板译文尚未完成正式语言审核；卡名、类型、风味文本和阶段模板尚未纳入运行适配。
+新增译文通过 `python3 tools/inventory.py --out build` 构建。未翻译、审核状态不符合要求、显示路径未启用的条目不会输出到游戏词典。完整库存中的 524 条暂存项不会因已有译文而自动启用。
 
-运行基线为中文插件 0.1.4 / Steam Build 26880829，已通过重点实机测试。本仓库提供译文维护与构建工具，尚未发布完整汉化补丁，也不包含游戏本体文件或插件安装包。
+在 Actions 中运行 **Import ParaTranz snapshot**：首次扩容先选 `plan` 检查，再选 `migrate` 仅更新原文；后续使用 `sync` 读取译文并创建审核 PR。迁移使用已配置的 `PARATRANZ_TOKEN` secret，不需要把令牌写入文件。不同操作均为手动触发，不自动合并或发布。
 
-原 44 条样板已完成 ParaTranz → GitHub PR → 游戏显示的单条译文往返测试（2026-11-26）。本批按卡组分组的线上迁移待完成，操作顺序见 [Batch01 迁移与验收](docs/BATCH01.md)。
+构建器拒绝测试标记，不改游戏规则模型、内部标识与数值。开发占位符、程序日志和框架常量不作为待译正文。排版阶段暂不增加人工换行。
 
-## 协作与维护
-
-在 ParaTranz 申请加入，翻译时保留占位符、富文本标签和规则数值。专有名词以项目审定结果为准，技术样板中的译名不等于最终定稿。`key` 与 `original` 由维护者管理。
-
-1. 在 ParaTranz 翻译与校对。
-2. 手动运行 **Import ParaTranz snapshot**，读取完整译文及状态。
-3. 自动校验稳定键、原文、占位符、标签与规则数值，构建候选文本。
-4. 有快照变化时创建 PR；维护者检查并合并，再实机验收与发布。
-
-**Validate localization** 在提交和 PR 时自动校验。候选 artifact 仅含词典与构建报告，不是安装包。同步流程不自动合并、不自动发布，也不会回写 ParaTranz。
-
-## 首次接入
-
-`paratranz-project.json` 配置项目 `21585`，界面文件固定为 `3595636`；卡组文件为 `Legacy.json`、`BaronBlade.json`。已固定新文件 ID：3595650、3595651，并映射实际平台路径 `heroes/Legacy.json`、`villians/BaronBlade.json`，严格核对路径、ID 和每组键集。旧 `cards-body.json` 不再参与新流程。
-
-在仓库 Settings → Secrets and variables → Actions 中添加 Repository secret `PARATRANZ_TOKEN`，值为 ParaTranz 账号 API Token。令牌只存入 Secrets，不写入代码、Issue 或聊天。
-
-在 Settings → Actions → General 中允许 GitHub Actions 创建 pull request。工作流已分别声明所需权限，仓库默认权限可保持只读。随后手动运行导入工作流；无快照变化时成功结束而不创建 PR。
-
-## 本地构建
-
-Python 3.10 或更新版本，无第三方依赖。在仓库根目录运行（Windows 可将 `python3` 换为 `py -3`）：
-
-```sh
-python3 -m unittest discover -s tests -v
-python3 tools/catalog.py build --input translations --out build --mode translated
-```
-
-输出 `build/sample-texts.json` 供 0.1.4 插件读取。`translated` 用于候选测试；`reviewed` 仅收录已审核或已锁定译文。当前样板均为已翻译，审核模式拒绝生成空词典属于预期行为。
-
-详细操作参见 [维护说明](docs/WORKFLOW.md)；覆盖边界参见 [稳定键与覆盖规则](docs/KEYS-AND-COVERAGE.md)。
-
-## 项目声明
-
-本项目由玩家维护，与游戏官方无隶属关系。游戏及美术素材版权归原权利人所有。
+详见 [完整库存与显示适配说明](docs/INVENTORY-0.2.0.md)。旧 `tools/catalog.py`、`translations/` 和 `paratranz-project.json` 保留用于 0.1.4 回归，不再作为完整库存的生产入口。

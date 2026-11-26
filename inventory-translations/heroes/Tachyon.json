@@ -1,0 +1,590 @@
+[
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/title",
+    "original": "Tachyon",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：Tachyon；类型：deck.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@TachyonCharacter/title",
+    "original": "Tachyon",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@TachyonCharacter/gameTexts/0/title",
+    "original": "Testing",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：ability.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@TachyonCharacter/gameTexts/0/body/0",
+    "original": "Reveal the top card of your deck. Draw it or discard it.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@TachyonCharacter/flippedGameTexts/0/title",
+    "original": "Frozen By Fear!",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：ability.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@TachyonCharacter/flippedGameTexts/0/body/0",
+    "original": "1 Hero takes their {Play}.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@TachyonCharacter/flippedGameTexts/0/body/1",
+    "original": "1 Hero collects 1 One-Shot card.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@TachyonCharacter/flippedGameTexts/0/body/2",
+    "original": "1 Hero salvages 1 Item card.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@AcceleratedAssault/title",
+    "original": "Accelerated Assault",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：AcceleratedAssault；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@AcceleratedAssault/gameTexts/0/body/0",
+    "original": "{Tachyon} deals each non-Hero target 1 melee damage.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：AcceleratedAssault；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@AcceleratedAssault/flavorQuotes/@Tachyon/text",
+    "original": "And you! And you! And you! And you! Whew!{BR}Did I forget anyone?",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：AcceleratedAssault / Tachyon；类型：flavor.quote。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@AcceleratedAssault/flavorReference",
+    "original": "Tachyon, Freedom Five #202",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：AcceleratedAssault；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@BlindingSpeed/title",
+    "original": "Blinding Speed",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：BlindingSpeed；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@BlindingSpeed/gameTexts/0/body/0",
+    "original": "Destroy 1 Ongoing card.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：BlindingSpeed；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@BlindingSpeed/flavorQuotes/@Dana Bertrand/text",
+    "original": "My hero! We must stop meeting this way.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：BlindingSpeed / Dana Bertrand；类型：flavor.quote。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@BlindingSpeed/flavorReference",
+    "original": "Dana Bertrand, Freedom Five #348",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：BlindingSpeed；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@ExpeditedEfficiency/title",
+    "original": "Expedited Efficiency",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：ExpeditedEfficiency；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@ExpeditedEfficiency/gameTexts/0/body/0",
+    "original": "Draw 1 card.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：ExpeditedEfficiency；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@ExpeditedEfficiency/gameTexts/1/body/0",
+    "original": "Play up to 2 cards.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：ExpeditedEfficiency；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@ExpeditedEfficiency/flavorQuotes/@Tachyon/text",
+    "original": "...these readings are all over the place...an additional 23.5%{BR}should do it...going to have to test it in a frictionless environment...{BR}need to pick up pasta on the way home...if we could induce a{BR}myopic state...whew, what a busy morning!",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：ExpeditedEfficiency / Tachyon；类型：flavor.quote。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@ExpeditedEfficiency/flavorReference",
+    "original": "Tachyon, Freedom Five Annual #8",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：ExpeditedEfficiency；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@FleetOfFoot/title",
+    "original": "Fleet of Foot",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：FleetOfFoot；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@FleetOfFoot/gameTexts/0/body/0",
+    "original": "Each Hero may draw 1 card.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：FleetOfFoot；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@FleetOfFoot/gameTexts/1/body/0",
+    "original": "You may play 1 card.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：FleetOfFoot；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@FleetOfFoot/flavorQuotes/@Tachyon/text",
+    "original": "You were always holding me back.{BR}Now, nothing can stop me!",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：FleetOfFoot / Tachyon；类型：flavor.quote。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@FleetOfFoot/flavorReference",
+    "original": "Friction, Lightspeed #3",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：FleetOfFoot；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@HudGoggles/title",
+    "original": "HUD Goggles",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：HudGoggles；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@HudGoggles/gameTexts/0/body/0",
+    "original": "Damage dealt by {Tachyon} is irreducible.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：HudGoggles；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@HudGoggles/gameTexts/1/body/0",
+    "original": "You may play 1 additional card this phase.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：HudGoggles；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@HudGoggles/flavorQuotes/@Tachyon/text",
+    "original": "Diagnostic info, streaming updates from the team,{BR}plus it keeps the bugs out of my eyes at Mach 8.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：HudGoggles / Tachyon；类型：flavor.quote。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@HudGoggles/flavorReference",
+    "original": "Tachyon, Science & Progress One-Shot",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：HudGoggles；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@HypersonicDash/title",
+    "original": "Hypersonic Dash",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：HypersonicDash；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@HypersonicDash/gameTexts/0/body/0",
+    "original": "After this card is played, {Tachyon} deals each non-Hero target 1 sonic damage. Targets dealt damage this way cannot deal damage.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：HypersonicDash；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@HypersonicDash/gameTexts/1/body/0",
+    "original": "Destroy this card.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：HypersonicDash；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@HypersonicDash/flavorQuotes/@Unity/text",
+    "original": "Sparks! Is there a way to do that{BR}without the painfully loud noise?",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：HypersonicDash / Unity；类型：flavor.quote。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@HypersonicDash/flavorReference",
+    "original": "Unity, Freedom Five Annual #11",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：HypersonicDash；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@LightspeedBarrage/title",
+    "original": "Lightspeed Barrage",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：LightspeedBarrage；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@LightspeedBarrage/gameTexts/0/body/0",
+    "original": "{Tachyon} deals 1 target X melee damage, where X is the number of cards in your trash.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：LightspeedBarrage；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@LightspeedBarrage/gameTexts/1/body/0",
+    "original": "Shuffle your trash into your deck.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：LightspeedBarrage；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@LightspeedBarrage/flavorQuotes/@Tachyon/text",
+    "original": "10 seconds ago, I was in a different time zone.{BR}Guess how many times I’m going to hit you in{BR}the next 10 seconds.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：LightspeedBarrage / Tachyon；类型：flavor.quote。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@LightspeedBarrage/flavorReference",
+    "original": "Tachyon, Freedom Five #540",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：LightspeedBarrage；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@NimbleStrike/title",
+    "original": "Nimble Strike",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：NimbleStrike；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@NimbleStrike/gameTexts/0/body/0",
+    "original": "{Tachyon} deals 1 target 2 melee damage.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：NimbleStrike；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@NimbleStrike/gameTexts/1/body/0",
+    "original": "You may draw 1 card.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：NimbleStrike；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@NimbleStrike/flavorQuotes/@Tachyon/text",
+    "original": "Nothing like a little percussive investigation!",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：NimbleStrike / Tachyon；类型：flavor.quote。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@NimbleStrike/flavorReference",
+    "original": "Tachyon, Freedom Five #271",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：NimbleStrike；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@PushingTheLimits/title",
+    "original": "Pushing the Limits",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：PushingTheLimits；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@PushingTheLimits/gameTexts/0/body/0",
+    "original": "{Tachyon} deals 1 target 3 melee damage. Destroy this card.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：PushingTheLimits；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@PushingTheLimits/gameTexts/1/body/0",
+    "original": "{Tachyon} deals 2 fixed fire damage to herself.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：PushingTheLimits；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@PushingTheLimits/gameTexts/2/body/0",
+    "original": "You may play 1 additional card this phase.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：PushingTheLimits；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@PushingTheLimits/gameTexts/3/body/0",
+    "original": "You may draw 1 additional card this phase.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：PushingTheLimits；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@PushingTheLimits/flavorQuotes/@Legacy/text",
+    "original": "If she keeps going at such impossible speeds,{BR}she might destroy herself...{BR}she might destroy us all!",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：PushingTheLimits / Legacy；类型：flavor.quote。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@PushingTheLimits/flavorReference",
+    "original": "Legacy, Freedom Four #98",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：PushingTheLimits；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@QuickInsight/title",
+    "original": "Quick Insight",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：QuickInsight；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@QuickInsight/gameTexts/0/body/0",
+    "original": "Draw 3 cards.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：QuickInsight；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@QuickInsight/gameTexts/1/body/0",
+    "original": "Discard 2 cards.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：QuickInsight；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@QuickInsight/flavorQuotes/@Tachyon/text",
+    "original": "Hmm hmm hmm... I hate to say it, but I’m impressed.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：QuickInsight / Tachyon；类型：flavor.quote。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@QuickInsight/flavorReference",
+    "original": "Tachyon, Freedom Five #306",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：QuickInsight；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@ResearchGrant/title",
+    "original": "Research Grant",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：ResearchGrant；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@ResearchGrant/gameTexts/0/body/0",
+    "original": "Draw up to 3 cards. Discard 1 card.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：ResearchGrant；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@ResearchGrant/flavorQuotes/@AbsoluteZero/text",
+    "original": "Doc’s still in the lab. Been in there for days.{BR}Hardly even comes out to eat or sleep. I’ve{BR}never seen her happier.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：ResearchGrant / AbsoluteZero；类型：flavor.quote。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@ResearchGrant/flavorReference",
+    "original": "Absolute Zero, Freedom Five #294",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：ResearchGrant；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@SonicVortex/title",
+    "original": "Sonic Vortex",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：SonicVortex；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/12/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@SonicVortex/gameTexts/0/body/0",
+    "original": "{Tachyon} deals up to X targets 3 sonic damage each, where X is the number of cards in your trash.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：SonicVortex；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@SonicVortex/flavorQuotes/@TheWraith/text",
+    "original": "When she gets all serious and no-nonsense,{BR}her intensity is actually kinda scary.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：SonicVortex / TheWraith；类型：flavor.quote。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/12/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@SonicVortex/flavorReference",
+    "original": "The Wraith, Freedom Five #336",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：SonicVortex；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/12/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@SuckerPunch/title",
+    "original": "Sucker Punch",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：SuckerPunch；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/13/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@SuckerPunch/gameTexts/0/body/0",
+    "original": "{Tachyon} deals 1 target 1 melee damage.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：SuckerPunch；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@SuckerPunch/gameTexts/1/body/0",
+    "original": "Then, if that target has 2 or fewer HP, destroy that target.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：SuckerPunch；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@SuckerPunch/flavorQuotes/@Tachyon/text",
+    "original": "Thought you had me, didn’t you?",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：SuckerPunch / Tachyon；类型：flavor.quote。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/13/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@SuckerPunch/flavorReference",
+    "original": "Tachyon, Mystery Comics Vol 2, #446",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：SuckerPunch；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/13/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@SynapticInterrupt/title",
+    "original": "Synaptic Interrupt",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：SynapticInterrupt；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/14/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@SynapticInterrupt/gameTexts/0/body/0",
+    "original": "Draw 1 card or play 1 card. If you play a card this way, destroy this card.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：SynapticInterrupt；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@SynapticInterrupt/flavorQuotes/@Bunker/text",
+    "original": "Hey! Careful where you point that thing!",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：SynapticInterrupt / Bunker；类型：flavor.quote。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/14/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/cards/@SynapticInterrupt/flavorReference",
+    "original": "Bunker, Freedom Four Annual #1",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：SynapticInterrupt；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/cards/14/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/variants/@TachyonCharacter/title",
+    "original": "First Appearance: Tachyon",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：card.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/variants/@TachyonCharacter/gameTexts/0/title",
+    "original": "Fast Friend",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：ability.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/variants/@TachyonCharacter/gameTexts/0/body/0",
+    "original": "1 Hero may draw 1 card. If that Hero is not {Tachyon}, you may play 1 card.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/variants/@TachyonCharacter/flippedGameTexts/0/title",
+    "original": "Forced Slowdown",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：ability.title。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/variants/@TachyonCharacter/flippedGameTexts/0/body/0",
+    "original": "1 Hero takes their {Draw}.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/variants/@TachyonCharacter/flippedGameTexts/0/body/1",
+    "original": "Destroy 1 Ongoing card.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/variants/@TachyonCharacter/flippedGameTexts/0/body/2",
+    "original": "1 Hero regains 2 HP.",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：rules.body。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/variants/@TachyonCharacter/flavorReference",
+    "original": "Freedom Four Annual #1, Aug 1957",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/variants/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "TachyonDeckList.json::turnTakers/@Tachyon/decks/@Tachyon/variants/@TachyonCharacter/flippedFlavorReference",
+    "original": "Cosmic Tales Vol. 1 #232, Apr 1960",
+    "translation": "",
+    "context": "卡组：Tachyon；对象：TachyonCharacter；类型：flavor.reference。\n来源：TachyonDeckList.json#/turnTakers/0/decks/0/variants/0/flippedFlavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  }
+]

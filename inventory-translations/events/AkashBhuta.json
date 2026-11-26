@@ -1,0 +1,58 @@
+[
+  {
+    "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@MotherEarthEvent/title",
+    "original": "Mother Earth",
+    "translation": "",
+    "context": "卡组：AkashBhuta；对象：MotherEarthEvent；类型：events.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@MotherEarthEvent/gameTexts/0/title",
+    "original": "Heart of the Island",
+    "translation": "",
+    "context": "卡组：AkashBhuta；对象：MotherEarthEvent；类型：ability.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@MotherEarthEvent/gameTexts/0/body/0",
+    "original": "After an Environment card is destroyed, {AkashBhuta} deals each target 2 fire damage.",
+    "translation": "",
+    "context": "卡组：AkashBhuta；对象：MotherEarthEvent；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@MotherEarthEvent/body/0",
+    "original": "The ancient earth-spirit Akash'Bhuta has bested her continual foe.{BR}With this latest Virtuoso of the Void defeated, nothing can possibly{BR}stand in her way -- humanity shall finally be laid low!",
+    "translation": "",
+    "context": "卡组：AkashBhuta；对象：MotherEarthEvent；类型：events.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@MotherEarthEvent/body/1",
+    "original": "The Argent Adept is rescued by Fanatic, and they are joined by{BR}Captain Cosmic and Tempest. They travel to the time-lost island of{BR}Insula Primalis, where they find Haka locked in combat with{BR}void-altered dinosaurs. And with that, the new team known as the{BR}Prime Wardens is complete.",
+    "translation": "",
+    "context": "卡组：AkashBhuta；对象：MotherEarthEvent；类型：events.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@MotherEarthEvent/body/2",
+    "original": "The heroes descend into the heart of the island to face the spirit{BR}of the earth itself...",
+    "translation": "",
+    "context": "卡组：AkashBhuta；对象：MotherEarthEvent；类型：events.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@EarthIncEvent/title",
+    "original": "Earth Inc.",
+    "translation": "",
+    "context": "卡组：AkashBhuta；对象：EarthIncEvent；类型：events.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  },
+  {
+    "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@EarthIncEvent/body/0",
+    "original": "Revocorp -- the biotech/futuretech firm with questionable ethics{BR}and even more questionable funding -- created a massive mechano-{BR}siphon to draw energy from deep within the earth. Akash'Bhuta is{BR}slumbering, but she feels the siphon activate above her. Her own{BR}physical form needs rest, but she is not above using humanity's{BR} hubris against itself!",
+    "translation": "",
+    "context": "卡组：AkashBhuta；对象：EarthIncEvent；类型：events.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。",
+    "stage": 0
+  }
+]
