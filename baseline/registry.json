@@ -406,7 +406,10 @@
       "original": "1 Hero takes their {Power}.",
       "sourceSha256": "380b378c6576dcf31e12d0eab03f566e8e140d4510c411f1ef49629e14306d2e",
       "context": "牌组：Legacy；卡牌：Legacy (LegacyCharacter)；字段：flippedGameTexts；类型：IncapacitatedAbility；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
-      "file": "Legacy.json"
+      "file": "Legacy.json",
+      "displayVariants": [
+        "incapacitated-bullet-v1"
+      ]
     },
     {
       "key": "card.LegacyCharacter.body.003",
@@ -415,7 +418,10 @@
       "original": "1 Hero discovers 1 Ongoing card.",
       "sourceSha256": "fa0bb7f857016cebc33954b136af1d931271df45b10a5a33884068f200f5e8ba",
       "context": "牌组：Legacy；卡牌：Legacy (LegacyCharacter)；字段：flippedGameTexts；类型：IncapacitatedAbility；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
-      "file": "Legacy.json"
+      "file": "Legacy.json",
+      "displayVariants": [
+        "incapacitated-bullet-v1"
+      ]
     },
     {
       "key": "card.LegacyCharacter.body.004",
@@ -424,7 +430,10 @@
       "original": "Until your {Start}, −2 damage dealt by Environment targets.",
       "sourceSha256": "5fde61538f9bf8b3dfef99ac5d8d4b97b2f9720d45f1e624ae2ccbbde2f33551",
       "context": "牌组：Legacy；卡牌：Legacy (LegacyCharacter)；字段：flippedGameTexts；类型：IncapacitatedAbility；阶段：无。\n来源：LegacyDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。",
-      "file": "Legacy.json"
+      "file": "Legacy.json",
+      "displayVariants": [
+        "incapacitated-bullet-v1"
+      ]
     },
     {
       "key": "card.DangerSense.body.001",

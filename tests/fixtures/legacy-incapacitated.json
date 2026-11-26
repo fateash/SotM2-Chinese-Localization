@@ -1,0 +1,11 @@
+{
+  "buildId": "26880829",
+  "card": "LegacyCharacter",
+  "source": "<size=70%><sprite name=\"BulletPoint\"></size><indent=1em>1 Hero takes their {Power}.</indent>\r\n<size=70%><sprite name=\"BulletPoint\"></size><indent=1em>1 Hero discovers 1 Ongoing card.</indent>\r\n<size=70%><sprite name=\"BulletPoint\"></size><indent=1em>Until your {Start}, −2 damage dealt by Environment targets.</indent>",
+  "keys": [
+    "card.LegacyCharacter.body.002",
+    "card.LegacyCharacter.body.003",
+    "card.LegacyCharacter.body.004"
+  ],
+  "evidence": "User runtime log 2026-11-26 19:26; screenshot A Legacy Lost"
+}

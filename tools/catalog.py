@@ -17,6 +17,19 @@ def file_for(entry):
     if not isinstance(name,str) or not re.fullmatch(r'[A-Za-z0-9_-]+\.json',name):
         raise Invalid('Invalid translation file name')
     return name
+
+# Observed in build 26880829: the view decorates incapacitated ability lines
+# before calling TextHelper. Keep the authored text and stable key untouched.
+DISPLAY_VARIANTS={'incapacitated-bullet-v1':(
+    '<size=70%><sprite name="BulletPoint"></size><indent=1em>', '</indent>')}
+
+def display_variants(entry):
+    variants=entry.get('displayVariants',[])
+    if not isinstance(variants,list) or any(not isinstance(v,str) or v not in DISPLAY_VARIANTS for v in variants):
+        raise Invalid('Unknown display variant')
+    if len(set(variants))!=len(variants) or (variants and entry['kind']!='card.body'):
+        raise Invalid('Invalid display variant scope')
+    return variants
 def no_duplicates(pairs):
     obj = {}
     for k, v in pairs:
@@ -75,6 +88,7 @@ def registry(data):
         if not isinstance(k,str) or not re.fullmatch(r'[A-Za-z0-9_.-]+',k) or k in keys: raise Invalid('Duplicate/invalid stable key')
         if kind not in ('ui.label','card.body'): raise Invalid('Runtime does not support this field kind')
         file_for(e)
+        display_variants(e)
         if not isinstance(source,str) or not source: raise Invalid('Empty original')
         if not isinstance(locator,str) or not locator: raise Invalid('Empty runtime locator')
         if e.get('sourceSha256')!=sha(source): raise Invalid('Registry source hash mismatch: '+k)
@@ -103,7 +117,7 @@ def compile_catalog(data, rows, mode='reviewed', allow_empty=False):
     expected={e['key'] for e in entries}
     if set(rows)!=expected:
         raise Invalid('Key set mismatch; missing='+str(sorted(expected-set(rows)))+' unknown='+str(sorted(set(rows)-expected)))
-    out={'Ui':[],'Cards':[]}; skipped=[]
+    out={'Ui':[],'Cards':[]}; skipped=[]; aliases=0
     for e in entries:
         k=e['key']; row=rows[k]
         if row.get('original')!=e['original']: raise Invalid('Stale/changed original: '+k)
@@ -120,10 +134,20 @@ def compile_catalog(data, rows, mode='reviewed', allow_empty=False):
             out['Ui'].append({'ObjectName':e['locator'],'Source':e['original'],'Target':target})
         else:
             out['Cards'].append({'Card':e['locator'],'Source':e['original'],'Target':target})
-    count=len(out['Ui'])+len(out['Cards'])
+            for variant in display_variants(e):
+                prefix,suffix=DISPLAY_VARIANTS[variant]
+                decorated_source=prefix+e['original']+suffix
+                decorated_target=prefix+target+suffix
+                validate_text(decorated_source,decorated_target,e['kind'])
+                out['Cards'].append({'Card':e['locator'],'Source':decorated_source,'Target':decorated_target})
+                aliases+=1
+    identities=[(row['Card'],row['Source']) for row in out['Cards']]
+    if len(set(identities))!=len(identities):raise Invalid('Duplicate generated runtime card identity')
+    count=len(out['Ui'])+len(out['Cards'])-aliases
     if not count and not allow_empty: raise Invalid('No eligible translations; no runtime catalog produced')
-    report={'schemaVersion':1,'toolVersion':'0.1.1','runtimeVersion':'0.1.4','buildId':data['buildId'],'mode':mode,
-            'registered':len(entries),'included':count,'ui':len(out['Ui']),'cardBody':len(out['Cards']),
+    report={'schemaVersion':1,'toolVersion':'0.1.2','runtimeVersion':'0.1.4','buildId':data['buildId'],'mode':mode,
+            'registered':len(entries),'included':count,'ui':len(out['Ui']),'cardBody':len(out['Cards'])-aliases,
+            'displayAliases':aliases,'runtimeEntries':len(out['Ui'])+len(out['Cards']),
             'skipped':skipped,'registrySha256':sha(encode(data)),
             'snapshotSha256':sha(encode({k:rows[k] for k in sorted(rows)})),
             'catalogSha256':sha(encode(out)), 'platformRoundTrip':'not-yet-verified'}

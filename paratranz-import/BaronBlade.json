@@ -20,13 +20,13 @@
   {
     "key": "card.BaronBladeCharacter.body.003",
     "original": "When {BaronBlade} would be destroyed, instead: {Flip}",
-    "translation": "{BaronBlade}将被摧毁时，改为：{Flip}",
+    "translation": "{BaronBlade}被摧毁时改为{Flip}",
     "context": "card.body | BaronBladeCharacter | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：gameTexts；类型：普通；阶段：无。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=c680ee286e68174cf747c4c25fd13db7a464f2e0982ec41b33c9d1b5e7ecfd64"
   },
   {
     "key": "card.BaronBladeCharacter.body.004",
     "original": "If there are 15 or more cards in the Villain trash, {BaronBlade}'s TerraLunar Impulsion Beam activates, pulling the moon into the Earth. <b>Game Over.</b>",
-    "translation": "若反派弃牌堆中有15张或更多牌，{BaronBlade}的地月冲击光束便会启动，将月球拉向地球。<b>游戏结束。</b>",
+    "translation": "若反派弃牌堆有15张或更多牌，{BaronBlade}的地月冲击光束启动，将月球拉向地球。<b>游戏结束。</b>",
     "context": "card.body | BaronBladeCharacter | runtime=0.1.4 | build=26880829\n牌组：BaronBlade；卡牌：Baron Blade (BaronBladeCharacter)；字段：gameTexts；类型：PhaseAction；阶段：Start。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0。\n规则术语为本批暂定译法，待项目术语终审。保留占位符、标签、数字、符号及变量X。\nsourceSha256=9189fd0eb0ecc3a1ee0943f56a734f0739f55cdd8c7ee0ac36e256c7f9c66c82"
   },
   {
