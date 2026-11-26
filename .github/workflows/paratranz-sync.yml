@@ -6,7 +6,7 @@ on:
         description: 'sync = read translations; plan = preview expansion; migrate = add original texts only'
         type: choice
         default: sync
-        options: [sync, plan, migrate]
+        options: [sync, plan, migrate, apply-approved-baron-fix]
 permissions:
   contents: write
   pull-requests: write
@@ -32,6 +32,7 @@ jobs:
             plan) python3 tools/sync_inventory.py plan --out migration-plan ;;
             migrate) python3 tools/sync_inventory.py migrate --out incoming-inventory ;;
             sync) python3 tools/sync_inventory.py pull --out incoming-inventory ;;
+            apply-approved-baron-fix) python3 tools/apply_baron_fix.py && python3 tools/sync_inventory.py pull --out incoming-inventory ;;
             *) echo 'Unsupported operation'; exit 1 ;;
           esac
       - name: Validate and build candidate
