@@ -8,10 +8,15 @@ public sealed class DynamicDisplayRules {
  public const string FinishPath="Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label";
  public const string ContinuePath="Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)";
  public const string DescriptionPath="Canvas/Temporary Full Card Panel/Description Label";
+ public const string CardsUnderPath="Full Card Canvas/Full Card Panel/Cards Under/Scroll View/Viewport/Content/Heading Label";
+ public const string CardsNextToPath="Full Card Canvas/Full Card Panel/Cards Next To/Scroll View/Viewport/Content/Heading Label";
  public const string DrawPath="Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label";
  public const string DiscardPath="Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label";
  readonly Dictionary<string,string> templates;
  static readonly Dictionary<string,(int Args,string Tags)> Specs=new(){
+  ["hint.collect.deck"]=(0,""),["hint.summon.deck.trash"]=(0,""),["hint.prevent.dealing"]=(0,""),
+  ["hint.put.under"]=(2,""),["hint.destroy.play.under"]=(2,""),
+  ["heading.cards.under"]=(1,""),["heading.cards.next"]=(1,""),["description.collect"]=(1,""),
   ["button.newgame.play"]=(0,""),["button.newgame.randomize"]=(0,""),["button.newgame.back"]=(0,""),["button.result.share"]=(0,""),["button.message.continue"]=(0,""),
   ["finish.destroy"]=(1,""),["hint.destroy.targets"]=(2,""),["hint.destroy.cards"]=(2,""),
   ["button.skip.incapacitated"]=(0,""),["button.take.play"]=(0,""),["hint.hero.take.play"]=(0,""),
@@ -179,7 +184,10 @@ public sealed class DynamicDisplayRules {
  static readonly Regex DestroyMany=Rx(@"\AClick up to (?<n>[0-9]{1,6}) (?<kind>targets|cards in play) to destroy them\.\z");
  static readonly Regex ReducedHp=Rx(@"\A(?<name>[^<>\r\n]{1,200}) has been reduced to <nobr>(?<n>[0-9]{1,6}) HP\.</nobr>\z");
  static readonly Regex Victory=Rx(@"\AYou have defeated (?<name>[^<>\r\n]{1,200}) and saved the day!\z");
- static readonly Regex Description=Rx(@"\A(?<name>[^<>\r\n]{1,200}) (?<verb>drew|revealed|played|discovered|summoned):\z");
+ static readonly Regex Description=Rx(@"\A(?<name>[^<>\r\n]{1,200}) (?<verb>drew|revealed|played|discovered|summoned|collected):\z");
+ static readonly Regex RelatedCards=Rx(@"\ACards (?<relation>under|next to) (?<name>[^<>\r\n]{1,200})\z");
+ static readonly Regex PutUnder=Rx(@"\AClick a card in play to put (?<name>[^<>\r\n]{1,200}) under it\.\z");
+ static readonly Regex DestroyPlayOrUnder=Rx(@"\AClick a card in play or under (?<name>[^<>\r\n]{1,200}) to destroy it\.\z");
  public DynamicDisplayRules(Dictionary<string,string> values){
   if(values==null || values.Count!=Specs.Count)throw new InvalidDataException("Incomplete dynamic pilot templates");
   foreach(var (key,spec) in Specs){
@@ -197,6 +205,12 @@ public sealed class DynamicDisplayRules {
  public string? Apply(string path,string source){
   if(string.IsNullOrEmpty(source) || source.Length>2048)return null;
   if(ScopedButtons.TryGetValue(path,out var button) && source==button.Source)return Format(button.Template);
+  if(path==CardsUnderPath || path==CardsNextToPath){
+   var cards=RelatedCards.Match(source);
+   if(!cards.Success || string.IsNullOrWhiteSpace(cards.Groups["name"].Value))return null;
+   bool under=cards.Groups["relation"].Value=="under";
+   return under==(path==CardsUnderPath)?Format(under?"heading.cards.under":"heading.cards.next",cards.Groups["name"].Value):null;
+  }
   if(path==PhasePath){
    foreach(var item in PhaseNames)if(source==item.Key.ToUpperInvariant()+" PHASE")return item.Value;
    if(source=="SETUP")return Format("phase.setup");
@@ -219,7 +233,7 @@ public sealed class DynamicDisplayRules {
   if(DeckSelection.IsMatch(path) && source=="Reveal")return Format("button.reveal");
   if(path==DescriptionPath){
    var m=Description.Match(source);if(!m.Success)return null;
-   return Format(m.Groups["verb"].Value switch {"drew"=>"description.draw","revealed"=>"description.reveal","discovered"=>"description.discover","summoned"=>"description.summon",_=>"description.play"},m.Groups["name"].Value);
+   return Format(m.Groups["verb"].Value switch {"drew"=>"description.draw","revealed"=>"description.reveal","discovered"=>"description.discover","summoned"=>"description.summon","collected"=>"description.collect",_=>"description.play"},m.Groups["name"].Value);
   }
   var revealedTitle=RevealedTitlePath.Match(path);
   if(revealedTitle.Success){
@@ -236,6 +250,9 @@ public sealed class DynamicDisplayRules {
   var header=Header.Match(source);
   string prefix=header.Success?header.Groups["prefix"].Value:"",body=header.Success?header.Groups["body"].Value:source;
   var fixedText=body switch {
+   "Click a card in the deck to collect it."=>"hint.collect.deck",
+   "Click a card in the deck or in the trash to summon it."=>"hint.summon.deck.trash",
+   "Click a target to prevent it from dealing damage."=>"hint.prevent.dealing",
    SurfaceProbeRules.PlayHint=>"hint.play", "Click a card to play it."=>"hint.play.click",
    "Click or drag a power to use it."=>"hint.power.drag", "Click a power to use it."=>"hint.power.click",
    "Click a hero to play a card."=>"hint.hero.play", "Click a hero to use a power."=>"hint.hero.power",
@@ -250,6 +267,10 @@ public sealed class DynamicDisplayRules {
    "Click a card in hand to discard it."=>"hint.discard.single", "Click a deck to reveal a card."=>"hint.deck.reveal",_=>null};
   if(fixedText!=null)return prefix+Format(fixedText);
   if(SelectionTitles.TryGetValue(body,out var selectionTitle))return prefix+Format(selectionTitle);
+  var underHint=PutUnder.Match(body);
+  if(underHint.Success && !string.IsNullOrWhiteSpace(underHint.Groups["name"].Value))return Format("hint.put.under",prefix,underHint.Groups["name"].Value);
+  underHint=DestroyPlayOrUnder.Match(body);
+  if(underHint.Success && !string.IsNullOrWhiteSpace(underHint.Groups["name"].Value))return Format("hint.destroy.play.under",prefix,underHint.Groups["name"].Value);
   var place=PlayLocation.Match(body);
   if(place.Success)return Format("hint.play.location",prefix,place.Groups["card"].Value);
   // Compose two complete recognized instructions; never translate a prefix of an unknown remainder.

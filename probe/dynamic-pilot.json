@@ -127,6 +127,14 @@
     "button.newgame.randomize": "随机选择",
     "button.newgame.back": "返回\n",
     "button.result.share": "分享",
-    "button.message.continue": "继续"
+    "button.message.continue": "继续",
+    "hint.collect.deck": "点击牌库中的一张牌以将其搜集。",
+    "hint.summon.deck.trash": "点击牌库或弃牌堆中的一张牌以将其召唤。",
+    "hint.prevent.dealing": "点击一个目标，防止其造成伤害。",
+    "hint.put.under": "{0}点击一张在场的牌，将{1}置于其下方。",
+    "hint.destroy.play.under": "{0}点击一张在场或位于{1}下方的牌以将其破坏。",
+    "heading.cards.under": "{0}下方的牌",
+    "heading.cards.next": "{0}旁边的牌",
+    "description.collect": "{0}搜集的牌："
   }
 }

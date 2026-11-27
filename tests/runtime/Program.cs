@@ -251,4 +251,37 @@ Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click up to 3 cards in play to des
 Check(pilot.Apply("Canvas/Main Panel/Message Panel/Panel/Message Label","Baron Blade has been reduced to <nobr>17 HP.</nobr>")=="Baron Blade的生命值已降至<nobr>17点</nobr>。","HP result text preserves supplied number");
 Check(pilot.Apply("Canvas/Main Panel/HP Label","Baron Blade has been reduced to <nobr>0 HP.</nobr>")==null,"HP result translation cannot target HP counter");
 Check(pilot.Apply("Canvas/Main Panel/Button Panel/Left/Back Button/Text (TMP)","Back")==null,"button source newline must match exactly");
+using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/dynamic-0.1.14.json"))){
+ foreach(var sample in evidence.RootElement.GetProperty("samples").EnumerateArray()){
+  string path=sample.GetProperty("path").GetString()!,source=sample.GetProperty("source").GetString()!;
+  var actual=pilot.Apply(path,source);
+  Check(actual==sample.GetProperty("expected").GetString(),"0.1.14 observed source: "+source);
+  Check(pilot.Apply(path,actual!)==null,"0.1.15 translated output idempotent");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"<[^<>]+>").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"<[^<>]+>").Select(m=>m.Value)),"0.1.15 optional heading markup preserved");
+ }
+}
+foreach(var relation in new[]{"under","next to"}){
+ string path=relation=="under"?DynamicDisplayRules.CardsUnderPath:DynamicDisplayRules.CardsNextToPath;
+ Check(pilot.Apply(path,"Cards "+relation+" Test 2")=="Test 2"+(relation=="under"?"下方的牌":"旁边的牌"),"related card heading keeps numeric name");
+ Check(pilot.Apply(path,"Cards "+(relation=="under"?"next to":"under")+" Test 2")==null,"related heading must agree with container");
+ foreach(var name in new[]{""," ","<b>Card</b>","Card\nOther",new string('A',201)})
+  Check(pilot.Apply(path,"Cards "+relation+" "+name)==null,"reject empty/markup/multiline/overlong related card name");
+ Check(pilot.Apply(path,"Title Label")==null,"do not guess placeholder meaning");
+ Check(pilot.Apply(path.Replace("Heading Label","HP Label"),"Cards "+relation+" Test")==null,"related headings cannot alter counters");
+}
+foreach(var pair in new[]{
+ ("Click a card in the deck to collect it.","点击牌库中的一张牌以将其搜集。"),
+ ("Click a card in the deck or in the trash to summon it.","点击牌库或弃牌堆中的一张牌以将其召唤。"),
+ ("Click a target to prevent it from dealing damage.","点击一个目标，防止其造成伤害。"),
+ ("Click a card in play to put Card 2 under it.","点击一张在场的牌，将Card 2置于其下方。"),
+ ("Click a card in play or under Card 2 to destroy it.","点击一张在场或位于Card 2下方的牌以将其破坏。")}){
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,pair.Item1)==pair.Item2,"complete hint without optional source prefix");
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,pair.Item1+" Extra condition.")==null,"never drop extra rule clause");
+ Check(pilot.Apply(SurfaceProbeRules.HintPath.Replace("Hint Label","Body Label"),pair.Item1)==null,"hints excluded from rule body");
+}
+foreach(var source in new[]{"Click a target to prevent it from being dealt damage.","Click a card in the trash to collect it.","Click a card in the deck and in the trash to summon it.","Click a card in play or next to Card to destroy it.","Click a card in play to put <b>Card</b> under it.","Click a card in play or under <b>Card</b> to destroy it.","Click a card in play to put   under it."})
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,source)==null,"reject unsupported action, range or markup");
+Check(pilot.Apply(DynamicDisplayRules.DescriptionPath,"Card 2 collected:")=="Card 2搜集的牌：","collected heading keeps name");
+Check(pilot.Apply(popup,"Captain Cosmic collected:")==null,"collect heading cannot replace reveal action title");
+Check(pilot.Apply(DynamicDisplayRules.DescriptionPath,"Card collected: extra")==null,"collect title complete string required");
 Console.WriteLine("RUNTIME_CHECKS_COMPLETE "+count);

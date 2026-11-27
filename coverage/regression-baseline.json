@@ -1316,6 +1316,611 @@
       "id": "ffea93ff7280af56873aca64",
       "reason": "current-rule-match",
       "target": "抽牌阶段"
+    },
+    {
+      "id": "0064ccbcfdac20bc0c764bf5",
+      "reason": "current-rule-match",
+      "target": "点击一个区域，将Vitality Conduit打出至该处。"
+    },
+    {
+      "id": "00aa2b1318e3c9303b537e19",
+      "reason": "current-rule-match",
+      "target": "<b>Conservation of Energy:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "011f3b97066fb9a34c9ba15d",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "01645946e97ed3666a4c4a77",
+      "reason": "current-rule-match",
+      "target": "出牌阶段（剩余3次）"
+    },
+    {
+      "id": "02142f6a7337ac9dc248006e",
+      "reason": "current-rule-match",
+      "target": "<b>Nimble Strike:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
+    },
+    {
+      "id": "06890aacd2e4b52674fd2b33",
+      "reason": "current-rule-match",
+      "target": "<b>Frost-Bound Drain:</b> 点击一个目标，对其造成<nobr>3点寒冷伤害</nobr>。"
+    },
+    {
+      "id": "07bab2d01dbadf1724e752b2",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "0e8f54ddef71dcf8dc8ce8b8",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "0f82dea51ccf85a0bb9a5d1f",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "10be18ca8f13b1ac75e84009",
+      "reason": "current-rule-match",
+      "target": "造成火焰伤害"
+    },
+    {
+      "id": "1115d40f6fac6ba6d5a81406",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "120b28586835f3bbb43d1ca6",
+      "reason": "current-rule-match",
+      "target": "使用异能"
+    },
+    {
+      "id": "15085a86d5da5e1853af5afe",
+      "reason": "current-rule-match",
+      "target": "LIDAR Intel展示的牌："
+    },
+    {
+      "id": "16bc03bec03b34a0d6560c4c",
+      "reason": "current-rule-match",
+      "target": "<b>Wounding Buffer:</b> <b>Jet-Jump Battalion</b>将对<b>Bunker</b>造成1点能量伤害。点击一个反应以使用它。"
+    },
+    {
+      "id": "1716b8b3270e6127bf53edf9",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "1765cf0d5746e8a0251c34c1",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "1ad24c2ecf773124658ee16c",
+      "reason": "current-rule-match",
+      "target": "Flak Cannon下方的牌"
+    },
+    {
+      "id": "1c1109a297496da33b131c4b",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "21d0870faca6fa7893d71694",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "220f3ac93310f222cb6353d6",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "2222798afac0f8652054c783",
+      "reason": "current-rule-match",
+      "target": "<b>Isothermic Transducer:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "24906d6ef866771dd0a78f45",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "27c58138c6d857f7d43dd203",
+      "reason": "current-rule-match",
+      "target": "Desperate Deployment召唤出的牌："
+    },
+    {
+      "id": "2a6924242f91b3f0bb1e4258",
+      "reason": "current-rule-match",
+      "target": "<b>Emergency Shielding:</b> <b>Backlash Field Generator</b>将对<b>Bunker</b>造成1点闪电伤害。点击一个反应以使用它。"
+    },
+    {
+      "id": "2ab190feb12b4ba59f5d8e53",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "2b646bafdeddb3bea3f5cf0c",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "2ccd7f5108b15d91eb3e8007",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "2e9749aef2afda5c9f353eed",
+      "reason": "current-rule-match",
+      "target": "<b>Flak Cannon:</b> 点击一个目标，对其造成<nobr>3点投射伤害</nobr>。"
+    },
+    {
+      "id": "2fae84e7c7cb1cf2b0b4a560",
+      "reason": "current-rule-match",
+      "target": "<b>Jet-Jump Battalion:</b> 点击3个目标，对其各造成<nobr>2点能量伤害</nobr>。"
+    },
+    {
+      "id": "30bd7e317c8318b2ac0cfb6b",
+      "reason": "current-rule-match",
+      "target": "<b>Blinding Speed:</b> 点击一张在场的牌以将其破坏。"
+    },
+    {
+      "id": "33a43368d017acc1de33c0ad",
+      "reason": "current-rule-match",
+      "target": "点击一张在场的牌，发动其<nobr><sprite name=\"StartPhase\"> <b>开始阶段</b></nobr>效果。"
+    },
+    {
+      "id": "370776b0c4c1b9ab74d4a9ef",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "3718ec6088f81664d27cb482",
+      "reason": "current-rule-match",
+      "target": "造成寒冷伤害"
+    },
+    {
+      "id": "38ec492eb2a8118b5ad09328",
+      "reason": "current-rule-match",
+      "target": "<b>Piston Punch:</b> 点击一张在场的牌，将Piston Punch置于其下方。"
+    },
+    {
+      "id": "3dfe08a133833e8bbf0e1390",
+      "reason": "current-rule-match",
+      "target": "<b>LIDAR Intel:</b> 点击一个牌库以展示一张牌。"
+    },
+    {
+      "id": "3e7a90fee690910780096469",
+      "reason": "current-rule-match",
+      "target": "<b>Conductive Installation:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "40868a03b1cb010dea203870",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "44ad4d765e62321dea20b133",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "45d016dc6c6012818c8e7439",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "4aa60a3b7c93fcf4b4d6a580",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "4f3a587aacc20830722a5db3",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "4fc486b17d26d3f56a029b33",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "5001fb18212a5203ce9a4f66",
+      "reason": "current-rule-match",
+      "target": "抽一张牌"
+    },
+    {
+      "id": "5112190a1b28334bb7ab0e32",
+      "reason": "current-rule-match",
+      "target": "<b>Isothermic Transducer:</b> 点击一个目标，对其造成<nobr>3点寒冷伤害</nobr>。"
+    },
+    {
+      "id": "5292b6da580ead9dfac056eb",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "534e14312f07624e3bcbb653",
+      "reason": "current-rule-match",
+      "target": "<b>Sonic Vortex:</b> 点击至多11个目标，对其各造成<nobr>3点音波伤害</nobr>。"
+    },
+    {
+      "id": "540e9ed1fef456a98a917d95",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "544070d05aea523b210f987d",
+      "reason": "current-rule-match",
+      "target": "<b>Grazing Stegosaurus:</b> 点击视为手牌最少的英雄。"
+    },
+    {
+      "id": "556e9c1ebaafbf207079d5c1",
+      "reason": "current-rule-match",
+      "target": "<b>Cosmic Crest:</b> 点击一个区域，将Energy Bracer打出至该处。"
+    },
+    {
+      "id": "55a3905bc1c7e0b908054205",
+      "reason": "current-rule-match",
+      "target": "Mounted AP Gun下方的牌"
+    },
+    {
+      "id": "59fa6a09c5edeee6b3671479",
+      "reason": "current-rule-match",
+      "target": "<b>Gatling Gun:</b> 点击一个目标，对其造成<nobr>1点投射伤害</nobr>。"
+    },
+    {
+      "id": "5ab385cf4002c3cc91a9b351",
+      "reason": "current-rule-match",
+      "target": "High-Yield Coolant Tanks抽到的牌："
+    },
+    {
+      "id": "5b2b89ebddd1ce1e5267f304",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "5c39dafe0c1ca6a80bf714cb",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "5dc36b80a8cbb623ef8836cb",
+      "reason": "current-rule-match",
+      "target": "<b>Isothermic Transducer:</b> 点击一个目标，对其造成<nobr>2点寒冷伤害</nobr>。"
+    },
+    {
+      "id": "5fba43ac4c56a5fee05bc0df",
+      "reason": "current-rule-match",
+      "target": "<b>Absolute Zero:</b> 点击Absolute Zero上的按钮，选择一个效果。"
+    },
+    {
+      "id": "6196aa2758ab81bc5630fc6a",
+      "reason": "current-rule-match",
+      "target": "出牌阶段（剩余2次）"
+    },
+    {
+      "id": "63d3735c5e00db60125422be",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "6503cda0b11b8e09117b4ba5",
+      "reason": "current-rule-match",
+      "target": "LIDAR Intel抽到的牌："
+    },
+    {
+      "id": "65794d6e41644c4687c6a62c",
+      "reason": "current-rule-match",
+      "target": "<b>Isothermic Transducer:</b> 点击一个目标，对其造成<nobr>5点寒冷伤害</nobr>。"
+    },
+    {
+      "id": "668bf2131dd75ca45e6254b3",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "6800cffe71c19d2bfe737d67",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "68822b6e5bbd68d59fa52dbd",
+      "reason": "current-rule-match",
+      "target": "<b>Wounding Buffer:</b> <b>Baron Blade</b>将对<b>Bunker</b>造成1点毒素伤害。点击一个反应以使用它。"
+    },
+    {
+      "id": "69ad4e951dc440758ba40190",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "6a33b5ca9600cb76eabf5450",
+      "reason": "current-rule-match",
+      "target": "Upgrade Mode召唤出的牌："
+    },
+    {
+      "id": "6d42939e3144b82725fb40e7",
+      "reason": "current-rule-match",
+      "target": "<b>Still Life:</b> 点击一个目标，防止其造成伤害。"
+    },
+    {
+      "id": "6f35a1708c2ee2fc7d29b33a",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "704094b2e75b80f8d46368fc",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "7208e4c0bea0b1b820d932b7",
+      "reason": "current-rule-match",
+      "target": "<b>Isothermic Transducer:</b> 点击一个目标，对其造成<nobr>8点寒冷伤害</nobr>。"
+    },
+    {
+      "id": "720a74169f25477afe620bb0",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "738dd9d02afb44e8e3f7daf8",
+      "reason": "current-rule-match",
+      "target": "使用异能"
+    },
+    {
+      "id": "78404e58cf0f998ebc093091",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "842fed9f739433975976bcc5",
+      "reason": "current-rule-match",
+      "target": "<b>High-Yield Coolant Tanks:</b> 点击High-Yield Coolant Tanks上的按钮，选择一个效果。"
+    },
+    {
+      "id": "8820e61460a2d3cdf2799784",
+      "reason": "current-rule-match",
+      "target": "Grazing Stegosaurus抽到的牌："
+    },
+    {
+      "id": "8d2a4721359de071ace37f16",
+      "reason": "current-rule-match",
+      "target": "<b>Sucker Punch:</b> 点击一个目标，对其造成<nobr>1点近战伤害</nobr>。"
+    },
+    {
+      "id": "92882f8f952ba6df22ca5e7d",
+      "reason": "current-rule-match",
+      "target": "点击一张在场的牌，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+    },
+    {
+      "id": "998e548e466a3839a9bffd7c",
+      "reason": "current-rule-match",
+      "target": "<b>Wounding Buffer:</b> <b>Backlash Field Generator</b>将对<b>Bunker</b>造成1点闪电伤害。点击一个反应以使用它。"
+    },
+    {
+      "id": "9ab087c7581d459f7cb403da",
+      "reason": "current-rule-match",
+      "target": "Conductive Installation抽到的牌："
+    },
+    {
+      "id": "9ac2b349820f805617f06a22",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "9bf8a733889c88824cfcba8d",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "9f3d2fcee5d6bda3bf9aa6c7",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "9fd0a0ec2881d322648913cd",
+      "reason": "current-rule-match",
+      "target": "最少"
+    },
+    {
+      "id": "9fe8448d8643fe32aa692678",
+      "reason": "current-rule-match",
+      "target": "<b>Piston Punch:</b> 点击一个目标，对其造成<nobr>3点近战伤害</nobr>。"
+    },
+    {
+      "id": "a08fdd0f36c86107ab893ae4",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "a24b7077f2284f49abf06a6a",
+      "reason": "current-rule-match",
+      "target": "<b>Hasten Doom:</b> 点击目标，选择对它们造成<nobr>2点毒素伤害</nobr>的顺序。"
+    },
+    {
+      "id": "a3fe6585e01f9c6776374e16",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "a787aaabefcee9c9f740d32b",
+      "reason": "current-rule-match",
+      "target": "<b>Lightspeed Barrage:</b> 点击一个目标，对其造成<nobr>21点近战伤害</nobr>。"
+    },
+    {
+      "id": "a8eed7e17e758e40cfc62856",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "adf6530d8229dcb9fc60bd5b",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "b0bc0f4cadd0dc60bb9e4a8b",
+      "reason": "current-rule-match",
+      "target": "<b>Upgrade Mode:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "babbe76876e73893f533a844",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "bae3173ee50de2f6c90efd4a",
+      "reason": "current-rule-match",
+      "target": "<b>High-Yield Coolant Tanks:</b> 点击一个异能以使用它。"
+    },
+    {
+      "id": "bb6afe82a39b4c4037c21ca9",
+      "reason": "current-rule-match",
+      "target": "<b>Conservation of Energy:</b> 点击一张牌以将其打出。"
+    },
+    {
+      "id": "bc2c922dc0f347fc1ed8b015",
+      "reason": "current-rule-match",
+      "target": "<b>Thermal Shockwave:</b> 点击至多3个目标，对其各造成<nobr>1点寒冷伤害</nobr>。"
+    },
+    {
+      "id": "bc886d8ab164bb3742be1fa2",
+      "reason": "current-rule-match",
+      "target": "<b>Flak Cannon:</b> 点击一张在场或位于Flak Cannon下方的牌以将其破坏。"
+    },
+    {
+      "id": "bda00be0cc4af4699789c945",
+      "reason": "current-rule-match",
+      "target": "<b>Conductive Installation:</b> 点击牌库中的一张牌以将其搜集。"
+    },
+    {
+      "id": "c0fe2786cff169588d80bb3e",
+      "reason": "current-rule-match",
+      "target": "<b>Desperate Deployment:</b> 点击牌库中的一张牌以将其召唤。"
+    },
+    {
+      "id": "c3e53a3a3f90b32f5a8da130",
+      "reason": "current-rule-match",
+      "target": "<b>Isothermic Transducer:</b> 点击一个目标，对其造成<nobr>4点寒冷伤害</nobr>。"
+    },
+    {
+      "id": "c4a0e7b9a6607c203caa33f2",
+      "reason": "current-rule-match",
+      "target": "Nimble Strike抽到的牌："
+    },
+    {
+      "id": "c9c184d4030f871db2ba9ab6",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "ce6f8388e6f178f6c63386b6",
+      "reason": "current-rule-match",
+      "target": "<b>Gatling Gun:</b> 点击一张在场或位于Gatling Gun下方的牌以将其破坏。"
+    },
+    {
+      "id": "d4389dc2af2681aa4b47210e",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "d9acfb8ad4ba5e47b8c4995d",
+      "reason": "current-rule-match",
+      "target": "Jet-Jump Battalion展示的牌："
+    },
+    {
+      "id": "da14ed7c43607c3dc4fa8b72",
+      "reason": "current-rule-match",
+      "target": "Conductive Installation搜集的牌："
+    },
+    {
+      "id": "db3108c69ed7c56d5cac5e0a",
+      "reason": "current-rule-match",
+      "target": "抽一张牌"
+    },
+    {
+      "id": "dc3e1b7aa077e8beb40e589d",
+      "reason": "current-rule-match",
+      "target": "最少"
+    },
+    {
+      "id": "dd308abc614a205cc7dc6c31",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "e4aa46d4573e624dad424c69",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "e4f1e8b6342fe865e3934fec",
+      "reason": "current-rule-match",
+      "target": "Conservation of Energy抽到的牌："
+    },
+    {
+      "id": "e8395871f6b6216ea01a6c24",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "ea5d1976cf4e1853215c07d0",
+      "reason": "current-rule-match",
+      "target": "对4个目标造成伤害"
+    },
+    {
+      "id": "eab58b99f364ef8522cf50cd",
+      "reason": "current-rule-match",
+      "target": "<b>Upgrade Mode:</b> 点击牌库或弃牌堆中的一张牌以将其召唤。"
+    },
+    {
+      "id": "ebae6eca6ce8bc38e6685d59",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "ecd0ec31ba8ec363a62ea0b7",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "ed34c4fd5ee2c1af91cc8020",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "ee076985ea254901e1431eec",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "ee6159368782e0a4a9b41536",
+      "reason": "current-rule-match",
+      "target": "<b>Enraged T. Rex:</b> 点击一个目标，对其造成<nobr>5点近战伤害</nobr>。"
+    },
+    {
+      "id": "f012309ccb4112f8861a028d",
+      "reason": "current-rule-match",
+      "target": "<b>Emergency Shielding:</b> <b>Jet-Jump Battalion</b>将对<b>Bunker</b>造成1点能量伤害。点击一个反应以使用它。"
+    },
+    {
+      "id": "f17a76403e6fe9c51eb23084",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "f3ed3d7eeb1e2e2c425719e2",
+      "reason": "current-rule-match",
+      "target": "最少"
+    },
+    {
+      "id": "f8c46a7a98997fcb100981d3",
+      "reason": "current-rule-match",
+      "target": "<b>Null-Point Calibration Unit:</b> 点击或拖动一张牌以将其打出。"
     }
   ]
 }

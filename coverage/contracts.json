@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "b9182dcb83b7623cf0f9f5633ba3e63ec49f8a6731bf2b6abebaf6c05aa3efd9",
+    "runtime/DynamicDisplayRules.cs": "9378f8a7b181b0005d9dd0d8920ec4485389723d3096144ea881e719a544367c",
     "runtime/SurfaceProbeRules.cs": "65803f8a22da910e98a98f9202e2d0c802cd1e6fc661c66f34c97a3480ed6651",
     "runtime/SurfaceProbe.cs": "337e308b31345ad75e93b6d627a5e8d3f78172ec6a191b86d096790e91308896",
-    "runtime/Plugin.cs": "adad48e089c85ef39abd793de9f8d9fd7051cc017b95f1503e4e197a675f180b",
+    "runtime/Plugin.cs": "b36179a8f732c64c60d99f8dcc7b3171716f3cf941b5fce028b0ca7ff788dc9a",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "439d9c4f2a49535b50201c35eb676b145876ea4aee115c4878c0ad8ecba38542"
+    "probe/dynamic-pilot.json": "30dcae9ac3569ae1a3c70d32f002518844965374fbcc6b07bd670b787ece6d65"
   },
   "families": [
     {
@@ -70,7 +70,12 @@
         "hint.lowest.hp",
         "hint.destroy.targets",
         "hint.destroy.cards",
-        "hint.hero.take.play"
+        "hint.hero.take.play",
+        "hint.collect.deck",
+        "hint.summon.deck.trash",
+        "hint.prevent.dealing",
+        "hint.put.under",
+        "hint.destroy.play.under"
       ],
       "contexts": [
         {
@@ -119,7 +124,16 @@
             "inCardView": false,
             "expected": "点击一个区域，将Wounding Buffer打出至该处。",
             "objectName": "Hint Label"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "a59a5a774d0178bc0794c4bf",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 388,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "captured-hint-6",
@@ -183,7 +197,16 @@
             "inCardView": false,
             "expected": "<b>Hasten Doom:</b> 点击目标，选择对它们造成<nobr>2点毒素伤害</nobr>的顺序。",
             "objectName": "Hint Label"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "a24b7077f2284f49abf06a6a",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 467,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "captured-hint-11",
@@ -263,7 +286,16 @@
             "inCardView": false,
             "expected": "<b>Grazing Stegosaurus:</b> 点击视为手牌最少的英雄。",
             "objectName": "Hint Label"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "544070d05aea523b210f987d",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 292,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "captured-hint-20",
@@ -343,7 +375,16 @@
             "inCardView": false,
             "expected": "点击一张在场的牌，发动其<nobr><sprite name=\"StartPhase\"> <b>开始阶段</b></nobr>效果。",
             "objectName": "Hint Label"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "33a43368d017acc1de33c0ad",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 520,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "outside-role",
@@ -550,6 +591,210 @@
             "inCardView": false,
             "expected": null
           }
+        },
+        {
+          "id": "pilot015-38ec492eb2a8118b5ad09328",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整句式与控件用途已核对；实机验收独立保留。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Piston Punch:</b> Click a card in play to put Piston Punch under it.",
+            "inCardView": false,
+            "expected": "<b>Piston Punch:</b> 点击一张在场的牌，将Piston Punch置于其下方。",
+            "observationId": "38ec492eb2a8118b5ad09328"
+          }
+        },
+        {
+          "id": "pilot015-negative-38ec492eb2a8118b5ad09328",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Piston Punch:</b> Click a card in play to put Piston Punch under it.",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "38ec492eb2a8118b5ad09328"
+          }
+        },
+        {
+          "id": "pilot015-6d42939e3144b82725fb40e7",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整句式与控件用途已核对；实机验收独立保留。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Still Life:</b> Click a target to prevent it from dealing damage.",
+            "inCardView": false,
+            "expected": "<b>Still Life:</b> 点击一个目标，防止其造成伤害。",
+            "observationId": "6d42939e3144b82725fb40e7"
+          }
+        },
+        {
+          "id": "pilot015-negative-6d42939e3144b82725fb40e7",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Still Life:</b> Click a target to prevent it from dealing damage.",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "6d42939e3144b82725fb40e7"
+          }
+        },
+        {
+          "id": "pilot015-bc886d8ab164bb3742be1fa2",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整句式与控件用途已核对；实机验收独立保留。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Flak Cannon:</b> Click a card in play or under Flak Cannon to destroy it.",
+            "inCardView": false,
+            "expected": "<b>Flak Cannon:</b> 点击一张在场或位于Flak Cannon下方的牌以将其破坏。",
+            "observationId": "bc886d8ab164bb3742be1fa2"
+          }
+        },
+        {
+          "id": "pilot015-negative-bc886d8ab164bb3742be1fa2",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Flak Cannon:</b> Click a card in play or under Flak Cannon to destroy it.",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "bc886d8ab164bb3742be1fa2"
+          }
+        },
+        {
+          "id": "pilot015-bda00be0cc4af4699789c945",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整句式与控件用途已核对；实机验收独立保留。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Conductive Installation:</b> Click a card in the deck to collect it.",
+            "inCardView": false,
+            "expected": "<b>Conductive Installation:</b> 点击牌库中的一张牌以将其搜集。",
+            "observationId": "bda00be0cc4af4699789c945"
+          }
+        },
+        {
+          "id": "pilot015-negative-bda00be0cc4af4699789c945",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Conductive Installation:</b> Click a card in the deck to collect it.",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "bda00be0cc4af4699789c945"
+          }
+        },
+        {
+          "id": "pilot015-ce6f8388e6f178f6c63386b6",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整句式与控件用途已核对；实机验收独立保留。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Gatling Gun:</b> Click a card in play or under Gatling Gun to destroy it.",
+            "inCardView": false,
+            "expected": "<b>Gatling Gun:</b> 点击一张在场或位于Gatling Gun下方的牌以将其破坏。",
+            "observationId": "ce6f8388e6f178f6c63386b6"
+          }
+        },
+        {
+          "id": "pilot015-negative-ce6f8388e6f178f6c63386b6",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Gatling Gun:</b> Click a card in play or under Gatling Gun to destroy it.",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "ce6f8388e6f178f6c63386b6"
+          }
+        },
+        {
+          "id": "pilot015-eab58b99f364ef8522cf50cd",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整句式与控件用途已核对；实机验收独立保留。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Upgrade Mode:</b> Click a card in the deck or in the trash to summon it.",
+            "inCardView": false,
+            "expected": "<b>Upgrade Mode:</b> 点击牌库或弃牌堆中的一张牌以将其召唤。",
+            "observationId": "eab58b99f364ef8522cf50cd"
+          }
+        },
+        {
+          "id": "pilot015-negative-eab58b99f364ef8522cf50cd",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Upgrade Mode:</b> Click a card in the deck or in the trash to summon it.",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "eab58b99f364ef8522cf50cd"
+          }
         }
       ]
     },
@@ -576,7 +821,16 @@
             "expected": "对3个目标造成伤害",
             "cardId": "",
             "inCardView": false
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "5879a787622f240f11689908",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 241,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "outside-role",
@@ -899,7 +1153,16 @@
             "expected": "出牌阶段（剩余3次）",
             "cardId": "",
             "inCardView": false
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "01645946e97ed3666a4c4a77",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 586,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "outside-role",
@@ -981,7 +1244,16 @@
             "inCardView": false,
             "expected": "开始阶段",
             "observationId": "0ef991fcb461a5e07fc4a0cf"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "0ef991fcb461a5e07fc4a0cf",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 84,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot014-negative-0ef991fcb461a5e07fc4a0cf",
@@ -1014,7 +1286,16 @@
             "inCardView": false,
             "expected": "结束阶段",
             "observationId": "26a383850b7fe72bf46e093e"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "26a383850b7fe72bf46e093e",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 54,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot014-negative-26a383850b7fe72bf46e093e",
@@ -1047,7 +1328,16 @@
             "inCardView": false,
             "expected": "出牌阶段",
             "observationId": "8254d2682433d26df350c79b"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "8254d2682433d26df350c79b",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 100,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot014-negative-8254d2682433d26df350c79b",
@@ -1113,7 +1403,16 @@
             "inCardView": false,
             "expected": "异能阶段",
             "observationId": "c11bf9d34c4644d070a90585"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "c11bf9d34c4644d070a90585",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 110,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot014-negative-c11bf9d34c4644d070a90585",
@@ -1179,7 +1478,16 @@
             "inCardView": false,
             "expected": "抽牌阶段",
             "observationId": "ffea93ff7280af56873aca64"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "ffea93ff7280af56873aca64",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 134,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot014-negative-ffea93ff7280af56873aca64",
@@ -1223,7 +1531,16 @@
             "expected": "跳过",
             "cardId": "",
             "inCardView": false
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "8539c746d1d8db2f8f286930",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 470,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "outside-role",
@@ -1380,7 +1697,8 @@
         "description.reveal",
         "description.play",
         "description.discover",
-        "description.summon"
+        "description.summon",
+        "description.collect"
       ],
       "contexts": [
         {
@@ -1397,7 +1715,16 @@
             "expected": "Baron Blade打出的牌：",
             "cardId": "",
             "inCardView": false
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "b22aa731e450ebbc85409efb",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 327,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "outside-role",
@@ -1446,7 +1773,16 @@
             "inCardView": false,
             "expected": "Cosmic Crest发现的牌：",
             "observationId": "c0cf1bf7a908617761e9fe45"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "c0cf1bf7a908617761e9fe45",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 404,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot013-outside-c0cf1bf7a908617761e9fe45",
@@ -1479,7 +1815,16 @@
             "inCardView": false,
             "expected": "Captain Cosmic展示的牌：",
             "observationId": "3cc96e080e7d53ca668c9be2"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "3cc96e080e7d53ca668c9be2",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 508,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot014-negative-3cc96e080e7d53ca668c9be2",
@@ -1528,6 +1873,40 @@
             "source": "Baron Blade summoned:",
             "inCardView": false,
             "expected": null
+          }
+        },
+        {
+          "id": "pilot015-da14ed7c43607c3dc4fa8b72",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整句式与控件用途已核对；实机验收独立保留。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Conductive Installation collected:",
+            "inCardView": false,
+            "expected": "Conductive Installation搜集的牌：",
+            "observationId": "da14ed7c43607c3dc4fa8b72"
+          }
+        },
+        {
+          "id": "pilot015-negative-da14ed7c43607c3dc4fa8b72",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Other/Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Conductive Installation collected:",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "da14ed7c43607c3dc4fa8b72"
           }
         }
       ]
@@ -2220,7 +2599,16 @@
             "inCardView": true,
             "expected": "在此打出",
             "objectName": "Selection Button Label"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "1dcd887f4260762f590c8772",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 384,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "placement-3",
@@ -2300,7 +2688,16 @@
             "expected": "在此打出",
             "cardId": "CaptainCosmicCharacter",
             "inCardView": true
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "1dcd887f4260762f590c8772",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 384,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "latest-482124485c01b32e89398726",
@@ -2453,7 +2850,16 @@
             "inCardView": true,
             "expected": "在此打出",
             "observationId": "3fe16c0cbc70e10240782a7a"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "3fe16c0cbc70e10240782a7a",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 381,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot014-negative-3fe16c0cbc70e10240782a7a",
@@ -2486,7 +2892,16 @@
             "inCardView": true,
             "expected": "在此打出",
             "observationId": "87fb7e895814fd51f2b9ab69"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "87fb7e895814fd51f2b9ab69",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 386,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot014-negative-87fb7e895814fd51f2b9ab69",
@@ -2519,7 +2934,16 @@
             "inCardView": true,
             "expected": "在此打出",
             "observationId": "cc08f82febccd933970533ca"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "cc08f82febccd933970533ca",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 385,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot014-negative-cc08f82febccd933970533ca",
@@ -2552,7 +2976,16 @@
             "inCardView": true,
             "expected": "在此打出",
             "observationId": "e25bebd331394d7b41b76357"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "e25bebd331394d7b41b76357",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 387,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot014-negative-e25bebd331394d7b41b76357",
@@ -2594,7 +3027,16 @@
             "inCardView": false,
             "expected": "Baron Blade的生命值已降至<nobr>0点</nobr>。",
             "observationId": "76e047162721a9b11007fef5"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "76e047162721a9b11007fef5",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 691,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot014-negative-76e047162721a9b11007fef5",
@@ -2627,7 +3069,16 @@
             "inCardView": false,
             "expected": "你击败了Baron Blade，化解了危机！",
             "observationId": "fa9c9fbb553e9df6630b1bea"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "fa9c9fbb553e9df6630b1bea",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 699,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot014-negative-fa9c9fbb553e9df6630b1bea",
@@ -2738,7 +3189,16 @@
             "inCardView": false,
             "expected": "继续",
             "observationId": "a7625ab4f26f6c4f800575b0"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "a7625ab4f26f6c4f800575b0",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 694,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot014-negative-a7625ab4f26f6c4f800575b0",
@@ -2771,7 +3231,16 @@
             "inCardView": false,
             "expected": "分享",
             "observationId": "adfc8ef927245041e48067f5"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "adfc8ef927245041e48067f5",
+              "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
+              "line": 705,
+              "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot014-negative-adfc8ef927245041e48067f5",
@@ -2821,6 +3290,147 @@
             "inCardView": false,
             "expected": null
           }
+        }
+      ]
+    },
+    {
+      "id": "related-cards",
+      "templates": [
+        "heading.cards.under",
+        "heading.cards.next"
+      ],
+      "contexts": [
+        {
+          "id": "pilot015-1ad24c2ecf773124658ee16c",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整句式与控件用途已核对；实机验收独立保留。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Full Card Canvas/Full Card Panel/Cards Under/Scroll View/Viewport/Content/Heading Label",
+            "cardId": "",
+            "source": "Cards under Flak Cannon",
+            "inCardView": false,
+            "expected": "Flak Cannon下方的牌",
+            "observationId": "1ad24c2ecf773124658ee16c"
+          }
+        },
+        {
+          "id": "pilot015-negative-1ad24c2ecf773124658ee16c",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Other/Full Card Canvas/Full Card Panel/Cards Under/Scroll View/Viewport/Content/Heading Label",
+            "cardId": "",
+            "source": "Cards under Flak Cannon",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "1ad24c2ecf773124658ee16c"
+          }
+        },
+        {
+          "id": "pilot015-55a3905bc1c7e0b908054205",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整句式与控件用途已核对；实机验收独立保留。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Full Card Canvas/Full Card Panel/Cards Under/Scroll View/Viewport/Content/Heading Label",
+            "cardId": "",
+            "source": "Cards under Mounted AP Gun",
+            "inCardView": false,
+            "expected": "Mounted AP Gun下方的牌",
+            "observationId": "55a3905bc1c7e0b908054205"
+          }
+        },
+        {
+          "id": "pilot015-negative-55a3905bc1c7e0b908054205",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Other/Full Card Canvas/Full Card Panel/Cards Under/Scroll View/Viewport/Content/Heading Label",
+            "cardId": "",
+            "source": "Cards under Mounted AP Gun",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "55a3905bc1c7e0b908054205"
+          }
+        },
+        {
+          "id": "next-to-composed",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "已观察的Cards Next To控件身份与库存Cards next to片段组合的离线用例；日志尚未捕获这个完整标题，不视为实机观察。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Full Card Canvas/Full Card Panel/Cards Next To/Scroll View/Viewport/Content/Heading Label",
+            "cardId": "",
+            "source": "Cards next to Cosmic Weapon",
+            "inCardView": false,
+            "expected": "Cosmic Weapon旁边的牌"
+          }
+        },
+        {
+          "id": "relation-mismatch",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "上下方与旁边用途不可互换；初始化字样不猜译。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Full Card Canvas/Full Card Panel/Cards Next To/Scroll View/Viewport/Content/Heading Label",
+            "cardId": "",
+            "source": "Cards under Cosmic Weapon",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "placeholder",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "上下方与旁边用途不可互换；初始化字样不猜译。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Full Card Canvas/Full Card Panel/Cards Next To/Scroll View/Viewport/Content/Heading Label",
+            "cardId": "",
+            "source": "Title Label",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "unobserved-small-card",
+          "status": "unobserved",
+          "view": "small-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "尚无完整文本与对应控件证据，不从大图列表推定其他位置已覆盖。"
+        },
+        {
+          "id": "unobserved-other-related-card-lists",
+          "status": "unobserved",
+          "view": "other-related-card-lists",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "尚无完整文本与对应控件证据，不从大图列表推定其他位置已覆盖。"
         }
       ]
     }

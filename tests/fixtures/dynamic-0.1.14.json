@@ -1,0 +1,88 @@
+{
+  "evidence": [
+    "SotM2-Dynamic-Evidence-20261127-125357-21a9a7.zip"
+  ],
+  "samples": [
+    {
+      "objectName": "Heading Label",
+      "path": "Full Card Canvas/Full Card Panel/Cards Under/Scroll View/Viewport/Content/Heading Label",
+      "cardId": "",
+      "source": "Cards under Flak Cannon",
+      "inCardView": false,
+      "expected": "Flak Cannon下方的牌",
+      "observationId": "1ad24c2ecf773124658ee16c"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Piston Punch:</b> Click a card in play to put Piston Punch under it.",
+      "inCardView": false,
+      "expected": "<b>Piston Punch:</b> 点击一张在场的牌，将Piston Punch置于其下方。",
+      "observationId": "38ec492eb2a8118b5ad09328"
+    },
+    {
+      "objectName": "Heading Label",
+      "path": "Full Card Canvas/Full Card Panel/Cards Under/Scroll View/Viewport/Content/Heading Label",
+      "cardId": "",
+      "source": "Cards under Mounted AP Gun",
+      "inCardView": false,
+      "expected": "Mounted AP Gun下方的牌",
+      "observationId": "55a3905bc1c7e0b908054205"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Still Life:</b> Click a target to prevent it from dealing damage.",
+      "inCardView": false,
+      "expected": "<b>Still Life:</b> 点击一个目标，防止其造成伤害。",
+      "observationId": "6d42939e3144b82725fb40e7"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Flak Cannon:</b> Click a card in play or under Flak Cannon to destroy it.",
+      "inCardView": false,
+      "expected": "<b>Flak Cannon:</b> 点击一张在场或位于Flak Cannon下方的牌以将其破坏。",
+      "observationId": "bc886d8ab164bb3742be1fa2"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Conductive Installation:</b> Click a card in the deck to collect it.",
+      "inCardView": false,
+      "expected": "<b>Conductive Installation:</b> 点击牌库中的一张牌以将其搜集。",
+      "observationId": "bda00be0cc4af4699789c945"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Gatling Gun:</b> Click a card in play or under Gatling Gun to destroy it.",
+      "inCardView": false,
+      "expected": "<b>Gatling Gun:</b> 点击一张在场或位于Gatling Gun下方的牌以将其破坏。",
+      "observationId": "ce6f8388e6f178f6c63386b6"
+    },
+    {
+      "objectName": "Description Label",
+      "path": "Canvas/Temporary Full Card Panel/Description Label",
+      "cardId": "",
+      "source": "Conductive Installation collected:",
+      "inCardView": false,
+      "expected": "Conductive Installation搜集的牌：",
+      "observationId": "da14ed7c43607c3dc4fa8b72"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Upgrade Mode:</b> Click a card in the deck or in the trash to summon it.",
+      "inCardView": false,
+      "expected": "<b>Upgrade Mode:</b> 点击牌库或弃牌堆中的一张牌以将其召唤。",
+      "observationId": "eab58b99f364ef8522cf50cd"
+    }
+  ]
+}
