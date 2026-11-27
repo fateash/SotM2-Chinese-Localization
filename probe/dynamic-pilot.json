@@ -112,6 +112,21 @@
     "button.discover.construct": "发现Construct牌",
     "hint.lowest.hp": "点击一个目标，将其视为生命值最低的目标。",
     "description.discover": "{0}发现的牌：",
-    "phase.power.remaining": "异能阶段（剩余{0}次）"
+    "phase.power.remaining": "异能阶段（剩余{0}次）",
+    "finish.destroy": "破坏{0}张牌",
+    "hint.destroy.targets": "{0}点击至多{1}个目标以将其破坏。",
+    "hint.destroy.cards": "{0}点击至多{1}张在场的牌以将其破坏。",
+    "button.skip.incapacitated": "跳过失能阶段",
+    "button.take.play": "进行出牌阶段",
+    "hint.hero.take.play": "点击一位英雄，让其立即进行出牌阶段。",
+    "description.summon": "{0}召唤出的牌：",
+    "phase.setup": "准备",
+    "result.hp": "{0}的生命值已降至<nobr>{1}点</nobr>。",
+    "result.victory": "你击败了{0}，化解了危机！",
+    "button.newgame.play": "开始游戏！",
+    "button.newgame.randomize": "随机选择",
+    "button.newgame.back": "返回\n",
+    "button.result.share": "分享",
+    "button.message.continue": "继续"
   }
 }

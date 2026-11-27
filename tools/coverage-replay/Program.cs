@@ -22,18 +22,28 @@ foreach(var c in contexts){
  var expected=c.GetProperty("expected").ValueKind==JsonValueKind.Null?null:Str(c,"expected");
  if(actual!=expected)throw new InvalidDataException("Coverage contract failed: "+Str(c,"path")+" / "+Str(c,"source"));
 }
+// Recognize a translated mixed-language observation only when a complete source
+// at the same control produces exactly that output. A Chinese suffix alone is insufficient.
+var provenOutputs=new HashSet<(string Path,string Card,string Name,bool InCard,string Text)>();
+foreach(var x in snapshot.RootElement.GetProperty("samples").EnumerateArray()){
+ if(x.GetProperty("truncated").GetBoolean() || (Str(x,"inputSource")!="TextString" && Str(x,"inputSource")!="TextInputBox"))continue;
+ var output=Match(x,Str(x,"source"));
+ if(output!=null && output!=Str(x,"source"))provenOutputs.Add((Str(x,"path"),Str(x,"cardId"),Str(x,"objectName"),x.GetProperty("inCardView").GetBoolean(),output));
+}
 object Classify(JsonElement x){
  string source=Str(x,"source"),reason="unresolved-full-string";string? target=null;
  bool elsewhere=false;
  if(x.GetProperty("truncated").GetBoolean())reason="truncated-evidence";
  else if(Str(x,"inputSource")!="TextString" && Str(x,"inputSource")!="TextInputBox")reason="protected-input-buffer";
  else if(Regex.IsMatch(source,@"\A\s*[+-]?\d+(?:\.\d+)?\s*\z"))reason="protected-number";
+ else if(Regex.IsMatch(source,@"\A<size=75%>[+-]</size><space=-0\.1em>[0-9]{1,6}\z"))reason="protected-number-markup";
  else {
   target=Match(x,source);
   if(target!=null && target!=source)reason="current-rule-match";
   else {
    string visible=Regex.Replace(source,@"<[^<>]*>","");
    if(DisplayScope.ContainsHan(visible) && !Regex.IsMatch(visible,"[A-Za-z]"))reason="localized-text-observed";
+   else if(provenOutputs.Contains((Str(x,"path"),Str(x,"cardId"),Str(x,"objectName"),x.GetProperty("inCardView").GetBoolean(),source)))reason="translated-output-observed";
    else {
     elsewhere=catalog.Ui.Any(e=>e.Source==source) || catalog.Display.Any(e=>e.Mode=="exact" && e.Source==source)
      || contexts.Any(c=>Match(c,source)!=null);

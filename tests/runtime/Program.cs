@@ -117,7 +117,7 @@ foreach(var phase in new[]{("PLAY","出牌"),("DRAW","抽牌")}){
   Check(pilot.Apply(DynamicDisplayRules.PhasePath,output!)==null,"translated phase remains stable");
  }
 }
-foreach(var input in new[]{"PLAY PHASE","出牌阶段","PLAY PHASE (-1 left)","PLAY PHASE (1.5 left)","PLAY PHASE (1000000 left)","PLAY PHASE (2 left) suffix","prefix PLAY PHASE (2 left)","PLAY PHASE (2 left)\n","START PHASE (2 left)","PLAY PHASE (<b>2</b> left)","PLAY PHASE (2 LEFT)"})
+foreach(var input in new[]{"出牌阶段","PLAY PHASE (-1 left)","PLAY PHASE (1.5 left)","PLAY PHASE (1000000 left)","PLAY PHASE (2 left) suffix","prefix PLAY PHASE (2 left)","PLAY PHASE (2 left)\n","START PHASE (2 left)","PLAY PHASE (<b>2</b> left)","PLAY PHASE (2 LEFT)"})
  Check(pilot.Apply(DynamicDisplayRules.PhasePath,input)==null,"nonmatching phase left to existing behavior: "+input);
 Check(pilot.Apply("Other/Phase Label","PLAY PHASE (3 left)")==null,"phase path must match exactly");
 Check(pilot.Apply(SurfaceProbeRules.HintPath,"PLAY PHASE (3 left)")==null,"phase grammar cannot affect hints");
@@ -215,4 +215,40 @@ foreach(var source in new[]{"Play Construct","Discover Construct"}){
   Check(pilot.Dynamic.ApplyCardButton(path,"CosmicCrest",source)==(source=="Play Construct"?"打出Construct牌":"发现Construct牌"),"construct action scoped to small/full effect button");
  Check(pilot.Dynamic.ApplyCardButton(effectPath.Replace("Select Effect Container/Select Effect Button(Clone)","Power Container/UsePower"),"CosmicCrest",source)==null,"construct action cannot rewrite power body");
 }
+using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/dynamic-0.1.13.json"))){
+ foreach(var sample in evidence.RootElement.GetProperty("samples").EnumerateArray()){
+  string path=sample.GetProperty("path").GetString()!,source=sample.GetProperty("source").GetString()!,card=sample.GetProperty("cardId").GetString()!;
+  bool inCard=sample.GetProperty("inCardView").GetBoolean();
+  var actual=inCard?pilot.Dynamic.ApplyCardButton(path,card,source):pilot.Apply(path,source);
+  Check(actual==sample.GetProperty("expected").GetString(),"0.1.13 observed surface: "+source);
+  Check((inCard?pilot.Dynamic.ApplyCardButton(path,card,actual!):pilot.Apply(path,actual!))==null,"0.1.14 output idempotent");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"<[^<>]+>").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"<[^<>]+>").Select(m=>m.Value)),"0.1.14 markup preserved");
+ }
+}
+for(int n=0;n<=8;n++){
+ Check(pilot.Apply(DynamicDisplayRules.FinishPath,"Destroy "+n+" "+(n==1?"card":"cards"))=="破坏"+n+"张牌","destroy confirmation tracks count "+n);
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Card:</b> Click up to "+n+" targets to destroy them.")=="<b>Card:</b> 点击至多"+n+"个目标以将其破坏。","destroy target count separate from cards "+n);
+}
+foreach(var source in new[]{"Destroy 1 cards","Destroy 2 card","Destroy 1 target","Destroy 2 targets","Destroy 2 HP","Destroy -1 cards","Destroy 1.5 cards"})
+ Check(pilot.Apply(DynamicDisplayRules.FinishPath,source)==null,"destroy rejects wrong unit/plural/numeric form");
+foreach(var slot in new[]{1,2,3,4}){
+ string character="Canvas/Main Panel/5 Hero Layout/Inactive Hero Location "+slot+"/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label";
+ string hero="Canvas/Main Panel/5 Hero Layout/Inactive Hero Location "+slot+"/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label";
+ Check(pilot.Dynamic.ApplyCardButton(character,"LegacyCharacter","Play Here")=="在此打出","five-hero placement slot "+slot);
+ Check(pilot.Apply(hero,"Play a Card")=="打出一张牌","five-hero action slot "+slot);
+ Check(pilot.Apply(hero,"Take Play Phase")=="进行出牌阶段","five-hero phase action slot "+slot);
+ Check(pilot.Dynamic.ApplyCardButton(character,"RaCharacter","Play Here")==null,"five-hero mismatched character excluded");
+}
+string fiveHero="Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label";
+foreach(var wrong in new[]{"5 Hero Layout/Inactive Hero Location 0","5 Hero Layout/Inactive Hero Location 5","3 Hero Layout/Inactive Hero Location 3","4 Hero Layout/Inactive Hero Location 1"})
+ Check(pilot.Apply(fiveHero.Replace("5 Hero Layout/Inactive Hero Location 1",wrong),"Play a Card")==null,"layout/index pairing must be authorized");
+string popup="Canvas/Revealed Cards Manager/[RevealCardsAction: Source=Captain Cosmic]/Title Label";
+Check(pilot.Apply(popup,"Captain Cosmic revealed:")=="Captain Cosmic展示的牌：","reveal popup matches action owner");
+Check(pilot.Apply(popup,"Legacy revealed:")==null,"reveal popup rejects source mismatch");
+Check(pilot.Apply(popup,"Captain Cosmic discovered:")==null,"reveal popup rejects wrong action");
+Check(pilot.Apply(popup.Replace("RevealCardsAction","OtherAction"),"Captain Cosmic revealed:")==null,"reveal popup rejects unknown action role");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click up to 3 cards in play to destroy them. Extra condition.")==null,"destroy hint never drops unknown condition");
+Check(pilot.Apply("Canvas/Main Panel/Message Panel/Panel/Message Label","Baron Blade has been reduced to <nobr>17 HP.</nobr>")=="Baron Blade的生命值已降至<nobr>17点</nobr>。","HP result text preserves supplied number");
+Check(pilot.Apply("Canvas/Main Panel/HP Label","Baron Blade has been reduced to <nobr>0 HP.</nobr>")==null,"HP result translation cannot target HP counter");
+Check(pilot.Apply("Canvas/Main Panel/Button Panel/Left/Back Button/Text (TMP)","Back")==null,"button source newline must match exactly");
 Console.WriteLine("RUNTIME_CHECKS_COMPLETE "+count);

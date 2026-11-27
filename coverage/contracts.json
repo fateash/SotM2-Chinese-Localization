@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "ea5cfccdcbc70397fe8dfa83fd01300dc93f049fb4ce78b714fdfa9c9b70c49b",
+    "runtime/DynamicDisplayRules.cs": "b9182dcb83b7623cf0f9f5633ba3e63ec49f8a6731bf2b6abebaf6c05aa3efd9",
     "runtime/SurfaceProbeRules.cs": "65803f8a22da910e98a98f9202e2d0c802cd1e6fc661c66f34c97a3480ed6651",
     "runtime/SurfaceProbe.cs": "337e308b31345ad75e93b6d627a5e8d3f78172ec6a191b86d096790e91308896",
-    "runtime/Plugin.cs": "9ce3b1ccff5dfdf6d5d53ea35b34c2709daed8c21e92330886c80efcf836562c",
+    "runtime/Plugin.cs": "adad48e089c85ef39abd793de9f8d9fd7051cc017b95f1503e4e197a675f180b",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "43ff2c101071f17a2cf4817b56b4a082d286877a1341b1d1d9fe0ed5385069b8"
+    "probe/dynamic-pilot.json": "439d9c4f2a49535b50201c35eb676b145876ea4aee115c4878c0ad8ecba38542"
   },
   "families": [
     {
@@ -67,7 +67,10 @@
         "hint.selection.22",
         "hint.selection.23",
         "hint.selection.24",
-        "hint.lowest.hp"
+        "hint.lowest.hp",
+        "hint.destroy.targets",
+        "hint.destroy.cards",
+        "hint.hero.take.play"
       ],
       "contexts": [
         {
@@ -448,6 +451,105 @@
             "inCardView": false,
             "expected": null
           }
+        },
+        {
+          "id": "pilot014-0556a82be1be07fa0edf6c30",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Construct Cataclysm:</b> Click up to 8 targets to destroy them.",
+            "inCardView": false,
+            "expected": "<b>Construct Cataclysm:</b> 点击至多8个目标以将其破坏。",
+            "observationId": "0556a82be1be07fa0edf6c30"
+          }
+        },
+        {
+          "id": "pilot014-negative-0556a82be1be07fa0edf6c30",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Construct Cataclysm:</b> Click up to 8 targets to destroy them.",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-2ed49ac732fc3e834fd2c034",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Fueled Freeze:</b> Click up to 3 cards in play to destroy them.",
+            "inCardView": false,
+            "expected": "<b>Fueled Freeze:</b> 点击至多3张在场的牌以将其破坏。",
+            "observationId": "2ed49ac732fc3e834fd2c034"
+          }
+        },
+        {
+          "id": "pilot014-negative-2ed49ac732fc3e834fd2c034",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Fueled Freeze:</b> Click up to 3 cards in play to destroy them.",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-ea02e4f2451f3c39e9eeab52",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Tachyon:</b> Click a hero to take their Play phase now.",
+            "inCardView": false,
+            "expected": "<b>Tachyon:</b> 点击一位英雄，让其立即进行出牌阶段。",
+            "observationId": "ea02e4f2451f3c39e9eeab52"
+          }
+        },
+        {
+          "id": "pilot014-negative-ea02e4f2451f3c39e9eeab52",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Tachyon:</b> Click a hero to take their Play phase now.",
+            "inCardView": false,
+            "expected": null
+          }
         }
       ]
     },
@@ -456,7 +558,8 @@
       "templates": [
         "finish.damage",
         "finish.discard",
-        "finish.select"
+        "finish.select",
+        "finish.destroy"
       ],
       "contexts": [
         {
@@ -506,6 +609,270 @@
           "heroState": "active-and-inactive",
           "layout": "5",
           "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "pilot014-5a7f78fd0fee0891aaea3af9",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 5 cards",
+            "inCardView": false,
+            "expected": "破坏5张牌",
+            "observationId": "5a7f78fd0fee0891aaea3af9"
+          }
+        },
+        {
+          "id": "pilot014-negative-5a7f78fd0fee0891aaea3af9",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 5 cards",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-92e6ee543a52528c2b70ce84",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 2 cards",
+            "inCardView": false,
+            "expected": "破坏2张牌",
+            "observationId": "92e6ee543a52528c2b70ce84"
+          }
+        },
+        {
+          "id": "pilot014-negative-92e6ee543a52528c2b70ce84",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 2 cards",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-9549402c7bcbfa706652e4a6",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 3 cards",
+            "inCardView": false,
+            "expected": "破坏3张牌",
+            "observationId": "9549402c7bcbfa706652e4a6"
+          }
+        },
+        {
+          "id": "pilot014-negative-9549402c7bcbfa706652e4a6",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 3 cards",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-9a350225f2b1be7b4b1174cc",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 7 cards",
+            "inCardView": false,
+            "expected": "破坏7张牌",
+            "observationId": "9a350225f2b1be7b4b1174cc"
+          }
+        },
+        {
+          "id": "pilot014-negative-9a350225f2b1be7b4b1174cc",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 7 cards",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-a6230170e9d9b5ffc819688a",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 6 cards",
+            "inCardView": false,
+            "expected": "破坏6张牌",
+            "observationId": "a6230170e9d9b5ffc819688a"
+          }
+        },
+        {
+          "id": "pilot014-negative-a6230170e9d9b5ffc819688a",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 6 cards",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-bb00a3240d7bbd8c66c4fef8",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 1 card",
+            "inCardView": false,
+            "expected": "破坏1张牌",
+            "observationId": "bb00a3240d7bbd8c66c4fef8"
+          }
+        },
+        {
+          "id": "pilot014-negative-bb00a3240d7bbd8c66c4fef8",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 1 card",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-c49ecf4dcb262c0d2f71720f",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 0 cards",
+            "inCardView": false,
+            "expected": "破坏0张牌",
+            "observationId": "c49ecf4dcb262c0d2f71720f"
+          }
+        },
+        {
+          "id": "pilot014-negative-c49ecf4dcb262c0d2f71720f",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 0 cards",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-e57e98a4f8480ad7b9aea0ce",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 4 cards",
+            "inCardView": false,
+            "expected": "破坏4张牌",
+            "observationId": "e57e98a4f8480ad7b9aea0ce"
+          }
+        },
+        {
+          "id": "pilot014-negative-e57e98a4f8480ad7b9aea0ce",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "cardId": "",
+            "source": "Destroy 4 cards",
+            "inCardView": false,
+            "expected": null
+          }
         }
       ]
     },
@@ -514,7 +881,8 @@
       "templates": [
         "phase.play.remaining",
         "phase.draw.remaining",
-        "phase.power.remaining"
+        "phase.power.remaining",
+        "phase.setup"
       ],
       "contexts": [
         {
@@ -597,6 +965,237 @@
             "inCardView": false,
             "expected": null
           }
+        },
+        {
+          "id": "pilot014-0ef991fcb461a5e07fc4a0cf",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "START PHASE",
+            "inCardView": false,
+            "expected": "开始阶段",
+            "observationId": "0ef991fcb461a5e07fc4a0cf"
+          }
+        },
+        {
+          "id": "pilot014-negative-0ef991fcb461a5e07fc4a0cf",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Other/Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "START PHASE",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-26a383850b7fe72bf46e093e",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "END PHASE",
+            "inCardView": false,
+            "expected": "结束阶段",
+            "observationId": "26a383850b7fe72bf46e093e"
+          }
+        },
+        {
+          "id": "pilot014-negative-26a383850b7fe72bf46e093e",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Other/Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "END PHASE",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-8254d2682433d26df350c79b",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "PLAY PHASE",
+            "inCardView": false,
+            "expected": "出牌阶段",
+            "observationId": "8254d2682433d26df350c79b"
+          }
+        },
+        {
+          "id": "pilot014-negative-8254d2682433d26df350c79b",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Other/Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "PLAY PHASE",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-b67a1a6552c8e6b84ef46d71",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "INCAPACITATED PHASE",
+            "inCardView": false,
+            "expected": "失能阶段",
+            "observationId": "b67a1a6552c8e6b84ef46d71"
+          }
+        },
+        {
+          "id": "pilot014-negative-b67a1a6552c8e6b84ef46d71",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Other/Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "INCAPACITATED PHASE",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-c11bf9d34c4644d070a90585",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "POWER PHASE",
+            "inCardView": false,
+            "expected": "异能阶段",
+            "observationId": "c11bf9d34c4644d070a90585"
+          }
+        },
+        {
+          "id": "pilot014-negative-c11bf9d34c4644d070a90585",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Other/Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "POWER PHASE",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-e7c6f55222819c2a2b29a8d4",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "SETUP",
+            "inCardView": false,
+            "expected": "准备",
+            "observationId": "e7c6f55222819c2a2b29a8d4"
+          }
+        },
+        {
+          "id": "pilot014-negative-e7c6f55222819c2a2b29a8d4",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Other/Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "SETUP",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-ffea93ff7280af56873aca64",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "DRAW PHASE",
+            "inCardView": false,
+            "expected": "抽牌阶段",
+            "observationId": "ffea93ff7280af56873aca64"
+          }
+        },
+        {
+          "id": "pilot014-negative-ffea93ff7280af56873aca64",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Other/Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "DRAW PHASE",
+            "inCardView": false,
+            "expected": null
+          }
         }
       ]
     },
@@ -606,7 +1205,8 @@
         "button.skip.play",
         "button.skip.power",
         "button.skip",
-        "button.skip.play.action"
+        "button.skip.play.action",
+        "button.skip.incapacitated"
       ],
       "contexts": [
         {
@@ -656,6 +1256,39 @@
           "heroState": "active-and-inactive",
           "layout": "5",
           "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "pilot014-16acba676ba72634b58d41ec",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "cardId": "",
+            "source": "Skip Incapacitated Phase",
+            "inCardView": false,
+            "expected": "跳过失能阶段",
+            "observationId": "16acba676ba72634b58d41ec"
+          }
+        },
+        {
+          "id": "pilot014-negative-16acba676ba72634b58d41ec",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Other/Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "cardId": "",
+            "source": "Skip Incapacitated Phase",
+            "inCardView": false,
+            "expected": null
+          }
         }
       ]
     },
@@ -746,7 +1379,8 @@
         "description.draw",
         "description.reveal",
         "description.play",
-        "description.discover"
+        "description.discover",
+        "description.summon"
       ],
       "contexts": [
         {
@@ -829,6 +1463,72 @@
             "inCardView": false,
             "expected": null
           }
+        },
+        {
+          "id": "pilot014-3cc96e080e7d53ca668c9be2",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Title Label",
+            "path": "Canvas/Revealed Cards Manager/[RevealCardsAction: Source=Captain Cosmic]/Title Label",
+            "cardId": "",
+            "source": "Captain Cosmic revealed:",
+            "inCardView": false,
+            "expected": "Captain Cosmic展示的牌：",
+            "observationId": "3cc96e080e7d53ca668c9be2"
+          }
+        },
+        {
+          "id": "pilot014-negative-3cc96e080e7d53ca668c9be2",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Title Label",
+            "path": "Other/Canvas/Revealed Cards Manager/[RevealCardsAction: Source=Captain Cosmic]/Title Label",
+            "cardId": "",
+            "source": "Captain Cosmic revealed:",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-ccaf2690569dbcc545893d2e",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Baron Blade summoned:",
+            "inCardView": false,
+            "expected": "Baron Blade召唤出的牌：",
+            "observationId": "ccaf2690569dbcc545893d2e"
+          }
+        },
+        {
+          "id": "pilot014-negative-ccaf2690569dbcc545893d2e",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Other/Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Baron Blade summoned:",
+            "inCardView": false,
+            "expected": null
+          }
         }
       ]
     },
@@ -839,7 +1539,8 @@
         "button.use.power",
         "button.put.card",
         "button.destroy.card",
-        "button.fewest"
+        "button.fewest",
+        "button.take.play"
       ],
       "contexts": [
         {
@@ -885,10 +1586,10 @@
         {
           "id": "layout-5",
           "status": "unobserved",
-          "view": "all-applicable",
+          "view": "remaining-unobserved-roles",
           "heroState": "active-and-inactive",
           "layout": "5",
-          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+          "reason": "已记录下列五英雄显示位置；本项仅代表其余尚未观察的用途，不以部分样本推定全覆盖。"
         },
         {
           "id": "other-views",
@@ -897,6 +1598,204 @@
           "heroState": "active-and-inactive",
           "layout": "all",
           "reason": "继续核对小图／大图／附属区用途；未观察到不等于不适用。"
+        },
+        {
+          "id": "pilot014-2f88d7905197e9a91b73a2a2",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/CaptainCosmic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Play a Card",
+            "inCardView": false,
+            "expected": "打出一张牌",
+            "observationId": "2f88d7905197e9a91b73a2a2"
+          }
+        },
+        {
+          "id": "pilot014-negative-2f88d7905197e9a91b73a2a2",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/CaptainCosmic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Play a Card",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-6dd259e16b85a6296a541c71",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Play a Card",
+            "inCardView": false,
+            "expected": "打出一张牌",
+            "observationId": "6dd259e16b85a6296a541c71"
+          }
+        },
+        {
+          "id": "pilot014-negative-6dd259e16b85a6296a541c71",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Play a Card",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-7580474452f36ae406e9a92b",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/AbsoluteZero/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Play a Card",
+            "inCardView": false,
+            "expected": "打出一张牌",
+            "observationId": "7580474452f36ae406e9a92b"
+          }
+        },
+        {
+          "id": "pilot014-negative-7580474452f36ae406e9a92b",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/AbsoluteZero/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Play a Card",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-9709252ae85f267c9640fd00",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "inactive",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Take Play Phase",
+            "inCardView": false,
+            "expected": "进行出牌阶段",
+            "observationId": "9709252ae85f267c9640fd00"
+          }
+        },
+        {
+          "id": "pilot014-negative-9709252ae85f267c9640fd00",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Take Play Phase",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-9d62152e8dc87e5188c3c239",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "inactive",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/CaptainCosmic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Take Play Phase",
+            "inCardView": false,
+            "expected": "进行出牌阶段",
+            "observationId": "9d62152e8dc87e5188c3c239"
+          }
+        },
+        {
+          "id": "pilot014-negative-9d62152e8dc87e5188c3c239",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/CaptainCosmic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Take Play Phase",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-ef15fdc73c0f3823074ada73",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tachyon/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Play a Card",
+            "inCardView": false,
+            "expected": "打出一张牌",
+            "observationId": "ef15fdc73c0f3823074ada73"
+          }
+        },
+        {
+          "id": "pilot014-negative-ef15fdc73c0f3823074ada73",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tachyon/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Play a Card",
+            "inCardView": false,
+            "expected": null
+          }
         }
       ]
     },
@@ -1526,10 +2425,10 @@
         {
           "id": "layout-5",
           "status": "unobserved",
-          "view": "all-applicable",
+          "view": "remaining-unobserved-roles",
           "heroState": "active-and-inactive",
           "layout": "5",
-          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+          "reason": "已记录下列五英雄显示位置；本项仅代表其余尚未观察的用途，不以部分样本推定全覆盖。"
         },
         {
           "id": "other-views",
@@ -1538,6 +2437,390 @@
           "heroState": "active-and-inactive",
           "layout": "all",
           "reason": "继续核对小图／大图／附属区用途；未观察到不等于不适用。"
+        },
+        {
+          "id": "pilot014-3fe16c0cbc70e10240782a7a",
+          "status": "offline-covered",
+          "view": "character",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "cardId": "LegacyCharacter",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": "在此打出",
+            "observationId": "3fe16c0cbc70e10240782a7a"
+          }
+        },
+        {
+          "id": "pilot014-negative-3fe16c0cbc70e10240782a7a",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "cardId": "LegacyCharacter",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-87fb7e895814fd51f2b9ab69",
+          "status": "offline-covered",
+          "view": "character",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/AbsoluteZero/Inner Panel/Character Card Container/AbsoluteZeroCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "cardId": "AbsoluteZeroCharacter",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": "在此打出",
+            "observationId": "87fb7e895814fd51f2b9ab69"
+          }
+        },
+        {
+          "id": "pilot014-negative-87fb7e895814fd51f2b9ab69",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/AbsoluteZero/Inner Panel/Character Card Container/AbsoluteZeroCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "cardId": "AbsoluteZeroCharacter",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-cc08f82febccd933970533ca",
+          "status": "offline-covered",
+          "view": "character",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Bunker/Inner Panel/Character Card Container/BunkerCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "cardId": "BunkerCharacter",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": "在此打出",
+            "observationId": "cc08f82febccd933970533ca"
+          }
+        },
+        {
+          "id": "pilot014-negative-cc08f82febccd933970533ca",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Bunker/Inner Panel/Character Card Container/BunkerCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "cardId": "BunkerCharacter",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-e25bebd331394d7b41b76357",
+          "status": "offline-covered",
+          "view": "character",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "cardId": "TachyonCharacter",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": "在此打出",
+            "observationId": "e25bebd331394d7b41b76357"
+          }
+        },
+        {
+          "id": "pilot014-negative-e25bebd331394d7b41b76357",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "cardId": "TachyonCharacter",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "result-message",
+      "templates": [
+        "result.hp",
+        "result.victory"
+      ],
+      "contexts": [
+        {
+          "id": "pilot014-76e047162721a9b11007fef5",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Message Label",
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "cardId": "",
+            "source": "Baron Blade has been reduced to <nobr>0 HP.</nobr>",
+            "inCardView": false,
+            "expected": "Baron Blade的生命值已降至<nobr>0点</nobr>。",
+            "observationId": "76e047162721a9b11007fef5"
+          }
+        },
+        {
+          "id": "pilot014-negative-76e047162721a9b11007fef5",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Message Label",
+            "path": "Other/Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "cardId": "",
+            "source": "Baron Blade has been reduced to <nobr>0 HP.</nobr>",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-fa9c9fbb553e9df6630b1bea",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Main Panel/Heading Label",
+            "cardId": "",
+            "source": "You have defeated Baron Blade and saved the day!",
+            "inCardView": false,
+            "expected": "你击败了Baron Blade，化解了危机！",
+            "observationId": "fa9c9fbb553e9df6630b1bea"
+          }
+        },
+        {
+          "id": "pilot014-negative-fa9c9fbb553e9df6630b1bea",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Other/Canvas/Main Panel/Heading Label",
+            "cardId": "",
+            "source": "You have defeated Baron Blade and saved the day!",
+            "inCardView": false,
+            "expected": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "menu-actions",
+      "templates": [
+        "button.newgame.play",
+        "button.newgame.randomize",
+        "button.newgame.back",
+        "button.result.share",
+        "button.message.continue"
+      ],
+      "contexts": [
+        {
+          "id": "pilot014-0c692eca802267a9636b74b8",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Right/Play Button/Text (TMP)",
+            "cardId": "",
+            "source": "Play!",
+            "inCardView": false,
+            "expected": "开始游戏！",
+            "observationId": "0c692eca802267a9636b74b8"
+          }
+        },
+        {
+          "id": "pilot014-negative-0c692eca802267a9636b74b8",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Other/Canvas/Main Panel/Button Panel/Right/Play Button/Text (TMP)",
+            "cardId": "",
+            "source": "Play!",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-137a0e3f04e0edb6e6d34258",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Left/Randomize Button/Text (TMP)",
+            "cardId": "",
+            "source": "Randomize",
+            "inCardView": false,
+            "expected": "随机选择",
+            "observationId": "137a0e3f04e0edb6e6d34258"
+          }
+        },
+        {
+          "id": "pilot014-negative-137a0e3f04e0edb6e6d34258",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Other/Canvas/Main Panel/Button Panel/Left/Randomize Button/Text (TMP)",
+            "cardId": "",
+            "source": "Randomize",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-a7625ab4f26f6c4f800575b0",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Text",
+            "path": "Canvas/Main Panel/Message Panel/Panel/Confirm Container/Confirm Button/Text",
+            "cardId": "",
+            "source": "Continue",
+            "inCardView": false,
+            "expected": "继续",
+            "observationId": "a7625ab4f26f6c4f800575b0"
+          }
+        },
+        {
+          "id": "pilot014-negative-a7625ab4f26f6c4f800575b0",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Text",
+            "path": "Other/Canvas/Main Panel/Message Panel/Panel/Confirm Container/Confirm Button/Text",
+            "cardId": "",
+            "source": "Continue",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-adfc8ef927245041e48067f5",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Text",
+            "path": "Canvas/Main Panel/Button Container/Bottom Buttons/Temp Share Button/Text",
+            "cardId": "",
+            "source": "Share",
+            "inCardView": false,
+            "expected": "分享",
+            "observationId": "adfc8ef927245041e48067f5"
+          }
+        },
+        {
+          "id": "pilot014-negative-adfc8ef927245041e48067f5",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Text",
+            "path": "Other/Canvas/Main Panel/Button Container/Bottom Buttons/Temp Share Button/Text",
+            "cardId": "",
+            "source": "Share",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot014-f40ba0626be5da6a3f8bf931",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文与用途已登记；本版离线转换，实机验收独立保留。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Left/Back Button/Text (TMP)",
+            "cardId": "",
+            "source": "Back\n",
+            "inCardView": false,
+            "expected": "返回\n",
+            "observationId": "f40ba0626be5da6a3f8bf931"
+          }
+        },
+        {
+          "id": "pilot014-negative-f40ba0626be5da6a3f8bf931",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同文字在其他用途下不转换。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Other/Canvas/Main Panel/Button Panel/Left/Back Button/Text (TMP)",
+            "cardId": "",
+            "source": "Back\n",
+            "inCardView": false,
+            "expected": null
+          }
         }
       ]
     }
@@ -1659,6 +2942,74 @@
       "truncated": false,
       "markerCandidate": false,
       "expectedReason": "current-rule-match"
+    },
+    {
+      "path": "Canvas/Unexpected/Next To Selection Button/Selection Button Label",
+      "cardId": "LegacyCharacter",
+      "source": "<size=75%>+</size><space=-0.1em>2",
+      "inCardView": true,
+      "expected": "在此打出",
+      "objectName": "Selection Button Label",
+      "id": "numeric-markup",
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "expectedReason": "protected-number-markup"
+    },
+    {
+      "path": "Canvas/Unexpected/Next To Selection Button/Selection Button Label",
+      "cardId": "LegacyCharacter",
+      "source": "<size=75%>+</size><space=-0.1em>2 damage",
+      "inCardView": true,
+      "expected": "在此打出",
+      "objectName": "Selection Button Label",
+      "id": "numeric-plus-text",
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "expectedReason": "unresolved-full-string"
+    },
+    {
+      "objectName": "Description Label",
+      "path": "Canvas/Temporary Full Card Panel/Description Label",
+      "cardId": "",
+      "source": "Cosmic Crest发现的牌：",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "proven-translated-name-output",
+      "evidence": [
+        {
+          "session": "b87d4d41188fc6e6e2dbb4cd73e9ac388ac9aff5e9eb2f15e5746ef98c81bd84",
+          "line": 471,
+          "version": "0.1.13-rc.1",
+          "markerCandidate": false
+        }
+      ],
+      "expectedReason": "translated-output-observed"
+    },
+    {
+      "objectName": "Description Label",
+      "path": "Other/Canvas/Temporary Full Card Panel/Description Label",
+      "cardId": "",
+      "source": "Cosmic Crest发现的牌：",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "unproven-translated-name-output",
+      "evidence": [
+        {
+          "session": "b87d4d41188fc6e6e2dbb4cd73e9ac388ac9aff5e9eb2f15e5746ef98c81bd84",
+          "line": 471,
+          "version": "0.1.13-rc.1",
+          "markerCandidate": false
+        }
+      ],
+      "expectedReason": "unresolved-full-string"
     }
   ]
 }

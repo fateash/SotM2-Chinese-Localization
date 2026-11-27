@@ -261,6 +261,1061 @@
       "id": "c0cf1bf7a908617761e9fe45",
       "reason": "current-rule-match",
       "target": "Cosmic Crest发现的牌："
+    },
+    {
+      "id": "0087c32afc2aa2d60add37d0",
+      "reason": "current-rule-match",
+      "target": "点击或拖动一个异能以使用它。"
+    },
+    {
+      "id": "02265b64c9bbb1c57b5a9400",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "0237e962fc5eeb10885238b4",
+      "reason": "current-rule-match",
+      "target": "<b>Fueled Freeze:</b> 点击一个目标，对其造成<nobr>3点寒冷伤害</nobr>。"
+    },
+    {
+      "id": "03e023272e4a1a787613ee0d",
+      "reason": "current-rule-match",
+      "target": "<b>Remote Walking Tank:</b> 点击一个目标，对其造成<nobr>5点能量伤害</nobr>。"
+    },
+    {
+      "id": "054f2dee748e26fd4f77fe33",
+      "reason": "current-rule-match",
+      "target": "菜单"
+    },
+    {
+      "id": "0556a82be1be07fa0edf6c30",
+      "reason": "current-rule-match",
+      "target": "<b>Construct Cataclysm:</b> 点击至多8个目标以将其破坏。"
+    },
+    {
+      "id": "063c744fe202b37d43453c1c",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "0758bcc8902fad512b0b19db",
+      "reason": "current-rule-match",
+      "target": "<b>Tachyon:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "076b23af0c496ecfd7bd2633",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "0c692eca802267a9636b74b8",
+      "reason": "current-rule-match",
+      "target": "开始游戏！"
+    },
+    {
+      "id": "0c8e7855080a91186f806e6e",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "0ef991fcb461a5e07fc4a0cf",
+      "reason": "current-rule-match",
+      "target": "开始阶段"
+    },
+    {
+      "id": "113e71bdd87691cd802525c7",
+      "reason": "current-rule-match",
+      "target": "对8个目标造成3点伤害"
+    },
+    {
+      "id": "11a4d6c69a7d68842e89a92a",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "137a0e3f04e0edb6e6d34258",
+      "reason": "current-rule-match",
+      "target": "随机选择"
+    },
+    {
+      "id": "157dd42838f689594e3e6c60",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "16acba676ba72634b58d41ec",
+      "reason": "current-rule-match",
+      "target": "跳过失能阶段"
+    },
+    {
+      "id": "17cade601544a51af32e3e1d",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "180dfae29db76649daf5fe02",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "195c9f4faa05bbd4ef093666",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "1d6c728e472e065e616d729a",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "1e474146b8c72d7aefff87ab",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "207432982525fa7ddc564fd8",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "207a771f7c52d4828634c47f",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "235ad70c7494f9914280de9c",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "24b9fd0122c3328903cb3e2e",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "25ee456d0d58c96b668c5b06",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "26a383850b7fe72bf46e093e",
+      "reason": "current-rule-match",
+      "target": "结束阶段"
+    },
+    {
+      "id": "2a2b39bbe934f1706baae27f",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "2a45a8875f3ecf89318ba818",
+      "reason": "current-rule-match",
+      "target": "<b>Bunker:</b> 点击Bunker上的按钮，选择一个效果。"
+    },
+    {
+      "id": "2b80a3bab22f149b239aadc2",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "2b925159b79cd39260e90ef3",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "2c35c60966f8fd9679ed7fc8",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "2e55fd3ac759aedfd8685357",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "2ebcf9768fa9de5a4f517559",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "2ed49ac732fc3e834fd2c034",
+      "reason": "current-rule-match",
+      "target": "<b>Fueled Freeze:</b> 点击至多3张在场的牌以将其破坏。"
+    },
+    {
+      "id": "2f45b3bfc8dab0551c637caa",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "2f72d8db8d3b50daa71a6dc9",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "2f88d7905197e9a91b73a2a2",
+      "reason": "current-rule-match",
+      "target": "打出一张牌"
+    },
+    {
+      "id": "2ffc5b8fb7408080e2026d7e",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "2ffdcecd123749060b6b5116",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "33e4dc00616d69fa64332b46",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "35c748c234a9f55df6792e03",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "3ac948a6588c05213f69cc1b",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "3cc96e080e7d53ca668c9be2",
+      "reason": "current-rule-match",
+      "target": "Captain Cosmic展示的牌："
+    },
+    {
+      "id": "3d807fb2b8d50a365eb850a0",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "3e3e710703e55ace736b97e9",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "3fe16c0cbc70e10240782a7a",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "41ff0368a77d1bc8218b255d",
+      "reason": "current-rule-match",
+      "target": "<b>The Ol' One-Two:</b> 点击一张牌以将其打出。"
+    },
+    {
+      "id": "42b85f67e53b8f9b6d959fdf",
+      "reason": "current-rule-match",
+      "target": "发送反馈"
+    },
+    {
+      "id": "42fa1190ac4791aa8494c93a",
+      "reason": "current-rule-match",
+      "target": "替我选择"
+    },
+    {
+      "id": "45e2f3fd79801c3610876414",
+      "reason": "current-rule-match",
+      "target": "<b>Quick Insight:</b> 点击2张手牌以将其弃置。"
+    },
+    {
+      "id": "45e9ba621a1b50218e2f1165",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "467eaaac87f6a6d147fc4c80",
+      "reason": "current-rule-match",
+      "target": "点击一个失能能力以使用它。"
+    },
+    {
+      "id": "46a5c66c87392d1e316469d5",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "473ad3b86dce2754cbe0e518",
+      "reason": "current-rule-match",
+      "target": "<b>Sonic Vortex:</b> 点击至多5个目标，对其各造成<nobr>3点音波伤害</nobr>。"
+    },
+    {
+      "id": "479864c19c979753ed3b5d52",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "47c1645990055ba5262af2d8",
+      "reason": "current-rule-match",
+      "target": "Captain Cosmic抽到的牌："
+    },
+    {
+      "id": "4b41509595626411a7ba2b85",
+      "reason": "current-rule-match",
+      "target": "Quick Insight抽到的牌："
+    },
+    {
+      "id": "4c929259143461b36d729e59",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "4ea325fbbed25a3fd7932d49",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "4f1d33bb1d6eacce60dd57a2",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "50276b450d510ccda3c0bdf6",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "51722747162b8d3aa31f23e0",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "523ab64465cd188cec45c23d",
+      "reason": "current-rule-match",
+      "target": "Mobile Defense Platform展示的牌："
+    },
+    {
+      "id": "549b02cb30641b1e1e3ff1cc",
+      "reason": "current-rule-match",
+      "target": "Legacy抽到的牌："
+    },
+    {
+      "id": "55cd2e0a94909b0a928c19b3",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "5879a787622f240f11689908",
+      "reason": "current-rule-match",
+      "target": "对3个目标造成伤害"
+    },
+    {
+      "id": "594ff93cdbe211a7f45f713b",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "5997904492d875812ee55184",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "5a7f78fd0fee0891aaea3af9",
+      "reason": "current-rule-match",
+      "target": "破坏5张牌"
+    },
+    {
+      "id": "5ac9f754410dfa1c8813b38f",
+      "reason": "current-rule-match",
+      "target": "弃置0张牌"
+    },
+    {
+      "id": "5dc650b6d53ea0e08cd8dde9",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "5de4563ef84ae44b6fd11197",
+      "reason": "current-rule-match",
+      "target": "对2个目标造成伤害"
+    },
+    {
+      "id": "6066b5e043addf2dafac6b02",
+      "reason": "current-rule-match",
+      "target": "Insula Primalis打出的牌："
+    },
+    {
+      "id": "61177ebadd005e09120692ce",
+      "reason": "current-rule-match",
+      "target": "出牌阶段（剩余1次）"
+    },
+    {
+      "id": "61e44cb3222205720432700d",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "61efd7b4a85b30f24014f426",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "6312ef63407cd9880ee8ace7",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "647967b1d666432cda8384fd",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "64877572b11ec37b8ab1bb92",
+      "reason": "current-rule-match",
+      "target": "<b>Captain Cosmic:</b> 点击一张牌以将其打出。"
+    },
+    {
+      "id": "64f4ee6d7c2ea7aaf744e1fc",
+      "reason": "current-rule-match",
+      "target": "跳过"
+    },
+    {
+      "id": "6530ed8b88f7dcbcea727a65",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "662a4fff87de8403517f87d3",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "6716604d36e8bea21d779cb0",
+      "reason": "current-rule-match",
+      "target": "对1个目标造成8点伤害"
+    },
+    {
+      "id": "672322eac346edae74af5583",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "6a3bd3cb1c6f5c186cab8266",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "6bc317427f344d1f4242f7b2",
+      "reason": "current-rule-match",
+      "target": "Bunker抽到的牌："
+    },
+    {
+      "id": "6cb182faafc69e0460de54d4",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "6cc74ba67b7c570f0cf9df39",
+      "reason": "current-rule-match",
+      "target": "Expedited Efficiency抽到的牌："
+    },
+    {
+      "id": "6dd259e16b85a6296a541c71",
+      "reason": "current-rule-match",
+      "target": "打出一张牌"
+    },
+    {
+      "id": "6e7398d5c01cffe60cf88ee3",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "6eb3211cbb0929d23bea4b33",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "726e607904659c353e97f161",
+      "reason": "current-rule-match",
+      "target": "抽一张牌"
+    },
+    {
+      "id": "7404761acc6dcd7b44414276",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "7580474452f36ae406e9a92b",
+      "reason": "current-rule-match",
+      "target": "打出一张牌"
+    },
+    {
+      "id": "75c9c6f250524eb72ce9937c",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "76e047162721a9b11007fef5",
+      "reason": "current-rule-match",
+      "target": "Baron Blade的生命值已降至<nobr>0点</nobr>。"
+    },
+    {
+      "id": "7f63a3e170762d581bce08c0",
+      "reason": "current-rule-match",
+      "target": "打出Construct牌"
+    },
+    {
+      "id": "80d691f55d09acb8f8ea5fab",
+      "reason": "current-rule-match",
+      "target": "Bolster Allies抽到的牌："
+    },
+    {
+      "id": "8254d2682433d26df350c79b",
+      "reason": "current-rule-match",
+      "target": "出牌阶段"
+    },
+    {
+      "id": "827e41df713d5e35c369a367",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "836ed5ad84b6b954c1d77ec8",
+      "reason": "current-rule-match",
+      "target": "<b>Destructive Response:</b> 点击至多3个目标，对其各造成<nobr>1点能量伤害</nobr>。"
+    },
+    {
+      "id": "847dd02c95959c5f4eff2fd2",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "84b8660ccb0f4c96cf3f82e3",
+      "reason": "current-rule-match",
+      "target": "A True Hero抽到的牌："
+    },
+    {
+      "id": "8539c746d1d8db2f8f286930",
+      "reason": "current-rule-match",
+      "target": "跳过"
+    },
+    {
+      "id": "85c64cb3b5d40d2fc62e269c",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "85dac19e8b01ccadf8d8d151",
+      "reason": "current-rule-match",
+      "target": "弃置1张牌"
+    },
+    {
+      "id": "864a97ed3d54284bf55ae0e0",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "86f350e7c51f5a6753ef887f",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "87fb7e895814fd51f2b9ab69",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "8a4817c61420add91287af30",
+      "reason": "current-rule-match",
+      "target": "跳过出牌"
+    },
+    {
+      "id": "8a8f3513640b2c7b2b8a9dd9",
+      "reason": "current-rule-match",
+      "target": "弃置2张牌"
+    },
+    {
+      "id": "8b32cf9ffe70bfa8d018c482",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "8ca1fa61660f9fcb7ddf9d5c",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "8e68dff8803ed853ed7ed2ff",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "9004fe9364526f797a975454",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "90ac0bc133119fd0034cd5ff",
+      "reason": "current-rule-match",
+      "target": "<b>The Ol' One-Two:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
+    },
+    {
+      "id": "9107ba23b33279e54f7efe61",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "92e6ee543a52528c2b70ce84",
+      "reason": "current-rule-match",
+      "target": "破坏2张牌"
+    },
+    {
+      "id": "9549402c7bcbfa706652e4a6",
+      "reason": "current-rule-match",
+      "target": "破坏3张牌"
+    },
+    {
+      "id": "9709252ae85f267c9640fd00",
+      "reason": "current-rule-match",
+      "target": "进行出牌阶段"
+    },
+    {
+      "id": "97e8d859f8b25d62d631be99",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "9a350225f2b1be7b4b1174cc",
+      "reason": "current-rule-match",
+      "target": "破坏7张牌"
+    },
+    {
+      "id": "9c37cc993084436f6f02c02e",
+      "reason": "current-rule-match",
+      "target": "<b>Construct Cataclysm:</b> 点击一个目标，对其造成<nobr>8点能量伤害</nobr>。"
+    },
+    {
+      "id": "9d346c021ad7f16fa760f2fb",
+      "reason": "current-rule-match",
+      "target": "菜单"
+    },
+    {
+      "id": "9d3979cc1ae247e51869c8ec",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "9d62152e8dc87e5188c3c239",
+      "reason": "current-rule-match",
+      "target": "进行出牌阶段"
+    },
+    {
+      "id": "9df1dcc1404e7881ad8000a4",
+      "reason": "current-rule-match",
+      "target": "<b>Fleet of Foot:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "a2bea954a642027fbdb84297",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "a2c257e26bb373e330a347bc",
+      "reason": "current-rule-match",
+      "target": "抽牌阶段（剩余2次）"
+    },
+    {
+      "id": "a2e40107c73c868f7ff3319b",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "a2ee09f830c8136575a54d50",
+      "reason": "current-rule-match",
+      "target": "<b>Research Grant:</b> 点击一张手牌以将其弃置。"
+    },
+    {
+      "id": "a37c7046c01fd59fa7826140",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "a401cb2eb9d2bbba586e2179",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "a6230170e9d9b5ffc819688a",
+      "reason": "current-rule-match",
+      "target": "破坏6张牌"
+    },
+    {
+      "id": "a6e9bedc71038d358b6cfbe4",
+      "reason": "current-rule-match",
+      "target": "新建游戏"
+    },
+    {
+      "id": "a700c4ca8a5022a836bfe01c",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "a7625ab4f26f6c4f800575b0",
+      "reason": "current-rule-match",
+      "target": "继续"
+    },
+    {
+      "id": "a76f3800a54cc39f29b21334",
+      "reason": "current-rule-match",
+      "target": "将牌置于Ordnance下方"
+    },
+    {
+      "id": "a8b0a6dca16a3c5d7cef7d2c",
+      "reason": "current-rule-match",
+      "target": "<b>Wounding Buffer:</b> <b>Baron Blade</b>将对<b>Captain Cosmic</b>造成2点近战伤害。点击一个反应以使用它。"
+    },
+    {
+      "id": "aa228e4dccefccff3fd20d5d",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "aaed8b55a5a258462ddb36bb",
+      "reason": "current-rule-match",
+      "target": "Fleet of Foot抽到的牌："
+    },
+    {
+      "id": "ac1fc1c109b56504668baae6",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "adfc8ef927245041e48067f5",
+      "reason": "current-rule-match",
+      "target": "分享"
+    },
+    {
+      "id": "b0546cde75711f4103c6d5d3",
+      "reason": "current-rule-match",
+      "target": "<b>Cosmic Crest:</b> 点击一个区域，将Dynamic Siphon打出至该处。"
+    },
+    {
+      "id": "b09b06358d0b2b5792394bfe",
+      "reason": "current-rule-match",
+      "target": "Captain Cosmic展示的牌："
+    },
+    {
+      "id": "b0cbdf69d3807ee34b74e591",
+      "reason": "current-rule-match",
+      "target": "<b>Bolster Allies:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "b22aa731e450ebbc85409efb",
+      "reason": "current-rule-match",
+      "target": "Baron Blade打出的牌："
+    },
+    {
+      "id": "b3c69fc8a9e02625224f3436",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "b3e46a0d0b9b6205f23a05a2",
+      "reason": "current-rule-match",
+      "target": "异能阶段（剩余0次）"
+    },
+    {
+      "id": "b53ee5bdcc6f6c03a5fbb50d",
+      "reason": "current-rule-match",
+      "target": "<b>Construct Cataclysm:</b> 点击Construct Cataclysm上的按钮，选择一个效果。"
+    },
+    {
+      "id": "b543723128334ef01b001fc7",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "b5dba19c210d127b1dd14b58",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "b67a1a6552c8e6b84ef46d71",
+      "reason": "current-rule-match",
+      "target": "失能阶段"
+    },
+    {
+      "id": "b6c75190bfbcc43dd27cace3",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "b7dece6360ce5869ebe2483b",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "bb00a3240d7bbd8c66c4fef8",
+      "reason": "current-rule-match",
+      "target": "破坏1张牌"
+    },
+    {
+      "id": "bc23314eabe56261bf5b1908",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "bc458d7541c6bb459dc16037",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "bef77be255b4bb468f980864",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "bfc957d7799add5bbaf7e413",
+      "reason": "current-rule-match",
+      "target": "发现Construct牌"
+    },
+    {
+      "id": "bfe2c88250e6e09f30e99b2d",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "c0efcf22c26a013fdd7b2805",
+      "reason": "current-rule-match",
+      "target": "Absolute Zero抽到的牌："
+    },
+    {
+      "id": "c11bf9d34c4644d070a90585",
+      "reason": "current-rule-match",
+      "target": "异能阶段"
+    },
+    {
+      "id": "c2443a27bbad12238fad98d8",
+      "reason": "current-rule-match",
+      "target": "出牌阶段（剩余0次）"
+    },
+    {
+      "id": "c2a9ea1be39b3edbc230f4a3",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "c3043d40b5642073dd3f754b",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "c49ecf4dcb262c0d2f71720f",
+      "reason": "current-rule-match",
+      "target": "破坏0张牌"
+    },
+    {
+      "id": "c4d760d9ad57f5c2cd326353",
+      "reason": "current-rule-match",
+      "target": "<b>Expedited Efficiency:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "c5a3704352a489aadaca9e8e",
+      "reason": "current-rule-match",
+      "target": "<b>Wounding Buffer:</b> <b>Baron Blade</b>将对<b>Legacy</b>造成2点能量伤害。点击一个反应以使用它。"
+    },
+    {
+      "id": "c5d0a3d584fbbd0f73443433",
+      "reason": "current-rule-match",
+      "target": "点击一个区域，将Energy Bracer打出至该处。"
+    },
+    {
+      "id": "c5e4374cf31a7050e0a02720",
+      "reason": "current-rule-match",
+      "target": "异能阶段（剩余2次）"
+    },
+    {
+      "id": "cb292de18258b43516059995",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "cbd78824c95dcefe7cf5e4da",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "cc08f82febccd933970533ca",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "ccaf2690569dbcc545893d2e",
+      "reason": "current-rule-match",
+      "target": "Baron Blade召唤出的牌："
+    },
+    {
+      "id": "cda6a693829d2d4fd8ec8e62",
+      "reason": "current-rule-match",
+      "target": "<b>Cosmic Weapon:</b> 点击一个目标，对其造成<nobr>3点能量伤害</nobr>。"
+    },
+    {
+      "id": "d2712112864a9b2518007b5d",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "d29fd2eb8ad60667db26985b",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "d5cc944f805fec23e62e95bf",
+      "reason": "current-rule-match",
+      "target": "<b>Bolster Allies:</b> 点击一位英雄，让其打出一张牌。"
+    },
+    {
+      "id": "d9f369423a67bf24f5244b4d",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "daac7c23900a827d911c692d",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "daca618de22b26a291427c76",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "dadf818230e34d54be3f9a36",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "dae5aa550fda30b92bab3a25",
+      "reason": "current-rule-match",
+      "target": "对0个目标造成伤害"
+    },
+    {
+      "id": "de8cd0fb61c636d9352bfba7",
+      "reason": "current-rule-match",
+      "target": "点击一张牌以将其打出。"
+    },
+    {
+      "id": "df2443f51cec3e6e6e3d4a51",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "e09d10d047b4a09f7b33dc50",
+      "reason": "current-rule-match",
+      "target": "<b>Baron Blade:</b> 点击目标，选择对它们造成<nobr>1点能量伤害</nobr>的顺序。"
+    },
+    {
+      "id": "e25bebd331394d7b41b76357",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "e2e021766e57939276b250dd",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "e2f24afc5930fdee124720ec",
+      "reason": "current-rule-match",
+      "target": "Hasten Doom打出的牌："
+    },
+    {
+      "id": "e57e98a4f8480ad7b9aea0ce",
+      "reason": "current-rule-match",
+      "target": "破坏4张牌"
+    },
+    {
+      "id": "e6aea74b1b8385e1e2b8f9ee",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "e7c6f55222819c2a2b29a8d4",
+      "reason": "current-rule-match",
+      "target": "准备"
+    },
+    {
+      "id": "ea02e4f2451f3c39e9eeab52",
+      "reason": "current-rule-match",
+      "target": "<b>Tachyon:</b> 点击一位英雄，让其立即进行出牌阶段。"
+    },
+    {
+      "id": "ea5b97302c9d4b10c8218619",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "ec13983ff95dfdb3244d90de",
+      "reason": "current-rule-match",
+      "target": "对1个目标造成伤害"
+    },
+    {
+      "id": "ed3f5158b0542a1b2aeabaab",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "ee3d96ea13531a3429deb162",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "ee7c689d6aa5013bbf81381f",
+      "reason": "current-rule-match",
+      "target": "Research Grant抽到的牌："
+    },
+    {
+      "id": "ef15fdc73c0f3823074ada73",
+      "reason": "current-rule-match",
+      "target": "打出一张牌"
+    },
+    {
+      "id": "efd56337555082737ab16601",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "f02b9d1b6b751a634557119f",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "f38271debc2f46cc57cfdd58",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "f40ba0626be5da6a3f8bf931",
+      "reason": "current-rule-match",
+      "target": "返回\n"
+    },
+    {
+      "id": "f835f5a7c7ecb76d161340d7",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "f861d39b06303b0a49cf8648",
+      "reason": "current-rule-match",
+      "target": "<b>Bolster Allies:</b> 点击一张牌以将其打出。"
+    },
+    {
+      "id": "fa9c9fbb553e9df6630b1bea",
+      "reason": "current-rule-match",
+      "target": "你击败了Baron Blade，化解了危机！"
+    },
+    {
+      "id": "fca966451eefb0e940ec48b5",
+      "reason": "current-rule-match",
+      "target": "Tachyon抽到的牌："
+    },
+    {
+      "id": "ffea93ff7280af56873aca64",
+      "reason": "current-rule-match",
+      "target": "抽牌阶段"
     }
   ]
 }

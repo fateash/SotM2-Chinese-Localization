@@ -26,7 +26,7 @@
 
 库存的`draft`与`reviewed`分开；`covered`／`composed`必须引用实际模板及证据；`accepted`还必须附人工验收来源。片段须指向组成的完整句，才能记为不单独显示。延期必须写明重新开放条件。
 
-显示分类包括：`current-rule-match`、`known-source-route-gap`、`unresolved-full-string`、`protected-number`、`protected-input-buffer`、`localized-text-observed`、`truncated-evidence`。
+显示分类包括：`current-rule-match`、`known-source-route-gap`、`unresolved-full-string`、`protected-number`、`protected-number-markup`、`translated-output-observed`、`protected-input-buffer`、`localized-text-observed`、`truncated-evidence`。
 
 `known-source-route-gap`表示相同完整原文可在已知其他位置转换，但本位置无法匹配，是定位线索，不是允许在本位置强制替换。`unresolved-full-string`仅表示当前完整文本未匹配，不能断言原文不存在或译文不存在。
 
@@ -69,3 +69,7 @@ python3 tools/coverage_audit.py check --require-stage-1-complete
 - 首次引入时，219条候选按已有证据保守初始化为译稿与待核验；不倒推全量实机验收。既有通过记录继续保留在版本文档中，后续按词条与显示位置回填。
 
 推进顺序保持：动态／提示／按钮 → 非卡组固定文本 → 卡组逐个审核。已确认的原生抽牌计数问题不再作为汉化缺陷；EA未开放内容按既定条件延期。
+
+### 0.1.14审计补充
+
+带样式数字只按已观察的完整数字格式归类，不能通过剥离任意标签忽略未知文本。英文专名与中文结果混合时，只有同一控件的已捕获原文经当前转换得到完全相同输出，才标记为`translated-output-observed`；仍不代表实机交互验收。修改审计分类也必须具备正反例，避免把未知混合文本当作已完成。
