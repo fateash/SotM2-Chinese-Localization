@@ -59,7 +59,7 @@ foreach(var pair in new[]{("Ra","2","fire","火焰"),("Nimble Strike","9","melee
  Check(pilot.Apply(SurfaceProbeRules.HintPath,input)==expected,"source amount type preserved "+pair);
 }
 Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Consuming Flame:</b> Click up to 3 targets to deal them <nobr>2 fire</nobr> damage.")=="<b>Consuming Flame:</b> 点击至多3个目标，对其各造成<nobr>2点火焰伤害</nobr>。","multi-target amount and upper limit separate");
-foreach(var input in new[]{"<b>Ra:</b> Click a target to deal it <nobr>2 toxic</nobr> damage.","<b>Ra:</b> Click a target to deal it <nobr>-2 fire</nobr> damage.","<b>Ra:</b> Click a target to deal it <nobr>2 fire</nobr> damage. Extra", "Click a target to deal it <nobr>2 fire</nobr> damage."})
+foreach(var input in new[]{"<b>Ra:</b> Click a target to deal it <nobr>2 unknown</nobr> damage.","<b>Ra:</b> Click a target to deal it <nobr>-2 fire</nobr> damage.","<b>Ra:</b> Click a target to deal it <nobr>2 fire</nobr> damage. Extra", "Click a target to deal it <nobr>2 fire</nobr> damage."})
  Check(pilot.Apply(SurfaceProbeRules.HintPath,input)==null,"unknown grammar untouched "+input);
 Check(pilot.Apply("Other/Finish Button Label","Damage 3 targets")==null,"same label other hierarchy untouched");
 Check(pilot.Apply(DynamicDisplayRules.FinishPath,"Damage 1 targets")==null,"unexpected plural form untouched");
@@ -103,7 +103,7 @@ Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Counterpoint Bulwark:</b> Click
 Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Synaptic Interrupt:</b> <b>Powered Turret</b> will deal <b>Tachyon</b> 3 energy damage. Click a reaction to use it.")=="<b>Synaptic Interrupt:</b> <b>Powered Turret</b>将对<b>Tachyon</b>造成3点能量伤害。点击一个反应以使用它。","reaction source target amount preserved");
 string effectPath="Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/CardView TheStaffOfRa-2 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label";
 Check(pilot.Dynamic!.ApplyCardButton(effectPath,"TheStaffOfRa","Double Damage")=="伤害翻倍","effect button card identity and suffix");
-Check(pilot.Dynamic.ApplyCardButton(effectPath,"OtherCard","Double Damage")==null,"other card cannot reuse effect label mapping");
+Check(pilot.Dynamic.ApplyCardButton(effectPath,"OtherCard","Double Damage")=="伤害翻倍","common effect action text works across cards in the scoped effect-button role");
 Check(pilot.Dynamic.ApplyCardButton(effectPath.Replace("Select Effect Container/Select Effect Button(Clone)","Effect Panel/Effect View(Clone)"),"TheStaffOfRa","Double Damage")==null,"effect status labels excluded");
 Check(pilot.Dynamic.ApplyCardButton(effectPath.Replace("Select Effect Container/Select Effect Button(Clone)","Power Container/UsePower"),"TheStaffOfRa","Double Damage")==null,"power body labels excluded");
 Check(pilot.Apply("Other/Selection Button Label","Play a Card")==null,"hero button requires observed hierarchy role");
@@ -138,4 +138,31 @@ using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/f
   }
  }
 }
+using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/dynamic-expansion-0.1.10.json"))){
+ foreach(var sample in evidence.RootElement.GetProperty("samples").EnumerateArray()){
+  string path=sample.GetProperty("path").GetString()!,input=sample.GetProperty("source").GetString()!,card=sample.GetProperty("cardId").GetString()!;
+  bool inCard=sample.GetProperty("inCardView").GetBoolean();
+  string? output=inCard?pilot.Dynamic.ApplyCardButton(path,card,input):pilot.Apply(path,input);
+  Check(output==sample.GetProperty("expected").GetString(),"expanded live golden: "+input);
+  Check((inCard?pilot.Dynamic.ApplyCardButton(path,card,output!):pilot.Apply(path,output!))==null,"expanded output idempotent");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(input,@"<[^<>]+>").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(output!,@"<[^<>]+>").Select(m=>m.Value)),"expanded markup preserved");
+ }
+}
+var damageTypes=new Dictionary<string,string>{["cold"]="寒冷",["energy"]="能量",["fire"]="火焰",["infernal"]="邪能",["lightning"]="闪电",["melee"]="近战",["projectile"]="投射",["psychic"]="精神",["radiant"]="光耀",["sonic"]="音波",["toxic"]="毒素"};
+foreach(var pair in damageTypes){
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Source:</b> Click up to 17 targets to deal them <nobr>3 "+pair.Key+"</nobr> damage.")=="<b>Source:</b> 点击至多17个目标，对其各造成<nobr>3点"+pair.Value+"伤害</nobr>。","all frozen damage types: "+pair.Key);
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Source:</b> Click 2 targets to deal them <nobr>3 "+pair.Key+"</nobr> damage.")=="<b>Source:</b> 点击2个目标，对其各造成<nobr>3点"+pair.Value+"伤害</nobr>。","required count distinct from up to: "+pair.Key);
+}
+foreach(var bad in new[]{"<b>Card:</b> Click 2 targets to deal them <nobr>3 unknown</nobr> damage.","<b>Card:</b> Click <b>Target</b> and 1 more targets to deal them <nobr>3 melee</nobr> damage.","Click a location to to play <b>Name</b> there.","Click a card in play to activate its <nobr><sprite name=\"EndPhase\"> <b>START PHASE</b></nobr> effect."})
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,bad)==null,"reject ambiguous/new markup or invalid grammar "+bad);
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click a card to activate its <nobr><sprite name=\"StartPhase\"> <b>START PHASE</b></nobr> effect.")=="点击一张牌，发动其<nobr><sprite name=\"StartPhase\"> <b>开始阶段</b></nobr>效果。","phase hint without in-play prefix");
+Check(pilot.Dynamic.ApplyCardButton(effectPath,"TheStaffOfRa","Regain 3 HP")=="恢复3点生命值","effect amount is HP not target count");
+Check(pilot.Dynamic.ApplyCardButton(effectPath,"TheStaffOfRa","Deal 2 Targets 3 Damage")=="对2个目标造成3点伤害","effect target count and fixed damage remain separate");
+Check(pilot.Dynamic.ApplyCardButton(effectPath,"TheStaffOfRa","Regain 3 targets")==null,"effect HP grammar cannot consume targets");
+Check(pilot.Dynamic.ApplyCardButton(effectPath.Replace("Select Effect Container/Select Effect Button(Clone)","Effect Panel/Effect View(Clone)"),"TheStaffOfRa","Regain 3 HP")==null,"HP status excluded from effect-button translation");
+string nextTo="Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label";
+Check(pilot.Dynamic.ApplyCardButton(nextTo,"LegacyCharacter","Play Here")=="在此打出","placement role with matched character identity");
+Check(pilot.Dynamic.ApplyCardButton(nextTo,"RaCharacter","Play Here")==null,"placement card/path mismatch rejected");
+Check(pilot.Dynamic.ApplyCardButton(nextTo.Replace("LegacyCharacter/Foreground","RaCharacter/Foreground"),"RaCharacter","Play Here")==null,"placement hero/card mismatch rejected");
+Check(pilot.Apply("Other/Hint Label","Select Redirection Target")==null,"selection title not translated outside hint role");
 Console.WriteLine("RUNTIME_CHECKS_COMPLETE "+count);

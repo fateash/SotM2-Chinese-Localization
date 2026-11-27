@@ -1,0 +1,1758 @@
+{
+  "buildId": "26880829",
+  "scope": "All 219 existing dynamic candidates; drafts are not runtime substitutions.",
+  "entries": [
+    {
+      "key": "literal.8bdb5c8b6de1b6c9730ec8fa",
+      "file": "dynamic/actions-and-status.json",
+      "original": "'s deck",
+      "translationDraft": "的牌库",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.e4afb2ee35c8f5efaf22d1d8",
+      "file": "dynamic/actions-and-status.json",
+      "original": "'s trash",
+      "translationDraft": "的弃牌堆",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.76687df483fc14211096a014",
+      "file": "dynamic/actions-and-status.json",
+      "original": "1 card",
+      "translationDraft": "1张牌",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.34ae577473adac3f52728fbf",
+      "file": "dynamic/actions-and-status.json",
+      "original": "1 more target",
+      "translationDraft": "另外1个目标",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.8267cc9c2dd28497b6667ea6",
+      "file": "dynamic/actions-and-status.json",
+      "original": "<b>{0}</b> {1} {2} {3} {4} damage.",
+      "translationDraft": "<b>{0}</b>{1}{2}{3}点{4}伤害。",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.343799bfe1a9ac8275cf0e8a",
+      "file": "dynamic/actions-and-status.json",
+      "original": "All of the Heroes are incapacitated.",
+      "translationDraft": "所有英雄均已失能。",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.becf8a447d6c403ba4a319c5",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Cannot Deal Damage",
+      "translationDraft": "无法造成伤害",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.5a9b5c80892f0a6e8f88c0e6",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Card display time: {0}",
+      "translationDraft": "卡牌展示时间：{0}",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.f071264df8d4befd06562812",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Damage {0} {1}",
+      "translationDraft": "对{0}{1}造成伤害",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.3182f33a9ed49cc6c5737e9a",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Deal 1 Target {0} Damage",
+      "translationDraft": "对1个目标造成{0}点伤害",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.751309bfae75a9f555c0db8e",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Deal Damage",
+      "translationDraft": "造成伤害",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.6337845d154c8d168b07b7cb",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Deal Hero Targets Damage",
+      "translationDraft": "对英雄目标造成伤害",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.1ce8c7cd8b8f61c5f79b5206",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Deal Self {0} damage",
+      "translationDraft": "对自身造成{0}点伤害",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.2f181246e0ce15c805a61458",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Deal cold damage",
+      "translationDraft": "造成寒冷伤害",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.a5298cd9739200938f057bad",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Deal fire damage",
+      "translationDraft": "造成火焰伤害",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.e5a39013355028e3f127ed48",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Deal {0} Targets 3 Damage",
+      "translationDraft": "对{0}个目标造成3点伤害",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.95de32b7bc9edad252bf1be2",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Deal {0} damage",
+      "translationDraft": "造成{0}点伤害",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.116fff8f8eb885edcbb796a5",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Destroy a Card",
+      "translationDraft": "破坏一张牌",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.52376dac5ecf2a3ff282d8d9",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Destroy this Card",
+      "translationDraft": "破坏此牌",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.0e2be41a5936407e36f16cd7",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Double Damage",
+      "translationDraft": "伤害翻倍",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.6c5c3f431585efd600f6461a",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Draw & Use Power",
+      "translationDraft": "抽牌并使用异能",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.0097378a5ff52ed7805f83e7",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Draw 2 Cards",
+      "translationDraft": "抽2张牌",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.50d4b4c51c64d3bdc214f971",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Draw Card",
+      "translationDraft": "抽一张牌",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.4d6c2822b7897a6b009d5aa6",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Draw or Discard",
+      "translationDraft": "抽取或弃置",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.a6a47d7ff91c20fbbd01aca5",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Matching cards",
+      "translationDraft": "符合条件的牌",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.2a60e517f9f8bc65256a7918",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Play Card",
+      "translationDraft": "打出一张牌",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.6a333d89b4537251e6a345b8",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Play a Card",
+      "translationDraft": "打出一张牌",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.d0debde2bc51fb2b0bf4a4c6",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Put Card Under Ordnance",
+      "translationDraft": "将牌置于Ordnance下方",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.497d25a030b30ac7ffe5ed5f",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Put a Card",
+      "translationDraft": "放置一张牌",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.11d58e224b6bcc6757881b7e",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Regain {0} HP",
+      "translationDraft": "恢复{0}点生命值",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.507278bb2d9e25220780a23e",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Replace or Discard",
+      "translationDraft": "放回原处或弃置",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.e524362e18fe9d7b7a8f711c",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Salvage Item",
+      "translationDraft": "回收物品牌",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.3d2a722351301aedf99ceec4",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Salvage Ongoing",
+      "translationDraft": "回收持续牌",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.d01084a98855091e05daacf8",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Skip to Draw",
+      "translationDraft": "跳至抽牌阶段",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.a7037ebb2c73a8f205f45128",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Skip to Power",
+      "translationDraft": "跳至异能阶段",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.e27b90f8ee800101eaa57f3a",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Skip {0} Phase",
+      "translationDraft": "跳过{0}阶段",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.7c67f8ce0cecde5ffd12aa21",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Take {0} Phase",
+      "translationDraft": "进行{0}阶段",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.9a533b76467f622b1eca23aa",
+      "file": "dynamic/actions-and-status.json",
+      "original": "The max HP of {0} {1} set to {2}.",
+      "translationDraft": "{0}的生命值上限{1}设为{2}。",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.bd501e74531c77e109029f31",
+      "file": "dynamic/actions-and-status.json",
+      "original": "There are 10 or more Villain targets in play.",
+      "translationDraft": "场上有至少10个反派目标。",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.d40751c1320167af33cd335e",
+      "file": "dynamic/actions-and-status.json",
+      "original": "There are 15 or more cards in the Villain trash.",
+      "translationDraft": "反派弃牌堆中有至少15张牌。",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.ec9861ac1bb5f96bcc782497",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Use Power",
+      "translationDraft": "使用异能",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.47de3902f7813eb241907744",
+      "file": "dynamic/actions-and-status.json",
+      "original": "Use a Power",
+      "translationDraft": "使用异能",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.8f2dea3bc71bdaa0554cd844",
+      "file": "dynamic/actions-and-status.json",
+      "original": "{0} cards",
+      "translationDraft": "{0}张牌",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.18e132c9eae5cb14feec81b2",
+      "file": "dynamic/actions-and-status.json",
+      "original": "{0} gained {1} HP.",
+      "translationDraft": "{0}恢复了{1}点生命值。",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.392c7002192b7ef7b1e1d4a5",
+      "file": "dynamic/actions-and-status.json",
+      "original": "{0} is <b>immune</b> to damage dealt by {1} targets",
+      "translationDraft": "{0}<b>免疫</b>{1}目标造成的伤害",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.2db2da940537ebaaf0114cf7",
+      "file": "dynamic/actions-and-status.json",
+      "original": "{0} is <b>immune</b> to {1} damage",
+      "translationDraft": "{0}<b>免疫</b>{1}伤害",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.6a1851ca33e36844aa3e3c11",
+      "file": "dynamic/actions-and-status.json",
+      "original": "{0} is gaining {1} HP.",
+      "translationDraft": "{0}正在恢复{1}点生命值。",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.13e9e4f29ba2b9ba600e6bd6",
+      "file": "dynamic/actions-and-status.json",
+      "original": "{0} take their {1} phase now.",
+      "translationDraft": "{0}现在进行其{1}阶段。",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.c07dfdb50da5fa7c527b59b5",
+      "file": "dynamic/actions-and-status.json",
+      "original": "{0} {1} cards to {2}",
+      "translationDraft": "{0}将{1}张牌{2}",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.46cb1dedc890a791c3d63c75",
+      "file": "dynamic/actions-and-status.json",
+      "original": "{0} {1} its HP to {2}.",
+      "translationDraft": "{0}{1}生命值至{2}。",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.ef010cef6c62e3456818e8fb",
+      "file": "dynamic/actions-and-status.json",
+      "original": "{0} {1} their {2} phase out of order.",
+      "translationDraft": "{0}{1}跳出正常顺序进行其{2}阶段。",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.0af5f26910d9e3ee5e17f905",
+      "file": "dynamic/actions-and-status.json",
+      "original": "{0} {1} {2} {3} {4} damage.{5}",
+      "translationDraft": "{0}{1}{2}{3}点{4}伤害。{5}",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.9dac0106a9b52d3cb43490fe",
+      "file": "dynamic/actions-and-status.json",
+      "original": "{0}{1} targets",
+      "translationDraft": "{0}{1}个目标",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.60bd4cbcacd8036676232bc6",
+      "file": "dynamic/actions-and-status.json",
+      "original": "{0}{1} {2}damage dealt {3} {4}",
+      "translationDraft": "{0}{1}{2}{3}{4}的伤害",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.ca0ca4630aea93fda6b9e15b",
+      "file": "dynamic/feedback-and-system-messages.json",
+      "original": "Choose a feedback category using the dropdown above.",
+      "translationDraft": "请使用上方下拉菜单选择反馈类别。",
+      "status": "stage-2-fixed-text",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.9dc683a42bc4c4eda9af0acc",
+      "file": "dynamic/feedback-and-system-messages.json",
+      "original": "Could not load game file. If this file should be compatible (i.e. not older than build 28), please report feedback now.",
+      "translationDraft": "无法载入游戏文件。如果此文件应当兼容（即不早于构建版本28），请立即发送反馈。",
+      "status": "stage-2-fixed-text",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.14caa34363314aa7d2efb906",
+      "file": "dynamic/feedback-and-system-messages.json",
+      "original": "Describe what you were doing when the game crashed. If you have a screen recording, please view the card after and comment there with a link to the recording.",
+      "translationDraft": "请描述游戏崩溃时你正在进行的操作。如果录有视频，请在发送后打开反馈卡片，并在评论中附上视频链接。",
+      "status": "stage-2-fixed-text",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.0a307c9b59fcf21155115340",
+      "file": "dynamic/feedback-and-system-messages.json",
+      "original": "Early Access Feedback",
+      "translationDraft": "抢先体验反馈",
+      "status": "stage-2-fixed-text",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.e59fa2eca50ca40192a29817",
+      "file": "dynamic/feedback-and-system-messages.json",
+      "original": "Feedback sent successfully!",
+      "translationDraft": "反馈发送成功！",
+      "status": "stage-2-fixed-text",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.ebc35be56f3eba3d16ed5349",
+      "file": "dynamic/feedback-and-system-messages.json",
+      "original": "Let us know what you would like! Note that if it's something that was already in Sentinels 1, it's likely already on our to-do list, so there's no need to request it here.",
+      "translationDraft": "请告诉我们你希望加入的内容！如果该功能已在《Sentinels 1》中出现，它很可能已列入我们的开发计划，无需在这里重复提出。",
+      "status": "stage-2-fixed-text",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.07da520dda1e63a11eb3f764",
+      "file": "dynamic/feedback-and-system-messages.json",
+      "original": "Please describe what occurred and what you saw. A screenshot will be automatically attached, but if it's not on screen right now, please view the card after and comment there with a link to a screenshot of the issue.",
+      "translationDraft": "请描述发生了什么，以及你看到了什么。反馈会自动附上截图；如果问题当前未显示在画面中，请在发送后打开反馈卡片，并在评论中附上问题截图的链接。",
+      "status": "stage-2-fixed-text",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.8f1f3ac9dda2febbead693fd",
+      "file": "dynamic/feedback-and-system-messages.json",
+      "original": "Please provide details about what the card was supposed to do and what actually happened. Ideally, this should be reported just as the problem occurs, not later on.",
+      "translationDraft": "请详细说明卡牌应当产生的效果，以及实际发生的情况。最好在问题发生时立即反馈，而不是事后再提交。",
+      "status": "stage-2-fixed-text",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.1a463daf2c8d4d0d53c2a66e",
+      "file": "dynamic/feedback-and-system-messages.json",
+      "original": "Screenshot from Sentinels 2",
+      "translationDraft": "《Sentinels 2》截图",
+      "status": "stage-2-fixed-text",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.2e032cd7da31d52236e0f2c1",
+      "file": "dynamic/feedback-and-system-messages.json",
+      "original": "Screenshot saved to Steam Library!",
+      "translationDraft": "截图已保存至Steam库！",
+      "status": "stage-2-fixed-text",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.1265eb92a9705f1cbca91e7d",
+      "file": "dynamic/feedback-and-system-messages.json",
+      "original": "Screenshot shared!",
+      "translationDraft": "截图已分享！",
+      "status": "stage-2-fixed-text",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.e41869c22c74dd4600582b0c",
+      "file": "dynamic/feedback-and-system-messages.json",
+      "original": "Select a continue file...",
+      "translationDraft": "选择要继续的存档……",
+      "status": "stage-2-fixed-text",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.010f75d91ee8fdbf890f6770",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Click a Hero to",
+      "translationDraft": "点击一位英雄，使其",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.5f0de4426f971428743f8f30",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Click a button to choose a damage type.",
+      "translationDraft": "点击一个按钮，选择伤害类型。",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.46c11185f4e66cfc9d46b92f",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Click a card to activate its <nobr><sprite name=\"{0}Phase\"> <b>{1} PHASE</b></nobr> effect.",
+      "translationDraft": "点击一张牌，发动其<nobr><sprite name=\"{0}Phase\"> <b>{1}阶段</b></nobr>效果。",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.a15436995c9faf71c0758665",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Click a hero to",
+      "translationDraft": "点击一位英雄，使其",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.693ba61eb755e0801dd51901",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Click an incapacitated ability to use it.",
+      "translationDraft": "点击一个失能能力以使用它。",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.3960ad918905446d851220bb",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Click targets to choose the order of dealing them",
+      "translationDraft": "点击目标，选择对它们造成伤害的顺序；伤害为",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.ef164875490ed7a183c7a611",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Click the hero who",
+      "translationDraft": "点击符合下列条件的英雄：",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.fc6b39a7beb1177e56673530",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select Damage Source to Deal Damage",
+      "translationDraft": "选择造成伤害的来源",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.628d650255644c457399f970",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select Hero to Discover",
+      "translationDraft": "选择进行发现的英雄",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.008021b2cdc902bd4d49e950",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select Hero to destroy cards",
+      "translationDraft": "选择破坏牌的英雄",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.34e9cd4f8f90912c2642345c",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select Hero to discard cards",
+      "translationDraft": "选择弃置牌的英雄",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.5fc4d90d00eba9b5b337797d",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select Hero to salvage cards",
+      "translationDraft": "选择回收牌的英雄",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.337b4c9d5b0dc7c27883e795",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select Hero to take a phase now",
+      "translationDraft": "选择立即进行一个阶段的英雄",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.642ba431d9c6e09e1f6f94c6",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select Location to play card to",
+      "translationDraft": "选择打出卡牌的目标区域",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.55574c203bbbc5634041ae4b",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select Location to play from",
+      "translationDraft": "选择从哪个区域打出卡牌",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.ca9dbb01be7f61865926b507",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select Location to put a card from into the deck",
+      "translationDraft": "选择将牌置入牌库的来源区域",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.2be4037bea7691ccb1731b96",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select Location to put a card from on top of the deck",
+      "translationDraft": "选择将牌置于牌库顶的来源区域",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.cb3339dada59d0bd91fc19a8",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select Location to reveal from",
+      "translationDraft": "选择从哪个区域展示卡牌",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.e7ae1ca5305bd02be87b8f49",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select Location to shuffle its cards into the deck",
+      "translationDraft": "选择将其中的牌洗入牌库的区域",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.7e5bb5dca1cd5daafebf2932",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select Redirection Target",
+      "translationDraft": "选择伤害转移的目标",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.c5b9c93ee2e61e28d424519f",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select location to Summon from (decks will be shuffled)",
+      "translationDraft": "选择召唤的来源区域（会洗混所查找的牌库）",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.066a5e6f4bde118921c297b1",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select location to send destroyed card",
+      "translationDraft": "选择被破坏的牌要前往的区域",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.b24c64e48ea675a79981a976",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select someone to put a card back in their deck",
+      "translationDraft": "选择将一张牌放回其牌库的角色",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.3cb7e8a4600bdf5264ba6134",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select someone to put a card back on top of their deck",
+      "translationDraft": "选择将一张牌放回其牌库顶的角色",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.8c936d67e0ce418ccd73c5e5",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select where it the card should be drawn or discarded.",
+      "translationDraft": "选择抽取或弃置该牌的区域。",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.82e0ef75925e11018d3b7da0",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select where the card should go.",
+      "translationDraft": "选择卡牌要前往的区域。",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.3a31d645a789a28ae0f97bbf",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select whether or not to draw a card.",
+      "translationDraft": "选择是否抽一张牌。",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.d6aa6227a521278cda6236f9",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select which Hero is considered to have the most cards in hand",
+      "translationDraft": "选择视为手牌最多的英雄",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.59a6d93cf66ed8bd53d29297",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select which deck to draw from...",
+      "translationDraft": "选择从哪个牌库抽牌……",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.59911e8835280efff4da6af1",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select which of these targets is considered to have the Lowest HP",
+      "translationDraft": "选择视为生命值最低的目标",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.f3a8fd6fb05f51a13961b542",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select who is considered to have the most cards in play",
+      "translationDraft": "选择视为在场牌最多的角色",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.be9f2024eb14e69831ac52f8",
+      "file": "dynamic/selection-prompts.json",
+      "original": "Select {0} that {1} will deal {2} {3} damage to: [{4}]{5}",
+      "translationDraft": "选择{0}，由{1}对其造成{2}点{3}伤害：[{4}]{5}",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.3bbc130f224342c0d982ade3",
+      "file": "dynamic/phase-and-power-templates.json",
+      "original": "<size=75%>{0}</size>\n<voffset=-0.2em>{1} <style={2}Phase>{3} Phase</style>",
+      "translationDraft": "<size=75%>{0}</size>\\n<voffset=-0.2em>{1} <style={2}Phase>{3}阶段</style>",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.60e5e1061cba2b68f60f5f60",
+      "file": "dynamic/phase-and-power-templates.json",
+      "original": "<style=PowerHeading>POWER: </style>",
+      "translationDraft": "<style=PowerHeading>异能：</style>",
+      "status": "display-route-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.945322b9ceb6bbea63ff4b0c",
+      "file": "dynamic/phase-and-power-templates.json",
+      "original": "<style={0}Phase>{1} PHASE</style></voffset>",
+      "translationDraft": "<style={0}Phase>{1}阶段</style></voffset>",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.54874f0da61233492484424c",
+      "file": "dynamic/phase-and-power-templates.json",
+      "original": "{0} Phase",
+      "translationDraft": "{0}阶段",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.884e178cb96eb670132dc6e2",
+      "file": "dynamic/phase-and-power-templates.json",
+      "original": "{0} activate {1} <nobr><sprite name=\"{2}Phase\"> <b>{3} PHASE</b></nobr> effect.",
+      "translationDraft": "{0}发动{1}个<nobr><sprite name=\"{2}Phase\"> <b>{3}阶段</b></nobr>效果。",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.496eee04d0d68892529a0382",
+      "file": "dynamic/phase-and-power-templates.json",
+      "original": "{0}'s {1} Phase",
+      "translationDraft": "{0}的{1}阶段",
+      "status": "parameter-semantics-review",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.758925c3cf7ae4088130173e",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " <b>cannot deal</b> any damage",
+      "translationDraft": "<b>无法造成</b>任何伤害",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.47fcbf25e98ffdbea4f0bea1",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " Click a card to activate first.",
+      "translationDraft": "点击一张牌，先发动其效果。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.18c26e11c24caa7f7d8c8858",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " Click a card to activate it.",
+      "translationDraft": "点击一张牌以发动其效果。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.ca6f860b4b91cb8a1625c658",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " Click a card to redirect the damage.",
+      "translationDraft": "点击一张牌以转移伤害。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.506d85a8905a875f6db5e122",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " They are now at {0} HP.",
+      "translationDraft": "其当前生命值为{0}。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.aa5971a22517a0fd423a5ce5",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " a card to play it.",
+      "translationDraft": "一张牌以将其打出。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.b7bd3fa270795896f6255d8a",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " a power to use it.",
+      "translationDraft": "一个异能以使用它。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.1d764389d10c7f0c8fa5b916",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " and use a power.",
+      "translationDraft": "并使用一个异能。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.15fbfc6e7812e871546a5ceb",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " and will discard the rest",
+      "translationDraft": "并将弃置其余的牌",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.4178513a4bf39ea06aac4faf",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " because they are immune to damage.",
+      "translationDraft": "，因为其免疫伤害。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.89da694e944658e5b321e3f7",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " cannot deal damage.",
+      "translationDraft": "无法造成伤害。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.653135cd182549c7ba3fac90",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " card(s).",
+      "translationDraft": "张牌。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.4c089d61ded1d165744ffe60",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " cards from ",
+      "translationDraft": "张牌，来源为",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.22e41e8b418814cd6e980f36",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " damage",
+      "translationDraft": "伤害",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.a237afa63b951aa1a702990b",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " damage from ",
+      "translationDraft": "伤害，来源为",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.80cfc93992898f1f79acb7aa",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " damage.",
+      "translationDraft": "伤害。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.8b557a3fc8096ff67ed7faff",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " deal damage to one another, that damage is increased by +1",
+      "translationDraft": "相互造成伤害时，该伤害增加1",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.27090a5be3bbb99a9b47d16c",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " deal damage.",
+      "translationDraft": "造成伤害。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.38de616614c19596e83376de",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " deck.",
+      "translationDraft": "牌库。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.3bc8f7e48dd1cd7fcb9391a6",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " determine which has the highest HP (will not be dealt damage).",
+      "translationDraft": "判定谁视为生命值最高（不会受到伤害）。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.d8d3dacf4197eb955872a3bb",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " determine which has the highest HP.",
+      "translationDraft": "判定谁视为生命值最高。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.9df9462e7657d5fdb228bd15",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " determine which has the lowest HP (will not be dealt damage).",
+      "translationDraft": "判定谁视为生命值最低（不会受到伤害）。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.e5806a4871547a3baea9c5d8",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " determine which has the lowest HP.",
+      "translationDraft": "判定谁视为生命值最低。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.f94f0c811e7f950da9ae8e49",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " did not gain any HP.",
+      "translationDraft": "未恢复生命值。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.2dc8ba54025163f6fb460d59",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " did not salvage any cards.",
+      "translationDraft": "未回收任何牌。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.952d4906f7829c93d48bfd5a",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " discard ",
+      "translationDraft": "弃置",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.bd536c54e6dcb03472959831",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " discard their hand.",
+      "translationDraft": "弃置其全部手牌。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.0105553aa12e2555502ed954",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " draw ",
+      "translationDraft": "抽取",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.25b8cffd55d9f98b2aa9438b",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " either draw or discard ",
+      "translationDraft": "抽取或弃置",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.41e541e17c7add9bb7bc8645",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " either replace or discard ",
+      "translationDraft": "放回原处或弃置",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.35cb827d880197a1da4de935",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " from dealing damage.",
+      "translationDraft": "造成伤害。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.42953cf73189d7f19a387d19",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " has been reduced to <nobr>0 HP.</nobr>",
+      "translationDraft": "的生命值已降至<nobr>0。</nobr>",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.f79cddd04c01967f93d2acf5",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " has triumphed, forcing the Heroes to regroup and fight another day...",
+      "translationDraft": "取得胜利，英雄们只能重整旗鼓，来日再战……",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.ab2ca5915f399904c7dd1373",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " immune to damage.",
+      "translationDraft": "免疫伤害。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.4fa6b316fc40e16cb90749f9",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " increase damage dealt by ",
+      "translationDraft": "增加下列来源造成的伤害：",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.c575aebffe3ee33046d94fbd",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " into its deck.",
+      "translationDraft": "置入其牌库。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.90a38c95793d4e9bd390423f",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " into their deck.",
+      "translationDraft": "置入其牌库。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.413ffe2231ef2acaef0af86f",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " is <b>immune</b> to all damage",
+      "translationDraft": "<b>免疫</b>所有伤害",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.95aede09563d84314adf0d59",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " is already at their maximum HP.",
+      "translationDraft": "已达到生命值上限。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.c368f1687c46a50ec563d4c9",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " is considered to have the fewest cards in hand.",
+      "translationDraft": "视为手牌最少。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.e33734b3f07af3ea06784535",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " is considered to have the most Ongoing cards in play.",
+      "translationDraft": "视为在场持续牌最多。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.86fbf65f2dc5950b422110f9",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " is considered to have the most cards in hand.",
+      "translationDraft": "视为手牌最多。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.11af071bfc1b6c45a1cc009f",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " is considered to have the most cards in play (will take damage and destroy cards).",
+      "translationDraft": "视为在场牌最多（将受到伤害并破坏牌）。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.b2ae691ce3346d86bfbd8dd5",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " is considered to have the most cards in play.",
+      "translationDraft": "视为在场牌最多。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.bbad0f65793338335c0b1d3f",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " is drawing a card from ",
+      "translationDraft": "正在抽一张牌，来源为",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.f7d1b44c2cd501d56069a078",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " is not gaining any HP.",
+      "translationDraft": "不会恢复生命值。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.4a34c0d07c729353e3372ad6",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " on top of their deck.",
+      "translationDraft": "置于其牌库顶。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.6ac470e678f113c9b88a5984",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " prevented the damage",
+      "translationDraft": "防止了该伤害",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.db41dac8bd969a61e181d5a7",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " redirect damage to ",
+      "translationDraft": "将伤害转移至",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.09e1846fe781bf9665b451cf",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " reduce damage dealt to ",
+      "translationDraft": "减少下列目标受到的伤害：",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.da4cf5e5a1280c51c4445d15",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " regain HP.",
+      "translationDraft": "恢复生命值。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.956ee9b311fc0a605212b1ec",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " salvage ",
+      "translationDraft": "回收",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.c351d21ff9c64a8b5c54f77f",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " summon ",
+      "translationDraft": "召唤",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.9a192c6e0b40a2f8be7b2718",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " take damage.",
+      "translationDraft": "受到伤害。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.7b686fff604e71b1a6fc3774",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " target",
+      "translationDraft": "个目标",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.149ba7afe20117ad94e3ebfc",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " the power on ",
+      "translationDraft": "下列牌上的异能：",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.901f2441ef46ea980055e2c8",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " to Discard",
+      "translationDraft": "以弃置",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.bc2c28c1e0e8048f992b4a46",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " to Salvage",
+      "translationDraft": "以回收",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.e2d38a8305c7019abb2540b6",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " to Summon",
+      "translationDraft": "以召唤",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.e40037502c741bd77922d3df",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " to become immune to damage",
+      "translationDraft": "以获得伤害免疫",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.81ae3ce894550788a2dd9085",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " to count as the Character card",
+      "translationDraft": "以视为角色牌",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.f17c01f49d8fc5e2402c17bb",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " to deal damage to",
+      "translationDraft": "作为伤害目标",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.a2fe8989ee2bfe1aab7474e5",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " to gain HP",
+      "translationDraft": "以恢复生命值",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.6f0de725338bf93610b70274",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " to its Trash",
+      "translationDraft": "置于其弃牌堆",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.61a12b4d9b487c8a9f88d904",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " to prevent it from dealing damage",
+      "translationDraft": "以防止其造成伤害",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.2266488e3484ac0f110eda65",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " to put back in the deck",
+      "translationDraft": "以放回牌库",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.16a00daf7b8988ce5e9013eb",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " to put back on top of the deck",
+      "translationDraft": "以放回牌库顶",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.6f7062652171d8e60688d68c",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " to put under another card",
+      "translationDraft": "以置于另一张牌下方",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.dfe994e28fb1310827842c84",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " to reduce damage to",
+      "translationDraft": "以减少其受到的伤害",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.8ba1c2cf3953e2ae419058b3",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " to shuffle ",
+      "translationDraft": "以洗混",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.733dba16cd05d6d93a90a797",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " to summon.",
+      "translationDraft": "以将其召唤。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.d9169628043510911071272d",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " use a power.",
+      "translationDraft": "使用一个异能。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.dd8f49e93f86c1d0b1251d69",
+      "file": "dynamic/sentence-fragments.json",
+      "original": " was already at their maximum HP.",
+      "translationDraft": "此前已达到生命值上限。",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.a364c49dd67a6ac78c6f2bec",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "Cards next to ",
+      "translationDraft": "旁边的牌：",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.3e0e13ef6bcb00ca51262685",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "Cards under ",
+      "translationDraft": "下方的牌：",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.9808491772220ccf16093b6e",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "Damage dealt ",
+      "translationDraft": "造成的伤害",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.3359cebec8f00a1a5b7175b0",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "Did not move a card into a play area, so ",
+      "translationDraft": "未将牌移入场地区域，因此",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.845be99fc787b25787fd8c30",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "Discard ",
+      "translationDraft": "弃置",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.797a57dcb72598ad58186e67",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "No damage was dealt to ",
+      "translationDraft": "未对下列目标造成伤害：",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.49f6d813a09a7a711201dacd",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "The max HP of ",
+      "translationDraft": "生命值上限：",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.d555c2f9a7c260db14607801",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "The power on ",
+      "translationDraft": "异能所在的牌：",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.aacfb8daac9a579f3669b9a7",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "There are 0 cards under ",
+      "translationDraft": "下方没有牌：",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.146354e190fce4e94193dfb5",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "Use Incapacitated Ability - ",
+      "translationDraft": "使用失能能力－",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.7aab5aa94097e62643805d57",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "Use Power ",
+      "translationDraft": "使用异能",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.fec9464e03453bca6ab32b59",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "a Hero's hand",
+      "translationDraft": "一位英雄的手牌",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.da0d4b103341f3e6b5a9e1ee",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "a card",
+      "translationDraft": "一张牌",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.81bb07ef759f1f09f3d1d2e7",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "a deck",
+      "translationDraft": "一个牌库",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.6b6c9985c94d3beed27aa378",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "a target",
+      "translationDraft": "一个目标",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.36f531f3a130aaa92cdd8515",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "a trash",
+      "translationDraft": "一个弃牌堆",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.81f6091117739feb074328c1",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "another target",
+      "translationDraft": "另一个目标",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.d04caa000443d112a4725737",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "between {0} and {1}{2} targets",
+      "translationDraft": "{0}至{1}{2}个目标",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.740449e18f99683aa399ae3a",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "cannot deal damage",
+      "translationDraft": "无法造成伤害",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.eba8b67bb55d19146879278f",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "chose to replace or discard",
+      "translationDraft": "选择了放回原处或弃置",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.2a6a878a8918da9f47485ce8",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "damage was prevented",
+      "translationDraft": "伤害已被防止",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.e1febedcaf1b762217b2c48e",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "how much HP to regain",
+      "translationDraft": "恢复多少生命值",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.ee097e9a93e6917e323fc931",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "how much damage to deal",
+      "translationDraft": "造成多少伤害",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.4a1380867f744a778ebe2b15",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "in hand",
+      "translationDraft": "手牌中",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.b85c311aa4da6a1b35135cf4",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "in the Environment deck",
+      "translationDraft": "环境牌库中",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.4fc9dcfce616ffe0cb185fb6",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "in the Environment trash",
+      "translationDraft": "环境弃牌堆中",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.b8835cfc384b07ecc7c419ad",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "in the Villain deck",
+      "translationDraft": "反派牌库中",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.390d361722936d858c04d0a1",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "in the Villain trash",
+      "translationDraft": "反派弃牌堆中",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.67d9d0e580142b29777d4a4c",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "in the deck",
+      "translationDraft": "牌库中",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.ceabf4582935c3aaeb3e18e8",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "in the trash",
+      "translationDraft": "弃牌堆中",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.b5e006e64e73b705e2867d01",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "no cards",
+      "translationDraft": "没有牌",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.4874fac2631c6c10d501db6e",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "played matching cards",
+      "translationDraft": "打出了符合条件的牌",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.23353a6a06aacb6a0230dd0d",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "regain HP",
+      "translationDraft": "恢复生命值",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.6a6d5979598f99d78b742d87",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "some target",
+      "translationDraft": "某个目标",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.b2b365960fcd75c52ec0426c",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "the Hero with the lowest HP",
+      "translationDraft": "生命值最低的英雄",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.ff7c6c8de4c4ee0a8c4bc237",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "up to {0}{1} targets",
+      "translationDraft": "至多{0}{1}个目标",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.b786ec7c553ee5464915520b",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "where X is the destroyed target’s HP before it was destroyed",
+      "translationDraft": "X为被破坏目标在被破坏前的生命值",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.13f711834b544243b82d3904",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "where X is the number of Hero Ongoing and Item cards in that Hero’s play area",
+      "translationDraft": "X为该英雄场地区域中的英雄持续牌与物品牌数量",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.0f6829b77e08ad4d51ed8cb0",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "where X is the number of Magma Crystal cards discarded",
+      "translationDraft": "X为弃置的Magma Crystal牌数量",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.d1a255c02a6e622221ba788c",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "will choose to replace or discard",
+      "translationDraft": "将选择放回原处或弃置",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.c520012fdc48cdd98d43df51",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "will play matching cards",
+      "translationDraft": "将打出符合条件的牌",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    },
+    {
+      "key": "literal.ea2323ce4dba6d4457f9d3b5",
+      "file": "dynamic/sentence-fragments.json",
+      "original": "will play or draw",
+      "translationDraft": "将打出或抽取",
+      "status": "assembly-only",
+      "runtimeEmission": false
+    }
+  ]
+}
