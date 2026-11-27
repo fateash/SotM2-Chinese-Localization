@@ -165,4 +165,19 @@ Check(pilot.Dynamic.ApplyCardButton(nextTo,"LegacyCharacter","Play Here")=="在�
 Check(pilot.Dynamic.ApplyCardButton(nextTo,"RaCharacter","Play Here")==null,"placement card/path mismatch rejected");
 Check(pilot.Dynamic.ApplyCardButton(nextTo.Replace("LegacyCharacter/Foreground","RaCharacter/Foreground"),"RaCharacter","Play Here")==null,"placement hero/card mismatch rejected");
 Check(pilot.Apply("Other/Hint Label","Select Redirection Target")==null,"selection title not translated outside hint role");
+using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/placement-0.1.11.json"))){
+ foreach(var sample in evidence.RootElement.GetProperty("samples").EnumerateArray()){
+  string path=sample.GetProperty("path").GetString()!,card=sample.GetProperty("cardId").GetString()!;
+  Check(pilot.Dynamic.ApplyCardButton(path,card,"Play Here")=="在此打出","observed placement button: "+card);
+  Check(pilot.Dynamic.ApplyCardButton(path,card,"在此打出")==null,"placement translation idempotent");
+  Check(pilot.Dynamic.ApplyCardButton(path,"OtherCard","Play Here")==null,"placement identity mismatch rejected");
+ }
+}
+string smallPlacement="Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Next To Selection Button/Selection Button Label";
+Check(pilot.Dynamic.ApplyCardButton(smallPlacement.Replace("Main Panel/","Main Panel/3 Hero Layout/Inactive Hero Location 2/"),"CosmicCrest","Play Here")=="在此打出","same play-area role on inactive hero");
+foreach(var path in new[]{smallPlacement.Replace("Next To Selection Button","HP"),smallPlacement.Replace("Play Area","Hand Area"),smallPlacement.Replace("CosmicCrest-1 ","CosmicCrest-1 suffix "),smallPlacement.Replace("SmallCardFront","SmallCardBack"),smallPlacement+"/Extra",smallPlacement.Replace("Canvas/Main Panel","Other/Main Panel"),smallPlacement.Replace("CosmicCrest-1 ","OtherCard-1 ")})
+ Check(pilot.Dynamic.ApplyCardButton(path,"CosmicCrest","Play Here")==null,"placement scope rejected: "+path);
+Check(pilot.Dynamic.ApplyCardButton(smallPlacement,"CosmicCrest","Play Here extra")==null,"placement requires complete source");
+string adjacent=smallPlacement.Replace("Foreground Elements/Play Area/Scroll View/Viewport","Character Card Container/LegacyCharacter/Next To Location View");
+Check(pilot.Dynamic.ApplyCardButton(adjacent,"CosmicCrest","Play Here")==null,"adjacent character must match hero identity");
 Console.WriteLine("RUNTIME_CHECKS_COMPLETE "+count);

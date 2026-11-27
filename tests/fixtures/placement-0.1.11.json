@@ -1,0 +1,54 @@
+{
+  "evidence": "SotM2-Dynamic-Evidence-20261127-110718-a31287.zip",
+  "samples": [
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "LegacyCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "expected": "在此打出"
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "TachyonCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "expected": "在此打出"
+    },
+    {
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "CaptainCosmicCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "expected": "在此打出"
+    },
+    {
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Next To Selection Button/Selection Button Label",
+      "cardId": "CosmicCrest",
+      "source": "Play Here",
+      "inCardView": true,
+      "expected": "在此打出"
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "LegacyCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "expected": "在此打出"
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "TachyonCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "expected": "在此打出"
+    },
+    {
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Next To Location View/Card Container/CardView VitalityConduit-0 SmallCardFront/Next To Selection Button/Selection Button Label",
+      "cardId": "VitalityConduit",
+      "source": "Play Here",
+      "inCardView": true,
+      "expected": "在此打出"
+    }
+  ]
+}

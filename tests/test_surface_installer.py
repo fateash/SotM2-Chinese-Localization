@@ -103,7 +103,7 @@ class DynamicInstallerTests(SurfaceInstallerTests):
     def setUp(self):
         super().setUp()
         shutil.copy(ROOT / 'probe/Manage-Dynamic.ps1', self.kit / 'Manage.ps1')
-        self.backup = self.game / 'SotM2ChineseBackups/dynamic-pilot-0.1.11'
+        self.backup = self.game / 'SotM2ChineseBackups/dynamic-pilot-0.1.12'
         p = self.kit / 'manifest.json'
         m = json.loads(p.read_text())
         m['acceptedInstallations'] = [{'dll': m.pop('acceptedDllSha256'), 'probe': 'ABSENT'}]
