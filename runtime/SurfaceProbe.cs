@@ -13,8 +13,9 @@ internal sealed class SurfaceProbe {
   if(stopped)return null;
   try {
    string name=text.gameObject.name;
-   bool inCard=text.GetComponentInParent<CardView>()!=null;
-   // Supplement the previous probe: card-contained buttons are capture-only.
+   var view=text.GetComponentInParent<CardView>();
+   bool inCard=view!=null;
+   // Candidate capture is broader than the card-ID and effect-button translation scope.
    bool cardButton=inCard && (string.Equals(source.Trim(),"Double Damage",StringComparison.OrdinalIgnoreCase) ||
     (text.GetComponentInParent<UnityEngine.UI.Button>()!=null &&
      (name=="Selection Button Label" || name=="Text" || name=="Text (TMP)" || name=="Label")));
@@ -24,7 +25,9 @@ internal sealed class SurfaceProbe {
    // Never mark a truncated hierarchy.
    if(node!=null)return null;
    parts.Reverse();string path=string.Join("/",parts);
-   string? target=inCard?null:rules.Apply(path,source);
+   string card="";
+   if(inCard && view!.Card!=null && view.Card.Card!=null)card=view.Card.Card.CardDefinition.Identifier;
+   string? target=inCard?rules.Dynamic?.ApplyCardButton(path,card,source):rules.Apply(path,source);
    if(!source.StartsWith("示·",StringComparison.Ordinal) && !source.StartsWith("组·",StringComparison.Ordinal)){
     string clipped=source.Length>3072?source.Substring(0,3072):source;
     string key=path+"\0"+clipped;
@@ -32,7 +35,7 @@ internal sealed class SurfaceProbe {
     if(seen.Count<1200 && n<200 && seen.Add(key)){
      counts[name]=n+1;
      Plugin.Instance.Log.LogInfo("SURFACE_PROBE "+JsonSerializer.Serialize(new{
-      objectName=name,path,inCardView=inCard,cardButtonCandidate=cardButton,source=clipped,truncated=source.Length>3072,
+      objectName=name,path,cardId=card,inCardView=inCard,cardButtonCandidate=cardButton,source=clipped,truncated=source.Length>3072,
       inputSource=text.m_inputSource.ToString(),markerCandidate=target!=null,
       confirmation=path==DynamicDisplayRules.FinishPath?DynamicDisplayRules.ParseConfirmation(clipped):null,
       status="observed-not-live-accepted"}));

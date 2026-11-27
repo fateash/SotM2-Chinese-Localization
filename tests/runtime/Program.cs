@@ -80,7 +80,7 @@ var healParts=DynamicDisplayRules.ParseConfirmation("Heal 2 targets");
 Check(healParts is {Action:"Heal",Number:"2",NumberKind:"target-count"},"synthetic recovery target count distinct from HP amount");
 var hpParts=DynamicDisplayRules.ParseConfirmation("Regain 3 HP");
 Check(hpParts is {Number:"3",NumberKind:"hp-amount"},"HP amount is never treated as selected target count");
-foreach(var unverified in new[]{"Discard 3 cards","Heal 2 targets","Regain 3 HP","Buff 2 targets"})
+foreach(var unverified in new[]{"Heal 2 targets","Regain 3 HP","Buff 2 targets"})
  Check(pilot.Apply(DynamicDisplayRules.FinishPath,unverified)==null,"unverified confirmation action only captured: "+unverified);
 Check(DynamicDisplayRules.ParseConfirmation("Choose how much HP")==null,"unrecognized confirmation remains raw evidence");
 using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/surface-0.1.7.json"))){
@@ -89,6 +89,38 @@ using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/f
   var output=pilot.Apply(path,input);
   Check((output!=null)==sample.GetProperty("expectTranslated").GetBoolean(),"captured evidence: "+input);
   if(output!=null)Check(pilot.Apply(path,output)==null,"captured output idempotent: "+input);
+ }
+}
+foreach(var n in new[]{0,1,2,3,0}){
+ string noun=n==1?"card":"cards";
+ Check(pilot.Apply(DynamicDisplayRules.FinishPath,"Discard "+n+" "+noun)=="弃置"+n+"张牌","discard live count "+n);
+ Check(pilot.Apply(DynamicDisplayRules.FinishPath,"Select "+n+" "+noun)=="选择"+n+"张牌","generic selection distinct from discard "+n);
+}
+Check(pilot.Apply(DynamicDisplayRules.FinishPath,"Select 3 targets")==null,"unverified unit pair not inferred from cards");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Card {0}:</b> Click a card to play it.")=="<b>Card {0}:</b> 点击一张牌以将其打出。","optional source prefix retained literally");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Blade Battalion:</b> Click a target to deal it melee damage.")=="<b>Blade Battalion:</b> 点击一个目标，对其造成近战伤害。","missing original amount not invented");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Counterpoint Bulwark:</b> Click up to 3 targets to reduce damage dealt to them.")=="<b>Counterpoint Bulwark:</b> 点击至多3个目标，减少它们受到的伤害。","reduce target count is not reduction amount");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Synaptic Interrupt:</b> <b>Powered Turret</b> will deal <b>Tachyon</b> 3 energy damage. Click a reaction to use it.")=="<b>Synaptic Interrupt:</b> <b>Powered Turret</b>将对<b>Tachyon</b>造成3点能量伤害。点击一个反应以使用它。","reaction source target amount preserved");
+string effectPath="Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/CardView TheStaffOfRa-2 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label";
+Check(pilot.Dynamic!.ApplyCardButton(effectPath,"TheStaffOfRa","Double Damage")=="伤害翻倍","effect button card identity and suffix");
+Check(pilot.Dynamic.ApplyCardButton(effectPath,"OtherCard","Double Damage")==null,"other card cannot reuse effect label mapping");
+Check(pilot.Dynamic.ApplyCardButton(effectPath.Replace("Select Effect Container/Select Effect Button(Clone)","Effect Panel/Effect View(Clone)"),"TheStaffOfRa","Double Damage")==null,"effect status labels excluded");
+Check(pilot.Dynamic.ApplyCardButton(effectPath.Replace("Select Effect Container/Select Effect Button(Clone)","Power Container/UsePower"),"TheStaffOfRa","Double Damage")==null,"power body labels excluded");
+Check(pilot.Apply("Other/Selection Button Label","Play a Card")==null,"hero button requires observed hierarchy role");
+Check(pilot.Apply("Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label","Play a Card")=="打出一张牌","active hero role supported");
+Check(SurfaceProbeRules.CanObserve("Phase Label",false,false),"phase remaining label enabled for capture");
+Check(pilot.Apply("Canvas/HUD Panel/State Box/Phase Box/Phase Label","DRAW PHASE (2 LEFT)")==null,"phase suffix remains capture-only pending raw text evidence");
+using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/surface-0.1.8.json"))){
+ foreach(var sample in evidence.RootElement.GetProperty("samples").EnumerateArray()){
+  string path=sample.GetProperty("path").GetString()!,input=sample.GetProperty("source").GetString()!;
+  bool inCard=sample.GetProperty("inCardView").GetBoolean();string card=sample.GetProperty("cardId").GetString()!;
+  var output=inCard?pilot.Dynamic.ApplyCardButton(path,card,input):pilot.Apply(path,input);
+  Check((output!=null)==sample.GetProperty("expectTranslated").GetBoolean(),"0.1.8 capture: "+path+" => "+input);
+  if(output!=null){
+   Check((inCard?pilot.Dynamic.ApplyCardButton(path,card,output):pilot.Apply(path,output))==null,"0.1.8 output idempotent: "+input);
+   string Tags(string t)=>string.Join("|",System.Text.RegularExpressions.Regex.Matches(t,@"<[^<>]+>").Select(m=>m.Value));
+   Check(Tags(input)==Tags(output),"0.1.8 original rich-text tags preserved: "+input);
+  }
  }
 }
 Console.WriteLine("RUNTIME_CHECKS_COMPLETE "+count);

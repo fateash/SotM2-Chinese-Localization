@@ -13,7 +13,7 @@ public sealed class SurfaceProbeRules {
  public const string PlayHint="Click or drag a card to play it.";
  public const string Glyphs="示·组·";
  static readonly HashSet<string> ObservedObjects=new(StringComparer.Ordinal){
-  "Hint Label","Selection Button Label","Choose For Me Button Label","Skip Button Label",
+  "Phase Label","Hint Label","Selection Button Label","Choose For Me Button Label","Skip Button Label",
   "Finish Button Label","Turn Taker Label","Deck Label","Heading Label","Info Label",
   "Message Label","Tooltip Label","Description Label","Title Label","Header","Heading",
   "Label","Text","Text (TMP)"
