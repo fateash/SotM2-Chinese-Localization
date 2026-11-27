@@ -1,0 +1,556 @@
+{
+  "evidence": [
+    "SotM2-Dynamic-Evidence-20261127-133733-891d6d.zip"
+  ],
+  "samples": [
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Replace",
+      "inCardView": false,
+      "expected": "放回原处",
+      "observationId": "00ae142e380049c8597c2827"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Replace",
+      "inCardView": false,
+      "expected": "放回原处",
+      "observationId": "01450721533bb71249c6228a"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Haka/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Replace",
+      "inCardView": false,
+      "expected": "放回原处",
+      "observationId": "05578dbb60044c983df6b681"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Draw",
+      "inCardView": false,
+      "expected": "抽牌",
+      "observationId": "0fe412c7549aed885bbb9930"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard A True Hero.",
+      "inCardView": false,
+      "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将A True Hero放回原处或弃置。",
+      "observationId": "10d98167c99a8e632c0ff3b6"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Replace",
+      "inCardView": false,
+      "expected": "放回原处",
+      "observationId": "1311b83f9a44a73dfd4debce"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "13da7df6be29b57f7f2d4f55"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "1655a13b21f0326adf16f281"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Mounted AP Gun.",
+      "inCardView": false,
+      "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Mounted AP Gun放回原处或弃置。",
+      "observationId": "1d59e4a15f217d10bb22fb41"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "330559021373f130f7bfc84b"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Disintegration Ray:</b> Click a target to deal it energy damage.",
+      "inCardView": false,
+      "expected": "<b>Disintegration Ray:</b> 点击一个目标，对其造成能量伤害。",
+      "observationId": "3911848bb60c9b33a537f733"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "413809bcbe5644c04e691db4"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
+      "inCardView": false,
+      "expected": "点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。",
+      "observationId": "464a6773604f24d25e4c0355"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Draw",
+      "inCardView": false,
+      "expected": "抽牌",
+      "observationId": "474a5bade91f36b9e885e176"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Haka/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Draw",
+      "inCardView": false,
+      "expected": "抽牌",
+      "observationId": "4aaeabc1bd769466e346b871"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Displaced Ambassador.",
+      "inCardView": false,
+      "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Displaced Ambassador放回原处或弃置。",
+      "observationId": "4b65e47566556549f7ee2781"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Supply Crate.",
+      "inCardView": false,
+      "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Supply Crate放回原处或弃置。",
+      "observationId": "506f4ec2c9e7dc0e066e66c4"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "53cb958f9671b88023cf2c1b"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Tempest/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Replace",
+      "inCardView": false,
+      "expected": "放回原处",
+      "observationId": "551a1d46c5078bb110aa0ec5"
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView FlashForge-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "cardId": "FlashForge",
+      "source": "Discover Golem",
+      "inCardView": true,
+      "expected": "发现Golem牌",
+      "observationId": "56cfcf0a4d4bf5e7810c5bc1"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Maerynian Aquaculturalist:</b> Click a location to either replace or discard Entry Point.",
+      "inCardView": false,
+      "expected": "<b>Maerynian Aquaculturalist:</b> 选择一个区域，将Entry Point放回原处或弃置。",
+      "observationId": "58856020cead01453cd99190"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Singularity Projector:</b> Click 3 cards in play to destroy them.",
+      "inCardView": false,
+      "expected": "<b>Singularity Projector:</b> 点击3张在场的牌以将其破坏。",
+      "observationId": "5e5ea359d923c2ffa436c984"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Haka of Battle.",
+      "inCardView": false,
+      "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Haka of Battle放回原处或弃置。",
+      "observationId": "5e8b03879ad004ab4d380bda"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Maerynian Aquaculturalist:</b> Click a location to either replace or discard Mission Control.",
+      "inCardView": false,
+      "expected": "<b>Maerynian Aquaculturalist:</b> 选择一个区域，将Mission Control放回原处或弃置。",
+      "observationId": "64ab6d14c8732a92f5f9ad19"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Haka of Frenzy.",
+      "inCardView": false,
+      "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Haka of Frenzy放回原处或弃置。",
+      "observationId": "67be4494df14e4bd869a960e"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Replace",
+      "inCardView": false,
+      "expected": "放回原处",
+      "observationId": "6b818b11da0dc0bdf448052b"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Supply Crate:</b> Click Unity's deck to draw 2 cards.",
+      "inCardView": false,
+      "expected": "<b>Supply Crate:</b> 点击Unity的牌库，抽2张牌。",
+      "observationId": "6d62d72515609eced47989c0"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Haka of Recovery.",
+      "inCardView": false,
+      "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Haka of Recovery放回原处或弃置。",
+      "observationId": "6e3ffd9c4181398ee2de733c"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>The Wraith's Arsenal:</b> Click a hero to draw a card.",
+      "inCardView": false,
+      "expected": "<b>The Wraith's Arsenal:</b> 点击一位英雄，让其抽1张牌。",
+      "observationId": "746ba2eb32ced79e0f278116"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "76c171d8bfce8cc8ff01c547"
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView FlashForge-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "cardId": "FlashForge",
+      "source": "Discover Item",
+      "inCardView": true,
+      "expected": "发现物品牌",
+      "observationId": "7c7f6ce6988f861afb1c99f7"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Taonga Mana:</b> Click Haka's deck to draw 3 cards.",
+      "inCardView": false,
+      "expected": "<b>Taonga Mana:</b> 点击Haka的牌库，抽3张牌。",
+      "observationId": "81e1eefbef72c9fed00ba1e4"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Replace",
+      "inCardView": false,
+      "expected": "放回原处",
+      "observationId": "840e60f55680e61975039b0e"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Tempest/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "8741a361dc46046fa4d67e82"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Maerynian Aquaculturalist:</b> Click a location to either replace or discard Dr. Stinson's Secondary Lab.",
+      "inCardView": false,
+      "expected": "<b>Maerynian Aquaculturalist:</b> 选择一个区域，将Dr. Stinson's Secondary Lab放回原处或弃置。",
+      "observationId": "8d2a7b9d29ff557b81a8bfa4"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Haka/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "8db9a3ac397a0cffcb288703"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Haka/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Draw",
+      "inCardView": false,
+      "expected": "抽牌",
+      "observationId": "96625071e3216d4d4f9c1318"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Lightning Slash.",
+      "inCardView": false,
+      "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Lightning Slash放回原处或弃置。",
+      "observationId": "9993585e06561f477a27deba"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Freedom Security Staff:</b> Click a hero to discard a card.",
+      "inCardView": false,
+      "expected": "<b>Freedom Security Staff:</b> 点击一位英雄，让其弃置1张牌。",
+      "observationId": "9fadf0f7f2b73207bb4983b7"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Platform Bot.",
+      "inCardView": false,
+      "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Platform Bot放回原处或弃置。",
+      "observationId": "a1ccd62d38f0fd7152e4b10c"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Draw",
+      "inCardView": false,
+      "expected": "抽牌",
+      "observationId": "af6a392380d04db146de26fb"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Lead from the Front.",
+      "inCardView": false,
+      "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Lead from the Front放回原处或弃置。",
+      "observationId": "b0de7c920e3ee815a73cf04b"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Thunderclap.",
+      "inCardView": false,
+      "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Thunderclap放回原处或弃置。",
+      "observationId": "b5e682fb667c2cd29b3894a5"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Haka of Frenzy:</b> Click up to 6 cards in hand to discard them.",
+      "inCardView": false,
+      "expected": "<b>Haka of Frenzy:</b> 点击至多6张手牌以将其弃置。",
+      "observationId": "b5ec431f64f0d0c6540cbe1b"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "b793ac97fd576cd758527810"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Draw",
+      "inCardView": false,
+      "expected": "抽牌",
+      "observationId": "c50affd7c6f2d0bf73ed1fca"
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+      "cardId": "",
+      "source": "Skip Draw",
+      "inCardView": false,
+      "expected": "跳过抽牌",
+      "observationId": "c513d15bba664a6654dd5d9f"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Haka/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "c8773f431bdfe20aa0cc85e5"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Turret Mode.",
+      "inCardView": false,
+      "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Turret Mode放回原处或弃置。",
+      "observationId": "ca72ea6dd485d25b75f659e9"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Tempest/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Draw",
+      "inCardView": false,
+      "expected": "抽牌",
+      "observationId": "ca9cd9dc8be6b7e4d0d6537f"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Tempest/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "cf10d9910cacdc574a872dd9"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Grenade Launcher.",
+      "inCardView": false,
+      "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Grenade Launcher放回原处或弃置。",
+      "observationId": "d4be9019a580c31eac373f45"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Draw",
+      "inCardView": false,
+      "expected": "抽牌",
+      "observationId": "d8007e442690f8d71fc98594"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Draw",
+      "inCardView": false,
+      "expected": "抽牌",
+      "observationId": "d9c6bb14c0eac282ee6b3b17"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Recharge Mode:</b> Click a card in hand to put it under a card.",
+      "inCardView": false,
+      "expected": "<b>Recharge Mode:</b> 点击一张手牌，将其置于一张牌下方。",
+      "observationId": "df68a220dd06467d8cc801c7"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "e05fc0e3cdcafb971a395304"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Inspired Repair.",
+      "inCardView": false,
+      "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Inspired Repair放回原处或弃置。",
+      "observationId": "e61d9d583df07e947683736e"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Replace",
+      "inCardView": false,
+      "expected": "放回原处",
+      "observationId": "f276af8e3c57b502a7914162"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "f80dda9131956d74f40565f6"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "fd680e68d97b3efcb2e9ca07"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "ff40894668f2daa364e9a201"
+    }
+  ]
+}

@@ -1921,6 +1921,966 @@
       "id": "f8c46a7a98997fcb100981d3",
       "reason": "current-rule-match",
       "target": "<b>Null-Point Calibration Unit:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "00ae142e380049c8597c2827",
+      "reason": "current-rule-match",
+      "target": "放回原处"
+    },
+    {
+      "id": "00ae49cb1fa0649e6d8129d5",
+      "reason": "current-rule-match",
+      "target": "Dr. Stinson's Secondary Lab展示的牌："
+    },
+    {
+      "id": "01450721533bb71249c6228a",
+      "reason": "current-rule-match",
+      "target": "放回原处"
+    },
+    {
+      "id": "02fadfdb4c71e47cb4158bb3",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "037315b7b0d3e049a9caa0e4",
+      "reason": "current-rule-match",
+      "target": "使用异能"
+    },
+    {
+      "id": "05578dbb60044c983df6b681",
+      "reason": "current-rule-match",
+      "target": "放回原处"
+    },
+    {
+      "id": "058ce98e92514ab904b9e596",
+      "reason": "current-rule-match",
+      "target": "<b>S-83 Assault Drones:</b> 点击2个目标，对其各造成<nobr>4点近战伤害</nobr>。"
+    },
+    {
+      "id": "08b82b33db6611aa6d6be340",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "0e4210176c585f79427e77f9",
+      "reason": "current-rule-match",
+      "target": "Omnitron发现的牌："
+    },
+    {
+      "id": "0fe412c7549aed885bbb9930",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "10d98167c99a8e632c0ff3b6",
+      "reason": "current-rule-match",
+      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将A True Hero放回原处或弃置。"
+    },
+    {
+      "id": "1311b83f9a44a73dfd4debce",
+      "reason": "current-rule-match",
+      "target": "放回原处"
+    },
+    {
+      "id": "13c11fc2079cf95f304892e6",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "13da7df6be29b57f7f2d4f55",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "1655a13b21f0326adf16f281",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "1b0ac685869a74edafd80b9d",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "1d59e4a15f217d10bb22fb41",
+      "reason": "current-rule-match",
+      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Mounted AP Gun放回原处或弃置。"
+    },
+    {
+      "id": "1e5ae326343db8f5917cd557",
+      "reason": "current-rule-match",
+      "target": "<b>Freedom Security Staff:</b> 点击一张手牌以将其弃置。"
+    },
+    {
+      "id": "208a559ecb20dec4c333161d",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "21847ab8383754fe69ef12c6",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "227d8295afde89c4bf1a04d4",
+      "reason": "current-rule-match",
+      "target": "Surge of Ihi抽到的牌："
+    },
+    {
+      "id": "23f5cb8cdd42916c19063c33",
+      "reason": "current-rule-match",
+      "target": "Maerynian Aquaculturalist抽到的牌："
+    },
+    {
+      "id": "27274baeb94a5d15c53f0a93",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "28a093a3a3f82f016c700ff1",
+      "reason": "current-rule-match",
+      "target": "Maerynian Aquaculturalist展示的牌："
+    },
+    {
+      "id": "2c0950e1edde81b02d3e1b53",
+      "reason": "current-rule-match",
+      "target": "打出一张牌"
+    },
+    {
+      "id": "2c3d1a7a5f6574510f8016c9",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "2c431df3641bfd28b22ddb7b",
+      "reason": "current-rule-match",
+      "target": "<b>Raptor Bot:</b> 点击一个目标，对其造成<nobr>4点近战伤害</nobr>。"
+    },
+    {
+      "id": "2e55635696d462bea8a9f5fa",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "2fe98b9d6c0d6025776719b8",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "306519dc884757ac6da24577",
+      "reason": "current-rule-match",
+      "target": "Freedom Tower打出的牌："
+    },
+    {
+      "id": "31544c7451f317619c7ec9fb",
+      "reason": "current-rule-match",
+      "target": "<b>Protomatter Converter:</b> 点击一张在场的牌以将其破坏。"
+    },
+    {
+      "id": "31841c371b77454981d38f30",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "319e77e7f91b24c7169e70eb",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "31e1953844fdedcf101f39b8",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "330559021373f130f7bfc84b",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "3435a44d3b14df9ae8aceb08",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "3472ca02df7100c85484816b",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "36fd0932926942970b609433",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "379e1760efa0ab187e5b7140",
+      "reason": "current-rule-match",
+      "target": "<b>Expendable Power Bank:</b> 点击一张在场的牌，将Recharge Mode置于其下方。"
+    },
+    {
+      "id": "383821b20cc2d2e348247611",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "3911848bb60c9b33a537f733",
+      "reason": "current-rule-match",
+      "target": "<b>Disintegration Ray:</b> 点击一个目标，对其造成能量伤害。"
+    },
+    {
+      "id": "3d582e96d6042ec1acbb9a98",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "3d9921cc8e8ac44179d6d9cb",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "3ec6eb6a429941397465f45a",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "406cd78b49254c5f0ca898b3",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "40cb8cd15e5debd958f0db93",
+      "reason": "current-rule-match",
+      "target": "打出一张牌"
+    },
+    {
+      "id": "4132f8ca388188fd9aaabd18",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "413809bcbe5644c04e691db4",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "446e847552fceb1ec9d27b51",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "464a6773604f24d25e4c0355",
+      "reason": "current-rule-match",
+      "target": "点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+    },
+    {
+      "id": "474a5bade91f36b9e885e176",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "48d4bd89491865ef80284206",
+      "reason": "current-rule-match",
+      "target": "Haka抽到的牌："
+    },
+    {
+      "id": "4a50c28525e49536f35d83f6",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "4aaeabc1bd769466e346b871",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "4b65e47566556549f7ee2781",
+      "reason": "current-rule-match",
+      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Displaced Ambassador放回原处或弃置。"
+    },
+    {
+      "id": "506f4ec2c9e7dc0e066e66c4",
+      "reason": "current-rule-match",
+      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Supply Crate放回原处或弃置。"
+    },
+    {
+      "id": "53cb958f9671b88023cf2c1b",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "5433af351edcd0dca7f4e6c0",
+      "reason": "current-rule-match",
+      "target": "<b>Haka of Frenzy:</b> 点击2个目标，对其各造成<nobr>3点近战伤害</nobr>。"
+    },
+    {
+      "id": "551a1d46c5078bb110aa0ec5",
+      "reason": "current-rule-match",
+      "target": "放回原处"
+    },
+    {
+      "id": "56cfcf0a4d4bf5e7810c5bc1",
+      "reason": "current-rule-match",
+      "target": "发现Golem牌"
+    },
+    {
+      "id": "58856020cead01453cd99190",
+      "reason": "current-rule-match",
+      "target": "<b>Maerynian Aquaculturalist:</b> 选择一个区域，将Entry Point放回原处或弃置。"
+    },
+    {
+      "id": "58c524a2190ad89cdd40f7de",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "5d07811c7a6d6048b63a2b54",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "5d4eb81102bb8c40d5034eca",
+      "reason": "current-rule-match",
+      "target": "<b>Grenade Launcher:</b> 点击一张在场或位于Grenade Launcher下方的牌以将其破坏。"
+    },
+    {
+      "id": "5dd4c4000e1dda54c939bd17",
+      "reason": "current-rule-match",
+      "target": "Flash Forge发现的牌："
+    },
+    {
+      "id": "5df90c1e2cc3f40a48e93237",
+      "reason": "current-rule-match",
+      "target": "<b>Taiaha:</b> 点击一张在场的牌以将其破坏。"
+    },
+    {
+      "id": "5e5ea359d923c2ffa436c984",
+      "reason": "current-rule-match",
+      "target": "<b>Singularity Projector:</b> 点击3张在场的牌以将其破坏。"
+    },
+    {
+      "id": "5e8b03879ad004ab4d380bda",
+      "reason": "current-rule-match",
+      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Haka of Battle放回原处或弃置。"
+    },
+    {
+      "id": "5eece7d0e4866e799989fe7f",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "5efe21b1fe5e7e8d6c59b02b",
+      "reason": "current-rule-match",
+      "target": "Maerynian Aquaculturalist展示的牌："
+    },
+    {
+      "id": "5f77d120009544ec0e28ab50",
+      "reason": "current-rule-match",
+      "target": "Omnitron打出的牌："
+    },
+    {
+      "id": "6126652dd04ef304a8ddccca",
+      "reason": "current-rule-match",
+      "target": "<b>Bee Bot:</b> 点击一张在场的牌以将其破坏。"
+    },
+    {
+      "id": "627eb67a4317f167d1164ff2",
+      "reason": "current-rule-match",
+      "target": "<b>Platform Bot:</b> 点击一个目标，对其造成<nobr>3点能量伤害</nobr>。"
+    },
+    {
+      "id": "64ab6d14c8732a92f5f9ad19",
+      "reason": "current-rule-match",
+      "target": "<b>Maerynian Aquaculturalist:</b> 选择一个区域，将Mission Control放回原处或弃置。"
+    },
+    {
+      "id": "67be4494df14e4bd869a960e",
+      "reason": "current-rule-match",
+      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Haka of Frenzy放回原处或弃置。"
+    },
+    {
+      "id": "67c3cc9cbdf6cd7214e71e95",
+      "reason": "current-rule-match",
+      "target": "Tempest抽到的牌："
+    },
+    {
+      "id": "68713a80b8d99c68b7b05226",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "689e51015bc408826f302d86",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "68b151d62b70a604a5c7f716",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "6b818b11da0dc0bdf448052b",
+      "reason": "current-rule-match",
+      "target": "放回原处"
+    },
+    {
+      "id": "6d62d72515609eced47989c0",
+      "reason": "current-rule-match",
+      "target": "<b>Supply Crate:</b> 点击Unity的牌库，抽2张牌。"
+    },
+    {
+      "id": "6e3ffd9c4181398ee2de733c",
+      "reason": "current-rule-match",
+      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Haka of Recovery放回原处或弃置。"
+    },
+    {
+      "id": "6ea5faff7d13bfe648bb1407",
+      "reason": "current-rule-match",
+      "target": "使用异能"
+    },
+    {
+      "id": "70e915268e111bd624b3e5c0",
+      "reason": "current-rule-match",
+      "target": "Dance in the Fray抽到的牌："
+    },
+    {
+      "id": "72143ad7147822e2213c90b4",
+      "reason": "current-rule-match",
+      "target": "<b>Raptor Bot:</b> 点击一个目标，对其造成<nobr>5点近战伤害</nobr>。"
+    },
+    {
+      "id": "732a393159accf0e3af2e847",
+      "reason": "current-rule-match",
+      "target": "<b>Thokk!:</b> 点击一个目标，对其造成<nobr>5点近战伤害</nobr>。"
+    },
+    {
+      "id": "735845412a1b6402a6e915ad",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "73b493d72f72569275ccf9b7",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "746ba2eb32ced79e0f278116",
+      "reason": "current-rule-match",
+      "target": "<b>The Wraith's Arsenal:</b> 点击一位英雄，让其抽1张牌。"
+    },
+    {
+      "id": "76c171d8bfce8cc8ff01c547",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "7a36828de12583cecf7f30be",
+      "reason": "current-rule-match",
+      "target": "<b>Flash Forge:</b> 点击Flash Forge上的按钮，选择一个效果。"
+    },
+    {
+      "id": "7c7f6ce6988f861afb1c99f7",
+      "reason": "current-rule-match",
+      "target": "发现物品牌"
+    },
+    {
+      "id": "7cbe0437970c8973ca16854c",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "7cf5ed18d28a8f1fdd0799f9",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "7f637ec3d99d4ef38a25befe",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "8169c4cc2ba5426752a9d6d2",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "81c73a76d199ca57efe8a215",
+      "reason": "current-rule-match",
+      "target": "<b>Dr. Stinson's Secondary Lab:</b> 点击一个牌库以展示一张牌。"
+    },
+    {
+      "id": "81e1eefbef72c9fed00ba1e4",
+      "reason": "current-rule-match",
+      "target": "<b>Taonga Mana:</b> 点击Haka的牌库，抽3张牌。"
+    },
+    {
+      "id": "840e60f55680e61975039b0e",
+      "reason": "current-rule-match",
+      "target": "放回原处"
+    },
+    {
+      "id": "85f74e303ea5b35dd51d6387",
+      "reason": "current-rule-match",
+      "target": "<b>Freedom Security Staff:</b> 点击2张手牌以将其弃置。"
+    },
+    {
+      "id": "86088ddad799099a73c778bb",
+      "reason": "current-rule-match",
+      "target": "打出一张牌"
+    },
+    {
+      "id": "86090f2daac28fd2bdce2551",
+      "reason": "current-rule-match",
+      "target": "<b>Brainstorm:</b> 点击至多3个目标，对其各造成<nobr>1点闪电伤害</nobr>。"
+    },
+    {
+      "id": "86928ea40de84cf69a678c44",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "8741a361dc46046fa4d67e82",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "87696f52ffc0a0b54c7ad865",
+      "reason": "current-rule-match",
+      "target": "<b>Dance in the Fray:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "87dbf9ddc344b7c2ac5eee21",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "8a6acfe38ccc946e066cac8b",
+      "reason": "current-rule-match",
+      "target": "打出一张牌"
+    },
+    {
+      "id": "8d2a7b9d29ff557b81a8bfa4",
+      "reason": "current-rule-match",
+      "target": "<b>Maerynian Aquaculturalist:</b> 选择一个区域，将Dr. Stinson's Secondary Lab放回原处或弃置。"
+    },
+    {
+      "id": "8db9a3ac397a0cffcb288703",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "90001703f02414438f23395a",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "9041f8d3adbd3beb93836384",
+      "reason": "current-rule-match",
+      "target": "<b>The Ol' One-Two:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "90d0486081bce9087bf886ec",
+      "reason": "current-rule-match",
+      "target": "<b>Hasty Augmentation:</b> 点击一位英雄，让其使用一个异能。"
+    },
+    {
+      "id": "946dd7faee708d0bb39dbc10",
+      "reason": "current-rule-match",
+      "target": "<b>Tempest:</b> 点击目标，选择对它们造成<nobr>1点投射伤害</nobr>的顺序。"
+    },
+    {
+      "id": "96625071e3216d4d4f9c1318",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "96980c1d59c0437fcbffb8f0",
+      "reason": "current-rule-match",
+      "target": "<b>Cryo Bot:</b> 点击至多3个目标，对其各造成<nobr>1点寒冷伤害</nobr>。"
+    },
+    {
+      "id": "9993585e06561f477a27deba",
+      "reason": "current-rule-match",
+      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Lightning Slash放回原处或弃置。"
+    },
+    {
+      "id": "9a133cab1dc5a9e226c952ee",
+      "reason": "current-rule-match",
+      "target": "Grenade Launcher下方的牌"
+    },
+    {
+      "id": "9cd6084b7cf3a20c005f6920",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "9db6e45fabd947ca4102c8d9",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "9ee8342d119f8e2a87fce16d",
+      "reason": "current-rule-match",
+      "target": "<b>Grenade Launcher:</b> 点击3个目标，对其各造成<nobr>2点火焰伤害</nobr>。"
+    },
+    {
+      "id": "9f796d3563fc958735dd546c",
+      "reason": "current-rule-match",
+      "target": "<b>Construction Pylon:</b> 点击一张牌以将其打出。"
+    },
+    {
+      "id": "9fadf0f7f2b73207bb4983b7",
+      "reason": "current-rule-match",
+      "target": "<b>Freedom Security Staff:</b> 点击一位英雄，让其弃置1张牌。"
+    },
+    {
+      "id": "a05ab7e3faed1205bb346c56",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "a1ccd62d38f0fd7152e4b10c",
+      "reason": "current-rule-match",
+      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Platform Bot放回原处或弃置。"
+    },
+    {
+      "id": "a4dd208f6ea3329a816f0740",
+      "reason": "current-rule-match",
+      "target": "<b>Bee Bot:</b> 点击一个目标，对其造成<nobr>2点投射伤害</nobr>。"
+    },
+    {
+      "id": "a8a42f6b9c5688d62454ddca",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "a934bebb2e0c90a8bd3737c6",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "aaba19da5a79103bc1d5743e",
+      "reason": "current-rule-match",
+      "target": "<b>Volatile Parts:</b> 点击一个目标，对其造成<nobr>2点火焰伤害</nobr>。"
+    },
+    {
+      "id": "ac2e9210d5635b8e77d6e6e2",
+      "reason": "current-rule-match",
+      "target": "Displaced Ambassador抽到的牌："
+    },
+    {
+      "id": "aec8ca0011352b5a8b35f2f7",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "aef9ff2a08f237569bd83c1b",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "af6a392380d04db146de26fb",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "b0de7c920e3ee815a73cf04b",
+      "reason": "current-rule-match",
+      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Lead from the Front放回原处或弃置。"
+    },
+    {
+      "id": "b3ca6043bf1db905155e2124",
+      "reason": "current-rule-match",
+      "target": "Dr. Stinson's Secondary Lab展示的牌："
+    },
+    {
+      "id": "b4823a54de5ddd5ef641df5f",
+      "reason": "current-rule-match",
+      "target": "<b>Surge of Ihi:</b> 点击一个目标，对其造成近战伤害。"
+    },
+    {
+      "id": "b4a2d5a9858182acc4fd2490",
+      "reason": "current-rule-match",
+      "target": "<b>Mission Control:</b> 点击一个牌库以展示一张牌。"
+    },
+    {
+      "id": "b530119447805bb578b74755",
+      "reason": "current-rule-match",
+      "target": "<b>Ball Lightning:</b> 点击一张在场的牌以将其破坏。"
+    },
+    {
+      "id": "b5e682fb667c2cd29b3894a5",
+      "reason": "current-rule-match",
+      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Thunderclap放回原处或弃置。"
+    },
+    {
+      "id": "b5ec431f64f0d0c6540cbe1b",
+      "reason": "current-rule-match",
+      "target": "<b>Haka of Frenzy:</b> 点击至多6张手牌以将其弃置。"
+    },
+    {
+      "id": "b74ae76343c64e3a9309f80d",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "b793ac97fd576cd758527810",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "b7fd744e7bc39a6f6422aac0",
+      "reason": "current-rule-match",
+      "target": "使用异能"
+    },
+    {
+      "id": "bb5206e70f691d748eb077dd",
+      "reason": "current-rule-match",
+      "target": "Protomatter Converter打出的牌："
+    },
+    {
+      "id": "bc9c6a103b7763505e5f106b",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "bcfe828a41661adebf23bb8f",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "c01c0a25e725063fad6d8e8b",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "c135fe85bb2a28116a361262",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "c16a0182b2898d11eb2961c7",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "c228b73e7629c74b4b229fd5",
+      "reason": "current-rule-match",
+      "target": "<b>Haka:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
+    },
+    {
+      "id": "c50affd7c6f2d0bf73ed1fca",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "c513d15bba664a6654dd5d9f",
+      "reason": "current-rule-match",
+      "target": "跳过抽牌"
+    },
+    {
+      "id": "c8773f431bdfe20aa0cc85e5",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "c90bc06248f8c8c1973f11dc",
+      "reason": "current-rule-match",
+      "target": "Displaced Ambassador展示的牌："
+    },
+    {
+      "id": "ca72ea6dd485d25b75f659e9",
+      "reason": "current-rule-match",
+      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Turret Mode放回原处或弃置。"
+    },
+    {
+      "id": "ca9cd9dc8be6b7e4d0d6537f",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "cb25d7d3c5a62faac022409d",
+      "reason": "current-rule-match",
+      "target": "Supply Crate抽到的牌："
+    },
+    {
+      "id": "cc0a2ff429c7e293020d0edf",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "cf10d9910cacdc574a872dd9",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "d229ffbcfb03512fc02d1ee0",
+      "reason": "current-rule-match",
+      "target": "<b>Upgrade Mode:</b> 点击牌库中的一张牌以将其召唤。"
+    },
+    {
+      "id": "d37e1f17dfbd53ad328a168b",
+      "reason": "current-rule-match",
+      "target": "Unity抽到的牌："
+    },
+    {
+      "id": "d4be9019a580c31eac373f45",
+      "reason": "current-rule-match",
+      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Grenade Launcher放回原处或弃置。"
+    },
+    {
+      "id": "d73667dd260ff765bbc9f68f",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "d8007e442690f8d71fc98594",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "d9c6bb14c0eac282ee6b3b17",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "da49c47a684b0f4aeb706510",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "ddcaab147f4ff222978f789e",
+      "reason": "current-rule-match",
+      "target": "The Wraith's Arsenal抽到的牌："
+    },
+    {
+      "id": "df68a220dd06467d8cc801c7",
+      "reason": "current-rule-match",
+      "target": "<b>Recharge Mode:</b> 点击一张手牌，将其置于一张牌下方。"
+    },
+    {
+      "id": "e00ef46b5b7826fa909100a6",
+      "reason": "current-rule-match",
+      "target": "使用异能"
+    },
+    {
+      "id": "e05fc0e3cdcafb971a395304",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "e46ca1e02d427f095c99fd44",
+      "reason": "current-rule-match",
+      "target": "<b>Taiaha:</b> 点击至多2个目标，对其各造成<nobr>3点近战伤害</nobr>。"
+    },
+    {
+      "id": "e46e0bcc8f804e5b31aac7a4",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "e59ac1b910ac14cecdf7abd3",
+      "reason": "current-rule-match",
+      "target": "<b>Arsenal Bot:</b> 点击至多2个目标，对其各造成<nobr>2点投射伤害</nobr>。"
+    },
+    {
+      "id": "e61d9d583df07e947683736e",
+      "reason": "current-rule-match",
+      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Inspired Repair放回原处或弃置。"
+    },
+    {
+      "id": "e71dbc323f00ad6001f24483",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "e96f711d783b33d2935e6256",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "e9c15fe0783376163889a74f",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "eb66c1b45ccd084f3332af3c",
+      "reason": "current-rule-match",
+      "target": "使用异能"
+    },
+    {
+      "id": "ed5d41e8b2940eaf5e5e6e33",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "f063ce979aa7880e457df155",
+      "reason": "current-rule-match",
+      "target": "Brainstorm抽到的牌："
+    },
+    {
+      "id": "f08c1f8b07134c6b3cead02f",
+      "reason": "current-rule-match",
+      "target": "点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+    },
+    {
+      "id": "f0e0c2e03c9421cb2fa06ea3",
+      "reason": "current-rule-match",
+      "target": "<b>Hasty Augmentation:</b> 点击或拖动一个异能以使用它。"
+    },
+    {
+      "id": "f276af8e3c57b502a7914162",
+      "reason": "current-rule-match",
+      "target": "放回原处"
+    },
+    {
+      "id": "f32bd435b7cb9e3be36a5516",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "f32ecd0c065c549d746a70bd",
+      "reason": "current-rule-match",
+      "target": "Mission Control展示的牌："
+    },
+    {
+      "id": "f3d7a97654f6bf609bcd3fe2",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "f4263c9d4cbea1d66df3ed29",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "f4c7ba9b623ad558618bb2d9",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "f80dda9131956d74f40565f6",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "f956cb531e609d0a0d43be0b",
+      "reason": "current-rule-match",
+      "target": "<b>Ball Lightning:</b> 点击一个目标，对其造成<nobr>3点闪电伤害</nobr>。"
+    },
+    {
+      "id": "fd680e68d97b3efcb2e9ca07",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "fddfa1209b7147dc46170f7c",
+      "reason": "current-rule-match",
+      "target": "Taonga Mana抽到的牌："
+    },
+    {
+      "id": "ff40894668f2daa364e9a201",
+      "reason": "current-rule-match",
+      "target": "弃置"
     }
   ]
 }

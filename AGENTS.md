@@ -3,6 +3,7 @@
 本项目正式执行 `docs/COVERAGE-WORKFLOW.md` 的防漏流程。
 
 - 新增或修改显示规则时，以按钮／提示用途及组件身份为依据。记录所有相关显示位置；不得将一条已观察路径等同于该功能完整覆盖。
+- 不以实机日志作为唯一发现入口：先核对库存完整文本、拼接片段和已有模板，再主动检查同类控件的角色／牌区／布局组合。合成组合单独标注，不虚构实机观察；缺少原文、参数或控件证据的项目列明缺失条件。
 - 修改 `runtime/DynamicDisplayRules.cs`、`SurfaceProbeRules.cs`、`SurfaceProbe.cs`、`Plugin.cs`、`DisplayRules.cs` 或 `probe/dynamic-pilot.json` 后，必须复核 `coverage/contracts.json` 的功能族、上下文、正反例和待观察位置，复核后更新文件指纹。不得仅重算指纹来绕过检查。
 - 新证据通过 `tools/coverage_audit.py intake` 追加归档。审计使用实际运行转换类；新增未匹配项必须登记原因、责任人和下一步。不得删除旧观察或把未知项批量列为延期以通过CI。
 - 提取、译稿、译文审核、显示接入、实机验收分别记录。动态匹配日志、离线测试和CI通过不能自动提升为画面／点击验收。

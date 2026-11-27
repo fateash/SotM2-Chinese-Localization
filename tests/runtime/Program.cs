@@ -284,4 +284,50 @@ foreach(var source in new[]{"Click a target to prevent it from being dealt damag
 Check(pilot.Apply(DynamicDisplayRules.DescriptionPath,"Card 2 collected:")=="Card 2搜集的牌：","collected heading keeps name");
 Check(pilot.Apply(popup,"Captain Cosmic collected:")==null,"collect heading cannot replace reveal action title");
 Check(pilot.Apply(DynamicDisplayRules.DescriptionPath,"Card collected: extra")==null,"collect title complete string required");
+using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/dynamic-0.1.15.json"))){
+ foreach(var sample in evidence.RootElement.GetProperty("samples").EnumerateArray()){
+  string path=sample.GetProperty("path").GetString()!,source=sample.GetProperty("source").GetString()!,card=sample.GetProperty("cardId").GetString()!;
+  bool inCard=sample.GetProperty("inCardView").GetBoolean();
+  var actual=inCard?pilot.Dynamic.ApplyCardButton(path,card,source):pilot.Apply(path,source);
+  Check(actual==sample.GetProperty("expected").GetString(),"0.1.15 captured source: "+source);
+  Check((inCard?pilot.Dynamic.ApplyCardButton(path,card,actual!):pilot.Apply(path,actual!))==null,"0.1.16 translated output idempotent");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"<[^<>]+>").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"<[^<>]+>").Select(m=>m.Value)),"0.1.16 markup and source heading preserved");
+ }
+}
+foreach(var n in new[]{0,1,2,3,6,12,999999}){
+ string noun=n==1?"card":"cards",pronoun=n==1?"it":"them";
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click Unity's deck to draw "+n+" "+noun+".")=="点击Unity的牌库，抽"+n+"张牌。","owner draw number and singular preserved");
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click "+n+" "+noun+" in play to destroy "+pronoun+".")=="点击"+n+"张在场的牌以将其破坏。","exact destroy amount does not become up to");
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click up to "+n+" cards in hand to discard them.")=="点击至多"+n+"张手牌以将其弃置。","discard upper limit preserved");
+}
+foreach(var bad in new[]{"Click Unity's deck to draw 1 cards.","Click Unity's deck to draw 2 card.","Click Unity's deck to draw -2 cards.","Click Unity's deck to draw 1.5 cards.","Click Unity's deck to draw 1000000 cards.","Click 1 cards in play to destroy them.","Click 2 cards in play to destroy it.","Click 1 card in play to destroy them.","Click 2 targets in play to destroy them.","Click up to 6 cards in play to discard them.","Click 3 cards in play to destroy them. Extra condition.","Click a location to either replace and discard Card.","Click a location to either replace or discard <b>Card</b>."})
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,bad)==null,"unsupported amount/grammar/range/markup not partially translated");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click a location to either replace or discard Dr. Stinson's Secondary Lab.")=="选择一个区域，将Dr. Stinson's Secondary Lab放回原处或弃置。","replace meaning and literal apostrophe preserved");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click Dr. Stinson's deck to draw 2 cards.")=="点击Dr. Stinson的牌库，抽2张牌。","owner apostrophe not lost");
+foreach(var phase in phaseMap){
+ string source="Click a target to activate its <nobr><sprite name=\""+phase.Key+"Phase\"> <b>"+phase.Key.ToUpperInvariant()+" PHASE</b></nobr> effect.";
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,source)=="点击一个目标，发动其<nobr><sprite name=\""+phase.Key+"Phase\"> <b>"+phase.Value+"</b></nobr>效果。","target distinct from card for phase "+phase.Key);
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,source.Replace("<b>"+phase.Key.ToUpperInvariant()+" PHASE","<b>OTHER PHASE"))==null,"phase sprite and title must agree");
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click a power to use it. "+source)==null,"unobserved target compound not authorized");
+}
+foreach(var damage in new[]{("cold","寒冷"),("energy","能量"),("fire","火焰"),("infernal","邪能"),("lightning","闪电"),("melee","近战"),("projectile","投射"),("psychic","精神"),("radiant","光耀"),("sonic","音波"),("toxic","毒素")})
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Card:</b> Click a target to deal it "+damage.Item1+" damage.")=="<b>Card:</b> 点击一个目标，对其造成"+damage.Item2+"伤害。","unspecified damage never invents amount "+damage.Item1);
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Card:</b> Click a target to deal it unknown damage.")==null,"unknown damage enum does not throw or rewrite");
+string deckRole="Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label";
+string trashRole=deckRole.Replace("Inactive Deck View","Bottom Area Panel/Inactive Trash View");
+Check(pilot.Apply(deckRole,"Discard")==null,"discard cannot bind to deck destination");
+Check(pilot.Apply(trashRole,"Replace")==null,"replace cannot bind to trash destination");
+Check(pilot.Apply(trashRole,"Draw")==null,"draw cannot bind to trash destination");
+foreach(var role in new[]{deckRole,trashRole}){
+ foreach(var bad in new[]{"5 Hero Layout/Inactive Hero Location 0","5 Hero Layout/Inactive Hero Location 5","3 Hero Layout/Inactive Hero Location 3","4 Hero Layout/Inactive Hero Location 1"})
+  Check(pilot.Apply(role.Replace("5 Hero Layout/Inactive Hero Location 4",bad),role==deckRole?"Replace":"Discard")==null,"invalid layout-slot pair rejected for destination button");
+ Check(pilot.Apply(role.Replace("/Unity/","/UnknownHero/"),role==deckRole?"Draw":"Discard")==null,"unknown owner route excluded");
+ Check(pilot.Apply(role.Replace("Selection Button Label","HP Label"),"Draw")==null,"numeric counter role excluded");
+}
+foreach(var action in new[]{"Discover Item","Discover Golem"}){
+ Check(pilot.Dynamic.ApplyCardButton(effectPath,"FlashForge",action)==(action=="Discover Item"?"发现物品牌":"发现Golem牌"),"common discovery action keeps unreviewed subtype literal");
+ Check(pilot.Dynamic.ApplyCardButton(effectPath.Replace("Select Effect Container/Select Effect Button(Clone)","Power Container/UsePower"),"FlashForge",action)==null,"discover action cannot rewrite rule body");
+}
+Check(pilot.Apply(DynamicDisplayRules.ContinuePath,"Skip Draw")=="跳过抽牌","skip draw action without assuming phase scope");
+Check(pilot.Apply(DynamicDisplayRules.ContinuePath,"Skip Draw Everything")==null,"skip action complete source required");
 Console.WriteLine("RUNTIME_CHECKS_COMPLETE "+count);

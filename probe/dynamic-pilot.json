@@ -135,6 +135,18 @@
     "hint.destroy.play.under": "{0}点击一张在场或位于{1}下方的牌以将其破坏。",
     "heading.cards.under": "{0}下方的牌",
     "heading.cards.next": "{0}旁边的牌",
-    "description.collect": "{0}搜集的牌："
+    "description.collect": "{0}搜集的牌：",
+    "button.replace": "放回原处",
+    "button.skip.draw.action": "跳过抽牌",
+    "button.discover.item": "发现物品牌",
+    "button.discover.golem": "发现Golem牌",
+    "hint.replace-discard": "{0}选择一个区域，将{1}放回原处或弃置。",
+    "hint.draw.owner": "{0}点击{1}的牌库，抽{2}张牌。",
+    "hint.hero.draw": "点击一位英雄，让其抽1张牌。",
+    "hint.hero.discard": "点击一位英雄，让其弃置1张牌。",
+    "hint.hand.under": "点击一张手牌，将其置于一张牌下方。",
+    "hint.discard.upto": "{0}点击至多{1}张手牌以将其弃置。",
+    "hint.destroy.exact": "{0}点击{1}张在场的牌以将其破坏。",
+    "hint.phase.target": "点击一个目标，发动其<nobr>{0} <b>{1}</b></nobr>效果。"
   }
 }
