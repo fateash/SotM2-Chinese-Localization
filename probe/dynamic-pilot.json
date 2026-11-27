@@ -38,6 +38,8 @@
     "button.put.card": "放置一张牌",
     "button.reveal": "展示",
     "button.double.damage": "伤害翻倍",
-    "button.draw.card": "抽一张牌"
+    "button.draw.card": "抽一张牌",
+    "phase.play.remaining": "出牌阶段（剩余{0}次）",
+    "phase.draw.remaining": "抽牌阶段（剩余{0}次）"
   }
 }

@@ -4,6 +4,7 @@ namespace SotM2Chinese;
 // Opt-in pilot. Only complete observed surfaces/grammar; never touch game data.
 public sealed record ConfirmationParts(string Action,string Number,string Unit,string NumberKind);
 public sealed class DynamicDisplayRules {
+ public const string PhasePath="Canvas/HUD Panel/State Box/Phase Box/Phase Label";
  public const string FinishPath="Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label";
  public const string ContinuePath="Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)";
  public const string DescriptionPath="Canvas/Temporary Full Card Panel/Description Label";
@@ -19,6 +20,7 @@ public sealed class DynamicDisplayRules {
   ["description.draw"]=(1,""),["description.reveal"]=(1,""),["description.play"]=(1,""),
   ["finish.discard"]=(1,""),
   ["finish.select"]=(1,""),
+  ["phase.play.remaining"]=(1,""),["phase.draw.remaining"]=(1,""),
   ["hint.play.click"]=(0,""),
   ["hint.hero.play"]=(0,""),
   ["hint.hero.power"]=(0,""),
@@ -41,6 +43,8 @@ public sealed class DynamicDisplayRules {
   ["button.draw.card"]=(0,"")
  };
  static Regex Rx(string pattern)=>new(pattern,RegexOptions.CultureInvariant,TimeSpan.FromMilliseconds(50));
+ // The game renders this label uppercase, but captured m_text uses lowercase left.
+ static readonly Regex PhaseRemaining=Rx(@"\A(?<phase>PLAY|DRAW) PHASE \((?<n>[0-9]{1,6}) left\)\z");
  static readonly Regex Confirmation=Rx(@"\A(?<action>[A-Za-z][A-Za-z -]{0,80}) (?<n>[0-9]{1,6}) (?<unit>target|targets|card|cards|HP)\z");
  public static ConfirmationParts? ParseConfirmation(string source){
   if(source.Length>256)return null;
@@ -91,6 +95,10 @@ public sealed class DynamicDisplayRules {
  public string Glyphs()=>string.Concat(templates.Values)+string.Concat(DamageNames.Values);
  public string? Apply(string path,string source){
   if(string.IsNullOrEmpty(source) || source.Length>2048)return null;
+  if(path==PhasePath){
+   var phase=PhaseRemaining.Match(source);
+   return phase.Success?Format(phase.Groups["phase"].Value=="PLAY"?"phase.play.remaining":"phase.draw.remaining",phase.Groups["n"].Value):null;
+  }
   if(path==FinishPath){
    var parts=ParseConfirmation(source);
    // Shared grammar does not authorize translating an unverified action/unit pair.

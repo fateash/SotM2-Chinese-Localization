@@ -1,0 +1,17 @@
+{
+  "evidence": "SotM2-Dynamic-Evidence-20261127-100444-b1520f.zip",
+  "samples": [
+    {
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "source": "PLAY PHASE (3 left)",
+      "inputSource": "TextString",
+      "expected": "出牌阶段（剩余3次）"
+    },
+    {
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "source": "PLAY PHASE (2 left)",
+      "inputSource": "TextString",
+      "expected": "出牌阶段（剩余2次）"
+    }
+  ]
+}

@@ -109,7 +109,22 @@ Check(pilot.Dynamic.ApplyCardButton(effectPath.Replace("Select Effect Container/
 Check(pilot.Apply("Other/Selection Button Label","Play a Card")==null,"hero button requires observed hierarchy role");
 Check(pilot.Apply("Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label","Play a Card")=="打出一张牌","active hero role supported");
 Check(SurfaceProbeRules.CanObserve("Phase Label",false,false),"phase remaining label enabled for capture");
-Check(pilot.Apply("Canvas/HUD Panel/State Box/Phase Box/Phase Label","DRAW PHASE (2 LEFT)")==null,"phase suffix remains capture-only pending raw text evidence");
+// Live raw evidence covers PLAY 3 -> 2; DRAW shares the screenshot-observed label grammar.
+foreach(var phase in new[]{("PLAY","出牌"),("DRAW","抽牌")}){
+ foreach(var n in new[]{"3","2","1","0","3","12","999999"}){
+  var output=pilot.Apply(DynamicDisplayRules.PhasePath,phase.Item1+" PHASE ("+n+" left)");
+  Check(output==phase.Item2+"阶段（剩余"+n+"次）","phase count remains live: "+phase.Item1+n);
+  Check(pilot.Apply(DynamicDisplayRules.PhasePath,output!)==null,"translated phase remains stable");
+ }
+}
+foreach(var input in new[]{"PLAY PHASE","出牌阶段","PLAY PHASE (-1 left)","PLAY PHASE (1.5 left)","PLAY PHASE (1000000 left)","PLAY PHASE (2 left) suffix","prefix PLAY PHASE (2 left)","PLAY PHASE (2 left)\n","POWER PHASE (2 left)","START PHASE (2 left)","PLAY PHASE (<b>2</b> left)","PLAY PHASE (2 LEFT)"})
+ Check(pilot.Apply(DynamicDisplayRules.PhasePath,input)==null,"nonmatching phase left to existing behavior: "+input);
+Check(pilot.Apply("Other/Phase Label","PLAY PHASE (3 left)")==null,"phase path must match exactly");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"PLAY PHASE (3 left)")==null,"phase grammar cannot affect hints");
+using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/phase-0.1.9.json"))){
+ foreach(var sample in evidence.RootElement.GetProperty("samples").EnumerateArray())
+  Check(pilot.Apply(sample.GetProperty("path").GetString()!,sample.GetProperty("source").GetString()!)==sample.GetProperty("expected").GetString(),"live 0.1.9 phase capture");
+}
 using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/surface-0.1.8.json"))){
  foreach(var sample in evidence.RootElement.GetProperty("samples").EnumerateArray()){
   string path=sample.GetProperty("path").GetString()!,input=sample.GetProperty("source").GetString()!;
