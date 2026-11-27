@@ -1,0 +1,142 @@
+{
+  "evidence": [
+    "SotM2-Dynamic-Evidence-20261127-140419-0d9df6.zip"
+  ],
+  "samples": [
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Reveal",
+      "inCardView": false,
+      "expected": "展示",
+      "observationId": "1491e84f9d4957af37410386"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/TheWraith/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Has the Most",
+      "inCardView": false,
+      "expected": "最多",
+      "observationId": "1d35438fe7331dd4e0011e8a"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Tachyon/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Has the Most",
+      "inCardView": false,
+      "expected": "最多",
+      "observationId": "24ad7989485211066b1ee15c"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Citizen Summer:</b> Click the hero who is considered to have the most cards in play.",
+      "inCardView": false,
+      "expected": "<b>Citizen Summer:</b> 点击视为场上牌最多的英雄。",
+      "observationId": "27485448cf258f7c5fbb68ad"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Expendable Power Bank:</b> Click a card in the trash to put it under a card.",
+      "inCardView": false,
+      "expected": "<b>Expendable Power Bank:</b> 点击弃牌堆中的一张牌，将其置于一张牌下方。",
+      "observationId": "3665f29bbf3bc9c16f5f03a4"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Ironclad Maintenance Bay:</b> Click a hero to salvage a card.",
+      "inCardView": false,
+      "expected": "<b>Ironclad Maintenance Bay:</b> 点击一位英雄，让其回收1张牌。",
+      "observationId": "41dfe12caceb49c7d6259641"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Has the Most",
+      "inCardView": false,
+      "expected": "最多",
+      "observationId": "426ef4569a049abc805b1183"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Take Down:</b> Click Omnitron's trash to discard Singularity Projector.",
+      "inCardView": false,
+      "expected": "<b>Take Down:</b> 点击Omnitron的弃牌堆，将Singularity Projector弃置。",
+      "observationId": "54224b7ba4e2b3b1c4f0d081"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Mounted AP Gun:</b> Click 2 cards in play or under Mounted AP Gun to destroy them.",
+      "inCardView": false,
+      "expected": "<b>Mounted AP Gun:</b> 点击2张在场或位于Mounted AP Gun下方的牌以将其破坏。",
+      "observationId": "68845988cc54903b43b944af"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "Click or drag a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+      "inCardView": false,
+      "expected": "点击或拖动一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。",
+      "observationId": "a9f6d6c78fe4f5c58c08fd3a"
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+      "cardId": "UnityCharacter",
+      "source": "Play Golem",
+      "inCardView": true,
+      "expected": "打出Golem牌",
+      "observationId": "bc6c0ff01d3bbbb0cdddc3c5"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "expected": "弃置",
+      "observationId": "bdb8e4b3ff290b47b76967fb"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Ironclad Maintenance Bay:</b> Click a card in the trash to salvage it.",
+      "inCardView": false,
+      "expected": "<b>Ironclad Maintenance Bay:</b> 点击弃牌堆中的一张牌以将其回收。",
+      "observationId": "d612219fca1d5d74ae40a0aa"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Has the Most",
+      "inCardView": false,
+      "expected": "最多",
+      "observationId": "e18cd25a2e9422ee60a0c858"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/CaptainCosmic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Has the Most",
+      "inCardView": false,
+      "expected": "最多",
+      "observationId": "f66fac0f86a40150a98eef52"
+    }
+  ]
+}

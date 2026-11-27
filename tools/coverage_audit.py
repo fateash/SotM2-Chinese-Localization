@@ -109,6 +109,50 @@ def intake(paths, existing=None):
         sessions.append(session)
     return {'schemaVersion': 1, 'sessions': sessions, 'samples': sorted(samples.values(), key=lambda x: x['id'])}
 
+NONHERO_CHECKS = {'deck-reveal', 'deck-replace', 'deck-draw', 'trash-discard',
+                 'deck-discard-excluded', 'trash-replace-excluded', 'trash-draw-excluded',
+                 'wrong-category-excluded', 'hero-layout-excluded', 'unknown-owner-excluded',
+                 'hp-excluded', 'small-effect', 'full-effect', 'hint-phase', 'result-reveal'}
+
+def validate_nonhero_matrix(matrix, contracts, root=ROOT):
+    """Require every inventoried nonhero owner and its executable role checks.
+
+    This validates offline scope only. It does not infer UI visibility or live acceptance.
+    The shipped inventory folder is intentionally spelled 'villians'.
+    """
+    if matrix.get('schemaVersion') != 1 or set(matrix.get('requiredChecks', [])) != NONHERO_CHECKS:
+        raise ValueError('Nonhero matrix must retain every required role check')
+    folders = {'villain': 'villians', 'environment': 'environments'}
+    expected = {(kind, p.stem) for kind, folder in folders.items()
+                for p in (root / 'inventory-translations' / folder).glob('*.json')}
+    owners = matrix['owners']
+    actual = [(x['kind'], x['id']) for x in owners]
+    if not expected or len(actual) != len(set(actual)) or set(actual) != expected:
+        raise ValueError('Nonhero matrix roster differs from current text inventory')
+    contexts = {(f['id'], c['id']): c for f in contracts['families'] for c in f['contexts']}
+    used = set()
+    for owner in owners:
+        inventory_file = 'inventory-translations/' + folders[owner['kind']] + '/' + owner['id'] + '.json'
+        if owner['inventoryFile'] != inventory_file or not owner.get('provenance'):
+            raise ValueError('Nonhero owner needs exact inventory provenance')
+        titles = [x['original'] for x in read(root / inventory_file)
+                  if x['key'].endswith('/decks/@' + owner['id'] + '/title')]
+        if titles != [owner['sourceName']]:
+            raise ValueError('Nonhero source name differs from inventory')
+        if set(owner['contracts']) != NONHERO_CHECKS:
+            raise ValueError('Nonhero owner missing a required role')
+        for role, link in owner['contracts'].items():
+            key = (link['family'], link['id'])
+            if key not in contexts or key in used:
+                raise ValueError('Nonhero role requires a unique executable contract')
+            used.add(key)
+            context = contexts[key]
+            if context['status'] != ('excluded' if role.endswith('-excluded') else 'offline-covered'):
+                raise ValueError('Synthetic nonhero contract cannot claim live acceptance')
+            if 'case' not in context or (context['case'].get('expected') is None) != role.endswith('-excluded'):
+                raise ValueError('Nonhero role must execute its positive or negative case')
+    return {'owners': len(owners), 'contracts': len(used), 'liveAccepted': False}
+
 def validate_contracts(contract, templates, root=ROOT):
     required_files = {'runtime/DynamicDisplayRules.cs', 'runtime/SurfaceProbeRules.cs',
                       'runtime/SurfaceProbe.cs', 'runtime/Plugin.cs', 'runtime/DisplayRules.cs',
@@ -275,6 +319,7 @@ def main():
     c = sub.add_parser('check')
     c.add_argument('--snapshot', default='coverage/evidence/latest.json')
     c.add_argument('--contracts', default='coverage/contracts.json')
+    c.add_argument('--nonhero-matrix', default='coverage/nonhero-route-matrix.json')
     c.add_argument('--triage', default='coverage/triage.json')
     c.add_argument('--inventory-status', default='coverage/inventory-status.json')
     c.add_argument('--regression', default='coverage/regression-baseline.json')
@@ -288,6 +333,7 @@ def main():
     contracts = read(a.contracts)
     templates = read(a.probe)['Templates']
     validate_contracts(contracts, templates)
+    nonhero_summary = validate_nonhero_matrix(read(a.nonhero_matrix), contracts)
     drafts = read(ROOT / 'probe/dynamic-text-review.json')['entries']
     inventory_status = validate_inventory(read(a.inventory_status), drafts, templates)
     out = Path(a.out); out.mkdir(parents=True, exist_ok=True)
@@ -297,6 +343,7 @@ def main():
     report = make_report(read(a.snapshot), read(replay_path), read(a.triage), digest(Path(a.catalog).read_bytes()),
                          drafts)
     report['gateErrors'].extend(validate_regression(read(a.regression), read(replay_path)))
+    report['nonheroMatrix'] = nonhero_summary
     for row in report['inventoryLedger']:
         status = inventory_status[row['key']]
         row['reviewedStatus'] = status

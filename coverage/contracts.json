@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "9eee4540fe5e63f7952e5a79d39627053724a10249c8308bf475fa13df31207f",
+    "runtime/DynamicDisplayRules.cs": "494e9c690c94db1129663a47a39e99dfa1761e003d0381a8fae8b9aeeeec6d98",
     "runtime/SurfaceProbeRules.cs": "65803f8a22da910e98a98f9202e2d0c802cd1e6fc661c66f34c97a3480ed6651",
     "runtime/SurfaceProbe.cs": "337e308b31345ad75e93b6d627a5e8d3f78172ec6a191b86d096790e91308896",
-    "runtime/Plugin.cs": "ca6330611f927d84ba729a3bde15b10cd8d345079a81489455874e0bc29e548a",
+    "runtime/Plugin.cs": "20fcf665c59e5aaf6f7eda3c3be0cf18c7638dcb3053760ae204f4ad0ecb638c",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "48ad9b5c12b2d6eccbfa6c6c1397998873d12bcfa6c77509db18a1785ce26bff"
+    "probe/dynamic-pilot.json": "3f80c6c6a0c2fdb40b734d017e86fa194a0f7fbe620a1ce0d583fd2181c8d543"
   },
   "families": [
     {
@@ -83,7 +83,13 @@
         "hint.hand.under",
         "hint.discard.upto",
         "hint.destroy.exact",
-        "hint.phase.target"
+        "hint.phase.target",
+        "hint.hero.most.play",
+        "hint.trash.under",
+        "hint.hero.salvage",
+        "hint.trash.salvage",
+        "hint.trash.owner.discard",
+        "hint.destroy.play.under.exact"
       ],
       "contexts": [
         {
@@ -116,7 +122,16 @@
             "inCardView": false,
             "expected": "<b>Accelerated Assault:</b> 点击目标，选择对它们造成<nobr>1点近战伤害</nobr>的顺序。",
             "objectName": "Hint Label"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "9cf93e9a2ce225a738826679",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 712,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "captured-hint-5",
@@ -397,6 +412,13 @@
               "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
               "line": 672,
               "version": "0.1.15-rc.1",
+              "markerCandidate": true
+            },
+            {
+              "observationId": "33a43368d017acc1de33c0ad",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 317,
+              "version": "0.1.16-rc.1",
               "markerCandidate": true
             }
           ]
@@ -1073,7 +1095,16 @@
             "inCardView": false,
             "expected": "<b>Singularity Projector:</b> 点击3张在场的牌以将其破坏。",
             "observationId": "5e5ea359d923c2ffa436c984"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "5e5ea359d923c2ffa436c984",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 214,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot016-negative-5e5ea359d923c2ffa436c984",
@@ -1277,7 +1308,16 @@
             "inCardView": false,
             "expected": "<b>The Wraith's Arsenal:</b> 点击一位英雄，让其抽1张牌。",
             "observationId": "746ba2eb32ced79e0f278116"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "746ba2eb32ced79e0f278116",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 105,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot016-negative-746ba2eb32ced79e0f278116",
@@ -1703,6 +1743,436 @@
             "expected": null,
             "observationId": "e61d9d583df07e947683736e"
           }
+        },
+        {
+          "id": "pilot017-27485448cf258f7c5fbb68ad",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文和用途已核对；未提升为人工验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Citizen Summer:</b> Click the hero who is considered to have the most cards in play.",
+            "inCardView": false,
+            "expected": "<b>Citizen Summer:</b> 点击视为场上牌最多的英雄。",
+            "observationId": "27485448cf258f7c5fbb68ad"
+          }
+        },
+        {
+          "id": "pilot017-negative-27485448cf258f7c5fbb68ad",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Citizen Summer:</b> Click the hero who is considered to have the most cards in play.",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "27485448cf258f7c5fbb68ad"
+          }
+        },
+        {
+          "id": "pilot017-3665f29bbf3bc9c16f5f03a4",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文和用途已核对；未提升为人工验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Expendable Power Bank:</b> Click a card in the trash to put it under a card.",
+            "inCardView": false,
+            "expected": "<b>Expendable Power Bank:</b> 点击弃牌堆中的一张牌，将其置于一张牌下方。",
+            "observationId": "3665f29bbf3bc9c16f5f03a4"
+          }
+        },
+        {
+          "id": "pilot017-negative-3665f29bbf3bc9c16f5f03a4",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Expendable Power Bank:</b> Click a card in the trash to put it under a card.",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "3665f29bbf3bc9c16f5f03a4"
+          }
+        },
+        {
+          "id": "pilot017-41dfe12caceb49c7d6259641",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文和用途已核对；未提升为人工验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Ironclad Maintenance Bay:</b> Click a hero to salvage a card.",
+            "inCardView": false,
+            "expected": "<b>Ironclad Maintenance Bay:</b> 点击一位英雄，让其回收1张牌。",
+            "observationId": "41dfe12caceb49c7d6259641"
+          }
+        },
+        {
+          "id": "pilot017-negative-41dfe12caceb49c7d6259641",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Ironclad Maintenance Bay:</b> Click a hero to salvage a card.",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "41dfe12caceb49c7d6259641"
+          }
+        },
+        {
+          "id": "pilot017-54224b7ba4e2b3b1c4f0d081",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文和用途已核对；未提升为人工验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Take Down:</b> Click Omnitron's trash to discard Singularity Projector.",
+            "inCardView": false,
+            "expected": "<b>Take Down:</b> 点击Omnitron的弃牌堆，将Singularity Projector弃置。",
+            "observationId": "54224b7ba4e2b3b1c4f0d081"
+          }
+        },
+        {
+          "id": "pilot017-negative-54224b7ba4e2b3b1c4f0d081",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Take Down:</b> Click Omnitron's trash to discard Singularity Projector.",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "54224b7ba4e2b3b1c4f0d081"
+          }
+        },
+        {
+          "id": "pilot017-68845988cc54903b43b944af",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文和用途已核对；未提升为人工验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Mounted AP Gun:</b> Click 2 cards in play or under Mounted AP Gun to destroy them.",
+            "inCardView": false,
+            "expected": "<b>Mounted AP Gun:</b> 点击2张在场或位于Mounted AP Gun下方的牌以将其破坏。",
+            "observationId": "68845988cc54903b43b944af"
+          }
+        },
+        {
+          "id": "pilot017-negative-68845988cc54903b43b944af",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Mounted AP Gun:</b> Click 2 cards in play or under Mounted AP Gun to destroy them.",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "68845988cc54903b43b944af"
+          }
+        },
+        {
+          "id": "pilot017-a9f6d6c78fe4f5c58c08fd3a",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文和用途已核对；未提升为人工验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "Click or drag a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": "点击或拖动一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。",
+            "observationId": "a9f6d6c78fe4f5c58c08fd3a"
+          }
+        },
+        {
+          "id": "pilot017-negative-a9f6d6c78fe4f5c58c08fd3a",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "Click or drag a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "a9f6d6c78fe4f5c58c08fd3a"
+          }
+        },
+        {
+          "id": "pilot017-d612219fca1d5d74ae40a0aa",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文和用途已核对；未提升为人工验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Ironclad Maintenance Bay:</b> Click a card in the trash to salvage it.",
+            "inCardView": false,
+            "expected": "<b>Ironclad Maintenance Bay:</b> 点击弃牌堆中的一张牌以将其回收。",
+            "observationId": "d612219fca1d5d74ae40a0aa"
+          }
+        },
+        {
+          "id": "pilot017-negative-d612219fca1d5d74ae40a0aa",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Ironclad Maintenance Bay:</b> Click a card in the trash to salvage it.",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "d612219fca1d5d74ae40a0aa"
+          }
+        },
+        {
+          "id": "nonhero-AkashBhuta-hint-phase",
+          "status": "offline-covered",
+          "view": "villain-hint-phase",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Akash'Bhuta:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": "<b>Akash'Bhuta:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "nonhero-BaronBlade-hint-phase",
+          "status": "offline-covered",
+          "view": "villain-hint-phase",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Baron Blade:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": "<b>Baron Blade:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "nonhero-CitizenDawn-hint-phase",
+          "status": "offline-covered",
+          "view": "villain-hint-phase",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Citizen Dawn:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": "<b>Citizen Dawn:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "nonhero-GrandWarlordVoss-hint-phase",
+          "status": "offline-covered",
+          "view": "villain-hint-phase",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Grand Warlord Voss:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": "<b>Grand Warlord Voss:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "nonhero-Omnitron-hint-phase",
+          "status": "offline-covered",
+          "view": "villain-hint-phase",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Omnitron:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": "<b>Omnitron:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "nonhero-TheMatriarch-hint-phase",
+          "status": "offline-covered",
+          "view": "villain-hint-phase",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>The Matriarch:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": "<b>The Matriarch:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "nonhero-FreedomTower-hint-phase",
+          "status": "offline-covered",
+          "view": "environment-hint-phase",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Freedom Tower:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": "<b>Freedom Tower:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "nonhero-InsulaPrimalis-hint-phase",
+          "status": "offline-covered",
+          "view": "environment-hint-phase",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Insula Primalis:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": "<b>Insula Primalis:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "nonhero-Magmaria-hint-phase",
+          "status": "offline-covered",
+          "view": "environment-hint-phase",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Magmaria:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": "<b>Magmaria:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "nonhero-Megalopolis-hint-phase",
+          "status": "offline-covered",
+          "view": "environment-hint-phase",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Megalopolis:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": "<b>Megalopolis:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "nonhero-TheRuinsOfAtlantis-hint-phase",
+          "status": "offline-covered",
+          "view": "environment-hint-phase",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>The Ruins of Atlantis:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": "<b>The Ruins of Atlantis:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "nonhero-WagnerMarsBase-hint-phase",
+          "status": "offline-covered",
+          "view": "environment-hint-phase",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Wagner Mars Base:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": "<b>Wagner Mars Base:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+          }
         }
       ]
     },
@@ -1743,6 +2213,13 @@
               "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
               "line": 686,
               "version": "0.1.15-rc.1",
+              "markerCandidate": true
+            },
+            {
+              "observationId": "5879a787622f240f11689908",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 371,
+              "version": "0.1.16-rc.1",
               "markerCandidate": true
             }
           ]
@@ -1835,6 +2312,13 @@
               "line": 573,
               "version": "0.1.15-rc.1",
               "markerCandidate": true
+            },
+            {
+              "observationId": "92e6ee543a52528c2b70ce84",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 221,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
             }
           ]
         },
@@ -1876,6 +2360,13 @@
               "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
               "line": 576,
               "version": "0.1.15-rc.1",
+              "markerCandidate": true
+            },
+            {
+              "observationId": "9549402c7bcbfa706652e4a6",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 224,
+              "version": "0.1.16-rc.1",
               "markerCandidate": true
             }
           ]
@@ -1985,6 +2476,13 @@
               "line": 570,
               "version": "0.1.15-rc.1",
               "markerCandidate": true
+            },
+            {
+              "observationId": "bb00a3240d7bbd8c66c4fef8",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 218,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
             }
           ]
         },
@@ -2026,6 +2524,13 @@
               "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
               "line": 566,
               "version": "0.1.15-rc.1",
+              "markerCandidate": true
+            },
+            {
+              "observationId": "c49ecf4dcb262c0d2f71720f",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 211,
+              "version": "0.1.16-rc.1",
               "markerCandidate": true
             }
           ]
@@ -2162,7 +2667,16 @@
             "inCardView": false,
             "expected": "异能阶段（剩余1次）",
             "observationId": "a9f25283c4af04187ac783d0"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "a9f25283c4af04187ac783d0",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 300,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot013-outside-a9f25283c4af04187ac783d0",
@@ -2209,6 +2723,13 @@
               "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
               "line": 145,
               "version": "0.1.15-rc.1",
+              "markerCandidate": true
+            },
+            {
+              "observationId": "0ef991fcb461a5e07fc4a0cf",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 54,
+              "version": "0.1.16-rc.1",
               "markerCandidate": true
             }
           ]
@@ -2259,6 +2780,13 @@
               "line": 157,
               "version": "0.1.15-rc.1",
               "markerCandidate": true
+            },
+            {
+              "observationId": "26a383850b7fe72bf46e093e",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 90,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
             }
           ]
         },
@@ -2307,6 +2835,13 @@
               "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
               "line": 149,
               "version": "0.1.15-rc.1",
+              "markerCandidate": true
+            },
+            {
+              "observationId": "8254d2682433d26df350c79b",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 81,
+              "version": "0.1.16-rc.1",
               "markerCandidate": true
             }
           ]
@@ -2390,6 +2925,13 @@
               "line": 184,
               "version": "0.1.15-rc.1",
               "markerCandidate": true
+            },
+            {
+              "observationId": "c11bf9d34c4644d070a90585",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 285,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
             }
           ]
         },
@@ -2431,6 +2973,13 @@
               "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
               "line": 110,
               "version": "0.1.15-rc.1",
+              "markerCandidate": true
+            },
+            {
+              "observationId": "e7c6f55222819c2a2b29a8d4",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 538,
+              "version": "0.1.16-rc.1",
               "markerCandidate": true
             }
           ]
@@ -2480,6 +3029,13 @@
               "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
               "line": 199,
               "version": "0.1.15-rc.1",
+              "markerCandidate": true
+            },
+            {
+              "observationId": "ffea93ff7280af56873aca64",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 304,
+              "version": "0.1.16-rc.1",
               "markerCandidate": true
             }
           ]
@@ -2534,6 +3090,13 @@
               "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
               "line": 470,
               "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            },
+            {
+              "observationId": "8539c746d1d8db2f8f286930",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 356,
+              "version": "0.1.16-rc.1",
               "markerCandidate": true
             }
           ]
@@ -2660,7 +3223,16 @@
             "expected": "抽牌",
             "cardId": "",
             "inCardView": false
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "63ab563d47630f4d594bacdf",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 584,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "trash-discard",
@@ -2676,7 +3248,16 @@
             "expected": "弃置",
             "cardId": "",
             "inCardView": false
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "c7632f965dc7d73a2dc2bb34",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 585,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "outside-role",
@@ -2903,7 +3484,16 @@
             "inCardView": false,
             "expected": "抽牌",
             "observationId": "474a5bade91f36b9e885e176"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "474a5bade91f36b9e885e176",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 104,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot016-negative-474a5bade91f36b9e885e176",
@@ -2937,7 +3527,16 @@
             "inCardView": false,
             "expected": "抽牌",
             "observationId": "4aaeabc1bd769466e346b871"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "4aaeabc1bd769466e346b871",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 102,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot016-negative-4aaeabc1bd769466e346b871",
@@ -3209,7 +3808,16 @@
             "inCardView": false,
             "expected": "抽牌",
             "observationId": "c50affd7c6f2d0bf73ed1fca"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "c50affd7c6f2d0bf73ed1fca",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 101,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot016-negative-c50affd7c6f2d0bf73ed1fca",
@@ -3345,7 +3953,16 @@
             "inCardView": false,
             "expected": "抽牌",
             "observationId": "d8007e442690f8d71fc98594"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "d8007e442690f8d71fc98594",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 98,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot016-negative-d8007e442690f8d71fc98594",
@@ -3379,7 +3996,16 @@
             "inCardView": false,
             "expected": "抽牌",
             "observationId": "d9c6bb14c0eac282ee6b3b17"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "d9c6bb14c0eac282ee6b3b17",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 103,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot016-negative-d9c6bb14c0eac282ee6b3b17",
@@ -3481,7 +4107,16 @@
             "inCardView": false,
             "expected": "弃置",
             "observationId": "fd680e68d97b3efcb2e9ca07"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "fd680e68d97b3efcb2e9ca07",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 686,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot016-negative-fd680e68d97b3efcb2e9ca07",
@@ -4076,7 +4711,16 @@
             "source": "Discard",
             "inCardView": false,
             "expected": "弃置"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "df9c8c5c82da18cb9b2a6f72",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 689,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "route-matrix-CaptainCosmic-5-deck-draw",
@@ -4940,7 +5584,16 @@
             "source": "Discard",
             "inCardView": false,
             "expected": "弃置"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "c7632f965dc7d73a2dc2bb34",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 585,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "route-matrix-Tachyon-3-hero-draw",
@@ -5084,7 +5737,16 @@
             "source": "Draw",
             "inCardView": false,
             "expected": "抽牌"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "474a5bade91f36b9e885e176",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 104,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "route-matrix-Tempest-active-hero-discard",
@@ -5484,7 +6146,16 @@
             "source": "Discard",
             "inCardView": false,
             "expected": "弃置"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "32fddc0370262e57978172b5",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 733,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "route-matrix-TheWraith-active-deck-draw",
@@ -5676,7 +6347,16 @@
             "source": "Discard",
             "inCardView": false,
             "expected": "弃置"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "f9d567ecd4f6b7d686e95da2",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 690,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "route-matrix-Unity-active-deck-draw",
@@ -5788,7 +6468,16 @@
             "source": "Draw",
             "inCardView": false,
             "expected": "抽牌"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "d9c6bb14c0eac282ee6b3b17",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 103,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "route-matrix-Unity-5-hero-discard",
@@ -5837,6 +6526,1016 @@
             "inCardView": false,
             "expected": "弃置"
           }
+        },
+        {
+          "id": "pilot017-bdb8e4b3ff290b47b76967fb",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文和用途已核对；未提升为人工验收。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": "弃置",
+            "observationId": "bdb8e4b3ff290b47b76967fb"
+          }
+        },
+        {
+          "id": "pilot017-negative-bdb8e4b3ff290b47b76967fb",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "bdb8e4b3ff290b47b76967fb"
+          }
+        },
+        {
+          "id": "nonhero-AkashBhuta-deck-draw",
+          "status": "offline-covered",
+          "view": "villain-deck-draw",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": "抽牌"
+          }
+        },
+        {
+          "id": "nonhero-AkashBhuta-trash-discard",
+          "status": "offline-covered",
+          "view": "villain-trash-discard",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": "弃置"
+          }
+        },
+        {
+          "id": "nonhero-AkashBhuta-deck-discard-excluded",
+          "status": "excluded",
+          "view": "villain-deck-discard-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-AkashBhuta-trash-draw-excluded",
+          "status": "excluded",
+          "view": "villain-trash-draw-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-AkashBhuta-hp-excluded",
+          "status": "excluded",
+          "view": "villain-hp-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "HP Label",
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Active Deck View/Selection Button/HP Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-BaronBlade-deck-draw",
+          "status": "offline-covered",
+          "view": "villain-deck-draw",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": "抽牌"
+          }
+        },
+        {
+          "id": "nonhero-BaronBlade-trash-discard",
+          "status": "offline-covered",
+          "view": "villain-trash-discard",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": "弃置"
+          }
+        },
+        {
+          "id": "nonhero-BaronBlade-deck-discard-excluded",
+          "status": "excluded",
+          "view": "villain-deck-discard-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-BaronBlade-trash-draw-excluded",
+          "status": "excluded",
+          "view": "villain-trash-draw-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-BaronBlade-hp-excluded",
+          "status": "excluded",
+          "view": "villain-hp-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "HP Label",
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Active Deck View/Selection Button/HP Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-CitizenDawn-deck-draw",
+          "status": "offline-covered",
+          "view": "villain-deck-draw",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": "抽牌"
+          }
+        },
+        {
+          "id": "nonhero-CitizenDawn-trash-discard",
+          "status": "offline-covered",
+          "view": "villain-trash-discard",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": "弃置"
+          }
+        },
+        {
+          "id": "nonhero-CitizenDawn-deck-discard-excluded",
+          "status": "excluded",
+          "view": "villain-deck-discard-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-CitizenDawn-trash-draw-excluded",
+          "status": "excluded",
+          "view": "villain-trash-draw-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-CitizenDawn-hp-excluded",
+          "status": "excluded",
+          "view": "villain-hp-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "HP Label",
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Active Deck View/Selection Button/HP Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-GrandWarlordVoss-deck-draw",
+          "status": "offline-covered",
+          "view": "villain-deck-draw",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": "抽牌"
+          }
+        },
+        {
+          "id": "nonhero-GrandWarlordVoss-trash-discard",
+          "status": "offline-covered",
+          "view": "villain-trash-discard",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": "弃置"
+          }
+        },
+        {
+          "id": "nonhero-GrandWarlordVoss-deck-discard-excluded",
+          "status": "excluded",
+          "view": "villain-deck-discard-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-GrandWarlordVoss-trash-draw-excluded",
+          "status": "excluded",
+          "view": "villain-trash-draw-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-GrandWarlordVoss-hp-excluded",
+          "status": "excluded",
+          "view": "villain-hp-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "HP Label",
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Active Deck View/Selection Button/HP Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Omnitron-deck-draw",
+          "status": "offline-covered",
+          "view": "villain-deck-draw",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": "抽牌"
+          }
+        },
+        {
+          "id": "nonhero-Omnitron-trash-discard",
+          "status": "offline-covered",
+          "view": "villain-trash-discard",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": "弃置"
+          }
+        },
+        {
+          "id": "nonhero-Omnitron-deck-discard-excluded",
+          "status": "excluded",
+          "view": "villain-deck-discard-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Omnitron-trash-draw-excluded",
+          "status": "excluded",
+          "view": "villain-trash-draw-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Omnitron-hp-excluded",
+          "status": "excluded",
+          "view": "villain-hp-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "HP Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Deck View/Selection Button/HP Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-TheMatriarch-deck-draw",
+          "status": "offline-covered",
+          "view": "villain-deck-draw",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": "抽牌"
+          }
+        },
+        {
+          "id": "nonhero-TheMatriarch-trash-discard",
+          "status": "offline-covered",
+          "view": "villain-trash-discard",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": "弃置"
+          }
+        },
+        {
+          "id": "nonhero-TheMatriarch-deck-discard-excluded",
+          "status": "excluded",
+          "view": "villain-deck-discard-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-TheMatriarch-trash-draw-excluded",
+          "status": "excluded",
+          "view": "villain-trash-draw-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-TheMatriarch-hp-excluded",
+          "status": "excluded",
+          "view": "villain-hp-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "HP Label",
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Active Deck View/Selection Button/HP Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-FreedomTower-deck-draw",
+          "status": "offline-covered",
+          "view": "environment-deck-draw",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": "抽牌"
+          }
+        },
+        {
+          "id": "nonhero-FreedomTower-trash-discard",
+          "status": "offline-covered",
+          "view": "environment-trash-discard",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": "弃置"
+          }
+        },
+        {
+          "id": "nonhero-FreedomTower-deck-discard-excluded",
+          "status": "excluded",
+          "view": "environment-deck-discard-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-FreedomTower-trash-draw-excluded",
+          "status": "excluded",
+          "view": "environment-trash-draw-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-FreedomTower-hp-excluded",
+          "status": "excluded",
+          "view": "environment-hp-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "HP Label",
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Active Deck View/Selection Button/HP Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-InsulaPrimalis-deck-draw",
+          "status": "offline-covered",
+          "view": "environment-deck-draw",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": "抽牌"
+          }
+        },
+        {
+          "id": "nonhero-InsulaPrimalis-trash-discard",
+          "status": "offline-covered",
+          "view": "environment-trash-discard",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": "弃置"
+          }
+        },
+        {
+          "id": "nonhero-InsulaPrimalis-deck-discard-excluded",
+          "status": "excluded",
+          "view": "environment-deck-discard-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-InsulaPrimalis-trash-draw-excluded",
+          "status": "excluded",
+          "view": "environment-trash-draw-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-InsulaPrimalis-hp-excluded",
+          "status": "excluded",
+          "view": "environment-hp-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "HP Label",
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/HP Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Magmaria-deck-draw",
+          "status": "offline-covered",
+          "view": "environment-deck-draw",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": "抽牌"
+          }
+        },
+        {
+          "id": "nonhero-Magmaria-trash-discard",
+          "status": "offline-covered",
+          "view": "environment-trash-discard",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": "弃置"
+          }
+        },
+        {
+          "id": "nonhero-Magmaria-deck-discard-excluded",
+          "status": "excluded",
+          "view": "environment-deck-discard-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Magmaria-trash-draw-excluded",
+          "status": "excluded",
+          "view": "environment-trash-draw-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Magmaria-hp-excluded",
+          "status": "excluded",
+          "view": "environment-hp-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "HP Label",
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Active Deck View/Selection Button/HP Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Megalopolis-deck-draw",
+          "status": "offline-covered",
+          "view": "environment-deck-draw",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": "抽牌"
+          }
+        },
+        {
+          "id": "nonhero-Megalopolis-trash-discard",
+          "status": "offline-covered",
+          "view": "environment-trash-discard",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": "弃置"
+          }
+        },
+        {
+          "id": "nonhero-Megalopolis-deck-discard-excluded",
+          "status": "excluded",
+          "view": "environment-deck-discard-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Megalopolis-trash-draw-excluded",
+          "status": "excluded",
+          "view": "environment-trash-draw-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Megalopolis-hp-excluded",
+          "status": "excluded",
+          "view": "environment-hp-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "HP Label",
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/HP Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-TheRuinsOfAtlantis-deck-draw",
+          "status": "offline-covered",
+          "view": "environment-deck-draw",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": "抽牌"
+          }
+        },
+        {
+          "id": "nonhero-TheRuinsOfAtlantis-trash-discard",
+          "status": "offline-covered",
+          "view": "environment-trash-discard",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": "弃置"
+          }
+        },
+        {
+          "id": "nonhero-TheRuinsOfAtlantis-deck-discard-excluded",
+          "status": "excluded",
+          "view": "environment-deck-discard-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-TheRuinsOfAtlantis-trash-draw-excluded",
+          "status": "excluded",
+          "view": "environment-trash-draw-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-TheRuinsOfAtlantis-hp-excluded",
+          "status": "excluded",
+          "view": "environment-hp-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "HP Label",
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/HP Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-WagnerMarsBase-deck-draw",
+          "status": "offline-covered",
+          "view": "environment-deck-draw",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": "抽牌"
+          }
+        },
+        {
+          "id": "nonhero-WagnerMarsBase-trash-discard",
+          "status": "offline-covered",
+          "view": "environment-trash-discard",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": "弃置"
+          }
+        },
+        {
+          "id": "nonhero-WagnerMarsBase-deck-discard-excluded",
+          "status": "excluded",
+          "view": "environment-deck-discard-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Discard",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-WagnerMarsBase-trash-draw-excluded",
+          "status": "excluded",
+          "view": "environment-trash-draw-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-WagnerMarsBase-hp-excluded",
+          "status": "excluded",
+          "view": "environment-hp-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "HP Label",
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Deck View/Selection Button/HP Label",
+            "cardId": "",
+            "source": "Draw",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-unobserved-villain-draw-discard",
+          "status": "unobserved",
+          "view": "villain-special-areas",
+          "heroState": "not-applicable",
+          "layout": "unobserved",
+          "reason": "特殊附属牌区、变身／形态和独立场景尚无完整入口证据，不套用英雄非当前布局或普通牌区结构。"
+        },
+        {
+          "id": "nonhero-unobserved-environment-draw-discard",
+          "status": "unobserved",
+          "view": "environment-special-areas",
+          "heroState": "not-applicable",
+          "layout": "unobserved",
+          "reason": "特殊附属牌区、变身／形态和独立场景尚无完整入口证据，不套用英雄非当前布局或普通牌区结构。"
         }
       ]
     },
@@ -5973,6 +7672,13 @@
               "line": 508,
               "version": "0.1.14-rc.1",
               "markerCandidate": true
+            },
+            {
+              "observationId": "3cc96e080e7d53ca668c9be2",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 634,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
             }
           ]
         },
@@ -6058,6 +7764,198 @@
             "expected": null,
             "observationId": "da14ed7c43607c3dc4fa8b72"
           }
+        },
+        {
+          "id": "nonhero-AkashBhuta-result-reveal",
+          "status": "offline-covered",
+          "view": "villain-result-reveal",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Akash'Bhuta revealed:",
+            "inCardView": false,
+            "expected": "Akash'Bhuta展示的牌："
+          }
+        },
+        {
+          "id": "nonhero-BaronBlade-result-reveal",
+          "status": "offline-covered",
+          "view": "villain-result-reveal",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Baron Blade revealed:",
+            "inCardView": false,
+            "expected": "Baron Blade展示的牌："
+          }
+        },
+        {
+          "id": "nonhero-CitizenDawn-result-reveal",
+          "status": "offline-covered",
+          "view": "villain-result-reveal",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Citizen Dawn revealed:",
+            "inCardView": false,
+            "expected": "Citizen Dawn展示的牌："
+          }
+        },
+        {
+          "id": "nonhero-GrandWarlordVoss-result-reveal",
+          "status": "offline-covered",
+          "view": "villain-result-reveal",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Grand Warlord Voss revealed:",
+            "inCardView": false,
+            "expected": "Grand Warlord Voss展示的牌："
+          }
+        },
+        {
+          "id": "nonhero-Omnitron-result-reveal",
+          "status": "offline-covered",
+          "view": "villain-result-reveal",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Omnitron revealed:",
+            "inCardView": false,
+            "expected": "Omnitron展示的牌："
+          }
+        },
+        {
+          "id": "nonhero-TheMatriarch-result-reveal",
+          "status": "offline-covered",
+          "view": "villain-result-reveal",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "The Matriarch revealed:",
+            "inCardView": false,
+            "expected": "The Matriarch展示的牌："
+          }
+        },
+        {
+          "id": "nonhero-FreedomTower-result-reveal",
+          "status": "offline-covered",
+          "view": "environment-result-reveal",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Freedom Tower revealed:",
+            "inCardView": false,
+            "expected": "Freedom Tower展示的牌："
+          }
+        },
+        {
+          "id": "nonhero-InsulaPrimalis-result-reveal",
+          "status": "offline-covered",
+          "view": "environment-result-reveal",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Insula Primalis revealed:",
+            "inCardView": false,
+            "expected": "Insula Primalis展示的牌："
+          }
+        },
+        {
+          "id": "nonhero-Magmaria-result-reveal",
+          "status": "offline-covered",
+          "view": "environment-result-reveal",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Magmaria revealed:",
+            "inCardView": false,
+            "expected": "Magmaria展示的牌："
+          }
+        },
+        {
+          "id": "nonhero-Megalopolis-result-reveal",
+          "status": "offline-covered",
+          "view": "environment-result-reveal",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Megalopolis revealed:",
+            "inCardView": false,
+            "expected": "Megalopolis展示的牌："
+          }
+        },
+        {
+          "id": "nonhero-TheRuinsOfAtlantis-result-reveal",
+          "status": "offline-covered",
+          "view": "environment-result-reveal",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "The Ruins of Atlantis revealed:",
+            "inCardView": false,
+            "expected": "The Ruins of Atlantis展示的牌："
+          }
+        },
+        {
+          "id": "nonhero-WagnerMarsBase-result-reveal",
+          "status": "offline-covered",
+          "view": "environment-result-reveal",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存专名作为完整提示／结果标题参数的合成检查，名称保持字面值；不代表卡组规则或实机验收。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Wagner Mars Base revealed:",
+            "inCardView": false,
+            "expected": "Wagner Mars Base展示的牌："
+          }
         }
       ]
     },
@@ -6069,7 +7967,8 @@
         "button.put.card",
         "button.destroy.card",
         "button.fewest",
-        "button.take.play"
+        "button.take.play",
+        "button.most"
       ],
       "contexts": [
         {
@@ -6324,6 +8223,176 @@
             "source": "Play a Card",
             "inCardView": false,
             "expected": null
+          }
+        },
+        {
+          "id": "pilot017-1d35438fe7331dd4e0011e8a",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "新日志完整原文和用途已核对；未提升为人工验收。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/TheWraith/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Has the Most",
+            "inCardView": false,
+            "expected": "最多",
+            "observationId": "1d35438fe7331dd4e0011e8a"
+          }
+        },
+        {
+          "id": "pilot017-negative-1d35438fe7331dd4e0011e8a",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/TheWraith/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Has the Most",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "1d35438fe7331dd4e0011e8a"
+          }
+        },
+        {
+          "id": "pilot017-24ad7989485211066b1ee15c",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "新日志完整原文和用途已核对；未提升为人工验收。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Tachyon/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Has the Most",
+            "inCardView": false,
+            "expected": "最多",
+            "observationId": "24ad7989485211066b1ee15c"
+          }
+        },
+        {
+          "id": "pilot017-negative-24ad7989485211066b1ee15c",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Tachyon/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Has the Most",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "24ad7989485211066b1ee15c"
+          }
+        },
+        {
+          "id": "pilot017-426ef4569a049abc805b1183",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "新日志完整原文和用途已核对；未提升为人工验收。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Has the Most",
+            "inCardView": false,
+            "expected": "最多",
+            "observationId": "426ef4569a049abc805b1183"
+          }
+        },
+        {
+          "id": "pilot017-negative-426ef4569a049abc805b1183",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Has the Most",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "426ef4569a049abc805b1183"
+          }
+        },
+        {
+          "id": "pilot017-e18cd25a2e9422ee60a0c858",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文和用途已核对；未提升为人工验收。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Has the Most",
+            "inCardView": false,
+            "expected": "最多",
+            "observationId": "e18cd25a2e9422ee60a0c858"
+          }
+        },
+        {
+          "id": "pilot017-negative-e18cd25a2e9422ee60a0c858",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Has the Most",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "e18cd25a2e9422ee60a0c858"
+          }
+        },
+        {
+          "id": "pilot017-f66fac0f86a40150a98eef52",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "新日志完整原文和用途已核对；未提升为人工验收。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/CaptainCosmic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Has the Most",
+            "inCardView": false,
+            "expected": "最多",
+            "observationId": "f66fac0f86a40150a98eef52"
+          }
+        },
+        {
+          "id": "pilot017-negative-f66fac0f86a40150a98eef52",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "inactive",
+          "layout": "5",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/CaptainCosmic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Has the Most",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "f66fac0f86a40150a98eef52"
           }
         }
       ]
@@ -7247,6 +9316,1217 @@
             "inCardView": false,
             "expected": "放回原处"
           }
+        },
+        {
+          "id": "pilot017-1491e84f9d4957af37410386",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文和用途已核对；未提升为人工验收。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": "展示",
+            "observationId": "1491e84f9d4957af37410386"
+          }
+        },
+        {
+          "id": "pilot017-negative-1491e84f9d4957af37410386",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Other/Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null,
+            "observationId": "1491e84f9d4957af37410386"
+          }
+        },
+        {
+          "id": "nonhero-AkashBhuta-deck-reveal",
+          "status": "offline-covered",
+          "view": "villain-deck-reveal",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": "展示"
+          }
+        },
+        {
+          "id": "nonhero-AkashBhuta-deck-replace",
+          "status": "offline-covered",
+          "view": "villain-deck-replace",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": "放回原处"
+          }
+        },
+        {
+          "id": "nonhero-AkashBhuta-trash-replace-excluded",
+          "status": "excluded",
+          "view": "villain-trash-replace-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-AkashBhuta-wrong-category-excluded",
+          "status": "excluded",
+          "view": "villain-wrong-category-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/AkashBhuta/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-AkashBhuta-hero-layout-excluded",
+          "status": "excluded",
+          "view": "villain-hero-layout-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-AkashBhuta-unknown-owner-excluded",
+          "status": "excluded",
+          "view": "villain-unknown-owner-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/AkashBhutaUnknown/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-BaronBlade-deck-reveal",
+          "status": "offline-covered",
+          "view": "villain-deck-reveal",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": "展示"
+          }
+        },
+        {
+          "id": "nonhero-BaronBlade-deck-replace",
+          "status": "offline-covered",
+          "view": "villain-deck-replace",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": "放回原处"
+          }
+        },
+        {
+          "id": "nonhero-BaronBlade-trash-replace-excluded",
+          "status": "excluded",
+          "view": "villain-trash-replace-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-BaronBlade-wrong-category-excluded",
+          "status": "excluded",
+          "view": "villain-wrong-category-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/BaronBlade/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-BaronBlade-hero-layout-excluded",
+          "status": "excluded",
+          "view": "villain-hero-layout-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-BaronBlade-unknown-owner-excluded",
+          "status": "excluded",
+          "view": "villain-unknown-owner-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/BaronBladeUnknown/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-CitizenDawn-deck-reveal",
+          "status": "offline-covered",
+          "view": "villain-deck-reveal",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": "展示"
+          }
+        },
+        {
+          "id": "nonhero-CitizenDawn-deck-replace",
+          "status": "offline-covered",
+          "view": "villain-deck-replace",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": "放回原处"
+          }
+        },
+        {
+          "id": "nonhero-CitizenDawn-trash-replace-excluded",
+          "status": "excluded",
+          "view": "villain-trash-replace-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-CitizenDawn-wrong-category-excluded",
+          "status": "excluded",
+          "view": "villain-wrong-category-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/CitizenDawn/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-CitizenDawn-hero-layout-excluded",
+          "status": "excluded",
+          "view": "villain-hero-layout-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-CitizenDawn-unknown-owner-excluded",
+          "status": "excluded",
+          "view": "villain-unknown-owner-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawnUnknown/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-GrandWarlordVoss-deck-reveal",
+          "status": "offline-covered",
+          "view": "villain-deck-reveal",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": "展示"
+          }
+        },
+        {
+          "id": "nonhero-GrandWarlordVoss-deck-replace",
+          "status": "offline-covered",
+          "view": "villain-deck-replace",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": "放回原处"
+          }
+        },
+        {
+          "id": "nonhero-GrandWarlordVoss-trash-replace-excluded",
+          "status": "excluded",
+          "view": "villain-trash-replace-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-GrandWarlordVoss-wrong-category-excluded",
+          "status": "excluded",
+          "view": "villain-wrong-category-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/GrandWarlordVoss/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-GrandWarlordVoss-hero-layout-excluded",
+          "status": "excluded",
+          "view": "villain-hero-layout-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-GrandWarlordVoss-unknown-owner-excluded",
+          "status": "excluded",
+          "view": "villain-unknown-owner-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVossUnknown/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Omnitron-deck-reveal",
+          "status": "offline-covered",
+          "view": "villain-deck-reveal",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": "展示"
+          }
+        },
+        {
+          "id": "nonhero-Omnitron-deck-replace",
+          "status": "offline-covered",
+          "view": "villain-deck-replace",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": "放回原处"
+          }
+        },
+        {
+          "id": "nonhero-Omnitron-trash-replace-excluded",
+          "status": "excluded",
+          "view": "villain-trash-replace-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Omnitron-wrong-category-excluded",
+          "status": "excluded",
+          "view": "villain-wrong-category-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Omnitron/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Omnitron-hero-layout-excluded",
+          "status": "excluded",
+          "view": "villain-hero-layout-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Omnitron-unknown-owner-excluded",
+          "status": "excluded",
+          "view": "villain-unknown-owner-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/OmnitronUnknown/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-TheMatriarch-deck-reveal",
+          "status": "offline-covered",
+          "view": "villain-deck-reveal",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": "展示"
+          }
+        },
+        {
+          "id": "nonhero-TheMatriarch-deck-replace",
+          "status": "offline-covered",
+          "view": "villain-deck-replace",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": "放回原处"
+          }
+        },
+        {
+          "id": "nonhero-TheMatriarch-trash-replace-excluded",
+          "status": "excluded",
+          "view": "villain-trash-replace-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-TheMatriarch-wrong-category-excluded",
+          "status": "excluded",
+          "view": "villain-wrong-category-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/TheMatriarch/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-TheMatriarch-hero-layout-excluded",
+          "status": "excluded",
+          "view": "villain-hero-layout-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-TheMatriarch-unknown-owner-excluded",
+          "status": "excluded",
+          "view": "villain-unknown-owner-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarchUnknown/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-FreedomTower-deck-reveal",
+          "status": "offline-covered",
+          "view": "environment-deck-reveal",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": "展示"
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "c449d8ac08f201bf24d898fe",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 384,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
+        },
+        {
+          "id": "nonhero-FreedomTower-deck-replace",
+          "status": "offline-covered",
+          "view": "environment-deck-replace",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": "放回原处"
+          }
+        },
+        {
+          "id": "nonhero-FreedomTower-trash-replace-excluded",
+          "status": "excluded",
+          "view": "environment-trash-replace-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-FreedomTower-wrong-category-excluded",
+          "status": "excluded",
+          "view": "environment-wrong-category-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/FreedomTower/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-FreedomTower-hero-layout-excluded",
+          "status": "excluded",
+          "view": "environment-hero-layout-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/FreedomTower/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-FreedomTower-unknown-owner-excluded",
+          "status": "excluded",
+          "view": "environment-unknown-owner-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/FreedomTowerUnknown/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-InsulaPrimalis-deck-reveal",
+          "status": "offline-covered",
+          "view": "environment-deck-reveal",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": "展示"
+          }
+        },
+        {
+          "id": "nonhero-InsulaPrimalis-deck-replace",
+          "status": "offline-covered",
+          "view": "environment-deck-replace",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": "放回原处"
+          }
+        },
+        {
+          "id": "nonhero-InsulaPrimalis-trash-replace-excluded",
+          "status": "excluded",
+          "view": "environment-trash-replace-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-InsulaPrimalis-wrong-category-excluded",
+          "status": "excluded",
+          "view": "environment-wrong-category-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/InsulaPrimalis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-InsulaPrimalis-hero-layout-excluded",
+          "status": "excluded",
+          "view": "environment-hero-layout-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/InsulaPrimalis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-InsulaPrimalis-unknown-owner-excluded",
+          "status": "excluded",
+          "view": "environment-unknown-owner-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/InsulaPrimalisUnknown/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Magmaria-deck-reveal",
+          "status": "offline-covered",
+          "view": "environment-deck-reveal",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": "展示"
+          }
+        },
+        {
+          "id": "nonhero-Magmaria-deck-replace",
+          "status": "offline-covered",
+          "view": "environment-deck-replace",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": "放回原处"
+          }
+        },
+        {
+          "id": "nonhero-Magmaria-trash-replace-excluded",
+          "status": "excluded",
+          "view": "environment-trash-replace-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Magmaria-wrong-category-excluded",
+          "status": "excluded",
+          "view": "environment-wrong-category-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/Magmaria/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Magmaria-hero-layout-excluded",
+          "status": "excluded",
+          "view": "environment-hero-layout-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Magmaria/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Magmaria-unknown-owner-excluded",
+          "status": "excluded",
+          "view": "environment-unknown-owner-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/MagmariaUnknown/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Megalopolis-deck-reveal",
+          "status": "offline-covered",
+          "view": "environment-deck-reveal",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": "展示"
+          }
+        },
+        {
+          "id": "nonhero-Megalopolis-deck-replace",
+          "status": "offline-covered",
+          "view": "environment-deck-replace",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": "放回原处"
+          }
+        },
+        {
+          "id": "nonhero-Megalopolis-trash-replace-excluded",
+          "status": "excluded",
+          "view": "environment-trash-replace-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Megalopolis-wrong-category-excluded",
+          "status": "excluded",
+          "view": "environment-wrong-category-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/Megalopolis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Megalopolis-hero-layout-excluded",
+          "status": "excluded",
+          "view": "environment-hero-layout-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Megalopolis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-Megalopolis-unknown-owner-excluded",
+          "status": "excluded",
+          "view": "environment-unknown-owner-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/MegalopolisUnknown/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-TheRuinsOfAtlantis-deck-reveal",
+          "status": "offline-covered",
+          "view": "environment-deck-reveal",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": "展示"
+          }
+        },
+        {
+          "id": "nonhero-TheRuinsOfAtlantis-deck-replace",
+          "status": "offline-covered",
+          "view": "environment-deck-replace",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": "放回原处"
+          }
+        },
+        {
+          "id": "nonhero-TheRuinsOfAtlantis-trash-replace-excluded",
+          "status": "excluded",
+          "view": "environment-trash-replace-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-TheRuinsOfAtlantis-wrong-category-excluded",
+          "status": "excluded",
+          "view": "environment-wrong-category-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-TheRuinsOfAtlantis-hero-layout-excluded",
+          "status": "excluded",
+          "view": "environment-hero-layout-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-TheRuinsOfAtlantis-unknown-owner-excluded",
+          "status": "excluded",
+          "view": "environment-unknown-owner-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantisUnknown/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-WagnerMarsBase-deck-reveal",
+          "status": "offline-covered",
+          "view": "environment-deck-reveal",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": "展示"
+          }
+        },
+        {
+          "id": "nonhero-WagnerMarsBase-deck-replace",
+          "status": "offline-covered",
+          "view": "environment-deck-replace",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": "放回原处"
+          }
+        },
+        {
+          "id": "nonhero-WagnerMarsBase-trash-replace-excluded",
+          "status": "excluded",
+          "view": "environment-trash-replace-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Replace",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-WagnerMarsBase-wrong-category-excluded",
+          "status": "excluded",
+          "view": "environment-wrong-category-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/Villain Row/WagnerMarsBase/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-WagnerMarsBase-hero-layout-excluded",
+          "status": "excluded",
+          "view": "environment-hero-layout-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/WagnerMarsBase/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-WagnerMarsBase-unknown-owner-excluded",
+          "status": "excluded",
+          "view": "environment-unknown-owner-excluded",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "角色ID来自当前库存，结构来自已观察反派／环境共用入口；本组合为离线验证，非实机记录。",
+          "case": {
+            "objectName": "Selection Button Label",
+            "path": "Canvas/Main Panel/WagnerMarsBaseUnknown/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "cardId": "",
+            "source": "Reveal",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "nonhero-unobserved-villain-deck-selection",
+          "status": "unobserved",
+          "view": "villain-special-areas",
+          "heroState": "not-applicable",
+          "layout": "unobserved",
+          "reason": "特殊附属牌区、变身／形态和独立场景尚无完整入口证据，不套用英雄非当前布局或普通牌区结构。"
+        },
+        {
+          "id": "nonhero-unobserved-environment-deck-selection",
+          "status": "unobserved",
+          "view": "environment-special-areas",
+          "heroState": "not-applicable",
+          "layout": "unobserved",
+          "reason": "特殊附属牌区、变身／形态和独立场景尚无完整入口证据，不套用英雄非当前布局或普通牌区结构。"
         }
       ]
     },
@@ -7286,7 +10566,8 @@
         "button.play.construct",
         "button.discover.construct",
         "button.discover.item",
-        "button.discover.golem"
+        "button.discover.golem",
+        "button.play.golem"
       ],
       "contexts": [
         {
@@ -7622,6 +10903,440 @@
             "expected": null,
             "observationId": "7c7f6ce6988f861afb1c99f7"
           }
+        },
+        {
+          "id": "pilot017-bc6c0ff01d3bbbb0cdddc3c5",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志完整原文和用途已核对；未提升为人工验收。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "UnityCharacter",
+            "source": "Play Golem",
+            "inCardView": true,
+            "expected": "打出Golem牌",
+            "observationId": "bc6c0ff01d3bbbb0cdddc3c5"
+          }
+        },
+        {
+          "id": "pilot017-negative-bc6c0ff01d3bbbb0cdddc3c5",
+          "status": "excluded",
+          "view": "unrelated-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不同用途位置不转换。",
+          "case": {
+            "objectName": "Label",
+            "path": "Other/Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "UnityCharacter",
+            "source": "Play Golem",
+            "inCardView": true,
+            "expected": null,
+            "observationId": "bc6c0ff01d3bbbb0cdddc3c5"
+          }
+        },
+        {
+          "id": "nonhero-AkashBhuta-small-effect",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView AkashBhutaCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AkashBhutaCharacter",
+            "source": "Destroy a Card",
+            "inCardView": true,
+            "expected": "破坏一张牌"
+          }
+        },
+        {
+          "id": "nonhero-AkashBhuta-full-effect",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/AkashBhutaCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AkashBhutaCharacter",
+            "source": "Deal Damage",
+            "inCardView": true,
+            "expected": "造成伤害"
+          }
+        },
+        {
+          "id": "nonhero-BaronBlade-small-effect",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView BaronBladeCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BaronBladeCharacter",
+            "source": "Destroy a Card",
+            "inCardView": true,
+            "expected": "破坏一张牌"
+          }
+        },
+        {
+          "id": "nonhero-BaronBlade-full-effect",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/BaronBladeCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BaronBladeCharacter",
+            "source": "Deal Damage",
+            "inCardView": true,
+            "expected": "造成伤害"
+          }
+        },
+        {
+          "id": "nonhero-CitizenDawn-small-effect",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView CitizenDawnCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CitizenDawnCharacter",
+            "source": "Destroy a Card",
+            "inCardView": true,
+            "expected": "破坏一张牌"
+          }
+        },
+        {
+          "id": "nonhero-CitizenDawn-full-effect",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CitizenDawnCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CitizenDawnCharacter",
+            "source": "Deal Damage",
+            "inCardView": true,
+            "expected": "造成伤害"
+          }
+        },
+        {
+          "id": "nonhero-GrandWarlordVoss-small-effect",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView GrandWarlordVossCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "GrandWarlordVossCharacter",
+            "source": "Destroy a Card",
+            "inCardView": true,
+            "expected": "破坏一张牌"
+          }
+        },
+        {
+          "id": "nonhero-GrandWarlordVoss-full-effect",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/GrandWarlordVossCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "GrandWarlordVossCharacter",
+            "source": "Deal Damage",
+            "inCardView": true,
+            "expected": "造成伤害"
+          }
+        },
+        {
+          "id": "nonhero-Omnitron-small-effect",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView OmnitronCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "OmnitronCharacter",
+            "source": "Destroy a Card",
+            "inCardView": true,
+            "expected": "破坏一张牌"
+          }
+        },
+        {
+          "id": "nonhero-Omnitron-full-effect",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/OmnitronCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "OmnitronCharacter",
+            "source": "Deal Damage",
+            "inCardView": true,
+            "expected": "造成伤害"
+          }
+        },
+        {
+          "id": "nonhero-TheMatriarch-small-effect",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView TheMatriarchCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "TheMatriarchCharacter",
+            "source": "Destroy a Card",
+            "inCardView": true,
+            "expected": "破坏一张牌"
+          }
+        },
+        {
+          "id": "nonhero-TheMatriarch-full-effect",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/TheMatriarchCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "TheMatriarchCharacter",
+            "source": "Deal Damage",
+            "inCardView": true,
+            "expected": "造成伤害"
+          }
+        },
+        {
+          "id": "nonhero-FreedomTower-small-effect",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CaspitsPlayground-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CaspitsPlayground",
+            "source": "Destroy a Card",
+            "inCardView": true,
+            "expected": "破坏一张牌"
+          }
+        },
+        {
+          "id": "nonhero-FreedomTower-full-effect",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CaspitsPlayground/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CaspitsPlayground",
+            "source": "Deal Damage",
+            "inCardView": true,
+            "expected": "造成伤害"
+          }
+        },
+        {
+          "id": "nonhero-InsulaPrimalis-small-effect",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CorneredAnkylosaurus-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CorneredAnkylosaurus",
+            "source": "Destroy a Card",
+            "inCardView": true,
+            "expected": "破坏一张牌"
+          }
+        },
+        {
+          "id": "nonhero-InsulaPrimalis-full-effect",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CorneredAnkylosaurus/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CorneredAnkylosaurus",
+            "source": "Deal Damage",
+            "inCardView": true,
+            "expected": "造成伤害"
+          }
+        },
+        {
+          "id": "nonhero-Magmaria-small-effect",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CrystalCollector-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CrystalCollector",
+            "source": "Destroy a Card",
+            "inCardView": true,
+            "expected": "破坏一张牌"
+          }
+        },
+        {
+          "id": "nonhero-Magmaria-full-effect",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CrystalCollector/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CrystalCollector",
+            "source": "Deal Damage",
+            "inCardView": true,
+            "expected": "造成伤害"
+          }
+        },
+        {
+          "id": "nonhero-Megalopolis-small-effect",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView BankHeistInProgress-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BankHeistInProgress",
+            "source": "Destroy a Card",
+            "inCardView": true,
+            "expected": "破坏一张牌"
+          }
+        },
+        {
+          "id": "nonhero-Megalopolis-full-effect",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/BankHeistInProgress/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BankHeistInProgress",
+            "source": "Deal Damage",
+            "inCardView": true,
+            "expected": "造成伤害"
+          }
+        },
+        {
+          "id": "nonhero-TheRuinsOfAtlantis-small-effect",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView AtlanteanFontOfPower-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AtlanteanFontOfPower",
+            "source": "Destroy a Card",
+            "inCardView": true,
+            "expected": "破坏一张牌"
+          }
+        },
+        {
+          "id": "nonhero-TheRuinsOfAtlantis-full-effect",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/AtlanteanFontOfPower/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AtlanteanFontOfPower",
+            "source": "Deal Damage",
+            "inCardView": true,
+            "expected": "造成伤害"
+          }
+        },
+        {
+          "id": "nonhero-WagnerMarsBase-small-effect",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView Biosphere-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "Biosphere",
+            "source": "Destroy a Card",
+            "inCardView": true,
+            "expected": "破坏一张牌"
+          }
+        },
+        {
+          "id": "nonhero-WagnerMarsBase-full-effect",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Biosphere/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "Biosphere",
+            "source": "Deal Damage",
+            "inCardView": true,
+            "expected": "造成伤害"
+          }
+        },
+        {
+          "id": "nonhero-unobserved-villain-effect-button",
+          "status": "unobserved",
+          "view": "villain-special-areas",
+          "heroState": "not-applicable",
+          "layout": "unobserved",
+          "reason": "特殊附属牌区、变身／形态和独立场景尚无完整入口证据，不套用英雄非当前布局或普通牌区结构。"
+        },
+        {
+          "id": "nonhero-unobserved-environment-effect-button",
+          "status": "unobserved",
+          "view": "environment-special-areas",
+          "heroState": "not-applicable",
+          "layout": "unobserved",
+          "reason": "特殊附属牌区、变身／形态和独立场景尚无完整入口证据，不套用英雄非当前布局或普通牌区结构。"
         }
       ]
     },
@@ -7684,6 +11399,13 @@
               "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
               "line": 384,
               "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            },
+            {
+              "observationId": "1dcd887f4260762f590c8772",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 623,
+              "version": "0.1.16-rc.1",
               "markerCandidate": true
             }
           ]
@@ -7773,6 +11495,13 @@
               "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
               "line": 384,
               "version": "0.1.14-rc.1",
+              "markerCandidate": true
+            },
+            {
+              "observationId": "1dcd887f4260762f590c8772",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 623,
+              "version": "0.1.16-rc.1",
               "markerCandidate": true
             }
           ]
@@ -8062,6 +11791,13 @@
               "line": 387,
               "version": "0.1.14-rc.1",
               "markerCandidate": true
+            },
+            {
+              "observationId": "e25bebd331394d7b41b76357",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 621,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
             }
           ]
         },
@@ -8209,6 +11945,13 @@
               "line": 61,
               "version": "0.1.15-rc.1",
               "markerCandidate": true
+            },
+            {
+              "observationId": "0c692eca802267a9636b74b8",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 494,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
             }
           ]
         },
@@ -8250,6 +11993,13 @@
               "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
               "line": 58,
               "version": "0.1.15-rc.1",
+              "markerCandidate": true
+            },
+            {
+              "observationId": "137a0e3f04e0edb6e6d34258",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 491,
+              "version": "0.1.16-rc.1",
               "markerCandidate": true
             }
           ]
@@ -8293,6 +12043,13 @@
               "line": 694,
               "version": "0.1.14-rc.1",
               "markerCandidate": true
+            },
+            {
+              "observationId": "a7625ab4f26f6c4f800575b0",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 470,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
             }
           ]
         },
@@ -8335,6 +12092,13 @@
               "line": 705,
               "version": "0.1.14-rc.1",
               "markerCandidate": true
+            },
+            {
+              "observationId": "adfc8ef927245041e48067f5",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 481,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
             }
           ]
         },
@@ -8376,6 +12140,13 @@
               "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
               "line": 55,
               "version": "0.1.15-rc.1",
+              "markerCandidate": true
+            },
+            {
+              "observationId": "f40ba0626be5da6a3f8bf931",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 488,
+              "version": "0.1.16-rc.1",
               "markerCandidate": true
             }
           ]
@@ -8454,7 +12225,16 @@
             "inCardView": false,
             "expected": "Mounted AP Gun下方的牌",
             "observationId": "55a3905bc1c7e0b908054205"
-          }
+          },
+          "runtimeMatchEvidence": [
+            {
+              "observationId": "55a3905bc1c7e0b908054205",
+              "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
+              "line": 327,
+              "version": "0.1.16-rc.1",
+              "markerCandidate": true
+            }
+          ]
         },
         {
           "id": "pilot015-negative-55a3905bc1c7e0b908054205",

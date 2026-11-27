@@ -330,4 +330,38 @@ foreach(var action in new[]{"Discover Item","Discover Golem"}){
 }
 Check(pilot.Apply(DynamicDisplayRules.ContinuePath,"Skip Draw")=="跳过抽牌","skip draw action without assuming phase scope");
 Check(pilot.Apply(DynamicDisplayRules.ContinuePath,"Skip Draw Everything")==null,"skip action complete source required");
+using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/dynamic-0.1.16.json"))){
+ foreach(var sample in evidence.RootElement.GetProperty("samples").EnumerateArray()){
+  string path=sample.GetProperty("path").GetString()!,source=sample.GetProperty("source").GetString()!,card=sample.GetProperty("cardId").GetString()!;
+  bool inCard=sample.GetProperty("inCardView").GetBoolean();
+  var actual=inCard?pilot.Dynamic.ApplyCardButton(path,card,source):pilot.Apply(path,source);
+  Check(actual==sample.GetProperty("expected").GetString(),"0.1.16 observed source: "+source);
+  Check((inCard?pilot.Dynamic.ApplyCardButton(path,card,actual!):pilot.Apply(path,actual!))==null,"0.1.17 output idempotent");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"<[^<>]+>").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"<[^<>]+>").Select(m=>m.Value)),"0.1.17 rich text preserved");
+ }
+}
+foreach(var n in new[]{0,1,2,3,17,999999}){
+ string noun=n==1?"card":"cards",pronoun=n==1?"it":"them";
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click "+n+" "+noun+" in play or under Card 2 to destroy "+pronoun+".")=="点击"+n+"张在场或位于Card 2下方的牌以将其破坏。","exact destruction keeps count and alternative areas");
+}
+foreach(var bad in new[]{"Click 1 cards in play or under Card to destroy them.","Click 2 cards in play or under Card to destroy it.","Click 1 card in play or under Card to destroy them.","Click -2 cards in play or under Card to destroy them.","Click 1.5 cards in play or under Card to destroy them.","Click 1000000 cards in play or under Card to destroy them.","Click 2 cards in play and under Card to destroy them.","Click 2 cards in play or under <b>Card</b> to destroy them.","Click 2 cards in play or under Card to destroy them. Extra."})
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,bad)==null,"reject malformed count, range, markup or trailing clause");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click Akash'Bhuta's trash to discard Card 2.")=="点击Akash'Bhuta的弃牌堆，将Card 2弃置。","nonhero apostrophe and numeric card name preserved");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click Omnitron's deck to discard Card.")==null,"discard location instruction cannot silently change deck to trash");
+foreach(var source in new[]{"Click a card in the trash to put it under a card.","Click a hero to salvage a card.","Click a card in the trash to salvage it.","Click the hero who is considered to have the most cards in play."}){
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,source)!=null,"complete fixed action without card heading");
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,source+" Extra condition.")==null,"fixed action cannot drop condition");
+}
+foreach(var phase in phaseMap){
+ string clause="Click a card to activate its <nobr><sprite name=\""+phase.Key+"Phase\"> <b>"+phase.Key.ToUpperInvariant()+" PHASE</b></nobr> effect.";
+ string combinedSource="Click or drag a card to play it. "+clause;
+ string? expected=phase.Key=="Play"?"点击或拖动一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。":null;
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,combinedSource)==expected,"play compound only accepts matching phase");
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,combinedSource+" Extra.")==null,"compound never discards suffix");
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,combinedSource.Replace("Click a card to activate","Click a target to activate"))==null,"unobserved target compound remains excluded");
+}
+Check(pilot.Apply(fiveHero,"Has the Most")=="最多","most button does not invent hand or play area");
+Check(pilot.Apply(fiveHero.Replace("/Legacy/","/Omnitron/"),"Has the Most")==null,"nonhero cannot inherit inactive hero selector");
+Check(pilot.Dynamic.ApplyCardButton(effectPath,"UnityCharacter","Play Golem")=="打出Golem牌","play golem action keeps deferred subtype");
+Check(pilot.Dynamic.ApplyCardButton(effectPath.Replace("Select Effect Container/Select Effect Button(Clone)","Power Container/UsePower"),"UnityCharacter","Play Golem")==null,"play golem cannot rewrite power body");
 Console.WriteLine("RUNTIME_CHECKS_COMPLETE "+count);

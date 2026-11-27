@@ -19,6 +19,56 @@ class CoverageAuditTests(unittest.TestCase):
         self.drafts = audit.read(ROOT / 'probe/dynamic-text-review.json')['entries']
         self.inventory = audit.read(ROOT / 'coverage/inventory-status.json')
 
+    def test_nonhero_matrix_covers_current_inventory(self):
+        result = audit.validate_nonhero_matrix(audit.read(ROOT / 'coverage/nonhero-route-matrix.json'), self.contracts)
+        self.assertEqual(result, {'owners': 12, 'contracts': 180, 'liveAccepted': False})
+
+    def test_nonhero_owner_cannot_be_dropped_or_duplicated(self):
+        matrix = audit.read(ROOT / 'coverage/nonhero-route-matrix.json')
+        for owners in [matrix['owners'][1:], matrix['owners'] + [matrix['owners'][0]]]:
+            with self.assertRaises(ValueError):
+                audit.validate_nonhero_matrix(matrix | {'owners': owners}, self.contracts)
+
+    def test_new_inventory_owner_requires_matrix_review(self):
+        matrix = audit.read(ROOT / 'coverage/nonhero-route-matrix.json')
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            for owner in matrix['owners']:
+                path = root / owner['inventoryFile']
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text((ROOT / owner['inventoryFile']).read_text())
+            added = root / 'inventory-translations/environments/NewEnvironment.json'
+            added.write_text('[]')
+            with self.assertRaisesRegex(ValueError, 'roster'):
+                audit.validate_nonhero_matrix(matrix, self.contracts, root)
+
+    def test_nonhero_missing_role_or_contract_rejected(self):
+        for mode in ['role', 'contract', 'required']:
+            matrix = audit.read(ROOT / 'coverage/nonhero-route-matrix.json')
+            if mode == 'role':
+                del matrix['owners'][0]['contracts']['trash-discard']
+            elif mode == 'contract':
+                matrix['owners'][0]['contracts']['trash-discard']['id'] = 'missing'
+            else:
+                matrix['requiredChecks'].remove('trash-discard')
+            with self.assertRaises(ValueError):
+                audit.validate_nonhero_matrix(matrix, self.contracts)
+
+    def test_nonhero_source_name_is_grounded_in_inventory(self):
+        matrix = audit.read(ROOT / 'coverage/nonhero-route-matrix.json')
+        matrix['owners'][0]['sourceName'] = 'Unverified Name'
+        with self.assertRaisesRegex(ValueError, 'source name'):
+            audit.validate_nonhero_matrix(matrix, self.contracts)
+
+    def test_nonhero_synthetic_case_cannot_be_live_accepted(self):
+        matrix = audit.read(ROOT / 'coverage/nonhero-route-matrix.json')
+        link = matrix['owners'][0]['contracts']['deck-reveal']
+        context = next(c for f in self.contracts['families'] if f['id'] == link['family']
+                       for c in f['contexts'] if c['id'] == link['id'])
+        context['status'] = 'live-accepted'
+        with self.assertRaisesRegex(ValueError, 'live acceptance'):
+            audit.validate_nonhero_matrix(matrix, self.contracts)
+
     def test_contracts_cover_all_templates_and_reviewed_runtime(self):
         audit.validate_contracts(self.contracts, self.templates)
 
