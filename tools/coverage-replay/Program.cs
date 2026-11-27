@@ -8,12 +8,17 @@ var catalog=Catalog.Read(args[0]);
 var probe=SurfaceProbeRules.Read(args[1]);
 using var snapshot=JsonDocument.Parse(File.ReadAllText(args[2]));
 using var contracts=JsonDocument.Parse(File.ReadAllText(args[3]));
+var conditionalCatalogs=new Dictionary<string,DisplayRules>(StringComparer.Ordinal);
+if(contracts.RootElement.TryGetProperty("conditionalCatalogs",out var conditional))
+ foreach(var entry in conditional.EnumerateArray())
+  conditionalCatalogs.Add(entry.GetProperty("id").GetString()!,new DisplayRules(entry.GetProperty("displayEntries").Deserialize<DisplayEntry[]>()!));
 string Str(JsonElement x,string k)=>x.GetProperty(k).GetString()!;
 string? Dynamic(JsonElement x,string source)=>x.GetProperty("inCardView").GetBoolean()
  ? probe.Dynamic!.ApplyCardButton(Str(x,"path"),Str(x,"cardId"),source)
  : probe.Apply(Str(x,"path"),source);
-string? Match(JsonElement x,string source)=>catalog.UiText(Str(x,"objectName"),source)
- ?? catalog.DisplayRules.Apply(Str(x,"objectName"),Str(x,"cardId"),source) ?? Dynamic(x,source);
+string? Match(JsonElement x,string source)=>x.TryGetProperty("catalogId",out var cid)
+ ? conditionalCatalogs[cid.GetString()!].Apply(Str(x,"objectName"),Str(x,"cardId"),source)
+ : catalog.UiText(Str(x,"objectName"),source) ?? catalog.DisplayRules.Apply(Str(x,"objectName"),Str(x,"cardId"),source) ?? Dynamic(x,source);
 var contexts=contracts.RootElement.GetProperty("families").EnumerateArray()
  .SelectMany(f=>f.GetProperty("contexts").EnumerateArray())
  .Where(c=>c.TryGetProperty("case",out _)).Select(c=>c.GetProperty("case")).ToArray();
@@ -46,7 +51,7 @@ object Classify(JsonElement x){
    else if(provenOutputs.Contains((Str(x,"path"),Str(x,"cardId"),Str(x,"objectName"),x.GetProperty("inCardView").GetBoolean(),source)))reason="translated-output-observed";
    else {
     elsewhere=catalog.Ui.Any(e=>e.Source==source) || catalog.Display.Any(e=>e.Mode=="exact" && e.Source==source)
-     || contexts.Any(c=>Match(c,source)!=null);
+     || contexts.Where(c=>!c.TryGetProperty("catalogId",out _)).Any(c=>Match(c,source)!=null);
     if(elsewhere)reason="known-source-route-gap";
    }
   }

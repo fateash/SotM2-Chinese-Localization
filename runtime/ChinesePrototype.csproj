@@ -3,7 +3,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <AssemblyName>SotM2ChinesePrototype</AssemblyName><Version>0.1.17-rc.1</Version>
+    <AssemblyName>SotM2ChinesePrototype</AssemblyName><Version>0.1.18-rc.1</Version>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="$(SotM2InteropDir)/*.dll"><Private>false</Private></Reference>

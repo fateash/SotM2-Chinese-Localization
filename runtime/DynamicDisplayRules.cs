@@ -106,7 +106,7 @@ public sealed class DynamicDisplayRules {
   ["hint.reduce"]=(2,""),
   ["hint.attack.unspecified"]=(2,""),
   ["hint.attack.order"]=(3,"<nobr></nobr>"),
-  ["hint.reaction"]=(5,"<b></b><b></b>"),
+  ["hint.reaction"]=(5,"<b></b><b></b>"),["hint.reaction.first"]=(5,"<b></b><b></b>"),
   ["button.play.card"]=(0,""),
   ["button.use.power"]=(0,""),
   ["button.put.card"]=(0,""),
@@ -146,7 +146,7 @@ public sealed class DynamicDisplayRules {
  static readonly Regex Reduce=Rx(@"\AClick up to (?<n>[0-9]{1,6}) targets to reduce damage dealt to them\.\z");
  static readonly Regex UnspecifiedDamage=Rx(@"\AClick a target to deal it (?<type>[a-z]+) damage\.\z");
  static readonly Regex DamageOrder=Rx(@"\AClick targets to choose the order of dealing them <nobr>(?<n>[0-9]{1,6}) (?<type>fire|melee|cold|energy|infernal|lightning|projectile|psychic|radiant|sonic|toxic)</nobr> damage\.\z");
- static readonly Regex Reaction=Rx(@"\A<b>(?<from>[^<>\r\n]{1,200})</b> will deal <b>(?<to>[^<>\r\n]{1,200})</b> (?<n>[0-9]{1,6}) (?<type>fire|melee|cold|energy|infernal|lightning|projectile|psychic|radiant|sonic|toxic) damage\. Click a reaction to use it\.\z");
+ static readonly Regex Reaction=Rx(@"\A<b>(?<from>[^<>\r\n]{1,200})</b> will deal <b>(?<to>[^<>\r\n]{1,200})</b> (?<n>[0-9]{1,6}) (?<type>fire|melee|cold|energy|infernal|lightning|projectile|psychic|radiant|sonic|toxic) damage\. Click a (?<choice>reaction to use it|card to activate first)\.\z");
  static readonly Regex ExactTargets=Rx(@"\AClick (?<count>[0-9]{1,6}) targets to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
  static readonly Regex RequiredTarget=Rx(@"\AClick <b>(?<target>[^<>\r\n]{1,200})</b> and (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
  static readonly Regex UnspecifiedOrder=Rx(@"\AClick targets to choose the order of dealing them (?<type>[a-z]+) damage\.\z");
@@ -342,7 +342,7 @@ public sealed class DynamicDisplayRules {
   match=Reduce.Match(body);if(match.Success)return Format("hint.reduce",prefix,match.Groups["n"].Value);
   match=UnspecifiedDamage.Match(body);if(match.Success && DamageNames.TryGetValue(match.Groups["type"].Value,out var unspecifiedType))return Format("hint.attack.unspecified",prefix,unspecifiedType);
   match=DamageOrder.Match(body);if(match.Success)return Format("hint.attack.order",prefix,match.Groups["n"].Value,DamageNames[match.Groups["type"].Value]);
-  match=Reaction.Match(body);if(match.Success)return Format("hint.reaction",prefix,match.Groups["from"].Value,match.Groups["to"].Value,match.Groups["n"].Value,DamageNames[match.Groups["type"].Value]);
+  match=Reaction.Match(body);if(match.Success)return Format(match.Groups["choice"].Value=="card to activate first"?"hint.reaction.first":"hint.reaction",prefix,match.Groups["from"].Value,match.Groups["to"].Value,match.Groups["n"].Value,DamageNames[match.Groups["type"].Value]);
   match=Effect.Match(body);if(match.Success)return Format("hint.effect",prefix,match.Groups["card"].Value);
   match=DrawDiscard.Match(body);if(match.Success)return Format("hint.draw-discard",prefix,match.Groups["card"].Value);
   return null;

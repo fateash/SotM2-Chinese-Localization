@@ -159,6 +159,11 @@ def validate_contracts(contract, templates, root=ROOT):
                       'probe/dynamic-pilot.json'}
     if set(contract['reviewedFiles']) != required_files:
         raise ValueError('Coverage review must include every runtime routing file')
+    conditional_ids = set()
+    for catalog in contract.get('conditionalCatalogs', []):
+        if catalog['id'] in conditional_ids or not re.fullmatch(r'[0-9a-f]{64}', catalog['sourceSha256']) or not catalog.get('provenance') or not catalog.get('displayEntries'):
+            raise ValueError('Conditional catalog needs unique identity and source provenance')
+        conditional_ids.add(catalog['id'])
     claimed, ids = [], set()
     for family in contract['families']:
         if family['id'] in ids:
@@ -173,6 +178,8 @@ def validate_contracts(contract, templates, root=ROOT):
         if not any(c['status'] == 'excluded' for c in contexts):
             raise ValueError('Family has no negative contract')
         for c in contexts:
+            if c.get('case', {}).get('catalogId') and c['case']['catalogId'] not in conditional_ids:
+                raise ValueError('Unknown conditional catalog in context')
             if c['status'] not in ('offline-covered', 'unobserved', 'deferred', 'excluded', 'live-accepted'):
                 raise ValueError('Unknown context status')
             if not c.get('reason') or not all(c.get(k) for k in ('view', 'heroState', 'layout')):
@@ -224,7 +231,13 @@ def validate_triage(rows, replay, triage):
             errors.append('missing-deferral-condition:' + row['id'])
     return errors
 
-def validate_inventory(status, drafts, templates):
+def inventory_pattern(source):
+    # Literal braces other than numbered placeholders remain literal. A match is
+    # supporting linkage only; it never proves the parameter's semantic domain.
+    return re.compile(''.join('.+?' if re.fullmatch(r'\{\d+\}', p) else re.escape(p)
+                              for p in re.split(r'(\{\d+\})', source)), re.S)
+
+def validate_inventory(status, drafts, templates, contracts=None):
     sources = {r['key']: r for r in drafts}
     entries = {r['key']: r for r in status['entries']}
     if len(entries) != len(status['entries']) or set(entries) != set(sources):
@@ -232,11 +245,11 @@ def validate_inventory(status, drafts, templates):
     for key, row in entries.items():
         if row['sourceSha256'] != digest(sources[key]['original'].encode()):
             raise ValueError('Source changed; reopen inventory review: ' + key)
-        if row['stage'] not in (1, 2, 3) or row['translation'] not in ('draft', 'reviewed') or row['display'] not in ('pending', 'covered', 'composed', 'deferred') or row['live'] not in ('pending', 'accepted', 'deferred', 'not-applicable'):
+        if row['stage'] not in (1, 2, 3) or row['translation'] not in ('draft', 'reviewed') or row['display'] not in ('pending', 'partial', 'covered', 'composed', 'deferred') or row['live'] not in ('pending', 'accepted', 'deferred', 'not-applicable'):
             raise ValueError('Invalid inventory state')
         if not set(row['templateIds']) <= set(templates):
             raise ValueError('Unknown runtime template reference')
-        if row['display'] in ('covered', 'composed') and (not row['templateIds'] or not row['evidence']):
+        if row['display'] in ('covered', 'composed', 'partial') and (not (row['templateIds'] or row.get('catalogIds')) or not row['evidence']):
             raise ValueError('Display coverage needs rule references and evidence')
         if row['live'] == 'accepted' and (row['translation'] != 'reviewed' or row['display'] not in ('covered', 'composed') or not row.get('acceptanceEvidence')):
             raise ValueError('Live acceptance requires reviewed translation, display coverage and human evidence')
@@ -244,6 +257,49 @@ def validate_inventory(status, drafts, templates):
             raise ValueError('Fragments must reference complete-sentence evidence before closure')
         if (row['live'] == 'deferred' or row['display'] == 'deferred') and not row.get('revisitWhen'):
             raise ValueError('Deferred inventory needs reopening condition')
+        if status.get('schemaVersion') == 2:
+            review = row.get('review', {})
+            if not all(review.get(k) for k in ('sourceKind', 'conclusion', 'reason', 'nextAction', 'priority', 'owner')):
+                raise ValueError('Every candidate needs an explicit review and next action')
+            if review['sourceKind'] not in ('complete', 'format', 'fragment'):
+                raise ValueError('Invalid candidate source kind')
+            allowed = {'mapped': 'covered', 'partial': 'partial', 'needs-parameters': 'pending',
+                       'needs-route': 'pending', 'needs-composition': 'pending', 'stage-2': 'pending'}
+            if allowed.get(review['conclusion']) != row['display']:
+                raise ValueError('Review conclusion disagrees with display state')
+            if (review['conclusion'] == 'stage-2') != (row['stage'] == 2):
+                raise ValueError('Fixed-text scheduling must remain explicit')
+            if review['sourceKind'] == 'fragment' and row['display'] == 'covered':
+                raise ValueError('A fragment relationship cannot close all compositions')
+            if row['display'] in ('covered', 'partial') and not row.get('caseRefs'):
+                raise ValueError('Mapped candidates need executable case references')
+            if row.get('catalogIds') and not review.get('scopeCondition'):
+                raise ValueError('Conditional catalog coverage needs an explicit condition')
+            if contracts is not None:
+                contexts = {(f['id'], c['id']): (f, c) for f in contracts['families'] for c in f['contexts']}
+                catalog_ids = {c['id'] for c in contracts.get('conditionalCatalogs', [])}
+                if not set(row.get('catalogIds', [])) <= catalog_ids:
+                    raise ValueError('Unknown conditional catalog reference')
+                used_templates, used_catalogs = set(), set()
+                for ref in row.get('caseRefs', []):
+                    item = contexts.get((ref['family'], ref['id']))
+                    if item is None or item[1].get('case', {}).get('expected') is None:
+                        raise ValueError('Inventory reference needs a positive executable context')
+                    family, context = item
+                    case, source = context['case'], sources[key]['original']
+                    relation = ref['relation']
+                    matches = {'exact': source == case['source'], 'fragment': source in case['source'],
+                               'format': bool(inventory_pattern(source).fullmatch(case['source'])),
+                               'format-fragment': bool(inventory_pattern(source).search(case['source']))}
+                    if relation not in matches or not matches[relation]:
+                        raise ValueError('Inventory source does not support its referenced relationship')
+                    if row['display'] == 'covered' and relation not in ('exact', 'format'):
+                        raise ValueError('Full coverage cannot rely on a substring')
+                    used_templates.update(family['templates'])
+                    if case.get('catalogId'):
+                        used_catalogs.add(case['catalogId'])
+                if not set(row['templateIds']) <= used_templates or set(row.get('catalogIds', [])) != used_catalogs:
+                    raise ValueError('Inventory rules must belong to referenced contexts')
     return entries
 
 def validate_regression(baseline, replay):
@@ -294,6 +350,9 @@ def markdown(report):
            '检查结果：' + ('通过（所有未知项已登记去向；不表示全部完成）' if not report['gateErrors'] else '未通过'), '',
            '| 分类 | 数量 |', '| --- | ---: |']
     out += [f'| {k} | {v} |' for k, v in report['summary'].items()]
+    if report.get('inventorySummary'):
+        out += ['', '## 库存对账（不是实机完成率）', '', '| 状态 | 条数 |', '| --- | ---: |']
+        out += [f'| {k} | {v} |' for k, v in report['inventorySummary'].items()]
     out += ['', '运行词典与采集时词典完全一致：' + str(report['catalogMatchesCaptured']),
             '第一阶段完成：' + str(report.get('stage1Complete', False)),
             '动态库存译稿：' + str(len(report['inventoryLedger'])) + '条；译稿不等于已接入或已验收。', '', '## 待办', '']
@@ -311,6 +370,40 @@ def markdown(report):
     if report['gateErrors']:
         out += ['## 检查失败', ''] + ['- ' + x for x in report['gateErrors']]
     return '\n'.join(out)
+
+def inventory_markdown(status, drafts, template_count):
+    names = {'mapped': '已对齐完整文本与声明入口', 'partial': '仅部分组合接入',
+             'needs-composition': '待重建完整拼接', 'needs-parameters': '待确认参数语义',
+             'needs-route': '待落实显示入口', 'stage-2': '第二阶段固定界面'}
+    counts = collections.Counter(r['review']['conclusion'] for r in status['entries'])
+    out = ['# 动态库存逐项对账', '', f'审核基线：{status["reviewVersion"]}；库存{len(drafts)}条，运行模板{template_count}个。两者不是一一对应，不能以模板数计算完成率。', '',
+           '| 状态 | 条数 |', '| --- | ---: |']
+    out += [f'| {names[k]} | {counts[k]} |' for k in names]
+    pending = sum(counts[k] for k in ('needs-composition', 'needs-parameters', 'needs-route'))
+    out += ['', '“已对齐”仅证明候选完整原文在声明用途下对应可执行转换；其他位置继续受入口矩阵与实机验收约束。人工验收独立记录，未从离线结果批量提升。', '',
+            f'部分接入的{counts["partial"]}条与尚未接入的{pending}条继续属于第一阶段；{counts["stage-2"]}条设置／反馈界面安排第二阶段。已接入通用动作中的Ordnance等子类型名称仍待第三阶段。', '',
+            '## 下一批处理顺序', '',
+            '1. 伤害预告／转移／防止、生命值变化与上限：定位调用点，核对主语、时态和数量；只改显示，不改规则。',
+            '2. 目标选择与比较：最高／最低、手牌／场上牌、附加后果、免疫及数量上下界必须分开。',
+            '3. 牌区操作与结果：抽取、弃置、回收、召唤、放回、区域来源及成功／失败结果。',
+            '4. 阶段及异能组合：核对所有格、阶段图标、富文本层级和词典依赖。', '',
+            '## 已识别的审核问题', '',
+            '- 索引102的草稿把`{1}`当作次数，但完整证据存在`activate its`；参数语义尚未确认，禁止输出该草稿。',
+            '- 任意占位符正则可能把伤害提示误认作伤害结果。索引4、47、51、52等没有据此关闭。',
+            '- 索引99～101依赖已安装可选词典，SHA与实机安装记录一致；默认基础词典Display为空。条件词典仅参与指定契约，不能污染默认日志分类或虚报已覆盖入口。',
+            '- 片段、大小写变体、带额外后果的句子分别保留。没有完整组合证据时，优先追踪静态调用点，实机补充缺失状态；不能一律要求碰运气游玩。', '',
+            '## 全量明细', '',
+            '索引沿用原库存零起点。原文以JSON字符串显示，以保留前后空格与换行；契约为可执行的完整例句。', '',
+            '| 索引／键 | 原文 | 状态／作用范围 | 依据 | 下一步 |', '| --- | --- | --- | --- | --- |']
+    bykey = {r['key']: r for r in status['entries']}
+    def esc(s):
+        return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('|', '&#124;').replace('\n', ' / ')
+    for i, d in enumerate(drafts):
+        r = bykey[d['key']]; v = r['review']
+        refs = '; '.join(x['family'] + '/' + x['id'] for x in r.get('caseRefs', [])) or '暂无完整可执行链接'
+        out.append('| ' + ' | '.join(esc(x) for x in [str(i)+' / '+d['key'], json.dumps(d['original'], ensure_ascii=False),
+                   names[v['conclusion']]+'；'+v['reason']+v.get('scopeCondition', ''), refs, v['nextAction']]) + ' |')
+    return '\n'.join(out) + '\n'
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
@@ -335,7 +428,7 @@ def main():
     validate_contracts(contracts, templates)
     nonhero_summary = validate_nonhero_matrix(read(a.nonhero_matrix), contracts)
     drafts = read(ROOT / 'probe/dynamic-text-review.json')['entries']
-    inventory_status = validate_inventory(read(a.inventory_status), drafts, templates)
+    inventory_status = validate_inventory(read(a.inventory_status), drafts, templates, contracts)
     out = Path(a.out); out.mkdir(parents=True, exist_ok=True)
     replay_path = out / 'replay.json'
     subprocess.run([a.dotnet, 'run', '--project', str(ROOT / 'tools/coverage-replay/CoverageReplay.csproj'), '--',
@@ -344,6 +437,7 @@ def main():
                          drafts)
     report['gateErrors'].extend(validate_regression(read(a.regression), read(replay_path)))
     report['nonheroMatrix'] = nonhero_summary
+    report['inventorySummary'] = dict(collections.Counter(r['review']['conclusion'] for r in inventory_status.values()))
     for row in report['inventoryLedger']:
         status = inventory_status[row['key']]
         row['reviewedStatus'] = status
@@ -365,6 +459,7 @@ def main():
     report['stage1Complete'] = not closure and not report['gateErrors']
     write(out / 'report.json', report)
     (out / 'report.md').write_text(markdown(report), encoding='utf-8')
+    (out / 'inventory-review.md').write_text(inventory_markdown(read(a.inventory_status), drafts, len(templates)), encoding='utf-8')
     print(json.dumps({'summary': report['summary'], 'gateErrors': report['gateErrors']}, ensure_ascii=False))
     if report['gateErrors'] or (a.require_stage_1_complete and closure):
         raise SystemExit(1)

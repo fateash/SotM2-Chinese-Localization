@@ -3586,6 +3586,16 @@
       "id": "febc57f44de0fd4ef7283d55",
       "reason": "current-rule-match",
       "target": "<b>Captain Cosmic:</b> 点击一个区域，将Vitality Conduit打出至该处。"
+    },
+    {
+      "id": "01f1c2253f530c5f77cdc1fa",
+      "reason": "current-rule-match",
+      "target": "<b>Stealth Bot:</b> <b>Burning High Rise</b>将对<b>Arsenal Bot</b>造成2点火焰伤害。点击一张牌，先发动其效果。"
+    },
+    {
+      "id": "d386447b6229e35f787fc0dd",
+      "reason": "current-rule-match",
+      "target": "<b>Stealth Bot:</b> <b>Burning High Rise</b>将对<b>Unity</b>造成2点火焰伤害。点击一张牌，先发动其效果。"
     }
   ]
 }

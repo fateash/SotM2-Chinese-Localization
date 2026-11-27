@@ -1,45 +1,125 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "entries": [
     {
       "key": "literal.8bdb5c8b6de1b6c9730ec8fa",
       "sourceSha256": "8bdb5c8b6de1b6c9730ec8fa4c110c2465cc520d8f2463db7545dd14b1ac27df",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.draw.owner"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/pilot016-6d62d72515609eced47989c0"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "pilot016-6d62d72515609eced47989c0",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.e4afb2ee35c8f5efaf22d1d8",
       "sourceSha256": "e4afb2ee35c8f5efaf22d1d8ce676e13a64b3f5980cd9028cd3759987abc2b3b",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.trash.owner.discard"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/pilot017-54224b7ba4e2b3b1c4f0d081"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "pilot017-54224b7ba4e2b3b1c4f0d081",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.76687df483fc14211096a014",
       "sourceSha256": "76687df483fc14211096a0145051f5a4b022114d49d7397fbbabf8aedb718352",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "finish.destroy"
+      ],
+      "evidence": [
+        "coverage/contracts.json#confirmation/pilot014-bb00a3240d7bbd8c66c4fef8"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "confirmation",
+          "id": "pilot014-bb00a3240d7bbd8c66c4fef8",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.34ae577473adac3f52728fbf",
       "sourceSha256": "34ae577473adac3f52728fbf2deb6715b89b9c22173d135112fe09bb551b8e5d",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.attack.required"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/captured-hint-16"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "captured-hint-16",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.8267cc9c2dd28497b6667ea6",
@@ -49,7 +129,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。 伤害结果含多个动词／受事参数。不能把任意五段占位符匹配到伤害提示后认定同一语义。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.343799bfe1a9ac8275cf0e8a",
@@ -59,187 +149,547 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "needs-route",
+        "reason": "已有完整原文或明确数量结果，尚无该用途的完整入口契约；不归因为没有文本。",
+        "nextAction": "优先追踪生成方法及渲染调用，建立对应结果／提示控件契约，再接入译文。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.becf8a447d6c403ba4a319c5",
       "sourceSha256": "becf8a447d6c403ba4a319c5655c3220dac4b8048d627d29c7cded0f1f2f277c",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.1"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-6"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-6",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.5a9b5c80892f0a6e8f88c0e6",
       "sourceSha256": "5a9b5c80892f0a6e8f88c0e6f5de3368ab883876aafa79da8fe50e931435eda8",
-      "stage": 1,
+      "stage": 2,
       "translation": "draft",
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "stage-2",
+        "reason": "设置／反馈／系统固定界面，按既定顺序进入第二阶段；本轮未接入也未验收。",
+        "nextAction": "第一阶段结束后核对界面用途、完整文本、按钮和布局。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.f071264df8d4befd06562812",
       "sourceSha256": "f071264df8d4befd065628124c5799d0b153f1748a3fd44ff093c515781b3781",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "finish.damage"
+      ],
+      "evidence": [
+        "coverage/contracts.json#confirmation/finish-damage"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "confirmation",
+          "id": "finish-damage",
+          "relation": "format"
+        }
+      ],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。 确认按钮已支持数量与target/targets；第二参数若为其他单位仍未闭合。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.3182f33a9ed49cc6c5737e9a",
       "sourceSha256": "3182f33a9ed49cc6c5737e9a5af113212687ca63a0b3a4f2994a849333d20580",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.deal.one"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-9"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-9",
+          "relation": "format"
+        }
+      ],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.751309bfae75a9f555c0db8e",
       "sourceSha256": "751309bfae75a9f555c0db8e034f4d20a09b03f0de6df0b5832cb7d560e52655",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.2"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-10"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-10",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.6337845d154c8d168b07b7cb",
       "sourceSha256": "6337845d154c8d168b07b7cb8ef291f698f376ec3eedf8fc9a78b64f4b41a92a",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.3"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-11"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-11",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.1ce8c7cd8b8f61c5f79b5206",
       "sourceSha256": "1ce8c7cd8b8f61c5f79b52068821412e47e8f1078bbbcd34fb8e280414712373",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.deal.self"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-12"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-12",
+          "relation": "format"
+        }
+      ],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.2f181246e0ce15c805a61458",
       "sourceSha256": "2f181246e0ce15c805a61458fcfc324125c9d3c93eb7bfd642e906509fd39eb1",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.4"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-13"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-13",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.a5298cd9739200938f057bad",
       "sourceSha256": "a5298cd9739200938f057bad3d34b6ea54b7fe0e68e1d1098e4bbe146ad4884f",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.5"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-14"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-14",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.e5a39013355028e3f127ed48",
       "sourceSha256": "e5a39013355028e3f127ed48163696b97dbef6d761f71010524b70677cb33892",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.deal.many"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-15"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-15",
+          "relation": "format"
+        }
+      ],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.95de32b7bc9edad252bf1be2",
       "sourceSha256": "95de32b7bc9edad252bf1be257f541d281915b8433a0e1e809c29b8ab3660419",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.deal.amount"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-16"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-16",
+          "relation": "format"
+        }
+      ],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.116fff8f8eb885edcbb796a5",
       "sourceSha256": "116fff8f8eb885edcbb796a5705018be688c7c9ec184c2584433a28f4d8c79c7",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.6"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-17"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-17",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.52376dac5ecf2a3ff282d8d9",
       "sourceSha256": "52376dac5ecf2a3ff282d8d9187ed5cea48afebc1cffd27dc1b3a2d961e13a2c",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.7"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-18"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-18",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.0e2be41a5936407e36f16cd7",
       "sourceSha256": "0e2be41a5936407e36f16cd7ae44f4d23c845ab10fbe6b69e4c35cf2f520f641",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.8"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-19"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-19",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.6c5c3f431585efd600f6461a",
       "sourceSha256": "6c5c3f431585efd600f6461add4c24ec4403098956ddcad6e15b4682a400e520",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.9"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-20"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-20",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.0097378a5ff52ed7805f83e7",
       "sourceSha256": "0097378a5ff52ed7805f83e7e3e2004fe7d525cfba876a30af0e3731cc63a651",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.10"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-21"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-21",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.50d4b4c51c64d3bdc214f971",
       "sourceSha256": "50d4b4c51c64d3bdc214f97199cba042cfe10d0c78403ebf9a52034453909c26",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.11"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-22"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-22",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.4d6c2822b7897a6b009d5aa6",
       "sourceSha256": "4d6c2822b7897a6b009d5aa69218befe5d3306c91c47db4f93c010ea5cf8edee",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.12"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-23"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-23",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.a6a47d7ff91c20fbbd01aca5",
@@ -249,127 +699,377 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "needs-route",
+        "reason": "已有完整原文或明确数量结果，尚无该用途的完整入口契约；不归因为没有文本。",
+        "nextAction": "优先追踪生成方法及渲染调用，建立对应结果／提示控件契约，再接入译文。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.2a60e517f9f8bc65256a7918",
       "sourceSha256": "2a60e517f9f8bc65256a791848c310bb26d9b092ec4b0e2b4803ecfdf2e21573",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.13"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-25"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-25",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.6a333d89b4537251e6a345b8",
       "sourceSha256": "6a333d89b4537251e6a345b88943a6af67f391a375f95831fabe7494a6b1c433",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.14"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-26"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-26",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.d0debde2bc51fb2b0bf4a4c6",
       "sourceSha256": "d0debde2bc51fb2b0bf4a4c6d6e00aad3d527a0c2a01a781a2887e04a74dd9ac",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.15"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-27"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-27",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。 通用动作已接入；Ordnance作为卡组子类型保留原文，待第三阶段定名，不阻塞动作翻译。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.497d25a030b30ac7ffe5ed5f",
       "sourceSha256": "497d25a030b30ac7ffe5ed5f847da8d61e0de7bf40001a0b087dae27994a0482",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.16"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-28"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-28",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.11d58e224b6bcc6757881b7e",
       "sourceSha256": "11d58e224b6bcc6757881b7edb556f5be4ecd5e3a739b7e4e3cf88cc19b43f53",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.regain.hp"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-29"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-29",
+          "relation": "format"
+        }
+      ],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.507278bb2d9e25220780a23e",
       "sourceSha256": "507278bb2d9e25220780a23e83dd52d6178bdc4eb1850c878c3e649963175d81",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.17"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-30"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-30",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.e524362e18fe9d7b7a8f711c",
       "sourceSha256": "e524362e18fe9d7b7a8f711cd886cdca994c91c84b5804bddaa2ca97d0c3d28b",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.18"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-31"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-31",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.3d2a722351301aedf99ceec4",
       "sourceSha256": "3d2a722351301aedf99ceec4703f1c3be4b4034536e6c39020f5ba6ec07454d7",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.19"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-32"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-32",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.d01084a98855091e05daacf8",
       "sourceSha256": "d01084a98855091e05daacf83c9d05b6c21d5a38fd9026868aa493bf1bc3a7c3",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.20"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-33"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-33",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.a7037ebb2c73a8f205f45128",
       "sourceSha256": "a7037ebb2c73a8f205f45128d9037afe3b19360323d6ec0846820af830bd4c43",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.21"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-34"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-34",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.e27b90f8ee800101eaa57f3a",
       "sourceSha256": "e27b90f8ee800101eaa57f3aefa5d2cf52b17e3b023a63c883d0b60846d7bce7",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.skip.incapacitated"
+      ],
+      "evidence": [
+        "coverage/contracts.json#continue/pilot014-16acba676ba72634b58d41ec"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "continue",
+          "id": "pilot014-16acba676ba72634b58d41ec",
+          "relation": "format"
+        }
+      ],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。 现支持Skip Play/Power/Incapacitated Phase；不得推定任意阶段均已支持。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.7c67f8ce0cecde5ffd12aa21",
       "sourceSha256": "7c67f8ce0cecde5ffd12aa21970895e5714a576d508196e0139c316c2c8e937b",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.take.play"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hero-selection/pilot014-9709252ae85f267c9640fd00"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hero-selection",
+          "id": "pilot014-9709252ae85f267c9640fd00",
+          "relation": "format"
+        }
+      ],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。 仅Take Play Phase已有明确用途；其他阶段仍需核对。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.9a533b76467f622b1eca23aa",
@@ -379,7 +1079,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.bd501e74531c77e109029f31",
@@ -389,7 +1099,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "needs-route",
+        "reason": "已有完整原文或明确数量结果，尚无该用途的完整入口契约；不归因为没有文本。",
+        "nextAction": "优先追踪生成方法及渲染调用，建立对应结果／提示控件契约，再接入译文。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.d40751c1320167af33cd335e",
@@ -399,37 +1119,107 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "needs-route",
+        "reason": "已有完整原文或明确数量结果，尚无该用途的完整入口契约；不归因为没有文本。",
+        "nextAction": "优先追踪生成方法及渲染调用，建立对应结果／提示控件契约，再接入译文。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.ec9861ac1bb5f96bcc782497",
       "sourceSha256": "ec9861ac1bb5f96bcc782497eff9216307254ddc06709cfd9b98a913ff7e7e3c",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.22"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-40"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-40",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.47de3902f7813eb241907744",
       "sourceSha256": "47de3902f7813eb24190774490ed57e80819449592a430288f39c112d2cbf48b",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "button.common.23"
+      ],
+      "evidence": [
+        "coverage/contracts.json#effect-button/inventory-41"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "effect-button",
+          "id": "inventory-41",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.8f2dea3bc71bdaa0554cd844",
       "sourceSha256": "8f2dea3bc71bdaa0554cd844de2311f3d480c4955d812151df885a8264b54d2f",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "finish.discard"
+      ],
+      "evidence": [
+        "coverage/contracts.json#confirmation/inventory-existing-discard"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "confirmation",
+          "id": "inventory-existing-discard",
+          "relation": "format-fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。 仅数量卡牌短语在完整弃置确认句中有证据，不能将自由{0}解释为任意文本。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.18e132c9eae5cb14feec81b2",
@@ -439,7 +1229,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-route",
+        "reason": "已有完整原文或明确数量结果，尚无该用途的完整入口契约；不归因为没有文本。",
+        "nextAction": "优先追踪生成方法及渲染调用，建立对应结果／提示控件契约，再接入译文。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.392c7002192b7ef7b1e1d4a5",
@@ -449,7 +1249,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.2db2da940537ebaaf0114cf7",
@@ -459,7 +1269,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.6a1851ca33e36844aa3e3c11",
@@ -469,7 +1289,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-route",
+        "reason": "已有完整原文或明确数量结果，尚无该用途的完整入口契约；不归因为没有文本。",
+        "nextAction": "优先追踪生成方法及渲染调用，建立对应结果／提示控件契约，再接入译文。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.13e9e4f29ba2b9ba600e6bd6",
@@ -479,7 +1309,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。 带Click a hero to的选择提示并不能证明此格式的{0}是同一种主语；需检查调用点。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.c07dfdb50da5fa7c527b59b5",
@@ -489,7 +1329,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.46cb1dedc890a791c3d63c75",
@@ -499,7 +1349,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.ef010cef6c62e3456818e8fb",
@@ -509,7 +1369,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.0af5f26910d9e3ee5e17f905",
@@ -519,7 +1389,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。 主语、动词、数量、类型、尾随条件均未完整约束；伤害提示命中不证明战斗结果已接入。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.9dac0106a9b52d3cb43490fe",
@@ -529,7 +1409,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。 相邻{0}{1}无法确定数量、范围修饰与空格的责任，不能由Damage 3 targets倒推全部格式。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.60bd4cbcacd8036676232bc6",
@@ -539,7 +1429,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.ca0ca4630aea93fda6b9e15b",
@@ -549,7 +1449,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "stage-2",
+        "reason": "设置／反馈／系统固定界面，按既定顺序进入第二阶段；本轮未接入也未验收。",
+        "nextAction": "第一阶段结束后核对界面用途、完整文本、按钮和布局。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.9dc683a42bc4c4eda9af0acc",
@@ -559,7 +1469,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "stage-2",
+        "reason": "设置／反馈／系统固定界面，按既定顺序进入第二阶段；本轮未接入也未验收。",
+        "nextAction": "第一阶段结束后核对界面用途、完整文本、按钮和布局。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.14caa34363314aa7d2efb906",
@@ -569,7 +1489,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "stage-2",
+        "reason": "设置／反馈／系统固定界面，按既定顺序进入第二阶段；本轮未接入也未验收。",
+        "nextAction": "第一阶段结束后核对界面用途、完整文本、按钮和布局。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.0a307c9b59fcf21155115340",
@@ -579,7 +1509,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "stage-2",
+        "reason": "设置／反馈／系统固定界面，按既定顺序进入第二阶段；本轮未接入也未验收。",
+        "nextAction": "第一阶段结束后核对界面用途、完整文本、按钮和布局。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.e59fa2eca50ca40192a29817",
@@ -589,7 +1529,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "stage-2",
+        "reason": "设置／反馈／系统固定界面，按既定顺序进入第二阶段；本轮未接入也未验收。",
+        "nextAction": "第一阶段结束后核对界面用途、完整文本、按钮和布局。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.ebc35be56f3eba3d16ed5349",
@@ -599,7 +1549,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "stage-2",
+        "reason": "设置／反馈／系统固定界面，按既定顺序进入第二阶段；本轮未接入也未验收。",
+        "nextAction": "第一阶段结束后核对界面用途、完整文本、按钮和布局。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.07da520dda1e63a11eb3f764",
@@ -609,7 +1569,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "stage-2",
+        "reason": "设置／反馈／系统固定界面，按既定顺序进入第二阶段；本轮未接入也未验收。",
+        "nextAction": "第一阶段结束后核对界面用途、完整文本、按钮和布局。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.8f1f3ac9dda2febbead693fd",
@@ -619,7 +1589,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "stage-2",
+        "reason": "设置／反馈／系统固定界面，按既定顺序进入第二阶段；本轮未接入也未验收。",
+        "nextAction": "第一阶段结束后核对界面用途、完整文本、按钮和布局。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.1a463daf2c8d4d0d53c2a66e",
@@ -629,7 +1609,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "stage-2",
+        "reason": "设置／反馈／系统固定界面，按既定顺序进入第二阶段；本轮未接入也未验收。",
+        "nextAction": "第一阶段结束后核对界面用途、完整文本、按钮和布局。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.2e032cd7da31d52236e0f2c1",
@@ -639,7 +1629,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "stage-2",
+        "reason": "设置／反馈／系统固定界面，按既定顺序进入第二阶段；本轮未接入也未验收。",
+        "nextAction": "第一阶段结束后核对界面用途、完整文本、按钮和布局。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.1265eb92a9705f1cbca91e7d",
@@ -649,7 +1649,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "stage-2",
+        "reason": "设置／反馈／系统固定界面，按既定顺序进入第二阶段；本轮未接入也未验收。",
+        "nextAction": "第一阶段结束后核对界面用途、完整文本、按钮和布局。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.e41869c22c74dd4600582b0c",
@@ -659,7 +1669,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "stage-2",
+        "reason": "设置／反馈／系统固定界面，按既定顺序进入第二阶段；本轮未接入也未验收。",
+        "nextAction": "第一阶段结束后核对界面用途、完整文本、按钮和布局。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.010f75d91ee8fdbf890f6770",
@@ -669,17 +1689,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。 库存使用大写Hero；现有完整提示为小写hero，大小写相关不等于此字符串已命中。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.5f0de4426f971428743f8f30",
       "sourceSha256": "5f0de4426f971428743f8f30b1f9ea25f669e1e30549f1c37374c1d84893fc7b",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.damage.type"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-67"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-67",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.46c11185f4e66cfc9d46b92f",
@@ -692,289 +1742,864 @@
         "hint.phase.activate"
       ],
       "evidence": [
-        "tests/runtime/Program.cs:phase enum and matching sprite/title cases",
-        "tests/fixtures/dynamic-0.1.12.json"
-      ]
+        "coverage/contracts.json#hint/inventory-68"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-68",
+          "relation": "format"
+        }
+      ],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。 阶段名与sprite须一致；完整提示已接入，其他控件位置仍按矩阵验收。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.a15436995c9faf71c0758665",
       "sourceSha256": "a15436995c9faf71c07586651aae53b9eb554100a33a1d57c7fa56213ff17642",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.hero.destroy"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/captured-hint-13"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "captured-hint-13",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.693ba61eb755e0801dd51901",
       "sourceSha256": "693ba61eb755e0801dd519015da10de626fca6658cba1493f249683dea42e788",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.incapacitated"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-70"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-70",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.3960ad918905446d851220bb",
       "sourceSha256": "3960ad918905446d851220bba58ec17e43ebf8545ab58d0c0be83abb9cf80e55",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.attack.order"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/captured-hint-0"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "captured-hint-0",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.ef164875490ed7a183c7a611",
       "sourceSha256": "ef164875490ed7a183c7a6112645d39a51f29ec3a687d5c6c00ad73c92b8f53f",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.hero.fewest"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/captured-hint-19"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "captured-hint-19",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.fc6b39a7beb1177e56673530",
       "sourceSha256": "fc6b39a7beb1177e56673530112841f8be3dfbc7e24ee2c10251d45e702c88dd",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.1"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-73"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-73",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.628d650255644c457399f970",
       "sourceSha256": "628d650255644c457399f970a33bd0d7d0404059cd0c51629320075e2a6b7466",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.2"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-74"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-74",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.008021b2cdc902bd4d49e950",
       "sourceSha256": "008021b2cdc902bd4d49e95066f5387eb7014e56cb0a077db6efec846ba44689",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.3"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-75"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-75",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.34e9cd4f8f90912c2642345c",
       "sourceSha256": "34e9cd4f8f90912c2642345cbcb356d2c95734f2d1807fc117de6ba364e317c7",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.4"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-76"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-76",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.5fc4d90d00eba9b5b337797d",
       "sourceSha256": "5fc4d90d00eba9b5b337797d6990dc67b56f3bcc3f86e7ca205be78b928b63cc",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.5"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-77"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-77",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.337b4c9d5b0dc7c27883e795",
       "sourceSha256": "337b4c9d5b0dc7c27883e79541a4e381f4090760b43631956c85e89a7dafd355",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.6"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-78"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-78",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.642ba431d9c6e09e1f6f94c6",
       "sourceSha256": "642ba431d9c6e09e1f6f94c6f8c5c1fe7ab5ed873247a76249eb6db5e28d9ee2",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.7"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-79"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-79",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.55574c203bbbc5634041ae4b",
       "sourceSha256": "55574c203bbbc5634041ae4ba1a1a694eb225d83f13c9b4e478732a7365b62e5",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.8"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-80"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-80",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.ca9dbb01be7f61865926b507",
       "sourceSha256": "ca9dbb01be7f61865926b507c23f1847a9c9eb230da44bb82a7e84c5143761e5",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.9"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-81"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-81",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.2be4037bea7691ccb1731b96",
       "sourceSha256": "2be4037bea7691ccb1731b966de2f4015253e4384ba9cba16df5d4058dbb8772",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.10"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-82"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-82",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.cb3339dada59d0bd91fc19a8",
       "sourceSha256": "cb3339dada59d0bd91fc19a81de8b3666138d8c74afe068c3b437ee337817722",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.11"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-83"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-83",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.e7ae1ca5305bd02be87b8f49",
       "sourceSha256": "e7ae1ca5305bd02be87b8f49d5d83946e58e85a89b4967e3fd86fc90cf0d8587",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.12"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-84"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-84",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.7e5bb5dca1cd5daafebf2932",
       "sourceSha256": "7e5bb5dca1cd5daafebf29326686318b2bb3eb11b6c4afb407839ba15c12cb09",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.13"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-85"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-85",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.c5b9c93ee2e61e28d424519f",
       "sourceSha256": "c5b9c93ee2e61e28d424519fe52282eb6d93b1d493699e86ac9fd2540c571d63",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.14"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-86"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-86",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.066a5e6f4bde118921c297b1",
       "sourceSha256": "066a5e6f4bde118921c297b1980832a0bee4ab8acefb67a15a23ce3abb039ee7",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.15"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-87"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-87",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.b24c64e48ea675a79981a976",
       "sourceSha256": "b24c64e48ea675a79981a9766aa186e2450a29fd2ba20165ba9ad315b076c63a",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.16"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-88"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-88",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.3cb7e8a4600bdf5264ba6134",
       "sourceSha256": "3cb7e8a4600bdf5264ba6134d55d988becf1e73c1769cc0a4aed3bac1d8dfb09",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.17"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-89"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-89",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.8c936d67e0ce418ccd73c5e5",
       "sourceSha256": "8c936d67e0ce418ccd73c5e597ebedb2c88c507016135ab953e7c20b51a9c477",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.18"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-90"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-90",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.82e0ef75925e11018d3b7da0",
       "sourceSha256": "82e0ef75925e11018d3b7da06aa8824810e7f78298774eae03471b682f0c2038",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.19"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-91"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-91",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.3a31d645a789a28ae0f97bbf",
       "sourceSha256": "3a31d645a789a28ae0f97bbff596208867abf20276b540144ab7beb40988ce2b",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.20"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-92"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-92",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.d6aa6227a521278cda6236f9",
       "sourceSha256": "d6aa6227a521278cda6236f924543f0174d9777bfafe143250cbb64ce90a666c",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.21"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-93"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-93",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.59a6d93cf66ed8bd53d29297",
       "sourceSha256": "59a6d93cf66ed8bd53d2929750c4fe0ab3972da29b53365f5a8950cd5762e916",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.22"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-94"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-94",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.59911e8835280efff4da6af1",
       "sourceSha256": "59911e8835280efff4da6af13c86f66720a6c25deab97efce9fe41324cbd2db6",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.23"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-95"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-95",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.f3a8fd6fb05f51a13961b542",
       "sourceSha256": "f3a8fd6fb05f51a13961b542d0098ef5825f05f1776e4be54849c629cec22ec1",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.24"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-96"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-96",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.be9f2024eb14e69831ac52f8",
@@ -984,7 +2609,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.3bbc130f224342c0d982ade3",
@@ -994,37 +2629,122 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。 含字号、换行和voffset的组合格式；阶段内部能替换不代表标题等其他参数已翻译。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.60e5e1061cba2b68f60f5f60",
       "sourceSha256": "60e5e1061cba2b68f60f5f60d64045bd231e667541d19a263c8ea311974b48d5",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [
+        "coverage/contracts.json#conditional-catalog/optional-93",
+        "coverage/contracts.json#conditional-catalog/optional-94",
+        "coverage/contracts.json#conditional-catalog/optional-95"
+      ],
+      "catalogIds": [
+        "optional-terms-0.1.6"
+      ],
+      "caseRefs": [
+        {
+          "family": "conditional-catalog",
+          "id": "optional-93",
+          "relation": "exact"
+        },
+        {
+          "family": "conditional-catalog",
+          "id": "optional-94",
+          "relation": "exact"
+        },
+        {
+          "family": "conditional-catalog",
+          "id": "optional-95",
+          "relation": "exact"
+        }
+      ],
+      "review": {
+        "sourceKind": "complete",
+        "conclusion": "mapped",
+        "reason": "完整原文／数值格式已对齐实际模板及已声明用途，离线契约执行其输出。 已安装可选词典的三个正文控件支持PowerHeading；默认基础词典Display为空，不能省略此条件。",
+        "nextAction": "检查声明入口的画面、点击与数值变化；其他入口按功能矩阵继续核查。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者",
+        "scopeCondition": "仅在Display含optional-terms-0.1.6的已审核映射时；词典SHA256 6549cf8ad931b11188fc8b8adedca39f3e283aaf8878fbc44cb557fc256037c5。"
+      }
     },
     {
       "key": "literal.945322b9ceb6bbea63ff4b0c",
       "sourceSha256": "945322b9ceb6bbea63ff4b0c6f25723018a3528c42bdcff7641b26c5c53f5f26",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [
+        "coverage/contracts.json#conditional-catalog/inventory-100"
+      ],
+      "catalogIds": [
+        "optional-terms-0.1.6"
+      ],
+      "caseRefs": [
+        {
+          "family": "conditional-catalog",
+          "id": "inventory-100",
+          "relation": "format"
+        }
+      ],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。 可选词典支持Start/Play/Power/Draw/End的样式值，保持voffset后缀；失能值及其他控件未闭合。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者",
+        "scopeCondition": "仅在Display含optional-terms-0.1.6的已审核映射时；词典SHA256 6549cf8ad931b11188fc8b8adedca39f3e283aaf8878fbc44cb557fc256037c5。"
+      }
     },
     {
       "key": "literal.54874f0da61233492484424c",
       "sourceSha256": "54874f0da61233492484424c2cbe9c395a1199464fb65f5c5d5c1dd598acf6b7",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [
+        "coverage/contracts.json#conditional-catalog/optional-19"
+      ],
+      "catalogIds": [
+        "optional-terms-0.1.6"
+      ],
+      "caseRefs": [
+        {
+          "family": "conditional-catalog",
+          "id": "optional-19",
+          "relation": "format"
+        }
+      ],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。 可选词典已覆盖五种普通阶段的Phase Label；失能阶段和其他显示位置不得自动认定。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者",
+        "scopeCondition": "仅在Display含optional-terms-0.1.6的已审核映射时；词典SHA256 6549cf8ad931b11188fc8b8adedca39f3e283aaf8878fbc44cb557fc256037c5。"
+      }
     },
     {
       "key": "literal.884e178cb96eb670132dc6e2",
@@ -1034,7 +2754,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。 现译稿将{1}解释为次数，证据却存在activate its；参数可能是所有格，必须重审而非直接输出。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.496eee04d0d68892529a0382",
@@ -1044,7 +2774,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.758925c3cf7ae4088130173e",
@@ -1054,17 +2794,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.47fcbf25e98ffdbea4f0bea1",
       "sourceSha256": "47fcbf25e98ffdbea4f0bea154497c14c9566fb05acb168e48bbb30568d99326",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.reaction.first"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/pilot018-01f1c2253f530c5f77cdc1fa"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "pilot018-01f1c2253f530c5f77cdc1fa",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。 新模板仅覆盖带来源标题及伤害预告的先发动提示；其他前缀组合仍需重建完整句。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.18c26e11c24caa7f7d8c8858",
@@ -1074,7 +2844,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.ca6f860b4b91cb8a1625c658",
@@ -1084,7 +2864,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.506d85a8905a875f6db5e122",
@@ -1094,27 +2884,77 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.aa5971a22517a0fd423a5ce5",
       "sourceSha256": "aa5971a22517a0fd423a5ce5102b2d1d96344178a76ef52343bd82c52037192b",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.play.click"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-existing-play"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-existing-play",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.b7bd3fa270795896f6255d8a",
       "sourceSha256": "b7bd3fa270795896f6255d8a0daf5d452025095e3a376d3fd16d218804c9d5ec",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.power.click"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-existing-power"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-existing-power",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.1d764389d10c7f0c8fa5b916",
@@ -1124,7 +2964,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.15fbfc6e7812e871546a5ceb",
@@ -1134,7 +2984,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.4178513a4bf39ea06aac4faf",
@@ -1144,7 +3004,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.89da694e944658e5b321e3f7",
@@ -1154,7 +3024,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.653135cd182549c7ba3fac90",
@@ -1164,7 +3044,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.4c089d61ded1d165744ffe60",
@@ -1174,17 +3064,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.22e41e8b418814cd6e980f36",
       "sourceSha256": "22e41e8b418814cd6e980f36f79d6db824286c5dff1cce956efde2b470510254",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.attack.order"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/captured-hint-0"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "captured-hint-0",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.a237afa63b951aa1a702990b",
@@ -1194,17 +3114,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.80cfc93992898f1f79acb7aa",
       "sourceSha256": "80cfc93992898f1f79acb7aa0b745d29c5a6b4a8faa7d36877abc21c38757829",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.attack.order"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/captured-hint-0"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "captured-hint-0",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.8b557a3fc8096ff67ed7faff",
@@ -1214,7 +3164,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.27090a5be3bbb99a9b47d16c",
@@ -1224,7 +3184,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.38de616614c19596e83376de",
@@ -1234,7 +3204,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.3bc8f7e48dd1cd7fcb9391a6",
@@ -1244,7 +3224,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。 “不会受到伤害”限定不可由无该限定的最低生命值提示类推。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.d8d3dacf4197eb955872a3bb",
@@ -1254,7 +3244,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.9df9462e7657d5fdb228bd15",
@@ -1264,22 +3264,48 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。 最低生命值带“不受伤害”限定；现有无括号提示不覆盖此变体。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.e5806a4871547a3baea9c5d8",
       "sourceSha256": "e5806a4871547a3baea9c5d859e85811dacc3b207cb88fb3b1b25acb6fc54747",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
       "templateIds": [
         "hint.lowest.hp"
       ],
       "evidence": [
-        "tests/fixtures/dynamic-0.1.12.json:one complete-sentence composition only"
+        "coverage/contracts.json#hint/pilot013-1196a364145819ad099bc019"
       ],
-      "coverageNote": "仅覆盖Click a target to前缀的已观察组合；其他组合未据此结项。"
+      "coverageNote": "仅覆盖Click a target to前缀的已观察组合；其他组合未据此结项。",
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "pilot013-1196a364145819ad099bc019",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.f94f0c811e7f950da9ae8e49",
@@ -1289,7 +3315,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.2dc8ba54025163f6fb460d59",
@@ -1299,17 +3335,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.952d4906f7829c93d48bfd5a",
       "sourceSha256": "952d4906f7829c93d48bfd5a2eff1bd7a170800446d665b2f526e62ed33f6fd4",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.replace-discard"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/pilot016-10d98167c99a8e632c0ff3b6"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "pilot016-10d98167c99a8e632c0ff3b6",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.bd536c54e6dcb03472959831",
@@ -1319,57 +3385,167 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.0105553aa12e2555502ed954",
       "sourceSha256": "0105553aa12e2555502ed954f034e84625ef657f21a155526d50c4eab0bdfe0f",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.draw.owner"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/pilot016-6d62d72515609eced47989c0"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "pilot016-6d62d72515609eced47989c0",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.25b8cffd55d9f98b2aa9438b",
       "sourceSha256": "25b8cffd55d9f98b2aa9438b6cbd822b9687a48ae3d87f7e9b20abc4378910f3",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.draw-discard"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-existing-draw-discard"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-existing-draw-discard",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.41e541e17c7add9bb7bc8645",
       "sourceSha256": "41e541e17c7add9bb7bc864520c2726479e21054b2df6581ea3513c453f11442",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.replace-discard"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/pilot016-10d98167c99a8e632c0ff3b6"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "pilot016-10d98167c99a8e632c0ff3b6",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.35cb827d880197a1da4de935",
       "sourceSha256": "35cb827d880197a1da4de935a4e2121d0d687f689302b46f5ab46e37ac0457bf",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.prevent.dealing"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/pilot015-6d42939e3144b82725fb40e7"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "pilot015-6d42939e3144b82725fb40e7",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.42953cf73189d7f19a387d19",
       "sourceSha256": "42953cf73189d7f19a387d19bb7754bdf36e693f5d2bb0bf25b4fd275da73079",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "result.hp"
+      ],
+      "evidence": [
+        "coverage/contracts.json#result-message/pilot014-76e047162721a9b11007fef5"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "result-message",
+          "id": "pilot014-76e047162721a9b11007fef5",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.f79cddd04c01967f93d2acf5",
@@ -1379,7 +3555,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。 结局措辞与已有victory模板不同；必须核对精确英文及标点，不能按胜负意义归并。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.ab2ca5915f399904c7dd1373",
@@ -1389,7 +3575,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.4fa6b316fc40e16cb90749f9",
@@ -1399,7 +3595,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.c575aebffe3ee33046d94fbd",
@@ -1409,7 +3615,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.90a38c95793d4e9bd390423f",
@@ -1419,7 +3635,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.413ffe2231ef2acaef0af86f",
@@ -1429,7 +3655,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.95aede09563d84314adf0d59",
@@ -1439,17 +3675,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.c368f1687c46a50ec563d4c9",
       "sourceSha256": "c368f1687c46a50ec563d4c987108e0f8822eccc359f115c7f3708790e08a850",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.hero.fewest"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/captured-hint-19"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "captured-hint-19",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.e33734b3f07af3ea06784535",
@@ -1459,7 +3725,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。 most Ongoing与most cards语义不同，须保留持续牌限定。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.86fbf65f2dc5950b422110f9",
@@ -1469,7 +3745,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。 手牌最多与场上牌最多分开，现有选择标题不代表完整提示已覆盖。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.11af071bfc1b6c45a1cc009f",
@@ -1479,17 +3765,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。 带受伤且破坏牌后果的提示；不得复用无附加条件版本吞掉后缀。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.b2ae691ce3346d86bfbd8dd5",
       "sourceSha256": "b2ae691ce3346d86bfbd8dd5d7aecdbe3e80006702128e1919c6fe5ddd7b4ff3",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.hero.most.play"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/pilot017-27485448cf258f7c5fbb68ad"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "pilot017-27485448cf258f7c5fbb68ad",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.bbad0f65793338335c0b1d3f",
@@ -1499,7 +3815,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.f7d1b44c2cd501d56069a078",
@@ -1509,17 +3835,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.4a34c0d07c729353e3372ad6",
       "sourceSha256": "4a34c0d07c729353e3372ad614cb0a3f1b9d57f523c2d4f25df712b95e2cd177",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.hero.topdeck"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-existing-topdeck"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-existing-topdeck",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.6ac470e678f113c9b88a5984",
@@ -1529,7 +3885,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.db41dac8bd969a61e181d5a7",
@@ -1539,17 +3905,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.09e1846fe781bf9665b451cf",
       "sourceSha256": "09e1846fe781bf9665b451cfba634108e0d743e99e7a0c4068833f5f010b6cd5",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.reduce"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-existing-reduce"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-existing-reduce",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.da4cf5e5a1280c51c4445d15",
@@ -1559,27 +3955,77 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.956ee9b311fc0a605212b1ec",
       "sourceSha256": "956ee9b311fc0a605212b1ec456926e2e8b32897c2eb27b6af6e8327b1a1339c",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.hero.salvage"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/pilot017-41dfe12caceb49c7d6259641"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "pilot017-41dfe12caceb49c7d6259641",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.c351d21ff9c64a8b5c54f77f",
       "sourceSha256": "c351d21ff9c64a8b5c54f77f246bc829adc77bf32340ed3f2cd70d9cfdb7a5c2",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.summon.deck.trash"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/pilot015-eab58b99f364ef8522cf50cd"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "pilot015-eab58b99f364ef8522cf50cd",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.9a192c6e0b40a2f8be7b2718",
@@ -1589,17 +4035,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.7b686fff604e71b1a6fc3774",
       "sourceSha256": "7b686fff604e71b1a6fc37742bfa5b6d9c670c0be1b66d8ab32bec2b4f3226d3",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.attack.order"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/captured-hint-0"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "captured-hint-0",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.149ba7afe20117ad94e3ebfc",
@@ -1609,7 +4085,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.901f2441ef46ea980055e2c8",
@@ -1619,7 +4105,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。 大写Discard片段与小写完整动作不是同一原文；需核对完整拼接。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.bc2c28c1e0e8048f992b4a46",
@@ -1629,17 +4125,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。 大写Salvage片段需追踪其实际调用点；已有小写提示不能直接结项。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.e2d38a8305c7019abb2540b6",
       "sourceSha256": "e2d38a8305c7019abb2540b6cf7690bae7788e27c91e09a136eb133e6b284afe",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.14"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-86"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-86",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.e40037502c741bd77922d3df",
@@ -1649,7 +4175,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.81ae3ce894550788a2dd9085",
@@ -1659,7 +4195,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.f17c01f49d8fc5e2402c17bb",
@@ -1669,7 +4215,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.a2fe8989ee2bfe1aab7474e5",
@@ -1679,7 +4235,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.6f0de725338bf93610b70274",
@@ -1689,17 +4255,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。 Trash大小写及目的地区别需核对，不得从普通弃置按钮倒推。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.61a12b4d9b487c8a9f88d904",
       "sourceSha256": "61a12b4d9b487c8a9f88d90432ee75ea181c8d4eb33a371eb88ad219444f94ca",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.prevent.dealing"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/pilot015-6d42939e3144b82725fb40e7"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "pilot015-6d42939e3144b82725fb40e7",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.2266488e3484ac0f110eda65",
@@ -1709,7 +4305,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.16a00daf7b8988ce5e9013eb",
@@ -1719,7 +4325,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.6f7062652171d8e60688d68c",
@@ -1729,7 +4345,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.dfe994e28fb1310827842c84",
@@ -1739,17 +4365,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.8ba1c2cf3953e2ae419058b3",
       "sourceSha256": "8ba1c2cf3953e2ae419058b328f77ac1085e080f8562ec38cddd68d93b8f8e85",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.selection.12"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-84"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-84",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.733dba16cd05d6d93a90a797",
@@ -1759,17 +4415,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.d9169628043510911071272d",
       "sourceSha256": "d9169628043510911071272db2e8a0d5ce2df8ae26992f3c7e591d61e49a0ffe",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.hero.power"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-existing-hero-power"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-existing-hero-power",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.dd8f49e93f86c1d0b1251d69",
@@ -1779,27 +4465,77 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.a364c49dd67a6ac78c6f2bec",
       "sourceSha256": "a364c49dd67a6ac78c6f2bece40dcb908f3a039252f1a4c6bb0fd35bd7ffff47",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "heading.cards.next"
+      ],
+      "evidence": [
+        "coverage/contracts.json#related-cards/next-to-composed"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "related-cards",
+          "id": "next-to-composed",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.3e0e13ef6bcb00ca51262685",
       "sourceSha256": "3e0e13ef6bcb00ca512626850cdef91efddbd6321077f708bb2413e06c22787b",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "heading.cards.under"
+      ],
+      "evidence": [
+        "coverage/contracts.json#related-cards/pilot015-1ad24c2ecf773124658ee16c"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "related-cards",
+          "id": "pilot015-1ad24c2ecf773124658ee16c",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.9808491772220ccf16093b6e",
@@ -1809,7 +4545,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.3359cebec8f00a1a5b7175b0",
@@ -1819,17 +4565,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.845be99fc787b25787fd8c30",
       "sourceSha256": "845be99fc787b25787fd8c3032b6af3499553ec15b8a0410859258d72bedea04",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "finish.discard"
+      ],
+      "evidence": [
+        "coverage/contracts.json#confirmation/inventory-existing-discard"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "confirmation",
+          "id": "inventory-existing-discard",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.797a57dcb72598ad58186e67",
@@ -1839,7 +4615,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.49f6d813a09a7a711201dacd",
@@ -1849,7 +4635,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.d555c2f9a7c260db14607801",
@@ -1859,7 +4655,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.aacfb8daac9a579f3669b9a7",
@@ -1869,7 +4675,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.146354e190fce4e94193dfb5",
@@ -1879,7 +4695,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.7aab5aa94097e62643805d57",
@@ -1889,7 +4715,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P3-牌区与结果",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.fec9464e03453bca6ab32b59",
@@ -1899,37 +4735,107 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.da0d4b103341f3e6b5a9e1ee",
       "sourceSha256": "da0d4b103341f3e6b5a9e1ee3ee34a2088e6db1b6d67613db33cd3eeefd2744b",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.hero.destroy"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/captured-hint-13"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "captured-hint-13",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.81bb07ef759f1f09f3d1d2e7",
       "sourceSha256": "81bb07ef759f1f09f3d1d2e78d0cd00b7f680d0b1c07566322260a2d15dd11e7",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.deck.reveal"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/inventory-existing-deck"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "inventory-existing-deck",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.6b6c9985c94d3beed27aa378",
       "sourceSha256": "6b6c9985c94d3beed27aa3786757dce45a1b7fe9fb67100d2a7bf2fd727136e4",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.lowest.hp"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/pilot013-1196a364145819ad099bc019"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "pilot013-1196a364145819ad099bc019",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.36f531f3a130aaa92cdd8515",
@@ -1939,7 +4845,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.81f6091117739feb074328c1",
@@ -1949,7 +4865,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.d04caa000443d112a4725737",
@@ -1959,7 +4885,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。 between上下界、额外修饰和单复数参数待核对；不能降格为up to。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.740449e18f99683aa399ae3a",
@@ -1969,7 +4905,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.eba8b67bb55d19146879278f",
@@ -1979,7 +4925,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.2a6a878a8918da9f47485ce8",
@@ -1989,7 +4945,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.e1febedcaf1b762217b2c48e",
@@ -1999,7 +4965,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.ee097e9a93e6917e323fc931",
@@ -2009,17 +4985,47 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.4a1380867f744a778ebe2b15",
       "sourceSha256": "4a1380867f744a778ebe2b1526c9c8b35de382a0d9cf0edb7c2a16357f6b74d8",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.hero.fewest"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/captured-hint-19"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "captured-hint-19",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.b85c311aa4da6a1b35135cf4",
@@ -2029,7 +5035,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.4fc9dcfce616ffe0cb185fb6",
@@ -2039,7 +5055,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.b8835cfc384b07ecc7c419ad",
@@ -2049,7 +5075,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.390d361722936d858c04d0a1",
@@ -2059,27 +5095,77 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.67d9d0e580142b29777d4a4c",
       "sourceSha256": "67d9d0e580142b29777d4a4c4c94a4738ab016e49f0d56280fa74221f93b2eea",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.collect.deck"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/pilot015-bda00be0cc4af4699789c945"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "pilot015-bda00be0cc4af4699789c945",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.ceabf4582935c3aaeb3e18e8",
       "sourceSha256": "ceabf4582935c3aaeb3e18e83a38d75bcee75db96d3d8f5dd4bc3cf24b618bd7",
       "stage": 1,
       "translation": "draft",
-      "display": "pending",
+      "display": "partial",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.summon.deck.trash"
+      ],
+      "evidence": [
+        "coverage/contracts.json#hint/pilot015-eab58b99f364ef8522cf50cd"
+      ],
+      "catalogIds": [],
+      "caseRefs": [
+        {
+          "family": "hint",
+          "id": "pilot015-eab58b99f364ef8522cf50cd",
+          "relation": "fragment"
+        }
+      ],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "partial",
+        "reason": "该片段或格式在引用的完整句式中已有实现，但未枚举所有调用方、参数或入口，保留部分接入。",
+        "nextAction": "枚举该片段的调用点与完整组合，补齐其他变体；不可全局替换或仅凭子串关系结项。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.b5e006e64e73b705e2867d01",
@@ -2089,7 +5175,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.4874fac2631c6c10d501db6e",
@@ -2099,7 +5195,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.23353a6a06aacb6a0230dd0d",
@@ -2109,7 +5215,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P1-伤害与生命值交互",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.6a6d5979598f99d78b742d87",
@@ -2119,7 +5235,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.b2b365960fcd75c52ec0426c",
@@ -2129,7 +5255,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整选择／操作提示，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.ff7c6c8de4c4ee0a8c4bc237",
@@ -2139,7 +5275,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "format",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。 最大数量与附加修饰分属两个参数，当前up to N攻击提示不足以关闭全部组合。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.b786ec7c553ee5464915520b",
@@ -2149,7 +5295,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。 X按被破坏目标破坏前生命值计算；需定位完整提示，不能省略时间限定。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.13f711834b544243b82d3904",
@@ -2159,7 +5315,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。 X同时计入指定英雄区域的持续牌和物品牌；待核对完整提示与参数。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.0f6829b77e08ad4d51ed8cb0",
@@ -2169,7 +5335,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-parameters",
+        "reason": "已有库存格式，但参数语义或完整调用上下文尚未落实，不能安全生成通用显示规则。 X来自弃置的Magma Crystal数量；名称后审，但通用X说明仍属第一阶段。",
+        "nextAction": "从提取代码调用点确认各参数来源、允许值、拼接顺序和完整控件用途，再写正反例。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.d1a255c02a6e622221ba788c",
@@ -2179,7 +5355,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.c520012fdc48cdd98d43df51",
@@ -2189,7 +5375,17 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     },
     {
       "key": "literal.ea2323ce4dba6d4457f9d3b5",
@@ -2199,7 +5395,18 @@
       "display": "pending",
       "live": "pending",
       "templateIds": [],
-      "evidence": []
+      "evidence": [],
+      "catalogIds": [],
+      "caseRefs": [],
+      "review": {
+        "sourceKind": "fragment",
+        "conclusion": "needs-composition",
+        "reason": "库存仅能证明该片段存在；尚未对齐可执行的完整句式与显示入口。",
+        "nextAction": "追踪片段引用，重建完整结果消息，核对时态、数量、对象、限定与入口；实机仅补充无法静态还原的值。",
+        "priority": "P2-选择与阶段",
+        "owner": "本地化维护者"
+      }
     }
-  ]
+  ],
+  "reviewVersion": "0.1.18"
 }

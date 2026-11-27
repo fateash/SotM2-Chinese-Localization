@@ -99,10 +99,61 @@ class CoverageAuditTests(unittest.TestCase):
             audit.validate_contracts(self.contracts, self.templates)
 
     def test_inventory_covers_source_and_requires_real_evidence(self):
-        audit.validate_inventory(self.inventory, self.drafts, self.templates)
+        audit.validate_inventory(self.inventory, self.drafts, self.templates, self.contracts)
         self.inventory['entries'][0]['live'] = 'accepted'
         with self.assertRaises(ValueError):
             audit.validate_inventory(self.inventory, self.drafts, self.templates)
+
+    def test_inventory_broken_or_negative_case_reference_rejected(self):
+        row = self.inventory['entries'][0]
+        original = copy.deepcopy(row['caseRefs'])
+        for family, case_id in [('hint', 'missing'), ('hint', 'reaction-first-wrong-role')]:
+            row['caseRefs'] = [{'family': family, 'id': case_id, 'relation': 'fragment'}]
+            with self.assertRaisesRegex(ValueError, 'positive executable'):
+                audit.validate_inventory(self.inventory, self.drafts, self.templates, self.contracts)
+        row['caseRefs'] = original
+
+    def test_inventory_cannot_close_all_fragment_combinations(self):
+        self.inventory['entries'][0].update(display='covered')
+        self.inventory['entries'][0]['review']['conclusion'] = 'mapped'
+        with self.assertRaisesRegex(ValueError, 'fragment relationship'):
+            audit.validate_inventory(self.inventory, self.drafts, self.templates, self.contracts)
+
+    def test_inventory_relationship_must_match_complete_case(self):
+        row = self.inventory['entries'][6]
+        row['caseRefs'][0]['id'] = 'inventory-10'
+        with self.assertRaisesRegex(ValueError, 'relationship'):
+            audit.validate_inventory(self.inventory, self.drafts, self.templates, self.contracts)
+
+    def test_conditional_catalog_cannot_masquerade_as_default_coverage(self):
+        row = self.inventory['entries'][99]
+        row['catalogIds'] = []
+        with self.assertRaisesRegex(ValueError, 'needs rule references'):
+            audit.validate_inventory(self.inventory, self.drafts, self.templates, self.contracts)
+
+    def test_conditional_catalog_needs_scope_and_real_reference(self):
+        row = self.inventory['entries'][99]
+        del row['review']['scopeCondition']
+        with self.assertRaisesRegex(ValueError, 'explicit condition'):
+            audit.validate_inventory(self.inventory, self.drafts, self.templates, self.contracts)
+        row['review']['scopeCondition'] = 'test'
+        row['catalogIds'] = ['unknown']
+        with self.assertRaisesRegex(ValueError, 'Unknown conditional'):
+            audit.validate_inventory(self.inventory, self.drafts, self.templates, self.contracts)
+
+    def test_inventory_review_cannot_disappear(self):
+        del self.inventory['entries'][-1]['review']
+        with self.assertRaisesRegex(ValueError, 'explicit review'):
+            audit.validate_inventory(self.inventory, self.drafts, self.templates, self.contracts)
+
+    def test_inventory_report_preserves_every_key_and_literal_source(self):
+        report = audit.inventory_markdown(self.inventory, self.drafts, len(self.templates))
+        for d in self.drafts:
+            self.assertIn(d['key'], report)
+        self.assertEqual(report, (ROOT / 'docs/DYNAMIC-INVENTORY-REVIEW.md').read_text())
+        self.assertIn('仅部分组合接入', report)
+        self.assertIn('will play or draw', report)
+        self.assertIn('&lt;style=PowerHeading&gt;', report)
 
     def test_changed_source_reopens_review(self):
         self.inventory['entries'][0]['sourceSha256'] = 'invalid'

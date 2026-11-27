@@ -155,6 +155,7 @@
     "hint.hero.salvage": "点击一位英雄，让其回收1张牌。",
     "hint.trash.salvage": "点击弃牌堆中的一张牌以将其回收。",
     "hint.trash.owner.discard": "{0}点击{1}的弃牌堆，将{2}弃置。",
-    "hint.destroy.play.under.exact": "{0}点击{1}张在场或位于{2}下方的牌以将其破坏。"
+    "hint.destroy.play.under.exact": "{0}点击{1}张在场或位于{2}下方的牌以将其破坏。",
+    "hint.reaction.first": "{0}<b>{1}</b>将对<b>{2}</b>造成{3}点{4}伤害。点击一张牌，先发动其效果。"
   }
 }

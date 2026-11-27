@@ -3482,6 +3482,233 @@
       "observations": 368,
       "captureLimitReached": false,
       "exhaustive": false
+    },
+    {
+      "file": "SotM2-Dynamic-Evidence-20261127-141820-fd4b29.zip",
+      "sha256": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+      "issues": [],
+      "version": "0.1.17-rc.1",
+      "buildId": "26880829",
+      "installed": {
+        "sample-texts.json": "6549cf8ad931b11188fc8b8adedca39f3e283aaf8878fbc44cb557fc256037c5",
+        "SotM2ChinesePrototype.dll": "9d16dbf14f22eb77e7cfdb8be7b6cb410d51ec29ca2e8791cb4b815a9f0c83c5",
+        "surface-probe.json": "3f80c6c6a0c2fdb40b734d017e86fa194a0f7fbe620a1ce0d583fd2181c8d543"
+      },
+      "manifestSourceCommit": "1530c6ce89e7a5ceea14e689e492676999752135",
+      "runtimeWarnings": [],
+      "applicationSignals": [
+        {
+          "objectName": "Text",
+          "source": "Options"
+        },
+        {
+          "objectName": "Text",
+          "source": "New Game"
+        },
+        {
+          "objectName": "Text",
+          "source": "Credits"
+        },
+        {
+          "objectName": "Text",
+          "source": "Quick Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "How to Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "Achievements"
+        },
+        {
+          "objectName": "Text",
+          "source": "Continue Game"
+        },
+        {
+          "objectName": "Text",
+          "source": "Early Access Info"
+        },
+        {
+          "objectName": "Text",
+          "source": "Help & Feedback"
+        },
+        {
+          "objectName": "Text",
+          "source": "Card Library"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "PLAY PHASE"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Menu"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>Play 1 card. If that card is not a Mechanical Golem card, draw 1 card.\r\n</style>"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "item, limited"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "This card cannot be played during your <nobr><b>PLAY PHASE</b></nobr>.\r\n−1 damage dealt to this card.\r\nWhenever Unity or a Mechanical Golem card would be dealt damage, you may redirect it to this card.\r\n"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Skip Play Phase"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "Click a card to play it."
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "POWER PHASE"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Skip Power Phase"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "Click or drag a power to use it."
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Unity:</b> Click a card in play to destroy it."
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "DRAW PHASE"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "one-shot"
+        },
+        {
+          "objectName": "Description Label",
+          "source": "Unity drew:"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "END PHASE"
+        },
+        {
+          "objectName": "Skip Button Label",
+          "source": "Skip"
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 0 targets"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Arsenal Bot:</b> Click up to 2 targets to deal them <nobr>2 projectile</nobr> damage."
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Modular Workbench:</b> Click a card to play it."
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nDestroy 1 Hero Ongoing card.\r\nIf Citizen Blood is in play, destroy 1 Hero Ongoing card.\r\nCitizen Tears deals each Hero target 1 melee damage.\r\n"
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 1 target"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "START PHASE"
+        },
+        {
+          "objectName": "Choose For Me Button Label",
+          "source": "Choose For Me"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Burning High Rise:</b> Click targets to choose the order of dealing them <nobr>2 fire</nobr> damage."
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Skip"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "After a Hero uses a power, they deal themself 1 fixed psychic damage.\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\nEach Hero may discard 1 card. If each active Hero does so, destroy this card.\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing"
+        },
+        {
+          "objectName": "Description Label",
+          "source": "Megalopolis played:"
+        },
+        {
+          "objectName": "Selection Button Label",
+          "source": "Discard"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Take Down:</b> Click Citizen Dawn's trash to discard Blinding Blast."
+        },
+        {
+          "objectName": "Description Label",
+          "source": "Citizen Dawn played:"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing, limited"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "此牌打出后，Legacy对自己造成3点固定近战伤害。\r\n你的盟友免疫伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n摧毁此牌。\r\n"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "Click a power to use it."
+        },
+        {
+          "objectName": "Description Label",
+          "source": "Legacy drew:"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "After this card is played, Tachyon deals each non-Hero target 1 sonic damage. Targets dealt damage this way cannot deal damage.\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\nDestroy this card.\r\n"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "PLAY PHASE (2 left)"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "Click or drag a card to play it."
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Send Feedback"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "How to Play"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Options"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Quit"
+        }
+      ],
+      "observations": 83,
+      "captureLimitReached": false,
+      "exhaustive": false
     }
   ],
   "samples": [
@@ -3501,6 +3728,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 561,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 152,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -3597,6 +3830,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 344,
           "version": "0.1.16-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 84,
+          "version": "0.1.17-rc.1",
           "markerCandidate": true
         }
       ]
@@ -3725,6 +3964,26 @@
       "objectName": "Hint Label",
       "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
       "cardId": "",
+      "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Arsenal Bot</b> 2 fire damage. Click a card to activate first.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "01f1c2253f530c5f77cdc1fa",
+      "evidence": [
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 133,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
       "source": "<b>Nimble Strike:</b> Click a target to deal it <nobr>2 melee</nobr> damage.",
       "inCardView": false,
       "inputSource": "TextString",
@@ -3769,6 +4028,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 554,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 155,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -3966,6 +4231,12 @@
           "line": 57,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 57,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -4141,6 +4412,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 47,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 47,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -4558,6 +4835,12 @@
           "line": 54,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 121,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -4926,6 +5209,12 @@
           "line": 652,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 61,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -5031,6 +5320,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 541,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 142,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -5273,6 +5568,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 791,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 62,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -5594,6 +5895,26 @@
       ]
     },
     {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/CardView StealthBot-0 FullCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "StealthBot",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "1d21364ab6fbb9ce4c20a3e3",
+      "evidence": [
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 114,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Selection Button Label",
       "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/TheWraith/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
       "cardId": "",
@@ -5816,6 +6137,12 @@
           "line": 84,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 66,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -5905,6 +6232,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 40,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 40,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -6496,6 +6829,12 @@
           "line": 90,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 99,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -6759,6 +7098,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 650,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 63,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -7222,6 +7567,12 @@
           "line": 307,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 93,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -7425,6 +7776,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 274,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 186,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -8616,6 +8973,12 @@
           "line": 651,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 65,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -8955,6 +9318,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 96,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 125,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -9750,6 +10119,12 @@
           "line": 65,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 124,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -9960,6 +10335,12 @@
           "line": 682,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 138,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -10019,6 +10400,26 @@
           "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
           "line": 681,
           "version": "0.1.14-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "513c8d6fb23bff6a8609e796",
+      "evidence": [
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 143,
+          "version": "0.1.17-rc.1",
           "markerCandidate": true
         }
       ]
@@ -10117,6 +10518,32 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 797,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 205,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView StealthBot-0 SmallCardFront/Tooltip/CardView StealthBot-0 FullCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "StealthBot",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "51d2c34beca1f4670f721592",
+      "evidence": [
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 134,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -10382,6 +10809,12 @@
           "line": 308,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 181,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -10421,6 +10854,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 558,
           "version": "0.1.16-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 149,
+          "version": "0.1.17-rc.1",
           "markerCandidate": true
         }
       ]
@@ -10675,6 +11114,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 571,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 188,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -10989,6 +11434,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 552,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 154,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -11476,6 +11927,12 @@
           "line": 276,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 70,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -11501,6 +11958,12 @@
           "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
           "line": 513,
           "version": "0.1.15-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 192,
+          "version": "0.1.17-rc.1",
           "markerCandidate": true
         }
       ]
@@ -11574,6 +12037,26 @@
           "line": 535,
           "version": "0.1.15-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView StealthBot-0 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "StealthBot",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "62da90257b4d90a370d49251",
+      "evidence": [
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 115,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -11755,6 +12238,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 94,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 103,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -11957,6 +12446,26 @@
     },
     {
       "objectName": "Label",
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/155/UsePower-Legacy-LegacyCharacter/Label",
+      "cardId": "LegacyCharacter",
+      "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "670abe9864b6d8c0ac3972f2",
+      "evidence": [
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 177,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
       "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView ConstructCataclysm-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
       "cardId": "ConstructCataclysm",
       "source": "Deal 1 Target 8 Damage",
@@ -12003,6 +12512,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 573,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 190,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -12435,6 +12950,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 35,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 35,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -12896,6 +13417,12 @@
           "line": 93,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 102,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -13356,6 +13883,12 @@
           "line": 288,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 79,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -13478,6 +14011,12 @@
           "line": 51,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 51,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -13527,6 +14066,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 49,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 49,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -13842,6 +14387,12 @@
           "line": 43,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 43,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -14043,6 +14594,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 81,
           "version": "0.1.16-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 54,
+          "version": "0.1.17-rc.1",
           "markerCandidate": true
         }
       ]
@@ -14278,6 +14835,12 @@
           "line": 356,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 130,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -14473,6 +15036,26 @@
     },
     {
       "objectName": "Label",
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "LegacyCharacter",
+      "source": "-2",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "86a314525882a106075113ad",
+      "evidence": [
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 176,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
       "path": "Canvas/CardView VitalityConduit-1 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
       "cardId": "VitalityConduit",
       "source": "-1",
@@ -14604,6 +15187,26 @@
       ]
     },
     {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Take Down:</b> Click Citizen Dawn's trash to discard Blinding Blast.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "88876cfdc7bb4f6d0d2b6db8",
+      "evidence": [
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 146,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/428/UsePower-Legacy-LegacyCharacter/Label",
       "cardId": "LegacyCharacter",
@@ -14639,6 +15242,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 648,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 64,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -15110,6 +15719,12 @@
           "line": 795,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 203,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -15491,6 +16106,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 685,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 141,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -16248,6 +16869,12 @@
           "line": 293,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 81,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -16547,6 +17174,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 570,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 187,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -17454,6 +18087,12 @@
           "line": 680,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 120,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -17642,6 +18281,26 @@
       ]
     },
     {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Modular Workbench:</b> Click a card to play it.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "afd94a45dc78cdd7b0e64e26",
+      "evidence": [
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 111,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/93/UsePower-Legacy-LegacyCharacter/Label",
       "cardId": "LegacyCharacter",
@@ -17721,6 +18380,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 793,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 201,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -17846,6 +18511,12 @@
           "line": 569,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 185,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -17927,6 +18598,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 36,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 36,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -18347,6 +19024,26 @@
           "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
           "line": 451,
           "version": "0.1.15-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Power Container/133/UsePower-Unity-UnityCharacter/Label",
+      "cardId": "UnityCharacter",
+      "source": "<style=PowerTitle>Bot Hack</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Destroy 1 Item card. If you do, play or discover 1 Mechanical Golem.\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "b7a8dc286d89540199bd1f39",
+      "evidence": [
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 80,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -18842,6 +19539,12 @@
           "line": 675,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 98,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -18930,6 +19633,12 @@
           "line": 34,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 34,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -18969,6 +19678,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 555,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 158,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -19079,6 +19794,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 32,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 32,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -19385,6 +20106,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 285,
           "version": "0.1.16-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 76,
+          "version": "0.1.17-rc.1",
           "markerCandidate": true
         }
       ]
@@ -19886,6 +20613,12 @@
           "line": 553,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 157,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -20087,6 +20820,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 311,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 184,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -20336,6 +21075,26 @@
       ]
     },
     {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Burning High Rise:</b> Click targets to choose the order of dealing them <nobr>2 fire</nobr> damage.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "d0222ea73e9514419b546b69",
+      "evidence": [
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 127,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
       "objectName": "Text (TMP)",
       "path": "Overlay Canvas/Menu Panel/Main Container/Feedback Button/Text (TMP)",
       "cardId": "",
@@ -20369,6 +21128,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 792,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 199,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -20514,6 +21279,32 @@
           "line": 672,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 95,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Unity</b> 2 fire damage. Click a card to activate first.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "d386447b6229e35f787fc0dd",
+      "evidence": [
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 135,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -20886,6 +21677,12 @@
           "line": 45,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 45,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -21058,6 +21855,12 @@
           "line": 659,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 87,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -21162,6 +21965,12 @@
           "line": 149,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 105,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -21182,6 +21991,26 @@
           "line": 568,
           "version": "0.1.14-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "LegacyCharacter",
+      "source": "-2",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "dbda1a3c6ffdd001a6b16265",
+      "evidence": [
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 189,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -21251,6 +22080,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 279,
           "version": "0.1.16-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 196,
+          "version": "0.1.17-rc.1",
           "markerCandidate": true
         }
       ]
@@ -21393,6 +22228,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 282,
           "version": "0.1.16-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 73,
+          "version": "0.1.17-rc.1",
           "markerCandidate": true
         }
       ]
@@ -21635,6 +22476,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 297,
           "version": "0.1.16-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 178,
+          "version": "0.1.17-rc.1",
           "markerCandidate": true
         }
       ]
@@ -21908,6 +22755,12 @@
           "line": 41,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 41,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -21974,6 +22827,12 @@
           "line": 676,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 108,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -22023,6 +22882,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 30,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 30,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -22075,6 +22940,12 @@
           "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
           "line": 339,
           "version": "0.1.14-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 159,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -22312,6 +23183,12 @@
           "line": 649,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 59,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -22468,6 +23345,12 @@
           "line": 240,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 156,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -22578,6 +23461,12 @@
           "line": 158,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 117,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -22623,6 +23512,12 @@
           "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
           "line": 516,
           "version": "0.1.15-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 195,
+          "version": "0.1.17-rc.1",
           "markerCandidate": false
         }
       ]
@@ -23746,6 +24641,12 @@
           "line": 38,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 38,
+          "version": "0.1.17-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -23979,6 +24880,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 304,
           "version": "0.1.16-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
+          "line": 90,
+          "version": "0.1.17-rc.1",
           "markerCandidate": true
         }
       ]

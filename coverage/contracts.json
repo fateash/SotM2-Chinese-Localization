@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "494e9c690c94db1129663a47a39e99dfa1761e003d0381a8fae8b9aeeeec6d98",
+    "runtime/DynamicDisplayRules.cs": "3400a89da3bc57833ffc934c7823b125b3fcb2963dcb040658774797277f7945",
     "runtime/SurfaceProbeRules.cs": "65803f8a22da910e98a98f9202e2d0c802cd1e6fc661c66f34c97a3480ed6651",
     "runtime/SurfaceProbe.cs": "337e308b31345ad75e93b6d627a5e8d3f78172ec6a191b86d096790e91308896",
-    "runtime/Plugin.cs": "20fcf665c59e5aaf6f7eda3c3be0cf18c7638dcb3053760ae204f4ad0ecb638c",
+    "runtime/Plugin.cs": "588b3d81aa58106b992117c966e5f8fb44c91e437197f2cb77236a6527d0d689",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "3f80c6c6a0c2fdb40b734d017e86fa194a0f7fbe620a1ce0d583fd2181c8d543"
+    "probe/dynamic-pilot.json": "9e6ca30ff232850be29a75facc387e219498f448eca229e12cc061b0cdb700e7"
   },
   "families": [
     {
@@ -89,7 +89,8 @@
         "hint.hero.salvage",
         "hint.trash.salvage",
         "hint.trash.owner.discard",
-        "hint.destroy.play.under.exact"
+        "hint.destroy.play.under.exact",
+        "hint.reaction.first"
       ],
       "contexts": [
         {
@@ -2173,6 +2174,712 @@
             "inCardView": false,
             "expected": "<b>Wagner Mars Base:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
           }
+        },
+        {
+          "id": "pilot018-01f1c2253f530c5f77cdc1fa",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "0.1.17日志捕获的完整句式；0.1.18接入，尚未实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Arsenal Bot</b> 2 fire damage. Click a card to activate first.",
+            "inCardView": false,
+            "expected": "<b>Stealth Bot:</b> <b>Burning High Rise</b>将对<b>Arsenal Bot</b>造成2点火焰伤害。点击一张牌，先发动其效果。",
+            "observationId": "01f1c2253f530c5f77cdc1fa"
+          }
+        },
+        {
+          "id": "pilot018-d386447b6229e35f787fc0dd",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "0.1.17日志捕获的完整句式；0.1.18接入，尚未实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Unity</b> 2 fire damage. Click a card to activate first.",
+            "inCardView": false,
+            "expected": "<b>Stealth Bot:</b> <b>Burning High Rise</b>将对<b>Unity</b>造成2点火焰伤害。点击一张牌，先发动其效果。",
+            "observationId": "d386447b6229e35f787fc0dd"
+          }
+        },
+        {
+          "id": "reaction-first-trailing-17-0",
+          "status": "excluded",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Arsenal Bot</b> 2 fire damage. Click a card to activate first. Extra condition.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null,
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "reaction-first-trailing-17-1",
+          "status": "excluded",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Arsenal Bot</b> 2 fire damage. Click a card to activate first.\nOther condition.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null,
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "reaction-first-malformed-0",
+          "status": "excluded",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Arsenal Bot</b> -2 fire damage. Click a card to activate first.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null,
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "reaction-first-malformed-1",
+          "status": "excluded",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Arsenal Bot</b> 2 unknown damage. Click a card to activate first.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null,
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "reaction-first-malformed-2",
+          "status": "excluded",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Arsenal Bot</b> 2 fire damage. Click a card to activate last.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null,
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "reaction-first-malformed-3",
+          "status": "excluded",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <i>Arsenal Bot</i> 2 fire damage. Click a card to activate first.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null,
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "reaction-first-wrong-role",
+          "status": "excluded",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Status Label",
+            "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Arsenal Bot</b> 2 fire damage. Click a card to activate first.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null,
+            "objectName": "Status Label"
+          }
+        },
+        {
+          "id": "reaction-first-idempotent",
+          "status": "excluded",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b>将对<b>Arsenal Bot</b>造成2点火焰伤害。点击一张牌，先发动其效果。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null,
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-67",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a button to choose a damage type.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一个按钮，选择伤害类型。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-70",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click an incapacitated ability to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一个失能能力以使用它。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-73",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select Damage Source to Deal Damage",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择造成伤害的来源",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-74",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select Hero to Discover",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择进行发现的英雄",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-75",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select Hero to destroy cards",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择破坏牌的英雄",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-76",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select Hero to discard cards",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择弃置牌的英雄",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-77",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select Hero to salvage cards",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择回收牌的英雄",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-78",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select Hero to take a phase now",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择立即进行一个阶段的英雄",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-79",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select Location to play card to",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择打出卡牌的目标区域",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-80",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select Location to play from",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择从哪个区域打出卡牌",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-81",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select Location to put a card from into the deck",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择将牌置入牌库的来源区域",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-82",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select Location to put a card from on top of the deck",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择将牌置于牌库顶的来源区域",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-83",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select Location to reveal from",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择从哪个区域展示卡牌",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-84",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select Location to shuffle its cards into the deck",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择将其中的牌洗入牌库的区域",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-85",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select Redirection Target",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择伤害转移的目标",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-86",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select location to Summon from (decks will be shuffled)",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择召唤的来源区域（会洗混所查找的牌库）",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-87",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select location to send destroyed card",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择被破坏的牌要前往的区域",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-88",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select someone to put a card back in their deck",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择将一张牌放回其牌库的角色",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-89",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select someone to put a card back on top of their deck",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择将一张牌放回其牌库顶的角色",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-90",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select where it the card should be drawn or discarded.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择抽取或弃置该牌的区域。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-91",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select where the card should go.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择卡牌要前往的区域。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-92",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select whether or not to draw a card.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择是否抽一张牌。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-93",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select which Hero is considered to have the most cards in hand",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择视为手牌最多的英雄",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-94",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select which deck to draw from...",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择从哪个牌库抽牌……",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-95",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select which of these targets is considered to have the Lowest HP",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择视为生命值最低的目标",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-96",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Select who is considered to have the most cards in play",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "选择视为在场牌最多的角色",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-68",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"StartPhase\"> <b>START PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一张牌，发动其<nobr><sprite name=\"StartPhase\"> <b>开始阶段</b></nobr>效果。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-existing-play",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "已有完整规则的库存合成契约；不是新捕获证据或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一张牌以将其打出。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-existing-power",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "已有完整规则的库存合成契约；不是新捕获证据或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一个异能以使用它。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-existing-topdeck",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "已有完整规则的库存合成契约；不是新捕获证据或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a hero to have them put a card on top of their deck.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一位英雄，让其将一张牌置于自己的牌库顶。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-existing-hero-power",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "已有完整规则的库存合成契约；不是新捕获证据或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a hero to use a power.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一位英雄，让其使用一个异能。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-existing-deck",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "已有完整规则的库存合成契约；不是新捕获证据或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a deck to reveal a card.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一个牌库以展示一张牌。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-existing-draw-discard",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "已有完整规则的库存合成契约；不是新捕获证据或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Test:</b> Click a location to either draw or discard Card.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Test:</b> 选择一个区域，抽取或弃置Card。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "inventory-existing-reduce",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "已有完整规则的库存合成契约；不是新捕获证据或人工验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Test:</b> Click up to 3 targets to reduce damage dealt to them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Test:</b> 点击至多3个目标，减少它们受到的伤害。",
+            "objectName": "Hint Label"
+          }
         }
       ]
     },
@@ -2582,6 +3289,22 @@
             "source": "Destroy 4 cards",
             "inCardView": false,
             "expected": null
+          }
+        },
+        {
+          "id": "inventory-existing-discard",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "已有完整规则的库存合成契约；不是新捕获证据或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "source": "Discard 3 cards",
+            "expected": "弃置3张牌",
+            "cardId": "",
+            "inCardView": false
           }
         }
       ]
@@ -11337,6 +12060,454 @@
           "heroState": "not-applicable",
           "layout": "unobserved",
           "reason": "特殊附属牌区、变身／形态和独立场景尚无完整入口证据，不套用英雄非当前布局或普通牌区结构。"
+        },
+        {
+          "id": "inventory-6",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Cannot Deal Damage",
+            "expected": "无法造成伤害",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-10",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Deal Damage",
+            "expected": "造成伤害",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-11",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Deal Hero Targets Damage",
+            "expected": "对英雄目标造成伤害",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-13",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Deal cold damage",
+            "expected": "造成寒冷伤害",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-14",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Deal fire damage",
+            "expected": "造成火焰伤害",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-17",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Destroy a Card",
+            "expected": "破坏一张牌",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-18",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Destroy this Card",
+            "expected": "破坏此牌",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-19",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Double Damage",
+            "expected": "伤害翻倍",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-20",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Draw & Use Power",
+            "expected": "抽牌并使用异能",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-21",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Draw 2 Cards",
+            "expected": "抽2张牌",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-22",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Draw Card",
+            "expected": "抽一张牌",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-23",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Draw or Discard",
+            "expected": "抽取或弃置",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-25",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Play Card",
+            "expected": "打出一张牌",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-26",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Play a Card",
+            "expected": "打出一张牌",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-27",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Put Card Under Ordnance",
+            "expected": "将牌置于Ordnance下方",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-28",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Put a Card",
+            "expected": "放置一张牌",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-30",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Replace or Discard",
+            "expected": "放回原处或弃置",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-31",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Salvage Item",
+            "expected": "回收物品牌",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-32",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Salvage Ongoing",
+            "expected": "回收持续牌",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-33",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Skip to Draw",
+            "expected": "跳至抽牌阶段",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-34",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Skip to Power",
+            "expected": "跳至异能阶段",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-40",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Use Power",
+            "expected": "使用异能",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-41",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Use a Power",
+            "expected": "使用异能",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-9",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Deal 1 Target 3 Damage",
+            "expected": "对1个目标造成3点伤害",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-12",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Deal Self 3 damage",
+            "expected": "对自身造成3点伤害",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-15",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Deal 3 Targets 3 Damage",
+            "expected": "对3个目标造成3点伤害",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-16",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Deal 3 damage",
+            "expected": "造成3点伤害",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "inventory-29",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Regain 3 HP",
+            "expected": "恢复3点生命值",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
         }
       ]
     },
@@ -12318,6 +13489,998 @@
           "reason": "尚无完整文本与对应控件证据，不从大图列表推定其他位置已覆盖。"
         }
       ]
+    },
+    {
+      "id": "conditional-catalog",
+      "templates": [],
+      "contexts": [
+        {
+          "id": "optional-3",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Body Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=StartPhase>Start Phase</style>",
+            "expected": "<style=StartPhase>开始阶段</style>"
+          }
+        },
+        {
+          "id": "optional-5",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Body Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=StartPhase>START PHASE</style>",
+            "expected": "<style=StartPhase>开始阶段</style>"
+          }
+        },
+        {
+          "id": "optional-7",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Setup Label",
+            "objectName": "Setup Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=StartPhase>Start Phase</style>",
+            "expected": "<style=StartPhase>开始阶段</style>"
+          }
+        },
+        {
+          "id": "optional-9",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Setup Label",
+            "objectName": "Setup Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=StartPhase>START PHASE</style>",
+            "expected": "<style=StartPhase>开始阶段</style>"
+          }
+        },
+        {
+          "id": "optional-11",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Label",
+            "objectName": "Advanced Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=StartPhase>Start Phase</style>",
+            "expected": "<style=StartPhase>开始阶段</style>"
+          }
+        },
+        {
+          "id": "optional-13",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Label",
+            "objectName": "Advanced Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=StartPhase>START PHASE</style>",
+            "expected": "<style=StartPhase>开始阶段</style>"
+          }
+        },
+        {
+          "id": "optional-15",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Heading Label",
+            "objectName": "Advanced Heading Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=StartPhase>Start Phase</style>",
+            "expected": "<style=StartPhase>开始阶段</style>"
+          }
+        },
+        {
+          "id": "optional-17",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Heading Label",
+            "objectName": "Advanced Heading Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=StartPhase>START PHASE</style>",
+            "expected": "<style=StartPhase>开始阶段</style>"
+          }
+        },
+        {
+          "id": "optional-19",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Phase Label",
+            "objectName": "Phase Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "Start Phase",
+            "expected": "开始阶段"
+          }
+        },
+        {
+          "id": "optional-20",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Phase Label",
+            "objectName": "Phase Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "START PHASE",
+            "expected": "开始阶段"
+          }
+        },
+        {
+          "id": "optional-21",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Body Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=EndPhase>End Phase</style>",
+            "expected": "<style=EndPhase>结束阶段</style>"
+          }
+        },
+        {
+          "id": "optional-23",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Body Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=EndPhase>END PHASE</style>",
+            "expected": "<style=EndPhase>结束阶段</style>"
+          }
+        },
+        {
+          "id": "optional-25",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Setup Label",
+            "objectName": "Setup Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=EndPhase>End Phase</style>",
+            "expected": "<style=EndPhase>结束阶段</style>"
+          }
+        },
+        {
+          "id": "optional-27",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Setup Label",
+            "objectName": "Setup Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=EndPhase>END PHASE</style>",
+            "expected": "<style=EndPhase>结束阶段</style>"
+          }
+        },
+        {
+          "id": "optional-29",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Label",
+            "objectName": "Advanced Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=EndPhase>End Phase</style>",
+            "expected": "<style=EndPhase>结束阶段</style>"
+          }
+        },
+        {
+          "id": "optional-31",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Label",
+            "objectName": "Advanced Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=EndPhase>END PHASE</style>",
+            "expected": "<style=EndPhase>结束阶段</style>"
+          }
+        },
+        {
+          "id": "optional-33",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Heading Label",
+            "objectName": "Advanced Heading Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=EndPhase>End Phase</style>",
+            "expected": "<style=EndPhase>结束阶段</style>"
+          }
+        },
+        {
+          "id": "optional-35",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Heading Label",
+            "objectName": "Advanced Heading Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=EndPhase>END PHASE</style>",
+            "expected": "<style=EndPhase>结束阶段</style>"
+          }
+        },
+        {
+          "id": "optional-37",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Phase Label",
+            "objectName": "Phase Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "End Phase",
+            "expected": "结束阶段"
+          }
+        },
+        {
+          "id": "optional-38",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Phase Label",
+            "objectName": "Phase Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "END PHASE",
+            "expected": "结束阶段"
+          }
+        },
+        {
+          "id": "optional-39",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Body Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PlayPhase>Play Phase</style>",
+            "expected": "<style=PlayPhase>出牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-41",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Body Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PlayPhase>PLAY PHASE</style>",
+            "expected": "<style=PlayPhase>出牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-43",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Setup Label",
+            "objectName": "Setup Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PlayPhase>Play Phase</style>",
+            "expected": "<style=PlayPhase>出牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-45",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Setup Label",
+            "objectName": "Setup Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PlayPhase>PLAY PHASE</style>",
+            "expected": "<style=PlayPhase>出牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-47",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Label",
+            "objectName": "Advanced Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PlayPhase>Play Phase</style>",
+            "expected": "<style=PlayPhase>出牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-49",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Label",
+            "objectName": "Advanced Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PlayPhase>PLAY PHASE</style>",
+            "expected": "<style=PlayPhase>出牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-51",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Heading Label",
+            "objectName": "Advanced Heading Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PlayPhase>Play Phase</style>",
+            "expected": "<style=PlayPhase>出牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-53",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Heading Label",
+            "objectName": "Advanced Heading Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PlayPhase>PLAY PHASE</style>",
+            "expected": "<style=PlayPhase>出牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-55",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Phase Label",
+            "objectName": "Phase Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "Play Phase",
+            "expected": "出牌阶段"
+          }
+        },
+        {
+          "id": "optional-56",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Phase Label",
+            "objectName": "Phase Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "PLAY PHASE",
+            "expected": "出牌阶段"
+          }
+        },
+        {
+          "id": "optional-57",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Body Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=DrawPhase>Draw Phase</style>",
+            "expected": "<style=DrawPhase>抽牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-59",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Body Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=DrawPhase>DRAW PHASE</style>",
+            "expected": "<style=DrawPhase>抽牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-61",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Setup Label",
+            "objectName": "Setup Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=DrawPhase>Draw Phase</style>",
+            "expected": "<style=DrawPhase>抽牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-63",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Setup Label",
+            "objectName": "Setup Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=DrawPhase>DRAW PHASE</style>",
+            "expected": "<style=DrawPhase>抽牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-65",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Label",
+            "objectName": "Advanced Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=DrawPhase>Draw Phase</style>",
+            "expected": "<style=DrawPhase>抽牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-67",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Label",
+            "objectName": "Advanced Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=DrawPhase>DRAW PHASE</style>",
+            "expected": "<style=DrawPhase>抽牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-69",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Heading Label",
+            "objectName": "Advanced Heading Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=DrawPhase>Draw Phase</style>",
+            "expected": "<style=DrawPhase>抽牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-71",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Heading Label",
+            "objectName": "Advanced Heading Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=DrawPhase>DRAW PHASE</style>",
+            "expected": "<style=DrawPhase>抽牌阶段</style>"
+          }
+        },
+        {
+          "id": "optional-73",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Phase Label",
+            "objectName": "Phase Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "Draw Phase",
+            "expected": "抽牌阶段"
+          }
+        },
+        {
+          "id": "optional-74",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Phase Label",
+            "objectName": "Phase Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "DRAW PHASE",
+            "expected": "抽牌阶段"
+          }
+        },
+        {
+          "id": "optional-75",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Body Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PowerPhase>Power Phase</style>",
+            "expected": "<style=PowerPhase>异能阶段</style>"
+          }
+        },
+        {
+          "id": "optional-77",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Body Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PowerPhase>POWER PHASE</style>",
+            "expected": "<style=PowerPhase>异能阶段</style>"
+          }
+        },
+        {
+          "id": "optional-79",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Setup Label",
+            "objectName": "Setup Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PowerPhase>Power Phase</style>",
+            "expected": "<style=PowerPhase>异能阶段</style>"
+          }
+        },
+        {
+          "id": "optional-81",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Setup Label",
+            "objectName": "Setup Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PowerPhase>POWER PHASE</style>",
+            "expected": "<style=PowerPhase>异能阶段</style>"
+          }
+        },
+        {
+          "id": "optional-83",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Label",
+            "objectName": "Advanced Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PowerPhase>Power Phase</style>",
+            "expected": "<style=PowerPhase>异能阶段</style>"
+          }
+        },
+        {
+          "id": "optional-85",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Label",
+            "objectName": "Advanced Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PowerPhase>POWER PHASE</style>",
+            "expected": "<style=PowerPhase>异能阶段</style>"
+          }
+        },
+        {
+          "id": "optional-87",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Heading Label",
+            "objectName": "Advanced Heading Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PowerPhase>Power Phase</style>",
+            "expected": "<style=PowerPhase>异能阶段</style>"
+          }
+        },
+        {
+          "id": "optional-89",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Heading Label",
+            "objectName": "Advanced Heading Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PowerPhase>POWER PHASE</style>",
+            "expected": "<style=PowerPhase>异能阶段</style>"
+          }
+        },
+        {
+          "id": "optional-91",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Phase Label",
+            "objectName": "Phase Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "Power Phase",
+            "expected": "异能阶段"
+          }
+        },
+        {
+          "id": "optional-92",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Phase Label",
+            "objectName": "Phase Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "POWER PHASE",
+            "expected": "异能阶段"
+          }
+        },
+        {
+          "id": "optional-93",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Body Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PowerHeading>POWER: </style>",
+            "expected": "<style=PowerHeading>异能: </style>"
+          }
+        },
+        {
+          "id": "optional-94",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Setup Label",
+            "objectName": "Setup Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PowerHeading>POWER: </style>",
+            "expected": "<style=PowerHeading>异能: </style>"
+          }
+        },
+        {
+          "id": "optional-95",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Advanced Label",
+            "objectName": "Advanced Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PowerHeading>POWER: </style>",
+            "expected": "<style=PowerHeading>异能: </style>"
+          }
+        },
+        {
+          "id": "optional-negative-0",
+          "status": "excluded",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/HP Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=PowerHeading>POWER: </style>",
+            "expected": null
+          }
+        },
+        {
+          "id": "optional-negative-1",
+          "status": "excluded",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Body Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=UnknownPhase>UNKNOWN PHASE</style>",
+            "expected": null
+          }
+        },
+        {
+          "id": "optional-negative-2",
+          "status": "excluded",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Phase Label",
+            "objectName": "Phase Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "Unknown Phase",
+            "expected": null
+          }
+        },
+        {
+          "id": "optional-negative-3",
+          "status": "excluded",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Body Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "POWER: ",
+            "expected": null
+          }
+        },
+        {
+          "id": "inventory-100",
+          "status": "offline-covered",
+          "view": "inventory-review",
+          "heroState": "not-applicable",
+          "layout": "declared-role",
+          "reason": "库存主动复核的合成契约；执行实际转换，不代表触发过或人工验收。",
+          "case": {
+            "path": "offline-catalog/Body Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": true,
+            "catalogId": "optional-terms-0.1.6",
+            "source": "<style=StartPhase>START PHASE</style></voffset>",
+            "expected": "<style=StartPhase>开始阶段</style></voffset>"
+          }
+        }
+      ]
     }
   ],
   "classificationCases": [
@@ -12505,6 +14668,783 @@
         }
       ],
       "expectedReason": "unresolved-full-string"
+    }
+  ],
+  "conditionalCatalogs": [
+    {
+      "id": "optional-terms-0.1.6",
+      "sourceSha256": "6549cf8ad931b11188fc8b8adedca39f3e283aaf8878fbc44cb557fc256037c5",
+      "provenance": "0.1.6 optional-term-test/sample-texts.json；SHA与0.1.17实机证据安装词典一致。这里只重放Display条目，不替换默认词典或用户安装。",
+      "displayEntries": [
+        {
+          "ObjectName": "Keywords Label",
+          "Card": "",
+          "Mode": "keyword",
+          "Style": "",
+          "Source": "one-shot",
+          "Target": "瞬发"
+        },
+        {
+          "ObjectName": "Keywords Label",
+          "Card": "",
+          "Mode": "keyword",
+          "Style": "",
+          "Source": "ongoing",
+          "Target": "持续"
+        },
+        {
+          "ObjectName": "Keywords Label",
+          "Card": "",
+          "Mode": "keyword",
+          "Style": "",
+          "Source": "limited",
+          "Target": "限定"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "StartPhase",
+          "Source": "Start Phase",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Start Phase",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "StartPhase",
+          "Source": "START PHASE",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "START PHASE",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "StartPhase",
+          "Source": "Start Phase",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Start Phase",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "StartPhase",
+          "Source": "START PHASE",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "START PHASE",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "StartPhase",
+          "Source": "Start Phase",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Start Phase",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "StartPhase",
+          "Source": "START PHASE",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "START PHASE",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "StartPhase",
+          "Source": "Start Phase",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Start Phase",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "StartPhase",
+          "Source": "START PHASE",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "START PHASE",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Phase Label",
+          "Card": "",
+          "Mode": "exact",
+          "Style": "",
+          "Source": "Start Phase",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Phase Label",
+          "Card": "",
+          "Mode": "exact",
+          "Style": "",
+          "Source": "START PHASE",
+          "Target": "开始阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "EndPhase",
+          "Source": "End Phase",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "End Phase",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "EndPhase",
+          "Source": "END PHASE",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "END PHASE",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "EndPhase",
+          "Source": "End Phase",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "End Phase",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "EndPhase",
+          "Source": "END PHASE",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "END PHASE",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "EndPhase",
+          "Source": "End Phase",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "End Phase",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "EndPhase",
+          "Source": "END PHASE",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "END PHASE",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "EndPhase",
+          "Source": "End Phase",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "End Phase",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "EndPhase",
+          "Source": "END PHASE",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "END PHASE",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Phase Label",
+          "Card": "",
+          "Mode": "exact",
+          "Style": "",
+          "Source": "End Phase",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Phase Label",
+          "Card": "",
+          "Mode": "exact",
+          "Style": "",
+          "Source": "END PHASE",
+          "Target": "结束阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PlayPhase",
+          "Source": "Play Phase",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Play Phase",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PlayPhase",
+          "Source": "PLAY PHASE",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "PLAY PHASE",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PlayPhase",
+          "Source": "Play Phase",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Play Phase",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PlayPhase",
+          "Source": "PLAY PHASE",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "PLAY PHASE",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PlayPhase",
+          "Source": "Play Phase",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Play Phase",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PlayPhase",
+          "Source": "PLAY PHASE",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "PLAY PHASE",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PlayPhase",
+          "Source": "Play Phase",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Play Phase",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PlayPhase",
+          "Source": "PLAY PHASE",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "PLAY PHASE",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Phase Label",
+          "Card": "",
+          "Mode": "exact",
+          "Style": "",
+          "Source": "Play Phase",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Phase Label",
+          "Card": "",
+          "Mode": "exact",
+          "Style": "",
+          "Source": "PLAY PHASE",
+          "Target": "出牌阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "DrawPhase",
+          "Source": "Draw Phase",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Draw Phase",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "DrawPhase",
+          "Source": "DRAW PHASE",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "DRAW PHASE",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "DrawPhase",
+          "Source": "Draw Phase",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Draw Phase",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "DrawPhase",
+          "Source": "DRAW PHASE",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "DRAW PHASE",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "DrawPhase",
+          "Source": "Draw Phase",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Draw Phase",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "DrawPhase",
+          "Source": "DRAW PHASE",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "DRAW PHASE",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "DrawPhase",
+          "Source": "Draw Phase",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Draw Phase",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "DrawPhase",
+          "Source": "DRAW PHASE",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "DRAW PHASE",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Phase Label",
+          "Card": "",
+          "Mode": "exact",
+          "Style": "",
+          "Source": "Draw Phase",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Phase Label",
+          "Card": "",
+          "Mode": "exact",
+          "Style": "",
+          "Source": "DRAW PHASE",
+          "Target": "抽牌阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PowerPhase",
+          "Source": "Power Phase",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Power Phase",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PowerPhase",
+          "Source": "POWER PHASE",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "POWER PHASE",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PowerPhase",
+          "Source": "Power Phase",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Power Phase",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PowerPhase",
+          "Source": "POWER PHASE",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "POWER PHASE",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PowerPhase",
+          "Source": "Power Phase",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Power Phase",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PowerPhase",
+          "Source": "POWER PHASE",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "POWER PHASE",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PowerPhase",
+          "Source": "Power Phase",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "Power Phase",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PowerPhase",
+          "Source": "POWER PHASE",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Advanced Heading Label",
+          "Card": "",
+          "Mode": "phase-inline",
+          "Style": "",
+          "Source": "POWER PHASE",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Phase Label",
+          "Card": "",
+          "Mode": "exact",
+          "Style": "",
+          "Source": "Power Phase",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Phase Label",
+          "Card": "",
+          "Mode": "exact",
+          "Style": "",
+          "Source": "POWER PHASE",
+          "Target": "异能阶段"
+        },
+        {
+          "ObjectName": "Body Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PowerHeading",
+          "Source": "POWER: ",
+          "Target": "异能: "
+        },
+        {
+          "ObjectName": "Setup Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PowerHeading",
+          "Source": "POWER: ",
+          "Target": "异能: "
+        },
+        {
+          "ObjectName": "Advanced Label",
+          "Card": "",
+          "Mode": "style",
+          "Style": "PowerHeading",
+          "Source": "POWER: ",
+          "Target": "异能: "
+        }
+      ]
     }
   ]
 }

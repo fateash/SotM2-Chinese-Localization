@@ -364,4 +364,14 @@ Check(pilot.Apply(fiveHero,"Has the Most")=="最多","most button does not inven
 Check(pilot.Apply(fiveHero.Replace("/Legacy/","/Omnitron/"),"Has the Most")==null,"nonhero cannot inherit inactive hero selector");
 Check(pilot.Dynamic.ApplyCardButton(effectPath,"UnityCharacter","Play Golem")=="打出Golem牌","play golem action keeps deferred subtype");
 Check(pilot.Dynamic.ApplyCardButton(effectPath.Replace("Select Effect Container/Select Effect Button(Clone)","Power Container/UsePower"),"UnityCharacter","Play Golem")==null,"play golem cannot rewrite power body");
+using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/dynamic-0.1.17.json"))){
+ foreach(var x in evidence.RootElement.GetProperty("samples").EnumerateArray()){
+  string source=x.GetProperty("source").GetString()!,expected=x.GetProperty("expected").GetString()!;
+  Check(pilot.Apply(SurfaceProbeRules.HintPath,source)==expected,"0.1.18 incoming damage selection");
+  Check(pilot.Apply(SurfaceProbeRules.HintPath,expected)==null,"0.1.18 idempotent");
+  Check(pilot.Apply(SurfaceProbeRules.HintPath,source+" Extra condition.")==null,"0.1.18 trailing clauses protected");
+  Check(pilot.Apply(DynamicDisplayRules.FinishPath,source)==null,"0.1.18 wrong control excluded");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"<[^<>]+>").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(expected,@"<[^<>]+>").Select(m=>m.Value)),"0.1.18 markup preserved");
+ }
+}
 Console.WriteLine("RUNTIME_CHECKS_COMPLETE "+count);
