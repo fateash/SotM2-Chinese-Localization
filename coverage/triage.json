@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "0762c742a2fafca25a67c1fc",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态完整原文尚无匹配规则；纳入第一阶段，不因卡名或关键词参数延期整个按钮。",
+      "owner": "本地化维护者",
+      "nextAction": "复核完整句语义及参数并补充显示规则、正反例和同功能上下文。"
+    },
+    {
+      "id": "0ef991fcb461a5e07fc4a0cf",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "catalog-difference-review",
+      "reason": "采集词典哈希与仓库候选不同；同对象名和原文存在翻译应用日志及后续中文观察，不能报为已确认漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "归档用户已安装的扩展词典，并用同一词典复核；当前保留候选词典差异。"
+    },
+    {
+      "id": "1196a364145819ad099bc019",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态完整原文尚无匹配规则；纳入第一阶段，不因卡名或关键词参数延期整个按钮。",
+      "owner": "本地化维护者",
+      "nextAction": "复核完整句语义及参数并补充显示规则、正反例和同功能上下文。"
+    },
+    {
+      "id": "16ea02eafb5da3ebfb5a91d6",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "卡组专名或异能正文，按既定顺序第三阶段审核。",
+      "owner": "本地化维护者",
+      "nextAction": "随Captain Cosmic／Insula Primalis卡组审核，保留专名与整段上下文。"
+    },
+    {
+      "id": "1f65e67f51fe721fea088c35",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "退出按钮使用的关闭符号，保留X。",
+      "owner": "本地化维护者",
+      "nextAction": "保持符号；若控件用途变化则重新审核。"
+    },
+    {
+      "id": "26a383850b7fe72bf46e093e",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "catalog-difference-review",
+      "reason": "采集词典哈希与仓库候选不同；同对象名和原文存在翻译应用日志及后续中文观察，不能报为已确认漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "归档用户已安装的扩展词典，并用同一词典复核；当前保留候选词典差异。"
+    },
+    {
+      "id": "31d1adf605037ef67683980d",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "卡组专名或异能正文，按既定顺序第三阶段审核。",
+      "owner": "本地化维护者",
+      "nextAction": "随Captain Cosmic／Insula Primalis卡组审核，保留专名与整段上下文。"
+    },
+    {
+      "id": "3699e3bd4c8511fd27524734",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "卡组专名或异能正文，按既定顺序第三阶段审核。",
+      "owner": "本地化维护者",
+      "nextAction": "随Captain Cosmic／Insula Primalis卡组审核，保留专名与整段上下文。"
+    },
+    {
+      "id": "4bf2976e334ba1e7a4471778",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态完整原文尚无匹配规则；纳入第一阶段，不因卡名或关键词参数延期整个按钮。",
+      "owner": "本地化维护者",
+      "nextAction": "复核完整句语义及参数并补充显示规则、正反例和同功能上下文。"
+    },
+    {
+      "id": "6cc2176efdc33fbdcfa73dcf",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fixed-text-stage-2",
+      "reason": "菜单完整原文含实际换行，留待第二阶段固定文本适配。",
+      "owner": "本地化维护者",
+      "nextAction": "按原始换行和完整控件名匹配并检查按钮排版。"
+    },
+    {
+      "id": "8254d2682433d26df350c79b",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "catalog-difference-review",
+      "reason": "采集词典哈希与仓库候选不同；同对象名和原文存在翻译应用日志及后续中文观察，不能报为已确认漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "归档用户已安装的扩展词典，并用同一词典复核；当前保留候选词典差异。"
+    },
+    {
+      "id": "97a5ce77e4688b93489deb37",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态完整原文尚无匹配规则；纳入第一阶段，不因卡名或关键词参数延期整个按钮。",
+      "owner": "本地化维护者",
+      "nextAction": "复核完整句语义及参数并补充显示规则、正反例和同功能上下文。"
+    },
+    {
+      "id": "a9f25283c4af04187ac783d0",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态完整原文尚无匹配规则；纳入第一阶段，不因卡名或关键词参数延期整个按钮。",
+      "owner": "本地化维护者",
+      "nextAction": "复核完整句语义及参数并补充显示规则、正反例和同功能上下文。"
+    },
+    {
+      "id": "baa200bd2d79cff6758a4e69",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "卡组专名或异能正文，按既定顺序第三阶段审核。",
+      "owner": "本地化维护者",
+      "nextAction": "随Captain Cosmic／Insula Primalis卡组审核，保留专名与整段上下文。"
+    },
+    {
+      "id": "bccdd2df5086e5da7e7a4169",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fixed-text-stage-2",
+      "reason": "菜单完整原文含实际换行，留待第二阶段固定文本适配。",
+      "owner": "本地化维护者",
+      "nextAction": "按原始换行和完整控件名匹配并检查按钮排版。"
+    },
+    {
+      "id": "c0cf1bf7a908617761e9fe45",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态完整原文尚无匹配规则；纳入第一阶段，不因卡名或关键词参数延期整个按钮。",
+      "owner": "本地化维护者",
+      "nextAction": "复核完整句语义及参数并补充显示规则、正反例和同功能上下文。"
+    },
+    {
+      "id": "c11bf9d34c4644d070a90585",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "catalog-difference-review",
+      "reason": "采集词典哈希与仓库候选不同；同对象名和原文存在翻译应用日志及后续中文观察，不能报为已确认漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "归档用户已安装的扩展词典，并用同一词典复核；当前保留候选词典差异。"
+    },
+    {
+      "id": "d76246d70ad8222d567242fc",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "卡组专名或异能正文，按既定顺序第三阶段审核。",
+      "owner": "本地化维护者",
+      "nextAction": "随Captain Cosmic／Insula Primalis卡组审核，保留专名与整段上下文。"
+    }
+  ]
+}

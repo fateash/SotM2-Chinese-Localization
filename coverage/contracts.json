@@ -1,0 +1,1333 @@
+{
+  "schemaVersion": 1,
+  "reviewedFiles": {
+    "runtime/DynamicDisplayRules.cs": "2aa282a702c90621fbc896d0a8f2152e9f205b5d8825e2ca14620a3fc14a4c8a",
+    "runtime/SurfaceProbeRules.cs": "65803f8a22da910e98a98f9202e2d0c802cd1e6fc661c66f34c97a3480ed6651",
+    "runtime/SurfaceProbe.cs": "337e308b31345ad75e93b6d627a5e8d3f78172ec6a191b86d096790e91308896",
+    "runtime/Plugin.cs": "b8ccb6dd941884a2b86e4162aa38a9081bc6ba830028e1b6ae23faf2a1697b9d",
+    "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
+    "probe/dynamic-pilot.json": "8431c200bead26aacd4d1fcb2c188e12c18fbd0def76591e174fbbdf9f97101d"
+  },
+  "families": [
+    {
+      "id": "hint",
+      "templates": [
+        "hint.play",
+        "hint.power.drag",
+        "hint.power.click",
+        "hint.attack.single",
+        "hint.attack.multiple",
+        "hint.effect",
+        "hint.draw-discard",
+        "hint.play.click",
+        "hint.hero.play",
+        "hint.hero.power",
+        "hint.ability",
+        "hint.summon",
+        "hint.hero.topdeck",
+        "hint.trash.topdeck",
+        "hint.discard.single",
+        "hint.deck.reveal",
+        "hint.discard.multiple",
+        "hint.reduce",
+        "hint.attack.unspecified",
+        "hint.attack.order",
+        "hint.reaction",
+        "hint.attack.exact",
+        "hint.attack.required",
+        "hint.attack.order.unspecified",
+        "hint.play.location",
+        "hint.hero.destroy",
+        "hint.card.destroy",
+        "hint.hero.fewest",
+        "hint.phase.activate",
+        "hint.incapacitated",
+        "hint.damage.type",
+        "hint.selection.1",
+        "hint.selection.2",
+        "hint.selection.3",
+        "hint.selection.4",
+        "hint.selection.5",
+        "hint.selection.6",
+        "hint.selection.7",
+        "hint.selection.8",
+        "hint.selection.9",
+        "hint.selection.10",
+        "hint.selection.11",
+        "hint.selection.12",
+        "hint.selection.13",
+        "hint.selection.14",
+        "hint.selection.15",
+        "hint.selection.16",
+        "hint.selection.17",
+        "hint.selection.18",
+        "hint.selection.19",
+        "hint.selection.20",
+        "hint.selection.21",
+        "hint.selection.22",
+        "hint.selection.23",
+        "hint.selection.24"
+      ],
+      "contexts": [
+        {
+          "id": "captured-hint-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Hypersonic Dash:</b> Click targets to choose the order of dealing them <nobr>1 sonic</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Hypersonic Dash:</b> 点击目标，选择对它们造成<nobr>1点音波伤害</nobr>的顺序。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Accelerated Assault:</b> Click targets to choose the order of dealing them <nobr>1 melee</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Accelerated Assault:</b> 点击目标，选择对它们造成<nobr>1点近战伤害</nobr>的顺序。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-5",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a location to to play Wounding Buffer there.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一个区域，将Wounding Buffer打出至该处。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-6",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Cornered Ankylosaurus:</b> Click 2 targets to deal them <nobr>3 melee</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Cornered Ankylosaurus:</b> 点击2个目标，对其各造成<nobr>3点近战伤害</nobr>。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-8",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Wounding Buffer:</b> <b>Cornered Ankylosaurus</b> will deal <b>Legacy</b> 3 melee damage. Click a reaction to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Wounding Buffer:</b> <b>Cornered Ankylosaurus</b>将对<b>Legacy</b>造成3点近战伤害。点击一个反应以使用它。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-9",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a location to to play Augmented Ally there.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一个区域，将Augmented Ally打出至该处。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-10",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Hasten Doom:</b> Click targets to choose the order of dealing them <nobr>2 toxic</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Hasten Doom:</b> 点击目标，选择对它们造成<nobr>2点毒素伤害</nobr>的顺序。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-11",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Wounding Buffer:</b> <b>Baron Blade</b> will deal <b>Legacy</b> 3 toxic damage. Click a reaction to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Wounding Buffer:</b> <b>Baron Blade</b>将对<b>Legacy</b>造成3点毒素伤害。点击一个反应以使用它。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-13",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Devious Disruption:</b> Click a hero to destroy a card.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Devious Disruption:</b> 点击一位英雄，让其破坏一张牌。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-15",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Sonic Vortex:</b> Click up to 6 targets to deal them <nobr>3 sonic</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Sonic Vortex:</b> 点击至多6个目标，对其各造成<nobr>3点音波伤害</nobr>。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-16",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Cornered Ankylosaurus:</b> Click <b>Baron Blade</b> and 1 more target to deal them <nobr>3 melee</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Cornered Ankylosaurus:</b> 点击<b>Baron Blade</b>及另外1个目标，对其各造成<nobr>3点近战伤害</nobr>。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-19",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Grazing Stegosaurus:</b> Click the hero who is considered to have the fewest cards in hand.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Grazing Stegosaurus:</b> 点击视为手牌最少的英雄。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-20",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Pterodactyl Thief:</b> Click a card in play to destroy it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Pterodactyl Thief:</b> 点击一张在场的牌以将其破坏。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-21",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>River of Lava:</b> Click targets to choose the order of dealing them <nobr>2 fire</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>River of Lava:</b> 点击目标，选择对它们造成<nobr>2点火焰伤害</nobr>的顺序。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-22",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Sonic Vortex:</b> Click up to 17 targets to deal them <nobr>3 sonic</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Sonic Vortex:</b> 点击至多17个目标，对其各造成<nobr>3点音波伤害</nobr>。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-23",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Imminent Eruption:</b> Click targets to choose the order of dealing them fire damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Imminent Eruption:</b> 点击目标，选择对它们造成火焰伤害的顺序。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "captured-hint-24",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"StartPhase\"> <b>START PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一张在场的牌，发动其<nobr><sprite name=\"StartPhase\"> <b>开始阶段</b></nobr>效果。",
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "outside-role",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同原文位于不同用途的控件时必须不转换。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Hypersonic Dash:</b> Click targets to choose the order of dealing them <nobr>1 sonic</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null,
+            "objectName": "Hint Label"
+          }
+        },
+        {
+          "id": "layout-4",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "4",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "layout-5",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "5",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "ea-unavailable",
+          "status": "deferred",
+          "view": "hero-variant",
+          "heroState": "all",
+          "layout": "all",
+          "reason": "用户已确认当前EA英雄变体未开放，待开放后补采。",
+          "revisitWhen": "EA开放英雄变体后重新采集并补充回归。"
+        }
+      ]
+    },
+    {
+      "id": "confirmation",
+      "templates": [
+        "finish.damage",
+        "finish.discard",
+        "finish.select"
+      ],
+      "contexts": [
+        {
+          "id": "finish-damage",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "source": "Damage 3 targets",
+            "expected": "对3个目标造成伤害",
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "outside-role",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同原文位于不同用途的控件时必须不转换。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "source": "Damage 3 targets",
+            "expected": null,
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "layout-4",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "4",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "layout-5",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "5",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        }
+      ]
+    },
+    {
+      "id": "phase-count",
+      "templates": [
+        "phase.play.remaining",
+        "phase.draw.remaining"
+      ],
+      "contexts": [
+        {
+          "id": "play-count",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "objectName": "Phase Label",
+            "source": "PLAY PHASE (3 left)",
+            "expected": "出牌阶段（剩余3次）",
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "outside-role",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同原文位于不同用途的控件时必须不转换。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "objectName": "Phase Label",
+            "source": "PLAY PHASE (3 left)",
+            "expected": null,
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "layout-4",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "4",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "layout-5",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "5",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        }
+      ]
+    },
+    {
+      "id": "continue",
+      "templates": [
+        "button.skip.play",
+        "button.skip.power",
+        "button.skip",
+        "button.skip.play.action"
+      ],
+      "contexts": [
+        {
+          "id": "continue-skip",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "objectName": "Text (TMP)",
+            "source": "Skip",
+            "expected": "跳过",
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "outside-role",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同原文位于不同用途的控件时必须不转换。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "objectName": "Text (TMP)",
+            "source": "Skip",
+            "expected": null,
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "layout-4",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "4",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "layout-5",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "5",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        }
+      ]
+    },
+    {
+      "id": "draw-discard",
+      "templates": [
+        "button.draw",
+        "button.discard"
+      ],
+      "contexts": [
+        {
+          "id": "hand-draw",
+          "status": "offline-covered",
+          "view": "hand",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "source": "Draw",
+            "expected": "抽牌",
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "trash-discard",
+          "status": "offline-covered",
+          "view": "trash",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "source": "Discard",
+            "expected": "弃置",
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "outside-role",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同原文位于不同用途的控件时必须不转换。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "source": "Draw",
+            "expected": null,
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "layout-4",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "4",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "layout-5",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "5",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "other-views",
+          "status": "unobserved",
+          "view": "other-small/full/adjacent",
+          "heroState": "active-and-inactive",
+          "layout": "all",
+          "reason": "继续核对小图／大图／附属区用途；未观察到不等于不适用。"
+        }
+      ]
+    },
+    {
+      "id": "description",
+      "templates": [
+        "description.draw",
+        "description.reveal",
+        "description.play"
+      ],
+      "contexts": [
+        {
+          "id": "card-played",
+          "status": "offline-covered",
+          "view": "full-card-overlay",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "objectName": "Description Label",
+            "source": "Baron Blade played:",
+            "expected": "Baron Blade打出的牌：",
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "outside-role",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同原文位于不同用途的控件时必须不转换。",
+          "case": {
+            "path": "Other/Canvas/Temporary Full Card Panel/Description Label",
+            "objectName": "Description Label",
+            "source": "Baron Blade played:",
+            "expected": null,
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "layout-4",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "4",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "layout-5",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "5",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        }
+      ]
+    },
+    {
+      "id": "hero-selection",
+      "templates": [
+        "button.play.card",
+        "button.use.power",
+        "button.put.card",
+        "button.destroy.card",
+        "button.fewest"
+      ],
+      "contexts": [
+        {
+          "id": "hero-action",
+          "status": "offline-covered",
+          "view": "hero-panel",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "source": "Play a Card",
+            "expected": "打出一张牌",
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "outside-role",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同原文位于不同用途的控件时必须不转换。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "source": "Play a Card",
+            "expected": null,
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "layout-4",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "4",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "layout-5",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "5",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "other-views",
+          "status": "unobserved",
+          "view": "other-small/full/adjacent",
+          "heroState": "active-and-inactive",
+          "layout": "all",
+          "reason": "继续核对小图／大图／附属区用途；未观察到不等于不适用。"
+        }
+      ]
+    },
+    {
+      "id": "deck-selection",
+      "templates": [
+        "button.reveal"
+      ],
+      "contexts": [
+        {
+          "id": "deck-reveal",
+          "status": "offline-covered",
+          "view": "deck",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "source": "Reveal",
+            "expected": "展示",
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "outside-role",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同原文位于不同用途的控件时必须不转换。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "source": "Reveal",
+            "expected": null,
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "layout-4",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "4",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "layout-5",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "5",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "other-views",
+          "status": "unobserved",
+          "view": "other-small/full/adjacent",
+          "heroState": "active-and-inactive",
+          "layout": "all",
+          "reason": "继续核对小图／大图／附属区用途；未观察到不等于不适用。"
+        }
+      ]
+    },
+    {
+      "id": "effect-button",
+      "templates": [
+        "button.double.damage",
+        "button.draw.card",
+        "button.common.1",
+        "button.common.2",
+        "button.common.3",
+        "button.common.4",
+        "button.common.5",
+        "button.common.6",
+        "button.common.7",
+        "button.common.8",
+        "button.common.9",
+        "button.common.10",
+        "button.common.11",
+        "button.common.12",
+        "button.common.13",
+        "button.common.14",
+        "button.common.15",
+        "button.common.16",
+        "button.common.17",
+        "button.common.18",
+        "button.common.19",
+        "button.common.20",
+        "button.common.21",
+        "button.common.22",
+        "button.common.23",
+        "button.regain.hp",
+        "button.deal.one",
+        "button.deal.self",
+        "button.deal.many",
+        "button.deal.amount"
+      ],
+      "contexts": [
+        {
+          "id": "small-effect",
+          "status": "offline-covered",
+          "view": "small-card",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Double Damage",
+            "expected": "伤害翻倍",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "full-effect",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "not-applicable",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/TheStaffOfRa/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Double Damage",
+            "expected": "伤害翻倍",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "outside-role",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同原文位于不同用途的控件时必须不转换。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "source": "Double Damage",
+            "expected": null,
+            "cardId": "TheStaffOfRa",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "layout-4",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "4",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "layout-5",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "5",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "other-views",
+          "status": "unobserved",
+          "view": "other-small/full/adjacent",
+          "heroState": "active-and-inactive",
+          "layout": "all",
+          "reason": "继续核对小图／大图／附属区用途；未观察到不等于不适用。"
+        }
+      ]
+    },
+    {
+      "id": "placement",
+      "templates": [
+        "button.play.here"
+      ],
+      "contexts": [
+        {
+          "id": "placement-0",
+          "status": "offline-covered",
+          "view": "character",
+          "heroState": "inactive",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "cardId": "LegacyCharacter",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": "在此打出",
+            "objectName": "Selection Button Label"
+          }
+        },
+        {
+          "id": "placement-1",
+          "status": "offline-covered",
+          "view": "character",
+          "heroState": "inactive",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "cardId": "TachyonCharacter",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": "在此打出",
+            "objectName": "Selection Button Label"
+          }
+        },
+        {
+          "id": "placement-2",
+          "status": "offline-covered",
+          "view": "character",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "cardId": "CaptainCosmicCharacter",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": "在此打出",
+            "objectName": "Selection Button Label"
+          }
+        },
+        {
+          "id": "placement-3",
+          "status": "offline-covered",
+          "view": "small-card",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Next To Selection Button/Selection Button Label",
+            "cardId": "CosmicCrest",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": "在此打出",
+            "objectName": "Selection Button Label"
+          }
+        },
+        {
+          "id": "placement-4",
+          "status": "offline-covered",
+          "view": "character",
+          "heroState": "inactive",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "cardId": "LegacyCharacter",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": "在此打出",
+            "objectName": "Selection Button Label"
+          }
+        },
+        {
+          "id": "placement-5",
+          "status": "offline-covered",
+          "view": "character",
+          "heroState": "inactive",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "cardId": "TachyonCharacter",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": "在此打出",
+            "objectName": "Selection Button Label"
+          }
+        },
+        {
+          "id": "placement-6",
+          "status": "offline-covered",
+          "view": "small-card",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Next To Location View/Card Container/CardView VitalityConduit-0 SmallCardFront/Next To Selection Button/Selection Button Label",
+            "cardId": "VitalityConduit",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": "在此打出",
+            "objectName": "Selection Button Label"
+          }
+        },
+        {
+          "id": "latest-1dcd887f4260762f590c8772",
+          "status": "offline-covered",
+          "view": "character",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "source": "Play Here",
+            "expected": "在此打出",
+            "cardId": "CaptainCosmicCharacter",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "latest-482124485c01b32e89398726",
+          "status": "offline-covered",
+          "view": "character",
+          "heroState": "inactive",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "source": "Play Here",
+            "expected": "在此打出",
+            "cardId": "TachyonCharacter",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "latest-5dc9546441f248de20b7f579",
+          "status": "offline-covered",
+          "view": "small-card",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Next To Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "source": "Play Here",
+            "expected": "在此打出",
+            "cardId": "CosmicCrest",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "latest-b98aff44039dc41ca0b66c5b",
+          "status": "offline-covered",
+          "view": "small-card",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Next To Location View/Card Container/CardView AugmentedAlly-0 SmallCardFront/Next To Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "source": "Play Here",
+            "expected": "在此打出",
+            "cardId": "AugmentedAlly",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "latest-d50838f546956b74a77bb0bf",
+          "status": "offline-covered",
+          "view": "small-card",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Next To Location View/Card Container/CardView WoundingBuffer-1 SmallCardFront/Next To Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "source": "Play Here",
+            "expected": "在此打出",
+            "cardId": "WoundingBuffer",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "latest-d78f06f92999d45348a089b8",
+          "status": "offline-covered",
+          "view": "small-card",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Next To Location View/Card Container/CardView VitalityConduit-0 SmallCardFront/Next To Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "source": "Play Here",
+            "expected": "在此打出",
+            "cardId": "VitalityConduit",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "latest-f210b34507fbca402bd1a510",
+          "status": "offline-covered",
+          "view": "character",
+          "heroState": "inactive",
+          "layout": "3",
+          "reason": "完整文本与显示位置的离线契约；不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "source": "Play Here",
+            "expected": "在此打出",
+            "cardId": "LegacyCharacter",
+            "inCardView": true
+          }
+        },
+        {
+          "id": "outside-role",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "相同原文位于不同用途的控件时必须不转换。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+            "cardId": "LegacyCharacter",
+            "source": "Play Here",
+            "inCardView": true,
+            "expected": null,
+            "objectName": "Selection Button Label"
+          }
+        },
+        {
+          "id": "layout-4",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "4",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "layout-5",
+          "status": "unobserved",
+          "view": "all-applicable",
+          "heroState": "active-and-inactive",
+          "layout": "5",
+          "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "other-views",
+          "status": "unobserved",
+          "view": "other-small/full/adjacent",
+          "heroState": "active-and-inactive",
+          "layout": "all",
+          "reason": "继续核对小图／大图／附属区用途；未观察到不等于不适用。"
+        }
+      ]
+    }
+  ],
+  "classificationCases": [
+    {
+      "path": "Canvas/Unexpected/Next To Selection Button/Selection Button Label",
+      "cardId": "LegacyCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "expected": "在此打出",
+      "objectName": "Selection Button Label",
+      "id": "known-text-new-path",
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "expectedReason": "known-source-route-gap"
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "LegacyCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "expected": "在此打出",
+      "objectName": "Selection Button Label",
+      "id": "old-capture-fixed-now",
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "expectedReason": "current-rule-match"
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "LegacyCharacter",
+      "source": "Unseen complete prompt",
+      "inCardView": true,
+      "expected": "在此打出",
+      "objectName": "Selection Button Label",
+      "id": "unknown-text",
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "expectedReason": "unresolved-full-string"
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "LegacyCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "expected": "在此打出",
+      "objectName": "Selection Button Label",
+      "id": "formatted-input",
+      "inputSource": "SetText",
+      "truncated": false,
+      "markerCandidate": false,
+      "expectedReason": "protected-input-buffer"
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "LegacyCharacter",
+      "source": "-1",
+      "inCardView": true,
+      "expected": "在此打出",
+      "objectName": "Selection Button Label",
+      "id": "numeric",
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "expectedReason": "protected-number"
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "LegacyCharacter",
+      "source": "在此打出",
+      "inCardView": true,
+      "expected": "在此打出",
+      "objectName": "Selection Button Label",
+      "id": "chinese",
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "expectedReason": "localized-text-observed"
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "LegacyCharacter",
+      "source": "点击 Untranslated Action",
+      "inCardView": true,
+      "expected": "在此打出",
+      "objectName": "Selection Button Label",
+      "id": "mixed-chinese-english",
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "expectedReason": "unresolved-full-string"
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "LegacyCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "expected": "在此打出",
+      "objectName": "Selection Button Label",
+      "id": "truncated",
+      "inputSource": "TextString",
+      "truncated": true,
+      "markerCandidate": false,
+      "expectedReason": "truncated-evidence"
+    },
+    {
+      "path": "Canvas/Menu/Text",
+      "cardId": "",
+      "source": "Options",
+      "inCardView": false,
+      "expected": "在此打出",
+      "objectName": "Text",
+      "id": "base-catalog-handles",
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "expectedReason": "current-rule-match"
+    }
+  ]
+}

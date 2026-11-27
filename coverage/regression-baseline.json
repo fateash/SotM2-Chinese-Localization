@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "status": "offline-regression-only-not-live-acceptance",
+  "entries": [
+    {
+      "id": "031128b45914491882ec8b27",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "0757cf2433842f9c8a2e53e9",
+      "reason": "current-rule-match",
+      "target": "抢先体验说明"
+    },
+    {
+      "id": "1710be2ae018f1ad5c90d309",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "1dcd887f4260762f590c8772",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "1e80eee9483005760475acea",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "1f756285ce611665bdc4e916",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "2285896a3653c160397be010",
+      "reason": "current-rule-match",
+      "target": "<b>Cosmic Crest:</b> 点击一个区域，将Autonomous Blade打出至该处。"
+    },
+    {
+      "id": "482124485c01b32e89398726",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "4d9d01f59dd90f857a34bb91",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "4e1b1848fd9ec960f815a688",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "51778421dfd85c7afda64f20",
+      "reason": "current-rule-match",
+      "target": "退出"
+    },
+    {
+      "id": "5dc9546441f248de20b7f579",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "617fff9355bf90ccda19a2fb",
+      "reason": "current-rule-match",
+      "target": "跳过出牌阶段"
+    },
+    {
+      "id": "724b94b1f76c242fe0717506",
+      "reason": "current-rule-match",
+      "target": "<b>Pterodactyl Thief:</b> 点击一张在场的牌以将其破坏。"
+    },
+    {
+      "id": "7253958055d41c28ed8338dc",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "731c20363c56587382b83fc8",
+      "reason": "current-rule-match",
+      "target": "点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+    },
+    {
+      "id": "7a05a4b35e89a35767ef6b33",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "7b2eaa16bf6c0c8091659ca5",
+      "reason": "current-rule-match",
+      "target": "卡牌图鉴"
+    },
+    {
+      "id": "7b6c15feeb0e6cc658ebe0c1",
+      "reason": "current-rule-match",
+      "target": "帮助与反馈"
+    },
+    {
+      "id": "7fec4c0e39296c00a2d7231a",
+      "reason": "current-rule-match",
+      "target": "成就"
+    },
+    {
+      "id": "8691bcd1b173084ec89c171d",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "90d9682942ce6cef34ed9fa1",
+      "reason": "current-rule-match",
+      "target": "选项"
+    },
+    {
+      "id": "992aac441896b5e5d18c8507",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "9fefbc998c4108f266dbf62a",
+      "reason": "current-rule-match",
+      "target": "跳过异能阶段"
+    },
+    {
+      "id": "a0a8e05c79b40d09f5d0ad13",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "a59a5a774d0178bc0794c4bf",
+      "reason": "current-rule-match",
+      "target": "点击一个区域，将Wounding Buffer打出至该处。"
+    },
+    {
+      "id": "afb1ac66b2536c95bfeb3f7a",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "b09499a196a85b06a612536b",
+      "reason": "current-rule-match",
+      "target": "游戏规则"
+    },
+    {
+      "id": "b305824a47907cbd8fb859c8",
+      "reason": "current-rule-match",
+      "target": "制作人员"
+    },
+    {
+      "id": "b98aff44039dc41ca0b66c5b",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "b9db358e5d28f1a411c117d1",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "bcbb29ed4f14c3682cd84f4c",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "bdea9d13eabf0c1b989f119b",
+      "reason": "current-rule-match",
+      "target": "新建游戏"
+    },
+    {
+      "id": "d050b51b3dc20c2f5ab7ffce",
+      "reason": "current-rule-match",
+      "target": "发送反馈"
+    },
+    {
+      "id": "d50838f546956b74a77bb0bf",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "d5ffaab74ada8169545b0ed6",
+      "reason": "current-rule-match",
+      "target": "<b>Cosmic Crest:</b> 点击Cosmic Crest上的按钮，选择一个效果。"
+    },
+    {
+      "id": "d78f06f92999d45348a089b8",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "d949190399359e1267ad7a02",
+      "reason": "current-rule-match",
+      "target": "继续游戏"
+    },
+    {
+      "id": "dc73373c27cadb5656909e09",
+      "reason": "current-rule-match",
+      "target": "点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "e18b8f86a61330c7df36a6cb",
+      "reason": "current-rule-match",
+      "target": "点击一个异能以使用它。"
+    },
+    {
+      "id": "e25c7ddc0716d4557c0611d9",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "e4d552f81897000ed9e8163a",
+      "reason": "current-rule-match",
+      "target": "游戏规则"
+    },
+    {
+      "id": "e5db55862de972548d465d9d",
+      "reason": "current-rule-match",
+      "target": "选项"
+    },
+    {
+      "id": "eaebed7f5152897d2e7b963a",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "f210b34507fbca402bd1a510",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "fa16313d5de560634f8b7060",
+      "reason": "current-rule-match",
+      "target": "快速游戏"
+    }
+  ]
+}

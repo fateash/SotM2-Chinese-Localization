@@ -1,0 +1,1462 @@
+{
+  "schemaVersion": 1,
+  "sessions": [
+    {
+      "file": "SotM2-Dynamic-Evidence-20261127-111623-a99949.zip",
+      "sha256": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+      "issues": [],
+      "version": "0.1.12-rc.1",
+      "buildId": "26880829",
+      "installed": {
+        "sample-texts.json": "6549cf8ad931b11188fc8b8adedca39f3e283aaf8878fbc44cb557fc256037c5",
+        "SotM2ChinesePrototype.dll": "f0d3152c6fe8e7f230f0eac38ed173f4b6c5c0251fc32c67bff62f20da0cb680",
+        "surface-probe.json": "8431c200bead26aacd4d1fcb2c188e12c18fbd0def76591e174fbbdf9f97101d"
+      },
+      "manifestSourceCommit": "8f2dc64b6eacb2965e1f2efcd64f7cbb093e1bf3",
+      "runtimeWarnings": [],
+      "applicationSignals": [
+        {
+          "objectName": "Text",
+          "source": "Options"
+        },
+        {
+          "objectName": "Text",
+          "source": "New Game"
+        },
+        {
+          "objectName": "Text",
+          "source": "Credits"
+        },
+        {
+          "objectName": "Text",
+          "source": "Quick Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "How to Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "Achievements"
+        },
+        {
+          "objectName": "Text",
+          "source": "Continue Game"
+        },
+        {
+          "objectName": "Text",
+          "source": "Early Access Info"
+        },
+        {
+          "objectName": "Text",
+          "source": "Help & Feedback"
+        },
+        {
+          "objectName": "Text",
+          "source": "Card Library"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "START PHASE"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "construct, limited"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing, limited"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "one-shot"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "Play this card next to a Hero character.\r\nThey gain this power:\r\n<style=PowerHeading>POWER: </style><style=PowerBody>This Hero deals 1 target 3 energy damage.\r\n</style>"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "−1 damage dealt to Construct cards.\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\nEither destroy this card or discard 1 card.\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nThe Construct card with the lowest HP <b>(Vitality Conduit/Wounding Buffer)</b> regains 2 HP.\r\n"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Pterodactyl Thief:</b> Click a card in play to destroy it."
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "END PHASE"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "−1 damage dealt to Construct cards.\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\nEither destroy this card or discard 1 card.\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nThe Construct card with the lowest HP <b>(Cosmic Weapon/Vitality Conduit/Wounding Buffer)</b> regains 2 HP.\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "item, limited"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "Legacy免疫环境目标造成的伤害。\r\n<style=PowerHeading>POWER: </style><style=PowerBody>埋藏场上的1个环境目标。摧毁此牌。\r\n</style>"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "Click a power to use it."
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Skip Power Phase"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "POWER PHASE"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "Play this card next to a Hero character.\r\n<voffset=-0.3em><space=-1em><sprite name=\"PowerPhase\"><space=.5em><style=PowerPhase>POWER PHASE</style></voffset>\r\nThis Hero may discard 1 card. If they do, they may use 1 additional power this phase.\r\n"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "PLAY PHASE"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Skip Play Phase"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "Click or drag a card to play it."
+        },
+        {
+          "objectName": "Selection Button Label",
+          "source": "Play Here"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "Click a location to to play Wounding Buffer there."
+        },
+        {
+          "objectName": "Body Label",
+          "source": "−1 damage dealt to Captain Cosmic.\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Play or discover 1 Construct card.\r\n</style>"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Cosmic Crest:</b> Click a button on Cosmic Crest to choose an effect."
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Cosmic Crest:</b> Click a location to to play Autonomous Blade there."
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect."
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Send Feedback"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "How to Play"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Options"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Quit"
+        }
+      ],
+      "observations": 64,
+      "captureLimitReached": false,
+      "exhaustive": false
+    }
+  ],
+  "samples": [
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Next To Location View/Card Container/CardView DynamicSiphon-0 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "DynamicSiphon",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "031128b45914491882ec8b27",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 82,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Early Access Info Button/Text",
+      "cardId": "",
+      "source": "Early Access Info",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "0757cf2433842f9c8a2e53e9",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 47,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "cardId": "CosmicCrest",
+      "source": "Discover Construct",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "0762c742a2fafca25a67c1fc",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 149,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "START PHASE",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "0ef991fcb461a5e07fc4a0cf",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 56,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Unflagging Animation:</b> Click a target to determine which has the lowest HP.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "1196a364145819ad099bc019",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 80,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Turn Taker Label",
+      "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+      "cardId": "",
+      "source": "Captain Cosmic",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "16ea02eafb5da3ebfb5a91d6",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 75,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Next To Location View/Card Container/CardView VitalityConduit-0 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "VitalityConduit",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "1710be2ae018f1ad5c90d309",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 63,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "CaptainCosmicCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "1dcd887f4260762f590c8772",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 142,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "出牌阶段",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "1e80eee9483005760475acea",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 131,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Quit Button/Text",
+      "cardId": "",
+      "source": "X",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "1f65e67f51fe721fea088c35",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 40,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CorneredAnkylosaurus-1 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "CorneredAnkylosaurus",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "1f756285ce611665bdc4e916",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 61,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Cosmic Crest:</b> Click a location to to play Autonomous Blade there.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "2285896a3653c160397be010",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 157,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "END PHASE",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "26a383850b7fe72bf46e093e",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 76,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Turn Taker Label",
+      "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+      "cardId": "",
+      "source": "Insula Primalis",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "31d1adf605037ef67683980d",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 59,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Power Container/397/UsePower-CaptainCosmic-CaptainCosmicCharacter/Label",
+      "cardId": "CaptainCosmicCharacter",
+      "source": "<style=PowerTitle>Fabrication</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Reveal the top card of your deck. Play it or draw it.\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "3699e3bd4c8511fd27524734",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 146,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "TachyonCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "482124485c01b32e89398726",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 141,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "cardId": "CosmicCrest",
+      "source": "Play Construct",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "4bf2976e334ba1e7a4471778",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 148,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "开始阶段",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "4d9d01f59dd90f857a34bb91",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 60,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "CaptainCosmicCharacter",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "4e1b1848fd9ec960f815a688",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 81,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Overlay Canvas/Menu Panel/Main Container/Quit Button/Text (TMP)",
+      "cardId": "",
+      "source": "Quit",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "51778421dfd85c7afda64f20",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 170,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Next To Selection Button/Selection Button Label",
+      "cardId": "CosmicCrest",
+      "source": "Play Here",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "5dc9546441f248de20b7f579",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 154,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+      "cardId": "",
+      "source": "Skip Play Phase",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "617fff9355bf90ccda19a2fb",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 132,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Early Access Feedback Button/Text",
+      "cardId": "",
+      "source": "Send Early \nAccess Feedback",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "6cc2176efdc33fbdcfa73dcf",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 35,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Pterodactyl Thief:</b> Click a card in play to destroy it.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "724b94b1f76c242fe0717506",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 72,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "结束阶段",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "7253958055d41c28ed8338dc",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 78,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "731c20363c56587382b83fc8",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 161,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "异能阶段",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "7a05a4b35e89a35767ef6b33",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 126,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Learn & Library Buttons/Card Library/Text",
+      "cardId": "",
+      "source": "Card Library",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "7b2eaa16bf6c0c8091659ca5",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 51,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Options & Other Buttons/Help & Feedback/Text",
+      "cardId": "",
+      "source": "Help & Feedback",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "7b6c15feeb0e6cc658ebe0c1",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 49,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Options & Other Buttons/Achievements/Text",
+      "cardId": "",
+      "source": "Achievements",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "7fec4c0e39296c00a2d7231a",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 43,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "PLAY PHASE",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "8254d2682433d26df350c79b",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 129,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/HUD Panel/Menu Button/Text (TMP)",
+      "cardId": "",
+      "source": "菜单",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "8691bcd1b173084ec89c171d",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 58,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Overlay Canvas/Menu Panel/Main Container/Options Button/Text (TMP)",
+      "cardId": "",
+      "source": "Options",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "90d9682942ce6cef34ed9fa1",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 168,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "Click a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "97a5ce77e4688b93489deb37",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 123,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Next To Location View/Card Container/CardView AugmentedAlly-0 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "AugmentedAlly",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "992aac441896b5e5d18c8507",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 62,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+      "cardId": "",
+      "source": "Skip Power Phase",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "9fefbc998c4108f266dbf62a",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 120,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView RemoteWalkingTank-1 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "RemoteWalkingTank",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "a0a8e05c79b40d09f5d0ad13",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 71,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "Click a location to to play Wounding Buffer there.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "a59a5a774d0178bc0794c4bf",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 143,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "POWER PHASE (1 left)",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "a9f25283c4af04187ac783d0",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 115,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Next To Location View/Card Container/CardView CosmicWeapon-1 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "CosmicWeapon",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "afb1ac66b2536c95bfeb3f7a",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 83,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Overlay Canvas/Menu Panel/Main Container/How to Play Button/Text (TMP)",
+      "cardId": "",
+      "source": "How to Play",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "b09499a196a85b06a612536b",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 166,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Options & Other Buttons/Credits/Text",
+      "cardId": "",
+      "source": "Credits",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "b305824a47907cbd8fb859c8",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 36,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Next To Location View/Card Container/CardView AugmentedAlly-0 SmallCardFront/Next To Selection Button/Selection Button Label",
+      "cardId": "AugmentedAlly",
+      "source": "Play Here",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "b98aff44039dc41ca0b66c5b",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 153,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Next To Location View/Card Container/CardView VitalityConduit-1 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "VitalityConduit",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "b9db358e5d28f1a411c117d1",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 84,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Power Container/406/UsePower-CaptainCosmic-CaptainCosmicCharacter/Label",
+      "cardId": "CaptainCosmicCharacter",
+      "source": "<style=PowerTitle>Fabrication</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Reveal the top card of your deck. Play it or draw it.\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "baa200bd2d79cff6758a4e69",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 119,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "CaptainCosmicCharacter",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "bcbb29ed4f14c3682cd84f4c",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 64,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Multiplayer Button/Text",
+      "cardId": "",
+      "source": "Online\nMultiplayer",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "bccdd2df5086e5da7e7a4169",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 34,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Main Buttons/New Game/Text",
+      "cardId": "",
+      "source": "New Game",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "bdea9d13eabf0c1b989f119b",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 32,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Description Label",
+      "path": "Canvas/Temporary Full Card Panel/Description Label",
+      "cardId": "",
+      "source": "Cosmic Crest discovered:",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "c0cf1bf7a908617761e9fe45",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 160,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "POWER PHASE",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "c11bf9d34c4644d070a90585",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 124,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Overlay Canvas/Menu Panel/Main Container/Feedback Button/Text (TMP)",
+      "cardId": "",
+      "source": "Send Feedback",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "d050b51b3dc20c2f5ab7ffce",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 164,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Next To Location View/Card Container/CardView WoundingBuffer-1 SmallCardFront/Next To Selection Button/Selection Button Label",
+      "cardId": "WoundingBuffer",
+      "source": "Play Here",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "d50838f546956b74a77bb0bf",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 156,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Cosmic Crest:</b> Click a button on Cosmic Crest to choose an effect.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "d5ffaab74ada8169545b0ed6",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 150,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Power Container/395/UsePower-CaptainCosmic-CaptainCosmicCharacter/Label",
+      "cardId": "CaptainCosmicCharacter",
+      "source": "<style=PowerTitle>Fabrication</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Reveal the top card of your deck. Play it or draw it.\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "d76246d70ad8222d567242fc",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 128,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Next To Location View/Card Container/CardView VitalityConduit-0 SmallCardFront/Next To Selection Button/Selection Button Label",
+      "cardId": "VitalityConduit",
+      "source": "Play Here",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "d78f06f92999d45348a089b8",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 155,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Main Buttons/Continue Game/Text",
+      "cardId": "",
+      "source": "Continue Game",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "d949190399359e1267ad7a02",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 45,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "Click or drag a card to play it.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "dc73373c27cadb5656909e09",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 135,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "Click a power to use it.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "e18b8f86a61330c7df36a6cb",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 116,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "CosmicCrest",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "e25c7ddc0716d4557c0611d9",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 66,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Learn & Library Buttons/How to Play/Text",
+      "cardId": "",
+      "source": "How to Play",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "e4d552f81897000ed9e8163a",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 41,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Options & Other Buttons/Options/Text",
+      "cardId": "",
+      "source": "Options",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "e5db55862de972548d465d9d",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 30,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Next To Location View/Card Container/CardView WoundingBuffer-0 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "WoundingBuffer",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "eaebed7f5152897d2e7b963a",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 85,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "LegacyCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "buildId": "26880829",
+      "id": "f210b34507fbca402bd1a510",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 138,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Main Buttons/Quick Play/Text",
+      "cardId": "",
+      "source": "Quick Play",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "buildId": "26880829",
+      "id": "fa16313d5de560634f8b7060",
+      "evidence": [
+        {
+          "session": "f69ab2cfcfe0ca55d731e9539c5d1584786b07ada81780120785ba6cb3dab917",
+          "line": 38,
+          "version": "0.1.12-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    }
+  ]
+}
