@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "2aa282a702c90621fbc896d0a8f2152e9f205b5d8825e2ca14620a3fc14a4c8a",
+    "runtime/DynamicDisplayRules.cs": "ea5cfccdcbc70397fe8dfa83fd01300dc93f049fb4ce78b714fdfa9c9b70c49b",
     "runtime/SurfaceProbeRules.cs": "65803f8a22da910e98a98f9202e2d0c802cd1e6fc661c66f34c97a3480ed6651",
     "runtime/SurfaceProbe.cs": "337e308b31345ad75e93b6d627a5e8d3f78172ec6a191b86d096790e91308896",
-    "runtime/Plugin.cs": "b8ccb6dd941884a2b86e4162aa38a9081bc6ba830028e1b6ae23faf2a1697b9d",
+    "runtime/Plugin.cs": "9ce3b1ccff5dfdf6d5d53ea35b34c2709daed8c21e92330886c80efcf836562c",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "8431c200bead26aacd4d1fcb2c188e12c18fbd0def76591e174fbbdf9f97101d"
+    "probe/dynamic-pilot.json": "43ff2c101071f17a2cf4817b56b4a082d286877a1341b1d1d9fe0ed5385069b8"
   },
   "families": [
     {
@@ -66,7 +66,8 @@
         "hint.selection.21",
         "hint.selection.22",
         "hint.selection.23",
-        "hint.selection.24"
+        "hint.selection.24",
+        "hint.lowest.hp"
       ],
       "contexts": [
         {
@@ -381,6 +382,72 @@
           "layout": "all",
           "reason": "用户已确认当前EA英雄变体未开放，待开放后补采。",
           "revisitWhen": "EA开放英雄变体后重新采集并补充回归。"
+        },
+        {
+          "id": "pilot013-1196a364145819ad099bc019",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "3",
+          "reason": "0.1.12实机完整原文及位置；0.1.13离线匹配，尚待画面／点击验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Unflagging Animation:</b> Click a target to determine which has the lowest HP.",
+            "inCardView": false,
+            "expected": "<b>Unflagging Animation:</b> 点击一个目标，将其视为生命值最低的目标。",
+            "observationId": "1196a364145819ad099bc019"
+          }
+        },
+        {
+          "id": "pilot013-97a5ce77e4688b93489deb37",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "3",
+          "reason": "0.1.12实机完整原文及位置；0.1.13离线匹配，尚待画面／点击验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "Click a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": "点击一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。",
+            "observationId": "97a5ce77e4688b93489deb37"
+          }
+        },
+        {
+          "id": "pilot013-outside-1196a364145819ad099bc019",
+          "status": "excluded",
+          "view": "unrelated-label",
+          "heroState": "not-applicable",
+          "layout": "not-applicable",
+          "reason": "相同文本在非指定显示用途下不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "<b>Unflagging Animation:</b> Click a target to determine which has the lowest HP.",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "pilot013-outside-97a5ce77e4688b93489deb37",
+          "status": "excluded",
+          "view": "unrelated-label",
+          "heroState": "not-applicable",
+          "layout": "not-applicable",
+          "reason": "相同文本在非指定显示用途下不转换。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "cardId": "",
+            "source": "Click a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "inCardView": false,
+            "expected": null
+          }
         }
       ]
     },
@@ -446,7 +513,8 @@
       "id": "phase-count",
       "templates": [
         "phase.play.remaining",
-        "phase.draw.remaining"
+        "phase.draw.remaining",
+        "phase.power.remaining"
       ],
       "contexts": [
         {
@@ -496,6 +564,39 @@
           "heroState": "active-and-inactive",
           "layout": "5",
           "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "pilot013-a9f25283c4af04187ac783d0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "3",
+          "reason": "0.1.12实机完整原文及位置；0.1.13离线匹配，尚待画面／点击验收。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "POWER PHASE (1 left)",
+            "inCardView": false,
+            "expected": "异能阶段（剩余1次）",
+            "observationId": "a9f25283c4af04187ac783d0"
+          }
+        },
+        {
+          "id": "pilot013-outside-a9f25283c4af04187ac783d0",
+          "status": "excluded",
+          "view": "unrelated-label",
+          "heroState": "not-applicable",
+          "layout": "not-applicable",
+          "reason": "相同文本在非指定显示用途下不转换。",
+          "case": {
+            "objectName": "Phase Label",
+            "path": "Other/Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+            "cardId": "",
+            "source": "POWER PHASE (1 left)",
+            "inCardView": false,
+            "expected": null
+          }
         }
       ]
     },
@@ -644,7 +745,8 @@
       "templates": [
         "description.draw",
         "description.reveal",
-        "description.play"
+        "description.play",
+        "description.discover"
       ],
       "contexts": [
         {
@@ -694,6 +796,39 @@
           "heroState": "active-and-inactive",
           "layout": "5",
           "reason": "尚未采集该人数布局；不得以3人布局通过推定覆盖。"
+        },
+        {
+          "id": "pilot013-c0cf1bf7a908617761e9fe45",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "3",
+          "reason": "0.1.12实机完整原文及位置；0.1.13离线匹配，尚待画面／点击验收。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Cosmic Crest discovered:",
+            "inCardView": false,
+            "expected": "Cosmic Crest发现的牌：",
+            "observationId": "c0cf1bf7a908617761e9fe45"
+          }
+        },
+        {
+          "id": "pilot013-outside-c0cf1bf7a908617761e9fe45",
+          "status": "excluded",
+          "view": "unrelated-label",
+          "heroState": "not-applicable",
+          "layout": "not-applicable",
+          "reason": "相同文本在非指定显示用途下不转换。",
+          "case": {
+            "objectName": "Description Label",
+            "path": "Other/Canvas/Temporary Full Card Panel/Description Label",
+            "cardId": "",
+            "source": "Cosmic Crest discovered:",
+            "inCardView": false,
+            "expected": null
+          }
         }
       ]
     },
@@ -861,7 +996,9 @@
         "button.deal.one",
         "button.deal.self",
         "button.deal.many",
-        "button.deal.amount"
+        "button.deal.amount",
+        "button.play.construct",
+        "button.discover.construct"
       ],
       "contexts": [
         {
@@ -935,6 +1072,200 @@
           "heroState": "active-and-inactive",
           "layout": "all",
           "reason": "继续核对小图／大图／附属区用途；未观察到不等于不适用。"
+        },
+        {
+          "id": "pilot013-0762c742a2fafca25a67c1fc",
+          "status": "offline-covered",
+          "view": "small-card",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "0.1.12实机完整原文及位置；0.1.13离线匹配，尚待画面／点击验收。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CosmicCrest",
+            "source": "Discover Construct",
+            "inCardView": true,
+            "expected": "发现Construct牌",
+            "observationId": "0762c742a2fafca25a67c1fc"
+          }
+        },
+        {
+          "id": "pilot013-4bf2976e334ba1e7a4471778",
+          "status": "offline-covered",
+          "view": "small-card",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "0.1.12实机完整原文及位置；0.1.13离线匹配，尚待画面／点击验收。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CosmicCrest",
+            "source": "Play Construct",
+            "inCardView": true,
+            "expected": "打出Construct牌",
+            "observationId": "4bf2976e334ba1e7a4471778"
+          }
+        },
+        {
+          "id": "construct-Play-full-card",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "not-applicable",
+          "reason": "同效果按钮用途的跨位置离线组合，非新增实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CosmicCrest/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CosmicCrest",
+            "source": "Play Construct",
+            "inCardView": true,
+            "expected": "打出Construct牌"
+          }
+        },
+        {
+          "id": "construct-Play-inactive",
+          "status": "offline-covered",
+          "view": "small-card",
+          "heroState": "inactive",
+          "layout": "3",
+          "reason": "同效果按钮用途的跨位置离线组合，非新增实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CosmicCrest",
+            "source": "Play Construct",
+            "inCardView": true,
+            "expected": "打出Construct牌"
+          }
+        },
+        {
+          "id": "construct-Play-adjacent",
+          "status": "offline-covered",
+          "view": "small-card-adjacent",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "同效果按钮用途的跨位置离线组合，非新增实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Next To Location View/Card Container/CardView CosmicCrest-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CosmicCrest",
+            "source": "Play Construct",
+            "inCardView": true,
+            "expected": "打出Construct牌"
+          }
+        },
+        {
+          "id": "construct-Play-power-body",
+          "status": "excluded",
+          "view": "power-body",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "按钮译文不得进入异能正文或状态标签。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Power Container/UsePower/Label",
+            "cardId": "CosmicCrest",
+            "source": "Play Construct",
+            "inCardView": true,
+            "expected": null
+          }
+        },
+        {
+          "id": "construct-Play-status",
+          "status": "excluded",
+          "view": "status",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "按钮译文不得进入异能正文或状态标签。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+            "cardId": "CosmicCrest",
+            "source": "Play Construct",
+            "inCardView": true,
+            "expected": null
+          }
+        },
+        {
+          "id": "construct-Discover-full-card",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "not-applicable",
+          "reason": "同效果按钮用途的跨位置离线组合，非新增实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CosmicCrest/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CosmicCrest",
+            "source": "Discover Construct",
+            "inCardView": true,
+            "expected": "发现Construct牌"
+          }
+        },
+        {
+          "id": "construct-Discover-inactive",
+          "status": "offline-covered",
+          "view": "small-card",
+          "heroState": "inactive",
+          "layout": "3",
+          "reason": "同效果按钮用途的跨位置离线组合，非新增实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CosmicCrest",
+            "source": "Discover Construct",
+            "inCardView": true,
+            "expected": "发现Construct牌"
+          }
+        },
+        {
+          "id": "construct-Discover-adjacent",
+          "status": "offline-covered",
+          "view": "small-card-adjacent",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "同效果按钮用途的跨位置离线组合，非新增实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Next To Location View/Card Container/CardView CosmicCrest-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CosmicCrest",
+            "source": "Discover Construct",
+            "inCardView": true,
+            "expected": "发现Construct牌"
+          }
+        },
+        {
+          "id": "construct-Discover-power-body",
+          "status": "excluded",
+          "view": "power-body",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "按钮译文不得进入异能正文或状态标签。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Power Container/UsePower/Label",
+            "cardId": "CosmicCrest",
+            "source": "Discover Construct",
+            "inCardView": true,
+            "expected": null
+          }
+        },
+        {
+          "id": "construct-Discover-status",
+          "status": "excluded",
+          "view": "status",
+          "heroState": "active",
+          "layout": "3",
+          "reason": "按钮译文不得进入异能正文或状态标签。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+            "cardId": "CosmicCrest",
+            "source": "Discover Construct",
+            "inCardView": true,
+            "expected": null
+          }
         }
       ]
     },

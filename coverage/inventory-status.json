@@ -685,11 +685,16 @@
       "key": "literal.46c11185f4e66cfc9d46b92f",
       "sourceSha256": "46c11185f4e66cfc9d46b92f518d4ecbae3bddea052cfc6feff2f6ebf4e49858",
       "stage": 1,
-      "translation": "draft",
-      "display": "pending",
+      "translation": "reviewed",
+      "display": "covered",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.phase.activate"
+      ],
+      "evidence": [
+        "tests/runtime/Program.cs:phase enum and matching sprite/title cases",
+        "tests/fixtures/dynamic-0.1.12.json"
+      ]
     },
     {
       "key": "literal.a15436995c9faf71c0758665",
@@ -1268,8 +1273,13 @@
       "translation": "draft",
       "display": "pending",
       "live": "pending",
-      "templateIds": [],
-      "evidence": []
+      "templateIds": [
+        "hint.lowest.hp"
+      ],
+      "evidence": [
+        "tests/fixtures/dynamic-0.1.12.json:one complete-sentence composition only"
+      ],
+      "coverageNote": "仅覆盖Click a target to前缀的已观察组合；其他组合未据此结项。"
     },
     {
       "key": "literal.f94f0c811e7f950da9ae8e49",

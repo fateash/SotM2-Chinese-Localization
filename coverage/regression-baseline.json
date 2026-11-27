@@ -231,6 +231,36 @@
       "id": "fa16313d5de560634f8b7060",
       "reason": "current-rule-match",
       "target": "快速游戏"
+    },
+    {
+      "id": "0762c742a2fafca25a67c1fc",
+      "reason": "current-rule-match",
+      "target": "发现Construct牌"
+    },
+    {
+      "id": "1196a364145819ad099bc019",
+      "reason": "current-rule-match",
+      "target": "<b>Unflagging Animation:</b> 点击一个目标，将其视为生命值最低的目标。"
+    },
+    {
+      "id": "4bf2976e334ba1e7a4471778",
+      "reason": "current-rule-match",
+      "target": "打出Construct牌"
+    },
+    {
+      "id": "97a5ce77e4688b93489deb37",
+      "reason": "current-rule-match",
+      "target": "点击一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+    },
+    {
+      "id": "a9f25283c4af04187ac783d0",
+      "reason": "current-rule-match",
+      "target": "异能阶段（剩余1次）"
+    },
+    {
+      "id": "c0cf1bf7a908617761e9fe45",
+      "reason": "current-rule-match",
+      "target": "Cosmic Crest发现的牌："
     }
   ]
 }

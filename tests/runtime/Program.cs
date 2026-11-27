@@ -117,7 +117,7 @@ foreach(var phase in new[]{("PLAY","出牌"),("DRAW","抽牌")}){
   Check(pilot.Apply(DynamicDisplayRules.PhasePath,output!)==null,"translated phase remains stable");
  }
 }
-foreach(var input in new[]{"PLAY PHASE","出牌阶段","PLAY PHASE (-1 left)","PLAY PHASE (1.5 left)","PLAY PHASE (1000000 left)","PLAY PHASE (2 left) suffix","prefix PLAY PHASE (2 left)","PLAY PHASE (2 left)\n","POWER PHASE (2 left)","START PHASE (2 left)","PLAY PHASE (<b>2</b> left)","PLAY PHASE (2 LEFT)"})
+foreach(var input in new[]{"PLAY PHASE","出牌阶段","PLAY PHASE (-1 left)","PLAY PHASE (1.5 left)","PLAY PHASE (1000000 left)","PLAY PHASE (2 left) suffix","prefix PLAY PHASE (2 left)","PLAY PHASE (2 left)\n","START PHASE (2 left)","PLAY PHASE (<b>2</b> left)","PLAY PHASE (2 LEFT)"})
  Check(pilot.Apply(DynamicDisplayRules.PhasePath,input)==null,"nonmatching phase left to existing behavior: "+input);
 Check(pilot.Apply("Other/Phase Label","PLAY PHASE (3 left)")==null,"phase path must match exactly");
 Check(pilot.Apply(SurfaceProbeRules.HintPath,"PLAY PHASE (3 left)")==null,"phase grammar cannot affect hints");
@@ -180,4 +180,39 @@ foreach(var path in new[]{smallPlacement.Replace("Next To Selection Button","HP"
 Check(pilot.Dynamic.ApplyCardButton(smallPlacement,"CosmicCrest","Play Here extra")==null,"placement requires complete source");
 string adjacent=smallPlacement.Replace("Foreground Elements/Play Area/Scroll View/Viewport","Character Card Container/LegacyCharacter/Next To Location View");
 Check(pilot.Dynamic.ApplyCardButton(adjacent,"CosmicCrest","Play Here")==null,"adjacent character must match hero identity");
+using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/dynamic-0.1.12.json"))){
+ foreach(var sample in evidence.RootElement.GetProperty("samples").EnumerateArray()){
+  string path=sample.GetProperty("path").GetString()!,source=sample.GetProperty("source").GetString()!,card=sample.GetProperty("cardId").GetString()!;
+  bool inCard=sample.GetProperty("inCardView").GetBoolean();
+  var actual=inCard?pilot.Dynamic.ApplyCardButton(path,card,source):pilot.Apply(path,source);
+  Check(actual==sample.GetProperty("expected").GetString(),"0.1.12 captured backlog: "+source);
+  Check((inCard?pilot.Dynamic.ApplyCardButton(path,card,actual!):pilot.Apply(path,actual!))==null,"0.1.13 output idempotent");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"<[^<>]+>").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"<[^<>]+>").Select(m=>m.Value)),"0.1.13 exact markup preservation");
+ }
+}
+foreach(var n in new[]{"0","1","2","17","999999"})
+ Check(pilot.Apply(DynamicDisplayRules.PhasePath,"POWER PHASE ("+n+" left)")=="异能阶段（剩余"+n+"次）","power count preserved "+n);
+foreach(var source in new[]{"POWER PHASE (-1 left)","POWER PHASE (1.5 left)","POWER PHASE (1000000 left)","POWER PHASE (1 LEFT)","POWER PHASE (1 left) extra","START PHASE (1 left)"})
+ Check(pilot.Apply(DynamicDisplayRules.PhasePath,source)==null,"power count rejects unsupported grammar");
+var phaseMap=new Dictionary<string,string>{["Start"]="开始阶段",["Play"]="出牌阶段",["Power"]="异能阶段",["Draw"]="抽牌阶段",["End"]="结束阶段",["Incapacitated"]="失能阶段"};
+foreach(var phase in phaseMap){
+ foreach(bool inplay in new[]{false,true}){
+  string instruction="Click a card"+(inplay?" in play":"")+" to activate its <nobr><sprite name=\""+phase.Key+"Phase\"> <b>"+phase.Key.ToUpperInvariant()+" PHASE</b></nobr> effect.";
+  string expected="点击一张"+(inplay?"在场的":"")+"牌，发动其<nobr><sprite name=\""+phase.Key+"Phase\"> <b>"+phase.Value+"</b></nobr>效果。";
+  Check(pilot.Apply(SurfaceProbeRules.HintPath,instruction)==expected,"complete phase enum "+phase.Key);
+  Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click a power to use it. "+instruction)==(phase.Key=="Power"?"点击一个异能以使用它。 "+expected:null),"combined choice is bounded to power phase "+phase.Key);
+ }
+}
+foreach(var source in new[]{"Click a power to use it. Unknown instruction.","Click a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>DRAW PHASE</b></nobr> effect.","Click a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Extra."})
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,source)==null,"no partial translation of unrecognized compound hint");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Card:</b> Click a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.")=="<b>Card:</b> 点击一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。","combined hint keeps optional source heading");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click a target to determine which has the lowest HP.")=="点击一个目标，将其视为生命值最低的目标。","lowest HP selection without source header");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click a target to determine which has the lowest HP (will not be dealt damage).")==null,"unknown suffix cannot drop damage immunity condition");
+Check(pilot.Apply(DynamicDisplayRules.DescriptionPath,"Other Card discovered:")=="Other Card发现的牌：","discovery heading keeps source name");
+Check(pilot.Apply(DynamicDisplayRules.DescriptionPath,"<b>Cosmic Crest</b> discovered:")==null,"unexpected discovery markup not stripped");
+foreach(var source in new[]{"Play Construct","Discover Construct"}){
+ foreach(var path in new[]{effectPath,"Full Card Canvas/Full Card Panel/CosmicCrest/Select Effect Container/Select Effect Button(Clone)/Label"})
+  Check(pilot.Dynamic.ApplyCardButton(path,"CosmicCrest",source)==(source=="Play Construct"?"打出Construct牌":"发现Construct牌"),"construct action scoped to small/full effect button");
+ Check(pilot.Dynamic.ApplyCardButton(effectPath.Replace("Select Effect Container/Select Effect Button(Clone)","Power Container/UsePower"),"CosmicCrest",source)==null,"construct action cannot rewrite power body");
+}
 Console.WriteLine("RUNTIME_CHECKS_COMPLETE "+count);

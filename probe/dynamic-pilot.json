@@ -107,6 +107,11 @@
     "button.deal.one": "对1个目标造成{0}点伤害",
     "button.deal.self": "对自身造成{0}点伤害",
     "button.deal.many": "对{0}个目标造成3点伤害",
-    "button.deal.amount": "造成{0}点伤害"
+    "button.deal.amount": "造成{0}点伤害",
+    "button.play.construct": "打出Construct牌",
+    "button.discover.construct": "发现Construct牌",
+    "hint.lowest.hp": "点击一个目标，将其视为生命值最低的目标。",
+    "description.discover": "{0}发现的牌：",
+    "phase.power.remaining": "异能阶段（剩余{0}次）"
   }
 }
