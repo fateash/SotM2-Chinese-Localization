@@ -1,0 +1,135 @@
+{
+  "evidence": "SotM2-Surface-Evidence-20261127-084215-2f9eaf.zip",
+  "samples": [
+    {
+      "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+      "source": "Legacy",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+      "source": "Ra",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click or drag a card to play it.",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "source": "Damage 0 targets",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Consuming Flame:</b> Click up to 3 targets to deal them <nobr>2 fire</nobr> damage.",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "source": "Damage 1 target",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "source": "Damage 2 targets",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "source": "Damage 3 targets",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>The Staff of Ra:</b> Click a button on The Staff of Ra to choose an effect.",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Temporary Full Card Panel/Description Label",
+      "source": "Consuming Flame drew:",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click or drag a power to use it.",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Ra:</b> Click a target to deal it <nobr>2 fire</nobr> damage.",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Temporary Full Card Panel/Description Label",
+      "source": "Ra drew:",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+      "source": "Tachyon",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Nimble Strike:</b> Click a target to deal it <nobr>2 melee</nobr> damage.",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Temporary Full Card Panel/Description Label",
+      "source": "Nimble Strike drew:",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a power to use it.",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Temporary Full Card Panel/Description Label",
+      "source": "Tachyon revealed:",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+      "source": "Draw",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+      "source": "Discard",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Tachyon:</b> Click a location to either draw or discard Quick Insight.",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Temporary Full Card Panel/Description Label",
+      "source": "Tachyon drew:",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+      "source": "Insula Primalis",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Temporary Full Card Panel/Description Label",
+      "source": "Insula Primalis played:",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+      "source": "Skip Play Phase",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+      "source": "Skip Power Phase",
+      "expectTranslated": true
+    }
+  ]
+}

@@ -14,7 +14,7 @@ using Handelabra.Sentinels2.Engine.Controller;
 using UObj=UnityEngine.Object;
 namespace SotM2Chinese;
 
-[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.7")]
+[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.8")]
 public sealed class Plugin:BasePlugin {
  internal static Plugin Instance=null!;
  internal static Catalog Texts=new();
@@ -30,9 +30,9 @@ public sealed class Plugin:BasePlugin {
   Chinese=Config.Bind("Prototype","EnableChinese",false,"Enable limited Chinese display; restart game after changing.").Value;
   Texts=Catalog.Read(Path.Combine(Root,"sample-texts.json"));
   var surfacePath=Path.Combine(Root,"surface-probe.json");
-  if(File.Exists(surfacePath)){Surface=new SurfaceProbe(surfacePath);Log.LogInfo("SURFACE_PROBE_ENABLED read-only-capture exact-HUD-markers");}
+  if(File.Exists(surfacePath)){Surface=new SurfaceProbe(surfacePath);Log.LogInfo("SURFACE_PROBE_ENABLED configured-pilot bounded-capture");}
   UiSources=new HashSet<string>(Texts.Ui.Select(e=>e.Source),StringComparer.Ordinal);
-  Log.LogInfo("PROTOTYPE_LOADED 0.1.7-probe.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
+  Log.LogInfo("PROTOTYPE_LOADED 0.1.8-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
   // Resolve types/methods without patching the game model or rule engine.
   var method=typeof(TextHelper).GetMethods().Single(m=>m.Name=="ReplaceTemplatesAndInsertSpecifics"&&m.GetParameters().Length==8);
   Log.LogInfo("DISPLAY_METHOD_RESOLVED "+method);
@@ -83,7 +83,7 @@ public sealed class Plugin:BasePlugin {
    FontSupport.AttachFallback(__instance);
    if(translated==null)return;
    __instance.text=translated;
-   if(marker!=null && translated==marker)Once("surface-applied|"+__instance.gameObject.name+source,"SURFACE_MARKER_APPLIED object="+__instance.gameObject.name+" source="+Clip(source));
+   if(marker!=null && translated==marker)Once("surface-applied|"+__instance.gameObject.name+source,"SURFACE_DISPLAY_APPLIED object="+__instance.gameObject.name+" source="+Clip(source));
    Once("render-ui|"+__instance.gameObject.name+source,"UI_TRANSLATED_BEFORE_RENDER object="+__instance.gameObject.name+" source="+Clip(source));
   } catch(Exception e) {Once("render-error","UI_RENDER_FALLBACK "+e);}
   finally {inRender=false;}
@@ -202,7 +202,7 @@ internal static class FontSupport {
     if(Plugin.Cjk.material!=null)Preserve(Plugin.Cjk.material);
     generation++;
    }
-   var chars=new string((Plugin.Texts.Glyphs()+(Plugin.Surface==null?"":SurfaceProbeRules.Glyphs)).Where(c=>c>127).Distinct().ToArray());
+   var chars=new string((Plugin.Texts.Glyphs()+(Plugin.Surface?.Glyphs()??"")).Where(c=>c>127).Distinct().ToArray());
    bool ok=Plugin.Cjk.TryAddCharacters(chars,out string missing,true);
    if(!ok || !string.IsNullOrEmpty(missing)) {Plugin.Once("font-missing","FONT_GLYPHS_MISSING "+missing);return false;}
    KeepFontAlive();Plugin.Ready=true;

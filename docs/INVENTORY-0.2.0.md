@@ -1,6 +1,6 @@
 # Full inventory and semantic display runtime
 
-Build: Steam 26880829. Inventory: 48 files, 2,444 source entries. Accepted regression baseline: 0.1.6-rc.1. Next diagnostic candidate: 0.1.7-probe.1.
+Build: Steam 26880829. Inventory: 48 files, 2,444 source entries. Accepted regression baseline: 0.1.6-rc.1. Next opt-in dynamic pilot: 0.1.8-rc.1 (Windows live verification pending).
 
 ## Translation workflow
 The production source register is `baseline/inventory.json`. `inventory-translations/` holds ParaTranz snapshots, including review stages; `inventory-import/` contains original-only files with empty translations. Existing 89 key/original pairs and the three remote file IDs are preserved. `villians/` deliberately retains the existing platform spelling. Legacy `translations/`, `baseline/registry.json` and `paratranz-project.json` are compatibility fixtures, not the expanded sync destination.

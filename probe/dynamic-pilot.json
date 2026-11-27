@@ -1,0 +1,21 @@
+{
+  "SchemaVersion": 2,
+  "BuildId": "26880829",
+  "Templates": {
+    "hint.play": "点击或拖动一张牌以将其打出。",
+    "hint.power.drag": "点击或拖动一个异能以使用它。",
+    "hint.power.click": "点击一个异能以使用它。",
+    "finish.damage": "对{0}个目标造成伤害",
+    "hint.attack.single": "{0}点击一个目标，对其造成<nobr>{1}点{2}伤害</nobr>。",
+    "hint.attack.multiple": "{0}点击至多{1}个目标，对其各造成<nobr>{2}点{3}伤害</nobr>。",
+    "hint.effect": "{0}点击{1}上的按钮，选择一个效果。",
+    "hint.draw-discard": "{0}选择一个区域，抽取或弃置{1}。",
+    "button.draw": "抽牌",
+    "button.discard": "弃置",
+    "button.skip.play": "跳过出牌阶段",
+    "button.skip.power": "跳过异能阶段",
+    "description.draw": "{0}抽到的牌：",
+    "description.reveal": "{0}展示的牌：",
+    "description.play": "{0}打出的牌："
+  }
+}

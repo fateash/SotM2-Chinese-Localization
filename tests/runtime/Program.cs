@@ -45,4 +45,50 @@ Check(!SurfaceProbeRules.CanObserve("Hint Label",false,true),"input fields exclu
 Check(!SurfaceProbeRules.CanObserve("Title Label",true,false),"CardView titles excluded from this probe");
 Check(!SurfaceProbeRules.CanObserve("HP Label",false,false),"HP objects excluded from capture");
 Check(SurfaceProbeRules.CanObserve("Selection Button Label",false,false),"selection buttons eligible for read-only capture");
+var pilot=SurfaceProbeRules.Read(args.Length>1?args[1]:"probe/dynamic-pilot.json");
+Check(pilot.SchemaVersion==2 && pilot.Dynamic!=null,"pilot requires explicit schema 2 opt-in");
+Check(pilot.Apply(SurfaceProbeRules.TurnPath,"Ra")==null,"pilot removes prior HUD marker");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,SurfaceProbeRules.PlayHint)=="点击或拖动一张牌以将其打出。","pilot replaces prior hint marker");
+foreach(int n in new[]{0,1,2,3,12,0}){
+ var input="Damage "+n+" "+(n==1?"target":"targets");
+ Check(pilot.Apply(DynamicDisplayRules.FinishPath,input)=="对"+n+"个目标造成伤害","selection count remains live "+n);
+}
+foreach(var pair in new[]{("Ra","2","fire","火焰"),("Nimble Strike","9","melee","近战"),("Ra","1","fire","火焰")}){
+ var input="<b>"+pair.Item1+":</b> Click a target to deal it <nobr>"+pair.Item2+" "+pair.Item3+"</nobr> damage.";
+ var expected="<b>"+pair.Item1+":</b> 点击一个目标，对其造成<nobr>"+pair.Item2+"点"+pair.Item4+"伤害</nobr>。";
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,input)==expected,"source amount type preserved "+pair);
+}
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Consuming Flame:</b> Click up to 3 targets to deal them <nobr>2 fire</nobr> damage.")=="<b>Consuming Flame:</b> 点击至多3个目标，对其各造成<nobr>2点火焰伤害</nobr>。","multi-target amount and upper limit separate");
+foreach(var input in new[]{"<b>Ra:</b> Click a target to deal it <nobr>2 toxic</nobr> damage.","<b>Ra:</b> Click a target to deal it <nobr>-2 fire</nobr> damage.","<b>Ra:</b> Click a target to deal it <nobr>2 fire</nobr> damage. Extra", "Click a target to deal it <nobr>2 fire</nobr> damage."})
+ Check(pilot.Apply(SurfaceProbeRules.HintPath,input)==null,"unknown grammar untouched "+input);
+Check(pilot.Apply("Other/Finish Button Label","Damage 3 targets")==null,"same label other hierarchy untouched");
+Check(pilot.Apply(DynamicDisplayRules.FinishPath,"Damage 1 targets")==null,"unexpected plural form untouched");
+Check(pilot.Apply(DynamicDisplayRules.FinishPath,"对3个目标造成伤害")==null,"no repeated translation");
+Check(pilot.Apply(DynamicDisplayRules.DrawPath,"Discard")==null,"draw/discard location separated");
+Check(pilot.Apply("CardView/Selection Button Label","Double Damage")==null,"card buttons capture-only");
+Check(pilot.Apply(DynamicDisplayRules.DescriptionPath,"Ra drew:")=="Ra抽到的牌：","draw description not a rule model mutation");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Name {1}:</b> Click a button on Card {0} to choose an effect.")=="<b>Name {1}:</b> 点击Card {0}上的按钮，选择一个效果。","placeholder-like names remain literal arguments");
+var invalid=new Dictionary<string,string>(pilot.Templates);invalid["finish.damage"]="对3个目标造成伤害";
+rejected=false;try{new DynamicDisplayRules(invalid);}catch(InvalidDataException){rejected=true;}Check(rejected,"missing dynamic parameter rejected");
+invalid=new(pilot.Templates);invalid["hint.attack.single"]="{0}{1}{2}";
+rejected=false;try{new DynamicDisplayRules(invalid);}catch(InvalidDataException){rejected=true;}Check(rejected,"missing rich-text wrapper rejected");
+invalid=new(pilot.Templates);invalid["finish.damage"]="对{{0}}个目标造成伤害";
+rejected=false;try{new DynamicDisplayRules(invalid);}catch(InvalidDataException){rejected=true;}Check(rejected,"escaped placeholder cannot freeze parameter");
+var discardParts=DynamicDisplayRules.ParseConfirmation("Discard 3 cards");
+Check(discardParts is {Action:"Discard",Number:"3",NumberKind:"card-count"},"shared confirmation grammar separates card count");
+var healParts=DynamicDisplayRules.ParseConfirmation("Heal 2 targets");
+Check(healParts is {Action:"Heal",Number:"2",NumberKind:"target-count"},"synthetic recovery target count distinct from HP amount");
+var hpParts=DynamicDisplayRules.ParseConfirmation("Regain 3 HP");
+Check(hpParts is {Number:"3",NumberKind:"hp-amount"},"HP amount is never treated as selected target count");
+foreach(var unverified in new[]{"Discard 3 cards","Heal 2 targets","Regain 3 HP","Buff 2 targets"})
+ Check(pilot.Apply(DynamicDisplayRules.FinishPath,unverified)==null,"unverified confirmation action only captured: "+unverified);
+Check(DynamicDisplayRules.ParseConfirmation("Choose how much HP")==null,"unrecognized confirmation remains raw evidence");
+using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/surface-0.1.7.json"))){
+ foreach(var sample in evidence.RootElement.GetProperty("samples").EnumerateArray()){
+  string path=sample.GetProperty("path").GetString()!,input=sample.GetProperty("source").GetString()!;
+  var output=pilot.Apply(path,input);
+  Check((output!=null)==sample.GetProperty("expectTranslated").GetBoolean(),"captured evidence: "+input);
+  if(output!=null)Check(pilot.Apply(path,output)==null,"captured output idempotent: "+input);
+ }
+}
 Console.WriteLine("RUNTIME_CHECKS_COMPLETE "+count);

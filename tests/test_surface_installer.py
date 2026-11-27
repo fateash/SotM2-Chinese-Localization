@@ -99,5 +99,33 @@ Microsoft.PowerShell.Management\\Copy-Item @PSBoundParameters
         self.assertEqual(self.dll.read_bytes(), b'accepted dll'); self.assertFalse(self.probe.exists()); self.assert_untouched()
         self.assertTrue(self.backup.exists()); self.run_script('Restore')
 
+class DynamicInstallerTests(SurfaceInstallerTests):
+    def setUp(self):
+        super().setUp()
+        shutil.copy(ROOT / 'probe/Manage-Dynamic.ps1', self.kit / 'Manage.ps1')
+        self.backup = self.game / 'SotM2ChineseBackups/dynamic-pilot-0.1.8'
+        p = self.kit / 'manifest.json'
+        m = json.loads(p.read_text())
+        m['acceptedInstallations'] = [{'dll': m.pop('acceptedDllSha256'), 'probe': 'ABSENT'}]
+        p.write_text(json.dumps(m))
+
+    def test_upgrade_existing_probe_and_restore_exact_pair(self):
+        self.dll.write_bytes(b'accepted previous probe dll')
+        self.probe.write_bytes(b'accepted previous probe config')
+        p = self.kit / 'manifest.json'; m = json.loads(p.read_text())
+        m['acceptedInstallations'].append({'dll': sha(self.dll), 'probe': sha(self.probe)})
+        p.write_text(json.dumps(m))
+        self.run_script('Install'); self.run_script('Restore')
+        self.assertEqual(self.dll.read_bytes(), b'accepted previous probe dll')
+        self.assertEqual(self.probe.read_bytes(), b'accepted previous probe config')
+        self.assert_untouched()
+
+    def test_mismatched_pair_refused(self):
+        self.probe.write_bytes(b'accepted previous probe config')
+        p = self.kit / 'manifest.json'; m = json.loads(p.read_text())
+        m['acceptedInstallations'].append({'dll': 'other-dll-hash', 'probe': sha(self.probe)})
+        p.write_text(json.dumps(m)); self.run_script('Install', False)
+        self.assertEqual(self.dll.read_bytes(), b'accepted dll'); self.assertFalse(self.backup.exists())
+
 if __name__ == '__main__':
     unittest.main()
