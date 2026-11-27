@@ -33,4 +33,16 @@ Check(rules.Apply("Title Label","BolsterAllies","Bolster Allies")=="测试卡名
 Check(rules.Apply("Flavor Text Label","MobileDefensePlatform","“Until we take that <b>blasted</b> floating fortress\r\nout, Blade is practically untouchable!”")=="“测试引语<b>强调</b>\r\n第二行”","CRLF quote exact matching");
 bool rejected=false;try{new DisplayRules(new[]{new DisplayEntry{ObjectName="HP Label",Source="32",Target="99"}});}catch(InvalidDataException){rejected=true;}Check(rejected,"invalid display scope rejected");
 var catalog=Catalog.Read(args[0]);Check(catalog.SchemaVersion==2 && catalog.BuildId=="26880829" && catalog.RuntimeVersion=="0.1.6","compiled catalog declares supported schema/build/runtime");
+var probe=new SurfaceProbeRules{DeckTitles=new[]{"Legacy","Baron Blade"}};
+Check(probe.Apply(SurfaceProbeRules.HintPath,SurfaceProbeRules.PlayHint)=="示·"+SurfaceProbeRules.PlayHint,"exact observed hint marker");
+Check(probe.Apply(SurfaceProbeRules.TurnPath,"Legacy")=="组·Legacy","exact HUD deck title marker");
+Check(probe.Apply("Other/Turn Taker Label","Legacy")==null,"same object name in other hierarchy excluded");
+Check(probe.Apply(SurfaceProbeRules.TurnPath,"Legacy deals 3 damage")==null,"no names replaced inside dynamic sentences");
+Check(probe.Apply(SurfaceProbeRules.TurnPath,"32")==null,"numeric content never marked");
+Check(probe.Apply(SurfaceProbeRules.TurnPath,"组·Legacy")==null,"markers not accumulated");
+Check(probe.Apply(SurfaceProbeRules.HintPath,"Choose a Hero")==null,"unknown dynamic hint captured without rewriting");
+Check(!SurfaceProbeRules.CanObserve("Hint Label",false,true),"input fields excluded from capture");
+Check(!SurfaceProbeRules.CanObserve("Title Label",true,false),"CardView titles excluded from this probe");
+Check(!SurfaceProbeRules.CanObserve("HP Label",false,false),"HP objects excluded from capture");
+Check(SurfaceProbeRules.CanObserve("Selection Button Label",false,false),"selection buttons eligible for read-only capture");
 Console.WriteLine("RUNTIME_CHECKS_COMPLETE "+count);
