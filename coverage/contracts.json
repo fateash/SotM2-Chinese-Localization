@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "6d7eaf0ef1aee67d609736ee64fcfb592c0218788aa04d992193db087ed64f51",
+    "runtime/DynamicDisplayRules.cs": "66bbeb48d3d4ff250824e676a4621ab6d70766f995d7cc4f9cc6eafab9728af1",
     "runtime/SurfaceProbeRules.cs": "1d8071f2bb04ac9d4f69936e07ff9fbc933c5805644ac323d080566fce0d9e00",
-    "runtime/SurfaceProbe.cs": "032b86555d8b08fb282ff05ed74630d3370ad9ceac3abdcb629d916c25e24579",
-    "runtime/Plugin.cs": "f9b5e69e20bf4d190f84f1bffce426b8ff98fd1c061a2cca2dd4b03619e00663",
+    "runtime/SurfaceProbe.cs": "3848374ccfe3e4c4df22927b6b78d093924fc2c0be2743abc0d17d95482a4940",
+    "runtime/Plugin.cs": "00a3ab2cd2a786e6550dc043cd0563d41bc0de02b37887a3dc01493da7961790",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "ac4d19974cd5adbcca9ee5652611b94a8f946a986e8bbee8c0d7256c6de8ed29",
-    "runtime/RenderedDisplayRules.cs": "8246c2212d8c7c2b407bb9f9f10888e588f5f22362f9a7684b5405971b3e366e"
+    "probe/dynamic-pilot.json": "b0431e693fdf3c6ae5c93df52a637c0cc22c6ecc3a7ecf5f59124f699ce67d11",
+    "runtime/RenderedDisplayRules.cs": "4075608df14dc5a1d29010d39a234c7ed98a066c6fe47372b1ee70abd05ffdf9"
   },
   "families": [
     {
@@ -92,7 +92,12 @@
         "hint.trash.owner.discard",
         "hint.destroy.play.under.exact",
         "hint.reaction.first",
-        "hint.hero.take.power"
+        "hint.hero.take.power",
+        "hint.regain.hero",
+        "hint.regain.upto",
+        "hint.attack.required.list",
+        "hint.attack.exact.unspecified",
+        "hint.attack.dual"
       ],
       "contexts": [
         {
@@ -2882,6 +2887,326 @@
             "expected": "<b>Test:</b> 点击至多3个目标，减少它们受到的伤害。",
             "objectName": "Hint Label"
           }
+        },
+        {
+          "id": "022-required-list",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>S-84 Automaton Drones:</b> Click <b>Fanatic</b>, <b>Bunker</b> and 1 more target to deal them <nobr>4 energy</nobr> damage.",
+            "expected": "<b>S-84自动机兵:</b> 点击<b>狂信</b>、<b>堡垒</b>及另外1个目标，对其各造成<nobr>4点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "022-required-list-three",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Fanatic</b>, <b>Omnitron</b>, <b>Unknown</b> and 2 more targets to deal them <nobr>12 cold</nobr> damage.",
+            "expected": "<b>Test:</b> 点击<b>狂信</b>、<b>全能智创</b>、<b>Unknown</b>及另外2个目标，对其各造成<nobr>12点寒冷伤害</nobr>。"
+          }
+        },
+        {
+          "id": "022-no-amount",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Electro-Magnetic Railgun:</b> Click 2 targets to deal them projectile damage.",
+            "expected": "<b>电磁轨道炮:</b> 点击2个目标，对其各造成投射伤害。"
+          }
+        },
+        {
+          "id": "022-dual",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Fanatic:</b> Click a target to deal it <nobr>1 melee</nobr> and <nobr>1 radiant</nobr> damage.",
+            "expected": "<b>狂信:</b> 点击一个目标，对其造成<nobr>1点近战伤害</nobr>和<nobr>1点光耀伤害</nobr>。"
+          }
+        },
+        {
+          "id": "022-dual-unequal",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Omnitron:</b> Click a target to deal it <nobr>12 fire</nobr> and <nobr>3 cold</nobr> damage.",
+            "expected": "<b>全能智创:</b> 点击一个目标，对其造成<nobr>12点火焰伤害</nobr>和<nobr>3点寒冷伤害</nobr>。"
+          }
+        },
+        {
+          "id": "022-regain-hero",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Rhapsody of Vigor:</b> Click a Hero to regain HP.",
+            "expected": "<b>活力狂想曲:</b> 点击一位英雄，使其恢复生命值。"
+          }
+        },
+        {
+          "id": "022-regain-bare",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a Hero to regain HP.",
+            "expected": "点击一位英雄，使其恢复生命值。"
+          }
+        },
+        {
+          "id": "022-regain-upto",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click up to 3 targets to regain HP.",
+            "expected": "<b>Test:</b> 点击至多3个目标，使其恢复生命值。"
+          }
+        },
+        {
+          "id": "022-dual-reject-0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Fanatic:</b> Click a target to deal it <nobr>1 melee</nobr> or <nobr>1 radiant</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-dual-reject-1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Fanatic:</b> Click a target to deal it <nobr>1 melee</nobr> and <nobr>1 radiant</nobr> damage. Extra.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-dual-reject-2",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Fanatic:</b> Click a target to deal it <nobr>1 melee</nobr> and <nobr>1 unknown</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-dual-reject-3",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Fanatic:</b> Click a target to deal it <nobr>a melee</nobr> and <nobr>1 radiant</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-dual-reject-4",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Fanatic:</b> Click a target to deal it <nobr>1 melee</nobr> and 1 radiant damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-dual-reject-5",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Fanatic:</b> Click a Hero to deal it <nobr>1 melee</nobr> and <nobr>1 radiant</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-dual-wrong-role",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Fanatic:</b> Click a target to deal it <nobr>1 melee</nobr> and <nobr>1 radiant</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-list-reject-0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Fanatic</b>, <b>Bunker</b> and 1 more targets to deal them <nobr>4 energy</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-list-reject-1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Fanatic</b> or <b>Bunker</b> and 1 more target to deal them <nobr>4 energy</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-list-reject-2",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Fanatic</b>, <b>Bunker</b> and 1 more target to deal them <nobr>4 unknown</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-list-reject-3",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Fanatic</b>, <i>Bunker</i> and 1 more target to deal them <nobr>4 energy</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-unspecified-no-invention",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click 12 targets to deal them sonic damage.",
+            "expected": "<b>Test:</b> 点击12个目标，对其各造成音波伤害。"
+          }
         }
       ]
     },
@@ -2891,7 +3216,8 @@
         "finish.damage",
         "finish.discard",
         "finish.select",
-        "finish.destroy"
+        "finish.destroy",
+        "finish.regain.targets"
       ],
       "contexts": [
         {
@@ -3307,6 +3633,358 @@
             "expected": "弃置3张牌",
             "cardId": "",
             "inCardView": false
+          }
+        },
+        {
+          "id": "022-regain-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "0 targets regain HP",
+            "expected": "0个目标恢复生命值"
+          }
+        },
+        {
+          "id": "022-regain-outside-0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "0 targets regain HP",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-regain-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 target regain HP",
+            "expected": "1个目标恢复生命值"
+          }
+        },
+        {
+          "id": "022-regain-outside-1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 target regain HP",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-regain-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "2 targets regain HP",
+            "expected": "2个目标恢复生命值"
+          }
+        },
+        {
+          "id": "022-regain-outside-2",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "2 targets regain HP",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-regain-3",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "3 targets regain HP",
+            "expected": "3个目标恢复生命值"
+          }
+        },
+        {
+          "id": "022-regain-outside-3",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "3 targets regain HP",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-regain-4",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "4 targets regain HP",
+            "expected": "4个目标恢复生命值"
+          }
+        },
+        {
+          "id": "022-regain-outside-4",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "4 targets regain HP",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-regain-5",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "5 targets regain HP",
+            "expected": "5个目标恢复生命值"
+          }
+        },
+        {
+          "id": "022-regain-outside-5",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "5 targets regain HP",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-regain-12",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "12 targets regain HP",
+            "expected": "12个目标恢复生命值"
+          }
+        },
+        {
+          "id": "022-regain-outside-12",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "12 targets regain HP",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-regain-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "999999 targets regain HP",
+            "expected": "999999个目标恢复生命值"
+          }
+        },
+        {
+          "id": "022-regain-outside-999999",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "999999 targets regain HP",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-regain-reject-0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 targets regain HP",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-regain-reject-1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "2 target regain HP",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-regain-reject-2",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Regain 3 HP",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-regain-reject-3",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "3 targets regain 4 HP",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-regain-reject-4",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1000000 targets regain HP",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-regain-reject-5",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.22完整句式与参数语义复核；合成边界用例不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "-1 targets regain HP",
+            "expected": null
           }
         }
       ]
@@ -12310,7 +12988,7 @@
             "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
             "objectName": "Label",
             "source": "Put Card Under Ordnance",
-            "expected": "将牌置于Ordnance下方",
+            "expected": "将牌置于军械牌下方",
             "cardId": "TheStaffOfRa",
             "inCardView": true
           }
@@ -21314,6 +21992,14 @@
           "heroState": "not-applicable",
           "layout": "pending-live",
           "reason": "独立图片不属于TMP文字替换；变体、特殊状态或此组合尚未实机确认，保持开放待验收。"
+        },
+        {
+          "id": "022-environment-small-back-buffer",
+          "status": "unobserved",
+          "view": "environment-small-deck-back",
+          "heroState": "not-applicable",
+          "layout": "shared-prefab",
+          "reason": "resources.assets Small Card Back/Environment Title Background/Title Label为TMP文字，CardBackView序列化TitleLabel引用2429。截图英文仍在而日志无正文，新增只读输入状态采集；未确认是否格式化缓冲或其他时序，未绕过保护。"
         }
       ]
     },
@@ -22686,6 +23372,390 @@
             "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
             "cardButtonCandidate": true,
             "expected": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>演奏</style></nobr>"
+          }
+        },
+        {
+          "id": "022-omnitron-0-0",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "The Heroes cannot win until Omnitron is at 0 HP and is the only Device card in play.\n",
+            "expected": "\n全能智创生命值为0且为场上唯一装置牌时，英雄才能获胜。\n"
+          }
+        },
+        {
+          "id": "022-omnitron-idempotent-0-0",
+          "status": "excluded",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "已排版译文不得反复累加空行。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "\n全能智创生命值为0且为场上唯一装置牌时，英雄才能获胜。\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-omnitron-0-1",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "The Heroes cannot win until Omnitron is at 0 HP and is the only Device card in play.\r\n",
+            "expected": "\r\n全能智创生命值为0且为场上唯一装置牌时，英雄才能获胜。\r\n"
+          }
+        },
+        {
+          "id": "022-omnitron-idempotent-0-1",
+          "status": "excluded",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "已排版译文不得反复累加空行。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "\r\n全能智创生命值为0且为场上唯一装置牌时，英雄才能获胜。\r\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-omnitron-0-2",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "The Heroes cannot win until Omnitron is at 0 HP and is the only Device card in play.\\r\\n",
+            "expected": "\\r\\n全能智创生命值为0且为场上唯一装置牌时，英雄才能获胜。\\r\\n"
+          }
+        },
+        {
+          "id": "022-omnitron-idempotent-0-2",
+          "status": "excluded",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "已排版译文不得反复累加空行。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "\\r\\n全能智创生命值为0且为场上唯一装置牌时，英雄才能获胜。\\r\\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-omnitron-1-0",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "<sprite name=\"Flip\" color=#FFFFFF>. Omnitron flips only once each Villain turn.\n",
+            "expected": "<sprite name=\"Flip\" color=#FFFFFF>。全能智创每反派回合仅翻面一次。\n"
+          }
+        },
+        {
+          "id": "022-omnitron-1-1",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "<sprite name=\"Flip\" color=#FFFFFF>. Omnitron flips only once each Villain turn.\r\n",
+            "expected": "<sprite name=\"Flip\" color=#FFFFFF>。全能智创每反派回合仅翻面一次。\r\n"
+          }
+        },
+        {
+          "id": "022-omnitron-1-2",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "<sprite name=\"Flip\" color=#FFFFFF>. Omnitron flips only once each Villain turn.\\r\\n",
+            "expected": "<sprite name=\"Flip\" color=#FFFFFF>。全能智创每反派回合仅翻面一次。\\r\\n"
+          }
+        },
+        {
+          "id": "022-omnitron-2-0",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "Activate the <nobr><sprite name=\"Fabricate\" color=#FFFFFF> <style=BoldItalic>FABRICATE</style></nobr> on each Villain card <i>(including any cards that are played this phase)</i>.\n",
+            "expected": "发动所有反派牌的<nobr><sprite name=\"Fabricate\" color=#FFFFFF> <style=BoldItalic>制造</style></nobr><i>（含本阶段打出的牌）</i>。\n"
+          }
+        },
+        {
+          "id": "022-omnitron-2-1",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "Activate the <nobr><sprite name=\"Fabricate\" color=#FFFFFF> <style=BoldItalic>FABRICATE</style></nobr> on each Villain card <i>(including any cards that are played this phase)</i>.\r\n",
+            "expected": "发动所有反派牌的<nobr><sprite name=\"Fabricate\" color=#FFFFFF> <style=BoldItalic>制造</style></nobr><i>（含本阶段打出的牌）</i>。\r\n"
+          }
+        },
+        {
+          "id": "022-omnitron-2-2",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "Activate the <nobr><sprite name=\"Fabricate\" color=#FFFFFF> <style=BoldItalic>FABRICATE</style></nobr> on each Villain card <i>(including any cards that are played this phase)</i>.\\r\\n",
+            "expected": "发动所有反派牌的<nobr><sprite name=\"Fabricate\" color=#FFFFFF> <style=BoldItalic>制造</style></nobr><i>（含本阶段打出的牌）</i>。\\r\\n"
+          }
+        },
+        {
+          "id": "022-omnitron-3-0",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardBack/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "The Heroes cannot win until Omnitron is at 0 HP and is the only Device card in play.\n",
+            "expected": "\n全能智创生命值为0且为场上唯一装置牌时，英雄才能获胜。\n"
+          }
+        },
+        {
+          "id": "022-omnitron-idempotent-3-0",
+          "status": "excluded",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "已排版译文不得反复累加空行。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardBack/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "\n全能智创生命值为0且为场上唯一装置牌时，英雄才能获胜。\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-omnitron-3-1",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardBack/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "The Heroes cannot win until Omnitron is at 0 HP and is the only Device card in play.\r\n",
+            "expected": "\r\n全能智创生命值为0且为场上唯一装置牌时，英雄才能获胜。\r\n"
+          }
+        },
+        {
+          "id": "022-omnitron-idempotent-3-1",
+          "status": "excluded",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "已排版译文不得反复累加空行。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardBack/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "\r\n全能智创生命值为0且为场上唯一装置牌时，英雄才能获胜。\r\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-omnitron-3-2",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardBack/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "The Heroes cannot win until Omnitron is at 0 HP and is the only Device card in play.\\r\\n",
+            "expected": "\\r\\n全能智创生命值为0且为场上唯一装置牌时，英雄才能获胜。\\r\\n"
+          }
+        },
+        {
+          "id": "022-omnitron-idempotent-3-2",
+          "status": "excluded",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "已排版译文不得反复累加空行。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardBack/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "\\r\\n全能智创生命值为0且为场上唯一装置牌时，英雄才能获胜。\\r\\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-omnitron-4-0",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardBack/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "<sprite name=\"Flip\" color=#FFFFFF>. Omnitron flips only once each Villain turn.\n",
+            "expected": "<sprite name=\"Flip\" color=#FFFFFF>。全能智创每反派回合仅翻面一次。\n"
+          }
+        },
+        {
+          "id": "022-omnitron-4-1",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardBack/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "<sprite name=\"Flip\" color=#FFFFFF>. Omnitron flips only once each Villain turn.\r\n",
+            "expected": "<sprite name=\"Flip\" color=#FFFFFF>。全能智创每反派回合仅翻面一次。\r\n"
+          }
+        },
+        {
+          "id": "022-omnitron-4-2",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardBack/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "<sprite name=\"Flip\" color=#FFFFFF>. Omnitron flips only once each Villain turn.\\r\\n",
+            "expected": "<sprite name=\"Flip\" color=#FFFFFF>。全能智创每反派回合仅翻面一次。\\r\\n"
+          }
+        },
+        {
+          "id": "022-omnitron-5-0",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardBack/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "Activate the <nobr><sprite name=\"Exterminate\" color=#FFFFFF> <style=BoldItalic>EXTERMINATE</style></nobr> on each Villain card <i>(including any cards that are played this phase)</i>.\n",
+            "expected": "发动所有反派牌的<nobr><sprite name=\"Exterminate\" color=#FFFFFF> <style=BoldItalic>灭绝</style></nobr><i>（含本阶段打出的牌）</i>。\n"
+          }
+        },
+        {
+          "id": "022-omnitron-5-1",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardBack/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "Activate the <nobr><sprite name=\"Exterminate\" color=#FFFFFF> <style=BoldItalic>EXTERMINATE</style></nobr> on each Villain card <i>(including any cards that are played this phase)</i>.\r\n",
+            "expected": "发动所有反派牌的<nobr><sprite name=\"Exterminate\" color=#FFFFFF> <style=BoldItalic>灭绝</style></nobr><i>（含本阶段打出的牌）</i>。\r\n"
+          }
+        },
+        {
+          "id": "022-omnitron-5-2",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "full-card",
+          "reason": "逐句核对语义、数字和标签；正文开头留一行避让关键词栏，最终排版待实机。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardBack/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OmnitronCharacter",
+            "inCardView": true,
+            "source": "Activate the <nobr><sprite name=\"Exterminate\" color=#FFFFFF> <style=BoldItalic>EXTERMINATE</style></nobr> on each Villain card <i>(including any cards that are played this phase)</i>.\\r\\n",
+            "expected": "发动所有反派牌的<nobr><sprite name=\"Exterminate\" color=#FFFFFF> <style=BoldItalic>灭绝</style></nobr><i>（含本阶段打出的牌）</i>。\\r\\n"
           }
         }
       ]

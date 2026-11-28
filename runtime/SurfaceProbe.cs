@@ -10,6 +10,19 @@ internal sealed class SurfaceProbe {
  readonly Dictionary<string,int> counts=new(StringComparer.Ordinal);
  bool stopped;
  internal SurfaceProbe(string path){rules=SurfaceProbeRules.Read(path);completion=new RenderedDisplayRules(Plugin.Texts,rules.DeckNames,rules.Templates);}
+ // Diagnostic metadata only: never read buffered title text, mutate flags, or touch HP.
+ readonly HashSet<string> blockedTitles=new(StringComparer.Ordinal);
+ internal void ObserveBlockedTitle(TMP_Text text){
+  try {
+   if(blockedTitles.Count>=24 || text.gameObject.name!="Title Label" || text.GetComponentInParent<TMP_InputField>()!=null)return;
+   var view=text.GetComponentInParent<CardView>();
+   if(view==null || view.TitleLabel!=text)return;
+   string path=PathOf(text);
+   if(blockedTitles.Add(path))Plugin.Instance.Log.LogInfo("TITLE_INPUT_PROBE "+JsonSerializer.Serialize(new{
+    path,inputSource=text.m_inputSource.ToString(),backingStringDirty=text.m_IsTextBackingStringDirty,
+    isDeckBack=view.IsDeckBack,cardId=view.Card?.Card?.CardDefinition.Identifier??"",policy="metadata-only-no-text-read-no-write"}));
+  }catch(Exception e){Plugin.Once("title-input-probe-error","TITLE_INPUT_PROBE_STOPPED "+e.GetType().Name);}
+ }
  internal string? Complete(TMP_Text text,string source,string? previous){
   var view=text.GetComponentInParent<CardView>();
   string card=view?.Card?.Card?.CardDefinition.Identifier??"";

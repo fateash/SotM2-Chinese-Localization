@@ -70,7 +70,7 @@
     "button.common.12": "抽取或弃置",
     "button.common.13": "打出一张牌",
     "button.common.14": "打出一张牌",
-    "button.common.15": "将牌置于Ordnance下方",
+    "button.common.15": "将牌置于军械牌下方",
     "button.common.16": "放置一张牌",
     "button.common.17": "放回原处或弃置",
     "button.common.18": "回收物品牌",
@@ -162,7 +162,13 @@
     "result.defeat": "{0}取得胜利，英雄们只能重整旗鼓，来日再战……",
     "message.game-over": "游戏结束",
     "message.all-incapacitated": "所有英雄均已失去战斗能力。",
-    "button.skip.power.action": "跳过异能"
+    "button.skip.power.action": "跳过异能",
+    "finish.regain.targets": "{0}个目标恢复生命值",
+    "hint.regain.hero": "点击一位英雄，使其恢复生命值。",
+    "hint.regain.upto": "{0}点击至多{1}个目标，使其恢复生命值。",
+    "hint.attack.required.list": "{0}点击{1}及另外{2}个目标，对其各造成<nobr>{3}点{4}伤害</nobr>。",
+    "hint.attack.exact.unspecified": "{0}点击{1}个目标，对其各造成{2}伤害。",
+    "hint.attack.dual": "{0}点击一个目标，对其造成<nobr>{1}点{2}伤害</nobr>和<nobr>{3}点{4}伤害</nobr>。"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",

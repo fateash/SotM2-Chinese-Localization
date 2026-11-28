@@ -15,6 +15,9 @@ public sealed class DynamicDisplayRules {
  readonly Dictionary<string,string> templates;
  readonly Func<string,string> resolveName;
  static readonly Dictionary<string,(int Args,string Tags)> Specs=new(){
+  ["finish.regain.targets"]=(1,""),["hint.regain.hero"]=(0,""),["hint.regain.upto"]=(2,""),
+  ["hint.attack.required.list"]=(5,"<nobr></nobr>"),["hint.attack.exact.unspecified"]=(3,""),
+  ["hint.attack.dual"]=(5,"<nobr></nobr><nobr></nobr>"),
   ["button.most"]=(0,""),["button.play.golem"]=(0,""),
   ["hint.hero.most.play"]=(0,""),["hint.trash.under"]=(0,""),["hint.hero.salvage"]=(0,""),["hint.trash.salvage"]=(0,""),
   ["hint.trash.owner.discard"]=(3,""),["hint.destroy.play.under.exact"]=(3,""),
@@ -150,6 +153,11 @@ public sealed class DynamicDisplayRules {
  static readonly Regex Reaction=Rx(@"\A<b>(?<from>[^<>\r\n]{1,200})</b> will deal <b>(?<to>[^<>\r\n]{1,200})</b> (?<n>[0-9]{1,6}) (?<type>fire|melee|cold|energy|infernal|lightning|projectile|psychic|radiant|sonic|toxic) damage\. Click a (?<choice>reaction to use it|card to activate first)\.\z");
  static readonly Regex ExactTargets=Rx(@"\AClick (?<count>[0-9]{1,6}) targets to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
  static readonly Regex RequiredTarget=Rx(@"\AClick <b>(?<target>[^<>\r\n]{1,200})</b> and (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
+ static readonly Regex RegainTargets=Rx(@"\A(?<count>[0-9]{1,6}) (?<unit>target|targets) regain HP\z");
+ static readonly Regex RegainUpTo=Rx(@"\AClick up to (?<count>[0-9]{1,6}) targets to regain HP\.\z");
+ static readonly Regex RequiredTargets=Rx(@"\AClick <b>(?<target>[^<>\r\n]{1,200})</b>(?:, <b>(?<target>[^<>\r\n]{1,200})</b>){1,11} and (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
+ static readonly Regex ExactUnspecified=Rx(@"\AClick (?<count>[0-9]{1,6}) targets to deal them (?<type>[a-z]+) damage\.\z");
+ static readonly Regex DualDamage=Rx(@"\AClick a target to deal it <nobr>(?<n1>[0-9]{1,6}) (?<type1>[a-z]+)</nobr> and <nobr>(?<n2>[0-9]{1,6}) (?<type2>[a-z]+)</nobr> damage\.\z");
  static readonly Regex UnspecifiedOrder=Rx(@"\AClick targets to choose the order of dealing them (?<type>[a-z]+) damage\.\z");
  // The repeated 'to' is present in the game's current complete display string.
  static readonly Regex PlayLocation=Rx(@"\AClick a location to to play (?<card>[^<>\r\n]{1,200}) there\.\z");
@@ -244,6 +252,8 @@ public sealed class DynamicDisplayRules {
    return phase.Success?Format(phase.Groups["phase"].Value switch {"PLAY"=>"phase.play.remaining","DRAW"=>"phase.draw.remaining",_=>"phase.power.remaining"},phase.Groups["n"].Value):null;
   }
   if(path==FinishPath){
+   var regain=RegainTargets.Match(source);
+   if(regain.Success && ((regain.Groups["count"].Value=="1")== (regain.Groups["unit"].Value=="target")))return Format("finish.regain.targets",regain.Groups["count"].Value);
    var parts=ParseConfirmation(source);
    // Shared grammar does not authorize translating an unverified action/unit pair.
    return parts switch {
@@ -279,6 +289,7 @@ public sealed class DynamicDisplayRules {
   var header=Header.Match(source);
   string prefix=header.Success?header.Groups["prefix"].Value:"",body=header.Success?header.Groups["body"].Value:source;
   var fixedText=body switch {
+   "Click a Hero to regain HP."=>"hint.regain.hero",
    "Click the hero who is considered to have the most cards in play."=>"hint.hero.most.play",
    "Click a card in the trash to put it under a card."=>"hint.trash.under",
    "Click a hero to salvage a card."=>"hint.hero.salvage",
@@ -332,7 +343,21 @@ public sealed class DynamicDisplayRules {
    return prefix+(combined?Format(choice==powerChoice?"hint.power.click":"hint.play")+" ":"")+(phaseHint.Groups["target"].Success?Format("hint.phase.target",phaseHint.Groups["sprite"].Value,PhaseNames[phaseHint.Groups["phase"].Value]):Format("hint.phase.activate",phaseHint.Groups["inplay"].Success?"在场的":"",phaseHint.Groups["sprite"].Value,PhaseNames[phaseHint.Groups["phase"].Value]));
   var destroy=DestroyMany.Match(body);
   if(destroy.Success)return Format(destroy.Groups["kind"].Value=="targets"?"hint.destroy.targets":"hint.destroy.cards",prefix,destroy.Groups["n"].Value);
+  var regainHint=RegainUpTo.Match(body);
+  if(regainHint.Success)return Format("hint.regain.upto",prefix,regainHint.Groups["count"].Value);
   if(!header.Success)return null;
+  var dual=DualDamage.Match(body);
+  if(dual.Success && DamageNames.TryGetValue(dual.Groups["type1"].Value,out var type1) && DamageNames.TryGetValue(dual.Groups["type2"].Value,out var type2))
+   return Format("hint.attack.dual",prefix,dual.Groups["n1"].Value,type1,dual.Groups["n2"].Value,type2);
+  var requiredList=RequiredTargets.Match(body);
+  if(requiredList.Success && ((requiredList.Groups["count"].Value=="1")== (requiredList.Groups["unit"].Value=="target")) && DamageNames.TryGetValue(requiredList.Groups["type"].Value,out var listType)){
+   // Only the individually parsed, complete name fields are resolved; retain every bold span.
+   string targets=string.Join("、",requiredList.Groups["target"].Captures.Cast<Capture>().Select(c=>"<b>"+resolveName(c.Value)+"</b>"));
+   return Format("hint.attack.required.list",prefix,targets,requiredList.Groups["count"].Value,requiredList.Groups["n"].Value,listType);
+  }
+  var exactUnspecified=ExactUnspecified.Match(body);
+  if(exactUnspecified.Success && exactUnspecified.Groups["count"].Value!="1" && DamageNames.TryGetValue(exactUnspecified.Groups["type"].Value,out var noAmountType))
+   return Format("hint.attack.exact.unspecified",prefix,exactUnspecified.Groups["count"].Value,noAmountType);
   var match=ExactTargets.Match(body);
   if(match.Success && DamageNames.TryGetValue(match.Groups["type"].Value,out var exactType))
    return Format("hint.attack.exact",prefix,match.Groups["count"].Value,match.Groups["n"].Value,exactType);

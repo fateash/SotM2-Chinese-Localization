@@ -147,6 +147,11 @@ public sealed class RenderedDisplayRules {
    result=result.Replace("<style=ReactionHeading>REACTION: </style>","<style=ReactionHeading>反应: </style>");
    if(obj=="Setup Label" && result.StartsWith(Setup,StringComparison.Ordinal))result="<b><i>准备</i></b>: "+result.Substring(Setup.Length);
    result=catalog.DisplayRules.Apply(IsPowerButton(path,card,inCard,button)?"Body Label":obj,card,result)??result;
+   // The keyword banner overlaps the opening rule on both Omnitron faces.
+   // Reserve one display line only at this reviewed opening; retain the source newline encoding.
+   const string omnitronOpening="全能智创生命值为0且为场上唯一装置牌时，英雄才能获胜。";
+   if(card=="OmnitronCharacter" && obj=="Body Label" && result.StartsWith(omnitronOpening,StringComparison.Ordinal))
+    result=(source.Contains("\\r\\n",StringComparison.Ordinal)?"\\r\\n":source.Contains("\r\n",StringComparison.Ordinal)?"\r\n":"\n")+result;
    if(result==source)result=previous??source;
   }
   if(inCard && obj=="Advanced Heading Label"){
