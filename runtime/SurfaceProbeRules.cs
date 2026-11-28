@@ -18,7 +18,7 @@ public sealed class SurfaceProbeRules {
   "Phase Label","Hint Label","Selection Button Label","Choose For Me Button Label","Skip Button Label",
   "Finish Button Label","Turn Taker Label","Deck Label","Heading Label","Info Label",
   "Message Label","Tooltip Label","Description Label","Title Label","Header","Heading",
-  "Label","Text","Text (TMP)"
+  "Label","Text","Text (TMP)","Abandon Label"
  };
  public static SurfaceProbeRules Read(string path){
   var p=JsonSerializer.Deserialize<SurfaceProbeRules>(File.ReadAllText(path)) ?? throw new InvalidDataException("Empty surface probe");

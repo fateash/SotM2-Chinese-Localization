@@ -2,11 +2,12 @@
   "schemaVersion": 1,
   "reviewedFiles": {
     "runtime/DynamicDisplayRules.cs": "3400a89da3bc57833ffc934c7823b125b3fcb2963dcb040658774797277f7945",
-    "runtime/SurfaceProbeRules.cs": "1fae58400647901d3a68afc594d9f4653f6d72401567c936550762dd12b621f1",
-    "runtime/SurfaceProbe.cs": "e3cb449dd2b26d37f3309bbdf36d28651df38c82ff9ce3d0151477a52224fe78",
-    "runtime/Plugin.cs": "5bddcd317674b3c0c40762f001ece81071bda12b7825e7988102d047ccf3730c",
+    "runtime/SurfaceProbeRules.cs": "795eebcd5f1ef1f7c98609bf19f4660d8632122059a15ad7e92902a955f4a0cb",
+    "runtime/SurfaceProbe.cs": "06e1bbe84d688632f198496d1e73d290ecc7b16c2baba5450840b93cc55ac31d",
+    "runtime/Plugin.cs": "696e402d9755922e2235827371a9ff20185c48ae9765d30b3ef9640b73cf9afc",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "3b65ec6dba3771f1c3595d05069417db54cb622e2b7bc278ef18cd9733377258"
+    "probe/dynamic-pilot.json": "3b65ec6dba3771f1c3595d05069417db54cb622e2b7bc278ef18cd9733377258",
+    "runtime/RenderedDisplayRules.cs": "c6240572bdf15480757876c8f6e360ce49f87e58c89debd135fe6aef70a7c94c"
   },
   "families": [
     {
@@ -105,7 +106,7 @@
             "source": "<b>Hypersonic Dash:</b> Click targets to choose the order of dealing them <nobr>1 sonic</nobr> damage.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>Hypersonic Dash:</b> 点击目标，选择对它们造成<nobr>1点音波伤害</nobr>的顺序。",
+            "expected": "<b>高超音速冲刺:</b> 点击目标，选择对它们造成<nobr>1点音波伤害</nobr>的顺序。",
             "objectName": "Hint Label"
           }
         },
@@ -121,7 +122,7 @@
             "source": "<b>Accelerated Assault:</b> Click targets to choose the order of dealing them <nobr>1 melee</nobr> damage.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>Accelerated Assault:</b> 点击目标，选择对它们造成<nobr>1点近战伤害</nobr>的顺序。",
+            "expected": "<b>加速突袭:</b> 点击目标，选择对它们造成<nobr>1点近战伤害</nobr>的顺序。",
             "objectName": "Hint Label"
           },
           "runtimeMatchEvidence": [
@@ -171,7 +172,7 @@
             "source": "<b>Cornered Ankylosaurus:</b> Click 2 targets to deal them <nobr>3 melee</nobr> damage.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>Cornered Ankylosaurus:</b> 点击2个目标，对其各造成<nobr>3点近战伤害</nobr>。",
+            "expected": "<b>受困甲龙:</b> 点击2个目标，对其各造成<nobr>3点近战伤害</nobr>。",
             "objectName": "Hint Label"
           }
         },
@@ -187,7 +188,7 @@
             "source": "<b>Wounding Buffer:</b> <b>Cornered Ankylosaurus</b> will deal <b>Legacy</b> 3 melee damage. Click a reaction to use it.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>Wounding Buffer:</b> <b>Cornered Ankylosaurus</b>将对<b>Legacy</b>造成3点近战伤害。点击一个反应以使用它。",
+            "expected": "<b>反击屏障:</b> <b>Cornered Ankylosaurus</b>将对<b>Legacy</b>造成3点近战伤害。点击一个反应以使用它。",
             "objectName": "Hint Label"
           }
         },
@@ -219,7 +220,7 @@
             "source": "<b>Hasten Doom:</b> Click targets to choose the order of dealing them <nobr>2 toxic</nobr> damage.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>Hasten Doom:</b> 点击目标，选择对它们造成<nobr>2点毒素伤害</nobr>的顺序。",
+            "expected": "<b>加速末日:</b> 点击目标，选择对它们造成<nobr>2点毒素伤害</nobr>的顺序。",
             "objectName": "Hint Label"
           },
           "runtimeMatchEvidence": [
@@ -244,7 +245,7 @@
             "source": "<b>Wounding Buffer:</b> <b>Baron Blade</b> will deal <b>Legacy</b> 3 toxic damage. Click a reaction to use it.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>Wounding Buffer:</b> <b>Baron Blade</b>将对<b>Legacy</b>造成3点毒素伤害。点击一个反应以使用它。",
+            "expected": "<b>反击屏障:</b> <b>Baron Blade</b>将对<b>Legacy</b>造成3点毒素伤害。点击一个反应以使用它。",
             "objectName": "Hint Label"
           }
         },
@@ -260,7 +261,7 @@
             "source": "<b>Devious Disruption:</b> Click a hero to destroy a card.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>Devious Disruption:</b> 点击一位英雄，让其破坏一张牌。",
+            "expected": "<b>阴险干扰:</b> 点击一位英雄，让其破坏一张牌。",
             "objectName": "Hint Label"
           }
         },
@@ -276,7 +277,7 @@
             "source": "<b>Sonic Vortex:</b> Click up to 6 targets to deal them <nobr>3 sonic</nobr> damage.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>Sonic Vortex:</b> 点击至多6个目标，对其各造成<nobr>3点音波伤害</nobr>。",
+            "expected": "<b>音波旋涡:</b> 点击至多6个目标，对其各造成<nobr>3点音波伤害</nobr>。",
             "objectName": "Hint Label"
           }
         },
@@ -292,7 +293,7 @@
             "source": "<b>Cornered Ankylosaurus:</b> Click <b>Baron Blade</b> and 1 more target to deal them <nobr>3 melee</nobr> damage.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>Cornered Ankylosaurus:</b> 点击<b>Baron Blade</b>及另外1个目标，对其各造成<nobr>3点近战伤害</nobr>。",
+            "expected": "<b>受困甲龙:</b> 点击<b>Baron Blade</b>及另外1个目标，对其各造成<nobr>3点近战伤害</nobr>。",
             "objectName": "Hint Label"
           }
         },
@@ -308,7 +309,7 @@
             "source": "<b>Grazing Stegosaurus:</b> Click the hero who is considered to have the fewest cards in hand.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>Grazing Stegosaurus:</b> 点击视为手牌最少的英雄。",
+            "expected": "<b>食草剑龙:</b> 点击视为手牌最少的英雄。",
             "objectName": "Hint Label"
           },
           "runtimeMatchEvidence": [
@@ -333,7 +334,7 @@
             "source": "<b>Pterodactyl Thief:</b> Click a card in play to destroy it.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>Pterodactyl Thief:</b> 点击一张在场的牌以将其破坏。",
+            "expected": "<b>翼手龙窃贼:</b> 点击一张在场的牌以将其破坏。",
             "objectName": "Hint Label"
           }
         },
@@ -349,7 +350,7 @@
             "source": "<b>River of Lava:</b> Click targets to choose the order of dealing them <nobr>2 fire</nobr> damage.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>River of Lava:</b> 点击目标，选择对它们造成<nobr>2点火焰伤害</nobr>的顺序。",
+            "expected": "<b>熔岩之河:</b> 点击目标，选择对它们造成<nobr>2点火焰伤害</nobr>的顺序。",
             "objectName": "Hint Label"
           }
         },
@@ -365,7 +366,7 @@
             "source": "<b>Sonic Vortex:</b> Click up to 17 targets to deal them <nobr>3 sonic</nobr> damage.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>Sonic Vortex:</b> 点击至多17个目标，对其各造成<nobr>3点音波伤害</nobr>。",
+            "expected": "<b>音波旋涡:</b> 点击至多17个目标，对其各造成<nobr>3点音波伤害</nobr>。",
             "objectName": "Hint Label"
           }
         },
@@ -381,7 +382,7 @@
             "source": "<b>Imminent Eruption:</b> Click targets to choose the order of dealing them fire damage.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>Imminent Eruption:</b> 点击目标，选择对它们造成火焰伤害的顺序。",
+            "expected": "<b>喷发将至:</b> 点击目标，选择对它们造成火焰伤害的顺序。",
             "objectName": "Hint Label"
           }
         },
@@ -478,7 +479,7 @@
             "cardId": "",
             "source": "<b>Unflagging Animation:</b> Click a target to determine which has the lowest HP.",
             "inCardView": false,
-            "expected": "<b>Unflagging Animation:</b> 点击一个目标，将其视为生命值最低的目标。",
+            "expected": "<b>不懈赋生:</b> 点击一个目标，将其视为生命值最低的目标。",
             "observationId": "1196a364145819ad099bc019"
           }
         },
@@ -544,7 +545,7 @@
             "cardId": "",
             "source": "<b>Construct Cataclysm:</b> Click up to 8 targets to destroy them.",
             "inCardView": false,
-            "expected": "<b>Construct Cataclysm:</b> 点击至多8个目标以将其破坏。",
+            "expected": "<b>构造灾变:</b> 点击至多8个目标以将其破坏。",
             "observationId": "0556a82be1be07fa0edf6c30"
           }
         },
@@ -577,7 +578,7 @@
             "cardId": "",
             "source": "<b>Fueled Freeze:</b> Click up to 3 cards in play to destroy them.",
             "inCardView": false,
-            "expected": "<b>Fueled Freeze:</b> 点击至多3张在场的牌以将其破坏。",
+            "expected": "<b>蓄能冰封:</b> 点击至多3张在场的牌以将其破坏。",
             "observationId": "2ed49ac732fc3e834fd2c034"
           }
         },
@@ -610,7 +611,7 @@
             "cardId": "",
             "source": "<b>Tachyon:</b> Click a hero to take their Play phase now.",
             "inCardView": false,
-            "expected": "<b>Tachyon:</b> 点击一位英雄，让其立即进行出牌阶段。",
+            "expected": "<b>快子:</b> 点击一位英雄，让其立即进行出牌阶段。",
             "observationId": "ea02e4f2451f3c39e9eeab52"
           }
         },
@@ -643,7 +644,7 @@
             "cardId": "",
             "source": "<b>Piston Punch:</b> Click a card in play to put Piston Punch under it.",
             "inCardView": false,
-            "expected": "<b>Piston Punch:</b> 点击一张在场的牌，将Piston Punch置于其下方。",
+            "expected": "<b>活塞重拳:</b> 点击一张在场的牌，将Piston Punch置于其下方。",
             "observationId": "38ec492eb2a8118b5ad09328"
           }
         },
@@ -677,7 +678,7 @@
             "cardId": "",
             "source": "<b>Still Life:</b> Click a target to prevent it from dealing damage.",
             "inCardView": false,
-            "expected": "<b>Still Life:</b> 点击一个目标，防止其造成伤害。",
+            "expected": "<b>静物艺术:</b> 点击一个目标，防止其造成伤害。",
             "observationId": "6d42939e3144b82725fb40e7"
           }
         },
@@ -711,7 +712,7 @@
             "cardId": "",
             "source": "<b>Flak Cannon:</b> Click a card in play or under Flak Cannon to destroy it.",
             "inCardView": false,
-            "expected": "<b>Flak Cannon:</b> 点击一张在场或位于Flak Cannon下方的牌以将其破坏。",
+            "expected": "<b>高射火炮:</b> 点击一张在场或位于Flak Cannon下方的牌以将其破坏。",
             "observationId": "bc886d8ab164bb3742be1fa2"
           }
         },
@@ -745,7 +746,7 @@
             "cardId": "",
             "source": "<b>Conductive Installation:</b> Click a card in the deck to collect it.",
             "inCardView": false,
-            "expected": "<b>Conductive Installation:</b> 点击牌库中的一张牌以将其搜集。",
+            "expected": "<b>传导装配:</b> 点击牌库中的一张牌以将其搜集。",
             "observationId": "bda00be0cc4af4699789c945"
           }
         },
@@ -779,7 +780,7 @@
             "cardId": "",
             "source": "<b>Gatling Gun:</b> Click a card in play or under Gatling Gun to destroy it.",
             "inCardView": false,
-            "expected": "<b>Gatling Gun:</b> 点击一张在场或位于Gatling Gun下方的牌以将其破坏。",
+            "expected": "<b>加特林机炮:</b> 点击一张在场或位于Gatling Gun下方的牌以将其破坏。",
             "observationId": "ce6f8388e6f178f6c63386b6"
           }
         },
@@ -813,7 +814,7 @@
             "cardId": "",
             "source": "<b>Upgrade Mode:</b> Click a card in the deck or in the trash to summon it.",
             "inCardView": false,
-            "expected": "<b>Upgrade Mode:</b> 点击牌库或弃牌堆中的一张牌以将其召唤。",
+            "expected": "<b>升级模式:</b> 点击牌库或弃牌堆中的一张牌以将其召唤。",
             "observationId": "eab58b99f364ef8522cf50cd"
           },
           "runtimeMatchEvidence": [
@@ -856,7 +857,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard A True Hero.",
             "inCardView": false,
-            "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将A True Hero放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将A True Hero放回原处或弃置。",
             "observationId": "10d98167c99a8e632c0ff3b6"
           }
         },
@@ -890,7 +891,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Mounted AP Gun.",
             "inCardView": false,
-            "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Mounted AP Gun放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Mounted AP Gun放回原处或弃置。",
             "observationId": "1d59e4a15f217d10bb22fb41"
           }
         },
@@ -924,7 +925,7 @@
             "cardId": "",
             "source": "<b>Disintegration Ray:</b> Click a target to deal it energy damage.",
             "inCardView": false,
-            "expected": "<b>Disintegration Ray:</b> 点击一个目标，对其造成能量伤害。",
+            "expected": "<b>解离射线:</b> 点击一个目标，对其造成能量伤害。",
             "observationId": "3911848bb60c9b33a537f733"
           }
         },
@@ -992,7 +993,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Displaced Ambassador.",
             "inCardView": false,
-            "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Displaced Ambassador放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Displaced Ambassador放回原处或弃置。",
             "observationId": "4b65e47566556549f7ee2781"
           }
         },
@@ -1026,7 +1027,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Supply Crate.",
             "inCardView": false,
-            "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Supply Crate放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Supply Crate放回原处或弃置。",
             "observationId": "506f4ec2c9e7dc0e066e66c4"
           }
         },
@@ -1060,7 +1061,7 @@
             "cardId": "",
             "source": "<b>Maerynian Aquaculturalist:</b> Click a location to either replace or discard Entry Point.",
             "inCardView": false,
-            "expected": "<b>Maerynian Aquaculturalist:</b> 选择一个区域，将Entry Point放回原处或弃置。",
+            "expected": "<b>异星水产学家:</b> 选择一个区域，将Entry Point放回原处或弃置。",
             "observationId": "58856020cead01453cd99190"
           }
         },
@@ -1094,7 +1095,7 @@
             "cardId": "",
             "source": "<b>Singularity Projector:</b> Click 3 cards in play to destroy them.",
             "inCardView": false,
-            "expected": "<b>Singularity Projector:</b> 点击3张在场的牌以将其破坏。",
+            "expected": "<b>奇点投射器:</b> 点击3张在场的牌以将其破坏。",
             "observationId": "5e5ea359d923c2ffa436c984"
           },
           "runtimeMatchEvidence": [
@@ -1137,7 +1138,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Haka of Battle.",
             "inCardView": false,
-            "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Haka of Battle放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Haka of Battle放回原处或弃置。",
             "observationId": "5e8b03879ad004ab4d380bda"
           }
         },
@@ -1171,7 +1172,7 @@
             "cardId": "",
             "source": "<b>Maerynian Aquaculturalist:</b> Click a location to either replace or discard Mission Control.",
             "inCardView": false,
-            "expected": "<b>Maerynian Aquaculturalist:</b> 选择一个区域，将Mission Control放回原处或弃置。",
+            "expected": "<b>异星水产学家:</b> 选择一个区域，将Mission Control放回原处或弃置。",
             "observationId": "64ab6d14c8732a92f5f9ad19"
           }
         },
@@ -1205,7 +1206,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Haka of Frenzy.",
             "inCardView": false,
-            "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Haka of Frenzy放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Haka of Frenzy放回原处或弃置。",
             "observationId": "67be4494df14e4bd869a960e"
           }
         },
@@ -1239,7 +1240,7 @@
             "cardId": "",
             "source": "<b>Supply Crate:</b> Click Unity's deck to draw 2 cards.",
             "inCardView": false,
-            "expected": "<b>Supply Crate:</b> 点击Unity的牌库，抽2张牌。",
+            "expected": "<b>补给货箱:</b> 点击Unity的牌库，抽2张牌。",
             "observationId": "6d62d72515609eced47989c0"
           }
         },
@@ -1273,7 +1274,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Haka of Recovery.",
             "inCardView": false,
-            "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Haka of Recovery放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Haka of Recovery放回原处或弃置。",
             "observationId": "6e3ffd9c4181398ee2de733c"
           }
         },
@@ -1307,7 +1308,7 @@
             "cardId": "",
             "source": "<b>The Wraith's Arsenal:</b> Click a hero to draw a card.",
             "inCardView": false,
-            "expected": "<b>The Wraith's Arsenal:</b> 点击一位英雄，让其抽1张牌。",
+            "expected": "<b>幽魂武库:</b> 点击一位英雄，让其抽1张牌。",
             "observationId": "746ba2eb32ced79e0f278116"
           },
           "runtimeMatchEvidence": [
@@ -1350,7 +1351,7 @@
             "cardId": "",
             "source": "<b>Taonga Mana:</b> Click Haka's deck to draw 3 cards.",
             "inCardView": false,
-            "expected": "<b>Taonga Mana:</b> 点击Haka的牌库，抽3张牌。",
+            "expected": "<b>威能之赐:</b> 点击Haka的牌库，抽3张牌。",
             "observationId": "81e1eefbef72c9fed00ba1e4"
           }
         },
@@ -1384,7 +1385,7 @@
             "cardId": "",
             "source": "<b>Maerynian Aquaculturalist:</b> Click a location to either replace or discard Dr. Stinson's Secondary Lab.",
             "inCardView": false,
-            "expected": "<b>Maerynian Aquaculturalist:</b> 选择一个区域，将Dr. Stinson's Secondary Lab放回原处或弃置。",
+            "expected": "<b>异星水产学家:</b> 选择一个区域，将Dr. Stinson's Secondary Lab放回原处或弃置。",
             "observationId": "8d2a7b9d29ff557b81a8bfa4"
           }
         },
@@ -1418,7 +1419,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Lightning Slash.",
             "inCardView": false,
-            "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Lightning Slash放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Lightning Slash放回原处或弃置。",
             "observationId": "9993585e06561f477a27deba"
           }
         },
@@ -1452,7 +1453,7 @@
             "cardId": "",
             "source": "<b>Freedom Security Staff:</b> Click a hero to discard a card.",
             "inCardView": false,
-            "expected": "<b>Freedom Security Staff:</b> 点击一位英雄，让其弃置1张牌。",
+            "expected": "<b>自由安保:</b> 点击一位英雄，让其弃置1张牌。",
             "observationId": "9fadf0f7f2b73207bb4983b7"
           }
         },
@@ -1486,7 +1487,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Platform Bot.",
             "inCardView": false,
-            "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Platform Bot放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Platform Bot放回原处或弃置。",
             "observationId": "a1ccd62d38f0fd7152e4b10c"
           }
         },
@@ -1520,7 +1521,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Lead from the Front.",
             "inCardView": false,
-            "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Lead from the Front放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Lead from the Front放回原处或弃置。",
             "observationId": "b0de7c920e3ee815a73cf04b"
           }
         },
@@ -1554,7 +1555,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Thunderclap.",
             "inCardView": false,
-            "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Thunderclap放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Thunderclap放回原处或弃置。",
             "observationId": "b5e682fb667c2cd29b3894a5"
           }
         },
@@ -1588,7 +1589,7 @@
             "cardId": "",
             "source": "<b>Haka of Frenzy:</b> Click up to 6 cards in hand to discard them.",
             "inCardView": false,
-            "expected": "<b>Haka of Frenzy:</b> 点击至多6张手牌以将其弃置。",
+            "expected": "<b>狂热战舞:</b> 点击至多6张手牌以将其弃置。",
             "observationId": "b5ec431f64f0d0c6540cbe1b"
           }
         },
@@ -1622,7 +1623,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Turret Mode.",
             "inCardView": false,
-            "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Turret Mode放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Turret Mode放回原处或弃置。",
             "observationId": "ca72ea6dd485d25b75f659e9"
           }
         },
@@ -1656,7 +1657,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Grenade Launcher.",
             "inCardView": false,
-            "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Grenade Launcher放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Grenade Launcher放回原处或弃置。",
             "observationId": "d4be9019a580c31eac373f45"
           }
         },
@@ -1690,7 +1691,7 @@
             "cardId": "",
             "source": "<b>Recharge Mode:</b> Click a card in hand to put it under a card.",
             "inCardView": false,
-            "expected": "<b>Recharge Mode:</b> 点击一张手牌，将其置于一张牌下方。",
+            "expected": "<b>充能模式:</b> 点击一张手牌，将其置于一张牌下方。",
             "observationId": "df68a220dd06467d8cc801c7"
           }
         },
@@ -1724,7 +1725,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Inspired Repair.",
             "inCardView": false,
-            "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Inspired Repair放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Inspired Repair放回原处或弃置。",
             "observationId": "e61d9d583df07e947683736e"
           }
         },
@@ -1758,7 +1759,7 @@
             "cardId": "",
             "source": "<b>Citizen Summer:</b> Click the hero who is considered to have the most cards in play.",
             "inCardView": false,
-            "expected": "<b>Citizen Summer:</b> 点击视为场上牌最多的英雄。",
+            "expected": "<b>炎夏公民:</b> 点击视为场上牌最多的英雄。",
             "observationId": "27485448cf258f7c5fbb68ad"
           }
         },
@@ -1792,7 +1793,7 @@
             "cardId": "",
             "source": "<b>Expendable Power Bank:</b> Click a card in the trash to put it under a card.",
             "inCardView": false,
-            "expected": "<b>Expendable Power Bank:</b> 点击弃牌堆中的一张牌，将其置于一张牌下方。",
+            "expected": "<b>一次性电源:</b> 点击弃牌堆中的一张牌，将其置于一张牌下方。",
             "observationId": "3665f29bbf3bc9c16f5f03a4"
           }
         },
@@ -1826,7 +1827,7 @@
             "cardId": "",
             "source": "<b>Ironclad Maintenance Bay:</b> Click a hero to salvage a card.",
             "inCardView": false,
-            "expected": "<b>Ironclad Maintenance Bay:</b> 点击一位英雄，让其回收1张牌。",
+            "expected": "<b>铁甲工坊:</b> 点击一位英雄，让其回收1张牌。",
             "observationId": "41dfe12caceb49c7d6259641"
           }
         },
@@ -1860,7 +1861,7 @@
             "cardId": "",
             "source": "<b>Take Down:</b> Click Omnitron's trash to discard Singularity Projector.",
             "inCardView": false,
-            "expected": "<b>Take Down:</b> 点击Omnitron的弃牌堆，将Singularity Projector弃置。",
+            "expected": "<b>强行制伏:</b> 点击Omnitron的弃牌堆，将Singularity Projector弃置。",
             "observationId": "54224b7ba4e2b3b1c4f0d081"
           }
         },
@@ -1894,7 +1895,7 @@
             "cardId": "",
             "source": "<b>Mounted AP Gun:</b> Click 2 cards in play or under Mounted AP Gun to destroy them.",
             "inCardView": false,
-            "expected": "<b>Mounted AP Gun:</b> 点击2张在场或位于Mounted AP Gun下方的牌以将其破坏。",
+            "expected": "<b>挂载穿甲炮:</b> 点击2张在场或位于Mounted AP Gun下方的牌以将其破坏。",
             "observationId": "68845988cc54903b43b944af"
           }
         },
@@ -1962,7 +1963,7 @@
             "cardId": "",
             "source": "<b>Ironclad Maintenance Bay:</b> Click a card in the trash to salvage it.",
             "inCardView": false,
-            "expected": "<b>Ironclad Maintenance Bay:</b> 点击弃牌堆中的一张牌以将其回收。",
+            "expected": "<b>铁甲工坊:</b> 点击弃牌堆中的一张牌以将其回收。",
             "observationId": "d612219fca1d5d74ae40a0aa"
           }
         },
@@ -1996,7 +1997,7 @@
             "cardId": "",
             "source": "<b>Akash'Bhuta:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
             "inCardView": false,
-            "expected": "<b>Akash'Bhuta:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+            "expected": "<b>阿卡什怖妲:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
           }
         },
         {
@@ -2012,7 +2013,7 @@
             "cardId": "",
             "source": "<b>Baron Blade:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
             "inCardView": false,
-            "expected": "<b>Baron Blade:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+            "expected": "<b>刀锋男爵:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
           }
         },
         {
@@ -2028,7 +2029,7 @@
             "cardId": "",
             "source": "<b>Citizen Dawn:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
             "inCardView": false,
-            "expected": "<b>Citizen Dawn:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+            "expected": "<b>黎明公民:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
           }
         },
         {
@@ -2044,7 +2045,7 @@
             "cardId": "",
             "source": "<b>Grand Warlord Voss:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
             "inCardView": false,
-            "expected": "<b>Grand Warlord Voss:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+            "expected": "<b>大军阀沃斯:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
           }
         },
         {
@@ -2060,7 +2061,7 @@
             "cardId": "",
             "source": "<b>Omnitron:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
             "inCardView": false,
-            "expected": "<b>Omnitron:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+            "expected": "<b>全能智创:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
           }
         },
         {
@@ -2076,7 +2077,7 @@
             "cardId": "",
             "source": "<b>The Matriarch:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
             "inCardView": false,
-            "expected": "<b>The Matriarch:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+            "expected": "<b>鸦母:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
           }
         },
         {
@@ -2092,7 +2093,7 @@
             "cardId": "",
             "source": "<b>Freedom Tower:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
             "inCardView": false,
-            "expected": "<b>Freedom Tower:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+            "expected": "<b>自由大厦:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
           }
         },
         {
@@ -2108,7 +2109,7 @@
             "cardId": "",
             "source": "<b>Insula Primalis:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
             "inCardView": false,
-            "expected": "<b>Insula Primalis:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+            "expected": "<b>原初岛:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
           }
         },
         {
@@ -2124,7 +2125,7 @@
             "cardId": "",
             "source": "<b>Magmaria:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
             "inCardView": false,
-            "expected": "<b>Magmaria:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+            "expected": "<b>熔岩域:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
           }
         },
         {
@@ -2140,7 +2141,7 @@
             "cardId": "",
             "source": "<b>Megalopolis:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
             "inCardView": false,
-            "expected": "<b>Megalopolis:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+            "expected": "<b>巨都会:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
           }
         },
         {
@@ -2156,7 +2157,7 @@
             "cardId": "",
             "source": "<b>The Ruins of Atlantis:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
             "inCardView": false,
-            "expected": "<b>The Ruins of Atlantis:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+            "expected": "<b>亚特兰蒂斯遗迹:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
           }
         },
         {
@@ -2172,7 +2173,7 @@
             "cardId": "",
             "source": "<b>Wagner Mars Base:</b> Click a target to activate its <nobr><sprite name=\"EndPhase\"> <b>END PHASE</b></nobr> effect.",
             "inCardView": false,
-            "expected": "<b>Wagner Mars Base:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+            "expected": "<b>瓦格纳火星基地:</b> 点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
           }
         },
         {
@@ -2188,7 +2189,7 @@
             "cardId": "",
             "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Arsenal Bot</b> 2 fire damage. Click a card to activate first.",
             "inCardView": false,
-            "expected": "<b>Stealth Bot:</b> <b>Burning High Rise</b>将对<b>Arsenal Bot</b>造成2点火焰伤害。点击一张牌，先发动其效果。",
+            "expected": "<b>潜行机偶:</b> <b>Burning High Rise</b>将对<b>Arsenal Bot</b>造成2点火焰伤害。点击一张牌，先发动其效果。",
             "observationId": "01f1c2253f530c5f77cdc1fa"
           }
         },
@@ -2205,7 +2206,7 @@
             "cardId": "",
             "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Unity</b> 2 fire damage. Click a card to activate first.",
             "inCardView": false,
-            "expected": "<b>Stealth Bot:</b> <b>Burning High Rise</b>将对<b>Unity</b>造成2点火焰伤害。点击一张牌，先发动其效果。",
+            "expected": "<b>潜行机偶:</b> <b>Burning High Rise</b>将对<b>Unity</b>造成2点火焰伤害。点击一张牌，先发动其效果。",
             "observationId": "d386447b6229e35f787fc0dd"
           }
         },
@@ -8294,7 +8295,7 @@
             "path": "Canvas/Temporary Full Card Panel/Description Label",
             "objectName": "Description Label",
             "source": "Baron Blade played:",
-            "expected": "Baron Blade打出的牌：",
+            "expected": "刀锋男爵打出的牌：",
             "cardId": "",
             "inCardView": false
           },
@@ -8353,7 +8354,7 @@
             "cardId": "",
             "source": "Cosmic Crest discovered:",
             "inCardView": false,
-            "expected": "Cosmic Crest发现的牌：",
+            "expected": "宇宙冠饰发现的牌：",
             "observationId": "c0cf1bf7a908617761e9fe45"
           },
           "runtimeMatchEvidence": [
@@ -8395,7 +8396,7 @@
             "cardId": "",
             "source": "Captain Cosmic revealed:",
             "inCardView": false,
-            "expected": "Captain Cosmic展示的牌：",
+            "expected": "宇宙队长展示的牌：",
             "observationId": "3cc96e080e7d53ca668c9be2"
           },
           "runtimeMatchEvidence": [
@@ -8444,7 +8445,7 @@
             "cardId": "",
             "source": "Baron Blade summoned:",
             "inCardView": false,
-            "expected": "Baron Blade召唤出的牌：",
+            "expected": "刀锋男爵召唤出的牌：",
             "observationId": "ccaf2690569dbcc545893d2e"
           }
         },
@@ -8477,7 +8478,7 @@
             "cardId": "",
             "source": "Conductive Installation collected:",
             "inCardView": false,
-            "expected": "Conductive Installation搜集的牌：",
+            "expected": "传导装配搜集的牌：",
             "observationId": "da14ed7c43607c3dc4fa8b72"
           }
         },
@@ -8511,7 +8512,7 @@
             "cardId": "",
             "source": "Akash'Bhuta revealed:",
             "inCardView": false,
-            "expected": "Akash'Bhuta展示的牌："
+            "expected": "阿卡什怖妲展示的牌："
           }
         },
         {
@@ -8527,7 +8528,7 @@
             "cardId": "",
             "source": "Baron Blade revealed:",
             "inCardView": false,
-            "expected": "Baron Blade展示的牌："
+            "expected": "刀锋男爵展示的牌："
           }
         },
         {
@@ -8543,7 +8544,7 @@
             "cardId": "",
             "source": "Citizen Dawn revealed:",
             "inCardView": false,
-            "expected": "Citizen Dawn展示的牌："
+            "expected": "黎明公民展示的牌："
           }
         },
         {
@@ -8559,7 +8560,7 @@
             "cardId": "",
             "source": "Grand Warlord Voss revealed:",
             "inCardView": false,
-            "expected": "Grand Warlord Voss展示的牌："
+            "expected": "大军阀沃斯展示的牌："
           }
         },
         {
@@ -8575,7 +8576,7 @@
             "cardId": "",
             "source": "Omnitron revealed:",
             "inCardView": false,
-            "expected": "Omnitron展示的牌："
+            "expected": "全能智创展示的牌："
           }
         },
         {
@@ -8591,7 +8592,7 @@
             "cardId": "",
             "source": "The Matriarch revealed:",
             "inCardView": false,
-            "expected": "The Matriarch展示的牌："
+            "expected": "鸦母展示的牌："
           }
         },
         {
@@ -8607,7 +8608,7 @@
             "cardId": "",
             "source": "Freedom Tower revealed:",
             "inCardView": false,
-            "expected": "Freedom Tower展示的牌："
+            "expected": "自由大厦展示的牌："
           }
         },
         {
@@ -8623,7 +8624,7 @@
             "cardId": "",
             "source": "Insula Primalis revealed:",
             "inCardView": false,
-            "expected": "Insula Primalis展示的牌："
+            "expected": "原初岛展示的牌："
           }
         },
         {
@@ -8639,7 +8640,7 @@
             "cardId": "",
             "source": "Magmaria revealed:",
             "inCardView": false,
-            "expected": "Magmaria展示的牌："
+            "expected": "熔岩域展示的牌："
           }
         },
         {
@@ -8655,7 +8656,7 @@
             "cardId": "",
             "source": "Megalopolis revealed:",
             "inCardView": false,
-            "expected": "Megalopolis展示的牌："
+            "expected": "巨都会展示的牌："
           }
         },
         {
@@ -8671,7 +8672,7 @@
             "cardId": "",
             "source": "The Ruins of Atlantis revealed:",
             "inCardView": false,
-            "expected": "The Ruins of Atlantis展示的牌："
+            "expected": "亚特兰蒂斯遗迹展示的牌："
           }
         },
         {
@@ -8687,7 +8688,7 @@
             "cardId": "",
             "source": "Wagner Mars Base revealed:",
             "inCardView": false,
-            "expected": "Wagner Mars Base展示的牌："
+            "expected": "瓦格纳火星基地展示的牌："
           }
         }
       ]
@@ -21307,6 +21308,1379 @@
           "heroState": "not-applicable",
           "layout": "pending-live",
           "reason": "独立图片不属于TMP文字替换；变体、特殊状态或此组合尚未实机确认，保持开放待验收。"
+        }
+      ]
+    },
+    {
+      "id": "rendered-completion",
+      "templates": [],
+      "contexts": [
+        {
+          "id": "Legacy-active",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/16/UsePower-Legacy-LegacyCharacter/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\r\n</style>",
+            "expected": "<style=PowerTitle>振奋人心</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>直到你的<nobr><b>开始阶段</b></nobr>，盟友角色造成的伤害+1。\r\n</style>"
+          }
+        },
+        {
+          "id": "Legacy-3 Hero Layout-Inactive Hero Location 1-",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/16/UsePower-Legacy-LegacyCharacter/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\r\n</style>",
+            "expected": "<style=PowerTitle>振奋人心</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>直到你的<nobr><b>开始阶段</b></nobr>，盟友角色造成的伤害+1。\r\n</style>"
+          }
+        },
+        {
+          "id": "Legacy-5 Hero Layout-Inactive Hero Location 4-",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/16/UsePower-Legacy-LegacyCharacter/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\r\n</style>",
+            "expected": "<style=PowerTitle>振奋人心</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>直到你的<nobr><b>开始阶段</b></nobr>，盟友角色造成的伤害+1。\r\n</style>"
+          }
+        },
+        {
+          "id": "Legacy-full",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView LegacyCharacter-0 FullCardFront/Power Container/16/UsePower-Legacy-LegacyCharacter/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\r\n</style>",
+            "expected": "<style=PowerTitle>振奋人心</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>直到你的<nobr><b>开始阶段</b></nobr>，盟友角色造成的伤害+1。\r\n</style>"
+          }
+        },
+        {
+          "id": "CaptainCosmic-active",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Power Container/16/UsePower-CaptainCosmic-CaptainCosmicCharacter/Label",
+            "objectName": "Label",
+            "cardId": "CaptainCosmicCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Fabrication</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Reveal the top card of your deck. Play it or draw it.\r\n</style>",
+            "expected": "<style=PowerTitle>能量塑形</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>展示你的牌库顶牌。打出或抽取该牌。\r\n</style>"
+          }
+        },
+        {
+          "id": "CaptainCosmic-3 Hero Layout-Inactive Hero Location 1-",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Power Container/16/UsePower-CaptainCosmic-CaptainCosmicCharacter/Label",
+            "objectName": "Label",
+            "cardId": "CaptainCosmicCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Fabrication</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Reveal the top card of your deck. Play it or draw it.\r\n</style>",
+            "expected": "<style=PowerTitle>能量塑形</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>展示你的牌库顶牌。打出或抽取该牌。\r\n</style>"
+          }
+        },
+        {
+          "id": "CaptainCosmic-5 Hero Layout-Inactive Hero Location 4-",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Power Container/16/UsePower-CaptainCosmic-CaptainCosmicCharacter/Label",
+            "objectName": "Label",
+            "cardId": "CaptainCosmicCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Fabrication</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Reveal the top card of your deck. Play it or draw it.\r\n</style>",
+            "expected": "<style=PowerTitle>能量塑形</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>展示你的牌库顶牌。打出或抽取该牌。\r\n</style>"
+          }
+        },
+        {
+          "id": "CaptainCosmic-full",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CaptainCosmicCharacter-0 FullCardFront/Power Container/16/UsePower-CaptainCosmic-CaptainCosmicCharacter/Label",
+            "objectName": "Label",
+            "cardId": "CaptainCosmicCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Fabrication</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Reveal the top card of your deck. Play it or draw it.\r\n</style>",
+            "expected": "<style=PowerTitle>能量塑形</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>展示你的牌库顶牌。打出或抽取该牌。\r\n</style>"
+          }
+        },
+        {
+          "id": "power-card-mismatch",
+          "status": "excluded",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView LegacyCharacter-0 FullCardFront/Power Container/16/UsePower-Legacy-LegacyCharacter/Label",
+            "objectName": "Label",
+            "cardId": "CaptainCosmicCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\r\n</style>",
+            "expected": null
+          }
+        },
+        {
+          "id": "power-no-button",
+          "status": "excluded",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView LegacyCharacter-0 FullCardFront/Power Container/16/UsePower-Legacy-LegacyCharacter/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": false,
+            "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\r\n</style>",
+            "expected": null
+          }
+        },
+        {
+          "id": "power-wrong-path",
+          "status": "excluded",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Canvas/Unexpected/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\r\n</style>",
+            "expected": null
+          }
+        },
+        {
+          "id": "power-altered-rule",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView LegacyCharacter-0 FullCardFront/Power Container/16/UsePower-Legacy-LegacyCharacter/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +3 damage dealt by ally characters.\r\n</style>",
+            "expected": "<style=PowerTitle>振奋人心</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>Until your <nobr><b>开始阶段</b></nobr>, +3 damage dealt by ally characters.\r\n</style>"
+          }
+        },
+        {
+          "id": "power-localized-idempotent",
+          "status": "excluded",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView LegacyCharacter-0 FullCardFront/Power Container/16/UsePower-Legacy-LegacyCharacter/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>振奋人心</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>直到你的<nobr><b>开始阶段</b></nobr>，盟友角色造成的伤害+1。\r\n</style>",
+            "expected": null
+          }
+        },
+        {
+          "id": "argent-icons",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Card/Body Label",
+            "objectName": "Body Label",
+            "cardId": "XusBell",
+            "inCardView": true,
+            "cardButtonCandidate": false,
+            "source": "发动1个<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>，或发动至多2张不同牌各自的<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>ACCOMPANY</style></nobr>。",
+            "expected": "发动1个<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>演奏</style></nobr>，或发动至多2张不同牌各自的<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>伴奏</style></nobr>。"
+          }
+        },
+        {
+          "id": "matriarch-expanded-body",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Card/Body Label",
+            "objectName": "Body Label",
+            "cardId": "TheMatriarchCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": false,
+            "source": "The Matriarch对生命值最高的<sprite name=\"H\" color=#000000> minus 2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>",
+            "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#000000>减2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>"
+          }
+        },
+        {
+          "id": "matriarch-unknown-rule",
+          "status": "excluded",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Card/Body Label",
+            "objectName": "Body Label",
+            "cardId": "TheMatriarchCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": false,
+            "source": "The Matriarch对生命值最高的<sprite name=\"H\" color=#000000> minus 2个英雄目标各造成7点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>",
+            "expected": null
+          }
+        },
+        {
+          "id": "matriarch-setup",
+          "status": "offline-covered",
+          "view": "Setup Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Card/Setup Label",
+            "objectName": "Setup Label",
+            "cardId": "TheMatriarchCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": false,
+            "source": "<b><i>Setup</i></b>: 召唤鸦母面具。",
+            "expected": "<b><i>准备</i></b>: 召唤鸦母面具。"
+          }
+        },
+        {
+          "id": "advanced-17",
+          "status": "offline-covered",
+          "view": "Advanced Heading Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Card/Advanced Heading Label",
+            "objectName": "Advanced Heading Label",
+            "cardId": "TheMatriarchCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": false,
+            "source": "<i>Advanced...</i>",
+            "expected": "<i>进阶……</i>"
+          }
+        },
+        {
+          "id": "advanced-18",
+          "status": "offline-covered",
+          "view": "Advanced Heading Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Card/Advanced Heading Label",
+            "objectName": "Advanced Heading Label",
+            "cardId": "TheMatriarchCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": false,
+            "source": "<size=75%><i>Advanced...</i></size>\n<voffset=-0.2em><sprite name=\"EndPhase\"> <style=EndPhase>End Phase</style>",
+            "expected": "<size=75%><i>进阶……</i></size>\n<voffset=-0.2em><sprite name=\"EndPhase\"> <style=EndPhase>结束阶段</style>"
+          }
+        },
+        {
+          "id": "advanced-other-role",
+          "status": "excluded",
+          "view": "Flavor Text Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-card-role",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Card/Flavor Text Label",
+            "objectName": "Flavor Text Label",
+            "cardId": "TheMatriarchCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": false,
+            "source": "<i>Advanced...</i>",
+            "expected": null
+          }
+        },
+        {
+          "id": "abandon-short",
+          "status": "offline-covered",
+          "view": "Abandon Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Overlay Canvas/Abandon Panel/Panel/Abandon Label",
+            "objectName": "Abandon Label",
+            "cardId": "",
+            "inCardView": false,
+            "cardButtonCandidate": false,
+            "source": "Are you sure you want to abandon your game in progress?",
+            "expected": "确定要放弃本局游戏吗？"
+          }
+        },
+        {
+          "id": "abandon-unrelated",
+          "status": "excluded",
+          "view": "Abandon Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Canvas/Other/Abandon Label",
+            "objectName": "Abandon Label",
+            "cardId": "",
+            "inCardView": false,
+            "cardButtonCandidate": false,
+            "source": "Are you sure you want to abandon your game in progress?",
+            "expected": null
+          }
+        },
+        {
+          "id": "ravens-determine",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "cardButtonCandidate": false,
+            "source": "<b>Unkindness of Ravens:</b> Click a Hero to determine which has the lowest HP (will not be dealt damage).",
+            "expected": "<b>渡鸦无情:</b> 点击一位英雄，确定谁视为生命值最低者（不会因此受到伤害）。"
+          }
+        },
+        {
+          "id": "unknown-prompt-kept",
+          "status": "excluded",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "cardButtonCandidate": false,
+            "source": "<b>Unkindness of Ravens:</b> Unknown action.",
+            "expected": null
+          }
+        },
+        {
+          "id": "known-hint-name",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "cardButtonCandidate": false,
+            "source": "<b>Alacritous Subdominant:</b> Click a hero to play a card.",
+            "expected": "<b>轻快下属音:</b> 点击一位英雄，让其打出一张牌。"
+          }
+        },
+        {
+          "id": "reveal-name",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Canvas/Revealed Cards Manager/[RevealCardsAction: Source=Captain Cosmic]/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "cardButtonCandidate": false,
+            "source": "Captain Cosmic revealed:",
+            "expected": "宇宙队长展示的牌："
+          }
+        },
+        {
+          "id": "reveal-path-name-disagrees",
+          "status": "excluded",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "截图与原始日志确认的显示缺口；预期译文来自已审库存。扩展位置为合成契约，不代表实机验收。",
+          "case": {
+            "path": "Canvas/Revealed Cards Manager/[RevealCardsAction: Source=Legacy]/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "cardButtonCandidate": false,
+            "source": "Captain Cosmic revealed:",
+            "expected": null
+          }
+        },
+        {
+          "id": "new-completion-live-validation",
+          "status": "unobserved",
+          "view": "Power/Setup/Advanced/Hint",
+          "heroState": "all",
+          "layout": "all-supported-layouts",
+          "reason": "0.1.20新增接入尚待用户实际画面、点击、生命值及读档验收；合成路径不视作已观察。"
+        },
+        {
+          "id": "Legacy-active-escaped-newlines",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "原始日志为字面转义换行；保留编码，验证正文匹配及数字不变。",
+          "case": {
+            "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/16/UsePower-Legacy-LegacyCharacter/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Galvanize</style>\\r\\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\\r\\n</style>",
+            "expected": "<style=PowerTitle>振奋人心</style>\\r\\n<style=PowerHeading>异能: </style><style=PowerBody>直到你的<nobr><b>开始阶段</b></nobr>，盟友角色造成的伤害+1。\\r\\n</style>"
+          }
+        },
+        {
+          "id": "Legacy-3 Hero Layout-Inactive Hero Location 1--escaped-newlines",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "原始日志为字面转义换行；保留编码，验证正文匹配及数字不变。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/16/UsePower-Legacy-LegacyCharacter/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Galvanize</style>\\r\\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\\r\\n</style>",
+            "expected": "<style=PowerTitle>振奋人心</style>\\r\\n<style=PowerHeading>异能: </style><style=PowerBody>直到你的<nobr><b>开始阶段</b></nobr>，盟友角色造成的伤害+1。\\r\\n</style>"
+          }
+        },
+        {
+          "id": "Legacy-5 Hero Layout-Inactive Hero Location 4--escaped-newlines",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "原始日志为字面转义换行；保留编码，验证正文匹配及数字不变。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/16/UsePower-Legacy-LegacyCharacter/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Galvanize</style>\\r\\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\\r\\n</style>",
+            "expected": "<style=PowerTitle>振奋人心</style>\\r\\n<style=PowerHeading>异能: </style><style=PowerBody>直到你的<nobr><b>开始阶段</b></nobr>，盟友角色造成的伤害+1。\\r\\n</style>"
+          }
+        },
+        {
+          "id": "Legacy-full-escaped-newlines",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "原始日志为字面转义换行；保留编码，验证正文匹配及数字不变。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView LegacyCharacter-0 FullCardFront/Power Container/16/UsePower-Legacy-LegacyCharacter/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Galvanize</style>\\r\\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\\r\\n</style>",
+            "expected": "<style=PowerTitle>振奋人心</style>\\r\\n<style=PowerHeading>异能: </style><style=PowerBody>直到你的<nobr><b>开始阶段</b></nobr>，盟友角色造成的伤害+1。\\r\\n</style>"
+          }
+        },
+        {
+          "id": "CaptainCosmic-active-escaped-newlines",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "原始日志为字面转义换行；保留编码，验证正文匹配及数字不变。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Power Container/16/UsePower-CaptainCosmic-CaptainCosmicCharacter/Label",
+            "objectName": "Label",
+            "cardId": "CaptainCosmicCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Fabrication</style>\\r\\n<style=PowerHeading>POWER: </style><style=PowerBody>Reveal the top card of your deck. Play it or draw it.\\r\\n</style>",
+            "expected": "<style=PowerTitle>能量塑形</style>\\r\\n<style=PowerHeading>异能: </style><style=PowerBody>展示你的牌库顶牌。打出或抽取该牌。\\r\\n</style>"
+          }
+        },
+        {
+          "id": "CaptainCosmic-3 Hero Layout-Inactive Hero Location 1--escaped-newlines",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "原始日志为字面转义换行；保留编码，验证正文匹配及数字不变。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Power Container/16/UsePower-CaptainCosmic-CaptainCosmicCharacter/Label",
+            "objectName": "Label",
+            "cardId": "CaptainCosmicCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Fabrication</style>\\r\\n<style=PowerHeading>POWER: </style><style=PowerBody>Reveal the top card of your deck. Play it or draw it.\\r\\n</style>",
+            "expected": "<style=PowerTitle>能量塑形</style>\\r\\n<style=PowerHeading>异能: </style><style=PowerBody>展示你的牌库顶牌。打出或抽取该牌。\\r\\n</style>"
+          }
+        },
+        {
+          "id": "CaptainCosmic-5 Hero Layout-Inactive Hero Location 4--escaped-newlines",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "原始日志为字面转义换行；保留编码，验证正文匹配及数字不变。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Power Container/16/UsePower-CaptainCosmic-CaptainCosmicCharacter/Label",
+            "objectName": "Label",
+            "cardId": "CaptainCosmicCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Fabrication</style>\\r\\n<style=PowerHeading>POWER: </style><style=PowerBody>Reveal the top card of your deck. Play it or draw it.\\r\\n</style>",
+            "expected": "<style=PowerTitle>能量塑形</style>\\r\\n<style=PowerHeading>异能: </style><style=PowerBody>展示你的牌库顶牌。打出或抽取该牌。\\r\\n</style>"
+          }
+        },
+        {
+          "id": "CaptainCosmic-full-escaped-newlines",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "原始日志为字面转义换行；保留编码，验证正文匹配及数字不变。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CaptainCosmicCharacter-0 FullCardFront/Power Container/16/UsePower-CaptainCosmic-CaptainCosmicCharacter/Label",
+            "objectName": "Label",
+            "cardId": "CaptainCosmicCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Fabrication</style>\\r\\n<style=PowerHeading>POWER: </style><style=PowerBody>Reveal the top card of your deck. Play it or draw it.\\r\\n</style>",
+            "expected": "<style=PowerTitle>能量塑形</style>\\r\\n<style=PowerHeading>异能: </style><style=PowerBody>展示你的牌库顶牌。打出或抽取该牌。\\r\\n</style>"
+          }
+        },
+        {
+          "id": "power-card-mismatch-escaped-newlines",
+          "status": "excluded",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "原始日志为字面转义换行；保留编码，验证正文匹配及数字不变。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView LegacyCharacter-0 FullCardFront/Power Container/16/UsePower-Legacy-LegacyCharacter/Label",
+            "objectName": "Label",
+            "cardId": "CaptainCosmicCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Galvanize</style>\\r\\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\\r\\n</style>",
+            "expected": null
+          }
+        },
+        {
+          "id": "power-wrong-path-escaped-newlines",
+          "status": "excluded",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "原始日志为字面转义换行；保留编码，验证正文匹配及数字不变。",
+          "case": {
+            "path": "Canvas/Unexpected/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Galvanize</style>\\r\\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\\r\\n</style>",
+            "expected": null
+          }
+        },
+        {
+          "id": "power-altered-rule-escaped-newlines",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "原始日志为字面转义换行；保留编码，验证正文匹配及数字不变。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView LegacyCharacter-0 FullCardFront/Power Container/16/UsePower-Legacy-LegacyCharacter/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>Galvanize</style>\\r\\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +3 damage dealt by ally characters.\\r\\n</style>",
+            "expected": "<style=PowerTitle>振奋人心</style>\\r\\n<style=PowerHeading>异能: </style><style=PowerBody>Until your <nobr><b>开始阶段</b></nobr>, +3 damage dealt by ally characters.\\r\\n</style>"
+          }
+        },
+        {
+          "id": "power-localized-idempotent-escaped-newlines",
+          "status": "excluded",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "原始日志为字面转义换行；保留编码，验证正文匹配及数字不变。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView LegacyCharacter-0 FullCardFront/Power Container/16/UsePower-Legacy-LegacyCharacter/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "source": "<style=PowerTitle>振奋人心</style>\\r\\n<style=PowerHeading>异能: </style><style=PowerBody>直到你的<nobr><b>开始阶段</b></nobr>，盟友角色造成的伤害+1。\\r\\n</style>",
+            "expected": null
+          }
+        },
+        {
+          "id": "primeval-setup",
+          "status": "offline-covered",
+          "view": "Setup Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Card/Setup Label",
+            "objectName": "Setup Label",
+            "cardId": "AkashBhutaCharacter",
+            "inCardView": true,
+            "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#000000> minus 1张原肢牌。",
+            "expected": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#000000>减1张原肢牌。"
+          }
+        },
+        {
+          "id": "effect-0",
+          "status": "offline-covered",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": true,
+            "source": "Legacy is <b>immune</b> to all damage",
+            "expected": "传承侠<b>无法受到</b>任何伤害"
+          }
+        },
+        {
+          "id": "effect-0-unbound",
+          "status": "excluded",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": false,
+            "source": "Legacy is <b>immune</b> to all damage",
+            "expected": null
+          }
+        },
+        {
+          "id": "effect-1",
+          "status": "offline-covered",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": true,
+            "source": "LEGACY IS IMMUNE TO ALL DAMAGE",
+            "expected": "传承侠无法受到任何伤害"
+          }
+        },
+        {
+          "id": "effect-1-unbound",
+          "status": "excluded",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": false,
+            "source": "LEGACY IS IMMUNE TO ALL DAMAGE",
+            "expected": null
+          }
+        },
+        {
+          "id": "effect-2",
+          "status": "offline-covered",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": true,
+            "source": "+2 damage dealt by Captain Cosmic",
+            "expected": "宇宙队长造成的伤害+2"
+          }
+        },
+        {
+          "id": "effect-2-unbound",
+          "status": "excluded",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": false,
+            "source": "+2 damage dealt by Captain Cosmic",
+            "expected": null
+          }
+        },
+        {
+          "id": "effect-3",
+          "status": "offline-covered",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": true,
+            "source": "+1 cold damage dealt by Absolute Zero",
+            "expected": "绝对零度造成的寒冷伤害+1"
+          }
+        },
+        {
+          "id": "effect-3-unbound",
+          "status": "excluded",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": false,
+            "source": "+1 cold damage dealt by Absolute Zero",
+            "expected": null
+          }
+        },
+        {
+          "id": "effect-4",
+          "status": "offline-covered",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": true,
+            "source": "−2 fire damage dealt to The Matriarch",
+            "expected": "鸦母受到的火焰伤害−2"
+          }
+        },
+        {
+          "id": "effect-4-unbound",
+          "status": "excluded",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": false,
+            "source": "−2 fire damage dealt to The Matriarch",
+            "expected": null
+          }
+        },
+        {
+          "id": "effect-5",
+          "status": "offline-covered",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": true,
+            "source": "+3 damage dealt by Unknown Name",
+            "expected": "Unknown Name造成的伤害+3"
+          }
+        },
+        {
+          "id": "effect-5-unbound",
+          "status": "excluded",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": false,
+            "source": "+3 damage dealt by Unknown Name",
+            "expected": null
+          }
+        },
+        {
+          "id": "effect-6",
+          "status": "excluded",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": true,
+            "source": "+2 unknown damage dealt by Legacy",
+            "expected": null
+          }
+        },
+        {
+          "id": "effect-7",
+          "status": "excluded",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": true,
+            "source": "+2 damage dealt by Legacy\nOther effect",
+            "expected": null
+          }
+        },
+        {
+          "id": "effect-8",
+          "status": "excluded",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": true,
+            "source": "Legacy is <b>immune to all damage",
+            "expected": null
+          }
+        },
+        {
+          "id": "effect-9",
+          "status": "excluded",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": true,
+            "source": "3",
+            "expected": null
+          }
+        },
+        {
+          "id": "effect-10",
+          "status": "excluded",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": true,
+            "source": "传承侠无法受到任何伤害",
+            "expected": null
+          }
+        },
+        {
+          "id": "ice-shield-immune-hint",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "依据截图、原生格式串和EffectView.TooltipLabel组件身份生成；仅离线验证，不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Ice Shield:</b> Click a target to make it immune to damage.",
+            "expected": "<b>坚冰护盾:</b> 点击一个目标，使其无法受到伤害。"
+          }
+        },
+        {
+          "id": "draw-implicit-single",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "HUD",
+          "reason": "第二份日志真实出现；隐含单数保留为一张，禁止补为数字1。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Ice Shield:</b> Click Absolute Zero's deck to draw a card.",
+            "expected": "<b>坚冰护盾:</b> 点击绝对零度的牌库，抽一张牌。"
+          }
+        },
+        {
+          "id": "act-first",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "HUD",
+          "reason": "补充截图及原始格式串核查；保持伤害方向与数字符号。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": false,
+            "source": "Click a card in play to act first.",
+            "expected": "点击一张在场的牌，让其先行动。"
+          }
+        },
+        {
+          "id": "cannot-deal",
+          "status": "offline-covered",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "补充截图及原始格式串核查；保持伤害方向与数字符号。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": true,
+            "source": "The Matriarch <b>cannot deal</b> any damage",
+            "expected": "鸦母<b>无法造成</b>任何伤害"
+          }
+        },
+        {
+          "id": "cannot-deal-plain",
+          "status": "offline-covered",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "补充截图及原始格式串核查；保持伤害方向与数字符号。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": true,
+            "source": "THE MATRIARCH CANNOT DEAL ANY DAMAGE",
+            "expected": "鸦母无法造成任何伤害"
+          }
+        },
+        {
+          "id": "huginn-minus",
+          "status": "offline-covered",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "semantic-component",
+          "reason": "补充截图及原始格式串核查；保持伤害方向与数字符号。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "",
+            "inCardView": false,
+            "effectTooltip": true,
+            "source": "-1 damage dealt to Huginn",
+            "expected": "胡金受到的伤害-1"
+          }
+        },
+        {
+          "id": "ability-1d68f5f7033fb4abbde18b98",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "observed-hierarchy",
+          "reason": "第三份日志实测到独立能力按钮；按组件、卡牌ID、能力枚举和完整标签匹配。",
+          "observedSamples": [
+            "1d68f5f7033fb4abbde18b98"
+          ],
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView AlacritousSubdominant-1 FullCardFront/Select Effect Container/156/UseAbility-Accompany-AlacritousSubdominant-1-\"\"You may use 1 Power. After you do so, put this card on the top of your deck.\"\"/Label",
+            "objectName": "Label",
+            "cardId": "AlacritousSubdominant",
+            "inCardView": true,
+            "source": "<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>ACCOMPANY</style></nobr>",
+            "cardButtonCandidate": true,
+            "expected": "<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>伴奏</style></nobr>"
+          }
+        },
+        {
+          "id": "ability-wrong-card",
+          "status": "excluded",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "negative",
+          "reason": "身份或标签不符时保持原文。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView AlacritousSubdominant-1 FullCardFront/Select Effect Container/156/UseAbility-Accompany-AlacritousSubdominant-1-\"\"You may use 1 Power. After you do so, put this card on the top of your deck.\"\"/Label",
+            "objectName": "Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "source": "<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>ACCOMPANY</style></nobr>",
+            "cardButtonCandidate": true,
+            "expected": null
+          }
+        },
+        {
+          "id": "ability-not-button",
+          "status": "excluded",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "negative",
+          "reason": "身份或标签不符时保持原文。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView AlacritousSubdominant-1 FullCardFront/Select Effect Container/156/UseAbility-Accompany-AlacritousSubdominant-1-\"\"You may use 1 Power. After you do so, put this card on the top of your deck.\"\"/Label",
+            "objectName": "Label",
+            "cardId": "AlacritousSubdominant",
+            "inCardView": true,
+            "source": "<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>ACCOMPANY</style></nobr>",
+            "cardButtonCandidate": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "ability-wrong-word",
+          "status": "excluded",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "negative",
+          "reason": "身份或标签不符时保持原文。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView AlacritousSubdominant-1 FullCardFront/Select Effect Container/156/UseAbility-Accompany-AlacritousSubdominant-1-\"\"You may use 1 Power. After you do so, put this card on the top of your deck.\"\"/Label",
+            "objectName": "Label",
+            "cardId": "AlacritousSubdominant",
+            "inCardView": true,
+            "source": "<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
+            "cardButtonCandidate": true,
+            "expected": null
+          }
+        },
+        {
+          "id": "ability-2e7039a14194aefae11948dc",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "observed-hierarchy",
+          "reason": "第三份日志实测到独立能力按钮；按组件、卡牌ID、能力枚举和完整标签匹配。",
+          "observedSamples": [
+            "2e7039a14194aefae11948dc"
+          ],
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView AlacritousSubdominant-1 SmallCardFront/Select Effect Container/156/UseAbility-Accompany-AlacritousSubdominant-1-\"\"You may use 1 Power. After you do so, put this card on the top of your deck.\"\"/Label",
+            "objectName": "Label",
+            "cardId": "AlacritousSubdominant",
+            "inCardView": true,
+            "source": "<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>ACCOMPANY</style></nobr>",
+            "cardButtonCandidate": true,
+            "expected": "<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>伴奏</style></nobr>"
+          }
+        },
+        {
+          "id": "ability-534bbc543a1ef70dbfe02965",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "observed-hierarchy",
+          "reason": "第三份日志实测到独立能力按钮；按组件、卡牌ID、能力枚举和完整标签匹配。",
+          "observedSamples": [
+            "534bbc543a1ef70dbfe02965"
+          ],
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView AlacritousSubdominant-1 FullCardFront/Select Effect Container/155/UseAbility-Perform-AlacritousSubdominant-1-\"\"1 Hero may play 1 card.\"\"/Label",
+            "objectName": "Label",
+            "cardId": "AlacritousSubdominant",
+            "inCardView": true,
+            "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
+            "cardButtonCandidate": true,
+            "expected": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>演奏</style></nobr>"
+          }
+        },
+        {
+          "id": "ability-548b5aebadddf71281802e8a",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "observed-hierarchy",
+          "reason": "第三份日志实测到独立能力按钮；按组件、卡牌ID、能力枚举和完整标签匹配。",
+          "observedSamples": [
+            "548b5aebadddf71281802e8a"
+          ],
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CounterpointBulwark-1 SmallCardFront/Select Effect Container/160/UseAbility-Accompany-CounterpointBulwark-1-\"\"Up to 3 Heroes may draw 1 card each.\"\"/Label",
+            "objectName": "Label",
+            "cardId": "CounterpointBulwark",
+            "inCardView": true,
+            "source": "<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>ACCOMPANY</style></nobr>",
+            "cardButtonCandidate": true,
+            "expected": "<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>伴奏</style></nobr>"
+          }
+        },
+        {
+          "id": "ability-5d515608b292c653ef43c730",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "observed-hierarchy",
+          "reason": "第三份日志实测到独立能力按钮；按组件、卡牌ID、能力枚举和完整标签匹配。",
+          "observedSamples": [
+            "5d515608b292c653ef43c730"
+          ],
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CounterpointBulwark-1 FullCardFront/Select Effect Container/160/UseAbility-Accompany-CounterpointBulwark-1-\"\"Up to 3 Heroes may draw 1 card each.\"\"/Label",
+            "objectName": "Label",
+            "cardId": "CounterpointBulwark",
+            "inCardView": true,
+            "source": "<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>ACCOMPANY</style></nobr>",
+            "cardButtonCandidate": true,
+            "expected": "<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>伴奏</style></nobr>"
+          }
+        },
+        {
+          "id": "ability-8b3290fdf8d6bd048eb386d4",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "observed-hierarchy",
+          "reason": "第三份日志实测到独立能力按钮；按组件、卡牌ID、能力枚举和完整标签匹配。",
+          "observedSamples": [
+            "8b3290fdf8d6bd048eb386d4"
+          ],
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView InventivePreparation-1 SmallCardFront/Select Effect Container/158/UseAbility-Accompany-InventivePreparation-1-\"\"Discover 1 Ongoing card.\"\"/Label",
+            "objectName": "Label",
+            "cardId": "InventivePreparation",
+            "inCardView": true,
+            "source": "<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>ACCOMPANY</style></nobr>",
+            "cardButtonCandidate": true,
+            "expected": "<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>伴奏</style></nobr>"
+          }
+        },
+        {
+          "id": "ability-a56b2e08990743cabe5455dd",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "observed-hierarchy",
+          "reason": "第三份日志实测到独立能力按钮；按组件、卡牌ID、能力枚举和完整标签匹配。",
+          "observedSamples": [
+            "a56b2e08990743cabe5455dd"
+          ],
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView InventivePreparation-1 SmallCardFront/Select Effect Container/165/UseAbility-Perform-InventivePreparation-1-\"\"Each Hero reveals the top card of their deck, then replaces it or discards it. Then, 1 Hero may draw 2 cards.\"\"/Label",
+            "objectName": "Label",
+            "cardId": "InventivePreparation",
+            "inCardView": true,
+            "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
+            "cardButtonCandidate": true,
+            "expected": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>演奏</style></nobr>"
+          }
+        },
+        {
+          "id": "ability-b399f801c3761d7cc45aff91",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "observed-hierarchy",
+          "reason": "第三份日志实测到独立能力按钮；按组件、卡牌ID、能力枚举和完整标签匹配。",
+          "observedSamples": [
+            "b399f801c3761d7cc45aff91"
+          ],
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView AlacritousSubdominant-1 SmallCardFront/Select Effect Container/159/UseAbility-Accompany-AlacritousSubdominant-1-\"\"You may use 1 Power. After you do so, put this card on the top of your deck.\"\"/Label",
+            "objectName": "Label",
+            "cardId": "AlacritousSubdominant",
+            "inCardView": true,
+            "source": "<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>ACCOMPANY</style></nobr>",
+            "cardButtonCandidate": true,
+            "expected": "<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>伴奏</style></nobr>"
+          }
+        },
+        {
+          "id": "ability-bb9f94c0b36f4f07fc70e603",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "observed-hierarchy",
+          "reason": "第三份日志实测到独立能力按钮；按组件、卡牌ID、能力枚举和完整标签匹配。",
+          "observedSamples": [
+            "bb9f94c0b36f4f07fc70e603"
+          ],
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CounterpointBulwark-1 SmallCardFront/Select Effect Container/166/UseAbility-Perform-CounterpointBulwark-1-\"\"Select up to 3 targets. Until your {Start}, −1 damage dealt to those targets.\"\"/Label",
+            "objectName": "Label",
+            "cardId": "CounterpointBulwark",
+            "inCardView": true,
+            "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
+            "cardButtonCandidate": true,
+            "expected": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>演奏</style></nobr>"
+          }
+        },
+        {
+          "id": "ability-cefb2fa51456056c287a17af",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "observed-hierarchy",
+          "reason": "第三份日志实测到独立能力按钮；按组件、卡牌ID、能力枚举和完整标签匹配。",
+          "observedSamples": [
+            "cefb2fa51456056c287a17af"
+          ],
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView AlacritousSubdominant-1 SmallCardFront/Select Effect Container/155/UseAbility-Perform-AlacritousSubdominant-1-\"\"1 Hero may play 1 card.\"\"/Label",
+            "objectName": "Label",
+            "cardId": "AlacritousSubdominant",
+            "inCardView": true,
+            "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
+            "cardButtonCandidate": true,
+            "expected": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>演奏</style></nobr>"
+          }
+        },
+        {
+          "id": "ability-d4ddf9b253a2c3b287620b8a",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "observed-hierarchy",
+          "reason": "第三份日志实测到独立能力按钮；按组件、卡牌ID、能力枚举和完整标签匹配。",
+          "observedSamples": [
+            "d4ddf9b253a2c3b287620b8a"
+          ],
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView InventivePreparation-1 SmallCardFront/Select Effect Container/157/UseAbility-Perform-InventivePreparation-1-\"\"Each Hero reveals the top card of their deck, then replaces it or discards it. Then, 1 Hero may draw 2 cards.\"\"/Label",
+            "objectName": "Label",
+            "cardId": "InventivePreparation",
+            "inCardView": true,
+            "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
+            "cardButtonCandidate": true,
+            "expected": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>演奏</style></nobr>"
+          }
+        },
+        {
+          "id": "ability-f0c0cdc5c6d7fc5da60b1552",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "observed-hierarchy",
+          "reason": "第三份日志实测到独立能力按钮；按组件、卡牌ID、能力枚举和完整标签匹配。",
+          "observedSamples": [
+            "f0c0cdc5c6d7fc5da60b1552"
+          ],
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView AlacritousSubdominant-1 SmallCardFront/Select Effect Container/164/UseAbility-Perform-AlacritousSubdominant-1-\"\"1 Hero may play 1 card.\"\"/Label",
+            "objectName": "Label",
+            "cardId": "AlacritousSubdominant",
+            "inCardView": true,
+            "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
+            "cardButtonCandidate": true,
+            "expected": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>演奏</style></nobr>"
+          }
         }
       ]
     }

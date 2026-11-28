@@ -6,6 +6,7 @@ using SotM2Chinese;
 if(args.Length!=5)throw new ArgumentException("catalog probe snapshot contracts output");
 var catalog=Catalog.Read(args[0]);
 var probe=SurfaceProbeRules.Read(args[1]);
+var completion=new RenderedDisplayRules(catalog,probe.DeckNames);
 using var snapshot=JsonDocument.Parse(File.ReadAllText(args[2]));
 using var contracts=JsonDocument.Parse(File.ReadAllText(args[3]));
 var conditionalCatalogs=new Dictionary<string,DisplayRules>(StringComparer.Ordinal);
@@ -16,12 +17,17 @@ string Str(JsonElement x,string k)=>x.GetProperty(k).GetString()!;
 string? Dynamic(JsonElement x,string source)=>x.GetProperty("inCardView").GetBoolean()
  ? probe.ApplyCardTitle(Str(x,"objectName"),source,x.TryGetProperty("deckNameTitle",out var nt) && nt.GetBoolean()) ?? probe.Dynamic!.ApplyCardButton(Str(x,"path"),Str(x,"cardId"),source)
  : probe.Apply(Str(x,"path"),source);
-string? Match(JsonElement x,string source)=>x.TryGetProperty("catalogId",out var cid)
+string? BaseMatch(JsonElement x,string source)=>x.TryGetProperty("catalogId",out var cid)
  ? conditionalCatalogs[cid.GetString()!].Apply(Str(x,"objectName"),Str(x,"cardId"),source)
  : (x.GetProperty("inCardView").GetBoolean()
     ? probe.ApplyCardTitle(Str(x,"objectName"),source,x.TryGetProperty("deckNameTitle",out var nt) && nt.GetBoolean())
     : probe.ApplyDeckName(Str(x,"path"),source))
    ?? catalog.UiText(Str(x,"objectName"),source) ?? catalog.DisplayRules.Apply(Str(x,"objectName"),Str(x,"cardId"),source) ?? Dynamic(x,source);
+string? Match(JsonElement x,string source){
+ var previous=BaseMatch(x,source);
+ if(x.TryGetProperty("catalogId",out _))return previous;
+ return completion.Apply(Str(x,"path"),Str(x,"objectName"),Str(x,"cardId"),x.GetProperty("inCardView").GetBoolean(),x.TryGetProperty("cardButtonCandidate",out var b) && b.GetBoolean(),source,previous,x.TryGetProperty("effectTooltip",out var et) && et.GetBoolean())??previous;
+}
 var contexts=contracts.RootElement.GetProperty("families").EnumerateArray()
  .SelectMany(f=>f.GetProperty("contexts").EnumerateArray())
  .Where(c=>c.TryGetProperty("case",out _)).Select(c=>c.GetProperty("case")).ToArray();
@@ -38,8 +44,9 @@ foreach(var c in contexts){
 var provenOutputs=new HashSet<(string Path,string Card,string Name,bool InCard,string Text)>();
 foreach(var x in snapshot.RootElement.GetProperty("samples").EnumerateArray()){
  if(x.GetProperty("truncated").GetBoolean() || (Str(x,"inputSource")!="TextString" && Str(x,"inputSource")!="TextInputBox"))continue;
- var output=Match(x,Str(x,"source"));
- if(output!=null && output!=Str(x,"source"))provenOutputs.Add((Str(x,"path"),Str(x,"cardId"),Str(x,"objectName"),x.GetProperty("inCardView").GetBoolean(),output));
+ // Preserve proof of pre-completion output in historical sessions; origin is not full localization.
+ foreach(var output in new[]{Match(x,Str(x,"source")),BaseMatch(x,Str(x,"source"))})
+  if(output!=null && output!=Str(x,"source"))provenOutputs.Add((Str(x,"path"),Str(x,"cardId"),Str(x,"objectName"),x.GetProperty("inCardView").GetBoolean(),output));
 }
 object Classify(JsonElement x){
  string source=Str(x,"source"),reason="unresolved-full-string";string? target=null;

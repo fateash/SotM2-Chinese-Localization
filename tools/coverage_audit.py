@@ -24,6 +24,8 @@ def digest(value):
 
 def identity(row):
     fields = [row[k] for k in ('buildId', 'path', 'cardId', 'source', 'inputSource')]
+    if row.get('effectTooltip'):
+        fields.append('bound-effect-tooltip')
     if row.get('deckNameTitle'):
         fields.append('bound-card-title')
     return digest(json.dumps(fields,
@@ -85,6 +87,14 @@ def intake(paths, existing=None):
             raw = json.loads(line.split('SURFACE_PROBE ', 1)[1])
             fields = ('objectName', 'path', 'cardId', 'source', 'inCardView', 'inputSource', 'truncated', 'markerCandidate')
             row = {k: raw[k] for k in fields}
+            if 'effectTooltip' in raw:
+                if type(raw['effectTooltip']) is not bool:
+                    raise ValueError('Invalid effect tooltip identity')
+                row['effectTooltip'] = raw['effectTooltip']
+            if 'cardButtonCandidate' in raw:
+                if type(raw['cardButtonCandidate']) is not bool or (raw['cardButtonCandidate'] and not raw['inCardView']):
+                    raise ValueError('Invalid card button identity')
+                row['cardButtonCandidate'] = raw['cardButtonCandidate']
             if 'deckNameTitle' in raw:
                 if type(raw['deckNameTitle']) is not bool or (raw['deckNameTitle'] and (not raw['inCardView'] or raw['objectName'] != 'Title Label')):
                     raise ValueError('Invalid bound card title identity')
@@ -162,7 +172,7 @@ def validate_nonhero_matrix(matrix, contracts, root=ROOT):
 
 def validate_contracts(contract, templates, root=ROOT):
     required_files = {'runtime/DynamicDisplayRules.cs', 'runtime/SurfaceProbeRules.cs',
-                      'runtime/SurfaceProbe.cs', 'runtime/Plugin.cs', 'runtime/DisplayRules.cs',
+                      'runtime/SurfaceProbe.cs', 'runtime/Plugin.cs', 'runtime/DisplayRules.cs', 'runtime/RenderedDisplayRules.cs',
                       'probe/dynamic-pilot.json'}
     if set(contract['reviewedFiles']) != required_files:
         raise ValueError('Coverage review must include every runtime routing file')
