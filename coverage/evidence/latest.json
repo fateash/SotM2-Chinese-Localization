@@ -44143,6 +44143,383 @@
       "observations": 382,
       "captureLimitReached": false,
       "exhaustive": false
+    },
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-174300-4dc410.zip",
+      "sha256": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+      "issues": [],
+      "version": "0.1.33-rc.1",
+      "buildId": "26880829",
+      "installed": {
+        "sample-texts.json": "bc09ac44a13a9f1dafc9d5ded5a41fa1df57853561520c108749ad0545f01b7d",
+        "NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+        "SotM2ChinesePrototype.dll": "c140a2d7d6ca7a1b201511df9c2edb1f42bf12b5395c7a3a803c0c9c0b79bb28",
+        "surface-probe.json": "fc1f57f032e816be27b6948e07c4fc5b5027277a6ef83d2deee68672fe5f0fc7",
+        "OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+      },
+      "manifestSourceCommit": "263b17c2b9cf1e9bf95346beaee0b49c6ab9ae32",
+      "runtimeWarnings": [],
+      "applicationSignals": [
+        {
+          "objectName": "Text",
+          "source": "Options"
+        },
+        {
+          "objectName": "Text",
+          "source": "New Game"
+        },
+        {
+          "objectName": "Text",
+          "source": "Online\nMultiplayer"
+        },
+        {
+          "objectName": "Text",
+          "source": "Send Early \nAccess Feedback"
+        },
+        {
+          "objectName": "Text",
+          "source": "Credits"
+        },
+        {
+          "objectName": "Text",
+          "source": "Quick Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "How to Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "Achievements"
+        },
+        {
+          "objectName": "Text",
+          "source": "Early Access Info"
+        },
+        {
+          "objectName": "Text",
+          "source": "Help & Feedback"
+        },
+        {
+          "objectName": "Text",
+          "source": "Card Library"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Advanced"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Unlimited Undo"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Environment"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Back\n"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Randomize"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Play!"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Villain"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Heroes"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Insula Primalis"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Freedom Tower"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Magmaria"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Megalopolis"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "The Ruins of Atlantis"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Wagner Mars Base"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Akash'Bhuta"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Baron Blade"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Citizen Dawn"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Grand Warlord Voss"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "The Matriarch"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Omnitron"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "FIRST AMONG CITIZENS OF THE SUN"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若反派弃牌堆中至少有<sprite name=\"H\" color=#000000>张光民牌：<sprite name=\"Flip\" color=#FFFFFF>\r\n每局游戏，Citizen Dawn仅以此法翻面一次。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nCitizen Dawn对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000> minus 2点能量伤害。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "villain, citizen"
+        },
+        {
+          "objectName": "Setup Label",
+          "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张光民牌。"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Absolute Zero"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "The Argent Adept"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Bunker"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Captain Cosmic"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Fanatic"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Haka"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Legacy"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Ra"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Tachyon"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Tempest"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Unity"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "The Wraith"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "hero"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>直到你的<nobr><b>START PHASE</b></nobr>，盟友角色造成的伤害+1。\r\n</style>"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerTitle>Thermodynamics</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Absolute Zero对自己造成1点寒冷伤害或1点火焰伤害。\r\n</style>"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerTitle>Testing</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>展示你的牌库顶牌。抽取或弃置该牌。\r\n</style>"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerTitle>Fabrication</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>展示你的牌库顶牌。打出或抽取该牌。\r\n</style>"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerTitle>Stealth</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>直到你的<nobr><b>START PHASE</b></nobr>，The Wraith受到的<nobr>伤害−1</nobr>。\r\n</style>"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "APOTHEOSIS OF THE SUN'S POWER"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "Citizen Dawn免疫伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若场上至少有<sprite name=\"H\" color=#000000>张光民牌：<sprite name=\"Flip\" color=#FFFFFF>\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n发现1张光民牌。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "CHAOS-BOUND CREATOR"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "环境弃牌堆洗入环境牌库时，Akash'Bhuta恢复<sprite name=\"H\" color=#000000>点生命值。然后：<sprite name=\"Flip\" color=#FFFFFF>\r\n任意非英雄目标打出后，弃置环境牌库顶的一张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n发现1张原肢牌。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "villain"
+        },
+        {
+          "objectName": "Setup Label",
+          "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张原肢牌。"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "AVATAR OF DESTRUCTION"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "环境弃牌堆洗入环境牌库时，Akash'Bhuta恢复<sprite name=\"H\" color=#000000>点生命值。然后：<sprite name=\"Flip\" color=#FFFFFF>\r\n任意非英雄目标被破坏后，弃置环境牌库顶的一张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nAkash'Bhuta对每个非反派目标造成2点火焰伤害。\r\n"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerTitle>Bot Hack</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>破坏1张物品牌。若如此做，打出或发现1张机偶牌。\r\n</style>"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "SETUP"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Menu"
+        },
+        {
+          "objectName": "Turn Taker Label",
+          "source": "Akash'Bhuta"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "HEROIC INTERCEPTION"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Don’t forget to calculate wind-speed and make\r\nsure you’re approaching the projectile at the optimal\r\nangle to prevent-- oh. He got it. OK.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Tachyon, Freedom Five Annual #12"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "此牌打出后，Legacy对自己造成3点固定近战伤害。\r\n你的盟友免疫伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "KEEN VISION"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“The truest sight is not of what’s coming up over\r\nthe horizon, but what’s deep inside a person.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Absolute Zero, Freedom Five #443"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>展示1个牌库的顶牌，然后将其放回原处。若该牌库属于盟友，该盟友可以抽1张牌或使用1个异能。\r\n</style>"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "THOKK!"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“It’s like looking into a mirror...\r\nbut you’re a <b>poor</b> reflection of the real thing!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Legacy, America’s Finest Legacy #224"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "Legacy对1个目标造成5点近战伤害。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "one-shot"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "INTERPOSING STALAGMITES"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Like rain on the mountain or wind through a\r\nforest, you are barely noticed. Cease your\r\nstruggles. Leave this world.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Akash'Bhuta, Prime Wardens Vol. 1 #2"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "Akash'Bhuta受到的伤害−1。\r\n此牌被破坏时，Akash'Bhuta对自身造成12点固定能量伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n此牌对生命值最低的非反派目标造成2点近战伤害。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "primeval limb"
+        },
+        {
+          "objectName": "Description Label",
+          "source": "Akash'Bhuta discovered:"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "ENSNARING BRAMBLES"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Rah! This is no longer fun!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Haka, Prime Wardens Vol. 1 #2"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "此牌被破坏时，Akash'Bhuta对自身造成8点固定能量伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n选择生命值最低的英雄目标。直到反派<nobr><b>START PHASE</b></nobr>，该目标造成的伤害−2。\r\n"
+        }
+      ],
+      "observations": 97,
+      "captureLimitReached": false,
+      "exhaustive": false
     }
   ],
   "samples": [
@@ -44183,6 +44560,12 @@
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 216,
           "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 226,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -45122,6 +45505,29 @@
     },
     {
       "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView AkashBhutaCharacter-0 FullCardBack/Body Box/Body Label",
+      "cardId": "AkashBhutaCharacter",
+      "source": "环境弃牌堆洗入环境牌库时，阿卡什怖妲恢复<sprite name=\"H\" color=#000000>点生命值。然后：<sprite name=\"Flip\" color=#FFFFFF>\r\n任意非英雄目标被破坏后，弃置环境牌库顶的一张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n阿卡什怖妲对每个非反派目标造成2点火焰伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "01975ead79fd19c06c4a6e00",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 234,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
       "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Hand/Card Container/CardView ConsumingFlame-2 FullCardFront/Body Box/Body Label",
       "cardId": "ConsumingFlame",
       "source": "拉神对至多3个目标各造成2点火焰伤害。每以此法破坏一个目标，抽1张牌。\r\n",
@@ -45276,6 +45682,29 @@
           "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
           "line": 133,
           "version": "0.1.17-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView UnityCharacter-0 FullCardFront/Body Box/Body Label",
+      "cardId": "UnityCharacter",
+      "source": "<style=PowerTitle>Bot Hack</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>破坏1张物品牌。若如此做，打出或发现1张机偶牌。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "02015fbf21e4badbb1dba710",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 240,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -46193,6 +46622,12 @@
           "line": 1063,
           "version": "0.1.27-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 131,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -46481,6 +46916,29 @@
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 581,
           "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Temporary Full Card Panel/CardView EnsnaringBrambles-2 FullCardFront (Temporary)/Body Box/Body Label",
+      "cardId": "EnsnaringBrambles",
+      "source": "此牌被破坏时，阿卡什怖妲对自身造成8点固定能量伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n选择生命值最低的英雄目标。直到反派<nobr><b>开始阶段</b></nobr>，该目标造成的伤害−2。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "04d09b32802fc966569ed967",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 313,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -46954,6 +47412,12 @@
           "line": 57,
           "version": "0.1.32-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 248,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -47350,6 +47814,29 @@
           "session": "c53fec320fd6359886486e837dbb90aefcea904781c1a00eeae064871b0c98d4",
           "line": 1135,
           "version": "0.1.20-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Heroes/Selected Area/Fade Panel/Selected Item(s)/AbsoluteZero/AbsoluteZeroCharacter/Body Box/Body Label",
+      "cardId": "AbsoluteZeroCharacter",
+      "source": "<style=PowerTitle>Thermodynamics</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Absolute Zero对自己造成1点寒冷伤害或1点火焰伤害。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "063334503be9543821ce3649",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 174,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -47937,6 +48424,12 @@
           "session": "0b8d45af4c63df9d91ddb66dc2b394f2f6ed36901d3ebcd4da547af825686b63",
           "line": 47,
           "version": "0.1.32-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 45,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ],
@@ -48731,6 +49224,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1033,
           "version": "0.1.27-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 52,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ],
@@ -50193,6 +50692,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1038,
           "version": "0.1.27-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 64,
+          "version": "0.1.33-rc.1",
           "markerCandidate": true
         }
       ],
@@ -52050,6 +52555,12 @@
           "line": 1049,
           "version": "0.1.27-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 107,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -53878,6 +54389,12 @@
           "line": 1037,
           "version": "0.1.27-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 61,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -53993,6 +54510,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1065,
           "version": "0.1.27-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 137,
+          "version": "0.1.33-rc.1",
           "markerCandidate": true
         }
       ],
@@ -54845,6 +55368,29 @@
           "session": "0c1112a9d7977e2498fb56a357c095ad7d478c572a25a1cfe065553bd1c6da0b",
           "line": 1003,
           "version": "0.1.31-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Selected Item(s)/CitizenDawn/CitizenDawnCharacter/Body Box/Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "source": "<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n若反派弃牌堆中至少有<sprite name=\"H\" color=#000000>张光民牌：<sprite name=\"Flip\" color=#FFFFFF>\r\n每局游戏，黎明公民仅以此法翻面一次。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n黎明公民对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>减2点能量伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "1562d9b24cca455715df89cd",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 126,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -56690,6 +57236,12 @@
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 295,
           "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 192,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -59988,6 +60540,12 @@
           "line": 40,
           "version": "0.1.32-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 40,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -60278,6 +60836,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1070,
           "version": "0.1.27-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 152,
+          "version": "0.1.33-rc.1",
           "markerCandidate": true
         }
       ],
@@ -60665,6 +61229,29 @@
           "session": "ad1df5ed30ba9e9287bc9d6234debbca40c03c07536b91850d37cd67b61fe0f3",
           "line": 775,
           "version": "0.1.30-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Selected Item(s)/AkashBhuta/AkashBhutaCharacter/Body Box/Body Label",
+      "cardId": "AkashBhutaCharacter",
+      "source": "环境弃牌堆洗入环境牌库时，Akash'Bhuta恢复<sprite name=\"H\" color=#000000>点生命值。然后：<sprite name=\"Flip\" color=#FFFFFF>\r\n任意非英雄目标打出后，弃置环境牌库顶的一张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n发现1张原肢牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "20c2005f0a17e165bba3b152",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 218,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -61763,6 +62350,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1069,
           "version": "0.1.27-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 149,
+          "version": "0.1.33-rc.1",
           "markerCandidate": true
         }
       ],
@@ -64140,6 +64733,12 @@
           "line": 1067,
           "version": "0.1.27-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 143,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -65280,6 +65879,12 @@
           "line": 1046,
           "version": "0.1.27-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 98,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -66010,6 +66615,12 @@
           "line": 200,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 197,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -66689,6 +67300,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1048,
           "version": "0.1.27-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 104,
+          "version": "0.1.33-rc.1",
           "markerCandidate": true
         }
       ],
@@ -71489,6 +72106,29 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Selected Item(s)/AkashBhuta/AkashBhutaCharacter/Body Box/Body Label",
+      "cardId": "AkashBhutaCharacter",
+      "source": "环境弃牌堆洗入环境牌库时，阿卡什怖妲恢复<sprite name=\"H\" color=#000000>点生命值。然后：<sprite name=\"Flip\" color=#FFFFFF>\r\n任意非英雄目标打出后，弃置环境牌库顶的一张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n发现1张原肢牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "381a7f344e5690c0bd988a60",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 223,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Advanced Heading Label",
       "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Selected Item(s)/Omnitron/OmnitronCharacter/Advanced Box/Expander/Heading Box/Advanced Heading Label",
       "cardId": "OmnitronCharacter",
@@ -72641,6 +73281,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1060,
           "version": "0.1.27-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 91,
+          "version": "0.1.33-rc.1",
           "markerCandidate": true
         }
       ],
@@ -74790,6 +75436,29 @@
       "cardButtonCandidate": true
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Selected Item(s)/CitizenDawn/CitizenDawnCharacter/Body Box/Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "source": "<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若反派弃牌堆中至少有<sprite name=\"H\" color=#000000>张光民牌：<sprite name=\"Flip\" color=#FFFFFF>\r\n每局游戏，Citizen Dawn仅以此法翻面一次。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nCitizen Dawn对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000> minus 2点能量伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "3fee25d8ef203e6a7b4ace42",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 121,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Next To Location View/Card Container/CardView CosmicWeapon-1 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
       "cardId": "CosmicWeapon",
@@ -76801,6 +77470,12 @@
           "line": 214,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 225,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -77344,6 +78019,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1071,
           "version": "0.1.27-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 155,
+          "version": "0.1.33-rc.1",
           "markerCandidate": true
         }
       ],
@@ -78618,6 +79299,29 @@
           "line": 871,
           "version": "0.1.20-rc.1",
           "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Description Label",
+      "path": "Canvas/Temporary Full Card Panel/Description Label",
+      "cardId": "",
+      "source": "Akash'Bhuta discovered:",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "4739e62d644fc1d4c9c485ef",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 298,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -81828,6 +82532,52 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Heroes/Selected Area/Fade Panel/Selected Item(s)/CaptainCosmic/CaptainCosmicCharacter/Body Box/Body Label",
+      "cardId": "CaptainCosmicCharacter",
+      "source": "<style=PowerTitle>Fabrication</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>展示你的牌库顶牌。打出或抽取该牌。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "4e50bd285f74f4bedd549409",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 186,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Heroes/Selected Area/Fade Panel/Selected Item(s)/Tachyon/TachyonCharacter/Body Box/Body Label",
+      "cardId": "TachyonCharacter",
+      "source": "<style=PowerTitle>实验验证</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>展示你的牌库顶牌。抽取或弃置该牌。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "4e52bc6c609e5dcfd8be8814",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 182,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView RhapsodyOfVigor-0 SmallCardFront/Select Effect Container/764/UseAbility-Perform-RhapsodyOfVigor-0-\"\"Up to 5 targets regain 2 HP each.\"\"/Label",
       "cardId": "RhapsodyOfVigor",
@@ -83581,6 +84331,29 @@
           "session": "0b8d45af4c63df9d91ddb66dc2b394f2f6ed36901d3ebcd4da547af825686b63",
           "line": 638,
           "version": "0.1.32-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Temporary Full Card Panel/CardView InterposingStalagmites-1 FullCardFront (Temporary)/Body Box/Body Label",
+      "cardId": "InterposingStalagmites",
+      "source": "Akash'Bhuta受到的伤害−1。\r\n此牌被破坏时，Akash'Bhuta对自身造成12点固定能量伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n此牌对生命值最低的非反派目标造成2点近战伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "50df5e8bac1b5f24c98eb652",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 295,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -85967,6 +86740,12 @@
           "line": 211,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 224,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -87057,6 +87836,12 @@
           "session": "c53fec320fd6359886486e837dbb90aefcea904781c1a00eeae064871b0c98d4",
           "line": 572,
           "version": "0.1.20-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 284,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -89749,6 +90534,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1062,
           "version": "0.1.27-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 128,
+          "version": "0.1.33-rc.1",
           "markerCandidate": true
         }
       ],
@@ -92717,6 +93508,12 @@
           "line": 1055,
           "version": "0.1.27-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 75,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -92758,6 +93555,12 @@
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 237,
           "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 205,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -95953,6 +96756,29 @@
           "line": 643,
           "version": "0.1.25-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView TachyonCharacter-0 FullCardFront/Body Box/Body Label",
+      "cardId": "TachyonCharacter",
+      "source": "<style=PowerTitle>实验验证</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>展示你的牌库顶牌。抽取或弃置该牌。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "655e0deb8e7157a95a1fccf1",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 236,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -99462,6 +100288,12 @@
           "line": 34,
           "version": "0.1.32-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 34,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -99929,6 +100761,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1075,
           "version": "0.1.27-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 170,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -101601,6 +102439,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1039,
           "version": "0.1.27-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 67,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ],
@@ -105048,6 +105892,12 @@
           "line": 1057,
           "version": "0.1.27-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 82,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -106217,6 +107067,12 @@
           "line": 1034,
           "version": "0.1.27-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 54,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -106566,6 +107422,12 @@
           "session": "0b8d45af4c63df9d91ddb66dc2b394f2f6ed36901d3ebcd4da547af825686b63",
           "line": 51,
           "version": "0.1.32-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 49,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ],
@@ -106973,6 +107835,12 @@
           "session": "0b8d45af4c63df9d91ddb66dc2b394f2f6ed36901d3ebcd4da547af825686b63",
           "line": 49,
           "version": "0.1.32-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 47,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ],
@@ -107976,6 +108844,12 @@
           "line": 1044,
           "version": "0.1.27-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 94,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -108921,6 +109795,12 @@
           "line": 43,
           "version": "0.1.32-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 43,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -109381,6 +110261,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1082,
           "version": "0.1.27-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 180,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -111052,6 +111938,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1058,
           "version": "0.1.27-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 85,
+          "version": "0.1.33-rc.1",
           "markerCandidate": true
         }
       ],
@@ -116001,6 +116893,12 @@
           "line": 1073,
           "version": "0.1.27-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 161,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -117236,6 +118134,29 @@
       ]
     },
     {
+      "objectName": "Turn Taker Label",
+      "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+      "cardId": "",
+      "source": "Akash'Bhuta",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "919ee9ca5233a51a7a12264d",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 250,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
       "objectName": "Body Label",
       "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Hand/Card Container/CardView NimbleStrike-2 FullCardFront/Body Box/Body Label",
       "cardId": "NimbleStrike",
@@ -117627,6 +118548,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1042,
           "version": "0.1.27-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 72,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ],
@@ -119752,6 +120679,12 @@
           "line": 239,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 207,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -120908,6 +121841,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1056,
           "version": "0.1.27-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 79,
+          "version": "0.1.33-rc.1",
           "markerCandidate": true
         }
       ],
@@ -122251,6 +123190,12 @@
           "line": 501,
           "version": "0.1.32-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 264,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -122810,6 +123755,29 @@
           "session": "0b8d45af4c63df9d91ddb66dc2b394f2f6ed36901d3ebcd4da547af825686b63",
           "line": 241,
           "version": "0.1.32-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CaptainCosmicCharacter-0 FullCardFront/Body Box/Body Label",
+      "cardId": "CaptainCosmicCharacter",
+      "source": "<style=PowerTitle>Fabrication</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>展示你的牌库顶牌。打出或抽取该牌。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "9dd69bdce42b1057a17a0134",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 243,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -125015,6 +125983,29 @@
     },
     {
       "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CaptainCosmicCharacter-0 FullCardFront/Body Box/Body Label",
+      "cardId": "CaptainCosmicCharacter",
+      "source": "<style=PowerTitle>能量塑形</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>展示你的牌库顶牌。打出或抽取该牌。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "a27e8a0ad08ac2aa0e4aad97",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 244,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
       "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Body Box/Body Label",
       "cardId": "CitizenDawnCharacter",
       "source": "<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若反派弃牌堆中至少有<sprite name=\"H\" color=#000000>张光民牌：<sprite name=\"Flip\" color=#FFFFFF>\r\n每局游戏，Citizen Dawn仅以此法翻面一次。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nCitizen Dawn对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000> minus 2点能量伤害。\r\n",
@@ -125050,6 +126041,12 @@
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 195,
           "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 195,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -126302,6 +127299,12 @@
           "line": 1059,
           "version": "0.1.27-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 88,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -126578,6 +127581,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1050,
           "version": "0.1.27-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 110,
+          "version": "0.1.33-rc.1",
           "markerCandidate": true
         }
       ],
@@ -127050,6 +128059,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1061,
           "version": "0.1.27-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 127,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ],
@@ -128406,6 +129421,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1074,
           "version": "0.1.27-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 168,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -131477,6 +132498,12 @@
           "line": 1054,
           "version": "0.1.27-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 74,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -132226,6 +133253,29 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Heroes/Selected Area/Fade Panel/Selected Item(s)/AbsoluteZero/AbsoluteZeroCharacter/Body Box/Body Label",
+      "cardId": "AbsoluteZeroCharacter",
+      "source": "<style=PowerTitle>热力操控</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>绝对零度对自己造成1点寒冷伤害或1点火焰伤害。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "afda0ca52a37139fa7bb1e86",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 176,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/93/UsePower-Legacy-LegacyCharacter/Label",
       "cardId": "LegacyCharacter",
@@ -132449,6 +133499,29 @@
           "session": "8378f1841c95d70d016183c989bcb04733894c2601400fac81b60cc5da2dbdd7",
           "line": 1015,
           "version": "0.1.32-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Setup Label",
+      "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Selected Item(s)/AkashBhuta/AkashBhutaCharacter/Setup Label",
+      "cardId": "AkashBhutaCharacter",
+      "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张原肢牌。",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "b04e3995724e0b088d4cb53e",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 221,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -132780,6 +133853,29 @@
           "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
           "line": 452,
           "version": "0.1.15-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Description Label",
+      "path": "Canvas/Temporary Full Card Panel/Description Label",
+      "cardId": "",
+      "source": "阿卡什怖妲发现的牌：",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "b13a299b9315c809ea727d31",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 300,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -133892,6 +134988,12 @@
           "session": "0b8d45af4c63df9d91ddb66dc2b394f2f6ed36901d3ebcd4da547af825686b63",
           "line": 36,
           "version": "0.1.32-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 36,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ],
@@ -135622,6 +136724,12 @@
           "line": 1041,
           "version": "0.1.27-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 71,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -135645,6 +136753,29 @@
           "session": "c53fec320fd6359886486e837dbb90aefcea904781c1a00eeae064871b0c98d4",
           "line": 845,
           "version": "0.1.20-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Setup Label",
+      "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Selected Item(s)/CitizenDawn/CitizenDawnCharacter/Setup Label",
+      "cardId": "CitizenDawnCharacter",
+      "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张光民牌。",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "b5c8c1c44659b394dd93b4b9",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 124,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -137464,6 +138595,12 @@
           "line": 1047,
           "version": "0.1.27-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 101,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -137708,6 +138845,29 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 939,
           "version": "0.1.27-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView UnityCharacter-0 FullCardFront/Body Box/Body Label",
+      "cardId": "UnityCharacter",
+      "source": "<style=PowerTitle>拆解造偶</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>破坏1张物品牌。若如此做，打出或发现1张机偶牌。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "bad0ef2a7cf0c8119d95aa49",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 242,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -139295,6 +140455,12 @@
           "line": 32,
           "version": "0.1.32-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 32,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -140067,6 +141233,12 @@
           "session": "0b8d45af4c63df9d91ddb66dc2b394f2f6ed36901d3ebcd4da547af825686b63",
           "line": 30,
           "version": "0.1.32-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 30,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ],
@@ -141325,6 +142497,29 @@
           "session": "c53fec320fd6359886486e837dbb90aefcea904781c1a00eeae064871b0c98d4",
           "line": 83,
           "version": "0.1.20-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView AkashBhutaCharacter-0 FullCardBack/Body Box/Body Label",
+      "cardId": "AkashBhutaCharacter",
+      "source": "环境弃牌堆洗入环境牌库时，Akash'Bhuta恢复<sprite name=\"H\" color=#000000>点生命值。然后：<sprite name=\"Flip\" color=#FFFFFF>\r\n任意非英雄目标被破坏后，弃置环境牌库顶的一张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nAkash'Bhuta对每个非反派目标造成2点火焰伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "c06e289b8e08dec2f55020a6",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 232,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -146053,6 +147248,29 @@
       ]
     },
     {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Character Card Container/AkashBhutaCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "AkashBhutaCharacter",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "c9c9b29031206ee2e660cc0e",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 302,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Body Label",
       "path": "Canvas/Temporary Full Card Panel/CardView FieldMarshalTamar-0 FullCardFront (Temporary)/Body Box/Body Label",
       "cardId": "FieldMarshalTamar",
@@ -146692,6 +147910,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1045,
           "version": "0.1.27-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 95,
+          "version": "0.1.33-rc.1",
           "markerCandidate": true
         }
       ],
@@ -147478,6 +148702,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1085,
           "version": "0.1.27-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 253,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ],
@@ -150944,6 +152174,12 @@
           "line": 1064,
           "version": "0.1.27-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 134,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -151185,6 +152421,35 @@
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 198,
           "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 196,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Heroes/Selected Area/Fade Panel/Selected Item(s)/CaptainCosmic/CaptainCosmicCharacter/Body Box/Body Label",
+      "cardId": "CaptainCosmicCharacter",
+      "source": "<style=PowerTitle>能量塑形</style>\r\n<style=PowerHeading>异能: </style><style=PowerBody>展示你的牌库顶牌。打出或抽取该牌。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "d3c914e1323278d7b4ab6344",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 188,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -151876,9 +153141,38 @@
           "line": 1035,
           "version": "0.1.27-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 56,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Temporary Full Card Panel/CardView EnsnaringBrambles-2 FullCardFront (Temporary)/Body Box/Body Label",
+      "cardId": "EnsnaringBrambles",
+      "source": "此牌被破坏时，Akash'Bhuta对自身造成8点固定能量伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n选择生命值最低的英雄目标。直到反派<nobr><b>START PHASE</b></nobr>，该目标造成的伤害−2。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "d5c7f7269f68d5a068a71ac6",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 311,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        }
+      ]
     },
     {
       "objectName": "Hint Label",
@@ -156678,6 +157972,12 @@
           "line": 1066,
           "version": "0.1.27-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 140,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -160756,6 +162056,12 @@
           "line": 41,
           "version": "0.1.32-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 41,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -161544,6 +162850,12 @@
           "session": "0b8d45af4c63df9d91ddb66dc2b394f2f6ed36901d3ebcd4da547af825686b63",
           "line": 28,
           "version": "0.1.32-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 28,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ],
@@ -162579,9 +163891,38 @@
           "line": 1083,
           "version": "0.1.27-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 245,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Temporary Full Card Panel/CardView InterposingStalagmites-1 FullCardFront (Temporary)/Body Box/Body Label",
+      "cardId": "InterposingStalagmites",
+      "source": "阿卡什怖妲受到的伤害−1。\r\n此牌被破坏时，阿卡什怖妲对自身造成12点固定能量伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n此牌对生命值最低的非反派目标造成2点近战伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "e7de51fd075a4f0c585998eb",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 301,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        }
+      ]
     },
     {
       "objectName": "Hint Label",
@@ -163558,6 +164899,29 @@
           "session": "0c1112a9d7977e2498fb56a357c095ad7d478c572a25a1cfe065553bd1c6da0b",
           "line": 926,
           "version": "0.1.31-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Hand/Card Container/CardView Thokk-2 FullCardFront/Body Box/Body Label",
+      "cardId": "Thokk",
+      "source": "Legacy对1个目标造成5点近战伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "e9f11ad89c8805d77034cd55",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 281,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -165484,6 +166848,12 @@
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 297,
           "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 194,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -167912,6 +169282,12 @@
           "line": 1040,
           "version": "0.1.27-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 69,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -168169,6 +169545,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1068,
           "version": "0.1.27-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 146,
+          "version": "0.1.33-rc.1",
           "markerCandidate": true
         }
       ],
@@ -168881,6 +170263,12 @@
           "line": 1043,
           "version": "0.1.27-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 73,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -168987,6 +170375,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 1036,
           "version": "0.1.27-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 58,
+          "version": "0.1.33-rc.1",
           "markerCandidate": true
         }
       ],
@@ -170918,6 +172312,12 @@
           "line": 1072,
           "version": "0.1.27-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 158,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -172322,6 +173722,12 @@
           "line": 38,
           "version": "0.1.32-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 38,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -172438,6 +173844,12 @@
           "session": "0c1112a9d7977e2498fb56a357c095ad7d478c572a25a1cfe065553bd1c6da0b",
           "line": 738,
           "version": "0.1.31-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 273,
+          "version": "0.1.33-rc.1",
           "markerCandidate": false
         }
       ]
@@ -174239,6 +175651,29 @@
           "line": 781,
           "version": "0.1.30-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView TachyonCharacter-0 FullCardFront/Body Box/Body Label",
+      "cardId": "TachyonCharacter",
+      "source": "<style=PowerTitle>Testing</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>展示你的牌库顶牌。抽取或弃置该牌。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "ff1deb9f8deea7bfe03a4784",
+      "evidence": [
+        {
+          "session": "f2fdb38c14076141f5ddb6980602ff502ad6e3c84bfe8166318846a1d25def1e",
+          "line": 235,
+          "version": "0.1.33-rc.1",
+          "markerCandidate": false
         }
       ]
     },

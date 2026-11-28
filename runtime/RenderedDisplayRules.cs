@@ -11,6 +11,17 @@ public sealed class RenderedDisplayRules {
  readonly Dictionary<string,(Regex Pattern,string Target)[]> rules=new(StringComparer.Ordinal);
  readonly Dictionary<string,string> grantedHeroPowers=new(StringComparer.Ordinal);
  static readonly Regex Token=new(@"\{[^{}]+\}",RegexOptions.CultureInvariant);
+ const string HeroSprite="<sprite name=\"H\" color=#000000>";
+ const string HeroSpritePattern="<sprite name=\"H\" color=#(?:000000|FFFFFF)>";
+ // Match only a complete catalog-authored line. Retain each H sprite's original color.
+ static string HeroSpriteLinePattern(string source){
+  int i=0;return Regex.Replace(Regex.Escape(source),Regex.Escape(Regex.Escape(HeroSprite)),_=>"(?<h"+(i++)+">"+HeroSpritePattern+")");
+ }
+ static string PreserveHeroSprites(Match match,string target){
+  int i=0;return Regex.Replace(target,Regex.Escape(HeroSprite),_=>{
+   var sprite=match.Groups["h"+(i++)];return sprite.Success?sprite.Value:HeroSprite;
+  });
+ }
  static readonly Regex PowerPath=new(@"/Power Container/[0-9]{1,6}/UsePower-[A-Za-z0-9_]+-(?<card>[A-Za-z0-9_]+)/Label\z",RegexOptions.CultureInvariant);
  const string Heroes="AbsoluteZero|Bunker|CaptainCosmic|Fanatic|Haka|Legacy|Ra|Tachyon|Tempest|TheArgentAdept|TheWraith|Unity";
  static readonly Regex GrantedHeroPowerPath=new(@"\ACanvas/Main Panel/(?:(?:3 Hero Layout/Inactive Hero Location [12]|5 Hero Layout/Inactive Hero Location [1-4])/)?(?<hero>"+Heroes+@")/Inner Panel/Character Card Container/\k<hero>Character/Foreground Elements/Power Container/[0-9]{1,6}/UsePower-\k<hero>-\k<hero>Character/Label\z",RegexOptions.CultureInvariant);
@@ -65,7 +76,7 @@ public sealed class RenderedDisplayRules {
       if(nameTokens.Contains(token.Value)){
        pattern+="(?<n"+translatedNames.Count+">"+Regex.Escape(value.En)+"|"+Regex.Escape(value.Zh)+")";translatedNames.Add(value.Zh);
       }else if(token.Value.StartsWith("{H",StringComparison.Ordinal))
-       pattern+="(?:"+Regex.Escape(value.En)+@"|<b>\*[+−-]?[0-9]{1,6}\*</b>)";
+       pattern+="(?:"+Regex.Escape(value.En).Replace(Regex.Escape(HeroSprite),HeroSpritePattern)+"|"+Regex.Escape(value.Zh).Replace(Regex.Escape(HeroSprite),HeroSpritePattern)+@"|<b>\*[+−-]?[0-9]{1,6}\*</b>)";
       else pattern+="(?:"+Regex.Escape(value.En)+"|"+Regex.Escape(value.Zh)+")";
       offset=token.Index+token.Length;
      }
@@ -84,7 +95,7 @@ public sealed class RenderedDisplayRules {
    }
    parameterNames[g.Key]=namePatterns.ToArray();
    rules[g.Key]=pairs.Where(p=>p.Value.Count==1).OrderByDescending(p=>p.Key.Length).Select(p=>(new Regex(
-    @"(?<prefix>\A|\r\n|\n|\r|\\r\\n|\\n|\\r|<style=PowerBody>|<style=ReactionBody>|"+Regex.Escape(Setup)+@")"+Regex.Escape(p.Key)+@"(?=\r|\n|\\r|\\n|</style>|\z)",RegexOptions.CultureInvariant),p.Value.Single())).ToArray();
+    @"(?<prefix>\A|\r\n|\n|\r|\\r\\n|\\n|\\r|<style=PowerBody>|<style=ReactionBody>|"+Regex.Escape(Setup)+@")"+HeroSpriteLinePattern(p.Key)+@"(?=\r|\n|\\r|\\n|</style>|\z)",RegexOptions.CultureInvariant),p.Value.Single())).ToArray();
   }
  }
  static readonly Dictionary<string,string> Damage=new(StringComparer.OrdinalIgnoreCase){
@@ -138,7 +149,7 @@ public sealed class RenderedDisplayRules {
    if(obj=="Label" && incap.Success){
     string hero=incap.Groups["hero"].Value+"Character";
     if(incapSources.TryGetValue(hero,out var allowed) && allowed.Contains(source)){
-     foreach(var e in rules[hero])result=e.Pattern.Replace(result,m=>m.Groups["prefix"].Value+e.Target);
+     foreach(var e in rules[hero])result=e.Pattern.Replace(result,m=>m.Groups["prefix"].Value+PreserveHeroSprites(m,e.Target));
      result=catalog.DisplayRules.Apply("Body Label",hero,result)??result;
     }
    }
@@ -156,7 +167,7 @@ public sealed class RenderedDisplayRules {
     (obj is "Body Label" or "Setup Label" or "Advanced Label" || IsPowerButton(path,card,inCard,button))){
    // Apply on the unmodified input before phase labels change template expansion text.
    result=source;
-   foreach(var e in entries)result=e.Pattern.Replace(result,m=>m.Groups["prefix"].Value+e.Target);
+   foreach(var e in entries)result=e.Pattern.Replace(result,m=>m.Groups["prefix"].Value+PreserveHeroSprites(m,e.Target));
    foreach(var e in parameterNames[card])result=e.Pattern.Replace(result,m=>{
     string value=m.Value;for(int i=e.Names.Length-1;i>=0;i--){var field=m.Groups["n"+i];int start=field.Index-m.Index;value=value.Substring(0,start)+e.Names[i]+value.Substring(start+field.Length);}return value;
    });

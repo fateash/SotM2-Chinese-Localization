@@ -46465,6 +46465,81 @@
           "SotM2-Dynamic-Evidence-20261128-170437-e05a66.zip"
         ]
       }
+    },
+    {
+      "key": "editorial.ui.newgame.choose.heroes",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Choose 3 to 5 Heroes",
+      "sourceSha256": "9c77ee974cd5f20d675bc4fd54375850d381d4ec27b3ca94938959a35d0fd668",
+      "context": "0.1.34完整选项提示接入，待实机验收。174300日志确认弹窗标题完整原文及路径。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-174300-4dc410.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.newgame.choose.villain",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Choose a Villain",
+      "sourceSha256": "57ca966e2034b73b9273f2c168546b9cdc4179f86f943b2c9d4aecde1487b2fe",
+      "context": "0.1.34完整选项提示接入，待实机验收。174300日志确认弹窗标题完整原文及路径。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-174300-4dc410.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.newgame.choose.environment",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Choose an Environment",
+      "sourceSha256": "098765466008e61c40dbc42f5615314d616eb23b65e6895308facc3484ecd355",
+      "context": "0.1.34完整选项提示接入，待实机验收。174300日志确认弹窗标题完整原文及路径。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-174300-4dc410.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.newgame.rating.difficulty",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Difficulty: {0}",
+      "sourceSha256": "36760c739d3173ca74d7335bd4ce0274932b84682cb4f7faddef9a503fb4f762",
+      "context": "0.1.34完整选项提示接入，待实机验收。游戏构建26880829元数据及level3场景Rating Label核对；实际渲染路径及输入类型仍待新版日志确认。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-174300-4dc410.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.newgame.rating.peril",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Peril: {0}",
+      "sourceSha256": "ef49cafc7d385127fc6bc5b3b6aba130f04be386f7401bf437abb3fccc4ce91d",
+      "context": "0.1.34完整选项提示接入，待实机验收。游戏构建26880829元数据及level3场景Rating Label核对；实际渲染路径及输入类型仍待新版日志确认。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-174300-4dc410.zip"
+        ]
+      }
     }
   ]
 }

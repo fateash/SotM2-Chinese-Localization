@@ -3751,6 +3751,41 @@
       "id": "ffea93ff7280af56873aca64",
       "reason": "current-rule-match",
       "target": "抽牌阶段"
+    },
+    {
+      "id": "43d16921870f203cbeaecb25",
+      "reason": "current-rule-match",
+      "target": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF>减1张原肢牌。"
+    },
+    {
+      "id": "7da6848c3e8b8ed5aab07fee",
+      "reason": "current-rule-match",
+      "target": "选择一名反派"
+    },
+    {
+      "id": "a5df4e675b88cbc9b722badb",
+      "reason": "current-rule-match",
+      "target": "选择3至5位英雄"
+    },
+    {
+      "id": "ae32d6241cb436d415153835",
+      "reason": "current-rule-match",
+      "target": "选择一个环境"
+    },
+    {
+      "id": "b04e3995724e0b088d4cb53e",
+      "reason": "current-rule-match",
+      "target": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF>减1张原肢牌。"
+    },
+    {
+      "id": "b5c8c1c44659b394dd93b4b9",
+      "reason": "current-rule-match",
+      "target": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF>减1张光民牌。"
+    },
+    {
+      "id": "d3a88d647d7801f7d4f9339a",
+      "reason": "current-rule-match",
+      "target": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF>减1张光民牌。"
     }
   ]
 }

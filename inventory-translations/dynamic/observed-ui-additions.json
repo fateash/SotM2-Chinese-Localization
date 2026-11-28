@@ -222,5 +222,40 @@
     "translation": "点击一个按钮，选择一个数字。",
     "stage": 1,
     "context": "0.1.32日志完整HUD原文，0.1.33限定用途接入；数量单复数分别检查，未完成实机验收。"
+  },
+  {
+    "key": "editorial.ui.newgame.choose.heroes",
+    "original": "Choose 3 to 5 Heroes",
+    "translation": "选择3至5位英雄",
+    "stage": 1,
+    "context": "0.1.34完整选项提示接入，待实机验收。174300日志确认弹窗标题完整原文及路径。"
+  },
+  {
+    "key": "editorial.ui.newgame.choose.villain",
+    "original": "Choose a Villain",
+    "translation": "选择一名反派",
+    "stage": 1,
+    "context": "0.1.34完整选项提示接入，待实机验收。174300日志确认弹窗标题完整原文及路径。"
+  },
+  {
+    "key": "editorial.ui.newgame.choose.environment",
+    "original": "Choose an Environment",
+    "translation": "选择一个环境",
+    "stage": 1,
+    "context": "0.1.34完整选项提示接入，待实机验收。174300日志确认弹窗标题完整原文及路径。"
+  },
+  {
+    "key": "editorial.ui.newgame.rating.difficulty",
+    "original": "Difficulty: {0}",
+    "translation": "难度：{0}",
+    "stage": 1,
+    "context": "0.1.34完整选项提示接入，待实机验收。游戏构建26880829元数据及level3场景Rating Label核对；实际渲染路径及输入类型仍待新版日志确认。"
+  },
+  {
+    "key": "editorial.ui.newgame.rating.peril",
+    "original": "Peril: {0}",
+    "translation": "危险度：{0}",
+    "stage": 1,
+    "context": "0.1.34完整选项提示接入，待实机验收。游戏构建26880829元数据及level3场景Rating Label核对；实际渲染路径及输入类型仍待新版日志确认。"
   }
 ]

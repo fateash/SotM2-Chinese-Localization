@@ -423,4 +423,17 @@ Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click up to 2 targets to deal them
 Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click a target to deal it <nobr>2 fire</nobr> damage.")=="点击一个目标，对其造成<nobr>2点火焰伤害</nobr>。","single target damage heading optional");
 Check(pilot.Apply("Canvas/Other/Hint Label","Click up to 2 targets to deal them <nobr>2 melee</nobr> damage.")==null,"optional heading does not relax HUD path");
 Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click up to 2 targets to deal them <nobr>2 melee</nobr> damage. Extra.")==null,"optional heading does not drop unknown condition");
+using(var evidence034=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/display-0.1.34.json"))){
+ foreach(var sample in evidence034.RootElement.GetProperty("samples").EnumerateArray()){
+  string path=sample.GetProperty("path").GetString()!,source=sample.GetProperty("source").GetString()!,obj=sample.GetProperty("objectName").GetString()!,card=sample.GetProperty("cardId").GetString()!;
+  bool inCard=sample.GetProperty("inCardView").GetBoolean();
+  string? actual=grantCompletion033.Apply(path,obj,card,inCard,false,source);
+  Check(actual==sample.GetProperty("expected").GetString(),"0.1.34 complete scoped output");
+  Check(grantCompletion033.Apply(path,obj,card,inCard,false,actual!)==null,"0.1.34 output idempotent");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"<[^<>]+>").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"<[^<>]+>").Select(m=>m.Value)),"0.1.34 sprite colors and rich-text sequence preserved");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"[0-9]+").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"[0-9]+").Select(m=>m.Value)),"0.1.34 numeric sequence preserved");
+ }
+}
+Check(SurfaceProbeRules.CanObserve("Rating Label",false,false),"new-game rating label observable");
+Check(!SurfaceProbeRules.CanObserve("Rating Label",false,true),"rating input field remains protected");
 Console.WriteLine("Total checks including deck names: "+count);

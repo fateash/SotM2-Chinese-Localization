@@ -1,0 +1,2149 @@
+{
+  "version": "0.1.34-rc.1",
+  "samples": [
+    {
+      "path": "Canvas/Available Area Popup/Available Area/Title Label",
+      "objectName": "Title Label",
+      "cardId": "",
+      "inCardView": false,
+      "source": "Choose 3 to 5 Heroes",
+      "expected": "选择3至5位英雄"
+    },
+    {
+      "path": "Canvas/Available Area Popup/Available Area/Title Label",
+      "objectName": "Title Label",
+      "cardId": "",
+      "inCardView": false,
+      "source": "Choose a Villain",
+      "expected": "选择一名反派"
+    },
+    {
+      "path": "Canvas/Available Area Popup/Available Area/Title Label",
+      "objectName": "Title Label",
+      "cardId": "",
+      "inCardView": false,
+      "source": "Choose an Environment",
+      "expected": "选择一个环境"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+      "objectName": "Rating Label",
+      "cardId": "",
+      "inCardView": false,
+      "source": "Difficulty: 0",
+      "expected": "难度：0"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+      "objectName": "Rating Label",
+      "cardId": "",
+      "inCardView": false,
+      "source": "Difficulty: 1",
+      "expected": "难度：1"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+      "objectName": "Rating Label",
+      "cardId": "",
+      "inCardView": false,
+      "source": "Difficulty: 4",
+      "expected": "难度：4"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+      "objectName": "Rating Label",
+      "cardId": "",
+      "inCardView": false,
+      "source": "Difficulty: 10",
+      "expected": "难度：10"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+      "objectName": "Rating Label",
+      "cardId": "",
+      "inCardView": false,
+      "source": "Difficulty: 999999",
+      "expected": "难度：999999"
+    },
+    {
+      "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+      "objectName": "Rating Label",
+      "cardId": "",
+      "inCardView": false,
+      "source": "Peril: 0",
+      "expected": "危险度：0"
+    },
+    {
+      "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+      "objectName": "Rating Label",
+      "cardId": "",
+      "inCardView": false,
+      "source": "Peril: 1",
+      "expected": "危险度：1"
+    },
+    {
+      "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+      "objectName": "Rating Label",
+      "cardId": "",
+      "inCardView": false,
+      "source": "Peril: 4",
+      "expected": "危险度：4"
+    },
+    {
+      "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+      "objectName": "Rating Label",
+      "cardId": "",
+      "inCardView": false,
+      "source": "Peril: 10",
+      "expected": "危险度：10"
+    },
+    {
+      "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+      "objectName": "Rating Label",
+      "cardId": "",
+      "inCardView": false,
+      "source": "Peril: 999999",
+      "expected": "危险度：999999"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView BurningHighRise-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BurningHighRise",
+      "inCardView": true,
+      "source": "Each Hero may discard any number of cards. If <sprite name=\"H\" color=#000000> plus 2 cards are discarded this way, destroy this card.",
+      "expected": "每名英雄可以弃置任意数量的牌。若以此法弃置了<sprite name=\"H\" color=#000000>加2张牌，破坏此牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BurningHighRise/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BurningHighRise",
+      "inCardView": true,
+      "source": "Each Hero may discard any number of cards. If <sprite name=\"H\" color=#000000> plus 2 cards are discarded this way, destroy this card.",
+      "expected": "每名英雄可以弃置任意数量的牌。若以此法弃置了<sprite name=\"H\" color=#000000>加2张牌，破坏此牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView BurningHighRise-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BurningHighRise",
+      "inCardView": true,
+      "source": "每名英雄可以弃置任意数量的牌。若以此法弃置了<sprite name=\"H\" color=#000000> plus 2张牌，破坏此牌。",
+      "expected": "每名英雄可以弃置任意数量的牌。若以此法弃置了<sprite name=\"H\" color=#000000>加2张牌，破坏此牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BurningHighRise/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BurningHighRise",
+      "inCardView": true,
+      "source": "每名英雄可以弃置任意数量的牌。若以此法弃置了<sprite name=\"H\" color=#000000> plus 2张牌，破坏此牌。",
+      "expected": "每名英雄可以弃置任意数量的牌。若以此法弃置了<sprite name=\"H\" color=#000000>加2张牌，破坏此牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView BurningHighRise-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BurningHighRise",
+      "inCardView": true,
+      "source": "Each Hero may discard any number of cards. If <sprite name=\"H\" color=#FFFFFF> plus 2 cards are discarded this way, destroy this card.",
+      "expected": "每名英雄可以弃置任意数量的牌。若以此法弃置了<sprite name=\"H\" color=#FFFFFF>加2张牌，破坏此牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BurningHighRise/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BurningHighRise",
+      "inCardView": true,
+      "source": "Each Hero may discard any number of cards. If <sprite name=\"H\" color=#FFFFFF> plus 2 cards are discarded this way, destroy this card.",
+      "expected": "每名英雄可以弃置任意数量的牌。若以此法弃置了<sprite name=\"H\" color=#FFFFFF>加2张牌，破坏此牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView BurningHighRise-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BurningHighRise",
+      "inCardView": true,
+      "source": "每名英雄可以弃置任意数量的牌。若以此法弃置了<sprite name=\"H\" color=#FFFFFF> plus 2张牌，破坏此牌。",
+      "expected": "每名英雄可以弃置任意数量的牌。若以此法弃置了<sprite name=\"H\" color=#FFFFFF>加2张牌，破坏此牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BurningHighRise/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BurningHighRise",
+      "inCardView": true,
+      "source": "每名英雄可以弃置任意数量的牌。若以此法弃置了<sprite name=\"H\" color=#FFFFFF> plus 2张牌，破坏此牌。",
+      "expected": "每名英雄可以弃置任意数量的牌。若以此法弃置了<sprite name=\"H\" color=#FFFFFF>加2张牌，破坏此牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView RedDustStorm-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "RedDustStorm",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 1 Item cards.",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减1张物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/RedDustStorm/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "RedDustStorm",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 1 Item cards.",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减1张物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView RedDustStorm-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "RedDustStorm",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#000000> minus 1张物品牌。",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减1张物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/RedDustStorm/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "RedDustStorm",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#000000> minus 1张物品牌。",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减1张物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView RedDustStorm-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "RedDustStorm",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 1 Item cards.",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减1张物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/RedDustStorm/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "RedDustStorm",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 1 Item cards.",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减1张物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView RedDustStorm-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "RedDustStorm",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#FFFFFF> minus 1张物品牌。",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减1张物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/RedDustStorm/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "RedDustStorm",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#FFFFFF> minus 1张物品牌。",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减1张物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView AkashBhutaCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "AkashBhutaCharacter",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#000000> minus 1 Primeval Limb cards.",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张原肢牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/AkashBhutaCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "AkashBhutaCharacter",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#000000> minus 1 Primeval Limb cards.",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张原肢牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView AkashBhutaCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "AkashBhutaCharacter",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#000000> minus 1张原肢牌。",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张原肢牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/AkashBhutaCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "AkashBhutaCharacter",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#000000> minus 1张原肢牌。",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张原肢牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView AkashBhutaCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "AkashBhutaCharacter",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#FFFFFF> minus 1 Primeval Limb cards.",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张原肢牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/AkashBhutaCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "AkashBhutaCharacter",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#FFFFFF> minus 1 Primeval Limb cards.",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张原肢牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView AkashBhutaCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "AkashBhutaCharacter",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#FFFFFF> minus 1张原肢牌。",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张原肢牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/AkashBhutaCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "AkashBhutaCharacter",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#FFFFFF> minus 1张原肢牌。",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张原肢牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView EarthsSacrifice-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "EarthsSacrifice",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 1 Hero Ongoing cards.",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减1张英雄持续牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/EarthsSacrifice/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "EarthsSacrifice",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 1 Hero Ongoing cards.",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减1张英雄持续牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView EarthsSacrifice-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "EarthsSacrifice",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#000000> minus 1张英雄持续牌。",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减1张英雄持续牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/EarthsSacrifice/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "EarthsSacrifice",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#000000> minus 1张英雄持续牌。",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减1张英雄持续牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView EarthsSacrifice-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "EarthsSacrifice",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 1 Hero Ongoing cards.",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减1张英雄持续牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/EarthsSacrifice/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "EarthsSacrifice",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 1 Hero Ongoing cards.",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减1张英雄持续牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView EarthsSacrifice-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "EarthsSacrifice",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#FFFFFF> minus 1张英雄持续牌。",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减1张英雄持续牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/EarthsSacrifice/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "EarthsSacrifice",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#FFFFFF> minus 1张英雄持续牌。",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减1张英雄持续牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HarshRenewal-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HarshRenewal",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#000000> minus 2 Primeval Limb cards.",
+      "expected": "发现<sprite name=\"H\" color=#000000>减2张原肢牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/HarshRenewal/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HarshRenewal",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#000000> minus 2 Primeval Limb cards.",
+      "expected": "发现<sprite name=\"H\" color=#000000>减2张原肢牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HarshRenewal-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HarshRenewal",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#000000> minus 2张原肢牌。",
+      "expected": "发现<sprite name=\"H\" color=#000000>减2张原肢牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/HarshRenewal/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HarshRenewal",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#000000> minus 2张原肢牌。",
+      "expected": "发现<sprite name=\"H\" color=#000000>减2张原肢牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HarshRenewal-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HarshRenewal",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#FFFFFF> minus 2 Primeval Limb cards.",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减2张原肢牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/HarshRenewal/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HarshRenewal",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#FFFFFF> minus 2 Primeval Limb cards.",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减2张原肢牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HarshRenewal-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HarshRenewal",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#FFFFFF> minus 2张原肢牌。",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减2张原肢牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/HarshRenewal/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HarshRenewal",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#FFFFFF> minus 2张原肢牌。",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减2张原肢牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView PrimevalEruption-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#000000> minus 1 Primeval Limb cards.",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张原肢牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/PrimevalEruption/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#000000> minus 1 Primeval Limb cards.",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张原肢牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView PrimevalEruption-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#000000> minus 1张原肢牌。",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张原肢牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/PrimevalEruption/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#000000> minus 1张原肢牌。",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张原肢牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView PrimevalEruption-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#FFFFFF> minus 1 Primeval Limb cards.",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张原肢牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/PrimevalEruption/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#FFFFFF> minus 1 Primeval Limb cards.",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张原肢牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView PrimevalEruption-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#FFFFFF> minus 1张原肢牌。",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张原肢牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/PrimevalEruption/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#FFFFFF> minus 1张原肢牌。",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张原肢牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView PrimevalEruption-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "Discard the top <sprite name=\"H\" color=#000000> plus 1 cards of the Environment deck.",
+      "expected": "弃置环境牌库顶的<sprite name=\"H\" color=#000000>加1张牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/PrimevalEruption/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "Discard the top <sprite name=\"H\" color=#000000> plus 1 cards of the Environment deck.",
+      "expected": "弃置环境牌库顶的<sprite name=\"H\" color=#000000>加1张牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView PrimevalEruption-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "弃置环境牌库顶的<sprite name=\"H\" color=#000000> plus 1张牌。",
+      "expected": "弃置环境牌库顶的<sprite name=\"H\" color=#000000>加1张牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/PrimevalEruption/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "弃置环境牌库顶的<sprite name=\"H\" color=#000000> plus 1张牌。",
+      "expected": "弃置环境牌库顶的<sprite name=\"H\" color=#000000>加1张牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView PrimevalEruption-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "Discard the top <sprite name=\"H\" color=#FFFFFF> plus 1 cards of the Environment deck.",
+      "expected": "弃置环境牌库顶的<sprite name=\"H\" color=#FFFFFF>加1张牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/PrimevalEruption/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "Discard the top <sprite name=\"H\" color=#FFFFFF> plus 1 cards of the Environment deck.",
+      "expected": "弃置环境牌库顶的<sprite name=\"H\" color=#FFFFFF>加1张牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView PrimevalEruption-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "弃置环境牌库顶的<sprite name=\"H\" color=#FFFFFF> plus 1张牌。",
+      "expected": "弃置环境牌库顶的<sprite name=\"H\" color=#FFFFFF>加1张牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/PrimevalEruption/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "PrimevalEruption",
+      "inCardView": true,
+      "source": "弃置环境牌库顶的<sprite name=\"H\" color=#FFFFFF> plus 1张牌。",
+      "expected": "弃置环境牌库顶的<sprite name=\"H\" color=#FFFFFF>加1张牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ReturnToTheEarth-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnToTheEarth",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 1 Item cards.",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减1张物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ReturnToTheEarth/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnToTheEarth",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 1 Item cards.",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减1张物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ReturnToTheEarth-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnToTheEarth",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#000000> minus 1张物品牌。",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减1张物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ReturnToTheEarth/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnToTheEarth",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#000000> minus 1张物品牌。",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减1张物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ReturnToTheEarth-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnToTheEarth",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 1 Item cards.",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减1张物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ReturnToTheEarth/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnToTheEarth",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 1 Item cards.",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减1张物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ReturnToTheEarth-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnToTheEarth",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#FFFFFF> minus 1张物品牌。",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减1张物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ReturnToTheEarth/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnToTheEarth",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#FFFFFF> minus 1张物品牌。",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减1张物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView BaronBladeCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BaronBladeCharacter",
+      "inCardView": true,
+      "source": "Discard the top <sprite name=\"H\" color=#000000> minus 2 cards of the Villain deck.",
+      "expected": "弃置反派牌库顶的<sprite name=\"H\" color=#000000>减2张牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BaronBladeCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BaronBladeCharacter",
+      "inCardView": true,
+      "source": "Discard the top <sprite name=\"H\" color=#000000> minus 2 cards of the Villain deck.",
+      "expected": "弃置反派牌库顶的<sprite name=\"H\" color=#000000>减2张牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView BaronBladeCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BaronBladeCharacter",
+      "inCardView": true,
+      "source": "弃置反派牌库顶的<sprite name=\"H\" color=#000000> minus 2张牌。",
+      "expected": "弃置反派牌库顶的<sprite name=\"H\" color=#000000>减2张牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BaronBladeCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BaronBladeCharacter",
+      "inCardView": true,
+      "source": "弃置反派牌库顶的<sprite name=\"H\" color=#000000> minus 2张牌。",
+      "expected": "弃置反派牌库顶的<sprite name=\"H\" color=#000000>减2张牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView BaronBladeCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BaronBladeCharacter",
+      "inCardView": true,
+      "source": "Discard the top <sprite name=\"H\" color=#FFFFFF> minus 2 cards of the Villain deck.",
+      "expected": "弃置反派牌库顶的<sprite name=\"H\" color=#FFFFFF>减2张牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BaronBladeCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BaronBladeCharacter",
+      "inCardView": true,
+      "source": "Discard the top <sprite name=\"H\" color=#FFFFFF> minus 2 cards of the Villain deck.",
+      "expected": "弃置反派牌库顶的<sprite name=\"H\" color=#FFFFFF>减2张牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView BaronBladeCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BaronBladeCharacter",
+      "inCardView": true,
+      "source": "弃置反派牌库顶的<sprite name=\"H\" color=#FFFFFF> minus 2张牌。",
+      "expected": "弃置反派牌库顶的<sprite name=\"H\" color=#FFFFFF>减2张牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BaronBladeCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "BaronBladeCharacter",
+      "inCardView": true,
+      "source": "弃置反派牌库顶的<sprite name=\"H\" color=#FFFFFF> minus 2张牌。",
+      "expected": "弃置反派牌库顶的<sprite name=\"H\" color=#FFFFFF>减2张牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ConsiderThePriceOfVictory-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ConsiderThePriceOfVictory",
+      "inCardView": true,
+      "source": "Each Hero discards 1 card. Baron Blade deals each Hero target 1 sonic damage. Discard the top <sprite name=\"H\" color=#000000> minus 1 cards of the Villain deck. Destroy this card.",
+      "expected": "每位英雄弃置1张牌。刀锋男爵对每个英雄目标造成1点音波伤害。弃置反派牌库顶的<sprite name=\"H\" color=#000000>减1张牌。破坏此牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ConsiderThePriceOfVictory/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ConsiderThePriceOfVictory",
+      "inCardView": true,
+      "source": "Each Hero discards 1 card. Baron Blade deals each Hero target 1 sonic damage. Discard the top <sprite name=\"H\" color=#000000> minus 1 cards of the Villain deck. Destroy this card.",
+      "expected": "每位英雄弃置1张牌。刀锋男爵对每个英雄目标造成1点音波伤害。弃置反派牌库顶的<sprite name=\"H\" color=#000000>减1张牌。破坏此牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ConsiderThePriceOfVictory-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ConsiderThePriceOfVictory",
+      "inCardView": true,
+      "source": "每位英雄弃置1张牌。Baron Blade对每个英雄目标造成1点音波伤害。弃置反派牌库顶的<sprite name=\"H\" color=#000000> minus 1张牌。破坏此牌。",
+      "expected": "每位英雄弃置1张牌。刀锋男爵对每个英雄目标造成1点音波伤害。弃置反派牌库顶的<sprite name=\"H\" color=#000000>减1张牌。破坏此牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ConsiderThePriceOfVictory/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ConsiderThePriceOfVictory",
+      "inCardView": true,
+      "source": "每位英雄弃置1张牌。Baron Blade对每个英雄目标造成1点音波伤害。弃置反派牌库顶的<sprite name=\"H\" color=#000000> minus 1张牌。破坏此牌。",
+      "expected": "每位英雄弃置1张牌。刀锋男爵对每个英雄目标造成1点音波伤害。弃置反派牌库顶的<sprite name=\"H\" color=#000000>减1张牌。破坏此牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ConsiderThePriceOfVictory-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ConsiderThePriceOfVictory",
+      "inCardView": true,
+      "source": "Each Hero discards 1 card. Baron Blade deals each Hero target 1 sonic damage. Discard the top <sprite name=\"H\" color=#FFFFFF> minus 1 cards of the Villain deck. Destroy this card.",
+      "expected": "每位英雄弃置1张牌。刀锋男爵对每个英雄目标造成1点音波伤害。弃置反派牌库顶的<sprite name=\"H\" color=#FFFFFF>减1张牌。破坏此牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ConsiderThePriceOfVictory/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ConsiderThePriceOfVictory",
+      "inCardView": true,
+      "source": "Each Hero discards 1 card. Baron Blade deals each Hero target 1 sonic damage. Discard the top <sprite name=\"H\" color=#FFFFFF> minus 1 cards of the Villain deck. Destroy this card.",
+      "expected": "每位英雄弃置1张牌。刀锋男爵对每个英雄目标造成1点音波伤害。弃置反派牌库顶的<sprite name=\"H\" color=#FFFFFF>减1张牌。破坏此牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ConsiderThePriceOfVictory-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ConsiderThePriceOfVictory",
+      "inCardView": true,
+      "source": "每位英雄弃置1张牌。Baron Blade对每个英雄目标造成1点音波伤害。弃置反派牌库顶的<sprite name=\"H\" color=#FFFFFF> minus 1张牌。破坏此牌。",
+      "expected": "每位英雄弃置1张牌。刀锋男爵对每个英雄目标造成1点音波伤害。弃置反派牌库顶的<sprite name=\"H\" color=#FFFFFF>减1张牌。破坏此牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ConsiderThePriceOfVictory/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ConsiderThePriceOfVictory",
+      "inCardView": true,
+      "source": "每位英雄弃置1张牌。Baron Blade对每个英雄目标造成1点音波伤害。弃置反派牌库顶的<sprite name=\"H\" color=#FFFFFF> minus 1张牌。破坏此牌。",
+      "expected": "每位英雄弃置1张牌。刀锋男爵对每个英雄目标造成1点音波伤害。弃置反派牌库顶的<sprite name=\"H\" color=#FFFFFF>减1张牌。破坏此牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView JetJumpBattalion-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "JetJumpBattalion",
+      "inCardView": true,
+      "source": "This card deals the <sprite name=\"H\" color=#000000> minus 2 Hero targets with the highest HP 2 energy damage each.",
+      "expected": "此牌对生命值最高的<sprite name=\"H\" color=#000000>减2个英雄目标各造成2点能量伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/JetJumpBattalion/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "JetJumpBattalion",
+      "inCardView": true,
+      "source": "This card deals the <sprite name=\"H\" color=#000000> minus 2 Hero targets with the highest HP 2 energy damage each.",
+      "expected": "此牌对生命值最高的<sprite name=\"H\" color=#000000>减2个英雄目标各造成2点能量伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView JetJumpBattalion-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "JetJumpBattalion",
+      "inCardView": true,
+      "source": "此牌对生命值最高的<sprite name=\"H\" color=#000000> minus 2个英雄目标各造成2点能量伤害。",
+      "expected": "此牌对生命值最高的<sprite name=\"H\" color=#000000>减2个英雄目标各造成2点能量伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/JetJumpBattalion/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "JetJumpBattalion",
+      "inCardView": true,
+      "source": "此牌对生命值最高的<sprite name=\"H\" color=#000000> minus 2个英雄目标各造成2点能量伤害。",
+      "expected": "此牌对生命值最高的<sprite name=\"H\" color=#000000>减2个英雄目标各造成2点能量伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView JetJumpBattalion-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "JetJumpBattalion",
+      "inCardView": true,
+      "source": "This card deals the <sprite name=\"H\" color=#FFFFFF> minus 2 Hero targets with the highest HP 2 energy damage each.",
+      "expected": "此牌对生命值最高的<sprite name=\"H\" color=#FFFFFF>减2个英雄目标各造成2点能量伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/JetJumpBattalion/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "JetJumpBattalion",
+      "inCardView": true,
+      "source": "This card deals the <sprite name=\"H\" color=#FFFFFF> minus 2 Hero targets with the highest HP 2 energy damage each.",
+      "expected": "此牌对生命值最高的<sprite name=\"H\" color=#FFFFFF>减2个英雄目标各造成2点能量伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView JetJumpBattalion-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "JetJumpBattalion",
+      "inCardView": true,
+      "source": "此牌对生命值最高的<sprite name=\"H\" color=#FFFFFF> minus 2个英雄目标各造成2点能量伤害。",
+      "expected": "此牌对生命值最高的<sprite name=\"H\" color=#FFFFFF>减2个英雄目标各造成2点能量伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/JetJumpBattalion/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "JetJumpBattalion",
+      "inCardView": true,
+      "source": "此牌对生命值最高的<sprite name=\"H\" color=#FFFFFF> minus 2个英雄目标各造成2点能量伤害。",
+      "expected": "此牌对生命值最高的<sprite name=\"H\" color=#FFFFFF>减2个英雄目标各造成2点能量伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView LivingForceField-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "LivingForceField",
+      "inCardView": true,
+      "source": "Baron Blade regains <sprite name=\"H\" color=#000000> minus 1 HP.",
+      "expected": "刀锋男爵恢复<sprite name=\"H\" color=#000000>减1点生命值。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/LivingForceField/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "LivingForceField",
+      "inCardView": true,
+      "source": "Baron Blade regains <sprite name=\"H\" color=#000000> minus 1 HP.",
+      "expected": "刀锋男爵恢复<sprite name=\"H\" color=#000000>减1点生命值。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView LivingForceField-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "LivingForceField",
+      "inCardView": true,
+      "source": "Baron Blade恢复<sprite name=\"H\" color=#000000> minus 1点生命值。",
+      "expected": "刀锋男爵恢复<sprite name=\"H\" color=#000000>减1点生命值。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/LivingForceField/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "LivingForceField",
+      "inCardView": true,
+      "source": "Baron Blade恢复<sprite name=\"H\" color=#000000> minus 1点生命值。",
+      "expected": "刀锋男爵恢复<sprite name=\"H\" color=#000000>减1点生命值。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView LivingForceField-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "LivingForceField",
+      "inCardView": true,
+      "source": "Baron Blade regains <sprite name=\"H\" color=#FFFFFF> minus 1 HP.",
+      "expected": "刀锋男爵恢复<sprite name=\"H\" color=#FFFFFF>减1点生命值。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/LivingForceField/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "LivingForceField",
+      "inCardView": true,
+      "source": "Baron Blade regains <sprite name=\"H\" color=#FFFFFF> minus 1 HP.",
+      "expected": "刀锋男爵恢复<sprite name=\"H\" color=#FFFFFF>减1点生命值。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView LivingForceField-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "LivingForceField",
+      "inCardView": true,
+      "source": "Baron Blade恢复<sprite name=\"H\" color=#FFFFFF> minus 1点生命值。",
+      "expected": "刀锋男爵恢复<sprite name=\"H\" color=#FFFFFF>减1点生命值。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/LivingForceField/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "LivingForceField",
+      "inCardView": true,
+      "source": "Baron Blade恢复<sprite name=\"H\" color=#FFFFFF> minus 1点生命值。",
+      "expected": "刀锋男爵恢复<sprite name=\"H\" color=#FFFFFF>减1点生命值。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#000000> minus 1 Citizen cards.",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张光民牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/CitizenDawnCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#000000> minus 1 Citizen cards.",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张光民牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#000000> minus 1张光民牌。",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张光民牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/CitizenDawnCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#000000> minus 1张光民牌。",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张光民牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#FFFFFF> minus 1 Citizen cards.",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张光民牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/CitizenDawnCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#FFFFFF> minus 1 Citizen cards.",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张光民牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#FFFFFF> minus 1张光民牌。",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张光民牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/CitizenDawnCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#FFFFFF> minus 1张光民牌。",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张光民牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "Citizen Dawn deals the Hero target with the highest HP <sprite name=\"H\" color=#000000> minus 2 energy damage.",
+      "expected": "黎明公民对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>减2点能量伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/CitizenDawnCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "Citizen Dawn deals the Hero target with the highest HP <sprite name=\"H\" color=#000000> minus 2 energy damage.",
+      "expected": "黎明公民对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>减2点能量伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "Citizen Dawn对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000> minus 2点能量伤害。",
+      "expected": "黎明公民对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>减2点能量伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/CitizenDawnCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "Citizen Dawn对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000> minus 2点能量伤害。",
+      "expected": "黎明公民对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>减2点能量伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "Citizen Dawn deals the Hero target with the highest HP <sprite name=\"H\" color=#FFFFFF> minus 2 energy damage.",
+      "expected": "黎明公民对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减2点能量伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/CitizenDawnCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "Citizen Dawn deals the Hero target with the highest HP <sprite name=\"H\" color=#FFFFFF> minus 2 energy damage.",
+      "expected": "黎明公民对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减2点能量伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "Citizen Dawn对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF> minus 2点能量伤害。",
+      "expected": "黎明公民对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减2点能量伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/CitizenDawnCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "Citizen Dawn对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF> minus 2点能量伤害。",
+      "expected": "黎明公民对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减2点能量伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ReturnWithTheDawn-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnWithTheDawn",
+      "inCardView": true,
+      "source": "Play the <sprite name=\"H\" color=#000000> minus 2 Citizen cards with the lowest HP from the Villain trash.",
+      "expected": "打出反派弃牌堆中生命值最低的<sprite name=\"H\" color=#000000>减2张光民牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ReturnWithTheDawn/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnWithTheDawn",
+      "inCardView": true,
+      "source": "Play the <sprite name=\"H\" color=#000000> minus 2 Citizen cards with the lowest HP from the Villain trash.",
+      "expected": "打出反派弃牌堆中生命值最低的<sprite name=\"H\" color=#000000>减2张光民牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ReturnWithTheDawn-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnWithTheDawn",
+      "inCardView": true,
+      "source": "打出反派弃牌堆中生命值最低的<sprite name=\"H\" color=#000000> minus 2张光民牌。",
+      "expected": "打出反派弃牌堆中生命值最低的<sprite name=\"H\" color=#000000>减2张光民牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ReturnWithTheDawn/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnWithTheDawn",
+      "inCardView": true,
+      "source": "打出反派弃牌堆中生命值最低的<sprite name=\"H\" color=#000000> minus 2张光民牌。",
+      "expected": "打出反派弃牌堆中生命值最低的<sprite name=\"H\" color=#000000>减2张光民牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ReturnWithTheDawn-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnWithTheDawn",
+      "inCardView": true,
+      "source": "Play the <sprite name=\"H\" color=#FFFFFF> minus 2 Citizen cards with the lowest HP from the Villain trash.",
+      "expected": "打出反派弃牌堆中生命值最低的<sprite name=\"H\" color=#FFFFFF>减2张光民牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ReturnWithTheDawn/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnWithTheDawn",
+      "inCardView": true,
+      "source": "Play the <sprite name=\"H\" color=#FFFFFF> minus 2 Citizen cards with the lowest HP from the Villain trash.",
+      "expected": "打出反派弃牌堆中生命值最低的<sprite name=\"H\" color=#FFFFFF>减2张光民牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ReturnWithTheDawn-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnWithTheDawn",
+      "inCardView": true,
+      "source": "打出反派弃牌堆中生命值最低的<sprite name=\"H\" color=#FFFFFF> minus 2张光民牌。",
+      "expected": "打出反派弃牌堆中生命值最低的<sprite name=\"H\" color=#FFFFFF>减2张光民牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ReturnWithTheDawn/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ReturnWithTheDawn",
+      "inCardView": true,
+      "source": "打出反派弃牌堆中生命值最低的<sprite name=\"H\" color=#FFFFFF> minus 2张光民牌。",
+      "expected": "打出反派弃牌堆中生命值最低的<sprite name=\"H\" color=#FFFFFF>减2张光民牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView GrandWarlordVossCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "Grand Warlord Voss deals the Hero target with the highest HP <sprite name=\"H\" color=#000000> minus 1 energy damage. Grand Warlord Voss deals the Hero target with the lowest HP <sprite name=\"H\" color=#000000> minus 2 fire damage.",
+      "expected": "大军阀沃斯对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>减1点能量伤害。大军阀沃斯对生命值最低的英雄目标造成<sprite name=\"H\" color=#000000>减2点火焰伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/GrandWarlordVossCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "Grand Warlord Voss deals the Hero target with the highest HP <sprite name=\"H\" color=#000000> minus 1 energy damage. Grand Warlord Voss deals the Hero target with the lowest HP <sprite name=\"H\" color=#000000> minus 2 fire damage.",
+      "expected": "大军阀沃斯对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>减1点能量伤害。大军阀沃斯对生命值最低的英雄目标造成<sprite name=\"H\" color=#000000>减2点火焰伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView GrandWarlordVossCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "Grand Warlord Voss对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000> minus 1点能量伤害。Grand Warlord Voss对生命值最低的英雄目标造成<sprite name=\"H\" color=#000000> minus 2点火焰伤害。",
+      "expected": "大军阀沃斯对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>减1点能量伤害。大军阀沃斯对生命值最低的英雄目标造成<sprite name=\"H\" color=#000000>减2点火焰伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/GrandWarlordVossCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "Grand Warlord Voss对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000> minus 1点能量伤害。Grand Warlord Voss对生命值最低的英雄目标造成<sprite name=\"H\" color=#000000> minus 2点火焰伤害。",
+      "expected": "大军阀沃斯对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>减1点能量伤害。大军阀沃斯对生命值最低的英雄目标造成<sprite name=\"H\" color=#000000>减2点火焰伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView GrandWarlordVossCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "Grand Warlord Voss deals the Hero target with the highest HP <sprite name=\"H\" color=#FFFFFF> minus 1 energy damage. Grand Warlord Voss deals the Hero target with the lowest HP <sprite name=\"H\" color=#FFFFFF> minus 2 fire damage.",
+      "expected": "大军阀沃斯对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减1点能量伤害。大军阀沃斯对生命值最低的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减2点火焰伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/GrandWarlordVossCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "Grand Warlord Voss deals the Hero target with the highest HP <sprite name=\"H\" color=#FFFFFF> minus 1 energy damage. Grand Warlord Voss deals the Hero target with the lowest HP <sprite name=\"H\" color=#FFFFFF> minus 2 fire damage.",
+      "expected": "大军阀沃斯对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减1点能量伤害。大军阀沃斯对生命值最低的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减2点火焰伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView GrandWarlordVossCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "Grand Warlord Voss对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF> minus 1点能量伤害。Grand Warlord Voss对生命值最低的英雄目标造成<sprite name=\"H\" color=#FFFFFF> minus 2点火焰伤害。",
+      "expected": "大军阀沃斯对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减1点能量伤害。大军阀沃斯对生命值最低的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减2点火焰伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/GrandWarlordVossCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "Grand Warlord Voss对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF> minus 1点能量伤害。Grand Warlord Voss对生命值最低的英雄目标造成<sprite name=\"H\" color=#FFFFFF> minus 2点火焰伤害。",
+      "expected": "大军阀沃斯对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减1点能量伤害。大军阀沃斯对生命值最低的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减2点火焰伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView GrandWarlordVossCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 2 Hero Ongoing and/or Item cards.",
+      "expected": "破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/GrandWarlordVossCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 2 Hero Ongoing and/or Item cards.",
+      "expected": "破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView GrandWarlordVossCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "破坏合计<sprite name=\"H\" color=#000000> minus 2张英雄持续牌和／或物品牌。",
+      "expected": "破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/GrandWarlordVossCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "破坏合计<sprite name=\"H\" color=#000000> minus 2张英雄持续牌和／或物品牌。",
+      "expected": "破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView GrandWarlordVossCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 2 Hero Ongoing and/or Item cards.",
+      "expected": "破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/GrandWarlordVossCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 2 Hero Ongoing and/or Item cards.",
+      "expected": "破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView GrandWarlordVossCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "破坏合计<sprite name=\"H\" color=#FFFFFF> minus 2张英雄持续牌和／或物品牌。",
+      "expected": "破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/GrandWarlordVossCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "破坏合计<sprite name=\"H\" color=#FFFFFF> minus 2张英雄持续牌和／或物品牌。",
+      "expected": "破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView FieldMarshalTamar-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FieldMarshalTamar",
+      "inCardView": true,
+      "source": "This card deals the Hero target with the highest HP <sprite name=\"H\" color=#000000> minus 2 melee damage. Each Gene-Bound card deals that Hero target 1 melee damage.",
+      "expected": "此牌对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>减2点近战伤害。每张缚兵牌对该英雄目标造成1点近战伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/FieldMarshalTamar/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FieldMarshalTamar",
+      "inCardView": true,
+      "source": "This card deals the Hero target with the highest HP <sprite name=\"H\" color=#000000> minus 2 melee damage. Each Gene-Bound card deals that Hero target 1 melee damage.",
+      "expected": "此牌对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>减2点近战伤害。每张缚兵牌对该英雄目标造成1点近战伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView FieldMarshalTamar-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FieldMarshalTamar",
+      "inCardView": true,
+      "source": "此牌对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000> minus 2点近战伤害。每张缚兵牌对该英雄目标造成1点近战伤害。",
+      "expected": "此牌对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>减2点近战伤害。每张缚兵牌对该英雄目标造成1点近战伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/FieldMarshalTamar/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FieldMarshalTamar",
+      "inCardView": true,
+      "source": "此牌对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000> minus 2点近战伤害。每张缚兵牌对该英雄目标造成1点近战伤害。",
+      "expected": "此牌对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>减2点近战伤害。每张缚兵牌对该英雄目标造成1点近战伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView FieldMarshalTamar-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FieldMarshalTamar",
+      "inCardView": true,
+      "source": "This card deals the Hero target with the highest HP <sprite name=\"H\" color=#FFFFFF> minus 2 melee damage. Each Gene-Bound card deals that Hero target 1 melee damage.",
+      "expected": "此牌对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减2点近战伤害。每张缚兵牌对该英雄目标造成1点近战伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/FieldMarshalTamar/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FieldMarshalTamar",
+      "inCardView": true,
+      "source": "This card deals the Hero target with the highest HP <sprite name=\"H\" color=#FFFFFF> minus 2 melee damage. Each Gene-Bound card deals that Hero target 1 melee damage.",
+      "expected": "此牌对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减2点近战伤害。每张缚兵牌对该英雄目标造成1点近战伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView FieldMarshalTamar-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FieldMarshalTamar",
+      "inCardView": true,
+      "source": "此牌对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF> minus 2点近战伤害。每张缚兵牌对该英雄目标造成1点近战伤害。",
+      "expected": "此牌对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减2点近战伤害。每张缚兵牌对该英雄目标造成1点近战伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/FieldMarshalTamar/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FieldMarshalTamar",
+      "inCardView": true,
+      "source": "此牌对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF> minus 2点近战伤害。每张缚兵牌对该英雄目标造成1点近战伤害。",
+      "expected": "此牌对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减2点近战伤害。每张缚兵牌对该英雄目标造成1点近战伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView GeneDoctorKronz-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GeneDoctorKronz",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 2 Hero Ongoing and/or Item cards. Discover 1 Gene-Bound card.",
+      "expected": "破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。发现1张缚兵牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/GeneDoctorKronz/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GeneDoctorKronz",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 2 Hero Ongoing and/or Item cards. Discover 1 Gene-Bound card.",
+      "expected": "破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。发现1张缚兵牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView GeneDoctorKronz-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GeneDoctorKronz",
+      "inCardView": true,
+      "source": "破坏合计<sprite name=\"H\" color=#000000> minus 2张英雄持续牌和／或物品牌。发现1张缚兵牌。",
+      "expected": "破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。发现1张缚兵牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/GeneDoctorKronz/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GeneDoctorKronz",
+      "inCardView": true,
+      "source": "破坏合计<sprite name=\"H\" color=#000000> minus 2张英雄持续牌和／或物品牌。发现1张缚兵牌。",
+      "expected": "破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。发现1张缚兵牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView GeneDoctorKronz-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GeneDoctorKronz",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 2 Hero Ongoing and/or Item cards. Discover 1 Gene-Bound card.",
+      "expected": "破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。发现1张缚兵牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/GeneDoctorKronz/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GeneDoctorKronz",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 2 Hero Ongoing and/or Item cards. Discover 1 Gene-Bound card.",
+      "expected": "破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。发现1张缚兵牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView GeneDoctorKronz-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GeneDoctorKronz",
+      "inCardView": true,
+      "source": "破坏合计<sprite name=\"H\" color=#FFFFFF> minus 2张英雄持续牌和／或物品牌。发现1张缚兵牌。",
+      "expected": "破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。发现1张缚兵牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/GeneDoctorKronz/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GeneDoctorKronz",
+      "inCardView": true,
+      "source": "破坏合计<sprite name=\"H\" color=#FFFFFF> minus 2张英雄持续牌和／或物品牌。发现1张缚兵牌。",
+      "expected": "破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。发现1张缚兵牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ProtectiveDetail-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ProtectiveDetail",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#000000> minus 1 Gene-Bound cards.",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张缚兵牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ProtectiveDetail/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ProtectiveDetail",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#000000> minus 1 Gene-Bound cards.",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张缚兵牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ProtectiveDetail-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ProtectiveDetail",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#000000> minus 1张缚兵牌。",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张缚兵牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ProtectiveDetail/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ProtectiveDetail",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#000000> minus 1张缚兵牌。",
+      "expected": "发现<sprite name=\"H\" color=#000000>减1张缚兵牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ProtectiveDetail-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ProtectiveDetail",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#FFFFFF> minus 1 Gene-Bound cards.",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张缚兵牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ProtectiveDetail/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ProtectiveDetail",
+      "inCardView": true,
+      "source": "Discover <sprite name=\"H\" color=#FFFFFF> minus 1 Gene-Bound cards.",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张缚兵牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ProtectiveDetail-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ProtectiveDetail",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#FFFFFF> minus 1张缚兵牌。",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张缚兵牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ProtectiveDetail/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ProtectiveDetail",
+      "inCardView": true,
+      "source": "发现<sprite name=\"H\" color=#FFFFFF> minus 1张缚兵牌。",
+      "expected": "发现<sprite name=\"H\" color=#FFFFFF>减1张缚兵牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ThorathianConqueringFleet-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ThorathianConqueringFleet",
+      "inCardView": true,
+      "source": "Then, destroy <sprite name=\"H\" color=#000000> minus 2 Hero Ongoing and/or Item cards.",
+      "expected": "然后，破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ThorathianConqueringFleet/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ThorathianConqueringFleet",
+      "inCardView": true,
+      "source": "Then, destroy <sprite name=\"H\" color=#000000> minus 2 Hero Ongoing and/or Item cards.",
+      "expected": "然后，破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ThorathianConqueringFleet-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ThorathianConqueringFleet",
+      "inCardView": true,
+      "source": "然后，破坏合计<sprite name=\"H\" color=#000000> minus 2张英雄持续牌和／或物品牌。",
+      "expected": "然后，破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ThorathianConqueringFleet/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ThorathianConqueringFleet",
+      "inCardView": true,
+      "source": "然后，破坏合计<sprite name=\"H\" color=#000000> minus 2张英雄持续牌和／或物品牌。",
+      "expected": "然后，破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ThorathianConqueringFleet-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ThorathianConqueringFleet",
+      "inCardView": true,
+      "source": "Then, destroy <sprite name=\"H\" color=#FFFFFF> minus 2 Hero Ongoing and/or Item cards.",
+      "expected": "然后，破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ThorathianConqueringFleet/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ThorathianConqueringFleet",
+      "inCardView": true,
+      "source": "Then, destroy <sprite name=\"H\" color=#FFFFFF> minus 2 Hero Ongoing and/or Item cards.",
+      "expected": "然后，破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ThorathianConqueringFleet-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ThorathianConqueringFleet",
+      "inCardView": true,
+      "source": "然后，破坏合计<sprite name=\"H\" color=#FFFFFF> minus 2张英雄持续牌和／或物品牌。",
+      "expected": "然后，破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/ThorathianConqueringFleet/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "ThorathianConqueringFleet",
+      "inCardView": true,
+      "source": "然后，破坏合计<sprite name=\"H\" color=#FFFFFF> minus 2张英雄持续牌和／或物品牌。",
+      "expected": "然后，破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "OmnitronCharacter",
+      "inCardView": true,
+      "source": "Shuffle the Villain trash into the Villain deck. Discover <sprite name=\"H\" color=#000000> minus 1 Device cards.",
+      "expected": "将反派弃牌堆洗入反派牌库。发现<sprite name=\"H\" color=#000000>减1张装置牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/OmnitronCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "OmnitronCharacter",
+      "inCardView": true,
+      "source": "Shuffle the Villain trash into the Villain deck. Discover <sprite name=\"H\" color=#000000> minus 1 Device cards.",
+      "expected": "将反派弃牌堆洗入反派牌库。发现<sprite name=\"H\" color=#000000>减1张装置牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "OmnitronCharacter",
+      "inCardView": true,
+      "source": "将反派弃牌堆洗入反派牌库。发现<sprite name=\"H\" color=#000000> minus 1张装置牌。",
+      "expected": "将反派弃牌堆洗入反派牌库。发现<sprite name=\"H\" color=#000000>减1张装置牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/OmnitronCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "OmnitronCharacter",
+      "inCardView": true,
+      "source": "将反派弃牌堆洗入反派牌库。发现<sprite name=\"H\" color=#000000> minus 1张装置牌。",
+      "expected": "将反派弃牌堆洗入反派牌库。发现<sprite name=\"H\" color=#000000>减1张装置牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "OmnitronCharacter",
+      "inCardView": true,
+      "source": "Shuffle the Villain trash into the Villain deck. Discover <sprite name=\"H\" color=#FFFFFF> minus 1 Device cards.",
+      "expected": "将反派弃牌堆洗入反派牌库。发现<sprite name=\"H\" color=#FFFFFF>减1张装置牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/OmnitronCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "OmnitronCharacter",
+      "inCardView": true,
+      "source": "Shuffle the Villain trash into the Villain deck. Discover <sprite name=\"H\" color=#FFFFFF> minus 1 Device cards.",
+      "expected": "将反派弃牌堆洗入反派牌库。发现<sprite name=\"H\" color=#FFFFFF>减1张装置牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OmnitronCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "OmnitronCharacter",
+      "inCardView": true,
+      "source": "将反派弃牌堆洗入反派牌库。发现<sprite name=\"H\" color=#FFFFFF> minus 1张装置牌。",
+      "expected": "将反派弃牌堆洗入反派牌库。发现<sprite name=\"H\" color=#FFFFFF>减1张装置牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/OmnitronCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "OmnitronCharacter",
+      "inCardView": true,
+      "source": "将反派弃牌堆洗入反派牌库。发现<sprite name=\"H\" color=#FFFFFF> minus 1张装置牌。",
+      "expected": "将反派弃牌堆洗入反派牌库。发现<sprite name=\"H\" color=#FFFFFF>减1张装置牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView FlechetteLauncher-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FlechetteLauncher",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 2 Hero Ongoing cards.",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减2张英雄持续牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/FlechetteLauncher/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FlechetteLauncher",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 2 Hero Ongoing cards.",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减2张英雄持续牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView FlechetteLauncher-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FlechetteLauncher",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#000000> minus 2张英雄持续牌。",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减2张英雄持续牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/FlechetteLauncher/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FlechetteLauncher",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#000000> minus 2张英雄持续牌。",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减2张英雄持续牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView FlechetteLauncher-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FlechetteLauncher",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 2 Hero Ongoing cards.",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/FlechetteLauncher/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FlechetteLauncher",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 2 Hero Ongoing cards.",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView FlechetteLauncher-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FlechetteLauncher",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#FFFFFF> minus 2张英雄持续牌。",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/FlechetteLauncher/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "FlechetteLauncher",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#FFFFFF> minus 2张英雄持续牌。",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S83AssaultDrones-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S83AssaultDrones",
+      "inCardView": true,
+      "source": "This card deals the 2 Hero targets with the lowest HP <sprite name=\"H\" color=#000000> minus 1 melee damage each.",
+      "expected": "此牌对生命值最低的2个英雄目标各造成<sprite name=\"H\" color=#000000>减1点近战伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/S83AssaultDrones/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S83AssaultDrones",
+      "inCardView": true,
+      "source": "This card deals the 2 Hero targets with the lowest HP <sprite name=\"H\" color=#000000> minus 1 melee damage each.",
+      "expected": "此牌对生命值最低的2个英雄目标各造成<sprite name=\"H\" color=#000000>减1点近战伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S83AssaultDrones-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S83AssaultDrones",
+      "inCardView": true,
+      "source": "此牌对生命值最低的2个英雄目标各造成<sprite name=\"H\" color=#000000> minus 1点近战伤害。",
+      "expected": "此牌对生命值最低的2个英雄目标各造成<sprite name=\"H\" color=#000000>减1点近战伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/S83AssaultDrones/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S83AssaultDrones",
+      "inCardView": true,
+      "source": "此牌对生命值最低的2个英雄目标各造成<sprite name=\"H\" color=#000000> minus 1点近战伤害。",
+      "expected": "此牌对生命值最低的2个英雄目标各造成<sprite name=\"H\" color=#000000>减1点近战伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S83AssaultDrones-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S83AssaultDrones",
+      "inCardView": true,
+      "source": "This card deals the 2 Hero targets with the lowest HP <sprite name=\"H\" color=#FFFFFF> minus 1 melee damage each.",
+      "expected": "此牌对生命值最低的2个英雄目标各造成<sprite name=\"H\" color=#FFFFFF>减1点近战伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/S83AssaultDrones/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S83AssaultDrones",
+      "inCardView": true,
+      "source": "This card deals the 2 Hero targets with the lowest HP <sprite name=\"H\" color=#FFFFFF> minus 1 melee damage each.",
+      "expected": "此牌对生命值最低的2个英雄目标各造成<sprite name=\"H\" color=#FFFFFF>减1点近战伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S83AssaultDrones-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S83AssaultDrones",
+      "inCardView": true,
+      "source": "此牌对生命值最低的2个英雄目标各造成<sprite name=\"H\" color=#FFFFFF> minus 1点近战伤害。",
+      "expected": "此牌对生命值最低的2个英雄目标各造成<sprite name=\"H\" color=#FFFFFF>减1点近战伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/S83AssaultDrones/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S83AssaultDrones",
+      "inCardView": true,
+      "source": "此牌对生命值最低的2个英雄目标各造成<sprite name=\"H\" color=#FFFFFF> minus 1点近战伤害。",
+      "expected": "此牌对生命值最低的2个英雄目标各造成<sprite name=\"H\" color=#FFFFFF>减1点近战伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S84AutomatonDrones-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S84AutomatonDrones",
+      "inCardView": true,
+      "source": "This card deals the 3 Hero targets with the highest HP <sprite name=\"H\" color=#000000> minus 1 energy damage each.",
+      "expected": "此牌对生命值最高的3个英雄目标各造成<sprite name=\"H\" color=#000000>减1点能量伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/S84AutomatonDrones/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S84AutomatonDrones",
+      "inCardView": true,
+      "source": "This card deals the 3 Hero targets with the highest HP <sprite name=\"H\" color=#000000> minus 1 energy damage each.",
+      "expected": "此牌对生命值最高的3个英雄目标各造成<sprite name=\"H\" color=#000000>减1点能量伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S84AutomatonDrones-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S84AutomatonDrones",
+      "inCardView": true,
+      "source": "此牌对生命值最高的3个英雄目标各造成<sprite name=\"H\" color=#000000> minus 1点能量伤害。",
+      "expected": "此牌对生命值最高的3个英雄目标各造成<sprite name=\"H\" color=#000000>减1点能量伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/S84AutomatonDrones/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S84AutomatonDrones",
+      "inCardView": true,
+      "source": "此牌对生命值最高的3个英雄目标各造成<sprite name=\"H\" color=#000000> minus 1点能量伤害。",
+      "expected": "此牌对生命值最高的3个英雄目标各造成<sprite name=\"H\" color=#000000>减1点能量伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S84AutomatonDrones-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S84AutomatonDrones",
+      "inCardView": true,
+      "source": "This card deals the 3 Hero targets with the highest HP <sprite name=\"H\" color=#FFFFFF> minus 1 energy damage each.",
+      "expected": "此牌对生命值最高的3个英雄目标各造成<sprite name=\"H\" color=#FFFFFF>减1点能量伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/S84AutomatonDrones/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S84AutomatonDrones",
+      "inCardView": true,
+      "source": "This card deals the 3 Hero targets with the highest HP <sprite name=\"H\" color=#FFFFFF> minus 1 energy damage each.",
+      "expected": "此牌对生命值最高的3个英雄目标各造成<sprite name=\"H\" color=#FFFFFF>减1点能量伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S84AutomatonDrones-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S84AutomatonDrones",
+      "inCardView": true,
+      "source": "此牌对生命值最高的3个英雄目标各造成<sprite name=\"H\" color=#FFFFFF> minus 1点能量伤害。",
+      "expected": "此牌对生命值最高的3个英雄目标各造成<sprite name=\"H\" color=#FFFFFF>减1点能量伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/S84AutomatonDrones/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S84AutomatonDrones",
+      "inCardView": true,
+      "source": "此牌对生命值最高的3个英雄目标各造成<sprite name=\"H\" color=#FFFFFF> minus 1点能量伤害。",
+      "expected": "此牌对生命值最高的3个英雄目标各造成<sprite name=\"H\" color=#FFFFFF>减1点能量伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S85RepairDrones-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S85RepairDrones",
+      "inCardView": true,
+      "source": "The <sprite name=\"H\" color=#000000> minus 1 Device cards with the lowest HP regain 3 HP each.",
+      "expected": "生命值最低的<sprite name=\"H\" color=#000000>减1张装置牌各恢复3点生命值。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/S85RepairDrones/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S85RepairDrones",
+      "inCardView": true,
+      "source": "The <sprite name=\"H\" color=#000000> minus 1 Device cards with the lowest HP regain 3 HP each.",
+      "expected": "生命值最低的<sprite name=\"H\" color=#000000>减1张装置牌各恢复3点生命值。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S85RepairDrones-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S85RepairDrones",
+      "inCardView": true,
+      "source": "生命值最低的<sprite name=\"H\" color=#000000> minus 1张装置牌各恢复3点生命值。",
+      "expected": "生命值最低的<sprite name=\"H\" color=#000000>减1张装置牌各恢复3点生命值。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/S85RepairDrones/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S85RepairDrones",
+      "inCardView": true,
+      "source": "生命值最低的<sprite name=\"H\" color=#000000> minus 1张装置牌各恢复3点生命值。",
+      "expected": "生命值最低的<sprite name=\"H\" color=#000000>减1张装置牌各恢复3点生命值。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S85RepairDrones-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S85RepairDrones",
+      "inCardView": true,
+      "source": "The <sprite name=\"H\" color=#FFFFFF> minus 1 Device cards with the lowest HP regain 3 HP each.",
+      "expected": "生命值最低的<sprite name=\"H\" color=#FFFFFF>减1张装置牌各恢复3点生命值。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/S85RepairDrones/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S85RepairDrones",
+      "inCardView": true,
+      "source": "The <sprite name=\"H\" color=#FFFFFF> minus 1 Device cards with the lowest HP regain 3 HP each.",
+      "expected": "生命值最低的<sprite name=\"H\" color=#FFFFFF>减1张装置牌各恢复3点生命值。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S85RepairDrones-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S85RepairDrones",
+      "inCardView": true,
+      "source": "生命值最低的<sprite name=\"H\" color=#FFFFFF> minus 1张装置牌各恢复3点生命值。",
+      "expected": "生命值最低的<sprite name=\"H\" color=#FFFFFF>减1张装置牌各恢复3点生命值。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/S85RepairDrones/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "S85RepairDrones",
+      "inCardView": true,
+      "source": "生命值最低的<sprite name=\"H\" color=#FFFFFF> minus 1张装置牌各恢复3点生命值。",
+      "expected": "生命值最低的<sprite name=\"H\" color=#FFFFFF>减1张装置牌各恢复3点生命值。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView SingularityProjector-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "SingularityProjector",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 2 Item cards.",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减2张物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/SingularityProjector/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "SingularityProjector",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 2 Item cards.",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减2张物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView SingularityProjector-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "SingularityProjector",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#000000> minus 2张物品牌。",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减2张物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/SingularityProjector/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "SingularityProjector",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#000000> minus 2张物品牌。",
+      "expected": "破坏<sprite name=\"H\" color=#000000>减2张物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView SingularityProjector-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "SingularityProjector",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 2 Item cards.",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减2张物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/SingularityProjector/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "SingularityProjector",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 2 Item cards.",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减2张物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView SingularityProjector-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "SingularityProjector",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#FFFFFF> minus 2张物品牌。",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减2张物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/SingularityProjector/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "SingularityProjector",
+      "inCardView": true,
+      "source": "破坏<sprite name=\"H\" color=#FFFFFF> minus 2张物品牌。",
+      "expected": "破坏<sprite name=\"H\" color=#FFFFFF>减2张物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView TheMatriarchCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "TheMatriarchCharacter",
+      "inCardView": true,
+      "source": "The Matriarch deals the <sprite name=\"H\" color=#000000> minus 2 Hero targets with the highest HP 3 psychic damage each. Then, if Mask of the Matriarch is in play: <sprite name=\"Flip\" color=#FFFFFF>",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#000000>减2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/TheMatriarchCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "TheMatriarchCharacter",
+      "inCardView": true,
+      "source": "The Matriarch deals the <sprite name=\"H\" color=#000000> minus 2 Hero targets with the highest HP 3 psychic damage each. Then, if Mask of the Matriarch is in play: <sprite name=\"Flip\" color=#FFFFFF>",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#000000>减2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView TheMatriarchCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "TheMatriarchCharacter",
+      "inCardView": true,
+      "source": "The Matriarch对生命值最高的<sprite name=\"H\" color=#000000> minus 2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#000000>减2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/TheMatriarchCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "TheMatriarchCharacter",
+      "inCardView": true,
+      "source": "The Matriarch对生命值最高的<sprite name=\"H\" color=#000000> minus 2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#000000>减2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView TheMatriarchCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "TheMatriarchCharacter",
+      "inCardView": true,
+      "source": "The Matriarch deals the <sprite name=\"H\" color=#FFFFFF> minus 2 Hero targets with the highest HP 3 psychic damage each. Then, if Mask of the Matriarch is in play: <sprite name=\"Flip\" color=#FFFFFF>",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#FFFFFF>减2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/TheMatriarchCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "TheMatriarchCharacter",
+      "inCardView": true,
+      "source": "The Matriarch deals the <sprite name=\"H\" color=#FFFFFF> minus 2 Hero targets with the highest HP 3 psychic damage each. Then, if Mask of the Matriarch is in play: <sprite name=\"Flip\" color=#FFFFFF>",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#FFFFFF>减2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView TheMatriarchCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "TheMatriarchCharacter",
+      "inCardView": true,
+      "source": "The Matriarch对生命值最高的<sprite name=\"H\" color=#FFFFFF> minus 2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#FFFFFF>减2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/TheMatriarchCharacter/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "TheMatriarchCharacter",
+      "inCardView": true,
+      "source": "The Matriarch对生命值最高的<sprite name=\"H\" color=#FFFFFF> minus 2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#FFFFFF>减2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "The Matriarch deals the <sprite name=\"H\" color=#000000> minus 1 Hero targets with the highest HP 2 sonic damage each.",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#000000>减1个英雄目标各造成2点音波伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/HorridCacophony/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "The Matriarch deals the <sprite name=\"H\" color=#000000> minus 1 Hero targets with the highest HP 2 sonic damage each.",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#000000>减1个英雄目标各造成2点音波伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "The Matriarch对生命值最高的<sprite name=\"H\" color=#000000> minus 1个英雄目标各造成2点音波伤害。",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#000000>减1个英雄目标各造成2点音波伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/HorridCacophony/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "The Matriarch对生命值最高的<sprite name=\"H\" color=#000000> minus 1个英雄目标各造成2点音波伤害。",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#000000>减1个英雄目标各造成2点音波伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "The Matriarch deals the <sprite name=\"H\" color=#FFFFFF> minus 1 Hero targets with the highest HP 2 sonic damage each.",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#FFFFFF>减1个英雄目标各造成2点音波伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/HorridCacophony/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "The Matriarch deals the <sprite name=\"H\" color=#FFFFFF> minus 1 Hero targets with the highest HP 2 sonic damage each.",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#FFFFFF>减1个英雄目标各造成2点音波伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "The Matriarch对生命值最高的<sprite name=\"H\" color=#FFFFFF> minus 1个英雄目标各造成2点音波伤害。",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#FFFFFF>减1个英雄目标各造成2点音波伤害。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/HorridCacophony/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "The Matriarch对生命值最高的<sprite name=\"H\" color=#FFFFFF> minus 1个英雄目标各造成2点音波伤害。",
+      "expected": "鸦母对生命值最高的<sprite name=\"H\" color=#FFFFFF>减1个英雄目标各造成2点音波伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 2 Hero Ongoing and/or Item cards.",
+      "expected": "破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/HorridCacophony/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#000000> minus 2 Hero Ongoing and/or Item cards.",
+      "expected": "破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "破坏合计<sprite name=\"H\" color=#000000> minus 2张英雄持续牌和／或物品牌。",
+      "expected": "破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/HorridCacophony/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "破坏合计<sprite name=\"H\" color=#000000> minus 2张英雄持续牌和／或物品牌。",
+      "expected": "破坏合计<sprite name=\"H\" color=#000000>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 2 Hero Ongoing and/or Item cards.",
+      "expected": "破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/HorridCacophony/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "Destroy <sprite name=\"H\" color=#FFFFFF> minus 2 Hero Ongoing and/or Item cards.",
+      "expected": "破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "破坏合计<sprite name=\"H\" color=#FFFFFF> minus 2张英雄持续牌和／或物品牌。",
+      "expected": "破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/HorridCacophony/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "HorridCacophony",
+      "inCardView": true,
+      "source": "破坏合计<sprite name=\"H\" color=#FFFFFF> minus 2张英雄持续牌和／或物品牌。",
+      "expected": "破坏合计<sprite name=\"H\" color=#FFFFFF>减2张英雄持续牌和／或物品牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView AkashBhutaCharacter-0 FullCardFront/Setup Label",
+      "objectName": "Setup Label",
+      "cardId": "AkashBhutaCharacter",
+      "inCardView": true,
+      "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张原肢牌。",
+      "expected": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF>减1张原肢牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Selected Item(s)/AkashBhuta/AkashBhutaCharacter/Setup Label",
+      "objectName": "Setup Label",
+      "cardId": "AkashBhutaCharacter",
+      "inCardView": true,
+      "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张原肢牌。",
+      "expected": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF>减1张原肢牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Selected Item(s)/CitizenDawn/CitizenDawnCharacter/Setup Label",
+      "objectName": "Setup Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张光民牌。",
+      "expected": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF>减1张光民牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Setup Label",
+      "objectName": "Setup Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张光民牌。",
+      "expected": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF>减1张光民牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Setup Label",
+      "objectName": "Setup Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张光民牌。",
+      "expected": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF>减1张光民牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Setup Label",
+      "objectName": "Setup Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张光民牌。\r\n",
+      "expected": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF>减1张光民牌。\r\n"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Setup Label",
+      "objectName": "Setup Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张光民牌。\n",
+      "expected": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF>减1张光民牌。\n"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Setup Label",
+      "objectName": "Setup Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张光民牌。\\r\\n",
+      "expected": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF>减1张光民牌。\\r\\n"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Setup Label",
+      "objectName": "Setup Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FF0000> minus 1张光民牌。",
+      "expected": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FF0000> minus 1张光民牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Setup Label",
+      "objectName": "Setup Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 2张光民牌。",
+      "expected": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 2张光民牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Setup Label",
+      "objectName": "Setup Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> plus 1张光民牌。",
+      "expected": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> plus 1张光民牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Setup Label",
+      "objectName": "Setup Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张光民牌。 Extra.",
+      "expected": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张光民牌。 Extra."
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Setup Label",
+      "objectName": "Setup Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "<b><i>Setup</i></b>: 发现<sprite name=\"Other\" color=#FFFFFF> minus 1张光民牌。",
+      "expected": "<b><i>准备</i></b>: 发现<sprite name=\"Other\" color=#FFFFFF> minus 1张光民牌。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView GrandWarlordVossCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "GrandWarlordVossCharacter",
+      "inCardView": true,
+      "source": "Grand Warlord Voss对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF> minus 1点能量伤害。Grand Warlord Voss对生命值最低的英雄目标造成<sprite name=\"H\" color=#000000> minus 2点火焰伤害。",
+      "expected": "大军阀沃斯对生命值最高的英雄目标造成<sprite name=\"H\" color=#FFFFFF>减1点能量伤害。大军阀沃斯对生命值最低的英雄目标造成<sprite name=\"H\" color=#000000>减2点火焰伤害。"
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CitizenDawnCharacter-0 FullCardFront/Body Box/Body Label",
+      "objectName": "Body Label",
+      "cardId": "CitizenDawnCharacter",
+      "inCardView": true,
+      "source": "Citizen Dawn对生命值最高的英雄目标造成<b>*+4*</b>点能量伤害。",
+      "expected": "黎明公民对生命值最高的英雄目标造成<b>*+4*</b>点能量伤害。"
+    }
+  ]
+}

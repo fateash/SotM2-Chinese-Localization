@@ -219,7 +219,12 @@
     "hint.put.hand": "点击一位英雄的手牌区，将{0}加入其手牌。",
     "hint.reduce.single": "点击一个目标，减少其受到的伤害。",
     "hint.hero.draw.count": "点击一位英雄，使其抽{0}张牌。",
-    "hint.choose.number": "点击一个按钮，选择一个数字。"
+    "hint.choose.number": "点击一个按钮，选择一个数字。",
+    "newgame.choose.heroes": "选择3至5位英雄",
+    "newgame.choose.villain": "选择一名反派",
+    "newgame.choose.environment": "选择一个环境",
+    "newgame.rating.difficulty": "难度：{0}",
+    "newgame.rating.peril": "危险度：{0}"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",

@@ -15,6 +15,8 @@ public sealed class DynamicDisplayRules {
  readonly Dictionary<string,string> templates;
  readonly Func<string,string> resolveName;
  static readonly Dictionary<string,(int Args,string Tags)> Specs=new(){
+  ["newgame.choose.heroes"]=(0,""),["newgame.choose.villain"]=(0,""),["newgame.choose.environment"]=(0,""),
+  ["newgame.rating.difficulty"]=(1,""),["newgame.rating.peril"]=(1,""),
   ["hint.destroy.play.under.upto"]=(3,""),["hint.destroy.play.under.upto.first"]=(3,""),["hint.destroy.play.under.exact.first"]=(3,""),
   ["hint.card.replace"]=(0,""),
   ["hint.hero.discard.hand"]=(0,""),
@@ -301,6 +303,16 @@ public sealed class DynamicDisplayRules {
  public string Glyphs()=>string.Concat(templates.Values)+string.Concat(DamageNames.Values)+string.Concat(PhaseNames.Values)+"在场";
  public string? Apply(string path,string source){
   if(string.IsNullOrEmpty(source) || source.Length>2048)return null;
+  if(path=="Canvas/Available Area Popup/Available Area/Title Label")
+   return source switch {"Choose 3 to 5 Heroes"=>Format("newgame.choose.heroes"),"Choose a Villain"=>Format("newgame.choose.villain"),"Choose an Environment"=>Format("newgame.choose.environment"),_=>null};
+  // Scene level3 serialized Rating Label paths; numeric-only available-item ratings stay protected.
+  string? rating=path switch {
+   "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label"=>"difficulty",
+   "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label"=>"peril",_=>null};
+  if(rating!=null){
+   var value=Regex.Match(source,"\\A"+(rating=="difficulty"?"Difficulty":"Peril")+@": (?<n>[0-9]{1,6})\z",RegexOptions.CultureInvariant);
+   return value.Success?Format("newgame.rating."+rating,value.Groups["n"].Value):null;
+  }
   if(ScopedButtons.TryGetValue(path,out var button) && source==button.Source)return Format(button.Template);
   if(path==CardsUnderPath || path==CardsNextToPath){
    var cards=RelatedCards.Match(source);

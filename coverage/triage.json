@@ -1542,10 +1542,15 @@
     {
       "id": "7da6848c3e8b8ed5aab07fee",
       "reviewedReason": "unresolved-full-string",
-      "disposition": "fixed-text-stage-2",
-      "reason": "游戏配置、模式或结果页面的固定标题／选项文字，属于非卡组固定文本。",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.33截图／完整日志确认显示遗漏；准备栏此前仅标题中文，不代表整个正文完成。",
       "owner": "本地化维护者",
-      "nextAction": "第二阶段按实际控件身份和完整原文接入，检查布局。"
+      "nextAction": "复查0.1.34选项标题、白色H算式及实际准备结算。",
+      "resolution": {
+        "version": "0.1.34-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#new-game-selection-labels"
+      }
     },
     {
       "id": "7dcd90ac356be2cefce19e9c",
@@ -2002,10 +2007,15 @@
     {
       "id": "a5df4e675b88cbc9b722badb",
       "reviewedReason": "unresolved-full-string",
-      "disposition": "fixed-text-stage-2",
-      "reason": "游戏配置、模式或结果页面的固定标题／选项文字，属于非卡组固定文本。",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.33截图／完整日志确认显示遗漏；准备栏此前仅标题中文，不代表整个正文完成。",
       "owner": "本地化维护者",
-      "nextAction": "第二阶段按实际控件身份和完整原文接入，检查布局。"
+      "nextAction": "复查0.1.34选项标题、白色H算式及实际准备结算。",
+      "resolution": {
+        "version": "0.1.34-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#new-game-selection-labels"
+      }
     },
     {
       "id": "a6230170e9d9b5ffc819688a",
@@ -2135,10 +2145,15 @@
     {
       "id": "ae32d6241cb436d415153835",
       "reviewedReason": "unresolved-full-string",
-      "disposition": "fixed-text-stage-2",
-      "reason": "游戏配置、模式或结果页面的固定标题／选项文字，属于非卡组固定文本。",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.33截图／完整日志确认显示遗漏；准备栏此前仅标题中文，不代表整个正文完成。",
       "owner": "本地化维护者",
-      "nextAction": "第二阶段按实际控件身份和完整原文接入，检查布局。"
+      "nextAction": "复查0.1.34选项标题、白色H算式及实际准备结算。",
+      "resolution": {
+        "version": "0.1.34-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#new-game-selection-labels"
+      }
     },
     {
       "id": "ae3926d871a33c64408c6ab4",
@@ -3634,6 +3649,58 @@
       "reason": "光速连击已翻译正文，仅余规则变量X；不替换变量或更改规则数字。",
       "owner": "本地化维护者",
       "nextAction": "保留变量；不据此提升实机操作验收。"
+    },
+    {
+      "id": "43d16921870f203cbeaecb25",
+      "reviewedReason": "current-rule-match",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.33截图／完整日志确认显示遗漏；准备栏此前仅标题中文，不代表整个正文完成。",
+      "owner": "本地化维护者",
+      "nextAction": "复查0.1.34选项标题、白色H算式及实际准备结算。",
+      "resolution": {
+        "version": "0.1.34-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-count-sprite-colors"
+      }
+    },
+    {
+      "id": "b04e3995724e0b088d4cb53e",
+      "reviewedReason": "current-rule-match",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.33截图／完整日志确认显示遗漏；准备栏此前仅标题中文，不代表整个正文完成。",
+      "owner": "本地化维护者",
+      "nextAction": "复查0.1.34选项标题、白色H算式及实际准备结算。",
+      "resolution": {
+        "version": "0.1.34-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-count-sprite-colors"
+      }
+    },
+    {
+      "id": "b5c8c1c44659b394dd93b4b9",
+      "reviewedReason": "current-rule-match",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.33截图／完整日志确认显示遗漏；准备栏此前仅标题中文，不代表整个正文完成。",
+      "owner": "本地化维护者",
+      "nextAction": "复查0.1.34选项标题、白色H算式及实际准备结算。",
+      "resolution": {
+        "version": "0.1.34-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-count-sprite-colors"
+      }
+    },
+    {
+      "id": "d3a88d647d7801f7d4f9339a",
+      "reviewedReason": "current-rule-match",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.33截图／完整日志确认显示遗漏；准备栏此前仅标题中文，不代表整个正文完成。",
+      "owner": "本地化维护者",
+      "nextAction": "复查0.1.34选项标题、白色H算式及实际准备结算。",
+      "resolution": {
+        "version": "0.1.34-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-count-sprite-colors"
+      }
     }
   ]
 }
