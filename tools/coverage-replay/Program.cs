@@ -33,7 +33,9 @@ var contexts=contracts.RootElement.GetProperty("families").EnumerateArray()
  .Where(c=>c.TryGetProperty("case",out _)).Select(c=>c.GetProperty("case")).ToArray();
 foreach(var c in contexts){
  bool dynamicOnly=c.TryGetProperty("matchLayer",out var layer) && layer.GetString()=="dynamic";
- var actual=dynamicOnly?Dynamic(c,Str(c,"source")):Match(c,Str(c,"source"));
+ bool logoOnly=c.TryGetProperty("matchLayer",out var logoLayer) && logoLayer.GetString()=="villain-logo";
+ var actual=logoOnly?(VillainLogoRules.CanReplace(Str(c,"expectedSprite"),Str(c,"source"),c.GetProperty("boundLogo").GetBoolean())?"SotM2ZH."+Str(c,"source"):null)
+  :dynamicOnly?Dynamic(c,Str(c,"source")):Match(c,Str(c,"source"));
  if(dynamicOnly && Match(c,Str(c,"source"))!=Str(c,"integratedExpected"))
   throw new InvalidDataException("Integrated catalog contract failed: "+Str(c,"path")+" / "+Str(c,"source"));
  var expected=c.GetProperty("expected").ValueKind==JsonValueKind.Null?null:Str(c,"expected");

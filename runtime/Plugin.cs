@@ -14,7 +14,7 @@ using Handelabra.Sentinels2.Engine.Controller;
 using UObj=UnityEngine.Object;
 namespace SotM2Chinese;
 
-[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.42")]
+[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.43")]
 public sealed class Plugin:BasePlugin {
  internal static Plugin Instance=null!;
  internal static Catalog Texts=new();
@@ -32,7 +32,7 @@ public sealed class Plugin:BasePlugin {
   var surfacePath=Path.Combine(Root,"surface-probe.json");
   if(File.Exists(surfacePath)){Surface=new SurfaceProbe(surfacePath);Log.LogInfo("SURFACE_PROBE_ENABLED configured-pilot bounded-capture");}
   UiSources=new HashSet<string>(Texts.Ui.Select(e=>e.Source),StringComparer.Ordinal);
-  Log.LogInfo("PROTOTYPE_LOADED 0.1.42-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
+  Log.LogInfo("PROTOTYPE_LOADED 0.1.43-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
   // Resolve types/methods without patching the game model or rule engine.
   var method=typeof(TextHelper).GetMethods().Single(m=>m.Name=="ReplaceTemplatesAndInsertSpecifics"&&m.GetParameters().Length==8);
   Log.LogInfo("DISPLAY_METHOD_RESOLVED "+method);
@@ -40,6 +40,14 @@ public sealed class Plugin:BasePlugin {
   if(Chinese) {
    var harmony=new Harmony("sotm2.zh.prototype");
    harmony.Patch(method,prefix:new HarmonyMethod(typeof(Plugin),nameof(CardPrefix)));
+   try {
+    var logo=typeof(CardView).GetMethods(BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic)
+     .Single(m=>m.Name=="GetLogoImageSpriteName" && m.GetParameters().Length==2);
+    harmony.Patch(logo,postfix:new HarmonyMethod(typeof(Plugin),nameof(LogoNameResolved)));
+    var sprite=typeof(UnityEngine.UI.Image).GetProperty("sprite")!.GetSetMethod()!;
+    harmony.Patch(sprite,prefix:new HarmonyMethod(typeof(Plugin),nameof(LogoSpriteInput)));
+    Log.LogInfo("VILLAIN_LOGO_HOOK_INSTALLED exact-name + bound-LogoImage");
+   }catch(Exception e){Log.LogWarning("VILLAIN_LOGO_HOOK_FALLBACK original artwork retained: "+e);}
    // This build writes card titles through the virtual text property setter.
    // SetText(string) and SetText(string,bool) share one native address: patch it once.
    foreach(var entry in new[]{
@@ -73,12 +81,20 @@ public sealed class Plugin:BasePlugin {
  public static void RegisterEnvironmentBack(CardBackView __instance){
   try {Surface?.TrackBackView(__instance);}catch(Exception e){Once("track-back-error","ENVIRONMENT_TITLE_TRACK_ERROR "+e);}
  }
+ public static void LogoNameResolved(CardView __instance,string __result){
+  try {VillainLogos.Expect(__instance,__result);}catch(Exception e){Once("logo-name-error","VILLAIN_LOGO_NAME_ERROR "+e);}
+ }
+ public static void LogoSpriteInput(UnityEngine.UI.Image __instance,ref Sprite __0){
+  try {VillainLogos.BeforeSprite(__instance,ref __0);}catch(Exception e){Once("logo-sprite-error","VILLAIN_LOGO_SPRITE_ERROR "+e);}
+ }
  [ThreadStatic] private static bool inCanvas;
  public static void BeforeCanvasRender(){
   if(!Chinese || inCanvas)return;
   inCanvas=true;
   try {Surface?.RefreshTrackedBackViews();}
   catch(Exception e){Once("canvas-title-error","ENVIRONMENT_TITLE_CANVAS_ERROR "+e);}
+  try {VillainLogos.Refresh();}
+  catch(Exception e){Once("canvas-logo-error","VILLAIN_LOGO_CANVAS_ERROR "+e);}
   finally {inCanvas=false;}
  }
  internal static readonly Dictionary<string,string> LastCardState=new(StringComparer.Ordinal);
@@ -198,6 +214,7 @@ public sealed class ProbeBehaviour:MonoBehaviour {
    Plugin.Once("callback-entry","UNITY_CALLBACK_ENTER before Unity API calls");
    if(stopped) return;
    if(Plugin.Chinese)FontSupport.EnsureReady();
+   if(Plugin.Chinese)VillainLogos.Prepare();
    long now=System.Diagnostics.Stopwatch.GetTimestamp();
    if(now<next) return;
    next=now+System.Diagnostics.Stopwatch.Frequency;
@@ -219,6 +236,7 @@ public sealed class ProbeBehaviour:MonoBehaviour {
    Plugin.Once("scan","UI_SCAN_OK activeTMP="+active+" legacyUI="+Resources.FindObjectsOfTypeAll<UnityEngine.UI.Text>().Length);
    if(active>0) Plugin.Once("active-ui","ACTIVE_UI_FOUND count="+active);
    Plugin.Surface?.UpdateBackViews();
+   try {VillainLogos.Refresh();}catch(Exception e){Plugin.Once("logo-update-error","VILLAIN_LOGO_UPDATE_ERROR "+e);}
    FontSupport.KeepFontAlive();
   } catch(Exception ex) { Plugin.Ready=false; Plugin.Once("update-error", "UPDATE_ERROR "+ex); stopped=true; }
  }

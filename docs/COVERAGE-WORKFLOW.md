@@ -162,3 +162,12 @@ python3 tools/coverage_audit.py check --require-stage-1-complete
 `coverage/acceptance-closeout-0.1.42.json`保存授权原文与本次范围。五份已归档的采集上限会话逐一匹配文件名、SHA256、版本及构建；`gate-waivers.json`中的独立`closureApproval`允许该会话的采集上限同时退出收尾阻断。旧的仅合并放行仍不足以退出收尾阻断。原始issues、captureLimitReached、exhaustive及其他问题保持原样；新会话、身份变化和其他错误不会继承放行。
 
 本次关闭现有人工验收和历史采集阻断，后续实机新发现另建问题。历史库存技术审核与玩家安装包构建另行维护；本次不改变运行DLL、游戏数值、译文或诊断行为，无需重新安装。下一项工作为六个基础反派角色大卡的中文字标。
+
+
+### 0.1.43六基础反派图片字标
+
+六款图稿已获用户初审通过，刀锋男爵使用横向延长加撇笔刀锋的双刃版。`art/villain-logos/manifest.json`绑定原图SHA256和精确源字标名称；构建只做透明留白裁定、等比适配原字标尺寸、RGBA上下翻转和压缩编码，不重绘图稿。
+
+仅当GetLogoImageSpriteName返回许可名、实际sprite名称吻合、Image确实为该CardView.LogoImage时替换；不改变名称返回值、RectTransform、UI层级、材质、颜色、raycastTarget或游戏模型。异步资源写入在Image.sprite入口替换；绑定较晚时在已有Canvas绘制前回补，Unity Update保留备用。场景销毁清理跟踪引用，纹理与Sprite保活；同控件复用先恢复旧原图，再等待新身份及原资源匹配。资源损坏保留原图。
+
+新增31个合成资源映射契约及3个代表性实机验收场景；它们不借用已关闭的38项文字验收，也不新增历史采集阻断。离线契约仅证明规则范围，不证明实际布局或首次呈现时序。全套脚本、运行回归、覆盖审计及新资源安装／恢复验证后交付实机测试。

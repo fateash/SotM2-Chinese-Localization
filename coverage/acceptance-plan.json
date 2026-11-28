@@ -1259,6 +1259,41 @@
       "scenarios": [],
       "kind": "inventory-review",
       "reviewTask": "对未接入的日志／状态片段确定实际调用方与完整句"
+    },
+    {
+      "id": "villain-logo-art",
+      "kind": "live-functional",
+      "purpose": "六个基础反派图片字标：新视觉批次，独立于已收束文字验收",
+      "families": [
+        "villain-logo-art"
+      ],
+      "inventoryKeys": [],
+      "representativeCases": [
+        {
+          "family": "villain-logo-art",
+          "id": "BaronBlade-front"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "six-villains",
+          "check": "六基础反派原有字标的位置，角色大卡正反面、缩放",
+          "passCriteria": "六个中文名称无错字；字形、透明边缘、比例正确，无遮挡正文／生命值，刀锋刃尖不裁切",
+          "status": "pending"
+        },
+        {
+          "id": "reuse",
+          "check": "快速切换反派、英雄／变体、翻面、撤销",
+          "passCriteria": "不串图、不闪回英文；其他角色和非字标图片不变",
+          "status": "pending"
+        },
+        {
+          "id": "reload",
+          "check": "回主菜单、进入牌局、保存读档与重启",
+          "passCriteria": "字标持续可见，按钮及数值行为正常",
+          "status": "pending"
+        }
+      ]
     }
   ],
   "closeout": {

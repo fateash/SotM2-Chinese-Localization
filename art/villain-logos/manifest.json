@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "owner": "BaronBlade",
+      "name": "刀锋男爵",
+      "sprite": "BaronBladeCharacterLogo",
+      "file": "BaronBlade.png",
+      "width": 1000,
+      "height": 328,
+      "sourceSha256": "ed1660cef9cfc8b7f0e708a77c745b140414deb9b5352ff4bf93f2743ef16c87",
+      "artReview": "user-approved-initial-review",
+      "liveStatus": "pending-0.1.43"
+    },
+    {
+      "owner": "AkashBhuta",
+      "name": "阿卡什怖妲",
+      "sprite": "AkashBhutaCharacterLogo",
+      "file": "AkashBhuta.png",
+      "width": 1000,
+      "height": 197,
+      "sourceSha256": "23498c6b6a18b7260a49af137f0220d57dad16b682e4c20d7ae90aa1e1e863d0",
+      "artReview": "user-approved-initial-review",
+      "liveStatus": "pending-0.1.43"
+    },
+    {
+      "owner": "CitizenDawn",
+      "name": "黎明公民",
+      "sprite": "CitizenDawnCharacterLogo",
+      "file": "CitizenDawn.png",
+      "width": 986,
+      "height": 700,
+      "sourceSha256": "da3a1c1f13a2ea7a5be66945d39ae03ea991413bb99d23062873cdc487767411",
+      "artReview": "user-approved-initial-review",
+      "liveStatus": "pending-0.1.43"
+    },
+    {
+      "owner": "GrandWarlordVoss",
+      "name": "大军阀沃斯",
+      "sprite": "GrandWarlordVossCharacterLogo",
+      "file": "GrandWarlordVoss.png",
+      "width": 1000,
+      "height": 580,
+      "sourceSha256": "c63f2a3ae3820a89fe0da9ce91c60d8b20e6b121fe55418e05c3a16504396229",
+      "artReview": "user-approved-initial-review",
+      "liveStatus": "pending-0.1.43"
+    },
+    {
+      "owner": "Omnitron",
+      "name": "全能智创",
+      "sprite": "OmnitronCharacterLogo",
+      "file": "Omnitron.png",
+      "width": 1000,
+      "height": 167,
+      "sourceSha256": "9a7323f2227d1b4c928f9f16f48f9b4432bf5f9efc8ec970d65b4406d503bde2",
+      "artReview": "user-approved-initial-review",
+      "liveStatus": "pending-0.1.43"
+    },
+    {
+      "owner": "TheMatriarch",
+      "name": "鸦母",
+      "sprite": "TheMatriarchCharacterLogo",
+      "file": "TheMatriarch.png",
+      "width": 1000,
+      "height": 403,
+      "sourceSha256": "28b5298c617dc1533572441b79790377815a1e6d35bd669fa5e2fa453fc6e284",
+      "artReview": "user-approved-initial-review",
+      "liveStatus": "pending-0.1.43"
+    }
+  ]
+}

@@ -4,11 +4,13 @@
     "runtime/DynamicDisplayRules.cs": "40be92427a155263d018b69eba7333187db024c6267a45341b88a49c295a7876",
     "runtime/SurfaceProbeRules.cs": "db102d9602726895b44ffdffe143016543c811d49781377b71bdbbf848c3c46e",
     "runtime/SurfaceProbe.cs": "c1e1fd8604d2ac362f39d6a0748823980fb9ca29055f1be026ae941dfc1441af",
-    "runtime/Plugin.cs": "4889b7b9a4a3a114f2712a98a4d129442d5d5104f4814d715cd6c556f399d970",
+    "runtime/Plugin.cs": "ffd656472696bf66862373e36812831ea3ac8b05d11b109701ab5270e4597f96",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
     "probe/dynamic-pilot.json": "8a393faca6a8bb23bdbf258268fb83e4fe7108fab5aa0a65996e366f2e2360c2",
     "runtime/RenderedDisplayRules.cs": "0fbdb89da7c7995c1fb1fa1e924853f2887220230eb443051d4b263042bef900",
-    "runtime/EnvironmentTitleFont.cs": "6a83ff32aba9e014a85fa58f243e6872570fb907ec0132828e173da48fe78796"
+    "runtime/EnvironmentTitleFont.cs": "6a83ff32aba9e014a85fa58f243e6872570fb907ec0132828e173da48fe78796",
+    "runtime/VillainLogoRules.cs": "a60a35f1dc9ad9d6a77218c0a12b1e5433a3c6ace8377744a70fd4c0f6fb5dee",
+    "runtime/VillainLogos.cs": "12083c91670eb495e7cf014ed2805d23e71e3d9b6b8895bf631062b0753cd030"
   },
   "families": [
     {
@@ -69969,6 +69971,601 @@
             "cardId": "",
             "source": "<style=AbilityHeading><sprite name=\"Perform\"> <b>演奏</b></style>",
             "expected": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "villain-logo-art",
+      "templates": [],
+      "contexts": [
+        {
+          "id": "BaronBlade-front",
+          "status": "offline-covered",
+          "view": "character-front",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "合成资源映射契约；若该面显示该字标则替换，不宣称实机观察或该面必有字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "BaronBladeCharacterLogo",
+            "expected": "SotM2ZH.BaronBladeCharacterLogo",
+            "matchLayer": "villain-logo",
+            "expectedSprite": "BaronBladeCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "BaronBlade-flipped",
+          "status": "offline-covered",
+          "view": "character-flipped",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "合成资源映射契约；若该面显示该字标则替换，不宣称实机观察或该面必有字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "BaronBladeCharacterLogo",
+            "expected": "SotM2ZH.BaronBladeCharacterLogo",
+            "matchLayer": "villain-logo",
+            "expectedSprite": "BaronBladeCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "BaronBlade-other-image",
+          "status": "excluded",
+          "view": "unbound-image",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "同名字标不授权替换未绑定的图片控件。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "BaronBladeCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "BaronBladeCharacterLogo",
+            "boundLogo": false
+          }
+        },
+        {
+          "id": "BaronBlade-stale-pool",
+          "status": "excluded",
+          "view": "reused-view",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "新角色身份不匹配时不沿用旧字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "BaronBladeCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "LegacyLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "AkashBhuta-front",
+          "status": "offline-covered",
+          "view": "character-front",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "合成资源映射契约；若该面显示该字标则替换，不宣称实机观察或该面必有字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "AkashBhutaCharacterLogo",
+            "expected": "SotM2ZH.AkashBhutaCharacterLogo",
+            "matchLayer": "villain-logo",
+            "expectedSprite": "AkashBhutaCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "AkashBhuta-flipped",
+          "status": "offline-covered",
+          "view": "character-flipped",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "合成资源映射契约；若该面显示该字标则替换，不宣称实机观察或该面必有字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "AkashBhutaCharacterLogo",
+            "expected": "SotM2ZH.AkashBhutaCharacterLogo",
+            "matchLayer": "villain-logo",
+            "expectedSprite": "AkashBhutaCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "AkashBhuta-other-image",
+          "status": "excluded",
+          "view": "unbound-image",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "同名字标不授权替换未绑定的图片控件。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "AkashBhutaCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "AkashBhutaCharacterLogo",
+            "boundLogo": false
+          }
+        },
+        {
+          "id": "AkashBhuta-stale-pool",
+          "status": "excluded",
+          "view": "reused-view",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "新角色身份不匹配时不沿用旧字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "AkashBhutaCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "LegacyLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "CitizenDawn-front",
+          "status": "offline-covered",
+          "view": "character-front",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "合成资源映射契约；若该面显示该字标则替换，不宣称实机观察或该面必有字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "CitizenDawnCharacterLogo",
+            "expected": "SotM2ZH.CitizenDawnCharacterLogo",
+            "matchLayer": "villain-logo",
+            "expectedSprite": "CitizenDawnCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "CitizenDawn-flipped",
+          "status": "offline-covered",
+          "view": "character-flipped",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "合成资源映射契约；若该面显示该字标则替换，不宣称实机观察或该面必有字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "CitizenDawnCharacterLogo",
+            "expected": "SotM2ZH.CitizenDawnCharacterLogo",
+            "matchLayer": "villain-logo",
+            "expectedSprite": "CitizenDawnCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "CitizenDawn-other-image",
+          "status": "excluded",
+          "view": "unbound-image",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "同名字标不授权替换未绑定的图片控件。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "CitizenDawnCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "CitizenDawnCharacterLogo",
+            "boundLogo": false
+          }
+        },
+        {
+          "id": "CitizenDawn-stale-pool",
+          "status": "excluded",
+          "view": "reused-view",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "新角色身份不匹配时不沿用旧字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "CitizenDawnCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "LegacyLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "GrandWarlordVoss-front",
+          "status": "offline-covered",
+          "view": "character-front",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "合成资源映射契约；若该面显示该字标则替换，不宣称实机观察或该面必有字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "GrandWarlordVossCharacterLogo",
+            "expected": "SotM2ZH.GrandWarlordVossCharacterLogo",
+            "matchLayer": "villain-logo",
+            "expectedSprite": "GrandWarlordVossCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "GrandWarlordVoss-flipped",
+          "status": "offline-covered",
+          "view": "character-flipped",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "合成资源映射契约；若该面显示该字标则替换，不宣称实机观察或该面必有字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "GrandWarlordVossCharacterLogo",
+            "expected": "SotM2ZH.GrandWarlordVossCharacterLogo",
+            "matchLayer": "villain-logo",
+            "expectedSprite": "GrandWarlordVossCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "GrandWarlordVoss-other-image",
+          "status": "excluded",
+          "view": "unbound-image",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "同名字标不授权替换未绑定的图片控件。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "GrandWarlordVossCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "GrandWarlordVossCharacterLogo",
+            "boundLogo": false
+          }
+        },
+        {
+          "id": "GrandWarlordVoss-stale-pool",
+          "status": "excluded",
+          "view": "reused-view",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "新角色身份不匹配时不沿用旧字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "GrandWarlordVossCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "LegacyLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "Omnitron-front",
+          "status": "offline-covered",
+          "view": "character-front",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "合成资源映射契约；若该面显示该字标则替换，不宣称实机观察或该面必有字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "OmnitronCharacterLogo",
+            "expected": "SotM2ZH.OmnitronCharacterLogo",
+            "matchLayer": "villain-logo",
+            "expectedSprite": "OmnitronCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "Omnitron-flipped",
+          "status": "offline-covered",
+          "view": "character-flipped",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "合成资源映射契约；若该面显示该字标则替换，不宣称实机观察或该面必有字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "OmnitronCharacterLogo",
+            "expected": "SotM2ZH.OmnitronCharacterLogo",
+            "matchLayer": "villain-logo",
+            "expectedSprite": "OmnitronCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "Omnitron-other-image",
+          "status": "excluded",
+          "view": "unbound-image",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "同名字标不授权替换未绑定的图片控件。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "OmnitronCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "OmnitronCharacterLogo",
+            "boundLogo": false
+          }
+        },
+        {
+          "id": "Omnitron-stale-pool",
+          "status": "excluded",
+          "view": "reused-view",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "新角色身份不匹配时不沿用旧字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "OmnitronCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "LegacyLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "TheMatriarch-front",
+          "status": "offline-covered",
+          "view": "character-front",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "合成资源映射契约；若该面显示该字标则替换，不宣称实机观察或该面必有字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "TheMatriarchCharacterLogo",
+            "expected": "SotM2ZH.TheMatriarchCharacterLogo",
+            "matchLayer": "villain-logo",
+            "expectedSprite": "TheMatriarchCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "TheMatriarch-flipped",
+          "status": "offline-covered",
+          "view": "character-flipped",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "合成资源映射契约；若该面显示该字标则替换，不宣称实机观察或该面必有字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "TheMatriarchCharacterLogo",
+            "expected": "SotM2ZH.TheMatriarchCharacterLogo",
+            "matchLayer": "villain-logo",
+            "expectedSprite": "TheMatriarchCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "TheMatriarch-other-image",
+          "status": "excluded",
+          "view": "unbound-image",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "同名字标不授权替换未绑定的图片控件。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "TheMatriarchCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "TheMatriarchCharacterLogo",
+            "boundLogo": false
+          }
+        },
+        {
+          "id": "TheMatriarch-stale-pool",
+          "status": "excluded",
+          "view": "reused-view",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "新角色身份不匹配时不沿用旧字标。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "TheMatriarchCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "LegacyLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "excluded-CosmicOmnitronCharacterLogo",
+          "status": "excluded",
+          "view": "other-art",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "变体、英雄、立绘、空资源不在基础六字标许可表内。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "CosmicOmnitronCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "CosmicOmnitronCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "excluded-SunriseCitizenDawnCharacterLogo",
+          "status": "excluded",
+          "view": "other-art",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "变体、英雄、立绘、空资源不在基础六字标许可表内。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "SunriseCitizenDawnCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "SunriseCitizenDawnCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "excluded-AkashMechaCharacterLogo",
+          "status": "excluded",
+          "view": "other-art",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "变体、英雄、立绘、空资源不在基础六字标许可表内。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "AkashMechaCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "AkashMechaCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "excluded-MadBomberBaronBladeCharacterLogo",
+          "status": "excluded",
+          "view": "other-art",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "变体、英雄、立绘、空资源不在基础六字标许可表内。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "MadBomberBaronBladeCharacterLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "MadBomberBaronBladeCharacterLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "excluded-LegacyLogo",
+          "status": "excluded",
+          "view": "other-art",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "变体、英雄、立绘、空资源不在基础六字标许可表内。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "LegacyLogo",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "LegacyLogo",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "excluded-BaronBladeCharacter",
+          "status": "excluded",
+          "view": "other-art",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "变体、英雄、立绘、空资源不在基础六字标许可表内。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "BaronBladeCharacter",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "BaronBladeCharacter",
+            "boundLogo": true
+          }
+        },
+        {
+          "id": "excluded-empty",
+          "status": "excluded",
+          "view": "other-art",
+          "heroState": "not-applicable",
+          "layout": "shared-LogoImage",
+          "reason": "变体、英雄、立绘、空资源不在基础六字标许可表内。",
+          "case": {
+            "path": "Synthetic/CardView/LogoImage",
+            "objectName": "LogoImage",
+            "cardId": "",
+            "inCardView": true,
+            "source": "",
+            "expected": null,
+            "matchLayer": "villain-logo",
+            "expectedSprite": "",
+            "boundLogo": true
           }
         }
       ]
