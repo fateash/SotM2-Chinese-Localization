@@ -184,7 +184,7 @@ def validate_nonhero_matrix(matrix, contracts, root=ROOT):
 
 def validate_contracts(contract, templates, root=ROOT):
     required_files = {'runtime/DynamicDisplayRules.cs', 'runtime/SurfaceProbeRules.cs',
-                      'runtime/SurfaceProbe.cs', 'runtime/Plugin.cs', 'runtime/DisplayRules.cs', 'runtime/RenderedDisplayRules.cs',
+                      'runtime/SurfaceProbe.cs', 'runtime/Plugin.cs', 'runtime/EnvironmentTitleFont.cs', 'runtime/DisplayRules.cs', 'runtime/RenderedDisplayRules.cs',
                       'probe/dynamic-pilot.json'}
     if set(contract['reviewedFiles']) != required_files:
         raise ValueError('Coverage review must include every runtime routing file')

@@ -12,22 +12,24 @@ ROOT = Path(__file__).resolve().parents[1]
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
-def build(dll, catalog, font, license_file, base_payload, out, commit):
+def build(dll, catalog, font, license_file, base_payload, out, commit, title_font=None):
     # Reuse the existing pinned game/build and previous-version manifest provenance.
     temporary = out / 'manifest-source'
     build_update(dll, temporary, commit)
     old = json.loads(next(temporary.glob('*/manifest.json')).read_text())
     shutil.rmtree(temporary)
-    package = out / 'SotM2-Names-Clean-Test-0.1.41-rc.1'
+    package = out / 'SotM2-Names-Clean-Test-0.1.42-rc.1'
     (package / 'payload').mkdir(parents=True, exist_ok=False)
     sources = {'SotM2ChinesePrototype.dll': dll, 'surface-probe.json': ROOT / 'probe/dynamic-pilot.json',
                'sample-texts.json': catalog, 'NotoSansCJKsc-Regular.otf': font, 'OFL.txt': license_file}
+    if title_font is not None:
+        sources['NotoSansCJKsc-Bold.otf'] = title_font
     for name, source in sources.items():
         shutil.copy2(source, package / 'payload' / name)
     config = package / 'payload/sotm2.zh.prototype.cfg'
     config.write_bytes(b'[Prototype]\r\nEnableChinese = true\r\n')
     shutil.copy2(ROOT / 'probe/Manage-Names.ps1', package / 'Manage.ps1')
-    shutil.copy2(ROOT / 'docs/NAME-CLEAN-TEST-0.1.41.md', package / '使用说明.md')
+    shutil.copy2(ROOT / 'docs/NAME-CLEAN-TEST-0.1.42.md', package / '使用说明.md')
     runtime_files = ['BepInEx/core/BepInEx.Unity.IL2CPP.dll', 'BepInEx/core/Il2CppInterop.Runtime.dll',
                      'BepInEx/interop/Sentinels2.dll', 'BepInEx/interop/Sentinels2Engine.dll',
                      'BepInEx/interop/Unity.TextMeshPro.dll']
@@ -54,5 +56,6 @@ if __name__ == '__main__':
     for arg in ('dll', 'catalog', 'font', 'license-file', 'base-payload', 'out'):
         p.add_argument('--' + arg, type=Path, required=True)
     p.add_argument('--source-commit', required=True)
+    p.add_argument('--title-font', type=Path, required=True)
     a = p.parse_args()
-    print(build(a.dll, a.catalog, a.font, a.license_file, a.base_payload, a.out, a.source_commit))
+    print(build(a.dll, a.catalog, a.font, a.license_file, a.base_payload, a.out, a.source_commit, a.title_font))

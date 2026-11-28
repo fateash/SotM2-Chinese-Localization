@@ -52,11 +52,24 @@ internal sealed class SurfaceProbe {
 
   }catch(Exception e){Plugin.Once("ObserveTitleSnapshot-error","ENV_TITLE_DIAGNOSTIC_STOPPED ObserveTitleSnapshot "+e.GetType().Name);}
  }
+ internal string EnvironmentTitleGlyphs()=>rules.EnvironmentTitleGlyphs();
+ readonly Dictionary<int,CardBackView> trackedBacks=new();
+ internal void TrackBackView(CardBackView back){
+  if(back!=null)trackedBacks[back.GetInstanceID()]=back;
+ }
+ internal void RefreshTrackedBackViews(){
+  foreach(var entry in trackedBacks.ToArray()){
+   var back=entry.Value;
+   if(back==null){trackedBacks.Remove(entry.Key);continue;}
+   if(back.gameObject.activeInHierarchy && back.gameObject.scene.IsValid())RefreshEnvironmentTitle(back);
+  }
+ }
  readonly HashSet<string> backSnapshots=new(StringComparer.Ordinal);
  internal void UpdateBackViews(){
   try {
    foreach(var back in UnityEngine.Resources.FindObjectsOfTypeAll<CardBackView>())
     if(back!=null && back.gameObject.activeInHierarchy && back.gameObject.scene.IsValid()){
+     TrackBackView(back);
      ObserveBackSnapshot(back);
      RefreshEnvironmentTitle(back);
     }
@@ -73,6 +86,9 @@ internal sealed class SurfaceProbe {
     title.transform.parent?.name??"",view.IsDeckBack,view.TitleLabel==title);
    var target=rules.ApplyEnvironmentDeckTitle(title.gameObject.name,source,bound);
    string path=PathOf(title);
+   if(bound && (target!=null || rules.IsLocalizedEnvironmentTitle(source)))
+    EnvironmentTitleFont.Apply(title,rules.EnvironmentTitleGlyphs());
+   else EnvironmentTitleFont.Restore(title);
    if(target==null){
     if(bound && rules.IsDeckName(source) && titleWrites.Contains(path) && titlePersistence.Count<40 && titlePersistence.Add(path))
      Plugin.Instance.Log.LogInfo("ENV_TITLE_PERSISTED "+JsonSerializer.Serialize(new{path,source}));
@@ -87,7 +103,7 @@ internal sealed class SurfaceProbe {
     Plugin.Instance.Log.LogInfo("ENV_TITLE_BOUND_WRITE "+JsonSerializer.Serialize(new{
      path,source,target,readable,written=readable?written:null,
      inputSource=title.m_inputSource.ToString(),backingStringDirty=title.m_IsTextBackingStringDirty,
-     identity="active CardBackView.TitleLabel",policy="safe-string-only"}));
+     identity="active CardBackView.TitleLabel",frame=UnityEngine.Time.frameCount,policy="safe-string-only"}));
    }
   }catch(Exception e){Plugin.Once("bound-title-write-error","ENV_TITLE_BOUND_WRITE_ERROR "+e);}
  }

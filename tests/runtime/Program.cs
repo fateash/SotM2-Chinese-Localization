@@ -522,4 +522,10 @@ Check(pilot.ApplyEnvironmentDeckTitle("Title Label","Legacy",true)==null,"enviro
 Check(pilot.Dynamic!.Apply("Canvas/Main Panel/Heading Label","The Wagner Mars Base exploded!")=="瓦格纳火星基地爆炸了！","Wagner special explosion heading already included");
 Check(pilot.Dynamic.Apply("Canvas/Main Panel/Message Panel/Panel/Message Label","There are 0 cards under Self-Destruct Sequence.")=="Self-Destruct Sequence下方有0张牌。","Wagner zero-card reason with reviewed card name");
 Check(pilot.ApplyEnvironmentDeckTitle("Title Label","  MAGMARIA  ",true)=="熔岩域","bound environment title accepts case and outer whitespace");
+foreach(var env in new[]{"Freedom Tower","Insula Primalis","Magmaria","Megalopolis","The Ruins of Atlantis","Wagner Mars Base"}){
+ Check(pilot.IsLocalizedEnvironmentTitle(pilot.DeckNames[env]),"dedicated title face accepts reviewed environment "+env);
+ Check(!pilot.IsLocalizedEnvironmentTitle(pilot.DeckNames[env]+" 3"),"title face rejects count and extended sentence");
+}
+foreach(var source in new[]{"Legacy","传承","123","原初岛上方的牌",""})
+ Check(!pilot.IsLocalizedEnvironmentTitle(source),"title font does not leak to body/hero/counter: "+source);
 Console.WriteLine("Total checks including deck names: "+count);

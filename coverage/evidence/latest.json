@@ -52365,6 +52365,627 @@
       "observations": 386,
       "captureLimitReached": false,
       "exhaustive": false
+    },
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-202354-18269b.zip",
+      "sha256": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+      "issues": [],
+      "version": "0.1.41-rc.1",
+      "buildId": "26880829",
+      "installed": {
+        "sample-texts.json": "bc09ac44a13a9f1dafc9d5ded5a41fa1df57853561520c108749ad0545f01b7d",
+        "NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+        "SotM2ChinesePrototype.dll": "50f50a0bd2b1cc2732f0423e258d41eeae0395c0fb0e7ba5becc23cda8de925d",
+        "surface-probe.json": "8a393faca6a8bb23bdbf258268fb83e4fe7108fab5aa0a65996e366f2e2360c2",
+        "OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+      },
+      "manifestSourceCommit": "479ba9df00b7bed7d28b8d5f5c6f967c2d1f7e8f",
+      "runtimeWarnings": [],
+      "applicationSignals": [
+        {
+          "objectName": "Text",
+          "source": "Options"
+        },
+        {
+          "objectName": "Text",
+          "source": "New Game"
+        },
+        {
+          "objectName": "Text",
+          "source": "Online\nMultiplayer"
+        },
+        {
+          "objectName": "Text",
+          "source": "Send Early \nAccess Feedback"
+        },
+        {
+          "objectName": "Text",
+          "source": "Credits"
+        },
+        {
+          "objectName": "Text",
+          "source": "Quick Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "How to Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "Achievements"
+        },
+        {
+          "objectName": "Text",
+          "source": "Continue Game"
+        },
+        {
+          "objectName": "Text",
+          "source": "Early Access Info"
+        },
+        {
+          "objectName": "Text",
+          "source": "Help & Feedback"
+        },
+        {
+          "objectName": "Text",
+          "source": "Card Library"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Abandon Game in Progress?"
+        },
+        {
+          "objectName": "Abandon Label",
+          "source": "Are you sure you want to abandon your game in progress?"
+        },
+        {
+          "objectName": "Text",
+          "source": "Abandon"
+        },
+        {
+          "objectName": "Text",
+          "source": "Cancel"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "END PHASE"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Menu"
+        },
+        {
+          "objectName": "Turn Taker Label",
+          "source": "Citizen Dawn"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "METEOR STRIKE"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "one-shot"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "MICRO TARGETING COMPUTER"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "item, limited"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "THROWING KNIVES"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "ABDUCT AND INTERROGATE"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“If we’re being completely honest, I would\r\nrather you didn’t tell me how you got this\r\ninformation.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Legacy, Freedom Five #364"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "The Wraith对1个非英雄目标造成1点毒素伤害。\r\n若该目标被破坏，展示每个牌库的顶牌。你可以弃置其中任意数量的牌。打出其余展示的牌。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "INVENTORY BARRAGE"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Don’t like getting pelted with sharp objects?\r\nYou’re not going to enjoy the next few moments.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Wraith, Mystery Comics Vol 2, #89"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "弃置任意数量的物品牌。\r\nThe Wraith对1个目标造成X点投射伤害，X为以此法弃置的牌数乘以2。\r\n"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Weather reports, a stock ticker, seamless\r\nconnectivity to the world wide web... and yes, it also\r\nmakes it easier to shoot the bad guys.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Tachyon, Freedom Five #685"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "The Wraith造成的投射伤害+2。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SMOKE BOMBS"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Maniac Jack, Mystery Comics vol 1, #179"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "英雄目标受到的伤害−1。\r\nThe Wraith造成的伤害+1。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "CITIZEN SPRING"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "citizen"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "CITIZEN ASSAULT"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "CITIZEN DARE"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "CITIZEN TEARS"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "RETURN WITH THE DAWN"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "CHAMPION BOT"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "mechanical golem"
+        },
+        {
+          "objectName": "Choose For Me Button Label",
+          "source": "Choose For Me"
+        },
+        {
+          "objectName": "Selection Button Label",
+          "source": "Discard"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Citizen Tears:</b> Click a hero to discard a card."
+        },
+        {
+          "objectName": "Title Label",
+          "source": "BIOSPHERE"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing, dome"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "DECOMPRESSION PROTOCOL"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "HANGAR BAY"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "LIVING QUARTERS"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "MEDICAL BAY"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "OXYGEN LEAK"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "POWER AND ENGINEERING"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "RED DUST STORM"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SECURITY STATION"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SPACE SCIENCE LAB"
+        },
+        {
+          "objectName": "Turn Taker Label",
+          "source": "Wagner Mars Base"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "PLAY PHASE"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SELF-DESTRUCT SEQUENCE"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“This is why we always have a back-up. Get\r\nthe secondary gene-binding facility online,\r\nand start building another!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Grand Warlord Voss, Cosmic Tales Vol. 2 #203"
+        },
+        {
+          "objectName": "Description Label",
+          "source": "Wagner Mars Base played:"
+        },
+        {
+          "objectName": "Turn Taker Label",
+          "source": "The Wraith"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "POWER PHASE"
+        },
+        {
+          "objectName": "Label",
+          "source": "<style=PowerTitle>Stealth</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, <nobr>−1 damage</nobr> to The Wraith.\r\n</style>"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Skip Power Phase"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "Click a power to use it."
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Skip Play Phase"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "Click or drag a card to play it."
+        },
+        {
+          "objectName": "Turn Taker Label",
+          "source": "Unity"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "RAPTOR BOT"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "ARSENAL BOT"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“<b>BUDDA BUDDA BUDDA.</b>”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Arsenal Bot, Freedom Five Annual #12"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "此牌无法在你的<nobr><b>PLAY PHASE</b></nobr>打出。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n此牌对至多2个目标各造成2点投射伤害。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "CRYO BOT"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Don’t be sad, Cryo Bot! Everyone loves you!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Unity, Freedom Five Annual #12"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "此牌无法在你的<nobr><b>PLAY PHASE</b></nobr>打出。\r\n此牌受到火焰伤害后，对1个目标造成等量的寒冷伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n此牌对至多3个目标各造成1点寒冷伤害。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "PLATFORM BOT"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Pew pew! <b>Lasers!</b>\r\nJust like the real thing, right?”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Unity, Freedom Five #792"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "此牌无法在你的<nobr><b>PLAY PHASE</b></nobr>打出。\r\n此牌受到的伤害−1。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n此牌对1个目标造成3点能量伤害。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SWIFT BOT"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“I am uptight about science and hate explosions\r\nin the lab.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Swift Bot, Freedom Five Annual #12"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "此牌无法在你的<nobr><b>PLAY PHASE</b></nobr>打出。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>PLAY PHASE</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n"
+        },
+        {
+          "objectName": "Label",
+          "source": "<style=PowerTitle>Bot Hack</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Destroy 1 Item card. If you do, play or discover 1 Mechanical Golem.\r\n</style>"
+        },
+        {
+          "objectName": "Turn Taker Label",
+          "source": "The Argent Adept"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SCHERZO OF FROST AND FLAME"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing, melody"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "XU'S BELL"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "item, instrument"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "CEDISTIC DISSONANT"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing, harmony"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "INSTRUMENTAL CONJURATION"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "DRAKE'S PIPES"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“With the creation of my own instrument, I become\r\nthe latest in the line of Virtuosos of the Void:\r\nThe Argent Adept!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Anthony Drake, Toll of Destiny #5"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>发动1张旋律牌的<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>。然后，发动另1张牌的<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>。\r\n</style>"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "INSPIRING SUPERTONIC"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Sing more power into my storm, musical magician!\r\nThat dread titan won’t be able to weather\r\nsuch an onslaught.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Tempest, Prime Wardens Vol. 2, #38"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\n1位英雄可以使用1个异能。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> ACCOMPANY</style>\r\nThe Argent Adept恢复2点生命值。\r\n"
+        },
+        {
+          "objectName": "Label",
+          "source": "<style=PowerTitle>Vocalize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Activate 1 <nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>.\r\n</style>"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "Click or drag a power to use it."
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Power for power. Be no more.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Argent Adept, Nightmist #61"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\n破坏1张乐器牌。若如此做，你可以破坏1张非角色牌。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> ACCOMPANY</style>\r\n1个盟友可以打出1张牌。\r\n"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Virtuosos of the ages, lend me your strength!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Argent Adept, Virtuoso of the Void Vol. 1 #145"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "START PHASE"
+        },
+        {
+          "objectName": "Skip Button Label",
+          "source": "Skip"
+        },
+        {
+          "objectName": "Label",
+          "source": "Skip to Power"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Self-Destruct Sequence:</b> Click a button on Self-Destruct Sequence to choose an effect."
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 0 targets"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Citizen Assault:</b> Click targets to choose the order of dealing them <nobr>1 melee</nobr> damage."
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Send Feedback"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "How to Play"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Options"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Quit"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“I thought I was cold,\r\nbut you’re downright merciless!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Absolute Zero, Freedom Five #540"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>The Wraith对至多3个目标各造成1点投射伤害。\r\n</style>"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Throwing Knives:</b> Click up to 2 more targets to deal them <nobr>1 projectile</nobr> damage."
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Yeah, yeah, you took <b>one</b> out. Kudos. Trophy.\r\nDon't light the sparklers just yet. She doesn't\r\ntend to let them stay down for long.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Expatriette, Freedom Five #446"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n打出反派弃牌堆中生命值最低的<b>*1*</b>张光民牌。\r\n"
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 1 target"
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 2 targets"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Advanced"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Unlimited Undo"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Environment"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Back\n"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Randomize"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Play!"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Villain"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Heroes"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Choose an Environment"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Insula Primalis"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Freedom Tower"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Magmaria"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Megalopolis"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "The Ruins of Atlantis"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Wagner Mars Base"
+        }
+      ],
+      "observations": 139,
+      "captureLimitReached": false,
+      "exhaustive": false
     }
   ],
   "samples": [
@@ -52982,6 +53603,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 166,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 412,
+          "version": "0.1.41-rc.1",
           "markerCandidate": true
         }
       ],
@@ -53746,6 +54373,12 @@
           "line": 1177,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 480,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -54123,6 +54756,12 @@
           "line": 1192,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 344,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -54495,6 +55134,31 @@
           "session": "0c1112a9d7977e2498fb56a357c095ad7d478c572a25a1cfe065553bd1c6da0b",
           "line": 915,
           "version": "0.1.31-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Overlay Canvas/Menu Panel/Main Container/Options Button/Text (TMP)",
+      "cardId": "",
+      "source": "选项",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "033b39fda24e7c9d698e71c6",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 514,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -56117,6 +56781,12 @@
           "line": 236,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 466,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -56547,6 +57217,31 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 849,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Overlay Canvas/Menu Panel/Main Container/Quit Button/Text (TMP)",
+      "cardId": "",
+      "source": "退出",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "06db5b8ccceb16f28960d76c",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 515,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -58084,6 +58779,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1002,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 516,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ],
@@ -61631,6 +62332,12 @@
           "line": 279,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 444,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -61882,6 +62589,31 @@
           "session": "2ef2fb8dd5c1ab639e0a2d25ae4b164b723eedc36b3c47851400c47dd2d73982",
           "line": 744,
           "version": "0.1.35-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Overlay Canvas/Menu Panel/Main Container/How to Play Button/Text (TMP)",
+      "cardId": "",
+      "source": "游戏规则",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "0f715daedb99b345dcb8c3db",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 513,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -64059,6 +64791,31 @@
       ]
     },
     {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Citizen Assault:</b> Click targets to choose the order of dealing them <nobr>1 melee</nobr> damage.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "133bc62298b719a1b4835c60",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 458,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
       "objectName": "Body Label",
       "path": "Canvas/Temporary Full Card Panel/CardView DestructiveResponse-0 FullCardFront (Temporary)/Body Box/Body Label",
       "cardId": "DestructiveResponse",
@@ -64727,6 +65484,12 @@
           "line": 48,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 48,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -65064,6 +65827,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1146,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 431,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -65573,6 +66342,12 @@
           "line": 1141,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 75,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -65983,6 +66758,31 @@
       ]
     },
     {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Early Access Info Button/Text",
+      "cardId": "",
+      "source": "抢先体验说明",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "166a420d573d6d396e3995f1",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 602,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Body Label",
       "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S84AutomatonDrones-2 FullCardFront/Body Box/Body Label",
       "cardId": "S84AutomatonDrones",
@@ -66055,6 +66855,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1023,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 537,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -66649,6 +67455,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 31,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 31,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -70293,6 +71105,12 @@
           "line": 609,
           "version": "0.1.39-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 268,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -70451,6 +71269,12 @@
           "session": "0447081ad9df2825a982ffb39ea2f52c91d6775460a1d31bfba48f68ae19f96c",
           "line": 705,
           "version": "0.1.24-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 398,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -71000,6 +71824,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 331,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 253,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ],
@@ -73157,6 +73987,31 @@
     },
     {
       "objectName": "Label",
+      "path": "Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Power Container/63/UsePower-Unity-UnityCharacter/Label",
+      "cardId": "UnityCharacter",
+      "source": "<style=PowerTitle>Bot Hack</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Destroy 1 Item card. If you do, play or discover 1 Mechanical Golem.\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "220ccc2d3d54c3f194d22393",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 371,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
       "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/CardView RemoteWalkingTank-1 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
       "cardId": "RemoteWalkingTank",
       "source": "-1",
@@ -74911,6 +75766,31 @@
       ]
     },
     {
+      "objectName": "Finish Button Label",
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "cardId": "",
+      "source": "Damage 1 target",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "26390370cb0721b6d6ae84b9",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 506,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
       "objectName": "Body Label",
       "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Hand/Card Container/CardView UnflaggingAnimation-1 FullCardFront (Temporary)/Body Box/Body Label",
       "cardId": "UnflaggingAnimation",
@@ -75332,9 +76212,40 @@
           "line": 267,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 70,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Learn & Library Buttons/How to Play/Text",
+      "cardId": "",
+      "source": "游戏规则",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "26cdb283545e14a4d7fd93e1",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 600,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
     },
     {
       "objectName": "Hint Label",
@@ -75367,6 +76278,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 811,
           "version": "0.1.27-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 453,
+          "version": "0.1.41-rc.1",
           "markerCandidate": true
         }
       ]
@@ -76659,6 +77576,31 @@
         }
       ],
       "cardButtonCandidate": false
+    },
+    {
+      "objectName": "Finish Button Label",
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "cardId": "",
+      "source": "Damage 2 targets",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "28bd09f1cb391e937747939a",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 509,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
+        }
+      ]
     },
     {
       "objectName": "Body Label",
@@ -79910,6 +80852,12 @@
           "line": 862,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 448,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -81385,6 +82333,31 @@
       ]
     },
     {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Learn & Library Buttons/Card Library/Text",
+      "cardId": "",
+      "source": "卡牌图鉴",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "3012778b26ae390d9bdfe27d",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 604,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/AbsoluteZero/Inner Panel/Character Card Container/AbsoluteZeroCharacter/Foreground Elements/Power Container/41/UsePower-AbsoluteZero-AbsoluteZeroCharacter/Label",
       "cardId": "AbsoluteZeroCharacter",
@@ -81727,6 +82700,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1228,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 484,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -83533,6 +84512,12 @@
           "line": 1220,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 492,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -84486,6 +85471,12 @@
           "line": 1176,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 482,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -85020,6 +86011,31 @@
           "session": "c53fec320fd6359886486e837dbb90aefcea904781c1a00eeae064871b0c98d4",
           "line": 851,
           "version": "0.1.20-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Options & Other Buttons/Credits/Text",
+      "cardId": "",
+      "source": "制作人员",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "36fa63872b845e321e3bb4c1",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 598,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -85759,6 +86775,12 @@
           "line": 1008,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 522,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -86037,6 +87059,12 @@
           "session": "cd5b2d25395de0cacbefbc5ec51827aea87c0e0b09943ef35939c8375d17abd5",
           "line": 437,
           "version": "0.1.22-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 267,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -86414,6 +87442,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 234,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 464,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -86887,6 +87921,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1042,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 559,
+          "version": "0.1.41-rc.1",
           "markerCandidate": true
         }
       ],
@@ -87388,6 +88428,31 @@
       ]
     },
     {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "UnityCharacter",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "3c50f82b2c0f5c72b4c6c5e5",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 83,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Hint Label",
       "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
       "cardId": "",
@@ -87544,6 +88609,31 @@
           "session": "2ef2fb8dd5c1ab639e0a2d25ae4b164b723eedc36b3c47851400c47dd2d73982",
           "line": 457,
           "version": "0.1.35-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheWraith/Inner Panel/Character Card Container/TheWraithCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "TheWraithCharacter",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "3cb77a5f1987996fdde8c463",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 384,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -88303,6 +89393,12 @@
           "line": 744,
           "version": "0.1.39-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 58,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -88918,6 +90014,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 232,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 462,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -90527,6 +91629,12 @@
           "line": 33,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 33,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -90551,6 +91659,12 @@
           "session": "eba2dc6e8704b7eead94aa30fbd19c85fb26a22e210b5dfb912dce17714ac592",
           "line": 326,
           "version": "0.1.39-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 314,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -94930,6 +96044,12 @@
           "line": 1227,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 495,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -95563,6 +96683,31 @@
           "line": 422,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Unity/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Play Area View/Card Parent/CardView RaptorBot-1 SmallCardFront (Temporary)/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "RaptorBot",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "4a338e952621713b3c1d3369",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 477,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -96334,6 +97479,31 @@
       ]
     },
     {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "UnityCharacter",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "4b34f0b5f6479386e9360b9a",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 309,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Description Label",
       "path": "Canvas/Temporary Full Card Panel/Description Label",
       "cardId": "",
@@ -96806,6 +97976,31 @@
           "session": "b1feadfc4b8261ef428378b66ee210cb8b6fe62f417cfd8ddbfea8c220046876",
           "line": 761,
           "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Unity/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Play Area View/Card Parent/CardView ChampionBot-0 SmallCardFront (Temporary)/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "ChampionBot",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "4c43fdafffdcba7784a5ebd4",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 186,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -97996,6 +99191,12 @@
           "line": 283,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 447,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -98168,6 +99369,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 42,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 42,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -100973,6 +102180,12 @@
           "session": "eba2dc6e8704b7eead94aa30fbd19c85fb26a22e210b5dfb912dce17714ac592",
           "line": 489,
           "version": "0.1.39-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 82,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -103807,6 +105020,31 @@
     },
     {
       "objectName": "Text",
+      "path": "Canvas/Buttons & News/Options & Other Buttons/Options/Text",
+      "cardId": "",
+      "source": "选项",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "563fe0409b1dcf78283f73e6",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 594,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
       "path": "Canvas/Buttons & News/Options & Other Buttons/Credits/Text",
       "cardId": "",
       "source": "Credits",
@@ -103861,6 +105099,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 37,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 37,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -104031,6 +105275,31 @@
       ]
     },
     {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView SelfDestructSequence-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "cardId": "SelfDestructSequence",
+      "source": "Skip to Power",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "568b30d705bee07e91bff348",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 450,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
       "objectName": "Body Label",
       "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView Taiaha-2 FullCardFront/Body Box/Body Label",
       "cardId": "Taiaha",
@@ -104055,6 +105324,31 @@
           "session": "6cc98a09ec4fa9f5083baff50cd79eec69be4d8b30ac3ccbee79dd1f749e4a4c",
           "line": 369,
           "version": "0.1.29-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Title Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CaspitsPlayground-0 FullCardBack/Title Box/Title Label",
+      "cardId": "CaspitsPlayground",
+      "source": "自由大厦",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": true,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": true,
+      "buildId": "26880829",
+      "id": "56b1e4151b8efdcdf43ea64e",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 578,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -104354,6 +105648,37 @@
           "line": 1218,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 298,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Unity/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "574d9da74919d3795df30b15",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 194,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -106968,6 +108293,31 @@
       ]
     },
     {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Main Buttons/Quick Play/Text",
+      "cardId": "",
+      "source": "快速游戏",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "5b9ecb91befccbe05380b156",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 599,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Body Label",
       "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Hand/Card Container/CardView FieryTornado-1 FullCardFront/Body Box/Body Label",
       "cardId": "FieryTornado",
@@ -109544,6 +110894,12 @@
           "line": 1193,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 357,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -110346,6 +111702,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 202,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 565,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -111295,6 +112657,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1027,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 544,
+          "version": "0.1.41-rc.1",
           "markerCandidate": true
         }
       ],
@@ -112887,6 +114255,12 @@
           "line": 1149,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 408,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -114463,6 +115837,31 @@
       ]
     },
     {
+      "objectName": "Title Label",
+      "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Deck View/Card Parent/CardView SelfDestructSequence-0 SmallCardBack/Environment Title Background/Title Label",
+      "cardId": "SelfDestructSequence",
+      "source": "瓦格纳火星基地",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": true,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": true,
+      "buildId": "26880829",
+      "id": "64bf6e0d904ea25dc02baf41",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 490,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Body Label",
       "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView Ignite-1 SmallCardFront/Tooltip/CardView Ignite-1 FullCardFront/Body Box/Body Label",
       "cardId": "Ignite",
@@ -115361,6 +116760,31 @@
           "line": 652,
           "version": "0.1.25-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/TheWraith/Inner Panel/Character Card Container/TheWraithCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "TheWraithCharacter",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "65beba7f079623e4447a3318",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 80,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -116643,6 +118067,31 @@
       ]
     },
     {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/TheArgentAdept/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "67e46bc8a0de1c9f10bc32d4",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 191,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Power Container/616/UsePower-CaptainCosmic-CaptainCosmicCharacter/Label",
       "cardId": "CaptainCosmicCharacter",
@@ -117895,6 +119344,31 @@
           "session": "2ef2fb8dd5c1ab639e0a2d25ae4b164b723eedc36b3c47851400c47dd2d73982",
           "line": 195,
           "version": "0.1.35-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Multiplayer Button/Text",
+      "cardId": "",
+      "source": "在线\n多人游戏",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "69c28fed632a8bc3446ac21e",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 596,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -121695,6 +123169,12 @@
           "line": 1017,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 531,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -123048,6 +124528,12 @@
           "line": 270,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 84,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -124400,6 +125886,12 @@
           "line": 41,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 41,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -125069,6 +126561,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1219,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 141,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -125905,6 +127403,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1033,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 550,
+          "version": "0.1.41-rc.1",
           "markerCandidate": true
         }
       ],
@@ -127058,6 +128562,12 @@
           "line": 73,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 278,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -127347,6 +128857,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1004,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 518,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ],
@@ -128288,6 +129804,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 65,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 73,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -129345,6 +130867,31 @@
     },
     {
       "objectName": "Title Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView BankHeistInProgress-0 FullCardBack/Title Box/Title Label",
+      "cardId": "BankHeistInProgress",
+      "source": "巨都会",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": true,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": true,
+      "buildId": "26880829",
+      "id": "7d9dd0a6dc5427ba12a4dab5",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 569,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Title Label",
       "path": "Canvas/Available Area Popup/Available Area/Title Label",
       "cardId": "",
       "source": "Choose a Villain",
@@ -129619,6 +131166,12 @@
           "line": 1216,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 271,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -129823,6 +131376,31 @@
           "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
           "line": 458,
           "version": "0.1.14-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Unity/Inner Panel/Foreground Elements/CardView RaptorBot-1 SmallCardFront (Temporary)/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "RaptorBot",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "7f10a75765f1d31ac600748d",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 479,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -130987,6 +132565,31 @@
       ]
     },
     {
+      "objectName": "Text (TMP)",
+      "path": "Overlay Canvas/Menu Panel/Main Container/Feedback Button/Text (TMP)",
+      "cardId": "",
+      "source": "发送反馈",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "813ac0a9c461e7242af336c1",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 512,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Body Label",
       "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Hand/Card Container/CardView WoundingBuffer-2 FullCardFront (Temporary)/Body Box/Body Label",
       "cardId": "WoundingBuffer",
@@ -132014,6 +133617,12 @@
           "line": 328,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 249,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -132946,6 +134555,31 @@
       ]
     },
     {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Discard",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "847cb4605dda1330b53f607d",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 195,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
       "cardId": "TachyonCharacter",
@@ -133126,6 +134760,12 @@
           "line": 1036,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 553,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -133253,6 +134893,31 @@
           "session": "c53fec320fd6359886486e837dbb90aefcea904781c1a00eeae064871b0c98d4",
           "line": 1118,
           "version": "0.1.20-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Title Label",
+      "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Deck View/Card Parent/CardView MeteorStrike-0 SmallCardBack/Environment Title Background/Title Label",
+      "cardId": "MeteorStrike",
+      "source": "瓦格纳火星基地",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": true,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": true,
+      "buildId": "26880829",
+      "id": "84dce9bd3d5508be03185d07",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 296,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -135137,6 +136802,31 @@
           "session": "2ef2fb8dd5c1ab639e0a2d25ae4b164b723eedc36b3c47851400c47dd2d73982",
           "line": 351,
           "version": "0.1.35-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/TheWraith/Inner Panel/Character Card Container/TheWraithCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "TheWraithCharacter",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "87cbfaad6b5d4705fbc10af8",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 310,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -138166,6 +139856,31 @@
       ]
     },
     {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Unity/Inner Panel/Foreground Elements/CardView ChampionBot-0 SmallCardFront (Temporary)/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "ChampionBot",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "8ced5ab7a3cda97c92235d23",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 188,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Hint Label",
       "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
       "cardId": "",
@@ -138600,6 +140315,31 @@
           "session": "0b8d45af4c63df9d91ddb66dc2b394f2f6ed36901d3ebcd4da547af825686b63",
           "line": 232,
           "version": "0.1.32-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Power Container/50/UsePower-TheArgentAdept-TheArgentAdeptCharacter/Label",
+      "cardId": "TheArgentAdeptCharacter",
+      "source": "<style=PowerTitle>Vocalize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Activate 1 <nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>.\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "8db8a88c8ecc1d0e9757fb6f",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 410,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -139141,6 +140881,31 @@
         }
       ],
       "cardButtonCandidate": false
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Options & Other Buttons/Help & Feedback/Text",
+      "cardId": "",
+      "source": "帮助与反馈",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "8f3d5fc3c200b668adeb5516",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 603,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
     },
     {
       "objectName": "Body Label",
@@ -141018,6 +142783,12 @@
           "line": 1021,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 535,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -141955,6 +143726,12 @@
           "line": 742,
           "version": "0.1.39-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 55,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -141996,6 +143773,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1195,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 369,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -142576,6 +144359,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1231,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 474,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -143253,6 +145042,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1022,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 536,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -145041,6 +146836,12 @@
           "line": 1030,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 547,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -145429,6 +147230,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 118,
           "version": "0.1.27-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 129,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -146805,6 +148612,31 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 243,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Options & Other Buttons/Achievements/Text",
+      "cardId": "",
+      "source": "成就",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "9cd991c36090fa2229680b14",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 601,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -149484,6 +151316,12 @@
           "line": 35,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 35,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -150840,6 +152678,12 @@
           "line": 163,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 282,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -151459,6 +153303,12 @@
           "line": 1039,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 556,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -151710,6 +153560,12 @@
           "line": 1014,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 528,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -151734,6 +153590,37 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1224,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 494,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Early Access Feedback Button/Text",
+      "cardId": "",
+      "source": "发送抢先体验\n反馈",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "a4aedbcc7b4e9bed722e5d2e",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 597,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -152951,6 +154838,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 46,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 46,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -155192,6 +157085,12 @@
           "line": 50,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 50,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -156758,6 +158657,12 @@
           "line": 332,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 299,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -157942,6 +159847,12 @@
           "line": 1024,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 541,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -158313,6 +160224,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 230,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 460,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -159043,6 +160960,31 @@
       ]
     },
     {
+      "objectName": "Title Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CrystalCollector-0 FullCardBack/Title Box/Title Label",
+      "cardId": "CrystalCollector",
+      "source": "熔岩域",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": true,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": true,
+      "buildId": "26880829",
+      "id": "afe5b12513314d1e6e636589",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 574,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/93/UsePower-Legacy-LegacyCharacter/Label",
       "cardId": "LegacyCharacter",
@@ -159728,6 +161670,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1229,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 455,
+          "version": "0.1.41-rc.1",
           "markerCandidate": true
         }
       ]
@@ -161541,6 +163489,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1178,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 381,
+          "version": "0.1.41-rc.1",
           "markerCandidate": true
         }
       ],
@@ -164164,6 +166118,12 @@
           "line": 748,
           "version": "0.1.39-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 62,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -165010,6 +166970,31 @@
           "line": 560,
           "version": "0.1.30-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Hand/Card Container/CardView AbductAndInterrogate-0 FullCardFront/Body Box/Body Label",
+      "cardId": "AbductAndInterrogate",
+      "source": "The Wraith对1个非英雄目标造成1点毒素伤害。\r\n若该目标被破坏，展示每个牌库的顶牌。你可以弃置其中任意数量的牌。打出其余展示的牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "b99f139fba1e23ad0e74ee7f",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 108,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -166102,6 +168087,12 @@
           "line": 604,
           "version": "0.1.39-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 246,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -166903,6 +168894,31 @@
           "session": "0c1112a9d7977e2498fb56a357c095ad7d478c572a25a1cfe065553bd1c6da0b",
           "line": 988,
           "version": "0.1.31-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Title Label",
+      "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Deck View/Card Parent/CardView PowerAndEngineering-0 SmallCardBack/Environment Title Background/Title Label",
+      "cardId": "PowerAndEngineering",
+      "source": "瓦格纳火星基地",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": true,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": true,
+      "buildId": "26880829",
+      "id": "bc80e485a94734f6fe1e74a0",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 180,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -169454,6 +171470,12 @@
           "line": 607,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 189,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -170141,6 +172163,12 @@
           "line": 39,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 39,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -170671,6 +172699,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 62,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 274,
+          "version": "0.1.41-rc.1",
           "markerCandidate": true
         }
       ],
@@ -173884,6 +175918,31 @@
       ]
     },
     {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/TheWraith/Inner Panel/Character Card Container/TheWraithCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "TheWraithCharacter",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "c60dac05b2a5055ba41ce62f",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 81,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Body Label",
       "path": "Canvas/Main Panel/AbsoluteZero/Inner Panel/Foreground Elements/Hand/Card Container/CardView IceShield-0 FullCardFront/Body Box/Body Label",
       "cardId": "IceShield",
@@ -174031,6 +176090,31 @@
           "session": "8707c6360c03e8401e90efb4e22411068a451087466848c83d6ac653ba340662",
           "line": 469,
           "version": "0.1.23-rc.2",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/TheWraith/Inner Panel/Character Card Container/TheWraithCharacter/Foreground Elements/Power Container/73/UsePower-TheWraith-TheWraithCharacter/Label",
+      "cardId": "TheWraithCharacter",
+      "source": "<style=PowerTitle>Stealth</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, <nobr>−1 damage</nobr> to The Wraith.\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "c6781cbf64319cdca8147044",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 279,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -174195,6 +176279,31 @@
           "line": 211,
           "version": "0.1.30-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView ReturnWithTheDawn-1 SmallCardFront/Tooltip/CardView ReturnWithTheDawn-1 FullCardFront/Body Box/Body Label",
+      "cardId": "ReturnWithTheDawn",
+      "source": "<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n打出反派弃牌堆中生命值最低的<b>*1*</b>张光民牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "c6a8d09ea8fd6805939c52c2",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 503,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -175486,6 +177595,12 @@
           "line": 1152,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 440,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -175897,6 +178012,31 @@
           "session": "eba2dc6e8704b7eead94aa30fbd19c85fb26a22e210b5dfb912dce17714ac592",
           "line": 290,
           "version": "0.1.39-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Hand/Card Container/CardView DrakesPipes-0 FullCardFront/Body Box/Body Label",
+      "cardId": "DrakesPipes",
+      "source": "<style=PowerHeading><b>异能:</b> </style><style=PowerBody>发动1张旋律牌的<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>演奏</style></nobr>。然后，发动另1张牌的<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>演奏</style></nobr>。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "ca1b67a0c53456bbfaa9ec03",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 481,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -183182,6 +185322,12 @@
           "line": 1006,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 520,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -187916,6 +190062,12 @@
           "line": 335,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 302,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -189539,6 +191691,12 @@
           "line": 201,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 564,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -190766,6 +192924,31 @@
       ]
     },
     {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Main Buttons/New Game/Text",
+      "cardId": "",
+      "source": "新建游戏",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "e0629a7d9bb30e7a0dad0a29",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 595,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Body Label",
       "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView AdvanceSoldiers-0 SmallCardFront/Tooltip/CardView AdvanceSoldiers-0 FullCardFront/Body Box/Body Label",
       "cardId": "AdvanceSoldiers",
@@ -191894,6 +194077,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 340,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 285,
+          "version": "0.1.41-rc.1",
           "markerCandidate": true
         }
       ],
@@ -194849,6 +197038,12 @@
           "line": 1179,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 483,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -195990,6 +198185,31 @@
       "cardButtonCandidate": true
     },
     {
+      "objectName": "Title Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView CorneredAnkylosaurus-0 FullCardBack/Title Box/Title Label",
+      "cardId": "CorneredAnkylosaurus",
+      "source": "原初岛",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": true,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": true,
+      "buildId": "26880829",
+      "id": "e85562d347b8f7d0e9dfab38",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 582,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Hint Label",
       "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
       "cardId": "",
@@ -196835,6 +199055,12 @@
           "line": 1011,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 525,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -196984,6 +199210,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1191,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 311,
+          "version": "0.1.41-rc.1",
           "markerCandidate": true
         }
       ]
@@ -197263,7 +199495,7 @@
       "inCardView": false,
       "inputSource": "TextString",
       "truncated": false,
-      "markerCandidate": false,
+      "markerCandidate": true,
       "environmentDeckTitle": false,
       "buttonLabel": false,
       "effectTooltip": false,
@@ -197277,6 +199509,12 @@
           "line": 1230,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 496,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -198671,6 +200909,12 @@
           "session": "eba2dc6e8704b7eead94aa30fbd19c85fb26a22e210b5dfb912dce17714ac592",
           "line": 746,
           "version": "0.1.39-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 60,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -200420,6 +202664,12 @@
           "line": 308,
           "version": "0.1.35-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 196,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -200807,6 +203057,31 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Hand/Card Container/CardView ArsenalBot-0 FullCardFront/Body Box/Body Label",
+      "cardId": "ArsenalBot",
+      "source": "此牌无法在你的<nobr><b>PLAY PHASE</b></nobr>打出。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n此牌对至多2个目标各造成2点投射伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "eef08ac02c1251c853042433",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 330,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Heading Label",
       "path": "Canvas/Main Panel/Heading Label",
       "cardId": "",
@@ -201104,6 +203379,12 @@
           "line": 29,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 29,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -201163,6 +203444,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 52,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 52,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -201996,6 +204283,12 @@
           "line": 70,
           "version": "0.1.39-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 379,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -202267,6 +204560,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1019,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 533,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ],
@@ -206614,6 +208913,31 @@
     },
     {
       "objectName": "Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "UnityCharacter",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "f9151fedf6f172d0ae32a22f",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 380,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
       "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
       "cardId": "CaptainCosmicCharacter",
       "source": "<size=75%>+</size><space=-0.1em>3",
@@ -208015,6 +210339,12 @@
           "line": 611,
           "version": "0.1.39-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 270,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -208162,6 +210492,31 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 336,
           "version": "0.1.27-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/TheWraith/Inner Panel/Character Card Container/TheWraithCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "TheWraithCharacter",
+      "source": "<size=75%>+</size><space=-0.1em>2",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "fbcc449412a618aae6a196f3",
+      "evidence": [
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 79,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]
@@ -209342,6 +211697,12 @@
           "line": 1217,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 120,
+          "version": "0.1.41-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -209430,6 +211791,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 44,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
+          "line": 44,
+          "version": "0.1.41-rc.1",
           "markerCandidate": false
         }
       ]

@@ -31,6 +31,7 @@ $stateRelative='SotM2ChineseCleanState.json'
 $statePath=SafePath $GamePath $stateRelative
 $archiveRoot=SafePath $GamePath 'SotM2ChineseArchives'
 $names=@('SotM2ChinesePrototype.dll','surface-probe.json','sample-texts.json','NotoSansCJKsc-Regular.otf','OFL.txt')
+if($manifest.pluginFiles.PSObject.Properties.Name -contains 'NotoSansCJKsc-Bold.otf'){$names+=@('NotoSansCJKsc-Bold.otf')}
 if((($manifest.pluginFiles.PSObject.Properties.Name | Sort-Object) -join '|') -ne (($names | Sort-Object) -join '|')){throw 'Unexpected package file list.'}
 function ChineseConfig([string]$p){
  if(!(Test-Path -LiteralPath $p -PathType Leaf)){return $false}

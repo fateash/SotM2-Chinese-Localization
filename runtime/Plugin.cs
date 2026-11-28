@@ -14,7 +14,7 @@ using Handelabra.Sentinels2.Engine.Controller;
 using UObj=UnityEngine.Object;
 namespace SotM2Chinese;
 
-[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.41")]
+[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.42")]
 public sealed class Plugin:BasePlugin {
  internal static Plugin Instance=null!;
  internal static Catalog Texts=new();
@@ -32,7 +32,7 @@ public sealed class Plugin:BasePlugin {
   var surfacePath=Path.Combine(Root,"surface-probe.json");
   if(File.Exists(surfacePath)){Surface=new SurfaceProbe(surfacePath);Log.LogInfo("SURFACE_PROBE_ENABLED configured-pilot bounded-capture");}
   UiSources=new HashSet<string>(Texts.Ui.Select(e=>e.Source),StringComparer.Ordinal);
-  Log.LogInfo("PROTOTYPE_LOADED 0.1.41-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
+  Log.LogInfo("PROTOTYPE_LOADED 0.1.42-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
   // Resolve types/methods without patching the game model or rule engine.
   var method=typeof(TextHelper).GetMethods().Single(m=>m.Name=="ReplaceTemplatesAndInsertSpecifics"&&m.GetParameters().Length==8);
   Log.LogInfo("DISPLAY_METHOD_RESOLVED "+method);
@@ -49,6 +49,17 @@ public sealed class Plugin:BasePlugin {
     harmony.Patch(entry,prefix:new HarmonyMethod(typeof(Plugin),nameof(EnvironmentTitleStringInput)));
    }
    Log.LogInfo("ENVIRONMENT_TITLE_INPUT_HOOK_INSTALLED text-setter-and-string-SetText-no-buffer-access");
+   try {
+    // Configure is async: register the view immediately, then read its bound title
+    // on the Unity canvas pre-render phase, never on a Task continuation thread.
+    var configure=typeof(CardBackView).GetMethods(BindingFlags.Instance|BindingFlags.Public|BindingFlags.DeclaredOnly)
+     .Single(m=>m.Name=="Configure" && m.GetParameters().Length==6);
+    harmony.Patch(configure,prefix:new HarmonyMethod(typeof(Plugin),nameof(RegisterEnvironmentBack)));
+    var canvas=typeof(Canvas).GetMethod("SendPreWillRenderCanvases",BindingFlags.Static|BindingFlags.NonPublic|BindingFlags.Public)
+     ?? throw new MissingMethodException("Canvas pre-render callback");
+    harmony.Patch(canvas,prefix:new HarmonyMethod(typeof(Plugin),nameof(BeforeCanvasRender)));
+    Log.LogInfo("ENVIRONMENT_TITLE_CANVAS_HOOK_INSTALLED configure-register + canvas-pre-render");
+   }catch(Exception e){Log.LogWarning("ENVIRONMENT_TITLE_CANVAS_HOOK_FALLBACK bounded scan retained: "+e);}
    foreach(var render in new[]{
     typeof(TextMeshProUGUI).GetMethod("OnPreRenderCanvas",BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic),
     typeof(TextMeshPro).GetMethod("OnPreRenderObject",BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic)}) {
@@ -58,6 +69,17 @@ public sealed class Plugin:BasePlugin {
    }
   }
   Log.LogInfo("PROTOTYPE_READY component registered; awaiting Unity Update");
+ }
+ public static void RegisterEnvironmentBack(CardBackView __instance){
+  try {Surface?.TrackBackView(__instance);}catch(Exception e){Once("track-back-error","ENVIRONMENT_TITLE_TRACK_ERROR "+e);}
+ }
+ [ThreadStatic] private static bool inCanvas;
+ public static void BeforeCanvasRender(){
+  if(!Chinese || inCanvas)return;
+  inCanvas=true;
+  try {Surface?.RefreshTrackedBackViews();}
+  catch(Exception e){Once("canvas-title-error","ENVIRONMENT_TITLE_CANVAS_ERROR "+e);}
+  finally {inCanvas=false;}
  }
  internal static readonly Dictionary<string,string> LastCardState=new(StringComparer.Ordinal);
  internal static void CardState(string card,string source,string state) {
@@ -232,6 +254,7 @@ internal static class FontSupport {
    bool ok=Plugin.Cjk.TryAddCharacters(chars,out string missing,true);
    if(!ok || !string.IsNullOrEmpty(missing)) {Plugin.Once("font-missing","FONT_GLYPHS_MISSING "+missing);return false;}
    KeepFontAlive();Plugin.Ready=true;
+   EnvironmentTitleFont.Prepare(Plugin.Surface?.EnvironmentTitleGlyphs()??"");
    Plugin.Instance.Log.LogInfo("FONT_READY generation="+generation+" glyphs="+chars.Length+" atlas=2048 multiAtlas="+Plugin.Cjk.isMultiAtlasTexturesEnabled);
    return true;
   } catch(Exception e) {Plugin.Ready=false;Plugin.Once("font-error","FONT_INIT_FALLBACK "+e);return false;}
@@ -262,6 +285,7 @@ internal static class FontSupport {
   if(changed)text.SetAllDirty();
  }
  internal static void KeepFontAlive() {
+  EnvironmentTitleFont.KeepAlive();
   if(Plugin.Cjk==null)return;
   foreach(var tex in Plugin.Cjk.atlasTextures)if(tex!=null)Preserve(tex);
  }

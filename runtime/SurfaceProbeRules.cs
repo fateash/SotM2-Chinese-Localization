@@ -38,6 +38,8 @@ public sealed class SurfaceProbeRules {
   var name=EnvironmentNames.FirstOrDefault(n=>string.Equals(n,source.Trim(),StringComparison.OrdinalIgnoreCase));
   return name!=null && DeckNames.TryGetValue(name,out var target)?target:null;
  }
+ public bool IsLocalizedEnvironmentTitle(string source)=>EnvironmentNames.Any(n=>DeckNames.TryGetValue(n,out var value) && value==source);
+ public string EnvironmentTitleGlyphs()=>string.Concat(EnvironmentNames.Where(DeckNames.ContainsKey).Select(n=>DeckNames[n]));
  // CardView.TitleLabel identity is checked against the actual TMP component by the caller.
  // The complete source identifies one approved deck; never replace a substring or model title.
  public string? ApplyCardTitle(string objectName,string source,bool isBoundTitle)=>

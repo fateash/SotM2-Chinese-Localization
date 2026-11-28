@@ -2,12 +2,13 @@
   "schemaVersion": 1,
   "reviewedFiles": {
     "runtime/DynamicDisplayRules.cs": "40be92427a155263d018b69eba7333187db024c6267a45341b88a49c295a7876",
-    "runtime/SurfaceProbeRules.cs": "55f457e6d38d45c08fb4bc565c00473a57953723300a194362d3cb7dceec00b6",
-    "runtime/SurfaceProbe.cs": "c1c84d4f855971ca4215426d4a9a10c24035633729a7dcc9f027dd6718e3c296",
-    "runtime/Plugin.cs": "2b726810c5234ba90cba8fc77b9718baa141a0e84e311ee248900933d99b728b",
+    "runtime/SurfaceProbeRules.cs": "db102d9602726895b44ffdffe143016543c811d49781377b71bdbbf848c3c46e",
+    "runtime/SurfaceProbe.cs": "c1e1fd8604d2ac362f39d6a0748823980fb9ca29055f1be026ae941dfc1441af",
+    "runtime/Plugin.cs": "4889b7b9a4a3a114f2712a98a4d129442d5d5104f4814d715cd6c556f399d970",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
     "probe/dynamic-pilot.json": "8a393faca6a8bb23bdbf258268fb83e4fe7108fab5aa0a65996e366f2e2360c2",
-    "runtime/RenderedDisplayRules.cs": "0fbdb89da7c7995c1fb1fa1e924853f2887220230eb443051d4b263042bef900"
+    "runtime/RenderedDisplayRules.cs": "0fbdb89da7c7995c1fb1fa1e924853f2887220230eb443051d4b263042bef900",
+    "runtime/EnvironmentTitleFont.cs": "6a83ff32aba9e014a85fa58f243e6872570fb907ec0132828e173da48fe78796"
   },
   "families": [
     {
@@ -69319,7 +69320,8 @@
             "expected": null
           }
         }
-      ]
+      ],
+      "maintenanceReview042": "复核49项标题作用域、六环境、错误名称及绑定负例；转换语义不变。调度改为Configure登记+Canvas绘制前刷新，保留活动场景、安全字符串、输入框保护；独立粗体仅完整环境名或其审定中文命中；字体可见性与首次/撤销时序待实机，不由离线契约推定。"
     },
     {
       "id": "inline-font-and-section-layout",
