@@ -17,6 +17,8 @@ public sealed class DynamicDisplayRules {
  static readonly Dictionary<string,(int Args,string Tags)> Specs=new(){
   ["hint.destroy.play.under.upto"]=(3,""),["hint.destroy.play.under.upto.first"]=(3,""),["hint.destroy.play.under.exact.first"]=(3,""),
   ["hint.card.replace"]=(0,""),
+  ["hint.blank.target"]=(0,""),
+  ["hint.blank.inplay"]=(0,""),
   ["hint.card.draw"]=(0,""),
   ["hint.card.discard"]=(0,""),
   ["hint.card.bury"]=(0,""),
@@ -26,6 +28,8 @@ public sealed class DynamicDisplayRules {
   ["hint.damage.amount"]=(0,""),["hint.attack.remaining"]=(4,"<nobr></nobr>"),
   ["finish.regain.targets"]=(1,""),["hint.regain.hero"]=(0,""),["hint.regain.upto"]=(2,""),
   ["hint.attack.required.list"]=(5,"<nobr></nobr>"),["hint.attack.exact.unspecified"]=(3,""),
+  ["hint.attack.required.dual"]=(7,"<nobr></nobr><nobr></nobr>"),
+  ["hint.attack.required.triple"]=(9,"<nobr></nobr><nobr></nobr><nobr></nobr>"),
   ["hint.attack.dual"]=(5,"<nobr></nobr><nobr></nobr>"),
   ["button.most"]=(0,""),["button.play.golem"]=(0,""),
   ["hint.hero.most.play"]=(0,""),["hint.trash.under"]=(0,""),["hint.hero.salvage"]=(0,""),["hint.trash.salvage"]=(0,""),
@@ -169,6 +173,7 @@ public sealed class DynamicDisplayRules {
  static readonly Regex RegainUpTo=Rx(@"\AClick up to (?<count>[0-9]{1,6}) targets to regain HP\.\z");
  static readonly Regex RequiredTargets=Rx(@"\AClick <b>(?<target>[^<>\r\n]{1,200})</b>(?:, <b>(?<target>[^<>\r\n]{1,200})</b>){1,11} and (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
  static readonly Regex ExactUnspecified=Rx(@"\AClick (?<count>[0-9]{1,6}) targets to deal them (?<type>[a-z]+) damage\.\z");
+ static readonly Regex RequiredMultiDamage=Rx(@"\AClick <b>(?<target>[^<>\r\n]{1,200})</b>(?:, <b>(?<target>[^<>\r\n]{1,200})</b>){0,11} and (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n1>[0-9]{1,6}) (?<type1>[a-z]+)</nobr>(?: and <nobr>(?<n2>[0-9]{1,6}) (?<type2>[a-z]+)</nobr>|, <nobr>(?<n2>[0-9]{1,6}) (?<type2>[a-z]+)</nobr>, and <nobr>(?<n3>[0-9]{1,6}) (?<type3>[a-z]+)</nobr>) damage\.\z");
  static readonly Regex DualDamage=Rx(@"\AClick a target to deal it <nobr>(?<n1>[0-9]{1,6}) (?<type1>[a-z]+)</nobr> and <nobr>(?<n2>[0-9]{1,6}) (?<type2>[a-z]+)</nobr> damage\.\z");
  static readonly Regex UnspecifiedOrder=Rx(@"\AClick targets to choose the order of dealing them (?<type>[a-z]+) damage\.\z");
  // The repeated 'to' is present in the game's current complete display string.
@@ -305,6 +310,8 @@ public sealed class DynamicDisplayRules {
   var fixedText=body switch {
    "Click a button to choose how much damage to deal."=>"hint.damage.amount",
    "Click a card to replace it."=>"hint.card.replace",
+   "Click a target to make it have no game text."=>"hint.blank.target",
+   "Click a card in play to make it have no game text."=>"hint.blank.inplay",
    "Click a card to draw it."=>"hint.card.draw",
    "Click a card to discard it."=>"hint.card.discard",
    "Click a card to bury it."=>"hint.card.bury",
@@ -380,6 +387,13 @@ public sealed class DynamicDisplayRules {
   var remaining=RemainingTargets.Match(body);
   if(remaining.Success && ((remaining.Groups["count"].Value=="1")== (remaining.Groups["unit"].Value=="target")) && DamageNames.TryGetValue(remaining.Groups["type"].Value,out var remainingType))
    return Format("hint.attack.remaining",prefix,remaining.Groups["count"].Value,remaining.Groups["n"].Value,remainingType);
+  var multiDamage=RequiredMultiDamage.Match(body);
+  if(multiDamage.Success && ((multiDamage.Groups["count"].Value=="1")== (multiDamage.Groups["unit"].Value=="target")) &&
+     DamageNames.TryGetValue(multiDamage.Groups["type1"].Value,out var multiType1) && DamageNames.TryGetValue(multiDamage.Groups["type2"].Value,out var multiType2)){
+   string targets=string.Join("、",multiDamage.Groups["target"].Captures.Cast<Capture>().Select(c=>"<b>"+resolveName(c.Value)+"</b>"));
+   if(!multiDamage.Groups["n3"].Success)return Format("hint.attack.required.dual",prefix,targets,multiDamage.Groups["count"].Value,multiDamage.Groups["n1"].Value,multiType1,multiDamage.Groups["n2"].Value,multiType2);
+   if(DamageNames.TryGetValue(multiDamage.Groups["type3"].Value,out var multiType3))return Format("hint.attack.required.triple",prefix,targets,multiDamage.Groups["count"].Value,multiDamage.Groups["n1"].Value,multiType1,multiDamage.Groups["n2"].Value,multiType2,multiDamage.Groups["n3"].Value,multiType3);
+  }
   var dual=DualDamage.Match(body);
   if(dual.Success && DamageNames.TryGetValue(dual.Groups["type1"].Value,out var type1) && DamageNames.TryGetValue(dual.Groups["type2"].Value,out var type2))
    return Format("hint.attack.dual",prefix,dual.Groups["n1"].Value,type1,dual.Groups["n2"].Value,type2);

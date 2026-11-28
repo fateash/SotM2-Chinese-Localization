@@ -63,7 +63,7 @@ public sealed class RenderedDisplayRules {
       offset=token.Index+token.Length;
      }
      pattern+=Regex.Escape(e.Target.Substring(offset));
-     namePatterns.Add((new Regex(@"(?<prefix>\A|\r\n|\n|\r|\\r\\n|\\n|\\r|<style=PowerBody>|"+Regex.Escape(Setup)+@")"+pattern+@"(?=\r|\n|\\r|\\n|</style>|\z)",RegexOptions.CultureInvariant),translatedNames.ToArray()));
+     namePatterns.Add((new Regex(@"(?<prefix>\A|\r\n|\n|\r|\\r\\n|\\n|\\r|<style=PowerBody>|<style=ReactionBody>|"+Regex.Escape(Setup)+@")"+pattern+@"(?=\r|\n|\\r|\\n|</style>|\z)",RegexOptions.CultureInvariant),translatedNames.ToArray()));
     }
     if(e.Source.StartsWith(Bullet,StringComparison.Ordinal) && e.Source.EndsWith("</indent>",StringComparison.Ordinal)){
      foreach(var candidate in new[]{Expand(e.Source.Substring(Bullet.Length,e.Source.Length-Bullet.Length-9),false),Expand(e.Target.Substring(Bullet.Length,e.Target.Length-Bullet.Length-9),false)})
@@ -77,7 +77,7 @@ public sealed class RenderedDisplayRules {
    }
    parameterNames[g.Key]=namePatterns.ToArray();
    rules[g.Key]=pairs.Where(p=>p.Value.Count==1).OrderByDescending(p=>p.Key.Length).Select(p=>(new Regex(
-    @"(?<prefix>\A|\r\n|\n|\r|\\r\\n|\\n|\\r|<style=PowerBody>|"+Regex.Escape(Setup)+@")"+Regex.Escape(p.Key)+@"(?=\r|\n|\\r|\\n|</style>|\z)",RegexOptions.CultureInvariant),p.Value.Single())).ToArray();
+    @"(?<prefix>\A|\r\n|\n|\r|\\r\\n|\\n|\\r|<style=PowerBody>|<style=ReactionBody>|"+Regex.Escape(Setup)+@")"+Regex.Escape(p.Key)+@"(?=\r|\n|\\r|\\n|</style>|\z)",RegexOptions.CultureInvariant),p.Value.Single())).ToArray();
   }
  }
  static readonly Dictionary<string,string> Damage=new(StringComparer.OrdinalIgnoreCase){
@@ -97,6 +97,8 @@ public sealed class RenderedDisplayRules {
   m=Regex.Match(source,@"\ADamage dealt by (?<name>[^<>\r\n]{1,200}) is (?<open><b>)?irreducible(?<close></b>)?\z",RegexOptions.IgnoreCase|RegexOptions.CultureInvariant);
   if(m.Success && m.Groups["open"].Success==m.Groups["close"].Success)
    return Name(m.Groups["name"].Value)+"造成的伤害"+m.Groups["open"].Value+"不可削减"+m.Groups["close"].Value;
+  m=Regex.Match(source,@"\A(?<name>[^<>\r\n]{1,200}) has no game text\z",RegexOptions.IgnoreCase|RegexOptions.CultureInvariant);
+  if(m.Success)return Name(m.Groups["name"].Value)+"的规则文本视为空白";
   return null;
  }
  public static bool IsPowerButton(string path,string card,bool inCard,bool button){
@@ -159,7 +161,7 @@ public sealed class RenderedDisplayRules {
       (path.StartsWith("Canvas/",StringComparison.Ordinal) || path.StartsWith("Full Card Canvas/Full Card Panel/",StringComparison.Ordinal)) &&
       Regex.IsMatch(path,@"/CardView RechargeMode-[0-9]+ FullCardFront(?: \(Temporary\))?/Body Box/Body Label\z") &&
       result.Replace("\\r\\n","\n").Replace("\\n","\n").Replace("\r\n","\n").Replace("\r","\n")==rechargeBody)
-    result="<line-height=85%>"+result+"</line-height>";
+    result="<line-height=100%>"+result+"</line-height>";
    if(result==source)result=previous??source;
   }
   if(inCard && obj=="Advanced Heading Label"){

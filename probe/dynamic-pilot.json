@@ -181,7 +181,11 @@
     "hint.card.draw": "点击一张牌以将其抽入手牌。",
     "hint.card.discard": "点击一张牌以将其弃置。",
     "hint.card.bury": "点击一张牌以将其埋藏。",
-    "hint.trash.salvage.upto": "{0}点击弃牌堆中的至多{1}张牌以将其回收。"
+    "hint.trash.salvage.upto": "{0}点击弃牌堆中的至多{1}张牌以将其回收。",
+    "hint.attack.required.dual": "{0}点击{1}及另外{2}个目标，对其各造成<nobr>{3}点{4}伤害</nobr>和<nobr>{5}点{6}伤害</nobr>。",
+    "hint.attack.required.triple": "{0}点击{1}及另外{2}个目标，对其各造成<nobr>{3}点{4}伤害</nobr>、<nobr>{5}点{6}伤害</nobr>和<nobr>{7}点{8}伤害</nobr>。",
+    "hint.blank.target": "点击一个目标，使其规则文本视为空白。",
+    "hint.blank.inplay": "点击一张场上的牌，使其规则文本视为空白。"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",

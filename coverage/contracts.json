@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "06a7031a26a4a462f8e43eed4cee6f2ee670bea209856cf555c004fe91083b49",
+    "runtime/DynamicDisplayRules.cs": "d777adac641bd0998f63adf05216370752b41b05285e7ccc03a97f2131456fc6",
     "runtime/SurfaceProbeRules.cs": "1d8071f2bb04ac9d4f69936e07ff9fbc933c5805644ac323d080566fce0d9e00",
     "runtime/SurfaceProbe.cs": "3848374ccfe3e4c4df22927b6b78d093924fc2c0be2743abc0d17d95482a4940",
-    "runtime/Plugin.cs": "93d4ccfc3f9059e155f1b327f0c3faa1582fc1727b5ab5db8edb8975d47a1be4",
+    "runtime/Plugin.cs": "71bb1d8349794ee43c1b8cf5b7e80b19526ecc94dd17820f905d41093cba9d1e",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "d700a73f552d4ffd5c3427f097db8ad164f02ff7b7432ed2bad4e007f845d194",
-    "runtime/RenderedDisplayRules.cs": "ddf13120fc5bd41105518099a000a67effe68334449caa8efed31e8c958117fb"
+    "probe/dynamic-pilot.json": "304647aa69bd1b5a916c1f8d89cf2f789f5ce76a5e8cba1d9a1777d7bdd9237f",
+    "runtime/RenderedDisplayRules.cs": "a348c3e58273aa69bf63d143d20c1241c66675548cfe8b2f2e0cf2b1f9c3b7ba"
   },
   "families": [
     {
@@ -110,7 +110,11 @@
         "hint.card.draw",
         "hint.card.discard",
         "hint.card.bury",
-        "hint.trash.salvage.upto"
+        "hint.trash.salvage.upto",
+        "hint.attack.required.dual",
+        "hint.attack.required.triple",
+        "hint.blank.target",
+        "hint.blank.inplay"
       ],
       "contexts": [
         {
@@ -5299,6 +5303,838 @@
             "inCardView": false,
             "source": "<b>Arcane Cadence:</b> Click a card to play it.",
             "expected": "<b>奥术终止式:</b> 点击一张牌以将其打出。"
+          }
+        },
+        {
+          "id": "026-observed",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 1 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>及另外1个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-0-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b> and 0 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>及另外0个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-0-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b> and 1 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>及另外1个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-0-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b> and 2 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>及另外2个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-0-12",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b> and 12 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>及另外12个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-1-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b> and 0 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>、<b>狂信</b>及另外0个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-1-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b> and 1 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>、<b>狂信</b>及另外1个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-1-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b> and 2 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>、<b>狂信</b>及另外2个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-1-12",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b> and 12 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>、<b>狂信</b>及另外12个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-2-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>Omnitron</b> and 0 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>全能智创</b>及另外0个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-2-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>Omnitron</b> and 1 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>全能智创</b>及另外1个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-2-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>Omnitron</b> and 2 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>全能智创</b>及另外2个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-2-12",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>Omnitron</b> and 12 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>全能智创</b>及另外12个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-3-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>Wagner Mars Base</b> and 0 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>瓦格纳火星基地</b>及另外0个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-3-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>Wagner Mars Base</b> and 1 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>瓦格纳火星基地</b>及另外1个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-3-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>Wagner Mars Base</b> and 2 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>瓦格纳火星基地</b>及另外2个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-3-12",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>Wagner Mars Base</b> and 12 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>瓦格纳火星基地</b>及另外12个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-4-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>Unknown Target</b> and 0 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>Unknown Target</b>及另外0个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-4-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>Unknown Target</b> and 1 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>Unknown Target</b>及另外1个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-4-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>Unknown Target</b> and 2 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>Unknown Target</b>及另外2个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-4-12",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>Unknown Target</b> and 12 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>Unknown Target</b>及另外12个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-5-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b>, <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b>, <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 0 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>、<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>、<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>及另外0个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-5-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b>, <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b>, <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 1 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>、<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>、<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>及另外1个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-5-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b>, <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b>, <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 2 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>、<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>、<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>及另外2个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-targets-5-12",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b>, <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b>, <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 12 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>、<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>、<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>及另外12个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-dual-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 1 more target to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>及另外1个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-dual-3",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 3 more targets to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>及另外3个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-amounts-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 2 more targets to deal them <nobr>0 lightning</nobr>, <nobr>2 energy</nobr>, and <nobr>999999 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>及另外2个目标，对其各造成<nobr>0点闪电伤害</nobr>、<nobr>2点能量伤害</nobr>和<nobr>999999点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-amounts-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 2 more targets to deal them <nobr>12 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>4 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击<b>银音秘师</b>、<b>狂信</b>、<b>优妮蒂</b>、<b>幽魂</b>及另外2个目标，对其各造成<nobr>12点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>4点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "026-reject-0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 1 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-reject-1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 1 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-reject-2",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 2 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-reject-3",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 1 more target to deal them <nobr>1 unknown</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-reject-4",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 1 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 unknown</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-reject-5",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 1 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 unknown</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-reject-6",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 1 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>-1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-reject-7",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 1 more target to deal them <nobr>1000000 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-reject-8",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 1 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr> or <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-reject-9",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <i>Unity</i>, <b>The Wraith</b> and 1 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-wrong-path",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标名单和每项伤害分别保留；观察与合成用例不记为实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click <b>The Argent Adept</b>, <b>Fanatic</b>, <b>Unity</b>, <b>The Wraith</b> and 1 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-blank-Brutal Censure-a target",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Brutal Censure:</b> Click a target to make it have no game text.",
+            "expected": "<b>严酷责罚:</b> 点击一个目标，使其规则文本视为空白。"
+          }
+        },
+        {
+          "id": "026-blank-Brutal Censure-a card in play",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Brutal Censure:</b> Click a card in play to make it have no game text.",
+            "expected": "<b>严酷责罚:</b> 点击一张场上的牌，使其规则文本视为空白。"
+          }
+        },
+        {
+          "id": "026-blank-Omnitron-a target",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Omnitron:</b> Click a target to make it have no game text.",
+            "expected": "<b>全能智创:</b> 点击一个目标，使其规则文本视为空白。"
+          }
+        },
+        {
+          "id": "026-blank-Omnitron-a card in play",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Omnitron:</b> Click a card in play to make it have no game text.",
+            "expected": "<b>全能智创:</b> 点击一张场上的牌，使其规则文本视为空白。"
+          }
+        },
+        {
+          "id": "026-blank-Wagner Mars Base-a target",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Wagner Mars Base:</b> Click a target to make it have no game text.",
+            "expected": "<b>瓦格纳火星基地:</b> 点击一个目标，使其规则文本视为空白。"
+          }
+        },
+        {
+          "id": "026-blank-Wagner Mars Base-a card in play",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Wagner Mars Base:</b> Click a card in play to make it have no game text.",
+            "expected": "<b>瓦格纳火星基地:</b> 点击一张场上的牌，使其规则文本视为空白。"
+          }
+        },
+        {
+          "id": "026-blank-bare-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a target to make it have no game text.",
+            "expected": "点击一个目标，使其规则文本视为空白。"
+          }
+        },
+        {
+          "id": "026-blank-wrong-path-0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a target to make it have no game text.",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-blank-suffix-0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a target to make it have no game text. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-blank-bare-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a card in play to make it have no game text.",
+            "expected": "点击一张场上的牌，使其规则文本视为空白。"
+          }
+        },
+        {
+          "id": "026-blank-wrong-path-1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a card in play to make it have no game text.",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-blank-suffix-1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a card in play to make it have no game text. Extra",
+            "expected": null
           }
         }
       ]
@@ -25866,6 +26702,107 @@
             "source": "Activate the <nobr><sprite name=\"Exterminate\" color=#FFFFFF> <style=BoldItalic>EXTERMINATE</style></nobr> on each Villain card <i>(including any cards that are played this phase)</i>.\\r\\n",
             "expected": "发动所有反派牌的<nobr><sprite name=\"Exterminate\" color=#FFFFFF> <style=BoldItalic>灭绝</style></nobr><i>（含本阶段打出的牌）</i>。\\r\\n"
           }
+        },
+        {
+          "id": "026-blank-effect-0",
+          "status": "offline-covered",
+          "view": "effect-tooltip",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S83AssaultDrones-1 FullCardFront/Effect Panel/Effect View(Clone)/Tooltip/Tooltip Label",
+            "objectName": "Tooltip Label",
+            "cardId": "S83AssaultDrones",
+            "inCardView": true,
+            "source": "S-83 Assault Drones has no game text",
+            "expected": "S-83突击机兵的规则文本视为空白",
+            "effectTooltip": true
+          }
+        },
+        {
+          "id": "026-blank-effect-1",
+          "status": "offline-covered",
+          "view": "effect-tooltip",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S83AssaultDrones-1 FullCardFront/Effect Panel/Effect View(Clone)/Tooltip/Tooltip Label",
+            "objectName": "Tooltip Label",
+            "cardId": "S83AssaultDrones",
+            "inCardView": true,
+            "source": "Omnitron has no game text",
+            "expected": "全能智创的规则文本视为空白",
+            "effectTooltip": true
+          }
+        },
+        {
+          "id": "026-blank-effect-2",
+          "status": "offline-covered",
+          "view": "effect-tooltip",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S83AssaultDrones-1 FullCardFront/Effect Panel/Effect View(Clone)/Tooltip/Tooltip Label",
+            "objectName": "Tooltip Label",
+            "cardId": "S83AssaultDrones",
+            "inCardView": true,
+            "source": "Wagner Mars Base has no game text",
+            "expected": "瓦格纳火星基地的规则文本视为空白",
+            "effectTooltip": true
+          }
+        },
+        {
+          "id": "026-blank-effect-3",
+          "status": "offline-covered",
+          "view": "effect-tooltip",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S83AssaultDrones-1 FullCardFront/Effect Panel/Effect View(Clone)/Tooltip/Tooltip Label",
+            "objectName": "Tooltip Label",
+            "cardId": "S83AssaultDrones",
+            "inCardView": true,
+            "source": "Unknown Card has no game text",
+            "expected": "Unknown Card的规则文本视为空白",
+            "effectTooltip": true
+          }
+        },
+        {
+          "id": "026-blank-effect-no-identity",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S83AssaultDrones-1 FullCardFront/Effect Panel/Effect View(Clone)/Tooltip/Tooltip Label",
+            "objectName": "Tooltip Label",
+            "cardId": "S83AssaultDrones",
+            "inCardView": true,
+            "source": "S-83 Assault Drones has no game text",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-blank-effect-suffix",
+          "status": "excluded",
+          "view": "effect-tooltip",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整规则文本视为空白效果，使用已审卡牌措辞；效果条仅绑定真实EffectView提示身份。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S83AssaultDrones-1 FullCardFront/Effect Panel/Effect View(Clone)/Tooltip/Tooltip Label",
+            "objectName": "Tooltip Label",
+            "cardId": "S83AssaultDrones",
+            "inCardView": true,
+            "source": "S-83 Assault Drones has no game text Extra",
+            "expected": null,
+            "effectTooltip": true
+          }
         }
       ]
     },
@@ -29844,14 +30781,14 @@
           "view": "full-card",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "日志完整正文与大图控件；85%行距为待实机验收方案，不改字号、数字或规则。",
+          "reason": "日志完整正文与大图控件；100%行距为待实机验收方案，不改字号、数字或规则。",
           "case": {
             "path": "Canvas/Temporary Full Card Panel/CardView RechargeMode-3 FullCardFront (Temporary)/Body Box/Body Label",
             "objectName": "Body Label",
             "cardId": "RechargeMode",
             "inCardView": true,
             "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
-            "expected": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
+            "expected": "<line-height=100%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
           }
         },
         {
@@ -29860,14 +30797,14 @@
           "view": "full-card",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "日志完整正文与大图控件；85%行距为待实机验收方案，不改字号、数字或规则。",
+          "reason": "日志完整正文与大图控件；100%行距为待实机验收方案，不改字号、数字或规则。",
           "case": {
             "path": "Canvas/Temporary Full Card Panel/CardView RechargeMode-3 FullCardFront (Temporary)/Body Box/Body Label",
             "objectName": "Body Label",
             "cardId": "RechargeMode",
             "inCardView": true,
             "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
-            "expected": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
+            "expected": "<line-height=100%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
           }
         },
         {
@@ -29876,14 +30813,14 @@
           "view": "full-card",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "日志完整正文与大图控件；85%行距为待实机验收方案，不改字号、数字或规则。",
+          "reason": "日志完整正文与大图控件；100%行距为待实机验收方案，不改字号、数字或规则。",
           "case": {
             "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Hand/Card Container/CardView RechargeMode-3 FullCardFront (Temporary)/Body Box/Body Label",
             "objectName": "Body Label",
             "cardId": "RechargeMode",
             "inCardView": true,
             "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
-            "expected": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
+            "expected": "<line-height=100%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
           }
         },
         {
@@ -29892,14 +30829,14 @@
           "view": "full-card",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "日志完整正文与大图控件；85%行距为待实机验收方案，不改字号、数字或规则。",
+          "reason": "日志完整正文与大图控件；100%行距为待实机验收方案，不改字号、数字或规则。",
           "case": {
             "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Hand/Card Container/CardView RechargeMode-3 FullCardFront/Body Box/Body Label",
             "objectName": "Body Label",
             "cardId": "RechargeMode",
             "inCardView": true,
             "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
-            "expected": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
+            "expected": "<line-height=100%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
           }
         },
         {
@@ -29908,14 +30845,14 @@
           "view": "full-card",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "日志完整正文与大图控件；85%行距为待实机验收方案，不改字号、数字或规则。",
+          "reason": "日志完整正文与大图控件；100%行距为待实机验收方案，不改字号、数字或规则。",
           "case": {
             "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Hand/Card Container/CardView RechargeMode-3 FullCardFront/Body Box/Body Label",
             "objectName": "Body Label",
             "cardId": "RechargeMode",
             "inCardView": true,
             "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
-            "expected": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
+            "expected": "<line-height=100%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
           }
         },
         {
@@ -29924,14 +30861,14 @@
           "view": "full-card",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "日志完整正文与大图控件；85%行距为待实机验收方案，不改字号、数字或规则。",
+          "reason": "日志完整正文与大图控件；100%行距为待实机验收方案，不改字号、数字或规则。",
           "case": {
             "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/CardView RechargeMode-3 FullCardFront/Body Box/Body Label",
             "objectName": "Body Label",
             "cardId": "RechargeMode",
             "inCardView": true,
             "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
-            "expected": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
+            "expected": "<line-height=100%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
           }
         },
         {
@@ -29940,14 +30877,14 @@
           "view": "full-card",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "日志完整正文与大图控件；85%行距为待实机验收方案，不改字号、数字或规则。",
+          "reason": "日志完整正文与大图控件；100%行距为待实机验收方案，不改字号、数字或规则。",
           "case": {
             "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView RechargeMode-3 FullCardFront/Body Box/Body Label",
             "objectName": "Body Label",
             "cardId": "RechargeMode",
             "inCardView": true,
             "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
-            "expected": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
+            "expected": "<line-height=100%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
           }
         },
         {
@@ -29962,7 +30899,7 @@
             "objectName": "Body Label",
             "cardId": "RechargeMode",
             "inCardView": true,
-            "source": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>",
+            "source": "<line-height=100%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>",
             "expected": null
           }
         },
@@ -30075,7 +31012,7 @@
             "cardId": "RechargeMode",
             "inCardView": true,
             "source": "你无法使用异能。\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\n破坏此牌。\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\n你可以额外抽4张牌。\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\n将任意数量的手牌置于场上的任意军械牌下。\n",
-            "expected": "<line-height=85%>你无法使用异能。\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\n破坏此牌。\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\n你可以额外抽4张牌。\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\n将任意数量的手牌置于场上的任意军械牌下。\n</line-height>"
+            "expected": "<line-height=100%>你无法使用异能。\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\n破坏此牌。\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\n你可以额外抽4张牌。\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\n将任意数量的手牌置于场上的任意军械牌下。\n</line-height>"
           }
         },
         {
@@ -30091,7 +31028,93 @@
             "cardId": "RechargeMode",
             "inCardView": true,
             "source": "你无法使用异能。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\\r\\n破坏此牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\\r\\n你可以额外抽4张牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\\r\\n将任意数量的手牌置于场上的任意军械牌下。\\r\\n",
-            "expected": "<line-height=85%>你无法使用异能。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\\r\\n破坏此牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\\r\\n你可以额外抽4张牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\\r\\n将任意数量的手牌置于场上的任意军械牌下。\\r\\n</line-height>"
+            "expected": "<line-height=100%>你无法使用异能。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\\r\\n破坏此牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\\r\\n你可以额外抽4张牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\\r\\n将任意数量的手牌置于场上的任意军械牌下。\\r\\n</line-height>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reaction-body-parameters",
+      "templates": [],
+      "contexts": [
+        {
+          "id": "026-reaction-body-0",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志发现已译反应正文的角色参数遗漏，补齐ReactionBody完整行边界；保留−2及原有格式。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/CardView EmergencyShielding-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "EmergencyShielding",
+            "inCardView": true,
+            "source": "此牌被破坏时，堡垒恢复2点生命值。\r\n<style=ReactionHeading>反应: </style><style=ReactionBody>Bunker将受到的伤害−2。然后，若Bunker仍受到伤害，破坏此牌。\r\n</style>",
+            "expected": "此牌被破坏时，堡垒恢复2点生命值。\r\n<style=ReactionHeading>反应: </style><style=ReactionBody>堡垒将受到的伤害−2。然后，若堡垒仍受到伤害，破坏此牌。\r\n</style>"
+          }
+        },
+        {
+          "id": "026-reaction-body-1",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志发现已译反应正文的角色参数遗漏，补齐ReactionBody完整行边界；保留−2及原有格式。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/CardView EmergencyShielding-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "EmergencyShielding",
+            "inCardView": true,
+            "source": "此牌被破坏时，堡垒恢复2点生命值。\r\n<style=ReactionHeading>REACTION: </style><style=ReactionBody>Bunker将受到的伤害−2。然后，若Bunker仍受到伤害，破坏此牌。\r\n</style>",
+            "expected": "此牌被破坏时，堡垒恢复2点生命值。\r\n<style=ReactionHeading>反应: </style><style=ReactionBody>堡垒将受到的伤害−2。然后，若堡垒仍受到伤害，破坏此牌。\r\n</style>"
+          }
+        },
+        {
+          "id": "026-reaction-body-2",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志发现已译反应正文的角色参数遗漏，补齐ReactionBody完整行边界；保留−2及原有格式。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/CardView EmergencyShielding-0 FullCardFront/Body Box/Body Label",
+            "objectName": "HP Label",
+            "cardId": "EmergencyShielding",
+            "inCardView": true,
+            "source": "此牌被破坏时，堡垒恢复2点生命值。\r\n<style=ReactionHeading>反应: </style><style=ReactionBody>Bunker将受到的伤害−2。然后，若Bunker仍受到伤害，破坏此牌。\r\n</style>",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-reaction-body-3",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志发现已译反应正文的角色参数遗漏，补齐ReactionBody完整行边界；保留−2及原有格式。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/CardView EmergencyShielding-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OtherCard",
+            "inCardView": true,
+            "source": "此牌被破坏时，堡垒恢复2点生命值。\r\n<style=ReactionHeading>反应: </style><style=ReactionBody>Bunker将受到的伤害−2。然后，若Bunker仍受到伤害，破坏此牌。\r\n</style>",
+            "expected": null
+          }
+        },
+        {
+          "id": "026-reaction-body-4",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志发现已译反应正文的角色参数遗漏，补齐ReactionBody完整行边界；保留−2及原有格式。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/CardView EmergencyShielding-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "EmergencyShielding",
+            "inCardView": true,
+            "source": "此牌被破坏时，堡垒恢复2点生命值。\r\n<style=ReactionHeading>反应: </style><style=ReactionBody>堡垒将受到的伤害−2。然后，若堡垒仍受到伤害，破坏此牌。\r\n</style>",
+            "expected": null
           }
         }
       ]

@@ -137,7 +137,7 @@
     "original": "Click a card in play to make it have no game text.",
     "translation": "点击一张场上的牌，使其规则文本视为空白。",
     "stage": 1,
-    "context": "已捕获完整句的编辑归一化；显示尚未接入。未移除卡牌，也不等同于破坏。"
+    "context": "已捕获完整句的编辑归一化；0.1.26已接入HUD完整提示，待实机验收。未移除卡牌，也不等同于破坏。"
   },
   {
     "key": "editorial.ui.hint.attack.noheader",
