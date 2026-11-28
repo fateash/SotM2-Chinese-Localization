@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "d777adac641bd0998f63adf05216370752b41b05285e7ccc03a97f2131456fc6",
+    "runtime/DynamicDisplayRules.cs": "c4098270f9b5974fc0fc29cebcf9e89942571ef84e25f253bf74c6cc8ae7de4c",
     "runtime/SurfaceProbeRules.cs": "1d8071f2bb04ac9d4f69936e07ff9fbc933c5805644ac323d080566fce0d9e00",
     "runtime/SurfaceProbe.cs": "3848374ccfe3e4c4df22927b6b78d093924fc2c0be2743abc0d17d95482a4940",
-    "runtime/Plugin.cs": "71bb1d8349794ee43c1b8cf5b7e80b19526ecc94dd17820f905d41093cba9d1e",
+    "runtime/Plugin.cs": "1e65a47d3511360bb16a633c5a046bd7a66121bad34c13743d2b01d74059fe60",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "304647aa69bd1b5a916c1f8d89cf2f789f5ce76a5e8cba1d9a1777d7bdd9237f",
+    "probe/dynamic-pilot.json": "ec170296124ced8ddc514a605d3e1ab00b02feb7b7cb6ec06b10ad29d1d39d3b",
     "runtime/RenderedDisplayRules.cs": "a348c3e58273aa69bf63d143d20c1241c66675548cfe8b2f2e0cf2b1f9c3b7ba"
   },
   "families": [
@@ -114,7 +114,14 @@
         "hint.attack.required.dual",
         "hint.attack.required.triple",
         "hint.blank.target",
-        "hint.blank.inplay"
+        "hint.blank.inplay",
+        "hint.attack.exact.dual",
+        "hint.attack.exact.triple",
+        "hint.attack.upto.dual",
+        "hint.attack.upto.triple",
+        "hint.attack.remaining.dual",
+        "hint.attack.remaining.triple",
+        "hint.attack.single.triple"
       ],
       "contexts": [
         {
@@ -6134,6 +6141,790 @@
             "cardId": "",
             "inCardView": false,
             "source": "Click a card in play to make it have no game text. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-exact-2-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 0 targets to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击0个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-exact-2-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 1 target to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击1个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-exact-2-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 2 targets to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击2个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-exact-2-5",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 5 targets to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击5个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-exact-2-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 999999 targets to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击999999个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-exact-3-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 0 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击0个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-exact-3-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 1 target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击1个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-exact-3-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 2 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击2个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-exact-3-5",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 5 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击5个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-exact-3-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 999999 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击999999个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-upto-2-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click up to 0 targets to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击至多0个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-upto-2-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click up to 1 target to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击至多1个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-upto-2-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click up to 2 targets to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击至多2个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-upto-2-5",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click up to 5 targets to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击至多5个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-upto-2-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click up to 999999 targets to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击至多999999个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-upto-3-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click up to 0 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击至多0个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-upto-3-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click up to 1 target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击至多1个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-upto-3-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click up to 2 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击至多2个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-upto-3-5",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click up to 5 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击至多5个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-upto-3-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click up to 999999 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击至多999999个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-remaining-2-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 0 more targets to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击另外0个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-remaining-2-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 1 more target to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击另外1个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-remaining-2-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 2 more targets to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击另外2个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-remaining-2-5",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 5 more targets to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击另外5个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-remaining-2-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 999999 more targets to deal them <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击另外999999个目标，对其各造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-remaining-3-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 0 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击另外0个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-remaining-3-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 1 more target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击另外1个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-remaining-3-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 2 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击另外2个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-remaining-3-5",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 5 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击另外5个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-remaining-3-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 999999 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击另外999999个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-single-2-None",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click a target to deal it <nobr>1 lightning</nobr> and <nobr>1 energy</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击一个目标，对其造成<nobr>1点闪电伤害</nobr>和<nobr>1点能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-single-3-None",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click a target to deal it <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击一个目标，对其造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-source-Omnitron",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Omnitron:</b> Click 5 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>全能智创:</b> 点击5个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-source-Wagner Mars Base",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Wagner Mars Base:</b> Click 5 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>瓦格纳火星基地:</b> 点击5个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-source-Unknown Card",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Unknown Card:</b> Click 5 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": "<b>Unknown Card:</b> 点击5个目标，对其各造成<nobr>1点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>1点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-amount-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 5 targets to deal them <nobr>0 lightning</nobr>, <nobr>2 energy</nobr>, and <nobr>999999 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击5个目标，对其各造成<nobr>0点闪电伤害</nobr>、<nobr>2点能量伤害</nobr>和<nobr>999999点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-amount-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 5 targets to deal them <nobr>12 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>4 toxic</nobr> damage.",
+            "expected": "<b>自适应装甲程序:</b> 点击5个目标，对其各造成<nobr>12点闪电伤害</nobr>、<nobr>1点能量伤害</nobr>和<nobr>4点毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "027-reject-0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 5 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-reject-1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 1 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-reject-2",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 2 target to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-reject-3",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 5 targets to deal it <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-reject-4",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click up to 5 more targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-reject-5",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 5 targets to deal them <nobr>1 unknown</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-reject-6",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 5 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 unknown</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-reject-7",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 5 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 unknown</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-reject-8",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 5 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>-1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-reject-9",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 5 targets to deal them <nobr>1 lightning</nobr>, <nobr>1000000 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-reject-10",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 5 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr> or <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-wrong-path",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "直接选择目标与双/三伤害组合；数量范围、每项数值与类型独立保留。合成组合不标记实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Adaptive Plating Subroutine:</b> Click 5 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
             "expected": null
           }
         }

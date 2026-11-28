@@ -185,7 +185,14 @@
     "hint.attack.required.dual": "{0}点击{1}及另外{2}个目标，对其各造成<nobr>{3}点{4}伤害</nobr>和<nobr>{5}点{6}伤害</nobr>。",
     "hint.attack.required.triple": "{0}点击{1}及另外{2}个目标，对其各造成<nobr>{3}点{4}伤害</nobr>、<nobr>{5}点{6}伤害</nobr>和<nobr>{7}点{8}伤害</nobr>。",
     "hint.blank.target": "点击一个目标，使其规则文本视为空白。",
-    "hint.blank.inplay": "点击一张场上的牌，使其规则文本视为空白。"
+    "hint.blank.inplay": "点击一张场上的牌，使其规则文本视为空白。",
+    "hint.attack.exact.dual": "{0}点击{1}个目标，对其各造成<nobr>{2}点{3}伤害</nobr>和<nobr>{4}点{5}伤害</nobr>。",
+    "hint.attack.exact.triple": "{0}点击{1}个目标，对其各造成<nobr>{2}点{3}伤害</nobr>、<nobr>{4}点{5}伤害</nobr>和<nobr>{6}点{7}伤害</nobr>。",
+    "hint.attack.upto.dual": "{0}点击至多{1}个目标，对其各造成<nobr>{2}点{3}伤害</nobr>和<nobr>{4}点{5}伤害</nobr>。",
+    "hint.attack.upto.triple": "{0}点击至多{1}个目标，对其各造成<nobr>{2}点{3}伤害</nobr>、<nobr>{4}点{5}伤害</nobr>和<nobr>{6}点{7}伤害</nobr>。",
+    "hint.attack.remaining.dual": "{0}点击另外{1}个目标，对其各造成<nobr>{2}点{3}伤害</nobr>和<nobr>{4}点{5}伤害</nobr>。",
+    "hint.attack.remaining.triple": "{0}点击另外{1}个目标，对其各造成<nobr>{2}点{3}伤害</nobr>、<nobr>{4}点{5}伤害</nobr>和<nobr>{6}点{7}伤害</nobr>。",
+    "hint.attack.single.triple": "{0}点击一个目标，对其造成<nobr>{1}点{2}伤害</nobr>、<nobr>{3}点{4}伤害</nobr>和<nobr>{5}点{6}伤害</nobr>。"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",
