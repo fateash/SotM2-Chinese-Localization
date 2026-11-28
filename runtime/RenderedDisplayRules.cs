@@ -9,15 +9,22 @@ public sealed class RenderedDisplayRules {
  readonly Dictionary<string,HashSet<string>> incapSources=new(StringComparer.Ordinal);
  readonly Dictionary<string,string> names=new(StringComparer.Ordinal);
  readonly Dictionary<string,(Regex Pattern,string Target)[]> rules=new(StringComparer.Ordinal);
+ readonly Dictionary<string,string> grantedHeroPowers=new(StringComparer.Ordinal);
  static readonly Regex Token=new(@"\{[^{}]+\}",RegexOptions.CultureInvariant);
  static readonly Regex PowerPath=new(@"/Power Container/[0-9]{1,6}/UsePower-[A-Za-z0-9_]+-(?<card>[A-Za-z0-9_]+)/Label\z",RegexOptions.CultureInvariant);
  const string Heroes="AbsoluteZero|Bunker|CaptainCosmic|Fanatic|Haka|Legacy|Ra|Tachyon|Tempest|TheArgentAdept|TheWraith|Unity";
+ static readonly Regex GrantedHeroPowerPath=new(@"\ACanvas/Main Panel/(?:(?:3 Hero Layout/Inactive Hero Location [12]|5 Hero Layout/Inactive Hero Location [1-4])/)?(?<hero>"+Heroes+@")/Inner Panel/Character Card Container/\k<hero>Character/Foreground Elements/Power Container/[0-9]{1,6}/UsePower-\k<hero>-\k<hero>Character/Label\z",RegexOptions.CultureInvariant);
+ static readonly string[] PowerLineEndings={"\r\n","\n","\r","\\r\\n","\\n",""};
  static readonly Regex IncapPath=new(@"\ACanvas/Main Panel/(?:(?:3 Hero Layout/Inactive Hero Location [12]|5 Hero Layout/Inactive Hero Location [1-4])/)?(?<hero>"+Heroes+@")/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button\(Clone\)/Label\z",RegexOptions.CultureInvariant);
  const string Bullet="<size=70%><sprite name=\"BulletPoint\"></size><indent=1em>";
  const string Setup="<b><i>Setup</i></b>: ";
  public const string Glyphs="准备进阶演奏伴奏制造灭绝减加确定要放弃本局游戏吗点击一位英雄确定谁视为生命值最低者不会因此受到伤害牌库抽张先行动在场无法不可削减最高任何造成受到寒冷火焰能量近战投射精神闪电毒素光耀音波邪能";
  public RenderedDisplayRules(Catalog c,Dictionary<string,string> deckNames,Dictionary<string,string>? dynamicTemplates=null){
   catalog=c;
+  // Cosmic Weapon explicitly grants this power to a Hero; the button is bound to the recipient.
+  // Other gainGameText entries are reactions or event text, not permission to translate all bodies across cards.
+  foreach(var e in c.Cards.Where(e=>e.Card=="CosmicWeapon" && e.Source=="This Hero deals 1 target 3 energy damage."))
+   grantedHeroPowers.Add(e.Source,e.Target);
   foreach(var g in c.Display.Where(e=>e.ObjectName=="Title Label" && e.Mode=="exact").GroupBy(e=>e.Source,StringComparer.Ordinal))
    if(g.Select(e=>e.Target).Distinct(StringComparer.Ordinal).Count()==1)names[g.Key]=g.First().Target;
   foreach(var e in deckNames)names[e.Key]=e.Value;
@@ -114,6 +121,17 @@ public sealed class RenderedDisplayRules {
  public string? Apply(string path,string obj,string card,bool inCard,bool button,string source,string? previous=null,bool effectTooltip=false){
   string result=previous??source;
   if(effectTooltip)return EffectTooltip(source)??previous;
+  if(inCard && button && obj=="Label"){
+   var granted=GrantedHeroPowerPath.Match(path);
+   if(granted.Success && card==granted.Groups["hero"].Value+"Character"){
+    foreach(var e in grantedHeroPowers)foreach(var ending in PowerLineEndings)
+     foreach(var heading in new[]{"POWER: ","异能: "}){
+      string before="<style=PowerHeading>"+heading+"</style><style=PowerBody>";
+      if(source==before+e.Key+ending+"</style>")
+       return "<style=PowerHeading>异能: </style><style=PowerBody>"+e.Value+ending+"</style>";
+     }
+   }
+  }
   if(!inCard){
    result=namedDynamic?.Apply(path,source)??result;
    var incap=IncapPath.Match(path);

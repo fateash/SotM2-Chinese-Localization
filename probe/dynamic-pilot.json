@@ -108,8 +108,8 @@
     "button.deal.self": "对自身造成{0}点伤害",
     "button.deal.many": "对{0}个目标造成3点伤害",
     "button.deal.amount": "造成{0}点伤害",
-    "button.play.construct": "打出Construct牌",
-    "button.discover.construct": "发现Construct牌",
+    "button.play.construct": "打出构造牌",
+    "button.discover.construct": "发现构造牌",
     "hint.lowest.hp": "点击一个目标，将其视为生命值最低的目标。",
     "description.discover": "{0}发现的牌：",
     "phase.power.remaining": "异能阶段（剩余{0}次）",
@@ -213,7 +213,13 @@
     "result.voss.conquered": "索拉宪大军已攻占全球，大军阀沃斯征服了地球！",
     "hint.attack.order.dual": "{0}点击目标，选择对它们造成<nobr>{1}点{2}伤害</nobr>和<nobr>{3}点{4}伤害</nobr>的顺序。",
     "hint.attack.order.triple": "{0}点击目标，选择对它们造成<nobr>{1}点{2}伤害</nobr>、<nobr>{3}点{4}伤害</nobr>和<nobr>{5}点{6}伤害</nobr>的顺序。",
-    "hint.attack.unspecified.nobr": "{0}点击一个目标，对其造成<nobr>{1}伤害</nobr>。"
+    "hint.attack.unspecified.nobr": "{0}点击一个目标，对其造成<nobr>{1}伤害</nobr>。",
+    "button.put.here": "放在此处",
+    "hint.dealer": "点击一个目标，使其造成伤害。",
+    "hint.put.hand": "点击一位英雄的手牌区，将{0}加入其手牌。",
+    "hint.reduce.single": "点击一个目标，减少其受到的伤害。",
+    "hint.hero.draw.count": "点击一位英雄，使其抽{0}张牌。",
+    "hint.choose.number": "点击一个按钮，选择一个数字。"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",

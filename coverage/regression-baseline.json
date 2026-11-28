@@ -135,7 +135,7 @@
     {
       "id": "0762c742a2fafca25a67c1fc",
       "reason": "current-rule-match",
-      "target": "发现Construct牌"
+      "target": "发现构造牌"
     },
     {
       "id": "076b23af0c496ecfd7bd2633",
@@ -483,6 +483,11 @@
       "target": null
     },
     {
+      "id": "23b369adab388f288936ca0c",
+      "reason": "current-rule-match",
+      "target": "<style=PowerHeading>异能: </style><style=PowerBody>该英雄对1个目标造成3点能量伤害。\r\n</style>"
+    },
+    {
       "id": "23f5cb8cdd42916c19063c33",
       "reason": "current-rule-match",
       "target": "异星水产学家抽到的牌："
@@ -616,6 +621,11 @@
       "id": "2ccd7f5108b15d91eb3e8007",
       "reason": "protected-number-markup",
       "target": null
+    },
+    {
+      "id": "2dfef984e2171156feafdd8d",
+      "reason": "current-rule-match",
+      "target": "<style=PowerHeading>异能: </style><style=PowerBody>该英雄对1个目标造成3点能量伤害。\r\n</style>"
     },
     {
       "id": "2e55635696d462bea8a9f5fa",
@@ -893,6 +903,11 @@
       "target": null
     },
     {
+      "id": "3ddaab5434ca20cf5983af46",
+      "reason": "current-rule-match",
+      "target": "放在此处"
+    },
+    {
       "id": "3dfe08a133833e8bbf0e1390",
       "reason": "current-rule-match",
       "target": "<b>激光侦测:</b> 点击一个牌库以展示一张牌。"
@@ -981,6 +996,11 @@
       "id": "446e847552fceb1ec9d27b51",
       "reason": "protected-number-markup",
       "target": null
+    },
+    {
+      "id": "44a4ce94eea3a70a25e4613e",
+      "reason": "current-rule-match",
+      "target": "放在此处"
     },
     {
       "id": "44ad4d765e62321dea20b133",
@@ -1105,7 +1125,7 @@
     {
       "id": "4bf2976e334ba1e7a4471778",
       "reason": "current-rule-match",
-      "target": "打出Construct牌"
+      "target": "打出构造牌"
     },
     {
       "id": "4c6b223c8ecf380bcb4308ad",
@@ -1553,6 +1573,11 @@
       "target": null
     },
     {
+      "id": "679741e08150f7a18b5e4e8f",
+      "reason": "current-rule-match",
+      "target": "<b>晶质小妖:</b> 点击一位英雄的手牌区，将晶质小妖加入其手牌。"
+    },
+    {
       "id": "67be4494df14e4bd869a960e",
       "reason": "current-rule-match",
       "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将狂热战舞放回原处或弃置。"
@@ -1638,6 +1663,11 @@
       "target": null
     },
     {
+      "id": "6cb8524b05568685ae4a3f6d",
+      "reason": "current-rule-match",
+      "target": "<b>科研资助:</b> 点击一个按钮，选择一个数字。"
+    },
+    {
       "id": "6cc74ba67b7c570f0cf9df39",
       "reason": "current-rule-match",
       "target": "效率飞升抽到的牌："
@@ -1656,6 +1686,11 @@
       "id": "6d62d72515609eced47989c0",
       "reason": "current-rule-match",
       "target": "<b>补给货箱:</b> 点击优妮蒂的牌库，抽2张牌。"
+    },
+    {
+      "id": "6dae2a7ee0737a594392024a",
+      "reason": "current-rule-match",
+      "target": "点击至多2个目标，对其各造成<nobr>2点近战伤害</nobr>。"
     },
     {
       "id": "6dd259e16b85a6296a541c71",
@@ -1793,6 +1828,11 @@
       "target": "快子展示的牌："
     },
     {
+      "id": "79e8813bf94194d35988080c",
+      "reason": "current-rule-match",
+      "target": "<b>塔玛元帅:</b> 点击一个目标，使其造成伤害。"
+    },
+    {
       "id": "7a05a4b35e89a35767ef6b33",
       "reason": "localized-text-observed",
       "target": null
@@ -1850,7 +1890,7 @@
     {
       "id": "7f63a3e170762d581bce08c0",
       "reason": "current-rule-match",
-      "target": "打出Construct牌"
+      "target": "打出构造牌"
     },
     {
       "id": "7fb2f55c104a8089a8af3f18",
@@ -1871,6 +1911,11 @@
       "id": "7ffe24f0af36c56749b0da04",
       "reason": "current-rule-match",
       "target": "弃置1张牌"
+    },
+    {
+      "id": "800cc4ece9930898e3799dc9",
+      "reason": "current-rule-match",
+      "target": "<style=PowerHeading>异能: </style><style=PowerBody>该英雄对1个目标造成3点能量伤害。\r\n</style>"
     },
     {
       "id": "800e1d1ab6397507493c3e15",
@@ -1911,6 +1956,11 @@
       "id": "836ed5ad84b6b954c1d77ec8",
       "reason": "current-rule-match",
       "target": "<b>毁灭回击:</b> 点击至多3个目标，对其各造成<nobr>1点能量伤害</nobr>。"
+    },
+    {
+      "id": "83e71cca2f8ef3831d72a447",
+      "reason": "current-rule-match",
+      "target": "放在此处"
     },
     {
       "id": "840e60f55680e61975039b0e",
@@ -2178,6 +2228,11 @@
       "target": "点击一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
     },
     {
+      "id": "97c974b34efa422e15413fee",
+      "reason": "current-rule-match",
+      "target": "<b>塑石工匠:</b> 点击一个目标，减少其受到的伤害。"
+    },
+    {
       "id": "97e8d859f8b25d62d631be99",
       "reason": "translated-output-observed",
       "target": null
@@ -2211,6 +2266,11 @@
       "id": "9a350225f2b1be7b4b1174cc",
       "reason": "current-rule-match",
       "target": "破坏7张牌"
+    },
+    {
+      "id": "9a6075fa8d4a45474e7ecf6e",
+      "reason": "current-rule-match",
+      "target": "<b>黄金之心:</b> 点击一位英雄，使其抽3张牌。"
     },
     {
       "id": "9ab087c7581d459f7cb403da",
@@ -2346,6 +2406,11 @@
       "id": "a1ccd62d38f0fd7152e4b10c",
       "reason": "current-rule-match",
       "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将平台机偶放回原处或弃置。"
+    },
+    {
+      "id": "a1f4959789eecfe7d21a70ec",
+      "reason": "current-rule-match",
+      "target": "放在此处"
     },
     {
       "id": "a20cf65329f19ee44953e029",
@@ -2608,6 +2673,11 @@
       "target": "制作人员"
     },
     {
+      "id": "b32e211bc18f73d6bc20f691",
+      "reason": "current-rule-match",
+      "target": "<style=PowerHeading>异能: </style><style=PowerBody>该英雄对1个目标造成3点能量伤害。\r\n</style>"
+    },
+    {
       "id": "b3c69fc8a9e02625224f3436",
       "reason": "protected-number",
       "target": null
@@ -2651,6 +2721,11 @@
       "id": "b543723128334ef01b001fc7",
       "reason": "protected-number",
       "target": null
+    },
+    {
+      "id": "b54c4d68b606209f410a5855",
+      "reason": "current-rule-match",
+      "target": "放在此处"
     },
     {
       "id": "b5dba19c210d127b1dd14b58",
@@ -2825,7 +2900,7 @@
     {
       "id": "bfc957d7799add5bbaf7e413",
       "reason": "current-rule-match",
-      "target": "发现Construct牌"
+      "target": "发现构造牌"
     },
     {
       "id": "bfe2c88250e6e09f30e99b2d",
@@ -3388,6 +3463,11 @@
       "target": null
     },
     {
+      "id": "e9bdbb7f6e998d7cb29624ed",
+      "reason": "current-rule-match",
+      "target": "<b>晶质巨兽:</b> 点击一位英雄的手牌区，将晶质巨兽加入其手牌。"
+    },
+    {
       "id": "e9c15fe0783376163889a74f",
       "reason": "current-rule-match",
       "target": "展示"
@@ -3431,6 +3511,11 @@
       "id": "ec13983ff95dfdb3244d90de",
       "reason": "current-rule-match",
       "target": "对1个目标造成伤害"
+    },
+    {
+      "id": "ec86986c2d936a99acc03333",
+      "reason": "current-rule-match",
+      "target": "<style=PowerHeading>异能: </style><style=PowerBody>该英雄对1个目标造成3点能量伤害。\r\n</style>"
     },
     {
       "id": "ecd0ec31ba8ec363a62ea0b7",

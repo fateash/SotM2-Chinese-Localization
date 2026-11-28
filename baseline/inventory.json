@@ -44812,10 +44812,10 @@
       "file": "dynamic/observed-ui-additions.json",
       "original": "Put Here",
       "sourceSha256": "c392e3a7d9ed98c3eb2ea1d62b3f717c725ae641f58669e057c5e905b635d07d",
-      "context": "已捕获完整句的编辑归一化；显示尚未接入。英雄手牌目的地；与Play Here在场打出不同。",
+      "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。英雄手牌目的地；与Play Here在场打出不同。",
       "kind": "ui.editorial-candidate",
       "route": "inventory",
-      "holdReason": "editorial-template-runtime-binding-pending",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
       "origin": {
         "exportFile": "2026_11_28_10_44_55_135e87.zip",
         "exportPath": "raw/dynamic/observed-ui-additions.json.json"
@@ -44854,10 +44854,10 @@
       "file": "dynamic/observed-ui-additions.json",
       "original": "Click a target to have it deal damage.",
       "sourceSha256": "ee905ec979e7d48fcca16597129f03212698b81cb31bfd4145fd60028b46210e",
-      "context": "已捕获完整句的编辑归一化；显示尚未接入。选伤害来源，不是受伤目标。",
+      "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。选伤害来源，不是受伤目标。",
       "kind": "ui.editorial-candidate",
       "route": "inventory",
-      "holdReason": "editorial-template-runtime-binding-pending",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
       "origin": {
         "exportFile": "2026_11_28_10_44_55_135e87.zip",
         "exportPath": "raw/dynamic/observed-ui-additions.json.json"
@@ -44980,10 +44980,10 @@
       "file": "dynamic/observed-ui-additions.json",
       "original": "Click a Hero's hand to to put {0} there.",
       "sourceSha256": "117760672cf5458190e1bbb4a5a8e785957892282095246dff47a613f29ddae8",
-      "context": "已捕获完整句的编辑归一化；显示尚未接入。保留原文重复to；{0}为卡牌名称。",
+      "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。保留原文重复to；{0}为卡牌名称。",
       "kind": "ui.editorial-candidate",
       "route": "inventory",
-      "holdReason": "editorial-template-runtime-binding-pending",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
       "origin": {
         "exportFile": "2026_11_28_10_44_55_135e87.zip",
         "exportPath": "raw/dynamic/observed-ui-additions.json.json"
@@ -45008,10 +45008,10 @@
       "file": "dynamic/observed-ui-additions.json",
       "original": "Click a target to reduce damage dealt to it.",
       "sourceSha256": "48d149bc83d76302e858b4e9111cca22dfbf8cd0b06a97b2603139420a42514b",
-      "context": "已捕获完整句的编辑归一化；显示尚未接入。不能译为减少造成的伤害。",
+      "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。不能译为减少造成的伤害。",
       "kind": "ui.editorial-candidate",
       "route": "inventory",
-      "holdReason": "editorial-template-runtime-binding-pending",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
       "origin": {
         "exportFile": "2026_11_28_10_44_55_135e87.zip",
         "exportPath": "raw/dynamic/observed-ui-additions.json.json"
@@ -46433,6 +46433,36 @@
         "evidenceFiles": [
           "SotM2-Dynamic-Evidence-20261128-163119-21617d.zip",
           "SotM2-Dynamic-Evidence-20261128-163956-325080.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.hint.hero.draw.count",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a hero to draw {0} cards.",
+      "sourceSha256": "46c7487d2e53a306d2a9eca72add64bead0e0dedb1f6ac75ea67af6f711a3191",
+      "context": "0.1.32日志完整HUD原文，0.1.33限定用途接入；数量单复数分别检查，未完成实机验收。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-170437-e05a66.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.hint.choose.number",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a button to choose a number.",
+      "sourceSha256": "93117453dd14960dc83c717fe350c19be86131c26918bc9d5d88066f0de41581",
+      "context": "0.1.32日志完整HUD原文，0.1.33限定用途接入；数量单复数分别检查，未完成实机验收。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-170437-e05a66.zip"
         ]
       }
     }

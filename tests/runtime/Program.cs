@@ -59,7 +59,7 @@ foreach(var pair in new[]{("Ra","2","fire","火焰"),("Nimble Strike","9","melee
  Check(pilot.Apply(SurfaceProbeRules.HintPath,input)==expected,"source amount type preserved "+pair);
 }
 Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Consuming Flame:</b> Click up to 3 targets to deal them <nobr>2 fire</nobr> damage.")=="<b>Consuming Flame:</b> 点击至多3个目标，对其各造成<nobr>2点火焰伤害</nobr>。","multi-target amount and upper limit separate");
-foreach(var input in new[]{"<b>Ra:</b> Click a target to deal it <nobr>2 unknown</nobr> damage.","<b>Ra:</b> Click a target to deal it <nobr>-2 fire</nobr> damage.","<b>Ra:</b> Click a target to deal it <nobr>2 fire</nobr> damage. Extra", "Click a target to deal it <nobr>2 fire</nobr> damage."})
+foreach(var input in new[]{"<b>Ra:</b> Click a target to deal it <nobr>2 unknown</nobr> damage.","<b>Ra:</b> Click a target to deal it <nobr>-2 fire</nobr> damage.","<b>Ra:</b> Click a target to deal it <nobr>2 fire</nobr> damage. Extra"})
  Check(pilot.Apply(SurfaceProbeRules.HintPath,input)==null,"unknown grammar untouched "+input);
 Check(pilot.Apply("Other/Finish Button Label","Damage 3 targets")==null,"same label other hierarchy untouched");
 Check(pilot.Apply(DynamicDisplayRules.FinishPath,"Damage 1 targets")==null,"unexpected plural form untouched");
@@ -212,7 +212,7 @@ Check(pilot.Apply(DynamicDisplayRules.DescriptionPath,"Other Card discovered:")=
 Check(pilot.Apply(DynamicDisplayRules.DescriptionPath,"<b>Cosmic Crest</b> discovered:")==null,"unexpected discovery markup not stripped");
 foreach(var source in new[]{"Play Construct","Discover Construct"}){
  foreach(var path in new[]{effectPath,"Full Card Canvas/Full Card Panel/CosmicCrest/Select Effect Container/Select Effect Button(Clone)/Label"})
-  Check(pilot.Dynamic.ApplyCardButton(path,"CosmicCrest",source)==(source=="Play Construct"?"打出Construct牌":"发现Construct牌"),"construct action scoped to small/full effect button");
+  Check(pilot.Dynamic.ApplyCardButton(path,"CosmicCrest",source)==(source=="Play Construct"?"打出构造牌":"发现构造牌"),"construct action scoped to small/full effect button");
  Check(pilot.Dynamic.ApplyCardButton(effectPath.Replace("Select Effect Container/Select Effect Button(Clone)","Power Container/UsePower"),"CosmicCrest",source)==null,"construct action cannot rewrite power body");
 }
 using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/dynamic-0.1.13.json"))){
@@ -396,4 +396,31 @@ using(var evidence032=System.Text.Json.JsonDocument.Parse(File.ReadAllText("test
   Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"[0-9]+").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"[0-9]+").Select(m=>m.Value)),"0.1.32 numeric sequence preserved");
  }
 }
+using(var evidence033=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/dynamic-0.1.33.json"))){
+ foreach(var sample in evidence033.RootElement.GetProperty("samples").EnumerateArray()){
+  string path=sample.GetProperty("path").GetString()!,source=sample.GetProperty("source").GetString()!;
+  string? actual=pilot.Apply(path,source);
+  Check(actual==sample.GetProperty("expected").GetString(),"0.1.33 full grammar output");
+  Check(pilot.Apply(path,actual!)==null,"0.1.33 output idempotent");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"<[^<>]+>").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"<[^<>]+>").Select(m=>m.Value)),"0.1.33 rich-text sequence preserved");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"[0-9]+").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"[0-9]+").Select(m=>m.Value)),"0.1.33 numeric sequence preserved");
+ }
+}
+var grantCompletion033=new RenderedDisplayRules(catalog,pilot.DeckNames,pilot.Templates);
+string grantSource033="<style=PowerHeading>POWER: </style><style=PowerBody>This Hero deals 1 target 3 energy damage.\r\n</style>";
+string grantPath033="Canvas/Main Panel/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Power Container/761/UsePower-Tachyon-TachyonCharacter/Label";
+string grantTarget033="<style=PowerHeading>异能: </style><style=PowerBody>该英雄对1个目标造成3点能量伤害。\r\n</style>";
+Check(grantCompletion033.Apply(grantPath033,"Label","TachyonCharacter",true,true,grantSource033)==grantTarget033,"granted power uses donor reviewed text on recipient button");
+Check(grantCompletion033.Apply(grantPath033,"Label","TachyonCharacter",true,true,grantTarget033)==null,"granted power Chinese output idempotent");
+Check(grantCompletion033.Apply(grantPath033,"Label","LegacyCharacter",true,true,grantSource033)==null,"granted power recipient identity mismatch rejected");
+Check(grantCompletion033.Apply(grantPath033,"Label","TachyonCharacter",true,false,grantSource033)==null,"granted power requires actual button");
+Check(grantCompletion033.Apply(grantPath033,"Label","TachyonCharacter",true,true,grantSource033.Replace("3 energy","4 energy"))==grantSource033.Replace("3 energy","4 energy").Replace("POWER: ","异能: "),"unreviewed granted amount never forced to fixed 3");
+foreach(var t in pilot.Templates){
+ string visible=System.Text.RegularExpressions.Regex.Replace(t.Value,@"<[^<>]+>","");
+ Check(!System.Text.RegularExpressions.Regex.IsMatch(visible,"[A-Za-z]"),"approved dynamic template has no leftover English token: "+t.Key);
+}
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click up to 2 targets to deal them <nobr>2 melee</nobr> damage.")=="点击至多2个目标，对其各造成<nobr>2点近战伤害</nobr>。","optional heading preserves separate target count and damage amount");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click a target to deal it <nobr>2 fire</nobr> damage.")=="点击一个目标，对其造成<nobr>2点火焰伤害</nobr>。","single target damage heading optional");
+Check(pilot.Apply("Canvas/Other/Hint Label","Click up to 2 targets to deal them <nobr>2 melee</nobr> damage.")==null,"optional heading does not relax HUD path");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click up to 2 targets to deal them <nobr>2 melee</nobr> damage. Extra.")==null,"optional heading does not drop unknown condition");
 Console.WriteLine("Total checks including deck names: "+count);

@@ -11,7 +11,7 @@
     "original": "Put Here",
     "translation": "放在此处",
     "stage": 1,
-    "context": "已捕获完整句的编辑归一化；显示尚未接入。英雄手牌目的地；与Play Here在场打出不同。"
+    "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。英雄手牌目的地；与Play Here在场打出不同。"
   },
   {
     "key": "editorial.ui.button.reshuffle",
@@ -32,7 +32,7 @@
     "original": "Click a target to have it deal damage.",
     "translation": "点击一个目标，使其造成伤害。",
     "stage": 1,
-    "context": "已捕获完整句的编辑归一化；显示尚未接入。选伤害来源，不是受伤目标。"
+    "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。选伤害来源，不是受伤目标。"
   },
   {
     "key": "editorial.ui.hint.regain",
@@ -95,7 +95,7 @@
     "original": "Click a Hero's hand to to put {0} there.",
     "translation": "点击一位英雄的手牌区，将{0}加入其手牌。",
     "stage": 1,
-    "context": "已捕获完整句的编辑归一化；显示尚未接入。保留原文重复to；{0}为卡牌名称。"
+    "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。保留原文重复to；{0}为卡牌名称。"
   },
   {
     "key": "editorial.ui.hint.most.ongoing",
@@ -109,7 +109,7 @@
     "original": "Click a target to reduce damage dealt to it.",
     "translation": "点击一个目标，减少其受到的伤害。",
     "stage": 1,
-    "context": "已捕获完整句的编辑归一化；显示尚未接入。不能译为减少造成的伤害。"
+    "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。不能译为减少造成的伤害。"
   },
   {
     "key": "editorial.ui.hint.play.and.power",
@@ -208,5 +208,19 @@
     "translation": "{0}点击一个目标，对其造成<nobr>{1}伤害</nobr>。",
     "stage": 1,
     "context": "0.1.32限定HUD完整句式：数值、伤害类型、标签保留；待实机画面及交互验收。"
+  },
+  {
+    "key": "editorial.ui.hint.hero.draw.count",
+    "original": "Click a hero to draw {0} cards.",
+    "translation": "点击一位英雄，使其抽{0}张牌。",
+    "stage": 1,
+    "context": "0.1.32日志完整HUD原文，0.1.33限定用途接入；数量单复数分别检查，未完成实机验收。"
+  },
+  {
+    "key": "editorial.ui.hint.choose.number",
+    "original": "Click a button to choose a number.",
+    "translation": "点击一个按钮，选择一个数字。",
+    "stage": 1,
+    "context": "0.1.32日志完整HUD原文，0.1.33限定用途接入；数量单复数分别检查，未完成实机验收。"
   }
 ]
