@@ -2,57 +2,57 @@
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@MotherEarthEvent/title",
     "original": "Mother Earth",
-    "translation": "",
-    "stage": 0,
+    "translation": "大地之母",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：MotherEarthEvent；类型：events.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@MotherEarthEvent/gameTexts/0/title",
     "original": "Heart of the Island",
-    "translation": "",
-    "stage": 0,
+    "translation": "岛屿之心",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：MotherEarthEvent；类型：ability.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@MotherEarthEvent/gameTexts/0/body/0",
     "original": "After an Environment card is destroyed, {AkashBhuta} deals each target 2 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "一张环境牌被破坏后，{AkashBhuta}对每个目标造成2点火焰伤害。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：MotherEarthEvent；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@MotherEarthEvent/body/0",
     "original": "The ancient earth-spirit Akash'Bhuta has bested her continual foe.{BR}With this latest Virtuoso of the Void defeated, nothing can possibly{BR}stand in her way -- humanity shall finally be laid low!",
-    "translation": "",
-    "stage": 0,
+    "translation": "古老的地灵阿卡什怖妲击败了她的宿敌。{BR}如今，连这一代虚空乐圣也已落败，再没有什么{BR}能够阻挡她——人类终将败亡！",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：MotherEarthEvent；类型：events.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@MotherEarthEvent/body/1",
     "original": "The Argent Adept is rescued by Fanatic, and they are joined by{BR}Captain Cosmic and Tempest. They travel to the time-lost island of{BR}Insula Primalis, where they find Haka locked in combat with{BR}void-altered dinosaurs. And with that, the new team known as the{BR}Prime Wardens is complete.",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师获狂信救出，宇宙队长与风暴{BR}随后加入。他们前往被时光遗落的{BR}原初岛，在那里发现哈卡正与{BR}遭虚空异变的恐龙交战。至此，一支名为{BR}“原初守卫”的新队伍集结完毕。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：MotherEarthEvent；类型：events.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@MotherEarthEvent/body/2",
     "original": "The heroes descend into the heart of the island to face the spirit{BR}of the earth itself...",
-    "translation": "",
-    "stage": 0,
+    "translation": "英雄们深入岛屿腹地，直面{BR}大地本身的精魂……",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：MotherEarthEvent；类型：events.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@EarthIncEvent/title",
     "original": "Earth Inc.",
-    "translation": "",
-    "stage": 0,
+    "translation": "地球公司",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EarthIncEvent；类型：events.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/events/@EarthIncEvent/body/0",
     "original": "Revocorp -- the biotech/futuretech firm with questionable ethics{BR}and even more questionable funding -- created a massive mechano-{BR}siphon to draw energy from deep within the earth. Akash'Bhuta is{BR}slumbering, but she feels the siphon activate above her. Her own{BR}physical form needs rest, but she is not above using humanity's{BR} hubris against itself!",
-    "translation": "",
-    "stage": 0,
+    "translation": "锐沃公司是一家研发生物技术与未来科技的企业，{BR}其道德操守可疑，资金来源更为可疑。公司造出了一台{BR}巨型机械虹吸装置，用以抽取地底深处的能量。{BR}阿卡什怖妲虽仍在沉睡，却感知到了上方启动的装置。{BR}她的躯体尚需休养，但她并不介意利用人类的狂妄，{BR}让他们自食其果！",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EarthIncEvent；类型：events.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/events/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

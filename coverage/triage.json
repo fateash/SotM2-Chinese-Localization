@@ -3,11 +3,11 @@
   "entries": [
     {
       "id": "00797a249be4935b61d4d293",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "00ae142e380049c8597c2827",
@@ -53,11 +53,11 @@
     },
     {
       "id": "042ca289c620ab9ad471985f",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "04a86bdf9958239b20dddbae",
@@ -155,11 +155,11 @@
     },
     {
       "id": "0f7183f0e623f3d8360710ec",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "0fe412c7549aed885bbb9930",
@@ -233,11 +233,11 @@
     },
     {
       "id": "1399242c08100698d37b96af",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "13da7df6be29b57f7f2d4f55",
@@ -269,11 +269,11 @@
     },
     {
       "id": "156934c8c6572430fa2c3746",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "状态栏卡组专名，属于卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "继承审定译名并核对对象映射，与其他名称入口一并接入。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "1655a13b21f0326adf16f281",
@@ -305,11 +305,11 @@
     },
     {
       "id": "16ea02eafb5da3ebfb5a91d6",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "卡组专名或异能正文，按既定顺序第三阶段审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "随Captain Cosmic／Insula Primalis卡组审核，保留专名与整段上下文。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "170349ebd0a5c5a5e92dd0bf",
@@ -427,11 +427,11 @@
     },
     {
       "id": "1fd9a54d1a0a2862950d83ee",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "2046ed56f6b70c2dd579bb27",
@@ -451,11 +451,11 @@
     },
     {
       "id": "23d995c4614820daa9b337fc",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "249e6741d04f28e94983be02",
@@ -533,27 +533,27 @@
     },
     {
       "id": "28b4e29d3de4f779c96b3fe5",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "2b1114a13f3e93c68d6505d6",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "2dd9079986b3d6e521647b13",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "2e9f280d7a1d425a5c4cf72a",
@@ -799,11 +799,11 @@
     },
     {
       "id": "44a93ed3b2d489013ee236bd",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "464a6773604f24d25e4c0355",
@@ -1013,11 +1013,11 @@
     },
     {
       "id": "5cac308eb19e84e3bd360174",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "5e5ea359d923c2ffa436c984",
@@ -1065,11 +1065,11 @@
     },
     {
       "id": "60953c34f5ac21eca1b52031",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "64ab6d14c8732a92f5f9ad19",
@@ -1383,11 +1383,11 @@
     },
     {
       "id": "7dcd90ac356be2cefce19e9c",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "状态栏卡组专名，属于卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "继承审定译名并核对对象映射，与其他名称入口一并接入。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "7f06480e03edd9b3707e9f59",
@@ -1529,11 +1529,11 @@
     },
     {
       "id": "8f04509009d4e465692381f1",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "925a096f08bea96da816acb9",
@@ -1749,11 +1749,11 @@
     },
     {
       "id": "a30e27b5a5a373fdc55843c9",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "a3f8b911075111602561e5ea",
@@ -1773,11 +1773,11 @@
     },
     {
       "id": "a4cf3b0e841c22c7d224120b",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "a5df4e675b88cbc9b722badb",
@@ -1817,11 +1817,11 @@
     },
     {
       "id": "a8ecb3426a04d4801f294d9c",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境的状态栏专名，属于卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "继承已审定名称并核对对象映射后，与选择页和卡牌标题一并接入。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "a9f25283c4af04187ac783d0",
@@ -1959,11 +1959,11 @@
     },
     {
       "id": "b56f327ff5103887d011ada2",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "b59f3bf1027b6170e24ef0bf",
@@ -2047,11 +2047,11 @@
     },
     {
       "id": "ba3db2e281184ca39ab5dfab",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "baa200bd2d79cff6758a4e69",
@@ -2157,11 +2157,11 @@
     },
     {
       "id": "bede800fdcde4e97a315dd4f",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境的状态栏专名，属于卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "继承已审定名称并核对对象映射后，与选择页和卡牌标题一并接入。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "bfeee8f0cc1c953bc5fde353",
@@ -2301,11 +2301,11 @@
     },
     {
       "id": "cb04b3c4def17b37c09ee205",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "cc08f82febccd933970533ca",
@@ -2337,11 +2337,11 @@
     },
     {
       "id": "cde71c503ce36ec06fc5630c",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "反派名称的独立标题位置，属于卡组专名。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "随反派卡组审核接入；同时核查状态栏与选择页面同名显示。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "ce6f8388e6f178f6c63386b6",
@@ -2381,11 +2381,11 @@
     },
     {
       "id": "d333c96f6aedb77bda260c1b",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "d386447b6229e35f787fc0dd",
@@ -2513,11 +2513,11 @@
     },
     {
       "id": "de5a05c9d69387ef939670d5",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "de96f0edae5f76fc8317aed6",
@@ -2643,11 +2643,11 @@
     },
     {
       "id": "e9e627ca05a78b2693317917",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境的状态栏专名，属于卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "继承已审定名称并核对对象映射后，与选择页和卡牌标题一并接入。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "ea02e4f2451f3c39e9eeab52",
@@ -2687,11 +2687,11 @@
     },
     {
       "id": "eae7344278c2858bad4ec13d",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "edc349334339c0ef706f90fc",
@@ -2703,11 +2703,11 @@
     },
     {
       "id": "ef0fd1d82355a2e781ca6edf",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境的状态栏专名，属于卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "继承已审定名称并核对对象映射后，与选择页和卡牌标题一并接入。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "ef15fdc73c0f3823074ada73",
@@ -2733,11 +2733,11 @@
     },
     {
       "id": "f2678896075e74fddb541de5",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "f276af8e3c57b502a7914162",
@@ -2807,11 +2807,11 @@
     },
     {
       "id": "f80a28a0bf71792f9b286234",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
     },
     {
       "id": "f80dda9131956d74f40565f6",

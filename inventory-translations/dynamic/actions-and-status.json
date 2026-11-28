@@ -2,379 +2,379 @@
   {
     "key": "literal.8bdb5c8b6de1b6c9730ec8fa",
     "original": "'s deck",
-    "translation": "",
-    "stage": 0,
+    "translation": "的牌库",
+    "stage": 2,
     "context": "程序常量索引：1037；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.e4afb2ee35c8f5efaf22d1d8",
     "original": "'s trash",
-    "translation": "",
-    "stage": 0,
+    "translation": "的弃牌堆",
+    "stage": 2,
     "context": "程序常量索引：1043；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.76687df483fc14211096a014",
     "original": "1 card",
-    "translation": "",
-    "stage": 0,
+    "translation": "1张牌",
+    "stage": 2,
     "context": "程序常量索引：1828；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.34ae577473adac3f52728fbf",
     "original": "1 more target",
-    "translation": "",
-    "stage": 0,
+    "translation": "另外1个目标",
+    "stage": 2,
     "context": "程序常量索引：1830；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.8267cc9c2dd28497b6667ea6",
     "original": "<b>{0}</b> {1} {2} {3} {4} damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "<b>{0}</b>{1}{2}{3}点{4}伤害。",
+    "stage": 2,
     "context": "程序常量索引：2238；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.343799bfe1a9ac8275cf0e8a",
     "original": "All of the Heroes are incapacitated.",
-    "translation": "",
-    "stage": 0,
+    "translation": "所有英雄均已失能。",
+    "stage": 2,
     "context": "程序常量索引：2725；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.becf8a447d6c403ba4a319c5",
     "original": "Cannot Deal Damage",
-    "translation": "",
-    "stage": 0,
+    "translation": "无法造成伤害",
+    "stage": 1,
     "context": "程序常量索引：3621；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.5a9b5c80892f0a6e8f88c0e6",
     "original": "Card display time: {0}",
-    "translation": "",
-    "stage": 0,
+    "translation": "卡牌展示时间：{0}",
+    "stage": 2,
     "context": "程序常量索引：4005；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.f071264df8d4befd06562812",
     "original": "Damage {0} {1}",
-    "translation": "",
-    "stage": 0,
+    "translation": "对{0}{1}造成伤害",
+    "stage": 2,
     "context": "程序常量索引：4734；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.3182f33a9ed49cc6c5737e9a",
     "original": "Deal 1 Target {0} Damage",
-    "translation": "",
-    "stage": 0,
+    "translation": "对1个目标造成{0}点伤害",
+    "stage": 1,
     "context": "程序常量索引：4880；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.751309bfae75a9f555c0db8e",
     "original": "Deal Damage",
-    "translation": "",
-    "stage": 0,
+    "translation": "造成伤害",
+    "stage": 1,
     "context": "程序常量索引：4881；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.6337845d154c8d168b07b7cb",
     "original": "Deal Hero Targets Damage",
-    "translation": "",
-    "stage": 0,
+    "translation": "对英雄目标造成伤害",
+    "stage": 1,
     "context": "程序常量索引：4882；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.1ce8c7cd8b8f61c5f79b5206",
     "original": "Deal Self {0} damage",
-    "translation": "",
-    "stage": 0,
+    "translation": "对自身造成{0}点伤害",
+    "stage": 1,
     "context": "程序常量索引：4883；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.2f181246e0ce15c805a61458",
     "original": "Deal cold damage",
-    "translation": "",
-    "stage": 0,
+    "translation": "造成寒冷伤害",
+    "stage": 1,
     "context": "程序常量索引：4884；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.a5298cd9739200938f057bad",
     "original": "Deal fire damage",
-    "translation": "",
-    "stage": 0,
+    "translation": "造成火焰伤害",
+    "stage": 1,
     "context": "程序常量索引：4885；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.e5a39013355028e3f127ed48",
     "original": "Deal {0} Targets 3 Damage",
-    "translation": "",
-    "stage": 0,
+    "translation": "对{0}个目标造成3点伤害",
+    "stage": 1,
     "context": "程序常量索引：4886；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.95de32b7bc9edad252bf1be2",
     "original": "Deal {0} damage",
-    "translation": "",
-    "stage": 0,
+    "translation": "造成{0}点伤害",
+    "stage": 1,
     "context": "程序常量索引：4887；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.116fff8f8eb885edcbb796a5",
     "original": "Destroy a Card",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏一张牌",
+    "stage": 1,
     "context": "程序常量索引：5069；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.52376dac5ecf2a3ff282d8d9",
     "original": "Destroy this Card",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌",
+    "stage": 1,
     "context": "程序常量索引：5070；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.0e2be41a5936407e36f16cd7",
     "original": "Double Damage",
-    "translation": "",
-    "stage": 0,
+    "translation": "伤害翻倍",
+    "stage": 1,
     "context": "程序常量索引：5175；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.6c5c3f431585efd600f6461a",
     "original": "Draw & Use Power",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽牌并使用异能",
+    "stage": 1,
     "context": "程序常量索引：5190；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.0097378a5ff52ed7805f83e7",
     "original": "Draw 2 Cards",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽2张牌",
+    "stage": 1,
     "context": "程序常量索引：5191；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.50d4b4c51c64d3bdc214f971",
     "original": "Draw Card",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽一张牌",
+    "stage": 1,
     "context": "程序常量索引：5194；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.4d6c2822b7897a6b009d5aa6",
     "original": "Draw or Discard",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽取或弃置",
+    "stage": 1,
     "context": "程序常量索引：5211；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.a6a47d7ff91c20fbbd01aca5",
     "original": "Matching cards",
-    "translation": "",
-    "stage": 0,
+    "translation": "符合条件的牌",
+    "stage": 2,
     "context": "程序常量索引：7902；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.2a60e517f9f8bc65256a7918",
     "original": "Play Card",
-    "translation": "",
-    "stage": 0,
+    "translation": "打出一张牌",
+    "stage": 1,
     "context": "程序常量索引：8996；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.6a333d89b4537251e6a345b8",
     "original": "Play a Card",
-    "translation": "",
-    "stage": 0,
+    "translation": "打出一张牌",
+    "stage": 1,
     "context": "程序常量索引：9001；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.d0debde2bc51fb2b0bf4a4c6",
     "original": "Put Card Under Ordnance",
-    "translation": "",
-    "stage": 0,
+    "translation": "将牌置于军械牌下方",
+    "stage": 1,
     "context": "程序常量索引：9241；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.497d25a030b30ac7ffe5ed5f",
     "original": "Put a Card",
-    "translation": "",
-    "stage": 0,
+    "translation": "放置一张牌",
+    "stage": 1,
     "context": "程序常量索引：9243；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.11d58e224b6bcc6757881b7e",
     "original": "Regain {0} HP",
-    "translation": "",
-    "stage": 0,
+    "translation": "恢复{0}点生命值",
+    "stage": 1,
     "context": "程序常量索引：9404；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.507278bb2d9e25220780a23e",
     "original": "Replace or Discard",
-    "translation": "",
-    "stage": 0,
+    "translation": "放回原处或弃置",
+    "stage": 1,
     "context": "程序常量索引：9530；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.e524362e18fe9d7b7a8f711c",
     "original": "Salvage Item",
-    "translation": "",
-    "stage": 0,
+    "translation": "回收物品牌",
+    "stage": 1,
     "context": "程序常量索引：9769；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.3d2a722351301aedf99ceec4",
     "original": "Salvage Ongoing",
-    "translation": "",
-    "stage": 0,
+    "translation": "回收持续牌",
+    "stage": 1,
     "context": "程序常量索引：9770；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.d01084a98855091e05daacf8",
     "original": "Skip to Draw",
-    "translation": "",
-    "stage": 0,
+    "translation": "跳至抽牌阶段",
+    "stage": 1,
     "context": "程序常量索引：10197；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.a7037ebb2c73a8f205f45128",
     "original": "Skip to Power",
-    "translation": "",
-    "stage": 0,
+    "translation": "跳至异能阶段",
+    "stage": 1,
     "context": "程序常量索引：10198；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.e27b90f8ee800101eaa57f3a",
     "original": "Skip {0} Phase",
-    "translation": "",
-    "stage": 0,
+    "translation": "跳过{0}阶段",
+    "stage": 2,
     "context": "程序常量索引：10199；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.7c67f8ce0cecde5ffd12aa21",
     "original": "Take {0} Phase",
-    "translation": "",
-    "stage": 0,
+    "translation": "进行{0}阶段",
+    "stage": 2,
     "context": "程序常量索引：10706；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.9a533b76467f622b1eca23aa",
     "original": "The max HP of {0} {1} set to {2}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{0}的生命值上限{1}设为{2}。",
+    "stage": 2,
     "context": "程序常量索引：11221；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.bd501e74531c77e109029f31",
     "original": "There are 10 or more Villain targets in play.",
-    "translation": "",
-    "stage": 0,
+    "translation": "场上有至少10个反派目标。",
+    "stage": 2,
     "context": "程序常量索引：11588；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.d40751c1320167af33cd335e",
     "original": "There are 15 or more cards in the Villain trash.",
-    "translation": "",
-    "stage": 0,
+    "translation": "反派弃牌堆中有至少15张牌。",
+    "stage": 2,
     "context": "程序常量索引：11589；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.ec9861ac1bb5f96bcc782497",
     "original": "Use Power",
-    "translation": "",
-    "stage": 0,
+    "translation": "使用异能",
+    "stage": 1,
     "context": "程序常量索引：12632；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.47de3902f7813eb241907744",
     "original": "Use a Power",
-    "translation": "",
-    "stage": 0,
+    "translation": "使用异能",
+    "stage": 1,
     "context": "程序常量索引：12637；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.8f2dea3bc71bdaa0554cd844",
     "original": "{0} cards",
-    "translation": "",
-    "stage": 0,
+    "translation": "{0}张牌",
+    "stage": 2,
     "context": "程序常量索引：19577；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.18e132c9eae5cb14feec81b2",
     "original": "{0} gained {1} HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{0}恢复了{1}点生命值。",
+    "stage": 2,
     "context": "程序常量索引：19588；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.392c7002192b7ef7b1e1d4a5",
     "original": "{0} is <b>immune</b> to damage dealt by {1} targets",
-    "translation": "",
-    "stage": 0,
+    "translation": "{0}<b>免疫</b>{1}目标造成的伤害",
+    "stage": 2,
     "context": "程序常量索引：19596；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.2db2da940537ebaaf0114cf7",
     "original": "{0} is <b>immune</b> to {1} damage",
-    "translation": "",
-    "stage": 0,
+    "translation": "{0}<b>免疫</b>{1}伤害",
+    "stage": 2,
     "context": "程序常量索引：19597；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.6a1851ca33e36844aa3e3c11",
     "original": "{0} is gaining {1} HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{0}正在恢复{1}点生命值。",
+    "stage": 2,
     "context": "程序常量索引：19599；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.13e9e4f29ba2b9ba600e6bd6",
     "original": "{0} take their {1} phase now.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{0}现在进行其{1}阶段。",
+    "stage": 2,
     "context": "程序常量索引：19646；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.c07dfdb50da5fa7c527b59b5",
     "original": "{0} {1} cards to {2}",
-    "translation": "",
-    "stage": 0,
+    "translation": "{0}将{1}张牌{2}",
+    "stage": 2,
     "context": "程序常量索引：19676；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.46cb1dedc890a791c3d63c75",
     "original": "{0} {1} its HP to {2}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{0}{1}生命值至{2}。",
+    "stage": 2,
     "context": "程序常量索引：19677；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.ef010cef6c62e3456818e8fb",
     "original": "{0} {1} their {2} phase out of order.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{0}{1}跳出正常顺序进行其{2}阶段。",
+    "stage": 2,
     "context": "程序常量索引：19679；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.0af5f26910d9e3ee5e17f905",
     "original": "{0} {1} {2} {3} {4} damage.{5}",
-    "translation": "",
-    "stage": 0,
+    "translation": "{0}{1}{2}{3}点{4}伤害。{5}",
+    "stage": 2,
     "context": "程序常量索引：19681；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.9dac0106a9b52d3cb43490fe",
     "original": "{0}{1} targets",
-    "translation": "",
-    "stage": 0,
+    "translation": "{0}{1}个目标",
+    "stage": 2,
     "context": "程序常量索引：19836；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },
   {
     "key": "literal.60bd4cbcacd8036676232bc6",
     "original": "{0}{1} {2}damage dealt {3} {4}",
-    "translation": "",
-    "stage": 0,
+    "translation": "{0}{1}{2}{3}{4}的伤害",
+    "stage": 2,
     "context": "程序常量索引：19837；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   }
 ]

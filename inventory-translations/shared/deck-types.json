@@ -2,22 +2,22 @@
   {
     "key": "display.deck-types.Hero",
     "original": "Hero",
-    "translation": "",
-    "stage": 0,
+    "translation": "英雄",
+    "stage": 1,
     "context": "显示别名；类型：deck-types。仅供显示层翻译，不回写内部枚举或规则关键词。\n原值：Hero；显示方式、大小写和图标组合待实机验证。"
   },
   {
     "key": "display.deck-types.Villain",
     "original": "Villain",
-    "translation": "",
-    "stage": 0,
+    "translation": "反派",
+    "stage": 1,
     "context": "显示别名；类型：deck-types。仅供显示层翻译，不回写内部枚举或规则关键词。\n原值：Villain；显示方式、大小写和图标组合待实机验证。"
   },
   {
     "key": "display.deck-types.Environment",
     "original": "Environment",
-    "translation": "",
-    "stage": 0,
+    "translation": "环境",
+    "stage": 1,
     "context": "显示别名；类型：deck-types。仅供显示层翻译，不回写内部枚举或规则关键词。\n原值：Environment；显示方式、大小写和图标组合待实机验证。"
   }
 ]

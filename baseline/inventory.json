@@ -44792,6 +44792,1518 @@
         "pointer": "/turnTakers/0/decks/0/variants/0/advancedGameTexts/1/body/0",
         "baselineKey": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/variants/@TheMatriarchCharacter/advancedGameTexts/1/body/0"
       }
+    },
+    {
+      "key": "editorial.ui.finish.regain",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "{0} targets regain HP",
+      "sourceSha256": "760602665ccb87c9c47cda75bd6281b18a8a4174ca4bbe3f0ae3b8f125ae077a",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。{0}是所选目标数；单数target，复数targets；不是恢复量。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.button.put.here",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Put Here",
+      "sourceSha256": "c392e3a7d9ed98c3eb2ea1d62b3f717c725ae641f58669e057c5e905b635d07d",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。英雄手牌目的地；与Play Here在场打出不同。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.button.reshuffle",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Reshuffle",
+      "sourceSha256": "24ab205a02fffe0fe0223dc041be048135351b78cae94c04c035fca9bcea8bd8",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。本次为弃牌堆洗回所属牌库，需接入该用途；其他语境不全局替换。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.button.play.item",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Play Item",
+      "sourceSha256": "d800808efa24ed6f570e9be4ad7369bab1c6f625ba108a6f97671b46bb87908a",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。卡牌效果按钮。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.dealer",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a target to have it deal damage.",
+      "sourceSha256": "ee905ec979e7d48fcca16597129f03212698b81cb31bfd4145fd60028b46210e",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。选伤害来源，不是受伤目标。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.regain",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click up to {0} targets to regain HP.",
+      "sourceSha256": "199a712e4e446aefd296e8a133918e41658354d16e94d5f5fca6bd4636330529",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。原文未给恢复量，不增添。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.most.consequences",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click the hero who is considered to have the most cards in play (will take damage and destroy cards).",
+      "sourceSha256": "3f9b470fbe6af9bed82ffdebe89c3eae21c8eda9b6ccaf3aa4c1c25bafe1fa8d",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。附加后果必须保留。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.immune",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a target to make it immune to damage.",
+      "sourceSha256": "7718f17c67b4a346bbe9c9980b406722b2b2535f0cdfdfe9c9dd669920f7feb5",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。免疫受到的伤害。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.hero.lowest",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a Hero to determine which has the lowest HP.",
+      "sourceSha256": "c3a29db012c85aa4ad4760e8d57b1ab7933855b554dcf3663979edaccc8226e9",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。Hero对象限制。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.replace.card",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a card to replace it.",
+      "sourceSha256": "03a26b1d5884ff26591d03b75c394677d0ea072ac35fb2a1e969a4e77a53492e",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。Arcane Cadence展示后的五选分配。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.draw.card",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a card to draw it.",
+      "sourceSha256": "359af56fc58595857e43ab86aeec64e0688d8c23d866f959fd5b5336e1f369be",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。抽取展示的牌。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.discard.card",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a card to discard it.",
+      "sourceSha256": "ab96c1cbb6ccd5f71fb78cbb0db73c5464e0d721cc2bbf0c5babfabda923351e",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。不限定牌来自手牌。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.bury.card",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a card to bury it.",
+      "sourceSha256": "a1b6606af5e84c6412d3b643988a3994270b7003b6b0775c76347a5f111abb2e",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。Bury沿用冻结术语埋藏，不另造置底术语。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.put.hand",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a Hero's hand to to put {0} there.",
+      "sourceSha256": "117760672cf5458190e1bbb4a5a8e785957892282095246dff47a613f29ddae8",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。保留原文重复to；{0}为卡牌名称。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.most.ongoing",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click the hero who is considered to have the most Ongoing cards in play.",
+      "sourceSha256": "62c348a89f64e6c44b351116508e9439ebe7384f48e05f14eb78e005c321c435",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。不可省略Ongoing限定。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.reduce.single",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a target to reduce damage dealt to it.",
+      "sourceSha256": "48d149bc83d76302e858b4e9111cca22dfbf8cd0b06a97b2603139420a42514b",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。不能译为减少造成的伤害。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.play.and.power",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click or drag a card to play it. Click a power to use it.",
+      "sourceSha256": "45ec61f8d4306bff72c7df93a837817d9ae93c4f3a68449c42bdd95794acd726",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。完整两句；额外后缀另审。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.shuffle.trash",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click {0}'s trash to to shuffle it into its deck.",
+      "sourceSha256": "242bdce5a33350bfaff9456436296146965e4281826b558f8b6b11bb991717a3",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。{0}为牌库持有者；保留重复to原文。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.draw.owner.one",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click {0}'s deck to draw a card.",
+      "sourceSha256": "60343bc7795ef669b8dc43ed47305609b6ee901801d20fbf8bb0c488bd5d8111",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。a card明确单张；{0}为持有者。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.blank",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a card in play to make it have no game text.",
+      "sourceSha256": "44a3cbd9757414ae8d348e31715626f9b60038ab1f98e0f4370349ac0a66c5c5",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。未移除卡牌，也不等同于破坏。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.attack.noheader",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click up to {0} targets to deal them <nobr>{1} {2}</nobr> damage.",
+      "sourceSha256": "2b2024e97243a9d0719108f862df1d6d77e23436461dc43257cc2a968c829965",
+      "context": "已捕获完整句的编辑归一化；显示尚未接入。无来源标题变体；依次为上限、伤害量、伤害类型。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/observed-ui-additions.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.play",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click or drag a card to play it.",
+      "sourceSha256": "d9b83c836f99b928f8c71e7f9995e24d34628ea0c0c44c3c91512388b1fb4c45",
+      "context": "归一化显示模板；绑定hint.play。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.power.drag",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click or drag a power to use it.",
+      "sourceSha256": "02e0c9a20f049331bb640a9ac550c7d355fafaaa05a915c8f4596912f6067eca",
+      "context": "归一化显示模板；绑定hint.power.drag。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.power.click",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a power to use it.",
+      "sourceSha256": "39d1d15bf93bed15cd6ff162db6a47824b81d401d1bd9677c088b748a267b606",
+      "context": "归一化显示模板；绑定hint.power.click。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.finish.damage",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Damage {0} targets",
+      "sourceSha256": "fceaf57bd55735dcef72f13ddd0704a29f20623c9d491c7e9f14ab31c9907390",
+      "context": "归一化显示模板；绑定finish.damage。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.attack.single",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click a target to deal it <nobr>{1} {2}</nobr> damage.",
+      "sourceSha256": "39484a1a976fe72d2595f87aea79f9947ff904b33559f449af989900c00e4394",
+      "context": "归一化显示模板；绑定hint.attack.single。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.attack.multiple",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click up to {1} targets to deal them <nobr>{2} {3}</nobr> damage.",
+      "sourceSha256": "e53ac21ac91475428abdcc55145945bddfc0438594e0d8351b1d4bee68f2ccb9",
+      "context": "归一化显示模板；绑定hint.attack.multiple。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.effect",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click a button on {1} to choose an effect.",
+      "sourceSha256": "d798b19ae1b1324595aadd281b17877aad317a3b25013e479fa17bcc3a13fed3",
+      "context": "归一化显示模板；绑定hint.effect。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.draw-discard",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click a location to either draw or discard {1}.",
+      "sourceSha256": "38426e6ac3d18dc824c6703a25cfbe1023afdda1062e860bf7248d5ad8c1e1c2",
+      "context": "归一化显示模板；绑定hint.draw-discard。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.draw",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Draw",
+      "sourceSha256": "61517c08b3bf84b42ac5a38367a9ca07dbc54e9c00ee92df09debe4f38df34d4",
+      "context": "归一化显示模板；绑定button.draw。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.discard",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Discard",
+      "sourceSha256": "eb1a70e39274bb762b5d7c1adb5debeea2b05e12af28207f21a375b596853273",
+      "context": "归一化显示模板；绑定button.discard。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.skip.play",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Skip Play Phase",
+      "sourceSha256": "f14144758094ac5e80ef50f5f2fbcd67ab8a42bb4cc582444c1f9923eff5fce7",
+      "context": "归一化显示模板；绑定button.skip.play。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.skip.power",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Skip Power Phase",
+      "sourceSha256": "46c3a5cf798b472815933f3ba6792f80916763d88403afc49cfd0324d2a7f15b",
+      "context": "归一化显示模板；绑定button.skip.power。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.description.draw",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0} drew:",
+      "sourceSha256": "3005cfd57839f268130e8f7ae243f6f792daa92771fb0ce072e324bc906e0ede",
+      "context": "归一化显示模板；绑定description.draw。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.description.reveal",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0} revealed:",
+      "sourceSha256": "464d9cc5044ad2be182febd62388041c3fb2494863572a5e4aaf892c5d0f4ad5",
+      "context": "归一化显示模板；绑定description.reveal。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.description.play",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0} played:",
+      "sourceSha256": "a2683f82eca814222352db053b2f8d352e4b72ae41af5cb6aca7b83ce7b080e1",
+      "context": "归一化显示模板；绑定description.play。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.finish.discard",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Discard {0} cards",
+      "sourceSha256": "61f5780214170a54ecdcd36236c65dc1ab1314006ca28acbc6ea00794bdc0397",
+      "context": "归一化显示模板；绑定finish.discard。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.finish.select",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Select {0} cards",
+      "sourceSha256": "7edc3fa381c9061ca15e1ad4ebac10f30ce87bc3a6e0145ffd52b21df3cae938",
+      "context": "归一化显示模板；绑定finish.select。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.play.click",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a card to play it.",
+      "sourceSha256": "c4b69b979f2ffcf68f62e0a5c76d77dfc61ad4d782b11617a65c9f68fff6d698",
+      "context": "归一化显示模板；绑定hint.play.click。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.hero.play",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a hero to play a card.",
+      "sourceSha256": "85e5a93bedf8886a14de2d8b878cd8ce34d3d5601024debea1a9b9aa6ec31ea9",
+      "context": "归一化显示模板；绑定hint.hero.play。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.hero.power",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a hero to use a power.",
+      "sourceSha256": "4f8c29bbc6213c46db49b39eecbfe82f2feb91089469bddf7d14b2acd38edaf4",
+      "context": "归一化显示模板；绑定hint.hero.power。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.ability",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click an ability to use it.",
+      "sourceSha256": "0115c29bea649551c5c594a7e3fee866ba84b4762983d49e6d21e9b15427490b",
+      "context": "归一化显示模板；绑定hint.ability。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.summon",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a card in the deck to summon it.",
+      "sourceSha256": "b6a0189b17b361e4249f835d70c55519282c5c98e8efeb268db1ee8f5a4c19b3",
+      "context": "归一化显示模板；绑定hint.summon。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.hero.topdeck",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a hero to have them put a card on top of their deck.",
+      "sourceSha256": "4eb37e4bdbfd5999a5275b58653a377d5614463835e6e2a675b130bec135ea13",
+      "context": "归一化显示模板；绑定hint.hero.topdeck。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.trash.topdeck",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a card in the trash to put it on top of its deck.",
+      "sourceSha256": "c9111be431b044196be4448d9753a0d36197409ea561c66adad0a351ff33e87d",
+      "context": "归一化显示模板；绑定hint.trash.topdeck。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.discard.single",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a card in hand to discard it.",
+      "sourceSha256": "6b0da50a4d7f0d2baf285d875cf3757302078528bfea8e325a25283c790b56b1",
+      "context": "归一化显示模板；绑定hint.discard.single。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.deck.reveal",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a deck to reveal a card.",
+      "sourceSha256": "c732000487cdb2c58a2d7e156071fa0e31e1d0d5ca41ad259fc3a1b6a000e99c",
+      "context": "归一化显示模板；绑定hint.deck.reveal。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.discard.multiple",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click {1} cards in hand to discard them.",
+      "sourceSha256": "1aa02f1338b1af6032fe6d71b3afa8ee782f62847828aa87173f8e4e466c4156",
+      "context": "归一化显示模板；绑定hint.discard.multiple。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.reduce",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click up to {1} targets to reduce damage dealt to them.",
+      "sourceSha256": "e68a665615a2d509bc63ab29565170d85d8db2d8d4cfff44d5a0da5bc7d7761b",
+      "context": "归一化显示模板；绑定hint.reduce。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.attack.unspecified",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click a target to deal it {1} damage.",
+      "sourceSha256": "a6a64ed6aab1faba9bda24b087f6113c27f2c6f72a5000a2af2c1b1349376612",
+      "context": "归一化显示模板；绑定hint.attack.unspecified。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.attack.order",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click targets to choose the order of dealing them <nobr>{1} {2}</nobr> damage.",
+      "sourceSha256": "fa565aa7f531a5fc099114e51f60797a5a59d795aa473f860c68a282924a06ad",
+      "context": "归一化显示模板；绑定hint.attack.order。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.reaction",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}<b>{1}</b> will deal <b>{2}</b> {3} {4} damage. Click a reaction to use it.",
+      "sourceSha256": "86d62875c0042e139a565c24992181d9884a8901e480081ec59ab46765068abd",
+      "context": "归一化显示模板；绑定hint.reaction。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.reveal",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Reveal",
+      "sourceSha256": "36b830bdb447f8c758a9b58f190eed468c4bd53e9c7662ee19bca9c53d3a3e3d",
+      "context": "归一化显示模板；绑定button.reveal。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.phase.play.remaining",
+      "file": "dynamic/runtime-templates.json",
+      "original": "PLAY PHASE ({0} left)",
+      "sourceSha256": "b93645f56f7469f98a9b0300fcee1852fa4a851faebabb9bb9eaba1e610988e5",
+      "context": "归一化显示模板；绑定phase.play.remaining。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.phase.draw.remaining",
+      "file": "dynamic/runtime-templates.json",
+      "original": "DRAW PHASE ({0} left)",
+      "sourceSha256": "ea14d8b3bbd2ec58529f78fa82beaba65f8196bf0052d3361df5daa865d060aa",
+      "context": "归一化显示模板；绑定phase.draw.remaining。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.attack.exact",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click {1} targets to deal them <nobr>{2} {3}</nobr> damage.",
+      "sourceSha256": "17f4dbd1d649e8fd39227892746072bfa45138a6a296fd6cc090767d575aa06e",
+      "context": "归一化显示模板；绑定hint.attack.exact。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.attack.required",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click <b>{1}</b> and {2} more targets to deal them <nobr>{3} {4}</nobr> damage.",
+      "sourceSha256": "3d2504447846d5e7e54ee8fa47f788b3f750635bdacb35bdad719ae71f7a4cd2",
+      "context": "归一化显示模板；绑定hint.attack.required。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.attack.order.unspecified",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click targets to choose the order of dealing them {1} damage.",
+      "sourceSha256": "35c234d18a203cc973063b34035ee739b21dcd4ca993e91f982579c7f33007c6",
+      "context": "归一化显示模板；绑定hint.attack.order.unspecified。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.play.location",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click a location to to play {1} there.",
+      "sourceSha256": "767803f9da009488bbb4fa7d2d1210bbb7f17c5d8c5339d760f771b8104536ef",
+      "context": "归一化显示模板；绑定hint.play.location。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 原文确有重复to，保留。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.hero.destroy",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a hero to destroy a card.",
+      "sourceSha256": "d3c6226e61ca289ad33d6793c857a67f7006827cc0b13c53329cddeb109449a9",
+      "context": "归一化显示模板；绑定hint.hero.destroy。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.card.destroy",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a card in play to destroy it.",
+      "sourceSha256": "73d3724e5a2ee91255482d6837077c03fd6c6e10510598f89b896ca56e4b9061",
+      "context": "归一化显示模板；绑定hint.card.destroy。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.hero.fewest",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click the hero who is considered to have the fewest cards in hand.",
+      "sourceSha256": "7966846ca39ff9d38f14c0d31a836835c0342058fc4be3046d208f79d9b4d7b4",
+      "context": "归一化显示模板；绑定hint.hero.fewest。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.play.here",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Play Here",
+      "sourceSha256": "3132b7fee05e2482dd1d9cc6903472b1ed6f4cef4246e0b19926c4d0d5e48e70",
+      "context": "归一化显示模板；绑定button.play.here。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.fewest",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Has the Fewest",
+      "sourceSha256": "5400d13272b280393a0885b046d912d8d7c87f26a9bcadf4f342574c54674a37",
+      "context": "归一化显示模板；绑定button.fewest。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.phase.activate",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a card{0} to activate its <nobr>{1} <b>{2}</b></nobr> effect.",
+      "sourceSha256": "410cdcf0d65ffbdeea142c5b4a448ac4d38b1356d76f3833890e42d49cd5687a",
+      "context": "归一化显示模板；绑定hint.phase.activate。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.play.construct",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Play Construct",
+      "sourceSha256": "cfe253df78f098ab408ac7b21311fa836ccf487617bf527e533944010b9d687a",
+      "context": "归一化显示模板；绑定button.play.construct。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.discover.construct",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Discover Construct",
+      "sourceSha256": "ad66338f99701ffbd0d8fc47120d721ab13f5e91bf318f4795e45013fe62e03c",
+      "context": "归一化显示模板；绑定button.discover.construct。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.lowest.hp",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a target to determine which has the lowest HP.",
+      "sourceSha256": "42a3a8ffe5c355be2d0d8e5e949d4839618b032e87af60868a6daf49edfe09b8",
+      "context": "归一化显示模板；绑定hint.lowest.hp。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.description.discover",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0} discovered:",
+      "sourceSha256": "7f39a9f5ad7dee6f6b3589eaeb1870e09cad80174fa42a5aff8519db5a2ea26a",
+      "context": "归一化显示模板；绑定description.discover。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.phase.power.remaining",
+      "file": "dynamic/runtime-templates.json",
+      "original": "POWER PHASE ({0} left)",
+      "sourceSha256": "e76b92e0c176e9d652ca26e3f447278da5c3587a2a809c7c2d421c1fa00d019c",
+      "context": "归一化显示模板；绑定phase.power.remaining。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.finish.destroy",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Destroy {0} cards",
+      "sourceSha256": "cf6ea2e28d99cd61569f46f48f8525ae91e9787d236471f35a84837fb14f7c56",
+      "context": "归一化显示模板；绑定finish.destroy。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.destroy.targets",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click up to {1} targets to destroy them.",
+      "sourceSha256": "09be5f814637ae2e5b2a45c756b625563ddb61d27cb6070173c960c175a86dcd",
+      "context": "归一化显示模板；绑定hint.destroy.targets。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.destroy.cards",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click up to {1} cards in play to destroy them.",
+      "sourceSha256": "acbeee0c259a9623f94fdf32d02cc3815a1a93007927048b1085e42113fd9979",
+      "context": "归一化显示模板；绑定hint.destroy.cards。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.skip.incapacitated",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Skip Incapacitated Phase",
+      "sourceSha256": "73f297b3ad8b82f48eb05c8015728bd666ac7b8bea34f582b763a14875a11ae9",
+      "context": "归一化显示模板；绑定button.skip.incapacitated。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.take.play",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Take Play Phase",
+      "sourceSha256": "d3fee463b42a05a1a4f9d618d62df8654acab4e02fc97dbd4e197c53ab5f9433",
+      "context": "归一化显示模板；绑定button.take.play。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.hero.take.play",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a hero to take their Play phase now.",
+      "sourceSha256": "4048ef3a80f69199d5c5982c6b45f92f815ed6ae488cabb443ed7644309349b2",
+      "context": "归一化显示模板；绑定hint.hero.take.play。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.description.summon",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0} summoned:",
+      "sourceSha256": "c45cea6834cd4cc76eaf0db4750511c981bf8bb4149e6553cf8da75d8d9f58c5",
+      "context": "归一化显示模板；绑定description.summon。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.phase.setup",
+      "file": "dynamic/runtime-templates.json",
+      "original": "SETUP",
+      "sourceSha256": "7175b03373a21422fff5bffa408eeae8728d45675bb3a66635b00737ebbacc6d",
+      "context": "归一化显示模板；绑定phase.setup。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.result.hp",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0} has been reduced to <nobr>{1} HP.</nobr>",
+      "sourceSha256": "940b55593dddb8d86142568d95036fbbcd5c3627ad3cb27151f1ed713dc251ab",
+      "context": "归一化显示模板；绑定result.hp。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.result.victory",
+      "file": "dynamic/runtime-templates.json",
+      "original": "You have defeated {0} and saved the day!",
+      "sourceSha256": "9365129166696bbf332a369895872ab79217fa26cd96d5707b8266521f4a2294",
+      "context": "归一化显示模板；绑定result.victory。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.collect.deck",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a card in the deck to collect it.",
+      "sourceSha256": "d04d8b648260b46d21c8af78ce5db7319fc23fa2765a18062f28b68a508b0cff",
+      "context": "归一化显示模板；绑定hint.collect.deck。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.summon.deck.trash",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a card in the deck or in the trash to summon it.",
+      "sourceSha256": "3675249f7927b7914ab73cd86ad34e6775683d26ad60b4f935157d649b2dada4",
+      "context": "归一化显示模板；绑定hint.summon.deck.trash。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.prevent.dealing",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a target to prevent it from dealing damage.",
+      "sourceSha256": "56e6a8323dfba78e8b6bf3a0dd3edd3aacffc233a1d7ddede77380c46e70461c",
+      "context": "归一化显示模板；绑定hint.prevent.dealing。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.put.under",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click a card in play to put {1} under it.",
+      "sourceSha256": "203c962ca5ff50dae4f967210303dbeb52c9a6d19117421044b75592061268b0",
+      "context": "归一化显示模板；绑定hint.put.under。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.destroy.play.under",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click a card in play or under {1} to destroy it.",
+      "sourceSha256": "2b1a83782aa05590c11ed1f4dd6f33fc6e7fa4286b23ecc5719a514dd0ba550b",
+      "context": "归一化显示模板；绑定hint.destroy.play.under。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.heading.cards.under",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Cards under {0}",
+      "sourceSha256": "4f67f4e8d2b38087512267d9f8b4a7c1ab9896041f83831138c23d255bf51eac",
+      "context": "归一化显示模板；绑定heading.cards.under。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.heading.cards.next",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Cards next to {0}",
+      "sourceSha256": "a5e72a442c260aeb768f00fd6b5eb58f244bbb461e7fc258dfe0019e17b94b64",
+      "context": "归一化显示模板；绑定heading.cards.next。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.description.collect",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0} collected:",
+      "sourceSha256": "8a918d482c65576fbcb95aa9f2d64fe5b4418afbb32bb35221b073fc2f9930bb",
+      "context": "归一化显示模板；绑定description.collect。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.replace",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Replace",
+      "sourceSha256": "95e154398a4bc0091aa4d6b607472ac5a89e41fbc84a3a49f823314d6de9eebc",
+      "context": "归一化显示模板；绑定button.replace。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.discover.item",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Discover Item",
+      "sourceSha256": "78f1215aa3e65b6bfd978ddf485d41a3051ca20da7f92c0ab60fe608ce785d0a",
+      "context": "归一化显示模板；绑定button.discover.item。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.discover.golem",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Discover Golem",
+      "sourceSha256": "396c1eda3400f5b99061dbac2813dbbbe8f115e5d7a00aefc97d5c097c3fb825",
+      "context": "归一化显示模板；绑定button.discover.golem。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.replace-discard",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click a location to either replace or discard {1}.",
+      "sourceSha256": "dbaa35eea1a5eda0e54d58ffc05e30208d2769cffa48f803b3be4c84b7aed7cb",
+      "context": "归一化显示模板；绑定hint.replace-discard。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.draw.owner",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click {1}'s deck to draw {2} cards.",
+      "sourceSha256": "ef381dc0171ff49a777082d1ba3fdc3ba1bb719fe50feb8db606954e82e6bc4b",
+      "context": "归一化显示模板；绑定hint.draw.owner。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.hero.draw",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a hero to draw a card.",
+      "sourceSha256": "4f09a40c4b65a75cd6e78d62503483d3afb09362dbe93cb2f031dd4fdea20d10",
+      "context": "归一化显示模板；绑定hint.hero.draw。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.hero.discard",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a hero to discard a card.",
+      "sourceSha256": "1766be4dceef0b63f23b6d4e52b4add2ff5de8b9534b6f9088fb7c3618a32699",
+      "context": "归一化显示模板；绑定hint.hero.discard。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.hand.under",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a card in hand to put it under a card.",
+      "sourceSha256": "0508fc12d15590638e1d38c4e1ba567577b99fd12681d8294d21e0d3c4fb8f24",
+      "context": "归一化显示模板；绑定hint.hand.under。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.discard.upto",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click up to {1} cards in hand to discard them.",
+      "sourceSha256": "0fb4f0b78fa3a50d109225080535df1c4ed4bc5c8aa33e0f844f6d8ec463ccd1",
+      "context": "归一化显示模板；绑定hint.discard.upto。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.destroy.exact",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click {1} cards in play to destroy them.",
+      "sourceSha256": "63787c1753aa43ebe15079580bc4b8f2d42ec8deedcb0fe14337888fa09bffa3",
+      "context": "归一化显示模板；绑定hint.destroy.exact。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.phase.target",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a target to activate its <nobr>{0} <b>{1}</b></nobr> effect.",
+      "sourceSha256": "3fb4dd9bfe5b37d237c12c960d8f306b286685fc3e27d3539a64812c21e94137",
+      "context": "归一化显示模板；绑定hint.phase.target。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.most",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Has the Most",
+      "sourceSha256": "24418cf093b513b10c1fade1eb487781da207306ff8c81fdfd6b752e33ca4514",
+      "context": "归一化显示模板；绑定button.most。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.button.play.golem",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Play Golem",
+      "sourceSha256": "0b6d5d3d52916e4d41d72ba73ce94cf0edcbca6ef3de559383d342de95348821",
+      "context": "归一化显示模板；绑定button.play.golem。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.hero.most.play",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click the hero who is considered to have the most cards in play.",
+      "sourceSha256": "b8f25b7de46effd60fd58c21a2583d9cab70b9c46ed76f776adc349fede0ec60",
+      "context": "归一化显示模板；绑定hint.hero.most.play。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.trash.under",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a card in the trash to put it under a card.",
+      "sourceSha256": "267ea7d897cf1bec98167ea51bdd02de2bc3e2dfa851f038000b4e91ecf79daf",
+      "context": "归一化显示模板；绑定hint.trash.under。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.hero.salvage",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a hero to salvage a card.",
+      "sourceSha256": "28935b9e6f893baa71fd1222efb4766ddf502ce2b3722826efd8e9185ba89e93",
+      "context": "归一化显示模板；绑定hint.hero.salvage。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.trash.salvage",
+      "file": "dynamic/runtime-templates.json",
+      "original": "Click a card in the trash to salvage it.",
+      "sourceSha256": "309fa63093071c581a1e2c7471c780a0819670dbbb9b9238ce66af732298f60c",
+      "context": "归一化显示模板；绑定hint.trash.salvage。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.trash.owner.discard",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click {1}'s trash to discard {2}.",
+      "sourceSha256": "4191669de5e3567c772b5837367d8b2e53aa8aaad680ea7abc9e857cf01971f2",
+      "context": "归一化显示模板；绑定hint.trash.owner.discard。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.destroy.play.under.exact",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}Click {1} cards in play or under {2} to destroy them.",
+      "sourceSha256": "e5ba2e43161e388bc41889ce3a10e60a0a3e2aef0b1966922ef7a02b79596048",
+      "context": "归一化显示模板；绑定hint.destroy.play.under.exact。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
+    },
+    {
+      "key": "runtime.template.hint.reaction.first",
+      "file": "dynamic/runtime-templates.json",
+      "original": "{0}<b>{1}</b> will deal <b>{2}</b> {3} {4} damage. Click a card to activate first.",
+      "sourceSha256": "010fa93d394f1f92ba09420e4f8abb535454f76226facfc0d34500ca61d5d998",
+      "context": "归一化显示模板；绑定hint.reaction.first。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。",
+      "kind": "dynamic.editorial-template",
+      "route": "inventory",
+      "holdReason": "editorial-template-runtime-binding-pending",
+      "origin": {
+        "exportFile": "2026_11_28_10_44_55_135e87.zip",
+        "exportPath": "raw/dynamic/runtime-templates.json.json"
+      }
     }
   ]
 }

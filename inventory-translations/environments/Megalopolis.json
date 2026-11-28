@@ -2,386 +2,386 @@
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/title",
     "original": "Megalopolis",
-    "translation": "",
-    "stage": 0,
+    "translation": "巨都会",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：Megalopolis；类型：deck.title。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BankHeistInProgress/title",
     "original": "Bank Heist in Progress",
-    "translation": "",
-    "stage": 0,
+    "translation": "银行劫案",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BankHeistInProgress；类型：card.title。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BankHeistInProgress/gameTexts/0/body/0",
     "original": "On each Hero's {Start}, that Hero may skip to their {Draw}. After a Hero does so, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "在每名英雄的{Start}，该英雄可以跳至自己的{Draw}。一名英雄如此做后，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BankHeistInProgress；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BankHeistInProgress/gameTexts/1/body/0",
     "original": "Each Hero discards 1 card. Play the top card of the Villain deck. Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每名英雄弃置1张牌。打出反派牌库顶的一张牌。破坏此牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BankHeistInProgress；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BankHeistInProgress/flavorQuotes/@TheWraith/text",
     "original": "They still don’t know I’m here. I’ll take{BR}out as many as I can, but if this goes{BR}sideways, I’m going to need a hand.",
-    "translation": "",
-    "stage": 0,
+    "translation": "他们还没发现我。{BR}我会尽量多放倒几个，但要是情况不对，{BR}就得请你们搭把手了。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BankHeistInProgress / TheWraith；类型：flavor.quote。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/0/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BankHeistInProgress/flavorReference",
     "original": "The Wraith, Mystery Comics Vol. 1 #394",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽魂，《悬谜漫画》第1卷第394期",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BankHeistInProgress；类型：flavor.reference。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BombAtCityHall/title",
     "original": "Bomb at City Hall",
-    "translation": "",
-    "stage": 0,
+    "translation": "市政厅炸弹",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BombAtCityHall；类型：card.title。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BombAtCityHall/gameTexts/0/body/0",
     "original": "This card deals each non-Environment target 3 fire damage. Each Hero character deals itself 3 fixed psychic damage. Each Hero discards 2 cards. Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对每个非环境目标造成3点火焰伤害。每名英雄角色对自身造成3点固定精神伤害。每名英雄弃置2张牌。破坏此牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BombAtCityHall；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BombAtCityHall/gameTexts/1/body/0",
     "original": "1 Hero may discard 2 Item cards. If they do, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1名英雄可以弃置2张物品牌。若如此做，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BombAtCityHall；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BombAtCityHall/flavorQuotes/@MayorFremont/text",
     "original": "Heroes! Come at once! There’s some sort{BR}of terrible contraption here at City Hall,{BR}and it’s ticking!",
-    "translation": "",
-    "stage": 0,
+    "translation": "英雄们！快来！{BR}市政厅里有个吓人的怪装置，{BR}还在滴答作响！",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BombAtCityHall / MayorFremont；类型：flavor.quote。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BombAtCityHall/flavorReference",
     "original": "Mayor Fremont, Freedom Five Annual #3",
-    "translation": "",
-    "stage": 0,
+    "translation": "弗里蒙特市长，《自由五杰年刊》第3期",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BombAtCityHall；类型：flavor.reference。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BurningHighRise/title",
     "original": "Burning High Rise",
-    "translation": "",
-    "stage": 0,
+    "translation": "高楼失火",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BurningHighRise；类型：card.title。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BurningHighRise/gameTexts/0/body/0",
     "original": "This card deals each Hero target 2 fire damage. Each Hero character deals itself 2 fixed psychic damage. Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对每个英雄目标造成2点火焰伤害。每名英雄角色对自身造成2点固定精神伤害。破坏此牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BurningHighRise；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BurningHighRise/gameTexts/1/body/0",
     "original": "Each Hero may discard any number of cards. If {H + 2} cards are discarded this way, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每名英雄可以弃置任意数量的牌。若以此法弃置了{H + 2}张牌，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BurningHighRise；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BurningHighRise/flavorQuotes/@Tachyon/text",
     "original": "I’ve been through the whole place twice, but{BR}I know there are still people inside. A woman was{BR}yelling for help and something about her baby!{BR}We gotta get back in there.",
-    "translation": "",
-    "stage": 0,
+    "translation": "整栋楼我已经搜过两遍了，{BR}可里面肯定还有人。{BR}有个女人在喊救命，还喊着她的孩子！{BR}我们得再进去！",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BurningHighRise / Tachyon；类型：flavor.quote。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BurningHighRise/flavorReference",
     "original": "Tachyon, Freedom Five #276",
-    "translation": "",
-    "stage": 0,
+    "translation": "快子，《自由五杰》第276期",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BurningHighRise；类型：flavor.reference。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BustlingCity/title",
     "original": "Bustling City",
-    "translation": "",
-    "stage": 0,
+    "translation": "都市喧嚣",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BustlingCity；类型：card.title。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BustlingCity/gameTexts/0/body/0",
     "original": "In turn order, reveal the top card of each deck. If the revealed card is a One-Shot card, discard it. Otherwise, play it.",
-    "translation": "",
-    "stage": 0,
+    "translation": "按回合顺序，展示每个牌库的牌库顶牌。若展示的牌是瞬发牌，弃置该牌。否则，打出该牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BustlingCity；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BustlingCity/flavorQuotes/@AbsoluteZero/text",
     "original": "This city is a constant headache.{BR}Lights, noise, people, traffic. Worst place{BR}I’ve ever lived. Couldn’t imagine living{BR}anywhere else.",
-    "translation": "",
-    "stage": 0,
+    "translation": "这座城一天到晚都让人头疼。{BR}灯光、噪音、人群、车流。{BR}我住过的地方里，就数这里最糟。{BR}可要我住到别处去？还真想象不出来。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BustlingCity / AbsoluteZero；类型：flavor.quote。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@BustlingCity/flavorReference",
     "original": "Absolute Zero, Freedom Five #403",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度，《自由五杰》第403期",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：BustlingCity；类型：flavor.reference。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@CollateralDamage/title",
     "original": "Collateral Damage",
-    "translation": "",
-    "stage": 0,
+    "translation": "殃及池鱼",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：CollateralDamage；类型：card.title。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@CollateralDamage/gameTexts/0/body/0",
     "original": "Destroy 1 Villain Ongoing card, 1 Hero Ongoing card, and 1 Environment card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1张反派持续牌、1张英雄持续牌和1张环境牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：CollateralDamage；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@CollateralDamage/gameTexts/1/body/0",
     "original": "Each target deals itself 1 fixed psychic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每个目标对自身造成1点固定精神伤害。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：CollateralDamage；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@CollateralDamage/flavorQuotes/@Bunker/text",
     "original": "Drive them back! We’re risking the lives{BR}of millions with every second we spend{BR}fighting in this city!",
-    "translation": "",
-    "stage": 0,
+    "translation": "把他们逼退！{BR}我们在城里每多打一秒，{BR}就有数百万人的性命处在危险之中！",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：CollateralDamage / Bunker；类型：flavor.quote。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@CollateralDamage/flavorReference",
     "original": "Bunker, Freedom Five #441",
-    "translation": "",
-    "stage": 0,
+    "translation": "堡垒，《自由五杰》第441期",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：CollateralDamage；类型：flavor.reference。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@HostageSituation/title",
     "original": "Hostage Situation",
-    "translation": "",
-    "stage": 0,
+    "translation": "人质危机",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：HostageSituation；类型：card.title。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@HostageSituation/gameTexts/0/body/0",
     "original": "Each Hero destroys 1 of their Item cards. Each Hero discards 1 card. Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每名英雄破坏自己的1张物品牌。每名英雄弃置1张牌。破坏此牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：HostageSituation；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@HostageSituation/gameTexts/1/body/0",
     "original": "1 Hero may discard 2 One-Shot cards. If they do, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1名英雄可以弃置2张瞬发牌。若如此做，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：HostageSituation；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@HostageSituation/flavorQuotes/@TheAdhesivist/text",
     "original": "Seems like you’ve found yourselves{BR}in a <b>sticky</b> situation! Ha-ha-ha-ha-ha!!!",
-    "translation": "",
-    "stage": 0,
+    "translation": "看来你们这回是被麻烦给<b>黏住</b>了！{BR}哈哈哈哈哈！",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：HostageSituation / TheAdhesivist；类型：flavor.quote。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@HostageSituation/flavorReference",
     "original": "The Adhesivist, Justice Comics #341",
-    "translation": "",
-    "stage": 0,
+    "translation": "黏胶师，《正义漫画》第341期",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：HostageSituation；类型：flavor.reference。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@ImpendingCasualty/title",
     "original": "Impending Casualty",
-    "translation": "",
-    "stage": 0,
+    "translation": "命悬一线",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：ImpendingCasualty；类型：card.title。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@ImpendingCasualty/gameTexts/0/body/0",
     "original": "Each Hero character deals itself 3 fixed psychic damage. Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每名英雄角色对自身造成3点固定精神伤害。破坏此牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：ImpendingCasualty；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@ImpendingCasualty/gameTexts/1/body/0",
     "original": "1 Hero may discard their hand. If they do, they draw 2 cards, then destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1名英雄可以弃置自己的全部手牌。若如此做，该英雄抽2张牌，然后破坏此牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：ImpendingCasualty；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@ImpendingCasualty/flavorQuotes/@Crossword/text",
     "original": "I believe you’ll find{BR}the solution is further down,{BR}and several more across!",
-    "translation": "",
-    "stage": 0,
+    "translation": "我想你会发现，{BR}答案还得往下找，{BR}再横着数上几格！",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：ImpendingCasualty / Crossword；类型：flavor.quote。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@ImpendingCasualty/flavorReference",
     "original": "Crossword, Mystery Comics Vol. 1 #184",
-    "translation": "",
-    "stage": 0,
+    "translation": "字谜人，《悬谜漫画》第1卷第184期",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：ImpendingCasualty；类型：flavor.reference。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@LocalLegalExpert/title",
     "original": "Local Legal Expert",
-    "translation": "",
-    "stage": 0,
+    "translation": "本地律师",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：LocalLegalExpert；类型：card.title。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@LocalLegalExpert/gameTexts/0/body/0",
     "original": "This card counts as a Hero target. It is immune to damage dealt by Hero targets.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌视为英雄目标。此牌免疫英雄目标造成的伤害。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：LocalLegalExpert；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@LocalLegalExpert/gameTexts/1/body/0",
     "original": "Each Hero draws 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每名英雄抽1张牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：LocalLegalExpert；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@LocalLegalExpert/flavorQuotes/@BriannaHawkeEsq/text",
     "original": "He could have gotten off Scot-free{BR}if his legal team hadn’t overlooked those{BR}torts. That’s why they call me the Law Hawk.{BR}I don’t overlook anything.",
-    "translation": "",
-    "stage": 0,
+    "translation": "要不是他的律师团漏掉了那些侵权行为，{BR}他本来就能全身而退。{BR}这就是他们叫我“律政之鹰”的原因。{BR}没有什么能逃过我的眼睛。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：LocalLegalExpert / BriannaHawkeEsq；类型：flavor.quote。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@LocalLegalExpert/flavorReference",
     "original": "Brianna Hawke, Esq., Freedom Five Annual #8",
-    "translation": "",
-    "stage": 0,
+    "translation": "布里安娜·霍克律师，《自由五杰年刊》第8期",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：LocalLegalExpert；类型：flavor.reference。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@PersistentPaparazzi/title",
     "original": "Persistent Paparazzi",
-    "translation": "",
-    "stage": 0,
+    "translation": "难缠狗仔",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：PersistentPaparazzi；类型：card.title。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@PersistentPaparazzi/gameTexts/0/body/0",
     "original": "After a Hero uses a power, they deal themself 1 fixed psychic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "一名英雄使用异能后，该英雄对自身造成1点固定精神伤害。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：PersistentPaparazzi；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@PersistentPaparazzi/gameTexts/1/body/0",
     "original": "Each Hero may discard 1 card. If each active Hero does so, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每名英雄可以弃置1张牌。若每名未失能的英雄均如此做，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：PersistentPaparazzi；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@PersistentPaparazzi/flavorQuotes/@MichelleHausmann/text",
     "original": "I’m live at the scene, reporting{BR}on the incident in progress.{BR}What’s <b>really</b> going on here, Setback?{BR}What are you heroes hiding?",
-    "translation": "",
-    "stage": 0,
+    "translation": "我正在现场，{BR}为各位直播这起仍在发生的事件。{BR}背运客，这里<b>到底</b>出了什么事？{BR}你们这些英雄在隐瞒什么？",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：PersistentPaparazzi / MichelleHausmann；类型：flavor.quote。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@PersistentPaparazzi/flavorReference",
     "original": "Michelle Hausmann, Justice Comics #479",
-    "translation": "",
-    "stage": 0,
+    "translation": "米歇尔·豪斯曼，《正义漫画》第479期",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：PersistentPaparazzi；类型：flavor.reference。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@PlummetingMonorail/title",
     "original": "Plummeting Monorail",
-    "translation": "",
-    "stage": 0,
+    "translation": "单轨车坠落",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：PlummetingMonorail；类型：card.title。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@PlummetingMonorail/gameTexts/0/body/0",
     "original": "This card deals the 2 non-Environment targets with the highest HP 5 melee damage each. Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最高的2个非环境目标各造成5点近战伤害。破坏此牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：PlummetingMonorail；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@PlummetingMonorail/gameTexts/1/body/0",
     "original": "1 Hero may deal themself 2 fixed psychic damage and 2 fixed melee damage. If they do, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1名英雄可以对自身造成2点固定精神伤害和2点固定近战伤害。若如此做，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：PlummetingMonorail；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@PlummetingMonorail/flavorQuotes/@Legacy/text",
     "original": "Just one chance to get this right...{BR}I have to slow it down before it reaches{BR}the ground, but without hurting anyone{BR}inside!",
-    "translation": "",
-    "stage": 0,
+    "translation": "只有一次机会，绝不能失手……{BR}我得在它撞地之前让它慢下来，{BR}还不能伤到{BR}车里的任何人！",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：PlummetingMonorail / Legacy；类型：flavor.quote。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@PlummetingMonorail/flavorReference",
     "original": "Legacy, A Day in the Life: Legacy",
-    "translation": "",
-    "stage": 0,
+    "translation": "传承侠，《传承侠的一天》",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：PlummetingMonorail；类型：flavor.reference。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@PoliceBackup/title",
     "original": "Police Backup",
-    "translation": "",
-    "stage": 0,
+    "translation": "警方增援",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：PoliceBackup；类型：card.title。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@PoliceBackup/gameTexts/0/body/0",
     "original": "This card counts as a Hero target. It is immune to damage dealt by Hero targets.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌视为英雄目标。此牌免疫英雄目标造成的伤害。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：PoliceBackup；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@PoliceBackup/gameTexts/1/body/0",
     "original": "This card deals the Villain target with the highest HP 1 projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最高的反派目标造成1点投射伤害。",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：PoliceBackup；类型：rules.body。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@PoliceBackup/flavorQuotes/@PoliceChiefCallahan/text",
     "original": "You’re the finest buncha boys in blue{BR}I’ve ever had the privilege of working with.{BR}There are some real heavy hitters out{BR}there, so be on your guard!",
-    "translation": "",
-    "stage": 0,
+    "translation": "能和你们这帮最出色的警察共事，{BR}是我的荣幸。{BR}外头有几个厉害角色，{BR}都给我打起精神来！",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：PoliceBackup / PoliceChiefCallahan；类型：flavor.quote。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "MegalopolisDeckList.json::turnTakers/@Megalopolis/decks/@Megalopolis/cards/@PoliceBackup/flavorReference",
     "original": "Police Chief Callahan, Freedom Five Annual #3",
-    "translation": "",
-    "stage": 0,
+    "translation": "卡拉汉警察局长，《自由五杰年刊》第3期",
+    "stage": 1,
     "context": "卡组：Megalopolis；对象：PoliceBackup；类型：flavor.reference。\n来源：MegalopolisDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   }
 ]

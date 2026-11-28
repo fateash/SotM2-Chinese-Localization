@@ -2,519 +2,519 @@
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/title",
     "original": "Akash'Bhuta",
-    "translation": "",
-    "stage": 0,
+    "translation": "阿卡什怖妲",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhuta；类型：deck.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@AkashBhutaCharacter/title",
     "original": "Akash'Bhuta",
-    "translation": "",
-    "stage": 0,
+    "translation": "阿卡什怖妲",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：card.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@AkashBhutaCharacter/subTitle",
     "original": "Chaos-Bound Creator",
-    "translation": "",
-    "stage": 0,
+    "translation": "混沌所缚的造物者",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：cards.subTitle。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/0/subTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@AkashBhutaCharacter/setupGameTexts/0/body/0",
     "original": "Discover {H - 1} Primeval Limb cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发现{H - 1}张原肢牌。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/0/setupGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@AkashBhutaCharacter/gameTexts/0/body/0",
     "original": "When the Environment trash is shuffled into the Environment deck, {AkashBhuta} regains {H} HP. Then: {Flip}",
-    "translation": "",
-    "stage": 0,
+    "translation": "环境弃牌堆洗入环境牌库时，{AkashBhuta}恢复{H}点生命值。然后：{Flip}",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@AkashBhutaCharacter/gameTexts/1/body/0",
     "original": "After any non-Hero target is played, discard the top card of the Environment deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "任意非英雄目标打出后，弃置环境牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@AkashBhutaCharacter/gameTexts/2/body/0",
     "original": "Discover 1 Primeval Limb card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发现1张原肢牌。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@AkashBhutaCharacter/advancedGameTexts/0/body/0",
     "original": "Discard the top card of the Environment deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "弃置环境牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/0/advancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@AkashBhutaCharacter/advancedGameTexts/0/body/1",
     "original": "Play the top card of the Environment deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "打出环境牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/0/advancedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@AkashBhutaCharacter/flippedSubTitle",
     "original": "Avatar of Destruction",
-    "translation": "",
-    "stage": 0,
+    "translation": "毁灭化身",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：cards.flippedSubTitle。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/0/flippedSubTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@AkashBhutaCharacter/flippedGameTexts/0/body/0",
     "original": "When the Environment trash is shuffled into the Environment deck, {AkashBhuta} regains {H} HP. Then: {Flip}",
-    "translation": "",
-    "stage": 0,
+    "translation": "环境弃牌堆洗入环境牌库时，{AkashBhuta}恢复{H}点生命值。然后：{Flip}",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@AkashBhutaCharacter/flippedGameTexts/1/body/0",
     "original": "After any non-Hero target is destroyed, discard the top card of the Environment deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "任意非英雄目标被破坏后，弃置环境牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@AkashBhutaCharacter/flippedGameTexts/2/body/0",
     "original": "{AkashBhuta} deals each non-Villain target 2 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AkashBhuta}对每个非反派目标造成2点火焰伤害。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@AkashBhutaCharacter/flippedAdvancedGameTexts/0/body/0",
     "original": "After any Primeval Limb card is destroyed, {AkashBhuta} deals the Hero target with the{BR}highest HP X melee damage, where X is the destroyed card's maximum HP divided by 2.",
-    "translation": "",
-    "stage": 0,
+    "translation": "任意原肢牌被破坏后，{AkashBhuta}对生命值最高的{BR}英雄目标造成X点近战伤害，X为被破坏牌的生命值上限除以2。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/0/flippedAdvancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@ArborealPhalanges/title",
     "original": "Arboreal Phalanges",
-    "translation": "",
-    "stage": 0,
+    "translation": "林木指骨",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：ArborealPhalanges；类型：card.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@ArborealPhalanges/gameTexts/0/body/0",
     "original": "When this card is destroyed, {AkashBhuta} deals herself 14 fixed energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌被破坏时，{AkashBhuta}对自身造成14点固定能量伤害。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：ArborealPhalanges；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@ArborealPhalanges/gameTexts/1/body/0",
     "original": "This card deals the non-Villain target with the highest HP {H} melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最高的非反派目标造成{H}点近战伤害。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：ArborealPhalanges；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@ArborealPhalanges/flavorQuotes/@CaptainCosmic/text",
     "original": "Stick with it! Surely we can't be defeated{BR}by an assortment of shrubberies!",
-    "translation": "",
-    "stage": 0,
+    "translation": "坚持住！我们总不能{BR}败给一堆灌木丛吧！",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：ArborealPhalanges / CaptainCosmic；类型：flavor.quote。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@ArborealPhalanges/flavorReference",
     "original": "Captain Cosmic, Prime Wardens Vol. 1 #4",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙队长，《原初守卫》第1卷第4期",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：ArborealPhalanges；类型：flavor.reference。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@DisruptTheField/title",
     "original": "Disrupt the Field",
-    "translation": "",
-    "stage": 0,
+    "translation": "地动山摇",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：DisruptTheField；类型：card.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@DisruptTheField/gameTexts/0/body/0",
     "original": "Destroy all Environment cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏所有环境牌。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：DisruptTheField；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@DisruptTheField/gameTexts/1/body/0",
     "original": "Play the top card of the Environment deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "打出环境牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：DisruptTheField；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@DisruptTheField/gameTexts/2/body/0",
     "original": "Play the top card of the Villain deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "打出反派牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：DisruptTheField；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@DisruptTheField/flavorQuotes/@Legacy/text",
     "original": "We must stop this fiend and save Megalopolis...{BR}before it's too late!",
-    "translation": "",
-    "stage": 0,
+    "translation": "我们必须阻止这恶魔，救下巨都会……{BR}趁现在还来得及！",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：DisruptTheField / Legacy；类型：flavor.quote。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@DisruptTheField/flavorReference",
     "original": "Legacy, Freedom Five Annual #10",
-    "translation": "",
-    "stage": 0,
+    "translation": "传承侠，《自由五杰年刊》第10期",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：DisruptTheField；类型：flavor.reference。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@EarthsSacrifice/title",
     "original": "Earth's Sacrifice",
-    "translation": "",
-    "stage": 0,
+    "translation": "大地献祭",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EarthsSacrifice；类型：card.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@EarthsSacrifice/gameTexts/0/body/0",
     "original": "Destroy {H - 1} Hero Ongoing cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏{H - 1}张英雄持续牌。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EarthsSacrifice；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@EarthsSacrifice/gameTexts/1/body/0",
     "original": "Discard as many cards from the top of the Environment deck as cards destroyed by this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "从环境牌库顶弃置卡牌，数量等于此牌破坏的卡牌数量。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EarthsSacrifice；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@EarthsSacrifice/flavorQuotes/@TheArgentAdept/text",
     "original": "You may drain my strength,{BR}but you <b>CANNOT</b> crush my will.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你能耗尽我的力量，{BR}却<b>绝不能</b>摧折我的意志。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EarthsSacrifice / TheArgentAdept；类型：flavor.quote。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@EarthsSacrifice/flavorReference",
     "original": "The Argent Adept, Virtuoso of the Void #152",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《虚空乐圣》第152期",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EarthsSacrifice；类型：flavor.reference。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@EnsnaringBrambles/title",
     "original": "Ensnaring Brambles",
-    "translation": "",
-    "stage": 0,
+    "translation": "缠身荆棘",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EnsnaringBrambles；类型：card.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@EnsnaringBrambles/gameTexts/0/body/0",
     "original": "When this card is destroyed, {AkashBhuta} deals herself 8 fixed energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌被破坏时，{AkashBhuta}对自身造成8点固定能量伤害。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EnsnaringBrambles；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@EnsnaringBrambles/gameTexts/1/body/0",
     "original": "Select the Hero target with the lowest HP. −2 damage dealt by that target until the Villain {Start}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "选择生命值最低的英雄目标。直到反派{Start}，该目标造成的伤害−2。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EnsnaringBrambles；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@EnsnaringBrambles/flavorQuotes/@Haka/text",
     "original": "Rah! This is no longer fun!",
-    "translation": "",
-    "stage": 0,
+    "translation": "吼！这可不好玩了！",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EnsnaringBrambles / Haka；类型：flavor.quote。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@EnsnaringBrambles/flavorReference",
     "original": "Haka, Prime Wardens Vol. 1 #2",
-    "translation": "",
-    "stage": 0,
+    "translation": "哈卡，《原初守卫》第1卷第2期",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EnsnaringBrambles；类型：flavor.reference。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@EntropicFungi/title",
     "original": "Entropic Fungi",
-    "translation": "",
-    "stage": 0,
+    "translation": "熵蚀菌群",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EntropicFungi；类型：card.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@EntropicFungi/gameTexts/0/body/0",
     "original": "When this card is destroyed, {AkashBhuta} deals herself 6 fixed energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌被破坏时，{AkashBhuta}对自身造成6点固定能量伤害。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EntropicFungi；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@EntropicFungi/gameTexts/1/body/0",
     "original": "This card deals each target in the Hero play area with the most cards in play 2 toxic damage. Destroy 1 Ongoing card and 1 Item card in that play area.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对场上卡牌最多的英雄场地区域中的每个目标造成2点毒素伤害。破坏该场地区域中的1张持续牌和1张物品牌。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EntropicFungi；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@EntropicFungi/flavorQuotes/@AbsoluteZero/text",
     "original": "We just got new gear, but it's already acting{BR}like it spent the last decade in the mud.{BR}Doc's gonna be mad.",
-    "translation": "",
-    "stage": 0,
+    "translation": "装备才刚换新，现在却像{BR}在烂泥里埋了十年。{BR}博士该发火了。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EntropicFungi / AbsoluteZero；类型：flavor.quote。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@EntropicFungi/flavorReference",
     "original": "Absolute Zero, Freedom Five Annual #10",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度，《自由五杰年刊》第10期",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：EntropicFungi；类型：flavor.reference。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@HarshRenewal/title",
     "original": "Harsh Renewal",
-    "translation": "",
-    "stage": 0,
+    "translation": "酷烈新生",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：HarshRenewal；类型：card.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@HarshRenewal/gameTexts/0/body/0",
     "original": "Destroy the Primeval Limb card in play with the lowest HP, preventing any damage {AkashBhuta} would deal herself.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏场上生命值最低的原肢牌，并防止{AkashBhuta}因此将要对自身造成的所有伤害。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：HarshRenewal；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@HarshRenewal/gameTexts/0/body/1",
     "original": "Shuffle the Villain trash into the Villain deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将反派弃牌堆洗入反派牌库。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：HarshRenewal；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@HarshRenewal/gameTexts/0/body/2",
     "original": "Discover {H - 2} Primeval Limb cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发现{H - 2}张原肢牌。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：HarshRenewal；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@HarshRenewal/flavorQuotes/@AkashBhuta/text",
     "original": "You cannot outrun time. I have been a part of this{BR}planet since before your ancestors learned of fire, and{BR}I shall remain here after you are <b>LONG</b> gone.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你们逃不过岁月。你们的祖先尚不知火为何物时，{BR}我便已是这颗星球的一部分。{BR}待你们消逝<b>许久</b>，我仍将长存于此。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：HarshRenewal / AkashBhuta；类型：flavor.quote。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@HarshRenewal/flavorReference",
     "original": "Akash'Bhuta, Freedom Five Annual #10",
-    "translation": "",
-    "stage": 0,
+    "translation": "阿卡什怖妲，《自由五杰年刊》第10期",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：HarshRenewal；类型：flavor.reference。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@InterposingStalagmites/title",
     "original": "Interposing Stalagmites",
-    "translation": "",
-    "stage": 0,
+    "translation": "护体石笋",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：InterposingStalagmites；类型：card.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@InterposingStalagmites/gameTexts/0/body/0",
     "original": "−1 damage dealt to {AkashBhuta}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AkashBhuta}受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：InterposingStalagmites；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@InterposingStalagmites/gameTexts/1/body/0",
     "original": "When this card is destroyed, {AkashBhuta} deals herself 12 fixed energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌被破坏时，{AkashBhuta}对自身造成12点固定能量伤害。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：InterposingStalagmites；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@InterposingStalagmites/gameTexts/2/body/0",
     "original": "This card deals the non-Villain target with the lowest HP 2 melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最低的非反派目标造成2点近战伤害。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：InterposingStalagmites；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@InterposingStalagmites/flavorQuotes/@AkashBhuta/text",
     "original": "Like rain on the mountain or wind through a{BR}forest, you are barely noticed. Cease your{BR}struggles. Leave this world.",
-    "translation": "",
-    "stage": 0,
+    "translation": "如雨落山峦，如风过林间，{BR}你们几乎不值一顾。停止挣扎。{BR}离开这个世界。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：InterposingStalagmites / AkashBhuta；类型：flavor.quote。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@InterposingStalagmites/flavorReference",
     "original": "Akash'Bhuta, Prime Wardens Vol. 1 #2",
-    "translation": "",
-    "stage": 0,
+    "translation": "阿卡什怖妲，《原初守卫》第1卷第2期",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：InterposingStalagmites；类型：flavor.reference。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@LivingRockslide/title",
     "original": "Living Rockslide",
-    "translation": "",
-    "stage": 0,
+    "translation": "活体岩崩",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：LivingRockslide；类型：card.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@LivingRockslide/gameTexts/0/body/0",
     "original": "When this card is destroyed, {AkashBhuta} deals herself 10 fixed energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌被破坏时，{AkashBhuta}对自身造成10点固定能量伤害。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：LivingRockslide；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@LivingRockslide/gameTexts/1/body/0",
     "original": "This card deals each non-Villain target 2 projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对每个非反派目标造成2点投射伤害。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：LivingRockslide；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@LivingRockslide/flavorQuotes/@Bunker/text",
     "original": "Who is that? We gotta get him <b>OUT</b> of there!",
-    "translation": "",
-    "stage": 0,
+    "translation": "那是谁？我们得把他<b>救出来</b>！",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：LivingRockslide / Bunker；类型：flavor.quote。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@LivingRockslide/flavorReference",
     "original": "Bunker, Freedom Five Annual #10",
-    "translation": "",
-    "stage": 0,
+    "translation": "堡垒，《自由五杰年刊》第10期",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：LivingRockslide；类型：flavor.reference。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@PrimevalEruption/title",
     "original": "Primeval Eruption",
-    "translation": "",
-    "stage": 0,
+    "translation": "原初喷发",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：PrimevalEruption；类型：card.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@PrimevalEruption/gameTexts/0/body/0",
     "original": "Discover {H - 1} Primeval Limb cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发现{H - 1}张原肢牌。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：PrimevalEruption；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@PrimevalEruption/gameTexts/1/body/0",
     "original": "Discard the top {H + 1} cards of the Environment deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "弃置环境牌库顶的{H + 1}张牌。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：PrimevalEruption；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@PrimevalEruption/flavorQuotes/@TheArgentAdept/text",
     "original": "This is it... the beginning of the end.",
-    "translation": "",
-    "stage": 0,
+    "translation": "终于来了……终结的开端。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：PrimevalEruption / TheArgentAdept；类型：flavor.quote。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@PrimevalEruption/flavorReference",
     "original": "The Argent Adept, Mother Earth One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《大地之母》独立特刊",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：PrimevalEruption；类型：flavor.reference。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@ReturnToTheEarth/title",
     "original": "Return to the Earth",
-    "translation": "",
-    "stage": 0,
+    "translation": "归于大地",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：ReturnToTheEarth；类型：card.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@ReturnToTheEarth/gameTexts/0/body/0",
     "original": "Destroy {H - 1} Item cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏{H - 1}张物品牌。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：ReturnToTheEarth；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@ReturnToTheEarth/gameTexts/1/body/0",
     "original": "Restore all Environment targets and Primeval Limb cards to their max HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将所有环境目标和原肢牌的生命值恢复至各自的生命值上限。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：ReturnToTheEarth；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@ReturnToTheEarth/flavorQuotes/@AkashBhuta/text",
     "original": "From the earth it was born,{BR}and so to the earth it shall return!",
-    "translation": "",
-    "stage": 0,
+    "translation": "既生于大地，{BR}便当归于大地！",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：ReturnToTheEarth / AkashBhuta；类型：flavor.quote。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/cards/@ReturnToTheEarth/flavorReference",
     "original": "Akash'Bhuta, Freedom Five Annual #10",
-    "translation": "",
-    "stage": 0,
+    "translation": "阿卡什怖妲，《自由五杰年刊》第10期",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：ReturnToTheEarth；类型：flavor.reference。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/variants/@AkashBhutaCharacter/title",
     "original": "Akash'Mecha",
-    "translation": "",
-    "stage": 0,
+    "translation": "机甲怖妲",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：card.title。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/variants/@AkashBhutaCharacter/subTitle",
     "original": "Orderly Power Overcome by Chaos",
-    "translation": "",
-    "stage": 0,
+    "translation": "混沌支配的秩序之力",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：variants.subTitle。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/variants/0/subTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/variants/@AkashBhutaCharacter/setupGameTexts/0/body/0",
     "original": "Shuffle and set the {AkashBhuta} deck in the Villain play area. Put both copies of Harsh Renewal under this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "洗混{AkashBhuta}牌库，将其置于反派场地区域。将两张酷烈新生置于此牌下方。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/variants/0/setupGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/variants/@AkashBhutaCharacter/gameTexts/0/body/0",
     "original": "Whenever a Primeval Limb would be destroyed, put it under this card instead.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每当一张原肢牌将要被破坏时，改为将其置于此牌下方。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/variants/@AkashBhutaCharacter/gameTexts/1/body/0",
     "original": "{AkashBhuta} deals the Hero target with the highest HP X lightning damage, where X is the number of cards under this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AkashBhuta}对生命值最高的英雄目标造成X点闪电伤害，X为此牌下方的卡牌数量。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/variants/@AkashBhutaCharacter/gameTexts/2/body/0",
     "original": "{AkashBhuta} deals each target other than herself 2 energy damage. Each non-Hero target other than {AkashBhuta} deals her 1 fixed melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AkashBhuta}对除自身以外的每个目标造成2点能量伤害。除{AkashBhuta}以外的每个非英雄目标对其造成1点固定近战伤害。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AkashBhutaDeckList.json::turnTakers/@AkashBhuta/decks/@AkashBhuta/variants/@AkashBhutaCharacter/advancedGameTexts/0/body/0",
     "original": "Move {H - 2} cards from the top of the Environment deck to under this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将环境牌库顶的{H - 2}张牌移至此牌下方。",
+    "stage": 1,
     "context": "卡组：AkashBhuta；对象：AkashBhutaCharacter；类型：rules.body。\n来源：AkashBhutaDeckList.json#/turnTakers/0/decks/0/variants/0/advancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

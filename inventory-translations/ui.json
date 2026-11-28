@@ -198,7 +198,7 @@
   {
     "key": "ui.label.0029",
     "original": "Select Hero to use powers",
-    "translation": "选择使用能力的英雄",
+    "translation": "选择使用异能的英雄",
     "stage": 1,
     "context": "界面对象：Hint Label。保留已有稳定键；原文更新不得覆盖平台译文。"
   },
@@ -247,7 +247,7 @@
   {
     "key": "ui.label.0036",
     "original": "Skip Power",
-    "translation": "跳过能力",
+    "translation": "跳过异能",
     "stage": 1,
     "context": "界面对象：Skip Button Label。保留已有稳定键；原文更新不得覆盖平台译文。"
   },

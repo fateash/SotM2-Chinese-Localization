@@ -72,6 +72,18 @@ class CoverageAuditTests(unittest.TestCase):
     def test_contracts_cover_all_templates_and_reviewed_runtime(self):
         audit.validate_contracts(self.contracts, self.templates)
 
+    def test_dynamic_negative_also_requires_integrated_assertion(self):
+        case = next(c['case'] for f in self.contracts['families'] for c in f['contexts']
+                    if c.get('case', {}).get('matchLayer') == 'dynamic')
+        del case['integratedExpected']
+        with self.assertRaisesRegex(ValueError, 'integrated output assertion'):
+            audit.validate_contracts(self.contracts, self.templates)
+
+    def test_unknown_contract_layer_rejected(self):
+        self.contracts['families'][0]['contexts'][0]['case']['matchLayer'] = 'skip'
+        with self.assertRaisesRegex(ValueError, 'Unknown contract match layer'):
+            audit.validate_contracts(self.contracts, self.templates)
+
     def test_added_template_requires_family_registration(self):
         with self.assertRaises(ValueError):
             audit.validate_contracts(self.contracts, self.templates | {'new.action': '新增'})

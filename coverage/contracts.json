@@ -3463,14 +3463,16 @@
           "view": "unrelated-control",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "相同文字在其他用途下不转换。",
+          "reason": "动态路径负例仍须不匹配；同名控件的完整固定文本由已审定词典转换，另行断言完整显示链输出。不据此确认该合成路径已实机验收。",
           "case": {
             "objectName": "Phase Label",
             "path": "Other/Canvas/HUD Panel/State Box/Phase Box/Phase Label",
             "cardId": "",
             "source": "START PHASE",
             "inCardView": false,
-            "expected": null
+            "expected": null,
+            "matchLayer": "dynamic",
+            "integratedExpected": "开始阶段"
           }
         },
         {
@@ -3519,14 +3521,16 @@
           "view": "unrelated-control",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "相同文字在其他用途下不转换。",
+          "reason": "动态路径负例仍须不匹配；同名控件的完整固定文本由已审定词典转换，另行断言完整显示链输出。不据此确认该合成路径已实机验收。",
           "case": {
             "objectName": "Phase Label",
             "path": "Other/Canvas/HUD Panel/State Box/Phase Box/Phase Label",
             "cardId": "",
             "source": "END PHASE",
             "inCardView": false,
-            "expected": null
+            "expected": null,
+            "matchLayer": "dynamic",
+            "integratedExpected": "结束阶段"
           }
         },
         {
@@ -3575,14 +3579,16 @@
           "view": "unrelated-control",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "相同文字在其他用途下不转换。",
+          "reason": "动态路径负例仍须不匹配；同名控件的完整固定文本由已审定词典转换，另行断言完整显示链输出。不据此确认该合成路径已实机验收。",
           "case": {
             "objectName": "Phase Label",
             "path": "Other/Canvas/HUD Panel/State Box/Phase Box/Phase Label",
             "cardId": "",
             "source": "PLAY PHASE",
             "inCardView": false,
-            "expected": null
+            "expected": null,
+            "matchLayer": "dynamic",
+            "integratedExpected": "出牌阶段"
           }
         },
         {
@@ -3664,14 +3670,16 @@
           "view": "unrelated-control",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "相同文字在其他用途下不转换。",
+          "reason": "动态路径负例仍须不匹配；同名控件的完整固定文本由已审定词典转换，另行断言完整显示链输出。不据此确认该合成路径已实机验收。",
           "case": {
             "objectName": "Phase Label",
             "path": "Other/Canvas/HUD Panel/State Box/Phase Box/Phase Label",
             "cardId": "",
             "source": "POWER PHASE",
             "inCardView": false,
-            "expected": null
+            "expected": null,
+            "matchLayer": "dynamic",
+            "integratedExpected": "异能阶段"
           }
         },
         {
@@ -3769,14 +3777,16 @@
           "view": "unrelated-control",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "相同文字在其他用途下不转换。",
+          "reason": "动态路径负例仍须不匹配；同名控件的完整固定文本由已审定词典转换，另行断言完整显示链输出。不据此确认该合成路径已实机验收。",
           "case": {
             "objectName": "Phase Label",
             "path": "Other/Canvas/HUD Panel/State Box/Phase Box/Phase Label",
             "cardId": "",
             "source": "DRAW PHASE",
             "inCardView": false,
-            "expected": null
+            "expected": null,
+            "matchLayer": "dynamic",
+            "integratedExpected": "抽牌阶段"
           }
         }
       ]
@@ -13132,14 +13142,16 @@
           "view": "unrelated-control",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "相同文字在其他用途下不转换。",
+          "reason": "动态路径负例仍须不匹配；同名控件的完整固定文本由已审定词典转换，另行断言完整显示链输出。不据此确认该合成路径已实机验收。",
           "case": {
             "objectName": "Text (TMP)",
             "path": "Other/Canvas/Main Panel/Button Panel/Right/Play Button/Text (TMP)",
             "cardId": "",
             "source": "Play!",
             "inCardView": false,
-            "expected": null
+            "expected": null,
+            "matchLayer": "dynamic",
+            "integratedExpected": "开始游戏！"
           }
         },
         {
@@ -13181,14 +13193,16 @@
           "view": "unrelated-control",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "相同文字在其他用途下不转换。",
+          "reason": "动态路径负例仍须不匹配；同名控件的完整固定文本由已审定词典转换，另行断言完整显示链输出。不据此确认该合成路径已实机验收。",
           "case": {
             "objectName": "Text (TMP)",
             "path": "Other/Canvas/Main Panel/Button Panel/Left/Randomize Button/Text (TMP)",
             "cardId": "",
             "source": "Randomize",
             "inCardView": false,
-            "expected": null
+            "expected": null,
+            "matchLayer": "dynamic",
+            "integratedExpected": "随机选择"
           }
         },
         {
@@ -13279,14 +13293,16 @@
           "view": "unrelated-control",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "相同文字在其他用途下不转换。",
+          "reason": "动态路径负例仍须不匹配；同名控件的完整固定文本由已审定词典转换，另行断言完整显示链输出。不据此确认该合成路径已实机验收。",
           "case": {
             "objectName": "Text",
             "path": "Other/Canvas/Main Panel/Button Container/Bottom Buttons/Temp Share Button/Text",
             "cardId": "",
             "source": "Share",
             "inCardView": false,
-            "expected": null
+            "expected": null,
+            "matchLayer": "dynamic",
+            "integratedExpected": "分享"
           }
         },
         {
@@ -13328,14 +13344,16 @@
           "view": "unrelated-control",
           "heroState": "not-applicable",
           "layout": "shared",
-          "reason": "相同文字在其他用途下不转换。",
+          "reason": "动态路径负例仍须不匹配；同名控件的完整固定文本由已审定词典转换，另行断言完整显示链输出。不据此确认该合成路径已实机验收。",
           "case": {
             "objectName": "Text (TMP)",
             "path": "Other/Canvas/Main Panel/Button Panel/Left/Back Button/Text (TMP)",
             "cardId": "",
             "source": "Back\n",
             "inCardView": false,
-            "expected": null
+            "expected": null,
+            "matchLayer": "dynamic",
+            "integratedExpected": "返回\n"
           }
         }
       ]

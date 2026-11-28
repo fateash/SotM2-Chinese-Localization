@@ -2,855 +2,855 @@
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/title",
     "original": "Citizen Dawn",
-    "translation": "",
-    "stage": 0,
+    "translation": "黎明公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawn；类型：deck.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDawnCharacter/title",
     "original": "Citizen Dawn",
-    "translation": "",
-    "stage": 0,
+    "translation": "黎明公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDawnCharacter/subTitle",
     "original": "First Among Citizens of the Sun",
-    "translation": "",
-    "stage": 0,
+    "translation": "光民之首",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：cards.subTitle。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/0/subTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDawnCharacter/setupGameTexts/0/body/0",
     "original": "Discover {H - 1} Citizen cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发现{H - 1}张光民牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/0/setupGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDawnCharacter/gameTexts/0/body/0",
     "original": "If there are at least {H} Citizen cards in the Villain trash: {Flip}",
-    "translation": "",
-    "stage": 0,
+    "translation": "若反派弃牌堆中至少有{H}张光民牌：{Flip}",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDawnCharacter/gameTexts/0/body/1",
     "original": "{CitizenDawn} only flips once this way per game.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每局游戏，{CitizenDawn}仅以此法翻面一次。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDawnCharacter/gameTexts/1/body/0",
     "original": "{CitizenDawn} deals the Hero target with the highest HP {H - 2} energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{CitizenDawn}对生命值最高的英雄目标造成{H - 2}点能量伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDawnCharacter/advancedGameTexts/0/body/0",
     "original": "+1 damage dealt by Citizen cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "光民牌造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/0/advancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDawnCharacter/flippedSubTitle",
     "original": "Apotheosis of the Sun's Power",
-    "translation": "",
-    "stage": 0,
+    "translation": "太阳神威化身",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：cards.flippedSubTitle。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/0/flippedSubTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDawnCharacter/flippedGameTexts/0/body/0",
     "original": "{CitizenDawn} is immune to damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{CitizenDawn}免疫伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDawnCharacter/flippedGameTexts/1/body/0",
     "original": "If there are at least {H} Citizen cards in play: {Flip}",
-    "translation": "",
-    "stage": 0,
+    "translation": "若场上至少有{H}张光民牌：{Flip}",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDawnCharacter/flippedGameTexts/2/body/0",
     "original": "Discover 1 Citizen card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发现1张光民牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDawnCharacter/flippedAdvancedGameTexts/0/body/0",
     "original": "{CitizenDawn} deals each target 1 energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{CitizenDawn}对每个目标造成1点能量伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/0/flippedAdvancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@BlindingBlast/title",
     "original": "Blinding Blast",
-    "translation": "",
-    "stage": 0,
+    "translation": "致盲强光",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：BlindingBlast；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@BlindingBlast/gameTexts/0/body/0",
     "original": "{CitizenDawn} deals each Hero target 2 energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{CitizenDawn}对每个英雄目标造成2点能量伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：BlindingBlast；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@BlindingBlast/gameTexts/1/body/0",
     "original": "Each Hero discards 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每位英雄弃置1张牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：BlindingBlast；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@BlindingBlast/flavorQuotes/@Expatriette/title",
     "original": "Amanda Cohen",
-    "translation": "",
-    "stage": 0,
+    "translation": "阿曼达·科恩",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：BlindingBlast / Expatriette；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@BlindingBlast/flavorQuotes/@Expatriette/text",
     "original": "I'm not less of a person just because I don't{BR}have powers like you. But <b>you're</b> less of a person{BR}for being such a terrible mother.",
-    "translation": "",
-    "stage": 0,
+    "translation": "没有你那样的超能力，{BR}不代表我就低人一等。但做母亲做到你这份上，{BR}<b>你</b>才真是枉为人。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：BlindingBlast / Expatriette；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@BlindingBlast/flavorReference",
     "original": "Amanda Cohen, Emigrant's Song #1",
-    "translation": "",
-    "stage": 0,
+    "translation": "阿曼达·科恩，《离乡者之歌》第1期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：BlindingBlast；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@ChannelTheEclipse/title",
     "original": "Channel the Eclipse",
-    "translation": "",
-    "stage": 0,
+    "translation": "引动日蚀",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：ChannelTheEclipse；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@ChannelTheEclipse/gameTexts/0/body/0",
     "original": "Play the top card of the Villain deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "打出反派牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：ChannelTheEclipse；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@ChannelTheEclipse/gameTexts/1/body/0",
     "original": "{CitizenDawn} deals each non-Villain target 2 energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{CitizenDawn}对每个非反派目标造成2点能量伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：ChannelTheEclipse；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@ChannelTheEclipse/flavorQuotes/@Parse/text",
     "original": "The eclipse is about to happen! Should{BR}disrupt dawn's powers. That is, unless it all goes{BR}bonkers and she gets more dangerous.{BR}Seems unlikely.",
-    "translation": "",
-    "stage": 0,
+    "translation": "日蚀就要发生了！应该能{BR}干扰黎明公民的能力。除非一切都乱了套，{BR}反倒让她变得更危险。{BR}这种可能性似乎不大。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：ChannelTheEclipse / Parse；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@ChannelTheEclipse/flavorReference",
     "original": "Parse, Sunrise #14",
-    "translation": "",
-    "stage": 0,
+    "translation": "译探，《升阳》第14期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：ChannelTheEclipse；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenAnvil/title",
     "original": "Citizen Anvil",
-    "translation": "",
-    "stage": 0,
+    "translation": "铁砧公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenAnvil；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenAnvil/gameTexts/0/body/0",
     "original": "−1 damage dealt to Citizen cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "光民牌受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenAnvil；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenAnvil/gameTexts/1/body/0",
     "original": "If Citizen Hammer is in the Villain trash, summon Citizen Hammer.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若铁锤公民在反派弃牌堆中，召唤铁锤公民。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenAnvil；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenAnvil/flavorQuotes/@CitizenAnvil/text",
     "original": "<b>Halt</b>.",
-    "translation": "",
-    "stage": 0,
+    "translation": "<b>止步</b>。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenAnvil / CitizenAnvil；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenAnvil/flavorReference",
     "original": "Citizen Anvil, Freedom Five #209",
-    "translation": "",
-    "stage": 0,
+    "translation": "铁砧公民，《自由五杰》第209期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenAnvil；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenAssault/title",
     "original": "Citizen Assault",
-    "translation": "",
-    "stage": 0,
+    "translation": "强袭公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenAssault；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenAssault/gameTexts/0/body/0",
     "original": "If Citizen Battery is in play, +1 damage dealt by Citizen Assault.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若重击公民在场，强袭公民造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenAssault；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenAssault/gameTexts/1/body/0",
     "original": "This card deals each Hero target 1 melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对每个英雄目标造成1点近战伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenAssault；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenAssault/flavorQuotes/@CitizenAssault/text",
     "original": "Don't get too close to me. It's not that I don't{BR}like the company, it's that I can't be trusted.",
-    "translation": "",
-    "stage": 0,
+    "translation": "别离我太近。我也喜欢有人作伴，{BR}可我这人，信不得。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenAssault / CitizenAssault；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenAssault/flavorReference",
     "original": "Citizen Assault, Sunrise #3",
-    "translation": "",
-    "stage": 0,
+    "translation": "强袭公民，《升阳》第3期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenAssault；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenAutumn/title",
     "original": "Citizen Autumn",
-    "translation": "",
-    "stage": 0,
+    "translation": "萧秋公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenAutumn；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenAutumn/gameTexts/0/body/0",
     "original": "Citizens Winter, Spring, and Summer each destroy 1 Environment card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "凛冬公民、春生公民和炎夏公民各破坏1张环境牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenAutumn；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenAutumn/gameTexts/1/body/0",
     "original": "Destroy all Ongoing cards controlled by the Hero with the lowest HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏生命值最低的英雄控制的所有持续牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenAutumn；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenAutumn/flavorQuotes/@CitizenAutumn/text",
     "original": "As autumn leaves must dying fade,{BR}your futile acts shall be unmade.",
-    "translation": "",
-    "stage": 0,
+    "translation": "秋叶枯败，终将消亡，{BR}徒劳之举，亦将埋葬。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenAutumn / CitizenAutumn；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenAutumn/flavorReference",
     "original": "Citizen Autumn, Sunrise #8",
-    "translation": "",
-    "stage": 0,
+    "translation": "萧秋公民，《升阳》第8期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenAutumn；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenBattery/title",
     "original": "Citizen Battery",
-    "translation": "",
-    "stage": 0,
+    "translation": "重击公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenBattery；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenBattery/gameTexts/0/body/0",
     "original": "If Citizen Assault is in play, +2 damage dealt by Citizen Battery.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若强袭公民在场，重击公民造成的伤害+2。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenBattery；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenBattery/gameTexts/1/body/0",
     "original": "This card deals the Hero target with the highest HP 3 energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最高的英雄目标造成3点能量伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenBattery；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenBattery/flavorQuotes/@CitizenBattery/text",
     "original": "I fight for honor. There is honor in victory.{BR}I will do anything to attain victory.",
-    "translation": "",
-    "stage": 0,
+    "translation": "我为荣誉而战。胜利即是荣誉。{BR}为求胜利，我不择手段。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenBattery / CitizenBattery；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenBattery/flavorReference",
     "original": "Citizen Battery, Sunrise #3",
-    "translation": "",
-    "stage": 0,
+    "translation": "重击公民，《升阳》第3期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenBattery；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenBlood/title",
     "original": "Citizen Blood",
-    "translation": "",
-    "stage": 0,
+    "translation": "鲜血公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenBlood；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenBlood/gameTexts/0/body/0",
     "original": "This card deals the Hero target with the lowest HP 1 infernal damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最低的英雄目标造成1点邪能伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenBlood；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenBlood/gameTexts/0/body/1",
     "original": "If Citizen Sweat is in play, this card regains 4 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若汗水公民在场，此牌恢复4点生命值。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenBlood；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenBlood/gameTexts/0/body/2",
     "original": "If Citizen Tears is in play, 1 Hero discards 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若泪水公民在场，1位英雄弃置1张牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenBlood；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenBlood/flavorQuotes/@CitizenBlood/text",
     "original": "Would you care to cavort with a coven of{BR}corpses in the pale moonlight?",
-    "translation": "",
-    "stage": 0,
+    "translation": "可愿在惨白的月光下，{BR}与一群尸骸共舞？",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenBlood / CitizenBlood；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenBlood/flavorReference",
     "original": "Citizen Blood, Sunrise #2",
-    "translation": "",
-    "stage": 0,
+    "translation": "鲜血公民，《升阳》第2期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenBlood；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDare/title",
     "original": "Citizen Dare",
-    "translation": "",
-    "stage": 0,
+    "translation": "胆魄公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDare；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDare/gameTexts/0/body/0",
     "original": "+1 damage dealt to Hero targets.",
-    "translation": "",
-    "stage": 0,
+    "translation": "英雄目标受到的伤害+1。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDare；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDare/gameTexts/1/body/0",
     "original": "After Citizen Truth is played, this card deals each Hero target 1 irreducible psychic damage. Then bury this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "真理公民打出后，此牌对每个英雄目标造成1点不可削减的精神伤害。然后，埋藏此牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDare；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDare/flavorQuotes/@CitizenDare/text",
     "original": "I'm listening, but I'm <b>also</b>{BR}thinking about killing you.",
-    "translation": "",
-    "stage": 0,
+    "translation": "我在听，<b>也在</b>{BR}盘算怎么杀你。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDare / CitizenDare；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenDare/flavorReference",
     "original": "Citizen Dare, Sunrise #12",
-    "translation": "",
-    "stage": 0,
+    "translation": "胆魄公民，《升阳》第12期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDare；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenHammer/title",
     "original": "Citizen Hammer",
-    "translation": "",
-    "stage": 0,
+    "translation": "铁锤公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenHammer；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenHammer/gameTexts/0/body/0",
     "original": "If Citizen Anvil is in play, −1 damage dealt to this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若铁砧公民在场，此牌受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenHammer；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenHammer/gameTexts/1/body/0",
     "original": "This card deals each Hero target 3 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对每个英雄目标造成3点火焰伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenHammer；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenHammer/flavorQuotes/@CitizenHammer/text",
     "original": "Seems like everything's on fire... That was{BR}probably me. Well, you know what they say{BR}burn what you love!",
-    "translation": "",
-    "stage": 0,
+    "translation": "好像到处都烧起来了……多半{BR}是我干的。你知道那句话吧：{BR}爱什么，就烧什么！",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenHammer / CitizenHammer；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenHammer/flavorReference",
     "original": "Citizen Hammer, Freedom Five #209",
-    "translation": "",
-    "stage": 0,
+    "translation": "铁锤公民，《自由五杰》第209期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenHammer；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSpring/title",
     "original": "Citizen Spring",
-    "translation": "",
-    "stage": 0,
+    "translation": "春生公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSpring；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSpring/gameTexts/0/body/0",
     "original": "Citizens Summer, Autumn, and Winter each regain 2 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "炎夏公民、萧秋公民和凛冬公民各恢复2点生命值。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSpring；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSpring/gameTexts/1/body/0",
     "original": "Each Citizen card regains 1 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每张光民牌恢复1点生命值。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSpring；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSpring/flavorQuotes/@CitizenSpring/text",
     "original": "Laughter springs in wind and rain,{BR}brings healing light and healing rain.",
-    "translation": "",
-    "stage": 0,
+    "translation": "笑声随风伴雨飞扬，{BR}光与甘霖疗愈创伤。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSpring / CitizenSpring；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSpring/flavorReference",
     "original": "Citizen Spring, Sunrise #8",
-    "translation": "",
-    "stage": 0,
+    "translation": "春生公民，《升阳》第8期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSpring；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSummer/title",
     "original": "Citizen Summer",
-    "translation": "",
-    "stage": 0,
+    "translation": "炎夏公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSummer；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSummer/gameTexts/0/body/0",
     "original": "Citizens Autumn, Winter, and Spring each deal the Hero target with the highest HP 1 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "萧秋公民、凛冬公民和春生公民各对生命值最高的英雄目标造成1点火焰伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSummer；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSummer/gameTexts/1/body/0",
     "original": "This card deals the 2 Heroes with the most cards in play 3 fire damage each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对场上卡牌最多的2位英雄各造成3点火焰伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSummer；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSummer/flavorQuotes/@CitizenSummer/text",
     "original": "Summer withers hopes to fears,{BR}and dries to salt the crystal tears.",
-    "translation": "",
-    "stage": 0,
+    "translation": "炎夏焚梦，唯余惊惶，{BR}晶莹泪滴，晒作盐霜。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSummer / CitizenSummer；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSummer/flavorReference",
     "original": "Citizen Summer, Sunrise #8",
-    "translation": "",
-    "stage": 0,
+    "translation": "炎夏公民，《升阳》第8期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSummer；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSweat/title",
     "original": "Citizen Sweat",
-    "translation": "",
-    "stage": 0,
+    "translation": "汗水公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSweat；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/12/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSweat/gameTexts/0/body/0",
     "original": "Destroy 1 Hero Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1张英雄持续牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSweat；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSweat/gameTexts/0/body/1",
     "original": "If Citizen Blood is in play, destroy 1 Hero Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若鲜血公民在场，破坏1张英雄持续牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSweat；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSweat/gameTexts/0/body/2",
     "original": "Citizen Tears deals each Hero target 1 melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "泪水公民对每个英雄目标造成1点近战伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSweat；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSweat/flavorQuotes/@CitizenSweat/text",
     "original": "Would you rather live in fear,{BR}or <b>die</b> with confidence?",
-    "translation": "",
-    "stage": 0,
+    "translation": "你宁愿活在恐惧里，{BR}还是满怀自信地<b>死去</b>？",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSweat / CitizenSweat；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/12/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenSweat/flavorReference",
     "original": "Citizen Sweat, Sunrise #2",
-    "translation": "",
-    "stage": 0,
+    "translation": "汗水公民，《升阳》第2期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenSweat；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/12/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenTears/title",
     "original": "Citizen Tears",
-    "translation": "",
-    "stage": 0,
+    "translation": "泪水公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenTears；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/13/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenTears/gameTexts/0/body/0",
     "original": "Each Hero discards 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每位英雄弃置1张牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenTears；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenTears/gameTexts/0/body/1",
     "original": "Citizen Blood deals the Hero target with the highest HP 2 infernal damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "鲜血公民对生命值最高的英雄目标造成2点邪能伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenTears；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenTears/gameTexts/0/body/2",
     "original": "Citizen Sweat deals the Hero target with the lowest HP 2 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "汗水公民对生命值最低的英雄目标造成2点火焰伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenTears；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenTears/flavorQuotes/@CitizenTears/text",
     "original": "I <b>hunger</b> for the marrow{BR}that cracks within all men.",
-    "translation": "",
-    "stage": 0,
+    "translation": "我<b>渴求</b>众生骨中的髓，{BR}渴求骨裂时的滋味。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenTears / CitizenTears；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/13/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenTears/flavorReference",
     "original": "Citizen Tears, Sunrise #2",
-    "translation": "",
-    "stage": 0,
+    "translation": "泪水公民，《升阳》第2期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenTears；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/13/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenTruth/title",
     "original": "Citizen Truth",
-    "translation": "",
-    "stage": 0,
+    "translation": "真理公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenTruth；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/14/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenTruth/gameTexts/0/body/0",
     "original": "Citizen Truth's allies are immune to damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "真理公民的盟友免疫伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenTruth；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenTruth/gameTexts/1/body/0",
     "original": "−1 damage dealt to Citizen Truth.",
-    "translation": "",
-    "stage": 0,
+    "translation": "真理公民受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenTruth；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenTruth/gameTexts/2/body/0",
     "original": "After Citizen Dare is played, each Citizen card regains 2 HP. Then, bury this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "胆魄公民打出后，每张光民牌恢复2点生命值。然后，埋藏此牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenTruth；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenTruth/flavorQuotes/@CitizenTruth/text",
     "original": "Look away from the chosen few, you're fighting me,{BR}and you can't win. You fight against <b>truth</b>.",
-    "translation": "",
-    "stage": 0,
+    "translation": "别盯着那些天选之人，你的对手是我。{BR}而你赢不了。你对抗的，是<b>真理</b>。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenTruth / CitizenTruth；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/14/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenTruth/flavorReference",
     "original": "Citizen Truth, Freedom Five #599",
-    "translation": "",
-    "stage": 0,
+    "translation": "真理公民，《自由五杰》第599期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenTruth；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/14/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenWinter/title",
     "original": "Citizen Winter",
-    "translation": "",
-    "stage": 0,
+    "translation": "凛冬公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenWinter；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/15/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenWinter/gameTexts/0/body/0",
     "original": "Citizens Spring, Summer, and Autumn each destroy 1 Hero Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "春生公民、炎夏公民和萧秋公民各破坏1张英雄持续牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenWinter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenWinter/gameTexts/1/body/0",
     "original": "This card deals each Hero target 2 cold damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对每个英雄目标造成2点寒冷伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenWinter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenWinter/flavorQuotes/@CitizenWinter/text",
     "original": "Cold the touch of winter's breath,{BR}and cold the hand that touches death.",
-    "translation": "",
-    "stage": 0,
+    "translation": "凛冬吐息，透骨寒凉，{BR}触及死亡的手如霜。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenWinter / CitizenWinter；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/15/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@CitizenWinter/flavorReference",
     "original": "Citizen Winter, Sunrise #8",
-    "translation": "",
-    "stage": 0,
+    "translation": "凛冬公民，《升阳》第8期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenWinter；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/15/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@DevastatingAurora/title",
     "original": "Devastating Aurora",
-    "translation": "",
-    "stage": 0,
+    "translation": "毁灭极光",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：DevastatingAurora；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/16/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@DevastatingAurora/gameTexts/0/body/0",
     "original": "Destroy all Ongoing cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏所有持续牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：DevastatingAurora；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@DevastatingAurora/gameTexts/1/body/0",
     "original": "Destroy all Item cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏所有物品牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：DevastatingAurora；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@DevastatingAurora/gameTexts/2/body/0",
     "original": "Destroy all Environment cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏所有环境牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：DevastatingAurora；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@DevastatingAurora/gameTexts/3/body/0",
     "original": "{CitizenDawn} deals herself 5 cold damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{CitizenDawn}对自身造成5点寒冷伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：DevastatingAurora；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@DevastatingAurora/flavorQuotes/@CitizenDawn/text",
     "original": "My powers can be contained no longer!{BR}The world will be cleansed by my light!{BR}<b>Nothing</b> can stop me!",
-    "translation": "",
-    "stage": 0,
+    "translation": "我的力量再也无法遏制！{BR}我的光芒将净化整个世界！{BR}<b>没有什么</b>能阻止我！",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：DevastatingAurora / CitizenDawn；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/16/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@DevastatingAurora/flavorReference",
     "original": "Citizen Dawn, Freedom Five #600",
-    "translation": "",
-    "stage": 0,
+    "translation": "黎明公民，《自由五杰》第600期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：DevastatingAurora；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/16/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@HealingLight/title",
     "original": "Healing Light",
-    "translation": "",
-    "stage": 0,
+    "translation": "疗愈之光",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：HealingLight；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/17/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@HealingLight/gameTexts/0/body/0",
     "original": "{CitizenDawn} regains 10 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{CitizenDawn}恢复10点生命值。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：HealingLight；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/17/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@HealingLight/gameTexts/1/body/0",
     "original": "Restore all other Citizen cards to their maximum HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将所有其他光民牌的生命值恢复至各自的生命值上限。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：HealingLight；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/17/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@HealingLight/flavorQuotes/@CitizenDawn/text",
     "original": "Like the dawning sun, rise again{BR}and bring light to this darkened world!",
-    "translation": "",
-    "stage": 0,
+    "translation": "如旭日般再度升起，{BR}为这黑暗的世界带来光明！",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：HealingLight / CitizenDawn；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/17/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@HealingLight/flavorReference",
     "original": "Citizen Dawn, Freedom Five #209",
-    "translation": "",
-    "stage": 0,
+    "translation": "黎明公民，《自由五杰》第209期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：HealingLight；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/17/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@LuminousLeadership/title",
     "original": "Luminous Leadership",
-    "translation": "",
-    "stage": 0,
+    "translation": "光辉统御",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：LuminousLeadership；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/18/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@LuminousLeadership/gameTexts/0/body/0",
     "original": "+1 damage dealt by Citizen cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "光民牌造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：LuminousLeadership；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/18/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@LuminousLeadership/gameTexts/1/body/0",
     "original": "If {CitizenDawn} is the only Citizen card in play, discover 1 Citizen card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若{CitizenDawn}是场上唯一的光民牌，发现1张光民牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：LuminousLeadership；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/18/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@LuminousLeadership/flavorQuotes/@CitizenDawn/text",
     "original": "The sun shines brightly this day, citizens!{BR}We shall taste victory!",
-    "translation": "",
-    "stage": 0,
+    "translation": "光民们，今日阳光灿烂！{BR}我们必将品尝胜利的滋味！",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：LuminousLeadership / CitizenDawn；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/18/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@LuminousLeadership/flavorReference",
     "original": "Citizen Dawn, Freedom Five #202",
-    "translation": "",
-    "stage": 0,
+    "translation": "黎明公民，《自由五杰》第202期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：LuminousLeadership；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/18/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@ReturnWithTheDawn/title",
     "original": "Return with the Dawn",
-    "translation": "",
-    "stage": 0,
+    "translation": "黎明归来",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：ReturnWithTheDawn；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/19/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@ReturnWithTheDawn/gameTexts/0/body/0",
     "original": "Play the {H - 2} Citizen cards with the lowest HP from the Villain trash.",
-    "translation": "",
-    "stage": 0,
+    "translation": "打出反派弃牌堆中生命值最低的{H - 2}张光民牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：ReturnWithTheDawn；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/19/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@ReturnWithTheDawn/flavorQuotes/@Expatriette/text",
     "original": "Yeah, yeah, you took <b>one</b> out. Kudos. Trophy.{BR}Don't light the sparklers just yet. She doesn't{BR}tend to let them stay down for long.",
-    "translation": "",
-    "stage": 0,
+    "translation": "行，行，你们干掉了<b>一个</b>。真棒，给你颁个奖。{BR}先别急着放烟花。她通常{BR}不会让他们倒下太久。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：ReturnWithTheDawn / Expatriette；类型：flavor.quote。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/19/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/cards/@ReturnWithTheDawn/flavorReference",
     "original": "Expatriette, Freedom Five #446",
-    "translation": "",
-    "stage": 0,
+    "translation": "叛谍，《自由五杰》第446期",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：ReturnWithTheDawn；类型：flavor.reference。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/cards/19/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/variants/@CitizenDawnCharacter/title",
     "original": "Sunrise Citizen Dawn",
-    "translation": "",
-    "stage": 0,
+    "translation": "升阳·黎明公民",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：card.title。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/variants/@CitizenDawnCharacter/subTitle",
     "original": "Merged with the Solar Eclipse",
-    "translation": "",
-    "stage": 0,
+    "translation": "与日蚀融为一体",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：variants.subTitle。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/variants/0/subTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/variants/@CitizenDawnCharacter/setupGameTexts/0/body/0",
     "original": "Shuffle and set the {CitizenDawn} deck in the Villain Play area. Summon 1 Channel the Eclipse. Discover {H - 2} Citizen cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "洗混{CitizenDawn}牌库，将其置于反派场地区域。召唤1张引动日蚀。发现{H - 2}张光民牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/variants/0/setupGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/variants/@CitizenDawnCharacter/gameTexts/0/body/0",
     "original": "Villain Ongoing cards are indestructible.",
-    "translation": "",
-    "stage": 0,
+    "translation": "反派持续牌具有不灭。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/variants/@CitizenDawnCharacter/gameTexts/1/body/0",
     "original": "After a Citizen card is destroyed, bury 1 Villain Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "一张光民牌被破坏后，埋藏1张反派持续牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/variants/@CitizenDawnCharacter/gameTexts/2/body/0",
     "original": "If there are no Villain Ongoing cards in play, discover 1 Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若场上没有反派持续牌，发现1张持续牌。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/variants/@CitizenDawnCharacter/gameTexts/3/body/0",
     "original": "{CitizenDawn} deals the Hero target with the highest HP X radiant damage, where X is the number of Citizen cards in play. Then, discover 1 Citizen card. If no Citizen cards are played this way, shuffle the Villain trash into the Villain deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{CitizenDawn}对生命值最高的英雄目标造成X点光耀伤害，X为场上的光民牌数量。然后，发现1张光民牌。若未以此法打出任何光民牌，将反派弃牌堆洗入反派牌库。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CitizenDawnDeckList.json::turnTakers/@CitizenDawn/decks/@CitizenDawn/variants/@CitizenDawnCharacter/advancedGameTexts/0/body/0",
     "original": "After a Villain Ongoing card is played, {CitizenDawn} deals each non-Villain target 2 radiant damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "一张反派持续牌打出后，{CitizenDawn}对每个非反派目标造成2点光耀伤害。",
+    "stage": 1,
     "context": "卡组：CitizenDawn；对象：CitizenDawnCharacter；类型：rules.body。\n来源：CitizenDawnDeckList.json#/turnTakers/0/decks/0/variants/0/advancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

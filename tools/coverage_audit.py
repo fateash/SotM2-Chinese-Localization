@@ -178,6 +178,14 @@ def validate_contracts(contract, templates, root=ROOT):
         if not any(c['status'] == 'excluded' for c in contexts):
             raise ValueError('Family has no negative contract')
         for c in contexts:
+            case = c.get('case', {})
+            if case.get('matchLayer', 'integrated') not in ('integrated', 'dynamic'):
+                raise ValueError('Unknown contract match layer')
+            if case.get('matchLayer') == 'dynamic':
+                if case.get('catalogId') or not isinstance(case.get('integratedExpected'), str) or not case['integratedExpected']:
+                    raise ValueError('Dynamic layer contract requires integrated output assertion')
+            elif 'integratedExpected' in case:
+                raise ValueError('Integrated output assertion requires dynamic layer')
             if c.get('case', {}).get('catalogId') and c['case']['catalogId'] not in conditional_ids:
                 raise ValueError('Unknown conditional catalog in context')
             if c['status'] not in ('offline-covered', 'unobserved', 'deferred', 'excluded', 'live-accepted'):

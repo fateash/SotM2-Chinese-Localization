@@ -1,0 +1,524 @@
+[
+  {
+    "key": "runtime.template.hint.play",
+    "original": "Click or drag a card to play it.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.play。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.power.drag",
+    "original": "Click or drag a power to use it.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.power.drag。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.power.click",
+    "original": "Click a power to use it.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.power.click。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.finish.damage",
+    "original": "Damage {0} targets",
+    "translation": "",
+    "context": "归一化显示模板；绑定finish.damage。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.attack.single",
+    "original": "{0}Click a target to deal it <nobr>{1} {2}</nobr> damage.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.attack.single。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.attack.multiple",
+    "original": "{0}Click up to {1} targets to deal them <nobr>{2} {3}</nobr> damage.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.attack.multiple。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.effect",
+    "original": "{0}Click a button on {1} to choose an effect.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.effect。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.draw-discard",
+    "original": "{0}Click a location to either draw or discard {1}.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.draw-discard。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.draw",
+    "original": "Draw",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.draw。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.discard",
+    "original": "Discard",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.discard。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.skip.play",
+    "original": "Skip Play Phase",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.skip.play。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.skip.power",
+    "original": "Skip Power Phase",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.skip.power。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.description.draw",
+    "original": "{0} drew:",
+    "translation": "",
+    "context": "归一化显示模板；绑定description.draw。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.description.reveal",
+    "original": "{0} revealed:",
+    "translation": "",
+    "context": "归一化显示模板；绑定description.reveal。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.description.play",
+    "original": "{0} played:",
+    "translation": "",
+    "context": "归一化显示模板；绑定description.play。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.finish.discard",
+    "original": "Discard {0} cards",
+    "translation": "",
+    "context": "归一化显示模板；绑定finish.discard。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.finish.select",
+    "original": "Select {0} cards",
+    "translation": "",
+    "context": "归一化显示模板；绑定finish.select。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.play.click",
+    "original": "Click a card to play it.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.play.click。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.hero.play",
+    "original": "Click a hero to play a card.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.hero.play。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.hero.power",
+    "original": "Click a hero to use a power.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.hero.power。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.ability",
+    "original": "Click an ability to use it.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.ability。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.summon",
+    "original": "Click a card in the deck to summon it.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.summon。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.hero.topdeck",
+    "original": "Click a hero to have them put a card on top of their deck.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.hero.topdeck。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.trash.topdeck",
+    "original": "Click a card in the trash to put it on top of its deck.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.trash.topdeck。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.discard.single",
+    "original": "Click a card in hand to discard it.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.discard.single。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.deck.reveal",
+    "original": "Click a deck to reveal a card.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.deck.reveal。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.discard.multiple",
+    "original": "{0}Click {1} cards in hand to discard them.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.discard.multiple。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.reduce",
+    "original": "{0}Click up to {1} targets to reduce damage dealt to them.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.reduce。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.attack.unspecified",
+    "original": "{0}Click a target to deal it {1} damage.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.attack.unspecified。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.attack.order",
+    "original": "{0}Click targets to choose the order of dealing them <nobr>{1} {2}</nobr> damage.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.attack.order。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.reaction",
+    "original": "{0}<b>{1}</b> will deal <b>{2}</b> {3} {4} damage. Click a reaction to use it.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.reaction。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.reveal",
+    "original": "Reveal",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.reveal。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.phase.play.remaining",
+    "original": "PLAY PHASE ({0} left)",
+    "translation": "",
+    "context": "归一化显示模板；绑定phase.play.remaining。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.phase.draw.remaining",
+    "original": "DRAW PHASE ({0} left)",
+    "translation": "",
+    "context": "归一化显示模板；绑定phase.draw.remaining。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.attack.exact",
+    "original": "{0}Click {1} targets to deal them <nobr>{2} {3}</nobr> damage.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.attack.exact。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.attack.required",
+    "original": "{0}Click <b>{1}</b> and {2} more targets to deal them <nobr>{3} {4}</nobr> damage.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.attack.required。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.attack.order.unspecified",
+    "original": "{0}Click targets to choose the order of dealing them {1} damage.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.attack.order.unspecified。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.play.location",
+    "original": "{0}Click a location to to play {1} there.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.play.location。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 原文确有重复to，保留。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.hero.destroy",
+    "original": "Click a hero to destroy a card.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.hero.destroy。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.card.destroy",
+    "original": "Click a card in play to destroy it.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.card.destroy。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.hero.fewest",
+    "original": "Click the hero who is considered to have the fewest cards in hand.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.hero.fewest。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.play.here",
+    "original": "Play Here",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.play.here。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.fewest",
+    "original": "Has the Fewest",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.fewest。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.phase.activate",
+    "original": "Click a card{0} to activate its <nobr>{1} <b>{2}</b></nobr> effect.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.phase.activate。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.play.construct",
+    "original": "Play Construct",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.play.construct。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.discover.construct",
+    "original": "Discover Construct",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.discover.construct。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.lowest.hp",
+    "original": "Click a target to determine which has the lowest HP.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.lowest.hp。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.description.discover",
+    "original": "{0} discovered:",
+    "translation": "",
+    "context": "归一化显示模板；绑定description.discover。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.phase.power.remaining",
+    "original": "POWER PHASE ({0} left)",
+    "translation": "",
+    "context": "归一化显示模板；绑定phase.power.remaining。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.finish.destroy",
+    "original": "Destroy {0} cards",
+    "translation": "",
+    "context": "归一化显示模板；绑定finish.destroy。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.destroy.targets",
+    "original": "{0}Click up to {1} targets to destroy them.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.destroy.targets。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.destroy.cards",
+    "original": "{0}Click up to {1} cards in play to destroy them.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.destroy.cards。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.skip.incapacitated",
+    "original": "Skip Incapacitated Phase",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.skip.incapacitated。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.take.play",
+    "original": "Take Play Phase",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.take.play。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.hero.take.play",
+    "original": "Click a hero to take their Play phase now.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.hero.take.play。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.description.summon",
+    "original": "{0} summoned:",
+    "translation": "",
+    "context": "归一化显示模板；绑定description.summon。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.phase.setup",
+    "original": "SETUP",
+    "translation": "",
+    "context": "归一化显示模板；绑定phase.setup。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.result.hp",
+    "original": "{0} has been reduced to <nobr>{1} HP.</nobr>",
+    "translation": "",
+    "context": "归一化显示模板；绑定result.hp。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.result.victory",
+    "original": "You have defeated {0} and saved the day!",
+    "translation": "",
+    "context": "归一化显示模板；绑定result.victory。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.collect.deck",
+    "original": "Click a card in the deck to collect it.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.collect.deck。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.summon.deck.trash",
+    "original": "Click a card in the deck or in the trash to summon it.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.summon.deck.trash。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.prevent.dealing",
+    "original": "Click a target to prevent it from dealing damage.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.prevent.dealing。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.put.under",
+    "original": "{0}Click a card in play to put {1} under it.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.put.under。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.destroy.play.under",
+    "original": "{0}Click a card in play or under {1} to destroy it.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.destroy.play.under。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.heading.cards.under",
+    "original": "Cards under {0}",
+    "translation": "",
+    "context": "归一化显示模板；绑定heading.cards.under。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.heading.cards.next",
+    "original": "Cards next to {0}",
+    "translation": "",
+    "context": "归一化显示模板；绑定heading.cards.next。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.description.collect",
+    "original": "{0} collected:",
+    "translation": "",
+    "context": "归一化显示模板；绑定description.collect。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.replace",
+    "original": "Replace",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.replace。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.discover.item",
+    "original": "Discover Item",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.discover.item。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.discover.golem",
+    "original": "Discover Golem",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.discover.golem。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.replace-discard",
+    "original": "{0}Click a location to either replace or discard {1}.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.replace-discard。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.draw.owner",
+    "original": "{0}Click {1}'s deck to draw {2} cards.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.draw.owner。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.hero.draw",
+    "original": "Click a hero to draw a card.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.hero.draw。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.hero.discard",
+    "original": "Click a hero to discard a card.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.hero.discard。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.hand.under",
+    "original": "Click a card in hand to put it under a card.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.hand.under。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.discard.upto",
+    "original": "{0}Click up to {1} cards in hand to discard them.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.discard.upto。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.destroy.exact",
+    "original": "{0}Click {1} cards in play to destroy them.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.destroy.exact。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.phase.target",
+    "original": "Click a target to activate its <nobr>{0} <b>{1}</b></nobr> effect.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.phase.target。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.most",
+    "original": "Has the Most",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.most。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.button.play.golem",
+    "original": "Play Golem",
+    "translation": "",
+    "context": "归一化显示模板；绑定button.play.golem。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.hero.most.play",
+    "original": "Click the hero who is considered to have the most cards in play.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.hero.most.play。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.trash.under",
+    "original": "Click a card in the trash to put it under a card.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.trash.under。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.hero.salvage",
+    "original": "Click a hero to salvage a card.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.hero.salvage。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.trash.salvage",
+    "original": "Click a card in the trash to salvage it.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.trash.salvage。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.trash.owner.discard",
+    "original": "{0}Click {1}'s trash to discard {2}.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.trash.owner.discard。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.destroy.play.under.exact",
+    "original": "{0}Click {1} cards in play or under {2} to destroy them.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.destroy.play.under.exact。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  },
+  {
+    "key": "runtime.template.hint.reaction.first",
+    "original": "{0}<b>{1}</b> will deal <b>{2}</b> {3} {4} damage. Click a card to activate first.",
+    "translation": "",
+    "context": "归一化显示模板；绑定hint.reaction.first。按实际句式归一化；{0}若为来源前缀可含粗体标签并以空格结尾；单复数由调用端处理。不是游戏新增原始键。 保留所有占位符及标签；本包不改变运行配置。"
+  }
+]

@@ -2,785 +2,785 @@
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/title",
     "original": "Grand Warlord Voss",
-    "translation": "",
-    "stage": 0,
+    "translation": "大军阀沃斯",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVoss；类型：deck.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GrandWarlordVossCharacter/title",
     "original": "Grand Warlord Voss",
-    "translation": "",
-    "stage": 0,
+    "translation": "大军阀沃斯",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GrandWarlordVossCharacter/subTitle",
     "original": "Conquering Alien Warlord",
-    "translation": "",
-    "stage": 0,
+    "translation": "外星征服军阀",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：cards.subTitle。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/0/subTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GrandWarlordVossCharacter/setupGameTexts/0/body/0",
     "original": "Discover {H} Gene-Bound cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发现{H}张缚兵牌。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/0/setupGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GrandWarlordVossCharacter/gameTexts/0/body/0",
     "original": "−2 damage to {GrandWarlordVoss} for each Gene-Bound card in play.",
-    "translation": "",
-    "stage": 0,
+    "translation": "场上每有一张缚兵牌，{GrandWarlordVoss}受到的伤害便−2。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GrandWarlordVossCharacter/gameTexts/1/body/0",
     "original": "If there are no Gene-Bound cards in play: {Flip}",
-    "translation": "",
-    "stage": 0,
+    "translation": "若场上没有缚兵牌：{Flip}",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GrandWarlordVossCharacter/gameTexts/2/body/0",
     "original": "If there are 10 or more Villain targets in play, the planet has been overrun by the Thorathian Army. {GrandWarlordVoss} has conquered the Earth. <b>Game Over</b>.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若场上有10个或更多反派目标，索拉宪大军便已占领这颗星球。{GrandWarlordVoss}已征服地球。<b>游戏结束</b>。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GrandWarlordVossCharacter/advancedGameTexts/0/body/0",
     "original": "+1 damage dealt by Villain targets.",
-    "translation": "",
-    "stage": 0,
+    "translation": "反派目标造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/0/advancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GrandWarlordVossCharacter/flippedSubTitle",
     "original": "Super-Thorathian Warrior",
-    "translation": "",
-    "stage": 0,
+    "translation": "超级索拉宪战士",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：cards.flippedSubTitle。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/0/flippedSubTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GrandWarlordVossCharacter/flippedGameTexts/0/body/0",
     "original": "When this card flips to this side, discover 1 Device card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌翻至此面时，发现1张装置牌。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GrandWarlordVossCharacter/flippedGameTexts/1/body/0",
     "original": "If there are 2 or more Gene-Bound cards in play: {Flip}",
-    "translation": "",
-    "stage": 0,
+    "translation": "若场上有2张或更多缚兵牌：{Flip}",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GrandWarlordVossCharacter/flippedGameTexts/2/body/0",
     "original": "Reveal the top card of the villain deck. If it is a Gene-Bound card, play it. Otherwise, return it to the top of the deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "展示反派牌库顶的一张牌。若该牌是缚兵牌，将其打出。否则，将其放回牌库顶。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GrandWarlordVossCharacter/flippedGameTexts/3/body/0",
     "original": "{GrandWarlordVoss} deals the Hero target with the highest HP {H - 1} energy damage. {GrandWarlordVoss} deals the Hero target with the lowest HP {H - 2} fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{GrandWarlordVoss}对生命值最高的英雄目标造成{H - 1}点能量伤害。{GrandWarlordVoss}对生命值最低的英雄目标造成{H - 2}点火焰伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GrandWarlordVossCharacter/flippedAdvancedGameTexts/0/body/0",
     "original": "Destroy {H - 2} Hero Ongoing and/or Item cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏合计{H - 2}张英雄持续牌和／或物品牌。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/0/flippedAdvancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@AdvanceSoldiers/title",
     "original": "Advance Soldiers",
-    "translation": "",
-    "stage": 0,
+    "translation": "先遣士兵",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：AdvanceSoldiers；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@AdvanceSoldiers/gameTexts/0/body/0",
     "original": "This card is immune to projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌免疫投射伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：AdvanceSoldiers；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@AdvanceSoldiers/gameTexts/1/body/0",
     "original": "This card deals the Hero target with the highest HP 2 projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最高的英雄目标造成2点投射伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：AdvanceSoldiers；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@AdvanceSoldiers/flavorQuotes/@GeneDoctorKronz/text",
     "original": "The Qubrin had almost unparalleled hand-{BR}eye coordination. Made for exceptional{BR}marksmen, after the culling.",
-    "translation": "",
-    "stage": 0,
+    "translation": "库布林人的手眼协调能力{BR}几乎无与伦比。经过淘汰筛选后，{BR}成为了出色的射手。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：AdvanceSoldiers / GeneDoctorKronz；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@AdvanceSoldiers/flavorReference",
     "original": "Gene-Doctor Kronz, Thorathian Gene-Binding Journal One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "基因博士克朗兹，《索拉宪基因缚合日志》独立特刊",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：AdvanceSoldiers；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@Bionauts/title",
     "original": "Bionauts",
-    "translation": "",
-    "stage": 0,
+    "translation": "生化战兵",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：Bionauts；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@Bionauts/gameTexts/0/body/0",
     "original": "This card is immune to toxic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌免疫毒素伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：Bionauts；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@Bionauts/gameTexts/1/body/0",
     "original": "This card deals the Hero target with the lowest HP 2 toxic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最低的英雄目标造成2点毒素伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：Bionauts；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@Bionauts/flavorQuotes/@GeneDoctorKronz/text",
     "original": "The Mubbloxians' naturally toxic blood provided a{BR}delightful opportunity for a new class of soldier.",
-    "translation": "",
-    "stage": 0,
+    "translation": "穆布洛克斯人天生带毒的血液，{BR}为开发新兵种提供了令人欣喜的契机。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：Bionauts / GeneDoctorKronz；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@Bionauts/flavorReference",
     "original": "Gene-Doctor Kronz, Thorathian Gene-Binding Journal One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "基因博士克朗兹，《索拉宪基因缚合日志》独立特刊",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：Bionauts；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@FieldMarshalTamar/title",
     "original": "Field Marshal Tamar",
-    "translation": "",
-    "stage": 0,
+    "translation": "塔玛元帅",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：FieldMarshalTamar；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@FieldMarshalTamar/gameTexts/0/body/0",
     "original": "This card deals the Hero target with the highest HP {H - 2} melee damage. Each Gene-Bound card deals that Hero target 1 melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最高的英雄目标造成{H - 2}点近战伤害。每张缚兵牌对该英雄目标造成1点近战伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：FieldMarshalTamar；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@FieldMarshalTamar/flavorQuotes/@FieldMarshallTamar/text",
     "original": "To your knees, pathetic denizens of this mudhole of{BR}a planet! You'll be gene-bound and finally made{BR}part of something worthwhile!",
-    "translation": "",
-    "stage": 0,
+    "translation": "跪下，这颗泥潭星球上的可怜虫！{BR}你们将接受基因缚合，{BR}终于成为某项伟业的一部分！",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：FieldMarshalTamar / FieldMarshallTamar；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@FieldMarshalTamar/flavorReference",
     "original": "Field Marshall Tamar, Freedom Five #321",
-    "translation": "",
-    "stage": 0,
+    "translation": "塔玛元帅，《自由五杰》第321期",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：FieldMarshalTamar；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@Firesworn/title",
     "original": "Firesworn",
-    "translation": "",
-    "stage": 0,
+    "translation": "烈焰誓兵",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：Firesworn；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@Firesworn/gameTexts/0/body/0",
     "original": "This card is immune to fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌免疫火焰伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：Firesworn；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@Firesworn/gameTexts/1/body/0",
     "original": "This card deals the Hero target with the highest HP 2 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最高的英雄目标造成2点火焰伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：Firesworn；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@Firesworn/flavorQuotes/@GeneDoctorKronz/text",
     "original": "Trodcullons were a race of barely sentient{BR}volcano dwellers. We gave them purpose{BR}as a combustion squad.",
-    "translation": "",
-    "stage": 0,
+    "translation": "特罗德卡隆人栖居于火山，{BR}几乎没有心智。我们赋予其使命，{BR}将其编成了燃烧部队。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：Firesworn / GeneDoctorKronz；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@Firesworn/flavorReference",
     "original": "Gene-Doctor Kronz, Thorathian Gene-Binding Journal One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "基因博士克朗兹，《索拉宪基因缚合日志》独立特刊",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：Firesworn；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@FirstLieutenantVyktor/title",
     "original": "First Lieutenant Vyktor",
-    "translation": "",
-    "stage": 0,
+    "translation": "维克托中尉",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：FirstLieutenantVyktor；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@FirstLieutenantVyktor/gameTexts/0/body/0",
     "original": "This card deals the Hero character with the most cards in play {H} energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对场上卡牌最多的英雄角色造成{H}点能量伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：FirstLieutenantVyktor；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@FirstLieutenantVyktor/gameTexts/0/body/1",
     "original": "Each Device card deals each Hero target 1 energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每张装置牌对每个英雄目标造成1点能量伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：FirstLieutenantVyktor；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@FirstLieutenantVyktor/flavorQuotes/@FirstLieutenantVyktor/text",
     "original": "You could surrender peacefully,{BR}bit if I'm being honest, I <b>prefer</b> you resist.{BR}We could use a good stretch.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你们可以乖乖投降，{BR}不过说实话，我<b>更希望</b>你们反抗。{BR}我们也该活动活动筋骨了。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：FirstLieutenantVyktor / FirstLieutenantVyktor；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@FirstLieutenantVyktor/flavorReference",
     "original": "First Lieutenant Vyktor, Freedom Five #322",
-    "translation": "",
-    "stage": 0,
+    "translation": "维克托中尉，《自由五杰》第322期",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：FirstLieutenantVyktor；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ForcedDeployment/title",
     "original": "Forced Deployment",
-    "translation": "",
-    "stage": 0,
+    "translation": "强制部署",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ForcedDeployment；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ForcedDeployment/gameTexts/0/body/0",
     "original": "When this card is destroyed, shuffle the Villain trash into the Villain deck, then discover {H} Gene-Bound cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌被破坏时，将反派弃牌堆洗入反派牌库，然后发现{H}张缚兵牌。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ForcedDeployment；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ForcedDeployment/gameTexts/1/body/0",
     "original": "Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ForcedDeployment；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ForcedDeployment/flavorQuotes/@FieldMarshallTamar/text",
     "original": "You live and die by the whims of the Thorathian{BR}military! Bring the same devastation to these people{BR}that was visited upon your own planet!",
-    "translation": "",
-    "stage": 0,
+    "translation": "你们的生死全凭索拉宪军方的意志！{BR}把你们母星所遭受的毁灭，{BR}原样带给这些人！",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ForcedDeployment / FieldMarshallTamar；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ForcedDeployment/flavorReference",
     "original": "Field Marshall Tamar, Freedom Five #441",
-    "translation": "",
-    "stage": 0,
+    "translation": "塔玛元帅，《自由五杰》第441期",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ForcedDeployment；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@Frosthounds/title",
     "original": "Frosthounds",
-    "translation": "",
-    "stage": 0,
+    "translation": "霜冻猎犬",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：Frosthounds；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@Frosthounds/gameTexts/0/body/0",
     "original": "This card is immune to cold damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌免疫寒冷伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：Frosthounds；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@Frosthounds/gameTexts/1/body/0",
     "original": "This card deals each Hero target 2 cold damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对每个英雄目标造成2点寒冷伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：Frosthounds；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@Frosthounds/flavorQuotes/@GeneDoctorKronz/text",
     "original": "The gene-binding of Gadrion Delta's Feethsmar{BR}predates my time here. The Grand Warlord{BR}has an unsubtle hand.",
-    "translation": "",
-    "stage": 0,
+    "translation": "加德里昂·德尔塔的菲斯玛尔族在我到任之前，{BR}便已接受基因缚合。大军阀的手法{BR}实在算不上精细。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：Frosthounds / GeneDoctorKronz；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@Frosthounds/flavorReference",
     "original": "Gene-Doctor Kronz, Thorathian Gene-Binding Journal One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "基因博士克朗兹，《索拉宪基因缚合日志》独立特刊",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：Frosthounds；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GeneDoctorKronz/title",
     "original": "Gene-Doctor Kronz",
-    "translation": "",
-    "stage": 0,
+    "translation": "基因博士克朗兹",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GeneDoctorKronz；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GeneDoctorKronz/gameTexts/0/body/0",
     "original": "Destroy {H - 2} Hero Ongoing and/or Item cards. Discover 1 Gene-Bound card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏合计{H - 2}张英雄持续牌和／或物品牌。发现1张缚兵牌。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GeneDoctorKronz；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GeneDoctorKronz/flavorQuotes/@GeneDoctorKronz/text",
     "original": "Twisted? If twisted is what you seek,{BR}step into my gene-clave!",
-    "translation": "",
-    "stage": 0,
+    "translation": "扭曲？若你想见识什么叫扭曲，{BR}就进我的基因缚合舱吧！",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GeneDoctorKronz / GeneDoctorKronz；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GeneDoctorKronz/flavorReference",
     "original": "Gene-Doctor Kronz, Cosmic Tales Vol. 2 #173",
-    "translation": "",
-    "stage": 0,
+    "translation": "基因博士克朗兹，《宇宙奇谭》第2卷第173期",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GeneDoctorKronz；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GruntGuards/title",
     "original": "Grunt Guards",
-    "translation": "",
-    "stage": 0,
+    "translation": "前线警卫",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GruntGuards；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GruntGuards/gameTexts/0/body/0",
     "original": "This card is immune to melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌免疫近战伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GruntGuards；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GruntGuards/gameTexts/1/body/0",
     "original": "−1 damage dealt to Villain targets.",
-    "translation": "",
-    "stage": 0,
+    "translation": "反派目标受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GruntGuards；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GruntGuards/flavorQuotes/@GeneDoctorKronz/text",
     "original": "The self-repairing flesh of the ruoenf people{BR}was easily catalyzed into nigh-immortal{BR}front line troopers.",
-    "translation": "",
-    "stage": 0,
+    "translation": "鲁恩夫族的血肉能够自我修复。{BR}稍加催化，便能造就{BR}几近不死的前线士兵。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GruntGuards / GeneDoctorKronz；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@GruntGuards/flavorReference",
     "original": "Gene-Doctor Kronz, Thorathian Gene-Binding Journal One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "基因博士克朗兹，《索拉宪基因缚合日志》独立特刊",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GruntGuards；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@IonLancers/title",
     "original": "Ion-Lancers",
-    "translation": "",
-    "stage": 0,
+    "translation": "离子矛兵",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：IonLancers；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@IonLancers/gameTexts/0/body/0",
     "original": "This card is immune to energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌免疫能量伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：IonLancers；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@IonLancers/gameTexts/1/body/0",
     "original": "This card deals the Hero target with the lowest HP 2 energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最低的英雄目标造成2点能量伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：IonLancers；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@IonLancers/flavorQuotes/@GeneDoctorKronz/text",
     "original": "The agricultural henathians were cowrdly and{BR}weak. Their genetic material is now used for{BR}our deadliest reapers.",
-    "translation": "",
-    "stage": 0,
+    "translation": "从事农耕的赫纳锡安人怯懦而孱弱。{BR}如今，其遗传物质已用于制造{BR}我们最致命的收割者。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：IonLancers / GeneDoctorKronz；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@IonLancers/flavorReference",
     "original": "Gene-Doctor Kronz, Thorathian Gene-Binding Journal One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "基因博士克朗兹，《索拉宪基因缚合日志》独立特刊",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：IonLancers；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ProtectiveDetail/title",
     "original": "Protective Detail",
-    "translation": "",
-    "stage": 0,
+    "translation": "护卫分队",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ProtectiveDetail；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ProtectiveDetail/gameTexts/0/body/0",
     "original": "Shuffle the Villain trash into the Villain deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将反派弃牌堆洗入反派牌库。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ProtectiveDetail；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ProtectiveDetail/gameTexts/1/body/0",
     "original": "Discover 1 Thorathian card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发现1张索拉宪牌。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ProtectiveDetail；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ProtectiveDetail/gameTexts/2/body/0",
     "original": "Discover {H - 1} Gene-Bound cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发现{H - 1}张缚兵牌。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ProtectiveDetail；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ProtectiveDetail/flavorQuotes/@FirstLieutenantVyktor/text",
     "original": "You two, on me. We mustn't keep{BR}the Grand Warlord waiting.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你们两个，跟我来。{BR}别让大军阀久等。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ProtectiveDetail / FirstLieutenantVyktor；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ProtectiveDetail/flavorReference",
     "original": "First Lieutenant Vyktor, Freedom Five #441",
-    "translation": "",
-    "stage": 0,
+    "translation": "维克托中尉，《自由五杰》第441期",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ProtectiveDetail；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@PsiWeavers/title",
     "original": "Psi-Weavers",
-    "translation": "",
-    "stage": 0,
+    "translation": "心灵织者",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：PsiWeavers；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/12/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@PsiWeavers/gameTexts/0/body/0",
     "original": "This card is immune to psychic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌免疫精神伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：PsiWeavers；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@PsiWeavers/gameTexts/1/body/0",
     "original": "This card deals each Hero target 2 psychic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对每个英雄目标造成2点精神伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：PsiWeavers；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@PsiWeavers/flavorQuotes/@GeneDoctorKronz/text",
     "original": "After the obliteration of Piune Prime's{BR}intellectual meritocracy, we harvested cerebral{BR}matter for our psychic exterminators.",
-    "translation": "",
-    "stage": 0,
+    "translation": "皮尤恩主星由智识精英统治的政权被消灭后，{BR}我们采集了脑组织，{BR}用于制造精神歼灭兵。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：PsiWeavers / GeneDoctorKronz；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/12/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@PsiWeavers/flavorReference",
     "original": "Gene-Doctor Kronz, Thorathian Gene-Binding Journal One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "基因博士克朗兹，《索拉宪基因缚合日志》独立特刊",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：PsiWeavers；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/12/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@QuarkDriveTranslocator/title",
     "original": "Quark-Drive Translocator",
-    "translation": "",
-    "stage": 0,
+    "translation": "夸克驱动传送器",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：QuarkDriveTranslocator；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/13/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@QuarkDriveTranslocator/shortTitle",
     "original": "Q-D Translocator",
-    "translation": "",
-    "stage": 0,
+    "translation": "夸克传送器",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：QuarkDriveTranslocator；类型：cards.shortTitle。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/13/shortTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@QuarkDriveTranslocator/gameTexts/0/body/0",
     "original": "Play the top card of the Villain deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "打出反派牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：QuarkDriveTranslocator；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@QuarkDriveTranslocator/gameTexts/1/body/0",
     "original": "This card deals the Hero target with the lowest HP 1 energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最低的英雄目标造成1点能量伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：QuarkDriveTranslocator；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@QuarkDriveTranslocator/flavorQuotes/@GrandWarlordVoss/text",
     "original": "They will struggle for their little planet,{BR}thinking that if they can hold back our forces,{BR}they'll win. But my forces are infinite.",
-    "translation": "",
-    "stage": 0,
+    "translation": "他们会为自己那颗小小的星球挣扎，{BR}以为只要挡住我军便能获胜。{BR}但我的大军无穷无尽。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：QuarkDriveTranslocator / GrandWarlordVoss；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/13/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@QuarkDriveTranslocator/flavorReference",
     "original": "Grand Warlord Voss, Cosmic Tales Vol. 2 #203",
-    "translation": "",
-    "stage": 0,
+    "translation": "大军阀沃斯，《宇宙奇谭》第2卷第203期",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：QuarkDriveTranslocator；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/13/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ResoBanshees/title",
     "original": "Reso-Banshees",
-    "translation": "",
-    "stage": 0,
+    "translation": "共振女妖",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ResoBanshees；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/14/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ResoBanshees/gameTexts/0/body/0",
     "original": "This card is immune to sonic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌免疫音波伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ResoBanshees；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ResoBanshees/gameTexts/1/body/0",
     "original": "This card deals the Hero character with the most Ongoing cards in play 3 sonic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对场上持续牌最多的英雄角色造成3点音波伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ResoBanshees；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ResoBanshees/flavorQuotes/@GeneDoctorKronz/text",
     "original": "The harsh atmosphere of Vdronix resulted{BR}in powerful lungs and vocal chords.{BR}Easily weaponized.",
-    "translation": "",
-    "stage": 0,
+    "translation": "弗德罗尼克斯恶劣的大气环境，{BR}造就了强健的肺与声带。{BR}很容易改造为武器。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ResoBanshees / GeneDoctorKronz；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/14/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ResoBanshees/flavorReference",
     "original": "Gene-Doctor Kronz, Thorathian Gene-Binding Journal One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "基因博士克朗兹，《索拉宪基因缚合日志》独立特刊",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ResoBanshees；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/14/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@RuthlessApproach/title",
     "original": "Ruthless Approach",
-    "translation": "",
-    "stage": 0,
+    "translation": "无情进击",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：RuthlessApproach；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/15/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@RuthlessApproach/gameTexts/0/body/0",
     "original": "{GrandWarlordVoss} deals the Hero target with the highest HP {H} melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{GrandWarlordVoss}对生命值最高的英雄目标造成{H}点近战伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：RuthlessApproach；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@RuthlessApproach/gameTexts/1/body/0",
     "original": "{GrandWarlordVoss} deals each Hero target 1 fire damage and 1 energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{GrandWarlordVoss}对每个英雄目标造成1点火焰伤害和1点能量伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：RuthlessApproach；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@RuthlessApproach/flavorQuotes/@GrandWarlordVoss/text",
     "original": "I never mind an opportunity to get{BR}<b>personally</b> involved.",
-    "translation": "",
-    "stage": 0,
+    "translation": "有机会<b>亲自</b>出手，{BR}我从不介意。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：RuthlessApproach / GrandWarlordVoss；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/15/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@RuthlessApproach/flavorReference",
     "original": "Grand Warlord Voss, America's Finest Legacy #182",
-    "translation": "",
-    "stage": 0,
+    "translation": "大军阀沃斯，《美国至杰：传承侠》第182期",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：RuthlessApproach；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/15/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ShockInfantry/title",
     "original": "Shock Infantry",
-    "translation": "",
-    "stage": 0,
+    "translation": "电击步兵",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ShockInfantry；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/16/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ShockInfantry/gameTexts/0/body/0",
     "original": "This card is immune to lightning damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌免疫闪电伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ShockInfantry；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ShockInfantry/gameTexts/1/body/0",
     "original": "This card deals the Hero target with the highest HP 3 lightning damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最高的英雄目标造成3点闪电伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ShockInfantry；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ShockInfantry/flavorQuotes/@Tempest/text",
     "original": "I will see Voss's <b>HIDEOUS</b> work undone{BR}or perish in the process!",
-    "translation": "",
-    "stage": 0,
+    "translation": "我定要终结沃斯这<b>骇人</b>的暴行，{BR}纵然为此而死！",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ShockInfantry / Tempest；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/16/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ShockInfantry/flavorReference",
     "original": "Tempest, Freedom Five #324",
-    "translation": "",
-    "stage": 0,
+    "translation": "风暴，《自由五杰》第324期",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ShockInfantry；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/16/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@TCFStalwart/title",
     "original": "TCF “Stalwart”",
-    "translation": "",
-    "stage": 0,
+    "translation": "TCF“坚毅”号",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：TCFStalwart；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/17/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@TCFStalwart/gameTexts/0/body/0",
     "original": "This card deals the 2 non-Villain targets with the highest HP 5 energy damage each. Then, discover 1 Gene-Bound or Thorathian card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最高的2个非反派目标各造成5点能量伤害。然后，发现1张缚兵牌或索拉宪牌。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：TCFStalwart；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/17/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@TCFStalwart/flavorQuotes/@Legacy/text",
     "original": "Attacks from that massive ship are tearing the{BR}city apart! If I don't get up there, we won't have{BR}much of a planet left to defend.",
-    "translation": "",
-    "stage": 0,
+    "translation": "那艘巨舰的炮火正把城市撕成碎片！{BR}我若再不上去，恐怕连这颗星球{BR}都没剩多少可守护的了。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：TCFStalwart / Legacy；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/17/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@TCFStalwart/flavorReference",
     "original": "Legacy, America's Finest Legacy #180",
-    "translation": "",
-    "stage": 0,
+    "translation": "传承侠，《美国至杰：传承侠》第180期",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：TCFStalwart；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/17/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ThorathianConqueringFleet/title",
     "original": "Thorathian Conquering Fleet",
-    "translation": "",
-    "stage": 0,
+    "translation": "索拉宪征服舰队",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ThorathianConqueringFleet；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/18/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ThorathianConqueringFleet/shortTitle",
     "original": "Conquering Fleet",
-    "translation": "",
-    "stage": 0,
+    "translation": "征服舰队",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ThorathianConqueringFleet；类型：cards.shortTitle。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/18/shortTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ThorathianConqueringFleet/gameTexts/0/body/0",
     "original": "This card deals each Hero target 2 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对每个英雄目标造成2点火焰伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ThorathianConqueringFleet；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/18/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ThorathianConqueringFleet/gameTexts/0/body/1",
     "original": "Then, destroy {H - 2} Hero Ongoing and/or Item cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "然后，破坏合计{H - 2}张英雄持续牌和／或物品牌。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ThorathianConqueringFleet；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/18/gameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ThorathianConqueringFleet/flavorQuotes/@CaptainCosmic/text",
     "original": "The Thorathian fleet, here at my home planet?{BR}I had hoped this day would never come. This may{BR}well be the end of humanity as we know it.",
-    "translation": "",
-    "stage": 0,
+    "translation": "索拉宪舰队，竟然来到我的母星？{BR}我曾盼望这一天永远不会到来。这恐怕{BR}就是我们所知的人类文明的终结。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ThorathianConqueringFleet / CaptainCosmic；类型：flavor.quote。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/18/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/cards/@ThorathianConqueringFleet/flavorReference",
     "original": "Captain Cosmic, Cosmic Tales Vol. 2 #202",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙队长，《宇宙奇谭》第2卷第202期",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：ThorathianConqueringFleet；类型：flavor.reference。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/cards/18/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/variants/@GrandWarlordVossCharacter/title",
     "original": "Censor",
-    "translation": "",
-    "stage": 0,
+    "translation": "检肃官",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：card.title。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/variants/@GrandWarlordVossCharacter/subTitle",
     "original": "Pin-Point Accurate Combatant",
-    "translation": "",
-    "stage": 0,
+    "translation": "精准作战专家",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：variants.subTitle。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/variants/0/subTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/variants/@GrandWarlordVossCharacter/setupGameTexts/0/body/0",
     "original": "Shuffle and set the {GrandWarlordVoss} deck in the Villain play area. Discover 1 Thorathian card and 1 Device card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "洗混{GrandWarlordVoss}牌库，将其置于反派场地区域。发现1张索拉宪牌和1张装置牌。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/variants/0/setupGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/variants/@GrandWarlordVossCharacter/gameTexts/0/body/0",
     "original": "−1 damage dealt to Thorathian cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "索拉宪牌受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/variants/@GrandWarlordVossCharacter/gameTexts/1/body/0",
     "original": "Whenever a Gene-Bound card would be played, discard it instead and {GrandWarlordVoss} deals the {H - 2} Hero targets with the lowest HP 2 melee damage each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每当一张缚兵牌将要被打出时，改为将其弃置，且{GrandWarlordVoss}对生命值最低的{H - 2}个英雄目标各造成2点近战伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/variants/@GrandWarlordVossCharacter/gameTexts/2/body/0",
     "original": "After {GrandWarlordVoss} is dealt damage, reveal the top card of the Villain deck. If it is a Thorathian card, play it. Otherwise, discard it and {GrandWarlordVoss} regains 1 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{GrandWarlordVoss}受到伤害后，展示反派牌库顶的一张牌。若该牌是索拉宪牌，将其打出。否则，将其弃置，且{GrandWarlordVoss}恢复1点生命值。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/variants/@GrandWarlordVossCharacter/gameTexts/3/body/0",
     "original": "{GrandWarlordVoss} deals the {H - 2} Hero targets with the highest HP 2 toxic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{GrandWarlordVoss}对生命值最高的{H - 2}个英雄目标各造成2点毒素伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "GrandWarlordVossDeckList.json::turnTakers/@GrandWarlordVoss/decks/@GrandWarlordVoss/variants/@GrandWarlordVossCharacter/advancedGameTexts/0/body/0",
     "original": "If there are any Thorathian cards in play other than {GrandWarlordVoss}, {GrandWarlordVoss} is immune to damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若场上有除{GrandWarlordVoss}以外的索拉宪牌，{GrandWarlordVoss}免疫伤害。",
+    "stage": 1,
     "context": "卡组：GrandWarlordVoss；对象：GrandWarlordVossCharacter；类型：rules.body。\n来源：GrandWarlordVossDeckList.json#/turnTakers/0/decks/0/variants/0/advancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

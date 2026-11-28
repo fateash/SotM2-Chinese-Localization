@@ -2,694 +2,694 @@
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/title",
     "original": "Absolute Zero",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZero；类型：deck.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@AbsoluteZeroCharacter/title",
     "original": "Absolute Zero",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@AbsoluteZeroCharacter/gameTexts/0/title",
     "original": "Thermodynamics",
-    "translation": "",
-    "stage": 0,
+    "translation": "热力操控",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：ability.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@AbsoluteZeroCharacter/gameTexts/0/body/0",
     "original": "{AbsoluteZero} deals himself either 1 cold damage or 1 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}对自己造成1点寒冷伤害或1点火焰伤害。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@AbsoluteZeroCharacter/flippedGameTexts/0/title",
     "original": "Desperate Last Moments!",
-    "translation": "",
-    "stage": 0,
+    "translation": "最后关头！",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：ability.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@AbsoluteZeroCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Power}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Power}。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@AbsoluteZeroCharacter/flippedGameTexts/0/body/1",
     "original": "Destroy 1 target with 2 or fewer HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1个生命值不高于2的目标。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@AbsoluteZeroCharacter/flippedGameTexts/0/body/2",
     "original": "Select 1 Hero target. Until your {Start}, +1 damage dealt by that target.",
-    "translation": "",
-    "stage": 0,
+    "translation": "选择1个英雄目标。直到你的{Start}，该目标造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ColdSnap/title",
     "original": "Cold Snap",
-    "translation": "",
-    "stage": 0,
+    "translation": "寒潮骤至",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ColdSnap；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ColdSnap/gameTexts/0/body/0",
     "original": "{AbsoluteZero} deals himself 3 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}对自己造成3点火焰伤害。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ColdSnap；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ColdSnap/gameTexts/1/body/0",
     "original": "{AbsoluteZero} deals each non-hero target 1 cold damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}对每个非英雄目标各造成1点寒冷伤害。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ColdSnap；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ColdSnap/flavorQuotes/@AbsoluteZero/text",
     "original": "Looks like you should have flown{BR}<b>south</b> for the winter!",
-    "translation": "",
-    "stage": 0,
+    "translation": "看来，早该往<b>南</b>飞{BR}去过冬了！",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ColdSnap / AbsoluteZero；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ColdSnap/flavorReference",
     "original": "Absolute Zero, Freedom Five #100",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度，《自由五杰》第100期",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ColdSnap；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ConductiveInstallation/title",
     "original": "Conductive Installation",
-    "translation": "",
-    "stage": 0,
+    "translation": "传导装配",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ConductiveInstallation；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ConductiveInstallation/gameTexts/0/body/0",
     "original": "Draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽1张牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ConductiveInstallation；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ConductiveInstallation/gameTexts/1/body/0",
     "original": "Collect 1 Item card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "搜集1张物品牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ConductiveInstallation；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ConductiveInstallation/gameTexts/2/body/0",
     "original": "You may play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你可以打出1张牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ConductiveInstallation；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ConductiveInstallation/flavorQuotes/@AbsoluteZero/text",
     "original": "It’s a nice change of pace to not be slamming{BR}this thing together in a rush.",
-    "translation": "",
-    "stage": 0,
+    "translation": "难得不用手忙脚乱地把这玩意儿拼起来，{BR}倒挺新鲜。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ConductiveInstallation / AbsoluteZero；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ConductiveInstallation/flavorReference",
     "original": "Absolute Zero, Freedom Five Annual #8",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度，《自由五杰年刊》第8期",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ConductiveInstallation；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@CoolantBlast/title",
     "original": "Coolant Blast",
-    "translation": "",
-    "stage": 0,
+    "translation": "冷液喷射",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：CoolantBlast；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@CoolantBlast/gameTexts/0/body/0",
     "original": "{AbsoluteZero} deals 1 non-Hero target X cold damage, where X is the amount of fire damage dealt to {AbsoluteZero} this turn.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}对1个非英雄目标造成X点寒冷伤害，X为本回合{AbsoluteZero}受到的火焰伤害总量。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：CoolantBlast；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@CoolantBlast/flavorQuotes/@AbsoluteZero/text",
     "original": "Once in a while, you just gotta improvise!",
-    "translation": "",
-    "stage": 0,
+    "translation": "偶尔也得临场发挥一下！",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：CoolantBlast / AbsoluteZero；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@CoolantBlast/flavorReference",
     "original": "Absolute Zero, The Ice-Man Cometh #3",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度，《冰人来了》第3期",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：CoolantBlast；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@CryoFieldProjector/title",
     "original": "Cryo-Field Projector",
-    "translation": "",
-    "stage": 0,
+    "translation": "低温场投射器",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：CryoFieldProjector；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@CryoFieldProjector/gameTexts/0/body/0",
     "original": "+1 to cold damage dealt to {AbsoluteZero}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}受到的寒冷伤害+1。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：CryoFieldProjector；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@CryoFieldProjector/gameTexts/1/body/0",
     "original": "−1 to fire damage dealt to {AbsoluteZero}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}受到的火焰伤害−1。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：CryoFieldProjector；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@CryoFieldProjector/gameTexts/2/body/0",
     "original": "{AbsoluteZero} deals himself 3 fixed fire damage. Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}对自己造成3点固定火焰伤害。破坏此牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：CryoFieldProjector；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@CryoFieldProjector/flavorQuotes/@AbsoluteZero/text",
     "original": "It’s not quite home frigid home, but it’ll do in a pinch.",
-    "translation": "",
-    "stage": 0,
+    "translation": "没有家里那么冷得舒坦，不过救急也够用了。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：CryoFieldProjector / AbsoluteZero；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@CryoFieldProjector/flavorReference",
     "original": "Absolute Zero, Justice Comics #597",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度，《正义漫画》第597期",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：CryoFieldProjector；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@DesperateDeployment/title",
     "original": "Desperate Deployment",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝境部署",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：DesperateDeployment；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@DesperateDeployment/gameTexts/0/body/0",
     "original": "Summon 1 Item card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "召唤1张物品牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：DesperateDeployment；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@DesperateDeployment/gameTexts/1/body/0",
     "original": "{AbsoluteZero} deals himself 1 fire damage and 1 cold damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}对自己造成1点火焰伤害和1点寒冷伤害。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：DesperateDeployment；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@DesperateDeployment/flavorQuotes/@Schema/text",
     "original": "You are incomplete. Feeble without your suit.{BR}In chasing your own humanity, you have lost{BR}your identity.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你并不完整。脱离战甲便虚弱不堪。{BR}你追逐自身的人性，{BR}却丢失了自我。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：DesperateDeployment / Schema；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@DesperateDeployment/flavorReference",
     "original": "Schema, Freedom Five #640",
-    "translation": "",
-    "stage": 0,
+    "translation": "图式，《自由五杰》第640期",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：DesperateDeployment；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@FocusedApertures/title",
     "original": "Focused Apertures",
-    "translation": "",
-    "stage": 0,
+    "translation": "聚焦射口",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：FocusedApertures；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@FocusedApertures/gameTexts/0/body/0",
     "original": "+1 to cold damage dealt by {AbsoluteZero}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}造成的寒冷伤害+1。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：FocusedApertures；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@FocusedApertures/flavorQuotes/@Bunker/text",
     "original": "“I was hesitant when you said ‘new and improved’, but{BR}I can appreciate this level of precision.",
-    "translation": "",
-    "stage": 0,
+    "translation": "听你说“全新升级”时，我还有点犹豫。{BR}不过，这精度确实不错。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：FocusedApertures / Bunker；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@FocusedApertures/flavorReference",
     "original": "Bunker, Freedom Five Annual #13",
-    "translation": "",
-    "stage": 0,
+    "translation": "堡垒，《自由五杰年刊》第13期",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：FocusedApertures；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@FrostBoundDrain/title",
     "original": "Frost-Bound Drain",
-    "translation": "",
-    "stage": 0,
+    "translation": "寒霜汲取",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：FrostBoundDrain；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@FrostBoundDrain/gameTexts/0/body/0",
     "original": "{AbsoluteZero} deals 1 non-Hero target 3 cold damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}对1个非英雄目标造成3点寒冷伤害。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：FrostBoundDrain；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@FrostBoundDrain/gameTexts/1/body/0",
     "original": "{AbsoluteZero} deals himself 3 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}对自己造成3点火焰伤害。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：FrostBoundDrain；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@FrostBoundDrain/flavorQuotes/@AbsoluteZero/text",
     "original": "Too cold? Welcome to <b>my</b> life.",
-    "translation": "",
-    "stage": 0,
+    "translation": "嫌冷？欢迎体验<b>我的</b>日常。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：FrostBoundDrain / AbsoluteZero；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@FrostBoundDrain/flavorReference",
     "original": "Absolute Zero, The Ice-Man Cometh #6",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度，《冰人来了》第6期",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：FrostBoundDrain；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@FueledFreeze/title",
     "original": "Fueled Freeze",
-    "translation": "",
-    "stage": 0,
+    "translation": "蓄能冰封",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：FueledFreeze；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@FueledFreeze/gameTexts/0/body/0",
     "original": "Destroy up to 3 Ongoing cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏至多3张持续牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：FueledFreeze；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@FueledFreeze/gameTexts/1/body/0",
     "original": "{AbsoluteZero} deals X targets 3 cold damage, where X is the number of Ongoing cards destroyed by this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}对X个目标各造成3点寒冷伤害，X为此牌破坏的持续牌数量。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：FueledFreeze；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@FueledFreeze/flavorQuotes/@AbsoluteZero/text",
     "original": "I’m genuinely having a bad time here.{BR}Just trying to spread the misery around.",
-    "translation": "",
-    "stage": 0,
+    "translation": "我现在是真的不好受。{BR}只是想让大家也分担一点。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：FueledFreeze / AbsoluteZero；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@FueledFreeze/flavorReference",
     "original": "Absolute Zero, Freedom Five #249",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度，《自由五杰》第249期",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：FueledFreeze；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@HighYieldCoolantTanks/title",
     "original": "High-Yield Coolant Tanks",
-    "translation": "",
-    "stage": 0,
+    "translation": "高效冷却罐",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：HighYieldCoolantTanks；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@HighYieldCoolantTanks/gameTexts/0/body/0",
     "original": "Either use 1 power or draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "使用1个异能，或抽1张牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：HighYieldCoolantTanks；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@HighYieldCoolantTanks/flavorQuotes/@Tachyon/text",
     "original": "“This new super-chilled coolant will cut your upper{BR}temperature ceiling by about a hundred{BR}degrees!",
-    "translation": "",
-    "stage": 0,
+    "translation": "这种新型超低温冷却剂，{BR}能把你的温度上限{BR}再降个一百度左右！",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：HighYieldCoolantTanks / Tachyon；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@HighYieldCoolantTanks/flavorReference",
     "original": "Tachyon, Science & Progress One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "快子，《科学与进步》独立特刊",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：HighYieldCoolantTanks；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@Hoarfire/title",
     "original": "Hoarfire",
-    "translation": "",
-    "stage": 0,
+    "translation": "霜火交织",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：Hoarfire；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@Hoarfire/gameTexts/0/body/0",
     "original": "{AbsoluteZero} deals 1 target 2 cold damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}对1个目标造成2点寒冷伤害。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：Hoarfire；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@Hoarfire/gameTexts/1/body/0",
     "original": "{AbsoluteZero} deals 1 different target 2 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}对另1个目标造成2点火焰伤害。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：Hoarfire；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@Hoarfire/gameTexts/2/body/0",
     "original": "{AbsoluteZero} deals himself 1 cold damage and 1 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}对自己造成1点寒冷伤害和1点火焰伤害。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：Hoarfire；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@Hoarfire/flavorQuotes/@AbsoluteZero/text",
     "original": "Yeah, it’s too damn hot, but it’s a change of pace{BR}from being cold all the time. This’ll <b>eventually</b>{BR}kill me, but I’m not going alone!",
-    "translation": "",
-    "stage": 0,
+    "translation": "没错，热得要命。可总比一直冻着有点变化。{BR}这<b>迟早</b>会要了我的命，{BR}不过我可不会一个人上路！",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：Hoarfire / AbsoluteZero；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@Hoarfire/flavorReference",
     "original": "Absolute Zero, Tome of the Bizarre Vol. 3 #13",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度，《诡奇之书》第3卷第13期",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：Hoarfire；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@IceShield/title",
     "original": "Ice Shield",
-    "translation": "",
-    "stage": 0,
+    "translation": "坚冰护盾",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：IceShield；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@IceShield/gameTexts/0/body/0",
     "original": "After this card is played, select 1 target. That target is immune to damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌打出后，选择1个目标。该目标免疫伤害。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：IceShield；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@IceShield/gameTexts/1/body/0",
     "original": "When this card is destroyed, you may draw 1 card and play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌被破坏时，你可以抽1张牌并打出1张牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：IceShield；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@IceShield/gameTexts/2/body/0",
     "original": "Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：IceShield；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@IceShield/flavorQuotes/@Legacy/text",
     "original": "You saved a lot of lives today.{BR}I know we haven’t always seen eye to eye, but{BR}you’re an Absolute <b>Hero</b> in my book.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你今天救了很多人。{BR}我知道我们并非总能意见一致，{BR}但在我心里，你绝对是个<b>英雄</b>。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：IceShield / Legacy；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@IceShield/flavorReference",
     "original": "Legacy, America's Finest Legacy #190",
-    "translation": "",
-    "stage": 0,
+    "translation": "传承侠，《美国至杰：传承侠》第190期",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：IceShield；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@IsothermicTransducer/title",
     "original": "Isothermic Transducer",
-    "translation": "",
-    "stage": 0,
+    "translation": "等温换能器",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：IsothermicTransducer；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/12/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@IsothermicTransducer/gameTexts/0/body/0",
     "original": "After this card is played, you may play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌打出后，你可以打出1张牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：IsothermicTransducer；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@IsothermicTransducer/gameTexts/1/body/0",
     "original": "After {AbsoluteZero} is dealt fire damage, {AbsoluteZero} deals 1 target that much cold damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}受到火焰伤害后，{AbsoluteZero}对1个目标造成等量的寒冷伤害。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：IsothermicTransducer；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@IsothermicTransducer/flavorQuotes/@Tachyon/text",
     "original": "It flies in the face of the laws of{BR}thermodynamics, but I cannot argue -- fire <b>does</b>{BR}get all weird around you!",
-    "translation": "",
-    "stage": 0,
+    "translation": "这完全违反热力学定律，{BR}可事实摆在眼前——火焰到了你身边，{BR}<b>确实</b>就变得古怪起来了！",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：IsothermicTransducer / Tachyon；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/12/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@IsothermicTransducer/flavorReference",
     "original": "Tachyon, Freedom Four Annual #7",
-    "translation": "",
-    "stage": 0,
+    "translation": "快子，《自由四杰年刊》第7期",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：IsothermicTransducer；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/12/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ModularRepair/title",
     "original": "Modular Repair",
-    "translation": "",
-    "stage": 0,
+    "translation": "模块修复",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ModularRepair；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/13/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ModularRepair/gameTexts/0/body/0",
     "original": "Salvage 1 Item card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "回收1张物品牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ModularRepair；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ModularRepair/gameTexts/1/body/0",
     "original": "You may play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你可以打出1张牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ModularRepair；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ModularRepair/gameTexts/2/body/0",
     "original": "{AbsoluteZero} deals himself 1 fire damage and 1 cold damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}对自己造成1点火焰伤害和1点寒冷伤害。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ModularRepair；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ModularRepair/flavorQuotes/@AbsoluteZero/text",
     "original": "Doc’s not gonna love it, but it’s this or burn!",
-    "translation": "",
-    "stage": 0,
+    "translation": "博士不会喜欢这个，不过总比烧起来强！",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ModularRepair / AbsoluteZero；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/13/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ModularRepair/flavorReference",
     "original": "Absolute Zero, Freedom Five #392",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度，《自由五杰》第392期",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ModularRepair；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/13/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@NullPointCalibrationUnit/title",
     "original": "Null-Point Calibration Unit",
-    "translation": "",
-    "stage": 0,
+    "translation": "零点校准器",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：NullPointCalibrationUnit；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/14/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@NullPointCalibrationUnit/gameTexts/0/body/0",
     "original": "After this card is played, you may play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌打出后，你可以打出1张牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：NullPointCalibrationUnit；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@NullPointCalibrationUnit/gameTexts/1/body/0",
     "original": "Whenever {AbsoluteZero} would be dealt cold damage, he regains that much HP instead.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每当{AbsoluteZero}将受到寒冷伤害时，改为恢复等量的生命值。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：NullPointCalibrationUnit；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@NullPointCalibrationUnit/flavorQuotes/@AbsoluteZero/text",
     "original": "Cold is all a matter of perspective.",
-    "translation": "",
-    "stage": 0,
+    "translation": "冷不冷，也得看是谁。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：NullPointCalibrationUnit / AbsoluteZero；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/14/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@NullPointCalibrationUnit/flavorReference",
     "original": "Absolute Zero, Freedom Five #161",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度，《自由五杰》第161期",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：NullPointCalibrationUnit；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/14/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@StillLife/title",
     "original": "Still Life",
-    "translation": "",
-    "stage": 0,
+    "translation": "静物艺术",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：StillLife；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/15/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@StillLife/gameTexts/0/body/0",
     "original": "After this card is played, select 1 target. That target cannot deal damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌打出后，选择1个目标。该目标无法造成伤害。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：StillLife；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@StillLife/gameTexts/1/body/0",
     "original": "When this card is destroyed, you may draw 1 card and play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌被破坏时，你可以抽1张牌并打出1张牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：StillLife；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@StillLife/gameTexts/2/body/0",
     "original": "Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：StillLife；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@StillLife/flavorQuotes/@AbsoluteZero/text",
     "original": "Sure, it’s not my best work,{BR}but you gotta work with what you’ve got.{BR}I’m no Michelangelo over here.",
-    "translation": "",
-    "stage": 0,
+    "translation": "当然，算不上我的得意之作，{BR}不过手头就这点材料，只能凑合。{BR}我又不是米开朗基罗。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：StillLife / AbsoluteZero；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/15/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@StillLife/flavorReference",
     "original": "Absolute Zero, Justice Comics #523",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度，《正义漫画》第523期",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：StillLife；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/15/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ThermalShockwave/title",
     "original": "Thermal Shockwave",
-    "translation": "",
-    "stage": 0,
+    "translation": "热冲击波",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ThermalShockwave；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/16/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ThermalShockwave/gameTexts/0/body/0",
     "original": "{AbsoluteZero} deals up to 3 targets 1 cold damage each. {AbsoluteZero} deals himself X fire damage, where X is the amount of cold damage dealt by {AbsoluteZero} this turn.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}对至多3个目标各造成1点寒冷伤害。{AbsoluteZero}对自己造成X点火焰伤害，X为本回合{AbsoluteZero}造成的寒冷伤害总量。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ThermalShockwave；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ThermalShockwave/flavorQuotes/@TheWraith/text",
     "original": "What’s the matter? You boys got cold feet?",
-    "translation": "",
-    "stage": 0,
+    "translation": "怎么，伙计们？脚底发凉，心里也发怵了？",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ThermalShockwave / TheWraith；类型：flavor.quote。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/16/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/cards/@ThermalShockwave/flavorReference",
     "original": "The Wraith, Moonfall #4",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽魂，《月陨》第4期",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：ThermalShockwave；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/cards/16/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/variants/@AbsoluteZeroCharacter/title",
     "original": "First Appearance: Absolute Zero",
-    "translation": "",
-    "stage": 0,
+    "translation": "初次登场：绝对零度",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：card.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/variants/@AbsoluteZeroCharacter/gameTexts/0/title",
     "original": "Lose Your Cool",
-    "translation": "",
-    "stage": 0,
+    "translation": "冷静尽失",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：ability.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/variants/@AbsoluteZeroCharacter/gameTexts/0/body/0",
     "original": "{AbsoluteZero} deals 2 hero targets and up to 2 non-hero targets 1 cold damage each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{AbsoluteZero}对2个英雄目标和至多2个非英雄目标各造成1点寒冷伤害。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/variants/@AbsoluteZeroCharacter/flippedGameTexts/0/title",
     "original": "A World of Cold",
-    "translation": "",
-    "stage": 0,
+    "translation": "冰冷世界",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：ability.title。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/variants/@AbsoluteZeroCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Draw}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Draw}。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/variants/@AbsoluteZeroCharacter/flippedGameTexts/0/body/1",
     "original": "Bury 1 non-target Environment card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "埋藏1张非目标环境牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/variants/@AbsoluteZeroCharacter/flippedGameTexts/0/body/2",
     "original": "Discard the top card of up to 3 decks.",
-    "translation": "",
-    "stage": 0,
+    "translation": "弃置至多3个牌库各自的顶牌。",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：rules.body。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/variants/@AbsoluteZeroCharacter/flavorReference",
     "original": "Freedom Five #100, Aug 1958",
-    "translation": "",
-    "stage": 0,
+    "translation": "《自由五杰》第100期，1958年8月",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/variants/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "AbsoluteZeroDeckList.json::turnTakers/@AbsoluteZero/decks/@AbsoluteZero/variants/@AbsoluteZeroCharacter/flippedFlavorReference",
     "original": "Freedom Five #285, Jan 1974",
-    "translation": "",
-    "stage": 0,
+    "translation": "《自由五杰》第285期，1974年1月",
+    "stage": 1,
     "context": "卡组：AbsoluteZero；对象：AbsoluteZeroCharacter；类型：flavor.reference。\n来源：AbsoluteZeroDeckList.json#/turnTakers/0/decks/0/variants/0/flippedFlavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

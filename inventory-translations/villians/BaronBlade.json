@@ -1,64 +1,43 @@
 [
   {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/title",
-    "original": "Baron Blade",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：BaronBlade；类型：deck.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+    "key": "card.BaronBladeCharacter.body.001",
+    "original": "Discard the top {H - 2} cards of the Villain deck.",
+    "translation": "弃置反派牌库顶的{H - 2}张牌。",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/advancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BaronBladeCharacter/title",
-    "original": "Baron Blade",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BaronBladeCharacter/subTitle",
-    "original": "Impulsion Beam Inventor",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：cards.subTitle。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/subTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+    "key": "card.RemoteWalkingTank.body.001",
+    "original": "This card deals the Hero target with the highest HP {H} energy damage.",
+    "translation": "此牌对生命值最高的英雄目标造成{H}点能量伤害。",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：RemoteWalkingTank；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "card.BaronBladeCharacter.body.002",
     "original": "Summon Mobile Defense Platform.",
-    "translation": "召唤Mobile Defense Platform。",
+    "translation": "召唤机动防御平台。",
     "stage": 1,
     "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/setupGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "card.BaronBladeCharacter.body.003",
     "original": "When {BaronBlade} would be destroyed, instead: {Flip}",
-    "translation": "{BaronBlade}被摧毁时改为{Flip}",
+    "translation": "当{BaronBlade}将要被破坏时，改为：{Flip}",
     "stage": 1,
     "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "card.BaronBladeCharacter.body.004",
     "original": "If there are 15 or more cards in the Villain trash, {BaronBlade}'s TerraLunar Impulsion Beam activates, pulling the moon into the Earth. <b>Game Over.</b>",
-    "translation": "若反派弃牌堆有15张或更多牌，{BaronBlade}的地月冲击光束启动，将月球拉向地球。<b>游戏结束。</b>",
+    "translation": "若反派弃牌堆中有15张或更多牌，{BaronBlade}的地月牵引光束便会启动，将月球拉向地球。<b>游戏结束。</b>",
     "stage": 1,
     "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
-    "key": "card.BaronBladeCharacter.body.001",
-    "original": "Discard the top {H - 2} cards of the Villain deck.",
-    "translation": "弃掉反派牌堆顶的{H - 2}张牌。",
-    "stage": 1,
-    "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/advancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BaronBladeCharacter/flippedSubTitle",
-    "original": "Armored Mad Scientist",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：cards.flippedSubTitle。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/flippedSubTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
     "key": "card.BaronBladeCharacter.body.005",
     "original": "When flipped to this side, destroy all Villain Ongoing cards and set {BaronBlade}'s HP to 30.",
-    "translation": "翻至此面时，摧毁所有反派持续牌，并将{BaronBlade}的生命值设为30。",
+    "translation": "翻至此面时，破坏所有反派持续牌，并将{BaronBlade}的生命值设为30。",
     "stage": 1,
     "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
@@ -72,86 +51,23 @@
   {
     "key": "card.BaronBladeCharacter.body.007",
     "original": "−2 damage dealt to {BaronBlade}.",
-    "translation": "对{BaronBlade}造成的伤害−2。",
+    "translation": "{BaronBlade}受到的伤害−2。",
     "stage": 1,
     "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/flippedAdvancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BacklashFieldGenerator/title",
-    "original": "Backlash Field Generator",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：BacklashFieldGenerator；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BacklashFieldGenerator/shortTitle",
-    "original": "Backlash Field Gen.",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：BacklashFieldGenerator；类型：cards.shortTitle。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/1/shortTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
     "key": "card.BacklashFieldGenerator.body.001",
     "original": "After any Villain target other than this card is dealt damage by a Hero target, this card deals the attacker 2 lightning damage.",
-    "translation": "此牌以外的任意反派目标受到英雄目标造成的伤害后，此牌对攻击者造成2点闪电伤害。",
+    "translation": "除此牌以外的任意反派目标受到英雄目标造成的伤害后，此牌对该伤害的来源造成2点闪电伤害。",
     "stage": 1,
     "context": "卡组：BaronBlade；对象：BacklashFieldGenerator；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BacklashFieldGenerator/flavorQuotes/@Tachyon/text",
-    "original": "He's surrounded by a phase-shifted nanowave{BR}field, powered by that lithium microfilament{BR}capacitor on his belt!",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：BacklashFieldGenerator / Tachyon；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BacklashFieldGenerator/flavorReference",
-    "original": "Tachyon, Freedom Five #187",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：BacklashFieldGenerator；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BladeBattalion/title",
-    "original": "Blade Battalion",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：BladeBattalion；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
     "key": "card.BladeBattalion.body.001",
     "original": "This card deals the Hero target with the highest HP X melee damage, where X is the current HP of this card.",
-    "translation": "此牌对生命值最高的英雄目标造成X点近战伤害，X为此牌当前的生命值。",
+    "translation": "此牌对生命值最高的英雄目标造成X点近战伤害，X为此牌的当前生命值。",
     "stage": 1,
     "context": "卡组：BaronBlade；对象：BladeBattalion；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BladeBattalion/flavorQuotes/@BladeBattalion/text",
-    "original": "Glorious Mordengrad! Our arms and minds are{BR}yours! Glorious Mordengrad! You grant us{BR}strength and life!",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：BladeBattalion / BladeBattalion；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BladeBattalion/flavorReference",
-    "original": "Blade Battalion Soldiers, Freedom Five #386",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：BladeBattalion；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@ConsiderThePriceOfVictory/title",
-    "original": "“Consider the Price of Victory!”",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：ConsiderThePriceOfVictory；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@ConsiderThePriceOfVictory/shortTitle",
-    "original": "“Consider the Price!”",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：ConsiderThePriceOfVictory；类型：cards.shortTitle。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/3/shortTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "card.ConsiderThePriceOfVictory.body.001",
@@ -163,65 +79,23 @@
   {
     "key": "card.ConsiderThePriceOfVictory.body.002",
     "original": "Each Hero discards 1 card. {BaronBlade} deals each Hero target 1 sonic damage. Discard the top {H - 1} cards of the Villain deck. Destroy this card.",
-    "translation": "每位英雄弃掉1张牌。{BaronBlade}对每个英雄目标造成1点音波伤害。弃掉反派牌堆顶的{H - 1}张牌。摧毁此牌。",
+    "translation": "每位英雄弃置1张牌。{BaronBlade}对每个英雄目标造成1点音波伤害。弃置反派牌库顶的{H - 1}张牌。破坏此牌。",
     "stage": 1,
     "context": "卡组：BaronBlade；对象：ConsiderThePriceOfVictory；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@ConsiderThePriceOfVictory/flavorQuotes/@BaronBlade/text",
-    "original": "Before this day is ended, the <b>entire</b> planet{BR}shall grovel helplessly at my feet!",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：ConsiderThePriceOfVictory / BaronBlade；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@ConsiderThePriceOfVictory/flavorReference",
-    "original": "Baron Blade, Moonfall #4",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：ConsiderThePriceOfVictory；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@DeviousDisruption/title",
-    "original": "Devious Disruption",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：DeviousDisruption；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
     "key": "card.DeviousDisruption.body.001",
     "original": "Each Hero may destroy any of their Ongoing and/or Item cards.",
-    "translation": "每位英雄可以摧毁自己任意数量的持续牌和/或物品牌。",
+    "translation": "每位英雄可以破坏自己的任意数量的持续牌和／或物品牌。",
     "stage": 1,
     "context": "卡组：BaronBlade；对象：DeviousDisruption；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "card.DeviousDisruption.body.002",
     "original": "{BaronBlade} deals each Hero character X lightning damage, where X is the number of Hero Ongoing and Item cards in that Hero’s play area plus 3.",
-    "translation": "{BaronBlade}对每个英雄角色造成X点闪电伤害，X为该英雄场上的英雄持续牌与物品牌的总数加3。",
+    "translation": "{BaronBlade}对每个英雄角色造成X点闪电伤害，X为该英雄场地区域中的英雄持续牌与物品牌总数加3。",
     "stage": 1,
     "context": "卡组：BaronBlade；对象：DeviousDisruption；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@DeviousDisruption/flavorQuotes/@BaronBlade/text",
-    "original": "The agony and shame of your defeat{BR}shall <b>break</b> you!",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：DeviousDisruption / BaronBlade；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@DeviousDisruption/flavorReference",
-    "original": "Baron Blade, Freedom Five #215",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：DeviousDisruption；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@HastenDoom/title",
-    "original": "Hasten Doom",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：HastenDoom；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "card.HastenDoom.body.001",
@@ -233,35 +107,14 @@
   {
     "key": "card.HastenDoom.body.002",
     "original": "Play the top card of the Villain deck.",
-    "translation": "打出反派牌堆的顶牌。",
+    "translation": "打出反派牌库顶的一张牌。",
     "stage": 1,
     "context": "卡组：BaronBlade；对象：HastenDoom；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@HastenDoom/flavorQuotes/@BaronBlade/text",
-    "original": "I have specifically designed this formula to{BR}counteract the strength of your genetics and strip you of{BR}the very evolutionary leaps that make you unique!",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：HastenDoom / BaronBlade；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@HastenDoom/flavorReference",
-    "original": "Baron Blade, Freedom Four Annual #1",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：HastenDoom；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@JetJumpBattalion/title",
-    "original": "Jet-Jump Battalion",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：JetJumpBattalion；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
     "key": "card.JetJumpBattalion.body.001",
     "original": "After this card is played, reveal the top card of the Villain deck. If that card is a Device card, play it. Otherwise, discard it.",
-    "translation": "此牌打出后，展示反派牌堆的顶牌。若该牌为装置牌，将其打出。否则，将其弃掉。",
+    "translation": "此牌打出后，展示反派牌库顶的一张牌。若该牌是装置牌，将其打出。否则，将其弃置。",
     "stage": 1,
     "context": "卡组：BaronBlade；对象：JetJumpBattalion；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
@@ -273,30 +126,9 @@
     "context": "卡组：BaronBlade；对象：JetJumpBattalion；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@JetJumpBattalion/flavorQuotes/@BladeBattalionCommander/text",
-    "original": "You fight in service of Baron Blade and{BR}for the <b>glory</b> of Mordengrad!",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：JetJumpBattalion / BladeBattalionCommander；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@JetJumpBattalion/flavorReference",
-    "original": "Blade Battalion Commander, Mystery Comics #374",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：JetJumpBattalion；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@LivingForceField/title",
-    "original": "Living Force-Field",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：LivingForceField；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
     "key": "card.LivingForceField.body.001",
     "original": "−1 damage dealt to {BaronBlade}.",
-    "translation": "对{BaronBlade}造成的伤害−1。",
+    "translation": "{BaronBlade}受到的伤害−1。",
     "stage": 1,
     "context": "卡组：BaronBlade；对象：LivingForceField；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
@@ -308,34 +140,6 @@
     "context": "卡组：BaronBlade；对象：LivingForceField；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@LivingForceField/flavorQuotes/@BaronBlade/text",
-    "original": "I am <b>barely</b> amused by your{BR}worthless attempts at competence.",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：LivingForceField / BaronBlade；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@LivingForceField/flavorReference",
-    "original": "Baron Blade, Justice Comics #335",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：LivingForceField；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@MobileDefensePlatform/title",
-    "original": "Mobile Defense Platform",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：MobileDefensePlatform；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@MobileDefensePlatform/shortTitle",
-    "original": "Mobile Def. Platform",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：MobileDefensePlatform；类型：cards.shortTitle。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/8/shortTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
     "key": "card.MobileDefensePlatform.body.001",
     "original": "{BaronBlade} is immune to damage.",
     "translation": "{BaronBlade}免疫伤害。",
@@ -345,30 +149,9 @@
   {
     "key": "card.MobileDefensePlatform.body.002",
     "original": "Reveal the top card of the Villain deck. If it is a Minion card, play it. Otherwise, discard it.",
-    "translation": "展示反派牌堆的顶牌。若该牌为喽啰牌，将其打出。否则，将其弃掉。",
+    "translation": "展示反派牌库顶的一张牌。若该牌是爪牙牌，将其打出。否则，将其弃置。",
     "stage": 1,
     "context": "卡组：BaronBlade；对象：MobileDefensePlatform；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@MobileDefensePlatform/flavorQuotes/@Legacy/text",
-    "original": "Until we take that <b>blasted</b> floating fortress{BR}out, Blade is practically untouchable!",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：MobileDefensePlatform / Legacy；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@MobileDefensePlatform/flavorReference",
-    "original": "Legacy, Moonfall #1",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：MobileDefensePlatform；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@PoweredTurret/title",
-    "original": "Powered Turret",
-    "translation": "",
-    "stage": 0,
-    "context": "卡组：BaronBlade；对象：PoweredTurret；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "card.PoweredTurret.body.001",
@@ -385,108 +168,325 @@
     "context": "卡组：BaronBlade；对象：PoweredTurret；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
+    "key": "card.RemoteWalkingTank.body.002",
+    "original": "−1 damage dealt to this card.",
+    "translation": "此牌受到的伤害−1。",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：RemoteWalkingTank；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/title",
+    "original": "Baron Blade",
+    "translation": "刀锋男爵",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：BaronBlade；类型：deck.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BaronBladeCharacter/title",
+    "original": "Baron Blade",
+    "translation": "刀锋男爵",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BaronBladeCharacter/subTitle",
+    "original": "Impulsion Beam Inventor",
+    "translation": "牵引光束发明家",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：cards.subTitle。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/subTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BaronBladeCharacter/flippedSubTitle",
+    "original": "Armored Mad Scientist",
+    "translation": "披甲科学狂人",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：cards.flippedSubTitle。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/0/flippedSubTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BacklashFieldGenerator/title",
+    "original": "Backlash Field Generator",
+    "translation": "反噬场发生器",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：BacklashFieldGenerator；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BacklashFieldGenerator/shortTitle",
+    "original": "Backlash Field Gen.",
+    "translation": "反噬场发生器",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：BacklashFieldGenerator；类型：cards.shortTitle。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/1/shortTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BacklashFieldGenerator/flavorQuotes/@Tachyon/text",
+    "original": "He's surrounded by a phase-shifted nanowave{BR}field, powered by that lithium microfilament{BR}capacitor on his belt!",
+    "translation": "他周身笼罩着相移纳米波力场，{BR}能源来自他腰带上的{BR}锂微丝电容器！",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：BacklashFieldGenerator / Tachyon；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BacklashFieldGenerator/flavorReference",
+    "original": "Tachyon, Freedom Five #187",
+    "translation": "快子，《自由五杰》第187期",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：BacklashFieldGenerator；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BladeBattalion/title",
+    "original": "Blade Battalion",
+    "translation": "刀锋营",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：BladeBattalion；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BladeBattalion/flavorQuotes/@BladeBattalion/text",
+    "original": "Glorious Mordengrad! Our arms and minds are{BR}yours! Glorious Mordengrad! You grant us{BR}strength and life!",
+    "translation": "光荣的莫登格勒！我们的双臂与头脑{BR}皆属于你！光荣的莫登格勒！{BR}你赐予我们力量与生命！",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：BladeBattalion / BladeBattalion；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@BladeBattalion/flavorReference",
+    "original": "Blade Battalion Soldiers, Freedom Five #386",
+    "translation": "刀锋营士兵，《自由五杰》第386期",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：BladeBattalion；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@ConsiderThePriceOfVictory/title",
+    "original": "“Consider the Price of Victory!”",
+    "translation": "“胜利何价！”",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：ConsiderThePriceOfVictory；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@ConsiderThePriceOfVictory/shortTitle",
+    "original": "“Consider the Price!”",
+    "translation": "“想想代价！”",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：ConsiderThePriceOfVictory；类型：cards.shortTitle。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/3/shortTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@ConsiderThePriceOfVictory/flavorQuotes/@BaronBlade/text",
+    "original": "Before this day is ended, the <b>entire</b> planet{BR}shall grovel helplessly at my feet!",
+    "translation": "今日结束之前，<b>整个</b>星球{BR}都将无助地匍匐在我脚下！",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：ConsiderThePriceOfVictory / BaronBlade；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@ConsiderThePriceOfVictory/flavorReference",
+    "original": "Baron Blade, Moonfall #4",
+    "translation": "刀锋男爵，《月陨》第4期",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：ConsiderThePriceOfVictory；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@DeviousDisruption/title",
+    "original": "Devious Disruption",
+    "translation": "阴险干扰",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：DeviousDisruption；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@DeviousDisruption/flavorQuotes/@BaronBlade/text",
+    "original": "The agony and shame of your defeat{BR}shall <b>break</b> you!",
+    "translation": "失败的痛苦与耻辱{BR}将把你们彻底<b>击垮</b>！",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：DeviousDisruption / BaronBlade；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@DeviousDisruption/flavorReference",
+    "original": "Baron Blade, Freedom Five #215",
+    "translation": "刀锋男爵，《自由五杰》第215期",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：DeviousDisruption；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@HastenDoom/title",
+    "original": "Hasten Doom",
+    "translation": "加速末日",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：HastenDoom；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@HastenDoom/flavorQuotes/@BaronBlade/text",
+    "original": "I have specifically designed this formula to{BR}counteract the strength of your genetics and strip you of{BR}the very evolutionary leaps that make you unique!",
+    "translation": "这配方是我专为抵消你们的基因优势{BR}而设计的。那些让你们与众不同的{BR}进化成果，将被剥夺得一干二净！",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：HastenDoom / BaronBlade；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@HastenDoom/flavorReference",
+    "original": "Baron Blade, Freedom Four Annual #1",
+    "translation": "刀锋男爵，《自由四杰年刊》第1期",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：HastenDoom；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@JetJumpBattalion/title",
+    "original": "Jet-Jump Battalion",
+    "translation": "喷射突击营",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：JetJumpBattalion；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@JetJumpBattalion/flavorQuotes/@BladeBattalionCommander/text",
+    "original": "You fight in service of Baron Blade and{BR}for the <b>glory</b> of Mordengrad!",
+    "translation": "你们为刀锋男爵效命，{BR}为莫登格勒的<b>荣耀</b>而战！",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：JetJumpBattalion / BladeBattalionCommander；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@JetJumpBattalion/flavorReference",
+    "original": "Blade Battalion Commander, Mystery Comics #374",
+    "translation": "刀锋营指挥官，《悬谜漫画》第374期",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：JetJumpBattalion；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@LivingForceField/title",
+    "original": "Living Force-Field",
+    "translation": "活性力场",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：LivingForceField；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@LivingForceField/flavorQuotes/@BaronBlade/text",
+    "original": "I am <b>barely</b> amused by your{BR}worthless attempts at competence.",
+    "translation": "你们这些不成器的把戏，{BR}连让我发笑都<b>勉强</b>。",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：LivingForceField / BaronBlade；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@LivingForceField/flavorReference",
+    "original": "Baron Blade, Justice Comics #335",
+    "translation": "刀锋男爵，《正义漫画》第335期",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：LivingForceField；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@MobileDefensePlatform/title",
+    "original": "Mobile Defense Platform",
+    "translation": "机动防御平台",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：MobileDefensePlatform；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@MobileDefensePlatform/shortTitle",
+    "original": "Mobile Def. Platform",
+    "translation": "机动防御平台",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：MobileDefensePlatform；类型：cards.shortTitle。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/8/shortTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@MobileDefensePlatform/flavorQuotes/@Legacy/text",
+    "original": "Until we take that <b>blasted</b> floating fortress{BR}out, Blade is practically untouchable!",
+    "translation": "不把那座<b>该死的</b>浮空堡垒打下来，{BR}我们根本就伤不到刀锋男爵！",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：MobileDefensePlatform / Legacy；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@MobileDefensePlatform/flavorReference",
+    "original": "Legacy, Moonfall #1",
+    "translation": "传承侠，《月陨》第1期",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：MobileDefensePlatform；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
+    "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@PoweredTurret/title",
+    "original": "Powered Turret",
+    "translation": "动力炮塔",
+    "stage": 1,
+    "context": "卡组：BaronBlade；对象：PoweredTurret；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
+  },
+  {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@PoweredTurret/flavorQuotes/@BaronBlade/text",
     "original": "Arming this platform has been one of my best{BR}decisions. It's the little things, really!",
-    "translation": "",
-    "stage": 0,
+    "translation": "给这平台装上武器，实在是我最英明的决策之一。{BR}成败就在这些小细节里！",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：PoweredTurret / BaronBlade；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@PoweredTurret/flavorReference",
     "original": "Baron Blade, Moonfall #1",
-    "translation": "",
-    "stage": 0,
+    "translation": "刀锋男爵，《月陨》第1期",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：PoweredTurret；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@RemoteWalkingTank/title",
     "original": "Remote Walking Tank",
-    "translation": "",
-    "stage": 0,
+    "translation": "遥控步行坦克",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：RemoteWalkingTank；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "card.RemoteWalkingTank.body.002",
-    "original": "−1 damage dealt to this card.",
-    "translation": "对此牌造成的伤害−1。",
-    "stage": 1,
-    "context": "卡组：BaronBlade；对象：RemoteWalkingTank；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
-  },
-  {
-    "key": "card.RemoteWalkingTank.body.001",
-    "original": "This card deals the Hero target with the highest HP {H} energy damage.",
-    "translation": "此牌对生命值最高的英雄目标造成{H}点能量伤害。",
-    "stage": 1,
-    "context": "卡组：BaronBlade；对象：RemoteWalkingTank；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@RemoteWalkingTank/flavorQuotes/@BaronBlade/text",
     "original": "My father was truly a visionary.{BR}A brilliant inventor with ideas far beyond his time.{BR}His loss will be <b>repaid</b> in blood!",
-    "translation": "",
-    "stage": 0,
+    "translation": "我的父亲是真正的先驱。{BR}一位才华横溢、远远超越时代的发明家。{BR}他的死，必将以鲜血<b>偿还</b>！",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：RemoteWalkingTank / BaronBlade；类型：flavor.quote。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/cards/@RemoteWalkingTank/flavorReference",
     "original": "Baron Blade, Justice Comics #429",
-    "translation": "",
-    "stage": 0,
+    "translation": "刀锋男爵，《正义漫画》第429期",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：RemoteWalkingTank；类型：flavor.reference。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/variants/@BaronBladeCharacter/title",
     "original": "Mad Bomber Baron Blade",
-    "translation": "",
-    "stage": 0,
+    "translation": "爆破狂人·刀锋男爵",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：card.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/variants/@BaronBladeCharacter/subTitle",
     "original": "Deranged Demolitionist",
-    "translation": "",
-    "stage": 0,
+    "translation": "癫狂爆破手",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：variants.subTitle。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/variants/0/subTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/variants/@BaronBladeCharacter/setupGameTexts/0/body/0",
     "original": "Shuffle and set the {BaronBlade} deck in the Villain play area. Shuffle the top {H - 2} cards of the Villain deck into the Environment deck. Shuffle the Environment deck until the top card of the Environment deck is not a Villain card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "洗混{BaronBlade}牌库，将其置于反派场地区域。将反派牌库顶的{H - 2}张牌洗入环境牌库。反复洗混环境牌库，直到其顶牌不是反派牌。",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/variants/0/setupGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/variants/@BaronBladeCharacter/gameTexts/0/body/0",
     "original": "Whenever {BaronBlade} would play a target card, shuffle it into the Environment deck instead.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每当{BaronBlade}将要打出一张目标牌时，改为将该牌洗入环境牌库。",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/variants/@BaronBladeCharacter/gameTexts/1/body/0",
     "original": "Whenever the top card of the Environment deck is a Villain card, {BaronBlade} deals each non-Villain target 2 projectile damage and 2 fire damage. Then, put that card under this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每当环境牌库顶的牌是反派牌时，{BaronBlade}对每个非反派目标造成2点投射伤害和2点火焰伤害。然后，将该牌置于此牌下方。",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/variants/@BaronBladeCharacter/gameTexts/2/body/0",
     "original": "If there are 12 minus {H} cards under this card, too much damage has been dealt by {BaronBlade}’s bombs, wreaking havoc and causing untold devastation. Game Over. Otherwise, discard the top card of the Environment deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若此牌下方有（12减{H}）张牌，{BaronBlade}的炸弹已造成过多破坏，带来无法估量的浩劫。游戏结束。否则，弃置环境牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/variants/@BaronBladeCharacter/gameTexts/3/body/0",
     "original": "Shuffle the top card of the Villain deck into the Environment deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将反派牌库顶的一张牌洗入环境牌库。",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/variants/@BaronBladeCharacter/advancedGameTexts/0/body/0",
     "original": "{BaronBlade} deals the Hero target with the highest HP X irreducible cold damage, where X is the number of cards under this card plus 1.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{BaronBlade}对生命值最高的英雄目标造成X点不可削减的寒冷伤害，X为此牌下方的卡牌数量加1。",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：BaronBladeCharacter；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/variants/0/advancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

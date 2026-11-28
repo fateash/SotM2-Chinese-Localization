@@ -2,694 +2,694 @@
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/title",
     "original": "Fanatic",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：Fanatic；类型：deck.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@FanaticCharacter/title",
     "original": "Fanatic",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@FanaticCharacter/gameTexts/0/title",
     "original": "Exorcism",
-    "translation": "",
-    "stage": 0,
+    "translation": "驱邪逐魔",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：ability.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@FanaticCharacter/gameTexts/0/body/0",
     "original": "{Fanatic} deals 1 target 1 melee damage and 1 radiant damage. {Fanatic} deals herself 1 fixed psychic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Fanatic}对1个目标造成1点近战伤害和1点光耀伤害。{Fanatic}对自己造成1点固定精神伤害。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@FanaticCharacter/flippedGameTexts/0/title",
     "original": "Undying Fervor",
-    "translation": "",
-    "stage": 0,
+    "translation": "热忱不灭",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：ability.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@FanaticCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Play}。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@FanaticCharacter/flippedGameTexts/0/body/1",
     "original": "1 Hero target regains 2 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1个英雄目标恢复2点生命值。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@FanaticCharacter/flippedGameTexts/0/body/2",
     "original": "1 Hero target may deal itself 2 fixed psychic damage. If it does, it deals 1 target 4 radiant damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1个英雄目标可以对自己造成2点固定精神伤害。若如此做，该目标对1个目标造成4点光耀伤害。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@Absolution/title",
     "original": "Absolution",
-    "translation": "",
-    "stage": 0,
+    "translation": "赦罪之剑",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：Absolution；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@Absolution/gameTexts/0/body/0",
     "original": "{Fanatic} deals 1 target 3 melee damage. If {Fanatic} is at 10 or fewer HP, {Fanatic} deals 1 target 2 fire damage and 2 radiant damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Fanatic}对1个目标造成3点近战伤害。若{Fanatic}的生命值不高于10，{Fanatic}对1个目标造成2点火焰伤害和2点光耀伤害。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：Absolution；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@Absolution/flavorQuotes/@Fanatic/text",
     "original": "Absolution you are called,{BR}and Absolution you shall deliver.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你名为“赦罪”，{BR}也必将带来赦罪。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：Absolution / Fanatic；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@Absolution/flavorReference",
     "original": "Fanatic, Absolution #1",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信，《赦罪》第1期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：Absolution；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@AegisOfResurrection/title",
     "original": "Aegis of Resurrection",
-    "translation": "",
-    "stage": 0,
+    "translation": "复生圣铠",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：AegisOfResurrection；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@AegisOfResurrection/gameTexts/0/body/0",
     "original": "When {Fanatic} would be reduced to 0 HP, prevent that damage and destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "当{Fanatic}的生命值将降至0时，防止该次伤害并破坏此牌。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：AegisOfResurrection；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@AegisOfResurrection/gameTexts/1/body/0",
     "original": "When this card is destroyed, {Fanatic} regains 10 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌被破坏时，{Fanatic}恢复10点生命值。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：AegisOfResurrection；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@AegisOfResurrection/flavorQuotes/@Fanatic/text",
     "original": "No mere mortal wound can destroy{BR}the form of God’s Chosen.",
-    "translation": "",
-    "stage": 0,
+    "translation": "区区致命伤，{BR}岂能毁去神选之人的身躯。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：AegisOfResurrection / Fanatic；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@AegisOfResurrection/flavorReference",
     "original": "Fanatic, Absolution #10",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信，《赦罪》第10期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：AegisOfResurrection；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@AnointAllies/title",
     "original": "Anoint Allies",
-    "translation": "",
-    "stage": 0,
+    "translation": "膏立盟友",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：AnointAllies；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@AnointAllies/gameTexts/0/body/0",
     "original": "+1 damage dealt by your allies.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你的盟友造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：AnointAllies；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@AnointAllies/gameTexts/1/body/0",
     "original": "If {Fanatic} has 10 or fewer HP, +1 damage dealt by {Fanatic}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若{Fanatic}的生命值不高于10，{Fanatic}造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：AnointAllies；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@AnointAllies/gameTexts/2/body/0",
     "original": "Either destroy this card or {Fanatic} deals herself 3 fixed psychic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌，或{Fanatic}对自己造成3点固定精神伤害。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：AnointAllies；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@AnointAllies/flavorQuotes/@Tempest/text",
     "original": "The faith practices of you humans are so unlike{BR}those of Maerynians, yet I still appreciate{BR}your blessing.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你们人类的信仰习俗，{BR}与梅瑞尼亚人大不相同。{BR}不过，我仍感谢你的祝福。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：AnointAllies / Tempest；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@AnointAllies/flavorReference",
     "original": "Tempest, Prime Wardens Vol. 1, #87",
-    "translation": "",
-    "stage": 0,
+    "translation": "风暴，《原初守卫》第1卷第87期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：AnointAllies；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@BrutalCensure/title",
     "original": "Brutal Censure",
-    "translation": "",
-    "stage": 0,
+    "translation": "严酷责罚",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：BrutalCensure；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@BrutalCensure/gameTexts/0/body/0",
     "original": "After this card is played, select a non-character target. That card has no game text.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌打出后，选择一个非角色目标。该牌的规则文本视为空白。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：BrutalCensure；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@BrutalCensure/gameTexts/1/body/0",
     "original": "Either destroy this card or {Fanatic} deals herself 3 fixed psychic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌，或{Fanatic}对自己造成3点固定精神伤害。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：BrutalCensure；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@BrutalCensure/flavorQuotes/@Fanatic/text",
     "original": "Know the <b>error</b> of thine ways.",
-    "translation": "",
-    "stage": 0,
+    "translation": "认清你自己的<b>过错</b>。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：BrutalCensure / Fanatic；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@BrutalCensure/flavorReference",
     "original": "Fanatic, Absolution #6",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信，《赦罪》第6期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：BrutalCensure；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@ConsecratedGround/title",
     "original": "Consecrated Ground",
-    "translation": "",
-    "stage": 0,
+    "translation": "祝圣之地",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：ConsecratedGround；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@ConsecratedGround/gameTexts/0/body/0",
     "original": "Destroy 1 Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1张持续牌。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：ConsecratedGround；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@ConsecratedGround/gameTexts/1/body/0",
     "original": "{Fanatic} deals up to 3 targets 1 radiant damage each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Fanatic}对至多3个目标各造成1点光耀伤害。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：ConsecratedGround；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@ConsecratedGround/flavorQuotes/@Fanatic/text",
     "original": "Your dark rituals have no sway in this <b>holy</b> place!",
-    "translation": "",
-    "stage": 0,
+    "translation": "你们的黑暗仪式，在这片<b>圣地</b>毫无效力！",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：ConsecratedGround / Fanatic；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@ConsecratedGround/flavorReference",
     "original": "Fanatic, Fanatic Vol. 1, #5",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信，《狂信》第1卷第5期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：ConsecratedGround；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@DivineSacrifice/title",
     "original": "Divine Sacrifice",
-    "translation": "",
-    "stage": 0,
+    "translation": "神圣献身",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：DivineSacrifice；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@DivineSacrifice/gameTexts/0/body/0",
     "original": "{Fanatic} deals herself up to 3 radiant damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Fanatic}对自己造成至多3点光耀伤害。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：DivineSacrifice；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@DivineSacrifice/gameTexts/1/body/0",
     "original": "{Fanatic} deals X targets 3 radiant damage each, where X is the amount of damage dealt to {Fanatic} this turn.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Fanatic}对X个目标各造成3点光耀伤害，X为本回合{Fanatic}受到的伤害总量。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：DivineSacrifice；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@DivineSacrifice/flavorQuotes/@Fanatic/text",
     "original": "Face <b>me</b> and tremble!",
-    "translation": "",
-    "stage": 0,
+    "translation": "面对<b>我</b>，颤抖吧！",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：DivineSacrifice / Fanatic；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@DivineSacrifice/flavorReference",
     "original": "Fanatic, Mystery Comics Vol. 2, #369",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信，《悬谜漫画》第2卷第369期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：DivineSacrifice；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@EndOfDays/title",
     "original": "End of Days",
-    "translation": "",
-    "stage": 0,
+    "translation": "终焉之日",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：EndOfDays；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@EndOfDays/gameTexts/0/body/0",
     "original": "Destroy all cards in play, other than this card, characters, and relics. Then, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏场上除本牌、角色牌和遗器牌以外的所有牌。然后，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：EndOfDays；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@EndOfDays/flavorQuotes/@Fanatic/text",
     "original": "The <b>blight</b> upon this land be cleansed!",
-    "translation": "",
-    "stage": 0,
+    "translation": "愿这片土地上的<b>污秽</b>尽被荡除！",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：EndOfDays / Fanatic；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@EndOfDays/flavorReference",
     "original": "Fanatic, Absolution #9",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信，《赦罪》第9期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：EndOfDays；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@FinalDive/title",
     "original": "Final Dive",
-    "translation": "",
-    "stage": 0,
+    "translation": "致命俯冲",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FinalDive；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@FinalDive/gameTexts/0/body/0",
     "original": "Destroy 1 non-character target with 4 or fewer HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1个生命值不高于4的非角色目标。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FinalDive；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@FinalDive/gameTexts/1/body/0",
     "original": "{Fanatic} deals 1 target X projectile damage, where X is the destroyed target’s HP before it was destroyed.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Fanatic}对1个目标造成X点投射伤害，X为被破坏目标在被破坏前的生命值。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FinalDive；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@FinalDive/flavorQuotes/@Fanatic/text",
     "original": "Meet thy maker.",
-    "translation": "",
-    "stage": 0,
+    "translation": "去见你的造物主吧。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FinalDive / Fanatic；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@FinalDive/flavorReference",
     "original": "Fanatic, Tome of the Bizarre Vol. 3, #9",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信，《诡奇之书》第3卷第9期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FinalDive；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@HolyNova/title",
     "original": "Holy Nova",
-    "translation": "",
-    "stage": 0,
+    "translation": "神圣新星",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：HolyNova；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@HolyNova/gameTexts/0/body/0",
     "original": "{Fanatic} deals each non-Hero target 1 radiant damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Fanatic}对每个非英雄目标各造成1点光耀伤害。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：HolyNova；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@HolyNova/gameTexts/1/body/0",
     "original": "Each Hero target regains 1 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每个英雄目标恢复1点生命值。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：HolyNova；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@HolyNova/gameTexts/2/body/0",
     "original": "Then, if {Fanatic} has 10 or fewer HP, {Fanatic} deals up to 3 targets 2 radiant damage each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "然后，若{Fanatic}的生命值不高于10，{Fanatic}对至多3个目标各造成2点光耀伤害。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：HolyNova；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@HolyNova/flavorQuotes/@Apostate/text",
     "original": "You can hide in the sun ‘til you <b>see</b> the light.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你尽可躲在阳光下，直到<b>看见</b>光明。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：HolyNova / Apostate；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@HolyNova/flavorReference",
     "original": "Apostate, Mystery Comics Vol. 2, #366",
-    "translation": "",
-    "stage": 0,
+    "translation": "诳圣，《悬谜漫画》第2卷第366期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：HolyNova；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@PrayerOfDesperation/title",
     "original": "Prayer of Desperation",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝境祈祷",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：PrayerOfDesperation；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@PrayerOfDesperation/gameTexts/0/body/0",
     "original": "Reveal the top 4 cards of your deck. Put any Item or Ongoing cards revealed this way in your hand. Discard the other revealed cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "展示你的牌库顶的4张牌。将以此法展示的物品牌和持续牌加入手牌。弃置其余展示的牌。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：PrayerOfDesperation；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@PrayerOfDesperation/gameTexts/1/body/0",
     "original": "If {Fanatic} has 10 or fewer HP, play up to 2 cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若{Fanatic}的生命值不高于10，打出至多2张牌。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：PrayerOfDesperation；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@PrayerOfDesperation/flavorQuotes/@Fanatic/text",
     "original": "Let this not be the last breath your servant draws.",
-    "translation": "",
-    "stage": 0,
+    "translation": "求你莫让这一息，成为你仆人的最后一息。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：PrayerOfDesperation / Fanatic；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@PrayerOfDesperation/flavorReference",
     "original": "Fanatic, Prime Wardens Vol. 1, #152",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信，《原初守卫》第1卷第152期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：PrayerOfDesperation；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@RighteousRebuke/title",
     "original": "Righteous Rebuke",
-    "translation": "",
-    "stage": 0,
+    "translation": "义正辞严",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：RighteousRebuke；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@RighteousRebuke/gameTexts/0/body/0",
     "original": "{Fanatic} deals 1 target 2 radiant damage. Then, if {Fanatic} has 10 or fewer HP, {Fanatic} deals up to 3 targets 2 radiant damage each and regains 2 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Fanatic}对1个目标造成2点光耀伤害。然后，若{Fanatic}的生命值不高于10，{Fanatic}对至多3个目标各造成2点光耀伤害，并恢复2点生命值。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：RighteousRebuke；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@RighteousRebuke/flavorQuotes/@BloodCountess/text",
     "original": "The prayers and rituals of believers have ne’er{BR}wracked my body with such pain before!",
-    "translation": "",
-    "stage": 0,
+    "translation": "信徒的祈祷与仪式，{BR}从未使我遭受这般剧痛！",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：RighteousRebuke / BloodCountess；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@RighteousRebuke/flavorReference",
     "original": "Blood Countess, Fanatic Vol. 1, #9",
-    "translation": "",
-    "stage": 0,
+    "translation": "血腥女伯爵，《狂信》第1卷第9期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：RighteousRebuke；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@RosaryOfTheMysteries/title",
     "original": "Rosary of the Mysteries",
-    "translation": "",
-    "stage": 0,
+    "translation": "奥迹念珠",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：RosaryOfTheMysteries；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/12/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@RosaryOfTheMysteries/gameTexts/0/body/0",
     "original": "Shuffle your trash into your deck. Discard 5 cards. Draw 5 cards. If {Fanatic} has 10 or fewer HP, {Fanatic} regains up to 5 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将你的弃牌堆洗入你的牌库。弃置5张牌。抽5张牌。若{Fanatic}的生命值不高于10，{Fanatic}恢复至多5点生命值。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：RosaryOfTheMysteries；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@RosaryOfTheMysteries/flavorQuotes/@TheArgentAdept/text",
     "original": "Ah! Connecting to a spiritual realm using an{BR}artifact of power! Not much of a musical{BR}instrument though.",
-    "translation": "",
-    "stage": 0,
+    "translation": "啊！借助蕴含力量的器物，{BR}与灵性领域相连！不过，{BR}它可不怎么像件乐器。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：RosaryOfTheMysteries / TheArgentAdept；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/12/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@RosaryOfTheMysteries/flavorReference",
     "original": "The Argent Adept, Prime Wardens Vol. 1, #129",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《原初守卫》第1卷第129期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：RosaryOfTheMysteries；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/12/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@SacrosanctMartyr/title",
     "original": "Sacrosanct Martyr",
-    "translation": "",
-    "stage": 0,
+    "translation": "殉道圣者",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：SacrosanctMartyr；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/13/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@SacrosanctMartyr/gameTexts/0/body/0",
     "original": "{Fanatic} deals herself up to 3 radiant damage. {Fanatic} deals 1 target X radiant damage, where X is the amount of damage dealt to {Fanatic} this turn.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Fanatic}对自己造成至多3点光耀伤害。{Fanatic}对1个目标造成X点光耀伤害，X为本回合{Fanatic}受到的伤害总量。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：SacrosanctMartyr；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@SacrosanctMartyr/flavorQuotes/@Fanatic/text",
     "original": "What you call a <b>sacrifice</b>,{BR}I consider a necessity.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你所谓的<b>牺牲</b>，{BR}在我看来，非做不可。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：SacrosanctMartyr / Fanatic；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/13/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@SacrosanctMartyr/flavorReference",
     "original": "Fanatic, Mystery Comics Vol. 1, #338",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信，《悬谜漫画》第1卷第338期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：SacrosanctMartyr；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/13/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@SanctifyingStrike/title",
     "original": "Sanctifying Strike",
-    "translation": "",
-    "stage": 0,
+    "translation": "净化打击",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：SanctifyingStrike；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/14/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@SanctifyingStrike/gameTexts/0/body/0",
     "original": "{Fanatic} deals 1 target 2 melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Fanatic}对1个目标造成2点近战伤害。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：SanctifyingStrike；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@SanctifyingStrike/gameTexts/1/body/0",
     "original": "Draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽1张牌。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：SanctifyingStrike；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@SanctifyingStrike/gameTexts/2/body/0",
     "original": "{Fanatic} regains 2 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Fanatic}恢复2点生命值。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：SanctifyingStrike；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@SanctifyingStrike/flavorQuotes/@Haka/text",
     "original": "The evil influence of this man has been lessened.{BR}The wounds he has caused can begin to heal.",
-    "translation": "",
-    "stage": 0,
+    "translation": "这人的邪恶影响已经减弱。{BR}他造成的创伤，也终于可以开始愈合了。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：SanctifyingStrike / Haka；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/14/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@SanctifyingStrike/flavorReference",
     "original": "Haka, Prime Wardens Vol. 1, #179",
-    "translation": "",
-    "stage": 0,
+    "translation": "哈卡，《原初守卫》第1卷第179期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：SanctifyingStrike；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/14/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@SmiteTheTransgressor/title",
     "original": "Smite the Transgressor",
-    "translation": "",
-    "stage": 0,
+    "translation": "惩戒罪徒",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：SmiteTheTransgressor；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/15/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@SmiteTheTransgressor/gameTexts/0/body/0",
     "original": "{Fanatic} deals 1 target 2 melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Fanatic}对1个目标造成2点近战伤害。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：SmiteTheTransgressor；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@SmiteTheTransgressor/gameTexts/1/body/0",
     "original": "If {Fanatic} has 10 or fewer HP, use up to 2 powers.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若{Fanatic}的生命值不高于10，使用至多2个异能。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：SmiteTheTransgressor；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@SmiteTheTransgressor/flavorQuotes/@CaptainCosmic/text",
     "original": "I am usually one to call for restraint,{BR}but now is hardly one of those times.",
-    "translation": "",
-    "stage": 0,
+    "translation": "平时我总劝人克制，{BR}不过眼下可不是这种时候。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：SmiteTheTransgressor / CaptainCosmic；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/15/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@SmiteTheTransgressor/flavorReference",
     "original": "Captain Cosmic, Prime Wardens Vol. 2 #58",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙队长，《原初守卫》第2卷第58期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：SmiteTheTransgressor；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/15/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@Undaunted/title",
     "original": "Undaunted",
-    "translation": "",
-    "stage": 0,
+    "translation": "无所畏惧",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：Undaunted；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/16/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@Undaunted/gameTexts/0/body/0",
     "original": "Whenever 1 damage would be dealt to {Fanatic}, −1 to that damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每当{Fanatic}将受到1点伤害时，该次伤害−1。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：Undaunted；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@Undaunted/gameTexts/1/body/0",
     "original": "If {Fanatic} has 10 or fewer HP and would be dealt 5 or more damage, −3 to that damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若{Fanatic}的生命值不高于10且将受到5点或更多伤害，该次伤害−3。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：Undaunted；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@Undaunted/flavorQuotes/@Ra/text",
     "original": "You took on <b>nine</b> gods by yourself.{BR}Will you not even take a moment to rest?!",
-    "translation": "",
-    "stage": 0,
+    "translation": "你独自迎战了<b>九位</b>神！{BR}难道连片刻都不肯歇息？！",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：Undaunted / Ra；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/16/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@Undaunted/flavorReference",
     "original": "Ra, Baptism by Fire #5",
-    "translation": "",
-    "stage": 0,
+    "translation": "拉神，《烈火洗礼》第5期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：Undaunted；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/16/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@WrathfulRetribution/title",
     "original": "Wrathful Retribution",
-    "translation": "",
-    "stage": 0,
+    "translation": "怒降天罚",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：WrathfulRetribution；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/17/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@WrathfulRetribution/gameTexts/0/body/0",
     "original": "{Fanatic} deals 1 target X radiant damage, where X is {Fanatic}’s maximum HP minus her current HP. Then, bury this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Fanatic}对1个目标造成X点光耀伤害，X为{Fanatic}的生命值上限减去其当前生命值。然后，埋藏此牌。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：WrathfulRetribution；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/17/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@WrathfulRetribution/flavorQuotes/@Fanatic/text",
     "original": "You have been judged and found <b>sorely</b> wanting.{BR}Perish!",
-    "translation": "",
-    "stage": 0,
+    "translation": "审判已定：你<b>罪孽深重</b>。{BR}受死吧！",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：WrathfulRetribution / Fanatic；类型：flavor.quote。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/17/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/cards/@WrathfulRetribution/flavorReference",
     "original": "Fanatic, Absolution #10",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信，《赦罪》第10期",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：WrathfulRetribution；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/cards/17/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/variants/@FanaticCharacter/title",
     "original": "First Appearance: Fanatic",
-    "translation": "",
-    "stage": 0,
+    "translation": "初次登场：狂信",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：card.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/variants/@FanaticCharacter/gameTexts/0/title",
     "original": "Divine Demand",
-    "translation": "",
-    "stage": 0,
+    "translation": "索求神恩",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：ability.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/variants/@FanaticCharacter/gameTexts/0/body/0",
     "original": "{Fanatic} deals herself 2 fixed psyhcic damage. Discover 1 Relic.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Fanatic}对自己造成2点固定精神伤害。发现1张遗器牌。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/variants/@FanaticCharacter/flippedGameTexts/0/title",
     "original": "Tenuous Faith",
-    "translation": "",
-    "stage": 0,
+    "translation": "信念动摇",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：ability.title。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/variants/@FanaticCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Power}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Power}。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/variants/@FanaticCharacter/flippedGameTexts/0/body/1",
     "original": "Destroy 1 Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1张持续牌。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/variants/@FanaticCharacter/flippedGameTexts/0/body/2",
     "original": "1 Hero discovers 1 Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄发现1张持续牌。",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：rules.body。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/variants/@FanaticCharacter/flavorReference",
     "original": "Mystery Comics Vol. 1 #338, Sept. 1974",
-    "translation": "",
-    "stage": 0,
+    "translation": "《悬谜漫画》第1卷第338期，1974年9月",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/variants/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "FanaticDeckList.json::turnTakers/@Fanatic/decks/@Fanatic/variants/@FanaticCharacter/flippedFlavorReference",
     "original": "Fanatic #27, July 1977",
-    "translation": "",
-    "stage": 0,
+    "translation": "《狂信》第27期，1977年7月",
+    "stage": 1,
     "context": "卡组：Fanatic；对象：FanaticCharacter；类型：flavor.reference。\n来源：FanaticDeckList.json#/turnTakers/0/decks/0/variants/0/flippedFlavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]
