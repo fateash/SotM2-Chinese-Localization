@@ -15,6 +15,22 @@ sys.path.insert(0, str(ROOT/'tools'))
 import build_villain_logos as pack
 
 class VillainArtTests(unittest.TestCase):
+    def test_invisible_specks_do_not_shrink_visible_logo(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            image=Image.new('RGBA',(200,200))
+            image.paste((200,100,50,255),(50,90,150,110))
+            image.putpixel((0,0),(255,255,255,1))
+            image.putpixel((199,199),(255,255,255,1))
+            image.save(root/'image.png')
+            row=dict(file='image.png',sourceSha256=hashlib.sha256((root/'image.png').read_bytes()).hexdigest(),sprite='test',width=120,height=40)
+            (root/'manifest.json').write_text(json.dumps({'entries':[row]}))
+            data=gzip.decompress(pack.build(root,root/'out.bytes').read_bytes())
+            result=Image.frombytes('RGBA',(120,40),data[32:])
+            box=result.getchannel('A').point(lambda a:255 if a>=128 else 0).getbbox()
+            self.assertGreater(box[2]-box[0],100)
+            self.assertLess(box[3]-box[1],26)
+
     def test_six_approved_sources_encode_with_unity_orientation_and_padding(self):
         with tempfile.TemporaryDirectory() as tmp:
             output = pack.build(ROOT/'art/villain-logos', Path(tmp)/'logos.bytes')

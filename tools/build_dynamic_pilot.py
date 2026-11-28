@@ -7,7 +7,7 @@ import shutil
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '0.1.43-rc.1'
+VERSION = '0.1.44-rc.1'
 def digest(p):
     return hashlib.sha256(p.read_bytes()).hexdigest()
 
@@ -19,7 +19,7 @@ def build(dll, out, commit):
     shutil.copy2(dll, package / 'payload/SotM2ChinesePrototype.dll')
     shutil.copy2(ROOT / 'probe/dynamic-pilot.json', package / 'payload/surface-probe.json')
     shutil.copy2(ROOT / 'probe/Manage-Dynamic.ps1', package / 'Manage.ps1')
-    shutil.copy2(ROOT / 'docs/DYNAMIC-PILOT-0.1.43.md', package / '使用说明.md')
+    shutil.copy2(ROOT / 'docs/DYNAMIC-PILOT-0.1.44.md', package / '使用说明.md')
     for filename, action in [('01-Install-Dynamic-Pilot.cmd', 'Install'), ('02-Collect-Evidence.cmd', 'Collect'), ('03-Restore-Previous.cmd', 'Restore')]:
         (package / filename).write_bytes(('@echo off\r\npowershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0Manage.ps1" -Action '+action+'\r\nset "rc=%errorlevel%"\r\npause\r\nexit /b %rc%\r\n').encode('ascii'))
     manifest = {

@@ -184,7 +184,7 @@ def validate_nonhero_matrix(matrix, contracts, root=ROOT):
 
 def validate_contracts(contract, templates, root=ROOT):
     required_files = {'runtime/DynamicDisplayRules.cs', 'runtime/SurfaceProbeRules.cs',
-                      'runtime/SurfaceProbe.cs', 'runtime/Plugin.cs', 'runtime/EnvironmentTitleFont.cs', 'runtime/VillainLogos.cs', 'runtime/VillainLogoRules.cs', 'runtime/DisplayRules.cs', 'runtime/RenderedDisplayRules.cs',
+                      'runtime/SurfaceProbe.cs', 'runtime/Plugin.cs', 'runtime/EnvironmentTitleFont.cs', 'runtime/VillainLogos.cs', 'runtime/VillainLogoRules.cs', 'runtime/VillainDeckBacks.cs', 'runtime/VillainDeckBackRules.cs', 'runtime/DisplayRules.cs', 'runtime/RenderedDisplayRules.cs',
                       'probe/dynamic-pilot.json'}
     if set(contract['reviewedFiles']) != required_files:
         raise ValueError('Coverage review must include every runtime routing file')
@@ -208,10 +208,12 @@ def validate_contracts(contract, templates, root=ROOT):
             raise ValueError('Family has no negative contract')
         for c in contexts:
             case = c.get('case', {})
-            if case.get('matchLayer', 'integrated') not in ('integrated', 'dynamic', 'villain-logo'):
+            if case.get('matchLayer', 'integrated') not in ('integrated', 'dynamic', 'villain-logo', 'villain-deckback'):
                 raise ValueError('Unknown contract match layer')
             if case.get('matchLayer') == 'villain-logo' and (not isinstance(case.get('boundLogo'), bool) or not isinstance(case.get('expectedSprite'), str)):
                 raise ValueError('Logo contract needs bound-role and expected identity')
+            if case.get('matchLayer') == 'villain-deckback' and (not all(isinstance(case.get(k), bool) for k in ('boundMain','deckBack','fullCard')) or not isinstance(case.get('expectedSprite'), str) or not all(isinstance(case.get(k), (int,float)) for k in ('width','height'))):
+                raise ValueError('Deck back contract needs bound role, view role, identity and dimensions')
             if case.get('matchLayer') == 'dynamic':
                 if case.get('catalogId') or not isinstance(case.get('integratedExpected'), str) or not case['integratedExpected']:
                     raise ValueError('Dynamic layer contract requires integrated output assertion')

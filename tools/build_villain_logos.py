@@ -23,12 +23,19 @@ def build(source, output):
         with Image.open(path) as image:
             if image.mode != 'RGBA' or image.getchannel('A').getextrema()[0] != 0:
                 raise ValueError('Transparent RGBA artwork required')
-            bbox = image.getchannel('A').getbbox()
+            # Generated PNGs may contain nearly invisible alpha=1 specks far
+            # outside the artwork. Use visible support for layout, retaining
+            # a small fringe for antialiasing rather than fitting to those specks.
+            bbox = image.getchannel('A').point(lambda value: 255 if value >= 8 else 0).getbbox()
             if not bbox:
                 raise ValueError('Empty logo')
+            bbox = (max(0,bbox[0]-2),max(0,bbox[1]-2),min(image.width,bbox[2]+2),min(image.height,bbox[3]+2))
             artwork = image.crop(bbox)
             width, height = row['width'], row['height']
-            scale = min((width - 8) / artwork.width, (height - 8) / artwork.height)
+            optical_scale = row.get('opticalScale', 1.0)
+            if not 0.5 <= optical_scale <= 1.0:
+                raise ValueError('Invalid optical scale')
+            scale = min((width - 8) / artwork.width, (height - 8) / artwork.height) * optical_scale
             artwork = artwork.resize((max(1, round(artwork.width * scale)), max(1, round(artwork.height * scale))), Image.Resampling.LANCZOS)
             canvas = Image.new('RGBA', (width, height))
             canvas.paste(artwork, ((width-artwork.width)//2, (height-artwork.height)//2))

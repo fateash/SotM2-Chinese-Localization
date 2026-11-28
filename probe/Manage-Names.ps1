@@ -32,6 +32,7 @@ $statePath=SafePath $GamePath $stateRelative
 $archiveRoot=SafePath $GamePath 'SotM2ChineseArchives'
 $names=@('SotM2ChinesePrototype.dll','surface-probe.json','sample-texts.json','NotoSansCJKsc-Regular.otf','OFL.txt')
 if($manifest.pluginFiles.PSObject.Properties.Name -contains 'NotoSansCJKsc-Bold.otf'){$names+=@('NotoSansCJKsc-Bold.otf')}
+if($manifest.pluginFiles.PSObject.Properties.Name -contains 'villain-deckbacks.bytes'){$names+=@('villain-deckbacks.bytes')}
 if($manifest.pluginFiles.PSObject.Properties.Name -contains 'villain-logos.bytes'){$names+=@('villain-logos.bytes')}
 if((($manifest.pluginFiles.PSObject.Properties.Name | Sort-Object) -join '|') -ne (($names | Sort-Object) -join '|')){throw 'Unexpected package file list.'}
 function ChineseConfig([string]$p){

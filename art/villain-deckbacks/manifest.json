@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "owner": "BaronBlade",
+      "sprite": "BaronBladeDeckBack",
+      "file": "BaronBlade.png",
+      "width": 600,
+      "height": 600,
+      "sourceSha256": "8676444f9638ad959409d1fc5017b0ef19611b336604557122378b01c3633400",
+      "liveStatus": "pending-0.1.44-small-deckback-live-review"
+    },
+    {
+      "owner": "AkashBhuta",
+      "sprite": "AkashBhutaDeckBack",
+      "file": "AkashBhuta.png",
+      "width": 600,
+      "height": 600,
+      "sourceSha256": "f95806f650af81aa8d65f767f837724a0d575132d153006f788f5a44462a7642",
+      "liveStatus": "pending-0.1.44-small-deckback-live-review"
+    },
+    {
+      "owner": "CitizenDawn",
+      "sprite": "CitizenDawnDeckBack",
+      "file": "CitizenDawn.png",
+      "width": 512,
+      "height": 512,
+      "sourceSha256": "0fe6a28c236e20b278890e03c759eacf517704b7c7092b58b56ba2f699bfbf29",
+      "liveStatus": "pending-0.1.44-small-deckback-live-review"
+    },
+    {
+      "owner": "GrandWarlordVoss",
+      "sprite": "GrandWarlordVossDeckBack",
+      "file": "GrandWarlordVoss.png",
+      "width": 600,
+      "height": 600,
+      "sourceSha256": "5d93066e9e6a4c5b2823a1f3b19c597b1059a686e839d5bfa0d0a6488a97e172",
+      "liveStatus": "pending-0.1.44-small-deckback-live-review"
+    },
+    {
+      "owner": "Omnitron",
+      "sprite": "OmnitronDeckBack",
+      "file": "Omnitron.png",
+      "width": 600,
+      "height": 600,
+      "sourceSha256": "28032bd500415a6272df8138df63d4133095269d700ecec76d7e8e5ce144639e",
+      "liveStatus": "pending-0.1.44-small-deckback-live-review"
+    },
+    {
+      "owner": "TheMatriarch",
+      "sprite": "TheMatriarchDeckBack",
+      "file": "TheMatriarch.png",
+      "width": 600,
+      "height": 600,
+      "sourceSha256": "91ac97a79e311ab40e7c09a755447d14761c29c6676d8b4d833daa0f2fc7876d",
+      "liveStatus": "pending-0.1.44-small-deckback-live-review"
+    }
+  ]
+}

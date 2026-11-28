@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.36",
+  "version": "0.1.44-rc.1",
   "policy": "按功能与代表场景验收；所有离线组合仍必须通过，未知拼接与独立特殊结算另列。",
   "groups": [
     {
@@ -1263,21 +1263,26 @@
     {
       "id": "villain-logo-art",
       "kind": "live-functional",
-      "purpose": "六个基础反派图片字标：新视觉批次，独立于已收束文字验收",
+      "purpose": "六基础反派完整字标比例、鸦母乌鸦恢复及小牌背；独立视觉批次",
       "families": [
-        "villain-logo-art"
+        "villain-logo-art",
+        "villain-deckback-art"
       ],
       "inventoryKeys": [],
       "representativeCases": [
         {
           "family": "villain-logo-art",
           "id": "BaronBlade-front"
+        },
+        {
+          "family": "villain-deckback-art",
+          "id": "Omnitron-small-deckback"
         }
       ],
       "scenarios": [
         {
           "id": "six-villains",
-          "check": "六基础反派原有字标的位置，角色大卡正反面、缩放",
+          "check": "六基础反派正反面字标比例；鸦母按恢复乌鸦后的完整徽记校准",
           "passCriteria": "六个中文名称无错字；字形、透明边缘、比例正确，无遮挡正文／生命值，刀锋刃尖不裁切",
           "status": "pending"
         },
@@ -1292,8 +1297,25 @@
           "check": "回主菜单、进入牌局、保存读档与重启",
           "passCriteria": "字标持续可见，按钮及数值行为正常",
           "status": "pending"
+        },
+        {
+          "id": "small-deckbacks",
+          "check": "六个基础反派小牌背、放大牌背、切换与撤销",
+          "passCriteria": "小牌背中文无残留英文，图稿构图及字形合格；大牌背正常，英雄／环境／变体不误替换",
+          "status": "pending"
         }
-      ]
+      ],
+      "previousFeedback": {
+        "version": "0.1.43-rc.1",
+        "bindingObserved": true,
+        "visualAccepted": false,
+        "issues": [
+          "部分字标比例不合适",
+          "鸦母缺失原字标乌鸦",
+          "全能智创小牌背英文，大牌背中文"
+        ],
+        "correctionOrder": "其他五款比例；恢复鸦母乌鸦后校准整体；六小牌背"
+      }
     }
   ],
   "closeout": {

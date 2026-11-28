@@ -52986,6 +52986,633 @@
       "observations": 139,
       "captureLimitReached": false,
       "exhaustive": false
+    },
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-215619-6eeb0c.zip",
+      "sha256": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+      "issues": [],
+      "version": "0.1.43-rc.1",
+      "buildId": "26880829",
+      "installed": {
+        "NotoSansCJKsc-Bold.otf": "c3db0d4817dca38f2c5a7f0f08a6f5fb5b4b9d0d4669297ec32052dc6c3862e1",
+        "SotM2ChinesePrototype.dll": "7d1bb331d95befe76ac6bf6a4c21b8f9f659ed4a43d5db9a600acc2110e5c91f",
+        "NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+        "sample-texts.json": "bc09ac44a13a9f1dafc9d5ded5a41fa1df57853561520c108749ad0545f01b7d",
+        "OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+        "villain-logos.bytes": "5c968a55073894e94475343a3bce4cf83e5d45b6cd5dfc4aa5a5334b847e4652",
+        "surface-probe.json": "8a393faca6a8bb23bdbf258268fb83e4fe7108fab5aa0a65996e366f2e2360c2"
+      },
+      "manifestSourceCommit": "3efc5055dcfeee582ebc5fdd2d4ed741ca608651",
+      "runtimeWarnings": [],
+      "applicationSignals": [
+        {
+          "objectName": "Text",
+          "source": "Options"
+        },
+        {
+          "objectName": "Text",
+          "source": "New Game"
+        },
+        {
+          "objectName": "Text",
+          "source": "Online\nMultiplayer"
+        },
+        {
+          "objectName": "Text",
+          "source": "Send Early \nAccess Feedback"
+        },
+        {
+          "objectName": "Text",
+          "source": "Credits"
+        },
+        {
+          "objectName": "Text",
+          "source": "Quick Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "How to Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "Achievements"
+        },
+        {
+          "objectName": "Text",
+          "source": "Early Access Info"
+        },
+        {
+          "objectName": "Text",
+          "source": "Help & Feedback"
+        },
+        {
+          "objectName": "Text",
+          "source": "Card Library"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Advanced"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Unlimited Undo"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Environment"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Back\n"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Randomize"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Play!"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Villain"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Heroes"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Choose an Environment"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Insula Primalis"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Freedom Tower"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Magmaria"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Megalopolis"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "The Ruins of Atlantis"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Wagner Mars Base"
+        },
+        {
+          "objectName": "Rating Label",
+          "source": "Peril: 2"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Choose a Villain"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Akash'Bhuta"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Baron Blade"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Citizen Dawn"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Grand Warlord Voss"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "The Matriarch"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Omnitron"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "IMPULSION BEAM INVENTOR"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "当Baron Blade将要被破坏时，改为：<sprite name=\"Flip\" color=#FFFFFF>\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若反派弃牌堆中有15张或更多牌，Baron Blade的地月牵引光束便会启动，将月球拉向地球。<b>游戏结束。</b>\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "villain"
+        },
+        {
+          "objectName": "Setup Label",
+          "source": "<b><i>Setup</i></b>: 召唤机动防御平台。"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "FIRST AMONG CITIZENS OF THE SUN"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若反派弃牌堆中至少有<sprite name=\"H\" color=#000000>张光民牌：<sprite name=\"Flip\" color=#FFFFFF>\r\n每局游戏，Citizen Dawn仅以此法翻面一次。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nCitizen Dawn对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000> minus 2点能量伤害。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "villain, citizen"
+        },
+        {
+          "objectName": "Setup Label",
+          "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张光民牌。"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "CONQUERING ALIEN WARLORD"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "场上每有一张缚兵牌，Grand Warlord Voss受到的伤害便−2。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若场上没有缚兵牌：<sprite name=\"Flip\" color=#FFFFFF>\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若场上有10个或更多反派目标，索拉宪大军便已占领这颗星球。Grand Warlord Voss已征服地球。<b>游戏结束</b>。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "villain, thorathian"
+        },
+        {
+          "objectName": "Setup Label",
+          "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF>张缚兵牌。"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "HER AVIAN MAJESTY"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若鸦母面具不在场：<sprite name=\"Flip\" color=#FFFFFF>\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nThe Matriarch对每个英雄目标造成1点投射伤害。\r\n"
+        },
+        {
+          "objectName": "Setup Label",
+          "source": "<b><i>Setup</i></b>: 召唤鸦母面具。"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SELF-AWARE ROBOTICS FACTORY"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "Omnitron生命值为0且为场上唯一装置牌时，英雄才能获胜。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n发现1张装置牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>PLAY PHASE</style></voffset>\r\n<sprite name=\"Flip\" color=#FFFFFF>。Omnitron每反派回合仅翻面一次。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n发动所有反派牌的<nobr><sprite name=\"Fabricate\" color=#FFFFFF> <style=BoldItalic>FABRICATE</style></nobr><i>（含本阶段打出的牌）</i>。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "villain, device, indestructible"
+        },
+        {
+          "objectName": "Setup Label",
+          "source": "<b><i>Setup</i></b>: 发现1张装置牌。发现1张持续牌。"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "CHAOS-BOUND CREATOR"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "环境弃牌堆洗入环境牌库时，Akash'Bhuta恢复<sprite name=\"H\" color=#000000>点生命值。然后：<sprite name=\"Flip\" color=#FFFFFF>\r\n任意非英雄目标打出后，弃置环境牌库顶的一张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n发现1张原肢牌。\r\n"
+        },
+        {
+          "objectName": "Setup Label",
+          "source": "<b><i>Setup</i></b>: 发现<sprite name=\"H\" color=#FFFFFF> minus 1张原肢牌。"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "AVATAR OF DESTRUCTION"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "环境弃牌堆洗入环境牌库时，Akash'Bhuta恢复<sprite name=\"H\" color=#000000>点生命值。然后：<sprite name=\"Flip\" color=#FFFFFF>\r\n任意非英雄目标被破坏后，弃置环境牌库顶的一张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nAkash'Bhuta对每个非反派目标造成2点火焰伤害。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "ARMORED MAD SCIENTIST"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "翻至此面时，破坏所有反派持续牌，并将Baron Blade的生命值设为30。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nBaron Blade对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>点近战伤害。Baron Blade对每个英雄目标造成1点能量伤害。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "APOTHEOSIS OF THE SUN'S POWER"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "Citizen Dawn免疫伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若场上至少有<sprite name=\"H\" color=#000000>张光民牌：<sprite name=\"Flip\" color=#FFFFFF>\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n发现1张光民牌。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SUPER-THORATHIAN WARRIOR"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "此牌翻至此面时，发现1张装置牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若场上有2张或更多缚兵牌：<sprite name=\"Flip\" color=#FFFFFF>\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n展示反派牌库顶的一张牌。若该牌是缚兵牌，将其打出。否则，将其放回牌库顶。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nGrand Warlord Voss对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000> minus 1点能量伤害。Grand Warlord Voss对生命值最低的英雄目标造成<sprite name=\"H\" color=#000000> minus 2点火焰伤害。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "RULER OF THE FLOCK"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nThe Matriarch对生命值最高的<sprite name=\"H\" color=#000000> minus 2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "RAMPAGING ROBOT"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "Omnitron生命值为0且为场上唯一装置牌时，英雄才能获胜。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n发现1张持续牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>PLAY PHASE</style></voffset>\r\n<sprite name=\"Flip\" color=#FFFFFF>。Omnitron每反派回合仅翻面一次。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n发动所有反派牌的<nobr><sprite name=\"Exterminate\" color=#FFFFFF> <style=BoldItalic>EXTERMINATE</style></nobr><i>（含本阶段打出的牌）</i>。\r\n"
+        },
+        {
+          "objectName": "Rating Label",
+          "source": "Difficulty: 6"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Choose 3 to 5 Heroes"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Absolute Zero"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "The Argent Adept"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Bunker"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Captain Cosmic"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Fanatic"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Haka"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Legacy"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Ra"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Tachyon"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Tempest"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Unity"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "The Wraith"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "hero"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerTitle>Squall</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Tempest对每个非英雄目标各造成1点投射伤害。\r\n</style>"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerTitle>Bot Hack</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>破坏1张物品牌。若如此做，打出或发现1张机偶牌。\r\n</style>"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerTitle>Stealth</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>直到你的<nobr><b>START PHASE</b></nobr>，The Wraith受到的<nobr>伤害−1</nobr>。\r\n</style>"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "SETUP"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Menu"
+        },
+        {
+          "objectName": "Turn Taker Label",
+          "source": "Omnitron"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "CHAIN LIGHTNING"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“I will let <b>nothing</b> stop me from saving as many\r\nMaerynians as I can find. And you’re in my way.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Tempest, Cosmic Tales Vol. 2, #36"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "发现1张气象牌。\r\nTempest对至多X个目标各造成3点闪电伤害，X为场上的气象牌数量加1。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "one-shot"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "DISPLACED AMBASSADOR"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Welcome to this planet we call Earth!\r\nIt is an honor to meet you, Mr. Dalton.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Legacy, Stranger in a Strange World #3"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "FLASH FLOOD WARNING"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Keep your heads up, chaps!\r\nWe’ll all be burnt to a crisp if there’s not some\r\nform of timely intervention!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Captain Cosmic, Cosmic Tales Vol. 2, #29"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏至多2张环境牌。若以此法破坏了任何环境牌，破坏此牌。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing, weather, limited"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "S-83 ASSAULT DRONES"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Hundreds of those skittering knife-legged\r\nrobots surrounded me! It was <b>GREAT</b>!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Haka, Singularity #5"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最低的2个英雄目标各造成<b>*2*</b>点近战伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n直到反派<nobr><b>START PHASE</b></nobr>，任意装置牌受到英雄目标造成的伤害后，此牌对该伤害的来源造成2点近战伤害。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "device"
+        },
+        {
+          "objectName": "Description Label",
+          "source": "Omnitron discovered:"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "DISINTEGRATION RAY"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“One direct hit from that thing\r\nand I'm back in the cryo chamber for a week.\r\nAnd that's me being hopeful here.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Absolute Zero, Freedom Five #311"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\nOmnitron对生命值最低的英雄目标造成<b>*3*</b>点能量伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n若场上有超过<b>*3*</b>张反派持续牌，破坏1张反派持续牌。若以此法破坏了一张牌，埋藏每位英雄弃牌堆顶的一张牌。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "START PHASE"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "S-84 AUTOMATON DRONES"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“The endless sounds of stomping metal feet\r\nfilled the air. There was no element of\r\nsurprise. They didn't need it.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Wraith, Singularity #7"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最高的3个英雄目标各造成<b>*2*</b>点能量伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n发现1张装置牌。\r\n"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "PLAY PHASE"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SINGULARITY PROJECTOR"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Assuming direct control...”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Omnitron, Singularity #8"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\nOmnitron对生命值最高的英雄角色造成X点闪电伤害，X为该英雄场地区域中的物品牌数量加1。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n破坏<b>*1*</b>张物品牌。\r\n"
+        },
+        {
+          "objectName": "Description Label",
+          "source": "Omnitron played:"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "END PHASE"
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 0 targets"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>S-83 Assault Drones:</b> Click 2 targets to deal them <nobr>2 melee</nobr> damage."
+        },
+        {
+          "objectName": "Title Label",
+          "source": "ADAPTIVE PLATING SUBROUTINE"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "ELECTRO-MAGNETIC RAILGUN"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "E-P EXPLOSIVE"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "FLECHETTE LAUNCHER"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "PROTOMATTER CONVERTER"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "S-85 REPAIR DRONES"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“This collection of man-made trash\r\ndares to assault an angel of the Lord?!\r\nThere can be <b>no</b> absolution for you!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Fanatic, Mystery Comics Vol. 1 #359"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\nOmnitron对生命值最高的2个英雄目标各造成<b>*3*</b>点投射伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n若场上有超过<b>*3*</b>张反派持续牌，破坏1张反派持续牌。若以此法破坏了一张牌，每位英雄弃置1张牌。\r\n"
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 1 target"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Send Feedback"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "How to Play"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Options"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Quit"
+        },
+        {
+          "objectName": "Text",
+          "source": "Continue Game"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "GRAPPLING HOOK"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Silent, unexpected - what can I say?\r\nI like to travel in style.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Wraith, Mystery Comics Vol 2, #207"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "IMPROMPTU INVENTION"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“This... wasn’t at all what I intended to build.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Wraith, Science & Progress One-Shot"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "LEVERAGE"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“I have to say, I’m surprised at how easy to talk to you\r\nare! I feel like I’ve known you my whole life.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Mark Benedetto, Rook City Renegades #72"
+        }
+      ],
+      "observations": 153,
+      "captureLimitReached": false,
+      "exhaustive": false
     }
   ],
   "samples": [
@@ -53038,6 +53665,12 @@
           "session": "b1feadfc4b8261ef428378b66ee210cb8b6fe62f417cfd8ddbfea8c220046876",
           "line": 226,
           "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 283,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -54187,6 +54820,12 @@
           "session": "b1feadfc4b8261ef428378b66ee210cb8b6fe62f417cfd8ddbfea8c220046876",
           "line": 234,
           "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 294,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -55650,6 +56289,12 @@
           "line": 1092,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 385,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -56109,6 +56754,12 @@
           "session": "eba2dc6e8704b7eead94aa30fbd19c85fb26a22e210b5dfb912dce17714ac592",
           "line": 642,
           "version": "0.1.39-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 562,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -56786,6 +57437,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 466,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 632,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -57490,6 +58147,12 @@
           "line": 795,
           "version": "0.1.29-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 622,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -58192,6 +58855,12 @@
           "line": 615,
           "version": "0.1.35-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 621,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -58786,6 +59455,12 @@
           "line": 516,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 57,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -59326,6 +60001,31 @@
     },
     {
       "objectName": "Body Label",
+      "path": "Canvas/Temporary Full Card Panel/CardView S83AssaultDrones-0 FullCardFront (Temporary)/Body Box/Body Label",
+      "cardId": "S83AssaultDrones",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> <b>灭绝</b></style>\r\n此牌对生命值最低的2个英雄目标各造成<b>*2*</b>点近战伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> <b>制造</b></style>\r\n直到反派<nobr><b>开始阶段</b></nobr>，任意装置牌受到英雄目标造成的伤害后，此牌对该伤害的来源造成2点近战伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "0a1d9c3e0745797d5a90a27b",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 509,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
       "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Hand/Card Container/CardView EydisarsHorn-0 FullCardFront/Body Box/Body Label",
       "cardId": "EydisarsHorn",
       "source": "<style=PowerHeading><b>异能:</b> </style><style=PowerBody>发动1张旋律牌的<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>演奏</style></nobr>。然后，发动1个<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>伴奏</style></nobr>。\r\n</style>",
@@ -59398,6 +60098,12 @@
           "session": "9806d2272ea357f2f86c103a0392f029849c2d648b4505e4836ed608063b3aa2",
           "line": 207,
           "version": "0.1.38-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 351,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -60950,6 +61656,31 @@
     },
     {
       "objectName": "Body Label",
+      "path": "Canvas/Temporary Full Card Panel/CardView DisintegrationRay-0 FullCardFront (Temporary)/Body Box/Body Label",
+      "cardId": "DisintegrationRay",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> <b>灭绝</b></style>\r\n全能智创对生命值最低的英雄目标造成<b>*3*</b>点能量伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> <b>制造</b></style>\r\n若场上有超过<b>*3*</b>张反派持续牌，破坏1张反派持续牌。若以此法破坏了一张牌，埋藏每位英雄弃牌堆顶的一张牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "0d0405e4b2e2b700dea7d90e",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 524,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
       "path": "Canvas/Main Panel/Haka/Inner Panel/Foreground Elements/Hand/Card Container/CardView CrystalloidBehemoth-1 FullCardFront/Body Box/Body Label",
       "cardId": "CrystalloidBehemoth",
       "source": "此牌被破坏时，将其加入1名英雄的手牌。此牌不能从英雄的手牌中打出。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n此牌对除自身以外的每个目标造成1点火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n此牌对除自身以外生命值最高的目标造成4点近战伤害。\r\n",
@@ -61249,6 +61980,31 @@
           "line": 649,
           "version": "0.1.25-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Temporary Full Card Panel/CardView SingularityProjector-1 FullCardFront (Temporary)/Body Box/Body Label",
+      "cardId": "SingularityProjector",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\nOmnitron对生命值最高的英雄角色造成X点闪电伤害，X为该英雄场地区域中的物品牌数量加1。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n破坏<b>*1*</b>张物品牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "0da595551ee063ea2665544c",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 558,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -61598,6 +62354,12 @@
           "session": "eba2dc6e8704b7eead94aa30fbd19c85fb26a22e210b5dfb912dce17714ac592",
           "line": 622,
           "version": "0.1.39-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 506,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ]
@@ -62338,6 +63100,12 @@
           "line": 444,
           "version": "0.1.41-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 528,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -62748,6 +63516,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1065,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 161,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ],
@@ -65173,6 +65947,12 @@
           "line": 1098,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 393,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -65489,6 +66269,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 48,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 50,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -66758,6 +67544,31 @@
       ]
     },
     {
+      "objectName": "Setup Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView TheMatriarchCharacter-0 FullCardFront/Setup Label",
+      "cardId": "TheMatriarchCharacter",
+      "source": "<b><i>Setup</i></b>: 召唤鸦母面具。",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "1662e25233bee2251b31460d",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 240,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Text",
       "path": "Canvas/Buttons & News/Early Access Info Button/Text",
       "cardId": "",
@@ -66778,6 +67589,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 602,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 693,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -66861,6 +67678,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 537,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 81,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -67461,6 +68284,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 31,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 35,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -68668,6 +69497,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1138,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 441,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -71831,6 +72666,12 @@
           "line": 253,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 549,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -72917,6 +73758,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1113,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 412,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ],
@@ -74267,6 +75114,31 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView S83AssaultDrones-0 SmallCardFront/Tooltip/CardView S83AssaultDrones-0 FullCardFront/Body Box/Body Label",
+      "cardId": "S83AssaultDrones",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最低的2个英雄目标各造成<b>*2*</b>点近战伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n直到反派<nobr><b>START PHASE</b></nobr>，任意装置牌受到英雄目标造成的伤害后，此牌对该伤害的来源造成2点近战伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "22ad731fa0db27a7330866e7",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 615,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Hint Label",
       "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
       "cardId": "",
@@ -74721,6 +75593,12 @@
           "line": 1110,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 409,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -74959,6 +75837,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1134,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 435,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -75787,6 +76671,12 @@
           "line": 506,
           "version": "0.1.41-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 623,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -76218,6 +77108,12 @@
           "line": 70,
           "version": "0.1.41-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 566,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -76243,6 +77139,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 600,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 690,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -77572,6 +78474,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1104,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 401,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ],
@@ -79025,6 +79933,12 @@
           "line": 1056,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 149,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -79841,6 +80755,12 @@
           "session": "b1feadfc4b8261ef428378b66ee210cb8b6fe62f417cfd8ddbfea8c220046876",
           "line": 197,
           "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 205,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -80757,6 +81677,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1062,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 157,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ],
@@ -82354,6 +83280,12 @@
           "line": 604,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 695,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -83923,6 +84855,12 @@
           "line": 229,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 187,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -85156,6 +86094,31 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Temporary Full Card Panel/CardView S84AutomatonDrones-1 FullCardFront (Temporary)/Body Box/Body Label",
+      "cardId": "S84AutomatonDrones",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> <b>灭绝</b></style>\r\n此牌对生命值最高的3个英雄目标各造成<b>*2*</b>点能量伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> <b>制造</b></style>\r\n发现1张装置牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "34ea7ec890a45835b8c8f240",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 544,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ElectroPulseExplosive-0 FullCardFront/Effect Panel/Effect View(Clone)/Label",
       "cardId": "ElectroPulseExplosive",
@@ -86037,6 +87000,12 @@
           "line": 598,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 688,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -86781,6 +87750,12 @@
           "line": 522,
           "version": "0.1.41-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 64,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -87142,6 +88117,12 @@
           "line": 162,
           "version": "0.1.31-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 225,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -87448,6 +88429,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 464,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 630,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -87927,6 +88914,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 559,
           "version": "0.1.41-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 117,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ],
@@ -90021,6 +91014,12 @@
           "line": 462,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 628,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -90660,6 +91659,31 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Temporary Full Card Panel/CardView S83AssaultDrones-0 FullCardFront (Temporary)/Body Box/Body Label",
+      "cardId": "S83AssaultDrones",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最低的2个英雄目标各造成<b>*2*</b>点近战伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n直到反派<nobr><b>START PHASE</b></nobr>，任意装置牌受到英雄目标造成的伤害后，此牌对该伤害的来源造成2点近战伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "3fc68b17a398fe0bbbaf8b01",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 503,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
       "cardId": "LegacyCharacter",
@@ -91175,6 +92199,12 @@
           "line": 1136,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 437,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -91634,6 +92664,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 33,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 37,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -93216,6 +94252,12 @@
           "line": 225,
           "version": "0.1.33-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 281,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -93819,6 +94861,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1116,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 415,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ],
@@ -95955,6 +97003,12 @@
           "line": 139,
           "version": "0.1.38-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 259,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -97396,6 +98450,31 @@
           "session": "ad1df5ed30ba9e9287bc9d6234debbca40c03c07536b91850d37cd67b61fe0f3",
           "line": 693,
           "version": "0.1.30-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S83AssaultDrones-0 FullCardFront/Body Box/Body Label",
+      "cardId": "S83AssaultDrones",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最低的2个英雄目标各造成<b>*2*</b>点近战伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n直到反派<nobr><b>START PHASE</b></nobr>，任意装置牌受到英雄目标造成的伤害后，此牌对该伤害的来源造成2点近战伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "4b025161245ceff08a996b6d",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 618,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -99197,6 +100276,12 @@
           "line": 447,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 531,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -99375,6 +100460,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 42,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 46,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -104365,6 +105456,12 @@
           "line": 224,
           "version": "0.1.33-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 279,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -105040,6 +106137,12 @@
           "line": 594,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 684,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -105106,6 +106209,12 @@
           "line": 37,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 41,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -105158,6 +106267,12 @@
           "session": "9806d2272ea357f2f86c103a0392f029849c2d648b4505e4836ed608063b3aa2",
           "line": 209,
           "version": "0.1.38-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 353,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -107271,6 +108386,12 @@
           "line": 659,
           "version": "0.1.30-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 484,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -107480,6 +108601,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1139,
           "version": "0.1.40-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 443,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -108314,6 +109441,12 @@
           "line": 599,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 689,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -108932,6 +110065,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1091,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 381,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ],
@@ -110608,6 +111747,31 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView TheMatriarchCharacter-0 FullCardFront/Body Box/Body Label",
+      "cardId": "TheMatriarchCharacter",
+      "source": "<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n若鸦母面具不在场：<sprite name=\"Flip\" color=#FFFFFF>\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n鸦母对每个英雄目标造成1点投射伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "5e3384d1f5bbdd2f1d1af02d",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 242,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/Fanatic/Inner Panel/Character Card Container/FanaticCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
       "cardId": "FanaticCharacter",
@@ -110639,6 +111803,31 @@
           "line": 705,
           "version": "0.1.27-rc.1",
           "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>S-83 Assault Drones:</b> Click 2 targets to deal them <nobr>2 melee</nobr> damage.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "5e3fb6c316680c4a5dd6cc41",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 573,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -111709,6 +112898,12 @@
           "line": 565,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 170,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -111761,6 +112956,12 @@
           "session": "0c1112a9d7977e2498fb56a357c095ad7d478c572a25a1cfe065553bd1c6da0b",
           "line": 156,
           "version": "0.1.31-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 220,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -111924,6 +113125,12 @@
           "session": "eba2dc6e8704b7eead94aa30fbd19c85fb26a22e210b5dfb912dce17714ac592",
           "line": 640,
           "version": "0.1.39-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 560,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ]
@@ -112664,6 +113871,12 @@
           "line": 544,
           "version": "0.1.41-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 96,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -112717,6 +113930,12 @@
           "session": "b1feadfc4b8261ef428378b66ee210cb8b6fe62f417cfd8ddbfea8c220046876",
           "line": 205,
           "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 316,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -115735,6 +116954,31 @@
       "cardButtonCandidate": false
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Hand/Card Container/CardView ImpromptuInvention-0 FullCardFront/Body Box/Body Label",
+      "cardId": "ImpromptuInvention",
+      "source": "抽1张牌。\r\n发现1张物品牌。\r\n你可以打出1张牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "649871723d4828681e4841a8",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 658,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Hint Label",
       "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
       "cardId": "",
@@ -117606,6 +118850,31 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Temporary Full Card Panel/CardView S84AutomatonDrones-1 FullCardFront (Temporary)/Body Box/Body Label",
+      "cardId": "S84AutomatonDrones",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最高的3个英雄目标各造成<b>*2*</b>点能量伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n发现1张装置牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "6726a9ab00fd92400f4f06a3",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 540,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Character Card Container/GrandWarlordVossCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
       "cardId": "GrandWarlordVossCharacter",
@@ -119032,6 +120301,12 @@
           "line": 130,
           "version": "0.1.38-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 360,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -119345,6 +120620,12 @@
           "line": 195,
           "version": "0.1.35-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 428,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -119369,6 +120650,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 596,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 686,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -120143,6 +121430,31 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 1011,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Hand/Card Container/CardView DisplacedAmbassador-2 FullCardFront/Body Box/Body Label",
+      "cardId": "DisplacedAmbassador",
+      "source": "展示每个英雄牌库的顶牌。将以此法展示的非物品牌放回原处。打出以此法展示的物品牌。\r\n每位英雄抽1张牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "6bc54fda6e921492ba044d78",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 477,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -120928,6 +122240,12 @@
           "session": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
           "line": 92,
           "version": "0.1.27-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 645,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -122571,6 +123889,31 @@
     },
     {
       "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView DisintegrationRay-0 SmallCardFront/Tooltip/CardView DisintegrationRay-0 FullCardFront/Body Box/Body Label",
+      "cardId": "DisintegrationRay",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\nOmnitron对生命值最低的英雄目标造成<b>*3*</b>点能量伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n若场上有超过<b>*3*</b>张反派持续牌，破坏1张反派持续牌。若以此法破坏了一张牌，埋藏每位英雄弃牌堆顶的一张牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "6f5c334ff056fc420a13e4e0",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 614,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
       "path": "Canvas/Temporary Full Card Panel/CardView TiakiDefender-2 FullCardFront (Temporary)/Body Box/Body Label",
       "cardId": "TiakiDefender",
       "source": "每当盟友将受到非英雄目标造成的伤害时，你可以将该次伤害转移给哈卡。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n",
@@ -122682,6 +124025,12 @@
           "session": "2ef2fb8dd5c1ab639e0a2d25ae4b164b723eedc36b3c47851400c47dd2d73982",
           "line": 613,
           "version": "0.1.35-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 468,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -123175,6 +124524,12 @@
           "line": 531,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 73,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -123200,6 +124555,31 @@
           "session": "eba2dc6e8704b7eead94aa30fbd19c85fb26a22e210b5dfb912dce17714ac592",
           "line": 484,
           "version": "0.1.39-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Hand/Card Container/CardView Leverage-0 FullCardFront/Body Box/Body Label",
+      "cardId": "Leverage",
+      "source": "抽4张牌。\r\n搜集1张牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "7075a66c88bc2e7f5a424207",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 668,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -123738,6 +125118,12 @@
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 225,
           "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 182,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -124533,6 +125919,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 84,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 569,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ],
@@ -125891,6 +127283,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 41,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 45,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -127410,6 +128808,12 @@
           "line": 550,
           "version": "0.1.41-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 105,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -128673,6 +130077,31 @@
     },
     {
       "objectName": "Body Label",
+      "path": "Canvas/Temporary Full Card Panel/CardView SingularityProjector-1 FullCardFront (Temporary)/Body Box/Body Label",
+      "cardId": "SingularityProjector",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> <b>灭绝</b></style>\r\n全能智创对生命值最高的英雄角色造成X点闪电伤害，X为该英雄场地区域中的物品牌数量加1。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> <b>制造</b></style>\r\n破坏<b>*1*</b>张物品牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "7a8de7b87278d27ef22a279b",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 563,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
       "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/CardView ByFlameReformed-2 FullCardFront/Body Box/Body Label",
       "cardId": "ByFlameReformed",
       "source": "抽1张牌。\r\n召唤拉神权杖。\r\n你可以打出1张牌。\r\n",
@@ -128863,6 +130292,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 518,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 59,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ],
@@ -129810,6 +131245,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 73,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 447,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -131021,6 +132462,12 @@
           "line": 1050,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 141,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -131326,6 +132773,31 @@
       ]
     },
     {
+      "objectName": "Title Label",
+      "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Active Deck View/Card Parent/CardView ImpendingCasualty-1 SmallCardBack/Environment Title Background/Title Label",
+      "cardId": "ImpendingCasualty",
+      "source": "巨都会",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": true,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": true,
+      "buildId": "26880829",
+      "id": "7ebc6e6cab5aa8da94636ee2",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 455,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Body Label",
       "path": "Canvas/Temporary Full Card Panel/CardView HakaOfFrenzy-0 FullCardFront (Temporary)/Body Box/Body Label",
       "cardId": "HakaOfFrenzy",
@@ -131356,6 +132828,31 @@
           "session": "0c1112a9d7977e2498fb56a357c095ad7d478c572a25a1cfe065553bd1c6da0b",
           "line": 828,
           "version": "0.1.31-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Hand/Card Container/CardView ImpromptuInvention-3 FullCardFront/Body Box/Body Label",
+      "cardId": "ImpromptuInvention",
+      "source": "抽1张牌。\r\n发现1张物品牌。\r\n你可以打出1张牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "7f01fc9dc2aaba81cbafad1d",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 659,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -133623,6 +135120,12 @@
           "line": 249,
           "version": "0.1.41-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 546,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -134765,6 +136268,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 553,
           "version": "0.1.41-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 109,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ],
@@ -137547,6 +139056,12 @@
           "line": 141,
           "version": "0.1.38-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 264,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -139113,6 +140628,31 @@
           "session": "cd5b2d25395de0cacbefbc5ec51827aea87c0e0b09943ef35939c8375d17abd5",
           "line": 420,
           "version": "0.1.22-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView TheMatriarchCharacter-0 FullCardBack/Body Box/Body Label",
+      "cardId": "TheMatriarchCharacter",
+      "source": "<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n鸦母对生命值最高的<sprite name=\"H\" color=#000000>减2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "8b8fd760b7cdeb1d397b386d",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 342,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -140878,6 +142418,12 @@
           "line": 1122,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 421,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -140903,6 +142449,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 603,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 694,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -142788,6 +144340,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 535,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 79,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -145049,6 +146607,12 @@
           "line": 536,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 80,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -145459,6 +147023,12 @@
           "session": "b1feadfc4b8261ef428378b66ee210cb8b6fe62f417cfd8ddbfea8c220046876",
           "line": 207,
           "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 318,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -145976,6 +147546,12 @@
           "session": "9806d2272ea357f2f86c103a0392f029849c2d648b4505e4836ed608063b3aa2",
           "line": 133,
           "version": "0.1.38-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 361,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -146841,6 +148417,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 547,
           "version": "0.1.41-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 101,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ],
@@ -148638,6 +150220,12 @@
           "line": 601,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 691,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -148945,6 +150533,31 @@
           "session": "b1feadfc4b8261ef428378b66ee210cb8b6fe62f417cfd8ddbfea8c220046876",
           "line": 541,
           "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Temporary Full Card Panel/CardView DisintegrationRay-0 FullCardFront (Temporary)/Body Box/Body Label",
+      "cardId": "DisintegrationRay",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\nOmnitron对生命值最低的英雄目标造成<b>*3*</b>点能量伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n若场上有超过<b>*3*</b>张反派持续牌，破坏1张反派持续牌。若以此法破坏了一张牌，埋藏每位英雄弃牌堆顶的一张牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "9d600e823006bd6d8b58739e",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 521,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -151322,6 +152935,12 @@
           "line": 35,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 39,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -151825,6 +153444,12 @@
           "line": 135,
           "version": "0.1.38-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 356,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -151877,6 +153502,12 @@
           "session": "b1feadfc4b8261ef428378b66ee210cb8b6fe62f417cfd8ddbfea8c220046876",
           "line": 195,
           "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 200,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -153128,6 +154759,12 @@
           "line": 680,
           "version": "0.1.30-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 617,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -153308,6 +154945,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 556,
           "version": "0.1.41-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 113,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ],
@@ -153566,6 +155209,12 @@
           "line": 528,
           "version": "0.1.41-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 70,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -153621,6 +155270,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 597,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 687,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -153807,6 +155462,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1068,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 165,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ],
@@ -154429,6 +156090,12 @@
           "line": 1088,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 377,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -154844,6 +156511,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 46,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 634,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -156118,6 +157791,12 @@
           "line": 227,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 185,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -157091,6 +158770,12 @@
           "line": 50,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 52,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -157558,6 +159243,31 @@
           "session": "b1feadfc4b8261ef428378b66ee210cb8b6fe62f417cfd8ddbfea8c220046876",
           "line": 459,
           "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Buttons & News/Main Buttons/Continue Game/Text",
+      "cardId": "",
+      "source": "继续游戏",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "aab1307f81566830b2eab987",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 692,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -159358,6 +161068,12 @@
           "line": 794,
           "version": "0.1.29-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 465,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -159853,6 +161569,12 @@
           "line": 541,
           "version": "0.1.41-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 92,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -160230,6 +161952,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 460,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 626,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -161040,6 +162768,31 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView TheMatriarchCharacter-0 FullCardBack/Body Box/Body Label",
+      "cardId": "TheMatriarchCharacter",
+      "source": "<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nThe Matriarch对生命值最高的<sprite name=\"H\" color=#000000> minus 2个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：<sprite name=\"Flip\" color=#FFFFFF>\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "b012d210a3535b6ca5273b7d",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 340,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Hint Label",
       "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
       "cardId": "",
@@ -161676,6 +163429,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 455,
           "version": "0.1.41-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 570,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ]
@@ -162569,6 +164328,12 @@
           "session": "9806d2272ea357f2f86c103a0392f029849c2d648b4505e4836ed608063b3aa2",
           "line": 138,
           "version": "0.1.38-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 362,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -166714,6 +168479,31 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView BaronBladeCharacter-0 FullCardBack/Body Box/Body Label",
+      "cardId": "BaronBladeCharacter",
+      "source": "翻至此面时，破坏所有反派持续牌，并将Baron Blade的生命值设为30。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nBaron Blade对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>点近战伤害。Baron Blade对每个英雄目标造成1点能量伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "b97c99463ad540a87ca55e93",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 303,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Character Card Container/TheMatriarchCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
       "cardId": "TheMatriarchCharacter",
@@ -167518,6 +169308,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1059,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 153,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ],
@@ -171909,6 +173705,12 @@
           "line": 232,
           "version": "0.1.33-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 292,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -172169,6 +173971,12 @@
           "line": 39,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 43,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -172219,6 +174027,31 @@
           "line": 311,
           "version": "0.1.32-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Title Label",
+      "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Selected Item(s)/Megalopolis/BankHeistInProgress/Title Box/Title Label",
+      "cardId": "BankHeistInProgress",
+      "source": "巨都会",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": true,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": true,
+      "buildId": "26880829",
+      "id": "c0dcccd832eb418e7d230c23",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 127,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -175476,6 +177309,12 @@
           "line": 267,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 333,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -178680,6 +180519,12 @@
           "line": 1053,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 145,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -179578,6 +181423,12 @@
           "line": 1142,
           "version": "0.1.40-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 452,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -179787,6 +181638,12 @@
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 265,
           "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 331,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -181451,6 +183308,31 @@
           "session": "ad1df5ed30ba9e9287bc9d6234debbca40c03c07536b91850d37cd67b61fe0f3",
           "line": 1024,
           "version": "0.1.30-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView BaronBladeCharacter-0 FullCardBack/Body Box/Body Label",
+      "cardId": "BaronBladeCharacter",
+      "source": "翻至此面时，破坏所有反派持续牌，并将刀锋男爵的生命值设为30。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n刀锋男爵对生命值最高的英雄目标造成<sprite name=\"H\" color=#000000>点近战伤害。刀锋男爵对每个英雄目标造成1点能量伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "cf582aa05a8ba8e7a98e3a8e",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 305,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -183551,6 +185433,31 @@
       ]
     },
     {
+      "objectName": "Rating Label",
+      "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+      "cardId": "",
+      "source": "Peril: 2",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "d28e2573bb375d5ea1823518",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 128,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Power Container/292/UsePower-TheArgentAdept-TheArgentAdeptCharacter/Label",
       "cardId": "TheArgentAdeptCharacter",
@@ -184007,6 +185914,12 @@
           "line": 1095,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 389,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -184291,6 +186204,12 @@
           "session": "b1feadfc4b8261ef428378b66ee210cb8b6fe62f417cfd8ddbfea8c220046876",
           "line": 196,
           "version": "0.1.33-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 203,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -185328,6 +187247,12 @@
           "line": 520,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 61,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -185954,6 +187879,12 @@
           "session": "eba2dc6e8704b7eead94aa30fbd19c85fb26a22e210b5dfb912dce17714ac592",
           "line": 624,
           "version": "0.1.39-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 508,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -189071,6 +191002,31 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Heroes/Selected Area/Fade Panel/Selected Item(s)/Tempest/TempestCharacter/Body Box/Body Label",
+      "cardId": "TempestCharacter",
+      "source": "<style=PowerTitle>飑风骤起</style>\r\n<style=PowerHeading><b>异能:</b> </style><style=PowerBody>风暴对每个非英雄目标各造成1点投射伤害。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "db15c14e7aed6c8d673c12f1",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 431,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Tooltip Label",
       "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Tempest/Inner Panel/Character Card Container/TempestCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Tooltip/Tooltip Label",
       "cardId": "TempestCharacter",
@@ -191113,6 +193069,12 @@
           "line": 1101,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 397,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -191696,6 +193658,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 564,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 169,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -192944,6 +194912,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 595,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 685,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -196828,6 +198802,31 @@
       "cardButtonCandidate": false
     },
     {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ElectroMagneticRailgun-0 FullCardFront/Body Box/Body Label",
+      "cardId": "ElectroMagneticRailgun",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\nOmnitron对生命值最高的2个英雄目标各造成<b>*3*</b>点投射伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n若场上有超过<b>*3*</b>张反派持续牌，破坏1张反派持续牌。若以此法破坏了一张牌，每位英雄弃置1张牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "e6131d46460b44e134a7e8dc",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 609,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Hint Label",
       "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
       "cardId": "",
@@ -198010,6 +200009,12 @@
           "line": 1140,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 444,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -198289,6 +200294,12 @@
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 253,
           "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 223,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -199060,6 +201071,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 525,
           "version": "0.1.41-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 67,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ]
@@ -201705,6 +203722,12 @@
           "line": 140,
           "version": "0.1.38-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 262,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -203264,6 +205287,12 @@
           "line": 617,
           "version": "0.1.39-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 449,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -203385,6 +205414,12 @@
           "line": 29,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 33,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -203450,6 +205485,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 52,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 54,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -204209,6 +206250,31 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView TheMatriarchCharacter-0 FullCardFront/Body Box/Body Label",
+      "cardId": "TheMatriarchCharacter",
+      "source": "<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若鸦母面具不在场：<sprite name=\"Flip\" color=#FFFFFF>\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\nThe Matriarch对每个英雄目标造成1点投射伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "f111db8ab6a8b0fd734bb466",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 238,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/CardView AugmentedAlly-0 FullCardFront (Temporary)/Effect Panel/Effect View(Clone)/Label",
       "cardId": "AugmentedAlly",
@@ -204567,6 +206633,12 @@
           "line": 533,
           "version": "0.1.41-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 76,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -204909,6 +206981,12 @@
           "session": "8fa76af00c691834cd29e2ddf2dcfd806d61182589a4daddf1daaf46ba13d392",
           "line": 1107,
           "version": "0.1.40-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 405,
+          "version": "0.1.43-rc.1",
           "markerCandidate": true
         }
       ],
@@ -208168,6 +210246,12 @@
           "line": 1119,
           "version": "0.1.40-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 418,
+          "version": "0.1.43-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -209857,6 +211941,31 @@
           "session": "8378f1841c95d70d016183c989bcb04733894c2601400fac81b60cc5da2dbdd7",
           "line": 1004,
           "version": "0.1.32-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView S84AutomatonDrones-1 SmallCardFront/Tooltip/CardView S84AutomatonDrones-1 FullCardFront/Body Box/Body Label",
+      "cardId": "S84AutomatonDrones",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最高的3个英雄目标各造成<b>*2*</b>点能量伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n发现1张装置牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "environmentDeckTitle": false,
+      "buttonLabel": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "fa347e4ff5bb88f029b60a51",
+      "evidence": [
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 613,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]
@@ -211797,6 +213906,12 @@
           "session": "457a4eac9319217fd7eb8773e14d80314cd8c8aa2b5b93c39d9de9c85225b1a0",
           "line": 44,
           "version": "0.1.41-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "5039e3fa2433fc31f26bea329de5312173576ef4f35d1ad8bf92c33f2116165a",
+          "line": 48,
+          "version": "0.1.43-rc.1",
           "markerCandidate": false
         }
       ]

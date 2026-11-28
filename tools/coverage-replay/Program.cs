@@ -34,7 +34,9 @@ var contexts=contracts.RootElement.GetProperty("families").EnumerateArray()
 foreach(var c in contexts){
  bool dynamicOnly=c.TryGetProperty("matchLayer",out var layer) && layer.GetString()=="dynamic";
  bool logoOnly=c.TryGetProperty("matchLayer",out var logoLayer) && logoLayer.GetString()=="villain-logo";
- var actual=logoOnly?(VillainLogoRules.CanReplace(Str(c,"expectedSprite"),Str(c,"source"),c.GetProperty("boundLogo").GetBoolean())?"SotM2ZH."+Str(c,"source"):null)
+ bool deckOnly=c.TryGetProperty("matchLayer",out var deckLayer) && deckLayer.GetString()=="villain-deckback";
+ var deckMatch=deckOnly && VillainDeckBackRules.CanReplace(Str(c,"expectedSprite"),Str(c,"source"),c.GetProperty("boundMain").GetBoolean(),c.GetProperty("deckBack").GetBoolean(),c.GetProperty("fullCard").GetBoolean(),c.GetProperty("width").GetSingle(),c.GetProperty("height").GetSingle());
+ var actual=deckOnly?(deckMatch?"SotM2ZH."+Str(c,"source"):null):logoOnly?(VillainLogoRules.CanReplace(Str(c,"expectedSprite"),Str(c,"source"),c.GetProperty("boundLogo").GetBoolean())?"SotM2ZH."+Str(c,"source"):null)
   :dynamicOnly?Dynamic(c,Str(c,"source")):Match(c,Str(c,"source"));
  if(dynamicOnly && Match(c,Str(c,"source"))!=Str(c,"integratedExpected"))
   throw new InvalidDataException("Integrated catalog contract failed: "+Str(c,"path")+" / "+Str(c,"source"));
