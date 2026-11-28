@@ -31,6 +31,8 @@ public sealed class SurfaceProbeRules {
   !inCardView && !inInputField && ObservedObjects.Contains(objectName);
  static bool ValidName(string s)=>!string.IsNullOrWhiteSpace(s) && s.Length<=100 && !s.Any(c=>char.IsDigit(c)||char.IsControl(c)||"<>{}".Contains(c));
  static readonly HashSet<string> EnvironmentNames=new(StringComparer.Ordinal){"Freedom Tower","Insula Primalis","Magmaria","Megalopolis","The Ruins of Atlantis","Wagner Mars Base"};
+ public static bool IsEnvironmentTitleRole(string objectName,string parent,bool isDeckBack,bool isBoundTitle)=>
+  objectName=="Title Label" && isDeckBack && (isBoundTitle || parent=="Environment Title Background");
  public string? ApplyEnvironmentDeckTitle(string objectName,string source,bool boundEnvironmentTitle){
   if(!boundEnvironmentTitle || objectName!="Title Label")return null;
   var name=EnvironmentNames.FirstOrDefault(n=>string.Equals(n,source.Trim(),StringComparison.OrdinalIgnoreCase));

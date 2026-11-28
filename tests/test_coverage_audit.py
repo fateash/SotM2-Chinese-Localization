@@ -338,7 +338,7 @@ class SemanticAcceptanceTests(unittest.TestCase):
 
     def test_all_families_and_inventory_have_functional_owners(self):
         pending = audit.validate_acceptance(self.plan, self.contracts, self.inventory)
-        self.assertEqual(len(pending), sum(len(g['scenarios']) for g in self.plan['groups']))
+        self.assertEqual(len(pending), sum(s['status'] == 'pending' for g in self.plan['groups'] for s in g['scenarios']))
         self.assertLess(len(pending), 50)
 
     def test_missing_family_or_inventory_cannot_make_acceptance_green(self):

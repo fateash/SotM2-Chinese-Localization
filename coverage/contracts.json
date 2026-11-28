@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "reviewedFiles": {
     "runtime/DynamicDisplayRules.cs": "2d67cd4a1dc38e4f6be0583e6e13b33f5358517a4fac71fdb4714ebdcd087754",
-    "runtime/SurfaceProbeRules.cs": "85560ea5716e5b1b86f82a01a2276961339ab38239bc00ceb7c5e07235e5062a",
-    "runtime/SurfaceProbe.cs": "154359fd98a2f0556f3f10f11a37c6eaa34cbab8e164fa72f59b9427108185d6",
-    "runtime/Plugin.cs": "3ddf1bc4a76a852559c528553b1dd77fe8043b69fe9d0929587bfc5139cc5888",
+    "runtime/SurfaceProbeRules.cs": "55f457e6d38d45c08fb4bc565c00473a57953723300a194362d3cb7dceec00b6",
+    "runtime/SurfaceProbe.cs": "104f2e100d9b27baaf9767baaeea064a3c54bf27dfc049a454cab3d0697b1f18",
+    "runtime/Plugin.cs": "ba04efc1e01695356f041cb8e94ea52c3e085c7702992e666d202ddee56e0ba3",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
     "probe/dynamic-pilot.json": "66b730891851478384813ab351e0b99c548af7ec4152c3a12d9ec683f36a2f26",
-    "runtime/RenderedDisplayRules.cs": "db0313a63c2e9ae40c786ea9a838765c915a516e4eaceaec3a10184c8fc66211"
+    "runtime/RenderedDisplayRules.cs": "c3d8f0e93a79809a377ba27f85ebaeeb5f867445337ce2eff1a6af0f46da9b26"
   },
   "families": [
     {
@@ -53869,6 +53869,482 @@
             "source": "Peril: 4",
             "expected": null
           }
+        },
+        {
+          "id": "038-Environment-0-Peril",
+          "status": "offline-covered",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "Peril: 0",
+            "expected": "危险度：0",
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-Environment-0-zh",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "危险度: 0",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-Environment-6-Peril",
+          "status": "offline-covered",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "Peril: 6",
+            "expected": "危险度：6",
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-Environment-6-zh",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "危险度: 6",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-Environment-10-Peril",
+          "status": "offline-covered",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "Peril: 10",
+            "expected": "危险度：10",
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-Environment-10-zh",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "危险度: 10",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-Environment-999999-Peril",
+          "status": "offline-covered",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "Peril: 999999",
+            "expected": "危险度：999999",
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-Environment-999999-zh",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "危险度: 999999",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-negative-Environment-0",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "拒绝其他位置／用途／数值缓冲／非完整评分文本。",
+          "case": {
+            "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+            "objectName": "HP Label",
+            "source": "危险度: 6",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": false
+          }
+        },
+        {
+          "id": "038-negative-Environment-1",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "拒绝其他位置／用途／数值缓冲／非完整评分文本。",
+          "case": {
+            "path": "Other/Rating Label",
+            "objectName": "Rating Label",
+            "source": "危险度: 6",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": false
+          }
+        },
+        {
+          "id": "038-negative-Environment-2",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "拒绝其他位置／用途／数值缓冲／非完整评分文本。",
+          "case": {
+            "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "6",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": false
+          }
+        },
+        {
+          "id": "038-negative-Environment-3",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "拒绝其他位置／用途／数值缓冲／非完整评分文本。",
+          "case": {
+            "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "危险度: -6",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": false
+          }
+        },
+        {
+          "id": "038-negative-Environment-4",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "拒绝其他位置／用途／数值缓冲／非完整评分文本。",
+          "case": {
+            "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "危险度: 6 extra",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": false
+          }
+        },
+        {
+          "id": "038-negative-Environment-5",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "拒绝其他位置／用途／数值缓冲／非完整评分文本。",
+          "case": {
+            "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "难度: 6",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": false
+          }
+        },
+        {
+          "id": "038-Villain-0-Difficulty",
+          "status": "offline-covered",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "Difficulty: 0",
+            "expected": "难度：0",
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-Villain-0-zh",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "难度: 0",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-Villain-6-Difficulty",
+          "status": "offline-covered",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "Difficulty: 6",
+            "expected": "难度：6",
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-Villain-6-zh",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "难度: 6",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-Villain-10-Difficulty",
+          "status": "offline-covered",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "Difficulty: 10",
+            "expected": "难度：10",
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-Villain-10-zh",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "难度: 10",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-Villain-999999-Difficulty",
+          "status": "offline-covered",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "Difficulty: 999999",
+            "expected": "难度：999999",
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-Villain-999999-zh",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.38评分控件布局资格；数字不变，实际边界待实机复验。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "难度: 999999",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": true
+          }
+        },
+        {
+          "id": "038-negative-Villain-0",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "拒绝其他位置／用途／数值缓冲／非完整评分文本。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+            "objectName": "HP Label",
+            "source": "难度: 6",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": false
+          }
+        },
+        {
+          "id": "038-negative-Villain-1",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "拒绝其他位置／用途／数值缓冲／非完整评分文本。",
+          "case": {
+            "path": "Other/Rating Label",
+            "objectName": "Rating Label",
+            "source": "难度: 6",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": false
+          }
+        },
+        {
+          "id": "038-negative-Villain-2",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "拒绝其他位置／用途／数值缓冲／非完整评分文本。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "6",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": false
+          }
+        },
+        {
+          "id": "038-negative-Villain-3",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "拒绝其他位置／用途／数值缓冲／非完整评分文本。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "难度: -6",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": false
+          }
+        },
+        {
+          "id": "038-negative-Villain-4",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "拒绝其他位置／用途／数值缓冲／非完整评分文本。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "难度: 6 extra",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": false
+          }
+        },
+        {
+          "id": "038-negative-Villain-5",
+          "status": "excluded",
+          "view": "new-game-rating",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "拒绝其他位置／用途／数值缓冲／非完整评分文本。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label",
+            "objectName": "Rating Label",
+            "source": "危险度: 6",
+            "expected": null,
+            "inCardView": false,
+            "cardId": "",
+            "expectedRatingInset": false
+          }
         }
       ]
     },
@@ -65147,6 +65623,236 @@
             "source": "  MAGMARIA  ",
             "expected": "熔岩域",
             "environmentDeckTitle": true
+          }
+        },
+        {
+          "id": "038-small-0",
+          "status": "offline-covered",
+          "view": "environment-deck-back",
+          "heroState": "not-applicable",
+          "layout": "small",
+          "reason": "组件身份合成契约；大小图实例通过属性绑定，未冒充实机路径。",
+          "case": {
+            "path": "Synthetic/small/Title Label",
+            "objectName": "Title Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "WAGNER MARS BASE",
+            "expected": "瓦格纳火星基地",
+            "environmentDeckTitle": true,
+            "titleRole": {
+              "parent": "Environment Title Background",
+              "isDeckBack": true,
+              "isBoundTitle": false,
+              "expected": true
+            }
+          }
+        },
+        {
+          "id": "038-full-0",
+          "status": "offline-covered",
+          "view": "environment-deck-back",
+          "heroState": "not-applicable",
+          "layout": "full",
+          "reason": "组件身份合成契约；大小图实例通过属性绑定，未冒充实机路径。",
+          "case": {
+            "path": "Synthetic/full/Title Label",
+            "objectName": "Title Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "WAGNER MARS BASE",
+            "expected": "瓦格纳火星基地",
+            "environmentDeckTitle": true,
+            "titleRole": {
+              "parent": "Environment Title Background",
+              "isDeckBack": true,
+              "isBoundTitle": false,
+              "expected": true
+            }
+          }
+        },
+        {
+          "id": "038-small-1",
+          "status": "offline-covered",
+          "view": "environment-deck-back",
+          "heroState": "not-applicable",
+          "layout": "small",
+          "reason": "组件身份合成契约；大小图实例通过属性绑定，未冒充实机路径。",
+          "case": {
+            "path": "Synthetic/small/Title Label",
+            "objectName": "Title Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "WAGNER MARS BASE",
+            "expected": "瓦格纳火星基地",
+            "environmentDeckTitle": true,
+            "titleRole": {
+              "parent": "Full Title Box",
+              "isDeckBack": true,
+              "isBoundTitle": true,
+              "expected": true
+            }
+          }
+        },
+        {
+          "id": "038-full-1",
+          "status": "offline-covered",
+          "view": "environment-deck-back",
+          "heroState": "not-applicable",
+          "layout": "full",
+          "reason": "组件身份合成契约；大小图实例通过属性绑定，未冒充实机路径。",
+          "case": {
+            "path": "Synthetic/full/Title Label",
+            "objectName": "Title Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "WAGNER MARS BASE",
+            "expected": "瓦格纳火星基地",
+            "environmentDeckTitle": true,
+            "titleRole": {
+              "parent": "Full Title Box",
+              "isDeckBack": true,
+              "isBoundTitle": true,
+              "expected": true
+            }
+          }
+        },
+        {
+          "id": "038-small-2",
+          "status": "excluded",
+          "view": "environment-deck-back",
+          "heroState": "not-applicable",
+          "layout": "small",
+          "reason": "组件身份合成契约；大小图实例通过属性绑定，未冒充实机路径。",
+          "case": {
+            "path": "Synthetic/small/Title Label",
+            "objectName": "Title Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "WAGNER MARS BASE",
+            "expected": null,
+            "environmentDeckTitle": false,
+            "titleRole": {
+              "parent": "Full Title Box",
+              "isDeckBack": false,
+              "isBoundTitle": true,
+              "expected": false
+            }
+          }
+        },
+        {
+          "id": "038-full-2",
+          "status": "excluded",
+          "view": "environment-deck-back",
+          "heroState": "not-applicable",
+          "layout": "full",
+          "reason": "组件身份合成契约；大小图实例通过属性绑定，未冒充实机路径。",
+          "case": {
+            "path": "Synthetic/full/Title Label",
+            "objectName": "Title Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "WAGNER MARS BASE",
+            "expected": null,
+            "environmentDeckTitle": false,
+            "titleRole": {
+              "parent": "Full Title Box",
+              "isDeckBack": false,
+              "isBoundTitle": true,
+              "expected": false
+            }
+          }
+        },
+        {
+          "id": "038-small-3",
+          "status": "excluded",
+          "view": "environment-deck-back",
+          "heroState": "not-applicable",
+          "layout": "small",
+          "reason": "组件身份合成契约；大小图实例通过属性绑定，未冒充实机路径。",
+          "case": {
+            "path": "Synthetic/small/Title Label",
+            "objectName": "Title Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "WAGNER MARS BASE",
+            "expected": null,
+            "environmentDeckTitle": false,
+            "titleRole": {
+              "parent": "Full Title Box",
+              "isDeckBack": true,
+              "isBoundTitle": false,
+              "expected": false
+            }
+          }
+        },
+        {
+          "id": "038-full-3",
+          "status": "excluded",
+          "view": "environment-deck-back",
+          "heroState": "not-applicable",
+          "layout": "full",
+          "reason": "组件身份合成契约；大小图实例通过属性绑定，未冒充实机路径。",
+          "case": {
+            "path": "Synthetic/full/Title Label",
+            "objectName": "Title Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "WAGNER MARS BASE",
+            "expected": null,
+            "environmentDeckTitle": false,
+            "titleRole": {
+              "parent": "Full Title Box",
+              "isDeckBack": true,
+              "isBoundTitle": false,
+              "expected": false
+            }
+          }
+        },
+        {
+          "id": "038-small-4",
+          "status": "excluded",
+          "view": "environment-deck-back",
+          "heroState": "not-applicable",
+          "layout": "small",
+          "reason": "组件身份合成契约；大小图实例通过属性绑定，未冒充实机路径。",
+          "case": {
+            "path": "Synthetic/small/HP Label",
+            "objectName": "HP Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "WAGNER MARS BASE",
+            "expected": null,
+            "environmentDeckTitle": false,
+            "titleRole": {
+              "parent": "Environment Title Background",
+              "isDeckBack": true,
+              "isBoundTitle": true,
+              "expected": false
+            }
+          }
+        },
+        {
+          "id": "038-full-4",
+          "status": "excluded",
+          "view": "environment-deck-back",
+          "heroState": "not-applicable",
+          "layout": "full",
+          "reason": "组件身份合成契约；大小图实例通过属性绑定，未冒充实机路径。",
+          "case": {
+            "path": "Synthetic/full/HP Label",
+            "objectName": "HP Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "WAGNER MARS BASE",
+            "expected": null,
+            "environmentDeckTitle": false,
+            "titleRole": {
+              "parent": "Environment Title Background",
+              "isDeckBack": true,
+              "isBoundTitle": true,
+              "expected": false
+            }
           }
         }
       ]

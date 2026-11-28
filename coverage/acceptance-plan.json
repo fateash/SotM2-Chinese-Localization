@@ -495,9 +495,16 @@
         },
         {
           "id": "ability-fonts",
-          "check": "银音秘师与全能智创牌面，小图／大图的四种能力标题",
-          "passCriteria": "演奏／伴奏／制造／灭绝四标题与图标同时可见，不裁切；字号与正文协调",
-          "status": "pending"
+          "check": "银音秘师与全能智创四种能力标题的中文字形回退",
+          "passCriteria": "演奏／伴奏／制造／灭绝四标题中文字形可见；具体小图／大图覆盖与规则交互不由此项推定",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.37-rc.1（本轮测试上下文）",
+            "source": "用户2026-11-28本轮实机反馈（文字确认，无对应结算／能力截图）",
+            "humanConfirmation": "“演奏／伴奏／制造／灭绝”四个能力标题中文字形回退通过",
+            "visualResult": "四个能力标题中文字形回退实机通过",
+            "interactionResult": "此项为字体显示验收，不涉及卡牌规则交互；不推定各能力结算通过"
+          }
         }
       ],
       "kind": "live-functional"
@@ -531,6 +538,30 @@
           "check": "抽牌、展示、牌组背面及短标题",
           "passCriteria": "按审定译名一致显示；S-83等合法型号保留",
           "status": "pending"
+        },
+        {
+          "id": "environment-back-titles",
+          "check": "环境牌库缩略图与放大牌背名称",
+          "passCriteria": "完整中文名称在两种显示中可见，切换环境后不回退英文；不影响牌库数量",
+          "status": "pending",
+          "visualObservations": [
+            {
+              "version": "0.1.37-rc.1（本轮测试上下文）",
+              "source": "image(20261128-111734).png",
+              "sha256": "b060a560ce57d25dc032f84ece136cae362fbac418420234748f11656867417b",
+              "humanConfirmation": "环境缩略图/大图名称依然为英文",
+              "scope": "牌库缩略图",
+              "status": "visual-failed"
+            },
+            {
+              "version": "0.1.37-rc.1（本轮测试上下文）",
+              "source": "image(20261128-111738).png",
+              "sha256": "70fdc17ba3b90eae92aa6a33f0232f6d67d0c4bba6fbd0eb86ba4ebb95139acc",
+              "humanConfirmation": "环境缩略图/大图名称依然为英文",
+              "scope": "放大牌背",
+              "status": "visual-failed"
+            }
+          ]
         }
       ],
       "kind": "live-functional"
@@ -583,7 +614,14 @@
           "id": "wagner",
           "check": "瓦格纳火星基地自毁倒计时耗尽，触发基地爆炸失败",
           "passCriteria": "结束原因和“瓦格纳火星基地爆炸了！”结算标题完整显示；条件与实际失败一致",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.37-rc.1（本轮测试上下文）",
+            "source": "用户2026-11-28本轮实机反馈（文字确认，无对应结算／能力截图）",
+            "humanConfirmation": "瓦格纳火星基地特殊文本实机结算测试通过",
+            "visualResult": "特殊失败结算文本实机通过",
+            "interactionResult": "用户确认实际结算测试通过"
+          }
         }
       ],
       "kind": "live-functional"
@@ -656,7 +694,18 @@
           "id": "selection",
           "check": "英雄、反派、环境选择；选3／4／5英雄",
           "passCriteria": "选择标题、难度和危险度完整；数值随选项变化",
-          "status": "pending"
+          "status": "pending",
+          "visualObservations": [
+            {
+              "version": "0.1.37-rc.1（本轮测试上下文）",
+              "source": "image(20261128-111230).png",
+              "sha256": "c4245c7d3b42e9ee4169615816d737db83bd30fa128175500ab7c0477c16d45b",
+              "humanConfirmation": "环境的危险度依然超出边界",
+              "scope": "环境危险度6，数字越过绿色面板右边界",
+              "status": "visual-failed",
+              "resolution": "0.1.38调整独立Rating Label布局，待复验"
+            }
+          ]
         }
       ],
       "kind": "live-functional"

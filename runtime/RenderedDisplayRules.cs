@@ -132,6 +132,13 @@ public sealed class RenderedDisplayRules {
    if(source.Contains("<style="+style+">",StringComparison.Ordinal))fonts.Add("AvengeanceMightiestAvenger");
   return fonts.OrderBy(x=>x,StringComparer.Ordinal).ToArray();
  }
+ public static bool IsInsetNewGameRating(string path,string obj,string text){
+  if(obj!="Rating Label")return false;
+  string? prefix=path switch {
+   "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label"=>"危险度",
+   "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label"=>"难度",_=>null};
+  return prefix!=null && Regex.IsMatch(text,@"\A"+prefix+@"[:：] ?[0-9]{1,6}\z",RegexOptions.CultureInvariant);
+ }
  public static bool IsInsetNewGameSection(string path,string obj,string text)=>obj=="Title Label" &&
   ((path=="Canvas/Main Panel/Villain/Selected Area/Fade Panel/Title Label" && text=="反派") ||
    (path=="Canvas/Main Panel/Environment/Selected Area/Fade Panel/Title Label" && text=="环境"));

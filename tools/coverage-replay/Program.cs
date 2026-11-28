@@ -40,6 +40,10 @@ foreach(var c in contexts){
  if(actual!=expected)throw new InvalidDataException("Coverage contract failed: "+Str(c,"path")+" / "+Str(c,"source"));
  if(c.TryGetProperty("expectedInlineFonts",out var fonts) && !RenderedDisplayRules.RequiredInlineFonts(actual??Str(c,"source")).SequenceEqual(fonts.EnumerateArray().Select(x=>x.GetString()!)))
   throw new InvalidDataException("Inline font contract failed: "+Str(c,"source"));
+ if(c.TryGetProperty("titleRole",out var role) && SurfaceProbeRules.IsEnvironmentTitleRole(Str(c,"objectName"),Str(role,"parent"),role.GetProperty("isDeckBack").GetBoolean(),role.GetProperty("isBoundTitle").GetBoolean())!=role.GetProperty("expected").GetBoolean())
+  throw new InvalidDataException("Environment title role contract failed: "+Str(c,"path"));
+ if(c.TryGetProperty("expectedRatingInset",out var ratingInset) && RenderedDisplayRules.IsInsetNewGameRating(Str(c,"path"),Str(c,"objectName"),actual??Str(c,"source"))!=ratingInset.GetBoolean())
+  throw new InvalidDataException("Rating layout contract failed: "+Str(c,"path"));
  if(c.TryGetProperty("expectedSectionInset",out var inset) && RenderedDisplayRules.IsInsetNewGameSection(Str(c,"path"),Str(c,"objectName"),actual??Str(c,"source"))!=inset.GetBoolean())
   throw new InvalidDataException("Section layout contract failed: "+Str(c,"path"));
 }

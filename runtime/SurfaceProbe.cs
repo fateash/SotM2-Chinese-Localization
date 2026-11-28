@@ -23,15 +23,35 @@ internal sealed class SurfaceProbe {
     isDeckBack=view.IsDeckBack,cardId=view.Card?.Card?.CardDefinition.Identifier??"",policy="metadata-only-no-text-read-no-write"}));
   }catch(Exception e){Plugin.Once("title-input-probe-error","TITLE_INPUT_PROBE_STOPPED "+e.GetType().Name);}
  }
- internal static bool IsEnvironmentDeckTitle(TMP_Text text)=>text.gameObject.name=="Title Label"
-  && text.transform.parent!=null && text.transform.parent.name=="Environment Title Background"
-  && text.GetComponentInParent<CardBackView>()!=null && text.GetComponentInParent<TMP_InputField>()==null;
+ internal static bool IsEnvironmentDeckTitle(TMP_Text text){
+  if(text.gameObject.name!="Title Label" || text.GetComponentInParent<TMP_InputField>()!=null)return false;
+  var view=text.GetComponentInParent<CardView>();
+  return view!=null && SurfaceProbeRules.IsEnvironmentTitleRole(text.gameObject.name,
+   text.transform.parent?.name??"",view.IsDeckBack,view.TitleLabel==text);
+ }
  internal string? EnvironmentTitleInput(TMP_Text text,string source){
   var target=rules.ApplyEnvironmentDeckTitle(text.gameObject.name,source,IsEnvironmentDeckTitle(text));
-  if(target!=null)Plugin.Once("environment-title-input|"+PathOf(text)+source,"ENVIRONMENT_TITLE_INPUT "+JsonSerializer.Serialize(new{path=PathOf(text),source,target,identity="CardBackView/Environment Title Background/Title Label",policy="string-argument-only-no-buffer-read"}));
+  if(target!=null)Plugin.Once("environment-title-input|"+PathOf(text)+source,"ENVIRONMENT_TITLE_INPUT "+JsonSerializer.Serialize(new{path=PathOf(text),source,target,identity="CardView.IsDeckBack + (TitleLabel binding or environment title child)",policy="string-argument-only-no-buffer-read"}));
   return target;
  }
  internal void ApplySectionLayout(TMP_Text text,string source){
+  if(RenderedDisplayRules.IsInsetNewGameRating(PathOf(text),text.gameObject.name,source)){
+   var rating=text.rectTransform;
+   // Same right/top anchoring as the serialized controls; expand leftward, never outward.
+   var anchor=new UnityEngine.Vector2(1,1);var ratingPosition=new UnityEngine.Vector2(-10,-8);var ratingSize=new UnityEngine.Vector2(160,42);
+   if(rating.anchorMin!=anchor)rating.anchorMin=anchor;
+   if(rating.anchorMax!=anchor)rating.anchorMax=anchor;
+   if(rating.pivot!=anchor)rating.pivot=anchor;
+   if(rating.anchoredPosition!=ratingPosition)rating.anchoredPosition=ratingPosition;
+   if(rating.sizeDelta!=ratingSize)rating.sizeDelta=ratingSize;
+   if(text.margin!=UnityEngine.Vector4.zero)text.margin=UnityEngine.Vector4.zero;
+   if(text.fontSizeMax!=28)text.fontSizeMax=28;
+   if(text.fontSizeMin!=16)text.fontSizeMin=16;
+   if(!text.enableAutoSizing)text.enableAutoSizing=true;
+   if(text.enableWordWrapping)text.enableWordWrapping=false;
+   if(text.alignment!=TextAlignmentOptions.TopRight)text.alignment=TextAlignmentOptions.TopRight;
+   return;
+  }
   if(!RenderedDisplayRules.IsInsetNewGameSection(PathOf(text),text.gameObject.name,source))return;
   var rect=text.rectTransform;
   var position=new UnityEngine.Vector2(10,-10);var size=new UnityEngine.Vector2(130,42);

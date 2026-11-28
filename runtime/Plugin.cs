@@ -14,7 +14,7 @@ using Handelabra.Sentinels2.Engine.Controller;
 using UObj=UnityEngine.Object;
 namespace SotM2Chinese;
 
-[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.37")]
+[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.38")]
 public sealed class Plugin:BasePlugin {
  internal static Plugin Instance=null!;
  internal static Catalog Texts=new();
@@ -32,7 +32,7 @@ public sealed class Plugin:BasePlugin {
   var surfacePath=Path.Combine(Root,"surface-probe.json");
   if(File.Exists(surfacePath)){Surface=new SurfaceProbe(surfacePath);Log.LogInfo("SURFACE_PROBE_ENABLED configured-pilot bounded-capture");}
   UiSources=new HashSet<string>(Texts.Ui.Select(e=>e.Source),StringComparer.Ordinal);
-  Log.LogInfo("PROTOTYPE_LOADED 0.1.37-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
+  Log.LogInfo("PROTOTYPE_LOADED 0.1.38-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
   // Resolve types/methods without patching the game model or rule engine.
   var method=typeof(TextHelper).GetMethods().Single(m=>m.Name=="ReplaceTemplatesAndInsertSpecifics"&&m.GetParameters().Length==8);
   Log.LogInfo("DISPLAY_METHOD_RESOLVED "+method);
@@ -40,11 +40,15 @@ public sealed class Plugin:BasePlugin {
   if(Chinese) {
    var harmony=new Harmony("sotm2.zh.prototype");
    harmony.Patch(method,prefix:new HarmonyMethod(typeof(Plugin),nameof(CardPrefix)));
-   foreach(var parameters in new[]{new[]{typeof(string)},new[]{typeof(string),typeof(bool)}}){
-    var setText=typeof(TMP_Text).GetMethod("SetText",parameters)??throw new MissingMethodException("TMP string SetText");
-    harmony.Patch(setText,prefix:new HarmonyMethod(typeof(Plugin),nameof(EnvironmentTitleStringInput)));
+   // This build writes card titles through the virtual text property setter.
+   // SetText(string) and SetText(string,bool) share one native address: patch it once.
+   foreach(var entry in new[]{
+    typeof(TMP_Text).GetProperty("text")?.GetSetMethod(),
+    typeof(TMP_Text).GetMethod("SetText",new[]{typeof(string),typeof(bool)})}){
+    if(entry==null)throw new MissingMethodException("TMP title string input");
+    harmony.Patch(entry,prefix:new HarmonyMethod(typeof(Plugin),nameof(EnvironmentTitleStringInput)));
    }
-   Log.LogInfo("ENVIRONMENT_TITLE_INPUT_HOOK_INSTALLED string-overloads-only");
+   Log.LogInfo("ENVIRONMENT_TITLE_INPUT_HOOK_INSTALLED text-setter-and-string-SetText-no-buffer-access");
    foreach(var render in new[]{
     typeof(TextMeshProUGUI).GetMethod("OnPreRenderCanvas",BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic),
     typeof(TextMeshPro).GetMethod("OnPreRenderObject",BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic)}) {
