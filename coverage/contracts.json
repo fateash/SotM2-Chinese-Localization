@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "2d67cd4a1dc38e4f6be0583e6e13b33f5358517a4fac71fdb4714ebdcd087754",
+    "runtime/DynamicDisplayRules.cs": "21a7ccccf8ffef9f612f0c37d803738159be8bf75f9c5d4be4e49806e03f7c73",
     "runtime/SurfaceProbeRules.cs": "55f457e6d38d45c08fb4bc565c00473a57953723300a194362d3cb7dceec00b6",
     "runtime/SurfaceProbe.cs": "7f1f57f0dfeedb3761ceb0e15f7b4ae3a9fa1b717635a8ae47916438f1576475",
-    "runtime/Plugin.cs": "3d4950035916eaf86895564b70c8d5afe0698f03e2256fcb0ecede6165d75360",
+    "runtime/Plugin.cs": "f976aead594def781c1cbe914320daaf89c8bf2ca704ad783995e676db7f0f37",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
     "probe/dynamic-pilot.json": "66b730891851478384813ab351e0b99c548af7ec4152c3a12d9ec683f36a2f26",
-    "runtime/RenderedDisplayRules.cs": "345e755bbee5a12ec71d46d4efad2924ce07e3e7fbcfd4dbc96bcac584829d60"
+    "runtime/RenderedDisplayRules.cs": "0fbdb89da7c7995c1fb1fa1e924853f2887220230eb443051d4b263042bef900"
   },
   "families": [
     {
@@ -17706,6 +17706,1890 @@
             "source": "Play Item",
             "inCardView": true,
             "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "040-type-0-Cold",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "0",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Cold",
+            "expected": "寒冷"
+          }
+        },
+        {
+          "id": "040-type-negative-buttonLabel-Cold",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": false,
+            "cardButtonCandidate": true,
+            "source": "Cold",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-negative-inCardView-Cold",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": false,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Cold",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-0-Energy",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "0",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Energy",
+            "expected": "能量"
+          }
+        },
+        {
+          "id": "040-type-negative-buttonLabel-Energy",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": false,
+            "cardButtonCandidate": true,
+            "source": "Energy",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-negative-inCardView-Energy",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": false,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Energy",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-0-Fire",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "0",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Fire",
+            "expected": "火焰"
+          }
+        },
+        {
+          "id": "040-type-negative-buttonLabel-Fire",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": false,
+            "cardButtonCandidate": true,
+            "source": "Fire",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-negative-inCardView-Fire",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": false,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Fire",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-0-Infernal",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "0",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Infernal",
+            "expected": "邪能"
+          }
+        },
+        {
+          "id": "040-type-negative-buttonLabel-Infernal",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": false,
+            "cardButtonCandidate": true,
+            "source": "Infernal",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-negative-inCardView-Infernal",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": false,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Infernal",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-0-Lightning",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "0",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Lightning",
+            "expected": "闪电"
+          }
+        },
+        {
+          "id": "040-type-negative-buttonLabel-Lightning",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": false,
+            "cardButtonCandidate": true,
+            "source": "Lightning",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-negative-inCardView-Lightning",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": false,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Lightning",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-0-Melee",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "0",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Melee",
+            "expected": "近战"
+          }
+        },
+        {
+          "id": "040-type-negative-buttonLabel-Melee",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": false,
+            "cardButtonCandidate": true,
+            "source": "Melee",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-negative-inCardView-Melee",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": false,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Melee",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-0-Projectile",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "0",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Projectile",
+            "expected": "投射"
+          }
+        },
+        {
+          "id": "040-type-negative-buttonLabel-Projectile",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": false,
+            "cardButtonCandidate": true,
+            "source": "Projectile",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-negative-inCardView-Projectile",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": false,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Projectile",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-0-Psychic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "0",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Psychic",
+            "expected": "精神"
+          }
+        },
+        {
+          "id": "040-type-negative-buttonLabel-Psychic",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": false,
+            "cardButtonCandidate": true,
+            "source": "Psychic",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-negative-inCardView-Psychic",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": false,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Psychic",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-0-Radiant",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "0",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Radiant",
+            "expected": "光耀"
+          }
+        },
+        {
+          "id": "040-type-negative-buttonLabel-Radiant",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": false,
+            "cardButtonCandidate": true,
+            "source": "Radiant",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-negative-inCardView-Radiant",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": false,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Radiant",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-0-Sonic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "0",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Sonic",
+            "expected": "音波"
+          }
+        },
+        {
+          "id": "040-type-negative-buttonLabel-Sonic",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": false,
+            "cardButtonCandidate": true,
+            "source": "Sonic",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-negative-inCardView-Sonic",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": false,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Sonic",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-0-Toxic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "0",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Toxic",
+            "expected": "毒素"
+          }
+        },
+        {
+          "id": "040-type-negative-buttonLabel-Toxic",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": false,
+            "cardButtonCandidate": true,
+            "source": "Toxic",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-negative-inCardView-Toxic",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "缺少真实按钮或卡牌组件证据时不翻译裸词。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": false,
+            "cardId": "TheArgentAdeptCharacter",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Toxic",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-1-Cold",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "1",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/3 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Cold",
+            "expected": "寒冷"
+          }
+        },
+        {
+          "id": "040-type-1-Energy",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "1",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/3 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Energy",
+            "expected": "能量"
+          }
+        },
+        {
+          "id": "040-type-1-Fire",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "1",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/3 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Fire",
+            "expected": "火焰"
+          }
+        },
+        {
+          "id": "040-type-1-Infernal",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "1",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/3 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Infernal",
+            "expected": "邪能"
+          }
+        },
+        {
+          "id": "040-type-1-Lightning",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "1",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/3 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Lightning",
+            "expected": "闪电"
+          }
+        },
+        {
+          "id": "040-type-1-Melee",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "1",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/3 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Melee",
+            "expected": "近战"
+          }
+        },
+        {
+          "id": "040-type-1-Projectile",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "1",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/3 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Projectile",
+            "expected": "投射"
+          }
+        },
+        {
+          "id": "040-type-1-Psychic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "1",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/3 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Psychic",
+            "expected": "精神"
+          }
+        },
+        {
+          "id": "040-type-1-Radiant",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "1",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/3 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Radiant",
+            "expected": "光耀"
+          }
+        },
+        {
+          "id": "040-type-1-Sonic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "1",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/3 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Sonic",
+            "expected": "音波"
+          }
+        },
+        {
+          "id": "040-type-1-Toxic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "1",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/3 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Toxic",
+            "expected": "毒素"
+          }
+        },
+        {
+          "id": "040-type-2-Cold",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "2",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/4 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Cold",
+            "expected": "寒冷"
+          }
+        },
+        {
+          "id": "040-type-2-Energy",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "2",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/4 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Energy",
+            "expected": "能量"
+          }
+        },
+        {
+          "id": "040-type-2-Fire",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "2",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/4 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Fire",
+            "expected": "火焰"
+          }
+        },
+        {
+          "id": "040-type-2-Infernal",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "2",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/4 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Infernal",
+            "expected": "邪能"
+          }
+        },
+        {
+          "id": "040-type-2-Lightning",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "2",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/4 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Lightning",
+            "expected": "闪电"
+          }
+        },
+        {
+          "id": "040-type-2-Melee",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "2",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/4 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Melee",
+            "expected": "近战"
+          }
+        },
+        {
+          "id": "040-type-2-Projectile",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "2",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/4 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Projectile",
+            "expected": "投射"
+          }
+        },
+        {
+          "id": "040-type-2-Psychic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "2",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/4 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Psychic",
+            "expected": "精神"
+          }
+        },
+        {
+          "id": "040-type-2-Radiant",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "2",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/4 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Radiant",
+            "expected": "光耀"
+          }
+        },
+        {
+          "id": "040-type-2-Sonic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "2",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/4 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Sonic",
+            "expected": "音波"
+          }
+        },
+        {
+          "id": "040-type-2-Toxic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "2",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/4 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Toxic",
+            "expected": "毒素"
+          }
+        },
+        {
+          "id": "040-type-3-Cold",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "3",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/5 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Cold",
+            "expected": "寒冷"
+          }
+        },
+        {
+          "id": "040-type-3-Energy",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "3",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/5 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Energy",
+            "expected": "能量"
+          }
+        },
+        {
+          "id": "040-type-3-Fire",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "3",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/5 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Fire",
+            "expected": "火焰"
+          }
+        },
+        {
+          "id": "040-type-3-Infernal",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "3",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/5 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Infernal",
+            "expected": "邪能"
+          }
+        },
+        {
+          "id": "040-type-3-Lightning",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "3",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/5 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Lightning",
+            "expected": "闪电"
+          }
+        },
+        {
+          "id": "040-type-3-Melee",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "3",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/5 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Melee",
+            "expected": "近战"
+          }
+        },
+        {
+          "id": "040-type-3-Projectile",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "3",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/5 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Projectile",
+            "expected": "投射"
+          }
+        },
+        {
+          "id": "040-type-3-Psychic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "3",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/5 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Psychic",
+            "expected": "精神"
+          }
+        },
+        {
+          "id": "040-type-3-Radiant",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "3",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/5 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Radiant",
+            "expected": "光耀"
+          }
+        },
+        {
+          "id": "040-type-3-Sonic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "3",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/5 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Sonic",
+            "expected": "音波"
+          }
+        },
+        {
+          "id": "040-type-3-Toxic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "3",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/5 Hero Layout/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Toxic",
+            "expected": "毒素"
+          }
+        },
+        {
+          "id": "040-type-4-Cold",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "4",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Villain/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Cold",
+            "expected": "寒冷"
+          }
+        },
+        {
+          "id": "040-type-4-Energy",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "4",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Villain/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Energy",
+            "expected": "能量"
+          }
+        },
+        {
+          "id": "040-type-4-Fire",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "4",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Villain/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Fire",
+            "expected": "火焰"
+          }
+        },
+        {
+          "id": "040-type-4-Infernal",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "4",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Villain/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Infernal",
+            "expected": "邪能"
+          }
+        },
+        {
+          "id": "040-type-4-Lightning",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "4",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Villain/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Lightning",
+            "expected": "闪电"
+          }
+        },
+        {
+          "id": "040-type-4-Melee",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "4",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Villain/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Melee",
+            "expected": "近战"
+          }
+        },
+        {
+          "id": "040-type-4-Projectile",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "4",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Villain/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Projectile",
+            "expected": "投射"
+          }
+        },
+        {
+          "id": "040-type-4-Psychic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "4",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Villain/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Psychic",
+            "expected": "精神"
+          }
+        },
+        {
+          "id": "040-type-4-Radiant",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "4",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Villain/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Radiant",
+            "expected": "光耀"
+          }
+        },
+        {
+          "id": "040-type-4-Sonic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "4",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Villain/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Sonic",
+            "expected": "音波"
+          }
+        },
+        {
+          "id": "040-type-4-Toxic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "4",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Villain/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Toxic",
+            "expected": "毒素"
+          }
+        },
+        {
+          "id": "040-type-5-Cold",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "5",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Environment/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Cold",
+            "expected": "寒冷"
+          }
+        },
+        {
+          "id": "040-type-5-Energy",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "5",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Environment/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Energy",
+            "expected": "能量"
+          }
+        },
+        {
+          "id": "040-type-5-Fire",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "5",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Environment/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Fire",
+            "expected": "火焰"
+          }
+        },
+        {
+          "id": "040-type-5-Infernal",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "5",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Environment/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Infernal",
+            "expected": "邪能"
+          }
+        },
+        {
+          "id": "040-type-5-Lightning",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "5",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Environment/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Lightning",
+            "expected": "闪电"
+          }
+        },
+        {
+          "id": "040-type-5-Melee",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "5",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Environment/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Melee",
+            "expected": "近战"
+          }
+        },
+        {
+          "id": "040-type-5-Projectile",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "5",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Environment/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Projectile",
+            "expected": "投射"
+          }
+        },
+        {
+          "id": "040-type-5-Psychic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "5",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Environment/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Psychic",
+            "expected": "精神"
+          }
+        },
+        {
+          "id": "040-type-5-Radiant",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "5",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Environment/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Radiant",
+            "expected": "光耀"
+          }
+        },
+        {
+          "id": "040-type-5-Sonic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "5",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Environment/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Sonic",
+            "expected": "音波"
+          }
+        },
+        {
+          "id": "040-type-5-Toxic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "5",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Synthetic/Environment/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Toxic",
+            "expected": "毒素"
+          }
+        },
+        {
+          "id": "040-type-6-Cold",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "6",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Cold",
+            "expected": "寒冷"
+          }
+        },
+        {
+          "id": "040-type-6-Energy",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "6",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Energy",
+            "expected": "能量"
+          }
+        },
+        {
+          "id": "040-type-6-Fire",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "6",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Fire",
+            "expected": "火焰"
+          }
+        },
+        {
+          "id": "040-type-6-Infernal",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "6",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Infernal",
+            "expected": "邪能"
+          }
+        },
+        {
+          "id": "040-type-6-Lightning",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "6",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Lightning",
+            "expected": "闪电"
+          }
+        },
+        {
+          "id": "040-type-6-Melee",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "6",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Melee",
+            "expected": "近战"
+          }
+        },
+        {
+          "id": "040-type-6-Projectile",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "6",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Projectile",
+            "expected": "投射"
+          }
+        },
+        {
+          "id": "040-type-6-Psychic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "6",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Psychic",
+            "expected": "精神"
+          }
+        },
+        {
+          "id": "040-type-6-Radiant",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "6",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Radiant",
+            "expected": "光耀"
+          }
+        },
+        {
+          "id": "040-type-6-Sonic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "6",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Sonic",
+            "expected": "音波"
+          }
+        },
+        {
+          "id": "040-type-6-Toxic",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "6",
+          "reason": "195346记录包含全部11类按钮；其他角色与布局为组件用途合成契约，待实机观察。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "cardButtonCandidate": true,
+            "source": "Toxic",
+            "expected": "毒素"
+          }
+        },
+        {
+          "id": "040-type-boundary-0",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整按钮词与作用域边界。",
+          "case": {
+            "objectName": "Label",
+            "path": "Other/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "source": "Cold",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-boundary-1",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整按钮词与作用域边界。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "source": "Cold",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-boundary-2",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整按钮词与作用域边界。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "source": "Cold damage",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-boundary-3",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整按钮词与作用域边界。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "source": "42",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-boundary-4",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整按钮词与作用域边界。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "source": "Unknown",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-type-boundary-5",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整按钮词与作用域边界。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "inCardView": true,
+            "cardId": "",
+            "buttonLabel": true,
+            "source": "寒冷",
+            "expected": null
           }
         }
       ]
@@ -48966,6 +50850,214 @@
             "inCardView": false,
             "expected": null
           }
+        },
+        {
+          "id": "040-regain-0",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "195346记录确认银音秘师完整提示；其余为同句式合成检查。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "Click a target to regain HP.",
+            "expected": "点击一个目标，使其恢复生命值。"
+          }
+        },
+        {
+          "id": "040-regain-1",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "195346记录确认银音秘师完整提示；其余为同句式合成检查。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "<b>The Argent Adept:</b> Click a target to regain HP.",
+            "expected": "<b>银音秘师:</b> 点击一个目标，使其恢复生命值。"
+          }
+        },
+        {
+          "id": "040-regain-2",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "195346记录确认银音秘师完整提示；其余为同句式合成检查。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "<b>Legacy:</b> Click a target to regain HP.",
+            "expected": "<b>传承侠:</b> 点击一个目标，使其恢复生命值。"
+          }
+        },
+        {
+          "id": "040-regain-negative-0",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不推断额外数量、相反动作或拼接正文。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "Click a target to regain 2 HP.",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-regain-negative-1",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不推断额外数量、相反动作或拼接正文。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "Click a target to lose HP.",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-regain-negative-2",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "不推断额外数量、相反动作或拼接正文。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "Click a target to regain HP. Then draw a card.",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-regain-wrong-role",
+          "status": "excluded",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "其他用途控件排除。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Other/Hint Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "Click a target to regain HP.",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-ongoing-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "195817实测共振女妖完整句；沿用库存已审定译文，合成负例保护持续牌、最多与在场限定。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "Click the hero who is considered to have the most Ongoing cards in play.",
+            "expected": "点击视为场上持续牌最多的英雄。"
+          }
+        },
+        {
+          "id": "040-ongoing-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "195817实测共振女妖完整句；沿用库存已审定译文，合成负例保护持续牌、最多与在场限定。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "<b>Reso-Banshees:</b> Click the hero who is considered to have the most Ongoing cards in play.",
+            "expected": "<b>共振女妖:</b> 点击视为场上持续牌最多的英雄。"
+          }
+        },
+        {
+          "id": "040-ongoing-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "195817实测共振女妖完整句；沿用库存已审定译文，合成负例保护持续牌、最多与在场限定。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "<b>Legacy:</b> Click the hero who is considered to have the most Ongoing cards in play.",
+            "expected": "<b>传承侠:</b> 点击视为场上持续牌最多的英雄。"
+          }
+        },
+        {
+          "id": "040-ongoing-3",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "195817实测共振女妖完整句；沿用库存已审定译文，合成负例保护持续牌、最多与在场限定。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "Click the hero who is considered to have the fewest Ongoing cards in play.",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-ongoing-4",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "195817实测共振女妖完整句；沿用库存已审定译文，合成负例保护持续牌、最多与在场限定。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "Click the hero who is considered to have the most Equipment cards in play.",
+            "expected": null
+          }
+        },
+        {
+          "id": "040-ongoing-5",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "195817实测共振女妖完整句；沿用库存已审定译文，合成负例保护持续牌、最多与在场限定。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "Click the hero who is considered to have the most Ongoing cards in play. Extra.",
+            "expected": null
+          }
         }
       ]
     },
@@ -65852,6 +67944,121 @@
               "isDeckBack": true,
               "isBoundTitle": true,
               "expected": false
+            }
+          }
+        },
+        {
+          "id": "040-observed-bound-title-1",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "195346实际绑定后的安全字符串快照；0.1.40通过扫描调用现有显示入口，需新版本实机确认。",
+          "case": {
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Deck View/Card Parent/CardView OxygenLeak-0 SmallCardBack/Environment Title Background/Title Label",
+            "objectName": "Title Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "WAGNER MARS BASE",
+            "expected": "瓦格纳火星基地",
+            "environmentDeckTitle": true,
+            "titleRole": {
+              "parent": "Environment Title Background",
+              "isDeckBack": true,
+              "isBoundTitle": true,
+              "expected": true
+            }
+          }
+        },
+        {
+          "id": "040-observed-bound-title-2",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "195346实际绑定后的安全字符串快照；0.1.40通过扫描调用现有显示入口，需新版本实机确认。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView OxygenLeak-1 FullCardBack/Title Box/Title Label",
+            "objectName": "Title Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "WAGNER MARS BASE",
+            "expected": "瓦格纳火星基地",
+            "environmentDeckTitle": true,
+            "titleRole": {
+              "parent": "Title Box",
+              "isDeckBack": true,
+              "isBoundTitle": true,
+              "expected": true
+            }
+          }
+        },
+        {
+          "id": "040-observed-bound-title-3",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "195346实际绑定后的安全字符串快照；0.1.40通过扫描调用现有显示入口，需新版本实机确认。",
+          "case": {
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Deck View/Card Parent/CardView SpaceScienceLab-0 SmallCardBack/Environment Title Background/Title Label",
+            "objectName": "Title Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "WAGNER MARS BASE",
+            "expected": "瓦格纳火星基地",
+            "environmentDeckTitle": true,
+            "titleRole": {
+              "parent": "Environment Title Background",
+              "isDeckBack": true,
+              "isBoundTitle": true,
+              "expected": true
+            }
+          }
+        },
+        {
+          "id": "040-observed-bound-title-4",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "195346实际绑定后的安全字符串快照；0.1.40通过扫描调用现有显示入口，需新版本实机确认。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView Biosphere-0 FullCardBack/Title Box/Title Label",
+            "objectName": "Title Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "WAGNER MARS BASE",
+            "expected": "瓦格纳火星基地",
+            "environmentDeckTitle": true,
+            "titleRole": {
+              "parent": "Title Box",
+              "isDeckBack": true,
+              "isBoundTitle": true,
+              "expected": true
+            }
+          }
+        },
+        {
+          "id": "040-observed-bound-title-5",
+          "status": "offline-covered",
+          "view": "display",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "195346实际绑定后的安全字符串快照；0.1.40通过扫描调用现有显示入口，需新版本实机确认。",
+          "case": {
+            "path": "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Selected Item(s)/WagnerMarsBase/Biosphere/Title Box/Title Label",
+            "objectName": "Title Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "WAGNER MARS BASE",
+            "expected": "瓦格纳火星基地",
+            "environmentDeckTitle": true,
+            "titleRole": {
+              "parent": "Title Box",
+              "isDeckBack": true,
+              "isBoundTitle": true,
+              "expected": true
             }
           }
         }

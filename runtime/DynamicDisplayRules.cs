@@ -274,6 +274,10 @@ public sealed class DynamicDisplayRules {
    {Action:"Bury",NumberKind:"card-count"}=>Format("finish.bury",parts.Number),
    {Action:"Discard",NumberKind:"card-count"}=>Format("button.discard.count",parts.Number),_=>null};
  }
+ public static string? ApplyDamageTypeButton(string path,string source){
+  if(!path.EndsWith("/Select Effect Container/Select Effect Button(Clone)/Label",StringComparison.Ordinal))return null;
+  return DamageNames.TryGetValue(source.Trim().ToLowerInvariant(),out var target)?target:null;
+ }
  public string? ApplyCardButton(string path,string card,string source){
   if(string.IsNullOrEmpty(source) || source.Length>2048)return null;
   if(source=="Play Here"){

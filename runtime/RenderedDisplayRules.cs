@@ -162,6 +162,10 @@ public sealed class RenderedDisplayRules {
   // Historical cardButtonCandidate is not proof of an actual Button; use the new explicit identity.
   var stable=button ? namedDynamic?.ApplyStableButton(obj,buttonLabel,source) : null;
   if(stable!=null)return stable;
+  if(inCard && button && buttonLabel && obj=="Label"){
+   var damageType=DynamicDisplayRules.ApplyDamageTypeButton(path,source);
+   if(damageType!=null)return damageType;
+  }
   if(effectTooltip)return EffectTooltip(source)??previous;
   if(inCard && button && obj=="Label"){
    var granted=GrantedHeroPowerPath.Match(path);
@@ -242,6 +246,10 @@ public sealed class RenderedDisplayRules {
   if(!inCard && obj=="Abandon Label" && path=="Overlay Canvas/Abandon Panel/Panel/Abandon Label" && source=="Are you sure you want to abandon your game in progress?")
    result="确定要放弃本局游戏吗？";
   if(!inCard && path==SurfaceProbeRules.HintPath){
+   var regain=Regex.Match(source,@"\A(?<prefix><b>[^<>\r\n]+:</b> )?Click a target to regain HP\.\z");
+   if(regain.Success)result=regain.Groups["prefix"].Value+"点击一个目标，使其恢复生命值。";
+   var ongoing=Regex.Match(source,@"\A(?<prefix><b>[^<>\r\n]+:</b> )?Click the hero who is considered to have the most Ongoing cards in play\.\z");
+   if(ongoing.Success)result=ongoing.Groups["prefix"].Value+"点击视为场上持续牌最多的英雄。";
    var m=Regex.Match(source,@"\A(?<prefix><b>[^<>\r\n]+:</b> )?Click (?<kind>a Hero|a target) to determine which has the (?<order>lowest|highest) HP(?<safe> \(will not be dealt damage\))?\.\z");
    if(m.Success && result==source)result=m.Groups["prefix"].Value+"点击"+(m.Groups["kind"].Value=="a Hero"?"一位英雄":"一个目标")+"，确定谁视为生命值最"+(m.Groups["order"].Value=="highest"?"高":"低")+"者"+(m.Groups["safe"].Success?"（不会因此受到伤害）":"")+"。";
    var immune=Regex.Match(source,@"\A(?<prefix><b>[^<>\r\n]+:</b> )?Click a target to make it immune to damage\.\z");

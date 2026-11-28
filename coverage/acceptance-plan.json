@@ -78,6 +78,12 @@
           "check": "输入框、生命值、裸数字、正文中相同词组",
           "passCriteria": "不翻译不改数；没有因匹配规则产生无关按钮",
           "status": "pending"
+        },
+        {
+          "id": "damage-types",
+          "check": "11类伤害类型选择按钮",
+          "passCriteria": "使用既定伤害类型译名，选中后效果与原类型对应",
+          "status": "pending"
         }
       ],
       "kind": "live-functional"
@@ -380,6 +386,18 @@
           "check": "含数量、名称和单复数的其他代表提示",
           "passCriteria": "整句无半译，名称与动态参数正确",
           "status": "pending"
+        },
+        {
+          "id": "regain-target",
+          "check": "银音秘师选择目标恢复生命值提示",
+          "passCriteria": "完整中文及角色名称正确，选中目标后恢复数值正常",
+          "status": "pending"
+        },
+        {
+          "id": "most-ongoing",
+          "check": "共振女妖选择视为在场持续牌最多的英雄",
+          "passCriteria": "共振女妖前缀与持续牌限定完整汉化，点击后结算目标正确",
+          "status": "pending"
         }
       ],
       "kind": "live-functional"
@@ -515,7 +533,14 @@
           "id": "heading-weight",
           "check": "四能力标题与异能：的粗体层级",
           "passCriteria": "标题明显加粗，图标和正文原样，长正文不新增裁切",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.39-rc.1",
+            "source": "用户2026-11-28本轮文字确认",
+            "humanConfirmation": "四标题、异能前缀通过实机验收",
+            "visualResult": "演奏／伴奏／制造／灭绝与异能前缀加粗通过",
+            "interactionResult": "本项为标题显示验收"
+          }
         }
       ],
       "kind": "live-functional"
@@ -597,7 +622,7 @@
               "status": "visual-failed"
             }
           ],
-          "diagnosis": "192946日志确认版本／文件一致、挂钩已安装但无环境标题命中。0.1.39增加独立标题与牌背绑定观察，不宣称名称修复。"
+          "diagnosis": "195346日志记录字符串赋值发生于CardView绑定前；绑定后小图、大图、新游戏预览均可安全读到英文名称。0.1.40扫描复用现有显示入口，待实测。"
         }
       ],
       "kind": "live-functional"
