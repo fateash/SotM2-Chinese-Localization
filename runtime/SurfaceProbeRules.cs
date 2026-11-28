@@ -35,13 +35,16 @@ public sealed class SurfaceProbeRules {
  public string? ApplyCardTitle(string objectName,string source,bool isBoundTitle)=>
   SchemaVersion==2 && isBoundTitle && objectName=="Title Label" && DeckNames.TryGetValue(source,out var target)?target:null;
  public bool IsDeckName(string source)=>DeckNames.ContainsKey(source) || DeckNames.ContainsValue(source);
- bool IsNamePath(string path)=>path==TurnPath || path==AvailableTitlePath ||
-  path=="Canvas/Main Panel/BaronBlade/Title BG/Title Label" ||
+ static readonly Dictionary<string,string> VillainResultNames=new(StringComparer.Ordinal){["BaronBlade"]="Baron Blade",["TheMatriarch"]="The Matriarch",["AkashBhuta"]="Akash'Bhuta",["CitizenDawn"]="Citizen Dawn",["GrandWarlordVoss"]="Grand Warlord Voss",["Omnitron"]="Omnitron"};
+ static readonly Dictionary<string,string> HeroResultNames=new(StringComparer.Ordinal){["AbsoluteZero"]="Absolute Zero",["Bunker"]="Bunker",["CaptainCosmic"]="Captain Cosmic",["Fanatic"]="Fanatic",["Haka"]="Haka",["Legacy"]="Legacy",["Ra"]="Ra",["Tachyon"]="Tachyon",["Tempest"]="Tempest",["TheArgentAdept"]="The Argent Adept",["TheWraith"]="The Wraith",["Unity"]="Unity"};
+ bool IsNamePath(string path,string source)=>path==TurnPath || path==AvailableTitlePath ||
+  HeroResultNames.Any(e=>path=="Canvas/Main Panel/Hero Container/"+e.Key+"/Title And HP Tooltip/Title Label" && source==e.Value) ||
+  VillainResultNames.Any(e=>path=="Canvas/Main Panel/"+e.Key+"/Title BG/Title Label" && source==e.Value) ||
   path=="Canvas/Main Panel/Villain View/Title BG/Title Label" ||
   path=="Canvas/Main Panel/Environment Background/Title Label" ||
   Enumerable.Range(1,5).Any(i=>path=="Canvas/Main Panel/Hero Container/End Game Hero View ("+i+")/Title And HP Tooltip/Title Label");
  public string? ApplyDeckName(string path,string source)=>
-  SchemaVersion==2 && DeckNames.TryGetValue(source,out var target) && IsNamePath(path)?target:null;
+  SchemaVersion==2 && DeckNames.TryGetValue(source,out var target) && IsNamePath(path,source)?target:null;
  public string? Apply(string path,string source){
   if(SchemaVersion==2){
    return ApplyDeckName(path,source) ?? Dynamic?.Apply(path,source);

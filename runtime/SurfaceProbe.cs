@@ -9,7 +9,7 @@ internal sealed class SurfaceProbe {
  readonly HashSet<string> seen=new(StringComparer.Ordinal);
  readonly Dictionary<string,int> counts=new(StringComparer.Ordinal);
  bool stopped;
- internal SurfaceProbe(string path){rules=SurfaceProbeRules.Read(path);completion=new RenderedDisplayRules(Plugin.Texts,rules.DeckNames);}
+ internal SurfaceProbe(string path){rules=SurfaceProbeRules.Read(path);completion=new RenderedDisplayRules(Plugin.Texts,rules.DeckNames,rules.Templates);}
  internal string? Complete(TMP_Text text,string source,string? previous){
   var view=text.GetComponentInParent<CardView>();
   string card=view?.Card?.Card?.CardDefinition.Identifier??"";

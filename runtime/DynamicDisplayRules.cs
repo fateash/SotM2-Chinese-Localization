@@ -13,11 +13,12 @@ public sealed class DynamicDisplayRules {
  public const string DrawPath="Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label";
  public const string DiscardPath="Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label";
  readonly Dictionary<string,string> templates;
+ readonly Func<string,string> resolveName;
  static readonly Dictionary<string,(int Args,string Tags)> Specs=new(){
   ["button.most"]=(0,""),["button.play.golem"]=(0,""),
   ["hint.hero.most.play"]=(0,""),["hint.trash.under"]=(0,""),["hint.hero.salvage"]=(0,""),["hint.trash.salvage"]=(0,""),
   ["hint.trash.owner.discard"]=(3,""),["hint.destroy.play.under.exact"]=(3,""),
-  ["button.replace"]=(0,""),["button.skip.draw.action"]=(0,""),
+  ["button.replace"]=(0,""),["button.skip.draw.action"]=(0,""),["button.skip.power.action"]=(0,""),
   ["button.discover.item"]=(0,""),["button.discover.golem"]=(0,""),
   ["hint.replace-discard"]=(2,""),["hint.draw.owner"]=(3,""),
   ["hint.hero.draw"]=(0,""),["hint.hero.discard"]=(0,""),["hint.hand.under"]=(0,""),
@@ -28,8 +29,8 @@ public sealed class DynamicDisplayRules {
   ["heading.cards.under"]=(1,""),["heading.cards.next"]=(1,""),["description.collect"]=(1,""),
   ["button.newgame.play"]=(0,""),["button.newgame.randomize"]=(0,""),["button.newgame.back"]=(0,""),["button.result.share"]=(0,""),["button.message.continue"]=(0,""),
   ["finish.destroy"]=(1,""),["hint.destroy.targets"]=(2,""),["hint.destroy.cards"]=(2,""),
-  ["button.skip.incapacitated"]=(0,""),["button.take.play"]=(0,""),["hint.hero.take.play"]=(0,""),
-  ["description.summon"]=(1,""),["phase.setup"]=(0,""),["result.hp"]=(2,"<nobr></nobr>"),["result.victory"]=(1,""),
+  ["button.skip.incapacitated"]=(0,""),["button.take.play"]=(0,""),["button.take.power"]=(0,""),["hint.hero.take.play"]=(0,""),["hint.hero.take.power"]=(0,""),
+  ["description.summon"]=(1,""),["phase.setup"]=(0,""),["result.hp"]=(2,"<nobr></nobr>"),["result.victory"]=(1,""),["result.defeat"]=(1,""),["message.game-over"]=(0,""),["message.all-incapacitated"]=(0,""),
   ["button.play.construct"]=(0,""),["button.discover.construct"]=(0,""),
   ["hint.lowest.hp"]=(0,""),["description.discover"]=(1,""),["phase.power.remaining"]=(1,""),
   ["button.common.1"]=(0,""),
@@ -204,6 +205,7 @@ public sealed class DynamicDisplayRules {
  static readonly Regex RevealedTitlePath=Rx(@"\ACanvas/Revealed Cards Manager/\[RevealCardsAction: Source=(?<name>[^<>\r\n\[\]]{1,200})\]/Title Label\z");
  static readonly Regex DestroyMany=Rx(@"\AClick up to (?<n>[0-9]{1,6}) (?<kind>targets|cards in play) to destroy them\.\z");
  static readonly Regex ReducedHp=Rx(@"\A(?<name>[^<>\r\n]{1,200}) has been reduced to <nobr>(?<n>[0-9]{1,6}) HP\.</nobr>\z");
+ static readonly Regex Defeat=Rx(@"\A(?<name>[^<>\r\n]{1,200}) has triumphed, forcing the Heroes to regroup and fight another day\.\.\.\z");
  static readonly Regex Victory=Rx(@"\AYou have defeated (?<name>[^<>\r\n]{1,200}) and saved the day!\z");
  static readonly Regex Description=Rx(@"\A(?<name>[^<>\r\n]{1,200}) (?<verb>drew|revealed|played|discovered|summoned|collected):\z");
  static readonly Regex RelatedCards=Rx(@"\ACards (?<relation>under|next to) (?<name>[^<>\r\n]{1,200})\z");
@@ -211,7 +213,8 @@ public sealed class DynamicDisplayRules {
  static readonly Regex DestroyPlayOrUnder=Rx(@"\AClick a card in play or under (?<name>[^<>\r\n]{1,200}) to destroy it\.\z");
  static readonly Regex DestroyPlayOrUnderExact=Rx(@"\AClick (?<n>[0-9]{1,6}) (?<unit>card|cards) in play or under (?<name>[^<>\r\n]{1,200}) to destroy (?<pronoun>it|them)\.\z");
  static readonly Regex TrashOwnerDiscard=Rx(@"\AClick (?<owner>[^<>\r\n]{1,200})'s trash to discard (?<card>[^<>\r\n]{1,200})\.\z");
- public DynamicDisplayRules(Dictionary<string,string> values){
+ public DynamicDisplayRules(Dictionary<string,string> values,Func<string,string>? nameResolver=null){
+  resolveName=nameResolver??(s=>s);
   if(values==null || values.Count!=Specs.Count)throw new InvalidDataException("Incomplete dynamic pilot templates");
   foreach(var (key,spec) in Specs){
    if(!values.TryGetValue(key,out var value) || string.IsNullOrWhiteSpace(value) || value.Length>512)throw new InvalidDataException("Missing pilot template: "+key);
@@ -223,7 +226,7 @@ public sealed class DynamicDisplayRules {
   }
   templates=new(values,StringComparer.Ordinal);
  }
- string Format(string id,params object[] args)=>string.Format(CultureInfo.InvariantCulture,templates[id],args);
+ string Format(string id,params object[] args)=>string.Format(CultureInfo.InvariantCulture,templates[id],args.Select(a=>a is string s?(object)resolveName(s):a).ToArray());
  public string Glyphs()=>string.Concat(templates.Values)+string.Concat(DamageNames.Values)+string.Concat(PhaseNames.Values)+"在场";
  public string? Apply(string path,string source){
   if(string.IsNullOrEmpty(source) || source.Length>2048)return null;
@@ -249,10 +252,10 @@ public sealed class DynamicDisplayRules {
     {Action:"Destroy",NumberKind:"card-count"}=>Format("finish.destroy",parts.Number),
     {Action:"Select",NumberKind:"card-count"}=>Format("finish.select",parts.Number),_=>null};
   }
-  if(path==ContinuePath)return source switch {"Skip"=>Format("button.skip"),"Skip Play"=>Format("button.skip.play.action"),"Skip Draw"=>Format("button.skip.draw.action"),"Skip Incapacitated Phase"=>Format("button.skip.incapacitated"),"Skip Play Phase"=>Format("button.skip.play"),"Skip Power Phase"=>Format("button.skip.power"),_=>null};
+  if(path==ContinuePath)return source switch {"Skip"=>Format("button.skip"),"Skip Play"=>Format("button.skip.play.action"),"Skip Draw"=>Format("button.skip.draw.action"),"Skip Power"=>Format("button.skip.power.action"),"Skip Incapacitated Phase"=>Format("button.skip.incapacitated"),"Skip Play Phase"=>Format("button.skip.play"),"Skip Power Phase"=>Format("button.skip.power"),_=>null};
   if(path==DrawPath && source=="Draw")return Format("button.draw");
   if(TrashSelection.IsMatch(path) && source=="Discard")return Format("button.discard");
-  if(HeroSelection.IsMatch(path))return source switch {"Draw"=>Format("button.draw"),"Discard"=>Format("button.discard"),"Play a Card"=>Format("button.play.card"),"Use a Power"=>Format("button.use.power"),"Put a Card"=>Format("button.put.card"),"Destroy a Card"=>Format("button.destroy.card"),"Has the Fewest"=>Format("button.fewest"),"Has the Most"=>Format("button.most"),"Take Play Phase"=>Format("button.take.play"),_=>null};
+  if(HeroSelection.IsMatch(path))return source switch {"Draw"=>Format("button.draw"),"Discard"=>Format("button.discard"),"Play a Card"=>Format("button.play.card"),"Use a Power"=>Format("button.use.power"),"Put a Card"=>Format("button.put.card"),"Destroy a Card"=>Format("button.destroy.card"),"Has the Fewest"=>Format("button.fewest"),"Has the Most"=>Format("button.most"),"Take Play Phase"=>Format("button.take.play"),"Take Power Phase"=>Format("button.take.power"),_=>null};
   if(DeckSelection.IsMatch(path))return source switch {"Reveal"=>Format("button.reveal"),"Draw"=>Format("button.draw"),"Replace"=>Format("button.replace"),_=>null};
   if(path==DescriptionPath){
    var m=Description.Match(source);if(!m.Success)return null;
@@ -263,10 +266,13 @@ public sealed class DynamicDisplayRules {
    var title=Description.Match(source);
    return title.Success && title.Groups["verb"].Value=="revealed" && title.Groups["name"].Value==revealedTitle.Groups["name"].Value?Format("description.reveal",title.Groups["name"].Value):null;
   }
+  if(path=="Canvas/Main Panel/Message Panel/Panel/Heading Label" && source=="Game Over")return Format("message.game-over");
   if(path=="Canvas/Main Panel/Message Panel/Panel/Message Label"){
+   if(source=="All of the Heroes are incapacitated.")return Format("message.all-incapacitated");
    var hp=ReducedHp.Match(source);return hp.Success?Format("result.hp",hp.Groups["name"].Value,hp.Groups["n"].Value):null;
   }
   if(path=="Canvas/Main Panel/Heading Label"){
+   var defeat=Defeat.Match(source);if(defeat.Success)return Format("result.defeat",defeat.Groups["name"].Value);
    var victory=Victory.Match(source);return victory.Success?Format("result.victory",victory.Groups["name"].Value):null;
   }
   if(path!=SurfaceProbeRules.HintPath)return null;
@@ -289,6 +295,7 @@ public sealed class DynamicDisplayRules {
    "Click an incapacitated ability to use it."=>"hint.incapacitated", "Click a button to choose a damage type."=>"hint.damage.type",
    "Click a target to determine which has the lowest HP."=>"hint.lowest.hp",
    "Click a hero to take their Play phase now."=>"hint.hero.take.play",
+   "Click a hero to take their Power phase now."=>"hint.hero.take.power",
    "Click a hero to destroy a card."=>"hint.hero.destroy", "Click a card in play to destroy it."=>"hint.card.destroy",
    "Click the hero who is considered to have the fewest cards in hand."=>"hint.hero.fewest",
    "Click an ability to use it."=>"hint.ability", "Click a card in the deck to summon it."=>"hint.summon",

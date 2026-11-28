@@ -156,7 +156,13 @@
     "hint.trash.salvage": "点击弃牌堆中的一张牌以将其回收。",
     "hint.trash.owner.discard": "{0}点击{1}的弃牌堆，将{2}弃置。",
     "hint.destroy.play.under.exact": "{0}点击{1}张在场或位于{2}下方的牌以将其破坏。",
-    "hint.reaction.first": "{0}<b>{1}</b>将对<b>{2}</b>造成{3}点{4}伤害。点击一张牌，先发动其效果。"
+    "hint.reaction.first": "{0}<b>{1}</b>将对<b>{2}</b>造成{3}点{4}伤害。点击一张牌，先发动其效果。",
+    "button.take.power": "进行异能阶段",
+    "hint.hero.take.power": "点击一位英雄，让其立即进行异能阶段。",
+    "result.defeat": "{0}取得胜利，英雄们只能重整旗鼓，来日再战……",
+    "message.game-over": "游戏结束",
+    "message.all-incapacitated": "所有英雄均已失去战斗能力。",
+    "button.skip.power.action": "跳过异能"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",

@@ -35,7 +35,7 @@
     {
       "id": "2285896a3653c160397be010",
       "reason": "current-rule-match",
-      "target": "<b>宇宙冠饰:</b> 点击一个区域，将Autonomous Blade打出至该处。"
+      "target": "<b>宇宙冠饰:</b> 点击一个区域，将自主锋刃打出至该处。"
     },
     {
       "id": "482124485c01b32e89398726",
@@ -130,7 +130,7 @@
     {
       "id": "a59a5a774d0178bc0794c4bf",
       "reason": "current-rule-match",
-      "target": "点击一个区域，将Wounding Buffer打出至该处。"
+      "target": "点击一个区域，将反击屏障打出至该处。"
     },
     {
       "id": "afb1ac66b2536c95bfeb3f7a",
@@ -180,7 +180,7 @@
     {
       "id": "d5ffaab74ada8169545b0ed6",
       "reason": "current-rule-match",
-      "target": "<b>宇宙冠饰:</b> 点击Cosmic Crest上的按钮，选择一个效果。"
+      "target": "<b>宇宙冠饰:</b> 点击宇宙冠饰上的按钮，选择一个效果。"
     },
     {
       "id": "d78f06f92999d45348a089b8",
@@ -410,7 +410,7 @@
     {
       "id": "2a45a8875f3ecf89318ba818",
       "reason": "current-rule-match",
-      "target": "<b>堡垒:</b> 点击Bunker上的按钮，选择一个效果。"
+      "target": "<b>堡垒:</b> 点击堡垒上的按钮，选择一个效果。"
     },
     {
       "id": "2b80a3bab22f149b239aadc2",
@@ -750,7 +750,7 @@
     {
       "id": "76e047162721a9b11007fef5",
       "reason": "current-rule-match",
-      "target": "Baron Blade的生命值已降至<nobr>0点</nobr>。"
+      "target": "刀锋男爵的生命值已降至<nobr>0点</nobr>。"
     },
     {
       "id": "7f63a3e170762d581bce08c0",
@@ -965,7 +965,7 @@
     {
       "id": "a8b0a6dca16a3c5d7cef7d2c",
       "reason": "current-rule-match",
-      "target": "<b>反击屏障:</b> <b>Baron Blade</b>将对<b>Captain Cosmic</b>造成2点近战伤害。点击一个反应以使用它。"
+      "target": "<b>反击屏障:</b> <b>刀锋男爵</b>将对<b>宇宙队长</b>造成2点近战伤害。点击一个反应以使用它。"
     },
     {
       "id": "aa228e4dccefccff3fd20d5d",
@@ -990,7 +990,7 @@
     {
       "id": "b0546cde75711f4103c6d5d3",
       "reason": "current-rule-match",
-      "target": "<b>宇宙冠饰:</b> 点击一个区域，将Dynamic Siphon打出至该处。"
+      "target": "<b>宇宙冠饰:</b> 点击一个区域，将动力虹吸打出至该处。"
     },
     {
       "id": "b09b06358d0b2b5792394bfe",
@@ -1020,7 +1020,7 @@
     {
       "id": "b53ee5bdcc6f6c03a5fbb50d",
       "reason": "current-rule-match",
-      "target": "<b>构造灾变:</b> 点击Construct Cataclysm上的按钮，选择一个效果。"
+      "target": "<b>构造灾变:</b> 点击构造灾变上的按钮，选择一个效果。"
     },
     {
       "id": "b543723128334ef01b001fc7",
@@ -1115,12 +1115,12 @@
     {
       "id": "c5a3704352a489aadaca9e8e",
       "reason": "current-rule-match",
-      "target": "<b>反击屏障:</b> <b>Baron Blade</b>将对<b>Legacy</b>造成2点能量伤害。点击一个反应以使用它。"
+      "target": "<b>反击屏障:</b> <b>刀锋男爵</b>将对<b>传承侠</b>造成2点能量伤害。点击一个反应以使用它。"
     },
     {
       "id": "c5d0a3d584fbbd0f73443433",
       "reason": "current-rule-match",
-      "target": "点击一个区域，将Energy Bracer打出至该处。"
+      "target": "点击一个区域，将能量护腕打出至该处。"
     },
     {
       "id": "c5e4374cf31a7050e0a02720",
@@ -1305,7 +1305,7 @@
     {
       "id": "fa9c9fbb553e9df6630b1bea",
       "reason": "current-rule-match",
-      "target": "你击败了Baron Blade，化解了危机！"
+      "target": "你击败了刀锋男爵，化解了危机！"
     },
     {
       "id": "fca966451eefb0e940ec48b5",
@@ -1320,7 +1320,7 @@
     {
       "id": "0064ccbcfdac20bc0c764bf5",
       "reason": "current-rule-match",
-      "target": "点击一个区域，将Vitality Conduit打出至该处。"
+      "target": "点击一个区域，将活力法渠打出至该处。"
     },
     {
       "id": "00aa2b1318e3c9303b537e19",
@@ -1385,7 +1385,7 @@
     {
       "id": "16bc03bec03b34a0d6560c4c",
       "reason": "current-rule-match",
-      "target": "<b>反击屏障:</b> <b>Jet-Jump Battalion</b>将对<b>Bunker</b>造成1点能量伤害。点击一个反应以使用它。"
+      "target": "<b>反击屏障:</b> <b>喷射突击营</b>将对<b>堡垒</b>造成1点能量伤害。点击一个反应以使用它。"
     },
     {
       "id": "1716b8b3270e6127bf53edf9",
@@ -1400,7 +1400,7 @@
     {
       "id": "1ad24c2ecf773124658ee16c",
       "reason": "current-rule-match",
-      "target": "Flak Cannon下方的牌"
+      "target": "高射火炮下方的牌"
     },
     {
       "id": "1c1109a297496da33b131c4b",
@@ -1435,7 +1435,7 @@
     {
       "id": "2a6924242f91b3f0bb1e4258",
       "reason": "current-rule-match",
-      "target": "<b>应急护盾:</b> <b>Backlash Field Generator</b>将对<b>Bunker</b>造成1点闪电伤害。点击一个反应以使用它。"
+      "target": "<b>应急护盾:</b> <b>反噬场发生器</b>将对<b>堡垒</b>造成1点闪电伤害。点击一个反应以使用它。"
     },
     {
       "id": "2ab190feb12b4ba59f5d8e53",
@@ -1485,7 +1485,7 @@
     {
       "id": "38ec492eb2a8118b5ad09328",
       "reason": "current-rule-match",
-      "target": "<b>活塞重拳:</b> 点击一张在场的牌，将Piston Punch置于其下方。"
+      "target": "<b>活塞重拳:</b> 点击一张在场的牌，将活塞重拳置于其下方。"
     },
     {
       "id": "3dfe08a133833e8bbf0e1390",
@@ -1560,12 +1560,12 @@
     {
       "id": "556e9c1ebaafbf207079d5c1",
       "reason": "current-rule-match",
-      "target": "<b>宇宙冠饰:</b> 点击一个区域，将Energy Bracer打出至该处。"
+      "target": "<b>宇宙冠饰:</b> 点击一个区域，将能量护腕打出至该处。"
     },
     {
       "id": "55a3905bc1c7e0b908054205",
       "reason": "current-rule-match",
-      "target": "Mounted AP Gun下方的牌"
+      "target": "挂载穿甲炮下方的牌"
     },
     {
       "id": "59fa6a09c5edeee6b3671479",
@@ -1595,7 +1595,7 @@
     {
       "id": "5fba43ac4c56a5fee05bc0df",
       "reason": "current-rule-match",
-      "target": "<b>绝对零度:</b> 点击Absolute Zero上的按钮，选择一个效果。"
+      "target": "<b>绝对零度:</b> 点击绝对零度上的按钮，选择一个效果。"
     },
     {
       "id": "6196aa2758ab81bc5630fc6a",
@@ -1630,7 +1630,7 @@
     {
       "id": "68822b6e5bbd68d59fa52dbd",
       "reason": "current-rule-match",
-      "target": "<b>反击屏障:</b> <b>Baron Blade</b>将对<b>Bunker</b>造成1点毒素伤害。点击一个反应以使用它。"
+      "target": "<b>反击屏障:</b> <b>刀锋男爵</b>将对<b>堡垒</b>造成1点毒素伤害。点击一个反应以使用它。"
     },
     {
       "id": "69ad4e951dc440758ba40190",
@@ -1680,7 +1680,7 @@
     {
       "id": "842fed9f739433975976bcc5",
       "reason": "current-rule-match",
-      "target": "<b>高效冷却罐:</b> 点击High-Yield Coolant Tanks上的按钮，选择一个效果。"
+      "target": "<b>高效冷却罐:</b> 点击高效冷却罐上的按钮，选择一个效果。"
     },
     {
       "id": "8820e61460a2d3cdf2799784",
@@ -1700,7 +1700,7 @@
     {
       "id": "998e548e466a3839a9bffd7c",
       "reason": "current-rule-match",
-      "target": "<b>反击屏障:</b> <b>Backlash Field Generator</b>将对<b>Bunker</b>造成1点闪电伤害。点击一个反应以使用它。"
+      "target": "<b>反击屏障:</b> <b>反噬场发生器</b>将对<b>堡垒</b>造成1点闪电伤害。点击一个反应以使用它。"
     },
     {
       "id": "9ab087c7581d459f7cb403da",
@@ -1790,7 +1790,7 @@
     {
       "id": "bc886d8ab164bb3742be1fa2",
       "reason": "current-rule-match",
-      "target": "<b>高射火炮:</b> 点击一张在场或位于Flak Cannon下方的牌以将其破坏。"
+      "target": "<b>高射火炮:</b> 点击一张在场或位于高射火炮下方的牌以将其破坏。"
     },
     {
       "id": "bda00be0cc4af4699789c945",
@@ -1820,7 +1820,7 @@
     {
       "id": "ce6f8388e6f178f6c63386b6",
       "reason": "current-rule-match",
-      "target": "<b>加特林机炮:</b> 点击一张在场或位于Gatling Gun下方的牌以将其破坏。"
+      "target": "<b>加特林机炮:</b> 点击一张在场或位于加特林机炮下方的牌以将其破坏。"
     },
     {
       "id": "d4389dc2af2681aa4b47210e",
@@ -1905,7 +1905,7 @@
     {
       "id": "f012309ccb4112f8861a028d",
       "reason": "current-rule-match",
-      "target": "<b>应急护盾:</b> <b>Jet-Jump Battalion</b>将对<b>Bunker</b>造成1点能量伤害。点击一个反应以使用它。"
+      "target": "<b>应急护盾:</b> <b>喷射突击营</b>将对<b>堡垒</b>造成1点能量伤害。点击一个反应以使用它。"
     },
     {
       "id": "f17a76403e6fe9c51eb23084",
@@ -1975,7 +1975,7 @@
     {
       "id": "10d98167c99a8e632c0ff3b6",
       "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将A True Hero放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将英雄本色放回原处或弃置。"
     },
     {
       "id": "1311b83f9a44a73dfd4debce",
@@ -2005,7 +2005,7 @@
     {
       "id": "1d59e4a15f217d10bb22fb41",
       "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Mounted AP Gun放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将挂载穿甲炮放回原处或弃置。"
     },
     {
       "id": "1e5ae326343db8f5917cd557",
@@ -2115,7 +2115,7 @@
     {
       "id": "379e1760efa0ab187e5b7140",
       "reason": "current-rule-match",
-      "target": "<b>一次性电源:</b> 点击一张在场的牌，将Recharge Mode置于其下方。"
+      "target": "<b>一次性电源:</b> 点击一张在场的牌，将充能模式置于其下方。"
     },
     {
       "id": "383821b20cc2d2e348247611",
@@ -2195,12 +2195,12 @@
     {
       "id": "4b65e47566556549f7ee2781",
       "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Displaced Ambassador放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将流亡使节放回原处或弃置。"
     },
     {
       "id": "506f4ec2c9e7dc0e066e66c4",
       "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Supply Crate放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将补给货箱放回原处或弃置。"
     },
     {
       "id": "53cb958f9671b88023cf2c1b",
@@ -2225,7 +2225,7 @@
     {
       "id": "58856020cead01453cd99190",
       "reason": "current-rule-match",
-      "target": "<b>异星水产学家:</b> 选择一个区域，将Entry Point放回原处或弃置。"
+      "target": "<b>异星水产学家:</b> 选择一个区域，将破墙而入放回原处或弃置。"
     },
     {
       "id": "58c524a2190ad89cdd40f7de",
@@ -2240,7 +2240,7 @@
     {
       "id": "5d4eb81102bb8c40d5034eca",
       "reason": "current-rule-match",
-      "target": "<b>榴弹发射器:</b> 点击一张在场或位于Grenade Launcher下方的牌以将其破坏。"
+      "target": "<b>榴弹发射器:</b> 点击一张在场或位于榴弹发射器下方的牌以将其破坏。"
     },
     {
       "id": "5dd4c4000e1dda54c939bd17",
@@ -2260,7 +2260,7 @@
     {
       "id": "5e8b03879ad004ab4d380bda",
       "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Haka of Battle放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将征战战舞放回原处或弃置。"
     },
     {
       "id": "5eece7d0e4866e799989fe7f",
@@ -2290,12 +2290,12 @@
     {
       "id": "64ab6d14c8732a92f5f9ad19",
       "reason": "current-rule-match",
-      "target": "<b>异星水产学家:</b> 选择一个区域，将Mission Control放回原处或弃置。"
+      "target": "<b>异星水产学家:</b> 选择一个区域，将任务中枢放回原处或弃置。"
     },
     {
       "id": "67be4494df14e4bd869a960e",
       "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Haka of Frenzy放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将狂热战舞放回原处或弃置。"
     },
     {
       "id": "67c3cc9cbdf6cd7214e71e95",
@@ -2325,12 +2325,12 @@
     {
       "id": "6d62d72515609eced47989c0",
       "reason": "current-rule-match",
-      "target": "<b>补给货箱:</b> 点击Unity的牌库，抽2张牌。"
+      "target": "<b>补给货箱:</b> 点击优妮蒂的牌库，抽2张牌。"
     },
     {
       "id": "6e3ffd9c4181398ee2de733c",
       "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Haka of Recovery放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将复苏战舞放回原处或弃置。"
     },
     {
       "id": "6ea5faff7d13bfe648bb1407",
@@ -2375,7 +2375,7 @@
     {
       "id": "7a36828de12583cecf7f30be",
       "reason": "current-rule-match",
-      "target": "<b>瞬间锻造:</b> 点击Flash Forge上的按钮，选择一个效果。"
+      "target": "<b>瞬间锻造:</b> 点击瞬间锻造上的按钮，选择一个效果。"
     },
     {
       "id": "7c7f6ce6988f861afb1c99f7",
@@ -2410,7 +2410,7 @@
     {
       "id": "81e1eefbef72c9fed00ba1e4",
       "reason": "current-rule-match",
-      "target": "<b>威能之赐:</b> 点击Haka的牌库，抽3张牌。"
+      "target": "<b>威能之赐:</b> 点击哈卡的牌库，抽3张牌。"
     },
     {
       "id": "840e60f55680e61975039b0e",
@@ -2460,7 +2460,7 @@
     {
       "id": "8d2a7b9d29ff557b81a8bfa4",
       "reason": "current-rule-match",
-      "target": "<b>异星水产学家:</b> 选择一个区域，将Dr. Stinson's Secondary Lab放回原处或弃置。"
+      "target": "<b>异星水产学家:</b> 选择一个区域，将斯廷森博士的副实验室放回原处或弃置。"
     },
     {
       "id": "8db9a3ac397a0cffcb288703",
@@ -2500,12 +2500,12 @@
     {
       "id": "9993585e06561f477a27deba",
       "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Lightning Slash放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将电光斩击放回原处或弃置。"
     },
     {
       "id": "9a133cab1dc5a9e226c952ee",
       "reason": "current-rule-match",
-      "target": "Grenade Launcher下方的牌"
+      "target": "榴弹发射器下方的牌"
     },
     {
       "id": "9cd6084b7cf3a20c005f6920",
@@ -2540,7 +2540,7 @@
     {
       "id": "a1ccd62d38f0fd7152e4b10c",
       "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Platform Bot放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将平台机偶放回原处或弃置。"
     },
     {
       "id": "a4dd208f6ea3329a816f0740",
@@ -2585,7 +2585,7 @@
     {
       "id": "b0de7c920e3ee815a73cf04b",
       "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Lead from the Front放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将身先士卒放回原处或弃置。"
     },
     {
       "id": "b3ca6043bf1db905155e2124",
@@ -2610,7 +2610,7 @@
     {
       "id": "b5e682fb667c2cd29b3894a5",
       "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Thunderclap放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将霹雳轰鸣放回原处或弃置。"
     },
     {
       "id": "b5ec431f64f0d0c6540cbe1b",
@@ -2690,7 +2690,7 @@
     {
       "id": "ca72ea6dd485d25b75f659e9",
       "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Turret Mode放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将炮塔模式放回原处或弃置。"
     },
     {
       "id": "ca9cd9dc8be6b7e4d0d6537f",
@@ -2725,7 +2725,7 @@
     {
       "id": "d4be9019a580c31eac373f45",
       "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Grenade Launcher放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将榴弹发射器放回原处或弃置。"
     },
     {
       "id": "d73667dd260ff765bbc9f68f",
@@ -2785,7 +2785,7 @@
     {
       "id": "e61d9d583df07e947683736e",
       "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Inspired Repair放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将灵感修复放回原处或弃置。"
     },
     {
       "id": "e71dbc323f00ad6001f24483",
@@ -2900,7 +2900,7 @@
     {
       "id": "0bbda5d80c160bc5058b6821",
       "reason": "current-rule-match",
-      "target": "<b>应急护盾:</b> <b>S-83 Assault Drones</b>将对<b>Bunker</b>造成2点近战伤害。点击一个反应以使用它。"
+      "target": "<b>应急护盾:</b> <b>S-83突击机兵</b>将对<b>堡垒</b>造成2点近战伤害。点击一个反应以使用它。"
     },
     {
       "id": "0e829f99f1e919ca055dd0b7",
@@ -2915,7 +2915,7 @@
     {
       "id": "1297d8fc5dd4712d08daba7d",
       "reason": "current-rule-match",
-      "target": "<b>宇宙队长:</b> 点击一个区域，将Energy Bracer打出至该处。"
+      "target": "<b>宇宙队长:</b> 点击一个区域，将能量护腕打出至该处。"
     },
     {
       "id": "12e0f6de3c2f13f957e3bed7",
@@ -2965,7 +2965,7 @@
     {
       "id": "1ff255d5fdbd1d40d714308d",
       "reason": "current-rule-match",
-      "target": "<b>突触阻断:</b> <b>Citizen Winter</b>将对<b>Tachyon</b>造成1点火焰伤害。点击一个反应以使用它。"
+      "target": "<b>突触阻断:</b> <b>凛冬公民</b>将对<b>快子</b>造成1点火焰伤害。点击一个反应以使用它。"
     },
     {
       "id": "24ad7989485211066b1ee15c",
@@ -3030,7 +3030,7 @@
     {
       "id": "338f5604e64e35be53a18489",
       "reason": "current-rule-match",
-      "target": "<b>快子:</b> 选择一个区域，抽取或弃置Hypersonic Dash。"
+      "target": "<b>快子:</b> 选择一个区域，抽取或弃置高超音速冲刺。"
     },
     {
       "id": "33edc2a34fb41f6a91c55dec",
@@ -3080,12 +3080,12 @@
     {
       "id": "39ee539253469b92f8df9f10",
       "reason": "current-rule-match",
-      "target": "<b>动力虹吸:</b> <b>Citizen Dawn</b>将对<b>The Wraith</b>造成2点能量伤害。点击一个反应以使用它。"
+      "target": "<b>动力虹吸:</b> <b>黎明公民</b>将对<b>幽魂</b>造成2点能量伤害。点击一个反应以使用它。"
     },
     {
       "id": "3a6af98bfcb1d657d30c107c",
       "reason": "current-rule-match",
-      "target": "Omnitron的生命值已降至<nobr>0点</nobr>。"
+      "target": "全能智创的生命值已降至<nobr>0点</nobr>。"
     },
     {
       "id": "3ce6ac176dfb19ecfac136a9",
@@ -3120,7 +3120,7 @@
     {
       "id": "474236a72150ddcf2344d6e9",
       "reason": "current-rule-match",
-      "target": "<b>一次性电源:</b> 点击一张在场的牌，将Expendable Power Bank置于其下方。"
+      "target": "<b>一次性电源:</b> 点击一张在场的牌，将一次性电源置于其下方。"
     },
     {
       "id": "4746f4568979fc7ac97d8456",
@@ -3155,7 +3155,7 @@
     {
       "id": "4f0982d616ff668a3b7549a9",
       "reason": "current-rule-match",
-      "target": "<b>突触阻断:</b> 点击Synaptic Interrupt上的按钮，选择一个效果。"
+      "target": "<b>突触阻断:</b> 点击突触阻断上的按钮，选择一个效果。"
     },
     {
       "id": "503cb343aa522e8e1444029b",
@@ -3195,7 +3195,7 @@
     {
       "id": "54224b7ba4e2b3b1c4f0d081",
       "reason": "current-rule-match",
-      "target": "<b>强行制伏:</b> 点击Omnitron的弃牌堆，将Singularity Projector弃置。"
+      "target": "<b>强行制伏:</b> 点击全能智创的弃牌堆，将奇点投射器弃置。"
     },
     {
       "id": "552dddb587f8391ea9fb620e",
@@ -3230,7 +3230,7 @@
     {
       "id": "68845988cc54903b43b944af",
       "reason": "current-rule-match",
-      "target": "<b>挂载穿甲炮:</b> 点击2张在场或位于Mounted AP Gun下方的牌以将其破坏。"
+      "target": "<b>挂载穿甲炮:</b> 点击2张在场或位于挂载穿甲炮下方的牌以将其破坏。"
     },
     {
       "id": "6ac8989edbfe217a15170212",
@@ -3270,7 +3270,7 @@
     {
       "id": "7ff839788e05b0a8da7ba712",
       "reason": "current-rule-match",
-      "target": "<b>快子:</b> 选择一个区域，抽取或弃置HUD Goggles。"
+      "target": "<b>快子:</b> 选择一个区域，抽取或弃置平显护目镜。"
     },
     {
       "id": "800e1d1ab6397507493c3e15",
@@ -3325,7 +3325,7 @@
     {
       "id": "9acd2b0d078d69c2a3937f55",
       "reason": "current-rule-match",
-      "target": "点击一个区域，将Dynamic Siphon打出至该处。"
+      "target": "点击一个区域，将动力虹吸打出至该处。"
     },
     {
       "id": "9b6d2c73f24edc2f36d94acc",
@@ -3445,7 +3445,7 @@
     {
       "id": "c2bcdc413bda6fd1973d5fc3",
       "reason": "current-rule-match",
-      "target": "你击败了Omnitron，化解了危机！"
+      "target": "你击败了全能智创，化解了危机！"
     },
     {
       "id": "c449d8ac08f201bf24d898fe",
@@ -3535,7 +3535,7 @@
     {
       "id": "e855bef276b0a0c777944a8d",
       "reason": "current-rule-match",
-      "target": "<b>一次性电源:</b> 点击一张在场的牌，将Upgrade Mode置于其下方。"
+      "target": "<b>一次性电源:</b> 点击一张在场的牌，将升级模式置于其下方。"
     },
     {
       "id": "e9b958c4d907fdc7e92f36ad",
@@ -3555,7 +3555,7 @@
     {
       "id": "f3912db4a7a3ac1e7ce77f99",
       "reason": "current-rule-match",
-      "target": "<b>优妮蒂:</b> 点击Unity上的按钮，选择一个效果。"
+      "target": "<b>优妮蒂:</b> 点击优妮蒂上的按钮，选择一个效果。"
     },
     {
       "id": "f66fac0f86a40150a98eef52",
@@ -3585,17 +3585,17 @@
     {
       "id": "febc57f44de0fd4ef7283d55",
       "reason": "current-rule-match",
-      "target": "<b>宇宙队长:</b> 点击一个区域，将Vitality Conduit打出至该处。"
+      "target": "<b>宇宙队长:</b> 点击一个区域，将活力法渠打出至该处。"
     },
     {
       "id": "01f1c2253f530c5f77cdc1fa",
       "reason": "current-rule-match",
-      "target": "<b>潜行机偶:</b> <b>Burning High Rise</b>将对<b>Arsenal Bot</b>造成2点火焰伤害。点击一张牌，先发动其效果。"
+      "target": "<b>潜行机偶:</b> <b>高楼失火</b>将对<b>武库机偶</b>造成2点火焰伤害。点击一张牌，先发动其效果。"
     },
     {
       "id": "d386447b6229e35f787fc0dd",
       "reason": "current-rule-match",
-      "target": "<b>潜行机偶:</b> <b>Burning High Rise</b>将对<b>Unity</b>造成2点火焰伤害。点击一张牌，先发动其效果。"
+      "target": "<b>潜行机偶:</b> <b>高楼失火</b>将对<b>优妮蒂</b>造成2点火焰伤害。点击一张牌，先发动其效果。"
     }
   ]
 }

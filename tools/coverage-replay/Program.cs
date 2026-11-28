@@ -6,7 +6,7 @@ using SotM2Chinese;
 if(args.Length!=5)throw new ArgumentException("catalog probe snapshot contracts output");
 var catalog=Catalog.Read(args[0]);
 var probe=SurfaceProbeRules.Read(args[1]);
-var completion=new RenderedDisplayRules(catalog,probe.DeckNames);
+var completion=new RenderedDisplayRules(catalog,probe.DeckNames,probe.Templates);
 using var snapshot=JsonDocument.Parse(File.ReadAllText(args[2]));
 using var contracts=JsonDocument.Parse(File.ReadAllText(args[3]));
 var conditionalCatalogs=new Dictionary<string,DisplayRules>(StringComparer.Ordinal);

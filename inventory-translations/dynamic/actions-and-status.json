@@ -37,7 +37,7 @@
   {
     "key": "literal.343799bfe1a9ac8275cf0e8a",
     "original": "All of the Heroes are incapacitated.",
-    "translation": "所有英雄均已失能。",
+    "translation": "所有英雄均已失去战斗能力。",
     "stage": 2,
     "context": "程序常量索引：2725；用途：actions-and-status。\n显示候选，尚未证明全部调用位置；不得做全局字符串替换。保留首尾空格、占位符和标签。"
   },

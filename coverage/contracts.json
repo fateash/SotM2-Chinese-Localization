@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "3400a89da3bc57833ffc934c7823b125b3fcb2963dcb040658774797277f7945",
-    "runtime/SurfaceProbeRules.cs": "795eebcd5f1ef1f7c98609bf19f4660d8632122059a15ad7e92902a955f4a0cb",
-    "runtime/SurfaceProbe.cs": "06e1bbe84d688632f198496d1e73d290ecc7b16c2baba5450840b93cc55ac31d",
-    "runtime/Plugin.cs": "696e402d9755922e2235827371a9ff20185c48ae9765d30b3ef9640b73cf9afc",
+    "runtime/DynamicDisplayRules.cs": "6d7eaf0ef1aee67d609736ee64fcfb592c0218788aa04d992193db087ed64f51",
+    "runtime/SurfaceProbeRules.cs": "1d8071f2bb04ac9d4f69936e07ff9fbc933c5805644ac323d080566fce0d9e00",
+    "runtime/SurfaceProbe.cs": "032b86555d8b08fb282ff05ed74630d3370ad9ceac3abdcb629d916c25e24579",
+    "runtime/Plugin.cs": "f9b5e69e20bf4d190f84f1bffce426b8ff98fd1c061a2cca2dd4b03619e00663",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "3b65ec6dba3771f1c3595d05069417db54cb622e2b7bc278ef18cd9733377258",
-    "runtime/RenderedDisplayRules.cs": "c6240572bdf15480757876c8f6e360ce49f87e58c89debd135fe6aef70a7c94c"
+    "probe/dynamic-pilot.json": "ac4d19974cd5adbcca9ee5652611b94a8f946a986e8bbee8c0d7256c6de8ed29",
+    "runtime/RenderedDisplayRules.cs": "8246c2212d8c7c2b407bb9f9f10888e588f5f22362f9a7684b5405971b3e366e"
   },
   "families": [
     {
@@ -91,7 +91,8 @@
         "hint.trash.salvage",
         "hint.trash.owner.discard",
         "hint.destroy.play.under.exact",
-        "hint.reaction.first"
+        "hint.reaction.first",
+        "hint.hero.take.power"
       ],
       "contexts": [
         {
@@ -147,7 +148,7 @@
             "source": "Click a location to to play Wounding Buffer there.",
             "cardId": "",
             "inCardView": false,
-            "expected": "点击一个区域，将Wounding Buffer打出至该处。",
+            "expected": "点击一个区域，将反击屏障打出至该处。",
             "objectName": "Hint Label"
           },
           "runtimeMatchEvidence": [
@@ -188,7 +189,7 @@
             "source": "<b>Wounding Buffer:</b> <b>Cornered Ankylosaurus</b> will deal <b>Legacy</b> 3 melee damage. Click a reaction to use it.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>反击屏障:</b> <b>Cornered Ankylosaurus</b>将对<b>Legacy</b>造成3点近战伤害。点击一个反应以使用它。",
+            "expected": "<b>反击屏障:</b> <b>受困甲龙</b>将对<b>传承侠</b>造成3点近战伤害。点击一个反应以使用它。",
             "objectName": "Hint Label"
           }
         },
@@ -204,7 +205,7 @@
             "source": "Click a location to to play Augmented Ally there.",
             "cardId": "",
             "inCardView": false,
-            "expected": "点击一个区域，将Augmented Ally打出至该处。",
+            "expected": "点击一个区域，将协战分身打出至该处。",
             "objectName": "Hint Label"
           }
         },
@@ -245,7 +246,7 @@
             "source": "<b>Wounding Buffer:</b> <b>Baron Blade</b> will deal <b>Legacy</b> 3 toxic damage. Click a reaction to use it.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>反击屏障:</b> <b>Baron Blade</b>将对<b>Legacy</b>造成3点毒素伤害。点击一个反应以使用它。",
+            "expected": "<b>反击屏障:</b> <b>刀锋男爵</b>将对<b>传承侠</b>造成3点毒素伤害。点击一个反应以使用它。",
             "objectName": "Hint Label"
           }
         },
@@ -293,7 +294,7 @@
             "source": "<b>Cornered Ankylosaurus:</b> Click <b>Baron Blade</b> and 1 more target to deal them <nobr>3 melee</nobr> damage.",
             "cardId": "",
             "inCardView": false,
-            "expected": "<b>受困甲龙:</b> 点击<b>Baron Blade</b>及另外1个目标，对其各造成<nobr>3点近战伤害</nobr>。",
+            "expected": "<b>受困甲龙:</b> 点击<b>刀锋男爵</b>及另外1个目标，对其各造成<nobr>3点近战伤害</nobr>。",
             "objectName": "Hint Label"
           }
         },
@@ -644,7 +645,7 @@
             "cardId": "",
             "source": "<b>Piston Punch:</b> Click a card in play to put Piston Punch under it.",
             "inCardView": false,
-            "expected": "<b>活塞重拳:</b> 点击一张在场的牌，将Piston Punch置于其下方。",
+            "expected": "<b>活塞重拳:</b> 点击一张在场的牌，将活塞重拳置于其下方。",
             "observationId": "38ec492eb2a8118b5ad09328"
           }
         },
@@ -712,7 +713,7 @@
             "cardId": "",
             "source": "<b>Flak Cannon:</b> Click a card in play or under Flak Cannon to destroy it.",
             "inCardView": false,
-            "expected": "<b>高射火炮:</b> 点击一张在场或位于Flak Cannon下方的牌以将其破坏。",
+            "expected": "<b>高射火炮:</b> 点击一张在场或位于高射火炮下方的牌以将其破坏。",
             "observationId": "bc886d8ab164bb3742be1fa2"
           }
         },
@@ -780,7 +781,7 @@
             "cardId": "",
             "source": "<b>Gatling Gun:</b> Click a card in play or under Gatling Gun to destroy it.",
             "inCardView": false,
-            "expected": "<b>加特林机炮:</b> 点击一张在场或位于Gatling Gun下方的牌以将其破坏。",
+            "expected": "<b>加特林机炮:</b> 点击一张在场或位于加特林机炮下方的牌以将其破坏。",
             "observationId": "ce6f8388e6f178f6c63386b6"
           }
         },
@@ -857,7 +858,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard A True Hero.",
             "inCardView": false,
-            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将A True Hero放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将英雄本色放回原处或弃置。",
             "observationId": "10d98167c99a8e632c0ff3b6"
           }
         },
@@ -891,7 +892,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Mounted AP Gun.",
             "inCardView": false,
-            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Mounted AP Gun放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将挂载穿甲炮放回原处或弃置。",
             "observationId": "1d59e4a15f217d10bb22fb41"
           }
         },
@@ -993,7 +994,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Displaced Ambassador.",
             "inCardView": false,
-            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Displaced Ambassador放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将流亡使节放回原处或弃置。",
             "observationId": "4b65e47566556549f7ee2781"
           }
         },
@@ -1027,7 +1028,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Supply Crate.",
             "inCardView": false,
-            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Supply Crate放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将补给货箱放回原处或弃置。",
             "observationId": "506f4ec2c9e7dc0e066e66c4"
           }
         },
@@ -1061,7 +1062,7 @@
             "cardId": "",
             "source": "<b>Maerynian Aquaculturalist:</b> Click a location to either replace or discard Entry Point.",
             "inCardView": false,
-            "expected": "<b>异星水产学家:</b> 选择一个区域，将Entry Point放回原处或弃置。",
+            "expected": "<b>异星水产学家:</b> 选择一个区域，将破墙而入放回原处或弃置。",
             "observationId": "58856020cead01453cd99190"
           }
         },
@@ -1138,7 +1139,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Haka of Battle.",
             "inCardView": false,
-            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Haka of Battle放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将征战战舞放回原处或弃置。",
             "observationId": "5e8b03879ad004ab4d380bda"
           }
         },
@@ -1172,7 +1173,7 @@
             "cardId": "",
             "source": "<b>Maerynian Aquaculturalist:</b> Click a location to either replace or discard Mission Control.",
             "inCardView": false,
-            "expected": "<b>异星水产学家:</b> 选择一个区域，将Mission Control放回原处或弃置。",
+            "expected": "<b>异星水产学家:</b> 选择一个区域，将任务中枢放回原处或弃置。",
             "observationId": "64ab6d14c8732a92f5f9ad19"
           }
         },
@@ -1206,7 +1207,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Haka of Frenzy.",
             "inCardView": false,
-            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Haka of Frenzy放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将狂热战舞放回原处或弃置。",
             "observationId": "67be4494df14e4bd869a960e"
           }
         },
@@ -1240,7 +1241,7 @@
             "cardId": "",
             "source": "<b>Supply Crate:</b> Click Unity's deck to draw 2 cards.",
             "inCardView": false,
-            "expected": "<b>补给货箱:</b> 点击Unity的牌库，抽2张牌。",
+            "expected": "<b>补给货箱:</b> 点击优妮蒂的牌库，抽2张牌。",
             "observationId": "6d62d72515609eced47989c0"
           }
         },
@@ -1274,7 +1275,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Haka of Recovery.",
             "inCardView": false,
-            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Haka of Recovery放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将复苏战舞放回原处或弃置。",
             "observationId": "6e3ffd9c4181398ee2de733c"
           }
         },
@@ -1351,7 +1352,7 @@
             "cardId": "",
             "source": "<b>Taonga Mana:</b> Click Haka's deck to draw 3 cards.",
             "inCardView": false,
-            "expected": "<b>威能之赐:</b> 点击Haka的牌库，抽3张牌。",
+            "expected": "<b>威能之赐:</b> 点击哈卡的牌库，抽3张牌。",
             "observationId": "81e1eefbef72c9fed00ba1e4"
           }
         },
@@ -1385,7 +1386,7 @@
             "cardId": "",
             "source": "<b>Maerynian Aquaculturalist:</b> Click a location to either replace or discard Dr. Stinson's Secondary Lab.",
             "inCardView": false,
-            "expected": "<b>异星水产学家:</b> 选择一个区域，将Dr. Stinson's Secondary Lab放回原处或弃置。",
+            "expected": "<b>异星水产学家:</b> 选择一个区域，将斯廷森博士的副实验室放回原处或弃置。",
             "observationId": "8d2a7b9d29ff557b81a8bfa4"
           }
         },
@@ -1419,7 +1420,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Lightning Slash.",
             "inCardView": false,
-            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Lightning Slash放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将电光斩击放回原处或弃置。",
             "observationId": "9993585e06561f477a27deba"
           }
         },
@@ -1487,7 +1488,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Platform Bot.",
             "inCardView": false,
-            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Platform Bot放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将平台机偶放回原处或弃置。",
             "observationId": "a1ccd62d38f0fd7152e4b10c"
           }
         },
@@ -1521,7 +1522,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Lead from the Front.",
             "inCardView": false,
-            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Lead from the Front放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将身先士卒放回原处或弃置。",
             "observationId": "b0de7c920e3ee815a73cf04b"
           }
         },
@@ -1555,7 +1556,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Thunderclap.",
             "inCardView": false,
-            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Thunderclap放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将霹雳轰鸣放回原处或弃置。",
             "observationId": "b5e682fb667c2cd29b3894a5"
           }
         },
@@ -1623,7 +1624,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Turret Mode.",
             "inCardView": false,
-            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Turret Mode放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将炮塔模式放回原处或弃置。",
             "observationId": "ca72ea6dd485d25b75f659e9"
           }
         },
@@ -1657,7 +1658,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Grenade Launcher.",
             "inCardView": false,
-            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Grenade Launcher放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将榴弹发射器放回原处或弃置。",
             "observationId": "d4be9019a580c31eac373f45"
           }
         },
@@ -1725,7 +1726,7 @@
             "cardId": "",
             "source": "<b>Dr. Stinson's Secondary Lab:</b> Click a location to either replace or discard Inspired Repair.",
             "inCardView": false,
-            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将Inspired Repair放回原处或弃置。",
+            "expected": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将灵感修复放回原处或弃置。",
             "observationId": "e61d9d583df07e947683736e"
           }
         },
@@ -1861,7 +1862,7 @@
             "cardId": "",
             "source": "<b>Take Down:</b> Click Omnitron's trash to discard Singularity Projector.",
             "inCardView": false,
-            "expected": "<b>强行制伏:</b> 点击Omnitron的弃牌堆，将Singularity Projector弃置。",
+            "expected": "<b>强行制伏:</b> 点击全能智创的弃牌堆，将奇点投射器弃置。",
             "observationId": "54224b7ba4e2b3b1c4f0d081"
           }
         },
@@ -1895,7 +1896,7 @@
             "cardId": "",
             "source": "<b>Mounted AP Gun:</b> Click 2 cards in play or under Mounted AP Gun to destroy them.",
             "inCardView": false,
-            "expected": "<b>挂载穿甲炮:</b> 点击2张在场或位于Mounted AP Gun下方的牌以将其破坏。",
+            "expected": "<b>挂载穿甲炮:</b> 点击2张在场或位于挂载穿甲炮下方的牌以将其破坏。",
             "observationId": "68845988cc54903b43b944af"
           }
         },
@@ -2189,7 +2190,7 @@
             "cardId": "",
             "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Arsenal Bot</b> 2 fire damage. Click a card to activate first.",
             "inCardView": false,
-            "expected": "<b>潜行机偶:</b> <b>Burning High Rise</b>将对<b>Arsenal Bot</b>造成2点火焰伤害。点击一张牌，先发动其效果。",
+            "expected": "<b>潜行机偶:</b> <b>高楼失火</b>将对<b>武库机偶</b>造成2点火焰伤害。点击一张牌，先发动其效果。",
             "observationId": "01f1c2253f530c5f77cdc1fa"
           }
         },
@@ -2206,7 +2207,7 @@
             "cardId": "",
             "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Unity</b> 2 fire damage. Click a card to activate first.",
             "inCardView": false,
-            "expected": "<b>潜行机偶:</b> <b>Burning High Rise</b>将对<b>Unity</b>造成2点火焰伤害。点击一张牌，先发动其效果。",
+            "expected": "<b>潜行机偶:</b> <b>高楼失火</b>将对<b>优妮蒂</b>造成2点火焰伤害。点击一张牌，先发动其效果。",
             "observationId": "d386447b6229e35f787fc0dd"
           }
         },
@@ -3800,7 +3801,8 @@
         "button.skip",
         "button.skip.play.action",
         "button.skip.incapacitated",
-        "button.skip.draw.action"
+        "button.skip.draw.action",
+        "button.skip.power.action"
       ],
       "contexts": [
         {
@@ -8702,7 +8704,8 @@
         "button.destroy.card",
         "button.fewest",
         "button.take.play",
-        "button.most"
+        "button.most",
+        "button.take.power"
       ],
       "contexts": [
         {
@@ -13005,7 +13008,10 @@
       "id": "result-message",
       "templates": [
         "result.hp",
-        "result.victory"
+        "result.victory",
+        "result.defeat",
+        "message.game-over",
+        "message.all-incapacitated"
       ],
       "contexts": [
         {
@@ -13021,7 +13027,7 @@
             "cardId": "",
             "source": "Baron Blade has been reduced to <nobr>0 HP.</nobr>",
             "inCardView": false,
-            "expected": "Baron Blade的生命值已降至<nobr>0点</nobr>。",
+            "expected": "刀锋男爵的生命值已降至<nobr>0点</nobr>。",
             "observationId": "76e047162721a9b11007fef5"
           },
           "runtimeMatchEvidence": [
@@ -13063,7 +13069,7 @@
             "cardId": "",
             "source": "You have defeated Baron Blade and saved the day!",
             "inCardView": false,
-            "expected": "你击败了Baron Blade，化解了危机！",
+            "expected": "你击败了刀锋男爵，化解了危机！",
             "observationId": "fa9c9fbb553e9df6630b1bea"
           },
           "runtimeMatchEvidence": [
@@ -13379,7 +13385,7 @@
             "cardId": "",
             "source": "Cards under Flak Cannon",
             "inCardView": false,
-            "expected": "Flak Cannon下方的牌",
+            "expected": "高射火炮下方的牌",
             "observationId": "1ad24c2ecf773124658ee16c"
           }
         },
@@ -13413,7 +13419,7 @@
             "cardId": "",
             "source": "Cards under Mounted AP Gun",
             "inCardView": false,
-            "expected": "Mounted AP Gun下方的牌",
+            "expected": "挂载穿甲炮下方的牌",
             "observationId": "55a3905bc1c7e0b908054205"
           },
           "runtimeMatchEvidence": [
@@ -13456,7 +13462,7 @@
             "cardId": "",
             "source": "Cards next to Cosmic Weapon",
             "inCardView": false,
-            "expected": "Cosmic Weapon旁边的牌"
+            "expected": "宇宙武器旁边的牌"
           }
         },
         {
@@ -22680,6 +22686,3971 @@
             "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
             "cardButtonCandidate": true,
             "expected": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>演奏</style></nobr>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "incap-and-parameter-completion",
+      "templates": [],
+      "contexts": [
+        {
+          "id": "reaction-participants",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Dynamic Siphon:</b> <b>The Matriarch</b> will deal <b>Captain Cosmic</b> 3 sonic damage. Click a reaction to use it.",
+            "expected": "<b>动力虹吸:</b> <b>鸦母</b>将对<b>宇宙队长</b>造成3点音波伤害。点击一个反应以使用它。"
+          }
+        },
+        {
+          "id": "reaction-unknown-preserved",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Dynamic Siphon:</b> <b>Unknown Captain Cosmic Name</b> will deal <b>Captain Cosmic</b> 12 sonic damage. Click a reaction to use it.",
+            "expected": "<b>动力虹吸:</b> <b>Unknown Captain Cosmic Name</b>将对<b>宇宙队长</b>造成12点音波伤害。点击一个反应以使用它。"
+          }
+        },
+        {
+          "id": "hp-Hero-highest-False",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Murder of Crows:</b> Click a Hero to determine which has the highest HP.",
+            "expected": "<b>乌鸦行凶:</b> 点击一位英雄，确定谁视为生命值最高者。"
+          }
+        },
+        {
+          "id": "hp-Hero-highest-True",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Murder of Crows:</b> Click a Hero to determine which has the highest HP (will not be dealt damage).",
+            "expected": "<b>乌鸦行凶:</b> 点击一位英雄，确定谁视为生命值最高者（不会因此受到伤害）。"
+          }
+        },
+        {
+          "id": "hp-Hero-lowest-False",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Murder of Crows:</b> Click a Hero to determine which has the lowest HP.",
+            "expected": "<b>乌鸦行凶:</b> 点击一位英雄，确定谁视为生命值最低者。"
+          }
+        },
+        {
+          "id": "hp-Hero-lowest-True",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Murder of Crows:</b> Click a Hero to determine which has the lowest HP (will not be dealt damage).",
+            "expected": "<b>乌鸦行凶:</b> 点击一位英雄，确定谁视为生命值最低者（不会因此受到伤害）。"
+          }
+        },
+        {
+          "id": "hp-target-highest-False",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Murder of Crows:</b> Click a target to determine which has the highest HP.",
+            "expected": "<b>乌鸦行凶:</b> 点击一个目标，确定谁视为生命值最高者。"
+          }
+        },
+        {
+          "id": "hp-target-highest-True",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Murder of Crows:</b> Click a target to determine which has the highest HP (will not be dealt damage).",
+            "expected": "<b>乌鸦行凶:</b> 点击一个目标，确定谁视为生命值最高者（不会因此受到伤害）。"
+          }
+        },
+        {
+          "id": "hp-target-lowest-False",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Murder of Crows:</b> Click a target to determine which has the lowest HP.",
+            "expected": "<b>乌鸦行凶:</b> 点击一个目标，将其视为生命值最低的目标。"
+          }
+        },
+        {
+          "id": "hp-target-lowest-True",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Murder of Crows:</b> Click a target to determine which has the lowest HP (will not be dealt damage).",
+            "expected": "<b>乌鸦行凶:</b> 点击一个目标，确定谁视为生命值最低者（不会因此受到伤害）。"
+          }
+        },
+        {
+          "id": "irreducible-True",
+          "status": "offline-covered",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "ClatteringOfJackdaws",
+            "inCardView": true,
+            "source": "Damage dealt by Clattering of Jackdaws is <b>irreducible</b>",
+            "expected": "寒鸦群噪造成的伤害<b>不可削减</b>",
+            "effectTooltip": true
+          }
+        },
+        {
+          "id": "irreducible-unbound-True",
+          "status": "excluded",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "ClatteringOfJackdaws",
+            "inCardView": true,
+            "source": "Damage dealt by Clattering of Jackdaws is <b>irreducible</b>",
+            "expected": null,
+            "effectTooltip": false
+          }
+        },
+        {
+          "id": "irreducible-False",
+          "status": "offline-covered",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "ClatteringOfJackdaws",
+            "inCardView": true,
+            "source": "Damage dealt by Clattering of Jackdaws is irreducible",
+            "expected": "寒鸦群噪造成的伤害不可削减",
+            "effectTooltip": true
+          }
+        },
+        {
+          "id": "irreducible-unbound-False",
+          "status": "excluded",
+          "view": "Tooltip Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Synthetic/Effect/Tooltip",
+            "objectName": "Tooltip Label",
+            "cardId": "ClatteringOfJackdaws",
+            "inCardView": true,
+            "source": "Damage dealt by Clattering of Jackdaws is irreducible",
+            "expected": null,
+            "effectTooltip": false
+          }
+        },
+        {
+          "id": "incap-0",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/AbsoluteZero/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-1",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/AbsoluteZero/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-2",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/AbsoluteZero/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-hp-3",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/AbsoluteZero/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-3",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/AbsoluteZero/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Destroy 1 target with 2 or fewer HP.",
+            "expected": "破坏1个生命值不高于2的目标。"
+          }
+        },
+        {
+          "id": "incap-4",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/AbsoluteZero/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Destroy 1 target with 2 or fewer HP.",
+            "expected": "破坏1个生命值不高于2的目标。"
+          }
+        },
+        {
+          "id": "incap-5",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/AbsoluteZero/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Destroy 1 target with 2 or fewer HP.",
+            "expected": "破坏1个生命值不高于2的目标。"
+          }
+        },
+        {
+          "id": "incap-hp-6",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/AbsoluteZero/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Destroy 1 target with 2 or fewer HP.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-6",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/AbsoluteZero/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 Hero target. Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by that target.",
+            "expected": "选择1个英雄目标。直到你的<nobr><b>开始阶段</b></nobr>，该目标造成的伤害+1。"
+          }
+        },
+        {
+          "id": "incap-7",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/AbsoluteZero/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 Hero target. Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by that target.",
+            "expected": "选择1个英雄目标。直到你的<nobr><b>开始阶段</b></nobr>，该目标造成的伤害+1。"
+          }
+        },
+        {
+          "id": "incap-8",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/AbsoluteZero/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 Hero target. Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by that target.",
+            "expected": "选择1个英雄目标。直到你的<nobr><b>开始阶段</b></nobr>，该目标造成的伤害+1。"
+          }
+        },
+        {
+          "id": "incap-hp-9",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/AbsoluteZero/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 Hero target. Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by that target.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-9",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-10",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-11",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Bunker/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-hp-12",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Bunker/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-12",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 card.",
+            "expected": "1位英雄回收1张牌。"
+          }
+        },
+        {
+          "id": "incap-13",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 card.",
+            "expected": "1位英雄回收1张牌。"
+          }
+        },
+        {
+          "id": "incap-14",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Bunker/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 card.",
+            "expected": "1位英雄回收1张牌。"
+          }
+        },
+        {
+          "id": "incap-hp-15",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Bunker/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 card.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-15",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 Hero target. Until your <nobr><b>START PHASE</b></nobr>, −2 damage dealt to that target.",
+            "expected": "选择1个英雄目标。直到你的<nobr><b>开始阶段</b></nobr>，该目标受到的伤害−2。"
+          }
+        },
+        {
+          "id": "incap-16",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 Hero target. Until your <nobr><b>START PHASE</b></nobr>, −2 damage dealt to that target.",
+            "expected": "选择1个英雄目标。直到你的<nobr><b>开始阶段</b></nobr>，该目标受到的伤害−2。"
+          }
+        },
+        {
+          "id": "incap-17",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Bunker/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 Hero target. Until your <nobr><b>START PHASE</b></nobr>, −2 damage dealt to that target.",
+            "expected": "选择1个英雄目标。直到你的<nobr><b>开始阶段</b></nobr>，该目标受到的伤害−2。"
+          }
+        },
+        {
+          "id": "incap-hp-18",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Bunker/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 Hero target. Until your <nobr><b>START PHASE</b></nobr>, −2 damage dealt to that target.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-18",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-19",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/CaptainCosmic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-20",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/CaptainCosmic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-hp-21",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/CaptainCosmic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-21",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-22",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/CaptainCosmic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-23",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/CaptainCosmic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-hp-24",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/CaptainCosmic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-24",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Until your <nobr><b>START PHASE</b></nobr>, −2 damage to all targets.",
+            "expected": "直到你的<nobr><b>开始阶段</b></nobr>，所有目标受到的伤害−2。"
+          }
+        },
+        {
+          "id": "incap-25",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/CaptainCosmic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Until your <nobr><b>START PHASE</b></nobr>, −2 damage to all targets.",
+            "expected": "直到你的<nobr><b>开始阶段</b></nobr>，所有目标受到的伤害−2。"
+          }
+        },
+        {
+          "id": "incap-26",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/CaptainCosmic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Until your <nobr><b>START PHASE</b></nobr>, −2 damage to all targets.",
+            "expected": "直到你的<nobr><b>开始阶段</b></nobr>，所有目标受到的伤害−2。"
+          }
+        },
+        {
+          "id": "incap-hp-27",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/CaptainCosmic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Until your <nobr><b>START PHASE</b></nobr>, −2 damage to all targets.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-27",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-28",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Fanatic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-29",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Fanatic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-hp-30",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Fanatic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-30",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero target regains 2 HP.",
+            "expected": "1个英雄目标恢复2点生命值。"
+          }
+        },
+        {
+          "id": "incap-31",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Fanatic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero target regains 2 HP.",
+            "expected": "1个英雄目标恢复2点生命值。"
+          }
+        },
+        {
+          "id": "incap-32",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Fanatic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero target regains 2 HP.",
+            "expected": "1个英雄目标恢复2点生命值。"
+          }
+        },
+        {
+          "id": "incap-hp-33",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Fanatic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero target regains 2 HP.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-33",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero target may deal itself 2 fixed psychic damage. If it does, it deals 1 target 4 radiant damage.",
+            "expected": "1个英雄目标可以对自己造成2点固定精神伤害。若如此做，该目标对1个目标造成4点光耀伤害。"
+          }
+        },
+        {
+          "id": "incap-34",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Fanatic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero target may deal itself 2 fixed psychic damage. If it does, it deals 1 target 4 radiant damage.",
+            "expected": "1个英雄目标可以对自己造成2点固定精神伤害。若如此做，该目标对1个目标造成4点光耀伤害。"
+          }
+        },
+        {
+          "id": "incap-35",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Fanatic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero target may deal itself 2 fixed psychic damage. If it does, it deals 1 target 4 radiant damage.",
+            "expected": "1个英雄目标可以对自己造成2点固定精神伤害。若如此做，该目标对1个目标造成4点光耀伤害。"
+          }
+        },
+        {
+          "id": "incap-hp-36",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Fanatic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero target may deal itself 2 fixed psychic damage. If it does, it deals 1 target 4 radiant damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-36",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Haka/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-37",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Haka/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-38",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Haka/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-hp-39",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Haka/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-39",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Haka/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>DRAW PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>抽牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-40",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Haka/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>DRAW PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>抽牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-41",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Haka/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>DRAW PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>抽牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-hp-42",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Haka/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>DRAW PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-42",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Haka/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Until your <nobr><b>START PHASE</b></nobr>, −1 damage dealt to Hero targets.",
+            "expected": "直到你的<nobr><b>开始阶段</b></nobr>，英雄目标受到的伤害−1。"
+          }
+        },
+        {
+          "id": "incap-43",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Haka/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Until your <nobr><b>START PHASE</b></nobr>, −1 damage dealt to Hero targets.",
+            "expected": "直到你的<nobr><b>开始阶段</b></nobr>，英雄目标受到的伤害−1。"
+          }
+        },
+        {
+          "id": "incap-44",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Haka/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Until your <nobr><b>START PHASE</b></nobr>, −1 damage dealt to Hero targets.",
+            "expected": "直到你的<nobr><b>开始阶段</b></nobr>，英雄目标受到的伤害−1。"
+          }
+        },
+        {
+          "id": "incap-hp-45",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Haka/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Until your <nobr><b>START PHASE</b></nobr>, −1 damage dealt to Hero targets.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-45",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-46",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-47",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-hp-48",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-48",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero discovers 1 Ongoing card.",
+            "expected": "1位英雄发现1张持续牌。"
+          }
+        },
+        {
+          "id": "incap-49",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero discovers 1 Ongoing card.",
+            "expected": "1位英雄发现1张持续牌。"
+          }
+        },
+        {
+          "id": "incap-50",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero discovers 1 Ongoing card.",
+            "expected": "1位英雄发现1张持续牌。"
+          }
+        },
+        {
+          "id": "incap-hp-51",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero discovers 1 Ongoing card.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-51",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Until your <nobr><b>START PHASE</b></nobr>, −2 damage dealt by Environment targets.",
+            "expected": "直到你的<nobr><b>开始阶段</b></nobr>，环境目标造成的伤害−2。"
+          }
+        },
+        {
+          "id": "incap-52",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Until your <nobr><b>START PHASE</b></nobr>, −2 damage dealt by Environment targets.",
+            "expected": "直到你的<nobr><b>开始阶段</b></nobr>，环境目标造成的伤害−2。"
+          }
+        },
+        {
+          "id": "incap-53",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Until your <nobr><b>START PHASE</b></nobr>, −2 damage dealt by Environment targets.",
+            "expected": "直到你的<nobr><b>开始阶段</b></nobr>，环境目标造成的伤害−2。"
+          }
+        },
+        {
+          "id": "incap-hp-54",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Until your <nobr><b>START PHASE</b></nobr>, −2 damage dealt by Environment targets.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-54",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-55",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Ra/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-56",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Ra/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-hp-57",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Ra/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-57",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Destroy 1 target with 2 or fewer HP.",
+            "expected": "破坏1个生命值不高于2的目标。"
+          }
+        },
+        {
+          "id": "incap-58",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Ra/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Destroy 1 target with 2 or fewer HP.",
+            "expected": "破坏1个生命值不高于2的目标。"
+          }
+        },
+        {
+          "id": "incap-59",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Ra/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Destroy 1 target with 2 or fewer HP.",
+            "expected": "破坏1个生命值不高于2的目标。"
+          }
+        },
+        {
+          "id": "incap-hp-60",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Ra/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Destroy 1 target with 2 or fewer HP.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-60",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Bury 1 Environment card.",
+            "expected": "埋藏1张环境牌。"
+          }
+        },
+        {
+          "id": "incap-61",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Ra/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Bury 1 Environment card.",
+            "expected": "埋藏1张环境牌。"
+          }
+        },
+        {
+          "id": "incap-62",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Ra/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Bury 1 Environment card.",
+            "expected": "埋藏1张环境牌。"
+          }
+        },
+        {
+          "id": "incap-hp-63",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Ra/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Bury 1 Environment card.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-63",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-64",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-65",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tachyon/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-hp-66",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tachyon/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-66",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero collects 1 One-Shot card.",
+            "expected": "1位英雄搜集1张瞬发牌。"
+          }
+        },
+        {
+          "id": "incap-67",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero collects 1 One-Shot card.",
+            "expected": "1位英雄搜集1张瞬发牌。"
+          }
+        },
+        {
+          "id": "incap-68",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tachyon/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero collects 1 One-Shot card.",
+            "expected": "1位英雄搜集1张瞬发牌。"
+          }
+        },
+        {
+          "id": "incap-hp-69",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tachyon/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero collects 1 One-Shot card.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-69",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 Item card.",
+            "expected": "1位英雄回收1张物品牌。"
+          }
+        },
+        {
+          "id": "incap-70",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 Item card.",
+            "expected": "1位英雄回收1张物品牌。"
+          }
+        },
+        {
+          "id": "incap-71",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tachyon/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 Item card.",
+            "expected": "1位英雄回收1张物品牌。"
+          }
+        },
+        {
+          "id": "incap-hp-72",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tachyon/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 Item card.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-72",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-73",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tempest/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-74",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tempest/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-hp-75",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tempest/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-75",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 Ongoing card.",
+            "expected": "1位英雄回收1张持续牌。"
+          }
+        },
+        {
+          "id": "incap-76",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tempest/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 Ongoing card.",
+            "expected": "1位英雄回收1张持续牌。"
+          }
+        },
+        {
+          "id": "incap-77",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tempest/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 Ongoing card.",
+            "expected": "1位英雄回收1张持续牌。"
+          }
+        },
+        {
+          "id": "incap-hp-78",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tempest/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 Ongoing card.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-78",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 damage type. Until your <nobr><b>START PHASE</b></nobr>, −1 damage dealt of that type to Hero targets.",
+            "expected": "选择1种伤害类型。直到你的<nobr><b>开始阶段</b></nobr>，英雄目标受到的该类型伤害−1。"
+          }
+        },
+        {
+          "id": "incap-79",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tempest/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 damage type. Until your <nobr><b>START PHASE</b></nobr>, −1 damage dealt of that type to Hero targets.",
+            "expected": "选择1种伤害类型。直到你的<nobr><b>开始阶段</b></nobr>，英雄目标受到的该类型伤害−1。"
+          }
+        },
+        {
+          "id": "incap-80",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tempest/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 damage type. Until your <nobr><b>START PHASE</b></nobr>, −1 damage dealt of that type to Hero targets.",
+            "expected": "选择1种伤害类型。直到你的<nobr><b>开始阶段</b></nobr>，英雄目标受到的该类型伤害−1。"
+          }
+        },
+        {
+          "id": "incap-hp-81",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tempest/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 damage type. Until your <nobr><b>START PHASE</b></nobr>, −1 damage dealt of that type to Hero targets.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-81",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-82",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheArgentAdept/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-83",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheArgentAdept/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>异能阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-hp-84",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheArgentAdept/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>POWER PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-84",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 target regains 2 HP.",
+            "expected": "1个目标恢复2点生命值。"
+          }
+        },
+        {
+          "id": "incap-85",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheArgentAdept/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 target regains 2 HP.",
+            "expected": "1个目标恢复2点生命值。"
+          }
+        },
+        {
+          "id": "incap-86",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheArgentAdept/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 target regains 2 HP.",
+            "expected": "1个目标恢复2点生命值。"
+          }
+        },
+        {
+          "id": "incap-hp-87",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheArgentAdept/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 target regains 2 HP.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-87",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 damage type. Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt of that type by Hero targets.",
+            "expected": "选择1种伤害类型。直到你的<nobr><b>开始阶段</b></nobr>，英雄目标造成的该类型伤害+1。"
+          }
+        },
+        {
+          "id": "incap-88",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheArgentAdept/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 damage type. Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt of that type by Hero targets.",
+            "expected": "选择1种伤害类型。直到你的<nobr><b>开始阶段</b></nobr>，英雄目标造成的该类型伤害+1。"
+          }
+        },
+        {
+          "id": "incap-89",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheArgentAdept/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 damage type. Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt of that type by Hero targets.",
+            "expected": "选择1种伤害类型。直到你的<nobr><b>开始阶段</b></nobr>，英雄目标造成的该类型伤害+1。"
+          }
+        },
+        {
+          "id": "incap-hp-90",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheArgentAdept/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Select 1 damage type. Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt of that type by Hero targets.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-90",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-91",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheWraith/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-92",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheWraith/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-hp-93",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheWraith/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-93",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Destroy 1 Ongoing card.",
+            "expected": "破坏1张持续牌。"
+          }
+        },
+        {
+          "id": "incap-94",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheWraith/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Destroy 1 Ongoing card.",
+            "expected": "破坏1张持续牌。"
+          }
+        },
+        {
+          "id": "incap-95",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheWraith/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Destroy 1 Ongoing card.",
+            "expected": "破坏1张持续牌。"
+          }
+        },
+        {
+          "id": "incap-hp-96",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheWraith/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Destroy 1 Ongoing card.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-96",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero target regains 2 HP.",
+            "expected": "1个英雄目标恢复2点生命值。"
+          }
+        },
+        {
+          "id": "incap-97",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheWraith/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero target regains 2 HP.",
+            "expected": "1个英雄目标恢复2点生命值。"
+          }
+        },
+        {
+          "id": "incap-98",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheWraith/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero target regains 2 HP.",
+            "expected": "1个英雄目标恢复2点生命值。"
+          }
+        },
+        {
+          "id": "incap-hp-99",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheWraith/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero target regains 2 HP.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-99",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-100",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Unity/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-101",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": "1位英雄进行其<nobr><b>出牌阶段</b></nobr>。"
+          }
+        },
+        {
+          "id": "incap-hp-102",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-102",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 Item card.",
+            "expected": "1位英雄回收1张物品牌。"
+          }
+        },
+        {
+          "id": "incap-103",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Unity/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 Item card.",
+            "expected": "1位英雄回收1张物品牌。"
+          }
+        },
+        {
+          "id": "incap-104",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 Item card.",
+            "expected": "1位英雄回收1张物品牌。"
+          }
+        },
+        {
+          "id": "incap-hp-105",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero salvages 1 Item card.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-105",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "The Hero target with the lowest HP regains 3 HP.",
+            "expected": "生命值最低的英雄目标恢复3点生命值。"
+          }
+        },
+        {
+          "id": "incap-106",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Unity/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "The Hero target with the lowest HP regains 3 HP.",
+            "expected": "生命值最低的英雄目标恢复3点生命值。"
+          }
+        },
+        {
+          "id": "incap-107",
+          "status": "offline-covered",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "The Hero target with the lowest HP regains 3 HP.",
+            "expected": "生命值最低的英雄目标恢复3点生命值。"
+          }
+        },
+        {
+          "id": "incap-hp-108",
+          "status": "excluded",
+          "view": "HP Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "HP Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "The Hero target with the lowest HP regains 3 HP.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-wrong-owner",
+          "status": "excluded",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/UnknownHero/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "1 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-numeric-change",
+          "status": "excluded",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "4 Hero takes their <nobr><b>PLAY PHASE</b></nobr>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "incap-not-an-incap-ability",
+          "status": "excluded",
+          "view": "Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Reveal the top card of your deck. Play it or draw it.",
+            "expected": null
+          }
+        },
+        {
+          "id": "take-power-AbsoluteZero-active",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/AbsoluteZero/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-AbsoluteZero-3 Hero Layout-Inactive Hero Location 1-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/AbsoluteZero/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-AbsoluteZero-5 Hero Layout-Inactive Hero Location 4-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/AbsoluteZero/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Bunker-active",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Bunker-3 Hero Layout-Inactive Hero Location 1-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Bunker/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Bunker-5 Hero Layout-Inactive Hero Location 4-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Bunker/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-CaptainCosmic-active",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-CaptainCosmic-3 Hero Layout-Inactive Hero Location 1-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/CaptainCosmic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-CaptainCosmic-5 Hero Layout-Inactive Hero Location 4-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/CaptainCosmic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Fanatic-active",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Fanatic-3 Hero Layout-Inactive Hero Location 1-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Fanatic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Fanatic-5 Hero Layout-Inactive Hero Location 4-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Fanatic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Haka-active",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Haka/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Haka-3 Hero Layout-Inactive Hero Location 1-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Haka/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Haka-5 Hero Layout-Inactive Hero Location 4-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Haka/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Legacy-active",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Legacy-3 Hero Layout-Inactive Hero Location 1-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Legacy-5 Hero Layout-Inactive Hero Location 4-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Ra-active",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Ra-3 Hero Layout-Inactive Hero Location 1-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Ra/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Ra-5 Hero Layout-Inactive Hero Location 4-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Ra/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Tachyon-active",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Tachyon-3 Hero Layout-Inactive Hero Location 1-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Tachyon/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Tachyon-5 Hero Layout-Inactive Hero Location 4-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tachyon/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Tempest-active",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Tempest-3 Hero Layout-Inactive Hero Location 1-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Tempest/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Tempest-5 Hero Layout-Inactive Hero Location 4-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tempest/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-TheArgentAdept-active",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-TheArgentAdept-3 Hero Layout-Inactive Hero Location 1-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/TheArgentAdept/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-TheArgentAdept-5 Hero Layout-Inactive Hero Location 4-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheArgentAdept/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-TheWraith-active",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-TheWraith-3 Hero Layout-Inactive Hero Location 1-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/TheWraith/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-TheWraith-5 Hero Layout-Inactive Hero Location 4-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheWraith/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Unity-active",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Unity-3 Hero Layout-Inactive Hero Location 1-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Unity/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-Unity-5 Hero Layout-Inactive Hero Location 4-",
+          "status": "offline-covered",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": "进行异能阶段"
+          }
+        },
+        {
+          "id": "take-power-not-hero",
+          "status": "excluded",
+          "view": "Selection Button Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic-role-matrix",
+          "reason": "已审库存或已观察句式的跨入口检查；合成组合不代表实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheMatriarch/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Take Power Phase",
+            "expected": null
+          }
+        },
+        {
+          "id": "all-new-live-checks",
+          "status": "unobserved",
+          "view": "incap-status-reaction",
+          "heroState": "all",
+          "layout": "all-supported",
+          "reason": "待0.1.21实际按钮、数值、状态及读档验收。"
+        },
+        {
+          "id": "captured-3e195bfcf66399d51d8885d7",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "observed",
+          "reason": "本轮原始日志；H高亮值保持原样，仅替换角色名称和明确标题。",
+          "observedSamples": [
+            "3e195bfcf66399d51d8885d7"
+          ],
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Hand/Card Container/CardView RhapsodyOfVigor-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "RhapsodyOfVigor",
+            "inCardView": true,
+            "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\n至多5个目标各恢复2点生命值。\r\n",
+            "expected": "<style=AbilityHeading><sprite name=\"Perform\"> 演奏</style>\r\n至多5个目标各恢复2点生命值。\r\n"
+          }
+        },
+        {
+          "id": "captured-441ad629d8980114d84e2f6d",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "observed",
+          "reason": "本轮原始日志；H高亮值保持原样，仅替换角色名称和明确标题。",
+          "observedSamples": [
+            "441ad629d8980114d84e2f6d"
+          ],
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-1 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "HorridCacophony",
+            "inCardView": true,
+            "source": "The Matriarch对生命值最高的<b>*4*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n",
+            "expected": "鸦母对生命值最高的<b>*4*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n"
+          }
+        },
+        {
+          "id": "highlight-preserve-0",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic",
+          "reason": "验证任意当前值及原始符号被逐字保留，不写回词典数字。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-1 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "HorridCacophony",
+            "inCardView": true,
+            "source": "The Matriarch对生命值最高的<b>*0*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n",
+            "expected": "鸦母对生命值最高的<b>*0*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n"
+          }
+        },
+        {
+          "id": "highlight-preserve-6",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic",
+          "reason": "验证任意当前值及原始符号被逐字保留，不写回词典数字。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-1 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "HorridCacophony",
+            "inCardView": true,
+            "source": "The Matriarch对生命值最高的<b>*6*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n",
+            "expected": "鸦母对生命值最高的<b>*6*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n"
+          }
+        },
+        {
+          "id": "highlight-preserve--2",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic",
+          "reason": "验证任意当前值及原始符号被逐字保留，不写回词典数字。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-1 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "HorridCacophony",
+            "inCardView": true,
+            "source": "The Matriarch对生命值最高的<b>*-2*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n",
+            "expected": "鸦母对生命值最高的<b>*-2*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n"
+          }
+        },
+        {
+          "id": "highlight-preserve-+3",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic",
+          "reason": "验证任意当前值及原始符号被逐字保留，不写回词典数字。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-1 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "HorridCacophony",
+            "inCardView": true,
+            "source": "The Matriarch对生命值最高的<b>*+3*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n",
+            "expected": "鸦母对生命值最高的<b>*+3*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n"
+          }
+        },
+        {
+          "id": "highlight-preserve-−4",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic",
+          "reason": "验证任意当前值及原始符号被逐字保留，不写回词典数字。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-1 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "HorridCacophony",
+            "inCardView": true,
+            "source": "The Matriarch对生命值最高的<b>*−4*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n",
+            "expected": "鸦母对生命值最高的<b>*−4*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n"
+          }
+        },
+        {
+          "id": "highlight-negative-other-card",
+          "status": "excluded",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic",
+          "reason": "完整句式必须归属于当前卡牌。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-1 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "LegacyCharacter",
+            "inCardView": true,
+            "source": "The Matriarch对生命值最高的<b>*4*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "highlight-negative-changed-rule",
+          "status": "excluded",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "synthetic",
+          "reason": "规则语义改变时不能借数值容错匹配另一条规则。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView HorridCacophony-1 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "HorridCacophony",
+            "inCardView": true,
+            "source": "The Matriarch对生命值最低的<b>*4*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "captured-71c6a11676d1cb4e9ff2ef38",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "observed",
+          "reason": "本轮原始日志；H高亮值保持原样，仅替换角色名称和明确标题。",
+          "observedSamples": [
+            "71c6a11676d1cb4e9ff2ef38"
+          ],
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Hand/Card Container/CardView CedisticDissonant-1 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "CedisticDissonant",
+            "inCardView": true,
+            "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\n破坏1张乐器牌。若如此做，你可以破坏1张非角色牌。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> ACCOMPANY</style>\r\n1个盟友可以打出1张牌。\r\n",
+            "expected": "<style=AbilityHeading><sprite name=\"Perform\"> 演奏</style>\r\n破坏1张乐器牌。若如此做，你可以破坏1张非角色牌。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> 伴奏</style>\r\n1个盟友可以打出1张牌。\r\n"
+          }
+        },
+        {
+          "id": "captured-9865070abfc6345d85c1139b",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "observed",
+          "reason": "本轮原始日志；H高亮值保持原样，仅替换角色名称和明确标题。",
+          "observedSamples": [
+            "9865070abfc6345d85c1139b"
+          ],
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Next To Location View/Card Container/CardView DynamicSiphon-1 SmallCardFront/Tooltip/CardView DynamicSiphon-1 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "DynamicSiphon",
+            "inCardView": true,
+            "source": "将此牌打出至一名英雄角色旁。\r\n其获得以下反应：\r\n<style=ReactionHeading>REACTION: </style><style=ReactionBody>使用1个异能。\r\n</style>",
+            "expected": "将此牌打出至一名英雄角色旁。\r\n其获得以下反应：\r\n<style=ReactionHeading>反应: </style><style=ReactionBody>使用1个异能。\r\n</style>"
+          }
+        },
+        {
+          "id": "captured-b08792e4bad0820b4fda6242",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "observed",
+          "reason": "本轮原始日志；H高亮值保持原样，仅替换角色名称和明确标题。",
+          "observedSamples": [
+            "b08792e4bad0820b4fda6242"
+          ],
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView HorridCacophony-1 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "HorridCacophony",
+            "inCardView": true,
+            "source": "The Matriarch对生命值最高的<b>*4*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n",
+            "expected": "鸦母对生命值最高的<b>*4*</b>个英雄目标各造成2点音波伤害。\r\n破坏合计<b>*3*</b>张英雄持续牌和／或物品牌。\r\n"
+          }
+        },
+        {
+          "id": "captured-b2d756bac2a87bc2aa435162",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "observed",
+          "reason": "本轮原始日志；H高亮值保持原样，仅替换角色名称和明确标题。",
+          "observedSamples": [
+            "b2d756bac2a87bc2aa435162"
+          ],
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView InventivePreparation-1 SmallCardFront/Tooltip/CardView InventivePreparation-1 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "InventivePreparation",
+            "inCardView": true,
+            "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\n每位英雄展示其牌库顶牌，然后将其放回原处或弃置。然后，1位英雄可以抽2张牌。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> ACCOMPANY</style>\r\n发现1张持续牌。\r\n",
+            "expected": "<style=AbilityHeading><sprite name=\"Perform\"> 演奏</style>\r\n每位英雄展示其牌库顶牌，然后将其放回原处或弃置。然后，1位英雄可以抽2张牌。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> 伴奏</style>\r\n发现1张持续牌。\r\n"
+          }
+        },
+        {
+          "id": "captured-d3fdeb17cae824537d937809",
+          "status": "offline-covered",
+          "view": "Hint Label",
+          "heroState": "not-applicable",
+          "layout": "observed",
+          "reason": "本轮原始日志；H高亮值保持原样，仅替换角色名称和明确标题。",
+          "observedSamples": [
+            "d3fdeb17cae824537d937809"
+          ],
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Captain Cosmic:</b> Click a hero to take their Power phase now.",
+            "expected": "<b>宇宙队长:</b> 点击一位英雄，让其立即进行异能阶段。"
+          }
+        },
+        {
+          "id": "captured-e25d20ceb46e2d83a22420aa",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "observed",
+          "reason": "本轮原始日志；H高亮值保持原样，仅替换角色名称和明确标题。",
+          "observedSamples": [
+            "e25d20ceb46e2d83a22420aa"
+          ],
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView DarkenTheSky-0 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "DarkenTheSky",
+            "inCardView": true,
+            "source": "召唤鸦母面具。\r\n将反派弃牌堆中的所有鸟群牌洗入反派牌库。\r\nThe Matriarch对生命值最高的英雄目标造成<b>*5*</b>点精神伤害。\r\n",
+            "expected": "召唤鸦母面具。\r\n将反派弃牌堆中的所有鸟群牌洗入反派牌库。\r\n鸦母对生命值最高的英雄目标造成<b>*5*</b>点精神伤害。\r\n"
+          }
+        },
+        {
+          "id": "captured-fcd6097330f72acb07454b73",
+          "status": "offline-covered",
+          "view": "Body Label",
+          "heroState": "not-applicable",
+          "layout": "observed",
+          "reason": "本轮原始日志；H高亮值保持原样，仅替换角色名称和明确标题。",
+          "observedSamples": [
+            "fcd6097330f72acb07454b73"
+          ],
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Hand/Card Container/CardView DynamicSiphon-0 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "DynamicSiphon",
+            "inCardView": true,
+            "source": "将此牌打出至一名英雄角色旁。\r\n其获得以下反应：\r\n<style=ReactionHeading>REACTION: </style><style=ReactionBody>使用1个异能。\r\n</style>",
+            "expected": "将此牌打出至一名英雄角色旁。\r\n其获得以下反应：\r\n<style=ReactionHeading>反应: </style><style=ReactionBody>使用1个异能。\r\n</style>"
+          }
+        },
+        {
+          "id": "game-over",
+          "status": "offline-covered",
+          "view": "Heading Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Heading Label",
+            "objectName": "Heading Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Game Over",
+            "expected": "游戏结束"
+          }
+        },
+        {
+          "id": "all-incap",
+          "status": "offline-covered",
+          "view": "Message Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "All of the Heroes are incapacitated.",
+            "expected": "所有英雄均已失去战斗能力。"
+          }
+        },
+        {
+          "id": "game-over-unrelated",
+          "status": "excluded",
+          "view": "Heading Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Other/Heading Label",
+            "objectName": "Heading Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Game Over",
+            "expected": null
+          }
+        },
+        {
+          "id": "all-incap-extra",
+          "status": "excluded",
+          "view": "Message Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "All of the Heroes are incapacitated. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "defeat-BaronBlade",
+          "status": "offline-covered",
+          "view": "Heading Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/Heading Label",
+            "objectName": "Heading Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Baron Blade has triumphed, forcing the Heroes to regroup and fight another day...",
+            "expected": "刀锋男爵取得胜利，英雄们只能重整旗鼓，来日再战……"
+          }
+        },
+        {
+          "id": "defeat-name-BaronBlade",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/BaronBlade/Title BG/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Baron Blade",
+            "expected": "刀锋男爵"
+          }
+        },
+        {
+          "id": "defeat-TheMatriarch",
+          "status": "offline-covered",
+          "view": "Heading Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/Heading Label",
+            "objectName": "Heading Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "The Matriarch has triumphed, forcing the Heroes to regroup and fight another day...",
+            "expected": "鸦母取得胜利，英雄们只能重整旗鼓，来日再战……"
+          }
+        },
+        {
+          "id": "defeat-name-TheMatriarch",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/TheMatriarch/Title BG/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "The Matriarch",
+            "expected": "鸦母"
+          }
+        },
+        {
+          "id": "defeat-AkashBhuta",
+          "status": "offline-covered",
+          "view": "Heading Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/Heading Label",
+            "objectName": "Heading Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Akash'Bhuta has triumphed, forcing the Heroes to regroup and fight another day...",
+            "expected": "阿卡什怖妲取得胜利，英雄们只能重整旗鼓，来日再战……"
+          }
+        },
+        {
+          "id": "defeat-name-AkashBhuta",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/AkashBhuta/Title BG/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Akash'Bhuta",
+            "expected": "阿卡什怖妲"
+          }
+        },
+        {
+          "id": "defeat-CitizenDawn",
+          "status": "offline-covered",
+          "view": "Heading Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/Heading Label",
+            "objectName": "Heading Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Citizen Dawn has triumphed, forcing the Heroes to regroup and fight another day...",
+            "expected": "黎明公民取得胜利，英雄们只能重整旗鼓，来日再战……"
+          }
+        },
+        {
+          "id": "defeat-name-CitizenDawn",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/CitizenDawn/Title BG/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Citizen Dawn",
+            "expected": "黎明公民"
+          }
+        },
+        {
+          "id": "defeat-GrandWarlordVoss",
+          "status": "offline-covered",
+          "view": "Heading Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/Heading Label",
+            "objectName": "Heading Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Grand Warlord Voss has triumphed, forcing the Heroes to regroup and fight another day...",
+            "expected": "大军阀沃斯取得胜利，英雄们只能重整旗鼓，来日再战……"
+          }
+        },
+        {
+          "id": "defeat-name-GrandWarlordVoss",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/GrandWarlordVoss/Title BG/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Grand Warlord Voss",
+            "expected": "大军阀沃斯"
+          }
+        },
+        {
+          "id": "defeat-Omnitron",
+          "status": "offline-covered",
+          "view": "Heading Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/Heading Label",
+            "objectName": "Heading Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Omnitron has triumphed, forcing the Heroes to regroup and fight another day...",
+            "expected": "全能智创取得胜利，英雄们只能重整旗鼓，来日再战……"
+          }
+        },
+        {
+          "id": "defeat-name-Omnitron",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/Omnitron/Title BG/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Omnitron",
+            "expected": "全能智创"
+          }
+        },
+        {
+          "id": "defeat-name-identity",
+          "status": "excluded",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "exact-hierarchy",
+          "reason": "失败结算原始日志及用户确认文案；其他反派为同用途离线组合。",
+          "case": {
+            "path": "Canvas/Main Panel/TheMatriarch/Title BG/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Baron Blade",
+            "expected": null
+          }
+        },
+        {
+          "id": "end-hero-AbsoluteZero",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "result",
+          "reason": "日志确认结算角色节点实际按英雄ID命名；同用途扩展至12位英雄，身份与源名对应。",
+          "case": {
+            "path": "Canvas/Main Panel/Hero Container/AbsoluteZero/Title And HP Tooltip/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Absolute Zero",
+            "expected": "绝对零度"
+          }
+        },
+        {
+          "id": "end-hero-Bunker",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "result",
+          "reason": "日志确认结算角色节点实际按英雄ID命名；同用途扩展至12位英雄，身份与源名对应。",
+          "case": {
+            "path": "Canvas/Main Panel/Hero Container/Bunker/Title And HP Tooltip/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Bunker",
+            "expected": "堡垒"
+          }
+        },
+        {
+          "id": "end-hero-CaptainCosmic",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "result",
+          "reason": "日志确认结算角色节点实际按英雄ID命名；同用途扩展至12位英雄，身份与源名对应。",
+          "case": {
+            "path": "Canvas/Main Panel/Hero Container/CaptainCosmic/Title And HP Tooltip/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Captain Cosmic",
+            "expected": "宇宙队长"
+          }
+        },
+        {
+          "id": "end-hero-Fanatic",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "result",
+          "reason": "日志确认结算角色节点实际按英雄ID命名；同用途扩展至12位英雄，身份与源名对应。",
+          "case": {
+            "path": "Canvas/Main Panel/Hero Container/Fanatic/Title And HP Tooltip/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Fanatic",
+            "expected": "狂信"
+          }
+        },
+        {
+          "id": "end-hero-Haka",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "result",
+          "reason": "日志确认结算角色节点实际按英雄ID命名；同用途扩展至12位英雄，身份与源名对应。",
+          "case": {
+            "path": "Canvas/Main Panel/Hero Container/Haka/Title And HP Tooltip/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Haka",
+            "expected": "哈卡"
+          }
+        },
+        {
+          "id": "end-hero-Legacy",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "result",
+          "reason": "日志确认结算角色节点实际按英雄ID命名；同用途扩展至12位英雄，身份与源名对应。",
+          "case": {
+            "path": "Canvas/Main Panel/Hero Container/Legacy/Title And HP Tooltip/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Legacy",
+            "expected": "传承侠"
+          }
+        },
+        {
+          "id": "end-hero-Ra",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "result",
+          "reason": "日志确认结算角色节点实际按英雄ID命名；同用途扩展至12位英雄，身份与源名对应。",
+          "case": {
+            "path": "Canvas/Main Panel/Hero Container/Ra/Title And HP Tooltip/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Ra",
+            "expected": "拉神"
+          }
+        },
+        {
+          "id": "end-hero-Tachyon",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "result",
+          "reason": "日志确认结算角色节点实际按英雄ID命名；同用途扩展至12位英雄，身份与源名对应。",
+          "case": {
+            "path": "Canvas/Main Panel/Hero Container/Tachyon/Title And HP Tooltip/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Tachyon",
+            "expected": "快子"
+          }
+        },
+        {
+          "id": "end-hero-Tempest",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "result",
+          "reason": "日志确认结算角色节点实际按英雄ID命名；同用途扩展至12位英雄，身份与源名对应。",
+          "case": {
+            "path": "Canvas/Main Panel/Hero Container/Tempest/Title And HP Tooltip/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Tempest",
+            "expected": "风暴"
+          }
+        },
+        {
+          "id": "end-hero-TheArgentAdept",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "result",
+          "reason": "日志确认结算角色节点实际按英雄ID命名；同用途扩展至12位英雄，身份与源名对应。",
+          "case": {
+            "path": "Canvas/Main Panel/Hero Container/TheArgentAdept/Title And HP Tooltip/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "The Argent Adept",
+            "expected": "银音秘师"
+          }
+        },
+        {
+          "id": "end-hero-TheWraith",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "result",
+          "reason": "日志确认结算角色节点实际按英雄ID命名；同用途扩展至12位英雄，身份与源名对应。",
+          "case": {
+            "path": "Canvas/Main Panel/Hero Container/TheWraith/Title And HP Tooltip/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "The Wraith",
+            "expected": "幽魂"
+          }
+        },
+        {
+          "id": "end-hero-Unity",
+          "status": "offline-covered",
+          "view": "Title Label",
+          "heroState": "not-applicable",
+          "layout": "result",
+          "reason": "日志确认结算角色节点实际按英雄ID命名；同用途扩展至12位英雄，身份与源名对应。",
+          "case": {
+            "path": "Canvas/Main Panel/Hero Container/Unity/Title And HP Tooltip/Title Label",
+            "objectName": "Title Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Unity",
+            "expected": "优妮蒂"
+          }
+        },
+        {
+          "id": "skip-power-action",
+          "status": "offline-covered",
+          "view": "Text (TMP)",
+          "heroState": "not-applicable",
+          "layout": "observed",
+          "reason": "最新日志确认使用继续按钮承载跳过一次异能，不等同跳过异能阶段。",
+          "case": {
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "objectName": "Text (TMP)",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Skip Power",
+            "expected": "跳过异能"
+          }
+        },
+        {
+          "id": "skip-power-other",
+          "status": "excluded",
+          "view": "Text (TMP)",
+          "heroState": "not-applicable",
+          "layout": "observed",
+          "reason": "最新日志确认使用继续按钮承载跳过一次异能，不等同跳过异能阶段。",
+          "case": {
+            "path": "Canvas/Other/Text (TMP)",
+            "objectName": "Text (TMP)",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Skip Power",
+            "expected": null
           }
         }
       ]
