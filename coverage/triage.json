@@ -3888,6 +3888,22 @@
         "status": "implemented-pending-live-test",
         "evidence": "coverage/contracts.json#destroy-order-and-target-hints"
       }
+    },
+    {
+      "id": "3eed78a2c047f8e0720ec2b7",
+      "disposition": "nonlinguistic",
+      "reviewedReason": "unresolved-full-string",
+      "reason": "Excavation完整中文正文中的X是本句明确定义的规则变量，数字3和变量均须保留。",
+      "owner": "SotM2本地化维护",
+      "nextAction": "保留规则变量，随卡牌代表场景检查画面与结算，本次记录不提升为实机验收。"
+    },
+    {
+      "id": "7abf789e171b617b6ed1ca0f",
+      "disposition": "nonlinguistic",
+      "reviewedReason": "unresolved-full-string",
+      "reason": "Excavation完整中文正文中的X是本句明确定义的规则变量，数字3和变量均须保留。",
+      "owner": "SotM2本地化维护",
+      "nextAction": "保留规则变量，随卡牌代表场景检查画面与结算，本次记录不提升为实机验收。"
     }
   ]
 }

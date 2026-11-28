@@ -53,11 +53,43 @@ internal sealed class SurfaceProbe {
   }catch(Exception e){Plugin.Once("ObserveTitleSnapshot-error","ENV_TITLE_DIAGNOSTIC_STOPPED ObserveTitleSnapshot "+e.GetType().Name);}
  }
  readonly HashSet<string> backSnapshots=new(StringComparer.Ordinal);
- internal void ObserveBackViews(){
+ internal void UpdateBackViews(){
   try {
    foreach(var back in UnityEngine.Resources.FindObjectsOfTypeAll<CardBackView>())
-    if(back!=null && back.gameObject.activeInHierarchy && back.gameObject.scene.IsValid())ObserveBackSnapshot(back);
+    if(back!=null && back.gameObject.activeInHierarchy && back.gameObject.scene.IsValid()){
+     ObserveBackSnapshot(back);
+     RefreshEnvironmentTitle(back);
+    }
   }catch(Exception e){Plugin.Once("back-scan-error","ENV_TITLE_DIAGNOSTIC_STOPPED back-scan "+e.GetType().Name);}
+ }
+ readonly HashSet<string> titleWrites=new(StringComparer.Ordinal);
+ readonly HashSet<string> titlePersistence=new(StringComparer.Ordinal);
+ internal void RefreshEnvironmentTitle(CardBackView view){
+  try {
+   var title=view.TitleLabel;
+   if(!Plugin.Chinese || title==null || !title.gameObject.activeInHierarchy ||
+      title.GetComponentInParent<TMP_InputField>()!=null || !Plugin.TryReadStringLabel(title,out var source))return;
+   bool bound=SurfaceProbeRules.IsEnvironmentTitleRole(title.gameObject.name,
+    title.transform.parent?.name??"",view.IsDeckBack,view.TitleLabel==title);
+   var target=rules.ApplyEnvironmentDeckTitle(title.gameObject.name,source,bound);
+   string path=PathOf(title);
+   if(target==null){
+    if(bound && rules.IsDeckName(source) && titleWrites.Contains(path) && titlePersistence.Count<40 && titlePersistence.Add(path))
+     Plugin.Instance.Log.LogInfo("ENV_TITLE_PERSISTED "+JsonSerializer.Serialize(new{path,source}));
+    return;
+   }
+   if(!FontSupport.EnsureReady())return;
+   FontSupport.AttachFallback(title,target);
+   title.text=target;
+   title.SetAllDirty();
+   if(titleWrites.Count<40 && titleWrites.Add(path)){
+    bool readable=Plugin.TryReadStringLabel(title,out var written);
+    Plugin.Instance.Log.LogInfo("ENV_TITLE_BOUND_WRITE "+JsonSerializer.Serialize(new{
+     path,source,target,readable,written=readable?written:null,
+     inputSource=title.m_inputSource.ToString(),backingStringDirty=title.m_IsTextBackingStringDirty,
+     identity="active CardBackView.TitleLabel",policy="safe-string-only"}));
+   }
+  }catch(Exception e){Plugin.Once("bound-title-write-error","ENV_TITLE_BOUND_WRITE_ERROR "+e);}
  }
  internal void ObserveBackSnapshot(CardBackView view){
   try {

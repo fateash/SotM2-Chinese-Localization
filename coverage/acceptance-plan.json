@@ -620,9 +620,16 @@
               "humanConfirmation": "依然汉化失败",
               "scope": "牌库缩略图",
               "status": "visual-failed"
+            },
+            {
+              "version": "0.1.40-rc.1",
+              "source": "SotM2-Dynamic-Evidence-20261128-200730-3c83e8.zip及本轮用户文字",
+              "humanConfirmation": "依然汉化失败",
+              "scope": "日志确认原初岛小图／大图英文，用户未分项确认其余新增接口",
+              "status": "visual-failed"
             }
           ],
-          "diagnosis": "195346日志记录字符串赋值发生于CardView绑定前；绑定后小图、大图、新游戏预览均可安全读到英文名称。0.1.40扫描复用现有显示入口，待实测。"
+          "diagnosis": "0.1.40用户反馈依然汉化失败，200730日志与哈希确认原初岛小图／大图仍保留英文且无环境标题应用记录。0.1.41从已观察到的CardBackView.TitleLabel直接处理安全字符串，增加写入后与后续扫描持久性记录，待实机确认。"
         }
       ],
       "kind": "live-functional"

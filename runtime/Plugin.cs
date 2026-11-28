@@ -14,7 +14,7 @@ using Handelabra.Sentinels2.Engine.Controller;
 using UObj=UnityEngine.Object;
 namespace SotM2Chinese;
 
-[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.40")]
+[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.41")]
 public sealed class Plugin:BasePlugin {
  internal static Plugin Instance=null!;
  internal static Catalog Texts=new();
@@ -32,7 +32,7 @@ public sealed class Plugin:BasePlugin {
   var surfacePath=Path.Combine(Root,"surface-probe.json");
   if(File.Exists(surfacePath)){Surface=new SurfaceProbe(surfacePath);Log.LogInfo("SURFACE_PROBE_ENABLED configured-pilot bounded-capture");}
   UiSources=new HashSet<string>(Texts.Ui.Select(e=>e.Source),StringComparer.Ordinal);
-  Log.LogInfo("PROTOTYPE_LOADED 0.1.40-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
+  Log.LogInfo("PROTOTYPE_LOADED 0.1.41-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
   // Resolve types/methods without patching the game model or rule engine.
   var method=typeof(TextHelper).GetMethods().Single(m=>m.Name=="ReplaceTemplatesAndInsertSpecifics"&&m.GetParameters().Length==8);
   Log.LogInfo("DISPLAY_METHOD_RESOLVED "+method);
@@ -187,12 +187,6 @@ public sealed class ProbeBehaviour:MonoBehaviour {
     active++;
     Plugin.Surface?.ObserveTitleSnapshot(t);
     if(!Plugin.Chinese || !Plugin.Ready || !Plugin.TryReadStringLabel(t,out var current))continue;
-    // Deck-back labels can be assigned before CardView is attached and then cloned
-    // without another string setter call. Reapply after the live title binding exists.
-    if(Plugin.Surface!=null && SurfaceProbe.IsEnvironmentDeckTitle(t)){
-     Plugin.BeforeTextRender(t);
-     continue;
-    }
     var zh=Plugin.UiSources.Contains(current)?Plugin.Texts.UiText(t.gameObject.name,current):null;
     if(zh==null && !DisplayScope.ContainsHan(current))continue;
     // The scanner obeys the same scope as the pre-render hook; HP never reaches here.
@@ -202,7 +196,7 @@ public sealed class ProbeBehaviour:MonoBehaviour {
    }
    Plugin.Once("scan","UI_SCAN_OK activeTMP="+active+" legacyUI="+Resources.FindObjectsOfTypeAll<UnityEngine.UI.Text>().Length);
    if(active>0) Plugin.Once("active-ui","ACTIVE_UI_FOUND count="+active);
-   Plugin.Surface?.ObserveBackViews();
+   Plugin.Surface?.UpdateBackViews();
    FontSupport.KeepFontAlive();
   } catch(Exception ex) { Plugin.Ready=false; Plugin.Once("update-error", "UPDATE_ERROR "+ex); stopped=true; }
  }
