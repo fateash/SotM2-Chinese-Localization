@@ -2846,6 +2846,14 @@
       }
     },
     {
+      "id": "e2005f2975d64228dbecb8b2",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "设置页分辨率选择器的2560*1440，为显示尺寸，不是待翻译正文。",
+      "owner": "本地化维护者",
+      "nextAction": "保留原数值与分隔符；不新增通用数字字符串替换。"
+    },
+    {
       "id": "e25bebd331394d7b41b76357",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",

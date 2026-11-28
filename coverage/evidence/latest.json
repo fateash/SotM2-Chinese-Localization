@@ -3709,6 +3709,372 @@
       "observations": 83,
       "captureLimitReached": false,
       "exhaustive": false
+    },
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-120737-adc103.zip",
+      "sha256": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+      "issues": [],
+      "version": "0.1.19-rc.1",
+      "buildId": "26880829",
+      "installed": {
+        "sample-texts.json": "f267dc836d38da3395eda9dd02dce5815369452682b538cbf449fc7f08fda4ee",
+        "NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+        "SotM2ChinesePrototype.dll": "10cc2b255de9d1be0347ca1d231bf09c272081fa7067b1b14128920487062385",
+        "surface-probe.json": "3b65ec6dba3771f1c3595d05069417db54cb622e2b7bc278ef18cd9733377258",
+        "OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+      },
+      "manifestSourceCommit": "b0847f52ed5852ec8621b012f482a4db31166505",
+      "runtimeWarnings": [],
+      "applicationSignals": [
+        {
+          "objectName": "Text",
+          "source": "Options"
+        },
+        {
+          "objectName": "Text",
+          "source": "New Game"
+        },
+        {
+          "objectName": "Text",
+          "source": "Online\nMultiplayer"
+        },
+        {
+          "objectName": "Text",
+          "source": "Send Early \nAccess Feedback"
+        },
+        {
+          "objectName": "Text",
+          "source": "Credits"
+        },
+        {
+          "objectName": "Text",
+          "source": "Quick Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "How to Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "Achievements"
+        },
+        {
+          "objectName": "Text",
+          "source": "Continue Game"
+        },
+        {
+          "objectName": "Text",
+          "source": "Early Access Info"
+        },
+        {
+          "objectName": "Text",
+          "source": "Help & Feedback"
+        },
+        {
+          "objectName": "Text",
+          "source": "Card Library"
+        },
+        {
+          "objectName": "Hand Label",
+          "source": "Hand"
+        },
+        {
+          "objectName": "Play Area Label",
+          "source": "Play Area"
+        },
+        {
+          "objectName": "Trash Label",
+          "source": "Trash"
+        },
+        {
+          "objectName": "Deck Label",
+          "source": "Deck"
+        },
+        {
+          "objectName": "Note Text",
+          "source": "An integrated digital rulebook and interactive tutorial will be coming in a future Early Access update."
+        },
+        {
+          "objectName": "TitleLabel",
+          "source": "Turn Sequence"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "View Rulebook\n"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Download Rulebook\n"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Back\n"
+        },
+        {
+          "objectName": "TitleLabel",
+          "source": "Useful Terms"
+        },
+        {
+          "objectName": "TitleLabel",
+          "source": "Card Locations\n"
+        },
+        {
+          "objectName": "LoadingLabel",
+          "source": "Loading..."
+        },
+        {
+          "objectName": "PageIndicator",
+          "source": "Loading..."
+        },
+        {
+          "objectName": "Heading Label",
+          "source": "Options"
+        },
+        {
+          "objectName": "Left Label",
+          "source": "Slow"
+        },
+        {
+          "objectName": "Left Label",
+          "source": "Long"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Card Display Time"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Effects Volume"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Animation Speed"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Music Volume"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Full Screen"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Automatically choose order & draw cards when it is safe to do so"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Bold card game text"
+        },
+        {
+          "objectName": "Right Label",
+          "source": "Short"
+        },
+        {
+          "objectName": "Right Label",
+          "source": "Fast"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "PLAY PHASE"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Menu"
+        },
+        {
+          "objectName": "Turn Taker Label",
+          "source": "Bunker"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "GATLING GUN"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“I provide my <b><i>own</i></b> suppressive fire.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Bunker, One Man Army One-Shot"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n将你的牌库顶牌置于此牌下。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n破坏此牌下至多3张牌。每以此法破坏1张牌，Bunker便对1个目标造成1点投射伤害。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "item, ordnance, limited"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "LIDAR INTEL"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“You think you’re sneaky, dontcha? I see you...”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Bunker, Justice Comics #617"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "任何非英雄目标打出后，你可以抽1张牌。\r\n<style=PowerHeading>POWER: </style><style=PowerBody>展示1个牌库的顶牌，然后将其放回原处。抽1张牌。\r\n</style>"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "OMNI-CANNON"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Scrambling antimatter particles in a graviton\r\nlauncher controls and directs a steady stream of\r\nhyper-excited leptons. Translation:\r\nbig gun go boom.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Tachyon, Freedom Five #571"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>破坏此牌下的所有牌。Bunker对1个目标造成X点能量伤害，X为以此法破坏的牌数乘以2。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n将你的牌库顶牌置于此牌下。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "item, ordnance"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "PISTON PUNCH"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Ooh, look at the big army man and his fancy suit\r\nbuilt for combat instead of <b><i>just</i></b> making sure\r\nhe doesn’t die.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Absolute Zero, Freedom Five #323"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "one-shot"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "MOBILE DEF. PLATFORM"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "device"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "POWERED TURRET"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "LIVING FORCE-FIELD"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Skip Play Phase"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "Click or drag a card to play it."
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "hero"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerTitle>Initialize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>抽1张牌，或将你的牌库顶牌置于场上的1张军械牌下。\r\n</style>"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "MOBILE DEFENSE PLATFORM"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Until we take that <b>blasted</b> floating fortress\r\nout, Blade is practically untouchable!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Legacy, Moonfall #1"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "Baron Blade免疫伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n展示反派牌库顶的一张牌。若该牌是爪牙牌，将其打出。否则，将其弃置。\r\n"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Arming this platform has been one of my best\r\ndecisions. It's the little things, really!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Baron Blade, Moonfall #1"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "场上每有一张其他装置牌，此牌造成的伤害便+1。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n此牌对每个英雄目标造成1点能量伤害。\r\n"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>直到你的<nobr><b>START PHASE</b></nobr>，盟友角色造成的伤害+1。\r\n</style>"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerTitle>A Legacy Lost</style>\r\n<size=70%><sprite name=\"BulletPoint\"></size><indent=1em>1位英雄进行其<nobr><b>POWER PHASE</b></nobr>。</indent>\r\n<size=70%><sprite name=\"BulletPoint\"></size><indent=1em>1位英雄发现1张持续牌。</indent>\r\n<size=70%><sprite name=\"BulletPoint\"></size><indent=1em>直到你的<nobr><b>START PHASE</b></nobr>，环境目标造成的伤害−2。</indent>\r\n"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerTitle>Testing</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>展示你的牌库顶牌。抽取或弃置该牌。\r\n</style>"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Send Feedback"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "How to Play"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Options"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Quit"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "IMPULSION BEAM INVENTOR"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "当Baron Blade将要被破坏时，改为：<sprite name=\"Flip\" color=#FFFFFF>\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若反派弃牌堆中有15张或更多牌，Baron Blade的地月牵引光束便会启动，将月球拉向地球。<b>游戏结束。</b>\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "villain"
+        }
+      ],
+      "observations": 40,
+      "captureLimitReached": false,
+      "exhaustive": false,
+      "cleanInstallVerification": {
+        "source": "clean-state-check.json and installed-hashes.json inside source archive",
+        "reportedPureStateVerified": true,
+        "projectDllCount": 1,
+        "loadedProjectPluginCount": 1,
+        "allFiveProjectFilesMatchDeliveredManifest": true,
+        "allFiveRuntimeFilesMatchDeliveredManifest": true,
+        "visualAcceptance": false
+      }
     }
   ],
   "samples": [
@@ -4237,6 +4603,12 @@
           "line": 57,
           "version": "0.1.17-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 99,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -4418,6 +4790,12 @@
           "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
           "line": 47,
           "version": "0.1.17-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 47,
+          "version": "0.1.19-rc.1",
           "markerCandidate": false
         }
       ]
@@ -6143,6 +6521,12 @@
           "line": 66,
           "version": "0.1.17-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 105,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -6238,6 +6622,12 @@
           "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
           "line": 40,
           "version": "0.1.17-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 40,
+          "version": "0.1.19-rc.1",
           "markerCandidate": false
         }
       ]
@@ -7629,6 +8019,27 @@
       ]
     },
     {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/Root UI Panel/Panel/Resolution Container/Full Screen Toggle/Text (TMP)",
+      "cardId": "",
+      "source": "Full Screen",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "2f608a87f1caa9fabec0b3bd",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 88,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Bunker/Inner Panel/Character Card Container/BunkerCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
       "cardId": "BunkerCharacter",
@@ -8795,6 +9206,27 @@
       ]
     },
     {
+      "objectName": "Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView PoweredTurret-1 FullCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "PoweredTurret",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "3ca8e3f10946b8e96b3b1335",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 176,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Title Label",
       "path": "Canvas/Revealed Cards Manager/[RevealCardsAction: Source=Captain Cosmic]/Title Label",
       "cardId": "",
@@ -9019,6 +9451,48 @@
           "line": 435,
           "version": "0.1.15-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/Main Panel/NavButtons Top/Back Button/Text (TMP)",
+      "cardId": "",
+      "source": "Back\n",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "3f50036b4d7b60f2205e0fc3",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 73,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView PoweredTurret-1 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "PoweredTurret",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "3f612db32df54f444792132d",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 146,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -9364,6 +9838,27 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 658,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Title Label",
+      "path": "Canvas/Root UI Panel/Panel/Animation Container/Card Display Time Slider/Title Label",
+      "cardId": "",
+      "source": "Card Display Time",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "4406dcbc68a4990b6aa0774f",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 80,
+          "version": "0.1.19-rc.1",
           "markerCandidate": false
         }
       ]
@@ -10073,6 +10568,27 @@
       ]
     },
     {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/Main Panel/NavButtons/Back Button/Text (TMP)",
+      "cardId": "",
+      "source": "Back\n",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "4d630fb319b8af2bfa9fe4f1",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 67,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Phase Label",
       "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
       "cardId": "",
@@ -10385,6 +10901,27 @@
       ]
     },
     {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/Root UI Panel/Panel/Gameplay Container/Auto Draw Toggle/Text (TMP)",
+      "cardId": "",
+      "source": "Automatically choose order & draw cards when it is safe to do so",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "50cbc21e528c33bb326f5e2a",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 90,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Hint Label",
       "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
       "cardId": "",
@@ -10524,6 +11061,12 @@
           "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
           "line": 205,
           "version": "0.1.17-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 194,
+          "version": "0.1.19-rc.1",
           "markerCandidate": false
         }
       ]
@@ -11465,6 +12008,27 @@
       ]
     },
     {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/Main Panel/NavButtons/View Rulebook Button/Text (TMP)",
+      "cardId": "",
+      "source": "View Rulebook\n",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "5dcf769d12a2bc1bd8e7fa14",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 63,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Description Label",
       "path": "Canvas/Temporary Full Card Panel/Description Label",
       "cardId": "",
@@ -11932,6 +12496,12 @@
           "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
           "line": 70,
           "version": "0.1.17-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 148,
+          "version": "0.1.19-rc.1",
           "markerCandidate": true
         }
       ]
@@ -12956,6 +13526,12 @@
           "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
           "line": 35,
           "version": "0.1.17-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 34,
+          "version": "0.1.19-rc.1",
           "markerCandidate": false
         }
       ]
@@ -14017,6 +14593,12 @@
           "line": 51,
           "version": "0.1.17-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 51,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -14072,6 +14654,12 @@
           "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
           "line": 49,
           "version": "0.1.17-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 49,
+          "version": "0.1.19-rc.1",
           "markerCandidate": false
         }
       ]
@@ -14393,6 +14981,12 @@
           "line": 43,
           "version": "0.1.17-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 43,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -14600,6 +15194,12 @@
           "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
           "line": 54,
           "version": "0.1.17-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 96,
+          "version": "0.1.19-rc.1",
           "markerCandidate": true
         }
       ]
@@ -14905,6 +15505,27 @@
           "line": 410,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Heading Label",
+      "path": "Canvas/Root UI Panel/Panel/Heading Container/Image/Heading Label",
+      "cardId": "",
+      "source": "Options",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "85ec8f61d8f877ffcf7227b2",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 75,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -15222,6 +15843,27 @@
           "session": "fb257cfa8b87dbf94696bf0c035c0995b43492d1422aeb871bf0523921d83b01",
           "line": 196,
           "version": "0.1.13-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Title Label",
+      "path": "Canvas/Root UI Panel/Panel/Audio Container/Effects Slider/Title Label",
+      "cardId": "",
+      "source": "Effects Volume",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "88cc1790836160ea9ec4be65",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 82,
+          "version": "0.1.19-rc.1",
           "markerCandidate": false
         }
       ]
@@ -15724,6 +16366,12 @@
           "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
           "line": 203,
           "version": "0.1.17-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 192,
+          "version": "0.1.19-rc.1",
           "markerCandidate": false
         }
       ]
@@ -16517,6 +17165,27 @@
           "line": 318,
           "version": "0.1.13-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Title Label",
+      "path": "Canvas/Root UI Panel/Panel/Audio Container/Music Slider/Title Label",
+      "cardId": "",
+      "source": "Music Volume",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "9c483d155849a349d76a950f",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 86,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -17569,6 +18238,27 @@
       ]
     },
     {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/Main Panel/NavButtons/Download Rulebook Button/Text (TMP)",
+      "cardId": "",
+      "source": "Download Rulebook\n",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "a7800b5ebee7118c9757f780",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 65,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Hint Label",
       "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
       "cardId": "",
@@ -18387,6 +19077,12 @@
           "line": 201,
           "version": "0.1.17-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 190,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -18605,6 +19301,12 @@
           "line": 36,
           "version": "0.1.17-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 36,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -18814,7 +19516,7 @@
       "inCardView": false,
       "inputSource": "TextString",
       "truncated": false,
-      "markerCandidate": false,
+      "markerCandidate": true,
       "buildId": "26880829",
       "id": "b56f327ff5103887d011ada2",
       "evidence": [
@@ -18841,6 +19543,12 @@
           "line": 315,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 101,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -19639,6 +20347,12 @@
           "line": 34,
           "version": "0.1.17-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 32,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -19800,6 +20514,12 @@
           "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
           "line": 32,
           "version": "0.1.17-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 30,
+          "version": "0.1.19-rc.1",
           "markerCandidate": false
         }
       ]
@@ -20276,6 +20996,27 @@
           "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
           "line": 516,
           "version": "0.1.14-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/Main Panel/NavButtons Top/Download Rulebook Button/Text (TMP)",
+      "cardId": "",
+      "source": "Download Rulebook\n",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "c3401343189e04917fdf29f0",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 74,
+          "version": "0.1.19-rc.1",
           "markerCandidate": false
         }
       ]
@@ -21135,6 +21876,12 @@
           "line": 199,
           "version": "0.1.17-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 188,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -21154,6 +21901,27 @@
           "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
           "line": 595,
           "version": "0.1.15-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/Root UI Panel/Panel/Display Container/Bold Text Toggle/Text (TMP)",
+      "cardId": "",
+      "source": "Bold card game text",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "d20e6cdd2e2384352b378747",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 92,
+          "version": "0.1.19-rc.1",
           "markerCandidate": false
         }
       ]
@@ -21683,6 +22451,12 @@
           "line": 45,
           "version": "0.1.17-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 45,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -22087,6 +22861,12 @@
           "line": 196,
           "version": "0.1.17-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 151,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -22391,6 +23171,27 @@
       ]
     },
     {
+      "objectName": "Deck Label",
+      "path": "Canvas/Main Panel/CardLocations Box/VerticalGroup/DeckRow Deck/Deck Label",
+      "cardId": "",
+      "source": "Deck",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "e0b6d20f839c25750ea8b2d1",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 57,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView ElectroPulseExplosive-0 SmallCardFront/Tooltip/CardView ElectroPulseExplosive-0 FullCardFront/Effect Panel/Effect View(Clone)/Label",
       "cardId": "ElectroPulseExplosive",
@@ -22502,6 +23303,27 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 562,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Root UI Panel/Panel/Resolution Container/Resolution Selector/Label",
+      "cardId": "",
+      "source": "2560*1440",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "e2005f2975d64228dbecb8b2",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 77,
+          "version": "0.1.19-rc.1",
           "markerCandidate": false
         }
       ]
@@ -22761,6 +23583,12 @@
           "line": 41,
           "version": "0.1.17-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 41,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -22888,6 +23716,33 @@
           "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
           "line": 30,
           "version": "0.1.17-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 28,
+          "version": "0.1.19-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Title Label",
+      "path": "Canvas/Root UI Panel/Panel/Animation Container/Animation Speed Slider/Title Label",
+      "cardId": "",
+      "source": "Animation Speed",
+      "inCardView": false,
+      "inputSource": "TextInputBox",
+      "truncated": false,
+      "markerCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "e5fdfc619504b60e63e5cd45",
+      "evidence": [
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 84,
+          "version": "0.1.19-rc.1",
           "markerCandidate": false
         }
       ]
@@ -24646,6 +25501,12 @@
           "session": "42ab9aad0d7e74bfb5fdfd0a0e5893c8678c0add691b67a859feff3208b307b9",
           "line": 38,
           "version": "0.1.17-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "caf7e996aa887f983721f05b3e1dbdf542e09f206ecdd4b6000825870530934e",
+          "line": 38,
+          "version": "0.1.19-rc.1",
           "markerCandidate": false
         }
       ]
