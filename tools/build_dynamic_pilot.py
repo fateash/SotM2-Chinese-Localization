@@ -7,7 +7,7 @@ import shutil
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '0.1.23-rc.1'
+VERSION = '0.1.23-rc.2'
 def digest(p):
     return hashlib.sha256(p.read_bytes()).hexdigest()
 
@@ -28,6 +28,7 @@ def build(dll, out, commit):
         'dllSha256': digest(package / 'payload/SotM2ChinesePrototype.dll'),
         'probeSha256': digest(package / 'payload/surface-probe.json'),
         'acceptedInstallations': [
+            {'dll': '75f0c399a5e52679fb04d15abd4bc3453ce9581b5096a4ac0cd421b82eef4f88', 'probe': '43655455491a7a9bf86fc3854d3ee00a04d0210994001abecc068f29b975c0e3'},
             {'dll': '33819e1b20e1f910ef822562cc5941d95a39181074aa2d360761d96648ca1a1e', 'probe': '264dd2f10f2e2a473c19f22e7aac6ba15dbcd08b8010772ff359f65d55678735'},
             {'dll': '79306d1ce713d826e3493aa282381fdc9a42b55be66827a190a28db26aecd38b', 'probe': 'ac4d19974cd5adbcca9ee5652611b94a8f946a986e8bbee8c0d7256c6de8ed29'},
             {'dll': 'bc59c5e78793376d0c7821e6d79fd93415fb45280602f6277c2a430dc9bcecbd', 'probe': '3b65ec6dba3771f1c3595d05069417db54cb622e2b7bc278ef18cd9733377258'},

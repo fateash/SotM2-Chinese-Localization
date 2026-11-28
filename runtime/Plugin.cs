@@ -32,7 +32,7 @@ public sealed class Plugin:BasePlugin {
   var surfacePath=Path.Combine(Root,"surface-probe.json");
   if(File.Exists(surfacePath)){Surface=new SurfaceProbe(surfacePath);Log.LogInfo("SURFACE_PROBE_ENABLED configured-pilot bounded-capture");}
   UiSources=new HashSet<string>(Texts.Ui.Select(e=>e.Source),StringComparer.Ordinal);
-  Log.LogInfo("PROTOTYPE_LOADED 0.1.23-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
+  Log.LogInfo("PROTOTYPE_LOADED 0.1.23-rc.2 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
   // Resolve types/methods without patching the game model or rule engine.
   var method=typeof(TextHelper).GetMethods().Single(m=>m.Name=="ReplaceTemplatesAndInsertSpecifics"&&m.GetParameters().Length==8);
   Log.LogInfo("DISPLAY_METHOD_RESOLVED "+method);

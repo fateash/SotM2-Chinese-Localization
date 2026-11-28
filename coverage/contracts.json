@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "0151029c7834628495167c36c07d179205aec0cfcd434abf9dc74f939d9b3a3e",
+    "runtime/DynamicDisplayRules.cs": "70f60eb8db53110397a265efe881f737c52be3282f56796b3f4791162a471b38",
     "runtime/SurfaceProbeRules.cs": "1d8071f2bb04ac9d4f69936e07ff9fbc933c5805644ac323d080566fce0d9e00",
     "runtime/SurfaceProbe.cs": "3848374ccfe3e4c4df22927b6b78d093924fc2c0be2743abc0d17d95482a4940",
-    "runtime/Plugin.cs": "011742ccf641bc1d4b7bd7fdeb6445d2c8e73c039c66c82207fb04caadf98c26",
+    "runtime/Plugin.cs": "cd4a3e869083d358747b06bc738aa561e3ff888784524d13b62969ed6b3d8862",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "43655455491a7a9bf86fc3854d3ee00a04d0210994001abecc068f29b975c0e3",
+    "probe/dynamic-pilot.json": "ace70e032530818441cfe962016ec23e81992c56bfc471a2a5a2102a7f81d898",
     "runtime/RenderedDisplayRules.cs": "4075608df14dc5a1d29010d39a234c7ed98a066c6fe47372b1ee70abd05ffdf9"
   },
   "families": [
@@ -101,7 +101,8 @@
         "hint.damage.amount",
         "hint.attack.remaining",
         "hint.attack.required.unspecified",
-        "hint.hp.rank.multiple"
+        "hint.hp.rank.multiple",
+        "hint.target.topdeck"
       ],
       "contexts": [
         {
@@ -4058,6 +4059,86 @@
             "inCardView": false,
             "source": "Click 3 targets to determine which has the lowest HP.",
             "expected": null
+          }
+        },
+        {
+          "id": "023-oxygen-leak-observed",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新增实机原文；现有0.1.23多指定目标且未列伤害量句式的独立环境来源回归。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Oxygen Leak:</b> Click <b>Omnitron</b>, <b>Unity</b> and 1 more target to deal them toxic damage.",
+            "expected": "<b>氧气泄漏:</b> 点击<b>全能智创</b>、<b>优妮蒂</b>及另外1个目标，对其各造成毒素伤害。"
+          }
+        },
+        {
+          "id": "023-target-topdeck-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标置顶提示，保留目标、所属牌库及顶部语义；其他位置与底部拒绝。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Flashbang Projector:</b> Click a target to put it on top of its deck.",
+            "expected": "<b>震撼弹发射器:</b> 点击一个目标，将其置于所属牌库顶。",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "023-target-topdeck-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标置顶提示，保留目标、所属牌库及顶部语义；其他位置与底部拒绝。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a target to put it on top of its deck.",
+            "expected": "点击一个目标，将其置于所属牌库顶。",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "023-target-topdeck-2",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标置顶提示，保留目标、所属牌库及顶部语义；其他位置与底部拒绝。",
+          "case": {
+            "path": "Other/Hint Label",
+            "source": "Click a target to put it on top of its deck.",
+            "expected": null,
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false
+          }
+        },
+        {
+          "id": "023-target-topdeck-3",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整目标置顶提示，保留目标、所属牌库及顶部语义；其他位置与底部拒绝。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a target to put it on bottom of its deck.",
+            "expected": null,
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false
           }
         }
       ]

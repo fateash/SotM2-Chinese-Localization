@@ -84,4 +84,4 @@ try{
  foreach($n in $names){$p=Join-Path $plugin $n;if($null -eq $previous[$n]){if(Test-Path -LiteralPath $p){Remove-Item -LiteralPath $p}}else{[IO.File]::WriteAllBytes($p,$previous[$n])}}
  throw
 }
-Write-Host '0.1.23-rc.1 installed. Existing translations, font and configuration retained. Restart the game to test.'
+Write-Host '0.1.23-rc.2 installed. Existing translations, font and configuration retained. Restart the game to test.'

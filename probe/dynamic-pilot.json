@@ -172,7 +172,8 @@
     "hint.damage.amount": "点击一个按钮，选择造成的伤害量。",
     "hint.attack.remaining": "{0}再点击{1}个目标，对其各造成<nobr>{2}点{3}伤害</nobr>。",
     "hint.attack.required.unspecified": "{0}点击{1}及另外{2}个目标，对其各造成{3}伤害。",
-    "hint.hp.rank.multiple": "{0}点击{1}个目标，将其视为生命值最{2}的目标。"
+    "hint.hp.rank.multiple": "{0}点击{1}个目标，将其视为生命值最{2}的目标。",
+    "hint.target.topdeck": "点击一个目标，将其置于所属牌库顶。"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",

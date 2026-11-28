@@ -18,7 +18,7 @@ def build(dll, catalog, font, license_file, base_payload, out, commit):
     build_update(dll, temporary, commit)
     old = json.loads(next(temporary.glob('*/manifest.json')).read_text())
     shutil.rmtree(temporary)
-    package = out / 'SotM2-Names-Clean-Test-0.1.23-rc.1'
+    package = out / 'SotM2-Names-Clean-Test-0.1.23-rc.2'
     (package / 'payload').mkdir(parents=True, exist_ok=False)
     sources = {'SotM2ChinesePrototype.dll': dll, 'surface-probe.json': ROOT / 'probe/dynamic-pilot.json',
                'sample-texts.json': catalog, 'NotoSansCJKsc-Regular.otf': font, 'OFL.txt': license_file}

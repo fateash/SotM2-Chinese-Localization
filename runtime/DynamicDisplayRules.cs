@@ -15,6 +15,7 @@ public sealed class DynamicDisplayRules {
  readonly Dictionary<string,string> templates;
  readonly Func<string,string> resolveName;
  static readonly Dictionary<string,(int Args,string Tags)> Specs=new(){
+  ["hint.target.topdeck"]=(0,""),
   ["hint.attack.required.unspecified"]=(4,""),["hint.hp.rank.multiple"]=(3,""),
   ["hint.damage.amount"]=(0,""),["hint.attack.remaining"]=(4,"<nobr></nobr>"),
   ["finish.regain.targets"]=(1,""),["hint.regain.hero"]=(0,""),["hint.regain.upto"]=(2,""),
@@ -295,6 +296,7 @@ public sealed class DynamicDisplayRules {
   string prefix=header.Success?header.Groups["prefix"].Value:"",body=header.Success?header.Groups["body"].Value:source;
   var fixedText=body switch {
    "Click a button to choose how much damage to deal."=>"hint.damage.amount",
+   "Click a target to put it on top of its deck."=>"hint.target.topdeck",
    "Click a Hero to regain HP."=>"hint.regain.hero",
    "Click the hero who is considered to have the most cards in play."=>"hint.hero.most.play",
    "Click a card in the trash to put it under a card."=>"hint.trash.under",
