@@ -23159,6 +23159,1035 @@
       "observations": 42,
       "captureLimitReached": false,
       "exhaustive": false
+    },
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-143949-a07f6e.zip",
+      "sha256": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+      "issues": [],
+      "version": "0.1.26-rc.1",
+      "buildId": "26880829",
+      "installed": {
+        "sample-texts.json": "9d3ad2b0e692fa27d672872aeda6913de6c3ce7acb77fb41fca941ada1948205",
+        "NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+        "SotM2ChinesePrototype.dll": "f70d4ab161aac01552bc2c7b2fd49ea718fffa2118521e086896d62106e0092d",
+        "surface-probe.json": "304647aa69bd1b5a916c1f8d89cf2f789f5ce76a5e8cba1d9a1777d7bdd9237f",
+        "OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+      },
+      "manifestSourceCommit": "f296c00a809f5d8e53b0853730b5134d2b0b39a3",
+      "runtimeWarnings": [],
+      "applicationSignals": [
+        {
+          "objectName": "Text",
+          "source": "Options"
+        },
+        {
+          "objectName": "Text",
+          "source": "New Game"
+        },
+        {
+          "objectName": "Text",
+          "source": "Online\nMultiplayer"
+        },
+        {
+          "objectName": "Text",
+          "source": "Send Early \nAccess Feedback"
+        },
+        {
+          "objectName": "Text",
+          "source": "Credits"
+        },
+        {
+          "objectName": "Text",
+          "source": "Quick Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "How to Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "Achievements"
+        },
+        {
+          "objectName": "Text",
+          "source": "Continue Game"
+        },
+        {
+          "objectName": "Text",
+          "source": "Early Access Info"
+        },
+        {
+          "objectName": "Text",
+          "source": "Help & Feedback"
+        },
+        {
+          "objectName": "Text",
+          "source": "Card Library"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "END PHASE"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Menu"
+        },
+        {
+          "objectName": "Turn Taker Label",
+          "source": "Omnitron"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "POWER AND ENGINEERING"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing, dome"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "BIOSPHERE"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "RED DUST STORM"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "one-shot"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "COMBAT PROWESS"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing, limited"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "STUN BOLT"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "item, limited"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SONIC NEUTRALIZER"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SUTURE SELF"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "FLASHBANG PROJECTOR"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“I used similar technology in the army\r\nfor infiltration and extractions.\r\nWorse, but similar.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Bunker, Justice Comics #670"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>将场上的1个非角色反派目标放回反派牌库顶。破坏此牌。\r\n</style>"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "GRAPPLING HOOK"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Silent, unexpected - what can I say?\r\nI like to travel in style.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Wraith, Mystery Comics Vol 2, #207"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "INFRARED EYEPIECE"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Watching your prey through walls...\r\nit <b>almost</b> feels like cheating. Almost.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Wraith, Mystery Comics Vol 2, #94"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>展示反派牌库的顶牌。将其放回原处或弃置。抽1张牌。\r\n</style>"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "MICRO TARGETING COMPUTER"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Weather reports, a stock ticker, seamless\r\nconnectivity to the world wide web... and yes, it also\r\nmakes it easier to shoot the bad guys.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Tachyon, Freedom Five #685"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "The Wraith造成的投射伤害+2。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "RAZOR ORDNANCE"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“These nano-polymerized blades can cut through\r\nthat robot’s plating, provided I get <b>just</b> the\r\nright angle!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Wraith, Freedom Five #305"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>The Wraith对1个目标造成3点投射伤害。\r\n</style>"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SMOKE BOMBS"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Maniac Jack, Mystery Comics vol 1, #179"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "英雄目标受到的伤害−1。\r\nThe Wraith造成的伤害+1。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "PROTOMATTER CONVERTER"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "UTILITY BELT"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Being prepared is all about having\r\nthe right tool for the job.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Wraith, Mystery Comics Vol 1 #27"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>抽2张牌，或打出1张物品牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"PowerPhase\"><space=.5em><style=PowerPhase>POWER PHASE</style></voffset>\r\n本阶段你可以额外使用1个异能。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "ADAPTIVE PLATING SUBROUTINE"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "DISINTEGRATION RAY"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "S-83 ASSAULT DRONES"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "device"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "E-P EXPLOSIVE"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "S-84 AUTOMATON DRONES"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Protomatter Converter:</b> Click a card in play to destroy it."
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“The fires of <b>RA</b> can melt steel beams!\r\nHow is this robotic monstrosity not burning?!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Ra, Singularity #4"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\nOmnitron对生命值最高的<b>*5*</b>个英雄目标各造成1点闪电伤害、1点能量伤害和1点毒素伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n直到反派<nobr><b>START PHASE</b></nobr>，每当Omnitron受到某一类型的伤害后，Omnitron在该回合剩余时间内免疫该类型的伤害。\r\n"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“For someone with such... shoddy form,\r\nyou know your way around a fight.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Mr. Fixer, Rook City Renegades #153"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=ReactionHeading>REACTION: </style><style=ReactionBody>The Wraith将受到的伤害−2。若The Wraith因此未受到伤害，你可以打出1张牌。\r\n</style>"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Careful, team!\r\nIf something goes wrong in here,\r\nthe chain reaction will\r\nbe catastrophic!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Legacy, Freedom Five #264"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<s>此牌被破坏时，还须破坏1张其他穹顶牌。\r\n</s><s><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n1名英雄可以弃置1张牌。若如此做，从环境弃牌堆中打出1张穹顶牌。\r\n</s>"
+        },
+        {
+          "objectName": "Tooltip Label",
+          "source": "Power and Engineering has no game text"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“You’re probably thinking you’ve got me\r\nfooled. Maybe, maybe. But maybe I’ve got\r\nyou right where I want you...”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Chrono-Ranger, Temporal Targets #3"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "此牌打出后，每个英雄目标恢复1点生命值。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n1名英雄可以弃置1张物品牌。若如此做，该英雄打出1张牌。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "MEDICAL BAY"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Give me the bad news, Dr. Bortnik.\r\nI know I’ve got this Space Pox or\r\nwhatever it is you’re calling it.\r\nBut can it be cured?”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Visionary, Cosmic Tales Vol. 2 #197"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "所有生命值恢复量+1。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n1名英雄可以弃置1张持续牌。若如此做，1个英雄目标恢复3点生命值。\r\n"
+        },
+        {
+          "objectName": "Description Label",
+          "source": "Protomatter Converter played:"
+        },
+        {
+          "objectName": "Choose For Me Button Label",
+          "source": "Choose For Me"
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 0 targets"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“In principle, a molecular-decoupling wave could\r\nrealign protomatter at the subatomic level.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Tachyon, Freedom Five #315"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n破坏1张环境牌。打出环境牌库顶的一张牌。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n打出反派牌库顶的一张牌。\r\n"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Hundreds of those skittering knife-legged\r\nrobots surrounded me! It was <b>GREAT</b>!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Haka, Singularity #5"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最低的2个英雄目标各造成<b>*4*</b>点近战伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n直到反派<nobr><b>START PHASE</b></nobr>，任意装置牌受到英雄目标造成的伤害后，此牌对该伤害的来源造成2点近战伤害。\r\n"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Skip"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Emergency Shielding:</b> <b>Omnitron</b> will deal <b>Bunker</b> 1 lightning damage. Click a reaction to use it."
+        },
+        {
+          "objectName": "Title Label",
+          "source": "FLAK CANNON"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "item, ordnance, limited"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "LIDAR INTEL"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "EMERGENCY SHIELDING"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "UPGRADE MODE"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing, mode, limited"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "MOUNTED AP GUN"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "EXPENDABLE POWER BANK"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "ADHESIVE FOAM GRENADE"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“I was worried when you took a shot at Lady Liberty,\r\nsoldier. But good work saving the day!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Legacy, Freedom Four #94"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "无法打出环境牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Sure, it’s a bit of a weak point, but the other\r\nalternative is fewer bells and whistles, and\r\nwe can’t have that!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Bunker, Freedom Five #410"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>PLAY PHASE</style></voffset>\r\n你可以将你的弃牌堆中的1张牌置于场上的1张军械牌下。若如此做，将此牌置于场上的1张军械牌下。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n将你的牌库顶牌置于场上的1张军械牌下。\r\n"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Not going to climb out of your fancy tin can and\r\ngive your old squadmate a hug? What, am I\r\nbelow your station?”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Fright Train, Freedom Five #463"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>破坏此牌下至多2张牌。每以此法破坏1张牌，Bunker便对1个目标造成3点投射伤害。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n将你的牌库顶牌置于此牌下。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "GRENADE LAUNCHER"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Not letting me draw a bead on you? That’s a smart\r\nmove, provided I don’t have any explosives.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Bunker, Indestructible Bunker #29"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>破坏此牌下至多2张牌。每以此法破坏1张牌，Bunker便对3个目标各造成2点火焰伤害。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n将你的牌库顶牌置于此牌下。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "OMNI-CANNON"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Scrambling antimatter particles in a graviton\r\nlauncher controls and directs a steady stream of\r\nhyper-excited leptons. Translation:\r\nbig gun go boom.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Tachyon, Freedom Five #571"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>破坏此牌下的所有牌。Bunker对1个目标造成X点能量伤害，X为以此法破坏的牌数乘以2。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n将你的牌库顶牌置于此牌下。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "item, ordnance"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "PISTON PUNCH"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Ooh, look at the big army man and his fancy suit\r\nbuilt for combat instead of <b><i>just</i></b> making sure\r\nhe doesn’t die.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Absolute Zero, Freedom Five #323"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "Bunker对1个目标造成3点近战伤害。若该次伤害破坏了目标，将此牌置于场上的1张军械牌下。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "RECHARGE MODE"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“It’s a fine plan, and I’m all for it.\r\nBut I’m going to need a LOT more power.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Bunker, Freedom Five #369"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "TACTICAL COMMAND"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“He doesn’t often speak up, but when he does,\r\nit’s well worth listening.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Wraith, Freedom Five Annual #13"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "TURRET MODE"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "Bunker造成的伤害+1。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PowerPhase\"><space=.5em><style=PowerPhase>POWER PHASE</style></voffset>\r\n本阶段你可以额外使用2个异能。\r\n"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“No, it’s not like driving a car!\r\nOK, it’s like driving a car blindfolded with\r\nshoes on your hands and also you’re late.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Bunker, Freedom Five #370"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "此牌打出后，召唤1张物品牌。\r\n你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n打出至多2张牌。\r\n"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“We’ve got some new damage reduction protocols\r\nfor you. Could be literally life saving. Can’t go\r\nlosing my best soldier, now can I?”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--General Armstrong, Justice Comics #452"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "此牌被破坏时，Bunker恢复2点生命值。\r\n<style=ReactionHeading>REACTION: </style><style=ReactionBody>Bunker将受到的伤害−2。然后，若Bunker仍受到伤害，破坏此牌。\r\n</style>"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Combat Prowess:</b> <b>Omnitron</b> will deal <b>The Wraith</b> 1 lightning damage. Click a reaction to use it."
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Skip Play"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Combat Prowess:</b> Click or drag a card to play it."
+        },
+        {
+          "objectName": "Title Label",
+          "source": "BEE BOT"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "mechanical golem"
+        },
+        {
+          "objectName": "Skip Button Label",
+          "source": "Skip"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Bee Bot:</b> Click a card in play to destroy it."
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Bee Bot:</b> Click a target to deal it <nobr>2 projectile</nobr> damage."
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“The endless sounds of stomping metal feet\r\nfilled the air. There was no element of\r\nsurprise. They didn't need it.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Wraith, Singularity #7"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最高的3个英雄目标各造成<b>*4*</b>点能量伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n发现1张装置牌。\r\n"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>S-83 Assault Drones:</b> Click <b>Swift Bot</b> and 1 more target to deal them <nobr>4 melee</nobr> damage."
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 1 target"
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 2 targets"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SWIFT BOT"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "FLASH FORGE"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "VOLATILE PARTS"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "item"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "MODULAR WORKBENCH"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“I know it’s more like a hornet, Dr. Boring...\r\nbut Bee Bot is more <b>fun</b> to say!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Unity, Freedom Five Annual #20"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "此牌无法在你的<nobr><b>PLAY PHASE</b></nobr>打出。\r\n此牌被破坏时，你可以破坏1张持续牌。然后，Unity对1个目标造成2点投射伤害。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "CRYO BOT"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Don’t be sad, Cryo Bot! Everyone loves you!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Unity, Freedom Five Annual #12"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "此牌无法在你的<nobr><b>PLAY PHASE</b></nobr>打出。\r\n此牌受到火焰伤害后，对1个目标造成等量的寒冷伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n此牌对至多3个目标各造成1点寒冷伤害。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "INSPIRED REPAIR"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“You call them your friends, but you are enslaving\r\nliving metal for your purposes! Cease your-- Hey. Wait.\r\nStop that. Stop <b>fixing</b> them!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Chokepoint, Freedom Five #773"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "PLATFORM BOT"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Pew pew! <b>Lasers!</b>\r\nJust like the real thing, right?”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Unity, Freedom Five #792"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "此牌无法在你的<nobr><b>PLAY PHASE</b></nobr>打出。\r\n此牌受到的伤害−1。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n此牌对1个目标造成3点能量伤害。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "POWERED SHOCK WAVE"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Argh! That actually hurt me! You can make\r\nlightning, too? Not fair!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Radioactivist, Freedom Five #498"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "Unity对每个非英雄目标各造成X点闪电伤害，X为场上的机偶牌数量。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "ROBOT RECLAMATION"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Inquiry: with focus and motivation, could your\r\ncapabilities extend to altering my form?”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Omnitron-X, Freedom Five #697"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“I am uptight about science and hate explosions\r\nin the lab.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Swift Bot, Freedom Five Annual #12"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "此牌无法在你的<nobr><b>PLAY PHASE</b></nobr>打出。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>PLAY PHASE</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "DECOMPRESSION PROTOCOL"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“And there we are. The lock down!\r\nRight on schedule.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Ambuscade, Freedom Five #714"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "所有目标免疫伤害。\r\n在每名英雄的<nobr><b>START PHASE</b></nobr>，该英雄可以跳至自己的<nobr><b>DRAW PHASE</b></nobr>。若如此做，破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若场上有2张或更多穹顶牌，破坏此牌。\r\n"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>S-84 Automaton Drones:</b> Click <b>The Argent Adept</b>, <b>The Wraith</b> and 1 more target to deal them <nobr>4 energy</nobr> damage."
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 3 targets"
+        },
+        {
+          "objectName": "Tooltip Label",
+          "source": "Omnitron is <b>immune</b> to all damage"
+        },
+        {
+          "objectName": "Tooltip Label",
+          "source": "Bunker is <b>immune</b> to all damage"
+        },
+        {
+          "objectName": "Turn Taker Label",
+          "source": "The Argent Adept"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "START PHASE"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "RHAPSODY OF VIGOR"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing, melody"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "INSPIRING SUPERTONIC"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing, harmony"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "DRAKE'S PIPES"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "item, instrument"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "POLYPHONIC FLARE"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "AKPUNKU'S DRUM"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“How can this mere <b>mortal</b> counter my despair?!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Gloomweaver, Nightmist #21"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>发动1张节奏牌的<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>ACCOMPANY</style></nobr>。然后，发动1张节奏牌的<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>。\r\n</style>"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "ARCANE CADENCE"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“I am pulled by magical forces beyond the\r\nknowledge of man. Nature, Void, Blood...\r\n<b>all</b> are my domain!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Argent Adept, Virtuoso of the Void Vol. 2 #65"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "COUNTERPOINT BULWARK"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“She seeks to be your undoing on an ethereal\r\nlevel. Hold fast. You can overcome this curse.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Argent Adept, Mystery Comics Vol 2. #302"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\n选择至多3个目标。直到你的<nobr><b>START PHASE</b></nobr>，这些目标受到的伤害−1。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> ACCOMPANY</style>\r\n至多3位英雄可以各抽1张牌。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing, rhythm"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "EYDISAR'S HORN"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Come forth! Halt your battles in Valhalla\r\nand stand strong against these forces of evil!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Argent Adept, Absolution #9"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>发动1张旋律牌的<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>。然后，发动1个<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>ACCOMPANY</style></nobr>。\r\n</style>"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "INVENTIVE PREPARATION"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“I hear, I see now. My faith is my strength,\r\nbut my faith need not endure in solitude.\r\nMy friends, too, give me strength.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Fanatic, Fanatic Vol. 2 #115"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\n每位英雄展示其牌库顶牌，然后将其放回原处或弃置。然后，1位英雄可以抽2张牌。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> ACCOMPANY</style>\r\n发现1张持续牌。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SARABANDE OF DESTRUCTION"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“You cannot return!\r\nYour base machinations shall fail!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Argent Adept, Virtuoso of the Void Vol. 1 #152"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\n破坏1张持续牌，或破坏1个生命值不高于2的目标。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SYNCOPATED ONSLAUGHT"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Ah! It is good to do a <b>Haka</b>\r\nwith such fine accompaniment!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Haka, The Savage Haka #242"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\n选择至多3个目标。直到你的<nobr><b>START PHASE</b></nobr>，这些目标造成的伤害+1。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> ACCOMPANY</style>\r\nThe Argent Adept对1个目标造成1点不可削减的音波伤害。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "TELAMON'S LYRA"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Back! Begone!\r\nI know not how I brought you into this world,\r\nbut I shall <b>surely</b> send you from it!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Anthony Drake, Toll of Destiny #3"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>发动1张和声牌的<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>并发动1张节奏牌的<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>ACCOMPANY</style></nobr>；或发动1张节奏牌的<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>并发动1张和声牌的<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>ACCOMPANY</style></nobr>。\r\n</style>"
+        },
+        {
+          "objectName": "Label",
+          "source": "Skip to Draw"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Decompression Protocol:</b> Click a button on Decompression Protocol to choose an effect."
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "PLAY PHASE"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Skip Play Phase"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "Click or drag a card to play it."
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "Click a card to play it."
+        },
+        {
+          "objectName": "Title Label",
+          "source": "Arcane Cadence revealed:"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "INSTRUMENTAL CONJURATION"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "SCHERZO OF FROST AND FLAME"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "XU'S BELL"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Hey, you can’t touch that!\r\nIt’s a priceless artifact!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Dr. Blake Washington, Jr., Toll of Destiny #1"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=PowerHeading>POWER: </style><style=PowerBody>发动1个<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>，或发动至多2张不同牌各自的<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>ACCOMPANY</style></nobr>。\r\n</style>"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Arcane Cadence:</b> Click a card to draw it."
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Virtuosos of the ages, lend me your strength!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Argent Adept, Virtuoso of the Void Vol. 1 #145"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Arcane Cadence:</b> Click a card to replace it."
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Arcane Cadence:</b> Click a card to discard it."
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“A touch of the elements to keep foes at bay.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Argent Adept, Prime Wardens Vol. 2 #17"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\nThe Argent Adept对1个目标造成2点寒冷伤害。然后，The Argent Adept可以对另1个目标造成2点火焰伤害。\r\n"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Arcane Cadence:</b> Click a card to bury it."
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“So long as your essence persists in any realm\r\nyou shall never be free of me!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Bal’Taranerach, Virtuoso of the Void Vol. 2 #100"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "The Argent Adept对自己造成2点固定能量伤害。\r\n使用1个异能，或抽2张牌。\r\n"
+        }
+      ],
+      "observations": 133,
+      "captureLimitReached": false,
+      "exhaustive": false
     }
   ],
   "samples": [
@@ -23551,6 +24580,12 @@
           "line": 321,
           "version": "0.1.25-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 248,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -23861,6 +24896,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 248,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 413,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -24597,6 +25638,12 @@
           "line": 57,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 57,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -25127,6 +26174,12 @@
           "line": 47,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 47,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -25435,6 +26488,12 @@
       "evidence": [
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 176,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 176,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -25982,6 +27041,29 @@
     },
     {
       "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Hand/Card Container/CardView PistonPunch-0 FullCardFront/Body Box/Body Label",
+      "cardId": "PistonPunch",
+      "source": "Bunker对1个目标造成3点近战伤害。若该次伤害破坏了目标，将此牌置于场上的1张军械牌下。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "0b4ba4be2c9e0afd72306904",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 298,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
       "path": "Canvas/Temporary Full Card Panel/CardView PistonPunch-3 FullCardFront (Temporary)/Body Box/Body Label",
       "cardId": "PistonPunch",
       "source": "堡垒对1个目标造成3点近战伤害。若该次伤害破坏了目标，将此牌置于场上的1张军械牌下。\r\n",
@@ -26495,6 +27577,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 286,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 444,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -27108,6 +28196,12 @@
           "line": 54,
           "version": "0.1.25-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 493,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -27526,6 +28620,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 341,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 278,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -30264,6 +31364,12 @@
           "line": 885,
           "version": "0.1.25-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 572,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -30492,6 +31598,29 @@
           "session": "c53fec320fd6359886486e837dbb90aefcea904781c1a00eeae064871b0c98d4",
           "line": 292,
           "version": "0.1.20-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Hand/Card Container/CardView AdhesiveFoamGrenade-2 FullCardFront/Body Box/Body Label",
+      "cardId": "AdhesiveFoamGrenade",
+      "source": "无法打出环境牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "1cf626c15ff3be2a77a63b7d",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 251,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -31305,6 +32434,12 @@
           "line": 180,
           "version": "0.1.25-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 591,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -31728,6 +32863,12 @@
         },
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 40,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 40,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -32829,6 +33970,12 @@
           "line": 165,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 165,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -32870,6 +34017,29 @@
         }
       ],
       "cardButtonCandidate": false
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Emergency Shielding:</b> <b>Omnitron</b> will deal <b>Bunker</b> 1 lightning damage. Click a reaction to use it.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "23f6493b5bbbba2e0bda98f6",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 230,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
+        }
+      ]
     },
     {
       "objectName": "Body Label",
@@ -32995,6 +34165,29 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 792,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Hand/Card Container/CardView AkpunkusDrum-0 FullCardFront/Body Box/Body Label",
+      "cardId": "AkpunkusDrum",
+      "source": "<style=PowerHeading>异能: </style><style=PowerBody>发动1张节奏牌的<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>伴奏</style></nobr>。然后，发动1张节奏牌的<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>演奏</style></nobr>。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "2465b2085a4262771c754250",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 574,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -33476,6 +34669,12 @@
           "line": 54,
           "version": "0.1.26-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 54,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -33832,6 +35031,29 @@
     },
     {
       "objectName": "Body Label",
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Hand/Card Container/CardView InventivePreparation-1 FullCardFront/Body Box/Body Label",
+      "cardId": "InventivePreparation",
+      "source": "<style=AbilityHeading><sprite name=\"Perform\"> 演奏</style>\r\n每位英雄展示其牌库顶牌，然后将其放回原处或弃置。然后，1位英雄可以抽2张牌。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> 伴奏</style>\r\n发现1张持续牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "279c6179635f714388a72183",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 577,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
       "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Hand/Card Container/CardView RazorOrdnance-0 FullCardFront/Body Box/Body Label",
       "cardId": "RazorOrdnance",
       "source": "<style=PowerHeading>POWER: </style><style=PowerBody>The Wraith对1个目标造成3点投射伤害。\r\n</style>",
@@ -33847,6 +35069,12 @@
       "evidence": [
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 116,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 116,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -34436,6 +35664,29 @@
       ]
     },
     {
+      "objectName": "Tooltip Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Character Card Container/OmnitronCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Tooltip/Tooltip Label",
+      "cardId": "OmnitronCharacter",
+      "source": "Omnitron is <b>immune</b> to all damage",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": true,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "29f43de5d4c8894d7a7a3675",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 486,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView AlacritousSubdominant-1 SmallCardFront/Select Effect Container/415/UseAbility-Perform-AlacritousSubdominant-1-\"\"1 Hero may play 1 card.\"\"/Label",
       "cardId": "AlacritousSubdominant",
@@ -34548,6 +35799,29 @@
           "line": 840,
           "version": "0.1.22-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView ProtomatterConverter-0 SmallCardFront/Tooltip/CardView ProtomatterConverter-0 FullCardFront/Body Box/Body Label",
+      "cardId": "ProtomatterConverter",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n破坏1张环境牌。打出环境牌库顶的一张牌。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n打出反派牌库顶的一张牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "2a55de7e43086b17a0fb0c22",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 380,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -35536,6 +36810,12 @@
           "line": 201,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 201,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -35871,6 +37151,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 592,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 510,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -36693,6 +37979,12 @@
         },
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 147,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 147,
           "version": "0.1.26-rc.1",
           "markerCandidate": true
@@ -38498,6 +39790,12 @@
           "line": 200,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 200,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -39103,6 +40401,12 @@
         },
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 139,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 139,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -40310,6 +41614,29 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Hand/Card Container/CardView TacticalCommand-0 FullCardFront/Body Box/Body Label",
+      "cardId": "TacticalCommand",
+      "source": "1个盟友使用1个异能。若该异能将造成伤害，该伤害不可削减。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "3f3f0564b004fbc2ab46dccb",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 321,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Text (TMP)",
       "path": "Canvas/Main Panel/NavButtons Top/Back Button/Text (TMP)",
       "cardId": "",
@@ -41211,6 +42538,12 @@
         },
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 202,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 202,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -42176,6 +43509,12 @@
           "line": 527,
           "version": "0.1.22-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 381,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -42561,6 +43900,29 @@
           "session": "c53fec320fd6359886486e837dbb90aefcea904781c1a00eeae064871b0c98d4",
           "line": 928,
           "version": "0.1.20-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView DecompressionProtocol-0 SmallCardFront/Tooltip/CardView DecompressionProtocol-0 FullCardFront/Body Box/Body Label",
+      "cardId": "DecompressionProtocol",
+      "source": "所有目标免疫伤害。\r\n在每名英雄的<nobr><b>START PHASE</b></nobr>，该英雄可以跳至自己的<nobr><b>DRAW PHASE</b></nobr>。若如此做，破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若场上有2张或更多穹顶牌，破坏此牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "478c68c2c0c9ee633e9da7bc",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 587,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -43025,6 +44387,12 @@
           "line": 196,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 196,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -43292,6 +44660,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 435,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 527,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -44066,6 +45440,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 64,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 496,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ],
@@ -45551,6 +46931,12 @@
           "line": 390,
           "version": "0.1.25-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 343,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -45674,6 +47060,12 @@
         },
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 98,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 98,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -45935,6 +47327,29 @@
           "session": "c53fec320fd6359886486e837dbb90aefcea904781c1a00eeae064871b0c98d4",
           "line": 1157,
           "version": "0.1.20-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Revealed Cards Manager/[RevealCardsAction: Source=Arcane Cadence]/Card Container/CardView XusBell-0 SmallCardFront (Revealed)/Tooltip/CardView XusBell-0 FullCardFront/Body Box/Body Label",
+      "cardId": "XusBell",
+      "source": "<style=PowerHeading>POWER: </style><style=PowerBody>发动1个<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>，或发动至多2张不同牌各自的<nobr><sprite name=\"Accompany\" color=#FFFFFF> <style=BoldItalic>ACCOMPANY</style></nobr>。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "53330ea1434dfdc7eb041539",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 613,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -47556,6 +48971,12 @@
           "line": 490,
           "version": "0.1.25-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 483,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -47647,6 +49068,29 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 889,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Temporary Full Card Panel/CardView DecompressionProtocol-0 FullCardFront (Temporary)/Body Box/Body Label",
+      "cardId": "DecompressionProtocol",
+      "source": "所有目标免疫伤害。\r\n在每名英雄的<nobr><b>START PHASE</b></nobr>，该英雄可以跳至自己的<nobr><b>DRAW PHASE</b></nobr>。若如此做，破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n若场上有2张或更多穹顶牌，破坏此牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "58ee247c4e8ba4a2ce9135b1",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 477,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -48293,6 +49737,29 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Temporary Full Card Panel/CardView DecompressionProtocol-0 FullCardFront (Temporary)/Body Box/Body Label",
+      "cardId": "DecompressionProtocol",
+      "source": "所有目标免疫伤害。\r\n在每名英雄的<nobr><b>开始阶段</b></nobr>，该英雄可以跳至自己的<nobr><b>抽牌阶段</b></nobr>。若如此做，破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n若场上有2张或更多穹顶牌，破坏此牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "5b48fdee4a286de0a160a4e3",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 479,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/Haka/Inner Panel/Character Card Container/HakaCharacter/Foreground Elements/Power Container/533/UsePower-Haka-HakaCharacter/Label",
       "cardId": "HakaCharacter",
@@ -48429,6 +49896,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 593,
           "version": "0.1.25-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 625,
+          "version": "0.1.26-rc.1",
           "markerCandidate": true
         }
       ]
@@ -48807,6 +50280,29 @@
         }
       ],
       "cardButtonCandidate": true
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>S-84 Automaton Drones:</b> Click <b>The Argent Adept</b>, <b>The Wraith</b> and 1 more target to deal them <nobr>4 energy</nobr> damage.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "5d0a2580de57448bee46c4ab",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 480,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
+        }
+      ]
     },
     {
       "objectName": "Body Label",
@@ -49319,6 +50815,12 @@
           "line": 493,
           "version": "0.1.25-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 386,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -49682,6 +51184,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 278,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 436,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -50064,6 +51572,12 @@
         },
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 159,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 159,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -50771,6 +52285,35 @@
           "line": 289,
           "version": "0.1.24-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 367,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Hand/Card Container/CardView SyncopatedOnslaught-0 FullCardFront/Body Box/Body Label",
+      "cardId": "SyncopatedOnslaught",
+      "source": "<style=AbilityHeading><sprite name=\"Perform\"> 演奏</style>\r\n选择至多3个目标。直到你的<nobr><b>开始阶段</b></nobr>，这些目标造成的伤害+1。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> 伴奏</style>\r\n银音秘师对1个目标造成1点不可削减的音波伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "616e03f5224b24e3c8937de1",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 579,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -50946,6 +52489,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 568,
           "version": "0.1.25-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 592,
+          "version": "0.1.26-rc.1",
           "markerCandidate": true
         }
       ],
@@ -51908,6 +53457,12 @@
           "line": 575,
           "version": "0.1.25-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 602,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -52088,6 +53643,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 659,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 365,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ],
@@ -53365,6 +54926,12 @@
           "line": 114,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 114,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -53677,6 +55244,12 @@
         },
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 128,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 128,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -54009,6 +55582,29 @@
       ]
     },
     {
+      "objectName": "Tooltip Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Bunker/Inner Panel/Character Card Container/BunkerCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Tooltip/Tooltip Label",
+      "cardId": "BunkerCharacter",
+      "source": "Bunker is <b>immune</b> to all damage",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": true,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "6c5b2d650e55b17e7a34d8ce",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 488,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/CardView VitalityConduit-1 SmallCardFront (Temporary)/Effect Panel/Effect View(Clone)/Label",
       "cardId": "VitalityConduit",
@@ -54207,6 +55803,12 @@
           "line": 34,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 34,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -54301,6 +55903,12 @@
         },
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 91,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 91,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -54449,6 +56057,29 @@
     },
     {
       "objectName": "Body Label",
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/CardView ArcaneCadence-1 FullCardFront/Body Box/Body Label",
+      "cardId": "ArcaneCadence",
+      "source": "展示你的牌库顶的5张牌。从中抽取1张，将1张放回原处，弃置1张，埋藏1张，并打出1张。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "6d7fed8480a8dbc2f642fb19",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 601,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
       "path": "Canvas/Temporary Full Card Panel/CardView StunBolt-0 FullCardFront (Temporary)/Body Box/Body Label",
       "cardId": "StunBolt",
       "source": "<style=PowerHeading>POWER: </style><style=PowerBody>The Wraith对1个目标造成1点闪电伤害。直到你的<nobr><b>START PHASE</b></nobr>，该目标造成的伤害−1。\r\n</style>",
@@ -54478,6 +56109,29 @@
           "session": "0447081ad9df2825a982ffb39ea2f52c91d6775460a1d31bfba48f68ae19f96c",
           "line": 603,
           "version": "0.1.24-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView MedicalBay-0 SmallCardFront/Tooltip/CardView MedicalBay-0 FullCardFront/Body Box/Body Label",
+      "cardId": "MedicalBay",
+      "source": "所有生命值恢复量+1。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n1名英雄可以弃置1张持续牌。若如此做，1个英雄目标恢复3点生命值。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "6d9dd2ece20b6c7e4ae14ddb",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 466,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -54776,6 +56430,12 @@
       "evidence": [
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 174,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 174,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -55760,6 +57420,12 @@
           "line": 63,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 63,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -56662,6 +58328,12 @@
         },
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 126,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 126,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -57817,6 +59489,12 @@
           "line": 51,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 51,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -58054,6 +59732,12 @@
         },
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 49,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 49,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -59261,6 +60945,12 @@
           "line": 43,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 43,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -59904,6 +61594,12 @@
           "line": 177,
           "version": "0.1.25-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 588,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -60145,6 +61841,29 @@
           "session": "cd5b2d25395de0cacbefbc5ec51827aea87c0e0b09943ef35939c8375d17abd5",
           "line": 344,
           "version": "0.1.22-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Revealed Cards Manager/[RevealCardsAction: Source=Arcane Cadence]/Card Container/CardView PolyphonicFlare-1 SmallCardFront/Tooltip/CardView PolyphonicFlare-1 FullCardFront/Body Box/Body Label",
+      "cardId": "PolyphonicFlare",
+      "source": "The Argent Adept对自己造成2点固定能量伤害。\r\n使用1个异能，或抽2张牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "833ff4f58ae88ef66114c4b5",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 645,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -60649,6 +62368,12 @@
           "line": 500,
           "version": "0.1.25-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 227,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -60949,6 +62674,29 @@
           "line": 1024,
           "version": "0.1.20-rc.1",
           "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Decompression Protocol:</b> Click a button on Decompression Protocol to choose an effect.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "863b470d9c90efd239c48f9c",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 585,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -61284,6 +63032,12 @@
           "line": 591,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 482,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -61565,6 +63319,12 @@
       "evidence": [
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 207,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 207,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -61888,6 +63648,12 @@
           "line": 577,
           "version": "0.1.25-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 605,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -61990,6 +63756,12 @@
           "session": "8707c6360c03e8401e90efb4e22411068a451087466848c83d6ac653ba340662",
           "line": 412,
           "version": "0.1.23-rc.2",
+          "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 357,
+          "version": "0.1.26-rc.1",
           "markerCandidate": true
         }
       ],
@@ -62634,6 +64406,12 @@
           "line": 425,
           "version": "0.1.25-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 518,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -62844,6 +64622,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 636,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 536,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -63801,6 +65585,29 @@
           "session": "0447081ad9df2825a982ffb39ea2f52c91d6775460a1d31bfba48f68ae19f96c",
           "line": 284,
           "version": "0.1.24-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Deck",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "91fdf809243c853a57ff3fe4",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 647,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -66121,6 +67928,12 @@
           "line": 106,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 106,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -66898,6 +68711,12 @@
           "line": 566,
           "version": "0.1.25-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 578,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -66938,6 +68757,12 @@
       "evidence": [
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 186,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 186,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -67985,6 +69810,12 @@
           "line": 510,
           "version": "0.1.22-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 378,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -68726,6 +70557,29 @@
     },
     {
       "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Hand/Card Container/CardView PistonPunch-3 FullCardFront/Body Box/Body Label",
+      "cardId": "PistonPunch",
+      "source": "Bunker对1个目标造成3点近战伤害。若该次伤害破坏了目标，将此牌置于场上的1张军械牌下。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "a3a393fc1c43ab6901b933a3",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 300,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
       "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ClatteringOfJackdaws-2 FullCardFront/Body Box/Body Label",
       "cardId": "ClatteringOfJackdaws",
       "source": "此牌打出后，打出反派牌库顶的一张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n此牌对每个英雄目标造成1点投射伤害。\r\n",
@@ -69091,6 +70945,12 @@
           "session": "0447081ad9df2825a982ffb39ea2f52c91d6775460a1d31bfba48f68ae19f96c",
           "line": 291,
           "version": "0.1.24-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 369,
+          "version": "0.1.26-rc.1",
           "markerCandidate": true
         }
       ]
@@ -70177,6 +72037,12 @@
           "line": 236,
           "version": "0.1.25-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 401,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -70199,6 +72065,29 @@
           "session": "c53fec320fd6359886486e837dbb90aefcea904781c1a00eeae064871b0c98d4",
           "line": 1105,
           "version": "0.1.20-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Hand/Card Container/CardView RobotReclamation-0 FullCardFront/Body Box/Body Label",
+      "cardId": "RobotReclamation",
+      "source": "回收至多3张机偶牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "a849e928139ab402680f1e9b",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 453,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -72805,6 +74694,12 @@
           "line": 36,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 36,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -73027,6 +74922,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 560,
           "version": "0.1.25-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 490,
+          "version": "0.1.26-rc.1",
           "markerCandidate": true
         }
       ],
@@ -73924,6 +75825,12 @@
           "line": 343,
           "version": "0.1.25-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 280,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -73970,6 +75877,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 582,
           "version": "0.1.25-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 615,
+          "version": "0.1.26-rc.1",
           "markerCandidate": true
         }
       ]
@@ -74424,6 +76337,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 888,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 580,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -75219,6 +77138,12 @@
           "line": 198,
           "version": "0.1.26-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 198,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -75814,6 +77739,12 @@
           "line": 32,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 32,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -75878,6 +77809,29 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView EmergencyShielding-0 SmallCardFront/Tooltip/CardView EmergencyShielding-0 FullCardFront/Body Box/Body Label",
+      "cardId": "EmergencyShielding",
+      "source": "此牌被破坏时，Bunker恢复2点生命值。\r\n<style=ReactionHeading>REACTION: </style><style=ReactionBody>Bunker将受到的伤害−2。然后，若Bunker仍受到伤害，破坏此牌。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "bcf9ac4d8c5bac9f98550c71",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 352,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Description Label",
       "path": "Canvas/Temporary Full Card Panel/Description Label",
       "cardId": "",
@@ -75893,6 +77847,29 @@
           "session": "b8b74a88bcd42587da6fe286527c72603596a064d197cb576309c73066a0e842",
           "line": 619,
           "version": "0.1.15-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Trash",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "bd5e7af506b5ef40ed2e1403",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 648,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -76136,6 +78113,12 @@
         },
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 30,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 30,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -77520,6 +79503,12 @@
           "line": 665,
           "version": "0.1.25-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 576,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -78743,6 +80732,29 @@
       "objectName": "Hint Label",
       "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
       "cardId": "",
+      "source": "<b>Combat Prowess:</b> <b>Omnitron</b> will deal <b>The Wraith</b> 1 lightning damage. Click a reaction to use it.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "c6eb2b8e04f8e4157df5855f",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 355,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
       "source": "<b>Kettle of Vultures:</b> Click a target to deal it <nobr>2 projectile</nobr> damage.",
       "inCardView": false,
       "inputSource": "TextString",
@@ -79063,6 +81075,29 @@
           "line": 707,
           "version": "0.1.15-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Hand/Card Container/CardView InstrumentalConjuration-2 FullCardFront/Body Box/Body Label",
+      "cardId": "InstrumentalConjuration",
+      "source": "召唤1张乐器牌。\r\n你可以打出1张牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "c921571c5160976320eca0ab",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 624,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -79648,6 +81683,12 @@
           "line": 454,
           "version": "0.1.25-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 554,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -79936,6 +81977,35 @@
           "line": 81,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 81,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Hand/Card Container/CardView OmniCannon-0 FullCardFront/Body Box/Body Label",
+      "cardId": "OmniCannon",
+      "source": "<style=PowerHeading>POWER: </style><style=PowerBody>破坏此牌下的所有牌。Bunker对1个目标造成X点能量伤害，X为以此法破坏的牌数乘以2。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n将你的牌库顶牌置于此牌下。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "cc45f36706697815ba01f222",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 289,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -80087,6 +82157,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 365,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 313,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -82300,6 +84376,12 @@
           "line": 331,
           "version": "0.1.25-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 268,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -83235,6 +85317,29 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Hand/Card Container/CardView ExpendablePowerBank-2 FullCardFront/Body Box/Body Label",
+      "cardId": "ExpendablePowerBank",
+      "source": "<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>PLAY PHASE</style></voffset>\r\n你可以将你的弃牌堆中的1张牌置于场上的1张军械牌下。若如此做，将此牌置于场上的1张军械牌下。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n将你的牌库顶牌置于场上的1张军械牌下。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "d8b01dbd92054998825f71f3",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 259,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Power Container/77/UsePower-Tachyon-TachyonCharacter/Label",
       "cardId": "TachyonCharacter",
@@ -83429,6 +85534,12 @@
         },
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 45,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 45,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -83734,6 +85845,29 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Hand/Card Container/CardView SyncopatedOnslaught-0 FullCardFront/Body Box/Body Label",
+      "cardId": "SyncopatedOnslaught",
+      "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\n选择至多3个目标。直到你的<nobr><b>START PHASE</b></nobr>，这些目标造成的伤害+1。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> ACCOMPANY</style>\r\nThe Argent Adept对1个目标造成1点不可削减的音波伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "da05e471c741a5758f801cab",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 564,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Description Label",
       "path": "Canvas/Temporary Full Card Panel/Description Label",
       "cardId": "",
@@ -83838,6 +85972,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 564,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 575,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -84091,6 +86231,12 @@
           "line": 406,
           "version": "0.1.22-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 362,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -84254,6 +86400,12 @@
         },
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 204,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 204,
           "version": "0.1.26-rc.1",
           "markerCandidate": true
@@ -84494,6 +86646,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 779,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 208,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -84743,6 +86901,12 @@
           "line": 847,
           "version": "0.1.25-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 595,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -84778,6 +86942,29 @@
           "session": "0447081ad9df2825a982ffb39ea2f52c91d6775460a1d31bfba48f68ae19f96c",
           "line": 781,
           "version": "0.1.24-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView S83AssaultDrones-0 SmallCardFront/Tooltip/CardView S83AssaultDrones-0 FullCardFront/Body Box/Body Label",
+      "cardId": "S83AssaultDrones",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最低的2个英雄目标各造成<b>*4*</b>点近战伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n直到反派<nobr><b>START PHASE</b></nobr>，任意装置牌受到英雄目标造成的伤害后，此牌对该伤害的来源造成2点近战伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "dccb13411caf25805e26e847",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 225,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -85275,6 +87462,12 @@
           "line": 571,
           "version": "0.1.25-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 598,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -85318,6 +87511,29 @@
         }
       ],
       "cardButtonCandidate": false
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView SwiftBot-0 SmallCardFront/Tooltip/CardView SwiftBot-0 FullCardFront/Body Box/Body Label",
+      "cardId": "SwiftBot",
+      "source": "此牌无法在你的<nobr><b>PLAY PHASE</b></nobr>打出。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>PLAY PHASE</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "de9157832105a42a9139e7f8",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 463,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        }
+      ]
     },
     {
       "objectName": "Heading Label",
@@ -85378,6 +87594,12 @@
           "line": 158,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 158,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -85430,6 +87652,29 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 946,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Revealed Cards Manager/[RevealCardsAction: Source=Arcane Cadence]/Card Container/CardView ScherzoOfFrostAndFlame-1 SmallCardFront/Tooltip/CardView ScherzoOfFrostAndFlame-1 FullCardFront/Body Box/Body Label",
+      "cardId": "ScherzoOfFrostAndFlame",
+      "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\nThe Argent Adept对1个目标造成2点寒冷伤害。然后，The Argent Adept可以对另1个目标造成2点火焰伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "dec2f636802d43290a54bf02",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 634,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -85577,6 +87822,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 376,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 330,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -86143,6 +88394,12 @@
           "line": 604,
           "version": "0.1.25-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 627,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -86604,6 +88861,12 @@
         },
         {
           "session": "308627bd8c3eb313ea6ad429197755891a957325b5542f607d7db03a8f0e2803",
+          "line": 156,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
           "line": 156,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
@@ -87135,6 +89398,35 @@
           "line": 177,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 177,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView EmergencyShielding-0 FullCardFront/Body Box/Body Label",
+      "cardId": "EmergencyShielding",
+      "source": "此牌被破坏时，Bunker恢复2点生命值。\r\n<style=ReactionHeading>REACTION: </style><style=ReactionBody>Bunker将受到的伤害−2。然后，若Bunker仍受到伤害，破坏此牌。\r\n</style>",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "e4a1901ccbe9c6574e8cdf44",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 354,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -87343,6 +89635,12 @@
           "line": 41,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 41,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -87393,6 +89691,29 @@
           "line": 911,
           "version": "0.1.19-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Instrumental Conjuration:</b> Click a location to search it for a card to summon.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "e5050fd4193c59bfb3b975fa",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 649,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -87743,6 +90064,12 @@
           "line": 28,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 28,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -87902,6 +90229,12 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 567,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 581,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ],
@@ -88213,6 +90546,29 @@
           "session": "84d1e13ee189cfdda41012e25ff86c79b41e385de9b3e81b19106a9b8376b8d9",
           "line": 845,
           "version": "0.1.25-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Hand/Card Container/CardView PoweredShockWave-1 FullCardFront/Body Box/Body Label",
+      "cardId": "PoweredShockWave",
+      "source": "Unity对每个非英雄目标各造成X点闪电伤害，X为场上的机偶牌数量。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "e78b0d6528721e0d7c5bdee7",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 446,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -88802,6 +91158,12 @@
           "session": "cd5b2d25395de0cacbefbc5ec51827aea87c0e0b09943ef35939c8375d17abd5",
           "line": 403,
           "version": "0.1.22-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 360,
+          "version": "0.1.26-rc.1",
           "markerCandidate": true
         }
       ]
@@ -89740,6 +92102,12 @@
           "line": 541,
           "version": "0.1.25-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 383,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -90504,6 +92872,12 @@
           "line": 615,
           "version": "0.1.25-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 636,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -90561,6 +92935,29 @@
           "session": "c53fec320fd6359886486e837dbb90aefcea904781c1a00eeae064871b0c98d4",
           "line": 1170,
           "version": "0.1.20-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView ProtomatterConverter-0 FullCardFront/Body Box/Body Label",
+      "cardId": "ProtomatterConverter",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n破坏1张环境牌。打出环境牌库顶的一张牌。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n打出反派牌库顶的一张牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "eefec0c85351b43920f5e489",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 465,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -90666,6 +93063,12 @@
           "line": 59,
           "version": "0.1.26-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 59,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -90685,6 +93088,29 @@
           "session": "b87d4d41188fc6e6e2dbb4cd73e9ac388ac9aff5e9eb2f15e5746ef98c81bd84",
           "line": 434,
           "version": "0.1.13-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Hand/Card Container/CardView InventivePreparation-1 FullCardFront/Body Box/Body Label",
+      "cardId": "InventivePreparation",
+      "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\n每位英雄展示其牌库顶牌，然后将其放回原处或弃置。然后，1位英雄可以抽2张牌。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> ACCOMPANY</style>\r\n发现1张持续牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "ef7c67fe99da80ab13582156",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 546,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]
@@ -93211,6 +95637,12 @@
           "line": 268,
           "version": "0.1.25-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 425,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -93614,9 +96046,38 @@
           "line": 38,
           "version": "0.1.26-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 38,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView DecompressionProtocol-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "cardId": "DecompressionProtocol",
+      "source": "Skip to Draw",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "fa507bf3f824b3b2d65afd42",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 582,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": true
+        }
+      ]
     },
     {
       "objectName": "Label",
@@ -94044,6 +96505,29 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Hand/Card Container/CardView AdhesiveFoamGrenade-1 FullCardFront/Body Box/Body Label",
+      "cardId": "AdhesiveFoamGrenade",
+      "source": "无法打出环境牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "fca5013fb6e30a058e1a16e6",
+      "evidence": [
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 250,
+          "version": "0.1.26-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Description Label",
       "path": "Canvas/Temporary Full Card Panel/Description Label",
       "cardId": "",
@@ -94277,6 +96761,12 @@
           "session": "cd5b2d25395de0cacbefbc5ec51827aea87c0e0b09943ef35939c8375d17abd5",
           "line": 276,
           "version": "0.1.22-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "8dbd3681b166fa23c68f72942ff02be84eccff020f10339a493c57072299081a",
+          "line": 216,
+          "version": "0.1.26-rc.1",
           "markerCandidate": false
         }
       ]

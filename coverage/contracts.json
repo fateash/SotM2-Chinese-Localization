@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "c4098270f9b5974fc0fc29cebcf9e89942571ef84e25f253bf74c6cc8ae7de4c",
+    "runtime/DynamicDisplayRules.cs": "b5085b78870bac3beb77ad1ed3fb172d5e71cd928a97df01787b7a9938207b65",
     "runtime/SurfaceProbeRules.cs": "1d8071f2bb04ac9d4f69936e07ff9fbc933c5805644ac323d080566fce0d9e00",
     "runtime/SurfaceProbe.cs": "3848374ccfe3e4c4df22927b6b78d093924fc2c0be2743abc0d17d95482a4940",
     "runtime/Plugin.cs": "1e65a47d3511360bb16a633c5a046bd7a66121bad34c13743d2b01d74059fe60",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "ec170296124ced8ddc514a605d3e1ab00b02feb7b7cb6ec06b10ad29d1d39d3b",
+    "probe/dynamic-pilot.json": "0b6df8eedddef264c5716cd1cd3a9495f711766da943cbb42f07da021d5aa90a",
     "runtime/RenderedDisplayRules.cs": "a348c3e58273aa69bf63d143d20c1241c66675548cfe8b2f2e0cf2b1f9c3b7ba"
   },
   "families": [
@@ -121,7 +121,8 @@
         "hint.attack.upto.triple",
         "hint.attack.remaining.dual",
         "hint.attack.remaining.triple",
-        "hint.attack.single.triple"
+        "hint.attack.single.triple",
+        "hint.summon.search"
       ],
       "contexts": [
         {
@@ -6925,6 +6926,102 @@
             "cardId": "",
             "inCardView": false,
             "source": "<b>Adaptive Plating Subroutine:</b> Click 5 targets to deal them <nobr>1 lightning</nobr>, <nobr>1 energy</nobr>, and <nobr>1 toxic</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-bare",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a location to search it for a card to summon.",
+            "expected": "点击一个区域，从中查找一张牌以将其召唤。"
+          }
+        },
+        {
+          "id": "027-summon-hint-Instrumental Conjuration",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Instrumental Conjuration:</b> Click a location to search it for a card to summon.",
+            "expected": "<b>乐器召唤:</b> 点击一个区域，从中查找一张牌以将其召唤。"
+          }
+        },
+        {
+          "id": "027-summon-hint-Omnitron",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Omnitron:</b> Click a location to search it for a card to summon.",
+            "expected": "<b>全能智创:</b> 点击一个区域，从中查找一张牌以将其召唤。"
+          }
+        },
+        {
+          "id": "027-summon-hint-Wagner Mars Base",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Wagner Mars Base:</b> Click a location to search it for a card to summon.",
+            "expected": "<b>瓦格纳火星基地:</b> 点击一个区域，从中查找一张牌以将其召唤。"
+          }
+        },
+        {
+          "id": "027-summon-wrong-path",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a location to search it for a card to summon.",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-suffix",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a location to search it for a card to summon. Extra",
             "expected": null
           }
         }
@@ -31905,6 +32002,3375 @@
             "cardId": "EmergencyShielding",
             "inCardView": true,
             "source": "此牌被破坏时，堡垒恢复2点生命值。\r\n<style=ReactionHeading>反应: </style><style=ReactionBody>堡垒将受到的伤害−2。然后，若堡垒仍受到伤害，破坏此牌。\r\n</style>",
+            "expected": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "summon-zone-selection",
+      "templates": [
+        "button.location.deck",
+        "button.location.trash"
+      ],
+      "contexts": [
+        {
+          "id": "027-summon-zone-0",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/AbsoluteZero/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-0",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/AbsoluteZero/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-1",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/AbsoluteZero/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-1",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/AbsoluteZero/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-2",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-2",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-3",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-3",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-4",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/CaptainCosmic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-4",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/CaptainCosmic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-5",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/CaptainCosmic/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-5",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/CaptainCosmic/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-6",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Fanatic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-6",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Fanatic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-7",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Fanatic/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-7",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Fanatic/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-8",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Haka/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-8",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Haka/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-9",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Haka/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-9",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Haka/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-10",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-10",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-11",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-11",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-12",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Ra/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-12",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Ra/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-13",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Ra/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-13",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Ra/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-14",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-14",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-15",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-15",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-16",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tempest/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-16",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tempest/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-17",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tempest/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-17",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tempest/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-18",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheArgentAdept/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-18",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheArgentAdept/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-19",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheArgentAdept/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-19",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheArgentAdept/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-20",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheWraith/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-20",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheWraith/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-21",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheWraith/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-21",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheWraith/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-22",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Unity/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-22",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Unity/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-23",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Unity/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-23",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Unity/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-24",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-24",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-25",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-25",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-26",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Tempest/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-26",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Tempest/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-27",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Tempest/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-27",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Tempest/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-28",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-28",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-29",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-29",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-30",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Haka/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-30",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Haka/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-31",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Haka/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-31",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Haka/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-32",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/AbsoluteZero/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-32",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/AbsoluteZero/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-33",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/AbsoluteZero/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-33",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/AbsoluteZero/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-34",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Bunker/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-34",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Bunker/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-35",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Bunker/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-35",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Bunker/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-36",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/CaptainCosmic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-36",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/CaptainCosmic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-37",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/CaptainCosmic/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-37",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/CaptainCosmic/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-38",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Fanatic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-38",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Fanatic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-39",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Fanatic/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-39",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Fanatic/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-40",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Haka/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-40",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Haka/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-41",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Haka/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-41",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Haka/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-42",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-42",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-43",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-43",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-44",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Ra/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-44",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Ra/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-45",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Ra/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-45",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Ra/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-46",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tachyon/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-46",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tachyon/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-47",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tachyon/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-47",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tachyon/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-48",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tempest/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-48",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tempest/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-49",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tempest/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-49",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tempest/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-50",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheArgentAdept/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-50",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheArgentAdept/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-51",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheArgentAdept/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-51",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheArgentAdept/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-52",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheWraith/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-52",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheWraith/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-53",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheWraith/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-53",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheWraith/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-54",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-54",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-55",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-55",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-56",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/AbsoluteZero/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-56",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/AbsoluteZero/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-57",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/AbsoluteZero/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-57",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/AbsoluteZero/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-58",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-58",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-59",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-59",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-60",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-60",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-61",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-61",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-62",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-62",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-63",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-63",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-64",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-64",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-65",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-65",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-66",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Haka/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-66",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Haka/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-67",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Haka/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-67",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Haka/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-68",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-68",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-69",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-69",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-70",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-70",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-71",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-71",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-72",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-72",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-73",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-73",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-74",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-74",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-75",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-75",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-76",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-76",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-77",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-77",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-78",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-78",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-79",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-79",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-80",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-80",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-81",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-81",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-82",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-82",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-83",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-83",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-84",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-84",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-85",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-85",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-86",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-86",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-87",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-87",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-88",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-88",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-89",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-89",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-90",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-90",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-91",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-91",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-92",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-92",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-93",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-93",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-94",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-94",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-95",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-95",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-96",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-96",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-97",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-97",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-98",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-98",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-99",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-99",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-100",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-100",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-101",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-101",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-102",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": "牌库"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-102",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-zone-103",
+          "status": "offline-covered",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": "弃牌堆"
+          }
+        },
+        {
+          "id": "027-summon-wrong-zone-103",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Active Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-outside-0",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/AbsoluteZero/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Trash View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Trash",
+            "expected": null
+          }
+        },
+        {
+          "id": "027-summon-outside-1",
+          "status": "excluded",
+          "view": "zone-selection",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "召唤区域选择完整提示与牌库/弃牌堆按钮；复用已验证英雄、反派、环境入口，合成组合非实机验收。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/AbsoluteZero/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Deck",
             "expected": null
           }
         }

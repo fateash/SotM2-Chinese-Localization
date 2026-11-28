@@ -17,6 +17,9 @@ public sealed class DynamicDisplayRules {
  static readonly Dictionary<string,(int Args,string Tags)> Specs=new(){
   ["hint.destroy.play.under.upto"]=(3,""),["hint.destroy.play.under.upto.first"]=(3,""),["hint.destroy.play.under.exact.first"]=(3,""),
   ["hint.card.replace"]=(0,""),
+  ["hint.summon.search"]=(0,""),
+  ["button.location.deck"]=(0,""),
+  ["button.location.trash"]=(0,""),
   ["hint.blank.target"]=(0,""),
   ["hint.blank.inplay"]=(0,""),
   ["hint.card.draw"]=(0,""),
@@ -291,9 +294,9 @@ public sealed class DynamicDisplayRules {
   }
   if(path==ContinuePath)return source switch {"Skip"=>Format("button.skip"),"Skip Play"=>Format("button.skip.play.action"),"Skip Draw"=>Format("button.skip.draw.action"),"Skip Power"=>Format("button.skip.power.action"),"Skip Incapacitated Phase"=>Format("button.skip.incapacitated"),"Skip Play Phase"=>Format("button.skip.play"),"Skip Power Phase"=>Format("button.skip.power"),_=>null};
   if(path==DrawPath && source=="Draw")return Format("button.draw");
-  if(TrashSelection.IsMatch(path) && source=="Discard")return Format("button.discard");
+  if(TrashSelection.IsMatch(path))return source switch {"Discard"=>Format("button.discard"),"Trash"=>Format("button.location.trash"),_=>null};
   if(HeroSelection.IsMatch(path))return source switch {"Draw"=>Format("button.draw"),"Discard"=>Format("button.discard"),"Play a Card"=>Format("button.play.card"),"Use a Power"=>Format("button.use.power"),"Put a Card"=>Format("button.put.card"),"Destroy a Card"=>Format("button.destroy.card"),"Has the Fewest"=>Format("button.fewest"),"Has the Most"=>Format("button.most"),"Take Play Phase"=>Format("button.take.play"),"Take Power Phase"=>Format("button.take.power"),_=>null};
-  if(DeckSelection.IsMatch(path))return source switch {"Reveal"=>Format("button.reveal"),"Draw"=>Format("button.draw"),"Replace"=>Format("button.replace"),_=>null};
+  if(DeckSelection.IsMatch(path))return source switch {"Deck"=>Format("button.location.deck"),"Reveal"=>Format("button.reveal"),"Draw"=>Format("button.draw"),"Replace"=>Format("button.replace"),_=>null};
   if(path==DescriptionPath){
    var m=Description.Match(source);if(!m.Success)return null;
    return Format(m.Groups["verb"].Value switch {"drew"=>"description.draw","revealed"=>"description.reveal","discovered"=>"description.discover","summoned"=>"description.summon","collected"=>"description.collect",_=>"description.play"},m.Groups["name"].Value);
@@ -318,6 +321,7 @@ public sealed class DynamicDisplayRules {
   var fixedText=body switch {
    "Click a button to choose how much damage to deal."=>"hint.damage.amount",
    "Click a card to replace it."=>"hint.card.replace",
+   "Click a location to search it for a card to summon."=>"hint.summon.search",
    "Click a target to make it have no game text."=>"hint.blank.target",
    "Click a card in play to make it have no game text."=>"hint.blank.inplay",
    "Click a card to draw it."=>"hint.card.draw",
