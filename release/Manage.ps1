@@ -1,3 +1,4 @@
+# Player installer revision 2: archive the exact regenerated loader cache before rollback.
 param([ValidateSet('Install','Uninstall','Rollback')][string]$Action='Install',[string]$GamePath)
 $ErrorActionPreference='Stop'
 Set-StrictMode -Version 2
@@ -74,12 +75,22 @@ if($Action -eq 'Rollback'){
  $s=GetState
  $archive=Safe $archiveRoot $s.backup
  NoLinks $archive
+ $cacheRel='BepInEx/cache/chainloader_typeloader.dat'
+ $cache=Safe $GamePath $cacheRel
+ if((Test-Path -LiteralPath $cache) -and !(Test-Path -LiteralPath $cache -PathType Leaf)){throw 'Loader cache path is not a regular file; no files changed.'}
  $j=Get-Content -LiteralPath (Safe $archive 'transaction.json') -Raw|ConvertFrom-Json
  if($j.product -ne 'SotM2ChinesePlayer' -or $j.status -ne 'installed'){throw 'Invalid rollback transaction.'}
  foreach($f in $j.originals.PSObject.Properties){
   if(!(ProjectPath $f.Name) -or (Hash (Safe $archive ('original/'+$f.Name))) -ne $f.Value){throw 'Invalid or damaged backup.'}
   $dst=Safe $GamePath $f.Name
-  if((Test-Path -LiteralPath $dst) -and $f.Name -ne 'SotM2ChinesePlayerState.json' -and $s.files.PSObject.Properties.Name -notcontains $f.Name){throw ('Rollback destination occupied: '+$f.Name)}
+  if((Test-Path -LiteralPath $dst) -and $f.Name -notin @('SotM2ChinesePlayerState.json',$cacheRel) -and $s.files.PSObject.Properties.Name -notcontains $f.Name){throw ('Rollback destination occupied: '+$f.Name)}
+ }
+ # The loader recreates this one disposable scan cache on normal game launch.
+ # Validate all backups and occupied destinations first. Preserve the new cache
+ # outside plugin loading paths, then restore the pre-install cache if present.
+ if(Test-Path -LiteralPath $cache){
+  $cacheArchive=Safe $archive ('post-install-cache-'+[Guid]::NewGuid().ToString('N'))
+  Move-Item -LiteralPath $cache -Destination $cacheArchive
  }
  foreach($f in $s.files.PSObject.Properties){Remove-Item -LiteralPath (Safe $GamePath $f.Name)}
  Remove-Item -LiteralPath $statePath

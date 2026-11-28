@@ -108,3 +108,55 @@ class PlayerInstallerTests(unittest.TestCase):
         n='GameAssembly.dll';self.put(self.kit/'payload',n,b'bad')
         self.manifest['files'][n]=sha(self.kit/'payload'/n);self.save_manifest()
         self.run_action('Install',False);self.assert_preserved()
+
+    def test_rollback_after_launch_archives_regenerated_loader_cache(self):
+        cache='BepInEx/cache/chainloader_typeloader.dat'
+        self.put(self.game,cache,b'old loader cache')
+        self.put(self.game,self.plugin+'sample-texts.json',b'old text')
+        self.run_action('Install')
+        state=json.loads((self.game/'SotM2ChinesePlayerState.json').read_text())
+        self.put(self.game,cache,b'new loader cache generated on launch')
+        self.put(self.game,'BepInEx/cache/other-plugin.dat',b'other cache')
+        self.put(self.game,'BepInEx/config/sotm2.zh.prototype.cfg',b'# Generated comments\n[Prototype]\nEnableChinese = true\n')
+        self.run_action('Rollback')
+        self.assertEqual((self.game/cache).read_bytes(),b'old loader cache')
+        self.assertEqual((self.game/(self.plugin+'sample-texts.json')).read_bytes(),b'old text')
+        archived=list((self.game/'SotM2ChinesePlayerBackups'/state['backup']).glob('post-install-cache-*'))
+        self.assertEqual(len(archived),1)
+        self.assertEqual(archived[0].read_bytes(),b'new loader cache generated on launch')
+        self.assertEqual((self.game/'BepInEx/cache/other-plugin.dat').read_bytes(),b'other cache')
+        self.assert_preserved()
+    def test_rollback_without_original_cache_archives_new_cache(self):
+        cache='BepInEx/cache/chainloader_typeloader.dat'
+        self.run_action('Install')
+        self.put(self.game,cache,b'new cache')
+        self.run_action('Rollback')
+        self.assertFalse((self.game/cache).exists())
+        archived=list((self.game/'SotM2ChinesePlayerBackups').glob('*/post-install-cache-*'))
+        self.assertEqual(len(archived),1);self.assertEqual(archived[0].read_bytes(),b'new cache')
+        self.assert_preserved()
+    def test_cache_exception_does_not_allow_occupied_old_plugin_path(self):
+        old=self.plugin+'old-user-file.txt'
+        self.put(self.game,old,b'old file');self.run_action('Install')
+        self.put(self.game,old,b'new user file')
+        cache=self.put(self.game,'BepInEx/cache/chainloader_typeloader.dat',b'new cache')
+        self.run_action('Rollback',False)
+        self.assertEqual((self.game/old).read_bytes(),b'new user file')
+        self.assertEqual(cache.read_bytes(),b'new cache')
+        self.assertTrue((self.game/'SotM2ChinesePlayerState.json').exists());self.assert_preserved()
+    def test_directory_at_cache_path_blocks_before_removing_plugin(self):
+        self.run_action('Install')
+        cache=self.game/'BepInEx/cache/chainloader_typeloader.dat';cache.mkdir(parents=True)
+        (cache/'user.txt').write_bytes(b'user data')
+        self.run_action('Rollback',False)
+        self.assertEqual((cache/'user.txt').read_bytes(),b'user data')
+        self.assertEqual((self.game/(self.plugin+'SotM2ChinesePrototype.dll')).read_bytes(),b'new plugin')
+        self.assert_preserved()
+    def test_corrupt_original_cache_still_blocks_before_changes(self):
+        cache='BepInEx/cache/chainloader_typeloader.dat'
+        self.put(self.game,cache,b'old cache');self.run_action('Install')
+        state=json.loads((self.game/'SotM2ChinesePlayerState.json').read_text())
+        (self.game/'SotM2ChinesePlayerBackups'/state['backup']/'original'/cache).write_bytes(b'corrupt')
+        self.put(self.game,cache,b'new cache');self.run_action('Rollback',False)
+        self.assertEqual((self.game/cache).read_bytes(),b'new cache')
+        self.assertTrue((self.game/'SotM2ChinesePlayerState.json').exists());self.assert_preserved()

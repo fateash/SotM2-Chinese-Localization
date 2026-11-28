@@ -8,6 +8,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = '0.1.45-rc.1'
+INSTALLER_REVISION = 2
 PLUGIN = 'BepInEx/plugins/SotM2ChinesePrototype/'
 PROJECT = ('SotM2ChinesePrototype.dll', 'sample-texts.json', 'display-rules.json',
            'NotoSansCJKsc-Regular.otf', 'NotoSansCJKsc-Bold.otf', 'OFL.txt',
@@ -73,7 +74,7 @@ def build(dll, accepted, runtime, licenses, out, commit):
     expected=set(lock['files'])|{PLUGIN+n for n in PROJECT}|{'BepInEx/config/BepInEx.cfg','BepInEx/config/sotm2.zh.prototype.cfg'}
     if set(files)!=expected: raise ValueError('Player payload is not the exact allowlist')
     manifest=dict(product='SotM2ChinesePlayer',version=VERSION,flavor='player-no-diagnostics',buildId='26880829',
-                  sourceCommit=commit,acceptedBaseline='07f51d2251d1f147d57dfa686a95c648a5a88bc7',
+                  sourceCommit=commit,installerRevision=INSTALLER_REVISION,installerSha256=sha(package/'Manage.ps1'),acceptedBaseline='07f51d2251d1f147d57dfa686a95c648a5a88bc7',
                   gameFiles=lock['gameFiles'],dependencies=list(lock['files']),files=files,correspondingSource=lock['correspondingSource'])
     (package/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
     archive=out/(package.name+'.zip')
