@@ -2,6 +2,10 @@
 
 当前按卡组分文件，活动文件由 `baseline/registry.json` 的 `file` 字段与 `paratranz-project.json` 共同约束。具体迁移、术语和验收见 [Batch01](BATCH01.md)。
 
+## 显示覆盖检查（必做）
+
+每轮修改、导入实机证据和交付前，执行 [显示覆盖与防漏流程](COVERAGE-WORKFLOW.md)。`Validate localization` 已加入覆盖审计：新模板未登记、运行规则未经覆盖复核、未知显示项未分派，均阻止检查通过。日常检查通过不等于全量覆盖或实机验收。
+
 ## 编辑与同步
 
 译者在 ParaTranz 选择 `Legacy.json`、`BaronBlade.json` 或 `ui.json`，编辑 translation 与审核状态。稳定键、原文与文件归属由维护者管理；词条上下文注明卡牌及实际资源字段。

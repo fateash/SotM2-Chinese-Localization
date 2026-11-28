@@ -14,10 +14,11 @@ using Handelabra.Sentinels2.Engine.Controller;
 using UObj=UnityEngine.Object;
 namespace SotM2Chinese;
 
-[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.6")]
+[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.18")]
 public sealed class Plugin:BasePlugin {
  internal static Plugin Instance=null!;
  internal static Catalog Texts=new();
+ internal static SurfaceProbe? Surface;
  internal static bool Chinese, Ready;
  internal static HashSet<string> UiSources=new(StringComparer.Ordinal);
  internal static TMP_FontAsset? Cjk;
@@ -28,8 +29,10 @@ public sealed class Plugin:BasePlugin {
   Instance=this; Root=Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)!;
   Chinese=Config.Bind("Prototype","EnableChinese",false,"Enable limited Chinese display; restart game after changing.").Value;
   Texts=Catalog.Read(Path.Combine(Root,"sample-texts.json"));
+  var surfacePath=Path.Combine(Root,"surface-probe.json");
+  if(File.Exists(surfacePath)){Surface=new SurfaceProbe(surfacePath);Log.LogInfo("SURFACE_PROBE_ENABLED configured-pilot bounded-capture");}
   UiSources=new HashSet<string>(Texts.Ui.Select(e=>e.Source),StringComparer.Ordinal);
-  Log.LogInfo("PROTOTYPE_LOADED 0.1.6-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
+  Log.LogInfo("PROTOTYPE_LOADED 0.1.18-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
   // Resolve types/methods without patching the game model or rule engine.
   var method=typeof(TextHelper).GetMethods().Single(m=>m.Name=="ReplaceTemplatesAndInsertSpecifics"&&m.GetParameters().Length==8);
   Log.LogInfo("DISPLAY_METHOD_RESOLVED "+method);
@@ -63,6 +66,8 @@ public sealed class Plugin:BasePlugin {
   inRender=true;
   try {
    if(!TryReadStringLabel(__instance,out var source))return;
+   if(__instance.GetComponentInParent<TMP_InputField>()!=null)return;
+   var marker=Surface?.ObserveAndApply(__instance,source);
    var translated=UiSources.Contains(source)?Texts.UiText(__instance.gameObject.name,source):null;
    if(translated==null && Texts.DisplayRules.HasObject(__instance.gameObject.name)) {
     string card="";
@@ -70,6 +75,7 @@ public sealed class Plugin:BasePlugin {
     if(view!=null && view.Card!=null && view.Card.Card!=null)card=view.Card.Card.CardDefinition.Identifier;
     translated=Texts.DisplayRules.Apply(__instance.gameObject.name,card,source);
    }
+   translated ??= marker;
    // Numeric / formatted buffers are excluded before reading the backing string.
    if(translated==null && !DisplayScope.ContainsHan(source))return;
    if(__instance.GetComponentInParent<TMP_InputField>()!=null)return;
@@ -77,6 +83,7 @@ public sealed class Plugin:BasePlugin {
    FontSupport.AttachFallback(__instance);
    if(translated==null)return;
    __instance.text=translated;
+   if(marker!=null && translated==marker)Once("surface-applied|"+__instance.gameObject.name+source,"SURFACE_DISPLAY_APPLIED object="+__instance.gameObject.name+" source="+Clip(source));
    Once("render-ui|"+__instance.gameObject.name+source,"UI_TRANSLATED_BEFORE_RENDER object="+__instance.gameObject.name+" source="+Clip(source));
   } catch(Exception e) {Once("render-error","UI_RENDER_FALLBACK "+e);}
   finally {inRender=false;}
@@ -195,7 +202,7 @@ internal static class FontSupport {
     if(Plugin.Cjk.material!=null)Preserve(Plugin.Cjk.material);
     generation++;
    }
-   var chars=new string(Plugin.Texts.Glyphs().Where(c=>c>127).Distinct().ToArray());
+   var chars=new string((Plugin.Texts.Glyphs()+(Plugin.Surface?.Glyphs()??"")).Where(c=>c>127).Distinct().ToArray());
    bool ok=Plugin.Cjk.TryAddCharacters(chars,out string missing,true);
    if(!ok || !string.IsNullOrEmpty(missing)) {Plugin.Once("font-missing","FONT_GLYPHS_MISSING "+missing);return false;}
    KeepFontAlive();Plugin.Ready=true;

@@ -1,0 +1,350 @@
+{
+  "evidence": [
+    "SotM2-Dynamic-Evidence-20261127-115132-3d0cd9.zip",
+    "SotM2-Dynamic-Evidence-20261127-115959-a2cf79.zip"
+  ],
+  "samples": [
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Construct Cataclysm:</b> Click up to 8 targets to destroy them.",
+      "inCardView": false,
+      "expected": "<b>Construct Cataclysm:</b> 点击至多8个目标以将其破坏。",
+      "observationId": "0556a82be1be07fa0edf6c30"
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/Main Panel/Button Panel/Right/Play Button/Text (TMP)",
+      "cardId": "",
+      "source": "Play!",
+      "inCardView": false,
+      "expected": "开始游戏！",
+      "observationId": "0c692eca802267a9636b74b8"
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "START PHASE",
+      "inCardView": false,
+      "expected": "开始阶段",
+      "observationId": "0ef991fcb461a5e07fc4a0cf"
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/Main Panel/Button Panel/Left/Randomize Button/Text (TMP)",
+      "cardId": "",
+      "source": "Randomize",
+      "inCardView": false,
+      "expected": "随机选择",
+      "observationId": "137a0e3f04e0edb6e6d34258"
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+      "cardId": "",
+      "source": "Skip Incapacitated Phase",
+      "inCardView": false,
+      "expected": "跳过失能阶段",
+      "observationId": "16acba676ba72634b58d41ec"
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "END PHASE",
+      "inCardView": false,
+      "expected": "结束阶段",
+      "observationId": "26a383850b7fe72bf46e093e"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Fueled Freeze:</b> Click up to 3 cards in play to destroy them.",
+      "inCardView": false,
+      "expected": "<b>Fueled Freeze:</b> 点击至多3张在场的牌以将其破坏。",
+      "observationId": "2ed49ac732fc3e834fd2c034"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/CaptainCosmic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Play a Card",
+      "inCardView": false,
+      "expected": "打出一张牌",
+      "observationId": "2f88d7905197e9a91b73a2a2"
+    },
+    {
+      "objectName": "Title Label",
+      "path": "Canvas/Revealed Cards Manager/[RevealCardsAction: Source=Captain Cosmic]/Title Label",
+      "cardId": "",
+      "source": "Captain Cosmic revealed:",
+      "inCardView": false,
+      "expected": "Captain Cosmic展示的牌：",
+      "observationId": "3cc96e080e7d53ca668c9be2"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "LegacyCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "expected": "在此打出",
+      "observationId": "3fe16c0cbc70e10240782a7a"
+    },
+    {
+      "objectName": "Finish Button Label",
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "cardId": "",
+      "source": "Destroy 5 cards",
+      "inCardView": false,
+      "expected": "破坏5张牌",
+      "observationId": "5a7f78fd0fee0891aaea3af9"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Play a Card",
+      "inCardView": false,
+      "expected": "打出一张牌",
+      "observationId": "6dd259e16b85a6296a541c71"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/AbsoluteZero/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Play a Card",
+      "inCardView": false,
+      "expected": "打出一张牌",
+      "observationId": "7580474452f36ae406e9a92b"
+    },
+    {
+      "objectName": "Message Label",
+      "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+      "cardId": "",
+      "source": "Baron Blade has been reduced to <nobr>0 HP.</nobr>",
+      "inCardView": false,
+      "expected": "Baron Blade的生命值已降至<nobr>0点</nobr>。",
+      "observationId": "76e047162721a9b11007fef5"
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "PLAY PHASE",
+      "inCardView": false,
+      "expected": "出牌阶段",
+      "observationId": "8254d2682433d26df350c79b"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/AbsoluteZero/Inner Panel/Character Card Container/AbsoluteZeroCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "AbsoluteZeroCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "expected": "在此打出",
+      "observationId": "87fb7e895814fd51f2b9ab69"
+    },
+    {
+      "objectName": "Finish Button Label",
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "cardId": "",
+      "source": "Destroy 2 cards",
+      "inCardView": false,
+      "expected": "破坏2张牌",
+      "observationId": "92e6ee543a52528c2b70ce84"
+    },
+    {
+      "objectName": "Finish Button Label",
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "cardId": "",
+      "source": "Destroy 3 cards",
+      "inCardView": false,
+      "expected": "破坏3张牌",
+      "observationId": "9549402c7bcbfa706652e4a6"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Take Play Phase",
+      "inCardView": false,
+      "expected": "进行出牌阶段",
+      "observationId": "9709252ae85f267c9640fd00"
+    },
+    {
+      "objectName": "Finish Button Label",
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "cardId": "",
+      "source": "Destroy 7 cards",
+      "inCardView": false,
+      "expected": "破坏7张牌",
+      "observationId": "9a350225f2b1be7b4b1174cc"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/CaptainCosmic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Take Play Phase",
+      "inCardView": false,
+      "expected": "进行出牌阶段",
+      "observationId": "9d62152e8dc87e5188c3c239"
+    },
+    {
+      "objectName": "Finish Button Label",
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "cardId": "",
+      "source": "Destroy 6 cards",
+      "inCardView": false,
+      "expected": "破坏6张牌",
+      "observationId": "a6230170e9d9b5ffc819688a"
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Main Panel/Message Panel/Panel/Confirm Container/Confirm Button/Text",
+      "cardId": "",
+      "source": "Continue",
+      "inCardView": false,
+      "expected": "继续",
+      "observationId": "a7625ab4f26f6c4f800575b0"
+    },
+    {
+      "objectName": "Text",
+      "path": "Canvas/Main Panel/Button Container/Bottom Buttons/Temp Share Button/Text",
+      "cardId": "",
+      "source": "Share",
+      "inCardView": false,
+      "expected": "分享",
+      "observationId": "adfc8ef927245041e48067f5"
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "INCAPACITATED PHASE",
+      "inCardView": false,
+      "expected": "失能阶段",
+      "observationId": "b67a1a6552c8e6b84ef46d71"
+    },
+    {
+      "objectName": "Finish Button Label",
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "cardId": "",
+      "source": "Destroy 1 card",
+      "inCardView": false,
+      "expected": "破坏1张牌",
+      "observationId": "bb00a3240d7bbd8c66c4fef8"
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "POWER PHASE",
+      "inCardView": false,
+      "expected": "异能阶段",
+      "observationId": "c11bf9d34c4644d070a90585"
+    },
+    {
+      "objectName": "Finish Button Label",
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "cardId": "",
+      "source": "Destroy 0 cards",
+      "inCardView": false,
+      "expected": "破坏0张牌",
+      "observationId": "c49ecf4dcb262c0d2f71720f"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Bunker/Inner Panel/Character Card Container/BunkerCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "BunkerCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "expected": "在此打出",
+      "observationId": "cc08f82febccd933970533ca"
+    },
+    {
+      "objectName": "Description Label",
+      "path": "Canvas/Temporary Full Card Panel/Description Label",
+      "cardId": "",
+      "source": "Baron Blade summoned:",
+      "inCardView": false,
+      "expected": "Baron Blade召唤出的牌：",
+      "observationId": "ccaf2690569dbcc545893d2e"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "cardId": "TachyonCharacter",
+      "source": "Play Here",
+      "inCardView": true,
+      "expected": "在此打出",
+      "observationId": "e25bebd331394d7b41b76357"
+    },
+    {
+      "objectName": "Finish Button Label",
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "cardId": "",
+      "source": "Destroy 4 cards",
+      "inCardView": false,
+      "expected": "破坏4张牌",
+      "observationId": "e57e98a4f8480ad7b9aea0ce"
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "SETUP",
+      "inCardView": false,
+      "expected": "准备",
+      "observationId": "e7c6f55222819c2a2b29a8d4"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Tachyon:</b> Click a hero to take their Play phase now.",
+      "inCardView": false,
+      "expected": "<b>Tachyon:</b> 点击一位英雄，让其立即进行出牌阶段。",
+      "observationId": "ea02e4f2451f3c39e9eeab52"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tachyon/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "cardId": "",
+      "source": "Play a Card",
+      "inCardView": false,
+      "expected": "打出一张牌",
+      "observationId": "ef15fdc73c0f3823074ada73"
+    },
+    {
+      "objectName": "Text (TMP)",
+      "path": "Canvas/Main Panel/Button Panel/Left/Back Button/Text (TMP)",
+      "cardId": "",
+      "source": "Back\n",
+      "inCardView": false,
+      "expected": "返回\n",
+      "observationId": "f40ba0626be5da6a3f8bf931"
+    },
+    {
+      "objectName": "Heading Label",
+      "path": "Canvas/Main Panel/Heading Label",
+      "cardId": "",
+      "source": "You have defeated Baron Blade and saved the day!",
+      "inCardView": false,
+      "expected": "你击败了Baron Blade，化解了危机！",
+      "observationId": "fa9c9fbb553e9df6630b1bea"
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "DRAW PHASE",
+      "inCardView": false,
+      "expected": "抽牌阶段",
+      "observationId": "ffea93ff7280af56873aca64"
+    }
+  ]
+}

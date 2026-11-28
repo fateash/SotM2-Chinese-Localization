@@ -21,7 +21,10 @@ jobs:
           dotnet-version: 8.0.x
       - name: Check semantic display transforms
         run: dotnet run --project tests/runtime/RuntimeChecks.csproj -- build/sample-texts.json
+      - name: Check display coverage and untriaged observations
+        run: python3 tools/coverage_audit.py check
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: sotm2-text-candidate
           path: build/

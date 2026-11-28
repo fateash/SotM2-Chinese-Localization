@@ -1,0 +1,2895 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "00797a249be4935b61d4d293",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "00ae142e380049c8597c2827",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "放回原处",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "01450721533bb71249c6228a",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "放回原处",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "01f1c2253f530c5f77cdc1fa",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "同一受伤前选牌发动句式的不同目标参数，已有完整原文与HUD位置。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.18检查伤害来源、目标、数量、类型及选牌先发动提示。",
+      "resolution": {
+        "version": "0.1.18-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Stealth Bot:</b> <b>Burning High Rise</b>将对<b>Arsenal Bot</b>造成2点火焰伤害。点击一张牌，先发动其效果。",
+        "evidence": "tests/fixtures/dynamic-0.1.17.json"
+      }
+    },
+    {
+      "id": "042ca289c620ab9ad471985f",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "04a86bdf9958239b20dddbae",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "0556a82be1be07fa0edf6c30",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Construct Cataclysm:</b> 点击至多8个目标以将其破坏。",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "05578dbb60044c983df6b681",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "放回原处",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "05991a29304cca066c3f6971",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "0762c742a2fafca25a67c1fc",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态完整原文尚无匹配规则；纳入第一阶段，不因卡名或关键词参数延期整个按钮。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.13实机核验中文、数字、排版与交互；保留原待办身份与历史分类。",
+      "resolution": {
+        "version": "0.1.13-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "发现Construct牌",
+        "evidence": "tests/fixtures/dynamic-0.1.12.json"
+      }
+    },
+    {
+      "id": "08dfe12843851d507d169d27",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fixed-text-stage-2",
+      "reason": "游戏配置、模式或结果页面的固定标题／选项文字，属于非卡组固定文本。",
+      "owner": "本地化维护者",
+      "nextAction": "第二阶段按实际控件身份和完整原文接入，检查布局。"
+    },
+    {
+      "id": "0c692eca802267a9636b74b8",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "开始游戏！",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "0ef991fcb461a5e07fc4a0cf",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "catalog-difference-review",
+      "reason": "采集词典哈希与仓库候选不同；同对象名和原文存在翻译应用日志及后续中文观察，不能报为已确认漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "归档用户已安装的扩展词典，并用同一词典复核；当前保留候选词典差异。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "开始阶段",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "0f7183f0e623f3d8360710ec",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "0fe412c7549aed885bbb9930",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "抽牌",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "10d98167c99a8e632c0ff3b6",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将A True Hero放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "1196a364145819ad099bc019",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态完整原文尚无匹配规则；纳入第一阶段，不因卡名或关键词参数延期整个按钮。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.13实机核验中文、数字、排版与交互；保留原待办身份与历史分类。",
+      "resolution": {
+        "version": "0.1.13-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Unflagging Animation:</b> 点击一个目标，将其视为生命值最低的目标。",
+        "evidence": "tests/fixtures/dynamic-0.1.12.json"
+      }
+    },
+    {
+      "id": "1311b83f9a44a73dfd4debce",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "放回原处",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "137a0e3f04e0edb6e6d34258",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "随机选择",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "1399242c08100698d37b96af",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "13da7df6be29b57f7f2d4f55",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "1491e84f9d4957af37410386",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用动作显示入口或完整提示句式；本轮结合反派／环境矩阵补齐。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.17检查文字、牌区、数量、图标和交互。",
+      "resolution": {
+        "version": "0.1.17-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "展示",
+        "evidence": "tests/fixtures/dynamic-0.1.16.json"
+      }
+    },
+    {
+      "id": "156934c8c6572430fa2c3746",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "状态栏卡组专名，属于卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "继承审定译名并核对对象映射，与其他名称入口一并接入。"
+    },
+    {
+      "id": "1655a13b21f0326adf16f281",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "16acba676ba72634b58d41ec",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "跳过失能阶段",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "16ea02eafb5da3ebfb5a91d6",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "卡组专名或异能正文，按既定顺序第三阶段审核。",
+      "owner": "本地化维护者",
+      "nextAction": "随Captain Cosmic／Insula Primalis卡组审核，保留专名与整段上下文。"
+    },
+    {
+      "id": "170349ebd0a5c5a5e92dd0bf",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "184d3bf2878b305daab78b46",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "18966b12ff79900e5bda515f",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "19663fcc064ce7dca8ed33bc",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "1a0dfe0c2d4d1bdc952a746e",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fixed-text-stage-2",
+      "reason": "游戏配置、模式或结果页面的固定标题／选项文字，属于非卡组固定文本。",
+      "owner": "本地化维护者",
+      "nextAction": "第二阶段按实际控件身份和完整原文接入，检查布局。"
+    },
+    {
+      "id": "1ad24c2ecf773124658ee16c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用提示、搜集结果或附属牌区标题，保留卡名参数并完整翻译动作及范围。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.15检查范围、中文显示和点击行为。",
+      "resolution": {
+        "version": "0.1.15-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "Flak Cannon下方的牌",
+        "evidence": "tests/fixtures/dynamic-0.1.14.json"
+      }
+    },
+    {
+      "id": "1b056b077c89cd328285af4f",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "1b567c67d23272834d68cb4a",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "1d35438fe7331dd4e0011e8a",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用动作显示入口或完整提示句式；本轮结合反派／环境矩阵补齐。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.17检查文字、牌区、数量、图标和交互。",
+      "resolution": {
+        "version": "0.1.17-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "最多",
+        "evidence": "tests/fixtures/dynamic-0.1.16.json"
+      }
+    },
+    {
+      "id": "1d59e4a15f217d10bb22fb41",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Mounted AP Gun放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "1d8c488d5d32a08be08d191a",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "1f65e67f51fe721fea088c35",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "退出按钮使用的关闭符号，保留X。",
+      "owner": "本地化维护者",
+      "nextAction": "保持符号；若控件用途变化则重新审核。"
+    },
+    {
+      "id": "1fd9a54d1a0a2862950d83ee",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "2046ed56f6b70c2dd579bb27",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "217996d126f06e6a3d4732c0",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "23d995c4614820daa9b337fc",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "249e6741d04f28e94983be02",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "24ad7989485211066b1ee15c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用动作显示入口或完整提示句式；本轮结合反派／环境矩阵补齐。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.17检查文字、牌区、数量、图标和交互。",
+      "resolution": {
+        "version": "0.1.17-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "最多",
+        "evidence": "tests/fixtures/dynamic-0.1.16.json"
+      }
+    },
+    {
+      "id": "2598d70125302a89a6a3029f",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "owner": "本地化维护者",
+      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+    },
+    {
+      "id": "26a383850b7fe72bf46e093e",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "catalog-difference-review",
+      "reason": "采集词典哈希与仓库候选不同；同对象名和原文存在翻译应用日志及后续中文观察，不能报为已确认漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "归档用户已安装的扩展词典，并用同一词典复核；当前保留候选词典差异。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "结束阶段",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "26ecb1aaef31efcfdd8bbb28",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "owner": "本地化维护者",
+      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+    },
+    {
+      "id": "274847b0973e4a3f9fda8104",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "27485448cf258f7c5fbb68ad",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用动作显示入口或完整提示句式；本轮结合反派／环境矩阵补齐。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.17检查文字、牌区、数量、图标和交互。",
+      "resolution": {
+        "version": "0.1.17-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Citizen Summer:</b> 点击视为场上牌最多的英雄。",
+        "evidence": "tests/fixtures/dynamic-0.1.16.json"
+      }
+    },
+    {
+      "id": "28b4e29d3de4f779c96b3fe5",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "2b1114a13f3e93c68d6505d6",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "2dd9079986b3d6e521647b13",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "2e9f280d7a1d425a5c4cf72a",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "2ed49ac732fc3e834fd2c034",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Fueled Freeze:</b> 点击至多3张在场的牌以将其破坏。",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "2f88d7905197e9a91b73a2a2",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "打出一张牌",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "2fb6cf6c87ef30faaa858166",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "owner": "本地化维护者",
+      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+    },
+    {
+      "id": "3012a41edbad48149bb67164",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "31d1adf605037ef67683980d",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "卡组专名或异能正文，按既定顺序第三阶段审核。",
+      "owner": "本地化维护者",
+      "nextAction": "随Captain Cosmic／Insula Primalis卡组审核，保留专名与整段上下文。"
+    },
+    {
+      "id": "32a07f7b5a13b99da92966a0",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "330559021373f130f7bfc84b",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "3440c78ff69118f182f59dec",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "owner": "本地化维护者",
+      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+    },
+    {
+      "id": "3665f29bbf3bc9c16f5f03a4",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用动作显示入口或完整提示句式；本轮结合反派／环境矩阵补齐。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.17检查文字、牌区、数量、图标和交互。",
+      "resolution": {
+        "version": "0.1.17-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Expendable Power Bank:</b> 点击弃牌堆中的一张牌，将其置于一张牌下方。",
+        "evidence": "tests/fixtures/dynamic-0.1.16.json"
+      }
+    },
+    {
+      "id": "3699e3bd4c8511fd27524734",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "卡组专名或异能正文，按既定顺序第三阶段审核。",
+      "owner": "本地化维护者",
+      "nextAction": "随Captain Cosmic／Insula Primalis卡组审核，保留专名与整段上下文。"
+    },
+    {
+      "id": "375fc26435760fb4b42066a0",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "owner": "本地化维护者",
+      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+    },
+    {
+      "id": "38e20adb7cda02eb91e5ace0",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "38ec492eb2a8118b5ad09328",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用提示、搜集结果或附属牌区标题，保留卡名参数并完整翻译动作及范围。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.15检查范围、中文显示和点击行为。",
+      "resolution": {
+        "version": "0.1.15-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Piston Punch:</b> 点击一张在场的牌，将Piston Punch置于其下方。",
+        "evidence": "tests/fixtures/dynamic-0.1.14.json"
+      }
+    },
+    {
+      "id": "3911848bb60c9b33a537f733",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Disintegration Ray:</b> 点击一个目标，对其造成能量伤害。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "3af061add95751f4e83bc603",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "3cc96e080e7d53ca668c9be2",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "Captain Cosmic展示的牌：",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "3fe16c0cbc70e10240782a7a",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "在此打出",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "413809bcbe5644c04e691db4",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "41dfe12caceb49c7d6259641",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用动作显示入口或完整提示句式；本轮结合反派／环境矩阵补齐。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.17检查文字、牌区、数量、图标和交互。",
+      "resolution": {
+        "version": "0.1.17-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Ironclad Maintenance Bay:</b> 点击一位英雄，让其回收1张牌。",
+        "evidence": "tests/fixtures/dynamic-0.1.16.json"
+      }
+    },
+    {
+      "id": "426ef4569a049abc805b1183",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用动作显示入口或完整提示句式；本轮结合反派／环境矩阵补齐。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.17检查文字、牌区、数量、图标和交互。",
+      "resolution": {
+        "version": "0.1.17-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "最多",
+        "evidence": "tests/fixtures/dynamic-0.1.16.json"
+      }
+    },
+    {
+      "id": "43e8d8af19fdb01a8416bca5",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "owner": "本地化维护者",
+      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+    },
+    {
+      "id": "44a93ed3b2d489013ee236bd",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "464a6773604f24d25e4c0355",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "474a5bade91f36b9e885e176",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "抽牌",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "4aaeabc1bd769466e346b871",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "抽牌",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "4b65e47566556549f7ee2781",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Displaced Ambassador放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "4ba2611976765ccfef5be9cd",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "4bf2976e334ba1e7a4471778",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态完整原文尚无匹配规则；纳入第一阶段，不因卡名或关键词参数延期整个按钮。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.13实机核验中文、数字、排版与交互；保留原待办身份与历史分类。",
+      "resolution": {
+        "version": "0.1.13-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "打出Construct牌",
+        "evidence": "tests/fixtures/dynamic-0.1.12.json"
+      }
+    },
+    {
+      "id": "506f4ec2c9e7dc0e066e66c4",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Supply Crate放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "53cb958f9671b88023cf2c1b",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "54224b7ba4e2b3b1c4f0d081",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用动作显示入口或完整提示句式；本轮结合反派／环境矩阵补齐。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.17检查文字、牌区、数量、图标和交互。",
+      "resolution": {
+        "version": "0.1.17-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Take Down:</b> 点击Omnitron的弃牌堆，将Singularity Projector弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.16.json"
+      }
+    },
+    {
+      "id": "551a1d46c5078bb110aa0ec5",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "放回原处",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "55a3905bc1c7e0b908054205",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用提示、搜集结果或附属牌区标题，保留卡名参数并完整翻译动作及范围。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.15检查范围、中文显示和点击行为。",
+      "resolution": {
+        "version": "0.1.15-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "Mounted AP Gun下方的牌",
+        "evidence": "tests/fixtures/dynamic-0.1.14.json"
+      }
+    },
+    {
+      "id": "56cfcf0a4d4bf5e7810c5bc1",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "发现Golem牌",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "582f9495a4a8ec4ac22df6d6",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境的状态栏专名，属于卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "继承已审定名称并核对对象映射后，与选择页和卡牌标题一并接入。"
+    },
+    {
+      "id": "58856020cead01453cd99190",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Maerynian Aquaculturalist:</b> 选择一个区域，将Entry Point放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "5a7f78fd0fee0891aaea3af9",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "破坏5张牌",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "5b53099b981619d46e450cf5",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "5cac308eb19e84e3bd360174",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "5e5ea359d923c2ffa436c984",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Singularity Projector:</b> 点击3张在场的牌以将其破坏。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "5e8b03879ad004ab4d380bda",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Haka of Battle放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "5f446e983d1cde94f33b9166",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "pending-diagnosis",
+      "reason": "关联牌列表标题控件捕获到Title Label；日志不能证明其是否实际可见或仅为初始化占位。",
+      "owner": "本地化维护者",
+      "nextAction": "结合关联牌列表画面核查。保留原文，不擅自翻译为标题或把它列作非语言符号。"
+    },
+    {
+      "id": "608704443c960a958b1b7896",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "60953c34f5ac21eca1b52031",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "64ab6d14c8732a92f5f9ad19",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Maerynian Aquaculturalist:</b> 选择一个区域，将Mission Control放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "65c19c6e5d52a85358222a59",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "65c2e4dd4a607628b17eaf67",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "owner": "本地化维护者",
+      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+    },
+    {
+      "id": "670abe9864b6d8c0ac3972f2",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "完整异能标题与正文含专名；同类正文在其他实例已登记，按卡组阶段审核。",
+      "owner": "卡组编辑",
+      "nextAction": "逐卡组核对名称、异能标题和完整正文，并检查该实例的显示。"
+    },
+    {
+      "id": "67be4494df14e4bd869a960e",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Haka of Frenzy放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "68845988cc54903b43b944af",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用动作显示入口或完整提示句式；本轮结合反派／环境矩阵补齐。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.17检查文字、牌区、数量、图标和交互。",
+      "resolution": {
+        "version": "0.1.17-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Mounted AP Gun:</b> 点击2张在场或位于Mounted AP Gun下方的牌以将其破坏。",
+        "evidence": "tests/fixtures/dynamic-0.1.16.json"
+      }
+    },
+    {
+      "id": "6b818b11da0dc0bdf448052b",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "放回原处",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "6c01abb0583a5f029b1aef16",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "6cc2176efdc33fbdcfa73dcf",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fixed-text-stage-2",
+      "reason": "菜单完整原文含实际换行，留待第二阶段固定文本适配。",
+      "owner": "本地化维护者",
+      "nextAction": "按原始换行和完整控件名匹配并检查按钮排版。"
+    },
+    {
+      "id": "6d42939e3144b82725fb40e7",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用提示、搜集结果或附属牌区标题，保留卡名参数并完整翻译动作及范围。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.15检查范围、中文显示和点击行为。",
+      "resolution": {
+        "version": "0.1.15-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Still Life:</b> 点击一个目标，防止其造成伤害。",
+        "evidence": "tests/fixtures/dynamic-0.1.14.json"
+      }
+    },
+    {
+      "id": "6d47526d6fb604aca4305202",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "6d62d72515609eced47989c0",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Supply Crate:</b> 点击Unity的牌库，抽2张牌。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "6dd259e16b85a6296a541c71",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "打出一张牌",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "6de9fb390aa68caf1c7d9c62",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "6e3ffd9c4181398ee2de733c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Haka of Recovery放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "706af7c200c84108fedecab2",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fixed-text-stage-2",
+      "reason": "游戏配置、模式或结果页面的固定标题／选项文字，属于非卡组固定文本。",
+      "owner": "本地化维护者",
+      "nextAction": "第二阶段按实际控件身份和完整原文接入，检查布局。"
+    },
+    {
+      "id": "746ba2eb32ced79e0f278116",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>The Wraith's Arsenal:</b> 点击一位英雄，让其抽1张牌。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "7580474452f36ae406e9a92b",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "打出一张牌",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "75e6d6e2132e5fc3f622ec9b",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "76661f02e2eb1928f4eb5fe0",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "76c171d8bfce8cc8ff01c547",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "76e047162721a9b11007fef5",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "Baron Blade的生命值已降至<nobr>0点</nobr>。",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "77a8415386f9a51b7b6261b8",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "77bdb678cfd35aca1e85e441",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "owner": "本地化维护者",
+      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+    },
+    {
+      "id": "799b63efd3d61748f7a1ab2e",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "7a42ae063fe7d22d08f1e1a9",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "7ad10ee1a5769122f05762ab",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fixed-text-stage-2",
+      "reason": "游戏配置、模式或结果页面的固定标题／选项文字，属于非卡组固定文本。",
+      "owner": "本地化维护者",
+      "nextAction": "第二阶段按实际控件身份和完整原文接入，检查布局。"
+    },
+    {
+      "id": "7c7f6ce6988f861afb1c99f7",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "发现物品牌",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "7da6848c3e8b8ed5aab07fee",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fixed-text-stage-2",
+      "reason": "游戏配置、模式或结果页面的固定标题／选项文字，属于非卡组固定文本。",
+      "owner": "本地化维护者",
+      "nextAction": "第二阶段按实际控件身份和完整原文接入，检查布局。"
+    },
+    {
+      "id": "7dcd90ac356be2cefce19e9c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "状态栏卡组专名，属于卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "继承审定译名并核对对象映射，与其他名称入口一并接入。"
+    },
+    {
+      "id": "7f06480e03edd9b3707e9f59",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "80c9057feef1a1cf539e76ea",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "81e1eefbef72c9fed00ba1e4",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Taonga Mana:</b> 点击Haka的牌库，抽3张牌。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "8254d2682433d26df350c79b",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "catalog-difference-review",
+      "reason": "采集词典哈希与仓库候选不同；同对象名和原文存在翻译应用日志及后续中文观察，不能报为已确认漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "归档用户已安装的扩展词典，并用同一词典复核；当前保留候选词典差异。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "出牌阶段",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "840e60f55680e61975039b0e",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "放回原处",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "848404776ab4c650d6573847",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "8741a361dc46046fa4d67e82",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "87fb7e895814fd51f2b9ab69",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "在此打出",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "88bbaa263e2fbb11e6214aa9",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "8d2a7b9d29ff557b81a8bfa4",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Maerynian Aquaculturalist:</b> 选择一个区域，将Dr. Stinson's Secondary Lab放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "8db9a3ac397a0cffcb288703",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "8e7d4107ee95caf4f3b6cacf",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "8f04509009d4e465692381f1",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "925a096f08bea96da816acb9",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "添加／关闭功能的符号，保留原符号。",
+      "owner": "本地化维护者",
+      "nextAction": "保持原样，控件用途变化时复核。"
+    },
+    {
+      "id": "92e6ee543a52528c2b70ce84",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "破坏2张牌",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "930b8cf566d76e35cd4e8639",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "93ea2fe164e8c084dd75a1a9",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "9549402c7bcbfa706652e4a6",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "破坏3张牌",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "954c8fc573668b301d4cfe99",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "96625071e3216d4d4f9c1318",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "抽牌",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "9709252ae85f267c9640fd00",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "进行出牌阶段",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "97a5ce77e4688b93489deb37",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态完整原文尚无匹配规则；纳入第一阶段，不因卡名或关键词参数延期整个按钮。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.13实机核验中文、数字、排版与交互；保留原待办身份与历史分类。",
+      "resolution": {
+        "version": "0.1.13-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "点击一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。",
+        "evidence": "tests/fixtures/dynamic-0.1.12.json"
+      }
+    },
+    {
+      "id": "98b16eb69738c728780697c4",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "99646d148fef7fabb6e9ee2b",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "99674227b28df52416f6054a",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "9993585e06561f477a27deba",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Lightning Slash放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "9a350225f2b1be7b4b1174cc",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "破坏7张牌",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "9c263819a7a244772c4b8e0d",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "9c2bb6f31170c02909840bb1",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "9d62152e8dc87e5188c3c239",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "进行出牌阶段",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "9fadf0f7f2b73207bb4983b7",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Freedom Security Staff:</b> 点击一位英雄，让其弃置1张牌。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "a1ccd62d38f0fd7152e4b10c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Platform Bot放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "a30e27b5a5a373fdc55843c9",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "a3f8b911075111602561e5ea",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "a3f971c9df0b7ffd2ea7a64a",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "a4cf3b0e841c22c7d224120b",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "a5df4e675b88cbc9b722badb",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fixed-text-stage-2",
+      "reason": "游戏配置、模式或结果页面的固定标题／选项文字，属于非卡组固定文本。",
+      "owner": "本地化维护者",
+      "nextAction": "第二阶段按实际控件身份和完整原文接入，检查布局。"
+    },
+    {
+      "id": "a6230170e9d9b5ffc819688a",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "破坏6张牌",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "a7625ab4f26f6c4f800575b0",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "继续",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "a8ecb3426a04d4801f294d9c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境的状态栏专名，属于卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "继承已审定名称并核对对象映射后，与选择页和卡牌标题一并接入。"
+    },
+    {
+      "id": "a9f25283c4af04187ac783d0",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态完整原文尚无匹配规则；纳入第一阶段，不因卡名或关键词参数延期整个按钮。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.13实机核验中文、数字、排版与交互；保留原待办身份与历史分类。",
+      "resolution": {
+        "version": "0.1.13-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "异能阶段（剩余1次）",
+        "evidence": "tests/fixtures/dynamic-0.1.12.json"
+      }
+    },
+    {
+      "id": "a9f6d6c78fe4f5c58c08fd3a",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用动作显示入口或完整提示句式；本轮结合反派／环境矩阵补齐。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.17检查文字、牌区、数量、图标和交互。",
+      "resolution": {
+        "version": "0.1.17-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "点击或拖动一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。",
+        "evidence": "tests/fixtures/dynamic-0.1.16.json"
+      }
+    },
+    {
+      "id": "ab2ffd8e9a953dcb14455174",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "owner": "本地化维护者",
+      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+    },
+    {
+      "id": "ab5f1d454f2e31041cfb2994",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "aca9696e6af68fd5ef3476ea",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "adfc8ef927245041e48067f5",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "分享",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "ae2b033c701b54a980bd2992",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "状态栏卡组专名，属于卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "继承审定译名并核对对象映射，与其他名称入口一并接入。"
+    },
+    {
+      "id": "ae32d6241cb436d415153835",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fixed-text-stage-2",
+      "reason": "游戏配置、模式或结果页面的固定标题／选项文字，属于非卡组固定文本。",
+      "owner": "本地化维护者",
+      "nextAction": "第二阶段按实际控件身份和完整原文接入，检查布局。"
+    },
+    {
+      "id": "ae3926d871a33c64408c6ab4",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "ae5a23b61215628559b9cb63",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "owner": "本地化维护者",
+      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+    },
+    {
+      "id": "af6a392380d04db146de26fb",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "抽牌",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "affbaa391b43de94b8e0f67e",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "owner": "本地化维护者",
+      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+    },
+    {
+      "id": "b0de7c920e3ee815a73cf04b",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Lead from the Front放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "b56f327ff5103887d011ada2",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "b59f3bf1027b6170e24ef0bf",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "添加／关闭功能的符号，保留原符号。",
+      "owner": "本地化维护者",
+      "nextAction": "保持原样，控件用途变化时复核。"
+    },
+    {
+      "id": "b5e682fb667c2cd29b3894a5",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Thunderclap放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "b5ec431f64f0d0c6540cbe1b",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Haka of Frenzy:</b> 点击至多6张手牌以将其弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "b67a1a6552c8e6b84ef46d71",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "失能阶段",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "b793ac97fd576cd758527810",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "b7a8dc286d89540199bd1f39",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "完整异能标题与正文含专名；同类正文在其他实例已登记，按卡组阶段审核。",
+      "owner": "卡组编辑",
+      "nextAction": "逐卡组核对名称、异能标题和完整正文，并检查该实例的显示。"
+    },
+    {
+      "id": "b89de7c88dde8bbb29129cb2",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "ba3db2e281184ca39ab5dfab",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "baa200bd2d79cff6758a4e69",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "卡组专名或异能正文，按既定顺序第三阶段审核。",
+      "owner": "本地化维护者",
+      "nextAction": "随Captain Cosmic／Insula Primalis卡组审核，保留专名与整段上下文。"
+    },
+    {
+      "id": "bb00a3240d7bbd8c66c4fef8",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "破坏1张牌",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "bbf762168536876f27346e1d",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "bc6c0ff01d3bbbb0cdddc3c5",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用动作显示入口或完整提示句式；本轮结合反派／环境矩阵补齐。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.17检查文字、牌区、数量、图标和交互。",
+      "resolution": {
+        "version": "0.1.17-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "打出Golem牌",
+        "evidence": "tests/fixtures/dynamic-0.1.16.json"
+      }
+    },
+    {
+      "id": "bc886d8ab164bb3742be1fa2",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用提示、搜集结果或附属牌区标题，保留卡名参数并完整翻译动作及范围。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.15检查范围、中文显示和点击行为。",
+      "resolution": {
+        "version": "0.1.15-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Flak Cannon:</b> 点击一张在场或位于Flak Cannon下方的牌以将其破坏。",
+        "evidence": "tests/fixtures/dynamic-0.1.14.json"
+      }
+    },
+    {
+      "id": "bccdd2df5086e5da7e7a4169",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fixed-text-stage-2",
+      "reason": "菜单完整原文含实际换行，留待第二阶段固定文本适配。",
+      "owner": "本地化维护者",
+      "nextAction": "按原始换行和完整控件名匹配并检查按钮排版。"
+    },
+    {
+      "id": "bda00be0cc4af4699789c945",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用提示、搜集结果或附属牌区标题，保留卡名参数并完整翻译动作及范围。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.15检查范围、中文显示和点击行为。",
+      "resolution": {
+        "version": "0.1.15-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Conductive Installation:</b> 点击牌库中的一张牌以将其搜集。",
+        "evidence": "tests/fixtures/dynamic-0.1.14.json"
+      }
+    },
+    {
+      "id": "bdb8e4b3ff290b47b76967fb",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用动作显示入口或完整提示句式；本轮结合反派／环境矩阵补齐。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.17检查文字、牌区、数量、图标和交互。",
+      "resolution": {
+        "version": "0.1.17-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.16.json"
+      }
+    },
+    {
+      "id": "be25461db151e6427d63f2c1",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "bede800fdcde4e97a315dd4f",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境的状态栏专名，属于卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "继承已审定名称并核对对象映射后，与选择页和卡牌标题一并接入。"
+    },
+    {
+      "id": "bfeee8f0cc1c953bc5fde353",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "c0cf1bf7a908617761e9fe45",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态完整原文尚无匹配规则；纳入第一阶段，不因卡名或关键词参数延期整个按钮。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.13实机核验中文、数字、排版与交互；保留原待办身份与历史分类。",
+      "resolution": {
+        "version": "0.1.13-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "Cosmic Crest发现的牌：",
+        "evidence": "tests/fixtures/dynamic-0.1.12.json"
+      }
+    },
+    {
+      "id": "c11bf9d34c4644d070a90585",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "catalog-difference-review",
+      "reason": "采集词典哈希与仓库候选不同；同对象名和原文存在翻译应用日志及后续中文观察，不能报为已确认漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "归档用户已安装的扩展词典，并用同一词典复核；当前保留候选词典差异。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "异能阶段",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "c49997fdfb7fd28cd3ee52e8",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "c49ecf4dcb262c0d2f71720f",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "破坏0张牌",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "c50affd7c6f2d0bf73ed1fca",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "抽牌",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "c513d15bba664a6654dd5d9f",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "跳过抽牌",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "c7f238728ab5058317242de8",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "owner": "本地化维护者",
+      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+    },
+    {
+      "id": "c8773f431bdfe20aa0cc85e5",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "ca72ea6dd485d25b75f659e9",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Turret Mode放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "ca9cd9dc8be6b7e4d0d6537f",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "抽牌",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "cb04b3c4def17b37c09ee205",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "cc08f82febccd933970533ca",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "在此打出",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "ccaf2690569dbcc545893d2e",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "Baron Blade召唤出的牌：",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "cde71c503ce36ec06fc5630c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "反派名称的独立标题位置，属于卡组专名。",
+      "owner": "本地化维护者",
+      "nextAction": "随反派卡组审核接入；同时核查状态栏与选择页面同名显示。"
+    },
+    {
+      "id": "ce6f8388e6f178f6c63386b6",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用提示、搜集结果或附属牌区标题，保留卡名参数并完整翻译动作及范围。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.15检查范围、中文显示和点击行为。",
+      "resolution": {
+        "version": "0.1.15-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Gatling Gun:</b> 点击一张在场或位于Gatling Gun下方的牌以将其破坏。",
+        "evidence": "tests/fixtures/dynamic-0.1.14.json"
+      }
+    },
+    {
+      "id": "cf10d9910cacdc574a872dd9",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "d1b35f767184bdff2f0dfde8",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "d333c96f6aedb77bda260c1b",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "d386447b6229e35f787fc0dd",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "同一受伤前选牌发动句式的不同目标参数，已有完整原文与HUD位置。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.18检查伤害来源、目标、数量、类型及选牌先发动提示。",
+      "resolution": {
+        "version": "0.1.18-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Stealth Bot:</b> <b>Burning High Rise</b>将对<b>Unity</b>造成2点火焰伤害。点击一张牌，先发动其效果。",
+        "evidence": "tests/fixtures/dynamic-0.1.17.json"
+      }
+    },
+    {
+      "id": "d4be9019a580c31eac373f45",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Grenade Launcher放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "d5af8e9c72d54c1a799d1e5c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fixed-text-stage-2",
+      "reason": "游戏配置、模式或结果页面的固定标题／选项文字，属于非卡组固定文本。",
+      "owner": "本地化维护者",
+      "nextAction": "第二阶段按实际控件身份和完整原文接入，检查布局。"
+    },
+    {
+      "id": "d612219fca1d5d74ae40a0aa",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用动作显示入口或完整提示句式；本轮结合反派／环境矩阵补齐。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.17检查文字、牌区、数量、图标和交互。",
+      "resolution": {
+        "version": "0.1.17-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Ironclad Maintenance Bay:</b> 点击弃牌堆中的一张牌以将其回收。",
+        "evidence": "tests/fixtures/dynamic-0.1.16.json"
+      }
+    },
+    {
+      "id": "d76246d70ad8222d567242fc",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "卡组专名或异能正文，按既定顺序第三阶段审核。",
+      "owner": "本地化维护者",
+      "nextAction": "随Captain Cosmic／Insula Primalis卡组审核，保留专名与整段上下文。"
+    },
+    {
+      "id": "d8007e442690f8d71fc98594",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "抽牌",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "d8b344179d74379d87d7bba1",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "d9c6bb14c0eac282ee6b3b17",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "抽牌",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "da14ed7c43607c3dc4fa8b72",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用提示、搜集结果或附属牌区标题，保留卡名参数并完整翻译动作及范围。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.15检查范围、中文显示和点击行为。",
+      "resolution": {
+        "version": "0.1.15-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "Conductive Installation搜集的牌：",
+        "evidence": "tests/fixtures/dynamic-0.1.14.json"
+      }
+    },
+    {
+      "id": "da5ebd2df1c5c1a47eeebdf7",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "ddf275a41447c839b898530e",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "de5a05c9d69387ef939670d5",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "de96f0edae5f76fc8317aed6",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "pending-diagnosis",
+      "reason": "关联牌列表标题控件捕获到Title Label；日志不能证明其是否实际可见或仅为初始化占位。",
+      "owner": "本地化维护者",
+      "nextAction": "结合关联牌列表画面核查。保留原文，不擅自翻译为标题或把它列作非语言符号。"
+    },
+    {
+      "id": "df68a220dd06467d8cc801c7",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Recharge Mode:</b> 点击一张手牌，将其置于一张牌下方。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "e05fc0e3cdcafb971a395304",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "e18cd25a2e9422ee60a0c858",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用动作显示入口或完整提示句式；本轮结合反派／环境矩阵补齐。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.17检查文字、牌区、数量、图标和交互。",
+      "resolution": {
+        "version": "0.1.17-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "最多",
+        "evidence": "tests/fixtures/dynamic-0.1.16.json"
+      }
+    },
+    {
+      "id": "e25bebd331394d7b41b76357",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "在此打出",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "e29a348661832a72c458a6e2",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "e57e98a4f8480ad7b9aea0ce",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "破坏4张牌",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "e61d9d583df07e947683736e",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Inspired Repair放回原处或弃置。",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "e7c6f55222819c2a2b29a8d4",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "准备",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "e984fda78d44bdcfd8b0b811",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "e9e627ca05a78b2693317917",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境的状态栏专名，属于卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "继承已审定名称并核对对象映射后，与选择页和卡牌标题一并接入。"
+    },
+    {
+      "id": "ea02e4f2451f3c39e9eeab52",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Tachyon:</b> 点击一位英雄，让其立即进行出牌阶段。",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "ea2bd4cb52c2df2089acb6e5",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "eab58b99f364ef8522cf50cd",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用提示、搜集结果或附属牌区标题，保留卡名参数并完整翻译动作及范围。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.15检查范围、中文显示和点击行为。",
+      "resolution": {
+        "version": "0.1.15-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>Upgrade Mode:</b> 点击牌库或弃牌堆中的一张牌以将其召唤。",
+        "evidence": "tests/fixtures/dynamic-0.1.14.json"
+      }
+    },
+    {
+      "id": "eae7344278c2858bad4ec13d",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "edc349334339c0ef706f90fc",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "owner": "本地化维护者",
+      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+    },
+    {
+      "id": "ef0fd1d82355a2e781ca6edf",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境的状态栏专名，属于卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "继承已审定名称并核对对象映射后，与选择页和卡牌标题一并接入。"
+    },
+    {
+      "id": "ef15fdc73c0f3823074ada73",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "打出一张牌",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "f1cbc7ef4cc97ee6f38f8eec",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fixed-text-stage-2",
+      "reason": "游戏配置、模式或结果页面的固定标题／选项文字，属于非卡组固定文本。",
+      "owner": "本地化维护者",
+      "nextAction": "第二阶段按实际控件身份和完整原文接入，检查布局。"
+    },
+    {
+      "id": "f2678896075e74fddb541de5",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "f276af8e3c57b502a7914162",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "放回原处",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "f3e927ba6500c6b2e08183dd",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "添加／关闭功能的符号，保留原符号。",
+      "owner": "本地化维护者",
+      "nextAction": "保持原样，控件用途变化时复核。"
+    },
+    {
+      "id": "f40ba0626be5da6a3f8bf931",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "返回\n",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "f594432d93ac517b4dfda5ae",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "f66fac0f86a40150a98eef52",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "通用动作显示入口或完整提示句式；本轮结合反派／环境矩阵补齐。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.17检查文字、牌区、数量、图标和交互。",
+      "resolution": {
+        "version": "0.1.17-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "最多",
+        "evidence": "tests/fixtures/dynamic-0.1.16.json"
+      }
+    },
+    {
+      "id": "f6a5b29ac7477fbc5db977f4",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+    },
+    {
+      "id": "f80a28a0bf71792f9b286234",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "owner": "本地化维护者",
+      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+    },
+    {
+      "id": "f80dda9131956d74f40565f6",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "fa9c9fbb553e9df6630b1bea",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "你击败了Baron Blade，化解了危机！",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "fd680e68d97b3efcb2e9ca07",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "fde02f90b862a0e34f3b917d",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "deck-review-stage-3",
+      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "owner": "本地化维护者",
+      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+    },
+    {
+      "id": "ff40894668f2daa364e9a201",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "通用按钮的其他角色／牌区入口或动态完整句式；按用途和参数范围接入。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.16检查文字、来源牌区、数量变化及交互。",
+      "resolution": {
+        "version": "0.1.16-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "弃置",
+        "evidence": "tests/fixtures/dynamic-0.1.15.json"
+      }
+    },
+    {
+      "id": "ffea93ff7280af56873aca64",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "动态文本或操作按钮的已观察原文；本轮补齐用途或句式。",
+      "owner": "本地化维护者",
+      "nextAction": "0.1.14检查中文、数字与交互。",
+      "resolution": {
+        "version": "0.1.14-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "抽牌阶段",
+        "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    }
+  ]
+}

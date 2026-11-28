@@ -1,0 +1,184 @@
+{
+  "evidence": [
+    "102842-e9de65",
+    "101554-6a06a8",
+    "100204-972acb"
+  ],
+  "samples": [
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Hypersonic Dash:</b> Click targets to choose the order of dealing them <nobr>1 sonic</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Hypersonic Dash:</b> 点击目标，选择对它们造成<nobr>1点音波伤害</nobr>的顺序。"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Accelerated Assault:</b> Click targets to choose the order of dealing them <nobr>1 melee</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Accelerated Assault:</b> 点击目标，选择对它们造成<nobr>1点近战伤害</nobr>的顺序。"
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "source": "Play Here",
+      "cardId": "LegacyCharacter",
+      "inCardView": true,
+      "expected": "在此打出"
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "source": "Play Here",
+      "cardId": "TachyonCharacter",
+      "inCardView": true,
+      "expected": "在此打出"
+    },
+    {
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Character Card Container/CaptainCosmicCharacter/Foreground Elements/Next To Selection Button/Selection Button Label",
+      "source": "Play Here",
+      "cardId": "CaptainCosmicCharacter",
+      "inCardView": true,
+      "expected": "在此打出"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a location to to play Wounding Buffer there.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一个区域，将Wounding Buffer打出至该处。"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Cornered Ankylosaurus:</b> Click 2 targets to deal them <nobr>3 melee</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Cornered Ankylosaurus:</b> 点击2个目标，对其各造成<nobr>3点近战伤害</nobr>。"
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+      "source": "Skip",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "跳过"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Wounding Buffer:</b> <b>Cornered Ankylosaurus</b> will deal <b>Legacy</b> 3 melee damage. Click a reaction to use it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Wounding Buffer:</b> <b>Cornered Ankylosaurus</b>将对<b>Legacy</b>造成3点近战伤害。点击一个反应以使用它。"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a location to to play Augmented Ally there.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一个区域，将Augmented Ally打出至该处。"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Hasten Doom:</b> Click targets to choose the order of dealing them <nobr>2 toxic</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Hasten Doom:</b> 点击目标，选择对它们造成<nobr>2点毒素伤害</nobr>的顺序。"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Wounding Buffer:</b> <b>Baron Blade</b> will deal <b>Legacy</b> 3 toxic damage. Click a reaction to use it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Wounding Buffer:</b> <b>Baron Blade</b>将对<b>Legacy</b>造成3点毒素伤害。点击一个反应以使用它。"
+    },
+    {
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "source": "Destroy a Card",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "破坏一张牌"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Devious Disruption:</b> Click a hero to destroy a card.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Devious Disruption:</b> 点击一位英雄，让其破坏一张牌。"
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+      "source": "Skip Play",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "跳过出牌"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Sonic Vortex:</b> Click up to 6 targets to deal them <nobr>3 sonic</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Sonic Vortex:</b> 点击至多6个目标，对其各造成<nobr>3点音波伤害</nobr>。"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Cornered Ankylosaurus:</b> Click <b>Baron Blade</b> and 1 more target to deal them <nobr>3 melee</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Cornered Ankylosaurus:</b> 点击<b>Baron Blade</b>及另外1个目标，对其各造成<nobr>3点近战伤害</nobr>。"
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "source": "Has the Fewest",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "最少"
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheArgentAdept/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "source": "Has the Fewest",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "最少"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Grazing Stegosaurus:</b> Click the hero who is considered to have the fewest cards in hand.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Grazing Stegosaurus:</b> 点击视为手牌最少的英雄。"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Pterodactyl Thief:</b> Click a card in play to destroy it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Pterodactyl Thief:</b> 点击一张在场的牌以将其破坏。"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>River of Lava:</b> Click targets to choose the order of dealing them <nobr>2 fire</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>River of Lava:</b> 点击目标，选择对它们造成<nobr>2点火焰伤害</nobr>的顺序。"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Sonic Vortex:</b> Click up to 17 targets to deal them <nobr>3 sonic</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Sonic Vortex:</b> 点击至多17个目标，对其各造成<nobr>3点音波伤害</nobr>。"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Imminent Eruption:</b> Click targets to choose the order of dealing them fire damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Imminent Eruption:</b> 点击目标，选择对它们造成火焰伤害的顺序。"
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a card in play to activate its <nobr><sprite name=\"StartPhase\"> <b>START PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一张在场的牌，发动其<nobr><sprite name=\"StartPhase\"> <b>开始阶段</b></nobr>效果。"
+    }
+  ]
+}

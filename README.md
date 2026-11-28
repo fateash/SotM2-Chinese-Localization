@@ -2,7 +2,9 @@
 
 《Sentinels of the Multiverse 2》Steam 版中文本地化，ParaTranz 项目 [21585](https://paratranz.cn/projects/21585)。
 
-ParaTranz 与 GitHub 已完成全量同步，当前文本库存为 48 个文件、2,444 条原文，英雄、反派、环境按卡组分组。新增内容保持未翻译；已有 89 条译文保留。字体与显示运行支持候选版本为 **0.1.6-rc.1**，适用 Steam Build 26880829，尚待新的 Windows 实机回归；不是正式发行版。
+ParaTranz 与 GitHub 已完成全量同步，当前文本库存为 48 个文件、2,444 条原文，英雄、反派、环境按卡组分组。新增内容保持未翻译；已有 89 条译文保留。**0.1.6-rc.1** 已通过本轮 Windows 实机回归：阶段、关键词和异能前缀显示正常，生命值更新及读档／回菜单正常。适用 Steam Build 26880829；验收仅覆盖本轮测试场景。
+
+当前开发分支推进 **0.1.18-rc.1**：219条动态候选全部完成逐项对账，56条完整候选及声明入口已对齐、45条部分接入、105条仍缺拼接／参数／入口依据、13条归第二阶段。新增受伤前“选择先发动哪张牌”提示。第一阶段仍未结项。详见 [本轮验证说明](docs/DYNAMIC-PILOT-0.1.18.md)、[全量对账](docs/DYNAMIC-INVENTORY-REVIEW.md) 与 [推进顺序](docs/LOCALIZATION-EXPANSION.md)。
 
 - `inventory-import/`：原文导入文件。已有文件更新原文，不覆盖译文或删除重建。
 - `inventory-translations/`：完整 ParaTranz 译文快照。
@@ -17,3 +19,7 @@ ParaTranz 与 GitHub 已完成全量同步，当前文本库存为 48 个文件�
 构建器拒绝测试标记，不改游戏规则模型、内部标识与数值。开发占位符、程序日志和框架常量不作为待译正文。排版阶段暂不增加人工换行。
 
 详见 [完整库存与显示适配说明](docs/INVENTORY-0.2.0.md)。旧 `tools/catalog.py`、`translations/` 和 `paratranz-project.json` 保留用于 0.1.4 回归，不再作为完整库存的生产入口。
+
+## 正式防漏流程
+
+维护与交付必须执行 [显示覆盖与防漏流程](docs/COVERAGE-WORKFLOW.md)。运行模板、显示位置矩阵、219条候选的阶段状态和实机漏译待办分别登记，CI自动检查未分派观察与规则回归。新增证据追加归档；日志命中不自动视为实机验收。

@@ -1,0 +1,953 @@
+{
+  "evidence": [
+    "SotM2-Dynamic-Evidence-20261127-085856-183706.zip",
+    "SotM2-Dynamic-Evidence-20261127-094253-401964.zip"
+  ],
+  "samples": [
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Ra/Inner Panel/Character Card Container/RaCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView VelociraptorPack-0 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>2",
+      "inCardView": true,
+      "cardId": "VelociraptorPack",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView VelociraptorPack-2 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>2",
+      "inCardView": true,
+      "cardId": "VelociraptorPack",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Enraged T. Rex:</b> Click a target to deal it <nobr>5 melee</nobr> damage.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView VelociraptorPack-0 SmallCardFront/Tooltip/CardView VelociraptorPack-0 FullCardFront/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>2",
+      "inCardView": true,
+      "cardId": "VelociraptorPack",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView VelociraptorPack-2 SmallCardFront/Tooltip/CardView VelociraptorPack-2 FullCardFront/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>2",
+      "inCardView": true,
+      "cardId": "VelociraptorPack",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Ra/Inner Panel/Character Card Container/RaCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click or drag a card to play it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "source": "Damage 0 targets",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Flying Smash:</b> Click up to 3 targets to deal them <nobr>3 melee</nobr> damage.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "source": "Damage 1 target",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "source": "Damage 2 targets",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "source": "Damage 3 targets",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/92/UsePower-Legacy-LegacyCharacter/Label",
+      "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click or drag a power to use it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Motivational Charge:</b> Click a target to deal it <nobr>3 melee</nobr> damage.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Ra/Inner Panel/Character Card Container/RaCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a card to play it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Ra/Inner Panel/Character Card Container/RaCharacter/Foreground Elements/Power Container/104/UsePower-Ra-RaCharacter/Label",
+      "source": "<style=PowerTitle>Pyre</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Ra deals 1 target 2 fire damage.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Ra:</b> Click a target to deal it <nobr>2 fire</nobr> damage.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-2 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "source": "Double Damage",
+      "inCardView": true,
+      "cardId": "TheStaffOfRa",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>The Staff of Ra:</b> Click a button on The Staff of Ra to choose an effect.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Fleet of Foot:</b> Click or drag a card to play it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "source": "Discard 0 cards",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Quick Insight:</b> Click 2 cards in hand to discard them.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "source": "Discard 1 card",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "source": "Discard 2 cards",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView RemoteWalkingTank-1 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "source": "-1",
+      "inCardView": true,
+      "cardId": "RemoteWalkingTank",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/TheArgentAdept/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "source": "Play a Card",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "source": "Play a Card",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Bolster Allies:</b> Click a hero to play a card.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Bolster Allies:</b> Click a card to play it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Instrumental Conjuration:</b> Click a card in the deck to summon it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Instrumental Conjuration:</b> Click a card to play it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a power to use it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/28/UsePower-Legacy-LegacyCharacter/Label",
+      "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Power Container/34/UsePower-TheArgentAdept-TheArgentAdeptCharacter/Label",
+      "source": "<style=PowerTitle>Vocalize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Activate 1 <nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "source": "Use a Power",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "source": "Use a Power",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Tachyon/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "source": "Use a Power",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Inspiring Supertonic:</b> Click a hero to use a power.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView TheArgentAdeptCharacter-0 FullCardFront/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "cardId": "TheArgentAdeptCharacter",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Power Container/40/UsePower-TheArgentAdept-TheArgentAdeptCharacter/Label",
+      "source": "<style=PowerTitle>Vocalize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Activate 1 <nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Inspiring Supertonic:</b> Click or drag a power to use it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView InspiringSupertonic-1 SmallCardFront/Select Effect Container/42/UseAbility-Perform-InspiringSupertonic-1-\"\"1 Hero may use 1 power.\"\"/Label",
+      "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
+      "inCardView": true,
+      "cardId": "InspiringSupertonic",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView ScherzoOfFrostAndFlame-0 SmallCardFront/Select Effect Container/43/UseAbility-Perform-ScherzoOfFrostAndFlame-0-\"\"{TheArgentAdept} deals 1 target 2 cold damage. Then, {TheArgentAdept} may deal 1 different target 2 fire damage.\"\"/Label",
+      "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
+      "inCardView": true,
+      "cardId": "ScherzoOfFrostAndFlame",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>The Argent Adept:</b> Click an ability to use it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Scherzo of Frost and Flame:</b> Click a target to deal it <nobr>2 cold</nobr> damage.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Scherzo of Frost and Flame:</b> Click a target to deal it <nobr>2 fire</nobr> damage.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView RemoteWalkingTank-1 SmallCardFront/Tooltip/CardView RemoteWalkingTank-1 FullCardFront/Effect Panel/Effect View(Clone)/Label",
+      "source": "-1",
+      "inCardView": true,
+      "cardId": "RemoteWalkingTank",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Inspiring Supertonic:</b> Click a power to use it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>1",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Power Container/54/UsePower-Tachyon-TachyonCharacter/Label",
+      "source": "<style=PowerTitle>Testing</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Reveal the top card of your deck. Draw it or discard it.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+      "source": "Draw",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Deck and Trash/Active Trash View/Selection Button/Selection Button Label",
+      "source": "Discard",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Tachyon:</b> Click a location to either draw or discard Blinding Speed.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Remote Walking Tank:</b> Click a target to deal it <nobr>3 energy</nobr> damage.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Synaptic Interrupt:</b> <b>Remote Walking Tank</b> will deal <b>Tachyon</b> 3 energy damage. Click a reaction to use it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView SynapticInterrupt-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "source": "Draw Card",
+      "inCardView": true,
+      "cardId": "SynapticInterrupt",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView SynapticInterrupt-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "source": "Play Card",
+      "inCardView": true,
+      "cardId": "SynapticInterrupt",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Synaptic Interrupt:</b> Click a button on Synaptic Interrupt to choose an effect.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Synaptic Interrupt:</b> Click or drag a card to play it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Sucker Punch:</b> Click a target to deal it <nobr>1 melee</nobr> damage.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/CardView RemoteWalkingTank-1 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "source": "-1",
+      "inCardView": true,
+      "cardId": "RemoteWalkingTank",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Blade Battalion:</b> Click a target to deal it melee damage.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>The Ol' One-Two:</b> Click a target to deal it <nobr>2 melee</nobr> damage.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>The Ol' One-Two:</b> Click or drag a card to play it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/84/UsePower-Legacy-LegacyCharacter/Label",
+      "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "source": "Put a Card",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "source": "Put a Card",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Tachyon/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
+      "source": "Put a Card",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Vernal Sonata:</b> Click a hero to have them put a card on top of their deck.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Vernal Sonata:</b> Click a card in the trash to put it on top of its deck.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Power Container/90/UsePower-TheArgentAdept-TheArgentAdeptCharacter/Label",
+      "source": "<style=PowerTitle>Vocalize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Activate 1 <nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/97/UsePower-Legacy-LegacyCharacter/Label",
+      "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>2",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>2",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>2",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView TheArgentAdeptCharacter-0 FullCardFront/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>2",
+      "inCardView": true,
+      "cardId": "TheArgentAdeptCharacter",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>2",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>2",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Quick Insight:</b> Click a card in hand to discard it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Power Container/111/UsePower-Tachyon-TachyonCharacter/Label",
+      "source": "<style=PowerTitle>Testing</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Reveal the top card of your deck. Draw it or discard it.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Research Grant:</b> Click a card in hand to discard it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CorneredAnkylosaurus-0 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "source": "-1",
+      "inCardView": true,
+      "cardId": "CorneredAnkylosaurus",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView RemoteWalkingTank-0 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "source": "-1",
+      "inCardView": true,
+      "cardId": "RemoteWalkingTank",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>2",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/130/UsePower-Legacy-LegacyCharacter/Label",
+      "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView RemoteWalkingTank-0 SmallCardFront/Tooltip/CardView RemoteWalkingTank-0 FullCardFront/Effect Panel/Effect View(Clone)/Label",
+      "source": "-1",
+      "inCardView": true,
+      "cardId": "RemoteWalkingTank",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+      "source": "Reveal",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Deck and Trash/Active Deck View/Selection Button/Selection Button Label",
+      "source": "Reveal",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/TheArgentAdept/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+      "source": "Reveal",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Foreground Elements/Inactive Deck View/Selection Button/Selection Button Label",
+      "source": "Reveal",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Active Deck View/Selection Button/Selection Button Label",
+      "source": "Reveal",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Keen Vision:</b> Click a deck to reveal a card.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView KeenVision-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "source": "Draw Card",
+      "inCardView": true,
+      "cardId": "KeenVision",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView KeenVision-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "source": "Use Power",
+      "inCardView": true,
+      "cardId": "KeenVision",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Keen Vision:</b> Click a button on Keen Vision to choose an effect.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView SilverShadow-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "source": "Draw Card",
+      "inCardView": true,
+      "cardId": "SilverShadow",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView SilverShadow-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "source": "Play Card",
+      "inCardView": true,
+      "cardId": "SilverShadow",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Silver Shadow:</b> Click a button on Silver Shadow to choose an effect.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Power Container/144/UsePower-TheArgentAdept-TheArgentAdeptCharacter/Label",
+      "source": "<style=PowerTitle>Vocalize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Activate 1 <nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Power Container/151/UsePower-TheArgentAdept-TheArgentAdeptCharacter/Label",
+      "source": "<style=PowerTitle>Vocalize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Activate 1 <nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView InspiringSupertonic-1 SmallCardFront/Select Effect Container/154/UseAbility-Perform-InspiringSupertonic-1-\"\"1 Hero may use 1 power.\"\"/Label",
+      "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
+      "inCardView": true,
+      "cardId": "InspiringSupertonic",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView ScherzoOfFrostAndFlame-0 SmallCardFront/Select Effect Container/155/UseAbility-Perform-ScherzoOfFrostAndFlame-0-\"\"{TheArgentAdept} deals 1 target 2 cold damage. Then, {TheArgentAdept} may deal 1 different target 2 fire damage.\"\"/Label",
+      "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
+      "inCardView": true,
+      "cardId": "ScherzoOfFrostAndFlame",
+      "expectTranslated": false
+    },
+    {
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView InspiringSupertonic-1 FullCardFront/Select Effect Container/154/UseAbility-Perform-InspiringSupertonic-1-\"\"1 Hero may use 1 power.\"\"/Label",
+      "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
+      "inCardView": true,
+      "cardId": "InspiringSupertonic",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Power Container/184/UsePower-Tachyon-TachyonCharacter/Label",
+      "source": "<style=PowerTitle>Testing</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Reveal the top card of your deck. Draw it or discard it.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CorneredAnkylosaurus-1 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "source": "-1",
+      "inCardView": true,
+      "cardId": "CorneredAnkylosaurus",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView PoweredTurret-0 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>2",
+      "inCardView": true,
+      "cardId": "PoweredTurret",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView PoweredTurret-0 SmallCardFront/Tooltip/CardView PoweredTurret-0 FullCardFront/Effect Panel/Effect View(Clone)/Label",
+      "source": "<size=75%>+</size><space=-0.1em>2",
+      "inCardView": true,
+      "cardId": "PoweredTurret",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Powered Turret:</b> Click targets to choose the order of dealing them <nobr>1 energy</nobr> damage.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Synaptic Interrupt:</b> <b>Powered Turret</b> will deal <b>Tachyon</b> 3 energy damage. Click a reaction to use it.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView SynapticInterrupt-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "source": "Draw Card",
+      "inCardView": true,
+      "cardId": "SynapticInterrupt",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView SynapticInterrupt-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "source": "Play Card",
+      "inCardView": true,
+      "cardId": "SynapticInterrupt",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Power Container/224/UsePower-Legacy-LegacyCharacter/Label",
+      "source": "<style=PowerTitle>Galvanize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Until your <nobr><b>START PHASE</b></nobr>, +1 damage dealt by ally characters.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Power Container/238/UsePower-TheArgentAdept-TheArgentAdeptCharacter/Label",
+      "source": "<style=PowerTitle>Vocalize</style>\r\n<style=PowerHeading>POWER: </style><style=PowerBody>Activate 1 <nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>.\r\n</style>",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView InspiringSupertonic-1 SmallCardFront/Select Effect Container/243/UseAbility-Perform-InspiringSupertonic-1-\"\"1 Hero may use 1 power.\"\"/Label",
+      "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
+      "inCardView": true,
+      "cardId": "InspiringSupertonic",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView ScherzoOfFrostAndFlame-0 SmallCardFront/Select Effect Container/244/UseAbility-Perform-ScherzoOfFrostAndFlame-0-\"\"{TheArgentAdept} deals 1 target 2 cold damage. Then, {TheArgentAdept} may deal 1 different target 2 fire damage.\"\"/Label",
+      "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
+      "inCardView": true,
+      "cardId": "ScherzoOfFrostAndFlame",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CounterpointBulwark-1 SmallCardFront/Select Effect Container/245/UseAbility-Perform-CounterpointBulwark-1-\"\"Select up to 3 targets. Until your {Start}, −1 damage dealt to those targets.\"\"/Label",
+      "source": "<nobr><sprite name=\"Perform\" color=#FFFFFF> <style=BoldItalic>PERFORM</style></nobr>",
+      "inCardView": true,
+      "cardId": "CounterpointBulwark",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "source": "Select 0 cards",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Counterpoint Bulwark:</b> Click up to 3 targets to reduce damage dealt to them.",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "source": "Select 1 card",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "source": "Select 2 cards",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "source": "Select 3 cards",
+      "inCardView": false,
+      "cardId": "",
+      "expectTranslated": true
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "-1",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "-1",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "-1",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Character Card Container/LegacyCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "-1",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheArgentAdept/Inner Panel/Character Card Container/TheArgentAdeptCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "-1",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    },
+    {
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "source": "-1",
+      "inCardView": true,
+      "cardId": "",
+      "expectTranslated": false
+    }
+  ]
+}

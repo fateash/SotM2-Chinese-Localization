@@ -1,0 +1,25 @@
+{
+  "evidence": [
+    "SotM2-Dynamic-Evidence-20261127-141820-fd4b29.zip"
+  ],
+  "samples": [
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Arsenal Bot</b> 2 fire damage. Click a card to activate first.",
+      "inCardView": false,
+      "expected": "<b>Stealth Bot:</b> <b>Burning High Rise</b>将对<b>Arsenal Bot</b>造成2点火焰伤害。点击一张牌，先发动其效果。",
+      "observationId": "01f1c2253f530c5f77cdc1fa"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Stealth Bot:</b> <b>Burning High Rise</b> will deal <b>Unity</b> 2 fire damage. Click a card to activate first.",
+      "inCardView": false,
+      "expected": "<b>Stealth Bot:</b> <b>Burning High Rise</b>将对<b>Unity</b>造成2点火焰伤害。点击一张牌，先发动其效果。",
+      "observationId": "d386447b6229e35f787fc0dd"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "evidence": "SotM2-Dynamic-Evidence-20261127-111623-a99949.zip",
+  "samples": [
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "cardId": "CosmicCrest",
+      "source": "Discover Construct",
+      "inCardView": true,
+      "expected": "发现Construct牌",
+      "observationId": "0762c742a2fafca25a67c1fc"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Unflagging Animation:</b> Click a target to determine which has the lowest HP.",
+      "inCardView": false,
+      "expected": "<b>Unflagging Animation:</b> 点击一个目标，将其视为生命值最低的目标。",
+      "observationId": "1196a364145819ad099bc019"
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CosmicCrest-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "cardId": "CosmicCrest",
+      "source": "Play Construct",
+      "inCardView": true,
+      "expected": "打出Construct牌",
+      "observationId": "4bf2976e334ba1e7a4471778"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "Click a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+      "inCardView": false,
+      "expected": "点击一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。",
+      "observationId": "97a5ce77e4688b93489deb37"
+    },
+    {
+      "objectName": "Phase Label",
+      "path": "Canvas/HUD Panel/State Box/Phase Box/Phase Label",
+      "cardId": "",
+      "source": "POWER PHASE (1 left)",
+      "inCardView": false,
+      "expected": "异能阶段（剩余1次）",
+      "observationId": "a9f25283c4af04187ac783d0"
+    },
+    {
+      "objectName": "Description Label",
+      "path": "Canvas/Temporary Full Card Panel/Description Label",
+      "cardId": "",
+      "source": "Cosmic Crest discovered:",
+      "inCardView": false,
+      "expected": "Cosmic Crest发现的牌：",
+      "observationId": "c0cf1bf7a908617761e9fe45"
+    }
+  ]
+}

@@ -1,0 +1,850 @@
+{
+  "schemaVersion": 1,
+  "owners": [
+    {
+      "id": "AkashBhuta",
+      "kind": "villain",
+      "inventoryFile": "inventory-translations/villians/AkashBhuta.json",
+      "sourceName": "Akash'Bhuta",
+      "provenance": "inventory-owner + observed-shared-role; synthetic combinations, not captured paths",
+      "contracts": {
+        "deck-reveal": {
+          "family": "deck-selection",
+          "id": "nonhero-AkashBhuta-deck-reveal"
+        },
+        "deck-replace": {
+          "family": "deck-selection",
+          "id": "nonhero-AkashBhuta-deck-replace"
+        },
+        "deck-draw": {
+          "family": "draw-discard",
+          "id": "nonhero-AkashBhuta-deck-draw"
+        },
+        "trash-discard": {
+          "family": "draw-discard",
+          "id": "nonhero-AkashBhuta-trash-discard"
+        },
+        "deck-discard-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-AkashBhuta-deck-discard-excluded"
+        },
+        "trash-replace-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-AkashBhuta-trash-replace-excluded"
+        },
+        "trash-draw-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-AkashBhuta-trash-draw-excluded"
+        },
+        "wrong-category-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-AkashBhuta-wrong-category-excluded"
+        },
+        "hero-layout-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-AkashBhuta-hero-layout-excluded"
+        },
+        "unknown-owner-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-AkashBhuta-unknown-owner-excluded"
+        },
+        "hp-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-AkashBhuta-hp-excluded"
+        },
+        "small-effect": {
+          "family": "effect-button",
+          "id": "nonhero-AkashBhuta-small-effect"
+        },
+        "full-effect": {
+          "family": "effect-button",
+          "id": "nonhero-AkashBhuta-full-effect"
+        },
+        "hint-phase": {
+          "family": "hint",
+          "id": "nonhero-AkashBhuta-hint-phase"
+        },
+        "result-reveal": {
+          "family": "description",
+          "id": "nonhero-AkashBhuta-result-reveal"
+        }
+      }
+    },
+    {
+      "id": "BaronBlade",
+      "kind": "villain",
+      "inventoryFile": "inventory-translations/villians/BaronBlade.json",
+      "sourceName": "Baron Blade",
+      "provenance": "inventory-owner + observed-shared-role; synthetic combinations, not captured paths",
+      "contracts": {
+        "deck-reveal": {
+          "family": "deck-selection",
+          "id": "nonhero-BaronBlade-deck-reveal"
+        },
+        "deck-replace": {
+          "family": "deck-selection",
+          "id": "nonhero-BaronBlade-deck-replace"
+        },
+        "deck-draw": {
+          "family": "draw-discard",
+          "id": "nonhero-BaronBlade-deck-draw"
+        },
+        "trash-discard": {
+          "family": "draw-discard",
+          "id": "nonhero-BaronBlade-trash-discard"
+        },
+        "deck-discard-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-BaronBlade-deck-discard-excluded"
+        },
+        "trash-replace-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-BaronBlade-trash-replace-excluded"
+        },
+        "trash-draw-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-BaronBlade-trash-draw-excluded"
+        },
+        "wrong-category-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-BaronBlade-wrong-category-excluded"
+        },
+        "hero-layout-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-BaronBlade-hero-layout-excluded"
+        },
+        "unknown-owner-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-BaronBlade-unknown-owner-excluded"
+        },
+        "hp-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-BaronBlade-hp-excluded"
+        },
+        "small-effect": {
+          "family": "effect-button",
+          "id": "nonhero-BaronBlade-small-effect"
+        },
+        "full-effect": {
+          "family": "effect-button",
+          "id": "nonhero-BaronBlade-full-effect"
+        },
+        "hint-phase": {
+          "family": "hint",
+          "id": "nonhero-BaronBlade-hint-phase"
+        },
+        "result-reveal": {
+          "family": "description",
+          "id": "nonhero-BaronBlade-result-reveal"
+        }
+      }
+    },
+    {
+      "id": "CitizenDawn",
+      "kind": "villain",
+      "inventoryFile": "inventory-translations/villians/CitizenDawn.json",
+      "sourceName": "Citizen Dawn",
+      "provenance": "inventory-owner + observed-shared-role; synthetic combinations, not captured paths",
+      "contracts": {
+        "deck-reveal": {
+          "family": "deck-selection",
+          "id": "nonhero-CitizenDawn-deck-reveal"
+        },
+        "deck-replace": {
+          "family": "deck-selection",
+          "id": "nonhero-CitizenDawn-deck-replace"
+        },
+        "deck-draw": {
+          "family": "draw-discard",
+          "id": "nonhero-CitizenDawn-deck-draw"
+        },
+        "trash-discard": {
+          "family": "draw-discard",
+          "id": "nonhero-CitizenDawn-trash-discard"
+        },
+        "deck-discard-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-CitizenDawn-deck-discard-excluded"
+        },
+        "trash-replace-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-CitizenDawn-trash-replace-excluded"
+        },
+        "trash-draw-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-CitizenDawn-trash-draw-excluded"
+        },
+        "wrong-category-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-CitizenDawn-wrong-category-excluded"
+        },
+        "hero-layout-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-CitizenDawn-hero-layout-excluded"
+        },
+        "unknown-owner-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-CitizenDawn-unknown-owner-excluded"
+        },
+        "hp-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-CitizenDawn-hp-excluded"
+        },
+        "small-effect": {
+          "family": "effect-button",
+          "id": "nonhero-CitizenDawn-small-effect"
+        },
+        "full-effect": {
+          "family": "effect-button",
+          "id": "nonhero-CitizenDawn-full-effect"
+        },
+        "hint-phase": {
+          "family": "hint",
+          "id": "nonhero-CitizenDawn-hint-phase"
+        },
+        "result-reveal": {
+          "family": "description",
+          "id": "nonhero-CitizenDawn-result-reveal"
+        }
+      }
+    },
+    {
+      "id": "GrandWarlordVoss",
+      "kind": "villain",
+      "inventoryFile": "inventory-translations/villians/GrandWarlordVoss.json",
+      "sourceName": "Grand Warlord Voss",
+      "provenance": "inventory-owner + observed-shared-role; synthetic combinations, not captured paths",
+      "contracts": {
+        "deck-reveal": {
+          "family": "deck-selection",
+          "id": "nonhero-GrandWarlordVoss-deck-reveal"
+        },
+        "deck-replace": {
+          "family": "deck-selection",
+          "id": "nonhero-GrandWarlordVoss-deck-replace"
+        },
+        "deck-draw": {
+          "family": "draw-discard",
+          "id": "nonhero-GrandWarlordVoss-deck-draw"
+        },
+        "trash-discard": {
+          "family": "draw-discard",
+          "id": "nonhero-GrandWarlordVoss-trash-discard"
+        },
+        "deck-discard-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-GrandWarlordVoss-deck-discard-excluded"
+        },
+        "trash-replace-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-GrandWarlordVoss-trash-replace-excluded"
+        },
+        "trash-draw-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-GrandWarlordVoss-trash-draw-excluded"
+        },
+        "wrong-category-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-GrandWarlordVoss-wrong-category-excluded"
+        },
+        "hero-layout-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-GrandWarlordVoss-hero-layout-excluded"
+        },
+        "unknown-owner-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-GrandWarlordVoss-unknown-owner-excluded"
+        },
+        "hp-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-GrandWarlordVoss-hp-excluded"
+        },
+        "small-effect": {
+          "family": "effect-button",
+          "id": "nonhero-GrandWarlordVoss-small-effect"
+        },
+        "full-effect": {
+          "family": "effect-button",
+          "id": "nonhero-GrandWarlordVoss-full-effect"
+        },
+        "hint-phase": {
+          "family": "hint",
+          "id": "nonhero-GrandWarlordVoss-hint-phase"
+        },
+        "result-reveal": {
+          "family": "description",
+          "id": "nonhero-GrandWarlordVoss-result-reveal"
+        }
+      }
+    },
+    {
+      "id": "Omnitron",
+      "kind": "villain",
+      "inventoryFile": "inventory-translations/villians/Omnitron.json",
+      "sourceName": "Omnitron",
+      "provenance": "inventory-owner + observed-shared-role; synthetic combinations, not captured paths",
+      "contracts": {
+        "deck-reveal": {
+          "family": "deck-selection",
+          "id": "nonhero-Omnitron-deck-reveal"
+        },
+        "deck-replace": {
+          "family": "deck-selection",
+          "id": "nonhero-Omnitron-deck-replace"
+        },
+        "deck-draw": {
+          "family": "draw-discard",
+          "id": "nonhero-Omnitron-deck-draw"
+        },
+        "trash-discard": {
+          "family": "draw-discard",
+          "id": "nonhero-Omnitron-trash-discard"
+        },
+        "deck-discard-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-Omnitron-deck-discard-excluded"
+        },
+        "trash-replace-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-Omnitron-trash-replace-excluded"
+        },
+        "trash-draw-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-Omnitron-trash-draw-excluded"
+        },
+        "wrong-category-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-Omnitron-wrong-category-excluded"
+        },
+        "hero-layout-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-Omnitron-hero-layout-excluded"
+        },
+        "unknown-owner-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-Omnitron-unknown-owner-excluded"
+        },
+        "hp-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-Omnitron-hp-excluded"
+        },
+        "small-effect": {
+          "family": "effect-button",
+          "id": "nonhero-Omnitron-small-effect"
+        },
+        "full-effect": {
+          "family": "effect-button",
+          "id": "nonhero-Omnitron-full-effect"
+        },
+        "hint-phase": {
+          "family": "hint",
+          "id": "nonhero-Omnitron-hint-phase"
+        },
+        "result-reveal": {
+          "family": "description",
+          "id": "nonhero-Omnitron-result-reveal"
+        }
+      }
+    },
+    {
+      "id": "TheMatriarch",
+      "kind": "villain",
+      "inventoryFile": "inventory-translations/villians/TheMatriarch.json",
+      "sourceName": "The Matriarch",
+      "provenance": "inventory-owner + observed-shared-role; synthetic combinations, not captured paths",
+      "contracts": {
+        "deck-reveal": {
+          "family": "deck-selection",
+          "id": "nonhero-TheMatriarch-deck-reveal"
+        },
+        "deck-replace": {
+          "family": "deck-selection",
+          "id": "nonhero-TheMatriarch-deck-replace"
+        },
+        "deck-draw": {
+          "family": "draw-discard",
+          "id": "nonhero-TheMatriarch-deck-draw"
+        },
+        "trash-discard": {
+          "family": "draw-discard",
+          "id": "nonhero-TheMatriarch-trash-discard"
+        },
+        "deck-discard-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-TheMatriarch-deck-discard-excluded"
+        },
+        "trash-replace-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-TheMatriarch-trash-replace-excluded"
+        },
+        "trash-draw-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-TheMatriarch-trash-draw-excluded"
+        },
+        "wrong-category-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-TheMatriarch-wrong-category-excluded"
+        },
+        "hero-layout-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-TheMatriarch-hero-layout-excluded"
+        },
+        "unknown-owner-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-TheMatriarch-unknown-owner-excluded"
+        },
+        "hp-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-TheMatriarch-hp-excluded"
+        },
+        "small-effect": {
+          "family": "effect-button",
+          "id": "nonhero-TheMatriarch-small-effect"
+        },
+        "full-effect": {
+          "family": "effect-button",
+          "id": "nonhero-TheMatriarch-full-effect"
+        },
+        "hint-phase": {
+          "family": "hint",
+          "id": "nonhero-TheMatriarch-hint-phase"
+        },
+        "result-reveal": {
+          "family": "description",
+          "id": "nonhero-TheMatriarch-result-reveal"
+        }
+      }
+    },
+    {
+      "id": "FreedomTower",
+      "kind": "environment",
+      "inventoryFile": "inventory-translations/environments/FreedomTower.json",
+      "sourceName": "Freedom Tower",
+      "provenance": "inventory-owner + observed-shared-role; synthetic combinations, not captured paths",
+      "contracts": {
+        "deck-reveal": {
+          "family": "deck-selection",
+          "id": "nonhero-FreedomTower-deck-reveal"
+        },
+        "deck-replace": {
+          "family": "deck-selection",
+          "id": "nonhero-FreedomTower-deck-replace"
+        },
+        "deck-draw": {
+          "family": "draw-discard",
+          "id": "nonhero-FreedomTower-deck-draw"
+        },
+        "trash-discard": {
+          "family": "draw-discard",
+          "id": "nonhero-FreedomTower-trash-discard"
+        },
+        "deck-discard-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-FreedomTower-deck-discard-excluded"
+        },
+        "trash-replace-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-FreedomTower-trash-replace-excluded"
+        },
+        "trash-draw-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-FreedomTower-trash-draw-excluded"
+        },
+        "wrong-category-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-FreedomTower-wrong-category-excluded"
+        },
+        "hero-layout-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-FreedomTower-hero-layout-excluded"
+        },
+        "unknown-owner-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-FreedomTower-unknown-owner-excluded"
+        },
+        "hp-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-FreedomTower-hp-excluded"
+        },
+        "small-effect": {
+          "family": "effect-button",
+          "id": "nonhero-FreedomTower-small-effect"
+        },
+        "full-effect": {
+          "family": "effect-button",
+          "id": "nonhero-FreedomTower-full-effect"
+        },
+        "hint-phase": {
+          "family": "hint",
+          "id": "nonhero-FreedomTower-hint-phase"
+        },
+        "result-reveal": {
+          "family": "description",
+          "id": "nonhero-FreedomTower-result-reveal"
+        }
+      }
+    },
+    {
+      "id": "InsulaPrimalis",
+      "kind": "environment",
+      "inventoryFile": "inventory-translations/environments/InsulaPrimalis.json",
+      "sourceName": "Insula Primalis",
+      "provenance": "inventory-owner + observed-shared-role; synthetic combinations, not captured paths",
+      "contracts": {
+        "deck-reveal": {
+          "family": "deck-selection",
+          "id": "nonhero-InsulaPrimalis-deck-reveal"
+        },
+        "deck-replace": {
+          "family": "deck-selection",
+          "id": "nonhero-InsulaPrimalis-deck-replace"
+        },
+        "deck-draw": {
+          "family": "draw-discard",
+          "id": "nonhero-InsulaPrimalis-deck-draw"
+        },
+        "trash-discard": {
+          "family": "draw-discard",
+          "id": "nonhero-InsulaPrimalis-trash-discard"
+        },
+        "deck-discard-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-InsulaPrimalis-deck-discard-excluded"
+        },
+        "trash-replace-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-InsulaPrimalis-trash-replace-excluded"
+        },
+        "trash-draw-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-InsulaPrimalis-trash-draw-excluded"
+        },
+        "wrong-category-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-InsulaPrimalis-wrong-category-excluded"
+        },
+        "hero-layout-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-InsulaPrimalis-hero-layout-excluded"
+        },
+        "unknown-owner-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-InsulaPrimalis-unknown-owner-excluded"
+        },
+        "hp-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-InsulaPrimalis-hp-excluded"
+        },
+        "small-effect": {
+          "family": "effect-button",
+          "id": "nonhero-InsulaPrimalis-small-effect"
+        },
+        "full-effect": {
+          "family": "effect-button",
+          "id": "nonhero-InsulaPrimalis-full-effect"
+        },
+        "hint-phase": {
+          "family": "hint",
+          "id": "nonhero-InsulaPrimalis-hint-phase"
+        },
+        "result-reveal": {
+          "family": "description",
+          "id": "nonhero-InsulaPrimalis-result-reveal"
+        }
+      }
+    },
+    {
+      "id": "Magmaria",
+      "kind": "environment",
+      "inventoryFile": "inventory-translations/environments/Magmaria.json",
+      "sourceName": "Magmaria",
+      "provenance": "inventory-owner + observed-shared-role; synthetic combinations, not captured paths",
+      "contracts": {
+        "deck-reveal": {
+          "family": "deck-selection",
+          "id": "nonhero-Magmaria-deck-reveal"
+        },
+        "deck-replace": {
+          "family": "deck-selection",
+          "id": "nonhero-Magmaria-deck-replace"
+        },
+        "deck-draw": {
+          "family": "draw-discard",
+          "id": "nonhero-Magmaria-deck-draw"
+        },
+        "trash-discard": {
+          "family": "draw-discard",
+          "id": "nonhero-Magmaria-trash-discard"
+        },
+        "deck-discard-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-Magmaria-deck-discard-excluded"
+        },
+        "trash-replace-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-Magmaria-trash-replace-excluded"
+        },
+        "trash-draw-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-Magmaria-trash-draw-excluded"
+        },
+        "wrong-category-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-Magmaria-wrong-category-excluded"
+        },
+        "hero-layout-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-Magmaria-hero-layout-excluded"
+        },
+        "unknown-owner-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-Magmaria-unknown-owner-excluded"
+        },
+        "hp-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-Magmaria-hp-excluded"
+        },
+        "small-effect": {
+          "family": "effect-button",
+          "id": "nonhero-Magmaria-small-effect"
+        },
+        "full-effect": {
+          "family": "effect-button",
+          "id": "nonhero-Magmaria-full-effect"
+        },
+        "hint-phase": {
+          "family": "hint",
+          "id": "nonhero-Magmaria-hint-phase"
+        },
+        "result-reveal": {
+          "family": "description",
+          "id": "nonhero-Magmaria-result-reveal"
+        }
+      }
+    },
+    {
+      "id": "Megalopolis",
+      "kind": "environment",
+      "inventoryFile": "inventory-translations/environments/Megalopolis.json",
+      "sourceName": "Megalopolis",
+      "provenance": "inventory-owner + observed-shared-role; synthetic combinations, not captured paths",
+      "contracts": {
+        "deck-reveal": {
+          "family": "deck-selection",
+          "id": "nonhero-Megalopolis-deck-reveal"
+        },
+        "deck-replace": {
+          "family": "deck-selection",
+          "id": "nonhero-Megalopolis-deck-replace"
+        },
+        "deck-draw": {
+          "family": "draw-discard",
+          "id": "nonhero-Megalopolis-deck-draw"
+        },
+        "trash-discard": {
+          "family": "draw-discard",
+          "id": "nonhero-Megalopolis-trash-discard"
+        },
+        "deck-discard-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-Megalopolis-deck-discard-excluded"
+        },
+        "trash-replace-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-Megalopolis-trash-replace-excluded"
+        },
+        "trash-draw-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-Megalopolis-trash-draw-excluded"
+        },
+        "wrong-category-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-Megalopolis-wrong-category-excluded"
+        },
+        "hero-layout-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-Megalopolis-hero-layout-excluded"
+        },
+        "unknown-owner-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-Megalopolis-unknown-owner-excluded"
+        },
+        "hp-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-Megalopolis-hp-excluded"
+        },
+        "small-effect": {
+          "family": "effect-button",
+          "id": "nonhero-Megalopolis-small-effect"
+        },
+        "full-effect": {
+          "family": "effect-button",
+          "id": "nonhero-Megalopolis-full-effect"
+        },
+        "hint-phase": {
+          "family": "hint",
+          "id": "nonhero-Megalopolis-hint-phase"
+        },
+        "result-reveal": {
+          "family": "description",
+          "id": "nonhero-Megalopolis-result-reveal"
+        }
+      }
+    },
+    {
+      "id": "TheRuinsOfAtlantis",
+      "kind": "environment",
+      "inventoryFile": "inventory-translations/environments/TheRuinsOfAtlantis.json",
+      "sourceName": "The Ruins of Atlantis",
+      "provenance": "inventory-owner + observed-shared-role; synthetic combinations, not captured paths",
+      "contracts": {
+        "deck-reveal": {
+          "family": "deck-selection",
+          "id": "nonhero-TheRuinsOfAtlantis-deck-reveal"
+        },
+        "deck-replace": {
+          "family": "deck-selection",
+          "id": "nonhero-TheRuinsOfAtlantis-deck-replace"
+        },
+        "deck-draw": {
+          "family": "draw-discard",
+          "id": "nonhero-TheRuinsOfAtlantis-deck-draw"
+        },
+        "trash-discard": {
+          "family": "draw-discard",
+          "id": "nonhero-TheRuinsOfAtlantis-trash-discard"
+        },
+        "deck-discard-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-TheRuinsOfAtlantis-deck-discard-excluded"
+        },
+        "trash-replace-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-TheRuinsOfAtlantis-trash-replace-excluded"
+        },
+        "trash-draw-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-TheRuinsOfAtlantis-trash-draw-excluded"
+        },
+        "wrong-category-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-TheRuinsOfAtlantis-wrong-category-excluded"
+        },
+        "hero-layout-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-TheRuinsOfAtlantis-hero-layout-excluded"
+        },
+        "unknown-owner-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-TheRuinsOfAtlantis-unknown-owner-excluded"
+        },
+        "hp-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-TheRuinsOfAtlantis-hp-excluded"
+        },
+        "small-effect": {
+          "family": "effect-button",
+          "id": "nonhero-TheRuinsOfAtlantis-small-effect"
+        },
+        "full-effect": {
+          "family": "effect-button",
+          "id": "nonhero-TheRuinsOfAtlantis-full-effect"
+        },
+        "hint-phase": {
+          "family": "hint",
+          "id": "nonhero-TheRuinsOfAtlantis-hint-phase"
+        },
+        "result-reveal": {
+          "family": "description",
+          "id": "nonhero-TheRuinsOfAtlantis-result-reveal"
+        }
+      }
+    },
+    {
+      "id": "WagnerMarsBase",
+      "kind": "environment",
+      "inventoryFile": "inventory-translations/environments/WagnerMarsBase.json",
+      "sourceName": "Wagner Mars Base",
+      "provenance": "inventory-owner + observed-shared-role; synthetic combinations, not captured paths",
+      "contracts": {
+        "deck-reveal": {
+          "family": "deck-selection",
+          "id": "nonhero-WagnerMarsBase-deck-reveal"
+        },
+        "deck-replace": {
+          "family": "deck-selection",
+          "id": "nonhero-WagnerMarsBase-deck-replace"
+        },
+        "deck-draw": {
+          "family": "draw-discard",
+          "id": "nonhero-WagnerMarsBase-deck-draw"
+        },
+        "trash-discard": {
+          "family": "draw-discard",
+          "id": "nonhero-WagnerMarsBase-trash-discard"
+        },
+        "deck-discard-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-WagnerMarsBase-deck-discard-excluded"
+        },
+        "trash-replace-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-WagnerMarsBase-trash-replace-excluded"
+        },
+        "trash-draw-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-WagnerMarsBase-trash-draw-excluded"
+        },
+        "wrong-category-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-WagnerMarsBase-wrong-category-excluded"
+        },
+        "hero-layout-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-WagnerMarsBase-hero-layout-excluded"
+        },
+        "unknown-owner-excluded": {
+          "family": "deck-selection",
+          "id": "nonhero-WagnerMarsBase-unknown-owner-excluded"
+        },
+        "hp-excluded": {
+          "family": "draw-discard",
+          "id": "nonhero-WagnerMarsBase-hp-excluded"
+        },
+        "small-effect": {
+          "family": "effect-button",
+          "id": "nonhero-WagnerMarsBase-small-effect"
+        },
+        "full-effect": {
+          "family": "effect-button",
+          "id": "nonhero-WagnerMarsBase-full-effect"
+        },
+        "hint-phase": {
+          "family": "hint",
+          "id": "nonhero-WagnerMarsBase-hint-phase"
+        },
+        "result-reveal": {
+          "family": "description",
+          "id": "nonhero-WagnerMarsBase-result-reveal"
+        }
+      }
+    }
+  ],
+  "requiredChecks": [
+    "deck-reveal",
+    "deck-replace",
+    "deck-draw",
+    "trash-discard",
+    "deck-discard-excluded",
+    "trash-replace-excluded",
+    "trash-draw-excluded",
+    "wrong-category-excluded",
+    "hero-layout-excluded",
+    "unknown-owner-excluded",
+    "hp-excluded",
+    "small-effect",
+    "full-effect",
+    "hint-phase",
+    "result-reveal"
+  ]
+}
