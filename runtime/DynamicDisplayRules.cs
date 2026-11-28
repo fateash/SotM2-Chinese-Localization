@@ -18,6 +18,8 @@ public sealed class DynamicDisplayRules {
   ["hint.destroy.play.under.upto"]=(3,""),["hint.destroy.play.under.upto.first"]=(3,""),["hint.destroy.play.under.exact.first"]=(3,""),
   ["hint.card.replace"]=(0,""),
   ["hint.hero.discard.hand"]=(0,""),
+  ["hint.trash.owner.shuffle"]=(2,""),
+  ["button.trash.reshuffle"]=(0,""),
   ["button.play.item"]=(0,""),
   ["message.villain.trash15"]=(0,""),
   ["message.villain.targets10"]=(0,""),
@@ -259,6 +261,8 @@ public sealed class DynamicDisplayRules {
  static readonly Regex DestroyPlayOrUnderExact=Rx(@"\AClick (?<n>[0-9]{1,6}) (?<unit>card|cards) in play or under (?<name>[^<>\r\n]{1,200}) to destroy (?<pronoun>it|them)(?<first> before other cards)?\.\z");
  static readonly Regex DestroyPlayOrUnderUpTo=Rx(@"\AClick up to (?<n>[0-9]{1,6}) (?<unit>card|cards) in play or under (?<name>[^<>\r\n]{1,200}) to destroy (?<pronoun>it|them)(?<first> before other cards)?\.\z");
  static readonly Regex TrashOwnerDiscard=Rx(@"\AClick (?<owner>[^<>\r\n]{1,200})'s trash to discard (?<card>[^<>\r\n]{1,200})\.\z");
+ // Keep the duplicated 'to' from the observed source; do not rewrite arbitrary fragments.
+ static readonly Regex TrashOwnerShuffle=Rx(@"\AClick (?<owner>[^<>\r\n]{1,200})'s trash to to shuffle it into its deck\.\z");
  public DynamicDisplayRules(Dictionary<string,string> values,Func<string,string>? nameResolver=null){
   resolveName=nameResolver??(s=>s);
   if(values==null || values.Count!=Specs.Count)throw new InvalidDataException("Incomplete dynamic pilot templates");
@@ -302,7 +306,7 @@ public sealed class DynamicDisplayRules {
   }
   if(path==ContinuePath)return source switch {"Skip"=>Format("button.skip"),"Skip Play"=>Format("button.skip.play.action"),"Skip Draw"=>Format("button.skip.draw.action"),"Skip Power"=>Format("button.skip.power.action"),"Skip Incapacitated Phase"=>Format("button.skip.incapacitated"),"Skip Play Phase"=>Format("button.skip.play"),"Skip Power Phase"=>Format("button.skip.power"),_=>null};
   if(path==DrawPath && source=="Draw")return Format("button.draw");
-  if(TrashSelection.IsMatch(path))return source switch {"Discard"=>Format("button.discard"),"Trash"=>Format("button.location.trash"),_=>null};
+  if(TrashSelection.IsMatch(path))return source switch {"Discard"=>Format("button.discard"),"Trash"=>Format("button.location.trash"),"Reshuffle"=>Format("button.trash.reshuffle"),_=>null};
   if(HeroSelection.IsMatch(path))return source switch {"Draw"=>Format("button.draw"),"Discard"=>Format("button.discard"),"Play a Card"=>Format("button.play.card"),"Use a Power"=>Format("button.use.power"),"Put a Card"=>Format("button.put.card"),"Destroy a Card"=>Format("button.destroy.card"),"Has the Fewest"=>Format("button.fewest"),"Has the Most"=>Format("button.most"),"Take Play Phase"=>Format("button.take.play"),"Take Power Phase"=>Format("button.take.power"),_=>null};
   if(DeckSelection.IsMatch(path))return source switch {"Deck"=>Format("button.location.deck"),"Reveal"=>Format("button.reveal"),"Draw"=>Format("button.draw"),"Replace"=>Format("button.replace"),_=>null};
   if(path==DescriptionPath){
@@ -368,6 +372,8 @@ public sealed class DynamicDisplayRules {
    "Click a card in hand to discard it."=>"hint.discard.single", "Click a deck to reveal a card."=>"hint.deck.reveal",_=>null};
   if(fixedText!=null)return prefix+Format(fixedText);
   if(SelectionTitles.TryGetValue(body,out var selectionTitle))return prefix+Format(selectionTitle);
+  var shuffle=TrashOwnerShuffle.Match(body);
+  if(shuffle.Success && !string.IsNullOrWhiteSpace(shuffle.Groups["owner"].Value))return Format("hint.trash.owner.shuffle",prefix,shuffle.Groups["owner"].Value);
   var salvage=SalvageTrashUpTo.Match(body);
   if(salvage.Success && (salvage.Groups["n"].Value=="1")== (salvage.Groups["unit"].Value=="card") && (salvage.Groups["n"].Value=="1")== (salvage.Groups["pronoun"].Value=="it"))return Format("hint.trash.salvage.upto",prefix,salvage.Groups["n"].Value);
   var ownerDiscard=TrashOwnerDiscard.Match(body);

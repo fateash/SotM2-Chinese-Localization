@@ -201,7 +201,9 @@
     "result.wagner.exploded": "瓦格纳火星基地爆炸了！",
     "message.villain.trash15": "反派弃牌堆中有至少15张牌。",
     "message.villain.targets10": "场上有至少10个反派目标。",
-    "hint.hero.discard.hand": "点击一名英雄，使其弃置全部手牌。"
+    "hint.hero.discard.hand": "点击一名英雄，使其弃置全部手牌。",
+    "button.trash.reshuffle": "洗回牌库",
+    "hint.trash.owner.shuffle": "{0}点击{1}的弃牌堆，将其洗入所属牌库。"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",

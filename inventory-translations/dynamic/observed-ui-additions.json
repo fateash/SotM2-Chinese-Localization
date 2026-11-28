@@ -18,7 +18,7 @@
     "original": "Reshuffle",
     "translation": "洗回牌库",
     "stage": 1,
-    "context": "已捕获完整句的编辑归一化；显示尚未接入。本次为弃牌堆洗回所属牌库，需接入该用途；其他语境不全局替换。"
+    "context": "已捕获完整句的编辑归一化；0.1.29已按弃牌堆用途与完整HUD句式接入，待实机验收。本次为弃牌堆洗回所属牌库，需接入该用途；其他语境不全局替换。"
   },
   {
     "key": "editorial.ui.button.play.item",
@@ -123,7 +123,7 @@
     "original": "Click {0}'s trash to to shuffle it into its deck.",
     "translation": "点击{0}的弃牌堆，将其洗入所属牌库。",
     "stage": 1,
-    "context": "已捕获完整句的编辑归一化；显示尚未接入。{0}为牌库持有者；保留重复to原文。"
+    "context": "已捕获完整句的编辑归一化；0.1.29已按弃牌堆用途与完整HUD句式接入，待实机验收。{0}为牌库持有者；保留重复to原文。"
   },
   {
     "key": "editorial.ui.hint.draw.owner.one",

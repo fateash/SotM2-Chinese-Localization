@@ -3227,6 +3227,34 @@
       "reason": "FinalDive完整正文与Fanatic.json两条审定译文逐字核对；仅拉丁规则变量X保留，不属于英文漏译。1与4及两处X均与原文对应。",
       "owner": "本地化维护者",
       "nextAction": "保留规则变量和明确数字；仅本条证据登记，不放宽含拉丁字母中文文本的整体审计，不记为实机交互验收。"
+    },
+    {
+      "id": "ca9c1f3fbbf3f901d67b5a0c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "库存已有审定译文；补齐弃牌堆洗回按钮和完整HUD提示的用途入口。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.29完整重启后复现异星气象，检查提示、按钮、牌库归属及点击行为。",
+      "resolution": {
+        "version": "0.1.29-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "洗回牌库",
+        "evidence": "coverage/contracts.json#trash-reshuffle"
+      }
+    },
+    {
+      "id": "e0ca66b1e202a5fcb892a513",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "库存已有审定译文；补齐弃牌堆洗回按钮和完整HUD提示的用途入口。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.29完整重启后复现异星气象，检查提示、按钮、牌库归属及点击行为。",
+      "resolution": {
+        "version": "0.1.29-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>异星气象:</b> 点击风暴的弃牌堆，将其洗入所属牌库。",
+        "evidence": "coverage/contracts.json#trash-reshuffle"
+      }
     }
   ]
 }

@@ -3596,6 +3596,16 @@
       "id": "d386447b6229e35f787fc0dd",
       "reason": "current-rule-match",
       "target": "<b>潜行机偶:</b> <b>高楼失火</b>将对<b>优妮蒂</b>造成2点火焰伤害。点击一张牌，先发动其效果。"
+    },
+    {
+      "id": "ca9c1f3fbbf3f901d67b5a0c",
+      "reason": "current-rule-match",
+      "target": "洗回牌库"
+    },
+    {
+      "id": "e0ca66b1e202a5fcb892a513",
+      "reason": "current-rule-match",
+      "target": "<b>异星气象:</b> 点击风暴的弃牌堆，将其洗入所属牌库。"
     }
   ]
 }
