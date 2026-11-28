@@ -175,4 +175,4 @@ try{
  $j.status='rolled-back';WriteJson (Join-Path $archive 'transaction.json') $j
  throw ($failure+' | Previous files restored; archive: '+$archive)
 }
-Write-Host '0.1.39-rc.1 clean installation complete. Reviewed text and name rules installed; old project files archived outside plugin loading paths.'
+Write-Host ($manifest.version+' clean installation complete. Reviewed text and name rules installed; old project files archived outside plugin loading paths.')

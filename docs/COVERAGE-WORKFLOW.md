@@ -171,3 +171,10 @@ python3 tools/coverage_audit.py check --require-stage-1-complete
 仅当GetLogoImageSpriteName返回许可名、实际sprite名称吻合、Image确实为该CardView.LogoImage时替换；不改变名称返回值、RectTransform、UI层级、材质、颜色、raycastTarget或游戏模型。异步资源写入在Image.sprite入口替换；绑定较晚时在已有Canvas绘制前回补，Unity Update保留备用。场景销毁清理跟踪引用，纹理与Sprite保活；同控件复用先恢复旧原图，再等待新身份及原资源匹配。资源损坏保留原图。
 
 新增31个合成资源映射契约及3个代表性实机验收场景；它们不借用已关闭的38项文字验收，也不新增历史采集阻断。离线契约仅证明规则范围，不证明实际布局或首次呈现时序。全套脚本、运行回归、覆盖审计及新资源安装／恢复验证后交付实机测试。
+
+
+### 0.1.44已验收基线（2026-11-28）
+
+用户确认“测试均通过”，并授权审核后将testing/runtime合并main。五份0.1.44记录按原有intake流程追加，DLL／词典／字体／两类图片数据与测试包一致，无采集上限或新合并阻断；它们是同一进程的递增采集，不算五次独立运行。全能智创小牌背另有直接截图。
+
+四项图片代表场景记录为用户统一验收通过，与此前38项合计42项，待确认0项。依据见coverage/acceptance-closeout-0.1.44.json。仍保留离线契约、旧日志、历史技术库存和严格阶段收尾待办；main作为后续开发基线不等于公开玩家Release或全游戏穷尽覆盖。

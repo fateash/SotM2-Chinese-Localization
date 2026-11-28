@@ -1284,25 +1284,61 @@
           "id": "six-villains",
           "check": "六基础反派正反面字标比例；鸦母按恢复乌鸦后的完整徽记校准",
           "passCriteria": "六个中文名称无错字；字形、透明边缘、比例正确，无遮挡正文／生命值，刀锋刃尖不裁切",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.44-rc.1",
+            "source": "用户2026-11-28测试均通过确认＋五份0.1.44证据及全能智创小牌背截图",
+            "humanConfirmation": "测试均通过，再审核一下目前test分支的整体情况，无误后合并至main作为后续的基线",
+            "visualResult": "用户确认本轮测试均通过，包含六字标比例、鸦母完整徽记及小牌背；截图直接显示全能智创小牌背中文。",
+            "interactionResult": "用户统一确认本轮场景通过；未补造逐操作日志或测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.44.json"
+          }
         },
         {
           "id": "reuse",
           "check": "快速切换反派、英雄／变体、翻面、撤销",
           "passCriteria": "不串图、不闪回英文；其他角色和非字标图片不变",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.44-rc.1",
+            "source": "用户2026-11-28测试均通过确认＋五份0.1.44证据及全能智创小牌背截图",
+            "humanConfirmation": "测试均通过，再审核一下目前test分支的整体情况，无误后合并至main作为后续的基线",
+            "visualResult": "用户确认本轮测试均通过，包含六字标比例、鸦母完整徽记及小牌背；截图直接显示全能智创小牌背中文。",
+            "interactionResult": "用户统一确认本轮场景通过；未补造逐操作日志或测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.44.json"
+          }
         },
         {
           "id": "reload",
           "check": "回主菜单、进入牌局、保存读档与重启",
           "passCriteria": "字标持续可见，按钮及数值行为正常",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.44-rc.1",
+            "source": "用户2026-11-28测试均通过确认＋五份0.1.44证据及全能智创小牌背截图",
+            "humanConfirmation": "测试均通过，再审核一下目前test分支的整体情况，无误后合并至main作为后续的基线",
+            "visualResult": "用户确认本轮测试均通过，包含六字标比例、鸦母完整徽记及小牌背；截图直接显示全能智创小牌背中文。",
+            "interactionResult": "用户统一确认本轮场景通过；未补造逐操作日志或测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.44.json"
+          }
         },
         {
           "id": "small-deckbacks",
           "check": "六个基础反派小牌背、放大牌背、切换与撤销",
           "passCriteria": "小牌背中文无残留英文，图稿构图及字形合格；大牌背正常，英雄／环境／变体不误替换",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.44-rc.1",
+            "source": "用户2026-11-28测试均通过确认＋五份0.1.44证据及全能智创小牌背截图",
+            "humanConfirmation": "测试均通过，再审核一下目前test分支的整体情况，无误后合并至main作为后续的基线",
+            "visualResult": "用户确认本轮测试均通过，包含六字标比例、鸦母完整徽记及小牌背；截图直接显示全能智创小牌背中文。",
+            "interactionResult": "用户统一确认本轮场景通过；未补造逐操作日志或测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.44.json"
+          }
         }
       ],
       "previousFeedback": {
@@ -1319,8 +1355,9 @@
     }
   ],
   "closeout": {
-    "version": "0.1.42-rc.1",
+    "version": "0.1.44-rc.1",
     "date": "2026-11-28",
-    "record": "coverage/acceptance-closeout-0.1.42.json"
+    "record": "coverage/acceptance-closeout-0.1.44.json",
+    "priorRecord": "coverage/acceptance-closeout-0.1.42.json"
   }
 }
