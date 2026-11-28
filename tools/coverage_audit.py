@@ -338,12 +338,44 @@ def validate_regression(baseline, replay):
             errors.append('known-observation-regressed:' + row['id'])
     return errors
 
-def make_report(snapshot, replay, triage, catalog_hash, drafts):
+def session_gate_issues(sessions, waivers=None):
+    """A recorded maintainer waiver changes merge gating, never capture evidence."""
+    waivers = waivers if waivers is not None else {'schemaVersion': 1, 'entries': []}
+    if waivers.get('schemaVersion') != 1 or not isinstance(waivers.get('entries'), list):
+        raise ValueError('Invalid capture waiver schema')
+    accepted, seen = [], set()
+    for row in waivers['entries']:
+        if row.get('issue') != 'bounded-capture-limit-reached':
+            raise ValueError('Only capture-limit issues may be waived')
+        if not all(isinstance(row.get(k), str) and row[k].strip() for k in
+                   ('file', 'sha256', 'version', 'buildId', 'approvedBy', 'approvedAt',
+                    'authorization', 'reason', 'scope')):
+            raise ValueError('Capture waiver needs identity and explicit authorization')
+        if row['scope'] != 'merge-only-not-live-acceptance' or not re.fullmatch(r'[0-9a-f]{64}', row['sha256']):
+            raise ValueError('Invalid capture waiver scope or hash')
+        identity = tuple(row[k] for k in ('file', 'sha256', 'version', 'buildId', 'issue'))
+        if identity in seen:
+            raise ValueError('Duplicate capture waiver')
+        seen.add(identity)
+        matches = [s for s in sessions if all(s.get(k) == row[k] for k in
+                   ('file', 'sha256', 'version', 'buildId'))]
+        if len(matches) != 1 or matches[0].get('captureLimitReached') is not True or row['issue'] not in matches[0]['issues']:
+            raise ValueError('Capture waiver must match an existing capped session exactly')
+        accepted.append(dict(row))
+    errors = [s['file'] + ':' + issue for s in sessions for issue in s['issues']
+              if tuple(s.get(k) for k in ('file', 'sha256', 'version', 'buildId')) + (issue,) not in seen]
+    return errors, accepted
+
+def capture_closure_errors(waivers):
+    # Release/phase completion still requires resolution of accepted evidence gaps.
+    return ['waived-capture-limit:' + row['sha256'] for row in waivers]
+
+def make_report(snapshot, replay, triage, catalog_hash, drafts, waivers=None):
     results = {r['id']: r for r in replay['rows']}
     decisions = {r['id']: r for r in triage['entries']}
     errors = validate_triage(snapshot['samples'], replay, triage)
-    for s in snapshot['sessions']:
-        errors.extend(s['file'] + ':' + x for x in s['issues'])
+    session_errors, accepted_waivers = session_gate_issues(snapshot['sessions'], waivers)
+    errors.extend(session_errors)
     counts = collections.Counter(r['reason'] for r in replay['rows'])
     entries = []
     for row in snapshot['samples']:
@@ -356,6 +388,7 @@ def make_report(snapshot, replay, triage, catalog_hash, drafts):
                                    'currentDisplayRuleMatched': result['reason'] == 'current-rule-match',
                                    'liveAccepted': False}})
     return {'schemaVersion': 1, 'summary': dict(sorted(counts.items())), 'gateErrors': errors,
+            'acceptedGateWaivers': accepted_waivers,
             'sessions': snapshot['sessions'], 'replayCatalogSha256': catalog_hash,
             'catalogMatchesCaptured': all(s['installed'].get('sample-texts.json') == catalog_hash for s in snapshot['sessions']),
             'limits': ['Offline replay is not screenshot/click acceptance.',
@@ -375,6 +408,11 @@ def markdown(report):
            '检查结果：' + ('通过（所有未知项已登记去向；不表示全部完成）' if not report['gateErrors'] else '未通过'), '',
            '| 分类 | 数量 |', '| --- | ---: |']
     out += [f'| {k} | {v} |' for k, v in report['summary'].items()]
+    if report.get('acceptedGateWaivers'):
+        out += ['', '## 本批合并放行（不等于实机验收）', '',
+                '原始采集上限记录保留；以下豁免不适用于新日志、其他错误或阶段完成检查。', '']
+        out += [f"- `{w['file']}` / `{w['sha256']}`：{w['reason']}（{w['approvedBy']}，{w['approvedAt']}）"
+                for w in report['acceptedGateWaivers']]
     if report.get('inventorySummary'):
         out += ['', '## 库存对账（不是实机完成率）', '', '| 状态 | 条数 |', '| --- | ---: |']
         out += [f'| {k} | {v} |' for k, v in report['inventorySummary'].items()]
@@ -441,6 +479,7 @@ def main():
     c.add_argument('--triage', default='coverage/triage.json')
     c.add_argument('--inventory-status', default='coverage/inventory-status.json')
     c.add_argument('--regression', default='coverage/regression-baseline.json')
+    c.add_argument('--gate-waivers', default='coverage/gate-waivers.json')
     c.add_argument('--catalog', default='build/sample-texts.json')
     c.add_argument('--probe', default='probe/dynamic-pilot.json')
     c.add_argument('--dotnet', default='dotnet'); c.add_argument('--out', default='build/coverage')
@@ -459,7 +498,7 @@ def main():
     subprocess.run([a.dotnet, 'run', '--project', str(ROOT / 'tools/coverage-replay/CoverageReplay.csproj'), '--',
                     a.catalog, a.probe, a.snapshot, a.contracts, str(replay_path)], check=True)
     report = make_report(read(a.snapshot), read(replay_path), read(a.triage), digest(Path(a.catalog).read_bytes()),
-                         drafts)
+                         drafts, read(a.gate_waivers))
     report['gateErrors'].extend(validate_regression(read(a.regression), read(replay_path)))
     report['nonheroMatrix'] = nonhero_summary
     report['inventorySummary'] = dict(collections.Counter(r['review']['conclusion'] for r in inventory_status.values()))
@@ -468,7 +507,7 @@ def main():
         row['reviewedStatus'] = status
         row['translationStatus'] = status['translation']
         row['liveAccepted'] = status['live'] == 'accepted'
-    closure = []
+    closure = capture_closure_errors(report['acceptedGateWaivers'])
     for e in report['entries']:
         if e['replay']['reason'] in ('unresolved-full-string', 'known-source-route-gap', 'truncated-evidence') and (e['triage'] or {}).get('disposition') in ('fix-stage-1', 'pending-diagnosis', 'catalog-difference-review'):
             closure.append('unresolved-stage-1:' + e['id'])
