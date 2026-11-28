@@ -366,6 +366,10 @@
         {
           "family": "destroy-order-and-target-hints",
           "id": "order-1-False"
+        },
+        {
+          "family": "hint",
+          "id": "041-drag-remaining-observed"
         }
       ],
       "scenarios": [
@@ -397,6 +401,19 @@
           "id": "most-ongoing",
           "check": "共振女妖选择视为在场持续牌最多的英雄",
           "passCriteria": "共振女妖前缀与持续牌限定完整汉化，点击后结算目标正确",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.40-rc.1",
+            "source": "用户2026-11-28本轮文字确认",
+            "humanConfirmation": "共振女妖提示已实测通过",
+            "visualResult": "共振女妖提示完整中文实测通过",
+            "interactionResult": "用户确认提示实测通过；不扩展到其他卡牌效果"
+          }
+        },
+        {
+          "id": "drag-remaining",
+          "check": "投掷飞刀拖动指定首个目标后继续选择剩余目标；与直接点击路径对照",
+          "passCriteria": "显示再点击至多2个目标，保留1点投射伤害；后续剩余数量与实际选择同步，结算正常",
           "status": "pending"
         }
       ],

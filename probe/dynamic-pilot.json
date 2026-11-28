@@ -226,7 +226,10 @@
     "newgame.rating.difficulty": "难度：{0}",
     "newgame.rating.peril": "危险度：{0}",
     "hint.destroy.play.upto.first": "{0}点击场上至多{1}张牌，先于其他牌将其破坏。",
-    "hint.destroy.target.single": "点击一个目标，将其破坏。"
+    "hint.destroy.target.single": "点击一个目标，将其破坏。",
+    "hint.attack.remaining.upto": "{0}再点击至多{1}个目标，对其各造成<nobr>{2}点{3}伤害</nobr>。",
+    "hint.attack.remaining.upto.dual": "{0}再点击至多{1}个目标，对其各造成<nobr>{2}点{3}伤害</nobr>和<nobr>{4}点{5}伤害</nobr>。",
+    "hint.attack.remaining.upto.triple": "{0}再点击至多{1}个目标，对其各造成<nobr>{2}点{3}伤害</nobr>、<nobr>{4}点{5}伤害</nobr>和<nobr>{6}点{7}伤害</nobr>。"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",

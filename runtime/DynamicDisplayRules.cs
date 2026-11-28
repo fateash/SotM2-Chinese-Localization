@@ -41,7 +41,9 @@ public sealed class DynamicDisplayRules {
   ["hint.trash.salvage.upto"]=(2,""),
   ["hint.target.topdeck"]=(0,""),
   ["hint.attack.required.unspecified"]=(4,""),["hint.hp.rank.multiple"]=(3,""),
-  ["hint.damage.amount"]=(0,""),["hint.attack.remaining"]=(4,"<nobr></nobr>"),
+  ["hint.damage.amount"]=(0,""),["hint.attack.remaining"]=(4,"<nobr></nobr>"),["hint.attack.remaining.upto"]=(4,"<nobr></nobr>"),
+  ["hint.attack.remaining.upto.dual"]=(6,"<nobr></nobr><nobr></nobr>"),
+  ["hint.attack.remaining.upto.triple"]=(8,"<nobr></nobr><nobr></nobr><nobr></nobr>"),
   ["finish.regain.targets"]=(1,""),["hint.regain.hero"]=(0,""),["hint.regain.upto"]=(2,""),
   ["hint.attack.required.list"]=(5,"<nobr></nobr>"),["hint.attack.exact.unspecified"]=(3,""),
   ["hint.attack.exact.dual"]=(6,"<nobr></nobr><nobr></nobr>"),
@@ -201,7 +203,7 @@ public sealed class DynamicDisplayRules {
  static readonly Regex RequiredTarget=Rx(@"\AClick <b>(?<target>[^<>\r\n]{1,200})</b> and (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
  static readonly Regex RequiredUnspecified=Rx(@"\AClick <b>(?<target>[^<>\r\n]{1,200})</b>(?:, <b>(?<target>[^<>\r\n]{1,200})</b>){0,11} and (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them (?<type>[a-z]+) damage\.\z");
  static readonly Regex MultipleHpRank=Rx(@"\AClick (?<count>[0-9]{1,6}) targets to determine which has the (?<rank>lowest|highest) HP\.\z");
- static readonly Regex RemainingTargets=Rx(@"\AClick (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
+ static readonly Regex RemainingTargets=Rx(@"\AClick (?<upto>up to )?(?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
  static readonly Regex RegainTargets=Rx(@"\A(?<count>[0-9]{1,6}) (?<unit>target|targets) regain HP\z");
  static readonly Regex RegainUpTo=Rx(@"\AClick up to (?<count>[0-9]{1,6}) targets to regain HP\.\z");
  static readonly Regex RequiredTargets=Rx(@"\AClick <b>(?<target>[^<>\r\n]{1,200})</b>(?:, <b>(?<target>[^<>\r\n]{1,200})</b>){1,11} and (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
@@ -515,9 +517,9 @@ public sealed class DynamicDisplayRules {
   }
   var remaining=RemainingTargets.Match(body);
   if(remaining.Success && ((remaining.Groups["count"].Value=="1")== (remaining.Groups["unit"].Value=="target")) && DamageNames.TryGetValue(remaining.Groups["type"].Value,out var remainingType))
-   return Format("hint.attack.remaining",prefix,remaining.Groups["count"].Value,remaining.Groups["n"].Value,remainingType);
+   return Format(remaining.Groups["upto"].Success?"hint.attack.remaining.upto":"hint.attack.remaining",prefix,remaining.Groups["count"].Value,remaining.Groups["n"].Value,remainingType);
   var targetMulti=TargetMultiDamage.Match(body);
-  if(targetMulti.Success && !(targetMulti.Groups["upto"].Success && targetMulti.Groups["remaining"].Success) &&
+  if(targetMulti.Success &&
      (targetMulti.Groups["single"].Success || ((targetMulti.Groups["count"].Value=="1")== (targetMulti.Groups["unit"].Value=="target") && (targetMulti.Groups["count"].Value=="1" || targetMulti.Groups["pronoun"].Value=="them")))){
    var amounts=new List<string>();bool valid=true;
    for(int i=1;i<=3;i++){
@@ -527,7 +529,7 @@ public sealed class DynamicDisplayRules {
    }
    if(valid){
     bool single=targetMulti.Groups["single"].Success;
-    string kind=single?"single":targetMulti.Groups["upto"].Success?"upto":targetMulti.Groups["remaining"].Success?"remaining":"exact";
+    string kind=single?"single":targetMulti.Groups["remaining"].Success?(targetMulti.Groups["upto"].Success?"remaining.upto":"remaining"):targetMulti.Groups["upto"].Success?"upto":"exact";
     string key=single && amounts.Count==4?"hint.attack.dual":"hint.attack."+kind+(amounts.Count==6?".triple":".dual");
     var args=new List<string>{prefix};if(!single)args.Add(targetMulti.Groups["count"].Value);args.AddRange(amounts);
     return Format(key,args.ToArray());
