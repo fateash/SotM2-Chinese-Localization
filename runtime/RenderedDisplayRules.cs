@@ -121,6 +121,11 @@ public sealed class RenderedDisplayRules {
  }
  // Names and style definitions verified in this build's default TMP stylesheet.
  // A style can select a different font from TMP_Text.font; that font needs its own CJK fallback.
+ public static string EmphasizeCardHeadings(string source){
+  // Only complete heading styles; body occurrences of these words remain unchanged.
+  source=Regex.Replace(source,@"(?<prefix><style=AbilityHeading><sprite name=""(?:Perform|Accompany|Fabricate|Exterminate)""> )(?<label>演奏|伴奏|制造|灭绝)(?<suffix></style>)",m=>m.Groups["prefix"].Value+"<b>"+m.Groups["label"].Value+"</b>"+m.Groups["suffix"].Value,RegexOptions.CultureInvariant);
+  return Regex.Replace(source,@"<style=PowerHeading>(?<label>异能[:：])(?<space> ?)</style>",m=>"<style=PowerHeading><b>"+m.Groups["label"].Value+"</b>"+m.Groups["space"].Value+"</style>",RegexOptions.CultureInvariant);
+ }
  public static string[] RequiredInlineFonts(string source){
   if(!DisplayScope.ContainsHan(source))return Array.Empty<string>();
   var fonts=new HashSet<string>(StringComparer.Ordinal);
@@ -254,6 +259,7 @@ public sealed class RenderedDisplayRules {
    if(m.Success && result.StartsWith(m.Groups["name"].Value,StringComparison.Ordinal))
     result=Name(m.Groups["name"].Value)+result.Substring(m.Groups["name"].Length);
   }
+  if(inCard && obj=="Body Label")result=EmphasizeCardHeadings(result);
   return result==source?null:result;
  }
 }

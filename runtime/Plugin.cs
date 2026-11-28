@@ -14,7 +14,7 @@ using Handelabra.Sentinels2.Engine.Controller;
 using UObj=UnityEngine.Object;
 namespace SotM2Chinese;
 
-[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.38")]
+[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.39")]
 public sealed class Plugin:BasePlugin {
  internal static Plugin Instance=null!;
  internal static Catalog Texts=new();
@@ -32,7 +32,7 @@ public sealed class Plugin:BasePlugin {
   var surfacePath=Path.Combine(Root,"surface-probe.json");
   if(File.Exists(surfacePath)){Surface=new SurfaceProbe(surfacePath);Log.LogInfo("SURFACE_PROBE_ENABLED configured-pilot bounded-capture");}
   UiSources=new HashSet<string>(Texts.Ui.Select(e=>e.Source),StringComparer.Ordinal);
-  Log.LogInfo("PROTOTYPE_LOADED 0.1.38-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
+  Log.LogInfo("PROTOTYPE_LOADED 0.1.39-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
   // Resolve types/methods without patching the game model or rule engine.
   var method=typeof(TextHelper).GetMethods().Single(m=>m.Name=="ReplaceTemplatesAndInsertSpecifics"&&m.GetParameters().Length==8);
   Log.LogInfo("DISPLAY_METHOD_RESOLVED "+method);
@@ -73,6 +73,7 @@ public sealed class Plugin:BasePlugin {
  public static void EnvironmentTitleStringInput(TMP_Text __instance,ref string __0){
   if(!Chinese || __instance==null || string.IsNullOrEmpty(__0))return;
   try {
+   Surface?.ObserveTitleInput(__instance,__0);
    if(!SurfaceProbe.IsEnvironmentDeckTitle(__instance))return;
    var target=Surface?.EnvironmentTitleInput(__instance,__0);
    if(target==null || !FontSupport.EnsureReady())return;
@@ -184,6 +185,7 @@ public sealed class ProbeBehaviour:MonoBehaviour {
    foreach(var t in texts) {
     if(t==null || t.gameObject==null || !t.gameObject.activeInHierarchy || !t.gameObject.scene.IsValid()) continue;
     active++;
+    Plugin.Surface?.ObserveTitleSnapshot(t);
     if(!Plugin.Chinese || !Plugin.Ready || !Plugin.TryReadStringLabel(t,out var current))continue;
     var zh=Plugin.UiSources.Contains(current)?Plugin.Texts.UiText(t.gameObject.name,current):null;
     if(zh==null && !DisplayScope.ContainsHan(current))continue;
@@ -194,6 +196,7 @@ public sealed class ProbeBehaviour:MonoBehaviour {
    }
    Plugin.Once("scan","UI_SCAN_OK activeTMP="+active+" legacyUI="+Resources.FindObjectsOfTypeAll<UnityEngine.UI.Text>().Length);
    if(active>0) Plugin.Once("active-ui","ACTIVE_UI_FOUND count="+active);
+   Plugin.Surface?.ObserveBackViews();
    FontSupport.KeepFontAlive();
   } catch(Exception ex) { Plugin.Ready=false; Plugin.Once("update-error", "UPDATE_ERROR "+ex); stopped=true; }
  }

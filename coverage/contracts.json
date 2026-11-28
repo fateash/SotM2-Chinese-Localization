@@ -3,11 +3,11 @@
   "reviewedFiles": {
     "runtime/DynamicDisplayRules.cs": "2d67cd4a1dc38e4f6be0583e6e13b33f5358517a4fac71fdb4714ebdcd087754",
     "runtime/SurfaceProbeRules.cs": "55f457e6d38d45c08fb4bc565c00473a57953723300a194362d3cb7dceec00b6",
-    "runtime/SurfaceProbe.cs": "104f2e100d9b27baaf9767baaeea064a3c54bf27dfc049a454cab3d0697b1f18",
-    "runtime/Plugin.cs": "ba04efc1e01695356f041cb8e94ea52c3e085c7702992e666d202ddee56e0ba3",
+    "runtime/SurfaceProbe.cs": "7f1f57f0dfeedb3761ceb0e15f7b4ae3a9fa1b717635a8ae47916438f1576475",
+    "runtime/Plugin.cs": "3d4950035916eaf86895564b70c8d5afe0698f03e2256fcb0ecede6165d75360",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
     "probe/dynamic-pilot.json": "66b730891851478384813ab351e0b99c548af7ec4152c3a12d9ec683f36a2f26",
-    "runtime/RenderedDisplayRules.cs": "c3d8f0e93a79809a377ba27f85ebaeeb5f867445337ce2eff1a6af0f46da9b26"
+    "runtime/RenderedDisplayRules.cs": "345e755bbee5a12ec71d46d4efad2924ce07e3e7fbcfd4dbc96bcac584829d60"
   },
   "families": [
     {
@@ -31568,7 +31568,7 @@
             "cardId": "RhapsodyOfVigor",
             "inCardView": true,
             "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\n至多5个目标各恢复2点生命值。\r\n",
-            "expected": "<style=AbilityHeading><sprite name=\"Perform\"> 演奏</style>\r\n至多5个目标各恢复2点生命值。\r\n"
+            "expected": "<style=AbilityHeading><sprite name=\"Perform\"> <b>演奏</b></style>\r\n至多5个目标各恢复2点生命值。\r\n"
           }
         },
         {
@@ -31718,7 +31718,7 @@
             "cardId": "CedisticDissonant",
             "inCardView": true,
             "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\n破坏1张乐器牌。若如此做，你可以破坏1张非角色牌。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> ACCOMPANY</style>\r\n1个盟友可以打出1张牌。\r\n",
-            "expected": "<style=AbilityHeading><sprite name=\"Perform\"> 演奏</style>\r\n破坏1张乐器牌。若如此做，你可以破坏1张非角色牌。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> 伴奏</style>\r\n1个盟友可以打出1张牌。\r\n"
+            "expected": "<style=AbilityHeading><sprite name=\"Perform\"> <b>演奏</b></style>\r\n破坏1张乐器牌。若如此做，你可以破坏1张非角色牌。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> <b>伴奏</b></style>\r\n1个盟友可以打出1张牌。\r\n"
           }
         },
         {
@@ -31775,7 +31775,7 @@
             "cardId": "InventivePreparation",
             "inCardView": true,
             "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>\r\n每位英雄展示其牌库顶牌，然后将其放回原处或弃置。然后，1位英雄可以抽2张牌。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> ACCOMPANY</style>\r\n发现1张持续牌。\r\n",
-            "expected": "<style=AbilityHeading><sprite name=\"Perform\"> 演奏</style>\r\n每位英雄展示其牌库顶牌，然后将其放回原处或弃置。然后，1位英雄可以抽2张牌。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> 伴奏</style>\r\n发现1张持续牌。\r\n"
+            "expected": "<style=AbilityHeading><sprite name=\"Perform\"> <b>演奏</b></style>\r\n每位英雄展示其牌库顶牌，然后将其放回原处或弃置。然后，1位英雄可以抽2张牌。\r\n<style=AbilityHeading><sprite name=\"Accompany\"> <b>伴奏</b></style>\r\n发现1张持续牌。\r\n"
           }
         },
         {
@@ -36484,7 +36484,7 @@
             "cardId": "PushingTheLimits",
             "inCardView": true,
             "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
-            "expected": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+            "expected": "<line-height=110%><style=PowerHeading><b>异能:</b> </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
           }
         },
         {
@@ -36500,7 +36500,7 @@
             "cardId": "PushingTheLimits",
             "inCardView": true,
             "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
-            "expected": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+            "expected": "<line-height=110%><style=PowerHeading><b>异能:</b> </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
           }
         },
         {
@@ -36516,7 +36516,7 @@
             "cardId": "PushingTheLimits",
             "inCardView": true,
             "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
-            "expected": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+            "expected": "<line-height=110%><style=PowerHeading><b>异能:</b> </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
           }
         },
         {
@@ -36532,7 +36532,7 @@
             "cardId": "PushingTheLimits",
             "inCardView": true,
             "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\n快子对自己造成2点固定火焰伤害。\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\n本阶段你可以额外打出1张牌。\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\n本阶段你可以额外抽1张牌。\n",
-            "expected": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\n快子对自己造成2点固定火焰伤害。\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\n本阶段你可以额外打出1张牌。\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\n本阶段你可以额外抽1张牌。\n</line-height>"
+            "expected": "<line-height=110%><style=PowerHeading><b>异能:</b> </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\n快子对自己造成2点固定火焰伤害。\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\n本阶段你可以额外打出1张牌。\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\n本阶段你可以额外抽1张牌。\n</line-height>"
           }
         },
         {
@@ -36548,12 +36548,12 @@
             "cardId": "PushingTheLimits",
             "inCardView": true,
             "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\\r\\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\\r\\n快子对自己造成2点固定火焰伤害。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\\r\\n本阶段你可以额外打出1张牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\\r\\n本阶段你可以额外抽1张牌。\\r\\n",
-            "expected": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\\r\\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\\r\\n快子对自己造成2点固定火焰伤害。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\\r\\n本阶段你可以额外打出1张牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\\r\\n本阶段你可以额外抽1张牌。\\r\\n</line-height>"
+            "expected": "<line-height=110%><style=PowerHeading><b>异能:</b> </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\\r\\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\\r\\n快子对自己造成2点固定火焰伤害。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\\r\\n本阶段你可以额外打出1张牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\\r\\n本阶段你可以额外抽1张牌。\\r\\n</line-height>"
           }
         },
         {
           "id": "028-pushing-reject-0",
-          "status": "excluded",
+          "status": "offline-covered",
           "view": "full-card",
           "heroState": "not-applicable",
           "layout": "shared",
@@ -36564,12 +36564,12 @@
             "cardId": "PushingTheLimits",
             "inCardView": true,
             "source": "<line-height=100%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>",
-            "expected": null
+            "expected": "<line-height=100%><style=PowerHeading><b>异能:</b> </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
           }
         },
         {
           "id": "028-pushing-reject-1",
-          "status": "excluded",
+          "status": "offline-covered",
           "view": "full-card",
           "heroState": "not-applicable",
           "layout": "shared",
@@ -36580,7 +36580,7 @@
             "cardId": "PushingTheLimits",
             "inCardView": true,
             "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
-            "expected": null
+            "expected": "<style=PowerHeading><b>异能:</b> </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n"
           }
         },
         {
@@ -36601,7 +36601,7 @@
         },
         {
           "id": "028-pushing-reject-3",
-          "status": "excluded",
+          "status": "offline-covered",
           "view": "full-card",
           "heroState": "not-applicable",
           "layout": "shared",
@@ -36612,12 +36612,12 @@
             "cardId": "OtherCard",
             "inCardView": true,
             "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
-            "expected": null
+            "expected": "<style=PowerHeading><b>异能:</b> </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n"
           }
         },
         {
           "id": "028-pushing-reject-4",
-          "status": "excluded",
+          "status": "offline-covered",
           "view": "full-card",
           "heroState": "not-applicable",
           "layout": "shared",
@@ -36628,12 +36628,12 @@
             "cardId": "PushingTheLimits",
             "inCardView": true,
             "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成4点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
-            "expected": null
+            "expected": "<style=PowerHeading><b>异能:</b> </style><style=PowerBody>快子对1个目标造成4点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n"
           }
         },
         {
           "id": "028-pushing-reject-5",
-          "status": "excluded",
+          "status": "offline-covered",
           "view": "full-card",
           "heroState": "not-applicable",
           "layout": "shared",
@@ -36644,7 +36644,7 @@
             "cardId": "PushingTheLimits",
             "inCardView": true,
             "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n额外规则",
-            "expected": null
+            "expected": "<style=PowerHeading><b>异能:</b> </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n额外规则"
           }
         },
         {
@@ -36661,7 +36661,7 @@
             "source": "<style=PowerHeading>POWER: </style><style=PowerBody>Tachyon对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\nTachyon对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>PLAY PHASE</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
             "inCardView": true,
             "cardButtonCandidate": false,
-            "expected": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+            "expected": "<line-height=110%><style=PowerHeading><b>异能:</b> </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
           }
         },
         {
@@ -36678,7 +36678,7 @@
             "source": "<style=PowerHeading>POWER: </style><style=PowerBody>Tachyon对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\nTachyon对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>PLAY PHASE</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
             "inCardView": true,
             "cardButtonCandidate": false,
-            "expected": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+            "expected": "<line-height=110%><style=PowerHeading><b>异能:</b> </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
           }
         }
       ]
@@ -50857,7 +50857,7 @@
             "source": "<style=PowerHeading>POWER: </style><style=PowerBody>This Hero deals 1 target 3 energy damage.\r\n</style>",
             "inCardView": true,
             "cardButtonCandidate": true,
-            "expected": "<style=PowerHeading>异能: </style><style=PowerBody>This Hero deals 1 target 3 energy damage.\r\n</style>"
+            "expected": "<style=PowerHeading><b>异能:</b> </style><style=PowerBody>This Hero deals 1 target 3 energy damage.\r\n</style>"
           }
         }
       ]
@@ -65874,7 +65874,7 @@
             "inCardView": true,
             "cardId": "AlacritousSubdominant",
             "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>",
-            "expected": "<style=AbilityHeading><sprite name=\"Perform\"> 演奏</style>",
+            "expected": "<style=AbilityHeading><sprite name=\"Perform\"> <b>演奏</b></style>",
             "expectedInlineFonts": [
               "AvenirNextLTPro-HeavyCn"
             ]
@@ -65893,7 +65893,7 @@
             "inCardView": true,
             "cardId": "AlacritousSubdominant",
             "source": "<style=AbilityHeading><sprite name=\"Perform\"> PERFORM</style>",
-            "expected": "<style=AbilityHeading><sprite name=\"Perform\"> 演奏</style>",
+            "expected": "<style=AbilityHeading><sprite name=\"Perform\"> <b>演奏</b></style>",
             "expectedInlineFonts": [
               "AvenirNextLTPro-HeavyCn"
             ]
@@ -65912,7 +65912,7 @@
             "inCardView": true,
             "cardId": "AlacritousSubdominant",
             "source": "<style=AbilityHeading><sprite name=\"Accompany\"> ACCOMPANY</style>",
-            "expected": "<style=AbilityHeading><sprite name=\"Accompany\"> 伴奏</style>",
+            "expected": "<style=AbilityHeading><sprite name=\"Accompany\"> <b>伴奏</b></style>",
             "expectedInlineFonts": [
               "AvenirNextLTPro-HeavyCn"
             ]
@@ -65931,7 +65931,7 @@
             "inCardView": true,
             "cardId": "AlacritousSubdominant",
             "source": "<style=AbilityHeading><sprite name=\"Accompany\"> ACCOMPANY</style>",
-            "expected": "<style=AbilityHeading><sprite name=\"Accompany\"> 伴奏</style>",
+            "expected": "<style=AbilityHeading><sprite name=\"Accompany\"> <b>伴奏</b></style>",
             "expectedInlineFonts": [
               "AvenirNextLTPro-HeavyCn"
             ]
@@ -65950,7 +65950,7 @@
             "inCardView": true,
             "cardId": "SingularityProjector",
             "source": "<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>",
-            "expected": "<style=AbilityHeading><sprite name=\"Fabricate\"> 制造</style>",
+            "expected": "<style=AbilityHeading><sprite name=\"Fabricate\"> <b>制造</b></style>",
             "expectedInlineFonts": [
               "AvenirNextLTPro-HeavyCn"
             ]
@@ -65969,7 +65969,7 @@
             "inCardView": true,
             "cardId": "SingularityProjector",
             "source": "<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>",
-            "expected": "<style=AbilityHeading><sprite name=\"Fabricate\"> 制造</style>",
+            "expected": "<style=AbilityHeading><sprite name=\"Fabricate\"> <b>制造</b></style>",
             "expectedInlineFonts": [
               "AvenirNextLTPro-HeavyCn"
             ]
@@ -65988,7 +65988,7 @@
             "inCardView": true,
             "cardId": "SingularityProjector",
             "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>",
-            "expected": "<style=AbilityHeading><sprite name=\"Exterminate\"> 灭绝</style>",
+            "expected": "<style=AbilityHeading><sprite name=\"Exterminate\"> <b>灭绝</b></style>",
             "expectedInlineFonts": [
               "AvenirNextLTPro-HeavyCn"
             ]
@@ -66007,7 +66007,7 @@
             "inCardView": true,
             "cardId": "SingularityProjector",
             "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>",
-            "expected": "<style=AbilityHeading><sprite name=\"Exterminate\"> 灭绝</style>",
+            "expected": "<style=AbilityHeading><sprite name=\"Exterminate\"> <b>灭绝</b></style>",
             "expectedInlineFonts": [
               "AvenirNextLTPro-HeavyCn"
             ]
@@ -66113,6 +66113,396 @@
             "source": "环境",
             "expected": null,
             "expectedSectionInset": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "card-heading-emphasis",
+      "templates": [],
+      "contexts": [
+        {
+          "id": "039-0-Body Label-True",
+          "status": "offline-covered",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "<style=AbilityHeading><sprite name=\"Perform\"> 演奏</style>\n正文保留1点伤害。",
+            "expected": "<style=AbilityHeading><sprite name=\"Perform\"> <b>演奏</b></style>\n正文保留1点伤害。"
+          }
+        },
+        {
+          "id": "039-0-Body Label-False",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "<style=AbilityHeading><sprite name=\"Perform\"> 演奏</style>\n正文保留1点伤害。",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-0-Hint Label-True",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Synthetic/Body Box/Hint Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "<style=AbilityHeading><sprite name=\"Perform\"> 演奏</style>\n正文保留1点伤害。",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-1-Body Label-True",
+          "status": "offline-covered",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "<style=AbilityHeading><sprite name=\"Accompany\"> 伴奏</style>\n正文保留1点伤害。",
+            "expected": "<style=AbilityHeading><sprite name=\"Accompany\"> <b>伴奏</b></style>\n正文保留1点伤害。"
+          }
+        },
+        {
+          "id": "039-1-Body Label-False",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "<style=AbilityHeading><sprite name=\"Accompany\"> 伴奏</style>\n正文保留1点伤害。",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-1-Hint Label-True",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Synthetic/Body Box/Hint Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "<style=AbilityHeading><sprite name=\"Accompany\"> 伴奏</style>\n正文保留1点伤害。",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-2-Body Label-True",
+          "status": "offline-covered",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "<style=AbilityHeading><sprite name=\"Fabricate\"> 制造</style>\n正文保留1点伤害。",
+            "expected": "<style=AbilityHeading><sprite name=\"Fabricate\"> <b>制造</b></style>\n正文保留1点伤害。"
+          }
+        },
+        {
+          "id": "039-2-Body Label-False",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "<style=AbilityHeading><sprite name=\"Fabricate\"> 制造</style>\n正文保留1点伤害。",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-2-Hint Label-True",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Synthetic/Body Box/Hint Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "<style=AbilityHeading><sprite name=\"Fabricate\"> 制造</style>\n正文保留1点伤害。",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-3-Body Label-True",
+          "status": "offline-covered",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> 灭绝</style>\n正文保留1点伤害。",
+            "expected": "<style=AbilityHeading><sprite name=\"Exterminate\"> <b>灭绝</b></style>\n正文保留1点伤害。"
+          }
+        },
+        {
+          "id": "039-3-Body Label-False",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> 灭绝</style>\n正文保留1点伤害。",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-3-Hint Label-True",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Synthetic/Body Box/Hint Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> 灭绝</style>\n正文保留1点伤害。",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-4-Body Label-True",
+          "status": "offline-covered",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "<style=PowerHeading>异能: </style>正文1点伤害。",
+            "expected": "<style=PowerHeading><b>异能:</b> </style>正文1点伤害。"
+          }
+        },
+        {
+          "id": "039-4-Body Label-False",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "<style=PowerHeading>异能: </style>正文1点伤害。",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-4-Hint Label-True",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Synthetic/Body Box/Hint Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "<style=PowerHeading>异能: </style>正文1点伤害。",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-5-Body Label-True",
+          "status": "offline-covered",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "<style=PowerHeading>异能：</style>正文1点伤害。",
+            "expected": "<style=PowerHeading><b>异能：</b></style>正文1点伤害。"
+          }
+        },
+        {
+          "id": "039-5-Body Label-False",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "<style=PowerHeading>异能：</style>正文1点伤害。",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-5-Hint Label-True",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Synthetic/Body Box/Hint Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "<style=PowerHeading>异能：</style>正文1点伤害。",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-6-Body Label-True",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "正文中的演奏／伴奏／制造／灭绝与异能：不加粗。",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-6-Body Label-False",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "正文中的演奏／伴奏／制造／灭绝与异能：不加粗。",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-6-Hint Label-True",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Synthetic/Body Box/Hint Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "正文中的演奏／伴奏／制造／灭绝与异能：不加粗。",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-7-Body Label-True",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "<style=AbilityHeading><sprite name=\"Perform\"> <b>演奏</b></style>",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-7-Body Label-False",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Synthetic/Body Box/Body Label",
+            "inCardView": false,
+            "cardId": "",
+            "source": "<style=AbilityHeading><sprite name=\"Perform\"> <b>演奏</b></style>",
+            "expected": null
+          }
+        },
+        {
+          "id": "039-7-Hint Label-True",
+          "status": "excluded",
+          "view": "card-heading",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "仅完整卡面标题加粗；图标、正文及数字原样，重复执行不嵌套。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Synthetic/Body Box/Hint Label",
+            "inCardView": true,
+            "cardId": "",
+            "source": "<style=AbilityHeading><sprite name=\"Perform\"> <b>演奏</b></style>",
+            "expected": null
           }
         }
       ]

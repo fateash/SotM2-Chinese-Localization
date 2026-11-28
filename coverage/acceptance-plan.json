@@ -427,7 +427,8 @@
         "reaction-body-parameters",
         "granted-hero-power",
         "hero-count-sprite-colors",
-        "inline-font-and-section-layout"
+        "inline-font-and-section-layout",
+        "card-heading-emphasis"
       ],
       "inventoryKeys": [],
       "representativeCases": [
@@ -454,6 +455,10 @@
         {
           "family": "inline-font-and-section-layout",
           "id": "Perform0"
+        },
+        {
+          "family": "card-heading-emphasis",
+          "id": "039-0-Body Label-True"
         }
       ],
       "scenarios": [
@@ -505,6 +510,12 @@
             "visualResult": "四个能力标题中文字形回退实机通过",
             "interactionResult": "此项为字体显示验收，不涉及卡牌规则交互；不推定各能力结算通过"
           }
+        },
+        {
+          "id": "heading-weight",
+          "check": "四能力标题与异能：的粗体层级",
+          "passCriteria": "标题明显加粗，图标和正文原样，长正文不新增裁切",
+          "status": "pending"
         }
       ],
       "kind": "live-functional"
@@ -560,8 +571,33 @@
               "humanConfirmation": "环境缩略图/大图名称依然为英文",
               "scope": "放大牌背",
               "status": "visual-failed"
+            },
+            {
+              "version": "0.1.38-rc.1",
+              "source": "image(20261128-112837).png",
+              "sha256": "2976279ad0aa434a84b4262c79b5a35182ef24e6c96b2b82ac480664ab715274",
+              "humanConfirmation": "依然汉化失败",
+              "scope": "新游戏环境预览",
+              "status": "visual-failed"
+            },
+            {
+              "version": "0.1.38-rc.1",
+              "source": "image(20261128-112838).png",
+              "sha256": "26bc1816a777ed6efcdfcf5e300deecc3716ebb2ced9b59d7b4df784c71743f4",
+              "humanConfirmation": "依然汉化失败",
+              "scope": "放大牌背",
+              "status": "visual-failed"
+            },
+            {
+              "version": "0.1.38-rc.1",
+              "source": "image(20261128-112848).png",
+              "sha256": "628278b8a02887a34049f8d6cb64b4a5f4df234d45bc07394a8eecad70894c27",
+              "humanConfirmation": "依然汉化失败",
+              "scope": "牌库缩略图",
+              "status": "visual-failed"
             }
-          ]
+          ],
+          "diagnosis": "192946日志确认版本／文件一致、挂钩已安装但无环境标题命中。0.1.39增加独立标题与牌背绑定观察，不宣称名称修复。"
         }
       ],
       "kind": "live-functional"

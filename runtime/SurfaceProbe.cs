@@ -23,6 +23,55 @@ internal sealed class SurfaceProbe {
     isDeckBack=view.IsDeckBack,cardId=view.Card?.Card?.CardDefinition.Identifier??"",policy="metadata-only-no-text-read-no-write"}));
   }catch(Exception e){Plugin.Once("title-input-probe-error","TITLE_INPUT_PROBE_STOPPED "+e.GetType().Name);}
  }
+ readonly HashSet<string> titleSnapshots=new(StringComparer.Ordinal);
+ readonly HashSet<string> titleInputs=new(StringComparer.Ordinal);
+ internal void ObserveTitleInput(TMP_Text text,string argument){
+  try {
+  if(titleInputs.Count>=80 || text.gameObject.name.IndexOf("title",StringComparison.OrdinalIgnoreCase)<0 || text.GetComponentInParent<TMP_InputField>()!=null)return;
+  string path=PathOf(text);var view=text.GetComponentInParent<CardView>();var back=text.GetComponentInParent<CardBackView>();
+  string clipped=argument.Length>160?argument.Substring(0,160):argument;
+  string key=path+"|"+clipped;
+  if(titleInputs.Add(key))Plugin.Instance.Log.LogInfo("ENV_TITLE_ARGUMENT_DIAGNOSTIC "+JsonSerializer.Serialize(new{
+   path,argument=clipped,truncated=argument.Length>160,baseView=view!=null,directBackView=back!=null,
+   isDeckBack=view!=null && view.IsDeckBack,boundTitle=view!=null && view.TitleLabel==text,policy="original-string-argument-only-observer"}));
+
+  }catch(Exception e){Plugin.Once("ObserveTitleInput-error","ENV_TITLE_DIAGNOSTIC_STOPPED ObserveTitleInput "+e.GetType().Name);}
+ }
+ internal void ObserveTitleSnapshot(TMP_Text text){
+  try {
+  if(titleSnapshots.Count>=100 || text.gameObject.name.IndexOf("title",StringComparison.OrdinalIgnoreCase)<0 || text.GetComponentInParent<TMP_InputField>()!=null)return;
+  string path=PathOf(text);var view=text.GetComponentInParent<CardView>();var back=text.GetComponentInParent<CardBackView>();
+  bool safe=Plugin.TryReadStringLabel(text,out var source);
+  string key=path+"|"+text.m_inputSource+"|"+text.m_IsTextBackingStringDirty+"|"+safe;
+  if(titleSnapshots.Add(key))Plugin.Instance.Log.LogInfo("ENV_TITLE_SNAPSHOT_DIAGNOSTIC "+JsonSerializer.Serialize(new{
+   path,baseView=view!=null,directBackView=back!=null,isDeckBack=view!=null && view.IsDeckBack,
+   boundTitle=view!=null && view.TitleLabel==text,backBoundTitle=back!=null && back.TitleLabel==text,
+   inputSource=text.m_inputSource.ToString(),backingStringDirty=text.m_IsTextBackingStringDirty,
+   safeSource=safe?(source.Length>160?source.Substring(0,160):source):null,
+   policy="active-title-observer-no-buffer-read-no-write"}));
+
+  }catch(Exception e){Plugin.Once("ObserveTitleSnapshot-error","ENV_TITLE_DIAGNOSTIC_STOPPED ObserveTitleSnapshot "+e.GetType().Name);}
+ }
+ readonly HashSet<string> backSnapshots=new(StringComparer.Ordinal);
+ internal void ObserveBackViews(){
+  try {
+   foreach(var back in UnityEngine.Resources.FindObjectsOfTypeAll<CardBackView>())
+    if(back!=null && back.gameObject.activeInHierarchy && back.gameObject.scene.IsValid())ObserveBackSnapshot(back);
+  }catch(Exception e){Plugin.Once("back-scan-error","ENV_TITLE_DIAGNOSTIC_STOPPED back-scan "+e.GetType().Name);}
+ }
+ internal void ObserveBackSnapshot(CardBackView view){
+  try {
+  if(backSnapshots.Count>=40)return;
+  var title=view.TitleLabel;string path=title!=null?PathOf(title):view.gameObject.name;
+  string card=view.Card?.Card?.CardDefinition?.Identifier??"";
+  string key=path+"|"+card;
+  if(backSnapshots.Add(key))Plugin.Instance.Log.LogInfo("ENV_BACK_SNAPSHOT_DIAGNOSTIC "+JsonSerializer.Serialize(new{
+   path,card,isDeckBack=view.IsDeckBack,viewType=view.CardViewType.ToString(),hasTitle=title!=null,
+   titleName=title?.gameObject.name,titleActive=title!=null && title.gameObject.activeInHierarchy,
+   policy="view-bindings-only-no-text-read-no-write"}));
+
+  }catch(Exception e){Plugin.Once("ObserveBackSnapshot-error","ENV_TITLE_DIAGNOSTIC_STOPPED ObserveBackSnapshot "+e.GetType().Name);}
+ }
  internal static bool IsEnvironmentDeckTitle(TMP_Text text){
   if(text.gameObject.name!="Title Label" || text.GetComponentInParent<TMP_InputField>()!=null)return false;
   var view=text.GetComponentInParent<CardView>();
