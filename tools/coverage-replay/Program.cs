@@ -24,29 +24,50 @@ string? BaseMatch(JsonElement x,string source)=>x.TryGetProperty("catalogId",out
     : probe.ApplyDeckName(Str(x,"path"),source))
    ?? catalog.UiText(Str(x,"objectName"),source) ?? catalog.DisplayRules.Apply(Str(x,"objectName"),Str(x,"cardId"),source) ?? Dynamic(x,source);
 string? Match(JsonElement x,string source){
- var previous=BaseMatch(x,source);
+ var previous=probe.ApplyEnvironmentDeckTitle(Str(x,"objectName"),source,x.TryGetProperty("environmentDeckTitle",out var env) && env.GetBoolean())??BaseMatch(x,source);
  if(x.TryGetProperty("catalogId",out _))return previous;
- return completion.Apply(Str(x,"path"),Str(x,"objectName"),Str(x,"cardId"),x.GetProperty("inCardView").GetBoolean(),x.TryGetProperty("cardButtonCandidate",out var b) && b.GetBoolean(),source,previous,x.TryGetProperty("effectTooltip",out var et) && et.GetBoolean())??previous;
+ return completion.Apply(Str(x,"path"),Str(x,"objectName"),Str(x,"cardId"),x.GetProperty("inCardView").GetBoolean(),(x.TryGetProperty("cardButtonCandidate",out var b) && b.GetBoolean()) || (x.TryGetProperty("buttonLabel",out var bl) && bl.GetBoolean()),source,previous,x.TryGetProperty("effectTooltip",out var et) && et.GetBoolean(),x.TryGetProperty("buttonLabel",out var label) && label.GetBoolean())??previous;
 }
 var contexts=contracts.RootElement.GetProperty("families").EnumerateArray()
  .SelectMany(f=>f.GetProperty("contexts").EnumerateArray())
  .Where(c=>c.TryGetProperty("case",out _)).Select(c=>c.GetProperty("case")).ToArray();
 foreach(var c in contexts){
  bool dynamicOnly=c.TryGetProperty("matchLayer",out var layer) && layer.GetString()=="dynamic";
- var actual=dynamicOnly?Dynamic(c,Str(c,"source")):Match(c,Str(c,"source"));
+ bool logoOnly=c.TryGetProperty("matchLayer",out var logoLayer) && logoLayer.GetString()=="villain-logo";
+ bool deckOnly=c.TryGetProperty("matchLayer",out var deckLayer) && deckLayer.GetString()=="villain-deckback";
+ var deckMatch=deckOnly && VillainDeckBackRules.CanReplace(Str(c,"expectedSprite"),Str(c,"source"),c.GetProperty("boundMain").GetBoolean(),c.GetProperty("deckBack").GetBoolean(),c.GetProperty("fullCard").GetBoolean(),c.GetProperty("width").GetSingle(),c.GetProperty("height").GetSingle());
+ var actual=deckOnly?(deckMatch?"SotM2ZH."+Str(c,"source"):null):logoOnly?(VillainLogoRules.CanReplace(Str(c,"expectedSprite"),Str(c,"source"),c.GetProperty("boundLogo").GetBoolean())?"SotM2ZH."+Str(c,"source"):null)
+  :dynamicOnly?Dynamic(c,Str(c,"source")):Match(c,Str(c,"source"));
  if(dynamicOnly && Match(c,Str(c,"source"))!=Str(c,"integratedExpected"))
   throw new InvalidDataException("Integrated catalog contract failed: "+Str(c,"path")+" / "+Str(c,"source"));
  var expected=c.GetProperty("expected").ValueKind==JsonValueKind.Null?null:Str(c,"expected");
  if(actual!=expected)throw new InvalidDataException("Coverage contract failed: "+Str(c,"path")+" / "+Str(c,"source"));
+ if(c.TryGetProperty("expectedInlineFonts",out var fonts) && !RenderedDisplayRules.RequiredInlineFonts(actual??Str(c,"source")).SequenceEqual(fonts.EnumerateArray().Select(x=>x.GetString()!)))
+  throw new InvalidDataException("Inline font contract failed: "+Str(c,"source"));
+ if(c.TryGetProperty("titleRole",out var role) && SurfaceProbeRules.IsEnvironmentTitleRole(Str(c,"objectName"),Str(role,"parent"),role.GetProperty("isDeckBack").GetBoolean(),role.GetProperty("isBoundTitle").GetBoolean())!=role.GetProperty("expected").GetBoolean())
+  throw new InvalidDataException("Environment title role contract failed: "+Str(c,"path"));
+ if(c.TryGetProperty("expectedRatingInset",out var ratingInset) && RenderedDisplayRules.IsInsetNewGameRating(Str(c,"path"),Str(c,"objectName"),actual??Str(c,"source"))!=ratingInset.GetBoolean())
+  throw new InvalidDataException("Rating layout contract failed: "+Str(c,"path"));
+ if(c.TryGetProperty("expectedSectionInset",out var inset) && RenderedDisplayRules.IsInsetNewGameSection(Str(c,"path"),Str(c,"objectName"),actual??Str(c,"source"))!=inset.GetBoolean())
+  throw new InvalidDataException("Section layout contract failed: "+Str(c,"path"));
 }
 // Recognize a translated mixed-language observation only when a complete source
 // at the same control produces exactly that output. A Chinese suffix alone is insufficient.
 var provenOutputs=new HashSet<(string Path,string Card,string Name,bool InCard,string Text)>();
+var currentSourceOutputs=new Dictionary<(string Path,string Card,string Name,bool InCard,string Text),List<object>>();
 foreach(var x in snapshot.RootElement.GetProperty("samples").EnumerateArray()){
  if(x.GetProperty("truncated").GetBoolean() || (Str(x,"inputSource")!="TextString" && Str(x,"inputSource")!="TextInputBox"))continue;
  // Preserve proof of pre-completion output in historical sessions; origin is not full localization.
- foreach(var output in new[]{Match(x,Str(x,"source")),BaseMatch(x,Str(x,"source"))})
-  if(output!=null && output!=Str(x,"source"))provenOutputs.Add((Str(x,"path"),Str(x,"cardId"),Str(x,"objectName"),x.GetProperty("inCardView").GetBoolean(),output));
+ var current=Match(x,Str(x,"source"));
+ foreach(var output in new[]{current,BaseMatch(x,Str(x,"source"))})
+  if(output!=null && output!=Str(x,"source")){
+   var key=(Str(x,"path"),Str(x,"cardId"),Str(x,"objectName"),x.GetProperty("inCardView").GetBoolean(),output);
+   provenOutputs.Add(key);
+   if(current!=null && current!=output){
+    if(!currentSourceOutputs.ContainsKey(key))currentSourceOutputs[key]=new();
+    currentSourceOutputs[key].Add(new{sourceId=Str(x,"id"),target=current});
+   }
+  }
 }
 object Classify(JsonElement x){
  string source=Str(x,"source"),reason="unresolved-full-string";string? target=null;
@@ -69,7 +90,8 @@ object Classify(JsonElement x){
    }
   }
  }
- return new {id=Str(x,"id"),reason,target,knownTranslationElsewhere=elsewhere,
+ currentSourceOutputs.TryGetValue((Str(x,"path"),Str(x,"cardId"),Str(x,"objectName"),x.GetProperty("inCardView").GetBoolean(),source),out var originOutputs);
+ return new {id=Str(x,"id"),reason,target,knownTranslationElsewhere=elsewhere,sourceReplayOutputs=originOutputs??new(),
   capturedDynamicMatch=x.GetProperty("markerCandidate").GetBoolean(),liveAccepted=false};
 }
 var rows=snapshot.RootElement.GetProperty("samples").EnumerateArray().Select(Classify).ToList();

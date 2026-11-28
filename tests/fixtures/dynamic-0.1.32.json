@@ -1,0 +1,558 @@
+{
+  "version": "0.1.32-rc.1",
+  "note": "Observed dual damage / cold / power-drag both orders plus explicitly synthetic sibling grammar; not live accepted.",
+  "samples": [
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Ruthless Approach:</b> Click targets to choose the order of dealing them <nobr>1 fire</nobr> and <nobr>1 energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Ruthless Approach:</b> 点击目标，选择对它们造成<nobr>1点火焰伤害</nobr>和<nobr>1点能量伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click targets to choose the order of dealing them <nobr>1 fire</nobr> and <nobr>1 energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击目标，选择对它们造成<nobr>1点火焰伤害</nobr>和<nobr>1点能量伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Grand Warlord Voss:</b> Click targets to choose the order of dealing them <nobr>1 fire</nobr> and <nobr>1 energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Grand Warlord Voss:</b> 点击目标，选择对它们造成<nobr>1点火焰伤害</nobr>和<nobr>1点能量伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Wagner Mars Base:</b> Click targets to choose the order of dealing them <nobr>1 fire</nobr> and <nobr>1 energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Wagner Mars Base:</b> 点击目标，选择对它们造成<nobr>1点火焰伤害</nobr>和<nobr>1点能量伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>0 fire</nobr> and <nobr>37 cold</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>0点火焰伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>0 fire</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>0点火焰伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>1 melee</nobr> and <nobr>37 cold</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>1点近战伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>1 melee</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>1点近战伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>12 cold</nobr> and <nobr>37 cold</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>12点寒冷伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>12 cold</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>12点寒冷伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>999999 energy</nobr> and <nobr>37 cold</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>999999点能量伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>999999 energy</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>999999点能量伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>0 infernal</nobr> and <nobr>37 cold</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>0点邪能伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>0 infernal</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>0点邪能伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>1 lightning</nobr> and <nobr>37 cold</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>1点闪电伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>1 lightning</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>1点闪电伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>12 projectile</nobr> and <nobr>37 cold</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>12点投射伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>12 projectile</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>12点投射伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>999999 psychic</nobr> and <nobr>37 cold</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>999999点精神伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>999999 psychic</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>999999点精神伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>0 radiant</nobr> and <nobr>37 cold</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>0点光耀伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>0 radiant</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>0点光耀伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>1 sonic</nobr> and <nobr>37 cold</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>1点音波伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>1 sonic</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>1点音波伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>12 toxic</nobr> and <nobr>37 cold</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>12点毒素伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>12 toxic</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>12点毒素伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click a power to use it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击一个异能以使用它。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click a power to use it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击一个异能以使用它。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a power to use it. Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一个异能以使用它。 点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click a power to use it. Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击一个异能以使用它。 点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click a power to use it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击一个异能以使用它。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click a power to use it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击一个异能以使用它。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click or drag a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击或拖动一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click or drag a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击或拖动一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click or drag a power to use it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击或拖动一个异能以使用它。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click or drag a power to use it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击或拖动一个异能以使用它。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click or drag a power to use it. Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击或拖动一个异能以使用它。 点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click or drag a power to use it. Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击或拖动一个异能以使用它。 点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click or drag a power to use it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击或拖动一个异能以使用它。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click or drag a power to use it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击或拖动一个异能以使用它。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click a card to play it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击一张牌以将其打出。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click a card to play it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击一张牌以将其打出。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a card to play it. Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一张牌以将其打出。 点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click a card to play it. Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击一张牌以将其打出。 点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click a card to play it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击一张牌以将其打出。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click a card to play it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击一张牌以将其打出。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click or drag a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击或拖动一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click or drag a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击或拖动一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click or drag a card to play it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click or drag a card to play it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click or drag a card to play it. Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击或拖动一张牌以将其打出。 点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click or drag a card to play it. Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击或拖动一张牌以将其打出。 点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click or drag a card to play it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click or drag a card to play it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>fire</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Coolant Blast:</b> 点击一个目标，对其造成<nobr>火焰伤害</nobr>。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>melee</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Coolant Blast:</b> 点击一个目标，对其造成<nobr>近战伤害</nobr>。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>cold</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Coolant Blast:</b> 点击一个目标，对其造成<nobr>寒冷伤害</nobr>。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>energy</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Coolant Blast:</b> 点击一个目标，对其造成<nobr>能量伤害</nobr>。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>infernal</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Coolant Blast:</b> 点击一个目标，对其造成<nobr>邪能伤害</nobr>。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>lightning</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Coolant Blast:</b> 点击一个目标，对其造成<nobr>闪电伤害</nobr>。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>projectile</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Coolant Blast:</b> 点击一个目标，对其造成<nobr>投射伤害</nobr>。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>psychic</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Coolant Blast:</b> 点击一个目标，对其造成<nobr>精神伤害</nobr>。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>radiant</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Coolant Blast:</b> 点击一个目标，对其造成<nobr>光耀伤害</nobr>。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>sonic</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Coolant Blast:</b> 点击一个目标，对其造成<nobr>音波伤害</nobr>。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>toxic</nobr> damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Coolant Blast:</b> 点击一个目标，对其造成<nobr>毒素伤害</nobr>。"
+    }
+  ]
+}

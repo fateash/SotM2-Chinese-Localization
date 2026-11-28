@@ -12,6 +12,8 @@ jobs:
       - uses: actions/checkout@v6
         with:
           persist-credentials: false
+      - name: Install artwork build dependency
+        run: python3 -m pip install -r requirements-art.txt
       - name: Test converter and snapshot guards
         run: python3 -m unittest discover -s tests -v
       - name: Build candidate from translation snapshot

@@ -44812,10 +44812,10 @@
       "file": "dynamic/observed-ui-additions.json",
       "original": "Put Here",
       "sourceSha256": "c392e3a7d9ed98c3eb2ea1d62b3f717c725ae641f58669e057c5e905b635d07d",
-      "context": "已捕获完整句的编辑归一化；显示尚未接入。英雄手牌目的地；与Play Here在场打出不同。",
+      "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。英雄手牌目的地；与Play Here在场打出不同。",
       "kind": "ui.editorial-candidate",
       "route": "inventory",
-      "holdReason": "editorial-template-runtime-binding-pending",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
       "origin": {
         "exportFile": "2026_11_28_10_44_55_135e87.zip",
         "exportPath": "raw/dynamic/observed-ui-additions.json.json"
@@ -44854,10 +44854,10 @@
       "file": "dynamic/observed-ui-additions.json",
       "original": "Click a target to have it deal damage.",
       "sourceSha256": "ee905ec979e7d48fcca16597129f03212698b81cb31bfd4145fd60028b46210e",
-      "context": "已捕获完整句的编辑归一化；显示尚未接入。选伤害来源，不是受伤目标。",
+      "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。选伤害来源，不是受伤目标。",
       "kind": "ui.editorial-candidate",
       "route": "inventory",
-      "holdReason": "editorial-template-runtime-binding-pending",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
       "origin": {
         "exportFile": "2026_11_28_10_44_55_135e87.zip",
         "exportPath": "raw/dynamic/observed-ui-additions.json.json"
@@ -44980,10 +44980,10 @@
       "file": "dynamic/observed-ui-additions.json",
       "original": "Click a Hero's hand to to put {0} there.",
       "sourceSha256": "117760672cf5458190e1bbb4a5a8e785957892282095246dff47a613f29ddae8",
-      "context": "已捕获完整句的编辑归一化；显示尚未接入。保留原文重复to；{0}为卡牌名称。",
+      "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。保留原文重复to；{0}为卡牌名称。",
       "kind": "ui.editorial-candidate",
       "route": "inventory",
-      "holdReason": "editorial-template-runtime-binding-pending",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
       "origin": {
         "exportFile": "2026_11_28_10_44_55_135e87.zip",
         "exportPath": "raw/dynamic/observed-ui-additions.json.json"
@@ -45008,10 +45008,10 @@
       "file": "dynamic/observed-ui-additions.json",
       "original": "Click a target to reduce damage dealt to it.",
       "sourceSha256": "48d149bc83d76302e858b4e9111cca22dfbf8cd0b06a97b2603139420a42514b",
-      "context": "已捕获完整句的编辑归一化；显示尚未接入。不能译为减少造成的伤害。",
+      "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。不能译为减少造成的伤害。",
       "kind": "ui.editorial-candidate",
       "route": "inventory",
-      "holdReason": "editorial-template-runtime-binding-pending",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
       "origin": {
         "exportFile": "2026_11_28_10_44_55_135e87.zip",
         "exportPath": "raw/dynamic/observed-ui-additions.json.json"
@@ -46388,6 +46388,191 @@
         "buildId": "26880829",
         "metadataSha256": "b252acf9da519ce15729a43eb6b2cf6d643fda3200b2fdc7a146476819c05969",
         "literalIndex": 11311
+      }
+    },
+    {
+      "key": "editorial.ui.hint.attack.order.dual",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "{0}Click targets to choose the order of dealing them <nobr>{1} {2}</nobr> and <nobr>{3} {4}</nobr> damage.",
+      "sourceSha256": "993e54db4941d8faf1a66b107cc3de4f40c391c2285f0a160bf7182f45bc7ced",
+      "context": "0.1.32限定HUD完整句式：数值、伤害类型、标签保留；待实机画面及交互验收。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-163119-21617d.zip",
+          "SotM2-Dynamic-Evidence-20261128-163956-325080.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.hint.attack.order.triple",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "{0}Click targets to choose the order of dealing them <nobr>{1} {2}</nobr>, <nobr>{3} {4}</nobr>, and <nobr>{5} {6}</nobr> damage.",
+      "sourceSha256": "5f25724bc90dd53f43fa66472e6fbac4a69107af9e50fd0270c3910589b5427d",
+      "context": "0.1.32限定HUD完整句式：数值、伤害类型、标签保留；待实机画面及交互验收。 三段形式依据既有三段伤害完整语法主动组合，未实机观察。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "basis": "runtime/DynamicDisplayRules.cs#TargetMultiDamage",
+        "kind": "synthetic-not-observed"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.attack.unspecified.nobr",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "{0}Click a target to deal it <nobr>{1}</nobr> damage.",
+      "sourceSha256": "6888934dfb010d4ef7620f1bdab17aff215da5f77af91a88bbcac8dc52a6daf2",
+      "context": "0.1.32限定HUD完整句式：数值、伤害类型、标签保留；待实机画面及交互验收。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-163119-21617d.zip",
+          "SotM2-Dynamic-Evidence-20261128-163956-325080.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.hint.hero.draw.count",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a hero to draw {0} cards.",
+      "sourceSha256": "46c7487d2e53a306d2a9eca72add64bead0e0dedb1f6ac75ea67af6f711a3191",
+      "context": "0.1.32日志完整HUD原文，0.1.33限定用途接入；数量单复数分别检查，未完成实机验收。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-170437-e05a66.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.hint.choose.number",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a button to choose a number.",
+      "sourceSha256": "93117453dd14960dc83c717fe350c19be86131c26918bc9d5d88066f0de41581",
+      "context": "0.1.32日志完整HUD原文，0.1.33限定用途接入；数量单复数分别检查，未完成实机验收。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-170437-e05a66.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.newgame.choose.heroes",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Choose 3 to 5 Heroes",
+      "sourceSha256": "9c77ee974cd5f20d675bc4fd54375850d381d4ec27b3ca94938959a35d0fd668",
+      "context": "0.1.34完整选项提示接入，待实机验收。174300日志确认弹窗标题完整原文及路径。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-174300-4dc410.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.newgame.choose.villain",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Choose a Villain",
+      "sourceSha256": "57ca966e2034b73b9273f2c168546b9cdc4179f86f943b2c9d4aecde1487b2fe",
+      "context": "0.1.34完整选项提示接入，待实机验收。174300日志确认弹窗标题完整原文及路径。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-174300-4dc410.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.newgame.choose.environment",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Choose an Environment",
+      "sourceSha256": "098765466008e61c40dbc42f5615314d616eb23b65e6895308facc3484ecd355",
+      "context": "0.1.34完整选项提示接入，待实机验收。174300日志确认弹窗标题完整原文及路径。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-174300-4dc410.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.newgame.rating.difficulty",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Difficulty: {0}",
+      "sourceSha256": "36760c739d3173ca74d7335bd4ce0274932b84682cb4f7faddef9a503fb4f762",
+      "context": "0.1.34完整选项提示接入，待实机验收。游戏构建26880829元数据及level3场景Rating Label核对；实际渲染路径及输入类型仍待新版日志确认。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-174300-4dc410.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.newgame.rating.peril",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Peril: {0}",
+      "sourceSha256": "ef49cafc7d385127fc6bc5b3b6aba130f04be386f7401bf437abb3fccc4ce91d",
+      "context": "0.1.34完整选项提示接入，待实机验收。游戏构建26880829元数据及level3场景Rating Label核对；实际渲染路径及输入类型仍待新版日志确认。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-174300-4dc410.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.hint.destroy.play.upto.first",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click up to {0} cards in play to destroy them before other cards.",
+      "sourceSha256": "a543dd7efa8ea8f94788d3423229debe8f13ea9afcd5728afded95fdbdb2d958",
+      "context": "0.1.37根据实际HUD完整原文接入；数量、场上范围与破坏先后限定保留。单数card/it，复数cards/them；仅由运行模板按HUD用途处理，不进入全局词典。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-183553-92b22a.zip",
+          "SotM2-Dynamic-Evidence-20261128-184051-900478.zip",
+          "SotM2-Dynamic-Evidence-20261128-184409-6d371a.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.hint.destroy.target.single",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a target to destroy it.",
+      "sourceSha256": "98ce6556deddeb5249f976c5bf954d22b78ee50b2ea718e70ac6ff048e4b2279",
+      "context": "0.1.37根据实际HUD完整原文接入；数量、场上范围与破坏先后限定保留。单数card/it，复数cards/them；仅由运行模板按HUD用途处理，不进入全局词典。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-183553-92b22a.zip",
+          "SotM2-Dynamic-Evidence-20261128-184051-900478.zip",
+          "SotM2-Dynamic-Evidence-20261128-184409-6d371a.zip"
+        ]
       }
     }
   ]

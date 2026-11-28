@@ -72,6 +72,52 @@ class CleanInstallerTests(unittest.TestCase):
             self.assertEqual((self.game / name).read_bytes(), data, name)
         self.assert_unrelated()
 
+    def test_dedicated_title_font_is_verified_and_restored(self):
+        font = self.kit / 'payload/NotoSansCJKsc-Bold.otf'
+        font.write_bytes(b'dedicated title font fixture')
+        p = self.kit / 'manifest.json'
+        manifest = json.loads(p.read_text())
+        manifest['pluginFiles'][font.name] = sha(font)
+        p.write_text(json.dumps(manifest))
+        self.run_script('CleanInstall'); self.run_script('Verify')
+        self.assertEqual((self.plugin / font.name).read_bytes(), font.read_bytes())
+        (self.plugin / font.name).write_bytes(b'changed title font')
+        self.run_script('Verify', False)
+        (self.plugin / font.name).write_bytes(font.read_bytes())
+        self.run_script('Restore'); self.assert_original()
+        self.assertFalse((self.plugin / font.name).exists())
+
+    def test_villain_logo_payload_is_verified_and_restored(self):
+        art = self.kit / 'payload/villain-logos.bytes'
+        art.write_bytes(b'approved logo fixture')
+        p = self.kit / 'manifest.json'
+        manifest = json.loads(p.read_text())
+        manifest['pluginFiles'][art.name] = sha(art)
+        p.write_text(json.dumps(manifest))
+        self.run_script('CleanInstall'); self.run_script('Verify')
+        self.assertEqual((self.plugin / art.name).read_bytes(), art.read_bytes())
+        (self.plugin / art.name).write_bytes(b'changed logo')
+        self.run_script('Verify', False)
+        self.run_script('Restore', False)
+        (self.plugin / art.name).write_bytes(art.read_bytes())
+        self.run_script('Restore'); self.assert_original()
+        self.assertFalse((self.plugin / art.name).exists())
+    def test_villain_deckback_payload_is_verified_and_restored(self):
+        art = self.kit / 'payload/villain-deckbacks.bytes'
+        art.write_bytes(b'approved logo fixture')
+        p = self.kit / 'manifest.json'
+        manifest = json.loads(p.read_text())
+        manifest['pluginFiles'][art.name] = sha(art)
+        p.write_text(json.dumps(manifest))
+        self.run_script('CleanInstall'); self.run_script('Verify')
+        self.assertEqual((self.plugin / art.name).read_bytes(), art.read_bytes())
+        (self.plugin / art.name).write_bytes(b'changed logo')
+        self.run_script('Verify', False)
+        self.run_script('Restore', False)
+        (self.plugin / art.name).write_bytes(art.read_bytes())
+        self.run_script('Restore'); self.assert_original()
+        self.assertFalse((self.plugin / art.name).exists())
+
     def test_clean_install_is_complete_and_archive_is_not_loaded(self):
         self.run_script('CleanInstall'); self.run_script('Verify'); self.assert_unrelated()
         self.assertEqual(len(list(self.plugin.iterdir())), 5)

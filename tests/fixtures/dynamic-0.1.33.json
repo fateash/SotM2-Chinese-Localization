@@ -1,0 +1,926 @@
+{
+  "version": "0.1.33-rc.1",
+  "note": "Observed HUD and five hand destinations; other combinations synthetic, not live acceptance.",
+  "samples": [
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Crystalloid Gremlins:</b> Click a Hero's hand to to put Crystalloid Gremlins there.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Crystalloid Gremlins:</b> 点击一位英雄的手牌区，将Crystalloid Gremlins加入其手牌。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Crystalloid Behemoth:</b> Click a Hero's hand to to put Crystalloid Behemoth there.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Crystalloid Behemoth:</b> 点击一位英雄的手牌区，将Crystalloid Behemoth加入其手牌。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a Hero's hand to to put Crystalloid Gremlins there.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一位英雄的手牌区，将Crystalloid Gremlins加入其手牌。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Card 2:</b> Click a Hero's hand to to put Name {0} there.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Card 2:</b> 点击一位英雄的手牌区，将Name {0}加入其手牌。"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/AbsoluteZero/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/AbsoluteZero/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/AbsoluteZero/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/AbsoluteZero/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/AbsoluteZero/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/AbsoluteZero/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/AbsoluteZero/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Bunker/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Bunker/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Bunker/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Bunker/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Bunker/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/CaptainCosmic/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/CaptainCosmic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/CaptainCosmic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/CaptainCosmic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/CaptainCosmic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/CaptainCosmic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/CaptainCosmic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Fanatic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Fanatic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Fanatic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Fanatic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Fanatic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Fanatic/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Haka/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Haka/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Haka/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Haka/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Haka/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Haka/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Haka/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Legacy/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Legacy/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Legacy/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Legacy/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Ra/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Ra/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Ra/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Ra/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Ra/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Ra/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Tachyon/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Tachyon/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Tachyon/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Tachyon/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tachyon/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Tempest/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Tempest/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Tempest/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Tempest/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Tempest/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Tempest/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/TheArgentAdept/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/TheArgentAdept/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheArgentAdept/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/TheArgentAdept/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/TheArgentAdept/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/TheArgentAdept/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheArgentAdept/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/TheWraith/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/TheWraith/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/TheWraith/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/TheWraith/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/TheWraith/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/TheWraith/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Hand/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 1/Unity/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/3 Hero Layout/Inactive Hero Location 2/Unity/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Unity/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 2/Unity/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/Unity/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Selection Button Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/Unity/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View/Selection Button/Selection Button Label",
+      "source": "Put Here",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "放在此处"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a hero to draw 0 cards.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一位英雄，使其抽0张牌。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Heart of Gold:</b> Click a hero to draw 0 cards.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Heart of Gold:</b> 点击一位英雄，使其抽0张牌。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a hero to draw 1 card.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一位英雄，使其抽1张牌。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Heart of Gold:</b> Click a hero to draw 1 card.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Heart of Gold:</b> 点击一位英雄，使其抽1张牌。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a hero to draw 2 cards.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一位英雄，使其抽2张牌。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Heart of Gold:</b> Click a hero to draw 2 cards.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Heart of Gold:</b> 点击一位英雄，使其抽2张牌。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a hero to draw 3 cards.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一位英雄，使其抽3张牌。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Heart of Gold:</b> Click a hero to draw 3 cards.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Heart of Gold:</b> 点击一位英雄，使其抽3张牌。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a hero to draw 12 cards.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一位英雄，使其抽12张牌。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Heart of Gold:</b> Click a hero to draw 12 cards.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Heart of Gold:</b> 点击一位英雄，使其抽12张牌。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a hero to draw 999999 cards.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一位英雄，使其抽999999张牌。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Heart of Gold:</b> Click a hero to draw 999999 cards.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Heart of Gold:</b> 点击一位英雄，使其抽999999张牌。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a target to reduce damage dealt to it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一个目标，减少其受到的伤害。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Stone Shaper:</b> Click a target to reduce damage dealt to it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Stone Shaper:</b> 点击一个目标，减少其受到的伤害。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click a target to reduce damage dealt to it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击一个目标，减少其受到的伤害。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Grand Warlord Voss:</b> Click a target to reduce damage dealt to it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Grand Warlord Voss:</b> 点击一个目标，减少其受到的伤害。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Wagner Mars Base:</b> Click a target to reduce damage dealt to it.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Wagner Mars Base:</b> 点击一个目标，减少其受到的伤害。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a target to have it deal damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一个目标，使其造成伤害。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Field Marshal Tamar:</b> Click a target to have it deal damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Field Marshal Tamar:</b> 点击一个目标，使其造成伤害。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click a target to have it deal damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击一个目标，使其造成伤害。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Grand Warlord Voss:</b> Click a target to have it deal damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Grand Warlord Voss:</b> 点击一个目标，使其造成伤害。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Wagner Mars Base:</b> Click a target to have it deal damage.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Wagner Mars Base:</b> 点击一个目标，使其造成伤害。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "Click a button to choose a number.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "点击一个按钮，选择一个数字。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Research Grant:</b> Click a button to choose a number.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Research Grant:</b> 点击一个按钮，选择一个数字。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Legacy:</b> Click a button to choose a number.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Legacy:</b> 点击一个按钮，选择一个数字。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Grand Warlord Voss:</b> Click a button to choose a number.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Grand Warlord Voss:</b> 点击一个按钮，选择一个数字。"
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "source": "<b>Wagner Mars Base:</b> Click a button to choose a number.",
+      "cardId": "",
+      "inCardView": false,
+      "expected": "<b>Wagner Mars Base:</b> 点击一个按钮，选择一个数字。"
+    }
+  ]
+}

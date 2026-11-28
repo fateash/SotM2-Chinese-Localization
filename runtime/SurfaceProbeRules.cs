@@ -18,7 +18,7 @@ public sealed class SurfaceProbeRules {
   "Phase Label","Hint Label","Selection Button Label","Choose For Me Button Label","Skip Button Label",
   "Finish Button Label","Turn Taker Label","Deck Label","Heading Label","Info Label",
   "Message Label","Tooltip Label","Description Label","Title Label","Header","Heading",
-  "Label","Text","Text (TMP)","Abandon Label"
+  "Label","Text","Text (TMP)","Abandon Label","Rating Label"
  };
  public static SurfaceProbeRules Read(string path){
   var p=JsonSerializer.Deserialize<SurfaceProbeRules>(File.ReadAllText(path)) ?? throw new InvalidDataException("Empty surface probe");
@@ -30,6 +30,16 @@ public sealed class SurfaceProbeRules {
  public static bool CanObserve(string objectName,bool inCardView,bool inInputField)=>
   !inCardView && !inInputField && ObservedObjects.Contains(objectName);
  static bool ValidName(string s)=>!string.IsNullOrWhiteSpace(s) && s.Length<=100 && !s.Any(c=>char.IsDigit(c)||char.IsControl(c)||"<>{}".Contains(c));
+ static readonly HashSet<string> EnvironmentNames=new(StringComparer.Ordinal){"Freedom Tower","Insula Primalis","Magmaria","Megalopolis","The Ruins of Atlantis","Wagner Mars Base"};
+ public static bool IsEnvironmentTitleRole(string objectName,string parent,bool isDeckBack,bool isBoundTitle)=>
+  objectName=="Title Label" && isDeckBack && (isBoundTitle || parent=="Environment Title Background");
+ public string? ApplyEnvironmentDeckTitle(string objectName,string source,bool boundEnvironmentTitle){
+  if(!boundEnvironmentTitle || objectName!="Title Label")return null;
+  var name=EnvironmentNames.FirstOrDefault(n=>string.Equals(n,source.Trim(),StringComparison.OrdinalIgnoreCase));
+  return name!=null && DeckNames.TryGetValue(name,out var target)?target:null;
+ }
+ public bool IsLocalizedEnvironmentTitle(string source)=>EnvironmentNames.Any(n=>DeckNames.TryGetValue(n,out var value) && value==source);
+ public string EnvironmentTitleGlyphs()=>string.Concat(EnvironmentNames.Where(DeckNames.ContainsKey).Select(n=>DeckNames[n]));
  // CardView.TitleLabel identity is checked against the actual TMP component by the caller.
  // The complete source identifies one approved deck; never replace a substring or model title.
  public string? ApplyCardTitle(string objectName,string source,bool isBoundTitle)=>

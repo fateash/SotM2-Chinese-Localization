@@ -31,6 +31,9 @@ $stateRelative='SotM2ChineseCleanState.json'
 $statePath=SafePath $GamePath $stateRelative
 $archiveRoot=SafePath $GamePath 'SotM2ChineseArchives'
 $names=@('SotM2ChinesePrototype.dll','surface-probe.json','sample-texts.json','NotoSansCJKsc-Regular.otf','OFL.txt')
+if($manifest.pluginFiles.PSObject.Properties.Name -contains 'NotoSansCJKsc-Bold.otf'){$names+=@('NotoSansCJKsc-Bold.otf')}
+if($manifest.pluginFiles.PSObject.Properties.Name -contains 'villain-deckbacks.bytes'){$names+=@('villain-deckbacks.bytes')}
+if($manifest.pluginFiles.PSObject.Properties.Name -contains 'villain-logos.bytes'){$names+=@('villain-logos.bytes')}
 if((($manifest.pluginFiles.PSObject.Properties.Name | Sort-Object) -join '|') -ne (($names | Sort-Object) -join '|')){throw 'Unexpected package file list.'}
 function ChineseConfig([string]$p){
  if(!(Test-Path -LiteralPath $p -PathType Leaf)){return $false}
@@ -172,4 +175,4 @@ try{
  $j.status='rolled-back';WriteJson (Join-Path $archive 'transaction.json') $j
  throw ($failure+' | Previous files restored; archive: '+$archive)
 }
-Write-Host '0.1.31-rc.1 clean installation complete. Reviewed text and name rules installed; old project files archived outside plugin loading paths.'
+Write-Host ($manifest.version+' clean installation complete. Reviewed text and name rules installed; old project files archived outside plugin loading paths.')

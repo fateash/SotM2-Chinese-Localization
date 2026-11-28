@@ -1,0 +1,1363 @@
+{
+  "schemaVersion": 1,
+  "version": "0.1.44-rc.1",
+  "policy": "按功能与代表场景验收；所有离线组合仍必须通过，未知拼接与独立特殊结算另列。",
+  "groups": [
+    {
+      "id": "stable-buttons",
+      "purpose": "通用按钮：语义身份与短语",
+      "families": [
+        "effect-button",
+        "card-discard-count",
+        "skip-draw-phase",
+        "semantic-stable-buttons"
+      ],
+      "inventoryKeys": [
+        "literal.becf8a447d6c403ba4a319c5",
+        "literal.3182f33a9ed49cc6c5737e9a",
+        "literal.751309bfae75a9f555c0db8e",
+        "literal.6337845d154c8d168b07b7cb",
+        "literal.1ce8c7cd8b8f61c5f79b5206",
+        "literal.2f181246e0ce15c805a61458",
+        "literal.a5298cd9739200938f057bad",
+        "literal.e5a39013355028e3f127ed48",
+        "literal.95de32b7bc9edad252bf1be2",
+        "literal.116fff8f8eb885edcbb796a5",
+        "literal.52376dac5ecf2a3ff282d8d9",
+        "literal.0e2be41a5936407e36f16cd7",
+        "literal.6c5c3f431585efd600f6461a",
+        "literal.0097378a5ff52ed7805f83e7",
+        "literal.50d4b4c51c64d3bdc214f971",
+        "literal.4d6c2822b7897a6b009d5aa6",
+        "literal.2a60e517f9f8bc65256a7918",
+        "literal.6a333d89b4537251e6a345b8",
+        "literal.d0debde2bc51fb2b0bf4a4c6",
+        "literal.497d25a030b30ac7ffe5ed5f",
+        "literal.11d58e224b6bcc6757881b7e",
+        "literal.507278bb2d9e25220780a23e",
+        "literal.e524362e18fe9d7b7a8f711c",
+        "literal.3d2a722351301aedf99ceec4",
+        "literal.d01084a98855091e05daacf8",
+        "literal.a7037ebb2c73a8f205f45128",
+        "literal.ec9861ac1bb5f96bcc782497",
+        "literal.47de3902f7813eb241907744"
+      ],
+      "representativeCases": [
+        {
+          "family": "effect-button",
+          "id": "small-effect"
+        },
+        {
+          "family": "card-discard-count",
+          "id": "030-discard-028-item-0-0"
+        },
+        {
+          "family": "skip-draw-phase",
+          "id": "031-skip-draw-observed"
+        },
+        {
+          "family": "semantic-stable-buttons",
+          "id": "positive-0-Label"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "button-roles",
+          "check": "小图、大图、英雄／反派／环境的完整动作按钮",
+          "passCriteria": "译文一致；数字不变；点击动作与原按钮一致",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "new-host",
+          "check": "不同容器中的Play Here／Put Here／Skip Draw Phase",
+          "passCriteria": "组件身份记录buttonLabel=true；无需增加角色或路径补丁",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "guards",
+          "check": "输入框、生命值、裸数字、正文中相同词组",
+          "passCriteria": "不翻译不改数；没有因匹配规则产生无关按钮",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "damage-types",
+          "check": "11类伤害类型选择按钮",
+          "passCriteria": "使用既定伤害类型译名，选中后效果与原类型对应",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        }
+      ],
+      "kind": "live-functional"
+    },
+    {
+      "id": "hero-layouts",
+      "purpose": "英雄布局与放置目的地",
+      "families": [
+        "placement",
+        "hero-hand-destination",
+        "four-hero-layout-routes"
+      ],
+      "inventoryKeys": [],
+      "representativeCases": [
+        {
+          "family": "placement",
+          "id": "placement-0"
+        },
+        {
+          "family": "hero-hand-destination",
+          "id": "033-hero-hand-destination-1"
+        },
+        {
+          "family": "four-hero-layout-routes",
+          "id": "035-four-layout-0"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "three",
+          "check": "三英雄局，当前英雄和两个非当前槽位",
+          "passCriteria": "在此打出／放在此处显示正确，实际放置归属正确",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "four",
+          "check": "四英雄局，当前英雄和三个非当前槽位",
+          "passCriteria": "切换当前英雄后仍正确；没有裁切或错位",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "five",
+          "check": "五英雄局，当前英雄和四个非当前槽位",
+          "passCriteria": "实际点击与当前／非当前角色归属一致",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        }
+      ],
+      "kind": "live-functional"
+    },
+    {
+      "id": "zone-actions",
+      "purpose": "牌库、弃牌堆和英雄选择",
+      "families": [
+        "draw-discard",
+        "hero-selection",
+        "deck-selection",
+        "trash-reshuffle",
+        "summon-zone-selection"
+      ],
+      "inventoryKeys": [
+        "literal.7c67f8ce0cecde5ffd12aa21"
+      ],
+      "representativeCases": [
+        {
+          "family": "draw-discard",
+          "id": "hand-draw"
+        },
+        {
+          "family": "hero-selection",
+          "id": "hero-action"
+        },
+        {
+          "family": "deck-selection",
+          "id": "deck-reveal"
+        },
+        {
+          "family": "trash-reshuffle",
+          "id": "029-reshuffle-027-summon-zone-0"
+        },
+        {
+          "family": "summon-zone-selection",
+          "id": "027-summon-zone-0"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "hero",
+          "check": "一名英雄的抽牌／弃置／放回／召唤代表效果",
+          "passCriteria": "区域和动作语义准确，牌数与实际去向正确",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "nonhero",
+          "check": "一个反派和一个环境的牌库／弃牌堆入口",
+          "passCriteria": "区域用途没有串线；不要求逐对象重复同一入口",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        }
+      ],
+      "kind": "live-functional"
+    },
+    {
+      "id": "confirmations",
+      "purpose": "确认数量和阶段控制",
+      "families": [
+        "confirmation",
+        "phase-count",
+        "continue",
+        "trash-bury-selection"
+      ],
+      "inventoryKeys": [
+        "literal.76687df483fc14211096a014",
+        "literal.f071264df8d4befd06562812",
+        "literal.e27b90f8ee800101eaa57f3a",
+        "literal.8f2dea3bc71bdaa0554cd844",
+        "literal.845be99fc787b25787fd8c30"
+      ],
+      "representativeCases": [
+        {
+          "family": "confirmation",
+          "id": "finish-damage"
+        },
+        {
+          "family": "phase-count",
+          "id": "play-count"
+        },
+        {
+          "family": "continue",
+          "id": "continue-skip"
+        },
+        {
+          "family": "trash-bury-selection",
+          "id": "030-bury-hint-0-0"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "count",
+          "check": "单张／多张弃置、埋藏以及伤害确认",
+          "passCriteria": "数量和单复数条件正确；确认后结算正确",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "phase",
+          "check": "剩余行动数与跳过阶段",
+          "passCriteria": "显示计数实时变化，跳过操作推进到正确阶段",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        }
+      ],
+      "kind": "live-functional"
+    },
+    {
+      "id": "damage",
+      "purpose": "伤害类型、次序与目标",
+      "families": [
+        "hero-take-damage",
+        "multi-damage-order",
+        "wrapped-unspecified-damage",
+        "damage-hint-optional-heading"
+      ],
+      "inventoryKeys": [],
+      "representativeCases": [
+        {
+          "family": "hero-take-damage",
+          "id": "031-hero-damage-0"
+        },
+        {
+          "family": "multi-damage-order",
+          "id": "032-multi-damage-order-1"
+        },
+        {
+          "family": "wrapped-unspecified-damage",
+          "id": "032-wrapped-unspecified-damage-40"
+        },
+        {
+          "family": "damage-hint-optional-heading",
+          "id": "033-no-heading-0"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "single-multiple",
+          "check": "单／多目标，带来源／无来源提示",
+          "passCriteria": "目标上限、伤害量、类型及实际生命值变化正确",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "ordered",
+          "check": "火焰加能量等多段伤害与选取顺序",
+          "passCriteria": "连接关系、顺序与点击实际结算一致",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        }
+      ],
+      "kind": "live-functional"
+    },
+    {
+      "id": "general-hints",
+      "purpose": "完整动态提示与目标用途",
+      "families": [
+        "hint",
+        "hero-draw-count",
+        "target-purpose-hints",
+        "destroy-order-and-target-hints"
+      ],
+      "inventoryKeys": [
+        "literal.8bdb5c8b6de1b6c9730ec8fa",
+        "literal.e4afb2ee35c8f5efaf22d1d8",
+        "literal.34ae577473adac3f52728fbf",
+        "literal.5f0de4426f971428743f8f30",
+        "literal.46c11185f4e66cfc9d46b92f",
+        "literal.a15436995c9faf71c0758665",
+        "literal.693ba61eb755e0801dd51901",
+        "literal.3960ad918905446d851220bb",
+        "literal.ef164875490ed7a183c7a611",
+        "literal.fc6b39a7beb1177e56673530",
+        "literal.628d650255644c457399f970",
+        "literal.008021b2cdc902bd4d49e950",
+        "literal.34e9cd4f8f90912c2642345c",
+        "literal.5fc4d90d00eba9b5b337797d",
+        "literal.337b4c9d5b0dc7c27883e795",
+        "literal.642ba431d9c6e09e1f6f94c6",
+        "literal.55574c203bbbc5634041ae4b",
+        "literal.ca9dbb01be7f61865926b507",
+        "literal.2be4037bea7691ccb1731b96",
+        "literal.cb3339dada59d0bd91fc19a8",
+        "literal.e7ae1ca5305bd02be87b8f49",
+        "literal.7e5bb5dca1cd5daafebf2932",
+        "literal.c5b9c93ee2e61e28d424519f",
+        "literal.066a5e6f4bde118921c297b1",
+        "literal.b24c64e48ea675a79981a976",
+        "literal.3cb7e8a4600bdf5264ba6134",
+        "literal.8c936d67e0ce418ccd73c5e5",
+        "literal.82e0ef75925e11018d3b7da0",
+        "literal.3a31d645a789a28ae0f97bbf",
+        "literal.d6aa6227a521278cda6236f9",
+        "literal.59a6d93cf66ed8bd53d29297",
+        "literal.59911e8835280efff4da6af1",
+        "literal.f3a8fd6fb05f51a13961b542",
+        "literal.47fcbf25e98ffdbea4f0bea1",
+        "literal.aa5971a22517a0fd423a5ce5",
+        "literal.b7bd3fa270795896f6255d8a",
+        "literal.22e41e8b418814cd6e980f36",
+        "literal.80cfc93992898f1f79acb7aa",
+        "literal.e5806a4871547a3baea9c5d8",
+        "literal.952d4906f7829c93d48bfd5a",
+        "literal.0105553aa12e2555502ed954",
+        "literal.25b8cffd55d9f98b2aa9438b",
+        "literal.41e541e17c7add9bb7bc8645",
+        "literal.35cb827d880197a1da4de935",
+        "literal.c368f1687c46a50ec563d4c9",
+        "literal.b2ae691ce3346d86bfbd8dd5",
+        "literal.4a34c0d07c729353e3372ad6",
+        "literal.09e1846fe781bf9665b451cf",
+        "literal.956ee9b311fc0a605212b1ec",
+        "literal.c351d21ff9c64a8b5c54f77f",
+        "literal.7b686fff604e71b1a6fc3774",
+        "literal.e2d38a8305c7019abb2540b6",
+        "literal.61a12b4d9b487c8a9f88d904",
+        "literal.8ba1c2cf3953e2ae419058b3",
+        "literal.d9169628043510911071272d",
+        "literal.da0d4b103341f3e6b5a9e1ee",
+        "literal.81bb07ef759f1f09f3d1d2e7",
+        "literal.6b6c9985c94d3beed27aa378",
+        "literal.4a1380867f744a778ebe2b15",
+        "literal.67d9d0e580142b29777d4a4c",
+        "literal.ceabf4582935c3aaeb3e18e8"
+      ],
+      "representativeCases": [
+        {
+          "family": "hint",
+          "id": "captured-hint-0"
+        },
+        {
+          "family": "hero-draw-count",
+          "id": "033-hero-draw-count-160"
+        },
+        {
+          "family": "target-purpose-hints",
+          "id": "033-target-purpose-hints-182"
+        },
+        {
+          "family": "destroy-order-and-target-hints",
+          "id": "order-1-False"
+        },
+        {
+          "family": "hint",
+          "id": "041-drag-remaining-observed"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "draw",
+          "check": "黄金之心选择英雄抽牌",
+          "passCriteria": "英雄目标和抽牌数量正确",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "target-purpose",
+          "check": "塑石工匠减伤及塔玛元帅指定伤害来源",
+          "passCriteria": "对其造成伤害／由其造成伤害没有颠倒",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "variable",
+          "check": "含数量、名称和单复数的其他代表提示",
+          "passCriteria": "整句无半译，名称与动态参数正确",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "regain-target",
+          "check": "银音秘师选择目标恢复生命值提示",
+          "passCriteria": "完整中文及角色名称正确，选中目标后恢复数值正常",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "most-ongoing",
+          "check": "共振女妖选择视为在场持续牌最多的英雄",
+          "passCriteria": "共振女妖前缀与持续牌限定完整汉化，点击后结算目标正确",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.40-rc.1",
+            "source": "用户2026-11-28本轮文字确认",
+            "humanConfirmation": "共振女妖提示已实测通过",
+            "visualResult": "共振女妖提示完整中文实测通过",
+            "interactionResult": "用户确认提示实测通过；不扩展到其他卡牌效果"
+          }
+        },
+        {
+          "id": "drag-remaining",
+          "check": "投掷飞刀拖动指定首个目标后继续选择剩余目标；与直接点击路径对照",
+          "passCriteria": "显示再点击至多2个目标，保留1点投射伤害；后续剩余数量与实际选择同步，结算正常",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.41-rc.1",
+            "source": "用户2026-11-28文字确认及202354-18269b证据包",
+            "humanConfirmation": "投掷飞刀 测试通过",
+            "visualResult": "拖动后剩余目标提示通过",
+            "interactionResult": "用户确认投掷飞刀测试通过"
+          }
+        }
+      ],
+      "kind": "live-functional"
+    },
+    {
+      "id": "phase-display",
+      "purpose": "阶段组合与富文本",
+      "families": [
+        "phase-hint-composition",
+        "recharge-layout"
+      ],
+      "inventoryKeys": [],
+      "representativeCases": [
+        {
+          "family": "phase-hint-composition",
+          "id": "032-phase-hint-composition-55"
+        },
+        {
+          "family": "recharge-layout",
+          "id": "025-recharge-observed-0"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "power",
+          "check": "异能阶段提示与点击／拖动使用异能",
+          "passCriteria": "图标、阶段名、动作说明完整，实际使用正确",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "phase-layout",
+          "check": "充能及开始／结束阶段组合提示",
+          "passCriteria": "换行行距、图标与正文没有重叠",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        }
+      ],
+      "kind": "live-functional"
+    },
+    {
+      "id": "card-rendering",
+      "purpose": "卡牌展开文本与授予异能",
+      "families": [
+        "rendered-completion",
+        "incap-and-parameter-completion",
+        "reaction-body-parameters",
+        "granted-hero-power",
+        "hero-count-sprite-colors",
+        "inline-font-and-section-layout",
+        "card-heading-emphasis"
+      ],
+      "inventoryKeys": [],
+      "representativeCases": [
+        {
+          "family": "rendered-completion",
+          "id": "Legacy-active"
+        },
+        {
+          "family": "incap-and-parameter-completion",
+          "id": "reaction-participants"
+        },
+        {
+          "family": "reaction-body-parameters",
+          "id": "026-reaction-body-0"
+        },
+        {
+          "family": "granted-hero-power",
+          "id": "033-granted-power-1"
+        },
+        {
+          "family": "hero-count-sprite-colors",
+          "id": "034-1-0"
+        },
+        {
+          "family": "inline-font-and-section-layout",
+          "id": "Perform0"
+        },
+        {
+          "family": "card-heading-emphasis",
+          "id": "039-0-Body Label-True"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "h-formula",
+          "check": "黑／白H图标和英雄人数加减公式，小图／大图",
+          "passCriteria": "图标颜色、数字及正负含义保留，无minus残留",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "grant",
+          "check": "宇宙武器授予的异能与失能能力",
+          "passCriteria": "来源和接受者语义正确，点击后伤害数值正确",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "reaction",
+          "check": "反应提示中动态人名与伤害值",
+          "passCriteria": "完整译文随参数变化；无英文残留",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "omnitron",
+          "check": "全能智创双面制造／灭绝文本",
+          "passCriteria": "新版完整正文无Omnitron／FABRICATE／EXTERMINATE残留；翻面和结算正确",
+          "status": "accepted",
+          "visualObservations": [
+            {
+              "version": "0.1.36-rc.1",
+              "source": "image(20261128-105049).png",
+              "sha256": "ca94647690a5e05b420a43978ddba4df1a56e503301994a74de40397700a860f",
+              "humanConfirmation": "全能智创角色大图文字通过",
+              "scope": "截图所示制造面角色大图正文／阶段／排版",
+              "status": "visual-accepted",
+              "interaction": "未由本次截图确认",
+              "otherFace": "本截图未覆盖"
+            }
+          ],
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "ability-fonts",
+          "check": "银音秘师与全能智创四种能力标题的中文字形回退",
+          "passCriteria": "演奏／伴奏／制造／灭绝四标题中文字形可见；具体小图／大图覆盖与规则交互不由此项推定",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.37-rc.1（本轮测试上下文）",
+            "source": "用户2026-11-28本轮实机反馈（文字确认，无对应结算／能力截图）",
+            "humanConfirmation": "“演奏／伴奏／制造／灭绝”四个能力标题中文字形回退通过",
+            "visualResult": "四个能力标题中文字形回退实机通过",
+            "interactionResult": "此项为字体显示验收，不涉及卡牌规则交互；不推定各能力结算通过"
+          }
+        },
+        {
+          "id": "heading-weight",
+          "check": "四能力标题与异能：的粗体层级",
+          "passCriteria": "标题明显加粗，图标和正文原样，长正文不新增裁切",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.39-rc.1",
+            "source": "用户2026-11-28本轮文字确认",
+            "humanConfirmation": "四标题、异能前缀通过实机验收",
+            "visualResult": "演奏／伴奏／制造／灭绝与异能前缀加粗通过",
+            "interactionResult": "本项为标题显示验收"
+          }
+        }
+      ],
+      "kind": "live-functional"
+    },
+    {
+      "id": "names",
+      "purpose": "牌组名称与特殊标题",
+      "families": [
+        "deck-name",
+        "reviewed-short-title-consistency",
+        "environment-deck-title-role"
+      ],
+      "inventoryKeys": [],
+      "representativeCases": [
+        {
+          "family": "deck-name",
+          "id": "AbsoluteZero-turn"
+        },
+        {
+          "family": "reviewed-short-title-consistency",
+          "id": "028-title-Full"
+        },
+        {
+          "family": "environment-deck-title-role",
+          "id": "env-0"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "names",
+          "check": "抽牌、展示、牌组背面及短标题",
+          "passCriteria": "按审定译名一致显示；S-83等合法型号保留",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "environment-back-titles",
+          "check": "环境牌库缩略图与放大牌背名称",
+          "passCriteria": "初次选择、切换环境、撤销、缩略图及放大图完整中文无英文闪现；不影响牌库数量",
+          "status": "accepted",
+          "visualObservations": [
+            {
+              "version": "0.1.37-rc.1（本轮测试上下文）",
+              "source": "image(20261128-111734).png",
+              "sha256": "b060a560ce57d25dc032f84ece136cae362fbac418420234748f11656867417b",
+              "humanConfirmation": "环境缩略图/大图名称依然为英文",
+              "scope": "牌库缩略图",
+              "status": "visual-failed"
+            },
+            {
+              "version": "0.1.37-rc.1（本轮测试上下文）",
+              "source": "image(20261128-111738).png",
+              "sha256": "70fdc17ba3b90eae92aa6a33f0232f6d67d0c4bba6fbd0eb86ba4ebb95139acc",
+              "humanConfirmation": "环境缩略图/大图名称依然为英文",
+              "scope": "放大牌背",
+              "status": "visual-failed"
+            },
+            {
+              "version": "0.1.38-rc.1",
+              "source": "image(20261128-112837).png",
+              "sha256": "2976279ad0aa434a84b4262c79b5a35182ef24e6c96b2b82ac480664ab715274",
+              "humanConfirmation": "依然汉化失败",
+              "scope": "新游戏环境预览",
+              "status": "visual-failed"
+            },
+            {
+              "version": "0.1.38-rc.1",
+              "source": "image(20261128-112838).png",
+              "sha256": "26bc1816a777ed6efcdfcf5e300deecc3716ebb2ced9b59d7b4df784c71743f4",
+              "humanConfirmation": "依然汉化失败",
+              "scope": "放大牌背",
+              "status": "visual-failed"
+            },
+            {
+              "version": "0.1.38-rc.1",
+              "source": "image(20261128-112848).png",
+              "sha256": "628278b8a02887a34049f8d6cb64b4a5f4df234d45bc07394a8eecad70894c27",
+              "humanConfirmation": "依然汉化失败",
+              "scope": "牌库缩略图",
+              "status": "visual-failed"
+            },
+            {
+              "version": "0.1.40-rc.1",
+              "source": "SotM2-Dynamic-Evidence-20261128-200730-3c83e8.zip及本轮用户文字",
+              "humanConfirmation": "依然汉化失败",
+              "scope": "日志确认原初岛小图／大图英文，用户未分项确认其余新增接口",
+              "status": "visual-failed"
+            },
+            {
+              "version": "0.1.41-rc.1",
+              "source": "用户2026-11-28文字确认及202354-18269b证据包",
+              "humanConfirmation": "环境牌背名称已修复，但在撤销/初次选择时会有短暂延迟，期间为英文，延迟过后恢复中文",
+              "scope": "环境名称已能中文显示；首次选择及撤销有英文延迟",
+              "status": "partial-pass"
+            }
+          ],
+          "diagnosis": "0.1.41有效处理位于1秒扫描，日志显示绑定写入与持久性正常；0.1.42登记Configure实例并在Canvas绘制前刷新已登记牌背，扫描仅兜底。需复验初次选择与撤销无英文闪现。",
+          "evidence": {
+            "version": "0.1.42-rc.1",
+            "source": "用户2026-11-28本轮文字确认",
+            "humanConfirmation": "环境卡标题通过画面测试",
+            "visualResult": "本轮环境牌背名称与标题显示通过画面测试；按本轮复验上下文登记",
+            "interactionResult": "仅画面验收；不推定未单独确认的牌库数量、撤销规则或其他卡牌交互"
+          }
+        },
+        {
+          "id": "environment-title-font",
+          "check": "六环境牌背小图与大图的独立粗黑体标题",
+          "passCriteria": "标题有明确字重层级，最长环境名不裁切；原标题颜色、位置和数字保持；正文与其他标题不被换字体",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1",
+            "source": "用户2026-11-28本轮文字确认",
+            "humanConfirmation": "环境卡标题通过画面测试",
+            "visualResult": "本轮环境牌背名称与标题显示通过画面测试；按本轮复验上下文登记",
+            "interactionResult": "仅画面验收；不推定未单独确认的牌库数量、撤销规则或其他卡牌交互"
+          }
+        }
+      ],
+      "kind": "live-functional"
+    },
+    {
+      "id": "endings",
+      "purpose": "普通胜负与特殊失败结算",
+      "families": [
+        "result-message",
+        "environment-game-over",
+        "special-villain-endings"
+      ],
+      "inventoryKeys": [
+        "literal.42953cf73189d7f19a387d19"
+      ],
+      "representativeCases": [
+        {
+          "family": "result-message",
+          "id": "pilot014-76e047162721a9b11007fef5"
+        },
+        {
+          "family": "environment-game-over",
+          "id": "028-zero-0"
+        },
+        {
+          "family": "special-villain-endings",
+          "id": "031-villain-ending-0"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "normal",
+          "check": "普通胜利、英雄全失能和环境结算",
+          "passCriteria": "实际触发的结算标题与正文完整一致",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "baron",
+          "check": "刀锋男爵弃牌堆达到阈值的失败",
+          "passCriteria": "特殊月球撞击文本完整显示",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "voss",
+          "check": "大军阀沃斯达成特殊失败条件",
+          "passCriteria": "征服类结算文本完整显示，数字条件不变",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "wagner",
+          "check": "瓦格纳火星基地自毁倒计时耗尽，触发基地爆炸失败",
+          "passCriteria": "结束原因和“瓦格纳火星基地爆炸了！”结算标题完整显示；条件与实际失败一致",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.37-rc.1（本轮测试上下文）",
+            "source": "用户2026-11-28本轮实机反馈（文字确认，无对应结算／能力截图）",
+            "humanConfirmation": "瓦格纳火星基地特殊文本实机结算测试通过",
+            "visualResult": "特殊失败结算文本实机通过",
+            "interactionResult": "用户确认实际结算测试通过"
+          }
+        }
+      ],
+      "kind": "live-functional"
+    },
+    {
+      "id": "supporting-ui",
+      "purpose": "关联牌、描述和菜单操作",
+      "families": [
+        "description",
+        "menu-actions",
+        "related-cards",
+        "conditional-catalog"
+      ],
+      "inventoryKeys": [
+        "literal.60e5e1061cba2b68f60f5f60",
+        "literal.945322b9ceb6bbea63ff4b0c",
+        "literal.54874f0da61233492484424c",
+        "literal.a364c49dd67a6ac78c6f2bec",
+        "literal.3e0e13ef6bcb00ca51262685"
+      ],
+      "representativeCases": [
+        {
+          "family": "description",
+          "id": "card-played"
+        },
+        {
+          "family": "menu-actions",
+          "id": "pilot014-0c692eca802267a9636b74b8"
+        },
+        {
+          "family": "related-cards",
+          "id": "pilot015-1ad24c2ecf773124658ee16c"
+        },
+        {
+          "family": "conditional-catalog",
+          "id": "optional-3"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "associated",
+          "check": "附属／下置牌及弹窗描述",
+          "passCriteria": "标题和计数正确，弹窗可正常关闭",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        },
+        {
+          "id": "menu",
+          "check": "已开放菜单与基础词典范围",
+          "passCriteria": "操作按钮不串用途；条件词典不冒充默认覆盖",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        }
+      ],
+      "kind": "live-functional"
+    },
+    {
+      "id": "new-game",
+      "purpose": "新游戏选择与评分",
+      "families": [
+        "new-game-selection-labels"
+      ],
+      "inventoryKeys": [],
+      "representativeCases": [
+        {
+          "family": "new-game-selection-labels",
+          "id": "034-0-0"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "selection",
+          "check": "英雄、反派、环境选择；选3／4／5英雄",
+          "passCriteria": "选择标题、难度和危险度完整；数值随选项变化",
+          "status": "accepted",
+          "visualObservations": [
+            {
+              "version": "0.1.37-rc.1（本轮测试上下文）",
+              "source": "image(20261128-111230).png",
+              "sha256": "c4245c7d3b42e9ee4169615816d737db83bd30fa128175500ab7c0477c16d45b",
+              "humanConfirmation": "环境的危险度依然超出边界",
+              "scope": "环境危险度6，数字越过绿色面板右边界",
+              "status": "visual-failed",
+              "resolution": "0.1.38调整独立Rating Label布局，待复验"
+            }
+          ],
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        }
+      ],
+      "kind": "live-functional"
+    },
+    {
+      "id": "layout-spacing",
+      "purpose": "正文行距",
+      "families": [
+        "pushing-the-limits-layout"
+      ],
+      "inventoryKeys": [],
+      "representativeCases": [
+        {
+          "family": "pushing-the-limits-layout",
+          "id": "028-pushing-path-0"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "spacing",
+          "check": "突破极限等多阶段卡牌小图／大图",
+          "passCriteria": "行距舒展，标题与正文不重叠，长文本不裁切",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
+        }
+      ],
+      "kind": "live-functional"
+    },
+    {
+      "id": "inventory-followup",
+      "purpose": "未接入库存及拼接调用方复核",
+      "families": [],
+      "inventoryKeys": [
+        "literal.8267cc9c2dd28497b6667ea6",
+        "literal.343799bfe1a9ac8275cf0e8a",
+        "literal.5a9b5c80892f0a6e8f88c0e6",
+        "literal.a6a47d7ff91c20fbbd01aca5",
+        "literal.9a533b76467f622b1eca23aa",
+        "literal.bd501e74531c77e109029f31",
+        "literal.d40751c1320167af33cd335e",
+        "literal.18e132c9eae5cb14feec81b2",
+        "literal.392c7002192b7ef7b1e1d4a5",
+        "literal.2db2da940537ebaaf0114cf7",
+        "literal.6a1851ca33e36844aa3e3c11",
+        "literal.13e9e4f29ba2b9ba600e6bd6",
+        "literal.c07dfdb50da5fa7c527b59b5",
+        "literal.46cb1dedc890a791c3d63c75",
+        "literal.ef010cef6c62e3456818e8fb",
+        "literal.0af5f26910d9e3ee5e17f905",
+        "literal.9dac0106a9b52d3cb43490fe",
+        "literal.60bd4cbcacd8036676232bc6",
+        "literal.ca0ca4630aea93fda6b9e15b",
+        "literal.9dc683a42bc4c4eda9af0acc",
+        "literal.14caa34363314aa7d2efb906",
+        "literal.0a307c9b59fcf21155115340",
+        "literal.e59fa2eca50ca40192a29817",
+        "literal.ebc35be56f3eba3d16ed5349",
+        "literal.07da520dda1e63a11eb3f764",
+        "literal.8f1f3ac9dda2febbead693fd",
+        "literal.1a463daf2c8d4d0d53c2a66e",
+        "literal.2e032cd7da31d52236e0f2c1",
+        "literal.1265eb92a9705f1cbca91e7d",
+        "literal.e41869c22c74dd4600582b0c",
+        "literal.010f75d91ee8fdbf890f6770",
+        "literal.be9f2024eb14e69831ac52f8",
+        "literal.3bbc130f224342c0d982ade3",
+        "literal.884e178cb96eb670132dc6e2",
+        "literal.496eee04d0d68892529a0382",
+        "literal.758925c3cf7ae4088130173e",
+        "literal.18c26e11c24caa7f7d8c8858",
+        "literal.ca6f860b4b91cb8a1625c658",
+        "literal.506d85a8905a875f6db5e122",
+        "literal.1d764389d10c7f0c8fa5b916",
+        "literal.15fbfc6e7812e871546a5ceb",
+        "literal.4178513a4bf39ea06aac4faf",
+        "literal.89da694e944658e5b321e3f7",
+        "literal.653135cd182549c7ba3fac90",
+        "literal.4c089d61ded1d165744ffe60",
+        "literal.a237afa63b951aa1a702990b",
+        "literal.8b557a3fc8096ff67ed7faff",
+        "literal.27090a5be3bbb99a9b47d16c",
+        "literal.38de616614c19596e83376de",
+        "literal.3bc8f7e48dd1cd7fcb9391a6",
+        "literal.d8d3dacf4197eb955872a3bb",
+        "literal.9df9462e7657d5fdb228bd15",
+        "literal.f94f0c811e7f950da9ae8e49",
+        "literal.2dc8ba54025163f6fb460d59",
+        "literal.bd536c54e6dcb03472959831",
+        "literal.f79cddd04c01967f93d2acf5",
+        "literal.ab2ca5915f399904c7dd1373",
+        "literal.4fa6b316fc40e16cb90749f9",
+        "literal.c575aebffe3ee33046d94fbd",
+        "literal.90a38c95793d4e9bd390423f",
+        "literal.413ffe2231ef2acaef0af86f",
+        "literal.95aede09563d84314adf0d59",
+        "literal.e33734b3f07af3ea06784535",
+        "literal.86fbf65f2dc5950b422110f9",
+        "literal.11af071bfc1b6c45a1cc009f",
+        "literal.bbad0f65793338335c0b1d3f",
+        "literal.f7d1b44c2cd501d56069a078",
+        "literal.6ac470e678f113c9b88a5984",
+        "literal.db41dac8bd969a61e181d5a7",
+        "literal.da4cf5e5a1280c51c4445d15",
+        "literal.9a192c6e0b40a2f8be7b2718",
+        "literal.149ba7afe20117ad94e3ebfc",
+        "literal.901f2441ef46ea980055e2c8",
+        "literal.bc2c28c1e0e8048f992b4a46",
+        "literal.e40037502c741bd77922d3df",
+        "literal.81ae3ce894550788a2dd9085",
+        "literal.f17c01f49d8fc5e2402c17bb",
+        "literal.a2fe8989ee2bfe1aab7474e5",
+        "literal.6f0de725338bf93610b70274",
+        "literal.2266488e3484ac0f110eda65",
+        "literal.16a00daf7b8988ce5e9013eb",
+        "literal.6f7062652171d8e60688d68c",
+        "literal.dfe994e28fb1310827842c84",
+        "literal.733dba16cd05d6d93a90a797",
+        "literal.dd8f49e93f86c1d0b1251d69",
+        "literal.9808491772220ccf16093b6e",
+        "literal.3359cebec8f00a1a5b7175b0",
+        "literal.797a57dcb72598ad58186e67",
+        "literal.49f6d813a09a7a711201dacd",
+        "literal.d555c2f9a7c260db14607801",
+        "literal.aacfb8daac9a579f3669b9a7",
+        "literal.146354e190fce4e94193dfb5",
+        "literal.7aab5aa94097e62643805d57",
+        "literal.fec9464e03453bca6ab32b59",
+        "literal.36f531f3a130aaa92cdd8515",
+        "literal.81f6091117739feb074328c1",
+        "literal.d04caa000443d112a4725737",
+        "literal.740449e18f99683aa399ae3a",
+        "literal.eba8b67bb55d19146879278f",
+        "literal.2a6a878a8918da9f47485ce8",
+        "literal.e1febedcaf1b762217b2c48e",
+        "literal.ee097e9a93e6917e323fc931",
+        "literal.b85c311aa4da6a1b35135cf4",
+        "literal.4fc9dcfce616ffe0cb185fb6",
+        "literal.b8835cfc384b07ecc7c419ad",
+        "literal.390d361722936d858c04d0a1",
+        "literal.b5e006e64e73b705e2867d01",
+        "literal.4874fac2631c6c10d501db6e",
+        "literal.23353a6a06aacb6a0230dd0d",
+        "literal.6a6d5979598f99d78b742d87",
+        "literal.b2b365960fcd75c52ec0426c",
+        "literal.ff7c6c8de4c4ee0a8c4bc237",
+        "literal.b786ec7c553ee5464915520b",
+        "literal.13f711834b544243b82d3904",
+        "literal.0f6829b77e08ad4d51ed8cb0",
+        "literal.d1a255c02a6e622221ba788c",
+        "literal.c520012fdc48cdd98d43df51",
+        "literal.ea2323ce4dba6d4457f9d3b5"
+      ],
+      "representativeCases": [],
+      "scenarios": [],
+      "kind": "inventory-review",
+      "reviewTask": "对未接入的日志／状态片段确定实际调用方与完整句"
+    },
+    {
+      "id": "villain-logo-art",
+      "kind": "live-functional",
+      "purpose": "六基础反派完整字标比例、鸦母乌鸦恢复及小牌背；独立视觉批次",
+      "families": [
+        "villain-logo-art",
+        "villain-deckback-art"
+      ],
+      "inventoryKeys": [],
+      "representativeCases": [
+        {
+          "family": "villain-logo-art",
+          "id": "BaronBlade-front"
+        },
+        {
+          "family": "villain-deckback-art",
+          "id": "Omnitron-small-deckback"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "six-villains",
+          "check": "六基础反派正反面字标比例；鸦母按恢复乌鸦后的完整徽记校准",
+          "passCriteria": "六个中文名称无错字；字形、透明边缘、比例正确，无遮挡正文／生命值，刀锋刃尖不裁切",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.44-rc.1",
+            "source": "用户2026-11-28测试均通过确认＋五份0.1.44证据及全能智创小牌背截图",
+            "humanConfirmation": "测试均通过，再审核一下目前test分支的整体情况，无误后合并至main作为后续的基线",
+            "visualResult": "用户确认本轮测试均通过，包含六字标比例、鸦母完整徽记及小牌背；截图直接显示全能智创小牌背中文。",
+            "interactionResult": "用户统一确认本轮场景通过；未补造逐操作日志或测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.44.json"
+          }
+        },
+        {
+          "id": "reuse",
+          "check": "快速切换反派、英雄／变体、翻面、撤销",
+          "passCriteria": "不串图、不闪回英文；其他角色和非字标图片不变",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.44-rc.1",
+            "source": "用户2026-11-28测试均通过确认＋五份0.1.44证据及全能智创小牌背截图",
+            "humanConfirmation": "测试均通过，再审核一下目前test分支的整体情况，无误后合并至main作为后续的基线",
+            "visualResult": "用户确认本轮测试均通过，包含六字标比例、鸦母完整徽记及小牌背；截图直接显示全能智创小牌背中文。",
+            "interactionResult": "用户统一确认本轮场景通过；未补造逐操作日志或测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.44.json"
+          }
+        },
+        {
+          "id": "reload",
+          "check": "回主菜单、进入牌局、保存读档与重启",
+          "passCriteria": "字标持续可见，按钮及数值行为正常",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.44-rc.1",
+            "source": "用户2026-11-28测试均通过确认＋五份0.1.44证据及全能智创小牌背截图",
+            "humanConfirmation": "测试均通过，再审核一下目前test分支的整体情况，无误后合并至main作为后续的基线",
+            "visualResult": "用户确认本轮测试均通过，包含六字标比例、鸦母完整徽记及小牌背；截图直接显示全能智创小牌背中文。",
+            "interactionResult": "用户统一确认本轮场景通过；未补造逐操作日志或测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.44.json"
+          }
+        },
+        {
+          "id": "small-deckbacks",
+          "check": "六个基础反派小牌背、放大牌背、切换与撤销",
+          "passCriteria": "小牌背中文无残留英文，图稿构图及字形合格；大牌背正常，英雄／环境／变体不误替换",
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.44-rc.1",
+            "source": "用户2026-11-28测试均通过确认＋五份0.1.44证据及全能智创小牌背截图",
+            "humanConfirmation": "测试均通过，再审核一下目前test分支的整体情况，无误后合并至main作为后续的基线",
+            "visualResult": "用户确认本轮测试均通过，包含六字标比例、鸦母完整徽记及小牌背；截图直接显示全能智创小牌背中文。",
+            "interactionResult": "用户统一确认本轮场景通过；未补造逐操作日志或测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.44.json"
+          }
+        }
+      ],
+      "previousFeedback": {
+        "version": "0.1.43-rc.1",
+        "bindingObserved": true,
+        "visualAccepted": false,
+        "issues": [
+          "部分字标比例不合适",
+          "鸦母缺失原字标乌鸦",
+          "全能智创小牌背英文，大牌背中文"
+        ],
+        "correctionOrder": "其他五款比例；恢复鸦母乌鸦后校准整体；六小牌背"
+      }
+    }
+  ],
+  "closeout": {
+    "version": "0.1.44-rc.1",
+    "date": "2026-11-28",
+    "record": "coverage/acceptance-closeout-0.1.44.json",
+    "priorRecord": "coverage/acceptance-closeout-0.1.42.json"
+  }
+}

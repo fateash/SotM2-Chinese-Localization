@@ -123,13 +123,21 @@
       "disposition": "fix-stage-1",
       "reason": "动态完整原文尚无匹配规则；纳入第一阶段，不因卡名或关键词参数延期整个按钮。",
       "owner": "本地化维护者",
-      "nextAction": "0.1.13实机核验中文、数字、排版与交互；保留原待办身份与历史分类。",
+      "nextAction": "复查宇宙冠饰的打出／发现构造牌按钮和实际行为。",
       "resolution": {
-        "version": "0.1.13-rc.1",
+        "version": "0.1.33-rc.1",
         "status": "implemented-pending-live-test",
-        "expected": "发现Construct牌",
-        "evidence": "tests/fixtures/dynamic-0.1.12.json"
-      }
+        "expected": "发现构造牌",
+        "evidence": "probe/dynamic-pilot.json"
+      },
+      "history": [
+        {
+          "version": "0.1.13-rc.1",
+          "status": "implemented-pending-live-test",
+          "expected": "发现Construct牌",
+          "evidence": "tests/fixtures/dynamic-0.1.12.json"
+        }
+      ]
     },
     {
       "id": "08dfe12843851d507d169d27",
@@ -984,13 +992,21 @@
       "disposition": "fix-stage-1",
       "reason": "动态完整原文尚无匹配规则；纳入第一阶段，不因卡名或关键词参数延期整个按钮。",
       "owner": "本地化维护者",
-      "nextAction": "0.1.13实机核验中文、数字、排版与交互；保留原待办身份与历史分类。",
+      "nextAction": "复查宇宙冠饰的打出／发现构造牌按钮和实际行为。",
       "resolution": {
-        "version": "0.1.13-rc.1",
+        "version": "0.1.33-rc.1",
         "status": "implemented-pending-live-test",
-        "expected": "打出Construct牌",
-        "evidence": "tests/fixtures/dynamic-0.1.12.json"
-      }
+        "expected": "打出构造牌",
+        "evidence": "probe/dynamic-pilot.json"
+      },
+      "history": [
+        {
+          "version": "0.1.13-rc.1",
+          "status": "implemented-pending-live-test",
+          "expected": "打出Construct牌",
+          "evidence": "tests/fixtures/dynamic-0.1.12.json"
+        }
+      ]
     },
     {
       "id": "506f4ec2c9e7dc0e066e66c4",
@@ -1526,10 +1542,15 @@
     {
       "id": "7da6848c3e8b8ed5aab07fee",
       "reviewedReason": "unresolved-full-string",
-      "disposition": "fixed-text-stage-2",
-      "reason": "游戏配置、模式或结果页面的固定标题／选项文字，属于非卡组固定文本。",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.33截图／完整日志确认显示遗漏；准备栏此前仅标题中文，不代表整个正文完成。",
       "owner": "本地化维护者",
-      "nextAction": "第二阶段按实际控件身份和完整原文接入，检查布局。"
+      "nextAction": "复查0.1.34选项标题、白色H算式及实际准备结算。",
+      "resolution": {
+        "version": "0.1.34-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#new-game-selection-labels"
+      }
     },
     {
       "id": "7dcd90ac356be2cefce19e9c",
@@ -1986,10 +2007,15 @@
     {
       "id": "a5df4e675b88cbc9b722badb",
       "reviewedReason": "unresolved-full-string",
-      "disposition": "fixed-text-stage-2",
-      "reason": "游戏配置、模式或结果页面的固定标题／选项文字，属于非卡组固定文本。",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.33截图／完整日志确认显示遗漏；准备栏此前仅标题中文，不代表整个正文完成。",
       "owner": "本地化维护者",
-      "nextAction": "第二阶段按实际控件身份和完整原文接入，检查布局。"
+      "nextAction": "复查0.1.34选项标题、白色H算式及实际准备结算。",
+      "resolution": {
+        "version": "0.1.34-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#new-game-selection-labels"
+      }
     },
     {
       "id": "a6230170e9d9b5ffc819688a",
@@ -2119,10 +2145,15 @@
     {
       "id": "ae32d6241cb436d415153835",
       "reviewedReason": "unresolved-full-string",
-      "disposition": "fixed-text-stage-2",
-      "reason": "游戏配置、模式或结果页面的固定标题／选项文字，属于非卡组固定文本。",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.33截图／完整日志确认显示遗漏；准备栏此前仅标题中文，不代表整个正文完成。",
       "owner": "本地化维护者",
-      "nextAction": "第二阶段按实际控件身份和完整原文接入，检查布局。"
+      "nextAction": "复查0.1.34选项标题、白色H算式及实际准备结算。",
+      "resolution": {
+        "version": "0.1.34-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#new-game-selection-labels"
+      }
     },
     {
       "id": "ae3926d871a33c64408c6ab4",
@@ -3349,6 +3380,530 @@
         "status": "implemented-pending-live-test",
         "evidence": "coverage/contracts.json#special-villain-endings"
       }
+    },
+    {
+      "id": "aafa063139a6f2bd4fad36d3",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.31完整HUD原文已确认：双段排序、阶段组合句序或无数值伤害富文本形式未接入。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.32复现，检查完整画面、数字及点击／拖动行为。",
+      "resolution": {
+        "version": "0.1.32-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#multi-damage-order"
+      }
+    },
+    {
+      "id": "699bf7a879250b52531dc237",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.31完整HUD原文已确认：双段排序、阶段组合句序或无数值伤害富文本形式未接入。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.32复现，检查完整画面、数字及点击／拖动行为。",
+      "resolution": {
+        "version": "0.1.32-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#phase-hint-composition"
+      }
+    },
+    {
+      "id": "aa6d0b9d2ccd44147a013755",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.31完整HUD原文已确认：双段排序、阶段组合句序或无数值伤害富文本形式未接入。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.32复现，检查完整画面、数字及点击／拖动行为。",
+      "resolution": {
+        "version": "0.1.32-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#phase-hint-composition"
+      }
+    },
+    {
+      "id": "03bf2a08c1a76ebdc929665c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.31完整HUD原文已确认：双段排序、阶段组合句序或无数值伤害富文本形式未接入。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.32复现，检查完整画面、数字及点击／拖动行为。",
+      "resolution": {
+        "version": "0.1.32-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#wrapped-unspecified-damage"
+      }
+    },
+    {
+      "id": "18e17bdb5b780652282eb5c5",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "SonicVortex正文已为中文；剥除合法显示标签后拉丁字符仅规则变量X，数量与变量保留，不属于英文漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "保留变量与数字；本项不提升操作或画面验收。"
+    },
+    {
+      "id": "596ee16eb1c2a2ef16048205",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "CoolantBlast正文已为中文；剥除合法显示标签后拉丁字符仅规则变量X，数量与变量保留，不属于英文漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "保留变量与数字；本项不提升操作或画面验收。"
+    },
+    {
+      "id": "b570b00adec245176c63d627",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "HakaOfRecovery正文已为中文；剥除合法显示标签后拉丁字符仅规则变量X，数量与变量保留，不属于英文漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "保留变量与数字；本项不提升操作或画面验收。"
+    },
+    {
+      "id": "b54c4d68b606209f410a5855",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.32完整原文与用途已确认；优先复用审定译文并接入限定控件。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.33复查提示、手牌按钮、数量及实际动作。",
+      "resolution": {
+        "version": "0.1.33-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-hand-destination"
+      }
+    },
+    {
+      "id": "679741e08150f7a18b5e4e8f",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.32完整原文与用途已确认；优先复用审定译文并接入限定控件。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.33复查提示、手牌按钮、数量及实际动作。",
+      "resolution": {
+        "version": "0.1.33-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-hand-destination"
+      }
+    },
+    {
+      "id": "83e71cca2f8ef3831d72a447",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.32完整原文与用途已确认；优先复用审定译文并接入限定控件。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.33复查提示、手牌按钮、数量及实际动作。",
+      "resolution": {
+        "version": "0.1.33-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-hand-destination"
+      }
+    },
+    {
+      "id": "9a6075fa8d4a45474e7ecf6e",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.32完整原文与用途已确认；优先复用审定译文并接入限定控件。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.33复查提示、手牌按钮、数量及实际动作。",
+      "resolution": {
+        "version": "0.1.33-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-draw-count"
+      }
+    },
+    {
+      "id": "e9bdbb7f6e998d7cb29624ed",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.32完整原文与用途已确认；优先复用审定译文并接入限定控件。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.33复查提示、手牌按钮、数量及实际动作。",
+      "resolution": {
+        "version": "0.1.33-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-hand-destination"
+      }
+    },
+    {
+      "id": "6cb8524b05568685ae4a3f6d",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.32完整原文与用途已确认；优先复用审定译文并接入限定控件。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.33复查提示、手牌按钮、数量及实际动作。",
+      "resolution": {
+        "version": "0.1.33-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#target-purpose-hints"
+      }
+    },
+    {
+      "id": "a1f4959789eecfe7d21a70ec",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.32完整原文与用途已确认；优先复用审定译文并接入限定控件。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.33复查提示、手牌按钮、数量及实际动作。",
+      "resolution": {
+        "version": "0.1.33-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-hand-destination"
+      }
+    },
+    {
+      "id": "97c974b34efa422e15413fee",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.32完整原文与用途已确认；优先复用审定译文并接入限定控件。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.33复查提示、手牌按钮、数量及实际动作。",
+      "resolution": {
+        "version": "0.1.33-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#target-purpose-hints"
+      }
+    },
+    {
+      "id": "2e97735ae178ebaeebf80415",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "构造灾变正文已为中文，拉丁字符仅规则变量X；保留X及原数字，不属于英文漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "保留变量，不提升操作验收。"
+    },
+    {
+      "id": "3ddaab5434ca20cf5983af46",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.32完整原文与用途已确认；优先复用审定译文并接入限定控件。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.33复查提示、手牌按钮、数量及实际动作。",
+      "resolution": {
+        "version": "0.1.33-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-hand-destination"
+      }
+    },
+    {
+      "id": "44a4ce94eea3a70a25e4613e",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.32完整原文与用途已确认；优先复用审定译文并接入限定控件。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.33复查提示、手牌按钮、数量及实际动作。",
+      "resolution": {
+        "version": "0.1.33-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-hand-destination"
+      }
+    },
+    {
+      "id": "79e8813bf94194d35988080c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.32完整原文与用途已确认；优先复用审定译文并接入限定控件。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.33复查提示、手牌按钮、数量及实际动作。",
+      "resolution": {
+        "version": "0.1.33-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#target-purpose-hints"
+      }
+    },
+    {
+      "id": "23b369adab388f288936ca0c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "宇宙武器gainGameText为Power，既有译文位于CosmicWeapon，实际按钮绑定受益英雄TachyonCharacter；此前只替换标题。0.1.33增加受益英雄完整异能按钮入口及完整正文校验。",
+      "owner": "本地化维护者",
+      "nextAction": "复查快子与其他受益英雄获得宇宙武器后的异能正文、点击及伤害结算。",
+      "resolution": {
+        "version": "0.1.33-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#granted-hero-power"
+      }
+    },
+    {
+      "id": "6dae2a7ee0737a594392024a",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "HUD目标伤害提示没有来源头；0.1.33复核完整语法并使来源头可选。",
+      "owner": "本地化维护者",
+      "nextAction": "复测目标数量和伤害量独立显示、目标选择与结算。",
+      "resolution": {
+        "version": "0.1.33-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#damage-hint-optional-heading"
+      }
+    },
+    {
+      "id": "a343dc9c2c187699f0e4956d",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "光速连击已翻译正文，仅余规则变量X；不替换变量或更改规则数字。",
+      "owner": "本地化维护者",
+      "nextAction": "保留变量；不据此提升实机操作验收。"
+    },
+    {
+      "id": "b3e2d947c34996e2c7792daa",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "光速连击已翻译正文，仅余规则变量X；不替换变量或更改规则数字。",
+      "owner": "本地化维护者",
+      "nextAction": "保留变量；不据此提升实机操作验收。"
+    },
+    {
+      "id": "43d16921870f203cbeaecb25",
+      "reviewedReason": "current-rule-match",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.33截图／完整日志确认显示遗漏；准备栏此前仅标题中文，不代表整个正文完成。",
+      "owner": "本地化维护者",
+      "nextAction": "复查0.1.34选项标题、白色H算式及实际准备结算。",
+      "resolution": {
+        "version": "0.1.34-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-count-sprite-colors"
+      }
+    },
+    {
+      "id": "b04e3995724e0b088d4cb53e",
+      "reviewedReason": "current-rule-match",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.33截图／完整日志确认显示遗漏；准备栏此前仅标题中文，不代表整个正文完成。",
+      "owner": "本地化维护者",
+      "nextAction": "复查0.1.34选项标题、白色H算式及实际准备结算。",
+      "resolution": {
+        "version": "0.1.34-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-count-sprite-colors"
+      }
+    },
+    {
+      "id": "b5c8c1c44659b394dd93b4b9",
+      "reviewedReason": "current-rule-match",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.33截图／完整日志确认显示遗漏；准备栏此前仅标题中文，不代表整个正文完成。",
+      "owner": "本地化维护者",
+      "nextAction": "复查0.1.34选项标题、白色H算式及实际准备结算。",
+      "resolution": {
+        "version": "0.1.34-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-count-sprite-colors"
+      }
+    },
+    {
+      "id": "d3a88d647d7801f7d4f9339a",
+      "reviewedReason": "current-rule-match",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.33截图／完整日志确认显示遗漏；准备栏此前仅标题中文，不代表整个正文完成。",
+      "owner": "本地化维护者",
+      "nextAction": "复查0.1.34选项标题、白色H算式及实际准备结算。",
+      "resolution": {
+        "version": "0.1.34-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-count-sprite-colors"
+      }
+    },
+    {
+      "id": "5c3dfb97d8f9e747406d2b91",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "四英雄非当前角色附属牌目的地入口未接入；已有在此打出译文，0.1.35补齐布局。",
+      "owner": "本地化维护者",
+      "nextAction": "复查四英雄三个非当前位置及切换当前英雄后按钮与附属牌归属。",
+      "resolution": {
+        "version": "0.1.35-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#four-hero-layout-routes"
+      }
+    },
+    {
+      "id": "b3603c9c5a2027547377e12b",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "四英雄非当前角色附属牌目的地入口未接入；已有在此打出译文，0.1.35补齐布局。",
+      "owner": "本地化维护者",
+      "nextAction": "复查四英雄三个非当前位置及切换当前英雄后按钮与附属牌归属。",
+      "resolution": {
+        "version": "0.1.35-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#four-hero-layout-routes"
+      }
+    },
+    {
+      "id": "cfd285190c06af44b76b6c6c",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "四英雄非当前角色附属牌目的地入口未接入；已有在此打出译文，0.1.35补齐布局。",
+      "owner": "本地化维护者",
+      "nextAction": "复查四英雄三个非当前位置及切换当前英雄后按钮与附属牌归属。",
+      "resolution": {
+        "version": "0.1.35-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#four-hero-layout-routes"
+      }
+    },
+    {
+      "id": "6fec76545f190c2c0042d29f",
+      "reviewedReason": "current-rule-match",
+      "disposition": "catalog-difference-review",
+      "reason": "历史全能智创中文正文与当前审定完整句不同；只完成阶段标题转换，保留残留，不能将转换成功等同全文完成。",
+      "owner": "本地化维护者",
+      "nextAction": "用0.1.36实机核对全能智创双面正文与制造／灭绝；对比实际载入词典及历史输入，不添加宽泛名称或关键词替换。",
+      "residualReview": {
+        "tokens": [
+          "FABRICATE",
+          "Omnitron"
+        ],
+        "reason": "当前规则重放历史输入仍有专名／能力词残留；不是已证实的当前版本实机漏译。",
+        "owner": "本地化维护者",
+        "nextAction": "对应card-rendering/omnitron代表场景确认新版显示；保留历史样本，不豁免阶段关闭。",
+        "status": "pending-current-version-evidence",
+        "version": "0.1.36",
+        "currentVisualObservation": {
+          "source": "image(20261128-105049).png",
+          "humanConfirmation": "全能智创角色大图文字通过",
+          "scope": "制造面大图正文，当前截图无英文残留；历史输入仍保留",
+          "version": "0.1.36-rc.1"
+        }
+      }
+    },
+    {
+      "id": "a897f6a0ae5f1c9f720e7e43",
+      "reviewedReason": "current-rule-match",
+      "disposition": "catalog-difference-review",
+      "reason": "历史全能智创中文正文与当前审定完整句不同；只完成阶段标题转换，保留残留，不能将转换成功等同全文完成。",
+      "owner": "本地化维护者",
+      "nextAction": "用0.1.36实机核对全能智创双面正文与制造／灭绝；对比实际载入词典及历史输入，不添加宽泛名称或关键词替换。",
+      "residualReview": {
+        "tokens": [
+          "EXTERMINATE",
+          "Omnitron"
+        ],
+        "reason": "当前规则重放历史输入仍有专名／能力词残留；不是已证实的当前版本实机漏译。",
+        "owner": "本地化维护者",
+        "nextAction": "对应card-rendering/omnitron代表场景确认新版显示；保留历史样本，不豁免阶段关闭。",
+        "status": "pending-current-version-evidence",
+        "version": "0.1.36"
+      }
+    },
+    {
+      "id": "e55e01d93aee91316be1d7e9",
+      "reviewedReason": "current-rule-match",
+      "disposition": "catalog-difference-review",
+      "reason": "历史全能智创中文正文与当前审定完整句不同；只完成阶段标题转换，保留残留，不能将转换成功等同全文完成。",
+      "owner": "本地化维护者",
+      "nextAction": "用0.1.36实机核对全能智创双面正文与制造／灭绝；对比实际载入词典及历史输入，不添加宽泛名称或关键词替换。",
+      "residualReview": {
+        "tokens": [
+          "FABRICATE",
+          "Omnitron"
+        ],
+        "reason": "当前规则重放历史输入仍有专名／能力词残留；不是已证实的当前版本实机漏译。",
+        "owner": "本地化维护者",
+        "nextAction": "对应card-rendering/omnitron代表场景确认新版显示；保留历史样本，不豁免阶段关闭。",
+        "status": "pending-current-version-evidence",
+        "version": "0.1.36",
+        "currentVisualObservation": {
+          "source": "image(20261128-105049).png",
+          "humanConfirmation": "全能智创角色大图文字通过",
+          "scope": "制造面大图正文，当前截图无英文残留；历史输入仍保留",
+          "version": "0.1.36-rc.1"
+        }
+      }
+    },
+    {
+      "id": "09d599cfdd70609495c3aa79",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "缺少完整破坏顺序／单目标破坏提示；0.1.37补入完整语法，数量与先后限定保留。",
+      "owner": "本地化维护者",
+      "nextAction": "实际触发并检查提示与选取／破坏顺序。",
+      "resolution": {
+        "version": "0.1.37-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#destroy-order-and-target-hints"
+      }
+    },
+    {
+      "id": "1676b89d79b65ec5e8801f4e",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "新游戏添加按钮的符号；新组件身份形成独立观察，符号无需翻译。",
+      "owner": "本地化维护者",
+      "nextAction": "保持符号／变量，数值与实际行为随代表场景检查；不添加翻译替换。"
+    },
+    {
+      "id": "75aa41b6f02862bddef552e8",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "退出按钮的X符号，不是英文正文。",
+      "owner": "本地化维护者",
+      "nextAction": "保持符号／变量，数值与实际行为随代表场景检查；不添加翻译替换。"
+    },
+    {
+      "id": "923606a04d39901703c34044",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "缺少完整破坏顺序／单目标破坏提示；0.1.37补入完整语法，数量与先后限定保留。",
+      "owner": "本地化维护者",
+      "nextAction": "实际触发并检查提示与选取／破坏顺序。",
+      "resolution": {
+        "version": "0.1.37-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#destroy-order-and-target-hints"
+      }
+    },
+    {
+      "id": "923c2c9309f102dec5628282",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "新游戏添加按钮的符号；新组件身份形成独立观察，符号无需翻译。",
+      "owner": "本地化维护者",
+      "nextAction": "保持符号／变量，数值与实际行为随代表场景检查；不添加翻译替换。"
+    },
+    {
+      "id": "95bff8919322cc13c894d40f",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "新游戏添加按钮的符号；新组件身份形成独立观察，符号无需翻译。",
+      "owner": "本地化维护者",
+      "nextAction": "保持符号／变量，数值与实际行为随代表场景检查；不添加翻译替换。"
+    },
+    {
+      "id": "c8c33e9662b2927b02930c4f",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "已中文的发掘正文，X为明确给出定义的规则变量；保留字面3、X及对应规则。",
+      "owner": "本地化维护者",
+      "nextAction": "保持符号／变量，数值与实际行为随代表场景检查；不添加翻译替换。"
+    },
+    {
+      "id": "e14b5e58911c0b22c2decf01",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "缺少完整破坏顺序／单目标破坏提示；0.1.37补入完整语法，数量与先后限定保留。",
+      "owner": "本地化维护者",
+      "nextAction": "实际触发并检查提示与选取／破坏顺序。",
+      "resolution": {
+        "version": "0.1.37-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#destroy-order-and-target-hints"
+      }
+    },
+    {
+      "id": "3eed78a2c047f8e0720ec2b7",
+      "disposition": "nonlinguistic",
+      "reviewedReason": "unresolved-full-string",
+      "reason": "Excavation完整中文正文中的X是本句明确定义的规则变量，数字3和变量均须保留。",
+      "owner": "SotM2本地化维护",
+      "nextAction": "保留规则变量，随卡牌代表场景检查画面与结算，本次记录不提升为实机验收。"
+    },
+    {
+      "id": "7abf789e171b617b6ed1ca0f",
+      "disposition": "nonlinguistic",
+      "reviewedReason": "unresolved-full-string",
+      "reason": "Excavation完整中文正文中的X是本句明确定义的规则变量，数字3和变量均须保留。",
+      "owner": "SotM2本地化维护",
+      "nextAction": "保留规则变量，随卡牌代表场景检查画面与结算，本次记录不提升为实机验收。"
     }
   ]
 }

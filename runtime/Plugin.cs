@@ -14,7 +14,7 @@ using Handelabra.Sentinels2.Engine.Controller;
 using UObj=UnityEngine.Object;
 namespace SotM2Chinese;
 
-[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.31")]
+[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.44")]
 public sealed class Plugin:BasePlugin {
  internal static Plugin Instance=null!;
  internal static Catalog Texts=new();
@@ -32,7 +32,7 @@ public sealed class Plugin:BasePlugin {
   var surfacePath=Path.Combine(Root,"surface-probe.json");
   if(File.Exists(surfacePath)){Surface=new SurfaceProbe(surfacePath);Log.LogInfo("SURFACE_PROBE_ENABLED configured-pilot bounded-capture");}
   UiSources=new HashSet<string>(Texts.Ui.Select(e=>e.Source),StringComparer.Ordinal);
-  Log.LogInfo("PROTOTYPE_LOADED 0.1.31-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
+  Log.LogInfo("PROTOTYPE_LOADED 0.1.44-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
   // Resolve types/methods without patching the game model or rule engine.
   var method=typeof(TextHelper).GetMethods().Single(m=>m.Name=="ReplaceTemplatesAndInsertSpecifics"&&m.GetParameters().Length==8);
   Log.LogInfo("DISPLAY_METHOD_RESOLVED "+method);
@@ -40,6 +40,37 @@ public sealed class Plugin:BasePlugin {
   if(Chinese) {
    var harmony=new Harmony("sotm2.zh.prototype");
    harmony.Patch(method,prefix:new HarmonyMethod(typeof(Plugin),nameof(CardPrefix)));
+   try {
+    var logo=typeof(CardView).GetMethods(BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic)
+     .Single(m=>m.Name=="GetLogoImageSpriteName" && m.GetParameters().Length==2);
+    harmony.Patch(logo,postfix:new HarmonyMethod(typeof(Plugin),nameof(LogoNameResolved)));
+    var loadImage=typeof(CardView).GetMethods(BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic)
+     .Single(m=>m.Name=="LoadCardImage" && m.GetParameters().Length==3);
+    harmony.Patch(loadImage,prefix:new HarmonyMethod(typeof(Plugin),nameof(DeckBackImageLoading)));
+    var sprite=typeof(UnityEngine.UI.Image).GetProperty("sprite")!.GetSetMethod()!;
+    harmony.Patch(sprite,prefix:new HarmonyMethod(typeof(Plugin),nameof(LogoSpriteInput)));
+    Log.LogInfo("VILLAIN_LOGO_HOOK_INSTALLED exact-name + bound-LogoImage; VILLAIN_DECKBACK_HOOK_INSTALLED LoadCardImage + bound-MainImage + small-deckback + atlas-dimensions");
+   }catch(Exception e){Log.LogWarning("VILLAIN_LOGO_HOOK_FALLBACK original artwork retained: "+e);}
+   // This build writes card titles through the virtual text property setter.
+   // SetText(string) and SetText(string,bool) share one native address: patch it once.
+   foreach(var entry in new[]{
+    typeof(TMP_Text).GetProperty("text")?.GetSetMethod(),
+    typeof(TMP_Text).GetMethod("SetText",new[]{typeof(string),typeof(bool)})}){
+    if(entry==null)throw new MissingMethodException("TMP title string input");
+    harmony.Patch(entry,prefix:new HarmonyMethod(typeof(Plugin),nameof(EnvironmentTitleStringInput)));
+   }
+   Log.LogInfo("ENVIRONMENT_TITLE_INPUT_HOOK_INSTALLED text-setter-and-string-SetText-no-buffer-access");
+   try {
+    // Configure is async: register the view immediately, then read its bound title
+    // on the Unity canvas pre-render phase, never on a Task continuation thread.
+    var configure=typeof(CardBackView).GetMethods(BindingFlags.Instance|BindingFlags.Public|BindingFlags.DeclaredOnly)
+     .Single(m=>m.Name=="Configure" && m.GetParameters().Length==6);
+    harmony.Patch(configure,prefix:new HarmonyMethod(typeof(Plugin),nameof(RegisterEnvironmentBack)));
+    var canvas=typeof(Canvas).GetMethod("SendPreWillRenderCanvases",BindingFlags.Static|BindingFlags.NonPublic|BindingFlags.Public)
+     ?? throw new MissingMethodException("Canvas pre-render callback");
+    harmony.Patch(canvas,prefix:new HarmonyMethod(typeof(Plugin),nameof(BeforeCanvasRender)));
+    Log.LogInfo("ENVIRONMENT_TITLE_CANVAS_HOOK_INSTALLED configure-register + canvas-pre-render");
+   }catch(Exception e){Log.LogWarning("ENVIRONMENT_TITLE_CANVAS_HOOK_FALLBACK bounded scan retained: "+e);}
    foreach(var render in new[]{
     typeof(TextMeshProUGUI).GetMethod("OnPreRenderCanvas",BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic),
     typeof(TextMeshPro).GetMethod("OnPreRenderObject",BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic)}) {
@@ -49,6 +80,28 @@ public sealed class Plugin:BasePlugin {
    }
   }
   Log.LogInfo("PROTOTYPE_READY component registered; awaiting Unity Update");
+ }
+ public static void RegisterEnvironmentBack(CardBackView __instance){
+  try {Surface?.TrackBackView(__instance);}catch(Exception e){Once("track-back-error","ENVIRONMENT_TITLE_TRACK_ERROR "+e);}
+ }
+ public static void LogoNameResolved(CardView __instance,string __result){
+  try {VillainLogos.Expect(__instance,__result);}catch(Exception e){Once("logo-name-error","VILLAIN_LOGO_NAME_ERROR "+e);}
+ }
+ public static void DeckBackImageLoading(CardView __instance,UnityEngine.UI.Image __0,string __1){
+  try {VillainDeckBacks.Expect(__instance,__0,__1);}catch(Exception e){Once("deckback-name-error","VILLAIN_DECKBACK_NAME_ERROR "+e);}
+ }
+ public static void LogoSpriteInput(UnityEngine.UI.Image __instance,ref Sprite __0){
+  try {VillainLogos.BeforeSprite(__instance,ref __0);VillainDeckBacks.BeforeSprite(__instance,ref __0);}catch(Exception e){Once("logo-sprite-error","VILLAIN_LOGO_SPRITE_ERROR "+e);}
+ }
+ [ThreadStatic] private static bool inCanvas;
+ public static void BeforeCanvasRender(){
+  if(!Chinese || inCanvas)return;
+  inCanvas=true;
+  try {Surface?.RefreshTrackedBackViews();}
+  catch(Exception e){Once("canvas-title-error","ENVIRONMENT_TITLE_CANVAS_ERROR "+e);}
+  try {VillainLogos.Refresh();VillainDeckBacks.Refresh();}
+  catch(Exception e){Once("canvas-logo-error","VILLAIN_LOGO_CANVAS_ERROR "+e);}
+  finally {inCanvas=false;}
  }
  internal static readonly Dictionary<string,string> LastCardState=new(StringComparer.Ordinal);
  internal static void CardState(string card,string source,string state) {
@@ -61,6 +114,16 @@ public sealed class Plugin:BasePlugin {
  }
  private static int cardStateLogs;
  [ThreadStatic] private static bool inRender;
+ public static void EnvironmentTitleStringInput(TMP_Text __instance,ref string __0){
+  if(!Chinese || __instance==null || string.IsNullOrEmpty(__0))return;
+  try {
+   Surface?.ObserveTitleInput(__instance,__0);
+   if(!SurfaceProbe.IsEnvironmentDeckTitle(__instance))return;
+   var target=Surface?.EnvironmentTitleInput(__instance,__0);
+   if(target==null || !FontSupport.EnsureReady())return;
+   FontSupport.AttachFallback(__instance,target);__0=target;
+  }catch(Exception e){Once("environment-title-input-error","ENVIRONMENT_TITLE_INPUT_FALLBACK "+e);}
+ }
  public static void BeforeTextRender(TMP_Text __instance) {
   if(!Chinese || inRender || __instance==null)return;
   inRender=true;
@@ -84,7 +147,8 @@ public sealed class Plugin:BasePlugin {
    if(translated==null && !DisplayScope.ContainsHan(source))return;
    if(__instance.GetComponentInParent<TMP_InputField>()!=null)return;
    if(!FontSupport.EnsureReady())return;
-   FontSupport.AttachFallback(__instance);
+   FontSupport.AttachFallback(__instance,translated??source);
+   Surface?.ApplySectionLayout(__instance,translated??source);
    if(translated==null)return;
    __instance.text=translated;
    if(marker!=null && translated==marker)Once("surface-applied|"+__instance.gameObject.name+source,"SURFACE_DISPLAY_APPLIED object="+__instance.gameObject.name+" source="+Clip(source));
@@ -156,6 +220,7 @@ public sealed class ProbeBehaviour:MonoBehaviour {
    Plugin.Once("callback-entry","UNITY_CALLBACK_ENTER before Unity API calls");
    if(stopped) return;
    if(Plugin.Chinese)FontSupport.EnsureReady();
+   if(Plugin.Chinese){VillainLogos.Prepare();VillainDeckBacks.Prepare();}
    long now=System.Diagnostics.Stopwatch.GetTimestamp();
    if(now<next) return;
    next=now+System.Diagnostics.Stopwatch.Frequency;
@@ -165,16 +230,19 @@ public sealed class ProbeBehaviour:MonoBehaviour {
    foreach(var t in texts) {
     if(t==null || t.gameObject==null || !t.gameObject.activeInHierarchy || !t.gameObject.scene.IsValid()) continue;
     active++;
+    Plugin.Surface?.ObserveTitleSnapshot(t);
     if(!Plugin.Chinese || !Plugin.Ready || !Plugin.TryReadStringLabel(t,out var current))continue;
     var zh=Plugin.UiSources.Contains(current)?Plugin.Texts.UiText(t.gameObject.name,current):null;
     if(zh==null && !DisplayScope.ContainsHan(current))continue;
     // The scanner obeys the same scope as the pre-render hook; HP never reaches here.
     if(t.GetComponentInParent<TMP_InputField>()!=null)continue;
-    FontSupport.AttachFallback(t);
+    FontSupport.AttachFallback(t,zh??current);
     if(zh!=null) { t.text=zh; t.SetAllDirty(); translated++; Plugin.Once("ui|"+t.gameObject.name+current,"UI_TRANSLATED object="+t.gameObject.name+" source="+current.Replace("\n","\\n")); }
    }
    Plugin.Once("scan","UI_SCAN_OK activeTMP="+active+" legacyUI="+Resources.FindObjectsOfTypeAll<UnityEngine.UI.Text>().Length);
    if(active>0) Plugin.Once("active-ui","ACTIVE_UI_FOUND count="+active);
+   Plugin.Surface?.UpdateBackViews();
+   try {VillainLogos.Refresh();VillainDeckBacks.Refresh();}catch(Exception e){Plugin.Once("logo-update-error","VILLAIN_LOGO_UPDATE_ERROR "+e);}
    FontSupport.KeepFontAlive();
   } catch(Exception ex) { Plugin.Ready=false; Plugin.Once("update-error", "UPDATE_ERROR "+ex); stopped=true; }
  }
@@ -210,6 +278,7 @@ internal static class FontSupport {
    bool ok=Plugin.Cjk.TryAddCharacters(chars,out string missing,true);
    if(!ok || !string.IsNullOrEmpty(missing)) {Plugin.Once("font-missing","FONT_GLYPHS_MISSING "+missing);return false;}
    KeepFontAlive();Plugin.Ready=true;
+   EnvironmentTitleFont.Prepare(Plugin.Surface?.EnvironmentTitleGlyphs()??"");
    Plugin.Instance.Log.LogInfo("FONT_READY generation="+generation+" glyphs="+chars.Length+" atlas=2048 multiAtlas="+Plugin.Cjk.isMultiAtlasTexturesEnabled);
    return true;
   } catch(Exception e) {Plugin.Ready=false;Plugin.Once("font-error","FONT_INIT_FALLBACK "+e);return false;}
@@ -219,14 +288,28 @@ internal static class FontSupport {
   asset.hideFlags |= HideFlags.DontUnloadUnusedAsset;
   UObj.DontDestroyOnLoad(asset);
  }
- internal static void AttachFallback(TMP_Text text) {
-  var font=text.font;
-  if(font==null || font==Plugin.Cjk)return;
+ static readonly Dictionary<string,TMP_FontAsset> InlineFonts=new(StringComparer.Ordinal);
+ static bool AttachToFont(TMP_FontAsset? font){
+  if(font==null || font==Plugin.Cjk)return false;
   var list=font.fallbackFontAssetTable;
-  if(list==null) {list=new Il2CppSystem.Collections.Generic.List<TMP_FontAsset>();font.fallbackFontAssetTable=list;}
-  if(!list.Contains(Plugin.Cjk!)){list.Add(Plugin.Cjk!);text.SetAllDirty();}
+  if(list==null){list=new Il2CppSystem.Collections.Generic.List<TMP_FontAsset>();font.fallbackFontAssetTable=list;}
+  if(list.Contains(Plugin.Cjk!))return false;
+  list.Add(Plugin.Cjk!);return true;
+ }
+ internal static void AttachFallback(TMP_Text text,string source) {
+  bool changed=AttachToFont(text.font);
+  foreach(var name in RenderedDisplayRules.RequiredInlineFonts(source)){
+   if(!InlineFonts.TryGetValue(name,out var font) || font==null){
+    font=Resources.Load<TMP_FontAsset>(TMP_Settings.defaultFontAssetPath+name);
+    if(font==null){Plugin.Once("inline-font-missing|"+name,"INLINE_FONT_UNAVAILABLE "+name);continue;}
+    InlineFonts[name]=font;
+   }
+   if(AttachToFont(font)){changed=true;Plugin.Once("inline-font-attached|"+name,"INLINE_FONT_FALLBACK_READY "+name);}
+  }
+  if(changed)text.SetAllDirty();
  }
  internal static void KeepFontAlive() {
+  EnvironmentTitleFont.KeepAlive();
   if(Plugin.Cjk==null)return;
   foreach(var tex in Plugin.Cjk.atlasTextures)if(tex!=null)Preserve(tex);
  }

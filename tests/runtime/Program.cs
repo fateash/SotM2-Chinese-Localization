@@ -59,7 +59,7 @@ foreach(var pair in new[]{("Ra","2","fire","火焰"),("Nimble Strike","9","melee
  Check(pilot.Apply(SurfaceProbeRules.HintPath,input)==expected,"source amount type preserved "+pair);
 }
 Check(pilot.Apply(SurfaceProbeRules.HintPath,"<b>Consuming Flame:</b> Click up to 3 targets to deal them <nobr>2 fire</nobr> damage.")=="<b>Consuming Flame:</b> 点击至多3个目标，对其各造成<nobr>2点火焰伤害</nobr>。","multi-target amount and upper limit separate");
-foreach(var input in new[]{"<b>Ra:</b> Click a target to deal it <nobr>2 unknown</nobr> damage.","<b>Ra:</b> Click a target to deal it <nobr>-2 fire</nobr> damage.","<b>Ra:</b> Click a target to deal it <nobr>2 fire</nobr> damage. Extra", "Click a target to deal it <nobr>2 fire</nobr> damage."})
+foreach(var input in new[]{"<b>Ra:</b> Click a target to deal it <nobr>2 unknown</nobr> damage.","<b>Ra:</b> Click a target to deal it <nobr>-2 fire</nobr> damage.","<b>Ra:</b> Click a target to deal it <nobr>2 fire</nobr> damage. Extra"})
  Check(pilot.Apply(SurfaceProbeRules.HintPath,input)==null,"unknown grammar untouched "+input);
 Check(pilot.Apply("Other/Finish Button Label","Damage 3 targets")==null,"same label other hierarchy untouched");
 Check(pilot.Apply(DynamicDisplayRules.FinishPath,"Damage 1 targets")==null,"unexpected plural form untouched");
@@ -212,7 +212,7 @@ Check(pilot.Apply(DynamicDisplayRules.DescriptionPath,"Other Card discovered:")=
 Check(pilot.Apply(DynamicDisplayRules.DescriptionPath,"<b>Cosmic Crest</b> discovered:")==null,"unexpected discovery markup not stripped");
 foreach(var source in new[]{"Play Construct","Discover Construct"}){
  foreach(var path in new[]{effectPath,"Full Card Canvas/Full Card Panel/CosmicCrest/Select Effect Container/Select Effect Button(Clone)/Label"})
-  Check(pilot.Dynamic.ApplyCardButton(path,"CosmicCrest",source)==(source=="Play Construct"?"打出Construct牌":"发现Construct牌"),"construct action scoped to small/full effect button");
+  Check(pilot.Dynamic.ApplyCardButton(path,"CosmicCrest",source)==(source=="Play Construct"?"打出构造牌":"发现构造牌"),"construct action scoped to small/full effect button");
  Check(pilot.Dynamic.ApplyCardButton(effectPath.Replace("Select Effect Container/Select Effect Button(Clone)","Power Container/UsePower"),"CosmicCrest",source)==null,"construct action cannot rewrite power body");
 }
 using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/dynamic-0.1.13.json"))){
@@ -240,7 +240,7 @@ foreach(var slot in new[]{1,2,3,4}){
  Check(pilot.Dynamic.ApplyCardButton(character,"RaCharacter","Play Here")==null,"five-hero mismatched character excluded");
 }
 string fiveHero="Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label";
-foreach(var wrong in new[]{"5 Hero Layout/Inactive Hero Location 0","5 Hero Layout/Inactive Hero Location 5","3 Hero Layout/Inactive Hero Location 3","4 Hero Layout/Inactive Hero Location 1"})
+foreach(var wrong in new[]{"5 Hero Layout/Inactive Hero Location 0","5 Hero Layout/Inactive Hero Location 5","3 Hero Layout/Inactive Hero Location 3","4 Hero Layout/Inactive Hero Location 4"})
  Check(pilot.Apply(fiveHero.Replace("5 Hero Layout/Inactive Hero Location 1",wrong),"Play a Card")==null,"layout/index pairing must be authorized");
 string popup="Canvas/Revealed Cards Manager/[RevealCardsAction: Source=Captain Cosmic]/Title Label";
 Check(pilot.Apply(popup,"Captain Cosmic revealed:")=="Captain Cosmic展示的牌：","reveal popup matches action owner");
@@ -319,7 +319,7 @@ Check(pilot.Apply(deckRole,"Discard")==null,"discard cannot bind to deck destina
 Check(pilot.Apply(trashRole,"Replace")==null,"replace cannot bind to trash destination");
 Check(pilot.Apply(trashRole,"Draw")==null,"draw cannot bind to trash destination");
 foreach(var role in new[]{deckRole,trashRole}){
- foreach(var bad in new[]{"5 Hero Layout/Inactive Hero Location 0","5 Hero Layout/Inactive Hero Location 5","3 Hero Layout/Inactive Hero Location 3","4 Hero Layout/Inactive Hero Location 1"})
+ foreach(var bad in new[]{"5 Hero Layout/Inactive Hero Location 0","5 Hero Layout/Inactive Hero Location 5","3 Hero Layout/Inactive Hero Location 3","4 Hero Layout/Inactive Hero Location 4"})
   Check(pilot.Apply(role.Replace("5 Hero Layout/Inactive Hero Location 4",bad),role==deckRole?"Replace":"Discard")==null,"invalid layout-slot pair rejected for destination button");
  Check(pilot.Apply(role.Replace("/Unity/","/UnknownHero/"),role==deckRole?"Draw":"Discard")==null,"unknown owner route excluded");
  Check(pilot.Apply(role.Replace("Selection Button Label","HP Label"),"Draw")==null,"numeric counter role excluded");
@@ -386,4 +386,146 @@ using(var nameCases=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/
   Check(actual==expected,"0.1.19 deck name scope: "+c.GetProperty("path").GetString()+" / "+src);
  }
 Check(pilot.DeckNames.Values.All(n=>n.All(c=>pilot.AllGlyphs().Contains(c))),"all approved name glyphs are preloaded");
+using(var evidence032=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/dynamic-0.1.32.json"))){
+ foreach(var sample in evidence032.RootElement.GetProperty("samples").EnumerateArray()){
+  string path=sample.GetProperty("path").GetString()!,source=sample.GetProperty("source").GetString()!;
+  string? actual=pilot.Apply(path,source);
+  Check(actual==sample.GetProperty("expected").GetString(),"0.1.32 full grammar output");
+  Check(pilot.Apply(path,actual!)==null,"0.1.32 output idempotent");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"<[^<>]+>").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"<[^<>]+>").Select(m=>m.Value)),"0.1.32 rich-text sequence preserved");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"[0-9]+").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"[0-9]+").Select(m=>m.Value)),"0.1.32 numeric sequence preserved");
+ }
+}
+using(var evidence033=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/dynamic-0.1.33.json"))){
+ foreach(var sample in evidence033.RootElement.GetProperty("samples").EnumerateArray()){
+  string path=sample.GetProperty("path").GetString()!,source=sample.GetProperty("source").GetString()!;
+  string? actual=pilot.Apply(path,source);
+  Check(actual==sample.GetProperty("expected").GetString(),"0.1.33 full grammar output");
+  Check(pilot.Apply(path,actual!)==null,"0.1.33 output idempotent");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"<[^<>]+>").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"<[^<>]+>").Select(m=>m.Value)),"0.1.33 rich-text sequence preserved");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"[0-9]+").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"[0-9]+").Select(m=>m.Value)),"0.1.33 numeric sequence preserved");
+ }
+}
+var grantCompletion033=new RenderedDisplayRules(catalog,pilot.DeckNames,pilot.Templates);
+string grantSource033="<style=PowerHeading>POWER: </style><style=PowerBody>This Hero deals 1 target 3 energy damage.\r\n</style>";
+string grantPath033="Canvas/Main Panel/Tachyon/Inner Panel/Character Card Container/TachyonCharacter/Foreground Elements/Power Container/761/UsePower-Tachyon-TachyonCharacter/Label";
+string grantTarget033="<style=PowerHeading>异能: </style><style=PowerBody>该英雄对1个目标造成3点能量伤害。\r\n</style>";
+Check(grantCompletion033.Apply(grantPath033,"Label","TachyonCharacter",true,true,grantSource033)==grantTarget033,"granted power uses donor reviewed text on recipient button");
+Check(grantCompletion033.Apply(grantPath033,"Label","TachyonCharacter",true,true,grantTarget033)==null,"granted power Chinese output idempotent");
+Check(grantCompletion033.Apply(grantPath033,"Label","LegacyCharacter",true,true,grantSource033)==null,"granted power recipient identity mismatch rejected");
+Check(grantCompletion033.Apply(grantPath033,"Label","TachyonCharacter",true,false,grantSource033)==null,"granted power requires actual button");
+Check(grantCompletion033.Apply(grantPath033,"Label","TachyonCharacter",true,true,grantSource033.Replace("3 energy","4 energy"))==grantSource033.Replace("3 energy","4 energy").Replace("POWER: ","异能: "),"unreviewed granted amount never forced to fixed 3");
+foreach(var t in pilot.Templates){
+ string visible=System.Text.RegularExpressions.Regex.Replace(t.Value,@"<[^<>]+>","");
+ Check(!System.Text.RegularExpressions.Regex.IsMatch(visible,"[A-Za-z]"),"approved dynamic template has no leftover English token: "+t.Key);
+}
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click up to 2 targets to deal them <nobr>2 melee</nobr> damage.")=="点击至多2个目标，对其各造成<nobr>2点近战伤害</nobr>。","optional heading preserves separate target count and damage amount");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click a target to deal it <nobr>2 fire</nobr> damage.")=="点击一个目标，对其造成<nobr>2点火焰伤害</nobr>。","single target damage heading optional");
+Check(pilot.Apply("Canvas/Other/Hint Label","Click up to 2 targets to deal them <nobr>2 melee</nobr> damage.")==null,"optional heading does not relax HUD path");
+Check(pilot.Apply(SurfaceProbeRules.HintPath,"Click up to 2 targets to deal them <nobr>2 melee</nobr> damage. Extra.")==null,"optional heading does not drop unknown condition");
+using(var evidence034=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/display-0.1.34.json"))){
+ foreach(var sample in evidence034.RootElement.GetProperty("samples").EnumerateArray()){
+  string path=sample.GetProperty("path").GetString()!,source=sample.GetProperty("source").GetString()!,obj=sample.GetProperty("objectName").GetString()!,card=sample.GetProperty("cardId").GetString()!;
+  bool inCard=sample.GetProperty("inCardView").GetBoolean();
+  string? actual=grantCompletion033.Apply(path,obj,card,inCard,false,source);
+  Check(actual==sample.GetProperty("expected").GetString(),"0.1.34 complete scoped output");
+  Check(grantCompletion033.Apply(path,obj,card,inCard,false,actual!)==null,"0.1.34 output idempotent");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"<[^<>]+>").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"<[^<>]+>").Select(m=>m.Value)),"0.1.34 sprite colors and rich-text sequence preserved");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"[0-9]+").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"[0-9]+").Select(m=>m.Value)),"0.1.34 numeric sequence preserved");
+ }
+}
+Check(SurfaceProbeRules.CanObserve("Rating Label",false,false),"new-game rating label observable");
+Check(!SurfaceProbeRules.CanObserve("Rating Label",false,true),"rating input field remains protected");
+
+foreach(var hero035 in pilot.DeckNames.Keys.Where(x=>new[]{"Legacy","Tachyon","Absolute Zero"}.Contains(x))){
+ string hero=hero035.Replace(" ","");
+ for(int slot=1;slot<=3;slot++){
+  string path="Canvas/Main Panel/4 Hero Layout/Inactive Hero Location "+slot+"/"+hero+"/Inner Panel/Character Card Container/"+hero+"Character/Foreground Elements/Next To Selection Button/Selection Button Label";
+  Check(pilot.Dynamic!.ApplyCardButton(path,hero+"Character","Play Here")=="在此打出","four-hero placement full source and identity");
+  Check(pilot.Dynamic.ApplyCardButton(path,"WrongCharacter","Play Here")==null,"four-hero placement bound identity required");
+ }
+}
+// Every known hero is hosted by the same view in current/3/4/5-player slots.
+// Exhaust the role/action matrix independently of individual screenshot identities.
+var heroActions035=new[]{("Draw","抽牌"),("Discard","弃置"),("Play a Card","打出一张牌"),("Use a Power","使用异能"),("Put a Card","放置一张牌"),("Destroy a Card","破坏一张牌"),("Has the Fewest","最少"),("Has the Most","最多"),("Take Play Phase","进行出牌阶段"),("Take Power Phase","进行异能阶段")};
+var deckActions035=new[]{("Deck","牌库"),("Reveal","展示"),("Draw","抽牌"),("Replace","放回原处")};
+var trashActions035=new[]{("Trash","弃牌堆"),("Discard","弃置"),("Reshuffle","洗回牌库")};
+foreach(string hero in "AbsoluteZero Bunker CaptainCosmic Fanatic Haka Legacy Ra Tachyon Tempest TheArgentAdept TheWraith Unity".Split(' ')){
+ foreach(int players in new[]{0,3,4,5})for(int slot=1;slot<=(players==0?1:players-1);slot++){
+  string host="Canvas/Main Panel/"+(players==0?"":players+" Hero Layout/Inactive Hero Location "+slot+"/")+hero+"/Inner Panel/";
+  string selection=host+"Foreground Elements/Selection Button/Selection Button Label";
+  foreach(var a in heroActions035)Check(pilot.Apply(selection,a.Item1)==a.Item2,"3/4/5/current hero action "+hero+" "+players+"/"+slot+" "+a.Item1);
+  string deck=host+"Foreground Elements/"+(players==0?"Deck and Trash/Active Deck View":"Inactive Deck View")+"/Selection Button/Selection Button Label";
+  foreach(var a in deckActions035)Check(pilot.Apply(deck,a.Item1)==a.Item2,"3/4/5/current deck action "+a.Item1);
+  string trash=host+"Foreground Elements/"+(players==0?"Deck and Trash/Active Trash View":"Bottom Area Panel/Inactive Trash View")+"/Selection Button/Selection Button Label";
+  foreach(var a in trashActions035)Check(pilot.Apply(trash,a.Item1)==a.Item2,"3/4/5/current trash action "+a.Item1);
+  string hand=host+"Foreground Elements/"+(players==0?"Hand":"Bottom Area Panel/Inactive Hand View")+"/Selection Button/Selection Button Label";
+  Check(pilot.Apply(hand,"Put Here")=="放在此处","3/4/5/current hand destination");
+  string character=host+"Character Card Container/"+hero+"Character/Foreground Elements/Next To Selection Button/Selection Button Label";
+  Check(pilot.Dynamic!.ApplyCardButton(character,hero+"Character","Play Here")=="在此打出","3/4/5/current character destination");
+  Check(pilot.Dynamic.ApplyCardButton(character,"WrongCharacter","Play Here")==null,"3/4/5/current mismatched destination identity excluded");
+  foreach(string zone in new[]{"Foreground Elements/Play Area/Scroll View/Viewport/Card Container/","Character Card Container/"+hero+"Character/Next To Location View/Card Container/"}){
+   string small=host+zone+"CardView CosmicCrest-1 SmallCardFront/Next To Selection Button/Selection Button Label";
+   Check(pilot.Dynamic.ApplyCardButton(small,"CosmicCrest","Play Here")=="在此打出","3/4/5/current small-card destination");
+   string effect=host+zone+"CardView CosmicCrest-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label";
+   Check(pilot.Dynamic.ApplyCardButton(effect,"CosmicCrest","Play Construct")=="打出构造牌","3/4/5/current play construct");
+   Check(pilot.Dynamic.ApplyCardButton(effect,"CosmicCrest","Discover Construct")=="发现构造牌","3/4/5/current discover construct");
+  }
+  string power=host+"Character Card Container/"+hero+"Character/Foreground Elements/Power Container/761/UsePower-"+hero+"-"+hero+"Character/Label";
+  Check(grantCompletion033.Apply(power,"Label",hero+"Character",true,true,grantSource033)==grantTarget033,"3/4/5/current granted power");
+  Check(pilot.Apply(deck,"Discard")==null && pilot.Apply(trash,"Draw")==null && pilot.Apply(hand,"Play Here")==null,"3/4/5/current destination purposes separated");
+  if(players>0)foreach(int invalidSlot035 in new[]{0,players}){
+   string bad=character.Replace("Inactive Hero Location "+slot+"/","Inactive Hero Location "+invalidSlot035+"/");
+   Check(pilot.Dynamic.ApplyCardButton(bad,hero+"Character","Play Here")==null,"layout-specific placement bounds retained");
+  }
+ }
+}
+
+// Stable semantic actions are independent of hierarchy, but never independent of Button/label identity.
+var semantic036=new RenderedDisplayRules(catalog,pilot.DeckNames,pilot.Templates);
+foreach(var obj in new[]{"Label","Text","Text (TMP)","Selection Button Label","Finish Button Label"})
+ foreach(var source in new[]{"Play Here","PLAY HERE","  Play\nHere  ","Put Here","Skip Draw Phase","Play Construct","Discover Construct","Bury 2 cards","BURY 2 CARDS","Discard 1 card"}){
+  string? value=semantic036.Apply("New Scene/New Layout/Action/"+obj,obj,"",false,true,source,null,false,true);
+  Check(value!=null && DisplayScope.ContainsHan(value),"semantic full button phrase across unseen hosts");
+  Check(semantic036.Apply("New Scene/"+obj,obj,"",false,true,value!,null,false,true)==null,"semantic fallback idempotent");
+  Check(semantic036.Apply("New Scene/"+obj,obj,"",false,true,source)==null,"historical candidate alone is not Button proof");
+  Check(semantic036.Apply("New Scene/"+obj,obj,"",false,false,source,null,false,true)==null,"inconsistent Button proof rejected");
+ }
+foreach(var obj in new[]{"Body Label","HP Label","Title Label","Input Field","Count Label"})
+ Check(semantic036.Apply("New Scene/"+obj,obj,"",false,true,"Play Here",null,false,true)==null,"non-action role excluded even beneath Button");
+foreach(var text in new[]{"Play","Draw","Power","Replace","Construct","Click Play Here","Play Here and draw 2 cards","<b>Play Here</b>","Bury 1 cards","Bury 2 card","Bury -1 card","Discard 2 targets","42"})
+ Check(semantic036.Apply("New Scene/Label","Label","",false,true,text,null,false,true)==null,"semantic whole-phrase or grammar negative "+text);
+Check(semantic036.Apply("New Scene/Label","Label","",false,true,"Discard 002 cards",null,false,true)=="弃置002张牌","literal number spelling retained");
+
+// Inline styles switch away from the main TMP font: retain the style, attach fallback to its font.
+foreach(var heading in new[]{"演奏","伴奏","制造","灭绝"}){
+ string styled="<style=AbilityHeading><sprite name=\"Perform\"> "+heading+"</style>";
+ Check(RenderedDisplayRules.RequiredInlineFonts(styled).SequenceEqual(new[]{"AvenirNextLTPro-HeavyCn"}),"ability heading font policy "+heading);
+ Check(RenderedDisplayRules.RequiredInlineFonts(heading).Length==0,"plain Chinese does not load unrelated inline fonts");
+}
+Check(RenderedDisplayRules.RequiredInlineFonts("<style=BoldItalic>制造</style>").SequenceEqual(new[]{"AvenirNextLTPro-Bold"}),"inline rule ability font differs from heading font");
+Check(RenderedDisplayRules.RequiredInlineFonts("<style=AbilityHeading>123</style>").Length==0,"numeric styled buffer has no font request");
+Check(RenderedDisplayRules.RequiredInlineFonts("<style=Unrecognized>制造</style>").Length==0,"unknown styles are not rewritten or guessed");
+foreach(var area in new[]{("Villain","反派"),("Environment","环境")}){
+ string section="Canvas/Main Panel/"+area.Item1+"/Selected Area/Fade Panel/Title Label";
+ Check(RenderedDisplayRules.IsInsetNewGameSection(section,"Title Label",area.Item2),"newgame section inset is bound to actual title role");
+ Check(!RenderedDisplayRules.IsInsetNewGameSection(section,"Rating Label",area.Item2),"rating size/position untouched");
+ Check(!RenderedDisplayRules.IsInsetNewGameSection("Other/Title Label","Title Label",area.Item2),"same word in another scene untouched");
+}
+foreach(var env in new[]{"Freedom Tower","Insula Primalis","Magmaria","Megalopolis","The Ruins of Atlantis","Wagner Mars Base"}){
+ Check(pilot.ApplyEnvironmentDeckTitle("Title Label",env,true)==pilot.DeckNames[env],"environment deck title at bound preview/battle role "+env);
+ Check(pilot.ApplyEnvironmentDeckTitle("Title Label",env,false)==null,"missing actual title identity rejected");
+ Check(pilot.ApplyEnvironmentDeckTitle("HP Label",env,true)==null,"environment-name vocabulary does not authorize arbitrary controls");
+ Check(pilot.ApplyEnvironmentDeckTitle("Title Label",env+" 4",true)==null,"full approved name only");
+}
+Check(pilot.ApplyEnvironmentDeckTitle("Title Label","Legacy",true)==null,"environment deck title cannot borrow hero role");
+Check(pilot.Dynamic!.Apply("Canvas/Main Panel/Heading Label","The Wagner Mars Base exploded!")=="瓦格纳火星基地爆炸了！","Wagner special explosion heading already included");
+Check(pilot.Dynamic.Apply("Canvas/Main Panel/Message Panel/Panel/Message Label","There are 0 cards under Self-Destruct Sequence.")=="Self-Destruct Sequence下方有0张牌。","Wagner zero-card reason with reviewed card name");
+Check(pilot.ApplyEnvironmentDeckTitle("Title Label","  MAGMARIA  ",true)=="熔岩域","bound environment title accepts case and outer whitespace");
+foreach(var env in new[]{"Freedom Tower","Insula Primalis","Magmaria","Megalopolis","The Ruins of Atlantis","Wagner Mars Base"}){
+ Check(pilot.IsLocalizedEnvironmentTitle(pilot.DeckNames[env]),"dedicated title face accepts reviewed environment "+env);
+ Check(!pilot.IsLocalizedEnvironmentTitle(pilot.DeckNames[env]+" 3"),"title face rejects count and extended sentence");
+}
+foreach(var source in new[]{"Legacy","传承","123","原初岛上方的牌",""})
+ Check(!pilot.IsLocalizedEnvironmentTitle(source),"title font does not leak to body/hero/counter: "+source);
 Console.WriteLine("Total checks including deck names: "+count);

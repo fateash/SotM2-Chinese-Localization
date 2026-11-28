@@ -11,7 +11,7 @@
     "original": "Put Here",
     "translation": "放在此处",
     "stage": 1,
-    "context": "已捕获完整句的编辑归一化；显示尚未接入。英雄手牌目的地；与Play Here在场打出不同。"
+    "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。英雄手牌目的地；与Play Here在场打出不同。"
   },
   {
     "key": "editorial.ui.button.reshuffle",
@@ -32,7 +32,7 @@
     "original": "Click a target to have it deal damage.",
     "translation": "点击一个目标，使其造成伤害。",
     "stage": 1,
-    "context": "已捕获完整句的编辑归一化；显示尚未接入。选伤害来源，不是受伤目标。"
+    "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。选伤害来源，不是受伤目标。"
   },
   {
     "key": "editorial.ui.hint.regain",
@@ -95,7 +95,7 @@
     "original": "Click a Hero's hand to to put {0} there.",
     "translation": "点击一位英雄的手牌区，将{0}加入其手牌。",
     "stage": 1,
-    "context": "已捕获完整句的编辑归一化；显示尚未接入。保留原文重复to；{0}为卡牌名称。"
+    "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。保留原文重复to；{0}为卡牌名称。"
   },
   {
     "key": "editorial.ui.hint.most.ongoing",
@@ -109,7 +109,7 @@
     "original": "Click a target to reduce damage dealt to it.",
     "translation": "点击一个目标，减少其受到的伤害。",
     "stage": 1,
-    "context": "已捕获完整句的编辑归一化；显示尚未接入。不能译为减少造成的伤害。"
+    "context": "已捕获完整句的编辑归一化；0.1.33已按完整提示及手牌目的地入口接入，待实机验收。不能译为减少造成的伤害。"
   },
   {
     "key": "editorial.ui.hint.play.and.power",
@@ -187,5 +187,89 @@
     "translation": "索拉宪大军已攻占全球，大军阀沃斯征服了地球！",
     "stage": 1,
     "context": "0.1.31接入限定用途显示规则；原文完整匹配，待新画面与交互验收。 当前游戏26880829元数据literal 11311确认原文；无实机日志，使用共用结算Heading入口的合成契约。"
+  },
+  {
+    "key": "editorial.ui.hint.attack.order.dual",
+    "original": "{0}Click targets to choose the order of dealing them <nobr>{1} {2}</nobr> and <nobr>{3} {4}</nobr> damage.",
+    "translation": "{0}点击目标，选择对它们造成<nobr>{1}点{2}伤害</nobr>和<nobr>{3}点{4}伤害</nobr>的顺序。",
+    "stage": 1,
+    "context": "0.1.32限定HUD完整句式：数值、伤害类型、标签保留；待实机画面及交互验收。"
+  },
+  {
+    "key": "editorial.ui.hint.attack.order.triple",
+    "original": "{0}Click targets to choose the order of dealing them <nobr>{1} {2}</nobr>, <nobr>{3} {4}</nobr>, and <nobr>{5} {6}</nobr> damage.",
+    "translation": "{0}点击目标，选择对它们造成<nobr>{1}点{2}伤害</nobr>、<nobr>{3}点{4}伤害</nobr>和<nobr>{5}点{6}伤害</nobr>的顺序。",
+    "stage": 1,
+    "context": "0.1.32限定HUD完整句式：数值、伤害类型、标签保留；待实机画面及交互验收。 三段形式依据既有三段伤害完整语法主动组合，未实机观察。"
+  },
+  {
+    "key": "editorial.ui.hint.attack.unspecified.nobr",
+    "original": "{0}Click a target to deal it <nobr>{1}</nobr> damage.",
+    "translation": "{0}点击一个目标，对其造成<nobr>{1}伤害</nobr>。",
+    "stage": 1,
+    "context": "0.1.32限定HUD完整句式：数值、伤害类型、标签保留；待实机画面及交互验收。"
+  },
+  {
+    "key": "editorial.ui.hint.hero.draw.count",
+    "original": "Click a hero to draw {0} cards.",
+    "translation": "点击一位英雄，使其抽{0}张牌。",
+    "stage": 1,
+    "context": "0.1.32日志完整HUD原文，0.1.33限定用途接入；数量单复数分别检查，未完成实机验收。"
+  },
+  {
+    "key": "editorial.ui.hint.choose.number",
+    "original": "Click a button to choose a number.",
+    "translation": "点击一个按钮，选择一个数字。",
+    "stage": 1,
+    "context": "0.1.32日志完整HUD原文，0.1.33限定用途接入；数量单复数分别检查，未完成实机验收。"
+  },
+  {
+    "key": "editorial.ui.newgame.choose.heroes",
+    "original": "Choose 3 to 5 Heroes",
+    "translation": "选择3至5位英雄",
+    "stage": 1,
+    "context": "0.1.34完整选项提示接入，待实机验收。174300日志确认弹窗标题完整原文及路径。"
+  },
+  {
+    "key": "editorial.ui.newgame.choose.villain",
+    "original": "Choose a Villain",
+    "translation": "选择一名反派",
+    "stage": 1,
+    "context": "0.1.34完整选项提示接入，待实机验收。174300日志确认弹窗标题完整原文及路径。"
+  },
+  {
+    "key": "editorial.ui.newgame.choose.environment",
+    "original": "Choose an Environment",
+    "translation": "选择一个环境",
+    "stage": 1,
+    "context": "0.1.34完整选项提示接入，待实机验收。174300日志确认弹窗标题完整原文及路径。"
+  },
+  {
+    "key": "editorial.ui.newgame.rating.difficulty",
+    "original": "Difficulty: {0}",
+    "translation": "难度：{0}",
+    "stage": 1,
+    "context": "0.1.34完整选项提示接入，待实机验收。游戏构建26880829元数据及level3场景Rating Label核对；实际渲染路径及输入类型仍待新版日志确认。"
+  },
+  {
+    "key": "editorial.ui.newgame.rating.peril",
+    "original": "Peril: {0}",
+    "translation": "危险度：{0}",
+    "stage": 1,
+    "context": "0.1.34完整选项提示接入，待实机验收。游戏构建26880829元数据及level3场景Rating Label核对；实际渲染路径及输入类型仍待新版日志确认。"
+  },
+  {
+    "key": "editorial.ui.hint.destroy.play.upto.first",
+    "original": "Click up to {0} cards in play to destroy them before other cards.",
+    "translation": "点击场上至多{0}张牌，先于其他牌将其破坏。",
+    "stage": 1,
+    "context": "0.1.37根据实际HUD完整原文接入；数量、场上范围与破坏先后限定保留。单数card/it，复数cards/them；仅由运行模板按HUD用途处理，不进入全局词典。"
+  },
+  {
+    "key": "editorial.ui.hint.destroy.target.single",
+    "original": "Click a target to destroy it.",
+    "translation": "点击一个目标，将其破坏。",
+    "stage": 1,
+    "context": "0.1.37根据实际HUD完整原文接入；数量、场上范围与破坏先后限定保留。单数card/it，复数cards/them；仅由运行模板按HUD用途处理，不进入全局词典。"
   }
 ]

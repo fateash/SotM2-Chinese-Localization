@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "version": "0.1.44-rc.1",
+  "date": "2026-11-28",
+  "approvedBy": "项目维护者（用户）",
+  "authorization": "测试均通过，再审核一下目前test分支的整体情况，无误后合并至main作为后续的基线",
+  "decision": "0.1.44四项图片代表场景由维护者统一验收通过；审核后合并main作为后续基线。",
+  "testedSourceCommit": "5640ded6737428860f8a9abc10eb6ac6969964a3",
+  "testedPluginFiles": {
+    "SotM2ChinesePrototype.dll": "7cc3ec984f74ad90f3cc26c59ac73e6d9ce113d40440ab8b3d9421bbbf125b99",
+    "surface-probe.json": "8a393faca6a8bb23bdbf258268fb83e4fe7108fab5aa0a65996e366f2e2360c2",
+    "sample-texts.json": "bc09ac44a13a9f1dafc9d5ded5a41fa1df57853561520c108749ad0545f01b7d",
+    "NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+    "OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+    "NotoSansCJKsc-Bold.otf": "c3db0d4817dca38f2c5a7f0f08a6f5fb5b4b9d0d4669297ec32052dc6c3862e1",
+    "villain-logos.bytes": "624675b69cbc97cd092e4bf96a7448c0bee2f29ed19d8ba7a23128bed4e5fb7c",
+    "villain-deckbacks.bytes": "0ae834b243d1ea7eef2ee3c731b33725155f429e0e96825c2257c1be839c780d"
+  },
+  "evidence": [
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-222138-0a30e8.zip",
+      "sha256": "61f253f476c5c6d0efac3f70698408f4a466b37fda2e8e5a82de94baf45c6990",
+      "version": "0.1.44-rc.1",
+      "manifestSourceCommit": "5640ded6737428860f8a9abc10eb6ac6969964a3",
+      "captureLimitReached": false,
+      "observations": 29,
+      "issues": [],
+      "runtimeWarnings": []
+    },
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-222201-8192e0.zip",
+      "sha256": "c627e84e54a510a05a0c5dee50e8d0bac6bd2d88b239f70b052a3bbed1d37b2e",
+      "version": "0.1.44-rc.1",
+      "manifestSourceCommit": "5640ded6737428860f8a9abc10eb6ac6969964a3",
+      "captureLimitReached": false,
+      "observations": 106,
+      "issues": [],
+      "runtimeWarnings": []
+    },
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-222224-9e79c7.zip",
+      "sha256": "c5f489313eb3558d1cd7a7f74a7081b00db85bba4f9aec9012036c12720d243e",
+      "version": "0.1.44-rc.1",
+      "manifestSourceCommit": "5640ded6737428860f8a9abc10eb6ac6969964a3",
+      "captureLimitReached": false,
+      "observations": 128,
+      "issues": [],
+      "runtimeWarnings": []
+    },
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-222244-de9fc8.zip",
+      "sha256": "46f75f1e8845ee10f89af143b35466747f8d5beb91ebb98abad74048a1ba0f28",
+      "version": "0.1.44-rc.1",
+      "manifestSourceCommit": "5640ded6737428860f8a9abc10eb6ac6969964a3",
+      "captureLimitReached": false,
+      "observations": 149,
+      "issues": [],
+      "runtimeWarnings": []
+    },
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-222302-b7d5af.zip",
+      "sha256": "bbbb2bbf26e6f17fc180b33833f11f6fa8efea1a968ac0c6d3402d7e048003d1",
+      "version": "0.1.44-rc.1",
+      "manifestSourceCommit": "5640ded6737428860f8a9abc10eb6ac6969964a3",
+      "captureLimitReached": false,
+      "observations": 173,
+      "issues": [],
+      "runtimeWarnings": []
+    }
+  ],
+  "screenshot": {
+    "file": "image(20261128-141858).png",
+    "sha256": "9c7b1808406abf62e88a99ade47936fea7512b1b443f26de902ecc06e15dcec2",
+    "libraryFileId": "libfile_36c4a4e7d0b081919576b319516ed530",
+    "observed": "全能智创小牌背中文名称可见，21计数仍独立显示"
+  },
+  "acceptedScenarios": [
+    "villain-logo-art/six-villains",
+    "villain-logo-art/reuse",
+    "villain-logo-art/reload",
+    "villain-logo-art/small-deckbacks"
+  ],
+  "previouslyAcceptedScenarioCount": 38,
+  "acceptedScenarioCount": 42,
+  "remainingPendingScenarios": 0,
+  "evidenceBoundary": "五份日志是同一实测进程的递增采集记录，不算五次独立运行；日志仅证明实际记录到的应用。四场景通过来自用户统一确认，不补造逐场景操作明细；截图仅直接证明全能智创小牌背画面。",
+  "scopeBoundary": "合并已验收开发基线；保留历史技术库存与旧输入重放的待办，不宣称全游戏穷尽覆盖，不自动创建玩家Release。",
+  "baselineReview": {
+    "baseCommit": "8771e7d735c172c43ee49e14f851e6b0538c2813",
+    "testedHead": "5640ded6737428860f8a9abc10eb6ac6969964a3",
+    "runtimeCommitsSinceMain": 16,
+    "blockingFindings": [],
+    "correctedFindings": [
+      "安装结束提示仍硬编码0.1.39-rc.1；改为读取manifest.version。仅脚本提示，不改变已验收运行文件。"
+    ],
+    "checks": {
+      "pythonTests": 167,
+      "runtimeChecks": 7612,
+      "coverageContracts": 4270,
+      "evidenceSamples": 4301,
+      "coverageGateErrors": [],
+      "buildErrors": 0,
+      "buildWarnings": 0,
+      "testedDllCatalogAndArtworkReproduced": true
+    },
+    "remainingTechnicalLedger": {
+      "unresolved-stage-1": 74,
+      "residual-needs-resolution": 3,
+      "inventory-review-open": 150
+    },
+    "strictStage1Complete": false,
+    "baselineDecision": "通过已验收开发基线的合并审核。历史库存及旧版本输入的技术待办仍保留，不能将常规门禁通过表述为严格阶段完成。"
+  }
+}

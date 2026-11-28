@@ -24,6 +24,10 @@ def digest(value):
 
 def identity(row):
     fields = [row[k] for k in ('buildId', 'path', 'cardId', 'source', 'inputSource')]
+    if row.get('environmentDeckTitle'):
+        fields.append('bound-environment-deck-title')
+    if row.get('buttonLabel'):
+        fields.append('bound-button-label')
     if row.get('effectTooltip'):
         fields.append('bound-effect-tooltip')
     if row.get('deckNameTitle'):
@@ -67,7 +71,7 @@ def intake(paths, existing=None):
             session['issues'].append('missing-installed-hashes')
         if f"PROTOTYPE_LOADED {session['version']} build={session['buildId']} mode=Chinese" not in log:
             session['issues'].append('loaded-version-or-mode-unverified')
-        errors = ['SURFACE_PROBE_STOPPED', 'UI_RENDER_FALLBACK', 'FONT_GLYPHS_MISSING', 'UPDATE_ERROR']
+        errors = ['SURFACE_PROBE_STOPPED', 'UI_RENDER_FALLBACK', 'FONT_GLYPHS_MISSING', 'UPDATE_ERROR', 'INLINE_FONT_UNAVAILABLE', 'ENVIRONMENT_TITLE_INPUT_FALLBACK']
         session['runtimeWarnings'] = [token for token in errors if token in log]
         session['issues'].extend(session['runtimeWarnings'])
         # Existing application logs are deduplicated by object/source, not full path.
@@ -87,6 +91,14 @@ def intake(paths, existing=None):
             raw = json.loads(line.split('SURFACE_PROBE ', 1)[1])
             fields = ('objectName', 'path', 'cardId', 'source', 'inCardView', 'inputSource', 'truncated', 'markerCandidate')
             row = {k: raw[k] for k in fields}
+            if 'environmentDeckTitle' in raw:
+                if type(raw['environmentDeckTitle']) is not bool or (raw['environmentDeckTitle'] and raw['objectName'] != 'Title Label'):
+                    raise ValueError('Invalid environment title identity')
+                row['environmentDeckTitle'] = raw['environmentDeckTitle']
+            if 'buttonLabel' in raw:
+                if type(raw['buttonLabel']) is not bool:
+                    raise ValueError('Invalid button label identity')
+                row['buttonLabel'] = raw['buttonLabel']
             if 'effectTooltip' in raw:
                 if type(raw['effectTooltip']) is not bool:
                     raise ValueError('Invalid effect tooltip identity')
@@ -172,7 +184,7 @@ def validate_nonhero_matrix(matrix, contracts, root=ROOT):
 
 def validate_contracts(contract, templates, root=ROOT):
     required_files = {'runtime/DynamicDisplayRules.cs', 'runtime/SurfaceProbeRules.cs',
-                      'runtime/SurfaceProbe.cs', 'runtime/Plugin.cs', 'runtime/DisplayRules.cs', 'runtime/RenderedDisplayRules.cs',
+                      'runtime/SurfaceProbe.cs', 'runtime/Plugin.cs', 'runtime/EnvironmentTitleFont.cs', 'runtime/VillainLogos.cs', 'runtime/VillainLogoRules.cs', 'runtime/VillainDeckBacks.cs', 'runtime/VillainDeckBackRules.cs', 'runtime/DisplayRules.cs', 'runtime/RenderedDisplayRules.cs',
                       'probe/dynamic-pilot.json'}
     if set(contract['reviewedFiles']) != required_files:
         raise ValueError('Coverage review must include every runtime routing file')
@@ -196,8 +208,12 @@ def validate_contracts(contract, templates, root=ROOT):
             raise ValueError('Family has no negative contract')
         for c in contexts:
             case = c.get('case', {})
-            if case.get('matchLayer', 'integrated') not in ('integrated', 'dynamic'):
+            if case.get('matchLayer', 'integrated') not in ('integrated', 'dynamic', 'villain-logo', 'villain-deckback'):
                 raise ValueError('Unknown contract match layer')
+            if case.get('matchLayer') == 'villain-logo' and (not isinstance(case.get('boundLogo'), bool) or not isinstance(case.get('expectedSprite'), str)):
+                raise ValueError('Logo contract needs bound-role and expected identity')
+            if case.get('matchLayer') == 'villain-deckback' and (not all(isinstance(case.get(k), bool) for k in ('boundMain','deckBack','fullCard')) or not isinstance(case.get('expectedSprite'), str) or not all(isinstance(case.get(k), (int,float)) for k in ('width','height'))):
+                raise ValueError('Deck back contract needs bound role, view role, identity and dimensions')
             if case.get('matchLayer') == 'dynamic':
                 if case.get('catalogId') or not isinstance(case.get('integratedExpected'), str) or not case['integratedExpected']:
                     raise ValueError('Dynamic layer contract requires integrated output assertion')
@@ -361,14 +377,122 @@ def session_gate_issues(sessions, waivers=None):
                    ('file', 'sha256', 'version', 'buildId'))]
         if len(matches) != 1 or matches[0].get('captureLimitReached') is not True or row['issue'] not in matches[0]['issues']:
             raise ValueError('Capture waiver must match an existing capped session exactly')
+        if 'closureApproval' in row:
+            approval = row['closureApproval']
+            if (not isinstance(approval, dict) or
+                    not all(isinstance(approval.get(k), str) and approval[k].strip() for k in
+                            ('approvedBy', 'approvedAt', 'authorization', 'reason', 'baselineVersion')) or
+                    approval.get('scope') != 'this-session-capture-limit-closeout'):
+                raise ValueError('Capture closeout needs explicit session-scoped authorization')
         accepted.append(dict(row))
     errors = [s['file'] + ':' + issue for s in sessions for issue in s['issues']
               if tuple(s.get(k) for k in ('file', 'sha256', 'version', 'buildId')) + (issue,) not in seen]
     return errors, accepted
 
 def capture_closure_errors(waivers):
-    # Release/phase completion still requires resolution of accepted evidence gaps.
-    return ['waived-capture-limit:' + row['sha256'] for row in waivers]
+    # Merge-only waivers do not imply closeout; a separate explicit decision is required.
+    return ['waived-capture-limit:' + row['sha256'] for row in waivers
+            if 'closureApproval' not in row]
+
+def translation_completeness(row, result):
+    """Residual audit, not semantic/click acceptance. Keep old match reason as provenance."""
+    reason = result['reason']
+    if reason.startswith('protected-') or reason == 'truncated-evidence':
+        return {'status': 'not-assessed', 'residualTokens': [], 'allowedTokens': []}
+    text = result.get('target') or row['source']
+    visible = re.sub(r'<[^<>]*>', '', text).replace('\\r', '').replace('\\n', '')
+    allowed = []
+    # Reviewed complete proper names, never a global S/TCF exemption.
+    for name in ('S-83突击机兵', 'S-84自动机兵', 'S-85维修机兵', 'TCF“坚毅”号'):
+        if name in visible:
+            allowed.append(name)
+            visible = visible.replace(name, '')
+    # X must remain a defined rule variable in the same card body, not arbitrary English.
+    if row.get('objectName') in ('Body Label', 'Label') and row.get('cardId') and 'X为' in visible:
+        allowed.append('X（正文明确给出定义）')
+        visible = re.sub(r'(?<![A-Za-z])X(?![A-Za-z])', '', visible)
+    tokens = sorted(set(re.findall(r'[A-Za-z]+(?:[-’\'][A-Za-z]+)*', visible)))
+    converted = reason in ('current-rule-match', 'translated-output-observed', 'localized-text-observed')
+    status = ('partial-residual' if converted else 'untranslated-or-unknown') if tokens else (
+        'no-unapproved-latin' if converted else 'nonlinguistic-or-unclassified')
+    proofs = result.get('sourceReplayOutputs', [])
+    if status == 'partial-residual' and reason == 'translated-output-observed' and proofs and all(
+            translation_completeness(row, {'reason': 'current-rule-match', 'target': p['target']})['status'] == 'no-unapproved-latin'
+            for p in proofs):
+        status = 'historical-partial-current-source-clean'
+    return {'status': status, 'residualTokens': tokens, 'allowedTokens': allowed,
+            'sourceReplayProofs': proofs if status == 'historical-partial-current-source-clean' else []}
+
+
+def validate_acceptance(plan, contracts, inventory):
+    """Functional representative acceptance complements, never replaces, offline matrices."""
+    if plan.get('schemaVersion') != 1:
+        raise ValueError('Unknown acceptance plan schema')
+    families = {f['id']: f for f in contracts['families']}
+    keys = {e['key'] for e in inventory['entries']}
+    claimed_families, claimed_keys, ids = [], [], set()
+    pending = []
+    for group in plan['groups']:
+        if group['id'] in ids or not group.get('purpose'):
+            raise ValueError('Acceptance group needs unique identity and purpose')
+        ids.add(group['id'])
+        claimed_families.extend(group['families']); claimed_keys.extend(group['inventoryKeys'])
+        if not set(group['families']) <= set(families):
+            raise ValueError('Unknown acceptance family')
+        refs = group.get('representativeCases', [])
+        if {r['family'] for r in refs} != set(group['families']):
+            raise ValueError('Every functional family needs a representative executable case')
+        for ref in refs:
+            if not any(c['id'] == ref['id'] and c.get('case', {}).get('expected') is not None
+                       for c in families[ref['family']]['contexts']):
+                raise ValueError('Representative must link a positive executable contract')
+        scenarios = group.get('scenarios', [])
+        if group.get('kind') == 'inventory-review':
+            if group['families'] or scenarios or not group.get('reviewTask'):
+                raise ValueError('Inventory review cannot stand in for live scenarios')
+            continue
+        if group.get('kind') != 'live-functional':
+            raise ValueError('Unknown acceptance group kind')
+        if not scenarios or len({x['id'] for x in scenarios}) != len(scenarios):
+            raise ValueError('Functional group needs unique concrete scenarios')
+        for scene in scenarios:
+            if not scene.get('check') or not scene.get('passCriteria') or scene['status'] not in ('pending', 'accepted'):
+                raise ValueError('Acceptance scenario needs checks, criteria and explicit status')
+            if scene['status'] == 'accepted':
+                evidence = scene.get('evidence', {})
+                if not all(evidence.get(k) for k in ('version', 'source', 'humanConfirmation', 'visualResult', 'interactionResult')):
+                    raise ValueError('Acceptance needs versioned human visual and interaction evidence')
+            else:
+                pending.append(group['id'] + '/' + scene['id'])
+    if len(claimed_families) != len(set(claimed_families)) or set(claimed_families) != set(families):
+        raise ValueError('Acceptance plan must assign every family exactly once')
+    if len(claimed_keys) != len(set(claimed_keys)) or set(claimed_keys) != keys:
+        raise ValueError('Acceptance plan must assign every inventory key exactly once')
+    required = {'hero-layouts/three', 'hero-layouts/four', 'hero-layouts/five', 'stable-buttons/guards',
+                'endings/normal', 'endings/baron', 'endings/voss', 'endings/wagner', 'card-rendering/h-formula', 'card-rendering/grant'}
+    actual = {g['id'] + '/' + x['id'] for g in plan['groups'] for x in g['scenarios']}
+    if not required <= actual:
+        raise ValueError('Required layout, protection or special-ending scenario missing')
+    return pending
+
+
+def reconcile_inventory(drafts, contracts):
+    """Current executable links alongside the historical review, not automatic approval."""
+    contexts = [(f['id'], c) for f in contracts['families'] for c in f['contexts']
+                if c.get('case', {}).get('expected') is not None and not c['case'].get('catalogId')]
+    result = {}
+    for draft in drafts:
+        source = draft['original']
+        refs = []
+        for family, context in contexts:
+            value = context['case']['source']
+            relation = 'exact' if value == source else 'format' if '{' in source and inventory_pattern(source).fullmatch(value) else None
+            if relation:
+                refs.append({'family': family, 'id': context['id'], 'relation': relation})
+        result[draft['key']] = {'currentWholeSourceCases': refs,
+                               'meaning': 'executable-link-only-not-inventory-or-live-closure'}
+    return result
+
 
 def make_report(snapshot, replay, triage, catalog_hash, drafts, waivers=None):
     results = {r['id']: r for r in replay['rows']}
@@ -378,16 +502,23 @@ def make_report(snapshot, replay, triage, catalog_hash, drafts, waivers=None):
     errors.extend(session_errors)
     counts = collections.Counter(r['reason'] for r in replay['rows'])
     entries = []
+    completeness_counts = collections.Counter()
     for row in snapshot['samples']:
         result = results[row['id']]
+        completeness = translation_completeness(row, result)
+        completeness_counts[completeness['status']] += 1
+        if completeness['status'] == 'partial-residual':
+            decision = decisions.get(row['id'], {}).get('residualReview', {})
+            if decision.get('tokens') != completeness['residualTokens'] or not all(decision.get(k) for k in ('reason', 'nextAction', 'owner')):
+                errors.append('unreviewed-residual:' + row['id'])
         signals = [s['sha256'] for s in snapshot['sessions'] if
                    {'objectName': row['objectName'], 'source': row['source']} in s.get('applicationSignals', [])]
-        entries.append({**row, 'replay': result, 'triage': decisions.get(row['id']),
+        entries.append({**row, 'replay': result, 'completeness': completeness, 'triage': decisions.get(row['id']),
                         'applicationSignalSessions': signals, 'applicationSignalHasFullPath': False,
                         'stages': {'extracted': True, 'draftAvailable': any(d['original'] == row['source'] for d in drafts),
                                    'currentDisplayRuleMatched': result['reason'] == 'current-rule-match',
                                    'liveAccepted': False}})
-    return {'schemaVersion': 1, 'summary': dict(sorted(counts.items())), 'gateErrors': errors,
+    return {'schemaVersion': 1, 'summary': dict(sorted(counts.items())), 'gateErrors': errors, 'completenessSummary': dict(sorted(completeness_counts.items())),
             'acceptedGateWaivers': accepted_waivers,
             'sessions': snapshot['sessions'], 'replayCatalogSha256': catalog_hash,
             'catalogMatchesCaptured': all(s['installed'].get('sample-texts.json') == catalog_hash for s in snapshot['sessions']),
@@ -408,13 +539,18 @@ def markdown(report):
            '检查结果：' + ('通过（所有未知项已登记去向；不表示全部完成）' if not report['gateErrors'] else '未通过'), '',
            '| 分类 | 数量 |', '| --- | ---: |']
     out += [f'| {k} | {v} |' for k, v in report['summary'].items()]
+    if report.get('completenessSummary'):
+        out += ['', '## 转换后残留检查（独立于命中）', '', '| 状态 | 数量 |', '| --- | ---: |']
+        out += [f'| {k} | {v} |' for k, v in report['completenessSummary'].items()]
+    if report.get('acceptanceSummary'):
+        out += ['', '实机按功能与代表场景验收：' + str(report['acceptanceSummary']), '离线组合仍全部执行，不转换为逐卡实机任务。']
     if report.get('acceptedGateWaivers'):
         out += ['', '## 本批合并放行（不等于实机验收）', '',
                 '原始采集上限记录保留；以下豁免不适用于新日志、其他错误或阶段完成检查。', '']
         out += [f"- `{w['file']}` / `{w['sha256']}`：{w['reason']}（{w['approvedBy']}，{w['approvedAt']}）"
                 for w in report['acceptedGateWaivers']]
     if report.get('inventorySummary'):
-        out += ['', '## 库存对账（不是实机完成率）', '', '| 状态 | 条数 |', '| --- | ---: |']
+        out += ['', '## 历史库存审核（' + str(report.get('inventoryReviewVersion', 'unknown')) + '；不作为当前完成率）', '', '| 状态 | 条数 |', '| --- | ---: |']
         out += [f'| {k} | {v} |' for k, v in report['inventorySummary'].items()]
     out += ['', '运行词典与采集时词典完全一致：' + str(report['catalogMatchesCaptured']),
             '第一阶段完成：' + str(report.get('stage1Complete', False)),
@@ -426,6 +562,10 @@ def markdown(report):
                     '  - 路径：`' + e['path'] + '`', '  - 下一步：' + t.get('nextAction', '登记处理方式')]
             if e['applicationSignalSessions']:
                 out.append('  - 已有同对象名／原文的应用日志信号；日志不含完整路径，不自动认定本位置验收。')
+    partial = [e for e in report['entries'] if e['completeness']['status'] == 'partial-residual']
+    if partial:
+        out += ['', '## 已转换但仍有待复核英文', '']
+        out += ['- `' + e['id'] + '`：' + ', '.join(e['completeness']['residualTokens']) for e in partial]
     out += ['', '## 边界', '', '日志采用限量采集，未出现的界面仍为未知。数字和格式化缓冲不作为翻译目标。',
             '相同原文可能由基础词典处理，不能仅凭 markerCandidate=false 判为漏译。',
             '当前候选词典与采集时词典不一致时，仅能报告当前代码的离线结果。',
@@ -477,6 +617,7 @@ def main():
     c.add_argument('--contracts', default='coverage/contracts.json')
     c.add_argument('--nonhero-matrix', default='coverage/nonhero-route-matrix.json')
     c.add_argument('--triage', default='coverage/triage.json')
+    c.add_argument('--acceptance-plan', default='coverage/acceptance-plan.json')
     c.add_argument('--inventory-status', default='coverage/inventory-status.json')
     c.add_argument('--regression', default='coverage/regression-baseline.json')
     c.add_argument('--gate-waivers', default='coverage/gate-waivers.json')
@@ -493,6 +634,9 @@ def main():
     nonhero_summary = validate_nonhero_matrix(read(a.nonhero_matrix), contracts)
     drafts = read(ROOT / 'probe/dynamic-text-review.json')['entries']
     inventory_status = validate_inventory(read(a.inventory_status), drafts, templates, contracts)
+    acceptance = read(a.acceptance_plan)
+    pending_acceptance = validate_acceptance(acceptance, contracts, read(a.inventory_status))
+    reconciliation = reconcile_inventory(drafts, contracts)
     out = Path(a.out); out.mkdir(parents=True, exist_ok=True)
     replay_path = out / 'replay.json'
     subprocess.run([a.dotnet, 'run', '--project', str(ROOT / 'tools/coverage-replay/CoverageReplay.csproj'), '--',
@@ -501,9 +645,12 @@ def main():
                          drafts, read(a.gate_waivers))
     report['gateErrors'].extend(validate_regression(read(a.regression), read(replay_path)))
     report['nonheroMatrix'] = nonhero_summary
+    report['inventoryReviewVersion'] = read(a.inventory_status)['reviewVersion']
+    report['inventoryReconciliationSummary'] = {'wholeSourceCandidateLinks': sum(bool(v['currentWholeSourceCases']) for v in reconciliation.values()), 'totalSources': len(reconciliation), 'notCoveragePercentage': True}
     report['inventorySummary'] = dict(collections.Counter(r['review']['conclusion'] for r in inventory_status.values()))
     for row in report['inventoryLedger']:
         status = inventory_status[row['key']]
+        row['implementationReconciliation'] = reconciliation[row['key']]
         row['reviewedStatus'] = status
         row['translationStatus'] = status['translation']
         row['liveAccepted'] = status['live'] == 'accepted'
@@ -511,14 +658,18 @@ def main():
     for e in report['entries']:
         if e['replay']['reason'] in ('unresolved-full-string', 'known-source-route-gap', 'truncated-evidence') and (e['triage'] or {}).get('disposition') in ('fix-stage-1', 'pending-diagnosis', 'catalog-difference-review'):
             closure.append('unresolved-stage-1:' + e['id'])
-    for family in contracts['families']:
-        for context in family['contexts']:
-            if context['status'] not in ('live-accepted', 'excluded', 'deferred'):
-                closure.append('context-not-accepted:' + family['id'] + ':' + context['id'])
-    # Draft fragments/parameter semantics cannot silently be declared covered by tests.
+    # Offline combinations remain mandatory executable checks; human acceptance is by function.
+    closure.extend('scenario-not-accepted:' + key for key in pending_acceptance)
+    for e in report['entries']:
+        if e['completeness']['status'] == 'partial-residual':
+            closure.append('residual-needs-resolution:' + e['id'])
+    # Translation/parameter/fragment review remains independent from representative UI acceptance.
     for key, d in inventory_status.items():
-        if d['stage'] == 1 and d['live'] not in ('accepted', 'deferred', 'not-applicable'):
-            closure.append('inventory-not-closed:' + key)
+        if d['stage'] == 1 and (d['translation'] != 'reviewed' or d['display'] not in ('covered', 'composed')):
+            closure.append('inventory-review-open:' + key)
+    report['acceptancePlan'] = acceptance
+    report['acceptanceSummary'] = {'liveGroups': sum(g['kind'] == 'live-functional' for g in acceptance['groups']), 'inventoryReviewGroups': sum(g['kind'] == 'inventory-review' for g in acceptance['groups']), 'pendingScenarios': len(pending_acceptance),
+                                  'offlineContracts': read(replay_path)['contractChecks']}
     report['stage1ClosureErrors'] = closure
     report['stage1Complete'] = not closure and not report['gateErrors']
     write(out / 'report.json', report)

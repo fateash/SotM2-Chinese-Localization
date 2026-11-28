@@ -15,6 +15,9 @@ public sealed class DynamicDisplayRules {
  readonly Dictionary<string,string> templates;
  readonly Func<string,string> resolveName;
  static readonly Dictionary<string,(int Args,string Tags)> Specs=new(){
+  ["newgame.choose.heroes"]=(0,""),["newgame.choose.villain"]=(0,""),["newgame.choose.environment"]=(0,""),
+  ["newgame.rating.difficulty"]=(1,""),["newgame.rating.peril"]=(1,""),
+  ["hint.destroy.play.upto.first"]=(2,""),["hint.destroy.target.single"]=(0,""),
   ["hint.destroy.play.under.upto"]=(3,""),["hint.destroy.play.under.upto.first"]=(3,""),["hint.destroy.play.under.exact.first"]=(3,""),
   ["hint.card.replace"]=(0,""),
   ["hint.hero.discard.hand"]=(0,""),
@@ -38,7 +41,9 @@ public sealed class DynamicDisplayRules {
   ["hint.trash.salvage.upto"]=(2,""),
   ["hint.target.topdeck"]=(0,""),
   ["hint.attack.required.unspecified"]=(4,""),["hint.hp.rank.multiple"]=(3,""),
-  ["hint.damage.amount"]=(0,""),["hint.attack.remaining"]=(4,"<nobr></nobr>"),
+  ["hint.damage.amount"]=(0,""),["hint.attack.remaining"]=(4,"<nobr></nobr>"),["hint.attack.remaining.upto"]=(4,"<nobr></nobr>"),
+  ["hint.attack.remaining.upto.dual"]=(6,"<nobr></nobr><nobr></nobr>"),
+  ["hint.attack.remaining.upto.triple"]=(8,"<nobr></nobr><nobr></nobr><nobr></nobr>"),
   ["finish.regain.targets"]=(1,""),["hint.regain.hero"]=(0,""),["hint.regain.upto"]=(2,""),
   ["hint.attack.required.list"]=(5,"<nobr></nobr>"),["hint.attack.exact.unspecified"]=(3,""),
   ["hint.attack.exact.dual"]=(6,"<nobr></nobr><nobr></nobr>"),
@@ -58,6 +63,8 @@ public sealed class DynamicDisplayRules {
   ["button.discover.item"]=(0,""),["button.discover.golem"]=(0,""),
   ["hint.replace-discard"]=(2,""),["hint.draw.owner"]=(3,""),
   ["hint.hero.draw"]=(0,""),["hint.hero.discard"]=(0,""),["hint.hand.under"]=(0,""),
+  ["hint.hero.draw.count"]=(1,""),["hint.put.hand"]=(1,""),["button.put.here"]=(0,""),
+  ["hint.reduce.single"]=(0,""),["hint.dealer"]=(0,""),["hint.choose.number"]=(0,""),
   ["hint.discard.upto"]=(2,""),["hint.destroy.exact"]=(2,""),
   ["hint.phase.target"]=(2,"<nobr><b></b></nobr>"),
   ["hint.collect.deck"]=(0,""),["hint.summon.deck.trash"]=(0,""),["hint.prevent.dealing"]=(0,""),
@@ -143,6 +150,9 @@ public sealed class DynamicDisplayRules {
   ["hint.reduce"]=(2,""),
   ["hint.attack.unspecified"]=(2,""),
   ["hint.attack.order"]=(3,"<nobr></nobr>"),
+  ["hint.attack.order.dual"]=(5,"<nobr></nobr><nobr></nobr>"),
+  ["hint.attack.order.triple"]=(7,"<nobr></nobr><nobr></nobr><nobr></nobr>"),
+  ["hint.attack.unspecified.nobr"]=(2,"<nobr></nobr>"),
   ["hint.reaction"]=(5,"<b></b><b></b>"),["hint.reaction.first"]=(5,"<b></b><b></b>"),
   ["button.play.card"]=(0,""),
   ["button.use.power"]=(0,""),
@@ -176,6 +186,9 @@ public sealed class DynamicDisplayRules {
  static readonly Regex DrawDiscard=Rx(@"\AClick a location to either draw or discard (?<card>[^<>\r\n]{1,200})\.\z");
  static readonly Regex ReplaceDiscard=Rx(@"\AClick a location to either replace or discard (?<card>[^<>\r\n]{1,200})\.\z");
  static readonly Regex DrawOwner=Rx(@"\AClick (?<owner>[^<>\r\n]{1,200})'s deck to draw (?<n>[0-9]{1,6}) (?<unit>card|cards)\.\z");
+ static readonly Regex HeroDrawCount=Rx(@"\AClick a hero to draw (?<n>[0-9]{1,6}) (?<unit>card|cards)\.\z");
+ // The duplicated 'to' belongs to the observed complete source, not the Chinese output.
+ static readonly Regex PutInHeroHand=Rx(@"\AClick a Hero's hand to to put (?<card>[^<>\r\n]{1,200}) there\.\z");
  static readonly Regex DiscardUpTo=Rx(@"\AClick up to (?<n>[0-9]{1,6}) cards in hand to discard them\.\z");
  static readonly Regex DestroyExact=Rx(@"\AClick (?<n>[0-9]{1,6}) (?<unit>card|cards) in play to destroy (?<pronoun>it|them)\.\z");
  static readonly Dictionary<string,string> DamageNames=new(StringComparer.Ordinal){["fire"]="火焰",["melee"]="近战",["cold"]="寒冷",["energy"]="能量",["infernal"]="邪能",["lightning"]="闪电",["projectile"]="投射",["psychic"]="精神",["radiant"]="光耀",["sonic"]="音波",["toxic"]="毒素"};
@@ -183,12 +196,14 @@ public sealed class DynamicDisplayRules {
  static readonly Regex Reduce=Rx(@"\AClick up to (?<n>[0-9]{1,6}) targets to reduce damage dealt to them\.\z");
  static readonly Regex UnspecifiedDamage=Rx(@"\AClick a target to deal it (?<type>[a-z]+) damage\.\z");
  static readonly Regex DamageOrder=Rx(@"\AClick targets to choose the order of dealing them <nobr>(?<n>[0-9]{1,6}) (?<type>fire|melee|cold|energy|infernal|lightning|projectile|psychic|radiant|sonic|toxic)</nobr> damage\.\z");
+ static readonly Regex MultiDamageOrder=Rx(@"\AClick targets to choose the order of dealing them <nobr>(?<n1>[0-9]{1,6}) (?<type1>[a-z]+)</nobr>(?: and <nobr>(?<n2>[0-9]{1,6}) (?<type2>[a-z]+)</nobr>|, <nobr>(?<n2>[0-9]{1,6}) (?<type2>[a-z]+)</nobr>, and <nobr>(?<n3>[0-9]{1,6}) (?<type3>[a-z]+)</nobr>) damage\.\z");
+ static readonly Regex WrappedUnspecifiedDamage=Rx(@"\AClick a target to deal it <nobr>(?<type>[a-z]+)</nobr> damage\.\z");
  static readonly Regex Reaction=Rx(@"\A<b>(?<from>[^<>\r\n]{1,200})</b> will deal <b>(?<to>[^<>\r\n]{1,200})</b> (?<n>[0-9]{1,6}) (?<type>fire|melee|cold|energy|infernal|lightning|projectile|psychic|radiant|sonic|toxic) damage\. Click a (?<choice>reaction to use it|card to activate first)\.\z");
  static readonly Regex ExactTargets=Rx(@"\AClick (?<count>[0-9]{1,6}) targets to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
  static readonly Regex RequiredTarget=Rx(@"\AClick <b>(?<target>[^<>\r\n]{1,200})</b> and (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
  static readonly Regex RequiredUnspecified=Rx(@"\AClick <b>(?<target>[^<>\r\n]{1,200})</b>(?:, <b>(?<target>[^<>\r\n]{1,200})</b>){0,11} and (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them (?<type>[a-z]+) damage\.\z");
  static readonly Regex MultipleHpRank=Rx(@"\AClick (?<count>[0-9]{1,6}) targets to determine which has the (?<rank>lowest|highest) HP\.\z");
- static readonly Regex RemainingTargets=Rx(@"\AClick (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
+ static readonly Regex RemainingTargets=Rx(@"\AClick (?<upto>up to )?(?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
  static readonly Regex RegainTargets=Rx(@"\A(?<count>[0-9]{1,6}) (?<unit>target|targets) regain HP\z");
  static readonly Regex RegainUpTo=Rx(@"\AClick up to (?<count>[0-9]{1,6}) targets to regain HP\.\z");
  static readonly Regex RequiredTargets=Rx(@"\AClick <b>(?<target>[^<>\r\n]{1,200})</b>(?:, <b>(?<target>[^<>\r\n]{1,200})</b>){1,11} and (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
@@ -201,17 +216,24 @@ public sealed class DynamicDisplayRules {
  static readonly Regex PlayLocation=Rx(@"\AClick a location to to play (?<card>[^<>\r\n]{1,200}) there\.\z");
  static readonly Regex PhaseActivate=Rx("\\AClick a (?:(?<target>target)|card(?<inplay> in play)?) to activate its <nobr>(?<sprite><sprite name=\"(?<phase>Start|Play|Power|Draw|End|Incapacitated)Phase\">) <b>(?<title>[A-Z]+) PHASE</b></nobr> effect\\.\\z");
  static readonly Dictionary<string,string> PhaseNames=new(StringComparer.Ordinal){["Start"]="开始阶段",["Play"]="出牌阶段",["Power"]="异能阶段",["Draw"]="抽牌阶段",["End"]="结束阶段",["Incapacitated"]="失能阶段"};
+ static readonly (string Source,string Template,string Phase)[] PhaseChoices={
+  ("Click a power to use it.","hint.power.click","Power"),
+  ("Click or drag a power to use it.","hint.power.drag","Power"),
+  ("Click a card to play it.","hint.play.click","Play"),
+  ("Click or drag a card to play it.","hint.play","Play")};
+ public const string InactiveHeroLayoutPattern=@"3 Hero Layout/Inactive Hero Location [12]|4 Hero Layout/Inactive Hero Location [1-3]|5 Hero Layout/Inactive Hero Location [1-4]";
  const string Heroes="AbsoluteZero|Bunker|CaptainCosmic|Fanatic|Haka|Legacy|Ra|Tachyon|Tempest|TheArgentAdept|TheWraith|Unity";
  const string Villains="AkashBhuta|BaronBlade|CitizenDawn|GrandWarlordVoss|Omnitron|TheMatriarch";
  const string Environments="FreedomTower|InsulaPrimalis|Magmaria|Megalopolis|TheRuinsOfAtlantis|WagnerMarsBase";
- const string HeroPanel=@"Canvas/Main Panel/(?:(?:3 Hero Layout/Inactive Hero Location [12]|5 Hero Layout/Inactive Hero Location [1-4])/)?(?:"+Heroes+@")/Inner Panel/Foreground Elements/";
+ const string HeroPanel=@"Canvas/Main Panel/(?:(?:"+InactiveHeroLayoutPattern+@")/)?(?:"+Heroes+@")/Inner Panel/Foreground Elements/";
  const string NonHeroPanel=@"Canvas/Main Panel/(?:Villain Row/(?:"+Villains+@")|(?:"+Environments+@"))/Inner Panel/Foreground Elements/";
- static readonly Regex HeroSelection=Rx(@"\ACanvas/Main Panel/(?:(?:3 Hero Layout/Inactive Hero Location [12]|5 Hero Layout/Inactive Hero Location [1-4])/)?(?:"+Heroes+@")/Inner Panel/Foreground Elements/Selection Button/Selection Button Label\z");
- static readonly Regex NextToCharacter=Rx(@"\ACanvas/Main Panel/(?:(?:3 Hero Layout/Inactive Hero Location [12]|5 Hero Layout/Inactive Hero Location [1-4])/)?(?<hero>"+Heroes+@")/Inner Panel/Character Card Container/\k<hero>Character/Foreground Elements/Next To Selection Button/Selection Button Label\z");
+ static readonly Regex HeroSelection=Rx(@"\ACanvas/Main Panel/(?:(?:"+InactiveHeroLayoutPattern+@")/)?(?:"+Heroes+@")/Inner Panel/Foreground Elements/Selection Button/Selection Button Label\z");
+ static readonly Regex NextToCharacter=Rx(@"\ACanvas/Main Panel/(?:(?:"+InactiveHeroLayoutPattern+@")/)?(?<hero>"+Heroes+@")/Inner Panel/Character Card Container/\k<hero>Character/Foreground Elements/Next To Selection Button/Selection Button Label\z");
  // Observed small-card placement buttons in the play area and beside a character.
- static readonly Regex NextToSmallCard=Rx(@"\ACanvas/Main Panel/(?:(?:3 Hero Layout/Inactive Hero Location [12]|5 Hero Layout/Inactive Hero Location [1-4])/)?(?<hero>"+Heroes+@")/Inner Panel/(?:Foreground Elements/Play Area/Scroll View/Viewport/Card Container|Character Card Container/\k<hero>Character/Next To Location View/Card Container)/CardView (?<card>[A-Za-z][A-Za-z0-9_]{0,199})-[0-9]{1,6} SmallCardFront/Next To Selection Button/Selection Button Label\z");
+ static readonly Regex NextToSmallCard=Rx(@"\ACanvas/Main Panel/(?:(?:"+InactiveHeroLayoutPattern+@")/)?(?<hero>"+Heroes+@")/Inner Panel/(?:Foreground Elements/Play Area/Scroll View/Viewport/Card Container|Character Card Container/\k<hero>Character/Next To Location View/Card Container)/CardView (?<card>[A-Za-z][A-Za-z0-9_]{0,199})-[0-9]{1,6} SmallCardFront/Next To Selection Button/Selection Button Label\z");
  static readonly Regex DeckSelection=Rx(@"\A(?:"+HeroPanel+@"(?:Deck and Trash/Active Deck View|Inactive Deck View)|"+NonHeroPanel+@"Active Deck View)/Selection Button/Selection Button Label\z");
  static readonly Regex TrashSelection=Rx(@"\A(?:"+HeroPanel+@"(?:Deck and Trash/Active Trash View|Bottom Area Panel/Inactive Trash View)|"+NonHeroPanel+@"Active Trash View)/Selection Button/Selection Button Label\z");
+ static readonly Regex HandSelection=Rx(@"\ACanvas/Main Panel/(?:(?:"+Heroes+@")/Inner Panel/Foreground Elements/Hand|(?:"+InactiveHeroLayoutPattern+@")/(?:"+Heroes+@")/Inner Panel/Foreground Elements/Bottom Area Panel/Inactive Hand View)/Selection Button/Selection Button Label\z");
  static readonly Dictionary<string,string> CommonButtons=new(StringComparer.Ordinal){["Play Construct"]="button.play.construct",["Discover Construct"]="button.discover.construct",["Cannot Deal Damage"]="button.common.1",["Deal Damage"]="button.common.2",["Deal Hero Targets Damage"]="button.common.3",["Deal cold damage"]="button.common.4",["Deal fire damage"]="button.common.5",["Destroy a Card"]="button.common.6",["Destroy this Card"]="button.common.7",["Double Damage"]="button.common.8",["Draw & Use Power"]="button.common.9",["Draw 2 Cards"]="button.common.10",["Draw Card"]="button.common.11",["Draw or Discard"]="button.common.12",["Play Card"]="button.common.13",["Play a Card"]="button.common.14",["Put Card Under Ordnance"]="button.common.15",["Put a Card"]="button.common.16",["Replace or Discard"]="button.common.17",["Salvage Item"]="button.common.18",["Salvage Ongoing"]="button.common.19",["Skip to Draw"]="button.common.20",["Skip to Power"]="button.common.21",["Use Power"]="button.common.22",["Use a Power"]="button.common.23"};
  static readonly Dictionary<string,string> SelectionTitles=new(StringComparer.Ordinal){["Select Damage Source to Deal Damage"]="hint.selection.1",["Select Hero to Discover"]="hint.selection.2",["Select Hero to destroy cards"]="hint.selection.3",["Select Hero to discard cards"]="hint.selection.4",["Select Hero to salvage cards"]="hint.selection.5",["Select Hero to take a phase now"]="hint.selection.6",["Select Location to play card to"]="hint.selection.7",["Select Location to play from"]="hint.selection.8",["Select Location to put a card from into the deck"]="hint.selection.9",["Select Location to put a card from on top of the deck"]="hint.selection.10",["Select Location to reveal from"]="hint.selection.11",["Select Location to shuffle its cards into the deck"]="hint.selection.12",["Select Redirection Target"]="hint.selection.13",["Select location to Summon from (decks will be shuffled)"]="hint.selection.14",["Select location to send destroyed card"]="hint.selection.15",["Select someone to put a card back in their deck"]="hint.selection.16",["Select someone to put a card back on top of their deck"]="hint.selection.17",["Select where it the card should be drawn or discarded."]="hint.selection.18",["Select where the card should go."]="hint.selection.19",["Select whether or not to draw a card."]="hint.selection.20",["Select which Hero is considered to have the most cards in hand"]="hint.selection.21",["Select which deck to draw from..."]="hint.selection.22",["Select which of these targets is considered to have the Lowest HP"]="hint.selection.23",["Select who is considered to have the most cards in play"]="hint.selection.24"};
  static readonly Regex EffectAmount=Rx(@"\A(?<before>Regain |Deal 1 Target |Deal Self |Deal )(?<n>[0-9]{1,6})(?<after> HP| Damage| damage| Targets 3 Damage)\z");
@@ -231,6 +253,32 @@ public sealed class DynamicDisplayRules {
    ("Deal Self "," damage")=>Format("button.deal.self",n),
    ("Deal "," Targets 3 Damage")=>Format("button.deal.many",n),
    ("Deal "," damage")=>Format("button.deal.amount",n),_=>null};
+ }
+ // Semantic fallback requires a real Button ancestor and a whitelisted label role.
+ // No card IDs, hero counts or ancestor path names: these phrases have stable action meanings.
+ public static bool IsButtonLabelName(string name)=>name is "Label" or "Text" or "Text (TMP)" or "Selection Button Label" or "Finish Button Label" or "Skip Button Label" or "Choose For Me Button Label";
+ static readonly Dictionary<string,string> StableButtons=new(CommonButtons,StringComparer.OrdinalIgnoreCase){
+  ["Play Here"]="button.play.here",["Put Here"]="button.put.here",
+  ["Skip Draw Phase"]="button.skip.draw.phase",["Skip Play Phase"]="button.skip.play",["Skip Power Phase"]="button.skip.power",
+  ["Skip Incapacitated Phase"]="button.skip.incapacitated",
+  ["Play Item"]="button.play.item",["Play Golem"]="button.play.golem",
+  ["Discover Item"]="button.discover.item",["Discover Golem"]="button.discover.golem"
+ };
+ public string? ApplyStableButton(string obj,bool buttonLabel,string source){
+  if(!buttonLabel || !IsButtonLabelName(obj) || string.IsNullOrEmpty(source) || source.Length>256)return null;
+  // Only whitespace/case variation of a WHOLE approved phrase; never strip markup or replace substrings.
+  string phrase=Regex.Replace(source.Trim(),@"\s+"," ");
+  if(StableButtons.TryGetValue(phrase,out var key))return Format(key);
+  // These count-bearing labels use the existing complete action/unit grammar; preserve number spelling.
+  var count=Regex.Match(phrase,@"\A(?<action>Bury|Discard) (?<n>[0-9]{1,6}) (?<unit>cards?)\z",RegexOptions.IgnoreCase|RegexOptions.CultureInvariant);
+  var parts=count.Success?ParseConfirmation((count.Groups["action"].Value.Equals("Bury",StringComparison.OrdinalIgnoreCase)?"Bury":"Discard")+" "+count.Groups["n"].Value+" "+count.Groups["unit"].Value.ToLowerInvariant()):null;
+  return parts switch {
+   {Action:"Bury",NumberKind:"card-count"}=>Format("finish.bury",parts.Number),
+   {Action:"Discard",NumberKind:"card-count"}=>Format("button.discard.count",parts.Number),_=>null};
+ }
+ public static string? ApplyDamageTypeButton(string path,string source){
+  if(!path.EndsWith("/Select Effect Container/Select Effect Button(Clone)/Label",StringComparison.Ordinal))return null;
+  return DamageNames.TryGetValue(source.Trim().ToLowerInvariant(),out var target)?target:null;
  }
  public string? ApplyCardButton(string path,string card,string source){
   if(string.IsNullOrEmpty(source) || source.Length>2048)return null;
@@ -285,6 +333,16 @@ public sealed class DynamicDisplayRules {
  public string Glyphs()=>string.Concat(templates.Values)+string.Concat(DamageNames.Values)+string.Concat(PhaseNames.Values)+"在场";
  public string? Apply(string path,string source){
   if(string.IsNullOrEmpty(source) || source.Length>2048)return null;
+  if(path=="Canvas/Available Area Popup/Available Area/Title Label")
+   return source switch {"Choose 3 to 5 Heroes"=>Format("newgame.choose.heroes"),"Choose a Villain"=>Format("newgame.choose.villain"),"Choose an Environment"=>Format("newgame.choose.environment"),_=>null};
+  // Scene level3 serialized Rating Label paths; numeric-only available-item ratings stay protected.
+  string? rating=path switch {
+   "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label"=>"difficulty",
+   "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label"=>"peril",_=>null};
+  if(rating!=null){
+   var value=Regex.Match(source,"\\A"+(rating=="difficulty"?"Difficulty":"Peril")+@": (?<n>[0-9]{1,6})\z",RegexOptions.CultureInvariant);
+   return value.Success?Format("newgame.rating."+rating,value.Groups["n"].Value):null;
+  }
   if(ScopedButtons.TryGetValue(path,out var button) && source==button.Source)return Format(button.Template);
   if(path==CardsUnderPath || path==CardsNextToPath){
    var cards=RelatedCards.Match(source);
@@ -312,6 +370,7 @@ public sealed class DynamicDisplayRules {
   }
   if(path==ContinuePath)return source switch {"Skip"=>Format("button.skip"),"Skip Play"=>Format("button.skip.play.action"),"Skip Draw"=>Format("button.skip.draw.action"),"Skip Draw Phase"=>Format("button.skip.draw.phase"),"Skip Power"=>Format("button.skip.power.action"),"Skip Incapacitated Phase"=>Format("button.skip.incapacitated"),"Skip Play Phase"=>Format("button.skip.play"),"Skip Power Phase"=>Format("button.skip.power"),_=>null};
   if(path==DrawPath && source=="Draw")return Format("button.draw");
+  if(source=="Put Here" && HandSelection.IsMatch(path))return Format("button.put.here");
   if(TrashSelection.IsMatch(path))return source switch {"Discard"=>Format("button.discard"),"Trash"=>Format("button.location.trash"),"Reshuffle"=>Format("button.trash.reshuffle"),_=>null};
   if(HeroSelection.IsMatch(path))return source switch {"Draw"=>Format("button.draw"),"Discard"=>Format("button.discard"),"Play a Card"=>Format("button.play.card"),"Use a Power"=>Format("button.use.power"),"Put a Card"=>Format("button.put.card"),"Destroy a Card"=>Format("button.destroy.card"),"Has the Fewest"=>Format("button.fewest"),"Has the Most"=>Format("button.most"),"Take Play Phase"=>Format("button.take.play"),"Take Power Phase"=>Format("button.take.power"),_=>null};
   if(DeckSelection.IsMatch(path))return source switch {"Deck"=>Format("button.location.deck"),"Reveal"=>Format("button.reveal"),"Draw"=>Format("button.draw"),"Replace"=>Format("button.replace"),_=>null};
@@ -344,6 +403,9 @@ public sealed class DynamicDisplayRules {
   string prefix=header.Success?header.Groups["prefix"].Value:"",body=header.Success?header.Groups["body"].Value:source;
   var fixedText=body switch {
    "Click a button to choose how much damage to deal."=>"hint.damage.amount",
+   "Click a button to choose a number."=>"hint.choose.number",
+   "Click a target to reduce damage dealt to it."=>"hint.reduce.single",
+   "Click a target to have it deal damage."=>"hint.dealer",
    "Click a card to replace it."=>"hint.card.replace",
    "Click a hero to discard their hand."=>"hint.hero.discard.hand",
    "Click a Hero to discard their hand."=>"hint.hero.discard.hand",
@@ -381,6 +443,10 @@ public sealed class DynamicDisplayRules {
    "Click a card in hand to discard it."=>"hint.discard.single", "Click a deck to reveal a card."=>"hint.deck.reveal",_=>null};
   if(fixedText!=null)return prefix+Format(fixedText);
   if(SelectionTitles.TryGetValue(body,out var selectionTitle))return prefix+Format(selectionTitle);
+  var putInHand=PutInHeroHand.Match(body);
+  if(putInHand.Success && !string.IsNullOrWhiteSpace(putInHand.Groups["card"].Value))return prefix+Format("hint.put.hand",putInHand.Groups["card"].Value);
+  var heroDraw=HeroDrawCount.Match(body);
+  if(heroDraw.Success && ((heroDraw.Groups["n"].Value=="1")== (heroDraw.Groups["unit"].Value=="card")))return prefix+Format("hint.hero.draw.count",heroDraw.Groups["n"].Value);
   var shuffle=TrashOwnerShuffle.Match(body);
   if(shuffle.Success && !string.IsNullOrWhiteSpace(shuffle.Groups["owner"].Value))return Format("hint.trash.owner.shuffle",prefix,shuffle.Groups["owner"].Value);
   var bury=BuryTrashUpTo.Match(body);
@@ -407,21 +473,43 @@ public sealed class DynamicDisplayRules {
   if(underHint.Success && !string.IsNullOrWhiteSpace(underHint.Groups["name"].Value))return Format("hint.destroy.play.under",prefix,underHint.Groups["name"].Value);
   var place=PlayLocation.Match(body);
   if(place.Success)return Format("hint.play.location",prefix,place.Groups["card"].Value);
-  // Compose two complete recognized instructions; never translate a prefix of an unknown remainder.
-  const string powerChoice="Click a power to use it. ";
-  const string playChoice="Click or drag a card to play it. ";
-  string choice=body.StartsWith(powerChoice,StringComparison.Ordinal)?powerChoice:body.StartsWith(playChoice,StringComparison.Ordinal)?playChoice:"";
-  bool combined=choice.Length>0;
-  var phaseHint=PhaseActivate.Match(combined?body.Substring(choice.Length):body);
-  if(phaseHint.Success && (!combined || (!phaseHint.Groups["target"].Success && phaseHint.Groups["phase"].Value==(choice==powerChoice?"Power":"Play"))) && phaseHint.Groups["title"].Value==phaseHint.Groups["phase"].Value.ToUpperInvariant())
-   return prefix+(combined?Format(choice==powerChoice?"hint.power.click":"hint.play")+" ":"")+(phaseHint.Groups["target"].Success?Format("hint.phase.target",phaseHint.Groups["sprite"].Value,PhaseNames[phaseHint.Groups["phase"].Value]):Format("hint.phase.activate",phaseHint.Groups["inplay"].Success?"在场的":"",phaseHint.Groups["sprite"].Value,PhaseNames[phaseHint.Groups["phase"].Value]));
+  // Both orders occur in the HUD. Match two complete compatible clauses, preserving their order.
+  var phaseText=PhaseInstruction(body);
+  if(phaseText!=null)return prefix+phaseText;
+  foreach(var choice in PhaseChoices){
+   if(body.StartsWith(choice.Source+" ",StringComparison.Ordinal)){
+    phaseText=PhaseInstruction(body.Substring(choice.Source.Length+1),choice.Phase);
+    if(phaseText!=null)return prefix+Format(choice.Template)+" "+phaseText;
+   }
+   if(body.EndsWith(" "+choice.Source,StringComparison.Ordinal)){
+    phaseText=PhaseInstruction(body.Substring(0,body.Length-choice.Source.Length-1),choice.Phase);
+    if(phaseText!=null)return prefix+phaseText+" "+Format(choice.Template);
+   }
+  }
+  var destroyFirst=Regex.Match(body,@"\AClick up to (?<n>[0-9]{1,6}) (?<unit>card|cards) in play to destroy (?<pronoun>it|them) before other cards\.\z",RegexOptions.CultureInvariant);
+  if(destroyFirst.Success && (destroyFirst.Groups["n"].Value=="1")== (destroyFirst.Groups["unit"].Value=="card") && (destroyFirst.Groups["n"].Value=="1")== (destroyFirst.Groups["pronoun"].Value=="it"))
+   return Format("hint.destroy.play.upto.first",prefix,destroyFirst.Groups["n"].Value);
+  if(body=="Click a target to destroy it.")return prefix+Format("hint.destroy.target.single");
   var destroy=DestroyMany.Match(body);
   if(destroy.Success)return Format(destroy.Groups["kind"].Value=="targets"?"hint.destroy.targets":"hint.destroy.cards",prefix,destroy.Groups["n"].Value);
   var regainHint=RegainUpTo.Match(body);
   if(regainHint.Success)return Format("hint.regain.upto",prefix,regainHint.Groups["count"].Value);
   var hpRank=MultipleHpRank.Match(body);
   if(hpRank.Success && hpRank.Groups["count"].Value!="1")return Format("hint.hp.rank.multiple",prefix,hpRank.Groups["count"].Value,hpRank.Groups["rank"].Value=="lowest"?"低":"高");
-  if(!header.Success)return null;
+  // Complete HUD target-selection damage prompts may omit their source heading.
+  var orderMulti=MultiDamageOrder.Match(body);
+  if(orderMulti.Success){
+   var args=new List<string>{prefix};bool valid=true;
+   for(int i=1;i<=3;i++){
+    if(!orderMulti.Groups["n"+i].Success)continue;
+    if(!DamageNames.TryGetValue(orderMulti.Groups["type"+i].Value,out var type)){valid=false;break;}
+    args.Add(orderMulti.Groups["n"+i].Value);args.Add(type);
+   }
+   if(valid)return Format(args.Count==7?"hint.attack.order.triple":"hint.attack.order.dual",args.ToArray());
+  }
+  var wrapped=WrappedUnspecifiedDamage.Match(body);
+  if(wrapped.Success && DamageNames.TryGetValue(wrapped.Groups["type"].Value,out var wrappedType))
+   return Format("hint.attack.unspecified.nobr",prefix,wrappedType);
   var requiredUnspecified=RequiredUnspecified.Match(body);
   if(requiredUnspecified.Success && ((requiredUnspecified.Groups["count"].Value=="1")== (requiredUnspecified.Groups["unit"].Value=="target")) && DamageNames.TryGetValue(requiredUnspecified.Groups["type"].Value,out var requiredNoAmountType)){
    string targets=string.Join("、",requiredUnspecified.Groups["target"].Captures.Cast<Capture>().Select(c=>"<b>"+resolveName(c.Value)+"</b>"));
@@ -429,9 +517,9 @@ public sealed class DynamicDisplayRules {
   }
   var remaining=RemainingTargets.Match(body);
   if(remaining.Success && ((remaining.Groups["count"].Value=="1")== (remaining.Groups["unit"].Value=="target")) && DamageNames.TryGetValue(remaining.Groups["type"].Value,out var remainingType))
-   return Format("hint.attack.remaining",prefix,remaining.Groups["count"].Value,remaining.Groups["n"].Value,remainingType);
+   return Format(remaining.Groups["upto"].Success?"hint.attack.remaining.upto":"hint.attack.remaining",prefix,remaining.Groups["count"].Value,remaining.Groups["n"].Value,remainingType);
   var targetMulti=TargetMultiDamage.Match(body);
-  if(targetMulti.Success && !(targetMulti.Groups["upto"].Success && targetMulti.Groups["remaining"].Success) &&
+  if(targetMulti.Success &&
      (targetMulti.Groups["single"].Success || ((targetMulti.Groups["count"].Value=="1")== (targetMulti.Groups["unit"].Value=="target") && (targetMulti.Groups["count"].Value=="1" || targetMulti.Groups["pronoun"].Value=="them")))){
    var amounts=new List<string>();bool valid=true;
    for(int i=1;i<=3;i++){
@@ -441,7 +529,7 @@ public sealed class DynamicDisplayRules {
    }
    if(valid){
     bool single=targetMulti.Groups["single"].Success;
-    string kind=single?"single":targetMulti.Groups["upto"].Success?"upto":targetMulti.Groups["remaining"].Success?"remaining":"exact";
+    string kind=single?"single":targetMulti.Groups["remaining"].Success?(targetMulti.Groups["upto"].Success?"remaining.upto":"remaining"):targetMulti.Groups["upto"].Success?"upto":"exact";
     string key=single && amounts.Count==4?"hint.attack.dual":"hint.attack."+kind+(amounts.Count==6?".triple":".dual");
     var args=new List<string>{prefix};if(!single)args.Add(targetMulti.Groups["count"].Value);args.AddRange(amounts);
     return Format(key,args.ToArray());
@@ -478,13 +566,22 @@ public sealed class DynamicDisplayRules {
   if(match.Success)return Format("hint.attack.single",prefix,match.Groups["n"].Value,DamageNames[match.Groups["type"].Value]);
   match=Multiple.Match(body);
   if(match.Success)return Format("hint.attack.multiple",prefix,match.Groups["count"].Value,match.Groups["n"].Value,DamageNames[match.Groups["type"].Value]);
-  match=DiscardMany.Match(body);if(match.Success)return Format("hint.discard.multiple",prefix,match.Groups["n"].Value);
-  match=Reduce.Match(body);if(match.Success)return Format("hint.reduce",prefix,match.Groups["n"].Value);
   match=UnspecifiedDamage.Match(body);if(match.Success && DamageNames.TryGetValue(match.Groups["type"].Value,out var unspecifiedType))return Format("hint.attack.unspecified",prefix,unspecifiedType);
   match=DamageOrder.Match(body);if(match.Success)return Format("hint.attack.order",prefix,match.Groups["n"].Value,DamageNames[match.Groups["type"].Value]);
+  if(!header.Success)return null;
+  match=DiscardMany.Match(body);if(match.Success)return Format("hint.discard.multiple",prefix,match.Groups["n"].Value);
+  match=Reduce.Match(body);if(match.Success)return Format("hint.reduce",prefix,match.Groups["n"].Value);
   match=Reaction.Match(body);if(match.Success)return Format(match.Groups["choice"].Value=="card to activate first"?"hint.reaction.first":"hint.reaction",prefix,match.Groups["from"].Value,match.Groups["to"].Value,match.Groups["n"].Value,DamageNames[match.Groups["type"].Value]);
   match=Effect.Match(body);if(match.Success)return Format("hint.effect",prefix,match.Groups["card"].Value);
   match=DrawDiscard.Match(body);if(match.Success)return Format("hint.draw-discard",prefix,match.Groups["card"].Value);
   return null;
+ }
+ string? PhaseInstruction(string source,string? requiredPhase=null){
+  var m=PhaseActivate.Match(source);
+  if(!m.Success || m.Groups["title"].Value!=m.Groups["phase"].Value.ToUpperInvariant() ||
+     (requiredPhase!=null && (m.Groups["target"].Success || m.Groups["phase"].Value!=requiredPhase)))return null;
+  return m.Groups["target"].Success
+   ?Format("hint.phase.target",m.Groups["sprite"].Value,PhaseNames[m.Groups["phase"].Value])
+   :Format("hint.phase.activate",m.Groups["inplay"].Success?"在场的":"",m.Groups["sprite"].Value,PhaseNames[m.Groups["phase"].Value]);
  }
 }

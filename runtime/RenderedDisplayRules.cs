@@ -9,15 +9,33 @@ public sealed class RenderedDisplayRules {
  readonly Dictionary<string,HashSet<string>> incapSources=new(StringComparer.Ordinal);
  readonly Dictionary<string,string> names=new(StringComparer.Ordinal);
  readonly Dictionary<string,(Regex Pattern,string Target)[]> rules=new(StringComparer.Ordinal);
+ readonly Dictionary<string,string> grantedHeroPowers=new(StringComparer.Ordinal);
  static readonly Regex Token=new(@"\{[^{}]+\}",RegexOptions.CultureInvariant);
+ const string HeroSprite="<sprite name=\"H\" color=#000000>";
+ const string HeroSpritePattern="<sprite name=\"H\" color=#(?:000000|FFFFFF)>";
+ // Match only a complete catalog-authored line. Retain each H sprite's original color.
+ static string HeroSpriteLinePattern(string source){
+  int i=0;return Regex.Replace(Regex.Escape(source),Regex.Escape(Regex.Escape(HeroSprite)),_=>"(?<h"+(i++)+">"+HeroSpritePattern+")");
+ }
+ static string PreserveHeroSprites(Match match,string target){
+  int i=0;return Regex.Replace(target,Regex.Escape(HeroSprite),_=>{
+   var sprite=match.Groups["h"+(i++)];return sprite.Success?sprite.Value:HeroSprite;
+  });
+ }
  static readonly Regex PowerPath=new(@"/Power Container/[0-9]{1,6}/UsePower-[A-Za-z0-9_]+-(?<card>[A-Za-z0-9_]+)/Label\z",RegexOptions.CultureInvariant);
  const string Heroes="AbsoluteZero|Bunker|CaptainCosmic|Fanatic|Haka|Legacy|Ra|Tachyon|Tempest|TheArgentAdept|TheWraith|Unity";
- static readonly Regex IncapPath=new(@"\ACanvas/Main Panel/(?:(?:3 Hero Layout/Inactive Hero Location [12]|5 Hero Layout/Inactive Hero Location [1-4])/)?(?<hero>"+Heroes+@")/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button\(Clone\)/Label\z",RegexOptions.CultureInvariant);
+ static readonly Regex GrantedHeroPowerPath=new(@"\ACanvas/Main Panel/(?:(?:"+DynamicDisplayRules.InactiveHeroLayoutPattern+@")/)?(?<hero>"+Heroes+@")/Inner Panel/Character Card Container/\k<hero>Character/Foreground Elements/Power Container/[0-9]{1,6}/UsePower-\k<hero>-\k<hero>Character/Label\z",RegexOptions.CultureInvariant);
+ static readonly string[] PowerLineEndings={"\r\n","\n","\r","\\r\\n","\\n",""};
+ static readonly Regex IncapPath=new(@"\ACanvas/Main Panel/(?:(?:"+DynamicDisplayRules.InactiveHeroLayoutPattern+@")/)?(?<hero>"+Heroes+@")/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button\(Clone\)/Label\z",RegexOptions.CultureInvariant);
  const string Bullet="<size=70%><sprite name=\"BulletPoint\"></size><indent=1em>";
  const string Setup="<b><i>Setup</i></b>: ";
  public const string Glyphs="准备进阶演奏伴奏制造灭绝减加确定要放弃本局游戏吗点击一位英雄确定谁视为生命值最低者不会因此受到伤害牌库抽张先行动在场无法不可削减最高任何造成受到寒冷火焰能量近战投射精神闪电毒素光耀音波邪能";
  public RenderedDisplayRules(Catalog c,Dictionary<string,string> deckNames,Dictionary<string,string>? dynamicTemplates=null){
   catalog=c;
+  // Cosmic Weapon explicitly grants this power to a Hero; the button is bound to the recipient.
+  // Other gainGameText entries are reactions or event text, not permission to translate all bodies across cards.
+  foreach(var e in c.Cards.Where(e=>e.Card=="CosmicWeapon" && e.Source=="This Hero deals 1 target 3 energy damage."))
+   grantedHeroPowers.Add(e.Source,e.Target);
   foreach(var g in c.Display.Where(e=>e.ObjectName=="Title Label" && e.Mode=="exact").GroupBy(e=>e.Source,StringComparer.Ordinal))
    if(g.Select(e=>e.Target).Distinct(StringComparer.Ordinal).Count()==1)names[g.Key]=g.First().Target;
   foreach(var e in deckNames)names[e.Key]=e.Value;
@@ -58,7 +76,7 @@ public sealed class RenderedDisplayRules {
       if(nameTokens.Contains(token.Value)){
        pattern+="(?<n"+translatedNames.Count+">"+Regex.Escape(value.En)+"|"+Regex.Escape(value.Zh)+")";translatedNames.Add(value.Zh);
       }else if(token.Value.StartsWith("{H",StringComparison.Ordinal))
-       pattern+="(?:"+Regex.Escape(value.En)+@"|<b>\*[+−-]?[0-9]{1,6}\*</b>)";
+       pattern+="(?:"+Regex.Escape(value.En).Replace(Regex.Escape(HeroSprite),HeroSpritePattern)+"|"+Regex.Escape(value.Zh).Replace(Regex.Escape(HeroSprite),HeroSpritePattern)+@"|<b>\*[+−-]?[0-9]{1,6}\*</b>)";
       else pattern+="(?:"+Regex.Escape(value.En)+"|"+Regex.Escape(value.Zh)+")";
       offset=token.Index+token.Length;
      }
@@ -77,7 +95,7 @@ public sealed class RenderedDisplayRules {
    }
    parameterNames[g.Key]=namePatterns.ToArray();
    rules[g.Key]=pairs.Where(p=>p.Value.Count==1).OrderByDescending(p=>p.Key.Length).Select(p=>(new Regex(
-    @"(?<prefix>\A|\r\n|\n|\r|\\r\\n|\\n|\\r|<style=PowerBody>|<style=ReactionBody>|"+Regex.Escape(Setup)+@")"+Regex.Escape(p.Key)+@"(?=\r|\n|\\r|\\n|</style>|\z)",RegexOptions.CultureInvariant),p.Value.Single())).ToArray();
+    @"(?<prefix>\A|\r\n|\n|\r|\\r\\n|\\n|\\r|<style=PowerBody>|<style=ReactionBody>|"+Regex.Escape(Setup)+@")"+HeroSpriteLinePattern(p.Key)+@"(?=\r|\n|\\r|\\n|</style>|\z)",RegexOptions.CultureInvariant),p.Value.Single())).ToArray();
   }
  }
  static readonly Dictionary<string,string> Damage=new(StringComparer.OrdinalIgnoreCase){
@@ -101,6 +119,34 @@ public sealed class RenderedDisplayRules {
   if(m.Success)return Name(m.Groups["name"].Value)+"的规则文本视为空白";
   return null;
  }
+ // Names and style definitions verified in this build's default TMP stylesheet.
+ // A style can select a different font from TMP_Text.font; that font needs its own CJK fallback.
+ public static string EmphasizeCardHeadings(string source){
+  // Only complete heading styles; body occurrences of these words remain unchanged.
+  source=Regex.Replace(source,@"(?<prefix><style=AbilityHeading><sprite name=""(?:Perform|Accompany|Fabricate|Exterminate)""> )(?<label>演奏|伴奏|制造|灭绝)(?<suffix></style>)",m=>m.Groups["prefix"].Value+"<b>"+m.Groups["label"].Value+"</b>"+m.Groups["suffix"].Value,RegexOptions.CultureInvariant);
+  return Regex.Replace(source,@"<style=PowerHeading>(?<label>异能[:：])(?<space> ?)</style>",m=>"<style=PowerHeading><b>"+m.Groups["label"].Value+"</b>"+m.Groups["space"].Value+"</style>",RegexOptions.CultureInvariant);
+ }
+ public static string[] RequiredInlineFonts(string source){
+  if(!DisplayScope.ContainsHan(source))return Array.Empty<string>();
+  var fonts=new HashSet<string>(StringComparer.Ordinal);
+  foreach(var style in new[]{"AbilityHeading","PowerHeading","ReactionHeading"})
+   if(source.Contains("<style="+style+">",StringComparison.Ordinal))fonts.Add("AvenirNextLTPro-HeavyCn");
+  if(source.Contains("<style=BoldItalic>",StringComparison.Ordinal))fonts.Add("AvenirNextLTPro-Bold");
+  if(source.Contains("<style=Keywords>",StringComparison.Ordinal))fonts.Add("AstounderSquaredBB-Bold");
+  foreach(var style in new[]{"StartPhase","PlayPhase","PowerPhase","DrawPhase","EndPhase","PowerTitle","C1","C2"})
+   if(source.Contains("<style="+style+">",StringComparison.Ordinal))fonts.Add("AvengeanceMightiestAvenger");
+  return fonts.OrderBy(x=>x,StringComparer.Ordinal).ToArray();
+ }
+ public static bool IsInsetNewGameRating(string path,string obj,string text){
+  if(obj!="Rating Label")return false;
+  string? prefix=path switch {
+   "Canvas/Main Panel/Environment/Selected Area/Fade Panel/Rating Label"=>"危险度",
+   "Canvas/Main Panel/Villain/Selected Area/Fade Panel/Rating Label"=>"难度",_=>null};
+  return prefix!=null && Regex.IsMatch(text,@"\A"+prefix+@"[:：] ?[0-9]{1,6}\z",RegexOptions.CultureInvariant);
+ }
+ public static bool IsInsetNewGameSection(string path,string obj,string text)=>obj=="Title Label" &&
+  ((path=="Canvas/Main Panel/Villain/Selected Area/Fade Panel/Title Label" && text=="反派") ||
+   (path=="Canvas/Main Panel/Environment/Selected Area/Fade Panel/Title Label" && text=="环境"));
  public static bool IsPowerButton(string path,string card,bool inCard,bool button){
   if(!inCard || !button || card.Length==0 ||
    (!path.StartsWith("Canvas/Main Panel/",StringComparison.Ordinal) && !path.StartsWith("Full Card Canvas/Full Card Panel/",StringComparison.Ordinal)))return false;
@@ -111,16 +157,34 @@ public sealed class RenderedDisplayRules {
   return prefix.Success?"<b>"+Name(prefix.Groups["name"].Value)+":</b> ":Name(s);
  }
  string Name(string s)=>names.TryGetValue(s,out var t)?t:s;
- public string? Apply(string path,string obj,string card,bool inCard,bool button,string source,string? previous=null,bool effectTooltip=false){
+ public string? Apply(string path,string obj,string card,bool inCard,bool button,string source,string? previous=null,bool effectTooltip=false,bool buttonLabel=false){
   string result=previous??source;
+  // Historical cardButtonCandidate is not proof of an actual Button; use the new explicit identity.
+  var stable=button ? namedDynamic?.ApplyStableButton(obj,buttonLabel,source) : null;
+  if(stable!=null)return stable;
+  if(inCard && button && buttonLabel && obj=="Label"){
+   var damageType=DynamicDisplayRules.ApplyDamageTypeButton(path,source);
+   if(damageType!=null)return damageType;
+  }
   if(effectTooltip)return EffectTooltip(source)??previous;
+  if(inCard && button && obj=="Label"){
+   var granted=GrantedHeroPowerPath.Match(path);
+   if(granted.Success && card==granted.Groups["hero"].Value+"Character"){
+    foreach(var e in grantedHeroPowers)foreach(var ending in PowerLineEndings)
+     foreach(var heading in new[]{"POWER: ","异能: "}){
+      string before="<style=PowerHeading>"+heading+"</style><style=PowerBody>";
+      if(source==before+e.Key+ending+"</style>")
+       return "<style=PowerHeading>异能: </style><style=PowerBody>"+e.Value+ending+"</style>";
+     }
+   }
+  }
   if(!inCard){
    result=namedDynamic?.Apply(path,source)??result;
    var incap=IncapPath.Match(path);
    if(obj=="Label" && incap.Success){
     string hero=incap.Groups["hero"].Value+"Character";
     if(incapSources.TryGetValue(hero,out var allowed) && allowed.Contains(source)){
-     foreach(var e in rules[hero])result=e.Pattern.Replace(result,m=>m.Groups["prefix"].Value+e.Target);
+     foreach(var e in rules[hero])result=e.Pattern.Replace(result,m=>m.Groups["prefix"].Value+PreserveHeroSprites(m,e.Target));
      result=catalog.DisplayRules.Apply("Body Label",hero,result)??result;
     }
    }
@@ -138,7 +202,7 @@ public sealed class RenderedDisplayRules {
     (obj is "Body Label" or "Setup Label" or "Advanced Label" || IsPowerButton(path,card,inCard,button))){
    // Apply on the unmodified input before phase labels change template expansion text.
    result=source;
-   foreach(var e in entries)result=e.Pattern.Replace(result,m=>m.Groups["prefix"].Value+e.Target);
+   foreach(var e in entries)result=e.Pattern.Replace(result,m=>m.Groups["prefix"].Value+PreserveHeroSprites(m,e.Target));
    foreach(var e in parameterNames[card])result=e.Pattern.Replace(result,m=>{
     string value=m.Value;for(int i=e.Names.Length-1;i>=0;i--){var field=m.Groups["n"+i];int start=field.Index-m.Index;value=value.Substring(0,start)+e.Names[i]+value.Substring(start+field.Length);}return value;
    });
@@ -182,6 +246,10 @@ public sealed class RenderedDisplayRules {
   if(!inCard && obj=="Abandon Label" && path=="Overlay Canvas/Abandon Panel/Panel/Abandon Label" && source=="Are you sure you want to abandon your game in progress?")
    result="确定要放弃本局游戏吗？";
   if(!inCard && path==SurfaceProbeRules.HintPath){
+   var regain=Regex.Match(source,@"\A(?<prefix><b>[^<>\r\n]+:</b> )?Click a target to regain HP\.\z");
+   if(regain.Success)result=regain.Groups["prefix"].Value+"点击一个目标，使其恢复生命值。";
+   var ongoing=Regex.Match(source,@"\A(?<prefix><b>[^<>\r\n]+:</b> )?Click the hero who is considered to have the most Ongoing cards in play\.\z");
+   if(ongoing.Success)result=ongoing.Groups["prefix"].Value+"点击视为场上持续牌最多的英雄。";
    var m=Regex.Match(source,@"\A(?<prefix><b>[^<>\r\n]+:</b> )?Click (?<kind>a Hero|a target) to determine which has the (?<order>lowest|highest) HP(?<safe> \(will not be dealt damage\))?\.\z");
    if(m.Success && result==source)result=m.Groups["prefix"].Value+"点击"+(m.Groups["kind"].Value=="a Hero"?"一位英雄":"一个目标")+"，确定谁视为生命值最"+(m.Groups["order"].Value=="highest"?"高":"低")+"者"+(m.Groups["safe"].Success?"（不会因此受到伤害）":"")+"。";
    var immune=Regex.Match(source,@"\A(?<prefix><b>[^<>\r\n]+:</b> )?Click a target to make it immune to damage\.\z");
@@ -199,6 +267,7 @@ public sealed class RenderedDisplayRules {
    if(m.Success && result.StartsWith(m.Groups["name"].Value,StringComparison.Ordinal))
     result=Name(m.Groups["name"].Value)+result.Substring(m.Groups["name"].Length);
   }
+  if(inCard && obj=="Body Label")result=EmphasizeCardHeadings(result);
   return result==source?null:result;
  }
 }
