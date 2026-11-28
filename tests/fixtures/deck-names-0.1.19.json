@@ -1,0 +1,3370 @@
+[
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Absolute Zero",
+    "expected": "绝对零度"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Absolute Zero",
+    "expected": "绝对零度"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (1)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Absolute Zero",
+    "expected": "绝对零度"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (2)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Absolute Zero",
+    "expected": "绝对零度"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (3)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Absolute Zero",
+    "expected": "绝对零度"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (4)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Absolute Zero",
+    "expected": "绝对零度"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (5)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Absolute Zero",
+    "expected": "绝对零度"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "AbsoluteZeroCharacter",
+    "inCardView": true,
+    "source": "Absolute Zero",
+    "expected": "绝对零度",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Absolute Zero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "AbsoluteZeroCharacter",
+    "inCardView": true,
+    "source": "Absolute Zero",
+    "expected": "绝对零度",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Absolute Zero",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Absolute Zero",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Absolute Zero deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "绝对零度",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Absolute Zero",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Absolute Zero",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Absolute Zero",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Bunker",
+    "expected": "堡垒"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Bunker",
+    "expected": "堡垒"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (1)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Bunker",
+    "expected": "堡垒"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (2)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Bunker",
+    "expected": "堡垒"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (3)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Bunker",
+    "expected": "堡垒"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (4)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Bunker",
+    "expected": "堡垒"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (5)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Bunker",
+    "expected": "堡垒"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "BunkerCharacter",
+    "inCardView": true,
+    "source": "Bunker",
+    "expected": "堡垒",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Bunker",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "BunkerCharacter",
+    "inCardView": true,
+    "source": "Bunker",
+    "expected": "堡垒",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Bunker",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Bunker",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Bunker deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "堡垒",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Bunker",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Bunker",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Bunker",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Captain Cosmic",
+    "expected": "宇宙队长"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Captain Cosmic",
+    "expected": "宇宙队长"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (1)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Captain Cosmic",
+    "expected": "宇宙队长"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (2)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Captain Cosmic",
+    "expected": "宇宙队长"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (3)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Captain Cosmic",
+    "expected": "宇宙队长"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (4)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Captain Cosmic",
+    "expected": "宇宙队长"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (5)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Captain Cosmic",
+    "expected": "宇宙队长"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "CaptainCosmicCharacter",
+    "inCardView": true,
+    "source": "Captain Cosmic",
+    "expected": "宇宙队长",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Captain Cosmic",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "CaptainCosmicCharacter",
+    "inCardView": true,
+    "source": "Captain Cosmic",
+    "expected": "宇宙队长",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Captain Cosmic",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Captain Cosmic",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Captain Cosmic deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "宇宙队长",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Captain Cosmic",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Captain Cosmic",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Captain Cosmic",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Fanatic",
+    "expected": "狂信"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Fanatic",
+    "expected": "狂信"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (1)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Fanatic",
+    "expected": "狂信"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (2)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Fanatic",
+    "expected": "狂信"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (3)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Fanatic",
+    "expected": "狂信"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (4)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Fanatic",
+    "expected": "狂信"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (5)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Fanatic",
+    "expected": "狂信"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "FanaticCharacter",
+    "inCardView": true,
+    "source": "Fanatic",
+    "expected": "狂信",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Fanatic",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "FanaticCharacter",
+    "inCardView": true,
+    "source": "Fanatic",
+    "expected": "狂信",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Fanatic",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Fanatic",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Fanatic deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "狂信",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Fanatic",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Fanatic",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Fanatic",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Haka",
+    "expected": "哈卡"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Haka",
+    "expected": "哈卡"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (1)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Haka",
+    "expected": "哈卡"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (2)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Haka",
+    "expected": "哈卡"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (3)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Haka",
+    "expected": "哈卡"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (4)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Haka",
+    "expected": "哈卡"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (5)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Haka",
+    "expected": "哈卡"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "HakaCharacter",
+    "inCardView": true,
+    "source": "Haka",
+    "expected": "哈卡",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Haka",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "HakaCharacter",
+    "inCardView": true,
+    "source": "Haka",
+    "expected": "哈卡",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Haka",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Haka",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Haka deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "哈卡",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Haka",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Haka",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Haka",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Legacy",
+    "expected": "传承侠"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Legacy",
+    "expected": "传承侠"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (1)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Legacy",
+    "expected": "传承侠"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (2)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Legacy",
+    "expected": "传承侠"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (3)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Legacy",
+    "expected": "传承侠"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (4)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Legacy",
+    "expected": "传承侠"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (5)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Legacy",
+    "expected": "传承侠"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "LegacyCharacter",
+    "inCardView": true,
+    "source": "Legacy",
+    "expected": "传承侠",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Legacy",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "LegacyCharacter",
+    "inCardView": true,
+    "source": "Legacy",
+    "expected": "传承侠",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Legacy",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Legacy",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Legacy deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "传承侠",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Legacy",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Legacy",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Legacy",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Ra",
+    "expected": "拉神"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Ra",
+    "expected": "拉神"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (1)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Ra",
+    "expected": "拉神"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (2)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Ra",
+    "expected": "拉神"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (3)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Ra",
+    "expected": "拉神"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (4)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Ra",
+    "expected": "拉神"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (5)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Ra",
+    "expected": "拉神"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "RaCharacter",
+    "inCardView": true,
+    "source": "Ra",
+    "expected": "拉神",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Ra",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "RaCharacter",
+    "inCardView": true,
+    "source": "Ra",
+    "expected": "拉神",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Ra",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Ra",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Ra deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "拉神",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Ra",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Ra",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Ra",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tachyon",
+    "expected": "快子"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tachyon",
+    "expected": "快子"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (1)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tachyon",
+    "expected": "快子"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (2)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tachyon",
+    "expected": "快子"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (3)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tachyon",
+    "expected": "快子"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (4)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tachyon",
+    "expected": "快子"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (5)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tachyon",
+    "expected": "快子"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "TachyonCharacter",
+    "inCardView": true,
+    "source": "Tachyon",
+    "expected": "快子",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Tachyon",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "TachyonCharacter",
+    "inCardView": true,
+    "source": "Tachyon",
+    "expected": "快子",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Tachyon",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tachyon",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tachyon deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "快子",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Tachyon",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Tachyon",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tachyon",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tempest",
+    "expected": "风暴"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tempest",
+    "expected": "风暴"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (1)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tempest",
+    "expected": "风暴"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (2)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tempest",
+    "expected": "风暴"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (3)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tempest",
+    "expected": "风暴"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (4)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tempest",
+    "expected": "风暴"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (5)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tempest",
+    "expected": "风暴"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "TempestCharacter",
+    "inCardView": true,
+    "source": "Tempest",
+    "expected": "风暴",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Tempest",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "TempestCharacter",
+    "inCardView": true,
+    "source": "Tempest",
+    "expected": "风暴",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Tempest",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tempest",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tempest deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "风暴",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Tempest",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Tempest",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Tempest",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Argent Adept",
+    "expected": "银音秘师"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Argent Adept",
+    "expected": "银音秘师"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (1)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Argent Adept",
+    "expected": "银音秘师"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (2)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Argent Adept",
+    "expected": "银音秘师"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (3)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Argent Adept",
+    "expected": "银音秘师"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (4)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Argent Adept",
+    "expected": "银音秘师"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (5)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Argent Adept",
+    "expected": "银音秘师"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "TheArgentAdeptCharacter",
+    "inCardView": true,
+    "source": "The Argent Adept",
+    "expected": "银音秘师",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Argent Adept",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "TheArgentAdeptCharacter",
+    "inCardView": true,
+    "source": "The Argent Adept",
+    "expected": "银音秘师",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Argent Adept",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Argent Adept",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Argent Adept deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "银音秘师",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Argent Adept",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Argent Adept",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Argent Adept",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Wraith",
+    "expected": "幽魂"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Wraith",
+    "expected": "幽魂"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (1)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Wraith",
+    "expected": "幽魂"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (2)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Wraith",
+    "expected": "幽魂"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (3)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Wraith",
+    "expected": "幽魂"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (4)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Wraith",
+    "expected": "幽魂"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (5)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Wraith",
+    "expected": "幽魂"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "TheWraithCharacter",
+    "inCardView": true,
+    "source": "The Wraith",
+    "expected": "幽魂",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Wraith",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "TheWraithCharacter",
+    "inCardView": true,
+    "source": "The Wraith",
+    "expected": "幽魂",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Wraith",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Wraith",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Wraith deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "幽魂",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Wraith",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Wraith",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Wraith",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unity",
+    "expected": "优妮蒂"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unity",
+    "expected": "优妮蒂"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (1)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unity",
+    "expected": "优妮蒂"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (2)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unity",
+    "expected": "优妮蒂"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (3)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unity",
+    "expected": "优妮蒂"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (4)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unity",
+    "expected": "优妮蒂"
+  },
+  {
+    "path": "Canvas/Main Panel/Hero Container/End Game Hero View (5)/Title And HP Tooltip/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unity",
+    "expected": "优妮蒂"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnityCharacter",
+    "inCardView": true,
+    "source": "Unity",
+    "expected": "优妮蒂",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Unity",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnityCharacter",
+    "inCardView": true,
+    "source": "Unity",
+    "expected": "优妮蒂",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Unity",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unity",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unity deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "优妮蒂",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Unity",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Unity",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unity",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Akash'Bhuta",
+    "expected": "阿卡什怖妲"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Akash'Bhuta",
+    "expected": "阿卡什怖妲"
+  },
+  {
+    "path": "Canvas/Main Panel/Villain View/Title BG/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Akash'Bhuta",
+    "expected": "阿卡什怖妲"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "AkashBhutaCharacter",
+    "inCardView": true,
+    "source": "Akash'Bhuta",
+    "expected": "阿卡什怖妲",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Akash'Bhuta",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "AkashBhutaCharacter",
+    "inCardView": true,
+    "source": "Akash'Bhuta",
+    "expected": "阿卡什怖妲",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Akash'Bhuta",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Akash'Bhuta",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Akash'Bhuta deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "阿卡什怖妲",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Akash'Bhuta",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Akash'Bhuta",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Akash'Bhuta",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Baron Blade",
+    "expected": "刀锋男爵"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Baron Blade",
+    "expected": "刀锋男爵"
+  },
+  {
+    "path": "Canvas/Main Panel/Villain View/Title BG/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Baron Blade",
+    "expected": "刀锋男爵"
+  },
+  {
+    "path": "Canvas/Main Panel/BaronBlade/Title BG/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Baron Blade",
+    "expected": "刀锋男爵"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "BaronBladeCharacter",
+    "inCardView": true,
+    "source": "Baron Blade",
+    "expected": "刀锋男爵",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Baron Blade",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "BaronBladeCharacter",
+    "inCardView": true,
+    "source": "Baron Blade",
+    "expected": "刀锋男爵",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Baron Blade",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Baron Blade",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Baron Blade deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "刀锋男爵",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Baron Blade",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Baron Blade",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Baron Blade",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Citizen Dawn",
+    "expected": "黎明公民"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Citizen Dawn",
+    "expected": "黎明公民"
+  },
+  {
+    "path": "Canvas/Main Panel/Villain View/Title BG/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Citizen Dawn",
+    "expected": "黎明公民"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "CitizenDawnCharacter",
+    "inCardView": true,
+    "source": "Citizen Dawn",
+    "expected": "黎明公民",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Citizen Dawn",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "CitizenDawnCharacter",
+    "inCardView": true,
+    "source": "Citizen Dawn",
+    "expected": "黎明公民",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Citizen Dawn",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Citizen Dawn",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Citizen Dawn deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "黎明公民",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Citizen Dawn",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Citizen Dawn",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Citizen Dawn",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Grand Warlord Voss",
+    "expected": "大军阀沃斯"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Grand Warlord Voss",
+    "expected": "大军阀沃斯"
+  },
+  {
+    "path": "Canvas/Main Panel/Villain View/Title BG/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Grand Warlord Voss",
+    "expected": "大军阀沃斯"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "GrandWarlordVossCharacter",
+    "inCardView": true,
+    "source": "Grand Warlord Voss",
+    "expected": "大军阀沃斯",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Grand Warlord Voss",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "GrandWarlordVossCharacter",
+    "inCardView": true,
+    "source": "Grand Warlord Voss",
+    "expected": "大军阀沃斯",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Grand Warlord Voss",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Grand Warlord Voss",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Grand Warlord Voss deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "大军阀沃斯",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Grand Warlord Voss",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Grand Warlord Voss",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Grand Warlord Voss",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Omnitron",
+    "expected": "全能智创"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Omnitron",
+    "expected": "全能智创"
+  },
+  {
+    "path": "Canvas/Main Panel/Villain View/Title BG/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Omnitron",
+    "expected": "全能智创"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "OmnitronCharacter",
+    "inCardView": true,
+    "source": "Omnitron",
+    "expected": "全能智创",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Omnitron",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "OmnitronCharacter",
+    "inCardView": true,
+    "source": "Omnitron",
+    "expected": "全能智创",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Omnitron",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Omnitron",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Omnitron deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "全能智创",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Omnitron",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Omnitron",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Omnitron",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Matriarch",
+    "expected": "鸦母"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Matriarch",
+    "expected": "鸦母"
+  },
+  {
+    "path": "Canvas/Main Panel/Villain View/Title BG/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Matriarch",
+    "expected": "鸦母"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "TheMatriarchCharacter",
+    "inCardView": true,
+    "source": "The Matriarch",
+    "expected": "鸦母",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Matriarch",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "TheMatriarchCharacter",
+    "inCardView": true,
+    "source": "The Matriarch",
+    "expected": "鸦母",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Matriarch",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Matriarch",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Matriarch deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "鸦母",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Matriarch",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Matriarch",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Matriarch",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Freedom Tower",
+    "expected": "自由大厦"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Freedom Tower",
+    "expected": "自由大厦"
+  },
+  {
+    "path": "Canvas/Main Panel/Environment Background/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Freedom Tower",
+    "expected": "自由大厦"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "FreedomTowerCharacter",
+    "inCardView": true,
+    "source": "Freedom Tower",
+    "expected": "自由大厦",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Freedom Tower",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "FreedomTowerCharacter",
+    "inCardView": true,
+    "source": "Freedom Tower",
+    "expected": "自由大厦",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Freedom Tower",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Freedom Tower",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Freedom Tower deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "自由大厦",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Freedom Tower",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Freedom Tower",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Freedom Tower",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Insula Primalis",
+    "expected": "原初岛"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Insula Primalis",
+    "expected": "原初岛"
+  },
+  {
+    "path": "Canvas/Main Panel/Environment Background/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Insula Primalis",
+    "expected": "原初岛"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "InsulaPrimalisCharacter",
+    "inCardView": true,
+    "source": "Insula Primalis",
+    "expected": "原初岛",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Insula Primalis",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "InsulaPrimalisCharacter",
+    "inCardView": true,
+    "source": "Insula Primalis",
+    "expected": "原初岛",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Insula Primalis",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Insula Primalis",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Insula Primalis deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "原初岛",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Insula Primalis",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Insula Primalis",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Insula Primalis",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Magmaria",
+    "expected": "熔岩域"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Magmaria",
+    "expected": "熔岩域"
+  },
+  {
+    "path": "Canvas/Main Panel/Environment Background/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Magmaria",
+    "expected": "熔岩域"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "MagmariaCharacter",
+    "inCardView": true,
+    "source": "Magmaria",
+    "expected": "熔岩域",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Magmaria",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "MagmariaCharacter",
+    "inCardView": true,
+    "source": "Magmaria",
+    "expected": "熔岩域",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Magmaria",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Magmaria",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Magmaria deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "熔岩域",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Magmaria",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Magmaria",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Magmaria",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Megalopolis",
+    "expected": "巨都会"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Megalopolis",
+    "expected": "巨都会"
+  },
+  {
+    "path": "Canvas/Main Panel/Environment Background/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Megalopolis",
+    "expected": "巨都会"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "MegalopolisCharacter",
+    "inCardView": true,
+    "source": "Megalopolis",
+    "expected": "巨都会",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Megalopolis",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "MegalopolisCharacter",
+    "inCardView": true,
+    "source": "Megalopolis",
+    "expected": "巨都会",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Megalopolis",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Megalopolis",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Megalopolis deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "巨都会",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Megalopolis",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Megalopolis",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Megalopolis",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Ruins of Atlantis",
+    "expected": "亚特兰蒂斯遗迹"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Ruins of Atlantis",
+    "expected": "亚特兰蒂斯遗迹"
+  },
+  {
+    "path": "Canvas/Main Panel/Environment Background/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Ruins of Atlantis",
+    "expected": "亚特兰蒂斯遗迹"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "TheRuinsOfAtlantisCharacter",
+    "inCardView": true,
+    "source": "The Ruins of Atlantis",
+    "expected": "亚特兰蒂斯遗迹",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Ruins of Atlantis",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "TheRuinsOfAtlantisCharacter",
+    "inCardView": true,
+    "source": "The Ruins of Atlantis",
+    "expected": "亚特兰蒂斯遗迹",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Ruins of Atlantis",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Ruins of Atlantis",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Ruins of Atlantis deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "亚特兰蒂斯遗迹",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Ruins of Atlantis",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "The Ruins of Atlantis",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "The Ruins of Atlantis",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Wagner Mars Base",
+    "expected": "瓦格纳火星基地"
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Wagner Mars Base",
+    "expected": "瓦格纳火星基地"
+  },
+  {
+    "path": "Canvas/Main Panel/Environment Background/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Wagner Mars Base",
+    "expected": "瓦格纳火星基地"
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "WagnerMarsBaseCharacter",
+    "inCardView": true,
+    "source": "Wagner Mars Base",
+    "expected": "瓦格纳火星基地",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Full/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Wagner Mars Base",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "WagnerMarsBaseCharacter",
+    "inCardView": true,
+    "source": "Wagner Mars Base",
+    "expected": "瓦格纳火星基地",
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/Small/Title Label",
+    "objectName": "Title Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Wagner Mars Base",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Other/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Wagner Mars Base",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Wagner Mars Base deals 1 damage.",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "瓦格纳火星基地",
+    "expected": null
+  },
+  {
+    "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
+    "objectName": "Turn Taker Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "1",
+    "expected": null
+  },
+  {
+    "path": "Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Unknown Hero",
+    "expected": null
+  },
+  {
+    "path": "synthetic/Body Label",
+    "objectName": "Body Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Wagner Mars Base",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "synthetic/HP Label",
+    "objectName": "HP Label",
+    "cardId": "UnknownCharacter",
+    "inCardView": true,
+    "source": "Wagner Mars Base",
+    "expected": null,
+    "deckNameTitle": true
+  },
+  {
+    "path": "Canvas/InputField/Title Label",
+    "objectName": "Title Label",
+    "cardId": "",
+    "inCardView": false,
+    "source": "Wagner Mars Base",
+    "expected": null
+  }
+]

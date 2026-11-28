@@ -23,7 +23,10 @@ def digest(value):
     return hashlib.sha256(value).hexdigest()
 
 def identity(row):
-    return digest(json.dumps([row[k] for k in ('buildId', 'path', 'cardId', 'source', 'inputSource')],
+    fields = [row[k] for k in ('buildId', 'path', 'cardId', 'source', 'inputSource')]
+    if row.get('deckNameTitle'):
+        fields.append('bound-card-title')
+    return digest(json.dumps(fields,
                              ensure_ascii=False, separators=(',', ':')).encode())[:24]
 
 def intake(paths, existing=None):
@@ -82,6 +85,10 @@ def intake(paths, existing=None):
             raw = json.loads(line.split('SURFACE_PROBE ', 1)[1])
             fields = ('objectName', 'path', 'cardId', 'source', 'inCardView', 'inputSource', 'truncated', 'markerCandidate')
             row = {k: raw[k] for k in fields}
+            if 'deckNameTitle' in raw:
+                if type(raw['deckNameTitle']) is not bool or (raw['deckNameTitle'] and (not raw['inCardView'] or raw['objectName'] != 'Title Label')):
+                    raise ValueError('Invalid bound card title identity')
+                row['deckNameTitle'] = raw['deckNameTitle']
             if any(not isinstance(row[k], str) for k in ('objectName', 'path', 'cardId', 'source', 'inputSource')):
                 raise ValueError('Invalid evidence string field')
             if any(type(row[k]) is not bool for k in ('inCardView', 'truncated', 'markerCandidate')):

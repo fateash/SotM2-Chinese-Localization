@@ -14,11 +14,14 @@ if(contracts.RootElement.TryGetProperty("conditionalCatalogs",out var conditiona
   conditionalCatalogs.Add(entry.GetProperty("id").GetString()!,new DisplayRules(entry.GetProperty("displayEntries").Deserialize<DisplayEntry[]>()!));
 string Str(JsonElement x,string k)=>x.GetProperty(k).GetString()!;
 string? Dynamic(JsonElement x,string source)=>x.GetProperty("inCardView").GetBoolean()
- ? probe.Dynamic!.ApplyCardButton(Str(x,"path"),Str(x,"cardId"),source)
+ ? probe.ApplyCardTitle(Str(x,"objectName"),source,x.TryGetProperty("deckNameTitle",out var nt) && nt.GetBoolean()) ?? probe.Dynamic!.ApplyCardButton(Str(x,"path"),Str(x,"cardId"),source)
  : probe.Apply(Str(x,"path"),source);
 string? Match(JsonElement x,string source)=>x.TryGetProperty("catalogId",out var cid)
  ? conditionalCatalogs[cid.GetString()!].Apply(Str(x,"objectName"),Str(x,"cardId"),source)
- : catalog.UiText(Str(x,"objectName"),source) ?? catalog.DisplayRules.Apply(Str(x,"objectName"),Str(x,"cardId"),source) ?? Dynamic(x,source);
+ : (x.GetProperty("inCardView").GetBoolean()
+    ? probe.ApplyCardTitle(Str(x,"objectName"),source,x.TryGetProperty("deckNameTitle",out var nt) && nt.GetBoolean())
+    : probe.ApplyDeckName(Str(x,"path"),source))
+   ?? catalog.UiText(Str(x,"objectName"),source) ?? catalog.DisplayRules.Apply(Str(x,"objectName"),Str(x,"cardId"),source) ?? Dynamic(x,source);
 var contexts=contracts.RootElement.GetProperty("families").EnumerateArray()
  .SelectMany(f=>f.GetProperty("contexts").EnumerateArray())
  .Where(c=>c.TryGetProperty("case",out _)).Select(c=>c.GetProperty("case")).ToArray();

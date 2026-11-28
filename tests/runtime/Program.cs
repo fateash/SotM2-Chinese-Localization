@@ -47,7 +47,7 @@ Check(!SurfaceProbeRules.CanObserve("HP Label",false,false),"HP objects excluded
 Check(SurfaceProbeRules.CanObserve("Selection Button Label",false,false),"selection buttons eligible for read-only capture");
 var pilot=SurfaceProbeRules.Read(args.Length>1?args[1]:"probe/dynamic-pilot.json");
 Check(pilot.SchemaVersion==2 && pilot.Dynamic!=null,"pilot requires explicit schema 2 opt-in");
-Check(pilot.Apply(SurfaceProbeRules.TurnPath,"Ra")==null,"pilot removes prior HUD marker");
+Check(pilot.Apply(SurfaceProbeRules.TurnPath,"Ra")=="拉神","pilot translates approved HUD name");
 Check(pilot.Apply(SurfaceProbeRules.HintPath,SurfaceProbeRules.PlayHint)=="点击或拖动一张牌以将其打出。","pilot replaces prior hint marker");
 foreach(int n in new[]{0,1,2,3,12,0}){
  var input="Damage "+n+" "+(n==1?"target":"targets");
@@ -375,3 +375,15 @@ using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/f
  }
 }
 Console.WriteLine("RUNTIME_CHECKS_COMPLETE "+count);
+// Exact names, card-title binding, and wrong-role guards use the same production functions.
+using(var nameCases=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/deck-names-0.1.19.json")))
+ foreach(var c in nameCases.RootElement.EnumerateArray()){
+  string src=c.GetProperty("source").GetString()!;
+  var expected=c.GetProperty("expected").GetString();
+  bool inCard=c.GetProperty("inCardView").GetBoolean();
+  bool bound=c.TryGetProperty("deckNameTitle",out var b)&&b.GetBoolean();
+  string? actual=inCard?pilot.ApplyCardTitle(c.GetProperty("objectName").GetString()!,src,bound):pilot.Apply(c.GetProperty("path").GetString()!,src);
+  Check(actual==expected,"0.1.19 deck name scope: "+c.GetProperty("path").GetString()+" / "+src);
+ }
+Check(pilot.DeckNames.Values.All(n=>n.All(c=>pilot.AllGlyphs().Contains(c))),"all approved name glyphs are preloaded");
+Console.WriteLine("Total checks including deck names: "+count);

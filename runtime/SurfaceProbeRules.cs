@@ -6,10 +6,12 @@ public sealed class SurfaceProbeRules {
  public string BuildId {get;set;}="26880829";
  public Dictionary<string,string> Templates {get;set;}=new();
  [System.Text.Json.Serialization.JsonIgnore] public DynamicDisplayRules? Dynamic {get;private set;}
- public string AllGlyphs()=>Dynamic?.Glyphs()??Glyphs;
+ public Dictionary<string,string> DeckNames {get;set;}=new(StringComparer.Ordinal);
+ public string AllGlyphs()=>(Dynamic?.Glyphs()??Glyphs)+string.Concat(DeckNames.Values);
  public string[] DeckTitles {get;set;}=Array.Empty<string>();
  public const string HintPath="Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label";
  public const string TurnPath="Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label";
+ public const string AvailableTitlePath="Canvas/Available Area Popup/Available Area/New Game Available Item Container/New Game Available Item(Clone)/Title Label";
  public const string PlayHint="Click or drag a card to play it.";
  public const string Glyphs="示·组·";
  static readonly HashSet<string> ObservedObjects=new(StringComparer.Ordinal){
@@ -21,13 +23,29 @@ public sealed class SurfaceProbeRules {
  public static SurfaceProbeRules Read(string path){
   var p=JsonSerializer.Deserialize<SurfaceProbeRules>(File.ReadAllText(path)) ?? throw new InvalidDataException("Empty surface probe");
   if((p.SchemaVersion!=1 && p.SchemaVersion!=2) || p.BuildId!="26880829" || p.DeckTitles==null || p.DeckTitles.Length>24 || p.DeckTitles.Any(s=>string.IsNullOrWhiteSpace(s)||s.Length>100))throw new InvalidDataException("Invalid surface probe");
+  if(p.DeckNames==null || p.DeckNames.Count>24 || p.DeckNames.Any(e=>!ValidName(e.Key)||!ValidName(e.Value)))throw new InvalidDataException("Invalid deck names");
   if(p.SchemaVersion==2)p.Dynamic=new DynamicDisplayRules(p.Templates);
   return p;
  }
  public static bool CanObserve(string objectName,bool inCardView,bool inInputField)=>
   !inCardView && !inInputField && ObservedObjects.Contains(objectName);
+ static bool ValidName(string s)=>!string.IsNullOrWhiteSpace(s) && s.Length<=100 && !s.Any(c=>char.IsDigit(c)||char.IsControl(c)||"<>{}".Contains(c));
+ // CardView.TitleLabel identity is checked against the actual TMP component by the caller.
+ // The complete source identifies one approved deck; never replace a substring or model title.
+ public string? ApplyCardTitle(string objectName,string source,bool isBoundTitle)=>
+  SchemaVersion==2 && isBoundTitle && objectName=="Title Label" && DeckNames.TryGetValue(source,out var target)?target:null;
+ public bool IsDeckName(string source)=>DeckNames.ContainsKey(source) || DeckNames.ContainsValue(source);
+ bool IsNamePath(string path)=>path==TurnPath || path==AvailableTitlePath ||
+  path=="Canvas/Main Panel/BaronBlade/Title BG/Title Label" ||
+  path=="Canvas/Main Panel/Villain View/Title BG/Title Label" ||
+  path=="Canvas/Main Panel/Environment Background/Title Label" ||
+  Enumerable.Range(1,5).Any(i=>path=="Canvas/Main Panel/Hero Container/End Game Hero View ("+i+")/Title And HP Tooltip/Title Label");
+ public string? ApplyDeckName(string path,string source)=>
+  SchemaVersion==2 && DeckNames.TryGetValue(source,out var target) && IsNamePath(path)?target:null;
  public string? Apply(string path,string source){
-  if(SchemaVersion==2)return Dynamic?.Apply(path,source);
+  if(SchemaVersion==2){
+   return ApplyDeckName(path,source) ?? Dynamic?.Apply(path,source);
+  }
   // Full hierarchy and full source required: never replace names inside sentences.
   if(path==HintPath && source==PlayHint)return "示·"+source;
   if(path==TurnPath && DeckTitles.Contains(source,StringComparer.Ordinal))return "组·"+source;

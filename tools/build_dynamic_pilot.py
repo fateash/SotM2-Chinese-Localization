@@ -7,7 +7,7 @@ import shutil
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '0.1.18-rc.1'
+VERSION = '0.1.19-rc.1'
 def digest(p):
     return hashlib.sha256(p.read_bytes()).hexdigest()
 
@@ -19,7 +19,7 @@ def build(dll, out, commit):
     shutil.copy2(dll, package / 'payload/SotM2ChinesePrototype.dll')
     shutil.copy2(ROOT / 'probe/dynamic-pilot.json', package / 'payload/surface-probe.json')
     shutil.copy2(ROOT / 'probe/Manage-Dynamic.ps1', package / 'Manage.ps1')
-    shutil.copy2(ROOT / 'docs/DYNAMIC-PILOT-0.1.18.md', package / '使用说明.md')
+    shutil.copy2(ROOT / 'docs/DYNAMIC-PILOT-0.1.19.md', package / '使用说明.md')
     for filename, action in [('01-Install-Dynamic-Pilot.cmd', 'Install'), ('02-Collect-Evidence.cmd', 'Collect'), ('03-Restore-Previous.cmd', 'Restore')]:
         (package / filename).write_bytes(('@echo off\r\npowershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0Manage.ps1" -Action '+action+'\r\nset "rc=%errorlevel%"\r\npause\r\nexit /b %rc%\r\n').encode('ascii'))
     manifest = {
@@ -28,6 +28,7 @@ def build(dll, out, commit):
         'dllSha256': digest(package / 'payload/SotM2ChinesePrototype.dll'),
         'probeSha256': digest(package / 'payload/surface-probe.json'),
         'acceptedInstallations': [
+            {'dll': '4dc5ee7cfe48336fb4a8f58888ecc0e12d6e9b9857e06a433f8856e8c19c9d05', 'probe': '9e6ca30ff232850be29a75facc387e219498f448eca229e12cc061b0cdb700e7'},
             {'dll': '9d16dbf14f22eb77e7cfdb8be7b6cb410d51ec29ca2e8791cb4b815a9f0c83c5', 'probe': '3f80c6c6a0c2fdb40b734d017e86fa194a0f7fbe620a1ce0d583fd2181c8d543'},
             {'dll': '8b4432b636c4f1cf60c8eec71706c49a5383bca06600db87841accf7add0375e', 'probe': '48ad9b5c12b2d6eccbfa6c6c1397998873d12bcfa6c77509db18a1785ce26bff'},
             {'dll': '63b352f240e17c07f651e87af6dedfc6c2d4edb231b185a6e02851402065fbc9', 'probe': '30dcae9ac3569ae1a3c70d32f002518844965374fbcc6b07bd670b787ece6d65'},

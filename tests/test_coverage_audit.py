@@ -231,6 +231,20 @@ class CoverageAuditTests(unittest.TestCase):
             result = audit.intake([p])
             self.assertIn('missing-installed-hashes', result['sessions'][0]['issues'])
 
+    def test_bound_title_evidence_retains_semantic_identity(self):
+        row = copy.deepcopy(self.snapshot['samples'][0])
+        row.update(objectName='Title Label', source='Legacy', inCardView=True, deckNameTitle=True)
+        with tempfile.TemporaryDirectory() as tmp:
+            p = Path(tmp) / 'log.txt'
+            p.write_text('SURFACE_PROBE ' + json.dumps(row))
+            captured = audit.intake([p])['samples'][0]
+            self.assertTrue(captured['deckNameTitle'])
+            self.assertNotEqual(audit.identity(captured), audit.identity(captured | {'deckNameTitle': False}))
+            for invalid in ({'deckNameTitle': 'true'}, {'inCardView': False}, {'objectName': 'HP Label'}):
+                p.write_text('SURFACE_PROBE ' + json.dumps(row | invalid))
+                with self.assertRaises(ValueError):
+                    audit.intake([p])
+
     def test_duplicates_or_malformed_records_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:
             p = Path(tmp) / 'log.txt'
