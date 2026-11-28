@@ -3310,6 +3310,45 @@
         "status": "implemented-pending-live-test",
         "evidence": "coverage/contracts.json#card-discard-count"
       }
+    },
+    {
+      "id": "97fb3f3912580de4ef725523",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.30真实原文及完整用途路径确认遗漏；0.1.31补齐完整句式显示。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.31重启后复现承伤提示、跳过抽牌阶段及月球撞击结算；另验证元数据确认的沃斯结算标题。",
+      "resolution": {
+        "version": "0.1.31-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-take-damage"
+      }
+    },
+    {
+      "id": "8674ecb96b25ad5c37e15f67",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.30真实原文及完整用途路径确认遗漏；0.1.31补齐完整句式显示。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.31重启后复现承伤提示、跳过抽牌阶段及月球撞击结算；另验证元数据确认的沃斯结算标题。",
+      "resolution": {
+        "version": "0.1.31-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#skip-draw-phase"
+      }
+    },
+    {
+      "id": "60d58e55474a0605b409c807",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.30真实原文及完整用途路径确认遗漏；0.1.31补齐完整句式显示。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.31重启后复现承伤提示、跳过抽牌阶段及月球撞击结算；另验证元数据确认的沃斯结算标题。",
+      "resolution": {
+        "version": "0.1.31-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#special-villain-endings"
+      }
     }
   ]
 }

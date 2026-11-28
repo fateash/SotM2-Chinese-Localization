@@ -46332,6 +46332,63 @@
         "evidenceFile": "SotM2-Dynamic-Evidence-20261128-153130-78b8b4.zip",
         "evidenceSha256": "abcfee90e841ab9f80a9b936eafd7b40c2565d4b1cc94daae0d95a1bee0c234b"
       }
+    },
+    {
+      "key": "editorial.ui.hint.hero.take.damage",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a Hero to take damage.",
+      "sourceSha256": "3e40f1595ecd3d4f044b4bbcb7c91cd6358ea4e1bef2f69bc57340529056ef70",
+      "context": "0.1.31接入限定用途显示规则；原文完整匹配，待新画面与交互验收。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFile": "SotM2-Dynamic-Evidence-20261128-154638-73a6ee.zip",
+        "evidenceSha256": "16c697d144172a6a632d84400bb5c927bfb4db30b5ae60ff9343321395e06f2f"
+      }
+    },
+    {
+      "key": "editorial.ui.button.skip.draw.phase",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Skip Draw Phase",
+      "sourceSha256": "f8cc5256fe6249140f9bc03ee7d21bd788dc8c7773b338d4df90cf4dd1796079",
+      "context": "0.1.31接入限定用途显示规则；原文完整匹配，待新画面与交互验收。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFile": "SotM2-Dynamic-Evidence-20261128-155121-3b1c40.zip",
+        "evidenceSha256": "44387c84e527e55aeb1ed79daf3aa0f3dc7634924b58078cd45591125c94a41d"
+      }
+    },
+    {
+      "key": "editorial.ui.result.baron.moonfall",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Baron Blade's TerraLunar Impulsion Beam has pulled the moon into the Earth!",
+      "sourceSha256": "41f5cdddb530393321d138721e96a4dc4e45600566cf81b92f9cded4b1fe6b04",
+      "context": "0.1.31接入限定用途显示规则；原文完整匹配，待新画面与交互验收。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFile": "SotM2-Dynamic-Evidence-20261128-155836-e1c4d5.zip",
+        "evidenceSha256": "ad1df5ed30ba9e9287bc9d6234debbca40c03c07536b91850d37cd67b61fe0f3"
+      }
+    },
+    {
+      "key": "editorial.ui.result.voss.conquered",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "The planet has been overrun by the Thorathian Army and Grand Warlord Voss has conquered the Earth!",
+      "sourceSha256": "adbc1b22a7e9388c45e78327c3cf961ffecdfce8b0e4162c70eab282bd44b844",
+      "context": "0.1.31接入限定用途显示规则；原文完整匹配，待新画面与交互验收。 当前游戏26880829元数据literal 11311确认原文；无实机日志，使用共用结算Heading入口的合成契约。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "buildId": "26880829",
+        "metadataSha256": "b252acf9da519ce15729a43eb6b2cf6d643fda3200b2fdc7a146476819c05969",
+        "literalIndex": 11311
+      }
     }
   ]
 }

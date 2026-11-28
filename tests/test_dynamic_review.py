@@ -36,8 +36,8 @@ class DynamicReviewTests(unittest.TestCase):
     def test_editorial_additions_remain_distinct_from_literal_review(self):
         registry = json.loads((ROOT / 'baseline/inventory.json').read_text())['entries']
         additions = [e for e in registry if e['kind'] in {'dynamic.editorial-template', 'ui.editorial-candidate'}]
-        self.assertEqual(len(additions), 110)
-        self.assertTrue(all(e['route'] == 'inventory' and e['holdReason'] == ('runtime-template-bound-not-global-dictionary' if e['key'] in {'editorial.ui.hint.trash.bury.upto', 'editorial.ui.finish.bury'} else 'editorial-template-runtime-binding-pending') for e in additions))
+        self.assertEqual(len(additions), 114)
+        self.assertTrue(all(e['route'] == 'inventory' and e['holdReason'] == ('runtime-template-bound-not-global-dictionary' if e['key'] in {'editorial.ui.button.skip.draw.phase', 'editorial.ui.result.voss.conquered', 'editorial.ui.result.baron.moonfall', 'editorial.ui.hint.hero.take.damage', 'editorial.ui.hint.trash.bury.upto', 'editorial.ui.finish.bury'} else 'editorial-template-runtime-binding-pending') for e in additions))
         drafts = json.loads((ROOT / 'probe/dynamic-text-review.json').read_text())['entries']
         self.assertFalse({e['key'] for e in additions} & {e['key'] for e in drafts})
 

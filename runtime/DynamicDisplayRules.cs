@@ -25,6 +25,7 @@ public sealed class DynamicDisplayRules {
   ["message.villain.targets10"]=(0,""),
   ["message.zero.under"]=(1,""),
   ["result.wagner.exploded"]=(0,""),
+  ["hint.hero.take.damage"]=(0,""),["button.skip.draw.phase"]=(0,""),["result.baron.moonfall"]=(0,""),["result.voss.conquered"]=(0,""),
   ["hint.summon.search"]=(0,""),
   ["button.location.deck"]=(0,""),
   ["button.location.trash"]=(0,""),
@@ -309,7 +310,7 @@ public sealed class DynamicDisplayRules {
     {Action:"Destroy",NumberKind:"card-count"}=>Format("finish.destroy",parts.Number),
     {Action:"Select",NumberKind:"card-count"}=>Format("finish.select",parts.Number),_=>null};
   }
-  if(path==ContinuePath)return source switch {"Skip"=>Format("button.skip"),"Skip Play"=>Format("button.skip.play.action"),"Skip Draw"=>Format("button.skip.draw.action"),"Skip Power"=>Format("button.skip.power.action"),"Skip Incapacitated Phase"=>Format("button.skip.incapacitated"),"Skip Play Phase"=>Format("button.skip.play"),"Skip Power Phase"=>Format("button.skip.power"),_=>null};
+  if(path==ContinuePath)return source switch {"Skip"=>Format("button.skip"),"Skip Play"=>Format("button.skip.play.action"),"Skip Draw"=>Format("button.skip.draw.action"),"Skip Draw Phase"=>Format("button.skip.draw.phase"),"Skip Power"=>Format("button.skip.power.action"),"Skip Incapacitated Phase"=>Format("button.skip.incapacitated"),"Skip Play Phase"=>Format("button.skip.play"),"Skip Power Phase"=>Format("button.skip.power"),_=>null};
   if(path==DrawPath && source=="Draw")return Format("button.draw");
   if(TrashSelection.IsMatch(path))return source switch {"Discard"=>Format("button.discard"),"Trash"=>Format("button.location.trash"),"Reshuffle"=>Format("button.trash.reshuffle"),_=>null};
   if(HeroSelection.IsMatch(path))return source switch {"Draw"=>Format("button.draw"),"Discard"=>Format("button.discard"),"Play a Card"=>Format("button.play.card"),"Use a Power"=>Format("button.use.power"),"Put a Card"=>Format("button.put.card"),"Destroy a Card"=>Format("button.destroy.card"),"Has the Fewest"=>Format("button.fewest"),"Has the Most"=>Format("button.most"),"Take Play Phase"=>Format("button.take.play"),"Take Power Phase"=>Format("button.take.power"),_=>null};
@@ -332,6 +333,8 @@ public sealed class DynamicDisplayRules {
    var hp=ReducedHp.Match(source);return hp.Success?Format("result.hp",hp.Groups["name"].Value,hp.Groups["n"].Value):null;
   }
   if(path=="Canvas/Main Panel/Heading Label"){
+   if(source=="Baron Blade's TerraLunar Impulsion Beam has pulled the moon into the Earth!")return Format("result.baron.moonfall");
+   if(source=="The planet has been overrun by the Thorathian Army and Grand Warlord Voss has conquered the Earth!")return Format("result.voss.conquered");
    if(source=="The Wagner Mars Base exploded!")return Format("result.wagner.exploded");
    var defeat=Defeat.Match(source);if(defeat.Success)return Format("result.defeat",defeat.Groups["name"].Value);
    var victory=Victory.Match(source);return victory.Success?Format("result.victory",victory.Groups["name"].Value):null;
@@ -352,6 +355,7 @@ public sealed class DynamicDisplayRules {
    "Click a card to bury it."=>"hint.card.bury",
    "Click a target to put it on top of its deck."=>"hint.target.topdeck",
    "Click a Hero to regain HP."=>"hint.regain.hero",
+   "Click a Hero to take damage."=>"hint.hero.take.damage",
    "Click the hero who is considered to have the most cards in play."=>"hint.hero.most.play",
    "Click a card in the trash to put it under a card."=>"hint.trash.under",
    "Click a hero to salvage a card."=>"hint.hero.salvage",

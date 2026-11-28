@@ -206,7 +206,11 @@
     "hint.trash.owner.shuffle": "{0}点击{1}的弃牌堆，将其洗入所属牌库。",
     "hint.trash.bury.upto": "{0}点击弃牌堆中至多{1}张牌，将其埋藏。",
     "finish.bury": "埋藏{0}张牌",
-    "button.discard.count": "弃置{0}张牌"
+    "button.discard.count": "弃置{0}张牌",
+    "hint.hero.take.damage": "点击一位英雄，使其受到伤害。",
+    "button.skip.draw.phase": "跳过抽牌阶段",
+    "result.baron.moonfall": "刀锋男爵的地月牵引光束让月球撞上了地球！",
+    "result.voss.conquered": "索拉宪大军已攻占全球，大军阀沃斯征服了地球！"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",

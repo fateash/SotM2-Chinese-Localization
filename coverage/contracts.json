@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "7444bdb3d535b82bb934b5e0b383fc552ed4e21b7f85c40bc24edead675d37c8",
+    "runtime/DynamicDisplayRules.cs": "e72a20977fbea176882fd16bfbb15d67ca7a05e660cfed68eabc0e5519bc98cf",
     "runtime/SurfaceProbeRules.cs": "1d8071f2bb04ac9d4f69936e07ff9fbc933c5805644ac323d080566fce0d9e00",
     "runtime/SurfaceProbe.cs": "3848374ccfe3e4c4df22927b6b78d093924fc2c0be2743abc0d17d95482a4940",
-    "runtime/Plugin.cs": "6d2b78757cea70004453660f682e46523fbab29a164197b4d06fffce97f62563",
+    "runtime/Plugin.cs": "fe111b6c07287367ae5a9a3db674def244fc0d1295dff5777658ba9138dd740a",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "959f976c756136f06785389fa32b65c3d44c6fafe7e868ebe3b7cb50e2c93ee1",
+    "probe/dynamic-pilot.json": "410c4c4c1b5cc5a55238f1201515c4ff274ec8849fd7f4cdc479203a11773aa4",
     "runtime/RenderedDisplayRules.cs": "ff4dc4192084a8e2ae83c09ab8e5abc6e3d0f85e810523e1957d1982926f7699"
   },
   "families": [
@@ -41866,6 +41866,767 @@
             "inCardView": true,
             "cardButtonCandidate": true,
             "expected": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "hero-take-damage",
+      "templates": [
+        "hint.hero.take.damage"
+      ],
+      "contexts": [
+        {
+          "id": "031-hero-damage-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "单轨车坠落来源实机已观察；其他来源为共用HUD合成组合，不声称其卡牌具有该效果。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a Hero to take damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一位英雄，使其受到伤害。"
+          }
+        },
+        {
+          "id": "031-hero-damage-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "单轨车坠落来源实机已观察；其他来源为共用HUD合成组合，不声称其卡牌具有该效果。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Plummeting Monorail:</b> Click a Hero to take damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>单轨车坠落:</b> 点击一位英雄，使其受到伤害。"
+          }
+        },
+        {
+          "id": "031-hero-damage-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "单轨车坠落来源实机已观察；其他来源为共用HUD合成组合，不声称其卡牌具有该效果。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Omnitron:</b> Click a Hero to take damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>全能智创:</b> 点击一位英雄，使其受到伤害。"
+          }
+        },
+        {
+          "id": "031-hero-damage-3",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "单轨车坠落来源实机已观察；其他来源为共用HUD合成组合，不声称其卡牌具有该效果。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click a Hero to take damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击一位英雄，使其受到伤害。"
+          }
+        },
+        {
+          "id": "031-hero-damage-4",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "单轨车坠落来源实机已观察；其他来源为共用HUD合成组合，不声称其卡牌具有该效果。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Wagner Mars Base:</b> Click a Hero to take damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>瓦格纳火星基地:</b> 点击一位英雄，使其受到伤害。"
+          }
+        },
+        {
+          "id": "031-hero-damage-reject-0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a Hero to take damage. Extra",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-hero-damage-reject-1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a Hero to take damage.\n",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-hero-damage-reject-2",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click Heroes to take damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-hero-damage-reject-3",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a target to take damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-hero-damage-reject-4",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a Hero to take 2 damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-hero-damage-reject-5",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Plummeting Monorail:</b> Click a Hero to take damage. Extra",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-hero-damage-reject-6",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击一位英雄，使其受到伤害。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-hero-damage-wrong-path",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click a Hero to take damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "skip-draw-phase",
+      "templates": [
+        "button.skip.draw.phase"
+      ],
+      "contexts": [
+        {
+          "id": "031-skip-draw-observed",
+          "status": "offline-covered",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.30真实路径与原文；当前离线修复，待新画面及点击验收。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "source": "Skip Draw Phase",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "跳过抽牌阶段"
+          }
+        },
+        {
+          "id": "031-skip-draw-wrong-path-0",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Skip Draw Phase",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-skip-draw-wrong-path-1",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "Skip Draw Phase",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-skip-draw-wrong-path-2",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Other/Text (TMP)",
+            "source": "Skip Draw Phase",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-skip-draw-wrong-path-3",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)/Extra",
+            "source": "Skip Draw Phase",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-skip-draw-reject-0",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "source": "Skip Draw Phase extra",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-skip-draw-reject-1",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "source": "Skip Draw Phase\n",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-skip-draw-reject-2",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "source": "SKIP DRAW PHASE",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-skip-draw-reject-3",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "source": "跳过抽牌阶段",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-skip-sibling-button.skip",
+          "status": "offline-covered",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "同一Continue控件既有兄弟动作回归；不扩展到未确认的阶段动作。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "source": "Skip",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "跳过"
+          }
+        },
+        {
+          "id": "031-skip-sibling-button.skip.play.action",
+          "status": "offline-covered",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "同一Continue控件既有兄弟动作回归；不扩展到未确认的阶段动作。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "source": "Skip Play",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "跳过出牌"
+          }
+        },
+        {
+          "id": "031-skip-sibling-button.skip.draw.action",
+          "status": "offline-covered",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "同一Continue控件既有兄弟动作回归；不扩展到未确认的阶段动作。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "source": "Skip Draw",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "跳过抽牌"
+          }
+        },
+        {
+          "id": "031-skip-sibling-button.skip.power.action",
+          "status": "offline-covered",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "同一Continue控件既有兄弟动作回归；不扩展到未确认的阶段动作。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "source": "Skip Power",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "跳过异能"
+          }
+        },
+        {
+          "id": "031-skip-sibling-button.skip.play",
+          "status": "offline-covered",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "同一Continue控件既有兄弟动作回归；不扩展到未确认的阶段动作。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "source": "Skip Play Phase",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "跳过出牌阶段"
+          }
+        },
+        {
+          "id": "031-skip-sibling-button.skip.power",
+          "status": "offline-covered",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "同一Continue控件既有兄弟动作回归；不扩展到未确认的阶段动作。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "source": "Skip Power Phase",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "跳过异能阶段"
+          }
+        },
+        {
+          "id": "031-skip-sibling-button.skip.incapacitated",
+          "status": "offline-covered",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "同一Continue控件既有兄弟动作回归；不扩展到未确认的阶段动作。",
+          "case": {
+            "objectName": "Text (TMP)",
+            "path": "Canvas/Main Panel/Button Panel/Continue Button/Text (TMP)",
+            "source": "Skip Incapacitated Phase",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "跳过失能阶段"
+          }
+        }
+      ]
+    },
+    {
+      "id": "special-villain-endings",
+      "templates": [
+        "result.baron.moonfall",
+        "result.voss.conquered"
+      ],
+      "contexts": [
+        {
+          "id": "031-villain-ending-0",
+          "status": "offline-covered",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "刀锋男爵：实机完整Heading路径。沃斯：游戏元数据literal 11311完整原文，依据共用结算控件构造，未实机观察。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Main Panel/Heading Label",
+            "source": "Baron Blade's TerraLunar Impulsion Beam has pulled the moon into the Earth!",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "刀锋男爵的地月牵引光束让月球撞上了地球！"
+          }
+        },
+        {
+          "id": "031-villain-ending-path-0-0",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Baron Blade's TerraLunar Impulsion Beam has pulled the moon into the Earth!",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-villain-ending-path-0-1",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "source": "Baron Blade's TerraLunar Impulsion Beam has pulled the moon into the Earth!",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-villain-ending-path-0-2",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Other/Heading Label",
+            "source": "Baron Blade's TerraLunar Impulsion Beam has pulled the moon into the Earth!",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-villain-ending-path-0-3",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Main Panel/Heading Label/Extra",
+            "source": "Baron Blade's TerraLunar Impulsion Beam has pulled the moon into the Earth!",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-villain-ending-reject-0-0",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Main Panel/Heading Label",
+            "source": "Baron Blade's TerraLunar Impulsion Beam has pulled the moon into the Earth! Extra",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-villain-ending-reject-0-1",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Main Panel/Heading Label",
+            "source": "Baron Blade's TerraLunar Impulsion Beam has pulled the moon into the Earth!\n",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-villain-ending-reject-0-2",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Main Panel/Heading Label",
+            "source": "刀锋男爵的地月牵引光束让月球撞上了地球！",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-villain-ending-1",
+          "status": "offline-covered",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "刀锋男爵：实机完整Heading路径。沃斯：游戏元数据literal 11311完整原文，依据共用结算控件构造，未实机观察。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Main Panel/Heading Label",
+            "source": "The planet has been overrun by the Thorathian Army and Grand Warlord Voss has conquered the Earth!",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "索拉宪大军已攻占全球，大军阀沃斯征服了地球！"
+          }
+        },
+        {
+          "id": "031-villain-ending-path-1-0",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "The planet has been overrun by the Thorathian Army and Grand Warlord Voss has conquered the Earth!",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-villain-ending-path-1-1",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "source": "The planet has been overrun by the Thorathian Army and Grand Warlord Voss has conquered the Earth!",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-villain-ending-path-1-2",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Other/Heading Label",
+            "source": "The planet has been overrun by the Thorathian Army and Grand Warlord Voss has conquered the Earth!",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-villain-ending-path-1-3",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Main Panel/Heading Label/Extra",
+            "source": "The planet has been overrun by the Thorathian Army and Grand Warlord Voss has conquered the Earth!",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-villain-ending-reject-1-0",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Main Panel/Heading Label",
+            "source": "The planet has been overrun by the Thorathian Army and Grand Warlord Voss has conquered the Earth! Extra",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-villain-ending-reject-1-1",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Main Panel/Heading Label",
+            "source": "The planet has been overrun by the Thorathian Army and Grand Warlord Voss has conquered the Earth!\n",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-villain-ending-reject-1-2",
+          "status": "excluded",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Main Panel/Heading Label",
+            "source": "索拉宪大军已攻占全球，大军阀沃斯征服了地球！",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "031-wagner-ending-sibling",
+          "status": "offline-covered",
+          "view": "shared-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式／用途边界合成契约，非实机验收。",
+          "case": {
+            "objectName": "Heading Label",
+            "path": "Canvas/Main Panel/Heading Label",
+            "source": "The Wagner Mars Base exploded!",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "瓦格纳火星基地爆炸了！"
           }
         }
       ]
