@@ -15,6 +15,7 @@ public sealed class DynamicDisplayRules {
  readonly Dictionary<string,string> templates;
  readonly Func<string,string> resolveName;
  static readonly Dictionary<string,(int Args,string Tags)> Specs=new(){
+  ["hint.attack.required.unspecified"]=(4,""),["hint.hp.rank.multiple"]=(3,""),
   ["hint.damage.amount"]=(0,""),["hint.attack.remaining"]=(4,"<nobr></nobr>"),
   ["finish.regain.targets"]=(1,""),["hint.regain.hero"]=(0,""),["hint.regain.upto"]=(2,""),
   ["hint.attack.required.list"]=(5,"<nobr></nobr>"),["hint.attack.exact.unspecified"]=(3,""),
@@ -154,6 +155,8 @@ public sealed class DynamicDisplayRules {
  static readonly Regex Reaction=Rx(@"\A<b>(?<from>[^<>\r\n]{1,200})</b> will deal <b>(?<to>[^<>\r\n]{1,200})</b> (?<n>[0-9]{1,6}) (?<type>fire|melee|cold|energy|infernal|lightning|projectile|psychic|radiant|sonic|toxic) damage\. Click a (?<choice>reaction to use it|card to activate first)\.\z");
  static readonly Regex ExactTargets=Rx(@"\AClick (?<count>[0-9]{1,6}) targets to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
  static readonly Regex RequiredTarget=Rx(@"\AClick <b>(?<target>[^<>\r\n]{1,200})</b> and (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
+ static readonly Regex RequiredUnspecified=Rx(@"\AClick <b>(?<target>[^<>\r\n]{1,200})</b>(?:, <b>(?<target>[^<>\r\n]{1,200})</b>){0,11} and (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them (?<type>[a-z]+) damage\.\z");
+ static readonly Regex MultipleHpRank=Rx(@"\AClick (?<count>[0-9]{1,6}) targets to determine which has the (?<rank>lowest|highest) HP\.\z");
  static readonly Regex RemainingTargets=Rx(@"\AClick (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
  static readonly Regex RegainTargets=Rx(@"\A(?<count>[0-9]{1,6}) (?<unit>target|targets) regain HP\z");
  static readonly Regex RegainUpTo=Rx(@"\AClick up to (?<count>[0-9]{1,6}) targets to regain HP\.\z");
@@ -348,7 +351,14 @@ public sealed class DynamicDisplayRules {
   if(destroy.Success)return Format(destroy.Groups["kind"].Value=="targets"?"hint.destroy.targets":"hint.destroy.cards",prefix,destroy.Groups["n"].Value);
   var regainHint=RegainUpTo.Match(body);
   if(regainHint.Success)return Format("hint.regain.upto",prefix,regainHint.Groups["count"].Value);
+  var hpRank=MultipleHpRank.Match(body);
+  if(hpRank.Success && hpRank.Groups["count"].Value!="1")return Format("hint.hp.rank.multiple",prefix,hpRank.Groups["count"].Value,hpRank.Groups["rank"].Value=="lowest"?"低":"高");
   if(!header.Success)return null;
+  var requiredUnspecified=RequiredUnspecified.Match(body);
+  if(requiredUnspecified.Success && ((requiredUnspecified.Groups["count"].Value=="1")== (requiredUnspecified.Groups["unit"].Value=="target")) && DamageNames.TryGetValue(requiredUnspecified.Groups["type"].Value,out var requiredNoAmountType)){
+   string targets=string.Join("、",requiredUnspecified.Groups["target"].Captures.Cast<Capture>().Select(c=>"<b>"+resolveName(c.Value)+"</b>"));
+   return Format("hint.attack.required.unspecified",prefix,targets,requiredUnspecified.Groups["count"].Value,requiredNoAmountType);
+  }
   var remaining=RemainingTargets.Match(body);
   if(remaining.Success && ((remaining.Groups["count"].Value=="1")== (remaining.Groups["unit"].Value=="target")) && DamageNames.TryGetValue(remaining.Groups["type"].Value,out var remainingType))
    return Format("hint.attack.remaining",prefix,remaining.Groups["count"].Value,remaining.Groups["n"].Value,remainingType);

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "1b2764bfc8e64a89cd527b50147d47807a030b06a278d055ea2ded0ac8faa90b",
+    "runtime/DynamicDisplayRules.cs": "0151029c7834628495167c36c07d179205aec0cfcd434abf9dc74f939d9b3a3e",
     "runtime/SurfaceProbeRules.cs": "1d8071f2bb04ac9d4f69936e07ff9fbc933c5805644ac323d080566fce0d9e00",
     "runtime/SurfaceProbe.cs": "3848374ccfe3e4c4df22927b6b78d093924fc2c0be2743abc0d17d95482a4940",
-    "runtime/Plugin.cs": "00a3ab2cd2a786e6550dc043cd0563d41bc0de02b37887a3dc01493da7961790",
+    "runtime/Plugin.cs": "011742ccf641bc1d4b7bd7fdeb6445d2c8e73c039c66c82207fb04caadf98c26",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "264dd2f10f2e2a473c19f22e7aac6ba15dbcd08b8010772ff359f65d55678735",
+    "probe/dynamic-pilot.json": "43655455491a7a9bf86fc3854d3ee00a04d0210994001abecc068f29b975c0e3",
     "runtime/RenderedDisplayRules.cs": "4075608df14dc5a1d29010d39a234c7ed98a066c6fe47372b1ee70abd05ffdf9"
   },
   "families": [
@@ -99,7 +99,9 @@
         "hint.attack.exact.unspecified",
         "hint.attack.dual",
         "hint.damage.amount",
-        "hint.attack.remaining"
+        "hint.attack.remaining",
+        "hint.attack.required.unspecified",
+        "hint.hp.rank.multiple"
       ],
       "contexts": [
         {
@@ -3495,6 +3497,566 @@
             "cardId": "",
             "inCardView": false,
             "source": "<b>Divine Sacrifice:</b> Click a button to choose how much HP to regain.",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-observed-required",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Electro-Magnetic Railgun:</b> Click <b>Unity</b> and 1 more target to deal them projectile damage.",
+            "expected": "<b>电磁轨道炮:</b> 点击<b>优妮蒂</b>及另外1个目标，对其各造成投射伤害。"
+          }
+        },
+        {
+          "id": "023-required-list",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Omnitron</b>, <b>Fanatic</b>, <b>Unknown</b> and 2 more targets to deal them cold damage.",
+            "expected": "<b>Test:</b> 点击<b>全能智创</b>、<b>狂信</b>、<b>Unknown</b>及另外2个目标，对其各造成寒冷伤害。"
+          }
+        },
+        {
+          "id": "023-required-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Unity</b> and 0 more targets to deal them energy damage.",
+            "expected": "<b>Test:</b> 点击<b>优妮蒂</b>及另外0个目标，对其各造成能量伤害。"
+          }
+        },
+        {
+          "id": "023-required-outside-0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Unity</b> and 0 more targets to deal them energy damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-required-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Unity</b> and 1 more target to deal them energy damage.",
+            "expected": "<b>Test:</b> 点击<b>优妮蒂</b>及另外1个目标，对其各造成能量伤害。"
+          }
+        },
+        {
+          "id": "023-required-outside-1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Unity</b> and 1 more target to deal them energy damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-required-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Unity</b> and 2 more targets to deal them energy damage.",
+            "expected": "<b>Test:</b> 点击<b>优妮蒂</b>及另外2个目标，对其各造成能量伤害。"
+          }
+        },
+        {
+          "id": "023-required-outside-2",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Unity</b> and 2 more targets to deal them energy damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-required-6",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Unity</b> and 6 more targets to deal them energy damage.",
+            "expected": "<b>Test:</b> 点击<b>优妮蒂</b>及另外6个目标，对其各造成能量伤害。"
+          }
+        },
+        {
+          "id": "023-required-outside-6",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Unity</b> and 6 more targets to deal them energy damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-required-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Unity</b> and 999999 more targets to deal them energy damage.",
+            "expected": "<b>Test:</b> 点击<b>优妮蒂</b>及另外999999个目标，对其各造成能量伤害。"
+          }
+        },
+        {
+          "id": "023-required-outside-999999",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Test:</b> Click <b>Unity</b> and 999999 more targets to deal them energy damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-required-reject-0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Electro-Magnetic Railgun:</b> Click <b>Unity</b> and 1 more targets to deal them projectile damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-required-reject-1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Electro-Magnetic Railgun:</b> Click <b>Unity</b> and 2 more target to deal them projectile damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-required-reject-2",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Electro-Magnetic Railgun:</b> Click <b>Unity</b> and 1 more target to deal them unknown damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-required-reject-3",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Electro-Magnetic Railgun:</b> Click <i>Unity</i> and 1 more target to deal them projectile damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-required-reject-4",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Electro-Magnetic Railgun:</b> Click <b>Unity</b> and 1 more target to deal them projectile damage. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-required-reject-5",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Electro-Magnetic Railgun:</b> Click <b>Unity</b> or 1 more target to deal them projectile damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-rank-lowest-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>S-85 Repair Drones:</b> Click 0 targets to determine which has the lowest HP.",
+            "expected": "<b>S-85维修机兵:</b> 点击0个目标，将其视为生命值最低的目标。"
+          }
+        },
+        {
+          "id": "023-rank-lowest-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>S-85 Repair Drones:</b> Click 2 targets to determine which has the lowest HP.",
+            "expected": "<b>S-85维修机兵:</b> 点击2个目标，将其视为生命值最低的目标。"
+          }
+        },
+        {
+          "id": "023-rank-lowest-3",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>S-85 Repair Drones:</b> Click 3 targets to determine which has the lowest HP.",
+            "expected": "<b>S-85维修机兵:</b> 点击3个目标，将其视为生命值最低的目标。"
+          }
+        },
+        {
+          "id": "023-rank-lowest-6",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>S-85 Repair Drones:</b> Click 6 targets to determine which has the lowest HP.",
+            "expected": "<b>S-85维修机兵:</b> 点击6个目标，将其视为生命值最低的目标。"
+          }
+        },
+        {
+          "id": "023-rank-lowest-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>S-85 Repair Drones:</b> Click 999999 targets to determine which has the lowest HP.",
+            "expected": "<b>S-85维修机兵:</b> 点击999999个目标，将其视为生命值最低的目标。"
+          }
+        },
+        {
+          "id": "023-rank-highest-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>S-85 Repair Drones:</b> Click 0 targets to determine which has the highest HP.",
+            "expected": "<b>S-85维修机兵:</b> 点击0个目标，将其视为生命值最高的目标。"
+          }
+        },
+        {
+          "id": "023-rank-highest-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>S-85 Repair Drones:</b> Click 2 targets to determine which has the highest HP.",
+            "expected": "<b>S-85维修机兵:</b> 点击2个目标，将其视为生命值最高的目标。"
+          }
+        },
+        {
+          "id": "023-rank-highest-3",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>S-85 Repair Drones:</b> Click 3 targets to determine which has the highest HP.",
+            "expected": "<b>S-85维修机兵:</b> 点击3个目标，将其视为生命值最高的目标。"
+          }
+        },
+        {
+          "id": "023-rank-highest-6",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>S-85 Repair Drones:</b> Click 6 targets to determine which has the highest HP.",
+            "expected": "<b>S-85维修机兵:</b> 点击6个目标，将其视为生命值最高的目标。"
+          }
+        },
+        {
+          "id": "023-rank-highest-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>S-85 Repair Drones:</b> Click 999999 targets to determine which has the highest HP.",
+            "expected": "<b>S-85维修机兵:</b> 点击999999个目标，将其视为生命值最高的目标。"
+          }
+        },
+        {
+          "id": "023-rank-noheader",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click 3 targets to determine which has the lowest HP.",
+            "expected": "点击3个目标，将其视为生命值最低的目标。"
+          }
+        },
+        {
+          "id": "023-rank-reject-0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click 1 targets to determine which has the lowest HP.",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-rank-reject-1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click 3 cards to determine which has the lowest HP.",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-rank-reject-2",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click 3 targets to determine which has the most HP.",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-rank-reject-3",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click 3 targets to determine which has the lowest HP. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-rank-reject-4",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click -3 targets to determine which has the lowest HP.",
+            "expected": null
+          }
+        },
+        {
+          "id": "023-rank-outside",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "指定目标无伤害量及多目标生命值裁定；完整句式与参数复核。扩展参数为合成契约，非实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click 3 targets to determine which has the lowest HP.",
             "expected": null
           }
         }
