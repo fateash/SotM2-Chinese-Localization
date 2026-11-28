@@ -386,4 +386,14 @@ using(var nameCases=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/
   Check(actual==expected,"0.1.19 deck name scope: "+c.GetProperty("path").GetString()+" / "+src);
  }
 Check(pilot.DeckNames.Values.All(n=>n.All(c=>pilot.AllGlyphs().Contains(c))),"all approved name glyphs are preloaded");
+using(var evidence032=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/dynamic-0.1.32.json"))){
+ foreach(var sample in evidence032.RootElement.GetProperty("samples").EnumerateArray()){
+  string path=sample.GetProperty("path").GetString()!,source=sample.GetProperty("source").GetString()!;
+  string? actual=pilot.Apply(path,source);
+  Check(actual==sample.GetProperty("expected").GetString(),"0.1.32 full grammar output");
+  Check(pilot.Apply(path,actual!)==null,"0.1.32 output idempotent");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"<[^<>]+>").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"<[^<>]+>").Select(m=>m.Value)),"0.1.32 rich-text sequence preserved");
+  Check(string.Join("|",System.Text.RegularExpressions.Regex.Matches(source,@"[0-9]+").Select(m=>m.Value))==string.Join("|",System.Text.RegularExpressions.Regex.Matches(actual!,@"[0-9]+").Select(m=>m.Value)),"0.1.32 numeric sequence preserved");
+ }
+}
 Console.WriteLine("Total checks including deck names: "+count);

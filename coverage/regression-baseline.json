@@ -3,269 +3,59 @@
   "status": "offline-regression-only-not-live-acceptance",
   "entries": [
     {
-      "id": "031128b45914491882ec8b27",
-      "reason": "protected-number",
+      "id": "0039f55059e6c1d3d3a27fb5",
+      "reason": "translated-output-observed",
       "target": null
     },
     {
-      "id": "0757cf2433842f9c8a2e53e9",
+      "id": "0064ccbcfdac20bc0c764bf5",
       "reason": "current-rule-match",
-      "target": "抢先体验说明"
-    },
-    {
-      "id": "1710be2ae018f1ad5c90d309",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "1dcd887f4260762f590c8772",
-      "reason": "current-rule-match",
-      "target": "在此打出"
-    },
-    {
-      "id": "1e80eee9483005760475acea",
-      "reason": "localized-text-observed",
-      "target": null
-    },
-    {
-      "id": "1f756285ce611665bdc4e916",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "2285896a3653c160397be010",
-      "reason": "current-rule-match",
-      "target": "<b>宇宙冠饰:</b> 点击一个区域，将自主锋刃打出至该处。"
-    },
-    {
-      "id": "482124485c01b32e89398726",
-      "reason": "current-rule-match",
-      "target": "在此打出"
-    },
-    {
-      "id": "4d9d01f59dd90f857a34bb91",
-      "reason": "localized-text-observed",
-      "target": null
-    },
-    {
-      "id": "4e1b1848fd9ec960f815a688",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "51778421dfd85c7afda64f20",
-      "reason": "current-rule-match",
-      "target": "退出"
-    },
-    {
-      "id": "5dc9546441f248de20b7f579",
-      "reason": "current-rule-match",
-      "target": "在此打出"
-    },
-    {
-      "id": "617fff9355bf90ccda19a2fb",
-      "reason": "current-rule-match",
-      "target": "跳过出牌阶段"
-    },
-    {
-      "id": "724b94b1f76c242fe0717506",
-      "reason": "current-rule-match",
-      "target": "<b>翼手龙窃贼:</b> 点击一张在场的牌以将其破坏。"
-    },
-    {
-      "id": "7253958055d41c28ed8338dc",
-      "reason": "localized-text-observed",
-      "target": null
-    },
-    {
-      "id": "731c20363c56587382b83fc8",
-      "reason": "current-rule-match",
-      "target": "点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
-    },
-    {
-      "id": "7a05a4b35e89a35767ef6b33",
-      "reason": "localized-text-observed",
-      "target": null
-    },
-    {
-      "id": "7b2eaa16bf6c0c8091659ca5",
-      "reason": "current-rule-match",
-      "target": "卡牌图鉴"
-    },
-    {
-      "id": "7b6c15feeb0e6cc658ebe0c1",
-      "reason": "current-rule-match",
-      "target": "帮助与反馈"
-    },
-    {
-      "id": "7fec4c0e39296c00a2d7231a",
-      "reason": "current-rule-match",
-      "target": "成就"
-    },
-    {
-      "id": "8691bcd1b173084ec89c171d",
-      "reason": "localized-text-observed",
-      "target": null
-    },
-    {
-      "id": "90d9682942ce6cef34ed9fa1",
-      "reason": "current-rule-match",
-      "target": "选项"
-    },
-    {
-      "id": "992aac441896b5e5d18c8507",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "9fefbc998c4108f266dbf62a",
-      "reason": "current-rule-match",
-      "target": "跳过异能阶段"
-    },
-    {
-      "id": "a0a8e05c79b40d09f5d0ad13",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "a59a5a774d0178bc0794c4bf",
-      "reason": "current-rule-match",
-      "target": "点击一个区域，将反击屏障打出至该处。"
-    },
-    {
-      "id": "afb1ac66b2536c95bfeb3f7a",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "b09499a196a85b06a612536b",
-      "reason": "current-rule-match",
-      "target": "游戏规则"
-    },
-    {
-      "id": "b305824a47907cbd8fb859c8",
-      "reason": "current-rule-match",
-      "target": "制作人员"
-    },
-    {
-      "id": "b98aff44039dc41ca0b66c5b",
-      "reason": "current-rule-match",
-      "target": "在此打出"
-    },
-    {
-      "id": "b9db358e5d28f1a411c117d1",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "bcbb29ed4f14c3682cd84f4c",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "bdea9d13eabf0c1b989f119b",
-      "reason": "current-rule-match",
-      "target": "新建游戏"
-    },
-    {
-      "id": "d050b51b3dc20c2f5ab7ffce",
-      "reason": "current-rule-match",
-      "target": "发送反馈"
-    },
-    {
-      "id": "d50838f546956b74a77bb0bf",
-      "reason": "current-rule-match",
-      "target": "在此打出"
-    },
-    {
-      "id": "d5ffaab74ada8169545b0ed6",
-      "reason": "current-rule-match",
-      "target": "<b>宇宙冠饰:</b> 点击宇宙冠饰上的按钮，选择一个效果。"
-    },
-    {
-      "id": "d78f06f92999d45348a089b8",
-      "reason": "current-rule-match",
-      "target": "在此打出"
-    },
-    {
-      "id": "d949190399359e1267ad7a02",
-      "reason": "current-rule-match",
-      "target": "继续游戏"
-    },
-    {
-      "id": "dc73373c27cadb5656909e09",
-      "reason": "current-rule-match",
-      "target": "点击或拖动一张牌以将其打出。"
-    },
-    {
-      "id": "e18b8f86a61330c7df36a6cb",
-      "reason": "current-rule-match",
-      "target": "点击一个异能以使用它。"
-    },
-    {
-      "id": "e25c7ddc0716d4557c0611d9",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "e4d552f81897000ed9e8163a",
-      "reason": "current-rule-match",
-      "target": "游戏规则"
-    },
-    {
-      "id": "e5db55862de972548d465d9d",
-      "reason": "current-rule-match",
-      "target": "选项"
-    },
-    {
-      "id": "eaebed7f5152897d2e7b963a",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "f210b34507fbca402bd1a510",
-      "reason": "current-rule-match",
-      "target": "在此打出"
-    },
-    {
-      "id": "fa16313d5de560634f8b7060",
-      "reason": "current-rule-match",
-      "target": "快速游戏"
-    },
-    {
-      "id": "0762c742a2fafca25a67c1fc",
-      "reason": "current-rule-match",
-      "target": "发现Construct牌"
-    },
-    {
-      "id": "1196a364145819ad099bc019",
-      "reason": "current-rule-match",
-      "target": "<b>不懈赋生:</b> 点击一个目标，将其视为生命值最低的目标。"
-    },
-    {
-      "id": "4bf2976e334ba1e7a4471778",
-      "reason": "current-rule-match",
-      "target": "打出Construct牌"
-    },
-    {
-      "id": "97a5ce77e4688b93489deb37",
-      "reason": "current-rule-match",
-      "target": "点击一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
-    },
-    {
-      "id": "a9f25283c4af04187ac783d0",
-      "reason": "current-rule-match",
-      "target": "异能阶段（剩余1次）"
-    },
-    {
-      "id": "c0cf1bf7a908617761e9fe45",
-      "reason": "current-rule-match",
-      "target": "宇宙冠饰发现的牌："
+      "target": "点击一个区域，将活力法渠打出至该处。"
     },
     {
       "id": "0087c32afc2aa2d60add37d0",
       "reason": "current-rule-match",
       "target": "点击或拖动一个异能以使用它。"
+    },
+    {
+      "id": "00aa2b1318e3c9303b537e19",
+      "reason": "current-rule-match",
+      "target": "<b>能量守恒:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "00ae142e380049c8597c2827",
+      "reason": "current-rule-match",
+      "target": "放回原处"
+    },
+    {
+      "id": "00ae49cb1fa0649e6d8129d5",
+      "reason": "current-rule-match",
+      "target": "斯廷森博士的副实验室展示的牌："
+    },
+    {
+      "id": "011f3b97066fb9a34c9ba15d",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "01450721533bb71249c6228a",
+      "reason": "current-rule-match",
+      "target": "放回原处"
+    },
+    {
+      "id": "01645946e97ed3666a4c4a77",
+      "reason": "current-rule-match",
+      "target": "出牌阶段（剩余3次）"
+    },
+    {
+      "id": "01f1c2253f530c5f77cdc1fa",
+      "reason": "current-rule-match",
+      "target": "<b>潜行机偶:</b> <b>高楼失火</b>将对<b>武库机偶</b>造成2点火焰伤害。点击一张牌，先发动其效果。"
+    },
+    {
+      "id": "02142f6a7337ac9dc248006e",
+      "reason": "current-rule-match",
+      "target": "<b>灵巧一击:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
     },
     {
       "id": "02265b64c9bbb1c57b5a9400",
@@ -276,6 +66,26 @@
       "id": "0237e962fc5eeb10885238b4",
       "reason": "current-rule-match",
       "target": "<b>蓄能冰封:</b> 点击一个目标，对其造成<nobr>3点寒冷伤害</nobr>。"
+    },
+    {
+      "id": "02fadfdb4c71e47cb4158bb3",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "031128b45914491882ec8b27",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "037315b7b0d3e049a9caa0e4",
+      "reason": "current-rule-match",
+      "target": "使用异能"
+    },
+    {
+      "id": "03bf2a08c1a76ebdc929665c",
+      "reason": "current-rule-match",
+      "target": "<b>冷液喷射:</b> 点击一个目标，对其造成<nobr>寒冷伤害</nobr>。"
     },
     {
       "id": "03e023272e4a1a787613ee0d",
@@ -293,9 +103,29 @@
       "target": "<b>构造灾变:</b> 点击至多8个目标以将其破坏。"
     },
     {
+      "id": "05578dbb60044c983df6b681",
+      "reason": "current-rule-match",
+      "target": "放回原处"
+    },
+    {
+      "id": "058ce98e92514ab904b9e596",
+      "reason": "current-rule-match",
+      "target": "<b>S-83突击机兵:</b> 点击2个目标，对其各造成<nobr>4点近战伤害</nobr>。"
+    },
+    {
       "id": "063c744fe202b37d43453c1c",
       "reason": "translated-output-observed",
       "target": null
+    },
+    {
+      "id": "06890aacd2e4b52674fd2b33",
+      "reason": "current-rule-match",
+      "target": "<b>寒霜汲取:</b> 点击一个目标，对其造成<nobr>3点寒冷伤害</nobr>。"
+    },
+    {
+      "id": "0757cf2433842f9c8a2e53e9",
+      "reason": "current-rule-match",
+      "target": "抢先体验说明"
     },
     {
       "id": "0758bcc8902fad512b0b19db",
@@ -303,9 +133,39 @@
       "target": "<b>快子:</b> 点击或拖动一张牌以将其打出。"
     },
     {
+      "id": "0762c742a2fafca25a67c1fc",
+      "reason": "current-rule-match",
+      "target": "发现Construct牌"
+    },
+    {
       "id": "076b23af0c496ecfd7bd2633",
       "reason": "localized-text-observed",
       "target": null
+    },
+    {
+      "id": "07bab2d01dbadf1724e752b2",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "0845736881ce8867467bea14",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "08b82b33db6611aa6d6be340",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "093e74037412a38aa777f5f5",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "0bbda5d80c160bc5058b6821",
+      "reason": "current-rule-match",
+      "target": "<b>应急护盾:</b> <b>S-83突击机兵</b>将对<b>堡垒</b>造成2点近战伤害。点击一个反应以使用它。"
     },
     {
       "id": "0c692eca802267a9636b74b8",
@@ -318,9 +178,59 @@
       "target": null
     },
     {
+      "id": "0e4210176c585f79427e77f9",
+      "reason": "current-rule-match",
+      "target": "全能智创发现的牌："
+    },
+    {
+      "id": "0e829f99f1e919ca055dd0b7",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "0e8f54ddef71dcf8dc8ce8b8",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "0ea65d2e9dd3295c533f7451",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
       "id": "0ef991fcb461a5e07fc4a0cf",
       "reason": "current-rule-match",
       "target": "开始阶段"
+    },
+    {
+      "id": "0f82dea51ccf85a0bb9a5d1f",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "0fe412c7549aed885bbb9930",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "10a4ea82d532fe30f5128a40",
+      "reason": "current-rule-match",
+      "target": "埋藏0张牌"
+    },
+    {
+      "id": "10be18ca8f13b1ac75e84009",
+      "reason": "current-rule-match",
+      "target": "造成火焰伤害"
+    },
+    {
+      "id": "10d98167c99a8e632c0ff3b6",
+      "reason": "current-rule-match",
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将英雄本色放回原处或弃置。"
+    },
+    {
+      "id": "1115d40f6fac6ba6d5a81406",
+      "reason": "translated-output-observed",
+      "target": null
     },
     {
       "id": "113e71bdd87691cd802525c7",
@@ -328,9 +238,34 @@
       "target": "对8个目标造成3点伤害"
     },
     {
+      "id": "1196a364145819ad099bc019",
+      "reason": "current-rule-match",
+      "target": "<b>不懈赋生:</b> 点击一个目标，将其视为生命值最低的目标。"
+    },
+    {
       "id": "11a4d6c69a7d68842e89a92a",
       "reason": "translated-output-observed",
       "target": null
+    },
+    {
+      "id": "120b28586835f3bbb43d1ca6",
+      "reason": "current-rule-match",
+      "target": "使用异能"
+    },
+    {
+      "id": "1297d8fc5dd4712d08daba7d",
+      "reason": "current-rule-match",
+      "target": "<b>宇宙队长:</b> 点击一个区域，将能量护腕打出至该处。"
+    },
+    {
+      "id": "12e0f6de3c2f13f957e3bed7",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "1311b83f9a44a73dfd4debce",
+      "reason": "current-rule-match",
+      "target": "放回原处"
     },
     {
       "id": "137a0e3f04e0edb6e6d34258",
@@ -338,14 +273,64 @@
       "target": "随机选择"
     },
     {
+      "id": "13c11fc2079cf95f304892e6",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "13da7df6be29b57f7f2d4f55",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "1491e84f9d4957af37410386",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "149973812ddf008b6e1abe65",
+      "reason": "current-rule-match",
+      "target": "弃置7张牌"
+    },
+    {
+      "id": "15085a86d5da5e1853af5afe",
+      "reason": "current-rule-match",
+      "target": "激光侦测展示的牌："
+    },
+    {
       "id": "157dd42838f689594e3e6c60",
       "reason": "protected-number",
       "target": null
     },
     {
+      "id": "1655a13b21f0326adf16f281",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
       "id": "16acba676ba72634b58d41ec",
       "reason": "current-rule-match",
       "target": "跳过失能阶段"
+    },
+    {
+      "id": "16bc03bec03b34a0d6560c4c",
+      "reason": "current-rule-match",
+      "target": "<b>反击屏障:</b> <b>喷射突击营</b>将对<b>堡垒</b>造成1点能量伤害。点击一个反应以使用它。"
+    },
+    {
+      "id": "1710be2ae018f1ad5c90d309",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "1716b8b3270e6127bf53edf9",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "1765cf0d5746e8a0251c34c1",
+      "reason": "protected-number",
+      "target": null
     },
     {
       "id": "17cade601544a51af32e3e1d",
@@ -358,9 +343,49 @@
       "target": null
     },
     {
+      "id": "182e98267e5d301e098a6f06",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
       "id": "195c9f4faa05bbd4ef093666",
       "reason": "protected-number-markup",
       "target": null
+    },
+    {
+      "id": "1ad24c2ecf773124658ee16c",
+      "reason": "current-rule-match",
+      "target": "高射火炮下方的牌"
+    },
+    {
+      "id": "1ae11d2baa295f14e00a9cf3",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "1b0ac685869a74edafd80b9d",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "1c1109a297496da33b131c4b",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "1d0b27154624f66e1386a518",
+      "reason": "current-rule-match",
+      "target": "<b>任务中枢:</b> 点击至多2个目标，对其各造成<nobr>2点近战伤害</nobr>。"
+    },
+    {
+      "id": "1d35438fe7331dd4e0011e8a",
+      "reason": "current-rule-match",
+      "target": "最多"
+    },
+    {
+      "id": "1d59e4a15f217d10bb22fb41",
+      "reason": "current-rule-match",
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将挂载穿甲炮放回原处或弃置。"
     },
     {
       "id": "1d6c728e472e065e616d729a",
@@ -368,9 +393,44 @@
       "target": null
     },
     {
+      "id": "1dcd887f4260762f590c8772",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
       "id": "1e474146b8c72d7aefff87ab",
       "reason": "translated-output-observed",
       "target": null
+    },
+    {
+      "id": "1e5ae326343db8f5917cd557",
+      "reason": "current-rule-match",
+      "target": "<b>自由安保:</b> 点击一张手牌以将其弃置。"
+    },
+    {
+      "id": "1e80eee9483005760475acea",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "1eca78b655672b24a636df5c",
+      "reason": "current-rule-match",
+      "target": "弃置13张牌"
+    },
+    {
+      "id": "1ef52985e76a3777b17db315",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "1f756285ce611665bdc4e916",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "1ff255d5fdbd1d40d714308d",
+      "reason": "current-rule-match",
+      "target": "<b>突触阻断:</b> <b>凛冬公民</b>将对<b>快子</b>造成1点火焰伤害。点击一个反应以使用它。"
     },
     {
       "id": "207432982525fa7ddc564fd8",
@@ -383,12 +443,67 @@
       "target": null
     },
     {
+      "id": "208a559ecb20dec4c333161d",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "21847ab8383754fe69ef12c6",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "21d0870faca6fa7893d71694",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "220f3ac93310f222cb6353d6",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "2222798afac0f8652054c783",
+      "reason": "current-rule-match",
+      "target": "<b>等温换能器:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "227d8295afde89c4bf1a04d4",
+      "reason": "current-rule-match",
+      "target": "气魄勃发抽到的牌："
+    },
+    {
+      "id": "2285896a3653c160397be010",
+      "reason": "current-rule-match",
+      "target": "<b>宇宙冠饰:</b> 点击一个区域，将自主锋刃打出至该处。"
+    },
+    {
       "id": "235ad70c7494f9914280de9c",
       "reason": "protected-number",
       "target": null
     },
     {
+      "id": "23f5cb8cdd42916c19063c33",
+      "reason": "current-rule-match",
+      "target": "异星水产学家抽到的牌："
+    },
+    {
+      "id": "24906d6ef866771dd0a78f45",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "24ad7989485211066b1ee15c",
+      "reason": "current-rule-match",
+      "target": "最多"
+    },
+    {
       "id": "24b9fd0122c3328903cb3e2e",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "24f0b24e8d231f8d38d307e5",
       "reason": "protected-number",
       "target": null
     },
@@ -403,6 +518,46 @@
       "target": "结束阶段"
     },
     {
+      "id": "27274baeb94a5d15c53f0a93",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "27485448cf258f7c5fbb68ad",
+      "reason": "current-rule-match",
+      "target": "<b>炎夏公民:</b> 点击视为场上牌最多的英雄。"
+    },
+    {
+      "id": "2753f1383ed7cecc89698e9e",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "27c58138c6d857f7d43dd203",
+      "reason": "current-rule-match",
+      "target": "绝境部署召唤出的牌："
+    },
+    {
+      "id": "28089f1646ae06ef7c9ef403",
+      "reason": "current-rule-match",
+      "target": "黎明公民发现的牌："
+    },
+    {
+      "id": "28a093a3a3f82f016c700ff1",
+      "reason": "current-rule-match",
+      "target": "异星水产学家展示的牌："
+    },
+    {
+      "id": "2905752145edc03425f0d920",
+      "reason": "current-rule-match",
+      "target": "强行制伏发现的牌："
+    },
+    {
+      "id": "2954c4b544be7b00dbbba468",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
       "id": "2a2b39bbe934f1706baae27f",
       "reason": "protected-number-markup",
       "target": null
@@ -411,6 +566,21 @@
       "id": "2a45a8875f3ecf89318ba818",
       "reason": "current-rule-match",
       "target": "<b>堡垒:</b> 点击堡垒上的按钮，选择一个效果。"
+    },
+    {
+      "id": "2a6924242f91b3f0bb1e4258",
+      "reason": "current-rule-match",
+      "target": "<b>应急护盾:</b> <b>反噬场发生器</b>将对<b>堡垒</b>造成1点闪电伤害。点击一个反应以使用它。"
+    },
+    {
+      "id": "2ab190feb12b4ba59f5d8e53",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "2b646bafdeddb3bea3f5cf0c",
+      "reason": "protected-number",
+      "target": null
     },
     {
       "id": "2b80a3bab22f149b239aadc2",
@@ -423,14 +593,44 @@
       "target": null
     },
     {
+      "id": "2c0950e1edde81b02d3e1b53",
+      "reason": "current-rule-match",
+      "target": "打出一张牌"
+    },
+    {
       "id": "2c35c60966f8fd9679ed7fc8",
       "reason": "current-rule-match",
       "target": "在此打出"
     },
     {
+      "id": "2c3d1a7a5f6574510f8016c9",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "2c431df3641bfd28b22ddb7b",
+      "reason": "current-rule-match",
+      "target": "<b>迅猛龙机偶:</b> 点击一个目标，对其造成<nobr>4点近战伤害</nobr>。"
+    },
+    {
+      "id": "2ccd7f5108b15d91eb3e8007",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "2e55635696d462bea8a9f5fa",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
       "id": "2e55fd3ac759aedfd8685357",
       "reason": "translated-output-observed",
       "target": null
+    },
+    {
+      "id": "2e9749aef2afda5c9f353eed",
+      "reason": "current-rule-match",
+      "target": "<b>高射火炮:</b> 点击一个目标，对其造成<nobr>3点投射伤害</nobr>。"
     },
     {
       "id": "2ebcf9768fa9de5a4f517559",
@@ -453,9 +653,29 @@
       "target": null
     },
     {
+      "id": "2f83a1475e39d3c43b5c402e",
+      "reason": "current-rule-match",
+      "target": "弃置10张牌"
+    },
+    {
       "id": "2f88d7905197e9a91b73a2a2",
       "reason": "current-rule-match",
       "target": "打出一张牌"
+    },
+    {
+      "id": "2fae84e7c7cb1cf2b0b4a560",
+      "reason": "current-rule-match",
+      "target": "<b>喷射突击营:</b> 点击3个目标，对其各造成<nobr>2点能量伤害</nobr>。"
+    },
+    {
+      "id": "2faf2536fcd1a888c19ea4ba",
+      "reason": "current-rule-match",
+      "target": "选择"
+    },
+    {
+      "id": "2fe98b9d6c0d6025776719b8",
+      "reason": "protected-number-markup",
+      "target": null
     },
     {
       "id": "2ffc5b8fb7408080e2026d7e",
@@ -468,8 +688,93 @@
       "target": null
     },
     {
+      "id": "306519dc884757ac6da24577",
+      "reason": "current-rule-match",
+      "target": "自由大厦打出的牌："
+    },
+    {
+      "id": "30bd7e317c8318b2ac0cfb6b",
+      "reason": "current-rule-match",
+      "target": "<b>疾如闪电:</b> 点击一张在场的牌以将其破坏。"
+    },
+    {
+      "id": "31544c7451f317619c7ec9fb",
+      "reason": "current-rule-match",
+      "target": "<b>原质转换器:</b> 点击一张在场的牌以将其破坏。"
+    },
+    {
+      "id": "31841c371b77454981d38f30",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "319e77e7f91b24c7169e70eb",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "31e1953844fdedcf101f39b8",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "3277914ef81458334f65503b",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "32d7a7de5159182d8d2f64e8",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "32fddc0370262e57978172b5",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "330559021373f130f7bfc84b",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "338f5604e64e35be53a18489",
+      "reason": "current-rule-match",
+      "target": "<b>快子:</b> 选择一个区域，抽取或弃置高超音速冲刺。"
+    },
+    {
+      "id": "33a43368d017acc1de33c0ad",
+      "reason": "current-rule-match",
+      "target": "点击一张在场的牌，发动其<nobr><sprite name=\"StartPhase\"> <b>开始阶段</b></nobr>效果。"
+    },
+    {
       "id": "33e4dc00616d69fa64332b46",
       "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "33edc2a34fb41f6a91c55dec",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "341ebaca771be068514fbc6e",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "3435a44d3b14df9ae8aceb08",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "3472ca02df7100c85484816b",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "34edcfbe43b50b780597d166",
+      "reason": "protected-number",
       "target": null
     },
     {
@@ -478,9 +783,89 @@
       "target": null
     },
     {
+      "id": "3617f3b76a810de39031d366",
+      "reason": "current-rule-match",
+      "target": "选择"
+    },
+    {
+      "id": "3665f29bbf3bc9c16f5f03a4",
+      "reason": "current-rule-match",
+      "target": "<b>一次性电源:</b> 点击弃牌堆中的一张牌，将其置于一张牌下方。"
+    },
+    {
+      "id": "369b22816dceb5ef7378b930",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "36fd0932926942970b609433",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "370776b0c4c1b9ab74d4a9ef",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "3718ec6088f81664d27cb482",
+      "reason": "current-rule-match",
+      "target": "造成寒冷伤害"
+    },
+    {
+      "id": "379e1760efa0ab187e5b7140",
+      "reason": "current-rule-match",
+      "target": "<b>一次性电源:</b> 点击一张在场的牌，将充能模式置于其下方。"
+    },
+    {
+      "id": "383821b20cc2d2e348247611",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "38b5657717e727c730ed9308",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "38ec492eb2a8118b5ad09328",
+      "reason": "current-rule-match",
+      "target": "<b>活塞重拳:</b> 点击一张在场的牌，将活塞重拳置于其下方。"
+    },
+    {
+      "id": "3911848bb60c9b33a537f733",
+      "reason": "current-rule-match",
+      "target": "<b>解离射线:</b> 点击一个目标，对其造成能量伤害。"
+    },
+    {
+      "id": "39da4f8cc3d1f7f5a01f6b34",
+      "reason": "current-rule-match",
+      "target": "弃置12张牌"
+    },
+    {
+      "id": "39e9c51c476b5002ccf91c3f",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "39ee539253469b92f8df9f10",
+      "reason": "current-rule-match",
+      "target": "<b>动力虹吸:</b> <b>黎明公民</b>将对<b>幽魂</b>造成2点能量伤害。点击一个反应以使用它。"
+    },
+    {
+      "id": "3a6af98bfcb1d657d30c107c",
+      "reason": "current-rule-match",
+      "target": "全能智创的生命值已降至<nobr>0点</nobr>。"
+    },
+    {
       "id": "3ac948a6588c05213f69cc1b",
       "reason": "protected-number",
       "target": null
+    },
+    {
+      "id": "3bac41270c791dac3f62a8e5",
+      "reason": "current-rule-match",
+      "target": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
     },
     {
       "id": "3cc96e080e7d53ca668c9be2",
@@ -488,9 +873,29 @@
       "target": "宇宙队长展示的牌："
     },
     {
+      "id": "3ce6ac176dfb19ecfac136a9",
+      "reason": "current-rule-match",
+      "target": "<b>挂载穿甲炮:</b> 点击一个目标，对其造成<nobr>6点投射伤害</nobr>。"
+    },
+    {
+      "id": "3d582e96d6042ec1acbb9a98",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
       "id": "3d807fb2b8d50a365eb850a0",
       "reason": "protected-number-markup",
       "target": null
+    },
+    {
+      "id": "3d9921cc8e8ac44179d6d9cb",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "3dfe08a133833e8bbf0e1390",
+      "reason": "current-rule-match",
+      "target": "<b>激光侦测:</b> 点击一个牌库以展示一张牌。"
     },
     {
       "id": "3e3e710703e55ace736b97e9",
@@ -498,14 +903,64 @@
       "target": null
     },
     {
+      "id": "3e7a90fee690910780096469",
+      "reason": "current-rule-match",
+      "target": "<b>传导装配:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "3ec6eb6a429941397465f45a",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
       "id": "3fe16c0cbc70e10240782a7a",
       "reason": "current-rule-match",
       "target": "在此打出"
     },
     {
+      "id": "40371b4b1931528f7a3164a7",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "406cd78b49254c5f0ca898b3",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "40868a03b1cb010dea203870",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "40cb8cd15e5debd958f0db93",
+      "reason": "current-rule-match",
+      "target": "打出一张牌"
+    },
+    {
+      "id": "4132f8ca388188fd9aaabd18",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "413809bcbe5644c04e691db4",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "41dfe12caceb49c7d6259641",
+      "reason": "current-rule-match",
+      "target": "<b>铁甲工坊:</b> 点击一位英雄，让其回收1张牌。"
+    },
+    {
       "id": "41ff0368a77d1bc8218b255d",
       "reason": "current-rule-match",
       "target": "<b>左右开弓:</b> 点击一张牌以将其打出。"
+    },
+    {
+      "id": "426ef4569a049abc805b1183",
+      "reason": "current-rule-match",
+      "target": "最多"
     },
     {
       "id": "42b85f67e53b8f9b6d959fdf",
@@ -518,6 +973,26 @@
       "target": "替我选择"
     },
     {
+      "id": "42fcbdad0756d8ef505409a6",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "446e847552fceb1ec9d27b51",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "44ad4d765e62321dea20b133",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "45d016dc6c6012818c8e7439",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
       "id": "45e2f3fd79801c3610876414",
       "reason": "current-rule-match",
       "target": "<b>灵光乍现:</b> 点击2张手牌以将其弃置。"
@@ -526,6 +1001,11 @@
       "id": "45e9ba621a1b50218e2f1165",
       "reason": "protected-number",
       "target": null
+    },
+    {
+      "id": "464a6773604f24d25e4c0355",
+      "reason": "current-rule-match",
+      "target": "点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
     },
     {
       "id": "467eaaac87f6a6d147fc4c80",
@@ -538,9 +1018,29 @@
       "target": null
     },
     {
+      "id": "46c5e3039a5a1760f4520cce",
+      "reason": "current-rule-match",
+      "target": "<b>致盲强光:</b> 点击一位英雄，让其弃置1张牌。"
+    },
+    {
       "id": "473ad3b86dce2754cbe0e518",
       "reason": "current-rule-match",
       "target": "<b>音波旋涡:</b> 点击至多5个目标，对其各造成<nobr>3点音波伤害</nobr>。"
+    },
+    {
+      "id": "474236a72150ddcf2344d6e9",
+      "reason": "current-rule-match",
+      "target": "<b>一次性电源:</b> 点击一张在场的牌，将一次性电源置于其下方。"
+    },
+    {
+      "id": "4746f4568979fc7ac97d8456",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "474a5bade91f36b9e885e176",
+      "reason": "current-rule-match",
+      "target": "抽牌"
     },
     {
       "id": "479864c19c979753ed3b5d52",
@@ -553,13 +1053,83 @@
       "target": "宇宙队长抽到的牌："
     },
     {
+      "id": "481ee9f0e0cf62725c0ed5a6",
+      "reason": "current-rule-match",
+      "target": "<b>征战战舞:</b> 点击一个目标，对其造成<nobr>17点近战伤害</nobr>。"
+    },
+    {
+      "id": "482124485c01b32e89398726",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "48d4bd89491865ef80284206",
+      "reason": "current-rule-match",
+      "target": "哈卡抽到的牌："
+    },
+    {
+      "id": "4a104cc2e96d21733b8bfb24",
+      "reason": "current-rule-match",
+      "target": "弃置5张牌"
+    },
+    {
+      "id": "4a50c28525e49536f35d83f6",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "4aa60a3b7c93fcf4b4d6a580",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "4aaeabc1bd769466e346b871",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "4b1ccb721069cdca2ed0be68",
+      "reason": "current-rule-match",
+      "target": "弃置15张牌"
+    },
+    {
       "id": "4b41509595626411a7ba2b85",
       "reason": "current-rule-match",
       "target": "灵光乍现抽到的牌："
     },
     {
+      "id": "4b65e47566556549f7ee2781",
+      "reason": "current-rule-match",
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将流亡使节放回原处或弃置。"
+    },
+    {
+      "id": "4bf2976e334ba1e7a4471778",
+      "reason": "current-rule-match",
+      "target": "打出Construct牌"
+    },
+    {
+      "id": "4c6b223c8ecf380bcb4308ad",
+      "reason": "current-rule-match",
+      "target": "<b>致盲强光:</b> 点击一张手牌以将其弃置。"
+    },
+    {
       "id": "4c929259143461b36d729e59",
       "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "4ce4ab3c98256e0bbb29d962",
+      "reason": "current-rule-match",
+      "target": "幽魂抽到的牌："
+    },
+    {
+      "id": "4d9d01f59dd90f857a34bb91",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "4e1b1848fd9ec960f815a688",
+      "reason": "protected-number",
       "target": null
     },
     {
@@ -568,9 +1138,29 @@
       "target": null
     },
     {
+      "id": "4f0982d616ff668a3b7549a9",
+      "reason": "current-rule-match",
+      "target": "<b>突触阻断:</b> 点击突触阻断上的按钮，选择一个效果。"
+    },
+    {
       "id": "4f1d33bb1d6eacce60dd57a2",
       "reason": "protected-number",
       "target": null
+    },
+    {
+      "id": "4f3a587aacc20830722a5db3",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "4fc486b17d26d3f56a029b33",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "5001fb18212a5203ce9a4f66",
+      "reason": "current-rule-match",
+      "target": "抽一张牌"
     },
     {
       "id": "50276b450d510ccda3c0bdf6",
@@ -578,9 +1168,49 @@
       "target": null
     },
     {
+      "id": "503cb343aa522e8e1444029b",
+      "reason": "current-rule-match",
+      "target": "巨都会打出的牌："
+    },
+    {
+      "id": "506f4ec2c9e7dc0e066e66c4",
+      "reason": "current-rule-match",
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将补给货箱放回原处或弃置。"
+    },
+    {
+      "id": "50b12cfb7201af6bc6ee1d45",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "5112190a1b28334bb7ab0e32",
+      "reason": "current-rule-match",
+      "target": "<b>等温换能器:</b> 点击一个目标，对其造成<nobr>3点寒冷伤害</nobr>。"
+    },
+    {
+      "id": "515ccdac6a0f7ef923e861a4",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
       "id": "51722747162b8d3aa31f23e0",
       "reason": "protected-number",
       "target": null
+    },
+    {
+      "id": "5174ed0ea07259614d8cb0a2",
+      "reason": "current-rule-match",
+      "target": "筹码在握搜集的牌："
+    },
+    {
+      "id": "51778421dfd85c7afda64f20",
+      "reason": "current-rule-match",
+      "target": "退出"
+    },
+    {
+      "id": "51f69557de49b602623d67e0",
+      "reason": "current-rule-match",
+      "target": "<b>阵中起舞:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
     },
     {
       "id": "523ab64465cd188cec45c23d",
@@ -588,9 +1218,74 @@
       "target": "机动防御平台展示的牌："
     },
     {
+      "id": "526f40d2751c326a6c657eba",
+      "reason": "current-rule-match",
+      "target": "选择"
+    },
+    {
+      "id": "5292b6da580ead9dfac056eb",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "52d0554d5d1ce8a41cba6ae5",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "534e14312f07624e3bcbb653",
+      "reason": "current-rule-match",
+      "target": "<b>音波旋涡:</b> 点击至多11个目标，对其各造成<nobr>3点音波伤害</nobr>。"
+    },
+    {
+      "id": "53cb958f9671b88023cf2c1b",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "540e9ed1fef456a98a917d95",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "54224b7ba4e2b3b1c4f0d081",
+      "reason": "current-rule-match",
+      "target": "<b>强行制伏:</b> 点击全能智创的弃牌堆，将奇点投射器弃置。"
+    },
+    {
+      "id": "5433af351edcd0dca7f4e6c0",
+      "reason": "current-rule-match",
+      "target": "<b>狂热战舞:</b> 点击2个目标，对其各造成<nobr>3点近战伤害</nobr>。"
+    },
+    {
+      "id": "544070d05aea523b210f987d",
+      "reason": "current-rule-match",
+      "target": "<b>食草剑龙:</b> 点击视为手牌最少的英雄。"
+    },
+    {
       "id": "549b02cb30641b1e1e3ff1cc",
       "reason": "current-rule-match",
       "target": "传承侠抽到的牌："
+    },
+    {
+      "id": "551a1d46c5078bb110aa0ec5",
+      "reason": "current-rule-match",
+      "target": "放回原处"
+    },
+    {
+      "id": "552dddb587f8391ea9fb620e",
+      "reason": "current-rule-match",
+      "target": "黎明公民打出的牌："
+    },
+    {
+      "id": "556e9c1ebaafbf207079d5c1",
+      "reason": "current-rule-match",
+      "target": "<b>宇宙冠饰:</b> 点击一个区域，将能量护腕打出至该处。"
+    },
+    {
+      "id": "55a3905bc1c7e0b908054205",
+      "reason": "current-rule-match",
+      "target": "挂载穿甲炮下方的牌"
     },
     {
       "id": "55cd2e0a94909b0a928c19b3",
@@ -598,9 +1293,24 @@
       "target": null
     },
     {
+      "id": "56cfcf0a4d4bf5e7810c5bc1",
+      "reason": "current-rule-match",
+      "target": "发现机偶牌"
+    },
+    {
       "id": "5879a787622f240f11689908",
       "reason": "current-rule-match",
       "target": "对3个目标造成伤害"
+    },
+    {
+      "id": "58856020cead01453cd99190",
+      "reason": "current-rule-match",
+      "target": "<b>异星水产学家:</b> 选择一个区域，将破墙而入放回原处或弃置。"
+    },
+    {
+      "id": "58c524a2190ad89cdd40f7de",
+      "reason": "protected-number",
+      "target": null
     },
     {
       "id": "594ff93cdbe211a7f45f713b",
@@ -613,9 +1323,19 @@
       "target": null
     },
     {
+      "id": "59fa6a09c5edeee6b3671479",
+      "reason": "current-rule-match",
+      "target": "<b>加特林机炮:</b> 点击一个目标，对其造成<nobr>1点投射伤害</nobr>。"
+    },
+    {
       "id": "5a7f78fd0fee0891aaea3af9",
       "reason": "current-rule-match",
       "target": "破坏5张牌"
+    },
+    {
+      "id": "5ab385cf4002c3cc91a9b351",
+      "reason": "current-rule-match",
+      "target": "高效冷却罐抽到的牌："
     },
     {
       "id": "5ac9f754410dfa1c8813b38f",
@@ -623,9 +1343,49 @@
       "target": "弃置0张牌"
     },
     {
+      "id": "5b2b89ebddd1ce1e5267f304",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "5c39dafe0c1ca6a80bf714cb",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "5d07811c7a6d6048b63a2b54",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "5d4eb81102bb8c40d5034eca",
+      "reason": "current-rule-match",
+      "target": "<b>榴弹发射器:</b> 点击一张在场或位于榴弹发射器下方的牌以将其破坏。"
+    },
+    {
+      "id": "5d701218b4df8e8eb15d9464",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "5dc36b80a8cbb623ef8836cb",
+      "reason": "current-rule-match",
+      "target": "<b>等温换能器:</b> 点击一个目标，对其造成<nobr>2点寒冷伤害</nobr>。"
+    },
+    {
       "id": "5dc650b6d53ea0e08cd8dde9",
       "reason": "protected-number-markup",
       "target": null
+    },
+    {
+      "id": "5dc9546441f248de20b7f579",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "5dd4c4000e1dda54c939bd17",
+      "reason": "current-rule-match",
+      "target": "瞬间锻造发现的牌："
     },
     {
       "id": "5de4563ef84ae44b6fd11197",
@@ -633,14 +1393,74 @@
       "target": "对2个目标造成伤害"
     },
     {
+      "id": "5df90c1e2cc3f40a48e93237",
+      "reason": "current-rule-match",
+      "target": "<b>泰阿哈战杖:</b> 点击一张在场的牌以将其破坏。"
+    },
+    {
+      "id": "5e5ea359d923c2ffa436c984",
+      "reason": "current-rule-match",
+      "target": "<b>奇点投射器:</b> 点击3张在场的牌以将其破坏。"
+    },
+    {
+      "id": "5e8010fbca9134f8d1087a68",
+      "reason": "current-rule-match",
+      "target": "筹码在握抽到的牌："
+    },
+    {
+      "id": "5e8b03879ad004ab4d380bda",
+      "reason": "current-rule-match",
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将征战战舞放回原处或弃置。"
+    },
+    {
+      "id": "5eece7d0e4866e799989fe7f",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "5efe21b1fe5e7e8d6c59b02b",
+      "reason": "current-rule-match",
+      "target": "异星水产学家展示的牌："
+    },
+    {
+      "id": "5f77d120009544ec0e28ab50",
+      "reason": "current-rule-match",
+      "target": "全能智创打出的牌："
+    },
+    {
+      "id": "5fba43ac4c56a5fee05bc0df",
+      "reason": "current-rule-match",
+      "target": "<b>绝对零度:</b> 点击绝对零度上的按钮，选择一个效果。"
+    },
+    {
       "id": "6066b5e043addf2dafac6b02",
       "reason": "current-rule-match",
       "target": "原初岛打出的牌："
     },
     {
+      "id": "60d58e55474a0605b409c807",
+      "reason": "current-rule-match",
+      "target": "刀锋男爵的地月牵引光束让月球撞上了地球！"
+    },
+    {
       "id": "61177ebadd005e09120692ce",
       "reason": "current-rule-match",
       "target": "出牌阶段（剩余1次）"
+    },
+    {
+      "id": "6126652dd04ef304a8ddccca",
+      "reason": "current-rule-match",
+      "target": "<b>蜜蜂机偶:</b> 点击一张在场的牌以将其破坏。"
+    },
+    {
+      "id": "617fff9355bf90ccda19a2fb",
+      "reason": "current-rule-match",
+      "target": "跳过出牌阶段"
+    },
+    {
+      "id": "6196aa2758ab81bc5630fc6a",
+      "reason": "current-rule-match",
+      "target": "出牌阶段（剩余2次）"
     },
     {
       "id": "61e44cb3222205720432700d",
@@ -653,8 +1473,23 @@
       "target": null
     },
     {
+      "id": "627eb67a4317f167d1164ff2",
+      "reason": "current-rule-match",
+      "target": "<b>平台机偶:</b> 点击一个目标，对其造成<nobr>3点能量伤害</nobr>。"
+    },
+    {
       "id": "6312ef63407cd9880ee8ace7",
       "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "63ab563d47630f4d594bacdf",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "63d3735c5e00db60125422be",
+      "reason": "translated-output-observed",
       "target": null
     },
     {
@@ -668,9 +1503,24 @@
       "target": "<b>宇宙队长:</b> 点击一张牌以将其打出。"
     },
     {
+      "id": "64ab6d14c8732a92f5f9ad19",
+      "reason": "current-rule-match",
+      "target": "<b>异星水产学家:</b> 选择一个区域，将任务中枢放回原处或弃置。"
+    },
+    {
       "id": "64f4ee6d7c2ea7aaf744e1fc",
       "reason": "current-rule-match",
       "target": "跳过"
+    },
+    {
+      "id": "6503cda0b11b8e09117b4ba5",
+      "reason": "current-rule-match",
+      "target": "激光侦测抽到的牌："
+    },
+    {
+      "id": "6515a7affe350888d6fa8c67",
+      "reason": "current-rule-match",
+      "target": "<b>光速连击:</b> 点击一个目标，对其造成<nobr>3点近战伤害</nobr>。"
     },
     {
       "id": "6530ed8b88f7dcbcea727a65",
@@ -678,7 +1528,17 @@
       "target": null
     },
     {
+      "id": "65794d6e41644c4687c6a62c",
+      "reason": "current-rule-match",
+      "target": "<b>等温换能器:</b> 点击一个目标，对其造成<nobr>5点寒冷伤害</nobr>。"
+    },
+    {
       "id": "662a4fff87de8403517f87d3",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "668bf2131dd75ca45e6254b3",
       "reason": "protected-number-markup",
       "target": null
     },
@@ -693,9 +1553,79 @@
       "target": null
     },
     {
+      "id": "67be4494df14e4bd869a960e",
+      "reason": "current-rule-match",
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将狂热战舞放回原处或弃置。"
+    },
+    {
+      "id": "67c3cc9cbdf6cd7214e71e95",
+      "reason": "current-rule-match",
+      "target": "风暴抽到的牌："
+    },
+    {
+      "id": "67da317308d5bf3d928649b4",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "6800cffe71c19d2bfe737d67",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "68713a80b8d99c68b7b05226",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "68822b6e5bbd68d59fa52dbd",
+      "reason": "current-rule-match",
+      "target": "<b>反击屏障:</b> <b>刀锋男爵</b>将对<b>堡垒</b>造成1点毒素伤害。点击一个反应以使用它。"
+    },
+    {
+      "id": "68845988cc54903b43b944af",
+      "reason": "current-rule-match",
+      "target": "<b>挂载穿甲炮:</b> 点击2张在场或位于挂载穿甲炮下方的牌以将其破坏。"
+    },
+    {
+      "id": "689e51015bc408826f302d86",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "68b151d62b70a604a5c7f716",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "699bf7a879250b52531dc237",
+      "reason": "current-rule-match",
+      "target": "点击或拖动一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+    },
+    {
+      "id": "69ad4e951dc440758ba40190",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "6a33b5ca9600cb76eabf5450",
+      "reason": "current-rule-match",
+      "target": "升级模式召唤出的牌："
+    },
+    {
       "id": "6a3bd3cb1c6f5c186cab8266",
       "reason": "protected-number",
       "target": null
+    },
+    {
+      "id": "6ac8989edbfe217a15170212",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "6b818b11da0dc0bdf448052b",
+      "reason": "current-rule-match",
+      "target": "放回原处"
     },
     {
       "id": "6bc317427f344d1f4242f7b2",
@@ -713,9 +1643,29 @@
       "target": "效率飞升抽到的牌："
     },
     {
+      "id": "6cf768382c6b0028a8897c31",
+      "reason": "current-rule-match",
+      "target": "<b>突触阻断:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "6d42939e3144b82725fb40e7",
+      "reason": "current-rule-match",
+      "target": "<b>静物艺术:</b> 点击一个目标，防止其造成伤害。"
+    },
+    {
+      "id": "6d62d72515609eced47989c0",
+      "reason": "current-rule-match",
+      "target": "<b>补给货箱:</b> 点击优妮蒂的牌库，抽2张牌。"
+    },
+    {
       "id": "6dd259e16b85a6296a541c71",
       "reason": "current-rule-match",
       "target": "打出一张牌"
+    },
+    {
+      "id": "6e3ffd9c4181398ee2de733c",
+      "reason": "current-rule-match",
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将复苏战舞放回原处或弃置。"
     },
     {
       "id": "6e7398d5c01cffe60cf88ee3",
@@ -723,8 +1673,53 @@
       "target": null
     },
     {
+      "id": "6ea5faff7d13bfe648bb1407",
+      "reason": "current-rule-match",
+      "target": "使用异能"
+    },
+    {
       "id": "6eb3211cbb0929d23bea4b33",
       "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "6f35a1708c2ee2fc7d29b33a",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "704094b2e75b80f8d46368fc",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "70e915268e111bd624b3e5c0",
+      "reason": "current-rule-match",
+      "target": "阵中起舞抽到的牌："
+    },
+    {
+      "id": "7208e4c0bea0b1b820d932b7",
+      "reason": "current-rule-match",
+      "target": "<b>等温换能器:</b> 点击一个目标，对其造成<nobr>8点寒冷伤害</nobr>。"
+    },
+    {
+      "id": "720a74169f25477afe620bb0",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "72143ad7147822e2213c90b4",
+      "reason": "current-rule-match",
+      "target": "<b>迅猛龙机偶:</b> 点击一个目标，对其造成<nobr>5点近战伤害</nobr>。"
+    },
+    {
+      "id": "724b94b1f76c242fe0717506",
+      "reason": "current-rule-match",
+      "target": "<b>翼手龙窃贼:</b> 点击一张在场的牌以将其破坏。"
+    },
+    {
+      "id": "7253958055d41c28ed8338dc",
+      "reason": "localized-text-observed",
       "target": null
     },
     {
@@ -733,9 +1728,39 @@
       "target": "抽一张牌"
     },
     {
+      "id": "731c20363c56587382b83fc8",
+      "reason": "current-rule-match",
+      "target": "点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+    },
+    {
+      "id": "732a393159accf0e3af2e847",
+      "reason": "current-rule-match",
+      "target": "<b>砰！:</b> 点击一个目标，对其造成<nobr>5点近战伤害</nobr>。"
+    },
+    {
+      "id": "735845412a1b6402a6e915ad",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "738dd9d02afb44e8e3f7daf8",
+      "reason": "current-rule-match",
+      "target": "使用异能"
+    },
+    {
+      "id": "73b493d72f72569275ccf9b7",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
       "id": "7404761acc6dcd7b44414276",
       "reason": "protected-number",
       "target": null
+    },
+    {
+      "id": "746ba2eb32ced79e0f278116",
+      "reason": "current-rule-match",
+      "target": "<b>幽魂武库:</b> 点击一位英雄，让其抽1张牌。"
     },
     {
       "id": "7580474452f36ae406e9a92b",
@@ -748,9 +1773,79 @@
       "target": null
     },
     {
+      "id": "76c171d8bfce8cc8ff01c547",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
       "id": "76e047162721a9b11007fef5",
       "reason": "current-rule-match",
       "target": "刀锋男爵的生命值已降至<nobr>0点</nobr>。"
+    },
+    {
+      "id": "78404e58cf0f998ebc093091",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "79cbd66c45695c3e8d1a7d3f",
+      "reason": "current-rule-match",
+      "target": "快子展示的牌："
+    },
+    {
+      "id": "7a05a4b35e89a35767ef6b33",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "7a36828de12583cecf7f30be",
+      "reason": "current-rule-match",
+      "target": "<b>瞬间锻造:</b> 点击瞬间锻造上的按钮，选择一个效果。"
+    },
+    {
+      "id": "7b2eaa16bf6c0c8091659ca5",
+      "reason": "current-rule-match",
+      "target": "卡牌图鉴"
+    },
+    {
+      "id": "7b6c15feeb0e6cc658ebe0c1",
+      "reason": "current-rule-match",
+      "target": "帮助与反馈"
+    },
+    {
+      "id": "7c68395484dca81e2ad54dfa",
+      "reason": "current-rule-match",
+      "target": "<b>动力虹吸:</b> 点击或拖动一个异能以使用它。"
+    },
+    {
+      "id": "7c7f6ce6988f861afb1c99f7",
+      "reason": "current-rule-match",
+      "target": "发现物品牌"
+    },
+    {
+      "id": "7cbe0437970c8973ca16854c",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "7cf5ed18d28a8f1fdd0799f9",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "7df5db7db0960edbc8d7800a",
+      "reason": "current-rule-match",
+      "target": "弃置9张牌"
+    },
+    {
+      "id": "7dff409dbc122aaeaa9fd0ec",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "7f637ec3d99d4ef38a25befe",
+      "reason": "protected-number",
+      "target": null
     },
     {
       "id": "7f63a3e170762d581bce08c0",
@@ -758,9 +1853,49 @@
       "target": "打出Construct牌"
     },
     {
+      "id": "7fb2f55c104a8089a8af3f18",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "7fec4c0e39296c00a2d7231a",
+      "reason": "current-rule-match",
+      "target": "成就"
+    },
+    {
+      "id": "7ff839788e05b0a8da7ba712",
+      "reason": "current-rule-match",
+      "target": "<b>快子:</b> 选择一个区域，抽取或弃置平显护目镜。"
+    },
+    {
+      "id": "7ffe24f0af36c56749b0da04",
+      "reason": "current-rule-match",
+      "target": "弃置1张牌"
+    },
+    {
+      "id": "800e1d1ab6397507493c3e15",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
       "id": "80d691f55d09acb8f8ea5fab",
       "reason": "current-rule-match",
       "target": "鼓舞同伴抽到的牌："
+    },
+    {
+      "id": "8169c4cc2ba5426752a9d6d2",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "81c73a76d199ca57efe8a215",
+      "reason": "current-rule-match",
+      "target": "<b>斯廷森博士的副实验室:</b> 点击一个牌库以展示一张牌。"
+    },
+    {
+      "id": "81e1eefbef72c9fed00ba1e4",
+      "reason": "current-rule-match",
+      "target": "<b>威能之赐:</b> 点击哈卡的牌库，抽3张牌。"
     },
     {
       "id": "8254d2682433d26df350c79b",
@@ -778,6 +1913,16 @@
       "target": "<b>毁灭回击:</b> 点击至多3个目标，对其各造成<nobr>1点能量伤害</nobr>。"
     },
     {
+      "id": "840e60f55680e61975039b0e",
+      "reason": "current-rule-match",
+      "target": "放回原处"
+    },
+    {
+      "id": "842fed9f739433975976bcc5",
+      "reason": "current-rule-match",
+      "target": "<b>高效冷却罐:</b> 点击高效冷却罐上的按钮，选择一个效果。"
+    },
+    {
       "id": "847dd02c95959c5f4eff2fd2",
       "reason": "protected-number",
       "target": null
@@ -786,6 +1931,11 @@
       "id": "84b8660ccb0f4c96cf3f82e3",
       "reason": "current-rule-match",
       "target": "英雄本色抽到的牌："
+    },
+    {
+      "id": "84e4e149b5705f61f49e72b2",
+      "reason": "current-rule-match",
+      "target": "展示"
     },
     {
       "id": "8539c746d1d8db2f8f286930",
@@ -803,7 +1953,37 @@
       "target": "弃置1张牌"
     },
     {
+      "id": "85f74e303ea5b35dd51d6387",
+      "reason": "current-rule-match",
+      "target": "<b>自由安保:</b> 点击2张手牌以将其弃置。"
+    },
+    {
+      "id": "86088ddad799099a73c778bb",
+      "reason": "current-rule-match",
+      "target": "打出一张牌"
+    },
+    {
+      "id": "86090f2daac28fd2bdce2551",
+      "reason": "current-rule-match",
+      "target": "<b>头脑风暴:</b> 点击至多3个目标，对其各造成<nobr>1点闪电伤害</nobr>。"
+    },
+    {
       "id": "864a97ed3d54284bf55ae0e0",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "8674ecb96b25ad5c37e15f67",
+      "reason": "current-rule-match",
+      "target": "跳过抽牌阶段"
+    },
+    {
+      "id": "8691bcd1b173084ec89c171d",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "86928ea40de84cf69a678c44",
       "reason": "translated-output-observed",
       "target": null
     },
@@ -813,14 +1993,44 @@
       "target": null
     },
     {
+      "id": "8741a361dc46046fa4d67e82",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "87696f52ffc0a0b54c7ad865",
+      "reason": "current-rule-match",
+      "target": "<b>阵中起舞:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "87dbf9ddc344b7c2ac5eee21",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
       "id": "87fb7e895814fd51f2b9ab69",
       "reason": "current-rule-match",
       "target": "在此打出"
     },
     {
+      "id": "8820e61460a2d3cdf2799784",
+      "reason": "current-rule-match",
+      "target": "食草剑龙抽到的牌："
+    },
+    {
+      "id": "89252fdf7c3fe0a905796a9d",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
       "id": "8a4817c61420add91287af30",
       "reason": "current-rule-match",
       "target": "跳过出牌"
+    },
+    {
+      "id": "8a6acfe38ccc946e066cac8b",
+      "reason": "current-rule-match",
+      "target": "打出一张牌"
     },
     {
       "id": "8a8f3513640b2c7b2b8a9dd9",
@@ -838,8 +2048,38 @@
       "target": null
     },
     {
+      "id": "8cd4249af86ad355f4fc7a37",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "8d2a4721359de071ace37f16",
+      "reason": "current-rule-match",
+      "target": "<b>突施冷拳:</b> 点击一个目标，对其造成<nobr>1点近战伤害</nobr>。"
+    },
+    {
+      "id": "8d2a7b9d29ff557b81a8bfa4",
+      "reason": "current-rule-match",
+      "target": "<b>异星水产学家:</b> 选择一个区域，将斯廷森博士的副实验室放回原处或弃置。"
+    },
+    {
+      "id": "8db9a3ac397a0cffcb288703",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
       "id": "8e68dff8803ed853ed7ed2ff",
       "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "8ffe2fc26325219abc126e5e",
+      "reason": "current-rule-match",
+      "target": "<b>高楼失火:</b> 点击一位英雄，让其弃置1张牌。"
+    },
+    {
+      "id": "90001703f02414438f23395a",
+      "reason": "translated-output-observed",
       "target": null
     },
     {
@@ -848,9 +2088,24 @@
       "target": null
     },
     {
+      "id": "9041f8d3adbd3beb93836384",
+      "reason": "current-rule-match",
+      "target": "<b>左右开弓:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
       "id": "90ac0bc133119fd0034cd5ff",
       "reason": "current-rule-match",
       "target": "<b>左右开弓:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
+    },
+    {
+      "id": "90d0486081bce9087bf886ec",
+      "reason": "current-rule-match",
+      "target": "<b>临阵强化:</b> 点击一位英雄，让其使用一个异能。"
+    },
+    {
+      "id": "90d9682942ce6cef34ed9fa1",
+      "reason": "current-rule-match",
+      "target": "选项"
     },
     {
       "id": "9107ba23b33279e54f7efe61",
@@ -858,9 +2113,34 @@
       "target": null
     },
     {
+      "id": "92882f8f952ba6df22ca5e7d",
+      "reason": "current-rule-match",
+      "target": "点击一张在场的牌，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
+    },
+    {
       "id": "92e6ee543a52528c2b70ce84",
       "reason": "current-rule-match",
       "target": "破坏2张牌"
+    },
+    {
+      "id": "940428af8407b1282bde125d",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "946dd7faee708d0bb39dbc10",
+      "reason": "current-rule-match",
+      "target": "<b>风暴:</b> 点击目标，选择对它们造成<nobr>1点投射伤害</nobr>的顺序。"
+    },
+    {
+      "id": "94f398745b8ade1e6c02a988",
+      "reason": "current-rule-match",
+      "target": "<b>利刃武装:</b> 点击一个目标，对其造成<nobr>3点投射伤害</nobr>。"
+    },
+    {
+      "id": "95038ade2edca7f045009ac3",
+      "reason": "current-rule-match",
+      "target": "<b>筹码在握:</b> 点击牌库中的一张牌以将其搜集。"
     },
     {
       "id": "9549402c7bcbfa706652e4a6",
@@ -868,9 +2148,34 @@
       "target": "破坏3张牌"
     },
     {
+      "id": "96625071e3216d4d4f9c1318",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "96980c1d59c0437fcbffb8f0",
+      "reason": "current-rule-match",
+      "target": "<b>低温机偶:</b> 点击至多3个目标，对其各造成<nobr>1点寒冷伤害</nobr>。"
+    },
+    {
+      "id": "96ab18e9093ae9a86b731ddd",
+      "reason": "current-rule-match",
+      "target": "弃置6张牌"
+    },
+    {
       "id": "9709252ae85f267c9640fd00",
       "reason": "current-rule-match",
       "target": "进行出牌阶段"
+    },
+    {
+      "id": "97a57bcafef74c3d15a69a0a",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "97a5ce77e4688b93489deb37",
+      "reason": "current-rule-match",
+      "target": "点击一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
     },
     {
       "id": "97e8d859f8b25d62d631be99",
@@ -878,14 +2183,79 @@
       "target": null
     },
     {
+      "id": "97fb3f3912580de4ef725523",
+      "reason": "current-rule-match",
+      "target": "<b>单轨车坠落:</b> 点击一位英雄，使其受到伤害。"
+    },
+    {
+      "id": "992aac441896b5e5d18c8507",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "998e548e466a3839a9bffd7c",
+      "reason": "current-rule-match",
+      "target": "<b>反击屏障:</b> <b>反噬场发生器</b>将对<b>堡垒</b>造成1点闪电伤害。点击一个反应以使用它。"
+    },
+    {
+      "id": "9993585e06561f477a27deba",
+      "reason": "current-rule-match",
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将电光斩击放回原处或弃置。"
+    },
+    {
+      "id": "9a133cab1dc5a9e226c952ee",
+      "reason": "current-rule-match",
+      "target": "榴弹发射器下方的牌"
+    },
+    {
       "id": "9a350225f2b1be7b4b1174cc",
       "reason": "current-rule-match",
       "target": "破坏7张牌"
     },
     {
+      "id": "9ab087c7581d459f7cb403da",
+      "reason": "current-rule-match",
+      "target": "传导装配抽到的牌："
+    },
+    {
+      "id": "9ac2b349820f805617f06a22",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "9acd2b0d078d69c2a3937f55",
+      "reason": "current-rule-match",
+      "target": "点击一个区域，将动力虹吸打出至该处。"
+    },
+    {
+      "id": "9b6d2c73f24edc2f36d94acc",
+      "reason": "current-rule-match",
+      "target": "异能阶段（剩余3次）"
+    },
+    {
+      "id": "9b89a3659856b0d84c2fa0bd",
+      "reason": "current-rule-match",
+      "target": "<b>征战战舞:</b> 点击至多16张手牌以将其弃置。"
+    },
+    {
+      "id": "9bf8a733889c88824cfcba8d",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
       "id": "9c37cc993084436f6f02c02e",
       "reason": "current-rule-match",
       "target": "<b>构造灾变:</b> 点击一个目标，对其造成<nobr>8点能量伤害</nobr>。"
+    },
+    {
+      "id": "9cd6084b7cf3a20c005f6920",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "9cf93e9a2ce225a738826679",
+      "reason": "current-rule-match",
+      "target": "<b>加速突袭:</b> 点击目标，选择对它们造成<nobr>1点近战伤害</nobr>的顺序。"
     },
     {
       "id": "9d346c021ad7f16fa760f2fb",
@@ -903,9 +2273,89 @@
       "target": "进行出牌阶段"
     },
     {
+      "id": "9db6e45fabd947ca4102c8d9",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
       "id": "9df1dcc1404e7881ad8000a4",
       "reason": "current-rule-match",
       "target": "<b>健步如飞:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "9ee8342d119f8e2a87fce16d",
+      "reason": "current-rule-match",
+      "target": "<b>榴弹发射器:</b> 点击3个目标，对其各造成<nobr>2点火焰伤害</nobr>。"
+    },
+    {
+      "id": "9f3d2fcee5d6bda3bf9aa6c7",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "9f796d3563fc958735dd546c",
+      "reason": "current-rule-match",
+      "target": "<b>建造支柱:</b> 点击一张牌以将其打出。"
+    },
+    {
+      "id": "9fadf0f7f2b73207bb4983b7",
+      "reason": "current-rule-match",
+      "target": "<b>自由安保:</b> 点击一位英雄，让其弃置1张牌。"
+    },
+    {
+      "id": "9fd0a0ec2881d322648913cd",
+      "reason": "current-rule-match",
+      "target": "最少"
+    },
+    {
+      "id": "9fe8448d8643fe32aa692678",
+      "reason": "current-rule-match",
+      "target": "<b>活塞重拳:</b> 点击一个目标，对其造成<nobr>3点近战伤害</nobr>。"
+    },
+    {
+      "id": "9fefbc998c4108f266dbf62a",
+      "reason": "current-rule-match",
+      "target": "跳过异能阶段"
+    },
+    {
+      "id": "a05ab7e3faed1205bb346c56",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "a08fdd0f36c86107ab893ae4",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "a0a8e05c79b40d09f5d0ad13",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "a0b2264499e1fbb59dcbe276",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "a0eb061f32abfe68b390adff",
+      "reason": "current-rule-match",
+      "target": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+    },
+    {
+      "id": "a1ccd62d38f0fd7152e4b10c",
+      "reason": "current-rule-match",
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将平台机偶放回原处或弃置。"
+    },
+    {
+      "id": "a20cf65329f19ee44953e029",
+      "reason": "current-rule-match",
+      "target": "快子展示的牌："
+    },
+    {
+      "id": "a24b7077f2284f49abf06a6a",
+      "reason": "current-rule-match",
+      "target": "<b>加速末日:</b> 点击目标，选择对它们造成<nobr>2点毒素伤害</nobr>的顺序。"
     },
     {
       "id": "a2bea954a642027fbdb84297",
@@ -933,9 +2383,24 @@
       "target": null
     },
     {
+      "id": "a3fe6585e01f9c6776374e16",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
       "id": "a401cb2eb9d2bbba586e2179",
       "reason": "protected-number-markup",
       "target": null
+    },
+    {
+      "id": "a4dd208f6ea3329a816f0740",
+      "reason": "current-rule-match",
+      "target": "<b>蜜蜂机偶:</b> 点击一个目标，对其造成<nobr>2点投射伤害</nobr>。"
+    },
+    {
+      "id": "a59a5a774d0178bc0794c4bf",
+      "reason": "current-rule-match",
+      "target": "点击一个区域，将反击屏障打出至该处。"
     },
     {
       "id": "a6230170e9d9b5ffc819688a",
@@ -963,9 +2428,59 @@
       "target": "将牌置于军械牌下方"
     },
     {
+      "id": "a7786b5baf2c673aa89cbb99",
+      "reason": "current-rule-match",
+      "target": "抽一张牌"
+    },
+    {
+      "id": "a787aaabefcee9c9f740d32b",
+      "reason": "current-rule-match",
+      "target": "<b>光速连击:</b> 点击一个目标，对其造成<nobr>21点近战伤害</nobr>。"
+    },
+    {
+      "id": "a858c0d96dc8a81be7eb1a11",
+      "reason": "current-rule-match",
+      "target": "S-84自动机兵发现的牌："
+    },
+    {
+      "id": "a8a42f6b9c5688d62454ddca",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
       "id": "a8b0a6dca16a3c5d7cef7d2c",
       "reason": "current-rule-match",
       "target": "<b>反击屏障:</b> <b>刀锋男爵</b>将对<b>宇宙队长</b>造成2点近战伤害。点击一个反应以使用它。"
+    },
+    {
+      "id": "a8dbd296efc03e6f0f1d7962",
+      "reason": "current-rule-match",
+      "target": "<b>黎明公民:</b> 点击一个目标，对其造成<nobr>3点能量伤害</nobr>。"
+    },
+    {
+      "id": "a8eed7e17e758e40cfc62856",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "a92ca619b8412df56de41eb5",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "a934bebb2e0c90a8bd3737c6",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "a9f25283c4af04187ac783d0",
+      "reason": "current-rule-match",
+      "target": "异能阶段（剩余1次）"
+    },
+    {
+      "id": "a9f6d6c78fe4f5c58c08fd3a",
+      "reason": "current-rule-match",
+      "target": "点击或拖动一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
     },
     {
       "id": "aa228e4dccefccff3fd20d5d",
@@ -973,12 +2488,47 @@
       "target": null
     },
     {
+      "id": "aa6d0b9d2ccd44147a013755",
+      "reason": "current-rule-match",
+      "target": "点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击或拖动一个异能以使用它。"
+    },
+    {
+      "id": "aa88bdf4b46c1ca6c27d295b",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "aaba19da5a79103bc1d5743e",
+      "reason": "current-rule-match",
+      "target": "<b>易爆零件:</b> 点击一个目标，对其造成<nobr>2点火焰伤害</nobr>。"
+    },
+    {
       "id": "aaed8b55a5a258462ddb36bb",
       "reason": "current-rule-match",
       "target": "健步如飞抽到的牌："
     },
     {
+      "id": "aaf25dc43c2db8f0562375d6",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "aafa063139a6f2bd4fad36d3",
+      "reason": "current-rule-match",
+      "target": "<b>无情进击:</b> 点击目标，选择对它们造成<nobr>1点火焰伤害</nobr>和<nobr>1点能量伤害</nobr>的顺序。"
+    },
+    {
       "id": "ac1fc1c109b56504668baae6",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "ac2e9210d5635b8e77d6e6e2",
+      "reason": "current-rule-match",
+      "target": "流亡使节抽到的牌："
+    },
+    {
+      "id": "adf6530d8229dcb9fc60bd5b",
       "reason": "protected-number",
       "target": null
     },
@@ -988,9 +2538,39 @@
       "target": "分享"
     },
     {
+      "id": "aeb7b520ec31cdcc25ed9ca6",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "aec8ca0011352b5a8b35f2f7",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "aef9ff2a08f237569bd83c1b",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "af6a392380d04db146de26fb",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "afb1ac66b2536c95bfeb3f7a",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
       "id": "b0546cde75711f4103c6d5d3",
       "reason": "current-rule-match",
       "target": "<b>宇宙冠饰:</b> 点击一个区域，将动力虹吸打出至该处。"
+    },
+    {
+      "id": "b09499a196a85b06a612536b",
+      "reason": "current-rule-match",
+      "target": "游戏规则"
     },
     {
       "id": "b09b06358d0b2b5792394bfe",
@@ -998,9 +2578,24 @@
       "target": "宇宙队长展示的牌："
     },
     {
+      "id": "b0bc0f4cadd0dc60bb9e4a8b",
+      "reason": "current-rule-match",
+      "target": "<b>升级模式:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
       "id": "b0cbdf69d3807ee34b74e591",
       "reason": "current-rule-match",
       "target": "<b>鼓舞同伴:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "b0de7c920e3ee815a73cf04b",
+      "reason": "current-rule-match",
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将身先士卒放回原处或弃置。"
+    },
+    {
+      "id": "b1f1a4f404d6f3a14a28078f",
+      "reason": "protected-number-markup",
+      "target": null
     },
     {
       "id": "b22aa731e450ebbc85409efb",
@@ -1008,14 +2603,44 @@
       "target": "刀锋男爵打出的牌："
     },
     {
+      "id": "b305824a47907cbd8fb859c8",
+      "reason": "current-rule-match",
+      "target": "制作人员"
+    },
+    {
       "id": "b3c69fc8a9e02625224f3436",
       "reason": "protected-number",
       "target": null
     },
     {
+      "id": "b3ca6043bf1db905155e2124",
+      "reason": "current-rule-match",
+      "target": "斯廷森博士的副实验室展示的牌："
+    },
+    {
       "id": "b3e46a0d0b9b6205f23a05a2",
       "reason": "current-rule-match",
       "target": "异能阶段（剩余0次）"
+    },
+    {
+      "id": "b3eb69c73f47d0a566ae6c8c",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "b4823a54de5ddd5ef641df5f",
+      "reason": "current-rule-match",
+      "target": "<b>气魄勃发:</b> 点击一个目标，对其造成近战伤害。"
+    },
+    {
+      "id": "b4a2d5a9858182acc4fd2490",
+      "reason": "current-rule-match",
+      "target": "<b>任务中枢:</b> 点击一个牌库以展示一张牌。"
+    },
+    {
+      "id": "b530119447805bb578b74755",
+      "reason": "current-rule-match",
+      "target": "<b>球状闪电:</b> 点击一张在场的牌以将其破坏。"
     },
     {
       "id": "b53ee5bdcc6f6c03a5fbb50d",
@@ -1033,6 +2658,16 @@
       "target": null
     },
     {
+      "id": "b5e682fb667c2cd29b3894a5",
+      "reason": "current-rule-match",
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将霹雳轰鸣放回原处或弃置。"
+    },
+    {
+      "id": "b5ec431f64f0d0c6540cbe1b",
+      "reason": "current-rule-match",
+      "target": "<b>狂热战舞:</b> 点击至多6张手牌以将其弃置。"
+    },
+    {
       "id": "b67a1a6552c8e6b84ef46d71",
       "reason": "current-rule-match",
       "target": "失能阶段"
@@ -1043,9 +2678,59 @@
       "target": null
     },
     {
+      "id": "b74ae76343c64e3a9309f80d",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "b793ac97fd576cd758527810",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
       "id": "b7dece6360ce5869ebe2483b",
       "reason": "protected-number",
       "target": null
+    },
+    {
+      "id": "b7fd744e7bc39a6f6422aac0",
+      "reason": "current-rule-match",
+      "target": "使用异能"
+    },
+    {
+      "id": "b80df79c318101ca9159f379",
+      "reason": "current-rule-match",
+      "target": "<b>致盲强光:</b> 点击目标，选择对它们造成<nobr>2点能量伤害</nobr>的顺序。"
+    },
+    {
+      "id": "b8cba7b8d9e79962501dad63",
+      "reason": "current-rule-match",
+      "target": "发现机偶牌"
+    },
+    {
+      "id": "b92ed2c2f6206fe7fdacd329",
+      "reason": "current-rule-match",
+      "target": "对5个目标造成伤害"
+    },
+    {
+      "id": "b98aff44039dc41ca0b66c5b",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "b9db358e5d28f1a411c117d1",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "babbe76876e73893f533a844",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "bae3173ee50de2f6c90efd4a",
+      "reason": "current-rule-match",
+      "target": "<b>高效冷却罐:</b> 点击一个异能以使用它。"
     },
     {
       "id": "bb00a3240d7bbd8c66c4fef8",
@@ -1053,13 +2738,83 @@
       "target": "破坏1张牌"
     },
     {
+      "id": "bb5206e70f691d748eb077dd",
+      "reason": "current-rule-match",
+      "target": "原质转换器打出的牌："
+    },
+    {
+      "id": "bb6afe82a39b4c4037c21ca9",
+      "reason": "current-rule-match",
+      "target": "<b>能量守恒:</b> 点击一张牌以将其打出。"
+    },
+    {
       "id": "bc23314eabe56261bf5b1908",
       "reason": "protected-number",
       "target": null
     },
     {
+      "id": "bc2c922dc0f347fc1ed8b015",
+      "reason": "current-rule-match",
+      "target": "<b>热冲击波:</b> 点击至多3个目标，对其各造成<nobr>1点寒冷伤害</nobr>。"
+    },
+    {
       "id": "bc458d7541c6bb459dc16037",
       "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "bc6c0ff01d3bbbb0cdddc3c5",
+      "reason": "current-rule-match",
+      "target": "打出机偶牌"
+    },
+    {
+      "id": "bc886d8ab164bb3742be1fa2",
+      "reason": "current-rule-match",
+      "target": "<b>高射火炮:</b> 点击一张在场或位于高射火炮下方的牌以将其破坏。"
+    },
+    {
+      "id": "bc9c6a103b7763505e5f106b",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "bcbb29ed4f14c3682cd84f4c",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "bce81b563b0bb7d3832db3e2",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "bcf994807fbd9f5d4ddda19d",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "bcfe828a41661adebf23bb8f",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "bda00be0cc4af4699789c945",
+      "reason": "current-rule-match",
+      "target": "<b>传导装配:</b> 点击牌库中的一张牌以将其搜集。"
+    },
+    {
+      "id": "bdb8e4b3ff290b47b76967fb",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "bdea9d13eabf0c1b989f119b",
+      "reason": "current-rule-match",
+      "target": "新建游戏"
+    },
+    {
+      "id": "be707be0e0ce87523dd16b61",
+      "reason": "protected-number-markup",
       "target": null
     },
     {
@@ -1078,14 +2833,44 @@
       "target": null
     },
     {
+      "id": "c01c0a25e725063fad6d8e8b",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "c0cf1bf7a908617761e9fe45",
+      "reason": "current-rule-match",
+      "target": "宇宙冠饰发现的牌："
+    },
+    {
       "id": "c0efcf22c26a013fdd7b2805",
       "reason": "current-rule-match",
       "target": "绝对零度抽到的牌："
     },
     {
+      "id": "c0fe2786cff169588d80bb3e",
+      "reason": "current-rule-match",
+      "target": "<b>绝境部署:</b> 点击牌库中的一张牌以将其召唤。"
+    },
+    {
       "id": "c11bf9d34c4644d070a90585",
       "reason": "current-rule-match",
       "target": "异能阶段"
+    },
+    {
+      "id": "c135fe85bb2a28116a361262",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "c16a0182b2898d11eb2961c7",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "c228b73e7629c74b4b229fd5",
+      "reason": "current-rule-match",
+      "target": "<b>哈卡:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
     },
     {
       "id": "c2443a27bbad12238fad98d8",
@@ -1098,9 +2883,24 @@
       "target": null
     },
     {
+      "id": "c2bcdc413bda6fd1973d5fc3",
+      "reason": "current-rule-match",
+      "target": "你击败了全能智创，化解了危机！"
+    },
+    {
       "id": "c3043d40b5642073dd3f754b",
       "reason": "protected-number",
       "target": null
+    },
+    {
+      "id": "c3e53a3a3f90b32f5a8da130",
+      "reason": "current-rule-match",
+      "target": "<b>等温换能器:</b> 点击一个目标，对其造成<nobr>4点寒冷伤害</nobr>。"
+    },
+    {
+      "id": "c449d8ac08f201bf24d898fe",
+      "reason": "current-rule-match",
+      "target": "展示"
     },
     {
       "id": "c49ecf4dcb262c0d2f71720f",
@@ -1108,9 +2908,24 @@
       "target": "破坏0张牌"
     },
     {
+      "id": "c4a0e7b9a6607c203caa33f2",
+      "reason": "current-rule-match",
+      "target": "灵巧一击抽到的牌："
+    },
+    {
       "id": "c4d760d9ad57f5c2cd326353",
       "reason": "current-rule-match",
       "target": "<b>效率飞升:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "c50affd7c6f2d0bf73ed1fca",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "c513d15bba664a6654dd5d9f",
+      "reason": "current-rule-match",
+      "target": "跳过抽牌"
     },
     {
       "id": "c5a3704352a489aadaca9e8e",
@@ -1128,6 +2943,56 @@
       "target": "异能阶段（剩余2次）"
     },
     {
+      "id": "c6899fab08c9f3dd10e047c4",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "c7632f965dc7d73a2dc2bb34",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "c857555f67abf69d837efd0d",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "c8773f431bdfe20aa0cc85e5",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "c90bc06248f8c8c1973f11dc",
+      "reason": "current-rule-match",
+      "target": "流亡使节展示的牌："
+    },
+    {
+      "id": "c9c184d4030f871db2ba9ab6",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "ca72ea6dd485d25b75f659e9",
+      "reason": "current-rule-match",
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将炮塔模式放回原处或弃置。"
+    },
+    {
+      "id": "ca9c1f3fbbf3f901d67b5a0c",
+      "reason": "current-rule-match",
+      "target": "洗回牌库"
+    },
+    {
+      "id": "ca9cd9dc8be6b7e4d0d6537f",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "cb25d7d3c5a62faac022409d",
+      "reason": "current-rule-match",
+      "target": "补给货箱抽到的牌："
+    },
+    {
       "id": "cb292de18258b43516059995",
       "reason": "translated-output-observed",
       "target": null
@@ -1143,14 +3008,59 @@
       "target": "在此打出"
     },
     {
+      "id": "cc0a2ff429c7e293020d0edf",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "cc16532851e595875642a6a4",
+      "reason": "current-rule-match",
+      "target": "<b>炎夏公民:</b> 点击一个目标，对其造成<nobr>1点火焰伤害</nobr>。"
+    },
+    {
       "id": "ccaf2690569dbcc545893d2e",
       "reason": "current-rule-match",
       "target": "刀锋男爵召唤出的牌："
     },
     {
+      "id": "cd0e2b34f66018caefa2a58f",
+      "reason": "current-rule-match",
+      "target": "<b>考古发掘:</b> 点击弃牌堆中至多3张牌，将其埋藏。"
+    },
+    {
       "id": "cda6a693829d2d4fd8ec8e62",
       "reason": "current-rule-match",
       "target": "<b>宇宙武器:</b> 点击一个目标，对其造成<nobr>3点能量伤害</nobr>。"
+    },
+    {
+      "id": "ce0b24b2d0b1f6ad6e963eb1",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "ce6f8388e6f178f6c63386b6",
+      "reason": "current-rule-match",
+      "target": "<b>加特林机炮:</b> 点击一张在场或位于加特林机炮下方的牌以将其破坏。"
+    },
+    {
+      "id": "cf10d9910cacdc574a872dd9",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "cf2c94ae274b4f664afadc38",
+      "reason": "current-rule-match",
+      "target": "弃置14张牌"
+    },
+    {
+      "id": "d050b51b3dc20c2f5ab7ffce",
+      "reason": "current-rule-match",
+      "target": "发送反馈"
+    },
+    {
+      "id": "d229ffbcfb03512fc02d1ee0",
+      "reason": "current-rule-match",
+      "target": "<b>升级模式:</b> 点击牌库中的一张牌以将其召唤。"
     },
     {
       "id": "d2712112864a9b2518007b5d",
@@ -1163,14 +3073,109 @@
       "target": null
     },
     {
+      "id": "d37e1f17dfbd53ad328a168b",
+      "reason": "current-rule-match",
+      "target": "优妮蒂抽到的牌："
+    },
+    {
+      "id": "d386447b6229e35f787fc0dd",
+      "reason": "current-rule-match",
+      "target": "<b>潜行机偶:</b> <b>高楼失火</b>将对<b>优妮蒂</b>造成2点火焰伤害。点击一张牌，先发动其效果。"
+    },
+    {
+      "id": "d4389dc2af2681aa4b47210e",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "d4be9019a580c31eac373f45",
+      "reason": "current-rule-match",
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将榴弹发射器放回原处或弃置。"
+    },
+    {
+      "id": "d4e0a8feed9c7cf24397b229",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "d50838f546956b74a77bb0bf",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
       "id": "d5cc944f805fec23e62e95bf",
       "reason": "current-rule-match",
       "target": "<b>鼓舞同伴:</b> 点击一位英雄，让其打出一张牌。"
     },
     {
+      "id": "d5db8e8bd89a5f4c488284aa",
+      "reason": "current-rule-match",
+      "target": "弃置4张牌"
+    },
+    {
+      "id": "d5ffaab74ada8169545b0ed6",
+      "reason": "current-rule-match",
+      "target": "<b>宇宙冠饰:</b> 点击宇宙冠饰上的按钮，选择一个效果。"
+    },
+    {
+      "id": "d612219fca1d5d74ae40a0aa",
+      "reason": "current-rule-match",
+      "target": "<b>铁甲工坊:</b> 点击弃牌堆中的一张牌以将其回收。"
+    },
+    {
+      "id": "d73667dd260ff765bbc9f68f",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "d78f06f92999d45348a089b8",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "d8007e442690f8d71fc98594",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
+      "id": "d949190399359e1267ad7a02",
+      "reason": "current-rule-match",
+      "target": "继续游戏"
+    },
+    {
+      "id": "d9acfb8ad4ba5e47b8c4995d",
+      "reason": "current-rule-match",
+      "target": "喷射突击营展示的牌："
+    },
+    {
+      "id": "d9c6bb14c0eac282ee6b3b17",
+      "reason": "current-rule-match",
+      "target": "抽牌"
+    },
+    {
       "id": "d9f369423a67bf24f5244b4d",
       "reason": "protected-number",
       "target": null
+    },
+    {
+      "id": "d9f89895517055f895eec6e5",
+      "reason": "current-rule-match",
+      "target": "打出一张牌"
+    },
+    {
+      "id": "da14ed7c43607c3dc4fa8b72",
+      "reason": "current-rule-match",
+      "target": "传导装配搜集的牌："
+    },
+    {
+      "id": "da49c47a684b0f4aeb706510",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "daa87a5f5a4125350d673197",
+      "reason": "current-rule-match",
+      "target": "<b>优妮蒂:</b> 点击一张在场的牌以将其破坏。"
     },
     {
       "id": "daac7c23900a827d911c692d",
@@ -1193,6 +3198,31 @@
       "target": "对0个目标造成伤害"
     },
     {
+      "id": "db3108c69ed7c56d5cac5e0a",
+      "reason": "current-rule-match",
+      "target": "抽一张牌"
+    },
+    {
+      "id": "dc3e1b7aa077e8beb40e589d",
+      "reason": "current-rule-match",
+      "target": "最少"
+    },
+    {
+      "id": "dc73373c27cadb5656909e09",
+      "reason": "current-rule-match",
+      "target": "点击或拖动一张牌以将其打出。"
+    },
+    {
+      "id": "dd308abc614a205cc7dc6c31",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "ddcaab147f4ff222978f789e",
+      "reason": "current-rule-match",
+      "target": "幽魂武库抽到的牌："
+    },
+    {
       "id": "de8cd0fb61c636d9352bfba7",
       "reason": "current-rule-match",
       "target": "点击一张牌以将其打出。"
@@ -1203,14 +3233,64 @@
       "target": null
     },
     {
+      "id": "df68a220dd06467d8cc801c7",
+      "reason": "current-rule-match",
+      "target": "<b>充能模式:</b> 点击一张手牌，将其置于一张牌下方。"
+    },
+    {
+      "id": "df9c8c5c82da18cb9b2a6f72",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "e00ef46b5b7826fa909100a6",
+      "reason": "current-rule-match",
+      "target": "使用异能"
+    },
+    {
+      "id": "e05fc0e3cdcafb971a395304",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
       "id": "e09d10d047b4a09f7b33dc50",
       "reason": "current-rule-match",
       "target": "<b>刀锋男爵:</b> 点击目标，选择对它们造成<nobr>1点能量伤害</nobr>的顺序。"
     },
     {
+      "id": "e0c02edb1ac0d7a8b899789f",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "e0ca66b1e202a5fcb892a513",
+      "reason": "current-rule-match",
+      "target": "<b>异星气象:</b> 点击风暴的弃牌堆，将其洗入所属牌库。"
+    },
+    {
+      "id": "e0ec53704fdfac2c532a08c5",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "e18b8f86a61330c7df36a6cb",
+      "reason": "current-rule-match",
+      "target": "点击一个异能以使用它。"
+    },
+    {
+      "id": "e18cd25a2e9422ee60a0c858",
+      "reason": "current-rule-match",
+      "target": "最多"
+    },
+    {
       "id": "e25bebd331394d7b41b76357",
       "reason": "current-rule-match",
       "target": "在此打出"
+    },
+    {
+      "id": "e25c7ddc0716d4557c0611d9",
+      "reason": "protected-number",
+      "target": null
     },
     {
       "id": "e2e021766e57939276b250dd",
@@ -1223,9 +3303,49 @@
       "target": "加速末日打出的牌："
     },
     {
+      "id": "e46ca1e02d427f095c99fd44",
+      "reason": "current-rule-match",
+      "target": "<b>泰阿哈战杖:</b> 点击至多2个目标，对其各造成<nobr>3点近战伤害</nobr>。"
+    },
+    {
+      "id": "e46e0bcc8f804e5b31aac7a4",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "e4aa46d4573e624dad424c69",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "e4d552f81897000ed9e8163a",
+      "reason": "current-rule-match",
+      "target": "游戏规则"
+    },
+    {
+      "id": "e4f1e8b6342fe865e3934fec",
+      "reason": "current-rule-match",
+      "target": "能量守恒抽到的牌："
+    },
+    {
       "id": "e57e98a4f8480ad7b9aea0ce",
       "reason": "current-rule-match",
       "target": "破坏4张牌"
+    },
+    {
+      "id": "e59ac1b910ac14cecdf7abd3",
+      "reason": "current-rule-match",
+      "target": "<b>武库机偶:</b> 点击至多2个目标，对其各造成<nobr>2点投射伤害</nobr>。"
+    },
+    {
+      "id": "e5db55862de972548d465d9d",
+      "reason": "current-rule-match",
+      "target": "选项"
+    },
+    {
+      "id": "e61d9d583df07e947683736e",
+      "reason": "current-rule-match",
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将灵感修复放回原处或弃置。"
     },
     {
       "id": "e6aea74b1b8385e1e2b8f9ee",
@@ -1233,9 +3353,44 @@
       "target": null
     },
     {
+      "id": "e71dbc323f00ad6001f24483",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
       "id": "e7c6f55222819c2a2b29a8d4",
       "reason": "current-rule-match",
       "target": "准备"
+    },
+    {
+      "id": "e7f1fc95b6af6d87ac88dd85",
+      "reason": "current-rule-match",
+      "target": "弃置3张牌"
+    },
+    {
+      "id": "e8395871f6b6216ea01a6c24",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "e855bef276b0a0c777944a8d",
+      "reason": "current-rule-match",
+      "target": "<b>一次性电源:</b> 点击一张在场的牌，将升级模式置于其下方。"
+    },
+    {
+      "id": "e96f711d783b33d2935e6256",
+      "reason": "current-rule-match",
+      "target": "展示"
+    },
+    {
+      "id": "e9b958c4d907fdc7e92f36ad",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "e9c15fe0783376163889a74f",
+      "reason": "current-rule-match",
+      "target": "展示"
     },
     {
       "id": "ea02e4f2451f3c39e9eeab52",
@@ -1248,9 +3403,44 @@
       "target": null
     },
     {
+      "id": "ea5d1976cf4e1853215c07d0",
+      "reason": "current-rule-match",
+      "target": "对4个目标造成伤害"
+    },
+    {
+      "id": "eab58b99f364ef8522cf50cd",
+      "reason": "current-rule-match",
+      "target": "<b>升级模式:</b> 点击牌库或弃牌堆中的一张牌以将其召唤。"
+    },
+    {
+      "id": "eaebed7f5152897d2e7b963a",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "eb66c1b45ccd084f3332af3c",
+      "reason": "current-rule-match",
+      "target": "使用异能"
+    },
+    {
+      "id": "ebae6eca6ce8bc38e6685d59",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
       "id": "ec13983ff95dfdb3244d90de",
       "reason": "current-rule-match",
       "target": "对1个目标造成伤害"
+    },
+    {
+      "id": "ecd0ec31ba8ec363a62ea0b7",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "ed34c4fd5ee2c1af91cc8020",
+      "reason": "localized-text-observed",
+      "target": null
     },
     {
       "id": "ed3f5158b0542a1b2aeabaab",
@@ -1258,9 +3448,34 @@
       "target": null
     },
     {
+      "id": "ed5d41e8b2940eaf5e5e6e33",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "ee04b0cdf54bba5caaca81e5",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "ee076985ea254901e1431eec",
+      "reason": "protected-number-markup",
+      "target": null
+    },
+    {
+      "id": "ee131e616ba24256dc7b62c9",
+      "reason": "current-rule-match",
+      "target": "弃置8张牌"
+    },
+    {
       "id": "ee3d96ea13531a3429deb162",
       "reason": "protected-number-markup",
       "target": null
+    },
+    {
+      "id": "ee6159368782e0a4a9b41536",
+      "reason": "current-rule-match",
+      "target": "<b>狂怒暴龙:</b> 点击一个目标，对其造成<nobr>5点近战伤害</nobr>。"
     },
     {
       "id": "ee7c689d6aa5013bbf81381f",
@@ -1278,1537 +3493,12 @@
       "target": null
     },
     {
-      "id": "f02b9d1b6b751a634557119f",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "f38271debc2f46cc57cfdd58",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "f40ba0626be5da6a3f8bf931",
-      "reason": "current-rule-match",
-      "target": "返回\n"
-    },
-    {
-      "id": "f835f5a7c7ecb76d161340d7",
-      "reason": "localized-text-observed",
-      "target": null
-    },
-    {
-      "id": "f861d39b06303b0a49cf8648",
-      "reason": "current-rule-match",
-      "target": "<b>鼓舞同伴:</b> 点击一张牌以将其打出。"
-    },
-    {
-      "id": "fa9c9fbb553e9df6630b1bea",
-      "reason": "current-rule-match",
-      "target": "你击败了刀锋男爵，化解了危机！"
-    },
-    {
-      "id": "fca966451eefb0e940ec48b5",
-      "reason": "current-rule-match",
-      "target": "快子抽到的牌："
-    },
-    {
-      "id": "ffea93ff7280af56873aca64",
-      "reason": "current-rule-match",
-      "target": "抽牌阶段"
-    },
-    {
-      "id": "0064ccbcfdac20bc0c764bf5",
-      "reason": "current-rule-match",
-      "target": "点击一个区域，将活力法渠打出至该处。"
-    },
-    {
-      "id": "00aa2b1318e3c9303b537e19",
-      "reason": "current-rule-match",
-      "target": "<b>能量守恒:</b> 点击或拖动一张牌以将其打出。"
-    },
-    {
-      "id": "011f3b97066fb9a34c9ba15d",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "01645946e97ed3666a4c4a77",
-      "reason": "current-rule-match",
-      "target": "出牌阶段（剩余3次）"
-    },
-    {
-      "id": "02142f6a7337ac9dc248006e",
-      "reason": "current-rule-match",
-      "target": "<b>灵巧一击:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
-    },
-    {
-      "id": "06890aacd2e4b52674fd2b33",
-      "reason": "current-rule-match",
-      "target": "<b>寒霜汲取:</b> 点击一个目标，对其造成<nobr>3点寒冷伤害</nobr>。"
-    },
-    {
-      "id": "07bab2d01dbadf1724e752b2",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "0e8f54ddef71dcf8dc8ce8b8",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "0f82dea51ccf85a0bb9a5d1f",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "10be18ca8f13b1ac75e84009",
-      "reason": "current-rule-match",
-      "target": "造成火焰伤害"
-    },
-    {
-      "id": "1115d40f6fac6ba6d5a81406",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "120b28586835f3bbb43d1ca6",
-      "reason": "current-rule-match",
-      "target": "使用异能"
-    },
-    {
-      "id": "15085a86d5da5e1853af5afe",
-      "reason": "current-rule-match",
-      "target": "激光侦测展示的牌："
-    },
-    {
-      "id": "16bc03bec03b34a0d6560c4c",
-      "reason": "current-rule-match",
-      "target": "<b>反击屏障:</b> <b>喷射突击营</b>将对<b>堡垒</b>造成1点能量伤害。点击一个反应以使用它。"
-    },
-    {
-      "id": "1716b8b3270e6127bf53edf9",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "1765cf0d5746e8a0251c34c1",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "1ad24c2ecf773124658ee16c",
-      "reason": "current-rule-match",
-      "target": "高射火炮下方的牌"
-    },
-    {
-      "id": "1c1109a297496da33b131c4b",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "21d0870faca6fa7893d71694",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "220f3ac93310f222cb6353d6",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "2222798afac0f8652054c783",
-      "reason": "current-rule-match",
-      "target": "<b>等温换能器:</b> 点击或拖动一张牌以将其打出。"
-    },
-    {
-      "id": "24906d6ef866771dd0a78f45",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "27c58138c6d857f7d43dd203",
-      "reason": "current-rule-match",
-      "target": "绝境部署召唤出的牌："
-    },
-    {
-      "id": "2a6924242f91b3f0bb1e4258",
-      "reason": "current-rule-match",
-      "target": "<b>应急护盾:</b> <b>反噬场发生器</b>将对<b>堡垒</b>造成1点闪电伤害。点击一个反应以使用它。"
-    },
-    {
-      "id": "2ab190feb12b4ba59f5d8e53",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "2b646bafdeddb3bea3f5cf0c",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "2ccd7f5108b15d91eb3e8007",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "2e9749aef2afda5c9f353eed",
-      "reason": "current-rule-match",
-      "target": "<b>高射火炮:</b> 点击一个目标，对其造成<nobr>3点投射伤害</nobr>。"
-    },
-    {
-      "id": "2fae84e7c7cb1cf2b0b4a560",
-      "reason": "current-rule-match",
-      "target": "<b>喷射突击营:</b> 点击3个目标，对其各造成<nobr>2点能量伤害</nobr>。"
-    },
-    {
-      "id": "30bd7e317c8318b2ac0cfb6b",
-      "reason": "current-rule-match",
-      "target": "<b>疾如闪电:</b> 点击一张在场的牌以将其破坏。"
-    },
-    {
-      "id": "33a43368d017acc1de33c0ad",
-      "reason": "current-rule-match",
-      "target": "点击一张在场的牌，发动其<nobr><sprite name=\"StartPhase\"> <b>开始阶段</b></nobr>效果。"
-    },
-    {
-      "id": "370776b0c4c1b9ab74d4a9ef",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "3718ec6088f81664d27cb482",
-      "reason": "current-rule-match",
-      "target": "造成寒冷伤害"
-    },
-    {
-      "id": "38ec492eb2a8118b5ad09328",
-      "reason": "current-rule-match",
-      "target": "<b>活塞重拳:</b> 点击一张在场的牌，将活塞重拳置于其下方。"
-    },
-    {
-      "id": "3dfe08a133833e8bbf0e1390",
-      "reason": "current-rule-match",
-      "target": "<b>激光侦测:</b> 点击一个牌库以展示一张牌。"
-    },
-    {
-      "id": "3e7a90fee690910780096469",
-      "reason": "current-rule-match",
-      "target": "<b>传导装配:</b> 点击或拖动一张牌以将其打出。"
-    },
-    {
-      "id": "40868a03b1cb010dea203870",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "44ad4d765e62321dea20b133",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "45d016dc6c6012818c8e7439",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "4aa60a3b7c93fcf4b4d6a580",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "4f3a587aacc20830722a5db3",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "4fc486b17d26d3f56a029b33",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "5001fb18212a5203ce9a4f66",
-      "reason": "current-rule-match",
-      "target": "抽一张牌"
-    },
-    {
-      "id": "5112190a1b28334bb7ab0e32",
-      "reason": "current-rule-match",
-      "target": "<b>等温换能器:</b> 点击一个目标，对其造成<nobr>3点寒冷伤害</nobr>。"
-    },
-    {
-      "id": "5292b6da580ead9dfac056eb",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "534e14312f07624e3bcbb653",
-      "reason": "current-rule-match",
-      "target": "<b>音波旋涡:</b> 点击至多11个目标，对其各造成<nobr>3点音波伤害</nobr>。"
-    },
-    {
-      "id": "540e9ed1fef456a98a917d95",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "544070d05aea523b210f987d",
-      "reason": "current-rule-match",
-      "target": "<b>食草剑龙:</b> 点击视为手牌最少的英雄。"
-    },
-    {
-      "id": "556e9c1ebaafbf207079d5c1",
-      "reason": "current-rule-match",
-      "target": "<b>宇宙冠饰:</b> 点击一个区域，将能量护腕打出至该处。"
-    },
-    {
-      "id": "55a3905bc1c7e0b908054205",
-      "reason": "current-rule-match",
-      "target": "挂载穿甲炮下方的牌"
-    },
-    {
-      "id": "59fa6a09c5edeee6b3671479",
-      "reason": "current-rule-match",
-      "target": "<b>加特林机炮:</b> 点击一个目标，对其造成<nobr>1点投射伤害</nobr>。"
-    },
-    {
-      "id": "5ab385cf4002c3cc91a9b351",
-      "reason": "current-rule-match",
-      "target": "高效冷却罐抽到的牌："
-    },
-    {
-      "id": "5b2b89ebddd1ce1e5267f304",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "5c39dafe0c1ca6a80bf714cb",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "5dc36b80a8cbb623ef8836cb",
-      "reason": "current-rule-match",
-      "target": "<b>等温换能器:</b> 点击一个目标，对其造成<nobr>2点寒冷伤害</nobr>。"
-    },
-    {
-      "id": "5fba43ac4c56a5fee05bc0df",
-      "reason": "current-rule-match",
-      "target": "<b>绝对零度:</b> 点击绝对零度上的按钮，选择一个效果。"
-    },
-    {
-      "id": "6196aa2758ab81bc5630fc6a",
-      "reason": "current-rule-match",
-      "target": "出牌阶段（剩余2次）"
-    },
-    {
-      "id": "63d3735c5e00db60125422be",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "6503cda0b11b8e09117b4ba5",
-      "reason": "current-rule-match",
-      "target": "激光侦测抽到的牌："
-    },
-    {
-      "id": "65794d6e41644c4687c6a62c",
-      "reason": "current-rule-match",
-      "target": "<b>等温换能器:</b> 点击一个目标，对其造成<nobr>5点寒冷伤害</nobr>。"
-    },
-    {
-      "id": "668bf2131dd75ca45e6254b3",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "6800cffe71c19d2bfe737d67",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "68822b6e5bbd68d59fa52dbd",
-      "reason": "current-rule-match",
-      "target": "<b>反击屏障:</b> <b>刀锋男爵</b>将对<b>堡垒</b>造成1点毒素伤害。点击一个反应以使用它。"
-    },
-    {
-      "id": "69ad4e951dc440758ba40190",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "6a33b5ca9600cb76eabf5450",
-      "reason": "current-rule-match",
-      "target": "升级模式召唤出的牌："
-    },
-    {
-      "id": "6d42939e3144b82725fb40e7",
-      "reason": "current-rule-match",
-      "target": "<b>静物艺术:</b> 点击一个目标，防止其造成伤害。"
-    },
-    {
-      "id": "6f35a1708c2ee2fc7d29b33a",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "704094b2e75b80f8d46368fc",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "7208e4c0bea0b1b820d932b7",
-      "reason": "current-rule-match",
-      "target": "<b>等温换能器:</b> 点击一个目标，对其造成<nobr>8点寒冷伤害</nobr>。"
-    },
-    {
-      "id": "720a74169f25477afe620bb0",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "738dd9d02afb44e8e3f7daf8",
-      "reason": "current-rule-match",
-      "target": "使用异能"
-    },
-    {
-      "id": "78404e58cf0f998ebc093091",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "842fed9f739433975976bcc5",
-      "reason": "current-rule-match",
-      "target": "<b>高效冷却罐:</b> 点击高效冷却罐上的按钮，选择一个效果。"
-    },
-    {
-      "id": "8820e61460a2d3cdf2799784",
-      "reason": "current-rule-match",
-      "target": "食草剑龙抽到的牌："
-    },
-    {
-      "id": "8d2a4721359de071ace37f16",
-      "reason": "current-rule-match",
-      "target": "<b>突施冷拳:</b> 点击一个目标，对其造成<nobr>1点近战伤害</nobr>。"
-    },
-    {
-      "id": "92882f8f952ba6df22ca5e7d",
-      "reason": "current-rule-match",
-      "target": "点击一张在场的牌，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
-    },
-    {
-      "id": "998e548e466a3839a9bffd7c",
-      "reason": "current-rule-match",
-      "target": "<b>反击屏障:</b> <b>反噬场发生器</b>将对<b>堡垒</b>造成1点闪电伤害。点击一个反应以使用它。"
-    },
-    {
-      "id": "9ab087c7581d459f7cb403da",
-      "reason": "current-rule-match",
-      "target": "传导装配抽到的牌："
-    },
-    {
-      "id": "9ac2b349820f805617f06a22",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "9bf8a733889c88824cfcba8d",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "9f3d2fcee5d6bda3bf9aa6c7",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "9fd0a0ec2881d322648913cd",
-      "reason": "current-rule-match",
-      "target": "最少"
-    },
-    {
-      "id": "9fe8448d8643fe32aa692678",
-      "reason": "current-rule-match",
-      "target": "<b>活塞重拳:</b> 点击一个目标，对其造成<nobr>3点近战伤害</nobr>。"
-    },
-    {
-      "id": "a08fdd0f36c86107ab893ae4",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "a24b7077f2284f49abf06a6a",
-      "reason": "current-rule-match",
-      "target": "<b>加速末日:</b> 点击目标，选择对它们造成<nobr>2点毒素伤害</nobr>的顺序。"
-    },
-    {
-      "id": "a3fe6585e01f9c6776374e16",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "a787aaabefcee9c9f740d32b",
-      "reason": "current-rule-match",
-      "target": "<b>光速连击:</b> 点击一个目标，对其造成<nobr>21点近战伤害</nobr>。"
-    },
-    {
-      "id": "a8eed7e17e758e40cfc62856",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "adf6530d8229dcb9fc60bd5b",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "b0bc0f4cadd0dc60bb9e4a8b",
-      "reason": "current-rule-match",
-      "target": "<b>升级模式:</b> 点击或拖动一张牌以将其打出。"
-    },
-    {
-      "id": "babbe76876e73893f533a844",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "bae3173ee50de2f6c90efd4a",
-      "reason": "current-rule-match",
-      "target": "<b>高效冷却罐:</b> 点击一个异能以使用它。"
-    },
-    {
-      "id": "bb6afe82a39b4c4037c21ca9",
-      "reason": "current-rule-match",
-      "target": "<b>能量守恒:</b> 点击一张牌以将其打出。"
-    },
-    {
-      "id": "bc2c922dc0f347fc1ed8b015",
-      "reason": "current-rule-match",
-      "target": "<b>热冲击波:</b> 点击至多3个目标，对其各造成<nobr>1点寒冷伤害</nobr>。"
-    },
-    {
-      "id": "bc886d8ab164bb3742be1fa2",
-      "reason": "current-rule-match",
-      "target": "<b>高射火炮:</b> 点击一张在场或位于高射火炮下方的牌以将其破坏。"
-    },
-    {
-      "id": "bda00be0cc4af4699789c945",
-      "reason": "current-rule-match",
-      "target": "<b>传导装配:</b> 点击牌库中的一张牌以将其搜集。"
-    },
-    {
-      "id": "c0fe2786cff169588d80bb3e",
-      "reason": "current-rule-match",
-      "target": "<b>绝境部署:</b> 点击牌库中的一张牌以将其召唤。"
-    },
-    {
-      "id": "c3e53a3a3f90b32f5a8da130",
-      "reason": "current-rule-match",
-      "target": "<b>等温换能器:</b> 点击一个目标，对其造成<nobr>4点寒冷伤害</nobr>。"
-    },
-    {
-      "id": "c4a0e7b9a6607c203caa33f2",
-      "reason": "current-rule-match",
-      "target": "灵巧一击抽到的牌："
-    },
-    {
-      "id": "c9c184d4030f871db2ba9ab6",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "ce6f8388e6f178f6c63386b6",
-      "reason": "current-rule-match",
-      "target": "<b>加特林机炮:</b> 点击一张在场或位于加特林机炮下方的牌以将其破坏。"
-    },
-    {
-      "id": "d4389dc2af2681aa4b47210e",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "d9acfb8ad4ba5e47b8c4995d",
-      "reason": "current-rule-match",
-      "target": "喷射突击营展示的牌："
-    },
-    {
-      "id": "da14ed7c43607c3dc4fa8b72",
-      "reason": "current-rule-match",
-      "target": "传导装配搜集的牌："
-    },
-    {
-      "id": "db3108c69ed7c56d5cac5e0a",
-      "reason": "current-rule-match",
-      "target": "抽一张牌"
-    },
-    {
-      "id": "dc3e1b7aa077e8beb40e589d",
-      "reason": "current-rule-match",
-      "target": "最少"
-    },
-    {
-      "id": "dd308abc614a205cc7dc6c31",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "e4aa46d4573e624dad424c69",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "e4f1e8b6342fe865e3934fec",
-      "reason": "current-rule-match",
-      "target": "能量守恒抽到的牌："
-    },
-    {
-      "id": "e8395871f6b6216ea01a6c24",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "ea5d1976cf4e1853215c07d0",
-      "reason": "current-rule-match",
-      "target": "对4个目标造成伤害"
-    },
-    {
-      "id": "eab58b99f364ef8522cf50cd",
-      "reason": "current-rule-match",
-      "target": "<b>升级模式:</b> 点击牌库或弃牌堆中的一张牌以将其召唤。"
-    },
-    {
-      "id": "ebae6eca6ce8bc38e6685d59",
-      "reason": "localized-text-observed",
-      "target": null
-    },
-    {
-      "id": "ecd0ec31ba8ec363a62ea0b7",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "ed34c4fd5ee2c1af91cc8020",
-      "reason": "localized-text-observed",
-      "target": null
-    },
-    {
-      "id": "ee076985ea254901e1431eec",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "ee6159368782e0a4a9b41536",
-      "reason": "current-rule-match",
-      "target": "<b>狂怒暴龙:</b> 点击一个目标，对其造成<nobr>5点近战伤害</nobr>。"
-    },
-    {
       "id": "f012309ccb4112f8861a028d",
       "reason": "current-rule-match",
       "target": "<b>应急护盾:</b> <b>喷射突击营</b>将对<b>堡垒</b>造成1点能量伤害。点击一个反应以使用它。"
     },
     {
-      "id": "f17a76403e6fe9c51eb23084",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "f3ed3d7eeb1e2e2c425719e2",
-      "reason": "current-rule-match",
-      "target": "最少"
-    },
-    {
-      "id": "f8c46a7a98997fcb100981d3",
-      "reason": "current-rule-match",
-      "target": "<b>零点校准器:</b> 点击或拖动一张牌以将其打出。"
-    },
-    {
-      "id": "00ae142e380049c8597c2827",
-      "reason": "current-rule-match",
-      "target": "放回原处"
-    },
-    {
-      "id": "00ae49cb1fa0649e6d8129d5",
-      "reason": "current-rule-match",
-      "target": "斯廷森博士的副实验室展示的牌："
-    },
-    {
-      "id": "01450721533bb71249c6228a",
-      "reason": "current-rule-match",
-      "target": "放回原处"
-    },
-    {
-      "id": "02fadfdb4c71e47cb4158bb3",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "037315b7b0d3e049a9caa0e4",
-      "reason": "current-rule-match",
-      "target": "使用异能"
-    },
-    {
-      "id": "05578dbb60044c983df6b681",
-      "reason": "current-rule-match",
-      "target": "放回原处"
-    },
-    {
-      "id": "058ce98e92514ab904b9e596",
-      "reason": "current-rule-match",
-      "target": "<b>S-83突击机兵:</b> 点击2个目标，对其各造成<nobr>4点近战伤害</nobr>。"
-    },
-    {
-      "id": "08b82b33db6611aa6d6be340",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "0e4210176c585f79427e77f9",
-      "reason": "current-rule-match",
-      "target": "全能智创发现的牌："
-    },
-    {
-      "id": "0fe412c7549aed885bbb9930",
-      "reason": "current-rule-match",
-      "target": "抽牌"
-    },
-    {
-      "id": "10d98167c99a8e632c0ff3b6",
-      "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将英雄本色放回原处或弃置。"
-    },
-    {
-      "id": "1311b83f9a44a73dfd4debce",
-      "reason": "current-rule-match",
-      "target": "放回原处"
-    },
-    {
-      "id": "13c11fc2079cf95f304892e6",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "13da7df6be29b57f7f2d4f55",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "1655a13b21f0326adf16f281",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "1b0ac685869a74edafd80b9d",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "1d59e4a15f217d10bb22fb41",
-      "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将挂载穿甲炮放回原处或弃置。"
-    },
-    {
-      "id": "1e5ae326343db8f5917cd557",
-      "reason": "current-rule-match",
-      "target": "<b>自由安保:</b> 点击一张手牌以将其弃置。"
-    },
-    {
-      "id": "208a559ecb20dec4c333161d",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "21847ab8383754fe69ef12c6",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "227d8295afde89c4bf1a04d4",
-      "reason": "current-rule-match",
-      "target": "气魄勃发抽到的牌："
-    },
-    {
-      "id": "23f5cb8cdd42916c19063c33",
-      "reason": "current-rule-match",
-      "target": "异星水产学家抽到的牌："
-    },
-    {
-      "id": "27274baeb94a5d15c53f0a93",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "28a093a3a3f82f016c700ff1",
-      "reason": "current-rule-match",
-      "target": "异星水产学家展示的牌："
-    },
-    {
-      "id": "2c0950e1edde81b02d3e1b53",
-      "reason": "current-rule-match",
-      "target": "打出一张牌"
-    },
-    {
-      "id": "2c3d1a7a5f6574510f8016c9",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "2c431df3641bfd28b22ddb7b",
-      "reason": "current-rule-match",
-      "target": "<b>迅猛龙机偶:</b> 点击一个目标，对其造成<nobr>4点近战伤害</nobr>。"
-    },
-    {
-      "id": "2e55635696d462bea8a9f5fa",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "2fe98b9d6c0d6025776719b8",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "306519dc884757ac6da24577",
-      "reason": "current-rule-match",
-      "target": "自由大厦打出的牌："
-    },
-    {
-      "id": "31544c7451f317619c7ec9fb",
-      "reason": "current-rule-match",
-      "target": "<b>原质转换器:</b> 点击一张在场的牌以将其破坏。"
-    },
-    {
-      "id": "31841c371b77454981d38f30",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "319e77e7f91b24c7169e70eb",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "31e1953844fdedcf101f39b8",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "330559021373f130f7bfc84b",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "3435a44d3b14df9ae8aceb08",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "3472ca02df7100c85484816b",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "36fd0932926942970b609433",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "379e1760efa0ab187e5b7140",
-      "reason": "current-rule-match",
-      "target": "<b>一次性电源:</b> 点击一张在场的牌，将充能模式置于其下方。"
-    },
-    {
-      "id": "383821b20cc2d2e348247611",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "3911848bb60c9b33a537f733",
-      "reason": "current-rule-match",
-      "target": "<b>解离射线:</b> 点击一个目标，对其造成能量伤害。"
-    },
-    {
-      "id": "3d582e96d6042ec1acbb9a98",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "3d9921cc8e8ac44179d6d9cb",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "3ec6eb6a429941397465f45a",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "406cd78b49254c5f0ca898b3",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "40cb8cd15e5debd958f0db93",
-      "reason": "current-rule-match",
-      "target": "打出一张牌"
-    },
-    {
-      "id": "4132f8ca388188fd9aaabd18",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "413809bcbe5644c04e691db4",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "446e847552fceb1ec9d27b51",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "464a6773604f24d25e4c0355",
-      "reason": "current-rule-match",
-      "target": "点击一个目标，发动其<nobr><sprite name=\"EndPhase\"> <b>结束阶段</b></nobr>效果。"
-    },
-    {
-      "id": "474a5bade91f36b9e885e176",
-      "reason": "current-rule-match",
-      "target": "抽牌"
-    },
-    {
-      "id": "48d4bd89491865ef80284206",
-      "reason": "current-rule-match",
-      "target": "哈卡抽到的牌："
-    },
-    {
-      "id": "4a50c28525e49536f35d83f6",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "4aaeabc1bd769466e346b871",
-      "reason": "current-rule-match",
-      "target": "抽牌"
-    },
-    {
-      "id": "4b65e47566556549f7ee2781",
-      "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将流亡使节放回原处或弃置。"
-    },
-    {
-      "id": "506f4ec2c9e7dc0e066e66c4",
-      "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将补给货箱放回原处或弃置。"
-    },
-    {
-      "id": "53cb958f9671b88023cf2c1b",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "5433af351edcd0dca7f4e6c0",
-      "reason": "current-rule-match",
-      "target": "<b>狂热战舞:</b> 点击2个目标，对其各造成<nobr>3点近战伤害</nobr>。"
-    },
-    {
-      "id": "551a1d46c5078bb110aa0ec5",
-      "reason": "current-rule-match",
-      "target": "放回原处"
-    },
-    {
-      "id": "56cfcf0a4d4bf5e7810c5bc1",
-      "reason": "current-rule-match",
-      "target": "发现机偶牌"
-    },
-    {
-      "id": "58856020cead01453cd99190",
-      "reason": "current-rule-match",
-      "target": "<b>异星水产学家:</b> 选择一个区域，将破墙而入放回原处或弃置。"
-    },
-    {
-      "id": "58c524a2190ad89cdd40f7de",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "5d07811c7a6d6048b63a2b54",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "5d4eb81102bb8c40d5034eca",
-      "reason": "current-rule-match",
-      "target": "<b>榴弹发射器:</b> 点击一张在场或位于榴弹发射器下方的牌以将其破坏。"
-    },
-    {
-      "id": "5dd4c4000e1dda54c939bd17",
-      "reason": "current-rule-match",
-      "target": "瞬间锻造发现的牌："
-    },
-    {
-      "id": "5df90c1e2cc3f40a48e93237",
-      "reason": "current-rule-match",
-      "target": "<b>泰阿哈战杖:</b> 点击一张在场的牌以将其破坏。"
-    },
-    {
-      "id": "5e5ea359d923c2ffa436c984",
-      "reason": "current-rule-match",
-      "target": "<b>奇点投射器:</b> 点击3张在场的牌以将其破坏。"
-    },
-    {
-      "id": "5e8b03879ad004ab4d380bda",
-      "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将征战战舞放回原处或弃置。"
-    },
-    {
-      "id": "5eece7d0e4866e799989fe7f",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "5efe21b1fe5e7e8d6c59b02b",
-      "reason": "current-rule-match",
-      "target": "异星水产学家展示的牌："
-    },
-    {
-      "id": "5f77d120009544ec0e28ab50",
-      "reason": "current-rule-match",
-      "target": "全能智创打出的牌："
-    },
-    {
-      "id": "6126652dd04ef304a8ddccca",
-      "reason": "current-rule-match",
-      "target": "<b>蜜蜂机偶:</b> 点击一张在场的牌以将其破坏。"
-    },
-    {
-      "id": "627eb67a4317f167d1164ff2",
-      "reason": "current-rule-match",
-      "target": "<b>平台机偶:</b> 点击一个目标，对其造成<nobr>3点能量伤害</nobr>。"
-    },
-    {
-      "id": "64ab6d14c8732a92f5f9ad19",
-      "reason": "current-rule-match",
-      "target": "<b>异星水产学家:</b> 选择一个区域，将任务中枢放回原处或弃置。"
-    },
-    {
-      "id": "67be4494df14e4bd869a960e",
-      "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将狂热战舞放回原处或弃置。"
-    },
-    {
-      "id": "67c3cc9cbdf6cd7214e71e95",
-      "reason": "current-rule-match",
-      "target": "风暴抽到的牌："
-    },
-    {
-      "id": "68713a80b8d99c68b7b05226",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "689e51015bc408826f302d86",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "68b151d62b70a604a5c7f716",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "6b818b11da0dc0bdf448052b",
-      "reason": "current-rule-match",
-      "target": "放回原处"
-    },
-    {
-      "id": "6d62d72515609eced47989c0",
-      "reason": "current-rule-match",
-      "target": "<b>补给货箱:</b> 点击优妮蒂的牌库，抽2张牌。"
-    },
-    {
-      "id": "6e3ffd9c4181398ee2de733c",
-      "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将复苏战舞放回原处或弃置。"
-    },
-    {
-      "id": "6ea5faff7d13bfe648bb1407",
-      "reason": "current-rule-match",
-      "target": "使用异能"
-    },
-    {
-      "id": "70e915268e111bd624b3e5c0",
-      "reason": "current-rule-match",
-      "target": "阵中起舞抽到的牌："
-    },
-    {
-      "id": "72143ad7147822e2213c90b4",
-      "reason": "current-rule-match",
-      "target": "<b>迅猛龙机偶:</b> 点击一个目标，对其造成<nobr>5点近战伤害</nobr>。"
-    },
-    {
-      "id": "732a393159accf0e3af2e847",
-      "reason": "current-rule-match",
-      "target": "<b>砰！:</b> 点击一个目标，对其造成<nobr>5点近战伤害</nobr>。"
-    },
-    {
-      "id": "735845412a1b6402a6e915ad",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "73b493d72f72569275ccf9b7",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "746ba2eb32ced79e0f278116",
-      "reason": "current-rule-match",
-      "target": "<b>幽魂武库:</b> 点击一位英雄，让其抽1张牌。"
-    },
-    {
-      "id": "76c171d8bfce8cc8ff01c547",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "7a36828de12583cecf7f30be",
-      "reason": "current-rule-match",
-      "target": "<b>瞬间锻造:</b> 点击瞬间锻造上的按钮，选择一个效果。"
-    },
-    {
-      "id": "7c7f6ce6988f861afb1c99f7",
-      "reason": "current-rule-match",
-      "target": "发现物品牌"
-    },
-    {
-      "id": "7cbe0437970c8973ca16854c",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "7cf5ed18d28a8f1fdd0799f9",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "7f637ec3d99d4ef38a25befe",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "8169c4cc2ba5426752a9d6d2",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "81c73a76d199ca57efe8a215",
-      "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 点击一个牌库以展示一张牌。"
-    },
-    {
-      "id": "81e1eefbef72c9fed00ba1e4",
-      "reason": "current-rule-match",
-      "target": "<b>威能之赐:</b> 点击哈卡的牌库，抽3张牌。"
-    },
-    {
-      "id": "840e60f55680e61975039b0e",
-      "reason": "current-rule-match",
-      "target": "放回原处"
-    },
-    {
-      "id": "85f74e303ea5b35dd51d6387",
-      "reason": "current-rule-match",
-      "target": "<b>自由安保:</b> 点击2张手牌以将其弃置。"
-    },
-    {
-      "id": "86088ddad799099a73c778bb",
-      "reason": "current-rule-match",
-      "target": "打出一张牌"
-    },
-    {
-      "id": "86090f2daac28fd2bdce2551",
-      "reason": "current-rule-match",
-      "target": "<b>头脑风暴:</b> 点击至多3个目标，对其各造成<nobr>1点闪电伤害</nobr>。"
-    },
-    {
-      "id": "86928ea40de84cf69a678c44",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "8741a361dc46046fa4d67e82",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "87696f52ffc0a0b54c7ad865",
-      "reason": "current-rule-match",
-      "target": "<b>阵中起舞:</b> 点击或拖动一张牌以将其打出。"
-    },
-    {
-      "id": "87dbf9ddc344b7c2ac5eee21",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "8a6acfe38ccc946e066cac8b",
-      "reason": "current-rule-match",
-      "target": "打出一张牌"
-    },
-    {
-      "id": "8d2a7b9d29ff557b81a8bfa4",
-      "reason": "current-rule-match",
-      "target": "<b>异星水产学家:</b> 选择一个区域，将斯廷森博士的副实验室放回原处或弃置。"
-    },
-    {
-      "id": "8db9a3ac397a0cffcb288703",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "90001703f02414438f23395a",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "9041f8d3adbd3beb93836384",
-      "reason": "current-rule-match",
-      "target": "<b>左右开弓:</b> 点击或拖动一张牌以将其打出。"
-    },
-    {
-      "id": "90d0486081bce9087bf886ec",
-      "reason": "current-rule-match",
-      "target": "<b>临阵强化:</b> 点击一位英雄，让其使用一个异能。"
-    },
-    {
-      "id": "946dd7faee708d0bb39dbc10",
-      "reason": "current-rule-match",
-      "target": "<b>风暴:</b> 点击目标，选择对它们造成<nobr>1点投射伤害</nobr>的顺序。"
-    },
-    {
-      "id": "96625071e3216d4d4f9c1318",
-      "reason": "current-rule-match",
-      "target": "抽牌"
-    },
-    {
-      "id": "96980c1d59c0437fcbffb8f0",
-      "reason": "current-rule-match",
-      "target": "<b>低温机偶:</b> 点击至多3个目标，对其各造成<nobr>1点寒冷伤害</nobr>。"
-    },
-    {
-      "id": "9993585e06561f477a27deba",
-      "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将电光斩击放回原处或弃置。"
-    },
-    {
-      "id": "9a133cab1dc5a9e226c952ee",
-      "reason": "current-rule-match",
-      "target": "榴弹发射器下方的牌"
-    },
-    {
-      "id": "9cd6084b7cf3a20c005f6920",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "9db6e45fabd947ca4102c8d9",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "9ee8342d119f8e2a87fce16d",
-      "reason": "current-rule-match",
-      "target": "<b>榴弹发射器:</b> 点击3个目标，对其各造成<nobr>2点火焰伤害</nobr>。"
-    },
-    {
-      "id": "9f796d3563fc958735dd546c",
-      "reason": "current-rule-match",
-      "target": "<b>建造支柱:</b> 点击一张牌以将其打出。"
-    },
-    {
-      "id": "9fadf0f7f2b73207bb4983b7",
-      "reason": "current-rule-match",
-      "target": "<b>自由安保:</b> 点击一位英雄，让其弃置1张牌。"
-    },
-    {
-      "id": "a05ab7e3faed1205bb346c56",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "a1ccd62d38f0fd7152e4b10c",
-      "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将平台机偶放回原处或弃置。"
-    },
-    {
-      "id": "a4dd208f6ea3329a816f0740",
-      "reason": "current-rule-match",
-      "target": "<b>蜜蜂机偶:</b> 点击一个目标，对其造成<nobr>2点投射伤害</nobr>。"
-    },
-    {
-      "id": "a8a42f6b9c5688d62454ddca",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "a934bebb2e0c90a8bd3737c6",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "aaba19da5a79103bc1d5743e",
-      "reason": "current-rule-match",
-      "target": "<b>易爆零件:</b> 点击一个目标，对其造成<nobr>2点火焰伤害</nobr>。"
-    },
-    {
-      "id": "ac2e9210d5635b8e77d6e6e2",
-      "reason": "current-rule-match",
-      "target": "流亡使节抽到的牌："
-    },
-    {
-      "id": "aec8ca0011352b5a8b35f2f7",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "aef9ff2a08f237569bd83c1b",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "af6a392380d04db146de26fb",
-      "reason": "current-rule-match",
-      "target": "抽牌"
-    },
-    {
-      "id": "b0de7c920e3ee815a73cf04b",
-      "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将身先士卒放回原处或弃置。"
-    },
-    {
-      "id": "b3ca6043bf1db905155e2124",
-      "reason": "current-rule-match",
-      "target": "斯廷森博士的副实验室展示的牌："
-    },
-    {
-      "id": "b4823a54de5ddd5ef641df5f",
-      "reason": "current-rule-match",
-      "target": "<b>气魄勃发:</b> 点击一个目标，对其造成近战伤害。"
-    },
-    {
-      "id": "b4a2d5a9858182acc4fd2490",
-      "reason": "current-rule-match",
-      "target": "<b>任务中枢:</b> 点击一个牌库以展示一张牌。"
-    },
-    {
-      "id": "b530119447805bb578b74755",
-      "reason": "current-rule-match",
-      "target": "<b>球状闪电:</b> 点击一张在场的牌以将其破坏。"
-    },
-    {
-      "id": "b5e682fb667c2cd29b3894a5",
-      "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将霹雳轰鸣放回原处或弃置。"
-    },
-    {
-      "id": "b5ec431f64f0d0c6540cbe1b",
-      "reason": "current-rule-match",
-      "target": "<b>狂热战舞:</b> 点击至多6张手牌以将其弃置。"
-    },
-    {
-      "id": "b74ae76343c64e3a9309f80d",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "b793ac97fd576cd758527810",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "b7fd744e7bc39a6f6422aac0",
-      "reason": "current-rule-match",
-      "target": "使用异能"
-    },
-    {
-      "id": "bb5206e70f691d748eb077dd",
-      "reason": "current-rule-match",
-      "target": "原质转换器打出的牌："
-    },
-    {
-      "id": "bc9c6a103b7763505e5f106b",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "bcfe828a41661adebf23bb8f",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "c01c0a25e725063fad6d8e8b",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "c135fe85bb2a28116a361262",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "c16a0182b2898d11eb2961c7",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "c228b73e7629c74b4b229fd5",
-      "reason": "current-rule-match",
-      "target": "<b>哈卡:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
-    },
-    {
-      "id": "c50affd7c6f2d0bf73ed1fca",
-      "reason": "current-rule-match",
-      "target": "抽牌"
-    },
-    {
-      "id": "c513d15bba664a6654dd5d9f",
-      "reason": "current-rule-match",
-      "target": "跳过抽牌"
-    },
-    {
-      "id": "c8773f431bdfe20aa0cc85e5",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "c90bc06248f8c8c1973f11dc",
-      "reason": "current-rule-match",
-      "target": "流亡使节展示的牌："
-    },
-    {
-      "id": "ca72ea6dd485d25b75f659e9",
-      "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将炮塔模式放回原处或弃置。"
-    },
-    {
-      "id": "ca9cd9dc8be6b7e4d0d6537f",
-      "reason": "current-rule-match",
-      "target": "抽牌"
-    },
-    {
-      "id": "cb25d7d3c5a62faac022409d",
-      "reason": "current-rule-match",
-      "target": "补给货箱抽到的牌："
-    },
-    {
-      "id": "cc0a2ff429c7e293020d0edf",
-      "reason": "localized-text-observed",
-      "target": null
-    },
-    {
-      "id": "cf10d9910cacdc574a872dd9",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "d229ffbcfb03512fc02d1ee0",
-      "reason": "current-rule-match",
-      "target": "<b>升级模式:</b> 点击牌库中的一张牌以将其召唤。"
-    },
-    {
-      "id": "d37e1f17dfbd53ad328a168b",
-      "reason": "current-rule-match",
-      "target": "优妮蒂抽到的牌："
-    },
-    {
-      "id": "d4be9019a580c31eac373f45",
-      "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将榴弹发射器放回原处或弃置。"
-    },
-    {
-      "id": "d73667dd260ff765bbc9f68f",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "d8007e442690f8d71fc98594",
-      "reason": "current-rule-match",
-      "target": "抽牌"
-    },
-    {
-      "id": "d9c6bb14c0eac282ee6b3b17",
-      "reason": "current-rule-match",
-      "target": "抽牌"
-    },
-    {
-      "id": "da49c47a684b0f4aeb706510",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "ddcaab147f4ff222978f789e",
-      "reason": "current-rule-match",
-      "target": "幽魂武库抽到的牌："
-    },
-    {
-      "id": "df68a220dd06467d8cc801c7",
-      "reason": "current-rule-match",
-      "target": "<b>充能模式:</b> 点击一张手牌，将其置于一张牌下方。"
-    },
-    {
-      "id": "e00ef46b5b7826fa909100a6",
-      "reason": "current-rule-match",
-      "target": "使用异能"
-    },
-    {
-      "id": "e05fc0e3cdcafb971a395304",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "e46ca1e02d427f095c99fd44",
-      "reason": "current-rule-match",
-      "target": "<b>泰阿哈战杖:</b> 点击至多2个目标，对其各造成<nobr>3点近战伤害</nobr>。"
-    },
-    {
-      "id": "e46e0bcc8f804e5b31aac7a4",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "e59ac1b910ac14cecdf7abd3",
-      "reason": "current-rule-match",
-      "target": "<b>武库机偶:</b> 点击至多2个目标，对其各造成<nobr>2点投射伤害</nobr>。"
-    },
-    {
-      "id": "e61d9d583df07e947683736e",
-      "reason": "current-rule-match",
-      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将灵感修复放回原处或弃置。"
-    },
-    {
-      "id": "e71dbc323f00ad6001f24483",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "e96f711d783b33d2935e6256",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "e9c15fe0783376163889a74f",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "eb66c1b45ccd084f3332af3c",
-      "reason": "current-rule-match",
-      "target": "使用异能"
-    },
-    {
-      "id": "ed5d41e8b2940eaf5e5e6e33",
+      "id": "f02b9d1b6b751a634557119f",
       "reason": "protected-number-markup",
       "target": null
     },
@@ -2828,6 +3518,16 @@
       "target": "<b>临阵强化:</b> 点击或拖动一个异能以使用它。"
     },
     {
+      "id": "f17a76403e6fe9c51eb23084",
+      "reason": "translated-output-observed",
+      "target": null
+    },
+    {
+      "id": "f210b34507fbca402bd1a510",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
       "id": "f276af8e3c57b502a7914162",
       "reason": "current-rule-match",
       "target": "放回原处"
@@ -2843,9 +3543,29 @@
       "target": "任务中枢展示的牌："
     },
     {
+      "id": "f38271debc2f46cc57cfdd58",
+      "reason": "protected-number",
+      "target": null
+    },
+    {
+      "id": "f3912db4a7a3ac1e7ce77f99",
+      "reason": "current-rule-match",
+      "target": "<b>优妮蒂:</b> 点击优妮蒂上的按钮，选择一个效果。"
+    },
+    {
       "id": "f3d7a97654f6bf609bcd3fe2",
       "reason": "translated-output-observed",
       "target": null
+    },
+    {
+      "id": "f3ed3d7eeb1e2e2c425719e2",
+      "reason": "current-rule-match",
+      "target": "最少"
+    },
+    {
+      "id": "f40ba0626be5da6a3f8bf931",
+      "reason": "current-rule-match",
+      "target": "返回\n"
     },
     {
       "id": "f4263c9d4cbea1d66df3ed29",
@@ -2858,14 +3578,69 @@
       "target": null
     },
     {
+      "id": "f66fac0f86a40150a98eef52",
+      "reason": "current-rule-match",
+      "target": "最多"
+    },
+    {
+      "id": "f7fb0629056b52596c82ef95",
+      "reason": "current-rule-match",
+      "target": "<b>凛冬公民:</b> 点击目标，选择对它们造成<nobr>2点寒冷伤害</nobr>的顺序。"
+    },
+    {
       "id": "f80dda9131956d74f40565f6",
       "reason": "current-rule-match",
       "target": "弃置"
     },
     {
+      "id": "f835f5a7c7ecb76d161340d7",
+      "reason": "localized-text-observed",
+      "target": null
+    },
+    {
+      "id": "f861d39b06303b0a49cf8648",
+      "reason": "current-rule-match",
+      "target": "<b>鼓舞同伴:</b> 点击一张牌以将其打出。"
+    },
+    {
+      "id": "f8ae5fe47a908aec1d569cf4",
+      "reason": "current-rule-match",
+      "target": "<b>优妮蒂:</b> 点击一张牌以将其打出。"
+    },
+    {
+      "id": "f8c46a7a98997fcb100981d3",
+      "reason": "current-rule-match",
+      "target": "<b>零点校准器:</b> 点击或拖动一张牌以将其打出。"
+    },
+    {
       "id": "f956cb531e609d0a0d43be0b",
       "reason": "current-rule-match",
       "target": "<b>球状闪电:</b> 点击一个目标，对其造成<nobr>3点闪电伤害</nobr>。"
+    },
+    {
+      "id": "f9d567ecd4f6b7d686e95da2",
+      "reason": "current-rule-match",
+      "target": "弃置"
+    },
+    {
+      "id": "fa16313d5de560634f8b7060",
+      "reason": "current-rule-match",
+      "target": "快速游戏"
+    },
+    {
+      "id": "fa9c9fbb553e9df6630b1bea",
+      "reason": "current-rule-match",
+      "target": "你击败了刀锋男爵，化解了危机！"
+    },
+    {
+      "id": "fafd0788b853875cf53f5ab4",
+      "reason": "current-rule-match",
+      "target": "弃置11张牌"
+    },
+    {
+      "id": "fca966451eefb0e940ec48b5",
+      "reason": "current-rule-match",
+      "target": "快子抽到的牌："
     },
     {
       "id": "fd680e68d97b3efcb2e9ca07",
@@ -2878,774 +3653,19 @@
       "target": "威能之赐抽到的牌："
     },
     {
-      "id": "ff40894668f2daa364e9a201",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "0039f55059e6c1d3d3a27fb5",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "0845736881ce8867467bea14",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "093e74037412a38aa777f5f5",
-      "reason": "current-rule-match",
-      "target": "在此打出"
-    },
-    {
-      "id": "0bbda5d80c160bc5058b6821",
-      "reason": "current-rule-match",
-      "target": "<b>应急护盾:</b> <b>S-83突击机兵</b>将对<b>堡垒</b>造成2点近战伤害。点击一个反应以使用它。"
-    },
-    {
-      "id": "0e829f99f1e919ca055dd0b7",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "0ea65d2e9dd3295c533f7451",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "1297d8fc5dd4712d08daba7d",
-      "reason": "current-rule-match",
-      "target": "<b>宇宙队长:</b> 点击一个区域，将能量护腕打出至该处。"
-    },
-    {
-      "id": "12e0f6de3c2f13f957e3bed7",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "1491e84f9d4957af37410386",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "149973812ddf008b6e1abe65",
-      "reason": "current-rule-match",
-      "target": "弃置7张牌"
-    },
-    {
-      "id": "182e98267e5d301e098a6f06",
-      "reason": "current-rule-match",
-      "target": "在此打出"
-    },
-    {
-      "id": "1ae11d2baa295f14e00a9cf3",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "1d0b27154624f66e1386a518",
-      "reason": "current-rule-match",
-      "target": "<b>任务中枢:</b> 点击至多2个目标，对其各造成<nobr>2点近战伤害</nobr>。"
-    },
-    {
-      "id": "1d35438fe7331dd4e0011e8a",
-      "reason": "current-rule-match",
-      "target": "最多"
-    },
-    {
-      "id": "1eca78b655672b24a636df5c",
-      "reason": "current-rule-match",
-      "target": "弃置13张牌"
-    },
-    {
-      "id": "1ef52985e76a3777b17db315",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "1ff255d5fdbd1d40d714308d",
-      "reason": "current-rule-match",
-      "target": "<b>突触阻断:</b> <b>凛冬公民</b>将对<b>快子</b>造成1点火焰伤害。点击一个反应以使用它。"
-    },
-    {
-      "id": "24ad7989485211066b1ee15c",
-      "reason": "current-rule-match",
-      "target": "最多"
-    },
-    {
-      "id": "24f0b24e8d231f8d38d307e5",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "27485448cf258f7c5fbb68ad",
-      "reason": "current-rule-match",
-      "target": "<b>炎夏公民:</b> 点击视为场上牌最多的英雄。"
-    },
-    {
-      "id": "2753f1383ed7cecc89698e9e",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "28089f1646ae06ef7c9ef403",
-      "reason": "current-rule-match",
-      "target": "黎明公民发现的牌："
-    },
-    {
-      "id": "2905752145edc03425f0d920",
-      "reason": "current-rule-match",
-      "target": "强行制伏发现的牌："
-    },
-    {
-      "id": "2954c4b544be7b00dbbba468",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "2f83a1475e39d3c43b5c402e",
-      "reason": "current-rule-match",
-      "target": "弃置10张牌"
-    },
-    {
-      "id": "2faf2536fcd1a888c19ea4ba",
-      "reason": "current-rule-match",
-      "target": "选择"
-    },
-    {
-      "id": "3277914ef81458334f65503b",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "32d7a7de5159182d8d2f64e8",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "32fddc0370262e57978172b5",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "338f5604e64e35be53a18489",
-      "reason": "current-rule-match",
-      "target": "<b>快子:</b> 选择一个区域，抽取或弃置高超音速冲刺。"
-    },
-    {
-      "id": "33edc2a34fb41f6a91c55dec",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "341ebaca771be068514fbc6e",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "34edcfbe43b50b780597d166",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "3617f3b76a810de39031d366",
-      "reason": "current-rule-match",
-      "target": "选择"
-    },
-    {
-      "id": "3665f29bbf3bc9c16f5f03a4",
-      "reason": "current-rule-match",
-      "target": "<b>一次性电源:</b> 点击弃牌堆中的一张牌，将其置于一张牌下方。"
-    },
-    {
-      "id": "369b22816dceb5ef7378b930",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "38b5657717e727c730ed9308",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "39da4f8cc3d1f7f5a01f6b34",
-      "reason": "current-rule-match",
-      "target": "弃置12张牌"
-    },
-    {
-      "id": "39e9c51c476b5002ccf91c3f",
-      "reason": "localized-text-observed",
-      "target": null
-    },
-    {
-      "id": "39ee539253469b92f8df9f10",
-      "reason": "current-rule-match",
-      "target": "<b>动力虹吸:</b> <b>黎明公民</b>将对<b>幽魂</b>造成2点能量伤害。点击一个反应以使用它。"
-    },
-    {
-      "id": "3a6af98bfcb1d657d30c107c",
-      "reason": "current-rule-match",
-      "target": "全能智创的生命值已降至<nobr>0点</nobr>。"
-    },
-    {
-      "id": "3ce6ac176dfb19ecfac136a9",
-      "reason": "current-rule-match",
-      "target": "<b>挂载穿甲炮:</b> 点击一个目标，对其造成<nobr>6点投射伤害</nobr>。"
-    },
-    {
-      "id": "40371b4b1931528f7a3164a7",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "41dfe12caceb49c7d6259641",
-      "reason": "current-rule-match",
-      "target": "<b>铁甲工坊:</b> 点击一位英雄，让其回收1张牌。"
-    },
-    {
-      "id": "426ef4569a049abc805b1183",
-      "reason": "current-rule-match",
-      "target": "最多"
-    },
-    {
-      "id": "42fcbdad0756d8ef505409a6",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "46c5e3039a5a1760f4520cce",
-      "reason": "current-rule-match",
-      "target": "<b>致盲强光:</b> 点击一位英雄，让其弃置1张牌。"
-    },
-    {
-      "id": "474236a72150ddcf2344d6e9",
-      "reason": "current-rule-match",
-      "target": "<b>一次性电源:</b> 点击一张在场的牌，将一次性电源置于其下方。"
-    },
-    {
-      "id": "4746f4568979fc7ac97d8456",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "481ee9f0e0cf62725c0ed5a6",
-      "reason": "current-rule-match",
-      "target": "<b>征战战舞:</b> 点击一个目标，对其造成<nobr>17点近战伤害</nobr>。"
-    },
-    {
-      "id": "4a104cc2e96d21733b8bfb24",
-      "reason": "current-rule-match",
-      "target": "弃置5张牌"
-    },
-    {
-      "id": "4b1ccb721069cdca2ed0be68",
-      "reason": "current-rule-match",
-      "target": "弃置15张牌"
-    },
-    {
-      "id": "4c6b223c8ecf380bcb4308ad",
-      "reason": "current-rule-match",
-      "target": "<b>致盲强光:</b> 点击一张手牌以将其弃置。"
-    },
-    {
-      "id": "4ce4ab3c98256e0bbb29d962",
-      "reason": "current-rule-match",
-      "target": "幽魂抽到的牌："
-    },
-    {
-      "id": "4f0982d616ff668a3b7549a9",
-      "reason": "current-rule-match",
-      "target": "<b>突触阻断:</b> 点击突触阻断上的按钮，选择一个效果。"
-    },
-    {
-      "id": "503cb343aa522e8e1444029b",
-      "reason": "current-rule-match",
-      "target": "巨都会打出的牌："
-    },
-    {
-      "id": "50b12cfb7201af6bc6ee1d45",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "515ccdac6a0f7ef923e861a4",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "5174ed0ea07259614d8cb0a2",
-      "reason": "current-rule-match",
-      "target": "筹码在握搜集的牌："
-    },
-    {
-      "id": "51f69557de49b602623d67e0",
-      "reason": "current-rule-match",
-      "target": "<b>阵中起舞:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
-    },
-    {
-      "id": "526f40d2751c326a6c657eba",
-      "reason": "current-rule-match",
-      "target": "选择"
-    },
-    {
-      "id": "52d0554d5d1ce8a41cba6ae5",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "54224b7ba4e2b3b1c4f0d081",
-      "reason": "current-rule-match",
-      "target": "<b>强行制伏:</b> 点击全能智创的弃牌堆，将奇点投射器弃置。"
-    },
-    {
-      "id": "552dddb587f8391ea9fb620e",
-      "reason": "current-rule-match",
-      "target": "黎明公民打出的牌："
-    },
-    {
-      "id": "5d701218b4df8e8eb15d9464",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "5e8010fbca9134f8d1087a68",
-      "reason": "current-rule-match",
-      "target": "筹码在握抽到的牌："
-    },
-    {
-      "id": "63ab563d47630f4d594bacdf",
-      "reason": "current-rule-match",
-      "target": "抽牌"
-    },
-    {
-      "id": "6515a7affe350888d6fa8c67",
-      "reason": "current-rule-match",
-      "target": "<b>光速连击:</b> 点击一个目标，对其造成<nobr>3点近战伤害</nobr>。"
-    },
-    {
-      "id": "67da317308d5bf3d928649b4",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "68845988cc54903b43b944af",
-      "reason": "current-rule-match",
-      "target": "<b>挂载穿甲炮:</b> 点击2张在场或位于挂载穿甲炮下方的牌以将其破坏。"
-    },
-    {
-      "id": "6ac8989edbfe217a15170212",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "6cf768382c6b0028a8897c31",
-      "reason": "current-rule-match",
-      "target": "<b>突触阻断:</b> 点击或拖动一张牌以将其打出。"
-    },
-    {
-      "id": "79cbd66c45695c3e8d1a7d3f",
-      "reason": "current-rule-match",
-      "target": "快子展示的牌："
-    },
-    {
-      "id": "7c68395484dca81e2ad54dfa",
-      "reason": "current-rule-match",
-      "target": "<b>动力虹吸:</b> 点击或拖动一个异能以使用它。"
-    },
-    {
-      "id": "7df5db7db0960edbc8d7800a",
-      "reason": "current-rule-match",
-      "target": "弃置9张牌"
-    },
-    {
-      "id": "7dff409dbc122aaeaa9fd0ec",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "7fb2f55c104a8089a8af3f18",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "7ff839788e05b0a8da7ba712",
-      "reason": "current-rule-match",
-      "target": "<b>快子:</b> 选择一个区域，抽取或弃置平显护目镜。"
-    },
-    {
-      "id": "800e1d1ab6397507493c3e15",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "84e4e149b5705f61f49e72b2",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "89252fdf7c3fe0a905796a9d",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "8cd4249af86ad355f4fc7a37",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "8ffe2fc26325219abc126e5e",
-      "reason": "current-rule-match",
-      "target": "<b>高楼失火:</b> 点击一位英雄，让其弃置1张牌。"
-    },
-    {
-      "id": "940428af8407b1282bde125d",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "94f398745b8ade1e6c02a988",
-      "reason": "current-rule-match",
-      "target": "<b>利刃武装:</b> 点击一个目标，对其造成<nobr>3点投射伤害</nobr>。"
-    },
-    {
-      "id": "95038ade2edca7f045009ac3",
-      "reason": "current-rule-match",
-      "target": "<b>筹码在握:</b> 点击牌库中的一张牌以将其搜集。"
-    },
-    {
-      "id": "96ab18e9093ae9a86b731ddd",
-      "reason": "current-rule-match",
-      "target": "弃置6张牌"
-    },
-    {
-      "id": "97a57bcafef74c3d15a69a0a",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "9acd2b0d078d69c2a3937f55",
-      "reason": "current-rule-match",
-      "target": "点击一个区域，将动力虹吸打出至该处。"
-    },
-    {
-      "id": "9b6d2c73f24edc2f36d94acc",
-      "reason": "current-rule-match",
-      "target": "异能阶段（剩余3次）"
-    },
-    {
-      "id": "9b89a3659856b0d84c2fa0bd",
-      "reason": "current-rule-match",
-      "target": "<b>征战战舞:</b> 点击至多16张手牌以将其弃置。"
-    },
-    {
-      "id": "9cf93e9a2ce225a738826679",
-      "reason": "current-rule-match",
-      "target": "<b>加速突袭:</b> 点击目标，选择对它们造成<nobr>1点近战伤害</nobr>的顺序。"
-    },
-    {
-      "id": "a0b2264499e1fbb59dcbe276",
-      "reason": "current-rule-match",
-      "target": "在此打出"
-    },
-    {
-      "id": "a20cf65329f19ee44953e029",
-      "reason": "current-rule-match",
-      "target": "快子展示的牌："
-    },
-    {
-      "id": "a7786b5baf2c673aa89cbb99",
-      "reason": "current-rule-match",
-      "target": "抽一张牌"
-    },
-    {
-      "id": "a858c0d96dc8a81be7eb1a11",
-      "reason": "current-rule-match",
-      "target": "S-84自动机兵发现的牌："
-    },
-    {
-      "id": "a8dbd296efc03e6f0f1d7962",
-      "reason": "current-rule-match",
-      "target": "<b>黎明公民:</b> 点击一个目标，对其造成<nobr>3点能量伤害</nobr>。"
-    },
-    {
-      "id": "a92ca619b8412df56de41eb5",
-      "reason": "localized-text-observed",
-      "target": null
-    },
-    {
-      "id": "a9f6d6c78fe4f5c58c08fd3a",
-      "reason": "current-rule-match",
-      "target": "点击或拖动一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
-    },
-    {
-      "id": "aa88bdf4b46c1ca6c27d295b",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "aaf25dc43c2db8f0562375d6",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "aeb7b520ec31cdcc25ed9ca6",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "b1f1a4f404d6f3a14a28078f",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "b3eb69c73f47d0a566ae6c8c",
-      "reason": "translated-output-observed",
-      "target": null
-    },
-    {
-      "id": "b80df79c318101ca9159f379",
-      "reason": "current-rule-match",
-      "target": "<b>致盲强光:</b> 点击目标，选择对它们造成<nobr>2点能量伤害</nobr>的顺序。"
-    },
-    {
-      "id": "b8cba7b8d9e79962501dad63",
-      "reason": "current-rule-match",
-      "target": "发现机偶牌"
-    },
-    {
-      "id": "b92ed2c2f6206fe7fdacd329",
-      "reason": "current-rule-match",
-      "target": "对5个目标造成伤害"
-    },
-    {
-      "id": "bc6c0ff01d3bbbb0cdddc3c5",
-      "reason": "current-rule-match",
-      "target": "打出机偶牌"
-    },
-    {
-      "id": "bce81b563b0bb7d3832db3e2",
-      "reason": "localized-text-observed",
-      "target": null
-    },
-    {
-      "id": "bcf994807fbd9f5d4ddda19d",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "bdb8e4b3ff290b47b76967fb",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "be707be0e0ce87523dd16b61",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "c2bcdc413bda6fd1973d5fc3",
-      "reason": "current-rule-match",
-      "target": "你击败了全能智创，化解了危机！"
-    },
-    {
-      "id": "c449d8ac08f201bf24d898fe",
-      "reason": "current-rule-match",
-      "target": "展示"
-    },
-    {
-      "id": "c6899fab08c9f3dd10e047c4",
-      "reason": "localized-text-observed",
-      "target": null
-    },
-    {
-      "id": "c7632f965dc7d73a2dc2bb34",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "c857555f67abf69d837efd0d",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "cc16532851e595875642a6a4",
-      "reason": "current-rule-match",
-      "target": "<b>炎夏公民:</b> 点击一个目标，对其造成<nobr>1点火焰伤害</nobr>。"
-    },
-    {
-      "id": "ce0b24b2d0b1f6ad6e963eb1",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "cf2c94ae274b4f664afadc38",
-      "reason": "current-rule-match",
-      "target": "弃置14张牌"
-    },
-    {
-      "id": "d4e0a8feed9c7cf24397b229",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "d5db8e8bd89a5f4c488284aa",
-      "reason": "current-rule-match",
-      "target": "弃置4张牌"
-    },
-    {
-      "id": "d612219fca1d5d74ae40a0aa",
-      "reason": "current-rule-match",
-      "target": "<b>铁甲工坊:</b> 点击弃牌堆中的一张牌以将其回收。"
-    },
-    {
-      "id": "d9f89895517055f895eec6e5",
-      "reason": "current-rule-match",
-      "target": "打出一张牌"
-    },
-    {
-      "id": "daa87a5f5a4125350d673197",
-      "reason": "current-rule-match",
-      "target": "<b>优妮蒂:</b> 点击一张在场的牌以将其破坏。"
-    },
-    {
-      "id": "df9c8c5c82da18cb9b2a6f72",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "e0c02edb1ac0d7a8b899789f",
-      "reason": "protected-number",
-      "target": null
-    },
-    {
-      "id": "e0ec53704fdfac2c532a08c5",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "e18cd25a2e9422ee60a0c858",
-      "reason": "current-rule-match",
-      "target": "最多"
-    },
-    {
-      "id": "e7f1fc95b6af6d87ac88dd85",
-      "reason": "current-rule-match",
-      "target": "弃置3张牌"
-    },
-    {
-      "id": "e855bef276b0a0c777944a8d",
-      "reason": "current-rule-match",
-      "target": "<b>一次性电源:</b> 点击一张在场的牌，将升级模式置于其下方。"
-    },
-    {
-      "id": "e9b958c4d907fdc7e92f36ad",
-      "reason": "protected-number-markup",
-      "target": null
-    },
-    {
-      "id": "ee04b0cdf54bba5caaca81e5",
-      "reason": "localized-text-observed",
-      "target": null
-    },
-    {
-      "id": "ee131e616ba24256dc7b62c9",
-      "reason": "current-rule-match",
-      "target": "弃置8张牌"
-    },
-    {
-      "id": "f3912db4a7a3ac1e7ce77f99",
-      "reason": "current-rule-match",
-      "target": "<b>优妮蒂:</b> 点击优妮蒂上的按钮，选择一个效果。"
-    },
-    {
-      "id": "f66fac0f86a40150a98eef52",
-      "reason": "current-rule-match",
-      "target": "最多"
-    },
-    {
-      "id": "f7fb0629056b52596c82ef95",
-      "reason": "current-rule-match",
-      "target": "<b>凛冬公民:</b> 点击目标，选择对它们造成<nobr>2点寒冷伤害</nobr>的顺序。"
-    },
-    {
-      "id": "f8ae5fe47a908aec1d569cf4",
-      "reason": "current-rule-match",
-      "target": "<b>优妮蒂:</b> 点击一张牌以将其打出。"
-    },
-    {
-      "id": "f9d567ecd4f6b7d686e95da2",
-      "reason": "current-rule-match",
-      "target": "弃置"
-    },
-    {
-      "id": "fafd0788b853875cf53f5ab4",
-      "reason": "current-rule-match",
-      "target": "弃置11张牌"
-    },
-    {
       "id": "febc57f44de0fd4ef7283d55",
       "reason": "current-rule-match",
       "target": "<b>宇宙队长:</b> 点击一个区域，将活力法渠打出至该处。"
     },
     {
-      "id": "01f1c2253f530c5f77cdc1fa",
+      "id": "ff40894668f2daa364e9a201",
       "reason": "current-rule-match",
-      "target": "<b>潜行机偶:</b> <b>高楼失火</b>将对<b>武库机偶</b>造成2点火焰伤害。点击一张牌，先发动其效果。"
+      "target": "弃置"
     },
     {
-      "id": "d386447b6229e35f787fc0dd",
+      "id": "ffea93ff7280af56873aca64",
       "reason": "current-rule-match",
-      "target": "<b>潜行机偶:</b> <b>高楼失火</b>将对<b>优妮蒂</b>造成2点火焰伤害。点击一张牌，先发动其效果。"
-    },
-    {
-      "id": "ca9c1f3fbbf3f901d67b5a0c",
-      "reason": "current-rule-match",
-      "target": "洗回牌库"
-    },
-    {
-      "id": "e0ca66b1e202a5fcb892a513",
-      "reason": "current-rule-match",
-      "target": "<b>异星气象:</b> 点击风暴的弃牌堆，将其洗入所属牌库。"
-    },
-    {
-      "id": "10a4ea82d532fe30f5128a40",
-      "reason": "current-rule-match",
-      "target": "埋藏0张牌"
-    },
-    {
-      "id": "3bac41270c791dac3f62a8e5",
-      "reason": "current-rule-match",
-      "target": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
-    },
-    {
-      "id": "7ffe24f0af36c56749b0da04",
-      "reason": "current-rule-match",
-      "target": "弃置1张牌"
-    },
-    {
-      "id": "a0eb061f32abfe68b390adff",
-      "reason": "current-rule-match",
-      "target": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
-    },
-    {
-      "id": "cd0e2b34f66018caefa2a58f",
-      "reason": "current-rule-match",
-      "target": "<b>考古发掘:</b> 点击弃牌堆中至多3张牌，将其埋藏。"
-    },
-    {
-      "id": "60d58e55474a0605b409c807",
-      "reason": "current-rule-match",
-      "target": "刀锋男爵的地月牵引光束让月球撞上了地球！"
-    },
-    {
-      "id": "8674ecb96b25ad5c37e15f67",
-      "reason": "current-rule-match",
-      "target": "跳过抽牌阶段"
-    },
-    {
-      "id": "97fb3f3912580de4ef725523",
-      "reason": "current-rule-match",
-      "target": "<b>单轨车坠落:</b> 点击一位英雄，使其受到伤害。"
+      "target": "抽牌阶段"
     }
   ]
 }

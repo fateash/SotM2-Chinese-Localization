@@ -16,7 +16,7 @@ class InventoryTests(unittest.TestCase):
  def test_all_sources_and_legacy_translations_preserved(self):
   out,r=i.build(self.data,self.rows)
   old,_=c.compile_catalog(c.load(ROOT/'baseline/registry.json'),c.snapshot((ROOT/'translations').glob('*.json')),'translated')
-  self.assertEqual(len(self.rows),2558);self.assertEqual(len(self.config['files']),50)
+  self.assertEqual(len(self.rows),2561);self.assertEqual(len(self.config['files']),50)
   self.assertEqual(out['Ui'],old['Ui']);self.assertEqual(set(map(str,out['Cards'])),set(map(str,old['Cards'])))
   self.assertEqual(out['Display'],[]);self.assertEqual(r['included'],89)
  def test_new_translation_routes_and_crlf(self):
@@ -87,7 +87,7 @@ class MigrationTests(unittest.TestCase):
   return request
  def test_full_additive_migration_preserves_89(self):
   result,resolved=s.migrate(self.config,self.data,self.fake(),True)
-  self.assertEqual(len(result),50);self.assertEqual(sum(map(len,result.values())),2558)
+  self.assertEqual(len(result),50);self.assertEqual(sum(map(len,result.values())),2561)
   self.assertEqual(resolved['files']['heroes/Legacy.json'],3595650)
   self.assertEqual(len(self.writes),50)
   new={r['key']:r for rows in result.values() for r in rows}

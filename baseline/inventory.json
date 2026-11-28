@@ -46389,6 +46389,52 @@
         "metadataSha256": "b252acf9da519ce15729a43eb6b2cf6d643fda3200b2fdc7a146476819c05969",
         "literalIndex": 11311
       }
+    },
+    {
+      "key": "editorial.ui.hint.attack.order.dual",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "{0}Click targets to choose the order of dealing them <nobr>{1} {2}</nobr> and <nobr>{3} {4}</nobr> damage.",
+      "sourceSha256": "993e54db4941d8faf1a66b107cc3de4f40c391c2285f0a160bf7182f45bc7ced",
+      "context": "0.1.32限定HUD完整句式：数值、伤害类型、标签保留；待实机画面及交互验收。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-163119-21617d.zip",
+          "SotM2-Dynamic-Evidence-20261128-163956-325080.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.hint.attack.order.triple",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "{0}Click targets to choose the order of dealing them <nobr>{1} {2}</nobr>, <nobr>{3} {4}</nobr>, and <nobr>{5} {6}</nobr> damage.",
+      "sourceSha256": "5f25724bc90dd53f43fa66472e6fbac4a69107af9e50fd0270c3910589b5427d",
+      "context": "0.1.32限定HUD完整句式：数值、伤害类型、标签保留；待实机画面及交互验收。 三段形式依据既有三段伤害完整语法主动组合，未实机观察。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "basis": "runtime/DynamicDisplayRules.cs#TargetMultiDamage",
+        "kind": "synthetic-not-observed"
+      }
+    },
+    {
+      "key": "editorial.ui.hint.attack.unspecified.nobr",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "{0}Click a target to deal it <nobr>{1}</nobr> damage.",
+      "sourceSha256": "6888934dfb010d4ef7620f1bdab17aff215da5f77af91a88bbcac8dc52a6daf2",
+      "context": "0.1.32限定HUD完整句式：数值、伤害类型、标签保留；待实机画面及交互验收。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-163119-21617d.zip",
+          "SotM2-Dynamic-Evidence-20261128-163956-325080.zip"
+        ]
+      }
     }
   ]
 }

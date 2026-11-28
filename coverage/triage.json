@@ -3349,6 +3349,82 @@
         "status": "implemented-pending-live-test",
         "evidence": "coverage/contracts.json#special-villain-endings"
       }
+    },
+    {
+      "id": "aafa063139a6f2bd4fad36d3",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.31完整HUD原文已确认：双段排序、阶段组合句序或无数值伤害富文本形式未接入。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.32复现，检查完整画面、数字及点击／拖动行为。",
+      "resolution": {
+        "version": "0.1.32-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#multi-damage-order"
+      }
+    },
+    {
+      "id": "699bf7a879250b52531dc237",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.31完整HUD原文已确认：双段排序、阶段组合句序或无数值伤害富文本形式未接入。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.32复现，检查完整画面、数字及点击／拖动行为。",
+      "resolution": {
+        "version": "0.1.32-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#phase-hint-composition"
+      }
+    },
+    {
+      "id": "aa6d0b9d2ccd44147a013755",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.31完整HUD原文已确认：双段排序、阶段组合句序或无数值伤害富文本形式未接入。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.32复现，检查完整画面、数字及点击／拖动行为。",
+      "resolution": {
+        "version": "0.1.32-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#phase-hint-composition"
+      }
+    },
+    {
+      "id": "03bf2a08c1a76ebdc929665c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.31完整HUD原文已确认：双段排序、阶段组合句序或无数值伤害富文本形式未接入。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.32复现，检查完整画面、数字及点击／拖动行为。",
+      "resolution": {
+        "version": "0.1.32-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#wrapped-unspecified-damage"
+      }
+    },
+    {
+      "id": "18e17bdb5b780652282eb5c5",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "SonicVortex正文已为中文；剥除合法显示标签后拉丁字符仅规则变量X，数量与变量保留，不属于英文漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "保留变量与数字；本项不提升操作或画面验收。"
+    },
+    {
+      "id": "596ee16eb1c2a2ef16048205",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "CoolantBlast正文已为中文；剥除合法显示标签后拉丁字符仅规则变量X，数量与变量保留，不属于英文漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "保留变量与数字；本项不提升操作或画面验收。"
+    },
+    {
+      "id": "b570b00adec245176c63d627",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "HakaOfRecovery正文已为中文；剥除合法显示标签后拉丁字符仅规则变量X，数量与变量保留，不属于英文漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "保留变量与数字；本项不提升操作或画面验收。"
     }
   ]
 }

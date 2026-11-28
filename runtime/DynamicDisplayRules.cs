@@ -143,6 +143,9 @@ public sealed class DynamicDisplayRules {
   ["hint.reduce"]=(2,""),
   ["hint.attack.unspecified"]=(2,""),
   ["hint.attack.order"]=(3,"<nobr></nobr>"),
+  ["hint.attack.order.dual"]=(5,"<nobr></nobr><nobr></nobr>"),
+  ["hint.attack.order.triple"]=(7,"<nobr></nobr><nobr></nobr><nobr></nobr>"),
+  ["hint.attack.unspecified.nobr"]=(2,"<nobr></nobr>"),
   ["hint.reaction"]=(5,"<b></b><b></b>"),["hint.reaction.first"]=(5,"<b></b><b></b>"),
   ["button.play.card"]=(0,""),
   ["button.use.power"]=(0,""),
@@ -183,6 +186,8 @@ public sealed class DynamicDisplayRules {
  static readonly Regex Reduce=Rx(@"\AClick up to (?<n>[0-9]{1,6}) targets to reduce damage dealt to them\.\z");
  static readonly Regex UnspecifiedDamage=Rx(@"\AClick a target to deal it (?<type>[a-z]+) damage\.\z");
  static readonly Regex DamageOrder=Rx(@"\AClick targets to choose the order of dealing them <nobr>(?<n>[0-9]{1,6}) (?<type>fire|melee|cold|energy|infernal|lightning|projectile|psychic|radiant|sonic|toxic)</nobr> damage\.\z");
+ static readonly Regex MultiDamageOrder=Rx(@"\AClick targets to choose the order of dealing them <nobr>(?<n1>[0-9]{1,6}) (?<type1>[a-z]+)</nobr>(?: and <nobr>(?<n2>[0-9]{1,6}) (?<type2>[a-z]+)</nobr>|, <nobr>(?<n2>[0-9]{1,6}) (?<type2>[a-z]+)</nobr>, and <nobr>(?<n3>[0-9]{1,6}) (?<type3>[a-z]+)</nobr>) damage\.\z");
+ static readonly Regex WrappedUnspecifiedDamage=Rx(@"\AClick a target to deal it <nobr>(?<type>[a-z]+)</nobr> damage\.\z");
  static readonly Regex Reaction=Rx(@"\A<b>(?<from>[^<>\r\n]{1,200})</b> will deal <b>(?<to>[^<>\r\n]{1,200})</b> (?<n>[0-9]{1,6}) (?<type>fire|melee|cold|energy|infernal|lightning|projectile|psychic|radiant|sonic|toxic) damage\. Click a (?<choice>reaction to use it|card to activate first)\.\z");
  static readonly Regex ExactTargets=Rx(@"\AClick (?<count>[0-9]{1,6}) targets to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
  static readonly Regex RequiredTarget=Rx(@"\AClick <b>(?<target>[^<>\r\n]{1,200})</b> and (?<count>[0-9]{1,6}) more (?<unit>target|targets) to deal them <nobr>(?<n>[0-9]{1,6}) (?<type>[a-z]+)</nobr> damage\.\z");
@@ -201,6 +206,11 @@ public sealed class DynamicDisplayRules {
  static readonly Regex PlayLocation=Rx(@"\AClick a location to to play (?<card>[^<>\r\n]{1,200}) there\.\z");
  static readonly Regex PhaseActivate=Rx("\\AClick a (?:(?<target>target)|card(?<inplay> in play)?) to activate its <nobr>(?<sprite><sprite name=\"(?<phase>Start|Play|Power|Draw|End|Incapacitated)Phase\">) <b>(?<title>[A-Z]+) PHASE</b></nobr> effect\\.\\z");
  static readonly Dictionary<string,string> PhaseNames=new(StringComparer.Ordinal){["Start"]="开始阶段",["Play"]="出牌阶段",["Power"]="异能阶段",["Draw"]="抽牌阶段",["End"]="结束阶段",["Incapacitated"]="失能阶段"};
+ static readonly (string Source,string Template,string Phase)[] PhaseChoices={
+  ("Click a power to use it.","hint.power.click","Power"),
+  ("Click or drag a power to use it.","hint.power.drag","Power"),
+  ("Click a card to play it.","hint.play.click","Play"),
+  ("Click or drag a card to play it.","hint.play","Play")};
  const string Heroes="AbsoluteZero|Bunker|CaptainCosmic|Fanatic|Haka|Legacy|Ra|Tachyon|Tempest|TheArgentAdept|TheWraith|Unity";
  const string Villains="AkashBhuta|BaronBlade|CitizenDawn|GrandWarlordVoss|Omnitron|TheMatriarch";
  const string Environments="FreedomTower|InsulaPrimalis|Magmaria|Megalopolis|TheRuinsOfAtlantis|WagnerMarsBase";
@@ -407,14 +417,19 @@ public sealed class DynamicDisplayRules {
   if(underHint.Success && !string.IsNullOrWhiteSpace(underHint.Groups["name"].Value))return Format("hint.destroy.play.under",prefix,underHint.Groups["name"].Value);
   var place=PlayLocation.Match(body);
   if(place.Success)return Format("hint.play.location",prefix,place.Groups["card"].Value);
-  // Compose two complete recognized instructions; never translate a prefix of an unknown remainder.
-  const string powerChoice="Click a power to use it. ";
-  const string playChoice="Click or drag a card to play it. ";
-  string choice=body.StartsWith(powerChoice,StringComparison.Ordinal)?powerChoice:body.StartsWith(playChoice,StringComparison.Ordinal)?playChoice:"";
-  bool combined=choice.Length>0;
-  var phaseHint=PhaseActivate.Match(combined?body.Substring(choice.Length):body);
-  if(phaseHint.Success && (!combined || (!phaseHint.Groups["target"].Success && phaseHint.Groups["phase"].Value==(choice==powerChoice?"Power":"Play"))) && phaseHint.Groups["title"].Value==phaseHint.Groups["phase"].Value.ToUpperInvariant())
-   return prefix+(combined?Format(choice==powerChoice?"hint.power.click":"hint.play")+" ":"")+(phaseHint.Groups["target"].Success?Format("hint.phase.target",phaseHint.Groups["sprite"].Value,PhaseNames[phaseHint.Groups["phase"].Value]):Format("hint.phase.activate",phaseHint.Groups["inplay"].Success?"在场的":"",phaseHint.Groups["sprite"].Value,PhaseNames[phaseHint.Groups["phase"].Value]));
+  // Both orders occur in the HUD. Match two complete compatible clauses, preserving their order.
+  var phaseText=PhaseInstruction(body);
+  if(phaseText!=null)return prefix+phaseText;
+  foreach(var choice in PhaseChoices){
+   if(body.StartsWith(choice.Source+" ",StringComparison.Ordinal)){
+    phaseText=PhaseInstruction(body.Substring(choice.Source.Length+1),choice.Phase);
+    if(phaseText!=null)return prefix+Format(choice.Template)+" "+phaseText;
+   }
+   if(body.EndsWith(" "+choice.Source,StringComparison.Ordinal)){
+    phaseText=PhaseInstruction(body.Substring(0,body.Length-choice.Source.Length-1),choice.Phase);
+    if(phaseText!=null)return prefix+phaseText+" "+Format(choice.Template);
+   }
+  }
   var destroy=DestroyMany.Match(body);
   if(destroy.Success)return Format(destroy.Groups["kind"].Value=="targets"?"hint.destroy.targets":"hint.destroy.cards",prefix,destroy.Groups["n"].Value);
   var regainHint=RegainUpTo.Match(body);
@@ -422,6 +437,19 @@ public sealed class DynamicDisplayRules {
   var hpRank=MultipleHpRank.Match(body);
   if(hpRank.Success && hpRank.Groups["count"].Value!="1")return Format("hint.hp.rank.multiple",prefix,hpRank.Groups["count"].Value,hpRank.Groups["rank"].Value=="lowest"?"低":"高");
   if(!header.Success)return null;
+  var orderMulti=MultiDamageOrder.Match(body);
+  if(orderMulti.Success){
+   var args=new List<string>{prefix};bool valid=true;
+   for(int i=1;i<=3;i++){
+    if(!orderMulti.Groups["n"+i].Success)continue;
+    if(!DamageNames.TryGetValue(orderMulti.Groups["type"+i].Value,out var type)){valid=false;break;}
+    args.Add(orderMulti.Groups["n"+i].Value);args.Add(type);
+   }
+   if(valid)return Format(args.Count==7?"hint.attack.order.triple":"hint.attack.order.dual",args.ToArray());
+  }
+  var wrapped=WrappedUnspecifiedDamage.Match(body);
+  if(wrapped.Success && DamageNames.TryGetValue(wrapped.Groups["type"].Value,out var wrappedType))
+   return Format("hint.attack.unspecified.nobr",prefix,wrappedType);
   var requiredUnspecified=RequiredUnspecified.Match(body);
   if(requiredUnspecified.Success && ((requiredUnspecified.Groups["count"].Value=="1")== (requiredUnspecified.Groups["unit"].Value=="target")) && DamageNames.TryGetValue(requiredUnspecified.Groups["type"].Value,out var requiredNoAmountType)){
    string targets=string.Join("、",requiredUnspecified.Groups["target"].Captures.Cast<Capture>().Select(c=>"<b>"+resolveName(c.Value)+"</b>"));
@@ -486,5 +514,13 @@ public sealed class DynamicDisplayRules {
   match=Effect.Match(body);if(match.Success)return Format("hint.effect",prefix,match.Groups["card"].Value);
   match=DrawDiscard.Match(body);if(match.Success)return Format("hint.draw-discard",prefix,match.Groups["card"].Value);
   return null;
+ }
+ string? PhaseInstruction(string source,string? requiredPhase=null){
+  var m=PhaseActivate.Match(source);
+  if(!m.Success || m.Groups["title"].Value!=m.Groups["phase"].Value.ToUpperInvariant() ||
+     (requiredPhase!=null && (m.Groups["target"].Success || m.Groups["phase"].Value!=requiredPhase)))return null;
+  return m.Groups["target"].Success
+   ?Format("hint.phase.target",m.Groups["sprite"].Value,PhaseNames[m.Groups["phase"].Value])
+   :Format("hint.phase.activate",m.Groups["inplay"].Success?"在场的":"",m.Groups["sprite"].Value,PhaseNames[m.Groups["phase"].Value]);
  }
 }

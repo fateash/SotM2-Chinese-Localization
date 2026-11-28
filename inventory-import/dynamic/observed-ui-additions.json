@@ -160,5 +160,23 @@
     "original": "The planet has been overrun by the Thorathian Army and Grand Warlord Voss has conquered the Earth!",
     "translation": "",
     "context": "0.1.31接入限定用途显示规则；原文完整匹配，待新画面与交互验收。 当前游戏26880829元数据literal 11311确认原文；无实机日志，使用共用结算Heading入口的合成契约。"
+  },
+  {
+    "key": "editorial.ui.hint.attack.order.dual",
+    "original": "{0}Click targets to choose the order of dealing them <nobr>{1} {2}</nobr> and <nobr>{3} {4}</nobr> damage.",
+    "translation": "",
+    "context": "0.1.32限定HUD完整句式：数值、伤害类型、标签保留；待实机画面及交互验收。"
+  },
+  {
+    "key": "editorial.ui.hint.attack.order.triple",
+    "original": "{0}Click targets to choose the order of dealing them <nobr>{1} {2}</nobr>, <nobr>{3} {4}</nobr>, and <nobr>{5} {6}</nobr> damage.",
+    "translation": "",
+    "context": "0.1.32限定HUD完整句式：数值、伤害类型、标签保留；待实机画面及交互验收。 三段形式依据既有三段伤害完整语法主动组合，未实机观察。"
+  },
+  {
+    "key": "editorial.ui.hint.attack.unspecified.nobr",
+    "original": "{0}Click a target to deal it <nobr>{1}</nobr> damage.",
+    "translation": "",
+    "context": "0.1.32限定HUD完整句式：数值、伤害类型、标签保留；待实机画面及交互验收。"
   }
 ]

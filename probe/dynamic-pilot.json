@@ -210,7 +210,10 @@
     "hint.hero.take.damage": "点击一位英雄，使其受到伤害。",
     "button.skip.draw.phase": "跳过抽牌阶段",
     "result.baron.moonfall": "刀锋男爵的地月牵引光束让月球撞上了地球！",
-    "result.voss.conquered": "索拉宪大军已攻占全球，大军阀沃斯征服了地球！"
+    "result.voss.conquered": "索拉宪大军已攻占全球，大军阀沃斯征服了地球！",
+    "hint.attack.order.dual": "{0}点击目标，选择对它们造成<nobr>{1}点{2}伤害</nobr>和<nobr>{3}点{4}伤害</nobr>的顺序。",
+    "hint.attack.order.triple": "{0}点击目标，选择对它们造成<nobr>{1}点{2}伤害</nobr>、<nobr>{3}点{4}伤害</nobr>和<nobr>{5}点{6}伤害</nobr>的顺序。",
+    "hint.attack.unspecified.nobr": "{0}点击一个目标，对其造成<nobr>{1}伤害</nobr>。"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "e72a20977fbea176882fd16bfbb15d67ca7a05e660cfed68eabc0e5519bc98cf",
+    "runtime/DynamicDisplayRules.cs": "27dbda9221574c668026d630096d8541b29031db47b0963cbce1f889d971c419",
     "runtime/SurfaceProbeRules.cs": "1d8071f2bb04ac9d4f69936e07ff9fbc933c5805644ac323d080566fce0d9e00",
     "runtime/SurfaceProbe.cs": "3848374ccfe3e4c4df22927b6b78d093924fc2c0be2743abc0d17d95482a4940",
-    "runtime/Plugin.cs": "fe111b6c07287367ae5a9a3db674def244fc0d1295dff5777658ba9138dd740a",
+    "runtime/Plugin.cs": "e90d02fc665924f1f93b9cfdfc2ea86a6b00f770be6814e115be12c0a6cd3b4a",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "410c4c4c1b5cc5a55238f1201515c4ff274ec8849fd7f4cdc479203a11773aa4",
+    "probe/dynamic-pilot.json": "2b444aef208aba3bbf94d51534e1621c13b4a4b50f5c55a80959d829539c3cab",
     "runtime/RenderedDisplayRules.cs": "ff4dc4192084a8e2ae83c09ab8e5abc6e3d0f85e810523e1957d1982926f7699"
   },
   "families": [
@@ -42627,6 +42627,2941 @@
             "cardId": "",
             "inCardView": false,
             "expected": "瓦格纳火星基地爆炸了！"
+          }
+        }
+      ]
+    },
+    {
+      "id": "multi-damage-order",
+      "templates": [
+        "hint.attack.order.dual",
+        "hint.attack.order.triple"
+      ],
+      "contexts": [
+        {
+          "id": "032-multi-damage-order-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "两份0.1.31日志及截图确认的完整双段伤害排序原文；0.1.32待实机复验。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Ruthless Approach:</b> Click targets to choose the order of dealing them <nobr>1 fire</nobr> and <nobr>1 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>无情进击:</b> 点击目标，选择对它们造成<nobr>1点火焰伤害</nobr>和<nobr>1点能量伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "英雄／反派／环境共用HUD来源头合成组合，不声称这些对象具备该卡效果。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click targets to choose the order of dealing them <nobr>1 fire</nobr> and <nobr>1 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击目标，选择对它们造成<nobr>1点火焰伤害</nobr>和<nobr>1点能量伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-3",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "英雄／反派／环境共用HUD来源头合成组合，不声称这些对象具备该卡效果。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Grand Warlord Voss:</b> Click targets to choose the order of dealing them <nobr>1 fire</nobr> and <nobr>1 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>大军阀沃斯:</b> 点击目标，选择对它们造成<nobr>1点火焰伤害</nobr>和<nobr>1点能量伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-4",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "英雄／反派／环境共用HUD来源头合成组合，不声称这些对象具备该卡效果。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Wagner Mars Base:</b> Click targets to choose the order of dealing them <nobr>1 fire</nobr> and <nobr>1 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>瓦格纳火星基地:</b> 点击目标，选择对它们造成<nobr>1点火焰伤害</nobr>和<nobr>1点能量伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-5",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>0 fire</nobr> and <nobr>37 cold</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>0点火焰伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-6",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>0 fire</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>0点火焰伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-7",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>1 melee</nobr> and <nobr>37 cold</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>1点近战伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-8",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>1 melee</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>1点近战伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-9",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>12 cold</nobr> and <nobr>37 cold</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>12点寒冷伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-10",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>12 cold</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>12点寒冷伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-11",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>999999 energy</nobr> and <nobr>37 cold</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>999999点能量伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-12",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>999999 energy</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>999999点能量伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-13",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>0 infernal</nobr> and <nobr>37 cold</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>0点邪能伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-14",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>0 infernal</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>0点邪能伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-15",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>1 lightning</nobr> and <nobr>37 cold</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>1点闪电伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-16",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>1 lightning</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>1点闪电伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-17",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>12 projectile</nobr> and <nobr>37 cold</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>12点投射伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-18",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>12 projectile</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>12点投射伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-19",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>999999 psychic</nobr> and <nobr>37 cold</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>999999点精神伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-20",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>999999 psychic</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>999999点精神伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-21",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>0 radiant</nobr> and <nobr>37 cold</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>0点光耀伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-22",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>0 radiant</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>0点光耀伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-23",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>1 sonic</nobr> and <nobr>37 cold</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>1点音波伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-24",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>1 sonic</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>1点音波伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-25",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>12 toxic</nobr> and <nobr>37 cold</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>12点毒素伤害</nobr>和<nobr>37点寒冷伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-26",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Card:</b> Click targets to choose the order of dealing them <nobr>12 toxic</nobr>, <nobr>37 cold</nobr>, and <nobr>2 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>Card:</b> 点击目标，选择对它们造成<nobr>12点毒素伤害</nobr>、<nobr>37点寒冷伤害</nobr>和<nobr>2点能量伤害</nobr>的顺序。"
+          }
+        },
+        {
+          "id": "032-multi-damage-order-27",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Ruthless Approach:</b> Click targets to choose the order of dealing them <nobr>1 fire</nobr> and <nobr>1 energy</nobr> damage. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-multi-damage-order-28",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Ruthless Approach:</b> Click targets to choose the order of dealing them <nobr>1 fire</nobr> and <nobr>1 energy</nobr> damage.\n",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-multi-damage-order-29",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Ruthless Approach:</b> Click targets to choose the order of dealing them <nobr>-1 fire</nobr> and <nobr>1 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-multi-damage-order-30",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Ruthless Approach:</b> Click targets to choose the order of dealing them <nobr>1.5 fire</nobr> and <nobr>1 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-multi-damage-order-31",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Ruthless Approach:</b> Click targets to choose the order of dealing them <nobr>1 fire</nobr> and <nobr>1000000 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-multi-damage-order-32",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Ruthless Approach:</b> Click targets to choose the order of dealing them <nobr>1 unknown</nobr> and <nobr>1 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-multi-damage-order-33",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Ruthless Approach:</b> Click targets to choose the order of dealing them <nobr>1 fire</nobr> and <nobr>1 unknown</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-multi-damage-order-34",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Ruthless Approach:</b> Click targets to choose the order of dealing them <nobr>1 fire</nobr> or <nobr>1 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-multi-damage-order-35",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Ruthless Approach:</b> Click targets to choose the order of dealing them <b>1 fire</b> and <b>1 energy</b> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-multi-damage-order-36",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click targets to choose the order of dealing them <nobr>1 fire</nobr> and <nobr>1 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-multi-damage-order-37",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>无情进击:</b> 点击目标，选择对它们造成<nobr>1点火焰伤害</nobr>和<nobr>1点能量伤害</nobr>的顺序。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-multi-damage-order-38",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Ruthless Approach:</b> Click targets to choose the order of dealing them <nobr>1 fire</nobr>, <nobr>1 energy</nobr>, and <nobr>3 unknown</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-multi-damage-order-39",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "<b>Ruthless Approach:</b> Click targets to choose the order of dealing them <nobr>1 fire</nobr> and <nobr>1 energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "phase-hint-composition",
+      "templates": [],
+      "contexts": [
+        {
+          "id": "032-phase-hint-composition-55",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-56",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-57",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-58",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a power to use it. Click a target to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-59",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-60",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a power to use it. Click a card to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-61",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-62",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-63",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击一个异能以使用它。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-64",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击一个异能以使用它。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-65",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click a power to use it. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-66",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a target to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-67",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>DRAW PHASE</b></nobr> effect. Click a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-68",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect. Click a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-69",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-70",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击一个异能以使用它。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-71",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a power to use it. Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一个异能以使用它。 点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-72",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click a power to use it. Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击一个异能以使用它。 点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-73",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a power to use it. Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-74",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a power to use it. Click a target to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-75",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a power to use it. Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-76",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a power to use it. Click a card in play to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-77",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click a power to use it. Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-78",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击一个异能以使用它。 点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-79",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击一个异能以使用它。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-80",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击一个异能以使用它。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-81",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click a power to use it. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-82",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a target to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-83",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>DRAW PHASE</b></nobr> effect. Click a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-84",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect. Click a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-85",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-86",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击一个异能以使用它。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-87",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击或拖动一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-88",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click or drag a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击或拖动一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-89",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-90",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a power to use it. Click a target to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-91",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-92",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a power to use it. Click a card to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-93",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click or drag a power to use it. Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-94",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击或拖动一个异能以使用它。 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-95",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click or drag a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击或拖动一个异能以使用它。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-96",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click or drag a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击或拖动一个异能以使用它。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-97",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click or drag a power to use it. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-98",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a target to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click or drag a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-99",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>DRAW PHASE</b></nobr> effect. Click or drag a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-100",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect. Click or drag a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-101",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click or drag a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-102",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击一张牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击或拖动一个异能以使用它。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-103",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a power to use it. Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击或拖动一个异能以使用它。 点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-104",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click or drag a power to use it. Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击或拖动一个异能以使用它。 点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-105",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a power to use it. Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-106",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a power to use it. Click a target to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-107",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a power to use it. Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-108",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a power to use it. Click a card in play to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-109",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click or drag a power to use it. Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-110",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击或拖动一个异能以使用它。 点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-111",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click or drag a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击或拖动一个异能以使用它。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-112",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click or drag a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击或拖动一个异能以使用它。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-113",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click or drag a power to use it. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-114",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a target to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click or drag a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-115",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>DRAW PHASE</b></nobr> effect. Click or drag a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-116",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect. Click or drag a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-117",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PowerPhase\"> <b>POWER PHASE</b></nobr> effect. Click or drag a power to use it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-118",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击一张在场的牌，发动其<nobr><sprite name=\"PowerPhase\"> <b>异能阶段</b></nobr>效果。 点击或拖动一个异能以使用它。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-119",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-120",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-121",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-122",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to play it. Click a target to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-123",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-124",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to play it. Click a card to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-125",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-126",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-127",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击一张牌以将其打出。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-128",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击一张牌以将其打出。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-129",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click a card to play it. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-130",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a target to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-131",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>DRAW PHASE</b></nobr> effect. Click a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-132",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect. Click a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-133",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-134",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击一张牌以将其打出。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-135",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to play it. Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一张牌以将其打出。 点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-136",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click a card to play it. Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击一张牌以将其打出。 点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-137",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to play it. Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-138",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to play it. Click a target to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-139",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to play it. Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-140",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to play it. Click a card in play to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-141",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click a card to play it. Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-142",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击一张牌以将其打出。 点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-143",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击一张牌以将其打出。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-144",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击一张牌以将其打出。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-145",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click a card to play it. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-146",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a target to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-147",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>DRAW PHASE</b></nobr> effect. Click a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-148",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect. Click a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-149",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-150",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击一张牌以将其打出。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-151",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击或拖动一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-152",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click or drag a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击或拖动一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-153",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-154",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a card to play it. Click a target to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-155",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-156",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a card to play it. Click a card to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-157",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click or drag a card to play it. Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-158",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击或拖动一张牌以将其打出。 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-159",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click or drag a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击或拖动一张牌以将其打出。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-160",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click or drag a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击或拖动一张牌以将其打出。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-161",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click or drag a card to play it. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-162",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a target to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click or drag a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-163",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>DRAW PHASE</b></nobr> effect. Click or drag a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-164",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect. Click or drag a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-165",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click a card to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click or drag a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-166",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击一张牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击或拖动一张牌以将其打出。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-167",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a card to play it. Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击或拖动一张牌以将其打出。 点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-168",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click or drag a card to play it. Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击或拖动一张牌以将其打出。 点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-169",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a card to play it. Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-170",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a card to play it. Click a target to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-171",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a card to play it. Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-172",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click or drag a card to play it. Click a card in play to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-173",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click or drag a card to play it. Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-174",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击或拖动一张牌以将其打出。 点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-175",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click or drag a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击或拖动一张牌以将其打出。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-176",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Legacy:</b> Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click or drag a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>传承侠:</b> 点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击或拖动一张牌以将其打出。"
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-177",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click or drag a card to play it. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-178",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a target to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click or drag a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-179",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>DRAW PHASE</b></nobr> effect. Click or drag a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-180",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"DrawPhase\"> <b>DRAW PHASE</b></nobr> effect. Click or drag a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-181",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click a card in play to activate its <nobr><sprite name=\"PlayPhase\"> <b>PLAY PHASE</b></nobr> effect. Click or drag a card to play it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-phase-hint-composition-182",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击一张在场的牌，发动其<nobr><sprite name=\"PlayPhase\"> <b>出牌阶段</b></nobr>效果。 点击或拖动一张牌以将其打出。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "wrapped-unspecified-damage",
+      "templates": [
+        "hint.attack.unspecified.nobr"
+      ],
+      "contexts": [
+        {
+          "id": "032-wrapped-unspecified-damage-40",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "寒冷为0.1.31真实输入，其他已知伤害类型为合成组合；不添加未给出的数值。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>fire</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>冷液喷射:</b> 点击一个目标，对其造成<nobr>火焰伤害</nobr>。"
+          }
+        },
+        {
+          "id": "032-wrapped-unspecified-damage-41",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "寒冷为0.1.31真实输入，其他已知伤害类型为合成组合；不添加未给出的数值。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>melee</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>冷液喷射:</b> 点击一个目标，对其造成<nobr>近战伤害</nobr>。"
+          }
+        },
+        {
+          "id": "032-wrapped-unspecified-damage-42",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "寒冷为0.1.31真实输入，其他已知伤害类型为合成组合；不添加未给出的数值。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>cold</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>冷液喷射:</b> 点击一个目标，对其造成<nobr>寒冷伤害</nobr>。"
+          }
+        },
+        {
+          "id": "032-wrapped-unspecified-damage-43",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "寒冷为0.1.31真实输入，其他已知伤害类型为合成组合；不添加未给出的数值。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>energy</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>冷液喷射:</b> 点击一个目标，对其造成<nobr>能量伤害</nobr>。"
+          }
+        },
+        {
+          "id": "032-wrapped-unspecified-damage-44",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "寒冷为0.1.31真实输入，其他已知伤害类型为合成组合；不添加未给出的数值。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>infernal</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>冷液喷射:</b> 点击一个目标，对其造成<nobr>邪能伤害</nobr>。"
+          }
+        },
+        {
+          "id": "032-wrapped-unspecified-damage-45",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "寒冷为0.1.31真实输入，其他已知伤害类型为合成组合；不添加未给出的数值。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>lightning</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>冷液喷射:</b> 点击一个目标，对其造成<nobr>闪电伤害</nobr>。"
+          }
+        },
+        {
+          "id": "032-wrapped-unspecified-damage-46",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "寒冷为0.1.31真实输入，其他已知伤害类型为合成组合；不添加未给出的数值。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>projectile</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>冷液喷射:</b> 点击一个目标，对其造成<nobr>投射伤害</nobr>。"
+          }
+        },
+        {
+          "id": "032-wrapped-unspecified-damage-47",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "寒冷为0.1.31真实输入，其他已知伤害类型为合成组合；不添加未给出的数值。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>psychic</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>冷液喷射:</b> 点击一个目标，对其造成<nobr>精神伤害</nobr>。"
+          }
+        },
+        {
+          "id": "032-wrapped-unspecified-damage-48",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "寒冷为0.1.31真实输入，其他已知伤害类型为合成组合；不添加未给出的数值。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>radiant</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>冷液喷射:</b> 点击一个目标，对其造成<nobr>光耀伤害</nobr>。"
+          }
+        },
+        {
+          "id": "032-wrapped-unspecified-damage-49",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "寒冷为0.1.31真实输入，其他已知伤害类型为合成组合；不添加未给出的数值。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>sonic</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>冷液喷射:</b> 点击一个目标，对其造成<nobr>音波伤害</nobr>。"
+          }
+        },
+        {
+          "id": "032-wrapped-unspecified-damage-50",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "寒冷为0.1.31真实输入，其他已知伤害类型为合成组合；不添加未给出的数值。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>toxic</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>冷液喷射:</b> 点击一个目标，对其造成<nobr>毒素伤害</nobr>。"
+          }
+        },
+        {
+          "id": "032-wrapped-unspecified-damage-51",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>unknown</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-wrapped-unspecified-damage-52",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>cold</nobr> damage. Extra.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-wrapped-unspecified-damage-53",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click a target to deal it <nobr>cold</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "032-wrapped-unspecified-damage-54",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整句式、用途和参数边界合成检查，非实机验收。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "<b>Coolant Blast:</b> Click a target to deal it <nobr>cold</nobr> damage.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
           }
         }
       ]
