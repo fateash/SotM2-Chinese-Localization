@@ -26,8 +26,10 @@ internal sealed class SurfaceProbe {
  internal string? Complete(TMP_Text text,string source,string? previous){
   var view=text.GetComponentInParent<CardView>();
   string card=view?.Card?.Card?.CardDefinition.Identifier??"";
-  return completion.Apply(PathOf(text),text.gameObject.name,card,view!=null,text.GetComponentInParent<UnityEngine.UI.Button>()!=null,source,previous,IsEffectTooltip(text));
+  return completion.Apply(PathOf(text),text.gameObject.name,card,view!=null,text.GetComponentInParent<UnityEngine.UI.Button>()!=null,source,previous,IsEffectTooltip(text),IsButtonLabel(text));
  }
+ static bool IsButtonLabel(TMP_Text text)=>DynamicDisplayRules.IsButtonLabelName(text.gameObject.name)
+  && text.GetComponentInParent<UnityEngine.UI.Button>()!=null && text.GetComponentInParent<TMP_InputField>()==null;
  static bool IsEffectTooltip(TMP_Text text){
   var effect=text.GetComponentInParent<EffectView>();
   if(effect!=null && effect.TooltipLabel==text)return true;
@@ -53,8 +55,9 @@ internal sealed class SurfaceProbe {
     (text.GetComponentInParent<UnityEngine.UI.Button>()!=null &&
      (name=="Selection Button Label" || name=="Text" || name=="Text (TMP)" || name=="Label")));
    bool effectTooltip=IsEffectTooltip(text);
+   bool buttonLabel=IsButtonLabel(text);
    bool ruleLabel=inCard && name is "Body Label" or "Setup Label" or "Advanced Label" or "Advanced Heading Label";
-   if(!effectTooltip && !cardButton && !deckNameTitle && !ruleLabel && !SurfaceProbeRules.CanObserve(name,inCard,false))return null;
+   if(!buttonLabel && !effectTooltip && !cardButton && !deckNameTitle && !ruleLabel && !SurfaceProbeRules.CanObserve(name,inCard,false))return null;
    var parts=new List<string>();var node=text.transform;
    while(node!=null && parts.Count<32){parts.Add(node.name);node=node.parent;}
    // Never mark a truncated hierarchy.
@@ -65,6 +68,7 @@ internal sealed class SurfaceProbe {
    string? target=inCard?rules.ApplyCardTitle(name,source,deckNameTitle):rules.ApplyDeckName(path,source);
    approvedDeckName=target!=null;
    target ??= inCard?rules.Dynamic?.ApplyCardButton(path,card,source):rules.Apply(path,source);
+   target ??= rules.Dynamic?.ApplyStableButton(name,buttonLabel,source);
    if(!source.StartsWith("示·",StringComparison.Ordinal) && !source.StartsWith("组·",StringComparison.Ordinal)){
     string clipped=source.Length>3072?source.Substring(0,3072):source;
     string key=path+"\0"+clipped;
@@ -72,7 +76,7 @@ internal sealed class SurfaceProbe {
     if(seen.Count<1200 && n<200 && seen.Add(key)){
      counts[name]=n+1;
      Plugin.Instance.Log.LogInfo("SURFACE_PROBE "+JsonSerializer.Serialize(new{
-      objectName=name,path,cardId=card,inCardView=inCard,cardButtonCandidate=cardButton,deckNameTitle,effectTooltip,source=clipped,truncated=source.Length>3072,
+      objectName=name,path,cardId=card,inCardView=inCard,cardButtonCandidate=cardButton,deckNameTitle,effectTooltip,buttonLabel,source=clipped,truncated=source.Length>3072,
       inputSource=text.m_inputSource.ToString(),markerCandidate=target!=null,
       confirmation=path==DynamicDisplayRules.FinishPath?DynamicDisplayRules.ParseConfirmation(clipped):null,
       status="observed-not-live-accepted"}));

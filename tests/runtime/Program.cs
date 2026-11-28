@@ -480,4 +480,20 @@ foreach(string hero in "AbsoluteZero Bunker CaptainCosmic Fanatic Haka Legacy Ra
   }
  }
 }
+
+// Stable semantic actions are independent of hierarchy, but never independent of Button/label identity.
+var semantic036=new RenderedDisplayRules(catalog,pilot.DeckNames,pilot.Templates);
+foreach(var obj in new[]{"Label","Text","Text (TMP)","Selection Button Label","Finish Button Label"})
+ foreach(var source in new[]{"Play Here","PLAY HERE","  Play\nHere  ","Put Here","Skip Draw Phase","Play Construct","Discover Construct","Bury 2 cards","BURY 2 CARDS","Discard 1 card"}){
+  string? value=semantic036.Apply("New Scene/New Layout/Action/"+obj,obj,"",false,true,source,null,false,true);
+  Check(value!=null && DisplayScope.ContainsHan(value),"semantic full button phrase across unseen hosts");
+  Check(semantic036.Apply("New Scene/"+obj,obj,"",false,true,value!,null,false,true)==null,"semantic fallback idempotent");
+  Check(semantic036.Apply("New Scene/"+obj,obj,"",false,true,source)==null,"historical candidate alone is not Button proof");
+  Check(semantic036.Apply("New Scene/"+obj,obj,"",false,false,source,null,false,true)==null,"inconsistent Button proof rejected");
+ }
+foreach(var obj in new[]{"Body Label","HP Label","Title Label","Input Field","Count Label"})
+ Check(semantic036.Apply("New Scene/"+obj,obj,"",false,true,"Play Here",null,false,true)==null,"non-action role excluded even beneath Button");
+foreach(var text in new[]{"Play","Draw","Power","Replace","Construct","Click Play Here","Play Here and draw 2 cards","<b>Play Here</b>","Bury 1 cards","Bury 2 card","Bury -1 card","Discard 2 targets","42"})
+ Check(semantic036.Apply("New Scene/Label","Label","",false,true,text,null,false,true)==null,"semantic whole-phrase or grammar negative "+text);
+Check(semantic036.Apply("New Scene/Label","Label","",false,true,"Discard 002 cards",null,false,true)=="弃置002张牌","literal number spelling retained");
 Console.WriteLine("Total checks including deck names: "+count);

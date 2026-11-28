@@ -3740,6 +3740,63 @@
         "status": "implemented-pending-live-test",
         "evidence": "coverage/contracts.json#four-hero-layout-routes"
       }
+    },
+    {
+      "id": "6fec76545f190c2c0042d29f",
+      "reviewedReason": "current-rule-match",
+      "disposition": "catalog-difference-review",
+      "reason": "历史全能智创中文正文与当前审定完整句不同；只完成阶段标题转换，保留残留，不能将转换成功等同全文完成。",
+      "owner": "本地化维护者",
+      "nextAction": "用0.1.36实机核对全能智创双面正文与制造／灭绝；对比实际载入词典及历史输入，不添加宽泛名称或关键词替换。",
+      "residualReview": {
+        "tokens": [
+          "FABRICATE",
+          "Omnitron"
+        ],
+        "reason": "当前规则重放历史输入仍有专名／能力词残留；不是已证实的当前版本实机漏译。",
+        "owner": "本地化维护者",
+        "nextAction": "对应card-rendering/omnitron代表场景确认新版显示；保留历史样本，不豁免阶段关闭。",
+        "status": "pending-current-version-evidence",
+        "version": "0.1.36"
+      }
+    },
+    {
+      "id": "a897f6a0ae5f1c9f720e7e43",
+      "reviewedReason": "current-rule-match",
+      "disposition": "catalog-difference-review",
+      "reason": "历史全能智创中文正文与当前审定完整句不同；只完成阶段标题转换，保留残留，不能将转换成功等同全文完成。",
+      "owner": "本地化维护者",
+      "nextAction": "用0.1.36实机核对全能智创双面正文与制造／灭绝；对比实际载入词典及历史输入，不添加宽泛名称或关键词替换。",
+      "residualReview": {
+        "tokens": [
+          "EXTERMINATE",
+          "Omnitron"
+        ],
+        "reason": "当前规则重放历史输入仍有专名／能力词残留；不是已证实的当前版本实机漏译。",
+        "owner": "本地化维护者",
+        "nextAction": "对应card-rendering/omnitron代表场景确认新版显示；保留历史样本，不豁免阶段关闭。",
+        "status": "pending-current-version-evidence",
+        "version": "0.1.36"
+      }
+    },
+    {
+      "id": "e55e01d93aee91316be1d7e9",
+      "reviewedReason": "current-rule-match",
+      "disposition": "catalog-difference-review",
+      "reason": "历史全能智创中文正文与当前审定完整句不同；只完成阶段标题转换，保留残留，不能将转换成功等同全文完成。",
+      "owner": "本地化维护者",
+      "nextAction": "用0.1.36实机核对全能智创双面正文与制造／灭绝；对比实际载入词典及历史输入，不添加宽泛名称或关键词替换。",
+      "residualReview": {
+        "tokens": [
+          "FABRICATE",
+          "Omnitron"
+        ],
+        "reason": "当前规则重放历史输入仍有专名／能力词残留；不是已证实的当前版本实机漏译。",
+        "owner": "本地化维护者",
+        "nextAction": "对应card-rendering/omnitron代表场景确认新版显示；保留历史样本，不豁免阶段关闭。",
+        "status": "pending-current-version-evidence",
+        "version": "0.1.36"
+      }
     }
   ]
 }

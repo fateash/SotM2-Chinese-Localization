@@ -328,3 +328,86 @@ class CaptureWaiverTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class SemanticAcceptanceTests(unittest.TestCase):
+    def setUp(self):
+        self.plan = audit.read(ROOT / 'coverage/acceptance-plan.json')
+        self.contracts = audit.read(ROOT / 'coverage/contracts.json')
+        self.inventory = audit.read(ROOT / 'coverage/inventory-status.json')
+
+    def test_all_families_and_inventory_have_functional_owners(self):
+        pending = audit.validate_acceptance(self.plan, self.contracts, self.inventory)
+        self.assertEqual(len(pending), sum(len(g['scenarios']) for g in self.plan['groups']))
+        self.assertLess(len(pending), 50)
+
+    def test_missing_family_or_inventory_cannot_make_acceptance_green(self):
+        for field in ('families', 'inventoryKeys'):
+            plan = copy.deepcopy(self.plan)
+            group = next(g for g in plan['groups'] if g[field])
+            group[field].pop()
+            with self.assertRaises(ValueError):
+                audit.validate_acceptance(plan, self.contracts, self.inventory)
+
+    def test_duplicate_and_nonexistent_representative_rejected(self):
+        for mode in ('duplicate', 'bad-case'):
+            plan = copy.deepcopy(self.plan)
+            if mode == 'duplicate': plan['groups'].append(plan['groups'][0])
+            else: plan['groups'][0]['representativeCases'][0]['id'] = 'absent'
+            with self.assertRaises(ValueError):
+                audit.validate_acceptance(plan, self.contracts, self.inventory)
+
+    def test_offline_pass_cannot_become_live_acceptance(self):
+        scene = self.plan['groups'][0]['scenarios'][0]
+        scene['status'] = 'accepted'
+        scene['evidence'] = {'source': 'CI passed', 'version': '0.1.36'}
+        with self.assertRaisesRegex(ValueError, 'human visual'):
+            audit.validate_acceptance(self.plan, self.contracts, self.inventory)
+
+    def completeness(self, text, reason='current-rule-match', **row):
+        return audit.translation_completeness({'source': text, **row}, {'reason': reason, 'target': text})
+
+    def test_partial_transformation_stays_incomplete(self):
+        for text, token in [('准备: H minus 1张牌', 'minus'), ('开始阶段：Omnitron发动FABRICATE', 'FABRICATE')]:
+            value = self.completeness(text)
+            self.assertEqual(value['status'], 'partial-residual')
+            self.assertIn(token, value['residualTokens'])
+        self.assertEqual(self.completeness('准备: minus 1张牌', 'translated-output-observed')['status'], 'partial-residual')
+
+    def test_whole_reviewed_names_and_defined_variable_only(self):
+        value = self.completeness('S-83突击机兵对TCF“坚毅”号造成X点伤害，X为英雄数。', objectName='Body Label', cardId='Example')
+        self.assertEqual(value['status'], 'no-unapproved-latin')
+        self.assertEqual(value['residualTokens'], [])
+        for text in ('S未知', 'TCF未知', 'X未知', 'EXTERMINATE'):
+            self.assertTrue(self.completeness(text)['residualTokens'])
+        self.assertIn('X', self.completeness('X为英雄数。', objectName='Title Label', cardId='Example')['residualTokens'])
+
+    def test_markup_and_escaped_newlines_are_not_visible_english(self):
+        self.assertEqual(self.completeness('<sprite name="H" color=#FFFFFF>减1张牌。\\r\\n')['status'], 'no-unapproved-latin')
+        self.assertEqual(self.completeness('3', 'protected-number')['status'], 'not-assessed')
+
+    def test_button_proof_changes_identity_without_rewriting_old_evidence(self):
+        row = audit.read(ROOT / 'coverage/evidence/latest.json')['samples'][0]
+        old = audit.identity(row)
+        self.assertEqual(audit.identity({**row, 'buttonLabel': False}), old)
+        self.assertNotEqual(audit.identity({**row, 'buttonLabel': True}), old)
+
+    def test_inventory_reconciliation_does_not_approve_fragment_or_live_state(self):
+        result = audit.reconcile_inventory([{'key':'a','original':'Play Here'},{'key':'b','original':'Play'}], self.contracts)
+        self.assertTrue(result['a']['currentWholeSourceCases'])
+        self.assertEqual(result['b']['currentWholeSourceCases'], [])
+        self.assertNotIn('liveAccepted', result['a'])
+
+    def test_layout_cannot_drop_one_hero_count(self):
+        group = next(g for g in self.plan['groups'] if g['id'] == 'hero-layouts')
+        group['scenarios'] = [x for x in group['scenarios'] if x['id'] != 'four']
+        with self.assertRaisesRegex(ValueError, 'scenario missing'):
+            audit.validate_acceptance(self.plan, self.contracts, self.inventory)
+
+    def test_historical_partial_requires_clean_current_source_proof(self):
+        row = {'source': 'Legacy抽到的牌：', 'objectName': 'Description Label', 'cardId': ''}
+        result = {'reason': 'translated-output-observed', 'target': None,
+                  'sourceReplayOutputs': [{'sourceId': 'original', 'target': '传承侠抽到的牌：'}]}
+        self.assertEqual(audit.translation_completeness(row, result)['status'], 'historical-partial-current-source-clean')
+        result['sourceReplayOutputs'][0]['target'] = 'Legacy抽到的牌：'
+        self.assertEqual(audit.translation_completeness(row, result)['status'], 'partial-residual')

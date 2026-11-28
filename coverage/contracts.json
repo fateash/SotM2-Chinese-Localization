@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "d613bc2fe15fc0e39770ce28ddc41e3ac0c0e122706b72651a8c85f74ee198c4",
+    "runtime/DynamicDisplayRules.cs": "8420a0f27bb5df65a2272787a5b285f2be26730b2e2519b023879c5437a95843",
     "runtime/SurfaceProbeRules.cs": "e1c651346fcb9ed86be905d76045dc25e8e6920a26877041d13022a98c723dfb",
-    "runtime/SurfaceProbe.cs": "3848374ccfe3e4c4df22927b6b78d093924fc2c0be2743abc0d17d95482a4940",
-    "runtime/Plugin.cs": "3609bf17ef7e0aab0abfecb1187f1a1691856a8cad70a0d89b092507df4033b7",
+    "runtime/SurfaceProbe.cs": "3d8a422c861da8db81e5dcfd047e7c1b7b695907aae0602828a4986306768e23",
+    "runtime/Plugin.cs": "0cf437d380149b4b51567cc69487f7734f97fdf00b9a59263e4898a0ea7f24a4",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
     "probe/dynamic-pilot.json": "924c5ce922a7a2879b05ff3d5dffdb24f8538fa7782d04eb7373335e40d2c19c",
-    "runtime/RenderedDisplayRules.cs": "fa6845674b510d98909b8b583b1a17b790234df97ffcb7c2832ddf89d7c5813b"
+    "runtime/RenderedDisplayRules.cs": "01aab8038a58e7cffc629d4251be8a4a17e125bb3e2a68f76264d5f7d806dbb4"
   },
   "families": [
     {
@@ -63023,6 +63023,1270 @@
             "inCardView": true,
             "cardButtonCandidate": true,
             "source": "Play Here",
+            "expected": "在此打出"
+          }
+        }
+      ]
+    },
+    {
+      "id": "semantic-stable-buttons",
+      "templates": [],
+      "contexts": [
+        {
+          "id": "positive-0-Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play Here",
+            "expected": "在此打出"
+          }
+        },
+        {
+          "id": "positive-0-Text",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Text",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play Here",
+            "expected": "在此打出"
+          }
+        },
+        {
+          "id": "positive-0-Text (TMP)",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Text (TMP)",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play Here",
+            "expected": "在此打出"
+          }
+        },
+        {
+          "id": "positive-0-Selection Button Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play Here",
+            "expected": "在此打出"
+          }
+        },
+        {
+          "id": "positive-0-Finish Button Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play Here",
+            "expected": "在此打出"
+          }
+        },
+        {
+          "id": "no-proof-0",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": false,
+            "source": "Play Here",
+            "expected": null
+          }
+        },
+        {
+          "id": "wrong-role-0",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play Here",
+            "expected": null
+          }
+        },
+        {
+          "id": "longer-sentence-0",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play Here or take damage",
+            "expected": null
+          }
+        },
+        {
+          "id": "prefixed-0",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Click Play Here",
+            "expected": null
+          }
+        },
+        {
+          "id": "positive-1-Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Put Here",
+            "expected": "放在此处"
+          }
+        },
+        {
+          "id": "positive-1-Text",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Text",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Put Here",
+            "expected": "放在此处"
+          }
+        },
+        {
+          "id": "positive-1-Text (TMP)",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Text (TMP)",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Put Here",
+            "expected": "放在此处"
+          }
+        },
+        {
+          "id": "positive-1-Selection Button Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Put Here",
+            "expected": "放在此处"
+          }
+        },
+        {
+          "id": "positive-1-Finish Button Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Put Here",
+            "expected": "放在此处"
+          }
+        },
+        {
+          "id": "no-proof-1",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": false,
+            "source": "Put Here",
+            "expected": null
+          }
+        },
+        {
+          "id": "wrong-role-1",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Put Here",
+            "expected": null
+          }
+        },
+        {
+          "id": "longer-sentence-1",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Put Here or take damage",
+            "expected": null
+          }
+        },
+        {
+          "id": "prefixed-1",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Click Put Here",
+            "expected": null
+          }
+        },
+        {
+          "id": "positive-2-Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Skip Draw Phase",
+            "expected": "跳过抽牌阶段"
+          }
+        },
+        {
+          "id": "positive-2-Text",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Text",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Skip Draw Phase",
+            "expected": "跳过抽牌阶段"
+          }
+        },
+        {
+          "id": "positive-2-Text (TMP)",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Text (TMP)",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Skip Draw Phase",
+            "expected": "跳过抽牌阶段"
+          }
+        },
+        {
+          "id": "positive-2-Selection Button Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Skip Draw Phase",
+            "expected": "跳过抽牌阶段"
+          }
+        },
+        {
+          "id": "positive-2-Finish Button Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Skip Draw Phase",
+            "expected": "跳过抽牌阶段"
+          }
+        },
+        {
+          "id": "no-proof-2",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": false,
+            "source": "Skip Draw Phase",
+            "expected": null
+          }
+        },
+        {
+          "id": "wrong-role-2",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Skip Draw Phase",
+            "expected": null
+          }
+        },
+        {
+          "id": "longer-sentence-2",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Skip Draw Phase or take damage",
+            "expected": null
+          }
+        },
+        {
+          "id": "prefixed-2",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Click Skip Draw Phase",
+            "expected": null
+          }
+        },
+        {
+          "id": "positive-3-Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play Construct",
+            "expected": "打出构造牌"
+          }
+        },
+        {
+          "id": "positive-3-Text",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Text",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play Construct",
+            "expected": "打出构造牌"
+          }
+        },
+        {
+          "id": "positive-3-Text (TMP)",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Text (TMP)",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play Construct",
+            "expected": "打出构造牌"
+          }
+        },
+        {
+          "id": "positive-3-Selection Button Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play Construct",
+            "expected": "打出构造牌"
+          }
+        },
+        {
+          "id": "positive-3-Finish Button Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play Construct",
+            "expected": "打出构造牌"
+          }
+        },
+        {
+          "id": "no-proof-3",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": false,
+            "source": "Play Construct",
+            "expected": null
+          }
+        },
+        {
+          "id": "wrong-role-3",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play Construct",
+            "expected": null
+          }
+        },
+        {
+          "id": "longer-sentence-3",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play Construct or take damage",
+            "expected": null
+          }
+        },
+        {
+          "id": "prefixed-3",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Click Play Construct",
+            "expected": null
+          }
+        },
+        {
+          "id": "positive-4-Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Discover Construct",
+            "expected": "发现构造牌"
+          }
+        },
+        {
+          "id": "positive-4-Text",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Text",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Discover Construct",
+            "expected": "发现构造牌"
+          }
+        },
+        {
+          "id": "positive-4-Text (TMP)",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Text (TMP)",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Discover Construct",
+            "expected": "发现构造牌"
+          }
+        },
+        {
+          "id": "positive-4-Selection Button Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Discover Construct",
+            "expected": "发现构造牌"
+          }
+        },
+        {
+          "id": "positive-4-Finish Button Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Discover Construct",
+            "expected": "发现构造牌"
+          }
+        },
+        {
+          "id": "no-proof-4",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": false,
+            "source": "Discover Construct",
+            "expected": null
+          }
+        },
+        {
+          "id": "wrong-role-4",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Discover Construct",
+            "expected": null
+          }
+        },
+        {
+          "id": "longer-sentence-4",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Discover Construct or take damage",
+            "expected": null
+          }
+        },
+        {
+          "id": "prefixed-4",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Click Discover Construct",
+            "expected": null
+          }
+        },
+        {
+          "id": "positive-5-Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Bury 2 Cards",
+            "expected": "埋藏2张牌"
+          }
+        },
+        {
+          "id": "positive-5-Text",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Text",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Bury 2 Cards",
+            "expected": "埋藏2张牌"
+          }
+        },
+        {
+          "id": "positive-5-Text (TMP)",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Text (TMP)",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Bury 2 Cards",
+            "expected": "埋藏2张牌"
+          }
+        },
+        {
+          "id": "positive-5-Selection Button Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Bury 2 Cards",
+            "expected": "埋藏2张牌"
+          }
+        },
+        {
+          "id": "positive-5-Finish Button Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Bury 2 Cards",
+            "expected": "埋藏2张牌"
+          }
+        },
+        {
+          "id": "no-proof-5",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": false,
+            "source": "Bury 2 Cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "wrong-role-5",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Bury 2 Cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "longer-sentence-5",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Bury 2 Cards or take damage",
+            "expected": null
+          }
+        },
+        {
+          "id": "prefixed-5",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Click Bury 2 Cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "positive-6-Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Discard 1 Card",
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "positive-6-Text",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Text",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Discard 1 Card",
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "positive-6-Text (TMP)",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Text (TMP)",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Discard 1 Card",
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "positive-6-Selection Button Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Selection Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Discard 1 Card",
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "positive-6-Finish Button Label",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Finish Button Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Discard 1 Card",
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "no-proof-6",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": false,
+            "source": "Discard 1 Card",
+            "expected": null
+          }
+        },
+        {
+          "id": "wrong-role-6",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Body Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Discard 1 Card",
+            "expected": null
+          }
+        },
+        {
+          "id": "longer-sentence-6",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Discard 1 Card or take damage",
+            "expected": null
+          }
+        },
+        {
+          "id": "prefixed-6",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Click Discard 1 Card",
+            "expected": null
+          }
+        },
+        {
+          "id": "reject-0",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play",
+            "expected": null
+          }
+        },
+        {
+          "id": "reject-1",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Power",
+            "expected": null
+          }
+        },
+        {
+          "id": "reject-2",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Draw",
+            "expected": null
+          }
+        },
+        {
+          "id": "reject-3",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Replace",
+            "expected": null
+          }
+        },
+        {
+          "id": "reject-4",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Construct",
+            "expected": null
+          }
+        },
+        {
+          "id": "reject-5",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "2",
+            "expected": null
+          }
+        },
+        {
+          "id": "reject-6",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "<b>Play Here</b>",
+            "expected": null
+          }
+        },
+        {
+          "id": "reject-7",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Play Here!",
+            "expected": null
+          }
+        },
+        {
+          "id": "reject-8",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Bury 2 Targets",
+            "expected": null
+          }
+        },
+        {
+          "id": "reject-9",
+          "status": "excluded",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "Discard -1 Card",
+            "expected": null
+          }
+        },
+        {
+          "id": "case-whitespace",
+          "status": "offline-covered",
+          "view": "semantic-button",
+          "heroState": "any",
+          "layout": "independent",
+          "reason": "组件Button祖先与标签用途为独立证据；完整稳定词组，合成回归，不冒充实机观察。",
+          "case": {
+            "path": "Unseen Scene/Unseen Layout/Action/Label",
+            "objectName": "Label",
+            "cardId": "",
+            "inCardView": false,
+            "buttonLabel": true,
+            "source": "  PLAY\n HERE  ",
             "expected": "在此打出"
           }
         }

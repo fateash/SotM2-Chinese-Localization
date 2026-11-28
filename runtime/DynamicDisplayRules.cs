@@ -251,6 +251,28 @@ public sealed class DynamicDisplayRules {
    ("Deal "," Targets 3 Damage")=>Format("button.deal.many",n),
    ("Deal "," damage")=>Format("button.deal.amount",n),_=>null};
  }
+ // Semantic fallback requires a real Button ancestor and a whitelisted label role.
+ // No card IDs, hero counts or ancestor path names: these phrases have stable action meanings.
+ public static bool IsButtonLabelName(string name)=>name is "Label" or "Text" or "Text (TMP)" or "Selection Button Label" or "Finish Button Label" or "Skip Button Label" or "Choose For Me Button Label";
+ static readonly Dictionary<string,string> StableButtons=new(CommonButtons,StringComparer.OrdinalIgnoreCase){
+  ["Play Here"]="button.play.here",["Put Here"]="button.put.here",
+  ["Skip Draw Phase"]="button.skip.draw.phase",["Skip Play Phase"]="button.skip.play",["Skip Power Phase"]="button.skip.power",
+  ["Skip Incapacitated Phase"]="button.skip.incapacitated",
+  ["Play Item"]="button.play.item",["Play Golem"]="button.play.golem",
+  ["Discover Item"]="button.discover.item",["Discover Golem"]="button.discover.golem"
+ };
+ public string? ApplyStableButton(string obj,bool buttonLabel,string source){
+  if(!buttonLabel || !IsButtonLabelName(obj) || string.IsNullOrEmpty(source) || source.Length>256)return null;
+  // Only whitespace/case variation of a WHOLE approved phrase; never strip markup or replace substrings.
+  string phrase=Regex.Replace(source.Trim(),@"\s+"," ");
+  if(StableButtons.TryGetValue(phrase,out var key))return Format(key);
+  // These count-bearing labels use the existing complete action/unit grammar; preserve number spelling.
+  var count=Regex.Match(phrase,@"\A(?<action>Bury|Discard) (?<n>[0-9]{1,6}) (?<unit>cards?)\z",RegexOptions.IgnoreCase|RegexOptions.CultureInvariant);
+  var parts=count.Success?ParseConfirmation((count.Groups["action"].Value.Equals("Bury",StringComparison.OrdinalIgnoreCase)?"Bury":"Discard")+" "+count.Groups["n"].Value+" "+count.Groups["unit"].Value.ToLowerInvariant()):null;
+  return parts switch {
+   {Action:"Bury",NumberKind:"card-count"}=>Format("finish.bury",parts.Number),
+   {Action:"Discard",NumberKind:"card-count"}=>Format("button.discard.count",parts.Number),_=>null};
+ }
  public string? ApplyCardButton(string path,string card,string source){
   if(string.IsNullOrEmpty(source) || source.Length>2048)return null;
   if(source=="Play Here"){

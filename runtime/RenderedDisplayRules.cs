@@ -129,8 +129,11 @@ public sealed class RenderedDisplayRules {
   return prefix.Success?"<b>"+Name(prefix.Groups["name"].Value)+":</b> ":Name(s);
  }
  string Name(string s)=>names.TryGetValue(s,out var t)?t:s;
- public string? Apply(string path,string obj,string card,bool inCard,bool button,string source,string? previous=null,bool effectTooltip=false){
+ public string? Apply(string path,string obj,string card,bool inCard,bool button,string source,string? previous=null,bool effectTooltip=false,bool buttonLabel=false){
   string result=previous??source;
+  // Historical cardButtonCandidate is not proof of an actual Button; use the new explicit identity.
+  var stable=button ? namedDynamic?.ApplyStableButton(obj,buttonLabel,source) : null;
+  if(stable!=null)return stable;
   if(effectTooltip)return EffectTooltip(source)??previous;
   if(inCard && button && obj=="Label"){
    var granted=GrantedHeroPowerPath.Match(path);

@@ -26,7 +26,7 @@ string? BaseMatch(JsonElement x,string source)=>x.TryGetProperty("catalogId",out
 string? Match(JsonElement x,string source){
  var previous=BaseMatch(x,source);
  if(x.TryGetProperty("catalogId",out _))return previous;
- return completion.Apply(Str(x,"path"),Str(x,"objectName"),Str(x,"cardId"),x.GetProperty("inCardView").GetBoolean(),x.TryGetProperty("cardButtonCandidate",out var b) && b.GetBoolean(),source,previous,x.TryGetProperty("effectTooltip",out var et) && et.GetBoolean())??previous;
+ return completion.Apply(Str(x,"path"),Str(x,"objectName"),Str(x,"cardId"),x.GetProperty("inCardView").GetBoolean(),(x.TryGetProperty("cardButtonCandidate",out var b) && b.GetBoolean()) || (x.TryGetProperty("buttonLabel",out var bl) && bl.GetBoolean()),source,previous,x.TryGetProperty("effectTooltip",out var et) && et.GetBoolean(),x.TryGetProperty("buttonLabel",out var label) && label.GetBoolean())??previous;
 }
 var contexts=contracts.RootElement.GetProperty("families").EnumerateArray()
  .SelectMany(f=>f.GetProperty("contexts").EnumerateArray())
@@ -42,11 +42,20 @@ foreach(var c in contexts){
 // Recognize a translated mixed-language observation only when a complete source
 // at the same control produces exactly that output. A Chinese suffix alone is insufficient.
 var provenOutputs=new HashSet<(string Path,string Card,string Name,bool InCard,string Text)>();
+var currentSourceOutputs=new Dictionary<(string Path,string Card,string Name,bool InCard,string Text),List<object>>();
 foreach(var x in snapshot.RootElement.GetProperty("samples").EnumerateArray()){
  if(x.GetProperty("truncated").GetBoolean() || (Str(x,"inputSource")!="TextString" && Str(x,"inputSource")!="TextInputBox"))continue;
  // Preserve proof of pre-completion output in historical sessions; origin is not full localization.
- foreach(var output in new[]{Match(x,Str(x,"source")),BaseMatch(x,Str(x,"source"))})
-  if(output!=null && output!=Str(x,"source"))provenOutputs.Add((Str(x,"path"),Str(x,"cardId"),Str(x,"objectName"),x.GetProperty("inCardView").GetBoolean(),output));
+ var current=Match(x,Str(x,"source"));
+ foreach(var output in new[]{current,BaseMatch(x,Str(x,"source"))})
+  if(output!=null && output!=Str(x,"source")){
+   var key=(Str(x,"path"),Str(x,"cardId"),Str(x,"objectName"),x.GetProperty("inCardView").GetBoolean(),output);
+   provenOutputs.Add(key);
+   if(current!=null && current!=output){
+    if(!currentSourceOutputs.ContainsKey(key))currentSourceOutputs[key]=new();
+    currentSourceOutputs[key].Add(new{sourceId=Str(x,"id"),target=current});
+   }
+  }
 }
 object Classify(JsonElement x){
  string source=Str(x,"source"),reason="unresolved-full-string";string? target=null;
@@ -69,7 +78,8 @@ object Classify(JsonElement x){
    }
   }
  }
- return new {id=Str(x,"id"),reason,target,knownTranslationElsewhere=elsewhere,
+ currentSourceOutputs.TryGetValue((Str(x,"path"),Str(x,"cardId"),Str(x,"objectName"),x.GetProperty("inCardView").GetBoolean(),source),out var originOutputs);
+ return new {id=Str(x,"id"),reason,target,knownTranslationElsewhere=elsewhere,sourceReplayOutputs=originOutputs??new(),
   capturedDynamicMatch=x.GetProperty("markerCandidate").GetBoolean(),liveAccepted=false};
 }
 var rows=snapshot.RootElement.GetProperty("samples").EnumerateArray().Select(Classify).ToList();
