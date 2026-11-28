@@ -603,7 +603,7 @@
           "id": "environment-back-titles",
           "check": "环境牌库缩略图与放大牌背名称",
           "passCriteria": "初次选择、切换环境、撤销、缩略图及放大图完整中文无英文闪现；不影响牌库数量",
-          "status": "pending",
+          "status": "accepted",
           "visualObservations": [
             {
               "version": "0.1.37-rc.1（本轮测试上下文）",
@@ -660,13 +660,27 @@
               "status": "partial-pass"
             }
           ],
-          "diagnosis": "0.1.41有效处理位于1秒扫描，日志显示绑定写入与持久性正常；0.1.42登记Configure实例并在Canvas绘制前刷新已登记牌背，扫描仅兜底。需复验初次选择与撤销无英文闪现。"
+          "diagnosis": "0.1.41有效处理位于1秒扫描，日志显示绑定写入与持久性正常；0.1.42登记Configure实例并在Canvas绘制前刷新已登记牌背，扫描仅兜底。需复验初次选择与撤销无英文闪现。",
+          "evidence": {
+            "version": "0.1.42-rc.1",
+            "source": "用户2026-11-28本轮文字确认",
+            "humanConfirmation": "环境卡标题通过画面测试",
+            "visualResult": "本轮环境牌背名称与标题显示通过画面测试；按本轮复验上下文登记",
+            "interactionResult": "仅画面验收；不推定未单独确认的牌库数量、撤销规则或其他卡牌交互"
+          }
         },
         {
           "id": "environment-title-font",
           "check": "六环境牌背小图与大图的独立粗黑体标题",
           "passCriteria": "标题有明确字重层级，最长环境名不裁切；原标题颜色、位置和数字保持；正文与其他标题不被换字体",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1",
+            "source": "用户2026-11-28本轮文字确认",
+            "humanConfirmation": "环境卡标题通过画面测试",
+            "visualResult": "本轮环境牌背名称与标题显示通过画面测试；按本轮复验上下文登记",
+            "interactionResult": "仅画面验收；不推定未单独确认的牌库数量、撤销规则或其他卡牌交互"
+          }
         }
       ],
       "kind": "live-functional"
