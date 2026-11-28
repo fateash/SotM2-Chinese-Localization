@@ -119,6 +119,22 @@ public sealed class RenderedDisplayRules {
   if(m.Success)return Name(m.Groups["name"].Value)+"的规则文本视为空白";
   return null;
  }
+ // Names and style definitions verified in this build's default TMP stylesheet.
+ // A style can select a different font from TMP_Text.font; that font needs its own CJK fallback.
+ public static string[] RequiredInlineFonts(string source){
+  if(!DisplayScope.ContainsHan(source))return Array.Empty<string>();
+  var fonts=new HashSet<string>(StringComparer.Ordinal);
+  foreach(var style in new[]{"AbilityHeading","PowerHeading","ReactionHeading"})
+   if(source.Contains("<style="+style+">",StringComparison.Ordinal))fonts.Add("AvenirNextLTPro-HeavyCn");
+  if(source.Contains("<style=BoldItalic>",StringComparison.Ordinal))fonts.Add("AvenirNextLTPro-Bold");
+  if(source.Contains("<style=Keywords>",StringComparison.Ordinal))fonts.Add("AstounderSquaredBB-Bold");
+  foreach(var style in new[]{"StartPhase","PlayPhase","PowerPhase","DrawPhase","EndPhase","PowerTitle","C1","C2"})
+   if(source.Contains("<style="+style+">",StringComparison.Ordinal))fonts.Add("AvengeanceMightiestAvenger");
+  return fonts.OrderBy(x=>x,StringComparer.Ordinal).ToArray();
+ }
+ public static bool IsInsetNewGameSection(string path,string obj,string text)=>obj=="Title Label" &&
+  ((path=="Canvas/Main Panel/Villain/Selected Area/Fade Panel/Title Label" && text=="反派") ||
+   (path=="Canvas/Main Panel/Environment/Selected Area/Fade Panel/Title Label" && text=="环境"));
  public static bool IsPowerButton(string path,string card,bool inCard,bool button){
   if(!inCard || !button || card.Length==0 ||
    (!path.StartsWith("Canvas/Main Panel/",StringComparison.Ordinal) && !path.StartsWith("Full Card Canvas/Full Card Panel/",StringComparison.Ordinal)))return false;

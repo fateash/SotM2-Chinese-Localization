@@ -496,4 +496,30 @@ foreach(var obj in new[]{"Body Label","HP Label","Title Label","Input Field","Co
 foreach(var text in new[]{"Play","Draw","Power","Replace","Construct","Click Play Here","Play Here and draw 2 cards","<b>Play Here</b>","Bury 1 cards","Bury 2 card","Bury -1 card","Discard 2 targets","42"})
  Check(semantic036.Apply("New Scene/Label","Label","",false,true,text,null,false,true)==null,"semantic whole-phrase or grammar negative "+text);
 Check(semantic036.Apply("New Scene/Label","Label","",false,true,"Discard 002 cards",null,false,true)=="弃置002张牌","literal number spelling retained");
+
+// Inline styles switch away from the main TMP font: retain the style, attach fallback to its font.
+foreach(var heading in new[]{"演奏","伴奏","制造","灭绝"}){
+ string styled="<style=AbilityHeading><sprite name=\"Perform\"> "+heading+"</style>";
+ Check(RenderedDisplayRules.RequiredInlineFonts(styled).SequenceEqual(new[]{"AvenirNextLTPro-HeavyCn"}),"ability heading font policy "+heading);
+ Check(RenderedDisplayRules.RequiredInlineFonts(heading).Length==0,"plain Chinese does not load unrelated inline fonts");
+}
+Check(RenderedDisplayRules.RequiredInlineFonts("<style=BoldItalic>制造</style>").SequenceEqual(new[]{"AvenirNextLTPro-Bold"}),"inline rule ability font differs from heading font");
+Check(RenderedDisplayRules.RequiredInlineFonts("<style=AbilityHeading>123</style>").Length==0,"numeric styled buffer has no font request");
+Check(RenderedDisplayRules.RequiredInlineFonts("<style=Unrecognized>制造</style>").Length==0,"unknown styles are not rewritten or guessed");
+foreach(var area in new[]{("Villain","反派"),("Environment","环境")}){
+ string section="Canvas/Main Panel/"+area.Item1+"/Selected Area/Fade Panel/Title Label";
+ Check(RenderedDisplayRules.IsInsetNewGameSection(section,"Title Label",area.Item2),"newgame section inset is bound to actual title role");
+ Check(!RenderedDisplayRules.IsInsetNewGameSection(section,"Rating Label",area.Item2),"rating size/position untouched");
+ Check(!RenderedDisplayRules.IsInsetNewGameSection("Other/Title Label","Title Label",area.Item2),"same word in another scene untouched");
+}
+foreach(var env in new[]{"Freedom Tower","Insula Primalis","Magmaria","Megalopolis","The Ruins of Atlantis","Wagner Mars Base"}){
+ Check(pilot.ApplyEnvironmentDeckTitle("Title Label",env,true)==pilot.DeckNames[env],"environment deck title at bound preview/battle role "+env);
+ Check(pilot.ApplyEnvironmentDeckTitle("Title Label",env,false)==null,"missing actual title identity rejected");
+ Check(pilot.ApplyEnvironmentDeckTitle("HP Label",env,true)==null,"environment-name vocabulary does not authorize arbitrary controls");
+ Check(pilot.ApplyEnvironmentDeckTitle("Title Label",env+" 4",true)==null,"full approved name only");
+}
+Check(pilot.ApplyEnvironmentDeckTitle("Title Label","Legacy",true)==null,"environment deck title cannot borrow hero role");
+Check(pilot.Dynamic!.Apply("Canvas/Main Panel/Heading Label","The Wagner Mars Base exploded!")=="瓦格纳火星基地爆炸了！","Wagner special explosion heading already included");
+Check(pilot.Dynamic.Apply("Canvas/Main Panel/Message Panel/Panel/Message Label","There are 0 cards under Self-Destruct Sequence.")=="Self-Destruct Sequence下方有0张牌。","Wagner zero-card reason with reviewed card name");
+Check(pilot.ApplyEnvironmentDeckTitle("Title Label","  MAGMARIA  ",true)=="熔岩域","bound environment title accepts case and outer whitespace");
 Console.WriteLine("Total checks including deck names: "+count);

@@ -3801,6 +3801,21 @@
       "id": "cfd285190c06af44b76b6c6c",
       "reason": "current-rule-match",
       "target": "在此打出"
+    },
+    {
+      "id": "09d599cfdd70609495c3aa79",
+      "reason": "current-rule-match",
+      "target": "<b>毁灭极光:</b> 点击场上至多4张牌，先于其他牌将其破坏。"
+    },
+    {
+      "id": "923606a04d39901703c34044",
+      "reason": "current-rule-match",
+      "target": "<b>毁灭极光:</b> 点击场上至多5张牌，先于其他牌将其破坏。"
+    },
+    {
+      "id": "e14b5e58911c0b22c2decf01",
+      "reason": "current-rule-match",
+      "target": "<b>致命俯冲:</b> 点击一个目标，将其破坏。"
     }
   ]
 }

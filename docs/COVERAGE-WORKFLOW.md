@@ -123,3 +123,10 @@ python3 tools/coverage_audit.py check --require-stage-1-complete
 用`--acceptance-plan`可指定计划文件。阶段检查不再逐条产生`context-not-accepted`；改为`scenario-not-accepted`、`inventory-review-open`及`residual-needs-resolution`，历史采集上限、未解决未知项和现有规则回归约束继续保留。日常CI仍允许已有明确处理方案的待办；本轮未扩大任何旧日志豁免。
 
 适用范围仅为已清点的库存和运行规则；不宣称发现了所有未知文字，也不以无拉丁字符代替译文质量审核。玩家Release仍须独立构建，不携带测试／诊断／历史材料。
+
+### 样式字体、牌背标题与特殊环境结算（0.1.37）
+
+- `AbilityHeading`等样式会切换到不同TMP字体；正文含有中文不代表这些字体已得到回退。运行时按已核对的样式字体需求附加CJK回退，保留原样式和图标；契约同时检查字体需求，最终可见性仍需实机截图。
+- 环境牌背标题由实际`CardBackView`祖先和`Environment Title Background/Title Label`身份限定，完整名称仅允许当前六个环境。新增的两个TMP字符串输入重载只改该显示调用的字符串参数，不读TMP.text、脏字符串或数字数组；原格式缓冲保护继续生效。
+- 栏目位置只调整新游戏反派／环境两处中文Title Label，不能波及评分、英雄栏或其他同名标签。
+- 瓦格纳火星基地自毁爆炸独立列入`endings/wagner`，不能以普通失败或其他特殊结算通过代替。用户确认的单面角色大图只记该画面范围，不推定另一面、其他卡牌或点击通过。

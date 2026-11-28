@@ -24,6 +24,8 @@ def digest(value):
 
 def identity(row):
     fields = [row[k] for k in ('buildId', 'path', 'cardId', 'source', 'inputSource')]
+    if row.get('environmentDeckTitle'):
+        fields.append('bound-environment-deck-title')
     if row.get('buttonLabel'):
         fields.append('bound-button-label')
     if row.get('effectTooltip'):
@@ -69,7 +71,7 @@ def intake(paths, existing=None):
             session['issues'].append('missing-installed-hashes')
         if f"PROTOTYPE_LOADED {session['version']} build={session['buildId']} mode=Chinese" not in log:
             session['issues'].append('loaded-version-or-mode-unverified')
-        errors = ['SURFACE_PROBE_STOPPED', 'UI_RENDER_FALLBACK', 'FONT_GLYPHS_MISSING', 'UPDATE_ERROR']
+        errors = ['SURFACE_PROBE_STOPPED', 'UI_RENDER_FALLBACK', 'FONT_GLYPHS_MISSING', 'UPDATE_ERROR', 'INLINE_FONT_UNAVAILABLE', 'ENVIRONMENT_TITLE_INPUT_FALLBACK']
         session['runtimeWarnings'] = [token for token in errors if token in log]
         session['issues'].extend(session['runtimeWarnings'])
         # Existing application logs are deduplicated by object/source, not full path.
@@ -89,6 +91,10 @@ def intake(paths, existing=None):
             raw = json.loads(line.split('SURFACE_PROBE ', 1)[1])
             fields = ('objectName', 'path', 'cardId', 'source', 'inCardView', 'inputSource', 'truncated', 'markerCandidate')
             row = {k: raw[k] for k in fields}
+            if 'environmentDeckTitle' in raw:
+                if type(raw['environmentDeckTitle']) is not bool or (raw['environmentDeckTitle'] and raw['objectName'] != 'Title Label'):
+                    raise ValueError('Invalid environment title identity')
+                row['environmentDeckTitle'] = raw['environmentDeckTitle']
             if 'buttonLabel' in raw:
                 if type(raw['buttonLabel']) is not bool:
                     raise ValueError('Invalid button label identity')
@@ -451,7 +457,7 @@ def validate_acceptance(plan, contracts, inventory):
     if len(claimed_keys) != len(set(claimed_keys)) or set(claimed_keys) != keys:
         raise ValueError('Acceptance plan must assign every inventory key exactly once')
     required = {'hero-layouts/three', 'hero-layouts/four', 'hero-layouts/five', 'stable-buttons/guards',
-                'endings/normal', 'endings/baron', 'endings/voss', 'card-rendering/h-formula', 'card-rendering/grant'}
+                'endings/normal', 'endings/baron', 'endings/voss', 'endings/wagner', 'card-rendering/h-formula', 'card-rendering/grant'}
     actual = {g['id'] + '/' + x['id'] for g in plan['groups'] for x in g['scenarios']}
     if not required <= actual:
         raise ValueError('Required layout, protection or special-ending scenario missing')

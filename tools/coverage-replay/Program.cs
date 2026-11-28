@@ -24,7 +24,7 @@ string? BaseMatch(JsonElement x,string source)=>x.TryGetProperty("catalogId",out
     : probe.ApplyDeckName(Str(x,"path"),source))
    ?? catalog.UiText(Str(x,"objectName"),source) ?? catalog.DisplayRules.Apply(Str(x,"objectName"),Str(x,"cardId"),source) ?? Dynamic(x,source);
 string? Match(JsonElement x,string source){
- var previous=BaseMatch(x,source);
+ var previous=probe.ApplyEnvironmentDeckTitle(Str(x,"objectName"),source,x.TryGetProperty("environmentDeckTitle",out var env) && env.GetBoolean())??BaseMatch(x,source);
  if(x.TryGetProperty("catalogId",out _))return previous;
  return completion.Apply(Str(x,"path"),Str(x,"objectName"),Str(x,"cardId"),x.GetProperty("inCardView").GetBoolean(),(x.TryGetProperty("cardButtonCandidate",out var b) && b.GetBoolean()) || (x.TryGetProperty("buttonLabel",out var bl) && bl.GetBoolean()),source,previous,x.TryGetProperty("effectTooltip",out var et) && et.GetBoolean(),x.TryGetProperty("buttonLabel",out var label) && label.GetBoolean())??previous;
 }
@@ -38,6 +38,10 @@ foreach(var c in contexts){
   throw new InvalidDataException("Integrated catalog contract failed: "+Str(c,"path")+" / "+Str(c,"source"));
  var expected=c.GetProperty("expected").ValueKind==JsonValueKind.Null?null:Str(c,"expected");
  if(actual!=expected)throw new InvalidDataException("Coverage contract failed: "+Str(c,"path")+" / "+Str(c,"source"));
+ if(c.TryGetProperty("expectedInlineFonts",out var fonts) && !RenderedDisplayRules.RequiredInlineFonts(actual??Str(c,"source")).SequenceEqual(fonts.EnumerateArray().Select(x=>x.GetString()!)))
+  throw new InvalidDataException("Inline font contract failed: "+Str(c,"source"));
+ if(c.TryGetProperty("expectedSectionInset",out var inset) && RenderedDisplayRules.IsInsetNewGameSection(Str(c,"path"),Str(c,"objectName"),actual??Str(c,"source"))!=inset.GetBoolean())
+  throw new InvalidDataException("Section layout contract failed: "+Str(c,"path"));
 }
 // Recognize a translated mixed-language observation only when a complete source
 // at the same control produces exactly that output. A Chinese suffix alone is insufficient.

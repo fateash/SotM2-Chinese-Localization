@@ -16,12 +16,30 @@ internal sealed class SurfaceProbe {
   try {
    if(blockedTitles.Count>=24 || text.gameObject.name!="Title Label" || text.GetComponentInParent<TMP_InputField>()!=null)return;
    var view=text.GetComponentInParent<CardView>();
-   if(view==null || view.TitleLabel!=text)return;
+   if(view==null || (view.TitleLabel!=text && !IsEnvironmentDeckTitle(text)))return;
    string path=PathOf(text);
    if(blockedTitles.Add(path))Plugin.Instance.Log.LogInfo("TITLE_INPUT_PROBE "+JsonSerializer.Serialize(new{
     path,inputSource=text.m_inputSource.ToString(),backingStringDirty=text.m_IsTextBackingStringDirty,
     isDeckBack=view.IsDeckBack,cardId=view.Card?.Card?.CardDefinition.Identifier??"",policy="metadata-only-no-text-read-no-write"}));
   }catch(Exception e){Plugin.Once("title-input-probe-error","TITLE_INPUT_PROBE_STOPPED "+e.GetType().Name);}
+ }
+ internal static bool IsEnvironmentDeckTitle(TMP_Text text)=>text.gameObject.name=="Title Label"
+  && text.transform.parent!=null && text.transform.parent.name=="Environment Title Background"
+  && text.GetComponentInParent<CardBackView>()!=null && text.GetComponentInParent<TMP_InputField>()==null;
+ internal string? EnvironmentTitleInput(TMP_Text text,string source){
+  var target=rules.ApplyEnvironmentDeckTitle(text.gameObject.name,source,IsEnvironmentDeckTitle(text));
+  if(target!=null)Plugin.Once("environment-title-input|"+PathOf(text)+source,"ENVIRONMENT_TITLE_INPUT "+JsonSerializer.Serialize(new{path=PathOf(text),source,target,identity="CardBackView/Environment Title Background/Title Label",policy="string-argument-only-no-buffer-read"}));
+  return target;
+ }
+ internal void ApplySectionLayout(TMP_Text text,string source){
+  if(!RenderedDisplayRules.IsInsetNewGameSection(PathOf(text),text.gameObject.name,source))return;
+  var rect=text.rectTransform;
+  var position=new UnityEngine.Vector2(10,-10);var size=new UnityEngine.Vector2(130,42);
+  if(rect.anchoredPosition!=position)rect.anchoredPosition=position;
+  if(rect.sizeDelta!=size)rect.sizeDelta=size;
+  if(text.enableAutoSizing)text.enableAutoSizing=false;
+  if(text.fontSize!=28)text.fontSize=28;
+  if(text.alignment!=TextAlignmentOptions.TopLeft)text.alignment=TextAlignmentOptions.TopLeft;
  }
  internal string? Complete(TMP_Text text,string source,string? previous){
   var view=text.GetComponentInParent<CardView>();
@@ -49,7 +67,8 @@ internal sealed class SurfaceProbe {
    string name=text.gameObject.name;
    var view=text.GetComponentInParent<CardView>();
    bool inCard=view!=null;
-   bool deckNameTitle=inCard && name=="Title Label" && view!.TitleLabel==text && rules.IsDeckName(source);
+   bool environmentDeckTitle=IsEnvironmentDeckTitle(text);
+   bool deckNameTitle=inCard && name=="Title Label" && (view!.TitleLabel==text || environmentDeckTitle) && rules.IsDeckName(source);
    // Candidate capture is broader than the card-ID and effect-button translation scope.
    bool cardButton=inCard && (string.Equals(source.Trim(),"Double Damage",StringComparison.OrdinalIgnoreCase) ||
     (text.GetComponentInParent<UnityEngine.UI.Button>()!=null &&
@@ -65,7 +84,7 @@ internal sealed class SurfaceProbe {
    parts.Reverse();string path=string.Join("/",parts);
    string card="";
    if(inCard && view!.Card!=null && view.Card.Card!=null)card=view.Card.Card.CardDefinition.Identifier;
-   string? target=inCard?rules.ApplyCardTitle(name,source,deckNameTitle):rules.ApplyDeckName(path,source);
+   string? target=rules.ApplyEnvironmentDeckTitle(name,source,environmentDeckTitle) ?? (inCard?rules.ApplyCardTitle(name,source,deckNameTitle):rules.ApplyDeckName(path,source));
    approvedDeckName=target!=null;
    target ??= inCard?rules.Dynamic?.ApplyCardButton(path,card,source):rules.Apply(path,source);
    target ??= rules.Dynamic?.ApplyStableButton(name,buttonLabel,source);
@@ -76,7 +95,7 @@ internal sealed class SurfaceProbe {
     if(seen.Count<1200 && n<200 && seen.Add(key)){
      counts[name]=n+1;
      Plugin.Instance.Log.LogInfo("SURFACE_PROBE "+JsonSerializer.Serialize(new{
-      objectName=name,path,cardId=card,inCardView=inCard,cardButtonCandidate=cardButton,deckNameTitle,effectTooltip,buttonLabel,source=clipped,truncated=source.Length>3072,
+      objectName=name,path,cardId=card,inCardView=inCard,cardButtonCandidate=cardButton,deckNameTitle,effectTooltip,buttonLabel,environmentDeckTitle,source=clipped,truncated=source.Length>3072,
       inputSource=text.m_inputSource.ToString(),markerCandidate=target!=null,
       confirmation=path==DynamicDisplayRules.FinishPath?DynamicDisplayRules.ParseConfirmation(clipped):null,
       status="observed-not-live-accepted"}));

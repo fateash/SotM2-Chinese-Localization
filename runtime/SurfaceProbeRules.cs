@@ -30,6 +30,12 @@ public sealed class SurfaceProbeRules {
  public static bool CanObserve(string objectName,bool inCardView,bool inInputField)=>
   !inCardView && !inInputField && ObservedObjects.Contains(objectName);
  static bool ValidName(string s)=>!string.IsNullOrWhiteSpace(s) && s.Length<=100 && !s.Any(c=>char.IsDigit(c)||char.IsControl(c)||"<>{}".Contains(c));
+ static readonly HashSet<string> EnvironmentNames=new(StringComparer.Ordinal){"Freedom Tower","Insula Primalis","Magmaria","Megalopolis","The Ruins of Atlantis","Wagner Mars Base"};
+ public string? ApplyEnvironmentDeckTitle(string objectName,string source,bool boundEnvironmentTitle){
+  if(!boundEnvironmentTitle || objectName!="Title Label")return null;
+  var name=EnvironmentNames.FirstOrDefault(n=>string.Equals(n,source.Trim(),StringComparison.OrdinalIgnoreCase));
+  return name!=null && DeckNames.TryGetValue(name,out var target)?target:null;
+ }
  // CardView.TitleLabel identity is checked against the actual TMP component by the caller.
  // The complete source identifies one approved deck; never replace a substring or model title.
  public string? ApplyCardTitle(string objectName,string source,bool isBoundTitle)=>

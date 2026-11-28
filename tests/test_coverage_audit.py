@@ -411,3 +411,24 @@ class SemanticAcceptanceTests(unittest.TestCase):
         self.assertEqual(audit.translation_completeness(row, result)['status'], 'historical-partial-current-source-clean')
         result['sourceReplayOutputs'][0]['target'] = 'Legacy抽到的牌：'
         self.assertEqual(audit.translation_completeness(row, result)['status'], 'partial-residual')
+
+
+class Evidence037Tests(unittest.TestCase):
+    def test_wagner_has_independent_acceptance_scenario(self):
+        plan = audit.read(ROOT / 'coverage/acceptance-plan.json')
+        ending = next(g for g in plan['groups'] if g['id'] == 'endings')
+        self.assertIn('wagner', [s['id'] for s in ending['scenarios']])
+        ending['scenarios'] = [s for s in ending['scenarios'] if s['id'] != 'wagner']
+        with self.assertRaisesRegex(ValueError, 'scenario missing'):
+            audit.validate_acceptance(plan, audit.read(ROOT / 'coverage/contracts.json'), audit.read(ROOT / 'coverage/inventory-status.json'))
+
+    def test_character_visual_confirmation_does_not_approve_clicks_or_other_face(self):
+        plan = audit.read(ROOT / 'coverage/acceptance-plan.json')
+        scene = next(s for g in plan['groups'] for s in g['scenarios'] if s['id'] == 'omnitron')
+        self.assertEqual(scene['status'], 'pending')
+        self.assertEqual(scene['visualObservations'][0]['status'], 'visual-accepted')
+        self.assertEqual(scene['visualObservations'][0]['humanConfirmation'], '全能智创角色大图文字通过')
+
+    def test_environment_title_proof_kept_separate_from_old_observation(self):
+        row = audit.read(ROOT / 'coverage/evidence/latest.json')['samples'][0]
+        self.assertNotEqual(audit.identity(row), audit.identity({**row, 'environmentDeckTitle': True}))

@@ -224,7 +224,9 @@
     "newgame.choose.villain": "选择一名反派",
     "newgame.choose.environment": "选择一个环境",
     "newgame.rating.difficulty": "难度：{0}",
-    "newgame.rating.peril": "危险度：{0}"
+    "newgame.rating.peril": "危险度：{0}",
+    "hint.destroy.play.upto.first": "{0}点击场上至多{1}张牌，先于其他牌将其破坏。",
+    "hint.destroy.target.single": "点击一个目标，将其破坏。"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",

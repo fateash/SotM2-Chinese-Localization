@@ -278,7 +278,8 @@
       "families": [
         "hint",
         "hero-draw-count",
-        "target-purpose-hints"
+        "target-purpose-hints",
+        "destroy-order-and-target-hints"
       ],
       "inventoryKeys": [
         "literal.8bdb5c8b6de1b6c9730ec8fa",
@@ -355,6 +356,10 @@
         {
           "family": "target-purpose-hints",
           "id": "033-target-purpose-hints-182"
+        },
+        {
+          "family": "destroy-order-and-target-hints",
+          "id": "order-1-False"
         }
       ],
       "scenarios": [
@@ -421,7 +426,8 @@
         "incap-and-parameter-completion",
         "reaction-body-parameters",
         "granted-hero-power",
-        "hero-count-sprite-colors"
+        "hero-count-sprite-colors",
+        "inline-font-and-section-layout"
       ],
       "inventoryKeys": [],
       "representativeCases": [
@@ -444,6 +450,10 @@
         {
           "family": "hero-count-sprite-colors",
           "id": "034-1-0"
+        },
+        {
+          "family": "inline-font-and-section-layout",
+          "id": "Perform0"
         }
       ],
       "scenarios": [
@@ -469,6 +479,24 @@
           "id": "omnitron",
           "check": "全能智创双面制造／灭绝文本",
           "passCriteria": "新版完整正文无Omnitron／FABRICATE／EXTERMINATE残留；翻面和结算正确",
+          "status": "pending",
+          "visualObservations": [
+            {
+              "version": "0.1.36-rc.1",
+              "source": "image(20261128-105049).png",
+              "sha256": "ca94647690a5e05b420a43978ddba4df1a56e503301994a74de40397700a860f",
+              "humanConfirmation": "全能智创角色大图文字通过",
+              "scope": "截图所示制造面角色大图正文／阶段／排版",
+              "status": "visual-accepted",
+              "interaction": "未由本次截图确认",
+              "otherFace": "本截图未覆盖"
+            }
+          ]
+        },
+        {
+          "id": "ability-fonts",
+          "check": "银音秘师与全能智创牌面，小图／大图的四种能力标题",
+          "passCriteria": "演奏／伴奏／制造／灭绝四标题与图标同时可见，不裁切；字号与正文协调",
           "status": "pending"
         }
       ],
@@ -479,7 +507,8 @@
       "purpose": "牌组名称与特殊标题",
       "families": [
         "deck-name",
-        "reviewed-short-title-consistency"
+        "reviewed-short-title-consistency",
+        "environment-deck-title-role"
       ],
       "inventoryKeys": [],
       "representativeCases": [
@@ -490,6 +519,10 @@
         {
           "family": "reviewed-short-title-consistency",
           "id": "028-title-Full"
+        },
+        {
+          "family": "environment-deck-title-role",
+          "id": "env-0"
         }
       ],
       "scenarios": [
@@ -544,6 +577,12 @@
           "id": "voss",
           "check": "大军阀沃斯达成特殊失败条件",
           "passCriteria": "征服类结算文本完整显示，数字条件不变",
+          "status": "pending"
+        },
+        {
+          "id": "wagner",
+          "check": "瓦格纳火星基地自毁倒计时耗尽，触发基地爆炸失败",
+          "passCriteria": "结束原因和“瓦格纳火星基地爆炸了！”结算标题完整显示；条件与实际失败一致",
           "status": "pending"
         }
       ],

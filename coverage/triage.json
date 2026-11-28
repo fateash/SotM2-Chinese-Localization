@@ -3757,7 +3757,13 @@
         "owner": "本地化维护者",
         "nextAction": "对应card-rendering/omnitron代表场景确认新版显示；保留历史样本，不豁免阶段关闭。",
         "status": "pending-current-version-evidence",
-        "version": "0.1.36"
+        "version": "0.1.36",
+        "currentVisualObservation": {
+          "source": "image(20261128-105049).png",
+          "humanConfirmation": "全能智创角色大图文字通过",
+          "scope": "制造面大图正文，当前截图无英文残留；历史输入仍保留",
+          "version": "0.1.36-rc.1"
+        }
       }
     },
     {
@@ -3795,7 +3801,92 @@
         "owner": "本地化维护者",
         "nextAction": "对应card-rendering/omnitron代表场景确认新版显示；保留历史样本，不豁免阶段关闭。",
         "status": "pending-current-version-evidence",
-        "version": "0.1.36"
+        "version": "0.1.36",
+        "currentVisualObservation": {
+          "source": "image(20261128-105049).png",
+          "humanConfirmation": "全能智创角色大图文字通过",
+          "scope": "制造面大图正文，当前截图无英文残留；历史输入仍保留",
+          "version": "0.1.36-rc.1"
+        }
+      }
+    },
+    {
+      "id": "09d599cfdd70609495c3aa79",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "缺少完整破坏顺序／单目标破坏提示；0.1.37补入完整语法，数量与先后限定保留。",
+      "owner": "本地化维护者",
+      "nextAction": "实际触发并检查提示与选取／破坏顺序。",
+      "resolution": {
+        "version": "0.1.37-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#destroy-order-and-target-hints"
+      }
+    },
+    {
+      "id": "1676b89d79b65ec5e8801f4e",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "新游戏添加按钮的符号；新组件身份形成独立观察，符号无需翻译。",
+      "owner": "本地化维护者",
+      "nextAction": "保持符号／变量，数值与实际行为随代表场景检查；不添加翻译替换。"
+    },
+    {
+      "id": "75aa41b6f02862bddef552e8",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "退出按钮的X符号，不是英文正文。",
+      "owner": "本地化维护者",
+      "nextAction": "保持符号／变量，数值与实际行为随代表场景检查；不添加翻译替换。"
+    },
+    {
+      "id": "923606a04d39901703c34044",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "缺少完整破坏顺序／单目标破坏提示；0.1.37补入完整语法，数量与先后限定保留。",
+      "owner": "本地化维护者",
+      "nextAction": "实际触发并检查提示与选取／破坏顺序。",
+      "resolution": {
+        "version": "0.1.37-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#destroy-order-and-target-hints"
+      }
+    },
+    {
+      "id": "923c2c9309f102dec5628282",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "新游戏添加按钮的符号；新组件身份形成独立观察，符号无需翻译。",
+      "owner": "本地化维护者",
+      "nextAction": "保持符号／变量，数值与实际行为随代表场景检查；不添加翻译替换。"
+    },
+    {
+      "id": "95bff8919322cc13c894d40f",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "新游戏添加按钮的符号；新组件身份形成独立观察，符号无需翻译。",
+      "owner": "本地化维护者",
+      "nextAction": "保持符号／变量，数值与实际行为随代表场景检查；不添加翻译替换。"
+    },
+    {
+      "id": "c8c33e9662b2927b02930c4f",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "已中文的发掘正文，X为明确给出定义的规则变量；保留字面3、X及对应规则。",
+      "owner": "本地化维护者",
+      "nextAction": "保持符号／变量，数值与实际行为随代表场景检查；不添加翻译替换。"
+    },
+    {
+      "id": "e14b5e58911c0b22c2decf01",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "缺少完整破坏顺序／单目标破坏提示；0.1.37补入完整语法，数量与先后限定保留。",
+      "owner": "本地化维护者",
+      "nextAction": "实际触发并检查提示与选取／破坏顺序。",
+      "resolution": {
+        "version": "0.1.37-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#destroy-order-and-target-hints"
       }
     }
   ]

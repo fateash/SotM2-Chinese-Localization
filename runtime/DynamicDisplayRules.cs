@@ -17,6 +17,7 @@ public sealed class DynamicDisplayRules {
  static readonly Dictionary<string,(int Args,string Tags)> Specs=new(){
   ["newgame.choose.heroes"]=(0,""),["newgame.choose.villain"]=(0,""),["newgame.choose.environment"]=(0,""),
   ["newgame.rating.difficulty"]=(1,""),["newgame.rating.peril"]=(1,""),
+  ["hint.destroy.play.upto.first"]=(2,""),["hint.destroy.target.single"]=(0,""),
   ["hint.destroy.play.under.upto"]=(3,""),["hint.destroy.play.under.upto.first"]=(3,""),["hint.destroy.play.under.exact.first"]=(3,""),
   ["hint.card.replace"]=(0,""),
   ["hint.hero.discard.hand"]=(0,""),
@@ -479,6 +480,10 @@ public sealed class DynamicDisplayRules {
     if(phaseText!=null)return prefix+phaseText+" "+Format(choice.Template);
    }
   }
+  var destroyFirst=Regex.Match(body,@"\AClick up to (?<n>[0-9]{1,6}) (?<unit>card|cards) in play to destroy (?<pronoun>it|them) before other cards\.\z",RegexOptions.CultureInvariant);
+  if(destroyFirst.Success && (destroyFirst.Groups["n"].Value=="1")== (destroyFirst.Groups["unit"].Value=="card") && (destroyFirst.Groups["n"].Value=="1")== (destroyFirst.Groups["pronoun"].Value=="it"))
+   return Format("hint.destroy.play.upto.first",prefix,destroyFirst.Groups["n"].Value);
+  if(body=="Click a target to destroy it.")return prefix+Format("hint.destroy.target.single");
   var destroy=DestroyMany.Match(body);
   if(destroy.Success)return Format(destroy.Groups["kind"].Value=="targets"?"hint.destroy.targets":"hint.destroy.cards",prefix,destroy.Groups["n"].Value);
   var regainHint=RegainUpTo.Match(body);

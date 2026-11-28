@@ -46540,6 +46540,40 @@
           "SotM2-Dynamic-Evidence-20261128-174300-4dc410.zip"
         ]
       }
+    },
+    {
+      "key": "editorial.ui.hint.destroy.play.upto.first",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click up to {0} cards in play to destroy them before other cards.",
+      "sourceSha256": "a543dd7efa8ea8f94788d3423229debe8f13ea9afcd5728afded95fdbdb2d958",
+      "context": "0.1.37根据实际HUD完整原文接入；数量、场上范围与破坏先后限定保留。单数card/it，复数cards/them；仅由运行模板按HUD用途处理，不进入全局词典。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-183553-92b22a.zip",
+          "SotM2-Dynamic-Evidence-20261128-184051-900478.zip",
+          "SotM2-Dynamic-Evidence-20261128-184409-6d371a.zip"
+        ]
+      }
+    },
+    {
+      "key": "editorial.ui.hint.destroy.target.single",
+      "file": "dynamic/observed-ui-additions.json",
+      "original": "Click a target to destroy it.",
+      "sourceSha256": "98ce6556deddeb5249f976c5bf954d22b78ee50b2ea718e70ac6ff048e4b2279",
+      "context": "0.1.37根据实际HUD完整原文接入；数量、场上范围与破坏先后限定保留。单数card/it，复数cards/them；仅由运行模板按HUD用途处理，不进入全局词典。",
+      "kind": "ui.editorial-candidate",
+      "route": "inventory",
+      "holdReason": "runtime-template-bound-not-global-dictionary",
+      "origin": {
+        "evidenceFiles": [
+          "SotM2-Dynamic-Evidence-20261128-183553-92b22a.zip",
+          "SotM2-Dynamic-Evidence-20261128-184051-900478.zip",
+          "SotM2-Dynamic-Evidence-20261128-184409-6d371a.zip"
+        ]
+      }
     }
   ]
 }

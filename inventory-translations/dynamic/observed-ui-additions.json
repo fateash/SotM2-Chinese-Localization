@@ -257,5 +257,19 @@
     "translation": "危险度：{0}",
     "stage": 1,
     "context": "0.1.34完整选项提示接入，待实机验收。游戏构建26880829元数据及level3场景Rating Label核对；实际渲染路径及输入类型仍待新版日志确认。"
+  },
+  {
+    "key": "editorial.ui.hint.destroy.play.upto.first",
+    "original": "Click up to {0} cards in play to destroy them before other cards.",
+    "translation": "点击场上至多{0}张牌，先于其他牌将其破坏。",
+    "stage": 1,
+    "context": "0.1.37根据实际HUD完整原文接入；数量、场上范围与破坏先后限定保留。单数card/it，复数cards/them；仅由运行模板按HUD用途处理，不进入全局词典。"
+  },
+  {
+    "key": "editorial.ui.hint.destroy.target.single",
+    "original": "Click a target to destroy it.",
+    "translation": "点击一个目标，将其破坏。",
+    "stage": 1,
+    "context": "0.1.37根据实际HUD完整原文接入；数量、场上范围与破坏先后限定保留。单数card/it，复数cards/them；仅由运行模板按HUD用途处理，不进入全局词典。"
   }
 ]
