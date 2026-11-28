@@ -162,6 +162,16 @@ public sealed class RenderedDisplayRules {
       Regex.IsMatch(path,@"/CardView RechargeMode-[0-9]+ FullCardFront(?: \(Temporary\))?/Body Box/Body Label\z") &&
       result.Replace("\\r\\n","\n").Replace("\\n","\n").Replace("\r\n","\n").Replace("\r","\n")==rechargeBody)
     result="<line-height=100%>"+result+"</line-height>";
+   // Pushing the Limits has a power followed by three phase headings.
+   // Compare the complete reviewed text without decoration; preserve all original markup on output.
+   if(card=="PushingTheLimits" && obj=="Body Label" && !result.Contains("<line-height=",StringComparison.Ordinal) &&
+      (path.StartsWith("Canvas/",StringComparison.Ordinal) || path.StartsWith("Full Card Canvas/Full Card Panel/",StringComparison.Ordinal)) &&
+      Regex.IsMatch(path,@"/CardView PushingTheLimits-[0-9]+ FullCardFront(?: \(Temporary\))?/Body Box/Body Label\z")){
+    string plain=Regex.Replace(result,@"<[^<>]*>","").Replace("\\r\\n","\n").Replace("\\n","\n").Replace("\r\n","\n").Replace("\r","\n");
+    plain=string.Join("\n",plain.Split('\n').Select(x=>x.Trim()).Where(x=>x.Length>0));
+    const string reviewed="异能: 快子对1个目标造成3点近战伤害。破坏此牌。\n开始阶段\n快子对自己造成2点固定火焰伤害。\n出牌阶段\n本阶段你可以额外打出1张牌。\n抽牌阶段\n本阶段你可以额外抽1张牌。";
+    if(plain==reviewed)result="<line-height=100%>"+result+"</line-height>";
+   }
    if(result==source)result=previous??source;
   }
   if(inCard && obj=="Advanced Heading Label"){

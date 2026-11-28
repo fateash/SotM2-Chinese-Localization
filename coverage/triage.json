@@ -3219,6 +3219,14 @@
       "reason": "神圣献身正文已为审定中文；残留拉丁字母仅规则变量X，必须保留。与Fanatic.json两条正文逐字核对，不属于英文漏译。",
       "owner": "本地化维护者",
       "nextAction": "保留X和明确数字；本条不新增替换规则，不据此提升实机交互验收。"
+    },
+    {
+      "id": "46d9c0621fb59cb95b813ea5",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "FinalDive完整正文与Fanatic.json两条审定译文逐字核对；仅拉丁规则变量X保留，不属于英文漏译。1与4及两处X均与原文对应。",
+      "owner": "本地化维护者",
+      "nextAction": "保留规则变量和明确数字；仅本条证据登记，不放宽含拉丁字母中文文本的整体审计，不记为实机交互验收。"
     }
   ]
 }

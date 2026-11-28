@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "b5085b78870bac3beb77ad1ed3fb172d5e71cd928a97df01787b7a9938207b65",
+    "runtime/DynamicDisplayRules.cs": "27f90035e64289e5b87c8d58d0c7e006953959260b48e92765f972c576ba5bff",
     "runtime/SurfaceProbeRules.cs": "1d8071f2bb04ac9d4f69936e07ff9fbc933c5805644ac323d080566fce0d9e00",
     "runtime/SurfaceProbe.cs": "3848374ccfe3e4c4df22927b6b78d093924fc2c0be2743abc0d17d95482a4940",
-    "runtime/Plugin.cs": "1e65a47d3511360bb16a633c5a046bd7a66121bad34c13743d2b01d74059fe60",
+    "runtime/Plugin.cs": "c10dec4e967fc9435cbea20839df2354250d1e6c4ec628f496aa792b289ec2fd",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "0b6df8eedddef264c5716cd1cd3a9495f711766da943cbb42f07da021d5aa90a",
-    "runtime/RenderedDisplayRules.cs": "a348c3e58273aa69bf63d143d20c1241c66675548cfe8b2f2e0cf2b1f9c3b7ba"
+    "probe/dynamic-pilot.json": "0b5ceb6623afb6da90302555c90a2362fdf401cc6ec78adce02a0d6df776e4b5",
+    "runtime/RenderedDisplayRules.cs": "4606de126c3973c00d6de3b2636205d6bfd2576e5e0d0df022f9f4e3bc6f847a"
   },
   "families": [
     {
@@ -122,7 +122,8 @@
         "hint.attack.remaining.dual",
         "hint.attack.remaining.triple",
         "hint.attack.single.triple",
-        "hint.summon.search"
+        "hint.summon.search",
+        "hint.hero.discard.hand"
       ],
       "contexts": [
         {
@@ -7022,6 +7023,150 @@
             "cardId": "",
             "inCardView": false,
             "source": "Click a location to search it for a card to summon. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-discard-hand-Impending Casualty-hero",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Impending Casualty:</b> Click a hero to discard their hand.",
+            "expected": "<b>命悬一线:</b> 点击一名英雄，使其弃置全部手牌。"
+          }
+        },
+        {
+          "id": "028-discard-hand-Impending Casualty-Hero",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Impending Casualty:</b> Click a Hero to discard their hand.",
+            "expected": "<b>命悬一线:</b> 点击一名英雄，使其弃置全部手牌。"
+          }
+        },
+        {
+          "id": "028-discard-hand-Omnitron-hero",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Omnitron:</b> Click a hero to discard their hand.",
+            "expected": "<b>全能智创:</b> 点击一名英雄，使其弃置全部手牌。"
+          }
+        },
+        {
+          "id": "028-discard-hand-Omnitron-Hero",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Omnitron:</b> Click a Hero to discard their hand.",
+            "expected": "<b>全能智创:</b> 点击一名英雄，使其弃置全部手牌。"
+          }
+        },
+        {
+          "id": "028-discard-hand-Wagner Mars Base-hero",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Wagner Mars Base:</b> Click a hero to discard their hand.",
+            "expected": "<b>瓦格纳火星基地:</b> 点击一名英雄，使其弃置全部手牌。"
+          }
+        },
+        {
+          "id": "028-discard-hand-Wagner Mars Base-Hero",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Wagner Mars Base:</b> Click a Hero to discard their hand.",
+            "expected": "<b>瓦格纳火星基地:</b> 点击一名英雄，使其弃置全部手牌。"
+          }
+        },
+        {
+          "id": "028-discard-hand-bare",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a hero to discard their hand.",
+            "expected": "点击一名英雄，使其弃置全部手牌。"
+          }
+        },
+        {
+          "id": "028-discard-hand-outside",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a hero to discard their hand.",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-discard-hand-suffix",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a hero to discard their hand. Extra",
             "expected": null
           }
         }
@@ -15799,7 +15944,8 @@
         "button.discover.construct",
         "button.discover.item",
         "button.discover.golem",
-        "button.play.golem"
+        "button.play.golem",
+        "button.play.item"
       ],
       "contexts": [
         {
@@ -17032,6 +17178,534 @@
             "source": "Discover Golem",
             "inCardView": true,
             "expected": "发现机偶牌"
+          }
+        },
+        {
+          "id": "028-item-0",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView FlashForge-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "FlashForge",
+            "inCardView": true,
+            "source": "Play Item",
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-outside-0",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView FlashForge-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "FlashForge",
+            "inCardView": true,
+            "source": "Play Item",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-item-1",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UnityCharacter",
+            "inCardView": true,
+            "source": "Play Item",
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-outside-1",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UnityCharacter",
+            "inCardView": true,
+            "source": "Play Item",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-item-2",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true,
+            "source": "Play Item",
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-outside-2",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true,
+            "source": "Play Item",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-item-3",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView UtilityBelt-2 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UtilityBelt",
+            "inCardView": true,
+            "source": "Play Item",
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-outside-3",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView UtilityBelt-2 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UtilityBelt",
+            "inCardView": true,
+            "source": "Play Item",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-item-power",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView UtilityBelt-2 SmallCardFront/Power Container/UsePower/Label",
+            "objectName": "Label",
+            "cardId": "UtilityBelt",
+            "inCardView": true,
+            "source": "Play Item",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-item-nonhero-AkashBhuta-small-effect",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView AkashBhutaCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AkashBhutaCharacter",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-AkashBhuta-full-effect",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/AkashBhutaCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AkashBhutaCharacter",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-BaronBlade-small-effect",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView BaronBladeCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BaronBladeCharacter",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-BaronBlade-full-effect",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/BaronBladeCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BaronBladeCharacter",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-CitizenDawn-small-effect",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView CitizenDawnCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CitizenDawnCharacter",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-CitizenDawn-full-effect",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CitizenDawnCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CitizenDawnCharacter",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-GrandWarlordVoss-small-effect",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView GrandWarlordVossCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "GrandWarlordVossCharacter",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-GrandWarlordVoss-full-effect",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/GrandWarlordVossCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "GrandWarlordVossCharacter",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-Omnitron-small-effect",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView OmnitronCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "OmnitronCharacter",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-Omnitron-full-effect",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/OmnitronCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "OmnitronCharacter",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-TheMatriarch-small-effect",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView TheMatriarchCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "TheMatriarchCharacter",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-TheMatriarch-full-effect",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/TheMatriarchCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "TheMatriarchCharacter",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-FreedomTower-small-effect",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CaspitsPlayground-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CaspitsPlayground",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-FreedomTower-full-effect",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CaspitsPlayground/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CaspitsPlayground",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-InsulaPrimalis-small-effect",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CorneredAnkylosaurus-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CorneredAnkylosaurus",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-InsulaPrimalis-full-effect",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CorneredAnkylosaurus/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CorneredAnkylosaurus",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-Magmaria-small-effect",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CrystalCollector-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CrystalCollector",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-Magmaria-full-effect",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CrystalCollector/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CrystalCollector",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-Megalopolis-small-effect",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView BankHeistInProgress-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BankHeistInProgress",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-Megalopolis-full-effect",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/BankHeistInProgress/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BankHeistInProgress",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-TheRuinsOfAtlantis-small-effect",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView AtlanteanFontOfPower-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AtlanteanFontOfPower",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-TheRuinsOfAtlantis-full-effect",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/AtlanteanFontOfPower/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AtlanteanFontOfPower",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-WagnerMarsBase-small-effect",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView Biosphere-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "Biosphere",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
+          }
+        },
+        {
+          "id": "028-item-nonhero-WagnerMarsBase-full-effect",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "库存卡牌ID与既有小图／大图效果按钮策略组合；不声称该牌具有此效果或真实产生此路径。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Biosphere/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "Biosphere",
+            "source": "Play Item",
+            "inCardView": true,
+            "expected": "打出物品牌"
           }
         }
       ]
@@ -35371,6 +36045,605 @@
             "cardId": "",
             "inCardView": false,
             "source": "Deck",
+            "expected": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "environment-game-over",
+      "templates": [
+        "message.zero.under",
+        "result.wagner.exploded",
+        "message.villain.trash15",
+        "message.villain.targets10"
+      ],
+      "contexts": [
+        {
+          "id": "028-zero-0",
+          "status": "offline-covered",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 0 cards under Self-Destruct Sequence.",
+            "expected": "自毁程序下方有0张牌。"
+          }
+        },
+        {
+          "id": "028-zero-1",
+          "status": "offline-covered",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 0 cards under Omnitron.",
+            "expected": "全能智创下方有0张牌。"
+          }
+        },
+        {
+          "id": "028-zero-2",
+          "status": "offline-covered",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 0 cards under Unknown Card.",
+            "expected": "Unknown Card下方有0张牌。"
+          }
+        },
+        {
+          "id": "028-zero-reject-0",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 1 cards under Self-Destruct Sequence.",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-zero-reject-1",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 0 cards next to Self-Destruct Sequence.",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-zero-reject-2",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 0 cards under Self-Destruct Sequence. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-zero-reject-3",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 0 cards under <b>Self-Destruct Sequence</b>.",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-zero-wrong-path",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Heading Label",
+            "objectName": "Heading Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 0 cards under Self-Destruct Sequence.",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-explosion",
+          "status": "offline-covered",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Heading Label",
+            "objectName": "Heading Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "The Wagner Mars Base exploded!",
+            "expected": "瓦格纳火星基地爆炸了！"
+          }
+        },
+        {
+          "id": "028-explosion-wrong-path",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "The Wagner Mars Base exploded!",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-explosion-other-location",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Heading Label",
+            "objectName": "Heading Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "The Freedom Tower exploded!",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-explosion-suffix",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整效果按钮/结束原因/结算标题，限定原有控件用途；名称沿用已审译名，0保留。合成组合非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Heading Label",
+            "objectName": "Heading Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "The Wagner Mars Base exploded! Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-trash15",
+          "status": "offline-covered",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存完整原句与审定译文；15/10阈值保留，结束原因限消息控件。标题统一为已审全称。非日志组合为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 15 or more cards in the Villain trash.",
+            "expected": "反派弃牌堆中有至少15张牌。"
+          }
+        },
+        {
+          "id": "028-trash15-wrong-path",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存完整原句与审定译文；15/10阈值保留，结束原因限消息控件。标题统一为已审全称。非日志组合为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 15 or more cards in the Villain trash.",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-trash15-threshold",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存完整原句与审定译文；15/10阈值保留，结束原因限消息控件。标题统一为已审全称。非日志组合为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 14 or more cards in the Villain trash.",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-trash15-comparison",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存完整原句与审定译文；15/10阈值保留，结束原因限消息控件。标题统一为已审全称。非日志组合为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 15 or fewer cards in the Villain trash.",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-trash15-suffix",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存完整原句与审定译文；15/10阈值保留，结束原因限消息控件。标题统一为已审全称。非日志组合为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 15 or more cards in the Villain trash. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-targets10",
+          "status": "offline-covered",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存完整原句与审定译文；15/10阈值保留，结束原因限消息控件。标题统一为已审全称。非日志组合为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 10 or more Villain targets in play.",
+            "expected": "场上有至少10个反派目标。"
+          }
+        },
+        {
+          "id": "028-targets10-wrong-path",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存完整原句与审定译文；15/10阈值保留，结束原因限消息控件。标题统一为已审全称。非日志组合为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 10 or more Villain targets in play.",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-targets10-threshold",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存完整原句与审定译文；15/10阈值保留，结束原因限消息控件。标题统一为已审全称。非日志组合为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 9 or more Villain targets in play.",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-targets10-comparison",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存完整原句与审定译文；15/10阈值保留，结束原因限消息控件。标题统一为已审全称。非日志组合为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 10 or fewer Villain targets in play.",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-targets10-suffix",
+          "status": "excluded",
+          "view": "game-over",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存完整原句与审定译文；15/10阈值保留，结束原因限消息控件。标题统一为已审全称。非日志组合为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/Main Panel/Message Panel/Panel/Message Label",
+            "objectName": "Message Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "There are 10 or more Villain targets in play. Extra",
+            "expected": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "reviewed-short-title-consistency",
+      "templates": [],
+      "contexts": [
+        {
+          "id": "028-title-Full",
+          "status": "offline-covered",
+          "view": "card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存完整原句与审定译文；15/10阈值保留，结束原因限消息控件。标题统一为已审全称。非日志组合为离线契约，非实机验收。",
+          "case": {
+            "path": "synthetic/Full/Title Label",
+            "objectName": "Title Label",
+            "cardId": "ConsiderThePriceOfVictory",
+            "inCardView": true,
+            "source": "“Consider the Price of Victory!”",
+            "expected": "“胜利何价！”"
+          }
+        },
+        {
+          "id": "028-title-Small",
+          "status": "offline-covered",
+          "view": "card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存完整原句与审定译文；15/10阈值保留，结束原因限消息控件。标题统一为已审全称。非日志组合为离线契约，非实机验收。",
+          "case": {
+            "path": "synthetic/Small/Title Label",
+            "objectName": "Title Label",
+            "cardId": "ConsiderThePriceOfVictory",
+            "inCardView": true,
+            "source": "“Consider the Price!”",
+            "expected": "“胜利何价！”"
+          }
+        },
+        {
+          "id": "028-title-wrong-object",
+          "status": "excluded",
+          "view": "card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "库存完整原句与审定译文；15/10阈值保留，结束原因限消息控件。标题统一为已审全称。非日志组合为离线契约，非实机验收。",
+          "case": {
+            "path": "synthetic/Small/HP Label",
+            "objectName": "HP Label",
+            "cardId": "ConsiderThePriceOfVictory",
+            "inCardView": true,
+            "source": "“Consider the Price!”",
+            "expected": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "pushing-the-limits-layout",
+      "templates": [],
+      "contexts": [
+        {
+          "id": "028-pushing-path-0",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView PushingTheLimits-1 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "PushingTheLimits",
+            "inCardView": true,
+            "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
+            "expected": "<line-height=100%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+          }
+        },
+        {
+          "id": "028-pushing-path-1",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/CardView PushingTheLimits-1 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "PushingTheLimits",
+            "inCardView": true,
+            "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
+            "expected": "<line-height=100%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+          }
+        },
+        {
+          "id": "028-pushing-path-2",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView PushingTheLimits-1 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "PushingTheLimits",
+            "inCardView": true,
+            "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
+            "expected": "<line-height=100%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+          }
+        },
+        {
+          "id": "028-pushing-newline-0",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView PushingTheLimits-1 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "PushingTheLimits",
+            "inCardView": true,
+            "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\n快子对自己造成2点固定火焰伤害。\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\n本阶段你可以额外打出1张牌。\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\n本阶段你可以额外抽1张牌。\n",
+            "expected": "<line-height=100%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\n快子对自己造成2点固定火焰伤害。\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\n本阶段你可以额外打出1张牌。\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\n本阶段你可以额外抽1张牌。\n</line-height>"
+          }
+        },
+        {
+          "id": "028-pushing-newline-1",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView PushingTheLimits-1 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "PushingTheLimits",
+            "inCardView": true,
+            "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\\r\\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\\r\\n快子对自己造成2点固定火焰伤害。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\\r\\n本阶段你可以额外打出1张牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\\r\\n本阶段你可以额外抽1张牌。\\r\\n",
+            "expected": "<line-height=100%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\\r\\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\\r\\n快子对自己造成2点固定火焰伤害。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\\r\\n本阶段你可以额外打出1张牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\\r\\n本阶段你可以额外抽1张牌。\\r\\n</line-height>"
+          }
+        },
+        {
+          "id": "028-pushing-reject-0",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView PushingTheLimits-1 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "PushingTheLimits",
+            "inCardView": true,
+            "source": "<line-height=100%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-pushing-reject-1",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView PushingTheLimits-1 SmallCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "PushingTheLimits",
+            "inCardView": true,
+            "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-pushing-reject-2",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView PushingTheLimits-1 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "HP Label",
+            "cardId": "PushingTheLimits",
+            "inCardView": true,
+            "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-pushing-reject-3",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView PushingTheLimits-1 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OtherCard",
+            "inCardView": true,
+            "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-pushing-reject-4",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView PushingTheLimits-1 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "PushingTheLimits",
+            "inCardView": true,
+            "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成4点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "028-pushing-reject-5",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整原句与审定正文对账。排版由截图、库存及已有阶段样式构造，明确为合成契约，待实机验证。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView PushingTheLimits-1 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "PushingTheLimits",
+            "inCardView": true,
+            "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n额外规则",
             "expected": null
           }
         }

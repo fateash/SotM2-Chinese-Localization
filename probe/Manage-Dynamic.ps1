@@ -10,7 +10,7 @@ $GamePath=$GamePath.Trim().Trim('"')
 if(!(Test-Path -LiteralPath $GamePath -PathType Container)){throw 'Game folder not found.'}
 $GamePath=(Resolve-Path -LiteralPath $GamePath).Path
 $plugin=Join-Path $GamePath 'BepInEx/plugins/SotM2ChinesePrototype'
-$backup=Join-Path $GamePath 'SotM2ChineseBackups/dynamic-pilot-0.1.27'
+$backup=Join-Path $GamePath 'SotM2ChineseBackups/dynamic-pilot-0.1.28'
 $manifest=Get-Content -LiteralPath (Join-Path $PSScriptRoot 'manifest.json') -Raw | ConvertFrom-Json
 $names=@('SotM2ChinesePrototype.dll','surface-probe.json')
 $expected=@{'SotM2ChinesePrototype.dll'=$manifest.dllSha256;'surface-probe.json'=$manifest.probeSha256}
@@ -28,7 +28,7 @@ if($Action -eq 'Collect'){
 }
 if(Get-Process -Name 'Sentinels2','Sentinels of the Multiverse 2' -ErrorAction SilentlyContinue){throw 'Close the game first.'}
 $dll=Join-Path $plugin $names[0];$catalog=Join-Path $plugin 'sample-texts.json';$probe=Join-Path $plugin $names[1]
-if(!(Test-Path -LiteralPath $dll) -or !(Test-Path -LiteralPath $catalog)){throw 'Existing accepted 0.1.6 through 0.1.26 installation required.'}
+if(!(Test-Path -LiteralPath $dll) -or !(Test-Path -LiteralPath $catalog)){throw 'Existing accepted 0.1.6 through 0.1.27 installation required.'}
 $hasBackup=Test-Path -LiteralPath $backup
 if($hasBackup){
  $state=Get-Content -LiteralPath (Join-Path $backup 'original-hashes.json') -Raw | ConvertFrom-Json
@@ -84,4 +84,4 @@ try{
  foreach($n in $names){$p=Join-Path $plugin $n;if($null -eq $previous[$n]){if(Test-Path -LiteralPath $p){Remove-Item -LiteralPath $p}}else{[IO.File]::WriteAllBytes($p,$previous[$n])}}
  throw
 }
-Write-Host '0.1.27-rc.1 installed. Existing translations, font and configuration retained. Restart the game to test.'
+Write-Host '0.1.28-rc.1 installed. Existing translations, font and configuration retained. Restart the game to test.'

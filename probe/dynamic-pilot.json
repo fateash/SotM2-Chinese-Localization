@@ -195,7 +195,13 @@
     "hint.attack.single.triple": "{0}点击一个目标，对其造成<nobr>{1}点{2}伤害</nobr>、<nobr>{3}点{4}伤害</nobr>和<nobr>{5}点{6}伤害</nobr>。",
     "hint.summon.search": "点击一个区域，从中查找一张牌以将其召唤。",
     "button.location.deck": "牌库",
-    "button.location.trash": "弃牌堆"
+    "button.location.trash": "弃牌堆",
+    "button.play.item": "打出物品牌",
+    "message.zero.under": "{0}下方有0张牌。",
+    "result.wagner.exploded": "瓦格纳火星基地爆炸了！",
+    "message.villain.trash15": "反派弃牌堆中有至少15张牌。",
+    "message.villain.targets10": "场上有至少10个反派目标。",
+    "hint.hero.discard.hand": "点击一名英雄，使其弃置全部手牌。"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",

@@ -17,6 +17,12 @@ public sealed class DynamicDisplayRules {
  static readonly Dictionary<string,(int Args,string Tags)> Specs=new(){
   ["hint.destroy.play.under.upto"]=(3,""),["hint.destroy.play.under.upto.first"]=(3,""),["hint.destroy.play.under.exact.first"]=(3,""),
   ["hint.card.replace"]=(0,""),
+  ["hint.hero.discard.hand"]=(0,""),
+  ["button.play.item"]=(0,""),
+  ["message.villain.trash15"]=(0,""),
+  ["message.villain.targets10"]=(0,""),
+  ["message.zero.under"]=(1,""),
+  ["result.wagner.exploded"]=(0,""),
   ["hint.summon.search"]=(0,""),
   ["button.location.deck"]=(0,""),
   ["button.location.trash"]=(0,""),
@@ -206,6 +212,7 @@ public sealed class DynamicDisplayRules {
  static readonly Dictionary<string,string> SelectionTitles=new(StringComparer.Ordinal){["Select Damage Source to Deal Damage"]="hint.selection.1",["Select Hero to Discover"]="hint.selection.2",["Select Hero to destroy cards"]="hint.selection.3",["Select Hero to discard cards"]="hint.selection.4",["Select Hero to salvage cards"]="hint.selection.5",["Select Hero to take a phase now"]="hint.selection.6",["Select Location to play card to"]="hint.selection.7",["Select Location to play from"]="hint.selection.8",["Select Location to put a card from into the deck"]="hint.selection.9",["Select Location to put a card from on top of the deck"]="hint.selection.10",["Select Location to reveal from"]="hint.selection.11",["Select Location to shuffle its cards into the deck"]="hint.selection.12",["Select Redirection Target"]="hint.selection.13",["Select location to Summon from (decks will be shuffled)"]="hint.selection.14",["Select location to send destroyed card"]="hint.selection.15",["Select someone to put a card back in their deck"]="hint.selection.16",["Select someone to put a card back on top of their deck"]="hint.selection.17",["Select where it the card should be drawn or discarded."]="hint.selection.18",["Select where the card should go."]="hint.selection.19",["Select whether or not to draw a card."]="hint.selection.20",["Select which Hero is considered to have the most cards in hand"]="hint.selection.21",["Select which deck to draw from..."]="hint.selection.22",["Select which of these targets is considered to have the Lowest HP"]="hint.selection.23",["Select who is considered to have the most cards in play"]="hint.selection.24"};
  static readonly Regex EffectAmount=Rx(@"\A(?<before>Regain |Deal 1 Target |Deal Self |Deal )(?<n>[0-9]{1,6})(?<after> HP| Damage| damage| Targets 3 Damage)\z");
  string? CommonButton(string source){
+  if(source=="Play Item")return Format("button.play.item");
   if(source=="Play Golem")return Format("button.play.golem");
   if(source=="Discover Item")return Format("button.discover.item");
   if(source=="Discover Golem")return Format("button.discover.golem");
@@ -241,6 +248,7 @@ public sealed class DynamicDisplayRules {
  static readonly Regex RevealedTitlePath=Rx(@"\ACanvas/Revealed Cards Manager/\[RevealCardsAction: Source=(?<name>[^<>\r\n\[\]]{1,200})\]/Title Label\z");
  static readonly Regex DestroyMany=Rx(@"\AClick up to (?<n>[0-9]{1,6}) (?<kind>targets|cards in play) to destroy them\.\z");
  static readonly Regex ReducedHp=Rx(@"\A(?<name>[^<>\r\n]{1,200}) has been reduced to <nobr>(?<n>[0-9]{1,6}) HP\.</nobr>\z");
+ static readonly Regex ZeroCardsUnder=Rx(@"\AThere are 0 cards under (?<name>[^<>\r\n]{1,200})\.\z");
  static readonly Regex Defeat=Rx(@"\A(?<name>[^<>\r\n]{1,200}) has triumphed, forcing the Heroes to regroup and fight another day\.\.\.\z");
  static readonly Regex Victory=Rx(@"\AYou have defeated (?<name>[^<>\r\n]{1,200}) and saved the day!\z");
  static readonly Regex Description=Rx(@"\A(?<name>[^<>\r\n]{1,200}) (?<verb>drew|revealed|played|discovered|summoned|collected):\z");
@@ -309,9 +317,13 @@ public sealed class DynamicDisplayRules {
   if(path=="Canvas/Main Panel/Message Panel/Panel/Heading Label" && source=="Game Over")return Format("message.game-over");
   if(path=="Canvas/Main Panel/Message Panel/Panel/Message Label"){
    if(source=="All of the Heroes are incapacitated.")return Format("message.all-incapacitated");
+   if(source=="There are 15 or more cards in the Villain trash.")return Format("message.villain.trash15");
+   if(source=="There are 10 or more Villain targets in play.")return Format("message.villain.targets10");
+   var zero=ZeroCardsUnder.Match(source);if(zero.Success)return Format("message.zero.under",zero.Groups["name"].Value);
    var hp=ReducedHp.Match(source);return hp.Success?Format("result.hp",hp.Groups["name"].Value,hp.Groups["n"].Value):null;
   }
   if(path=="Canvas/Main Panel/Heading Label"){
+   if(source=="The Wagner Mars Base exploded!")return Format("result.wagner.exploded");
    var defeat=Defeat.Match(source);if(defeat.Success)return Format("result.defeat",defeat.Groups["name"].Value);
    var victory=Victory.Match(source);return victory.Success?Format("result.victory",victory.Groups["name"].Value):null;
   }
@@ -321,6 +333,8 @@ public sealed class DynamicDisplayRules {
   var fixedText=body switch {
    "Click a button to choose how much damage to deal."=>"hint.damage.amount",
    "Click a card to replace it."=>"hint.card.replace",
+   "Click a hero to discard their hand."=>"hint.hero.discard.hand",
+   "Click a Hero to discard their hand."=>"hint.hero.discard.hand",
    "Click a location to search it for a card to summon."=>"hint.summon.search",
    "Click a target to make it have no game text."=>"hint.blank.target",
    "Click a card in play to make it have no game text."=>"hint.blank.inplay",
