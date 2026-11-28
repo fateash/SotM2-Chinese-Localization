@@ -5,9 +5,15 @@
       "id": "00797a249be4935b61d4d293",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "刀锋男爵",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "00ae142e380049c8597c2827",
@@ -55,17 +61,24 @@
       "id": "042ca289c620ab9ad471985f",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "银音秘师",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "04a86bdf9958239b20dddbae",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "0556a82be1be07fa0edf6c30",
@@ -97,11 +110,12 @@
     },
     {
       "id": "05991a29304cca066c3f6971",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "0762c742a2fafca25a67c1fc",
@@ -157,9 +171,15 @@
       "id": "0f7183f0e623f3d8360710ec",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "鸦母",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "0fe412c7549aed885bbb9930",
@@ -235,9 +255,15 @@
       "id": "1399242c08100698d37b96af",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "宇宙队长",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "13da7df6be29b57f7f2d4f55",
@@ -271,9 +297,15 @@
       "id": "156934c8c6572430fa2c3746",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "黎明公民",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "1655a13b21f0326adf16f281",
@@ -307,41 +339,51 @@
       "id": "16ea02eafb5da3ebfb5a91d6",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "宇宙队长",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "170349ebd0a5c5a5e92dd0bf",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "184d3bf2878b305daab78b46",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "18966b12ff79900e5bda515f",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "19663fcc064ce7dca8ed33bc",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "1a0dfe0c2d4d1bdc952a746e",
@@ -367,19 +409,21 @@
     },
     {
       "id": "1b056b077c89cd328285af4f",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "1b567c67d23272834d68cb4a",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "1d35438fe7331dd4e0011e8a",
@@ -411,11 +455,12 @@
     },
     {
       "id": "1d8c488d5d32a08be08d191a",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "1f65e67f51fe721fea088c35",
@@ -429,41 +474,56 @@
       "id": "1fd9a54d1a0a2862950d83ee",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "快子",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "2046ed56f6b70c2dd579bb27",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "217996d126f06e6a3d4732c0",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "23d995c4614820daa9b337fc",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "拉神",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "249e6741d04f28e94983be02",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "24ad7989485211066b1ee15c",
@@ -481,11 +541,12 @@
     },
     {
       "id": "2598d70125302a89a6a3029f",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "26a383850b7fe72bf46e093e",
@@ -503,19 +564,21 @@
     },
     {
       "id": "26ecb1aaef31efcfdd8bbb28",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "274847b0973e4a3f9fda8104",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "27485448cf258f7c5fbb68ad",
@@ -535,33 +598,52 @@
       "id": "28b4e29d3de4f779c96b3fe5",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "哈卡",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "2b1114a13f3e93c68d6505d6",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "刀锋男爵",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "2dd9079986b3d6e521647b13",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "大军阀沃斯",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "2e9f280d7a1d425a5c4cf72a",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "2ed49ac732fc3e834fd2c034",
@@ -593,35 +675,44 @@
     },
     {
       "id": "2fb6cf6c87ef30faaa858166",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "3012a41edbad48149bb67164",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "31d1adf605037ef67683980d",
       "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "卡组专名或异能正文，按既定顺序第三阶段审核。",
+      "disposition": "fix-stage-1",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "随Captain Cosmic／Insula Primalis卡组审核，保留专名与整段上下文。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "原初岛",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "32a07f7b5a13b99da92966a0",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "330559021373f130f7bfc84b",
@@ -639,11 +730,12 @@
     },
     {
       "id": "3440c78ff69118f182f59dec",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "3665f29bbf3bc9c16f5f03a4",
@@ -661,27 +753,30 @@
     },
     {
       "id": "3699e3bd4c8511fd27524734",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "卡组专名或异能正文，按既定顺序第三阶段审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随Captain Cosmic／Insula Primalis卡组审核，保留专名与整段上下文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "375fc26435760fb4b42066a0",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "38e20adb7cda02eb91e5ace0",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "38ec492eb2a8118b5ad09328",
@@ -714,10 +809,16 @@
     {
       "id": "3af061add95751f4e83bc603",
       "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "disposition": "fix-stage-1",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "瓦格纳火星基地",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "3cc96e080e7d53ca668c9be2",
@@ -791,19 +892,26 @@
     },
     {
       "id": "43e8d8af19fdb01a8416bca5",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "44a93ed3b2d489013ee236bd",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "风暴",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "464a6773604f24d25e4c0355",
@@ -863,11 +971,12 @@
     },
     {
       "id": "4ba2611976765ccfef5be9cd",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "4bf2976e334ba1e7a4471778",
@@ -970,10 +1079,16 @@
     {
       "id": "582f9495a4a8ec4ac22df6d6",
       "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境的状态栏专名，属于卡组审核。",
+      "disposition": "fix-stage-1",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "继承已审定名称并核对对象映射后，与选择页和卡牌标题一并接入。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "自由大厦",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "58856020cead01453cd99190",
@@ -1005,19 +1120,26 @@
     },
     {
       "id": "5b53099b981619d46e450cf5",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "5cac308eb19e84e3bd360174",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "绝对零度",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "5e5ea359d923c2ffa436c984",
@@ -1058,18 +1180,30 @@
     {
       "id": "608704443c960a958b1b7896",
       "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "disposition": "fix-stage-1",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "原初岛",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "60953c34f5ac21eca1b52031",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "绝对零度",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "64ab6d14c8732a92f5f9ad19",
@@ -1087,27 +1221,30 @@
     },
     {
       "id": "65c19c6e5d52a85358222a59",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "65c2e4dd4a607628b17eaf67",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "670abe9864b6d8c0ac3972f2",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "完整异能标题与正文含专名；同类正文在其他实例已登记，按卡组阶段审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "卡组编辑",
-      "nextAction": "逐卡组核对名称、异能标题和完整正文，并检查该实例的显示。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "67be4494df14e4bd869a960e",
@@ -1153,11 +1290,12 @@
     },
     {
       "id": "6c01abb0583a5f029b1aef16",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "6cc2176efdc33fbdcfa73dcf",
@@ -1219,11 +1357,12 @@
     },
     {
       "id": "6de9fb390aa68caf1c7d9c62",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "6e3ffd9c4181398ee2de733c",
@@ -1277,19 +1416,21 @@
     },
     {
       "id": "75e6d6e2132e5fc3f622ec9b",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "76661f02e2eb1928f4eb5fe0",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "76c171d8bfce8cc8ff01c547",
@@ -1322,34 +1463,43 @@
     {
       "id": "77a8415386f9a51b7b6261b8",
       "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "disposition": "fix-stage-1",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "熔岩域",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "77bdb678cfd35aca1e85e441",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "799b63efd3d61748f7a1ab2e",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "7a42ae063fe7d22d08f1e1a9",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "7ad10ee1a5769122f05762ab",
@@ -1385,25 +1535,33 @@
       "id": "7dcd90ac356be2cefce19e9c",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "幽魂",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "7f06480e03edd9b3707e9f59",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "80c9057feef1a1cf539e76ea",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "81e1eefbef72c9fed00ba1e4",
@@ -1450,10 +1608,16 @@
     {
       "id": "848404776ab4c650d6573847",
       "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "disposition": "fix-stage-1",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "巨都会",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "8741a361dc46046fa4d67e82",
@@ -1485,11 +1649,12 @@
     },
     {
       "id": "88bbaa263e2fbb11e6214aa9",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "8d2a7b9d29ff557b81a8bfa4",
@@ -1521,19 +1686,26 @@
     },
     {
       "id": "8e7d4107ee95caf4f3b6cacf",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "8f04509009d4e465692381f1",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "幽魂",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "925a096f08bea96da816acb9",
@@ -1559,19 +1731,21 @@
     },
     {
       "id": "930b8cf566d76e35cd4e8639",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "93ea2fe164e8c084dd75a1a9",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "9549402c7bcbfa706652e4a6",
@@ -1589,11 +1763,12 @@
     },
     {
       "id": "954c8fc573668b301d4cfe99",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "96625071e3216d4d4f9c1318",
@@ -1640,26 +1815,34 @@
     {
       "id": "98b16eb69738c728780697c4",
       "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "disposition": "fix-stage-1",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "自由大厦",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "99646d148fef7fabb6e9ee2b",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "99674227b28df52416f6054a",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "9993585e06561f477a27deba",
@@ -1691,19 +1874,21 @@
     },
     {
       "id": "9c263819a7a244772c4b8e0d",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "9c2bb6f31170c02909840bb1",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "9d62152e8dc87e5188c3c239",
@@ -1751,33 +1936,52 @@
       "id": "a30e27b5a5a373fdc55843c9",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "快子",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "a3f8b911075111602561e5ea",
       "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "英雄／反派／环境完整专名，按卡组阶段统一审核。",
+      "disposition": "fix-stage-1",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对已审定专名后随卡组接入，不进行英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "亚特兰蒂斯遗迹",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "a3f971c9df0b7ffd2ea7a64a",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "a4cf3b0e841c22c7d224120b",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "全能智创",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "a5df4e675b88cbc9b722badb",
@@ -1819,9 +2023,15 @@
       "id": "a8ecb3426a04d4801f294d9c",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "哈卡",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "a9f25283c4af04187ac783d0",
@@ -1853,27 +2063,30 @@
     },
     {
       "id": "ab2ffd8e9a953dcb14455174",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "ab5f1d454f2e31041cfb2994",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "aca9696e6af68fd5ef3476ea",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "adfc8ef927245041e48067f5",
@@ -1892,10 +2105,16 @@
     {
       "id": "ae2b033c701b54a980bd2992",
       "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "状态栏卡组专名，属于卡组审核。",
+      "disposition": "fix-stage-1",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "继承审定译名并核对对象映射，与其他名称入口一并接入。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "巨都会",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "ae32d6241cb436d415153835",
@@ -1907,19 +2126,21 @@
     },
     {
       "id": "ae3926d871a33c64408c6ab4",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "ae5a23b61215628559b9cb63",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "af6a392380d04db146de26fb",
@@ -1937,11 +2158,12 @@
     },
     {
       "id": "affbaa391b43de94b8e0f67e",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "b0de7c920e3ee815a73cf04b",
@@ -1961,9 +2183,15 @@
       "id": "b56f327ff5103887d011ada2",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "堡垒",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "b59f3bf1027b6170e24ef0bf",
@@ -2031,35 +2259,44 @@
     },
     {
       "id": "b7a8dc286d89540199bd1f39",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "完整异能标题与正文含专名；同类正文在其他实例已登记，按卡组阶段审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "卡组编辑",
-      "nextAction": "逐卡组核对名称、异能标题和完整正文，并检查该实例的显示。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "b89de7c88dde8bbb29129cb2",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "ba3db2e281184ca39ab5dfab",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "黎明公民",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "baa200bd2d79cff6758a4e69",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "卡组专名或异能正文，按既定顺序第三阶段审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随Captain Cosmic／Insula Primalis卡组审核，保留专名与整段上下文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "bb00a3240d7bbd8c66c4fef8",
@@ -2077,11 +2314,12 @@
     },
     {
       "id": "bbf762168536876f27346e1d",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "bc6c0ff01d3bbbb0cdddc3c5",
@@ -2149,27 +2387,35 @@
     },
     {
       "id": "be25461db151e6427d63f2c1",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "bede800fdcde4e97a315dd4f",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "风暴",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "bfeee8f0cc1c953bc5fde353",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "c0cf1bf7a908617761e9fe45",
@@ -2201,11 +2447,12 @@
     },
     {
       "id": "c49997fdfb7fd28cd3ee52e8",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "c49ecf4dcb262c0d2f71720f",
@@ -2251,11 +2498,12 @@
     },
     {
       "id": "c7f238728ab5058317242de8",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整标题与规则正文，属于卡组审核，实例路径保留独立证据。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "审核所属卡组的异能全文及可点击显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "c8773f431bdfe20aa0cc85e5",
@@ -2303,9 +2551,15 @@
       "id": "cb04b3c4def17b37c09ee205",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "阿卡什怖妲",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "cc08f82febccd933970533ca",
@@ -2339,9 +2593,15 @@
       "id": "cde71c503ce36ec06fc5630c",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "刀锋男爵",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "ce6f8388e6f178f6c63386b6",
@@ -2373,19 +2633,26 @@
     },
     {
       "id": "d1b35f767184bdff2f0dfde8",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "d333c96f6aedb77bda260c1b",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "堡垒",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "d386447b6229e35f787fc0dd",
@@ -2439,11 +2706,12 @@
     },
     {
       "id": "d76246d70ad8222d567242fc",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "卡组专名或异能正文，按既定顺序第三阶段审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随Captain Cosmic／Insula Primalis卡组审核，保留专名与整段上下文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "d8007e442690f8d71fc98594",
@@ -2461,11 +2729,12 @@
     },
     {
       "id": "d8b344179d74379d87d7bba1",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "d9c6bb14c0eac282ee6b3b17",
@@ -2505,19 +2774,26 @@
     },
     {
       "id": "ddf275a41447c839b898530e",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "de5a05c9d69387ef939670d5",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "狂信",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "de96f0edae5f76fc8317aed6",
@@ -2570,6 +2846,14 @@
       }
     },
     {
+      "id": "e2005f2975d64228dbecb8b2",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "设置页分辨率选择器的2560*1440，为显示尺寸，不是待翻译正文。",
+      "owner": "本地化维护者",
+      "nextAction": "保留原数值与分隔符；不新增通用数字字符串替换。"
+    },
+    {
       "id": "e25bebd331394d7b41b76357",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
@@ -2585,11 +2869,12 @@
     },
     {
       "id": "e29a348661832a72c458a6e2",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "e57e98a4f8480ad7b9aea0ce",
@@ -2635,19 +2920,26 @@
     },
     {
       "id": "e984fda78d44bdcfd8b0b811",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "e9e627ca05a78b2693317917",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "优妮蒂",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "ea02e4f2451f3c39e9eeab52",
@@ -2665,11 +2957,12 @@
     },
     {
       "id": "ea2bd4cb52c2df2089acb6e5",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "eab58b99f364ef8522cf50cd",
@@ -2689,25 +2982,38 @@
       "id": "eae7344278c2858bad4ec13d",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "传承侠",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "edc349334339c0ef706f90fc",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能标题及完整规则正文；实例编号不同形成独立观察，不能按普通按钮文本处理。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "按所属卡组审核完整异能正文，并覆盖可点击异能的显示位置。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "ef0fd1d82355a2e781ca6edf",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "全能智创",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "ef15fdc73c0f3823074ada73",
@@ -2735,9 +3041,15 @@
       "id": "f2678896075e74fddb541de5",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "传承侠",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "f276af8e3c57b502a7914162",
@@ -2777,11 +3089,12 @@
     },
     {
       "id": "f594432d93ac517b4dfda5ae",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "f66fac0f86a40150a98eef52",
@@ -2799,19 +3112,26 @@
     },
     {
       "id": "f6a5b29ac7477fbc5db977f4",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "角色异能的完整规则正文；动态实例路径单独留证，按卡组审核。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "核对所属卡组的完整异能标题及规则，并覆盖可点击显示入口。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "f80a28a0bf71792f9b286234",
       "reviewedReason": "known-source-route-gap",
       "disposition": "fix-stage-1",
-      "reason": "专名译文已审定并进入卡牌词典；该观察位置没有卡牌身份或使用不同控件，尚未命中显示映射。",
+      "reason": "卡组名称已审核；完整名称在已确认用途的文字控件接入。",
       "owner": "本地化维护者",
-      "nextAction": "按已记录完整路径补齐选人页／状态栏／独立标题的对象身份映射，增加对应正反例，再进行实机验收；不使用全局英文名片段替换。"
+      "nextAction": "0.1.19核对选择列表、回合栏、结算页面及大卡可见标题，图片区另项验证。",
+      "resolution": {
+        "version": "0.1.19-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "优妮蒂",
+        "evidence": "tests/fixtures/deck-names-0.1.19.json"
+      }
     },
     {
       "id": "f80dda9131956d74f40565f6",
@@ -2857,11 +3177,12 @@
     },
     {
       "id": "fde02f90b862a0e34f3b917d",
-      "reviewedReason": "unresolved-full-string",
-      "disposition": "deck-review-stage-3",
-      "reason": "异能／失能能力的完整规则正文，显示在可点击控件上也仍属于卡组正文。",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "已审定正文的可点击异能／失能按钮入口。新增负例让审计确认普通Body Label存在样式转换，但不能把该局部匹配等同于按钮整段已接入。",
       "owner": "本地化维护者",
-      "nextAction": "随所属卡组审核完整规则句，不以通用按钮标签替换正文。"
+      "nextAction": "名称入口验收后，按卡牌身份和按钮用途接入完整异能／失能正文；保留数字、标签、换行，并覆盖大小图及重复实例。",
+      "previousReviewedReason": "unresolved-full-string"
     },
     {
       "id": "ff40894668f2daa364e9a201",
@@ -2889,6 +3210,144 @@
         "status": "implemented-pending-live-test",
         "expected": "抽牌阶段",
         "evidence": "tests/fixtures/dynamic-0.1.13.json"
+      }
+    },
+    {
+      "id": "0771bd977c3d24ea480e27a9",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "神圣献身正文已为审定中文；残留拉丁字母仅规则变量X，必须保留。与Fanatic.json两条正文逐字核对，不属于英文漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "保留X和明确数字；本条不新增替换规则，不据此提升实机交互验收。"
+    },
+    {
+      "id": "46d9c0621fb59cb95b813ea5",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "FinalDive完整正文与Fanatic.json两条审定译文逐字核对；仅拉丁规则变量X保留，不属于英文漏译。1与4及两处X均与原文对应。",
+      "owner": "本地化维护者",
+      "nextAction": "保留规则变量和明确数字；仅本条证据登记，不放宽含拉丁字母中文文本的整体审计，不记为实机交互验收。"
+    },
+    {
+      "id": "ca9c1f3fbbf3f901d67b5a0c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "库存已有审定译文；补齐弃牌堆洗回按钮和完整HUD提示的用途入口。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.29完整重启后复现异星气象，检查提示、按钮、牌库归属及点击行为。",
+      "resolution": {
+        "version": "0.1.29-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "洗回牌库",
+        "evidence": "coverage/contracts.json#trash-reshuffle"
+      }
+    },
+    {
+      "id": "e0ca66b1e202a5fcb892a513",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "库存已有审定译文；补齐弃牌堆洗回按钮和完整HUD提示的用途入口。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.29完整重启后复现异星气象，检查提示、按钮、牌库归属及点击行为。",
+      "resolution": {
+        "version": "0.1.29-rc.1",
+        "status": "implemented-pending-live-test",
+        "expected": "<b>异星气象:</b> 点击风暴的弃牌堆，将其洗入所属牌库。",
+        "evidence": "coverage/contracts.json#trash-reshuffle"
+      }
+    },
+    {
+      "id": "2f83bb0fa1af933c7c49543c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "考古发掘正文与Ra.json两条审定正文逐字核对；残留拉丁字符仅规则变量X，两处X及数字3保留，不属于英文漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "保持规则变量；本条仅登记既有中文正文，不提升点击行为验收。"
+    },
+    {
+      "id": "968681b5f4f33c838683ac85",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "考古发掘正文与Ra.json两条审定正文逐字核对；残留拉丁字符仅规则变量X，两处X及数字3保留，不属于英文漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "保持规则变量；本条仅登记既有中文正文，不提升点击行为验收。"
+    },
+    {
+      "id": "cd0e2b34f66018caefa2a58f",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.29截图／日志确认完整句未接入；0.1.30增加完整数量语法及用途入口。",
+      "owner": "本地化维护者",
+      "nextAction": "重启0.1.30后复现考古发掘的埋藏选择与浓雾翻涌的弃置效果按钮，检查数字和点击行为。",
+      "resolution": {
+        "version": "0.1.30-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#trash-bury-selection"
+      }
+    },
+    {
+      "id": "10a4ea82d532fe30f5128a40",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.29截图／日志确认完整句未接入；0.1.30增加完整数量语法及用途入口。",
+      "owner": "本地化维护者",
+      "nextAction": "重启0.1.30后复现考古发掘的埋藏选择与浓雾翻涌的弃置效果按钮，检查数字和点击行为。",
+      "resolution": {
+        "version": "0.1.30-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#trash-bury-selection"
+      }
+    },
+    {
+      "id": "7ffe24f0af36c56749b0da04",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.29截图／日志确认完整句未接入；0.1.30增加完整数量语法及用途入口。",
+      "owner": "本地化维护者",
+      "nextAction": "重启0.1.30后复现考古发掘的埋藏选择与浓雾翻涌的弃置效果按钮，检查数字和点击行为。",
+      "resolution": {
+        "version": "0.1.30-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#card-discard-count"
+      }
+    },
+    {
+      "id": "97fb3f3912580de4ef725523",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.30真实原文及完整用途路径确认遗漏；0.1.31补齐完整句式显示。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.31重启后复现承伤提示、跳过抽牌阶段及月球撞击结算；另验证元数据确认的沃斯结算标题。",
+      "resolution": {
+        "version": "0.1.31-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#hero-take-damage"
+      }
+    },
+    {
+      "id": "8674ecb96b25ad5c37e15f67",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.30真实原文及完整用途路径确认遗漏；0.1.31补齐完整句式显示。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.31重启后复现承伤提示、跳过抽牌阶段及月球撞击结算；另验证元数据确认的沃斯结算标题。",
+      "resolution": {
+        "version": "0.1.31-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#skip-draw-phase"
+      }
+    },
+    {
+      "id": "60d58e55474a0605b409c807",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.30真实原文及完整用途路径确认遗漏；0.1.31补齐完整句式显示。",
+      "owner": "本地化维护者",
+      "nextAction": "使用0.1.31重启后复现承伤提示、跳过抽牌阶段及月球撞击结算；另验证元数据确认的沃斯结算标题。",
+      "resolution": {
+        "version": "0.1.31-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#special-villain-endings"
       }
     }
   ]

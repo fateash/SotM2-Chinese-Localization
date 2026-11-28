@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-145927-e55864.zip",
+      "sha256": "c6c89c7028bfb85223d1b663c0ee384750bf89578109d52f889afc5d80680fd3",
+      "version": "0.1.27-rc.1",
+      "buildId": "26880829",
+      "issue": "bounded-capture-limit-reached",
+      "approvedBy": "项目维护者（用户）",
+      "approvedAt": "2026-11-28",
+      "authorization": "放行本批审计阻断，并合并pr13",
+      "reason": "维护者明确接受本批四份日志的采集不完整风险，允许PR #13合并；原始问题及待实机验收项继续保留。",
+      "scope": "merge-only-not-live-acceptance"
+    },
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-150229-9ef90a.zip",
+      "sha256": "b7ab62f8583ffe3970583f4f9deb8ce9befc1edc3f6ef0ec5248758cd8ecaffb",
+      "version": "0.1.27-rc.1",
+      "buildId": "26880829",
+      "issue": "bounded-capture-limit-reached",
+      "approvedBy": "项目维护者（用户）",
+      "approvedAt": "2026-11-28",
+      "authorization": "放行本批审计阻断，并合并pr13",
+      "reason": "维护者明确接受本批四份日志的采集不完整风险，允许PR #13合并；原始问题及待实机验收项继续保留。",
+      "scope": "merge-only-not-live-acceptance"
+    },
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-155546-3d36e4.zip",
+      "sha256": "0a05e6828485e4896b3f9f360b42fb060fccce712b03f3f9a73339ab692eed72",
+      "version": "0.1.30-rc.1",
+      "buildId": "26880829",
+      "issue": "bounded-capture-limit-reached",
+      "approvedBy": "项目维护者（用户）",
+      "approvedAt": "2026-11-28",
+      "authorization": "放行本批审计阻断，并合并pr13",
+      "reason": "维护者明确接受本批四份日志的采集不完整风险，允许PR #13合并；原始问题及待实机验收项继续保留。",
+      "scope": "merge-only-not-live-acceptance"
+    },
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-155836-e1c4d5.zip",
+      "sha256": "ad1df5ed30ba9e9287bc9d6234debbca40c03c07536b91850d37cd67b61fe0f3",
+      "version": "0.1.30-rc.1",
+      "buildId": "26880829",
+      "issue": "bounded-capture-limit-reached",
+      "approvedBy": "项目维护者（用户）",
+      "approvedAt": "2026-11-28",
+      "authorization": "放行本批审计阻断，并合并pr13",
+      "reason": "维护者明确接受本批四份日志的采集不完整风险，允许PR #13合并；原始问题及待实机验收项继续保留。",
+      "scope": "merge-only-not-live-acceptance"
+    }
+  ]
+}

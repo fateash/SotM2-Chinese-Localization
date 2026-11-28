@@ -4,12 +4,12 @@
     {
       "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
       "source": "Legacy",
-      "expectTranslated": false
+      "expectTranslated": true
     },
     {
       "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
       "source": "Ra",
-      "expectTranslated": false
+      "expectTranslated": true
     },
     {
       "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
@@ -69,7 +69,7 @@
     {
       "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
       "source": "Tachyon",
-      "expectTranslated": false
+      "expectTranslated": true
     },
     {
       "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
@@ -114,7 +114,7 @@
     {
       "path": "Canvas/HUD Panel/State Box/Turn Taker Box/Turn Taker Label",
       "source": "Insula Primalis",
-      "expectTranslated": false
+      "expectTranslated": true
     },
     {
       "path": "Canvas/Temporary Full Card Panel/Description Label",

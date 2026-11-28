@@ -6,5 +6,5 @@
     <Compile Include="../../runtime/DisplayScope.cs" Link="DisplayScope.cs"/>
     <Compile Include="../../runtime/SurfaceProbeRules.cs" Link="SurfaceProbeRules.cs"/>
     <Compile Include="../../runtime/DynamicDisplayRules.cs" Link="DynamicDisplayRules.cs"/>
-  </ItemGroup>
+  <Compile Include="../../runtime/RenderedDisplayRules.cs" Link="RenderedDisplayRules.cs"/></ItemGroup>
 </Project>

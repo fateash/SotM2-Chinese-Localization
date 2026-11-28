@@ -231,12 +231,100 @@ class CoverageAuditTests(unittest.TestCase):
             result = audit.intake([p])
             self.assertIn('missing-installed-hashes', result['sessions'][0]['issues'])
 
+    def test_bound_title_evidence_retains_semantic_identity(self):
+        row = copy.deepcopy(self.snapshot['samples'][0])
+        row.update(objectName='Title Label', source='Legacy', inCardView=True, deckNameTitle=True)
+        with tempfile.TemporaryDirectory() as tmp:
+            p = Path(tmp) / 'log.txt'
+            p.write_text('SURFACE_PROBE ' + json.dumps(row))
+            captured = audit.intake([p])['samples'][0]
+            self.assertTrue(captured['deckNameTitle'])
+            self.assertNotEqual(audit.identity(captured), audit.identity(captured | {'deckNameTitle': False}))
+            for invalid in ({'deckNameTitle': 'true'}, {'inCardView': False}, {'objectName': 'HP Label'}):
+                p.write_text('SURFACE_PROBE ' + json.dumps(row | invalid))
+                with self.assertRaises(ValueError):
+                    audit.intake([p])
+
     def test_duplicates_or_malformed_records_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:
             p = Path(tmp) / 'log.txt'
             p.write_text('SURFACE_PROBE {broken')
             with self.assertRaises(ValueError):
                 audit.intake([p])
+
+class CaptureWaiverTests(unittest.TestCase):
+    def setUp(self):
+        self.waivers = audit.read(ROOT / 'coverage/gate-waivers.json')
+        snapshot = audit.read(ROOT / 'coverage/evidence/latest.json')
+        hashes = {r['sha256'] for r in self.waivers['entries']}
+        self.sessions = [s for s in snapshot['sessions'] if s['sha256'] in hashes]
+        self.sample = snapshot['samples'][0]
+
+    def test_explicit_batch_waiver_preserves_original_evidence(self):
+        before = copy.deepcopy(self.sessions)
+        errors, accepted = audit.session_gate_issues(self.sessions, self.waivers)
+        self.assertEqual(errors, [])
+        self.assertEqual(len(accepted), 4)
+        self.assertEqual(self.sessions, before)
+        self.assertTrue(all(s['captureLimitReached'] and not s['exhaustive'] for s in self.sessions))
+        self.assertEqual(len(audit.capture_closure_errors(accepted)), 4)
+
+    def test_no_waiver_still_blocks_capture_limit(self):
+        errors, accepted = audit.session_gate_issues(self.sessions)
+        self.assertEqual(len(errors), 4)
+        self.assertEqual(accepted, [])
+
+    def test_new_renamed_or_changed_session_does_not_inherit_waiver(self):
+        for delta in [{'sha256': 'f' * 64}, {'file': 'renamed.zip'}, {'version': 'future'}]:
+            with self.subTest(delta=delta):
+                added = self.sessions[0] | delta
+                errors, accepted = audit.session_gate_issues(self.sessions + [added], self.waivers)
+                self.assertEqual(errors, [added['file'] + ':bounded-capture-limit-reached'])
+                self.assertEqual(len(accepted), 4)
+
+    def test_other_issue_in_waived_session_still_blocks(self):
+        self.sessions[0]['issues'].append('missing-installed-hashes')
+        errors, _ = audit.session_gate_issues(self.sessions, self.waivers)
+        self.assertEqual(errors, [self.sessions[0]['file'] + ':missing-installed-hashes'])
+
+    def test_mismatched_identity_or_missing_authorization_is_rejected(self):
+        for key, value in [('sha256', 'f' * 64), ('file', 'missing.zip'), ('version', 'future'),
+                           ('buildId', 'future'), ('authorization', ''), ('approvedBy', ''),
+                           ('reason', ''), ('scope', 'all-future-logs')]:
+            with self.subTest(key=key):
+                changed = copy.deepcopy(self.waivers)
+                changed['entries'][0][key] = value
+                with self.assertRaises(ValueError):
+                    audit.session_gate_issues(self.sessions, changed)
+
+    def test_duplicate_or_non_capture_waiver_is_rejected(self):
+        changed = copy.deepcopy(self.waivers)
+        changed['entries'].append(changed['entries'][0])
+        with self.assertRaises(ValueError):
+            audit.session_gate_issues(self.sessions, changed)
+        changed = copy.deepcopy(self.waivers)
+        changed['entries'][0]['issue'] = 'missing-installed-hashes'
+        with self.assertRaises(ValueError):
+            audit.session_gate_issues(self.sessions, changed)
+        with self.assertRaises(ValueError):
+            audit.session_gate_issues(self.sessions, {'schemaVersion': 2, 'entries': []})
+
+    def test_report_retains_untriaged_error_and_no_live_acceptance(self):
+        snapshot = {'sessions': self.sessions, 'samples': [self.sample]}
+        replay = {'rows': [{'id': self.sample['id'], 'reason': 'unresolved-full-string', 'target': None}]}
+        report = audit.make_report(snapshot, replay, {'entries': []}, 'test-hash', [], self.waivers)
+        self.assertEqual(report['gateErrors'], ['untriaged:' + self.sample['id']])
+        self.assertEqual(len(report['acceptedGateWaivers']), 4)
+        self.assertFalse(report['entries'][0]['stages']['liveAccepted'])
+        self.assertIn('本批合并放行', audit.markdown(report))
+        self.assertEqual(report['sessions'], self.sessions)
+
+    def test_missing_cap_or_missing_issue_cannot_use_waiver(self):
+        for delta in [{'captureLimitReached': False}, {'issues': []}]:
+            sessions = copy.deepcopy(self.sessions)
+            sessions[0].update(delta)
+            with self.assertRaises(ValueError):
+                audit.session_gate_issues(sessions, self.waivers)
 
 if __name__ == '__main__':
     unittest.main()

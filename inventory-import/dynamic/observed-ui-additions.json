@@ -124,5 +124,41 @@
     "original": "Click up to {0} targets to deal them <nobr>{1} {2}</nobr> damage.",
     "translation": "",
     "context": "已捕获完整句的编辑归一化；显示尚未接入。无来源标题变体；依次为上限、伤害量、伤害类型。"
+  },
+  {
+    "key": "editorial.ui.hint.trash.bury.upto",
+    "original": "Click up to {0} cards in the trash to bury them.",
+    "translation": "",
+    "context": "0.1.29考古发掘实机原句的编辑归一化；0.1.30接入HUD完整提示／确认按钮。数量动态保留，单复数调用端核验；待实机验收。"
+  },
+  {
+    "key": "editorial.ui.finish.bury",
+    "original": "Bury {0} cards",
+    "translation": "",
+    "context": "0.1.29考古发掘实机原句的编辑归一化；0.1.30接入HUD完整提示／确认按钮。数量动态保留，单复数调用端核验；待实机验收。"
+  },
+  {
+    "key": "editorial.ui.hint.hero.take.damage",
+    "original": "Click a Hero to take damage.",
+    "translation": "",
+    "context": "0.1.31接入限定用途显示规则；原文完整匹配，待新画面与交互验收。"
+  },
+  {
+    "key": "editorial.ui.button.skip.draw.phase",
+    "original": "Skip Draw Phase",
+    "translation": "",
+    "context": "0.1.31接入限定用途显示规则；原文完整匹配，待新画面与交互验收。"
+  },
+  {
+    "key": "editorial.ui.result.baron.moonfall",
+    "original": "Baron Blade's TerraLunar Impulsion Beam has pulled the moon into the Earth!",
+    "translation": "",
+    "context": "0.1.31接入限定用途显示规则；原文完整匹配，待新画面与交互验收。"
+  },
+  {
+    "key": "editorial.ui.result.voss.conquered",
+    "original": "The planet has been overrun by the Thorathian Army and Grand Warlord Voss has conquered the Earth!",
+    "translation": "",
+    "context": "0.1.31接入限定用途显示规则；原文完整匹配，待新画面与交互验收。 当前游戏26880829元数据literal 11311确认原文；无实机日志，使用共用结算Heading入口的合成契约。"
   }
 ]

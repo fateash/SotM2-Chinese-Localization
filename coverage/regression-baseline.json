@@ -35,7 +35,7 @@
     {
       "id": "2285896a3653c160397be010",
       "reason": "current-rule-match",
-      "target": "<b>Cosmic Crest:</b> 点击一个区域，将Autonomous Blade打出至该处。"
+      "target": "<b>宇宙冠饰:</b> 点击一个区域，将自主锋刃打出至该处。"
     },
     {
       "id": "482124485c01b32e89398726",
@@ -70,7 +70,7 @@
     {
       "id": "724b94b1f76c242fe0717506",
       "reason": "current-rule-match",
-      "target": "<b>Pterodactyl Thief:</b> 点击一张在场的牌以将其破坏。"
+      "target": "<b>翼手龙窃贼:</b> 点击一张在场的牌以将其破坏。"
     },
     {
       "id": "7253958055d41c28ed8338dc",
@@ -130,7 +130,7 @@
     {
       "id": "a59a5a774d0178bc0794c4bf",
       "reason": "current-rule-match",
-      "target": "点击一个区域，将Wounding Buffer打出至该处。"
+      "target": "点击一个区域，将反击屏障打出至该处。"
     },
     {
       "id": "afb1ac66b2536c95bfeb3f7a",
@@ -180,7 +180,7 @@
     {
       "id": "d5ffaab74ada8169545b0ed6",
       "reason": "current-rule-match",
-      "target": "<b>Cosmic Crest:</b> 点击Cosmic Crest上的按钮，选择一个效果。"
+      "target": "<b>宇宙冠饰:</b> 点击宇宙冠饰上的按钮，选择一个效果。"
     },
     {
       "id": "d78f06f92999d45348a089b8",
@@ -240,7 +240,7 @@
     {
       "id": "1196a364145819ad099bc019",
       "reason": "current-rule-match",
-      "target": "<b>Unflagging Animation:</b> 点击一个目标，将其视为生命值最低的目标。"
+      "target": "<b>不懈赋生:</b> 点击一个目标，将其视为生命值最低的目标。"
     },
     {
       "id": "4bf2976e334ba1e7a4471778",
@@ -260,7 +260,7 @@
     {
       "id": "c0cf1bf7a908617761e9fe45",
       "reason": "current-rule-match",
-      "target": "Cosmic Crest发现的牌："
+      "target": "宇宙冠饰发现的牌："
     },
     {
       "id": "0087c32afc2aa2d60add37d0",
@@ -275,12 +275,12 @@
     {
       "id": "0237e962fc5eeb10885238b4",
       "reason": "current-rule-match",
-      "target": "<b>Fueled Freeze:</b> 点击一个目标，对其造成<nobr>3点寒冷伤害</nobr>。"
+      "target": "<b>蓄能冰封:</b> 点击一个目标，对其造成<nobr>3点寒冷伤害</nobr>。"
     },
     {
       "id": "03e023272e4a1a787613ee0d",
       "reason": "current-rule-match",
-      "target": "<b>Remote Walking Tank:</b> 点击一个目标，对其造成<nobr>5点能量伤害</nobr>。"
+      "target": "<b>遥控步行坦克:</b> 点击一个目标，对其造成<nobr>5点能量伤害</nobr>。"
     },
     {
       "id": "054f2dee748e26fd4f77fe33",
@@ -290,7 +290,7 @@
     {
       "id": "0556a82be1be07fa0edf6c30",
       "reason": "current-rule-match",
-      "target": "<b>Construct Cataclysm:</b> 点击至多8个目标以将其破坏。"
+      "target": "<b>构造灾变:</b> 点击至多8个目标以将其破坏。"
     },
     {
       "id": "063c744fe202b37d43453c1c",
@@ -300,7 +300,7 @@
     {
       "id": "0758bcc8902fad512b0b19db",
       "reason": "current-rule-match",
-      "target": "<b>Tachyon:</b> 点击或拖动一张牌以将其打出。"
+      "target": "<b>快子:</b> 点击或拖动一张牌以将其打出。"
     },
     {
       "id": "076b23af0c496ecfd7bd2633",
@@ -410,7 +410,7 @@
     {
       "id": "2a45a8875f3ecf89318ba818",
       "reason": "current-rule-match",
-      "target": "<b>Bunker:</b> 点击Bunker上的按钮，选择一个效果。"
+      "target": "<b>堡垒:</b> 点击堡垒上的按钮，选择一个效果。"
     },
     {
       "id": "2b80a3bab22f149b239aadc2",
@@ -440,7 +440,7 @@
     {
       "id": "2ed49ac732fc3e834fd2c034",
       "reason": "current-rule-match",
-      "target": "<b>Fueled Freeze:</b> 点击至多3张在场的牌以将其破坏。"
+      "target": "<b>蓄能冰封:</b> 点击至多3张在场的牌以将其破坏。"
     },
     {
       "id": "2f45b3bfc8dab0551c637caa",
@@ -485,7 +485,7 @@
     {
       "id": "3cc96e080e7d53ca668c9be2",
       "reason": "current-rule-match",
-      "target": "Captain Cosmic展示的牌："
+      "target": "宇宙队长展示的牌："
     },
     {
       "id": "3d807fb2b8d50a365eb850a0",
@@ -505,7 +505,7 @@
     {
       "id": "41ff0368a77d1bc8218b255d",
       "reason": "current-rule-match",
-      "target": "<b>The Ol' One-Two:</b> 点击一张牌以将其打出。"
+      "target": "<b>左右开弓:</b> 点击一张牌以将其打出。"
     },
     {
       "id": "42b85f67e53b8f9b6d959fdf",
@@ -520,7 +520,7 @@
     {
       "id": "45e2f3fd79801c3610876414",
       "reason": "current-rule-match",
-      "target": "<b>Quick Insight:</b> 点击2张手牌以将其弃置。"
+      "target": "<b>灵光乍现:</b> 点击2张手牌以将其弃置。"
     },
     {
       "id": "45e9ba621a1b50218e2f1165",
@@ -540,7 +540,7 @@
     {
       "id": "473ad3b86dce2754cbe0e518",
       "reason": "current-rule-match",
-      "target": "<b>Sonic Vortex:</b> 点击至多5个目标，对其各造成<nobr>3点音波伤害</nobr>。"
+      "target": "<b>音波旋涡:</b> 点击至多5个目标，对其各造成<nobr>3点音波伤害</nobr>。"
     },
     {
       "id": "479864c19c979753ed3b5d52",
@@ -550,12 +550,12 @@
     {
       "id": "47c1645990055ba5262af2d8",
       "reason": "current-rule-match",
-      "target": "Captain Cosmic抽到的牌："
+      "target": "宇宙队长抽到的牌："
     },
     {
       "id": "4b41509595626411a7ba2b85",
       "reason": "current-rule-match",
-      "target": "Quick Insight抽到的牌："
+      "target": "灵光乍现抽到的牌："
     },
     {
       "id": "4c929259143461b36d729e59",
@@ -585,12 +585,12 @@
     {
       "id": "523ab64465cd188cec45c23d",
       "reason": "current-rule-match",
-      "target": "Mobile Defense Platform展示的牌："
+      "target": "机动防御平台展示的牌："
     },
     {
       "id": "549b02cb30641b1e1e3ff1cc",
       "reason": "current-rule-match",
-      "target": "Legacy抽到的牌："
+      "target": "传承侠抽到的牌："
     },
     {
       "id": "55cd2e0a94909b0a928c19b3",
@@ -635,7 +635,7 @@
     {
       "id": "6066b5e043addf2dafac6b02",
       "reason": "current-rule-match",
-      "target": "Insula Primalis打出的牌："
+      "target": "原初岛打出的牌："
     },
     {
       "id": "61177ebadd005e09120692ce",
@@ -665,7 +665,7 @@
     {
       "id": "64877572b11ec37b8ab1bb92",
       "reason": "current-rule-match",
-      "target": "<b>Captain Cosmic:</b> 点击一张牌以将其打出。"
+      "target": "<b>宇宙队长:</b> 点击一张牌以将其打出。"
     },
     {
       "id": "64f4ee6d7c2ea7aaf744e1fc",
@@ -700,7 +700,7 @@
     {
       "id": "6bc317427f344d1f4242f7b2",
       "reason": "current-rule-match",
-      "target": "Bunker抽到的牌："
+      "target": "堡垒抽到的牌："
     },
     {
       "id": "6cb182faafc69e0460de54d4",
@@ -710,7 +710,7 @@
     {
       "id": "6cc74ba67b7c570f0cf9df39",
       "reason": "current-rule-match",
-      "target": "Expedited Efficiency抽到的牌："
+      "target": "效率飞升抽到的牌："
     },
     {
       "id": "6dd259e16b85a6296a541c71",
@@ -750,7 +750,7 @@
     {
       "id": "76e047162721a9b11007fef5",
       "reason": "current-rule-match",
-      "target": "Baron Blade的生命值已降至<nobr>0点</nobr>。"
+      "target": "刀锋男爵的生命值已降至<nobr>0点</nobr>。"
     },
     {
       "id": "7f63a3e170762d581bce08c0",
@@ -760,7 +760,7 @@
     {
       "id": "80d691f55d09acb8f8ea5fab",
       "reason": "current-rule-match",
-      "target": "Bolster Allies抽到的牌："
+      "target": "鼓舞同伴抽到的牌："
     },
     {
       "id": "8254d2682433d26df350c79b",
@@ -775,7 +775,7 @@
     {
       "id": "836ed5ad84b6b954c1d77ec8",
       "reason": "current-rule-match",
-      "target": "<b>Destructive Response:</b> 点击至多3个目标，对其各造成<nobr>1点能量伤害</nobr>。"
+      "target": "<b>毁灭回击:</b> 点击至多3个目标，对其各造成<nobr>1点能量伤害</nobr>。"
     },
     {
       "id": "847dd02c95959c5f4eff2fd2",
@@ -785,7 +785,7 @@
     {
       "id": "84b8660ccb0f4c96cf3f82e3",
       "reason": "current-rule-match",
-      "target": "A True Hero抽到的牌："
+      "target": "英雄本色抽到的牌："
     },
     {
       "id": "8539c746d1d8db2f8f286930",
@@ -850,7 +850,7 @@
     {
       "id": "90ac0bc133119fd0034cd5ff",
       "reason": "current-rule-match",
-      "target": "<b>The Ol' One-Two:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
+      "target": "<b>左右开弓:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
     },
     {
       "id": "9107ba23b33279e54f7efe61",
@@ -885,7 +885,7 @@
     {
       "id": "9c37cc993084436f6f02c02e",
       "reason": "current-rule-match",
-      "target": "<b>Construct Cataclysm:</b> 点击一个目标，对其造成<nobr>8点能量伤害</nobr>。"
+      "target": "<b>构造灾变:</b> 点击一个目标，对其造成<nobr>8点能量伤害</nobr>。"
     },
     {
       "id": "9d346c021ad7f16fa760f2fb",
@@ -905,7 +905,7 @@
     {
       "id": "9df1dcc1404e7881ad8000a4",
       "reason": "current-rule-match",
-      "target": "<b>Fleet of Foot:</b> 点击或拖动一张牌以将其打出。"
+      "target": "<b>健步如飞:</b> 点击或拖动一张牌以将其打出。"
     },
     {
       "id": "a2bea954a642027fbdb84297",
@@ -925,7 +925,7 @@
     {
       "id": "a2ee09f830c8136575a54d50",
       "reason": "current-rule-match",
-      "target": "<b>Research Grant:</b> 点击一张手牌以将其弃置。"
+      "target": "<b>科研资助:</b> 点击一张手牌以将其弃置。"
     },
     {
       "id": "a37c7046c01fd59fa7826140",
@@ -960,12 +960,12 @@
     {
       "id": "a76f3800a54cc39f29b21334",
       "reason": "current-rule-match",
-      "target": "将牌置于Ordnance下方"
+      "target": "将牌置于军械牌下方"
     },
     {
       "id": "a8b0a6dca16a3c5d7cef7d2c",
       "reason": "current-rule-match",
-      "target": "<b>Wounding Buffer:</b> <b>Baron Blade</b>将对<b>Captain Cosmic</b>造成2点近战伤害。点击一个反应以使用它。"
+      "target": "<b>反击屏障:</b> <b>刀锋男爵</b>将对<b>宇宙队长</b>造成2点近战伤害。点击一个反应以使用它。"
     },
     {
       "id": "aa228e4dccefccff3fd20d5d",
@@ -975,7 +975,7 @@
     {
       "id": "aaed8b55a5a258462ddb36bb",
       "reason": "current-rule-match",
-      "target": "Fleet of Foot抽到的牌："
+      "target": "健步如飞抽到的牌："
     },
     {
       "id": "ac1fc1c109b56504668baae6",
@@ -990,22 +990,22 @@
     {
       "id": "b0546cde75711f4103c6d5d3",
       "reason": "current-rule-match",
-      "target": "<b>Cosmic Crest:</b> 点击一个区域，将Dynamic Siphon打出至该处。"
+      "target": "<b>宇宙冠饰:</b> 点击一个区域，将动力虹吸打出至该处。"
     },
     {
       "id": "b09b06358d0b2b5792394bfe",
       "reason": "current-rule-match",
-      "target": "Captain Cosmic展示的牌："
+      "target": "宇宙队长展示的牌："
     },
     {
       "id": "b0cbdf69d3807ee34b74e591",
       "reason": "current-rule-match",
-      "target": "<b>Bolster Allies:</b> 点击或拖动一张牌以将其打出。"
+      "target": "<b>鼓舞同伴:</b> 点击或拖动一张牌以将其打出。"
     },
     {
       "id": "b22aa731e450ebbc85409efb",
       "reason": "current-rule-match",
-      "target": "Baron Blade打出的牌："
+      "target": "刀锋男爵打出的牌："
     },
     {
       "id": "b3c69fc8a9e02625224f3436",
@@ -1020,7 +1020,7 @@
     {
       "id": "b53ee5bdcc6f6c03a5fbb50d",
       "reason": "current-rule-match",
-      "target": "<b>Construct Cataclysm:</b> 点击Construct Cataclysm上的按钮，选择一个效果。"
+      "target": "<b>构造灾变:</b> 点击构造灾变上的按钮，选择一个效果。"
     },
     {
       "id": "b543723128334ef01b001fc7",
@@ -1080,7 +1080,7 @@
     {
       "id": "c0efcf22c26a013fdd7b2805",
       "reason": "current-rule-match",
-      "target": "Absolute Zero抽到的牌："
+      "target": "绝对零度抽到的牌："
     },
     {
       "id": "c11bf9d34c4644d070a90585",
@@ -1110,17 +1110,17 @@
     {
       "id": "c4d760d9ad57f5c2cd326353",
       "reason": "current-rule-match",
-      "target": "<b>Expedited Efficiency:</b> 点击或拖动一张牌以将其打出。"
+      "target": "<b>效率飞升:</b> 点击或拖动一张牌以将其打出。"
     },
     {
       "id": "c5a3704352a489aadaca9e8e",
       "reason": "current-rule-match",
-      "target": "<b>Wounding Buffer:</b> <b>Baron Blade</b>将对<b>Legacy</b>造成2点能量伤害。点击一个反应以使用它。"
+      "target": "<b>反击屏障:</b> <b>刀锋男爵</b>将对<b>传承侠</b>造成2点能量伤害。点击一个反应以使用它。"
     },
     {
       "id": "c5d0a3d584fbbd0f73443433",
       "reason": "current-rule-match",
-      "target": "点击一个区域，将Energy Bracer打出至该处。"
+      "target": "点击一个区域，将能量护腕打出至该处。"
     },
     {
       "id": "c5e4374cf31a7050e0a02720",
@@ -1145,12 +1145,12 @@
     {
       "id": "ccaf2690569dbcc545893d2e",
       "reason": "current-rule-match",
-      "target": "Baron Blade召唤出的牌："
+      "target": "刀锋男爵召唤出的牌："
     },
     {
       "id": "cda6a693829d2d4fd8ec8e62",
       "reason": "current-rule-match",
-      "target": "<b>Cosmic Weapon:</b> 点击一个目标，对其造成<nobr>3点能量伤害</nobr>。"
+      "target": "<b>宇宙武器:</b> 点击一个目标，对其造成<nobr>3点能量伤害</nobr>。"
     },
     {
       "id": "d2712112864a9b2518007b5d",
@@ -1165,7 +1165,7 @@
     {
       "id": "d5cc944f805fec23e62e95bf",
       "reason": "current-rule-match",
-      "target": "<b>Bolster Allies:</b> 点击一位英雄，让其打出一张牌。"
+      "target": "<b>鼓舞同伴:</b> 点击一位英雄，让其打出一张牌。"
     },
     {
       "id": "d9f369423a67bf24f5244b4d",
@@ -1205,7 +1205,7 @@
     {
       "id": "e09d10d047b4a09f7b33dc50",
       "reason": "current-rule-match",
-      "target": "<b>Baron Blade:</b> 点击目标，选择对它们造成<nobr>1点能量伤害</nobr>的顺序。"
+      "target": "<b>刀锋男爵:</b> 点击目标，选择对它们造成<nobr>1点能量伤害</nobr>的顺序。"
     },
     {
       "id": "e25bebd331394d7b41b76357",
@@ -1220,7 +1220,7 @@
     {
       "id": "e2f24afc5930fdee124720ec",
       "reason": "current-rule-match",
-      "target": "Hasten Doom打出的牌："
+      "target": "加速末日打出的牌："
     },
     {
       "id": "e57e98a4f8480ad7b9aea0ce",
@@ -1240,7 +1240,7 @@
     {
       "id": "ea02e4f2451f3c39e9eeab52",
       "reason": "current-rule-match",
-      "target": "<b>Tachyon:</b> 点击一位英雄，让其立即进行出牌阶段。"
+      "target": "<b>快子:</b> 点击一位英雄，让其立即进行出牌阶段。"
     },
     {
       "id": "ea5b97302c9d4b10c8218619",
@@ -1265,7 +1265,7 @@
     {
       "id": "ee7c689d6aa5013bbf81381f",
       "reason": "current-rule-match",
-      "target": "Research Grant抽到的牌："
+      "target": "科研资助抽到的牌："
     },
     {
       "id": "ef15fdc73c0f3823074ada73",
@@ -1300,17 +1300,17 @@
     {
       "id": "f861d39b06303b0a49cf8648",
       "reason": "current-rule-match",
-      "target": "<b>Bolster Allies:</b> 点击一张牌以将其打出。"
+      "target": "<b>鼓舞同伴:</b> 点击一张牌以将其打出。"
     },
     {
       "id": "fa9c9fbb553e9df6630b1bea",
       "reason": "current-rule-match",
-      "target": "你击败了Baron Blade，化解了危机！"
+      "target": "你击败了刀锋男爵，化解了危机！"
     },
     {
       "id": "fca966451eefb0e940ec48b5",
       "reason": "current-rule-match",
-      "target": "Tachyon抽到的牌："
+      "target": "快子抽到的牌："
     },
     {
       "id": "ffea93ff7280af56873aca64",
@@ -1320,12 +1320,12 @@
     {
       "id": "0064ccbcfdac20bc0c764bf5",
       "reason": "current-rule-match",
-      "target": "点击一个区域，将Vitality Conduit打出至该处。"
+      "target": "点击一个区域，将活力法渠打出至该处。"
     },
     {
       "id": "00aa2b1318e3c9303b537e19",
       "reason": "current-rule-match",
-      "target": "<b>Conservation of Energy:</b> 点击或拖动一张牌以将其打出。"
+      "target": "<b>能量守恒:</b> 点击或拖动一张牌以将其打出。"
     },
     {
       "id": "011f3b97066fb9a34c9ba15d",
@@ -1340,12 +1340,12 @@
     {
       "id": "02142f6a7337ac9dc248006e",
       "reason": "current-rule-match",
-      "target": "<b>Nimble Strike:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
+      "target": "<b>灵巧一击:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
     },
     {
       "id": "06890aacd2e4b52674fd2b33",
       "reason": "current-rule-match",
-      "target": "<b>Frost-Bound Drain:</b> 点击一个目标，对其造成<nobr>3点寒冷伤害</nobr>。"
+      "target": "<b>寒霜汲取:</b> 点击一个目标，对其造成<nobr>3点寒冷伤害</nobr>。"
     },
     {
       "id": "07bab2d01dbadf1724e752b2",
@@ -1380,12 +1380,12 @@
     {
       "id": "15085a86d5da5e1853af5afe",
       "reason": "current-rule-match",
-      "target": "LIDAR Intel展示的牌："
+      "target": "激光侦测展示的牌："
     },
     {
       "id": "16bc03bec03b34a0d6560c4c",
       "reason": "current-rule-match",
-      "target": "<b>Wounding Buffer:</b> <b>Jet-Jump Battalion</b>将对<b>Bunker</b>造成1点能量伤害。点击一个反应以使用它。"
+      "target": "<b>反击屏障:</b> <b>喷射突击营</b>将对<b>堡垒</b>造成1点能量伤害。点击一个反应以使用它。"
     },
     {
       "id": "1716b8b3270e6127bf53edf9",
@@ -1400,7 +1400,7 @@
     {
       "id": "1ad24c2ecf773124658ee16c",
       "reason": "current-rule-match",
-      "target": "Flak Cannon下方的牌"
+      "target": "高射火炮下方的牌"
     },
     {
       "id": "1c1109a297496da33b131c4b",
@@ -1420,7 +1420,7 @@
     {
       "id": "2222798afac0f8652054c783",
       "reason": "current-rule-match",
-      "target": "<b>Isothermic Transducer:</b> 点击或拖动一张牌以将其打出。"
+      "target": "<b>等温换能器:</b> 点击或拖动一张牌以将其打出。"
     },
     {
       "id": "24906d6ef866771dd0a78f45",
@@ -1430,12 +1430,12 @@
     {
       "id": "27c58138c6d857f7d43dd203",
       "reason": "current-rule-match",
-      "target": "Desperate Deployment召唤出的牌："
+      "target": "绝境部署召唤出的牌："
     },
     {
       "id": "2a6924242f91b3f0bb1e4258",
       "reason": "current-rule-match",
-      "target": "<b>Emergency Shielding:</b> <b>Backlash Field Generator</b>将对<b>Bunker</b>造成1点闪电伤害。点击一个反应以使用它。"
+      "target": "<b>应急护盾:</b> <b>反噬场发生器</b>将对<b>堡垒</b>造成1点闪电伤害。点击一个反应以使用它。"
     },
     {
       "id": "2ab190feb12b4ba59f5d8e53",
@@ -1455,17 +1455,17 @@
     {
       "id": "2e9749aef2afda5c9f353eed",
       "reason": "current-rule-match",
-      "target": "<b>Flak Cannon:</b> 点击一个目标，对其造成<nobr>3点投射伤害</nobr>。"
+      "target": "<b>高射火炮:</b> 点击一个目标，对其造成<nobr>3点投射伤害</nobr>。"
     },
     {
       "id": "2fae84e7c7cb1cf2b0b4a560",
       "reason": "current-rule-match",
-      "target": "<b>Jet-Jump Battalion:</b> 点击3个目标，对其各造成<nobr>2点能量伤害</nobr>。"
+      "target": "<b>喷射突击营:</b> 点击3个目标，对其各造成<nobr>2点能量伤害</nobr>。"
     },
     {
       "id": "30bd7e317c8318b2ac0cfb6b",
       "reason": "current-rule-match",
-      "target": "<b>Blinding Speed:</b> 点击一张在场的牌以将其破坏。"
+      "target": "<b>疾如闪电:</b> 点击一张在场的牌以将其破坏。"
     },
     {
       "id": "33a43368d017acc1de33c0ad",
@@ -1485,17 +1485,17 @@
     {
       "id": "38ec492eb2a8118b5ad09328",
       "reason": "current-rule-match",
-      "target": "<b>Piston Punch:</b> 点击一张在场的牌，将Piston Punch置于其下方。"
+      "target": "<b>活塞重拳:</b> 点击一张在场的牌，将活塞重拳置于其下方。"
     },
     {
       "id": "3dfe08a133833e8bbf0e1390",
       "reason": "current-rule-match",
-      "target": "<b>LIDAR Intel:</b> 点击一个牌库以展示一张牌。"
+      "target": "<b>激光侦测:</b> 点击一个牌库以展示一张牌。"
     },
     {
       "id": "3e7a90fee690910780096469",
       "reason": "current-rule-match",
-      "target": "<b>Conductive Installation:</b> 点击或拖动一张牌以将其打出。"
+      "target": "<b>传导装配:</b> 点击或拖动一张牌以将其打出。"
     },
     {
       "id": "40868a03b1cb010dea203870",
@@ -1535,7 +1535,7 @@
     {
       "id": "5112190a1b28334bb7ab0e32",
       "reason": "current-rule-match",
-      "target": "<b>Isothermic Transducer:</b> 点击一个目标，对其造成<nobr>3点寒冷伤害</nobr>。"
+      "target": "<b>等温换能器:</b> 点击一个目标，对其造成<nobr>3点寒冷伤害</nobr>。"
     },
     {
       "id": "5292b6da580ead9dfac056eb",
@@ -1545,7 +1545,7 @@
     {
       "id": "534e14312f07624e3bcbb653",
       "reason": "current-rule-match",
-      "target": "<b>Sonic Vortex:</b> 点击至多11个目标，对其各造成<nobr>3点音波伤害</nobr>。"
+      "target": "<b>音波旋涡:</b> 点击至多11个目标，对其各造成<nobr>3点音波伤害</nobr>。"
     },
     {
       "id": "540e9ed1fef456a98a917d95",
@@ -1555,27 +1555,27 @@
     {
       "id": "544070d05aea523b210f987d",
       "reason": "current-rule-match",
-      "target": "<b>Grazing Stegosaurus:</b> 点击视为手牌最少的英雄。"
+      "target": "<b>食草剑龙:</b> 点击视为手牌最少的英雄。"
     },
     {
       "id": "556e9c1ebaafbf207079d5c1",
       "reason": "current-rule-match",
-      "target": "<b>Cosmic Crest:</b> 点击一个区域，将Energy Bracer打出至该处。"
+      "target": "<b>宇宙冠饰:</b> 点击一个区域，将能量护腕打出至该处。"
     },
     {
       "id": "55a3905bc1c7e0b908054205",
       "reason": "current-rule-match",
-      "target": "Mounted AP Gun下方的牌"
+      "target": "挂载穿甲炮下方的牌"
     },
     {
       "id": "59fa6a09c5edeee6b3671479",
       "reason": "current-rule-match",
-      "target": "<b>Gatling Gun:</b> 点击一个目标，对其造成<nobr>1点投射伤害</nobr>。"
+      "target": "<b>加特林机炮:</b> 点击一个目标，对其造成<nobr>1点投射伤害</nobr>。"
     },
     {
       "id": "5ab385cf4002c3cc91a9b351",
       "reason": "current-rule-match",
-      "target": "High-Yield Coolant Tanks抽到的牌："
+      "target": "高效冷却罐抽到的牌："
     },
     {
       "id": "5b2b89ebddd1ce1e5267f304",
@@ -1590,12 +1590,12 @@
     {
       "id": "5dc36b80a8cbb623ef8836cb",
       "reason": "current-rule-match",
-      "target": "<b>Isothermic Transducer:</b> 点击一个目标，对其造成<nobr>2点寒冷伤害</nobr>。"
+      "target": "<b>等温换能器:</b> 点击一个目标，对其造成<nobr>2点寒冷伤害</nobr>。"
     },
     {
       "id": "5fba43ac4c56a5fee05bc0df",
       "reason": "current-rule-match",
-      "target": "<b>Absolute Zero:</b> 点击Absolute Zero上的按钮，选择一个效果。"
+      "target": "<b>绝对零度:</b> 点击绝对零度上的按钮，选择一个效果。"
     },
     {
       "id": "6196aa2758ab81bc5630fc6a",
@@ -1610,12 +1610,12 @@
     {
       "id": "6503cda0b11b8e09117b4ba5",
       "reason": "current-rule-match",
-      "target": "LIDAR Intel抽到的牌："
+      "target": "激光侦测抽到的牌："
     },
     {
       "id": "65794d6e41644c4687c6a62c",
       "reason": "current-rule-match",
-      "target": "<b>Isothermic Transducer:</b> 点击一个目标，对其造成<nobr>5点寒冷伤害</nobr>。"
+      "target": "<b>等温换能器:</b> 点击一个目标，对其造成<nobr>5点寒冷伤害</nobr>。"
     },
     {
       "id": "668bf2131dd75ca45e6254b3",
@@ -1630,7 +1630,7 @@
     {
       "id": "68822b6e5bbd68d59fa52dbd",
       "reason": "current-rule-match",
-      "target": "<b>Wounding Buffer:</b> <b>Baron Blade</b>将对<b>Bunker</b>造成1点毒素伤害。点击一个反应以使用它。"
+      "target": "<b>反击屏障:</b> <b>刀锋男爵</b>将对<b>堡垒</b>造成1点毒素伤害。点击一个反应以使用它。"
     },
     {
       "id": "69ad4e951dc440758ba40190",
@@ -1640,12 +1640,12 @@
     {
       "id": "6a33b5ca9600cb76eabf5450",
       "reason": "current-rule-match",
-      "target": "Upgrade Mode召唤出的牌："
+      "target": "升级模式召唤出的牌："
     },
     {
       "id": "6d42939e3144b82725fb40e7",
       "reason": "current-rule-match",
-      "target": "<b>Still Life:</b> 点击一个目标，防止其造成伤害。"
+      "target": "<b>静物艺术:</b> 点击一个目标，防止其造成伤害。"
     },
     {
       "id": "6f35a1708c2ee2fc7d29b33a",
@@ -1660,7 +1660,7 @@
     {
       "id": "7208e4c0bea0b1b820d932b7",
       "reason": "current-rule-match",
-      "target": "<b>Isothermic Transducer:</b> 点击一个目标，对其造成<nobr>8点寒冷伤害</nobr>。"
+      "target": "<b>等温换能器:</b> 点击一个目标，对其造成<nobr>8点寒冷伤害</nobr>。"
     },
     {
       "id": "720a74169f25477afe620bb0",
@@ -1680,17 +1680,17 @@
     {
       "id": "842fed9f739433975976bcc5",
       "reason": "current-rule-match",
-      "target": "<b>High-Yield Coolant Tanks:</b> 点击High-Yield Coolant Tanks上的按钮，选择一个效果。"
+      "target": "<b>高效冷却罐:</b> 点击高效冷却罐上的按钮，选择一个效果。"
     },
     {
       "id": "8820e61460a2d3cdf2799784",
       "reason": "current-rule-match",
-      "target": "Grazing Stegosaurus抽到的牌："
+      "target": "食草剑龙抽到的牌："
     },
     {
       "id": "8d2a4721359de071ace37f16",
       "reason": "current-rule-match",
-      "target": "<b>Sucker Punch:</b> 点击一个目标，对其造成<nobr>1点近战伤害</nobr>。"
+      "target": "<b>突施冷拳:</b> 点击一个目标，对其造成<nobr>1点近战伤害</nobr>。"
     },
     {
       "id": "92882f8f952ba6df22ca5e7d",
@@ -1700,12 +1700,12 @@
     {
       "id": "998e548e466a3839a9bffd7c",
       "reason": "current-rule-match",
-      "target": "<b>Wounding Buffer:</b> <b>Backlash Field Generator</b>将对<b>Bunker</b>造成1点闪电伤害。点击一个反应以使用它。"
+      "target": "<b>反击屏障:</b> <b>反噬场发生器</b>将对<b>堡垒</b>造成1点闪电伤害。点击一个反应以使用它。"
     },
     {
       "id": "9ab087c7581d459f7cb403da",
       "reason": "current-rule-match",
-      "target": "Conductive Installation抽到的牌："
+      "target": "传导装配抽到的牌："
     },
     {
       "id": "9ac2b349820f805617f06a22",
@@ -1730,7 +1730,7 @@
     {
       "id": "9fe8448d8643fe32aa692678",
       "reason": "current-rule-match",
-      "target": "<b>Piston Punch:</b> 点击一个目标，对其造成<nobr>3点近战伤害</nobr>。"
+      "target": "<b>活塞重拳:</b> 点击一个目标，对其造成<nobr>3点近战伤害</nobr>。"
     },
     {
       "id": "a08fdd0f36c86107ab893ae4",
@@ -1740,7 +1740,7 @@
     {
       "id": "a24b7077f2284f49abf06a6a",
       "reason": "current-rule-match",
-      "target": "<b>Hasten Doom:</b> 点击目标，选择对它们造成<nobr>2点毒素伤害</nobr>的顺序。"
+      "target": "<b>加速末日:</b> 点击目标，选择对它们造成<nobr>2点毒素伤害</nobr>的顺序。"
     },
     {
       "id": "a3fe6585e01f9c6776374e16",
@@ -1750,7 +1750,7 @@
     {
       "id": "a787aaabefcee9c9f740d32b",
       "reason": "current-rule-match",
-      "target": "<b>Lightspeed Barrage:</b> 点击一个目标，对其造成<nobr>21点近战伤害</nobr>。"
+      "target": "<b>光速连击:</b> 点击一个目标，对其造成<nobr>21点近战伤害</nobr>。"
     },
     {
       "id": "a8eed7e17e758e40cfc62856",
@@ -1765,7 +1765,7 @@
     {
       "id": "b0bc0f4cadd0dc60bb9e4a8b",
       "reason": "current-rule-match",
-      "target": "<b>Upgrade Mode:</b> 点击或拖动一张牌以将其打出。"
+      "target": "<b>升级模式:</b> 点击或拖动一张牌以将其打出。"
     },
     {
       "id": "babbe76876e73893f533a844",
@@ -1775,42 +1775,42 @@
     {
       "id": "bae3173ee50de2f6c90efd4a",
       "reason": "current-rule-match",
-      "target": "<b>High-Yield Coolant Tanks:</b> 点击一个异能以使用它。"
+      "target": "<b>高效冷却罐:</b> 点击一个异能以使用它。"
     },
     {
       "id": "bb6afe82a39b4c4037c21ca9",
       "reason": "current-rule-match",
-      "target": "<b>Conservation of Energy:</b> 点击一张牌以将其打出。"
+      "target": "<b>能量守恒:</b> 点击一张牌以将其打出。"
     },
     {
       "id": "bc2c922dc0f347fc1ed8b015",
       "reason": "current-rule-match",
-      "target": "<b>Thermal Shockwave:</b> 点击至多3个目标，对其各造成<nobr>1点寒冷伤害</nobr>。"
+      "target": "<b>热冲击波:</b> 点击至多3个目标，对其各造成<nobr>1点寒冷伤害</nobr>。"
     },
     {
       "id": "bc886d8ab164bb3742be1fa2",
       "reason": "current-rule-match",
-      "target": "<b>Flak Cannon:</b> 点击一张在场或位于Flak Cannon下方的牌以将其破坏。"
+      "target": "<b>高射火炮:</b> 点击一张在场或位于高射火炮下方的牌以将其破坏。"
     },
     {
       "id": "bda00be0cc4af4699789c945",
       "reason": "current-rule-match",
-      "target": "<b>Conductive Installation:</b> 点击牌库中的一张牌以将其搜集。"
+      "target": "<b>传导装配:</b> 点击牌库中的一张牌以将其搜集。"
     },
     {
       "id": "c0fe2786cff169588d80bb3e",
       "reason": "current-rule-match",
-      "target": "<b>Desperate Deployment:</b> 点击牌库中的一张牌以将其召唤。"
+      "target": "<b>绝境部署:</b> 点击牌库中的一张牌以将其召唤。"
     },
     {
       "id": "c3e53a3a3f90b32f5a8da130",
       "reason": "current-rule-match",
-      "target": "<b>Isothermic Transducer:</b> 点击一个目标，对其造成<nobr>4点寒冷伤害</nobr>。"
+      "target": "<b>等温换能器:</b> 点击一个目标，对其造成<nobr>4点寒冷伤害</nobr>。"
     },
     {
       "id": "c4a0e7b9a6607c203caa33f2",
       "reason": "current-rule-match",
-      "target": "Nimble Strike抽到的牌："
+      "target": "灵巧一击抽到的牌："
     },
     {
       "id": "c9c184d4030f871db2ba9ab6",
@@ -1820,7 +1820,7 @@
     {
       "id": "ce6f8388e6f178f6c63386b6",
       "reason": "current-rule-match",
-      "target": "<b>Gatling Gun:</b> 点击一张在场或位于Gatling Gun下方的牌以将其破坏。"
+      "target": "<b>加特林机炮:</b> 点击一张在场或位于加特林机炮下方的牌以将其破坏。"
     },
     {
       "id": "d4389dc2af2681aa4b47210e",
@@ -1830,12 +1830,12 @@
     {
       "id": "d9acfb8ad4ba5e47b8c4995d",
       "reason": "current-rule-match",
-      "target": "Jet-Jump Battalion展示的牌："
+      "target": "喷射突击营展示的牌："
     },
     {
       "id": "da14ed7c43607c3dc4fa8b72",
       "reason": "current-rule-match",
-      "target": "Conductive Installation搜集的牌："
+      "target": "传导装配搜集的牌："
     },
     {
       "id": "db3108c69ed7c56d5cac5e0a",
@@ -1860,7 +1860,7 @@
     {
       "id": "e4f1e8b6342fe865e3934fec",
       "reason": "current-rule-match",
-      "target": "Conservation of Energy抽到的牌："
+      "target": "能量守恒抽到的牌："
     },
     {
       "id": "e8395871f6b6216ea01a6c24",
@@ -1875,7 +1875,7 @@
     {
       "id": "eab58b99f364ef8522cf50cd",
       "reason": "current-rule-match",
-      "target": "<b>Upgrade Mode:</b> 点击牌库或弃牌堆中的一张牌以将其召唤。"
+      "target": "<b>升级模式:</b> 点击牌库或弃牌堆中的一张牌以将其召唤。"
     },
     {
       "id": "ebae6eca6ce8bc38e6685d59",
@@ -1900,12 +1900,12 @@
     {
       "id": "ee6159368782e0a4a9b41536",
       "reason": "current-rule-match",
-      "target": "<b>Enraged T. Rex:</b> 点击一个目标，对其造成<nobr>5点近战伤害</nobr>。"
+      "target": "<b>狂怒暴龙:</b> 点击一个目标，对其造成<nobr>5点近战伤害</nobr>。"
     },
     {
       "id": "f012309ccb4112f8861a028d",
       "reason": "current-rule-match",
-      "target": "<b>Emergency Shielding:</b> <b>Jet-Jump Battalion</b>将对<b>Bunker</b>造成1点能量伤害。点击一个反应以使用它。"
+      "target": "<b>应急护盾:</b> <b>喷射突击营</b>将对<b>堡垒</b>造成1点能量伤害。点击一个反应以使用它。"
     },
     {
       "id": "f17a76403e6fe9c51eb23084",
@@ -1920,7 +1920,7 @@
     {
       "id": "f8c46a7a98997fcb100981d3",
       "reason": "current-rule-match",
-      "target": "<b>Null-Point Calibration Unit:</b> 点击或拖动一张牌以将其打出。"
+      "target": "<b>零点校准器:</b> 点击或拖动一张牌以将其打出。"
     },
     {
       "id": "00ae142e380049c8597c2827",
@@ -1930,7 +1930,7 @@
     {
       "id": "00ae49cb1fa0649e6d8129d5",
       "reason": "current-rule-match",
-      "target": "Dr. Stinson's Secondary Lab展示的牌："
+      "target": "斯廷森博士的副实验室展示的牌："
     },
     {
       "id": "01450721533bb71249c6228a",
@@ -1955,7 +1955,7 @@
     {
       "id": "058ce98e92514ab904b9e596",
       "reason": "current-rule-match",
-      "target": "<b>S-83 Assault Drones:</b> 点击2个目标，对其各造成<nobr>4点近战伤害</nobr>。"
+      "target": "<b>S-83突击机兵:</b> 点击2个目标，对其各造成<nobr>4点近战伤害</nobr>。"
     },
     {
       "id": "08b82b33db6611aa6d6be340",
@@ -1965,7 +1965,7 @@
     {
       "id": "0e4210176c585f79427e77f9",
       "reason": "current-rule-match",
-      "target": "Omnitron发现的牌："
+      "target": "全能智创发现的牌："
     },
     {
       "id": "0fe412c7549aed885bbb9930",
@@ -1975,7 +1975,7 @@
     {
       "id": "10d98167c99a8e632c0ff3b6",
       "reason": "current-rule-match",
-      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将A True Hero放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将英雄本色放回原处或弃置。"
     },
     {
       "id": "1311b83f9a44a73dfd4debce",
@@ -2005,12 +2005,12 @@
     {
       "id": "1d59e4a15f217d10bb22fb41",
       "reason": "current-rule-match",
-      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Mounted AP Gun放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将挂载穿甲炮放回原处或弃置。"
     },
     {
       "id": "1e5ae326343db8f5917cd557",
       "reason": "current-rule-match",
-      "target": "<b>Freedom Security Staff:</b> 点击一张手牌以将其弃置。"
+      "target": "<b>自由安保:</b> 点击一张手牌以将其弃置。"
     },
     {
       "id": "208a559ecb20dec4c333161d",
@@ -2025,12 +2025,12 @@
     {
       "id": "227d8295afde89c4bf1a04d4",
       "reason": "current-rule-match",
-      "target": "Surge of Ihi抽到的牌："
+      "target": "气魄勃发抽到的牌："
     },
     {
       "id": "23f5cb8cdd42916c19063c33",
       "reason": "current-rule-match",
-      "target": "Maerynian Aquaculturalist抽到的牌："
+      "target": "异星水产学家抽到的牌："
     },
     {
       "id": "27274baeb94a5d15c53f0a93",
@@ -2040,7 +2040,7 @@
     {
       "id": "28a093a3a3f82f016c700ff1",
       "reason": "current-rule-match",
-      "target": "Maerynian Aquaculturalist展示的牌："
+      "target": "异星水产学家展示的牌："
     },
     {
       "id": "2c0950e1edde81b02d3e1b53",
@@ -2055,7 +2055,7 @@
     {
       "id": "2c431df3641bfd28b22ddb7b",
       "reason": "current-rule-match",
-      "target": "<b>Raptor Bot:</b> 点击一个目标，对其造成<nobr>4点近战伤害</nobr>。"
+      "target": "<b>迅猛龙机偶:</b> 点击一个目标，对其造成<nobr>4点近战伤害</nobr>。"
     },
     {
       "id": "2e55635696d462bea8a9f5fa",
@@ -2070,12 +2070,12 @@
     {
       "id": "306519dc884757ac6da24577",
       "reason": "current-rule-match",
-      "target": "Freedom Tower打出的牌："
+      "target": "自由大厦打出的牌："
     },
     {
       "id": "31544c7451f317619c7ec9fb",
       "reason": "current-rule-match",
-      "target": "<b>Protomatter Converter:</b> 点击一张在场的牌以将其破坏。"
+      "target": "<b>原质转换器:</b> 点击一张在场的牌以将其破坏。"
     },
     {
       "id": "31841c371b77454981d38f30",
@@ -2115,7 +2115,7 @@
     {
       "id": "379e1760efa0ab187e5b7140",
       "reason": "current-rule-match",
-      "target": "<b>Expendable Power Bank:</b> 点击一张在场的牌，将Recharge Mode置于其下方。"
+      "target": "<b>一次性电源:</b> 点击一张在场的牌，将充能模式置于其下方。"
     },
     {
       "id": "383821b20cc2d2e348247611",
@@ -2125,7 +2125,7 @@
     {
       "id": "3911848bb60c9b33a537f733",
       "reason": "current-rule-match",
-      "target": "<b>Disintegration Ray:</b> 点击一个目标，对其造成能量伤害。"
+      "target": "<b>解离射线:</b> 点击一个目标，对其造成能量伤害。"
     },
     {
       "id": "3d582e96d6042ec1acbb9a98",
@@ -2180,7 +2180,7 @@
     {
       "id": "48d4bd89491865ef80284206",
       "reason": "current-rule-match",
-      "target": "Haka抽到的牌："
+      "target": "哈卡抽到的牌："
     },
     {
       "id": "4a50c28525e49536f35d83f6",
@@ -2195,12 +2195,12 @@
     {
       "id": "4b65e47566556549f7ee2781",
       "reason": "current-rule-match",
-      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Displaced Ambassador放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将流亡使节放回原处或弃置。"
     },
     {
       "id": "506f4ec2c9e7dc0e066e66c4",
       "reason": "current-rule-match",
-      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Supply Crate放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将补给货箱放回原处或弃置。"
     },
     {
       "id": "53cb958f9671b88023cf2c1b",
@@ -2210,7 +2210,7 @@
     {
       "id": "5433af351edcd0dca7f4e6c0",
       "reason": "current-rule-match",
-      "target": "<b>Haka of Frenzy:</b> 点击2个目标，对其各造成<nobr>3点近战伤害</nobr>。"
+      "target": "<b>狂热战舞:</b> 点击2个目标，对其各造成<nobr>3点近战伤害</nobr>。"
     },
     {
       "id": "551a1d46c5078bb110aa0ec5",
@@ -2220,12 +2220,12 @@
     {
       "id": "56cfcf0a4d4bf5e7810c5bc1",
       "reason": "current-rule-match",
-      "target": "发现Golem牌"
+      "target": "发现机偶牌"
     },
     {
       "id": "58856020cead01453cd99190",
       "reason": "current-rule-match",
-      "target": "<b>Maerynian Aquaculturalist:</b> 选择一个区域，将Entry Point放回原处或弃置。"
+      "target": "<b>异星水产学家:</b> 选择一个区域，将破墙而入放回原处或弃置。"
     },
     {
       "id": "58c524a2190ad89cdd40f7de",
@@ -2240,27 +2240,27 @@
     {
       "id": "5d4eb81102bb8c40d5034eca",
       "reason": "current-rule-match",
-      "target": "<b>Grenade Launcher:</b> 点击一张在场或位于Grenade Launcher下方的牌以将其破坏。"
+      "target": "<b>榴弹发射器:</b> 点击一张在场或位于榴弹发射器下方的牌以将其破坏。"
     },
     {
       "id": "5dd4c4000e1dda54c939bd17",
       "reason": "current-rule-match",
-      "target": "Flash Forge发现的牌："
+      "target": "瞬间锻造发现的牌："
     },
     {
       "id": "5df90c1e2cc3f40a48e93237",
       "reason": "current-rule-match",
-      "target": "<b>Taiaha:</b> 点击一张在场的牌以将其破坏。"
+      "target": "<b>泰阿哈战杖:</b> 点击一张在场的牌以将其破坏。"
     },
     {
       "id": "5e5ea359d923c2ffa436c984",
       "reason": "current-rule-match",
-      "target": "<b>Singularity Projector:</b> 点击3张在场的牌以将其破坏。"
+      "target": "<b>奇点投射器:</b> 点击3张在场的牌以将其破坏。"
     },
     {
       "id": "5e8b03879ad004ab4d380bda",
       "reason": "current-rule-match",
-      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Haka of Battle放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将征战战舞放回原处或弃置。"
     },
     {
       "id": "5eece7d0e4866e799989fe7f",
@@ -2270,37 +2270,37 @@
     {
       "id": "5efe21b1fe5e7e8d6c59b02b",
       "reason": "current-rule-match",
-      "target": "Maerynian Aquaculturalist展示的牌："
+      "target": "异星水产学家展示的牌："
     },
     {
       "id": "5f77d120009544ec0e28ab50",
       "reason": "current-rule-match",
-      "target": "Omnitron打出的牌："
+      "target": "全能智创打出的牌："
     },
     {
       "id": "6126652dd04ef304a8ddccca",
       "reason": "current-rule-match",
-      "target": "<b>Bee Bot:</b> 点击一张在场的牌以将其破坏。"
+      "target": "<b>蜜蜂机偶:</b> 点击一张在场的牌以将其破坏。"
     },
     {
       "id": "627eb67a4317f167d1164ff2",
       "reason": "current-rule-match",
-      "target": "<b>Platform Bot:</b> 点击一个目标，对其造成<nobr>3点能量伤害</nobr>。"
+      "target": "<b>平台机偶:</b> 点击一个目标，对其造成<nobr>3点能量伤害</nobr>。"
     },
     {
       "id": "64ab6d14c8732a92f5f9ad19",
       "reason": "current-rule-match",
-      "target": "<b>Maerynian Aquaculturalist:</b> 选择一个区域，将Mission Control放回原处或弃置。"
+      "target": "<b>异星水产学家:</b> 选择一个区域，将任务中枢放回原处或弃置。"
     },
     {
       "id": "67be4494df14e4bd869a960e",
       "reason": "current-rule-match",
-      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Haka of Frenzy放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将狂热战舞放回原处或弃置。"
     },
     {
       "id": "67c3cc9cbdf6cd7214e71e95",
       "reason": "current-rule-match",
-      "target": "Tempest抽到的牌："
+      "target": "风暴抽到的牌："
     },
     {
       "id": "68713a80b8d99c68b7b05226",
@@ -2325,12 +2325,12 @@
     {
       "id": "6d62d72515609eced47989c0",
       "reason": "current-rule-match",
-      "target": "<b>Supply Crate:</b> 点击Unity的牌库，抽2张牌。"
+      "target": "<b>补给货箱:</b> 点击优妮蒂的牌库，抽2张牌。"
     },
     {
       "id": "6e3ffd9c4181398ee2de733c",
       "reason": "current-rule-match",
-      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Haka of Recovery放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将复苏战舞放回原处或弃置。"
     },
     {
       "id": "6ea5faff7d13bfe648bb1407",
@@ -2340,17 +2340,17 @@
     {
       "id": "70e915268e111bd624b3e5c0",
       "reason": "current-rule-match",
-      "target": "Dance in the Fray抽到的牌："
+      "target": "阵中起舞抽到的牌："
     },
     {
       "id": "72143ad7147822e2213c90b4",
       "reason": "current-rule-match",
-      "target": "<b>Raptor Bot:</b> 点击一个目标，对其造成<nobr>5点近战伤害</nobr>。"
+      "target": "<b>迅猛龙机偶:</b> 点击一个目标，对其造成<nobr>5点近战伤害</nobr>。"
     },
     {
       "id": "732a393159accf0e3af2e847",
       "reason": "current-rule-match",
-      "target": "<b>Thokk!:</b> 点击一个目标，对其造成<nobr>5点近战伤害</nobr>。"
+      "target": "<b>砰！:</b> 点击一个目标，对其造成<nobr>5点近战伤害</nobr>。"
     },
     {
       "id": "735845412a1b6402a6e915ad",
@@ -2365,7 +2365,7 @@
     {
       "id": "746ba2eb32ced79e0f278116",
       "reason": "current-rule-match",
-      "target": "<b>The Wraith's Arsenal:</b> 点击一位英雄，让其抽1张牌。"
+      "target": "<b>幽魂武库:</b> 点击一位英雄，让其抽1张牌。"
     },
     {
       "id": "76c171d8bfce8cc8ff01c547",
@@ -2375,7 +2375,7 @@
     {
       "id": "7a36828de12583cecf7f30be",
       "reason": "current-rule-match",
-      "target": "<b>Flash Forge:</b> 点击Flash Forge上的按钮，选择一个效果。"
+      "target": "<b>瞬间锻造:</b> 点击瞬间锻造上的按钮，选择一个效果。"
     },
     {
       "id": "7c7f6ce6988f861afb1c99f7",
@@ -2405,12 +2405,12 @@
     {
       "id": "81c73a76d199ca57efe8a215",
       "reason": "current-rule-match",
-      "target": "<b>Dr. Stinson's Secondary Lab:</b> 点击一个牌库以展示一张牌。"
+      "target": "<b>斯廷森博士的副实验室:</b> 点击一个牌库以展示一张牌。"
     },
     {
       "id": "81e1eefbef72c9fed00ba1e4",
       "reason": "current-rule-match",
-      "target": "<b>Taonga Mana:</b> 点击Haka的牌库，抽3张牌。"
+      "target": "<b>威能之赐:</b> 点击哈卡的牌库，抽3张牌。"
     },
     {
       "id": "840e60f55680e61975039b0e",
@@ -2420,7 +2420,7 @@
     {
       "id": "85f74e303ea5b35dd51d6387",
       "reason": "current-rule-match",
-      "target": "<b>Freedom Security Staff:</b> 点击2张手牌以将其弃置。"
+      "target": "<b>自由安保:</b> 点击2张手牌以将其弃置。"
     },
     {
       "id": "86088ddad799099a73c778bb",
@@ -2430,7 +2430,7 @@
     {
       "id": "86090f2daac28fd2bdce2551",
       "reason": "current-rule-match",
-      "target": "<b>Brainstorm:</b> 点击至多3个目标，对其各造成<nobr>1点闪电伤害</nobr>。"
+      "target": "<b>头脑风暴:</b> 点击至多3个目标，对其各造成<nobr>1点闪电伤害</nobr>。"
     },
     {
       "id": "86928ea40de84cf69a678c44",
@@ -2445,7 +2445,7 @@
     {
       "id": "87696f52ffc0a0b54c7ad865",
       "reason": "current-rule-match",
-      "target": "<b>Dance in the Fray:</b> 点击或拖动一张牌以将其打出。"
+      "target": "<b>阵中起舞:</b> 点击或拖动一张牌以将其打出。"
     },
     {
       "id": "87dbf9ddc344b7c2ac5eee21",
@@ -2460,7 +2460,7 @@
     {
       "id": "8d2a7b9d29ff557b81a8bfa4",
       "reason": "current-rule-match",
-      "target": "<b>Maerynian Aquaculturalist:</b> 选择一个区域，将Dr. Stinson's Secondary Lab放回原处或弃置。"
+      "target": "<b>异星水产学家:</b> 选择一个区域，将斯廷森博士的副实验室放回原处或弃置。"
     },
     {
       "id": "8db9a3ac397a0cffcb288703",
@@ -2475,17 +2475,17 @@
     {
       "id": "9041f8d3adbd3beb93836384",
       "reason": "current-rule-match",
-      "target": "<b>The Ol' One-Two:</b> 点击或拖动一张牌以将其打出。"
+      "target": "<b>左右开弓:</b> 点击或拖动一张牌以将其打出。"
     },
     {
       "id": "90d0486081bce9087bf886ec",
       "reason": "current-rule-match",
-      "target": "<b>Hasty Augmentation:</b> 点击一位英雄，让其使用一个异能。"
+      "target": "<b>临阵强化:</b> 点击一位英雄，让其使用一个异能。"
     },
     {
       "id": "946dd7faee708d0bb39dbc10",
       "reason": "current-rule-match",
-      "target": "<b>Tempest:</b> 点击目标，选择对它们造成<nobr>1点投射伤害</nobr>的顺序。"
+      "target": "<b>风暴:</b> 点击目标，选择对它们造成<nobr>1点投射伤害</nobr>的顺序。"
     },
     {
       "id": "96625071e3216d4d4f9c1318",
@@ -2495,17 +2495,17 @@
     {
       "id": "96980c1d59c0437fcbffb8f0",
       "reason": "current-rule-match",
-      "target": "<b>Cryo Bot:</b> 点击至多3个目标，对其各造成<nobr>1点寒冷伤害</nobr>。"
+      "target": "<b>低温机偶:</b> 点击至多3个目标，对其各造成<nobr>1点寒冷伤害</nobr>。"
     },
     {
       "id": "9993585e06561f477a27deba",
       "reason": "current-rule-match",
-      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Lightning Slash放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将电光斩击放回原处或弃置。"
     },
     {
       "id": "9a133cab1dc5a9e226c952ee",
       "reason": "current-rule-match",
-      "target": "Grenade Launcher下方的牌"
+      "target": "榴弹发射器下方的牌"
     },
     {
       "id": "9cd6084b7cf3a20c005f6920",
@@ -2520,17 +2520,17 @@
     {
       "id": "9ee8342d119f8e2a87fce16d",
       "reason": "current-rule-match",
-      "target": "<b>Grenade Launcher:</b> 点击3个目标，对其各造成<nobr>2点火焰伤害</nobr>。"
+      "target": "<b>榴弹发射器:</b> 点击3个目标，对其各造成<nobr>2点火焰伤害</nobr>。"
     },
     {
       "id": "9f796d3563fc958735dd546c",
       "reason": "current-rule-match",
-      "target": "<b>Construction Pylon:</b> 点击一张牌以将其打出。"
+      "target": "<b>建造支柱:</b> 点击一张牌以将其打出。"
     },
     {
       "id": "9fadf0f7f2b73207bb4983b7",
       "reason": "current-rule-match",
-      "target": "<b>Freedom Security Staff:</b> 点击一位英雄，让其弃置1张牌。"
+      "target": "<b>自由安保:</b> 点击一位英雄，让其弃置1张牌。"
     },
     {
       "id": "a05ab7e3faed1205bb346c56",
@@ -2540,12 +2540,12 @@
     {
       "id": "a1ccd62d38f0fd7152e4b10c",
       "reason": "current-rule-match",
-      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Platform Bot放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将平台机偶放回原处或弃置。"
     },
     {
       "id": "a4dd208f6ea3329a816f0740",
       "reason": "current-rule-match",
-      "target": "<b>Bee Bot:</b> 点击一个目标，对其造成<nobr>2点投射伤害</nobr>。"
+      "target": "<b>蜜蜂机偶:</b> 点击一个目标，对其造成<nobr>2点投射伤害</nobr>。"
     },
     {
       "id": "a8a42f6b9c5688d62454ddca",
@@ -2560,12 +2560,12 @@
     {
       "id": "aaba19da5a79103bc1d5743e",
       "reason": "current-rule-match",
-      "target": "<b>Volatile Parts:</b> 点击一个目标，对其造成<nobr>2点火焰伤害</nobr>。"
+      "target": "<b>易爆零件:</b> 点击一个目标，对其造成<nobr>2点火焰伤害</nobr>。"
     },
     {
       "id": "ac2e9210d5635b8e77d6e6e2",
       "reason": "current-rule-match",
-      "target": "Displaced Ambassador抽到的牌："
+      "target": "流亡使节抽到的牌："
     },
     {
       "id": "aec8ca0011352b5a8b35f2f7",
@@ -2585,37 +2585,37 @@
     {
       "id": "b0de7c920e3ee815a73cf04b",
       "reason": "current-rule-match",
-      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Lead from the Front放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将身先士卒放回原处或弃置。"
     },
     {
       "id": "b3ca6043bf1db905155e2124",
       "reason": "current-rule-match",
-      "target": "Dr. Stinson's Secondary Lab展示的牌："
+      "target": "斯廷森博士的副实验室展示的牌："
     },
     {
       "id": "b4823a54de5ddd5ef641df5f",
       "reason": "current-rule-match",
-      "target": "<b>Surge of Ihi:</b> 点击一个目标，对其造成近战伤害。"
+      "target": "<b>气魄勃发:</b> 点击一个目标，对其造成近战伤害。"
     },
     {
       "id": "b4a2d5a9858182acc4fd2490",
       "reason": "current-rule-match",
-      "target": "<b>Mission Control:</b> 点击一个牌库以展示一张牌。"
+      "target": "<b>任务中枢:</b> 点击一个牌库以展示一张牌。"
     },
     {
       "id": "b530119447805bb578b74755",
       "reason": "current-rule-match",
-      "target": "<b>Ball Lightning:</b> 点击一张在场的牌以将其破坏。"
+      "target": "<b>球状闪电:</b> 点击一张在场的牌以将其破坏。"
     },
     {
       "id": "b5e682fb667c2cd29b3894a5",
       "reason": "current-rule-match",
-      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Thunderclap放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将霹雳轰鸣放回原处或弃置。"
     },
     {
       "id": "b5ec431f64f0d0c6540cbe1b",
       "reason": "current-rule-match",
-      "target": "<b>Haka of Frenzy:</b> 点击至多6张手牌以将其弃置。"
+      "target": "<b>狂热战舞:</b> 点击至多6张手牌以将其弃置。"
     },
     {
       "id": "b74ae76343c64e3a9309f80d",
@@ -2635,7 +2635,7 @@
     {
       "id": "bb5206e70f691d748eb077dd",
       "reason": "current-rule-match",
-      "target": "Protomatter Converter打出的牌："
+      "target": "原质转换器打出的牌："
     },
     {
       "id": "bc9c6a103b7763505e5f106b",
@@ -2665,7 +2665,7 @@
     {
       "id": "c228b73e7629c74b4b229fd5",
       "reason": "current-rule-match",
-      "target": "<b>Haka:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
+      "target": "<b>哈卡:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
     },
     {
       "id": "c50affd7c6f2d0bf73ed1fca",
@@ -2685,12 +2685,12 @@
     {
       "id": "c90bc06248f8c8c1973f11dc",
       "reason": "current-rule-match",
-      "target": "Displaced Ambassador展示的牌："
+      "target": "流亡使节展示的牌："
     },
     {
       "id": "ca72ea6dd485d25b75f659e9",
       "reason": "current-rule-match",
-      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Turret Mode放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将炮塔模式放回原处或弃置。"
     },
     {
       "id": "ca9cd9dc8be6b7e4d0d6537f",
@@ -2700,7 +2700,7 @@
     {
       "id": "cb25d7d3c5a62faac022409d",
       "reason": "current-rule-match",
-      "target": "Supply Crate抽到的牌："
+      "target": "补给货箱抽到的牌："
     },
     {
       "id": "cc0a2ff429c7e293020d0edf",
@@ -2715,17 +2715,17 @@
     {
       "id": "d229ffbcfb03512fc02d1ee0",
       "reason": "current-rule-match",
-      "target": "<b>Upgrade Mode:</b> 点击牌库中的一张牌以将其召唤。"
+      "target": "<b>升级模式:</b> 点击牌库中的一张牌以将其召唤。"
     },
     {
       "id": "d37e1f17dfbd53ad328a168b",
       "reason": "current-rule-match",
-      "target": "Unity抽到的牌："
+      "target": "优妮蒂抽到的牌："
     },
     {
       "id": "d4be9019a580c31eac373f45",
       "reason": "current-rule-match",
-      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Grenade Launcher放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将榴弹发射器放回原处或弃置。"
     },
     {
       "id": "d73667dd260ff765bbc9f68f",
@@ -2750,12 +2750,12 @@
     {
       "id": "ddcaab147f4ff222978f789e",
       "reason": "current-rule-match",
-      "target": "The Wraith's Arsenal抽到的牌："
+      "target": "幽魂武库抽到的牌："
     },
     {
       "id": "df68a220dd06467d8cc801c7",
       "reason": "current-rule-match",
-      "target": "<b>Recharge Mode:</b> 点击一张手牌，将其置于一张牌下方。"
+      "target": "<b>充能模式:</b> 点击一张手牌，将其置于一张牌下方。"
     },
     {
       "id": "e00ef46b5b7826fa909100a6",
@@ -2770,7 +2770,7 @@
     {
       "id": "e46ca1e02d427f095c99fd44",
       "reason": "current-rule-match",
-      "target": "<b>Taiaha:</b> 点击至多2个目标，对其各造成<nobr>3点近战伤害</nobr>。"
+      "target": "<b>泰阿哈战杖:</b> 点击至多2个目标，对其各造成<nobr>3点近战伤害</nobr>。"
     },
     {
       "id": "e46e0bcc8f804e5b31aac7a4",
@@ -2780,12 +2780,12 @@
     {
       "id": "e59ac1b910ac14cecdf7abd3",
       "reason": "current-rule-match",
-      "target": "<b>Arsenal Bot:</b> 点击至多2个目标，对其各造成<nobr>2点投射伤害</nobr>。"
+      "target": "<b>武库机偶:</b> 点击至多2个目标，对其各造成<nobr>2点投射伤害</nobr>。"
     },
     {
       "id": "e61d9d583df07e947683736e",
       "reason": "current-rule-match",
-      "target": "<b>Dr. Stinson's Secondary Lab:</b> 选择一个区域，将Inspired Repair放回原处或弃置。"
+      "target": "<b>斯廷森博士的副实验室:</b> 选择一个区域，将灵感修复放回原处或弃置。"
     },
     {
       "id": "e71dbc323f00ad6001f24483",
@@ -2815,7 +2815,7 @@
     {
       "id": "f063ce979aa7880e457df155",
       "reason": "current-rule-match",
-      "target": "Brainstorm抽到的牌："
+      "target": "头脑风暴抽到的牌："
     },
     {
       "id": "f08c1f8b07134c6b3cead02f",
@@ -2825,7 +2825,7 @@
     {
       "id": "f0e0c2e03c9421cb2fa06ea3",
       "reason": "current-rule-match",
-      "target": "<b>Hasty Augmentation:</b> 点击或拖动一个异能以使用它。"
+      "target": "<b>临阵强化:</b> 点击或拖动一个异能以使用它。"
     },
     {
       "id": "f276af8e3c57b502a7914162",
@@ -2840,7 +2840,7 @@
     {
       "id": "f32ecd0c065c549d746a70bd",
       "reason": "current-rule-match",
-      "target": "Mission Control展示的牌："
+      "target": "任务中枢展示的牌："
     },
     {
       "id": "f3d7a97654f6bf609bcd3fe2",
@@ -2865,7 +2865,7 @@
     {
       "id": "f956cb531e609d0a0d43be0b",
       "reason": "current-rule-match",
-      "target": "<b>Ball Lightning:</b> 点击一个目标，对其造成<nobr>3点闪电伤害</nobr>。"
+      "target": "<b>球状闪电:</b> 点击一个目标，对其造成<nobr>3点闪电伤害</nobr>。"
     },
     {
       "id": "fd680e68d97b3efcb2e9ca07",
@@ -2875,7 +2875,7 @@
     {
       "id": "fddfa1209b7147dc46170f7c",
       "reason": "current-rule-match",
-      "target": "Taonga Mana抽到的牌："
+      "target": "威能之赐抽到的牌："
     },
     {
       "id": "ff40894668f2daa364e9a201",
@@ -2900,7 +2900,7 @@
     {
       "id": "0bbda5d80c160bc5058b6821",
       "reason": "current-rule-match",
-      "target": "<b>Emergency Shielding:</b> <b>S-83 Assault Drones</b>将对<b>Bunker</b>造成2点近战伤害。点击一个反应以使用它。"
+      "target": "<b>应急护盾:</b> <b>S-83突击机兵</b>将对<b>堡垒</b>造成2点近战伤害。点击一个反应以使用它。"
     },
     {
       "id": "0e829f99f1e919ca055dd0b7",
@@ -2915,7 +2915,7 @@
     {
       "id": "1297d8fc5dd4712d08daba7d",
       "reason": "current-rule-match",
-      "target": "<b>Captain Cosmic:</b> 点击一个区域，将Energy Bracer打出至该处。"
+      "target": "<b>宇宙队长:</b> 点击一个区域，将能量护腕打出至该处。"
     },
     {
       "id": "12e0f6de3c2f13f957e3bed7",
@@ -2945,7 +2945,7 @@
     {
       "id": "1d0b27154624f66e1386a518",
       "reason": "current-rule-match",
-      "target": "<b>Mission Control:</b> 点击至多2个目标，对其各造成<nobr>2点近战伤害</nobr>。"
+      "target": "<b>任务中枢:</b> 点击至多2个目标，对其各造成<nobr>2点近战伤害</nobr>。"
     },
     {
       "id": "1d35438fe7331dd4e0011e8a",
@@ -2965,7 +2965,7 @@
     {
       "id": "1ff255d5fdbd1d40d714308d",
       "reason": "current-rule-match",
-      "target": "<b>Synaptic Interrupt:</b> <b>Citizen Winter</b>将对<b>Tachyon</b>造成1点火焰伤害。点击一个反应以使用它。"
+      "target": "<b>突触阻断:</b> <b>凛冬公民</b>将对<b>快子</b>造成1点火焰伤害。点击一个反应以使用它。"
     },
     {
       "id": "24ad7989485211066b1ee15c",
@@ -2980,7 +2980,7 @@
     {
       "id": "27485448cf258f7c5fbb68ad",
       "reason": "current-rule-match",
-      "target": "<b>Citizen Summer:</b> 点击视为场上牌最多的英雄。"
+      "target": "<b>炎夏公民:</b> 点击视为场上牌最多的英雄。"
     },
     {
       "id": "2753f1383ed7cecc89698e9e",
@@ -2990,12 +2990,12 @@
     {
       "id": "28089f1646ae06ef7c9ef403",
       "reason": "current-rule-match",
-      "target": "Citizen Dawn发现的牌："
+      "target": "黎明公民发现的牌："
     },
     {
       "id": "2905752145edc03425f0d920",
       "reason": "current-rule-match",
-      "target": "Take Down发现的牌："
+      "target": "强行制伏发现的牌："
     },
     {
       "id": "2954c4b544be7b00dbbba468",
@@ -3030,7 +3030,7 @@
     {
       "id": "338f5604e64e35be53a18489",
       "reason": "current-rule-match",
-      "target": "<b>Tachyon:</b> 选择一个区域，抽取或弃置Hypersonic Dash。"
+      "target": "<b>快子:</b> 选择一个区域，抽取或弃置高超音速冲刺。"
     },
     {
       "id": "33edc2a34fb41f6a91c55dec",
@@ -3055,7 +3055,7 @@
     {
       "id": "3665f29bbf3bc9c16f5f03a4",
       "reason": "current-rule-match",
-      "target": "<b>Expendable Power Bank:</b> 点击弃牌堆中的一张牌，将其置于一张牌下方。"
+      "target": "<b>一次性电源:</b> 点击弃牌堆中的一张牌，将其置于一张牌下方。"
     },
     {
       "id": "369b22816dceb5ef7378b930",
@@ -3080,17 +3080,17 @@
     {
       "id": "39ee539253469b92f8df9f10",
       "reason": "current-rule-match",
-      "target": "<b>Dynamic Siphon:</b> <b>Citizen Dawn</b>将对<b>The Wraith</b>造成2点能量伤害。点击一个反应以使用它。"
+      "target": "<b>动力虹吸:</b> <b>黎明公民</b>将对<b>幽魂</b>造成2点能量伤害。点击一个反应以使用它。"
     },
     {
       "id": "3a6af98bfcb1d657d30c107c",
       "reason": "current-rule-match",
-      "target": "Omnitron的生命值已降至<nobr>0点</nobr>。"
+      "target": "全能智创的生命值已降至<nobr>0点</nobr>。"
     },
     {
       "id": "3ce6ac176dfb19ecfac136a9",
       "reason": "current-rule-match",
-      "target": "<b>Mounted AP Gun:</b> 点击一个目标，对其造成<nobr>6点投射伤害</nobr>。"
+      "target": "<b>挂载穿甲炮:</b> 点击一个目标，对其造成<nobr>6点投射伤害</nobr>。"
     },
     {
       "id": "40371b4b1931528f7a3164a7",
@@ -3100,7 +3100,7 @@
     {
       "id": "41dfe12caceb49c7d6259641",
       "reason": "current-rule-match",
-      "target": "<b>Ironclad Maintenance Bay:</b> 点击一位英雄，让其回收1张牌。"
+      "target": "<b>铁甲工坊:</b> 点击一位英雄，让其回收1张牌。"
     },
     {
       "id": "426ef4569a049abc805b1183",
@@ -3115,12 +3115,12 @@
     {
       "id": "46c5e3039a5a1760f4520cce",
       "reason": "current-rule-match",
-      "target": "<b>Blinding Blast:</b> 点击一位英雄，让其弃置1张牌。"
+      "target": "<b>致盲强光:</b> 点击一位英雄，让其弃置1张牌。"
     },
     {
       "id": "474236a72150ddcf2344d6e9",
       "reason": "current-rule-match",
-      "target": "<b>Expendable Power Bank:</b> 点击一张在场的牌，将Expendable Power Bank置于其下方。"
+      "target": "<b>一次性电源:</b> 点击一张在场的牌，将一次性电源置于其下方。"
     },
     {
       "id": "4746f4568979fc7ac97d8456",
@@ -3130,7 +3130,7 @@
     {
       "id": "481ee9f0e0cf62725c0ed5a6",
       "reason": "current-rule-match",
-      "target": "<b>Haka of Battle:</b> 点击一个目标，对其造成<nobr>17点近战伤害</nobr>。"
+      "target": "<b>征战战舞:</b> 点击一个目标，对其造成<nobr>17点近战伤害</nobr>。"
     },
     {
       "id": "4a104cc2e96d21733b8bfb24",
@@ -3145,22 +3145,22 @@
     {
       "id": "4c6b223c8ecf380bcb4308ad",
       "reason": "current-rule-match",
-      "target": "<b>Blinding Blast:</b> 点击一张手牌以将其弃置。"
+      "target": "<b>致盲强光:</b> 点击一张手牌以将其弃置。"
     },
     {
       "id": "4ce4ab3c98256e0bbb29d962",
       "reason": "current-rule-match",
-      "target": "The Wraith抽到的牌："
+      "target": "幽魂抽到的牌："
     },
     {
       "id": "4f0982d616ff668a3b7549a9",
       "reason": "current-rule-match",
-      "target": "<b>Synaptic Interrupt:</b> 点击Synaptic Interrupt上的按钮，选择一个效果。"
+      "target": "<b>突触阻断:</b> 点击突触阻断上的按钮，选择一个效果。"
     },
     {
       "id": "503cb343aa522e8e1444029b",
       "reason": "current-rule-match",
-      "target": "Megalopolis打出的牌："
+      "target": "巨都会打出的牌："
     },
     {
       "id": "50b12cfb7201af6bc6ee1d45",
@@ -3175,12 +3175,12 @@
     {
       "id": "5174ed0ea07259614d8cb0a2",
       "reason": "current-rule-match",
-      "target": "Leverage搜集的牌："
+      "target": "筹码在握搜集的牌："
     },
     {
       "id": "51f69557de49b602623d67e0",
       "reason": "current-rule-match",
-      "target": "<b>Dance in the Fray:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
+      "target": "<b>阵中起舞:</b> 点击一个目标，对其造成<nobr>2点近战伤害</nobr>。"
     },
     {
       "id": "526f40d2751c326a6c657eba",
@@ -3195,12 +3195,12 @@
     {
       "id": "54224b7ba4e2b3b1c4f0d081",
       "reason": "current-rule-match",
-      "target": "<b>Take Down:</b> 点击Omnitron的弃牌堆，将Singularity Projector弃置。"
+      "target": "<b>强行制伏:</b> 点击全能智创的弃牌堆，将奇点投射器弃置。"
     },
     {
       "id": "552dddb587f8391ea9fb620e",
       "reason": "current-rule-match",
-      "target": "Citizen Dawn打出的牌："
+      "target": "黎明公民打出的牌："
     },
     {
       "id": "5d701218b4df8e8eb15d9464",
@@ -3210,7 +3210,7 @@
     {
       "id": "5e8010fbca9134f8d1087a68",
       "reason": "current-rule-match",
-      "target": "Leverage抽到的牌："
+      "target": "筹码在握抽到的牌："
     },
     {
       "id": "63ab563d47630f4d594bacdf",
@@ -3220,7 +3220,7 @@
     {
       "id": "6515a7affe350888d6fa8c67",
       "reason": "current-rule-match",
-      "target": "<b>Lightspeed Barrage:</b> 点击一个目标，对其造成<nobr>3点近战伤害</nobr>。"
+      "target": "<b>光速连击:</b> 点击一个目标，对其造成<nobr>3点近战伤害</nobr>。"
     },
     {
       "id": "67da317308d5bf3d928649b4",
@@ -3230,7 +3230,7 @@
     {
       "id": "68845988cc54903b43b944af",
       "reason": "current-rule-match",
-      "target": "<b>Mounted AP Gun:</b> 点击2张在场或位于Mounted AP Gun下方的牌以将其破坏。"
+      "target": "<b>挂载穿甲炮:</b> 点击2张在场或位于挂载穿甲炮下方的牌以将其破坏。"
     },
     {
       "id": "6ac8989edbfe217a15170212",
@@ -3240,17 +3240,17 @@
     {
       "id": "6cf768382c6b0028a8897c31",
       "reason": "current-rule-match",
-      "target": "<b>Synaptic Interrupt:</b> 点击或拖动一张牌以将其打出。"
+      "target": "<b>突触阻断:</b> 点击或拖动一张牌以将其打出。"
     },
     {
       "id": "79cbd66c45695c3e8d1a7d3f",
       "reason": "current-rule-match",
-      "target": "Tachyon展示的牌："
+      "target": "快子展示的牌："
     },
     {
       "id": "7c68395484dca81e2ad54dfa",
       "reason": "current-rule-match",
-      "target": "<b>Dynamic Siphon:</b> 点击或拖动一个异能以使用它。"
+      "target": "<b>动力虹吸:</b> 点击或拖动一个异能以使用它。"
     },
     {
       "id": "7df5db7db0960edbc8d7800a",
@@ -3270,7 +3270,7 @@
     {
       "id": "7ff839788e05b0a8da7ba712",
       "reason": "current-rule-match",
-      "target": "<b>Tachyon:</b> 选择一个区域，抽取或弃置HUD Goggles。"
+      "target": "<b>快子:</b> 选择一个区域，抽取或弃置平显护目镜。"
     },
     {
       "id": "800e1d1ab6397507493c3e15",
@@ -3295,7 +3295,7 @@
     {
       "id": "8ffe2fc26325219abc126e5e",
       "reason": "current-rule-match",
-      "target": "<b>Burning High Rise:</b> 点击一位英雄，让其弃置1张牌。"
+      "target": "<b>高楼失火:</b> 点击一位英雄，让其弃置1张牌。"
     },
     {
       "id": "940428af8407b1282bde125d",
@@ -3305,12 +3305,12 @@
     {
       "id": "94f398745b8ade1e6c02a988",
       "reason": "current-rule-match",
-      "target": "<b>Razor Ordnance:</b> 点击一个目标，对其造成<nobr>3点投射伤害</nobr>。"
+      "target": "<b>利刃武装:</b> 点击一个目标，对其造成<nobr>3点投射伤害</nobr>。"
     },
     {
       "id": "95038ade2edca7f045009ac3",
       "reason": "current-rule-match",
-      "target": "<b>Leverage:</b> 点击牌库中的一张牌以将其搜集。"
+      "target": "<b>筹码在握:</b> 点击牌库中的一张牌以将其搜集。"
     },
     {
       "id": "96ab18e9093ae9a86b731ddd",
@@ -3325,7 +3325,7 @@
     {
       "id": "9acd2b0d078d69c2a3937f55",
       "reason": "current-rule-match",
-      "target": "点击一个区域，将Dynamic Siphon打出至该处。"
+      "target": "点击一个区域，将动力虹吸打出至该处。"
     },
     {
       "id": "9b6d2c73f24edc2f36d94acc",
@@ -3335,12 +3335,12 @@
     {
       "id": "9b89a3659856b0d84c2fa0bd",
       "reason": "current-rule-match",
-      "target": "<b>Haka of Battle:</b> 点击至多16张手牌以将其弃置。"
+      "target": "<b>征战战舞:</b> 点击至多16张手牌以将其弃置。"
     },
     {
       "id": "9cf93e9a2ce225a738826679",
       "reason": "current-rule-match",
-      "target": "<b>Accelerated Assault:</b> 点击目标，选择对它们造成<nobr>1点近战伤害</nobr>的顺序。"
+      "target": "<b>加速突袭:</b> 点击目标，选择对它们造成<nobr>1点近战伤害</nobr>的顺序。"
     },
     {
       "id": "a0b2264499e1fbb59dcbe276",
@@ -3350,7 +3350,7 @@
     {
       "id": "a20cf65329f19ee44953e029",
       "reason": "current-rule-match",
-      "target": "Tachyon展示的牌："
+      "target": "快子展示的牌："
     },
     {
       "id": "a7786b5baf2c673aa89cbb99",
@@ -3360,12 +3360,12 @@
     {
       "id": "a858c0d96dc8a81be7eb1a11",
       "reason": "current-rule-match",
-      "target": "S-84 Automaton Drones发现的牌："
+      "target": "S-84自动机兵发现的牌："
     },
     {
       "id": "a8dbd296efc03e6f0f1d7962",
       "reason": "current-rule-match",
-      "target": "<b>Citizen Dawn:</b> 点击一个目标，对其造成<nobr>3点能量伤害</nobr>。"
+      "target": "<b>黎明公民:</b> 点击一个目标，对其造成<nobr>3点能量伤害</nobr>。"
     },
     {
       "id": "a92ca619b8412df56de41eb5",
@@ -3405,12 +3405,12 @@
     {
       "id": "b80df79c318101ca9159f379",
       "reason": "current-rule-match",
-      "target": "<b>Blinding Blast:</b> 点击目标，选择对它们造成<nobr>2点能量伤害</nobr>的顺序。"
+      "target": "<b>致盲强光:</b> 点击目标，选择对它们造成<nobr>2点能量伤害</nobr>的顺序。"
     },
     {
       "id": "b8cba7b8d9e79962501dad63",
       "reason": "current-rule-match",
-      "target": "发现Golem牌"
+      "target": "发现机偶牌"
     },
     {
       "id": "b92ed2c2f6206fe7fdacd329",
@@ -3420,7 +3420,7 @@
     {
       "id": "bc6c0ff01d3bbbb0cdddc3c5",
       "reason": "current-rule-match",
-      "target": "打出Golem牌"
+      "target": "打出机偶牌"
     },
     {
       "id": "bce81b563b0bb7d3832db3e2",
@@ -3445,7 +3445,7 @@
     {
       "id": "c2bcdc413bda6fd1973d5fc3",
       "reason": "current-rule-match",
-      "target": "你击败了Omnitron，化解了危机！"
+      "target": "你击败了全能智创，化解了危机！"
     },
     {
       "id": "c449d8ac08f201bf24d898fe",
@@ -3470,7 +3470,7 @@
     {
       "id": "cc16532851e595875642a6a4",
       "reason": "current-rule-match",
-      "target": "<b>Citizen Summer:</b> 点击一个目标，对其造成<nobr>1点火焰伤害</nobr>。"
+      "target": "<b>炎夏公民:</b> 点击一个目标，对其造成<nobr>1点火焰伤害</nobr>。"
     },
     {
       "id": "ce0b24b2d0b1f6ad6e963eb1",
@@ -3495,7 +3495,7 @@
     {
       "id": "d612219fca1d5d74ae40a0aa",
       "reason": "current-rule-match",
-      "target": "<b>Ironclad Maintenance Bay:</b> 点击弃牌堆中的一张牌以将其回收。"
+      "target": "<b>铁甲工坊:</b> 点击弃牌堆中的一张牌以将其回收。"
     },
     {
       "id": "d9f89895517055f895eec6e5",
@@ -3505,7 +3505,7 @@
     {
       "id": "daa87a5f5a4125350d673197",
       "reason": "current-rule-match",
-      "target": "<b>Unity:</b> 点击一张在场的牌以将其破坏。"
+      "target": "<b>优妮蒂:</b> 点击一张在场的牌以将其破坏。"
     },
     {
       "id": "df9c8c5c82da18cb9b2a6f72",
@@ -3535,7 +3535,7 @@
     {
       "id": "e855bef276b0a0c777944a8d",
       "reason": "current-rule-match",
-      "target": "<b>Expendable Power Bank:</b> 点击一张在场的牌，将Upgrade Mode置于其下方。"
+      "target": "<b>一次性电源:</b> 点击一张在场的牌，将升级模式置于其下方。"
     },
     {
       "id": "e9b958c4d907fdc7e92f36ad",
@@ -3555,7 +3555,7 @@
     {
       "id": "f3912db4a7a3ac1e7ce77f99",
       "reason": "current-rule-match",
-      "target": "<b>Unity:</b> 点击Unity上的按钮，选择一个效果。"
+      "target": "<b>优妮蒂:</b> 点击优妮蒂上的按钮，选择一个效果。"
     },
     {
       "id": "f66fac0f86a40150a98eef52",
@@ -3565,12 +3565,12 @@
     {
       "id": "f7fb0629056b52596c82ef95",
       "reason": "current-rule-match",
-      "target": "<b>Citizen Winter:</b> 点击目标，选择对它们造成<nobr>2点寒冷伤害</nobr>的顺序。"
+      "target": "<b>凛冬公民:</b> 点击目标，选择对它们造成<nobr>2点寒冷伤害</nobr>的顺序。"
     },
     {
       "id": "f8ae5fe47a908aec1d569cf4",
       "reason": "current-rule-match",
-      "target": "<b>Unity:</b> 点击一张牌以将其打出。"
+      "target": "<b>优妮蒂:</b> 点击一张牌以将其打出。"
     },
     {
       "id": "f9d567ecd4f6b7d686e95da2",
@@ -3585,17 +3585,67 @@
     {
       "id": "febc57f44de0fd4ef7283d55",
       "reason": "current-rule-match",
-      "target": "<b>Captain Cosmic:</b> 点击一个区域，将Vitality Conduit打出至该处。"
+      "target": "<b>宇宙队长:</b> 点击一个区域，将活力法渠打出至该处。"
     },
     {
       "id": "01f1c2253f530c5f77cdc1fa",
       "reason": "current-rule-match",
-      "target": "<b>Stealth Bot:</b> <b>Burning High Rise</b>将对<b>Arsenal Bot</b>造成2点火焰伤害。点击一张牌，先发动其效果。"
+      "target": "<b>潜行机偶:</b> <b>高楼失火</b>将对<b>武库机偶</b>造成2点火焰伤害。点击一张牌，先发动其效果。"
     },
     {
       "id": "d386447b6229e35f787fc0dd",
       "reason": "current-rule-match",
-      "target": "<b>Stealth Bot:</b> <b>Burning High Rise</b>将对<b>Unity</b>造成2点火焰伤害。点击一张牌，先发动其效果。"
+      "target": "<b>潜行机偶:</b> <b>高楼失火</b>将对<b>优妮蒂</b>造成2点火焰伤害。点击一张牌，先发动其效果。"
+    },
+    {
+      "id": "ca9c1f3fbbf3f901d67b5a0c",
+      "reason": "current-rule-match",
+      "target": "洗回牌库"
+    },
+    {
+      "id": "e0ca66b1e202a5fcb892a513",
+      "reason": "current-rule-match",
+      "target": "<b>异星气象:</b> 点击风暴的弃牌堆，将其洗入所属牌库。"
+    },
+    {
+      "id": "10a4ea82d532fe30f5128a40",
+      "reason": "current-rule-match",
+      "target": "埋藏0张牌"
+    },
+    {
+      "id": "3bac41270c791dac3f62a8e5",
+      "reason": "current-rule-match",
+      "target": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+    },
+    {
+      "id": "7ffe24f0af36c56749b0da04",
+      "reason": "current-rule-match",
+      "target": "弃置1张牌"
+    },
+    {
+      "id": "a0eb061f32abfe68b390adff",
+      "reason": "current-rule-match",
+      "target": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+    },
+    {
+      "id": "cd0e2b34f66018caefa2a58f",
+      "reason": "current-rule-match",
+      "target": "<b>考古发掘:</b> 点击弃牌堆中至多3张牌，将其埋藏。"
+    },
+    {
+      "id": "60d58e55474a0605b409c807",
+      "reason": "current-rule-match",
+      "target": "刀锋男爵的地月牵引光束让月球撞上了地球！"
+    },
+    {
+      "id": "8674ecb96b25ad5c37e15f67",
+      "reason": "current-rule-match",
+      "target": "跳过抽牌阶段"
+    },
+    {
+      "id": "97fb3f3912580de4ef725523",
+      "reason": "current-rule-match",
+      "target": "<b>单轨车坠落:</b> 点击一位英雄，使其受到伤害。"
     }
   ]
 }

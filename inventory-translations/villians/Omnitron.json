@@ -30,7 +30,7 @@
   {
     "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/gameTexts/0/body/0",
     "original": "The Heroes cannot win until {Omnitron} is at 0 HP and is the only Device card in play.",
-    "translation": "只有当{Omnitron}的生命值为0，且它是场上唯一的装置牌时，英雄才能获胜。",
+    "translation": "{Omnitron}生命值为0且为场上唯一装置牌时，英雄才能获胜。",
     "stage": 1,
     "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
@@ -44,14 +44,14 @@
   {
     "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/gameTexts/2/body/0",
     "original": "{Flip}. {Omnitron} flips only once each Villain turn.",
-    "translation": "{Flip}。每个反派回合，{Omnitron}仅翻面一次。",
+    "translation": "{Flip}。{Omnitron}每反派回合仅翻面一次。",
     "stage": 1,
     "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/gameTexts/3/body/0",
     "original": "Activate the {FabricateAbility} on each Villain card <i>(including any cards that are played this phase)</i>.",
-    "translation": "发动每张反派牌上的{FabricateAbility}<i>（包括此阶段内打出的牌）</i>。",
+    "translation": "发动所有反派牌的{FabricateAbility}<i>（含本阶段打出的牌）</i>。",
     "stage": 1,
     "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
@@ -72,7 +72,7 @@
   {
     "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/flippedGameTexts/0/body/0",
     "original": "The Heroes cannot win until {Omnitron} is at 0 HP and is the only Device card in play.",
-    "translation": "只有当{Omnitron}的生命值为0，且它是场上唯一的装置牌时，英雄才能获胜。",
+    "translation": "{Omnitron}生命值为0且为场上唯一装置牌时，英雄才能获胜。",
     "stage": 1,
     "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
@@ -86,14 +86,14 @@
   {
     "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/flippedGameTexts/2/body/0",
     "original": "{Flip}. {Omnitron} flips only once each Villain turn.",
-    "translation": "{Flip}。每个反派回合，{Omnitron}仅翻面一次。",
+    "translation": "{Flip}。{Omnitron}每反派回合仅翻面一次。",
     "stage": 1,
     "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/cards/@OmnitronCharacter/flippedGameTexts/3/body/0",
     "original": "Activate the {ExterminateAbility} on each Villain card <i>(including any cards that are played this phase)</i>.",
-    "translation": "发动每张反派牌上的{ExterminateAbility}<i>（包括此阶段内打出的牌）</i>。",
+    "translation": "发动所有反派牌的{ExterminateAbility}<i>（含本阶段打出的牌）</i>。",
     "stage": 1,
     "context": "卡组：Omnitron；对象：OmnitronCharacter；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },

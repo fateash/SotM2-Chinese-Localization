@@ -7,7 +7,7 @@ import shutil
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '0.1.18-rc.1'
+VERSION = '0.1.31-rc.1'
 def digest(p):
     return hashlib.sha256(p.read_bytes()).hexdigest()
 
@@ -19,7 +19,7 @@ def build(dll, out, commit):
     shutil.copy2(dll, package / 'payload/SotM2ChinesePrototype.dll')
     shutil.copy2(ROOT / 'probe/dynamic-pilot.json', package / 'payload/surface-probe.json')
     shutil.copy2(ROOT / 'probe/Manage-Dynamic.ps1', package / 'Manage.ps1')
-    shutil.copy2(ROOT / 'docs/DYNAMIC-PILOT-0.1.18.md', package / '使用说明.md')
+    shutil.copy2(ROOT / 'docs/DYNAMIC-PILOT-0.1.31.md', package / '使用说明.md')
     for filename, action in [('01-Install-Dynamic-Pilot.cmd', 'Install'), ('02-Collect-Evidence.cmd', 'Collect'), ('03-Restore-Previous.cmd', 'Restore')]:
         (package / filename).write_bytes(('@echo off\r\npowershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0Manage.ps1" -Action '+action+'\r\nset "rc=%errorlevel%"\r\npause\r\nexit /b %rc%\r\n').encode('ascii'))
     manifest = {
@@ -28,6 +28,17 @@ def build(dll, out, commit):
         'dllSha256': digest(package / 'payload/SotM2ChinesePrototype.dll'),
         'probeSha256': digest(package / 'payload/surface-probe.json'),
         'acceptedInstallations': [
+            {'dll': '2e78c501270bfe36d68182173ad3ec547ec70541881facddc3a52592945a2f91', 'probe': '0b6df8eedddef264c5716cd1cd3a9495f711766da943cbb42f07da021d5aa90a'},
+            {'dll': 'f70d4ab161aac01552bc2c7b2fd49ea718fffa2118521e086896d62106e0092d', 'probe': '304647aa69bd1b5a916c1f8d89cf2f789f5ce76a5e8cba1d9a1777d7bdd9237f'},
+            {'dll': '70fee0c0d00df83c6e18040a8e99b5e2aa33c378eeccaee131539df76ab7a358', 'probe': 'd700a73f552d4ffd5c3427f097db8ad164f02ff7b7432ed2bad4e007f845d194'},
+            {'dll': '9d07b0fefad312f5aec1c7a2e1d38f3455108ba1799284421b1551960662204a', 'probe': '24f488ec75feccf3488ec9dc4e00a9ce86ec85b2fcf33509216569f5454b867f'},
+            {'dll': 'b750ae1f22687b98887a8a13724323493716bf77a692f67e527cd360edadc277', 'probe': 'ace70e032530818441cfe962016ec23e81992c56bfc471a2a5a2102a7f81d898'},
+            {'dll': '75f0c399a5e52679fb04d15abd4bc3453ce9581b5096a4ac0cd421b82eef4f88', 'probe': '43655455491a7a9bf86fc3854d3ee00a04d0210994001abecc068f29b975c0e3'},
+            {'dll': '33819e1b20e1f910ef822562cc5941d95a39181074aa2d360761d96648ca1a1e', 'probe': '264dd2f10f2e2a473c19f22e7aac6ba15dbcd08b8010772ff359f65d55678735'},
+            {'dll': '79306d1ce713d826e3493aa282381fdc9a42b55be66827a190a28db26aecd38b', 'probe': 'ac4d19974cd5adbcca9ee5652611b94a8f946a986e8bbee8c0d7256c6de8ed29'},
+            {'dll': 'bc59c5e78793376d0c7821e6d79fd93415fb45280602f6277c2a430dc9bcecbd', 'probe': '3b65ec6dba3771f1c3595d05069417db54cb622e2b7bc278ef18cd9733377258'},
+            {'dll': '10cc2b255de9d1be0347ca1d231bf09c272081fa7067b1b14128920487062385', 'probe': '3b65ec6dba3771f1c3595d05069417db54cb622e2b7bc278ef18cd9733377258'},
+            {'dll': '4dc5ee7cfe48336fb4a8f58888ecc0e12d6e9b9857e06a433f8856e8c19c9d05', 'probe': '9e6ca30ff232850be29a75facc387e219498f448eca229e12cc061b0cdb700e7'},
             {'dll': '9d16dbf14f22eb77e7cfdb8be7b6cb410d51ec29ca2e8791cb4b815a9f0c83c5', 'probe': '3f80c6c6a0c2fdb40b734d017e86fa194a0f7fbe620a1ce0d583fd2181c8d543'},
             {'dll': '8b4432b636c4f1cf60c8eec71706c49a5383bca06600db87841accf7add0375e', 'probe': '48ad9b5c12b2d6eccbfa6c6c1397998873d12bcfa6c77509db18a1785ce26bff'},
             {'dll': '63b352f240e17c07f651e87af6dedfc6c2d4edb231b185a6e02851402065fbc9', 'probe': '30dcae9ac3569ae1a3c70d32f002518844965374fbcc6b07bd670b787ece6d65'},
