@@ -2,603 +2,603 @@
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/title",
     "original": "Ra",
-    "translation": "",
-    "stage": 0,
+    "translation": "拉神",
+    "stage": 1,
     "context": "卡组：Ra；对象：Ra；类型：deck.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@RaCharacter/title",
     "original": "Ra",
-    "translation": "",
-    "stage": 0,
+    "translation": "拉神",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@RaCharacter/gameTexts/0/title",
     "original": "Pyre",
-    "translation": "",
-    "stage": 0,
+    "translation": "焚葬之火",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：ability.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@RaCharacter/gameTexts/0/body/0",
     "original": "{Ra} deals 1 target 2 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Ra}对1个目标造成2点火焰伤害。",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@RaCharacter/flippedGameTexts/0/title",
     "original": "No True God",
-    "translation": "",
-    "stage": 0,
+    "translation": "并非真神",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：ability.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@RaCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Power}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Power}。",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@RaCharacter/flippedGameTexts/0/body/1",
     "original": "Destroy 1 target with 2 or fewer HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1个生命值不高于2的目标。",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@RaCharacter/flippedGameTexts/0/body/2",
     "original": "Bury 1 Environment card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "埋藏1张环境牌。",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@BlazingBarrier/title",
     "original": "Blazing Barrier",
-    "translation": "",
-    "stage": 0,
+    "translation": "炽焰屏障",
+    "stage": 1,
     "context": "卡组：Ra；对象：BlazingBarrier；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@BlazingBarrier/gameTexts/0/body/0",
     "original": "{Ra} deals the attacker 3 fire damage. Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Ra}对攻击者造成3点火焰伤害。破坏此牌。",
+    "stage": 1,
     "context": "卡组：Ra；对象：BlazingBarrier；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@BlazingBarrier/flavorQuotes/@Calypso/text",
     "original": "Do you think you can evaporate all of my form,{BR}puny little godling? Surely your fire must run{BR}eventually.",
-    "translation": "",
-    "stage": 0,
+    "translation": "渺小的小神，你以为能把我的整个身躯{BR}都蒸干吗？你的火{BR}总有烧尽的时候。",
+    "stage": 1,
     "context": "卡组：Ra；对象：BlazingBarrier / Calypso；类型：flavor.quote。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@BlazingBarrier/flavorReference",
     "original": "Calypso, Ra: God of the Sun #1",
-    "translation": "",
-    "stage": 0,
+    "translation": "卡吕普索，《太阳神拉》第1期",
+    "stage": 1,
     "context": "卡组：Ra；对象：BlazingBarrier；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@ByFlameReformed/title",
     "original": "By Flame Reformed!",
-    "translation": "",
-    "stage": 0,
+    "translation": "烈火重铸！",
+    "stage": 1,
     "context": "卡组：Ra；对象：ByFlameReformed；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@ByFlameReformed/gameTexts/0/body/0",
     "original": "Draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽1张牌。",
+    "stage": 1,
     "context": "卡组：Ra；对象：ByFlameReformed；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@ByFlameReformed/gameTexts/1/body/0",
     "original": "Summon the Staff of Ra.",
-    "translation": "",
-    "stage": 0,
+    "translation": "召唤拉神权杖。",
+    "stage": 1,
     "context": "卡组：Ra；对象：ByFlameReformed；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@ByFlameReformed/gameTexts/2/body/0",
     "original": "You may play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你可以打出1张牌。",
+    "stage": 1,
     "context": "卡组：Ra；对象：ByFlameReformed；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@ByFlameReformed/flavorQuotes/@Ra/text",
     "original": "From the fiery ether, return to <b>ME</b>, my staff.",
-    "translation": "",
-    "stage": 0,
+    "translation": "我的权杖，从炽热的以太中归来，回到<b>我</b>手中！",
+    "stage": 1,
     "context": "卡组：Ra；对象：ByFlameReformed / Ra；类型：flavor.quote。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@ByFlameReformed/flavorReference",
     "original": "Ra, Ra: God of the Sun #119",
-    "translation": "",
-    "stage": 0,
+    "translation": "拉神，《太阳神拉》第119期",
+    "stage": 1,
     "context": "卡组：Ra；对象：ByFlameReformed；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@ConsumingFlame/title",
     "original": "Consuming Flame",
-    "translation": "",
-    "stage": 0,
+    "translation": "吞噬之火",
+    "stage": 1,
     "context": "卡组：Ra；对象：ConsumingFlame；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@ConsumingFlame/gameTexts/0/body/0",
     "original": "{Ra} deals up to 3 targets 2 fire damage each. For each target destroyed this way, draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Ra}对至多3个目标各造成2点火焰伤害。每以此法破坏一个目标，抽1张牌。",
+    "stage": 1,
     "context": "卡组：Ra；对象：ConsumingFlame；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@ConsumingFlame/flavorQuotes/@Ra/text",
     "original": "Fools, all of you. You thought to take <b>MY</b> throne.{BR}Now, I release you to eternity!",
-    "translation": "",
-    "stage": 0,
+    "translation": "一群蠢货。竟敢妄图夺取<b>我的</b>王座。{BR}现在，我便送你们归于永恒！",
+    "stage": 1,
     "context": "卡组：Ra；对象：ConsumingFlame / Ra；类型：flavor.quote。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@ConsumingFlame/flavorReference",
     "original": "Ra, War of Heliopolis #6",
-    "translation": "",
-    "stage": 0,
+    "translation": "拉神，《太阳城之战》第6期",
+    "stage": 1,
     "context": "卡组：Ra；对象：ConsumingFlame；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@Excavation/title",
     "original": "Excavation",
-    "translation": "",
-    "stage": 0,
+    "translation": "考古发掘",
+    "stage": 1,
     "context": "卡组：Ra；对象：Excavation；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@Excavation/gameTexts/0/body/0",
     "original": "Bury up to 3 cards from the Environment trash.",
-    "translation": "",
-    "stage": 0,
+    "translation": "埋藏环境弃牌堆中至多3张牌。",
+    "stage": 1,
     "context": "卡组：Ra；对象：Excavation；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@Excavation/gameTexts/1/body/0",
     "original": "Discover X Relic and/or Ongoing cards, where X is the number of cards buried this way.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发现共X张遗器牌和／或持续牌，X为以此法埋藏的牌数。",
+    "stage": 1,
     "context": "卡组：Ra；对象：Excavation；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@Excavation/flavorQuotes/@Ra/text",
     "original": "The Staff of Ra? Impossible! To have survived{BR}all these centuries...",
-    "translation": "",
-    "stage": 0,
+    "translation": "拉神权杖？不可能！{BR}历经这么多个世纪，竟然还保存着……",
+    "stage": 1,
     "context": "卡组：Ra；对象：Excavation / Ra；类型：flavor.quote。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@Excavation/flavorReference",
     "original": "Dr. Blake Washington, Jr., Rebirth of Ra One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "小布莱克·华盛顿博士，《拉神重生》独立特刊",
+    "stage": 1,
     "context": "卡组：Ra；对象：Excavation；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FieryTornado/title",
     "original": "Fiery Tornado",
-    "translation": "",
-    "stage": 0,
+    "translation": "烈火龙卷",
+    "stage": 1,
     "context": "卡组：Ra；对象：FieryTornado；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FieryTornado/gameTexts/0/body/0",
     "original": "After you use any power, {Ra} deals 1 target 1 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你使用任何异能后，{Ra}对1个目标造成1点火焰伤害。",
+    "stage": 1,
     "context": "卡组：Ra；对象：FieryTornado；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FieryTornado/gameTexts/1/body/0",
     "original": "Either destroy this card or discard 2 cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌，或弃置2张牌。",
+    "stage": 1,
     "context": "卡组：Ra；对象：FieryTornado；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FieryTornado/gameTexts/2/body/0",
     "original": "{Ra} deals up to 3 targets 1 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Ra}对至多3个目标各造成1点火焰伤害。",
+    "stage": 1,
     "context": "卡组：Ra；对象：FieryTornado；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FieryTornado/flavorQuotes/@Fanatic/text",
     "original": "It is well to cleanse the land with holy flame.{BR}Though, your flame has a long way to go before it{BR}can be considered anything <b>TRULY</b> divine.",
-    "translation": "",
-    "stage": 0,
+    "translation": "以圣焰净化大地，自然是善举。{BR}不过，你的火焰离<b>真正</b>的神圣，{BR}还差得远。",
+    "stage": 1,
     "context": "卡组：Ra；对象：FieryTornado / Fanatic；类型：flavor.quote。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FieryTornado/flavorReference",
     "original": "Fanatic, Absolution #53",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信，《赦罪》第53期",
+    "stage": 1,
     "context": "卡组：Ra；对象：FieryTornado；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FireBlast/title",
     "original": "Fire Blast",
-    "translation": "",
-    "stage": 0,
+    "translation": "火焰轰击",
+    "stage": 1,
     "context": "卡组：Ra；对象：FireBlast；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FireBlast/gameTexts/0/body/0",
     "original": "{Ra} deals 1 target 5 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Ra}对1个目标造成5点火焰伤害。",
+    "stage": 1,
     "context": "卡组：Ra；对象：FireBlast；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FireBlast/flavorQuotes/@Ra/text",
     "original": "Not even worth of my time.",
-    "translation": "",
-    "stage": 0,
+    "translation": "根本不值得我浪费时间。",
+    "stage": 1,
     "context": "卡组：Ra；对象：FireBlast / Ra；类型：flavor.quote。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FireBlast/flavorReference",
     "original": "Ra, Ra: God of the Sun #399",
-    "translation": "",
-    "stage": 0,
+    "translation": "拉神，《太阳神拉》第399期",
+    "stage": 1,
     "context": "卡组：Ra；对象：FireBlast；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FlameSpike/title",
     "original": "Flame Spike",
-    "translation": "",
-    "stage": 0,
+    "translation": "烈焰突刺",
+    "stage": 1,
     "context": "卡组：Ra；对象：FlameSpike；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FlameSpike/gameTexts/0/body/0",
     "original": "{Ra} deals 1 target 1 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Ra}对1个目标造成1点火焰伤害。",
+    "stage": 1,
     "context": "卡组：Ra；对象：FlameSpike；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FlameSpike/gameTexts/1/body/0",
     "original": "You may use 1 power.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你可以使用1个异能。",
+    "stage": 1,
     "context": "卡组：Ra；对象：FlameSpike；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FlameSpike/flavorQuotes/@Anubis/text",
     "original": "It's the <b>WASTING CURSE</b> of the Underworld.{BR}You have to convince Anubis to help me,{BR}Professor.",
-    "translation": "",
-    "stage": 0,
+    "translation": "这是冥界的<b>衰竭诅咒</b>。{BR}教授，你一定得说服阿努比斯{BR}救我。",
+    "stage": 1,
     "context": "卡组：Ra；对象：FlameSpike / Anubis；类型：flavor.quote。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FlameSpike/flavorReference",
     "original": "Marty Adams, Arcane Tales Vol. 2 #46",
-    "translation": "",
-    "stage": 0,
+    "translation": "马蒂·亚当斯，《奥秘奇谭》第2卷第46期",
+    "stage": 1,
     "context": "卡组：Ra；对象：FlameSpike；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FleshOfTheSunGod/title",
     "original": "Flesh of the Sun God",
-    "translation": "",
-    "stage": 0,
+    "translation": "太阳神躯",
+    "stage": 1,
     "context": "卡组：Ra；对象：FleshOfTheSunGod；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FleshOfTheSunGod/gameTexts/0/body/0",
     "original": "{Ra} is immune to fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Ra}免疫火焰伤害。",
+    "stage": 1,
     "context": "卡组：Ra；对象：FleshOfTheSunGod；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FleshOfTheSunGod/gameTexts/1/body/0",
     "original": "Until your {Start}, Hero characters are immune to fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "直到你的{Start}，英雄角色免疫火焰伤害。",
+    "stage": 1,
     "context": "卡组：Ra；对象：FleshOfTheSunGod；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FleshOfTheSunGod/flavorQuotes/@Atum/text",
     "original": "We shall see who holds the <b>TRUE</b>{BR}ancient power of Flame!",
-    "translation": "",
-    "stage": 0,
+    "translation": "那就看看，谁才掌握着<b>真正</b>的{BR}远古火焰之力！",
+    "stage": 1,
     "context": "卡组：Ra；对象：FleshOfTheSunGod / Atum；类型：flavor.quote。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@FleshOfTheSunGod/flavorReference",
     "original": "Atum, Baptism by Fire #1",
-    "translation": "",
-    "stage": 0,
+    "translation": "阿图姆，《烈火洗礼》第1期",
+    "stage": 1,
     "context": "卡组：Ra；对象：FleshOfTheSunGod；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@Ignite/title",
     "original": "Ignite",
-    "translation": "",
-    "stage": 0,
+    "translation": "引火焚烧",
+    "stage": 1,
     "context": "卡组：Ra；对象：Ignite；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@Ignite/gameTexts/0/body/0",
     "original": "{Ra} deals 1 target 3 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Ra}对1个目标造成3点火焰伤害。",
+    "stage": 1,
     "context": "卡组：Ra；对象：Ignite；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@Ignite/flavorQuotes/@Ra/text",
     "original": "Your magicks will not save you, witch. <b>Burn</b>!",
-    "translation": "",
-    "stage": 0,
+    "translation": "女巫，你的巫术救不了你。<b>燃烧吧</b>！",
+    "stage": 1,
     "context": "卡组：Ra；对象：Ignite / Ra；类型：flavor.quote。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@Ignite/flavorReference",
     "original": "Ra, Ra: God of the Sun #71",
-    "translation": "",
-    "stage": 0,
+    "translation": "拉神，《太阳神拉》第71期",
+    "stage": 1,
     "context": "卡组：Ra；对象：Ignite；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@Inferno/title",
     "original": "Inferno",
-    "translation": "",
-    "stage": 0,
+    "translation": "滔天火海",
+    "stage": 1,
     "context": "卡组：Ra；对象：Inferno；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@Inferno/gameTexts/0/body/0",
     "original": "{Ra} deals 1 target 3 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Ra}对1个目标造成3点火焰伤害。",
+    "stage": 1,
     "context": "卡组：Ra；对象：Inferno；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@Inferno/gameTexts/1/body/0",
     "original": "{Ra} deals each non-Hero target 1 fire damage each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Ra}对每个非英雄目标各造成1点火焰伤害。",
+    "stage": 1,
     "context": "卡组：Ra；对象：Inferno；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@Inferno/flavorQuotes/@Ra/text",
     "original": "Feel the all-engulfing <b>MIGHT</b> of the sun god!",
-    "translation": "",
-    "stage": 0,
+    "translation": "感受太阳神吞没一切的<b>神威</b>！",
+    "stage": 1,
     "context": "卡组：Ra；对象：Inferno / Ra；类型：flavor.quote。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@Inferno/flavorReference",
     "original": "Ra, Ra: God of the Sun #139",
-    "translation": "",
-    "stage": 0,
+    "translation": "拉神，《太阳神拉》第139期",
+    "stage": 1,
     "context": "卡组：Ra；对象：Inferno；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@LivingConflagration/title",
     "original": "Living Conflagration",
-    "translation": "",
-    "stage": 0,
+    "translation": "烈焰化身",
+    "stage": 1,
     "context": "卡组：Ra；对象：LivingConflagration；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@LivingConflagration/gameTexts/0/body/0",
     "original": "When this card is destroyed, {Ra} deals 1 target 3 fire damage and draws 2 cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌被破坏时，{Ra}对1个目标造成3点火焰伤害，并抽2张牌。",
+    "stage": 1,
     "context": "卡组：Ra；对象：LivingConflagration；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@LivingConflagration/gameTexts/1/body/0",
     "original": "Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌。",
+    "stage": 1,
     "context": "卡组：Ra；对象：LivingConflagration；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@LivingConflagration/gameTexts/2/body/0",
     "original": "{Ra} deals up to 3 targets 1 fire damage each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Ra}对至多3个目标各造成1点火焰伤害。",
+    "stage": 1,
     "context": "卡组：Ra；对象：LivingConflagration；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@LivingConflagration/flavorQuotes/@Ammit/text",
     "original": "Your Ka and your Ba, they burn brightly.{BR}You can surely part with some of the fire within you{BR}to regain the power of flame...",
-    "translation": "",
-    "stage": 0,
+    "translation": "你的卡与巴，都燃得如此明亮。{BR}想必你舍得分出一点自身的火焰，{BR}换回驭火之力吧……",
+    "stage": 1,
     "context": "卡组：Ra；对象：LivingConflagration / Ammit；类型：flavor.quote。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@LivingConflagration/flavorReference",
     "original": "Ammit, Ra: Horus of Two Horizons One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "阿米特，《拉神：双天际之荷鲁斯》独立特刊",
+    "stage": 1,
     "context": "卡组：Ra；对象：LivingConflagration；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@ScorchedEarth/title",
     "original": "Scorched Earth",
-    "translation": "",
-    "stage": 0,
+    "translation": "焚为焦土",
+    "stage": 1,
     "context": "卡组：Ra；对象：ScorchedEarth；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/12/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@ScorchedEarth/gameTexts/0/body/0",
     "original": "Destroy 1 Environment card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1张环境牌。",
+    "stage": 1,
     "context": "卡组：Ra；对象：ScorchedEarth；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@ScorchedEarth/gameTexts/1/body/0",
     "original": "{Ra} deals each non-Hero target 1 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Ra}对每个非英雄目标各造成1点火焰伤害。",
+    "stage": 1,
     "context": "卡组：Ra；对象：ScorchedEarth；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@ScorchedEarth/flavorQuotes/@Ra/text",
     "original": "The sands of the Sahara are <b>GLASS</b> in my wake!",
-    "translation": "",
-    "stage": 0,
+    "translation": "我所过之处，撒哈拉的沙粒尽化<b>琉璃</b>！",
+    "stage": 1,
     "context": "卡组：Ra；对象：ScorchedEarth / Ra；类型：flavor.quote。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/12/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@ScorchedEarth/flavorReference",
     "original": "Ra, Tome of the Bizarre Vol. 2 #271",
-    "translation": "",
-    "stage": 0,
+    "translation": "拉神，《诡奇之书》第2卷第271期",
+    "stage": 1,
     "context": "卡组：Ra；对象：ScorchedEarth；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/12/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@SolarFlare/title",
     "original": "Solar Flare",
-    "translation": "",
-    "stage": 0,
+    "translation": "太阳耀斑",
+    "stage": 1,
     "context": "卡组：Ra；对象：SolarFlare；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/13/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@SolarFlare/gameTexts/0/body/0",
     "original": "+2 damage dealt by {Ra}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Ra}造成的伤害+2。",
+    "stage": 1,
     "context": "卡组：Ra；对象：SolarFlare；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@SolarFlare/gameTexts/1/body/0",
     "original": "Either destroy this card or {Ra} deals himself 5 fixed psychic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌，或{Ra}对自己造成5点固定精神伤害。",
+    "stage": 1,
     "context": "卡组：Ra；对象：SolarFlare；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@SolarFlare/flavorQuotes/@Ra/text",
     "original": "As it happens, when you play with fire...",
-    "translation": "",
-    "stage": 0,
+    "translation": "看来，你也该知道，玩火的人……",
+    "stage": 1,
     "context": "卡组：Ra；对象：SolarFlare / Ra；类型：flavor.quote。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/13/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@SolarFlare/flavorReference",
     "original": "Ra, Ra: God of the Sun #250",
-    "translation": "",
-    "stage": 0,
+    "translation": "拉神，《太阳神拉》第250期",
+    "stage": 1,
     "context": "卡组：Ra；对象：SolarFlare；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/13/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@TheStaffOfRa/title",
     "original": "The Staff of Ra",
-    "translation": "",
-    "stage": 0,
+    "translation": "拉神权杖",
+    "stage": 1,
     "context": "卡组：Ra；对象：TheStaffOfRa；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/14/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@TheStaffOfRa/gameTexts/0/body/0",
     "original": "+1 damage dealt by {Ra}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Ra}造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：Ra；对象：TheStaffOfRa；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@TheStaffOfRa/gameTexts/1/body/0",
     "original": "Whenever {Ra} would deal fire damage to a target, you may double the damage after applying all other modifiers. After that damage is dealt, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每当{Ra}将对目标造成火焰伤害时，你可以在应用所有其他修正后，将该次伤害翻倍。该次伤害造成后，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Ra；对象：TheStaffOfRa；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@TheStaffOfRa/flavorQuotes/@Ra/text",
     "original": "With power from the anciencts,{BR}I am <b>RA</b>: god of the sun!",
-    "translation": "",
-    "stage": 0,
+    "translation": "承远古之力，{BR}我便是<b>拉神</b>——太阳之神！",
+    "stage": 1,
     "context": "卡组：Ra；对象：TheStaffOfRa / Ra；类型：flavor.quote。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/14/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/cards/@TheStaffOfRa/flavorReference",
     "original": "Ra, Arcane Tales Vol. 1 #83",
-    "translation": "",
-    "stage": 0,
+    "translation": "拉神，《奥秘奇谭》第1卷第83期",
+    "stage": 1,
     "context": "卡组：Ra；对象：TheStaffOfRa；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/cards/14/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/variants/@RaCharacter/title",
     "original": "First Appearance: Ra",
-    "translation": "",
-    "stage": 0,
+    "translation": "初次登场：拉神",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：card.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/variants/@RaCharacter/gameTexts/0/title",
     "original": "Rekindle",
-    "translation": "",
-    "stage": 0,
+    "translation": "余烬复燃",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：ability.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/variants/@RaCharacter/gameTexts/0/body/0",
     "original": "{Ra} deals 1 target 1 fire damage. Either salvage 1 Ongoing card or play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Ra}对1个目标造成1点火焰伤害。回收1张持续牌，或打出1张牌。",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/variants/@RaCharacter/flippedGameTexts/0/title",
     "original": "Empowered No More",
-    "translation": "",
-    "stage": 0,
+    "translation": "神力尽失",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：ability.title。\n来源：RaDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/variants/@RaCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Play}。",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/variants/@RaCharacter/flippedGameTexts/0/body/1",
     "original": "Destroy 1 Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1张持续牌。",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/variants/@RaCharacter/flippedGameTexts/0/body/2",
     "original": "1 target deals itself 1 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1个目标对自己造成1点火焰伤害。",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：rules.body。\n来源：RaDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/variants/@RaCharacter/flavorReference",
     "original": "Arcane Tales Vol. 1 #83, Jul 1954",
-    "translation": "",
-    "stage": 0,
+    "translation": "《奥秘奇谭》第1卷第83期，1954年7月",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/variants/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "RaDeckList.json::turnTakers/@Ra/decks/@Ra/variants/@RaCharacter/flippedFlavorReference",
     "original": "Arcane Tales Vol. 1 #200, Apr 1964",
-    "translation": "",
-    "stage": 0,
+    "translation": "《奥秘奇谭》第1卷第200期，1964年4月",
+    "stage": 1,
     "context": "卡组：Ra；对象：RaCharacter；类型：flavor.reference。\n来源：RaDeckList.json#/turnTakers/0/decks/0/variants/0/flippedFlavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

@@ -2,29 +2,29 @@
   {
     "key": "ui.source.3897671007d4b0fc4e0d",
     "original": "Steam Early Access Information",
-    "translation": "",
-    "stage": 0,
+    "translation": "Steam抢先体验说明",
+    "stage": 1,
     "context": "界面对象：Title Label；用途：feedback-and-early-access。\nlevel1 path_id=486 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.33a52b72d01faa731d15",
     "original": "The Early Access release of Sentinels of the Multiverse 2 is fully playable and includes all hero, villain, and environment decks from the full core game.\n\nThe full version is planned to have the following additional major features and content:\n\n- Interactive tutorial\n- Campaign mode\n- Online multiplayer\n- Villain Events and Critical Events\n- First Appearance Hero Variants\n- Improved music and sound effects\n- More extensive UI animations & interactions\n- How to Play & Card Library screens\n- Steam Achievements & Statistics\n\nWe plan to roll out features and content in several updates during the Early Access phase.\n\nIf you see a problem or have a suggestion, please report it when it occurs using the in-game <b>Send Feedback</b> button. Thanks for playing!",
-    "translation": "",
-    "stage": 0,
+    "translation": "《次元守护者2》的抢先体验版本已可完整游玩，包含基础游戏中的全部英雄、反派与环境牌组。\n\n完整版计划增加以下主要功能与内容：\n\n- 交互式教程\n- 战役模式\n- 在线多人游戏\n- 反派事件与重大事件\n- 英雄初次登场变体\n- 改进音乐与音效\n- 更丰富的界面动画与交互\n- 游戏规则与卡牌图鉴界面\n- Steam成就与统计\n\n我们计划在抢先体验期间，通过数次更新逐步推出这些功能与内容。\n\n如果你遇到问题或有任何建议，请在问题发生时使用游戏内的<b>发送反馈</b>按钮告诉我们。感谢游玩！",
+    "stage": 1,
     "context": "界面对象：Info Label；用途：feedback-and-early-access。\nlevel1 path_id=488 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.53da4947a16863b25697",
     "original": "If the game crashed, please send feedback now.",
-    "translation": "",
-    "stage": 0,
+    "translation": "如果游戏发生崩溃，请立即发送反馈。",
+    "stage": 1,
     "context": "界面对象：Note Label；用途：feedback-and-early-access。\nlevel1 path_id=495 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.5ce39cc67ba20b9b30ea",
     "original": "Send Early \nAccess Feedback",
-    "translation": "",
-    "stage": 0,
+    "translation": "发送抢先体验\n反馈",
+    "stage": 1,
     "context": "界面对象：Text；用途：feedback-and-early-access。\nlevel1 path_id=506 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   }
 ]

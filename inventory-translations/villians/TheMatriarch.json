@@ -2,526 +2,526 @@
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/title",
     "original": "The Matriarch",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸦母",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarch；类型：deck.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@TheMatriarchCharacter/title",
     "original": "The Matriarch",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸦母",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：card.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@TheMatriarchCharacter/subTitle",
     "original": "Her Avian Majesty",
-    "translation": "",
-    "stage": 0,
+    "translation": "羽族陛下",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：cards.subTitle。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/0/subTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@TheMatriarchCharacter/setupGameTexts/0/body/0",
     "original": "Summon Mask of the Matriarch.",
-    "translation": "",
-    "stage": 0,
+    "translation": "召唤鸦母面具。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/0/setupGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@TheMatriarchCharacter/gameTexts/0/body/0",
     "original": "If Mask of the Matriarch is not in play: {Flip}",
-    "translation": "",
-    "stage": 0,
+    "translation": "若鸦母面具不在场：{Flip}",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@TheMatriarchCharacter/gameTexts/1/body/0",
     "original": "{TheMatriarch} deals each Hero target 1 projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheMatriarch}对每个英雄目标造成1点投射伤害。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@TheMatriarchCharacter/advancedGameTexts/0/body/0",
     "original": "+2 damage dealt by Cohort cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "羽随牌造成的伤害+2。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/0/advancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@TheMatriarchCharacter/flippedSubTitle",
     "original": "Ruler of the Flock",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸟群之主",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：cards.flippedSubTitle。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/0/flippedSubTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@TheMatriarchCharacter/flippedGameTexts/0/body/0",
     "original": "{TheMatriarch} deals the {H - 2} Hero targets with the highest HP 3 psychic damage each. Then, if Mask of the Matriarch is in play: {Flip}",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheMatriarch}对生命值最高的{H - 2}个英雄目标各造成3点精神伤害。然后，若鸦母面具在场：{Flip}",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@TheMatriarchCharacter/flippedAdvancedGameTexts/0/body/0",
     "original": "Cohort cards gain the keyword <nobr>“<style=Keywords>INDESTRUCTIBLE</style>”.</nobr>",
-    "translation": "",
-    "stage": 0,
+    "translation": "羽随牌获得关键词<nobr>“<style=Keywords>不灭</style>”。</nobr>",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/0/flippedAdvancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@BuildingOfRooks/title",
     "original": "Building of Rooks",
-    "translation": "",
-    "stage": 0,
+    "translation": "秃鸦云集",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：BuildingOfRooks；类型：card.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@BuildingOfRooks/gameTexts/0/body/0",
     "original": "After this card is played, play the top card of the Villain deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌打出后，打出反派牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：BuildingOfRooks；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@BuildingOfRooks/gameTexts/1/body/0",
     "original": "This card deals the Hero target with the highest HP 2 projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最高的英雄目标造成2点投射伤害。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：BuildingOfRooks；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@BuildingOfRooks/flavorQuotes/@TheMatriarch/text",
     "original": "Feel the <b>fury</b> of the skies, scorned!",
-    "translation": "",
-    "stage": 0,
+    "translation": "苍穹岂容轻慢？领受这<b>怒火</b>吧！",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：BuildingOfRooks / TheMatriarch；类型：flavor.quote。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@BuildingOfRooks/flavorReference",
     "original": "The Matriarch, Night’s Plutonian Shore One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸦母，《冥夜之岸》独立特刊",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：BuildingOfRooks；类型：flavor.reference。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@CarrionFields/title",
     "original": "Carrion Fields",
-    "translation": "",
-    "stage": 0,
+    "translation": "腐尸遍野",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：CarrionFields；类型：card.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@CarrionFields/gameTexts/0/body/0",
     "original": "Unless both Huginn and Muninn are in play, discover 1 Cohort card. If a Cohort card is played this way, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "除非胡金与穆宁均在场，否则发现1张羽随牌。若以此法打出了一张羽随牌，破坏此牌。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：CarrionFields；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@CarrionFields/gameTexts/1/body/0",
     "original": "Each Cohort card deals each Hero target 1 toxic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每张羽随牌对每个英雄目标造成1点毒素伤害。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：CarrionFields；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@CarrionFields/flavorQuotes/@AbsoluteZero/text",
     "original": "When you all asked for help, I figured{BR}you wanted me to freezer burn a bunch of birds.{BR}Not my fault it turned out worse.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你们叫我来帮忙，{BR}我还以为是要我把这些鸟冻坏呢。{BR}结果更糟，可不能怪我。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：CarrionFields / AbsoluteZero；类型：flavor.quote。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@CarrionFields/flavorReference",
     "original": "Absolute Zero, Night’s Plutonian Shore One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度，《冥夜之岸》独立特刊",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：CarrionFields；类型：flavor.reference。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@ClatteringOfJackdaws/title",
     "original": "Clattering of Jackdaws",
-    "translation": "",
-    "stage": 0,
+    "translation": "寒鸦群噪",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：ClatteringOfJackdaws；类型：card.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@ClatteringOfJackdaws/gameTexts/0/body/0",
     "original": "After this card is played, play the top card of the Villain deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌打出后，打出反派牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：ClatteringOfJackdaws；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@ClatteringOfJackdaws/gameTexts/1/body/0",
     "original": "This card deals each Hero target 1 projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对每个英雄目标造成1点投射伤害。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：ClatteringOfJackdaws；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@ClatteringOfJackdaws/flavorQuotes/@TheMatriarch/text",
     "original": "A most pestilent congregation{BR}of horrid, flighty creatures.",
-    "translation": "",
-    "stage": 0,
+    "translation": "何等恶浊的集会！{BR}尽是可怖而躁动的飞羽生灵。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：ClatteringOfJackdaws / TheMatriarch；类型：flavor.quote。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@ClatteringOfJackdaws/flavorReference",
     "original": "The Matriarch, Night’s Plutonian Shore One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸦母，《冥夜之岸》独立特刊",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：ClatteringOfJackdaws；类型：flavor.reference。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@DarkenTheSky/title",
     "original": "Darken the Sky",
-    "translation": "",
-    "stage": 0,
+    "translation": "遮天蔽日",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：DarkenTheSky；类型：card.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@DarkenTheSky/gameTexts/0/body/0",
     "original": "Summon the Mask of the Matriarch.",
-    "translation": "",
-    "stage": 0,
+    "translation": "召唤鸦母面具。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：DarkenTheSky；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@DarkenTheSky/gameTexts/1/body/0",
     "original": "Shuffle all of the Fowl cards in the Villain trash into the Villain deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将反派弃牌堆中的所有鸟群牌洗入反派牌库。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：DarkenTheSky；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@DarkenTheSky/gameTexts/2/body/0",
     "original": "{TheMatriarch} deals the Hero target with the highest HP {H} psychic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheMatriarch}对生命值最高的英雄目标造成{H}点精神伤害。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：DarkenTheSky；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@DarkenTheSky/flavorQuotes/@TheMatriarch/text",
     "original": "The fowl rise! To o'erwhelm all the Earth!{BR}And pluck out men's eyes!",
-    "translation": "",
-    "stage": 0,
+    "translation": "群鸟，腾起吧！淹没整片大地！{BR}啄去世人的双眼！",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：DarkenTheSky / TheMatriarch；类型：flavor.quote。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@DarkenTheSky/flavorReference",
     "original": "The Matriarch, Freedom Four Annual #2",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸦母，《自由四杰年刊》第2期",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：DarkenTheSky；类型：flavor.reference。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@HorridCacophony/title",
     "original": "Horrid Cacophony",
-    "translation": "",
-    "stage": 0,
+    "translation": "惊魂鸦鸣",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：HorridCacophony；类型：card.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@HorridCacophony/gameTexts/0/body/0",
     "original": "{TheMatriarch} deals the {H - 1} Hero targets with the highest HP 2 sonic damage each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheMatriarch}对生命值最高的{H - 1}个英雄目标各造成2点音波伤害。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：HorridCacophony；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@HorridCacophony/gameTexts/1/body/0",
     "original": "Destroy {H - 2} Hero Ongoing and/or Item cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏合计{H - 2}张英雄持续牌和／或物品牌。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：HorridCacophony；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@HorridCacophony/flavorQuotes/@Tachyon/text",
     "original": "They're just simple birds! They shouldn't be able{BR}to reach such dangerous decibel levels!",
-    "translation": "",
-    "stage": 0,
+    "translation": "这不过是些普通鸟类！它们的叫声{BR}不该达到这么危险的分贝水平！",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：HorridCacophony / Tachyon；类型：flavor.quote。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@HorridCacophony/flavorReference",
     "original": "Tachyon, Freedom Four Annual #2",
-    "translation": "",
-    "stage": 0,
+    "translation": "快子，《自由四杰年刊》第2期",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：HorridCacophony；类型：flavor.reference。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@Huginn/title",
     "original": "Huginn",
-    "translation": "",
-    "stage": 0,
+    "translation": "胡金",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：Huginn；类型：card.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@Huginn/gameTexts/0/body/0",
     "original": "−1 damage dealt to {TheMatriarch} and to Cohort cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheMatriarch}与羽随牌受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：Huginn；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@Huginn/gameTexts/1/body/0",
     "original": "After any Fowl card is played, this card deals the Hero target with the second highest HP 1 psychic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "任意鸟群牌打出后，此牌对生命值第二高的英雄目标造成1点精神伤害。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：Huginn；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@Huginn/flavorQuotes/@TheMatriarch/text",
     "original": "So subtle, your thoughts run as dark as your{BR}pinions. Together, we shall gather the bright{BR}and shiny objects of this world.",
-    "translation": "",
-    "stage": 0,
+    "translation": "何其幽微的心思，{BR}恰如你漆黑的飞羽。你我将一同{BR}收尽世间闪亮之物。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：Huginn / TheMatriarch；类型：flavor.quote。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@Huginn/flavorReference",
     "original": "The Matriarch, Night’s Plutonian Shore One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸦母，《冥夜之岸》独立特刊",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：Huginn；类型：flavor.reference。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@KettleOfVultures/title",
     "original": "Kettle of Vultures",
-    "translation": "",
-    "stage": 0,
+    "translation": "群鹫盘旋",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：KettleOfVultures；类型：card.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@KettleOfVultures/gameTexts/0/body/0",
     "original": "After this card is played, play the top card of the Villain deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌打出后，打出反派牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：KettleOfVultures；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@KettleOfVultures/gameTexts/1/body/0",
     "original": "This card deals the Hero target with the lowest HP 2 projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最低的英雄目标造成2点投射伤害。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：KettleOfVultures；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@KettleOfVultures/flavorQuotes/@TheMatriarch/text",
     "original": "There is no path which the vulture's eye hath not seen...",
-    "translation": "",
-    "stage": 0,
+    "translation": "普天之下，哪条道路不曾映入秃鹫的眼睛……",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：KettleOfVultures / TheMatriarch；类型：flavor.quote。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@KettleOfVultures/flavorReference",
     "original": "The Matriarch, Night’s Plutonian Shore One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸦母，《冥夜之岸》独立特刊",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：KettleOfVultures；类型：flavor.reference。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@MaskOfTheMatriarch/title",
     "original": "Mask of the Matriarch",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸦母面具",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：MaskOfTheMatriarch；类型：card.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@MaskOfTheMatriarch/gameTexts/0/body/0",
     "original": "Damage dealt by Fowl cards is irreducible.",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸟群牌造成的伤害不可削减。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：MaskOfTheMatriarch；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@MaskOfTheMatriarch/gameTexts/1/body/0",
     "original": "After a non-Fowl Villain card other than this card is played for the first time each turn, play the top card of the Villain deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每回合首次打出除此牌以外的非鸟群反派牌后，打出反派牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：MaskOfTheMatriarch；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@MaskOfTheMatriarch/flavorQuotes/@TheMatriarch/text",
     "original": "Thus, I am <b>The Matriarch!</b> From the center to{BR}the sea, I rule as queen of the fowl!",
-    "translation": "",
-    "stage": 0,
+    "translation": "我即<b>鸦母！</b>自此直至海滨，{BR}我为群羽之女王！",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：MaskOfTheMatriarch / TheMatriarch；类型：flavor.quote。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@MaskOfTheMatriarch/flavorReference",
     "original": "The Matriarch, Freedom Four Annual #2",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸦母，《自由四杰年刊》第2期",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：MaskOfTheMatriarch；类型：flavor.reference。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@Muninn/title",
     "original": "Muninn",
-    "translation": "",
-    "stage": 0,
+    "translation": "穆宁",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：Muninn；类型：card.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@Muninn/gameTexts/0/body/0",
     "original": "+1 damage dealt by {TheMatriarch} and by Cohort cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheMatriarch}与羽随牌造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：Muninn；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@Muninn/gameTexts/1/body/0",
     "original": "After any Fowl card is destroyed, this card deals the Hero target with the highest HP 1 projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "任意鸟群牌被破坏后，此牌对生命值最高的英雄目标造成1点投射伤害。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：Muninn；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@Muninn/flavorQuotes/@TheMatriarch/text",
     "original": "Oh wicked friend, your beak rips and your talons{BR}tear. A simple creature, you crave only{BR}conquest.",
-    "translation": "",
-    "stage": 0,
+    "translation": "啊，邪恶的挚友！你的利喙撕咬，你的尖爪扯裂。{BR}单纯的生灵啊，{BR}你唯独渴求征服。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：Muninn / TheMatriarch；类型：flavor.quote。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@Muninn/flavorReference",
     "original": "The Matriarch, Night’s Plutonian Shore One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸦母，《冥夜之岸》独立特刊",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：Muninn；类型：flavor.reference。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@MurderOfCrows/title",
     "original": "Murder of Crows",
-    "translation": "",
-    "stage": 0,
+    "translation": "乌鸦行凶",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：MurderOfCrows；类型：card.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@MurderOfCrows/gameTexts/0/body/0",
     "original": "After this card is played, play the top card of the Villain deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌打出后，打出反派牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：MurderOfCrows；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@MurderOfCrows/gameTexts/1/body/0",
     "original": "This card deals each Hero target except the Hero target with the highest HP 1 projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对除生命值最高的英雄目标以外的每个英雄目标造成1点投射伤害。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：MurderOfCrows；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@MurderOfCrows/flavorQuotes/@TheMatriarch/text",
     "original": "Fowl of the air! Rain down on all{BR}who creepeth upon the Earth!",
-    "translation": "",
-    "stage": 0,
+    "translation": "苍穹的飞鸟啊！如骤雨般降下，{BR}扑向大地上一切爬行之物！",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：MurderOfCrows / TheMatriarch；类型：flavor.quote。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@MurderOfCrows/flavorReference",
     "original": "The Matriarch, Freedom Four Annual #2",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸦母，《自由四杰年刊》第2期",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：MurderOfCrows；类型：flavor.reference。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@UnkindnessOfRavens/title",
     "original": "Unkindness of Ravens",
-    "translation": "",
-    "stage": 0,
+    "translation": "渡鸦无情",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：UnkindnessOfRavens；类型：card.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@UnkindnessOfRavens/gameTexts/0/body/0",
     "original": "After this card is played, play the top card of the Villain deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌打出后，打出反派牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：UnkindnessOfRavens；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@UnkindnessOfRavens/gameTexts/1/body/0",
     "original": "This card deals each Hero target except the Hero target with the lowest HP 1 projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对除生命值最低的英雄目标以外的每个英雄目标造成1点投射伤害。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：UnkindnessOfRavens；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@UnkindnessOfRavens/flavorQuotes/@TheMatriarch/text",
     "original": "The ravens themselves are hoarse,{BR}croaking thy fatal exit!",
-    "translation": "",
-    "stage": 0,
+    "translation": "渡鸦也已啼哑，{BR}正嘶声宣告你的死期！",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：UnkindnessOfRavens / TheMatriarch；类型：flavor.quote。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/cards/@UnkindnessOfRavens/flavorReference",
     "original": "The Matriarch, Freedom Four Annual #2",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸦母，《自由四杰年刊》第2期",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：UnkindnessOfRavens；类型：flavor.reference。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/variants/@TheMatriarchCharacter/title",
     "original": "The Mocktriarch",
-    "translation": "",
-    "stage": 0,
+    "translation": "冒牌鸦母",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：card.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/variants/@TheMatriarchCharacter/subTitle",
     "original": "Convincing Conniving Clone",
-    "translation": "",
-    "stage": 0,
+    "translation": "以假乱真的诡诈克隆体",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：variants.subTitle。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/variants/0/subTitle。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/variants/@TheMatriarchCharacter/setupGameTexts/0/body/0",
     "original": "Shuffle and set {TheMatriarch} deck in the Villain play area. Summon Mask of the Matriarch and 2 Carrion Fields. Remove both Carrion Fields from the game.",
-    "translation": "",
-    "stage": 0,
+    "translation": "洗混{TheMatriarch}牌库，将其置于反派场地区域。召唤鸦母面具和2张腐尸遍野。将这两张腐尸遍野移出游戏。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/variants/0/setupGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/variants/@TheMatriarchCharacter/gameTexts/0/body/0",
     "original": "Mask of the Matriarch is indestructible. Whenever Mask of the Matriarch is dealt damage, reduce that damage to 1. While Mask of the Matriarch is in play, Cohort cards have no game text. When Mask of the Matriarch is reduced to 0 HP, remove it from the game.",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸦母面具具有不灭。每当鸦母面具受到伤害时，将该伤害减至1。只要鸦母面具在场，羽随牌便没有规则正文。当鸦母面具的生命值降至0时，将其移出游戏。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/variants/@TheMatriarchCharacter/gameTexts/1/body/0",
     "original": "Replace \"The Matriarch\" on Cohort cards with \"the Hero with the lowest HP\". Whenever a Cohort card would deal damage, redirect that damage to {TheMatriarch}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将羽随牌上的“鸦母”替换为“生命值最低的英雄”。每当一张羽随牌将要造成伤害时，将该伤害转移至{TheMatriarch}。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/variants/@TheMatriarchCharacter/gameTexts/2/body/0",
     "original": "{TheMatriarch} deals each Hero character and each Cohort card 2 psychic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheMatriarch}对每个英雄角色及每张羽随牌造成2点精神伤害。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/variants/@TheMatriarchCharacter/gameTexts/3/body/0",
     "original": "{TheMatriarch} deals the Hero target with the highest HP {H} psychic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheMatriarch}对生命值最高的英雄目标造成{H}点精神伤害。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/variants/@TheMatriarchCharacter/advancedGameTexts/0/body/0",
     "original": "+1 damage dealt by {TheMatriarch} if Mask of the Matriarch is not in play.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若鸦母面具不在场，{TheMatriarch}造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/variants/0/advancedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/variants/@TheMatriarchCharacter/advancedGameTexts/1/body/0",
     "original": "Mask of the Matriarch regains {H - 1} HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸦母面具恢复{H - 1}点生命值。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：TheMatriarchCharacter；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/variants/0/advancedGameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

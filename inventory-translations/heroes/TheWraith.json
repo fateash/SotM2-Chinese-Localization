@@ -2,638 +2,638 @@
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/title",
     "original": "The Wraith",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽魂",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraith；类型：deck.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@TheWraithCharacter/title",
     "original": "The Wraith",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽魂",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@TheWraithCharacter/gameTexts/0/title",
     "original": "Stealth",
-    "translation": "",
-    "stage": 0,
+    "translation": "潜踪匿迹",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：ability.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@TheWraithCharacter/gameTexts/0/body/0",
     "original": "Until your {Start}, <nobr>−1 damage</nobr> to {TheWraith}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "直到你的{Start}，{TheWraith}受到的<nobr>伤害−1</nobr>。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@TheWraithCharacter/flippedGameTexts/0/title",
     "original": "Will Crime Prevail?",
-    "translation": "",
-    "stage": 0,
+    "translation": "罪恶得逞？",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：ability.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@TheWraithCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Play}。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@TheWraithCharacter/flippedGameTexts/0/body/1",
     "original": "Destroy 1 Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1张持续牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@TheWraithCharacter/flippedGameTexts/0/body/2",
     "original": "1 Hero target regains 2 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1个英雄目标恢复2点生命值。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@AbductAndInterrogate/title",
     "original": "Abduct and Interrogate",
-    "translation": "",
-    "stage": 0,
+    "translation": "掳人逼供",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：AbductAndInterrogate；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@AbductAndInterrogate/gameTexts/0/body/0",
     "original": "{TheWraith} deals 1 non-Hero target 1 toxic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheWraith}对1个非英雄目标造成1点毒素伤害。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：AbductAndInterrogate；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@AbductAndInterrogate/gameTexts/1/body/0",
     "original": "If that target is destroyed, reveal the top card of each deck. You may discard any revealed cards. Play the other revealed cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若该目标被破坏，展示每个牌库的顶牌。你可以弃置其中任意数量的牌。打出其余展示的牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：AbductAndInterrogate；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@AbductAndInterrogate/flavorQuotes/@Legacy/text",
     "original": "If we’re being completely honest, I would{BR}rather you didn’t tell me how you got this{BR}information.",
-    "translation": "",
-    "stage": 0,
+    "translation": "说实话，{BR}我宁可你别告诉我，{BR}这情报究竟是怎么弄到的。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：AbductAndInterrogate / Legacy；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@AbductAndInterrogate/flavorReference",
     "original": "Legacy, Freedom Five #364",
-    "translation": "",
-    "stage": 0,
+    "translation": "传承侠，《自由五杰》第364期",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：AbductAndInterrogate；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@CombatProwess/title",
     "original": "Combat Prowess",
-    "translation": "",
-    "stage": 0,
+    "translation": "格斗技艺",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：CombatProwess；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@CombatProwess/gameTexts/0/body/0",
     "original": "−2 to the damage {TheWraith} would be dealt. If {TheWraith} takes no damage as a result, you may play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheWraith}将受到的伤害−2。若{TheWraith}因此未受到伤害，你可以打出1张牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：CombatProwess；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@CombatProwess/flavorQuotes/@MrFixer/text",
     "original": "For someone with such... shoddy form,{BR}you know your way around a fight.",
-    "translation": "",
-    "stage": 0,
+    "translation": "就你这……不怎么样的架势来说，{BR}你倒挺会打架。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：CombatProwess / MrFixer；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@CombatProwess/flavorReference",
     "original": "Mr. Fixer, Rook City Renegades #153",
-    "translation": "",
-    "stage": 0,
+    "translation": "修理师傅，《鸦城叛客》第153期",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：CombatProwess；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@FlashbangProjector/title",
     "original": "Flashbang Projector",
-    "translation": "",
-    "stage": 0,
+    "translation": "震撼弹发射器",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：FlashbangProjector；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@FlashbangProjector/gameTexts/0/body/0",
     "original": "Put 1 non-character Villain target in play back on top of the Villain deck. Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将场上的1个非角色反派目标放回反派牌库顶。破坏此牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：FlashbangProjector；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@FlashbangProjector/flavorQuotes/@Bunker/text",
     "original": "I used similar technology in the army{BR}for infiltration and extractions.{BR}Worse, but similar.",
-    "translation": "",
-    "stage": 0,
+    "translation": "在军队执行潜入和撤离任务时，{BR}我用过类似的技术。{BR}没这个好，但差不多。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：FlashbangProjector / Bunker；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@FlashbangProjector/flavorReference",
     "original": "Bunker, Justice Comics #670",
-    "translation": "",
-    "stage": 0,
+    "translation": "堡垒，《正义漫画》第670期",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：FlashbangProjector；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@GrapplingHook/title",
     "original": "Grappling Hook",
-    "translation": "",
-    "stage": 0,
+    "translation": "攀援钩索",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：GrapplingHook；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@GrapplingHook/gameTexts/0/body/0",
     "original": "Destroy 1 Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1张持续牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：GrapplingHook；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@GrapplingHook/gameTexts/1/body/0",
     "original": "You may draw 1 or play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你可以抽1张牌或打出1张牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：GrapplingHook；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@GrapplingHook/flavorQuotes/@TheWraith/text",
     "original": "Silent, unexpected - what can I say?{BR}I like to travel in style.",
-    "translation": "",
-    "stage": 0,
+    "translation": "无声无息，出其不意——怎么说呢？{BR}我出门讲究点派头。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：GrapplingHook / TheWraith；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@GrapplingHook/flavorReference",
     "original": "The Wraith, Mystery Comics Vol 2, #207",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽魂，《悬谜漫画》第2卷第207期",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：GrapplingHook；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@ImpromptuInvention/title",
     "original": "Impromptu Invention",
-    "translation": "",
-    "stage": 0,
+    "translation": "即兴发明",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：ImpromptuInvention；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@ImpromptuInvention/gameTexts/0/body/0",
     "original": "Draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽1张牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：ImpromptuInvention；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@ImpromptuInvention/gameTexts/1/body/0",
     "original": "Discover 1 Item card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发现1张物品牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：ImpromptuInvention；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@ImpromptuInvention/gameTexts/2/body/0",
     "original": "You may play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你可以打出1张牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：ImpromptuInvention；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@ImpromptuInvention/flavorQuotes/@TheWraith/text",
     "original": "This... wasn’t at all what I intended to build.",
-    "translation": "",
-    "stage": 0,
+    "translation": "这……跟我本来想造的完全不是一回事。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：ImpromptuInvention / TheWraith；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@ImpromptuInvention/flavorReference",
     "original": "The Wraith, Science & Progress One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽魂，《科学与进步》独立特刊",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：ImpromptuInvention；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@InfraredEyepiece/title",
     "original": "Infrared Eyepiece",
-    "translation": "",
-    "stage": 0,
+    "translation": "红外目镜",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：InfraredEyepiece；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@InfraredEyepiece/gameTexts/0/body/0",
     "original": "Reveal the top card of the Villain deck. Replace it or discard it. Draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "展示反派牌库的顶牌。将其放回原处或弃置。抽1张牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：InfraredEyepiece；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@InfraredEyepiece/flavorQuotes/@TheWraith/text",
     "original": "Watching your prey through walls...{BR}it <b>almost</b> feels like cheating. Almost.",
-    "translation": "",
-    "stage": 0,
+    "translation": "隔着墙追踪猎物……{BR}<b>几乎</b>有种作弊的感觉。几乎。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：InfraredEyepiece / TheWraith；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@InfraredEyepiece/flavorReference",
     "original": "The Wraith, Mystery Comics Vol 2, #94",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽魂，《悬谜漫画》第2卷第94期",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：InfraredEyepiece；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@InventoryBarrage/title",
     "original": "Inventory Barrage",
-    "translation": "",
-    "stage": 0,
+    "translation": "装备齐射",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：InventoryBarrage；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@InventoryBarrage/gameTexts/0/body/0",
     "original": "Discard any number of Item cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "弃置任意数量的物品牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：InventoryBarrage；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@InventoryBarrage/gameTexts/1/body/0",
     "original": "{TheWraith} deals 1 target X projectile damage, where X is the number of cards discarded this way times 2.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheWraith}对1个目标造成X点投射伤害，X为以此法弃置的牌数乘以2。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：InventoryBarrage；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@InventoryBarrage/flavorQuotes/@TheWraith/text",
     "original": "Don’t like getting pelted with sharp objects?{BR}You’re not going to enjoy the next few moments.",
-    "translation": "",
-    "stage": 0,
+    "translation": "不喜欢被利器砸中？{BR}接下来这几秒，你恐怕不会喜欢。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：InventoryBarrage / TheWraith；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@InventoryBarrage/flavorReference",
     "original": "The Wraith, Mystery Comics Vol 2, #89",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽魂，《悬谜漫画》第2卷第89期",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：InventoryBarrage；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@Leverage/title",
     "original": "Leverage",
-    "translation": "",
-    "stage": 0,
+    "translation": "筹码在握",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：Leverage；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@Leverage/gameTexts/0/body/0",
     "original": "Draw 4 cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽4张牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：Leverage；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@Leverage/gameTexts/1/body/0",
     "original": "Collect 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "搜集1张牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：Leverage；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@Leverage/flavorQuotes/@Revenant/text",
     "original": "I have to say, I’m surprised at how easy to talk to you{BR}are! I feel like I’ve known you my whole life.",
-    "translation": "",
-    "stage": 0,
+    "translation": "说真的，没想到和你聊天这么轻松！{BR}简直就像认识了你一辈子。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：Leverage / Revenant；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@Leverage/flavorReference",
     "original": "Mark Benedetto, Rook City Renegades #72",
-    "translation": "",
-    "stage": 0,
+    "translation": "马克·贝内代托，《鸦城叛客》第72期",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：Leverage；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@MicroTargetingComputer/title",
     "original": "Micro Targeting Computer",
-    "translation": "",
-    "stage": 0,
+    "translation": "微型瞄准电脑",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：MicroTargetingComputer；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@MicroTargetingComputer/gameTexts/0/body/0",
     "original": "+2 projectile damage dealt by {TheWraith}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheWraith}造成的投射伤害+2。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：MicroTargetingComputer；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@MicroTargetingComputer/flavorQuotes/@Tachyon/text",
     "original": "Weather reports, a stock ticker, seamless{BR}connectivity to the world wide web... and yes, it also{BR}makes it easier to shoot the bad guys.",
-    "translation": "",
-    "stage": 0,
+    "translation": "天气预报、股市行情、{BR}无缝接入万维网……没错，{BR}也能让打坏蛋这事更省力。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：MicroTargetingComputer / Tachyon；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@MicroTargetingComputer/flavorReference",
     "original": "Tachyon, Freedom Five #685",
-    "translation": "",
-    "stage": 0,
+    "translation": "快子，《自由五杰》第685期",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：MicroTargetingComputer；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@RazorOrdnance/title",
     "original": "Razor Ordnance",
-    "translation": "",
-    "stage": 0,
+    "translation": "利刃武装",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：RazorOrdnance；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@RazorOrdnance/gameTexts/0/body/0",
     "original": "{TheWraith} deals 1 target 3 projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheWraith}对1个目标造成3点投射伤害。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：RazorOrdnance；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@RazorOrdnance/flavorQuotes/@TheWraith/text",
     "original": "These nano-polymerized blades can cut through{BR}that robot’s plating, provided I get <b>just</b> the{BR}right angle!",
-    "translation": "",
-    "stage": 0,
+    "translation": "这些纳米聚合刀刃能切开{BR}那台机器人的装甲，前提是{BR}角度<b>刚刚好</b>！",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：RazorOrdnance / TheWraith；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@RazorOrdnance/flavorReference",
     "original": "The Wraith, Freedom Five #305",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽魂，《自由五杰》第305期",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：RazorOrdnance；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@SmokeBombs/title",
     "original": "Smoke Bombs",
-    "translation": "",
-    "stage": 0,
+    "translation": "烟雾炸弹",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：SmokeBombs；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@SmokeBombs/gameTexts/0/body/0",
     "original": "−1 damage dealt to Hero targets.",
-    "translation": "",
-    "stage": 0,
+    "translation": "英雄目标受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：SmokeBombs；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@SmokeBombs/gameTexts/1/body/0",
     "original": "+1 damage dealt by {TheWraith}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheWraith}造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：SmokeBombs；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@SmokeBombs/gameTexts/2/body/0",
     "original": "Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：SmokeBombs；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@SmokeBombs/flavorQuotes/@Spite/text",
     "original": "You think some smoke can stop me? You can’t hide{BR}from me. I’ve got you <b>right<b> where I want you!",
-    "translation": "",
-    "stage": 0,
+    "translation": "你以为这点烟就能拦住我？你躲不掉的。{BR}你<b>正好</b>落进了我的圈套！",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：SmokeBombs / Spite；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@SmokeBombs/flavorReference",
     "original": "Maniac Jack, Mystery Comics vol 1, #179",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂徒杰克，《悬谜漫画》第1卷第179期",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：SmokeBombs；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@SonicNeutralizer/title",
     "original": "Sonic Neutralizer",
-    "translation": "",
-    "stage": 0,
+    "translation": "音波抑制器",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：SonicNeutralizer；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/12/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@SonicNeutralizer/gameTexts/0/body/0",
     "original": "Select 1 Environment card in play. Until your {Start}, that card has no game text.",
-    "translation": "",
-    "stage": 0,
+    "translation": "选择场上的1张环境牌。直到你的{Start}，该牌的规则文本视为空白。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：SonicNeutralizer；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@SonicNeutralizer/flavorQuotes/@TheWraith/text",
     "original": "Cover your ears! My Sonic Stopper is effective,{BR}but it doesn’t pick and choose who can hear it!",
-    "translation": "",
-    "stage": 0,
+    "translation": "捂住耳朵！我的音波克星确实管用，{BR}可它不会挑谁听得见、谁听不见！",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：SonicNeutralizer / TheWraith；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/12/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@SonicNeutralizer/flavorReference",
     "original": "The Wraith, Mystery Comics Vol 1, #148",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽魂，《悬谜漫画》第1卷第148期",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：SonicNeutralizer；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/12/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@StunBolt/title",
     "original": "Stun Bolt",
-    "translation": "",
-    "stage": 0,
+    "translation": "眩晕电击",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：StunBolt；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/13/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@StunBolt/gameTexts/0/body/0",
     "original": "{TheWraith} deals 1 target 1 lightning damage. Until your {Start}, −1 damage dealt by that target.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheWraith}对1个目标造成1点闪电伤害。直到你的{Start}，该目标造成的伤害−1。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：StunBolt；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@StunBolt/flavorQuotes/@Ermine/text",
     "original": "For once, I thought I had her.{BR}I thought she was out of tricks.{BR}But she never did play fair.",
-    "translation": "",
-    "stage": 0,
+    "translation": "我还以为，这次总算逮住她了。{BR}以为她已经没花招可耍了。{BR}可她从来就没打算公平较量。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：StunBolt / Ermine；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/13/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@StunBolt/flavorReference",
     "original": "Ermine, Mystery Comics Vol 1, #319",
-    "translation": "",
-    "stage": 0,
+    "translation": "白貂，《悬谜漫画》第1卷第319期",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：StunBolt；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/13/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@SutureSelf/title",
     "original": "Suture Self",
-    "translation": "",
-    "stage": 0,
+    "translation": "缝缝补补",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：SutureSelf；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/14/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@SutureSelf/gameTexts/0/body/0",
     "original": "{TheWraith} regains 2 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheWraith}恢复2点生命值。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：SutureSelf；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@SutureSelf/gameTexts/1/body/0",
     "original": "Salvage 1 Item card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "回收1张物品牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：SutureSelf；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@SutureSelf/flavorQuotes/@TheWraith/text",
     "original": "Just another day in paradise.",
-    "translation": "",
-    "stage": 0,
+    "translation": "又是天堂般的一天。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：SutureSelf / TheWraith；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/14/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@SutureSelf/flavorReference",
     "original": "The Wraith, A Day in the Life: The Wraith",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽魂，《幽魂的一天》",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：SutureSelf；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/14/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@ThrowingKnives/title",
     "original": "Throwing Knives",
-    "translation": "",
-    "stage": 0,
+    "translation": "投掷飞刀",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：ThrowingKnives；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/15/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@ThrowingKnives/gameTexts/0/body/0",
     "original": "{TheWraith} deals up to 3 targets 1 projectile damage each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheWraith}对至多3个目标各造成1点投射伤害。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：ThrowingKnives；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@ThrowingKnives/flavorQuotes/@AbsoluteZero/text",
     "original": "I thought I was cold,{BR}but you’re downright merciless!",
-    "translation": "",
-    "stage": 0,
+    "translation": "我还以为自己够冷酷了，{BR}你这简直是毫不留情啊！",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：ThrowingKnives / AbsoluteZero；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/15/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@ThrowingKnives/flavorReference",
     "original": "Absolute Zero, Freedom Five #540",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度，《自由五杰》第540期",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：ThrowingKnives；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/15/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@UtilityBelt/title",
     "original": "Utility Belt",
-    "translation": "",
-    "stage": 0,
+    "translation": "万能腰带",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：UtilityBelt；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/16/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@UtilityBelt/gameTexts/0/body/0",
     "original": "Either draw 2 cards or play 1 Item card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽2张牌，或打出1张物品牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：UtilityBelt；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@UtilityBelt/gameTexts/1/body/0",
     "original": "You may use 1 additional power this phase.",
-    "translation": "",
-    "stage": 0,
+    "translation": "本阶段你可以额外使用1个异能。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：UtilityBelt；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@UtilityBelt/flavorQuotes/@TheWraith/text",
     "original": "Being prepared is all about having{BR}the right tool for the job.",
-    "translation": "",
-    "stage": 0,
+    "translation": "所谓准备周全，就是干什么活，{BR}都带着合适的家伙。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：UtilityBelt / TheWraith；类型：flavor.quote。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/16/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/cards/@UtilityBelt/flavorReference",
     "original": "The Wraith, Mystery Comics Vol 1 #27",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽魂，《悬谜漫画》第1卷第27期",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：UtilityBelt；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/cards/16/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/variants/@TheWraithCharacter/title",
     "original": "First Appearance: The Wraith",
-    "translation": "",
-    "stage": 0,
+    "translation": "初次登场：幽魂",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：card.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/variants/@TheWraithCharacter/gameTexts/0/title",
     "original": "Haunt the Shadows",
-    "translation": "",
-    "stage": 0,
+    "translation": "暗影潜踪",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：ability.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/variants/@TheWraithCharacter/gameTexts/0/body/0",
     "original": "Reveal and replace the top card of the Villain deck. If it is a target, discover 1 Item card. Otherwise, draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "展示反派牌库的顶牌，然后将其放回原处。若该牌是目标，发现1张物品牌。否则，抽1张牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/variants/@TheWraithCharacter/flippedGameTexts/0/title",
     "original": "A Felonious Foe",
-    "translation": "",
-    "stage": 0,
+    "translation": "凶顽恶敌",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：ability.title。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/variants/@TheWraithCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Draw}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Draw}。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/variants/@TheWraithCharacter/flippedGameTexts/0/body/1",
     "original": "1 Hero summons 1 Item card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄召唤1张物品牌。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/variants/@TheWraithCharacter/flippedGameTexts/0/body/2",
     "original": "Bury 1 Villain target with 2 or fewer HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "埋藏1个生命值不高于2的反派目标。",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：rules.body。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/variants/@TheWraithCharacter/flavorReference",
     "original": "Mystery Comics Vol. 1 #27, Oct 1948",
-    "translation": "",
-    "stage": 0,
+    "translation": "《悬谜漫画》第1卷第27期，1948年10月",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/variants/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheWraithDeckList.json::turnTakers/@TheWraith/decks/@TheWraith/variants/@TheWraithCharacter/flippedFlavorReference",
     "original": "Mystery Comics Vol. 1 #74, Sep 1952",
-    "translation": "",
-    "stage": 0,
+    "translation": "《悬谜漫画》第1卷第74期，1952年9月",
+    "stage": 1,
     "context": "卡组：TheWraith；对象：TheWraithCharacter；类型：flavor.reference。\n来源：TheWraithDeckList.json#/turnTakers/0/decks/0/variants/0/flippedFlavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

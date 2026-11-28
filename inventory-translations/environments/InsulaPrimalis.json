@@ -2,330 +2,330 @@
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/title",
     "original": "Insula Primalis",
-    "translation": "",
-    "stage": 0,
+    "translation": "原初岛",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：InsulaPrimalis；类型：deck.title。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@CorneredAnkylosaurus/title",
     "original": "Cornered Ankylosaurus",
-    "translation": "",
-    "stage": 0,
+    "translation": "受困甲龙",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：CorneredAnkylosaurus；类型：card.title。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@CorneredAnkylosaurus/gameTexts/0/body/0",
     "original": "−1 damage dealt to this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：CorneredAnkylosaurus；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@CorneredAnkylosaurus/gameTexts/1/body/0",
     "original": "This card deals the 2 targets other than itself with the highest HP 3 melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对除自身以外生命值最高的2个目标各造成3点近战伤害。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：CorneredAnkylosaurus；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@CorneredAnkylosaurus/flavorQuotes/@Ra/text",
     "original": "You think your armored hide will{BR}protect you? The fires of Ra <b>cannot<b> be{BR}extinguished!",
-    "translation": "",
-    "stage": 0,
+    "translation": "你以为这身甲皮就能护住你？{BR}拉神之火，{BR}<b>绝不会熄灭</b>！",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：CorneredAnkylosaurus / Ra；类型：flavor.quote。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/0/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@CorneredAnkylosaurus/flavorReference",
     "original": "Ra, Arcane Tales Vol. 1 #94",
-    "translation": "",
-    "stage": 0,
+    "translation": "拉神，《奥秘奇谭》第1卷第94期",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：CorneredAnkylosaurus；类型：flavor.reference。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@DinosaurStampede/title",
     "original": "Dinosaur Stampede",
-    "translation": "",
-    "stage": 0,
+    "translation": "群龙奔踏",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：DinosaurStampede；类型：card.title。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@DinosaurStampede/gameTexts/0/body/0",
     "original": "Shuffle the Environment trash into the Environment deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将环境弃牌堆洗入环境牌库。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：DinosaurStampede；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@DinosaurStampede/gameTexts/1/body/0",
     "original": "Discover 2 Dinosaur cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发现2张恐龙牌。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：DinosaurStampede；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@DinosaurStampede/gameTexts/2/body/0",
     "original": "Each Dinosaur card deals each non-Environment target 1 fixed melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每张恐龙牌对每个非环境目标造成1点固定近战伤害。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：DinosaurStampede；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@DinosaurStampede/flavorQuotes/@CaptainCosmic/text",
     "original": "Don’t look now, but there are quite a{BR}few of those massive beasts headed this{BR}way at a concerning clip. I advise running,{BR}rather than looking!",
-    "translation": "",
-    "stage": 0,
+    "translation": "先别看，有一大群巨兽正朝这边冲来，{BR}速度快得令人担忧。{BR}我建议各位赶紧跑，{BR}别忙着看！",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：DinosaurStampede / CaptainCosmic；类型：flavor.quote。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@DinosaurStampede/flavorReference",
     "original": "Captain Cosmic, Prime Wardens Vol. 1 #135",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙队长，《原初守卫》第1卷第135期",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：DinosaurStampede；类型：flavor.reference。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@EnragedTRex/title",
     "original": "Enraged T. Rex",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂怒暴龙",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：EnragedTRex；类型：card.title。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@EnragedTRex/gameTexts/0/body/0",
     "original": "This card deals the target other than itself with the second lowest HP 5 melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对除自身以外生命值第二低的目标造成5点近战伤害。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：EnragedTRex；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@EnragedTRex/flavorQuotes/@Haka/text",
     "original": "Hey! Big fella! Why don’t you pick on{BR}someone who’s at least a bit closer to{BR}your own size!",
-    "translation": "",
-    "stage": 0,
+    "translation": "喂！大块头！{BR}有本事找个块头{BR}跟你接近点的较量！",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：EnragedTRex / Haka；类型：flavor.quote。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@EnragedTRex/flavorReference",
     "original": "Haka, Tome of the Bizarre Vol. 2 #344",
-    "translation": "",
-    "stage": 0,
+    "translation": "哈卡，《诡奇之书》第2卷第344期",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：EnragedTRex；类型：flavor.reference。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@GrazingStegosaurus/title",
     "original": "Grazing Stegosaurus",
-    "translation": "",
-    "stage": 0,
+    "translation": "食草剑龙",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：GrazingStegosaurus；类型：card.title。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@GrazingStegosaurus/gameTexts/0/body/0",
     "original": "The Hero with the fewest cards in hand draws 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "手牌最少的英雄抽1张牌。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：GrazingStegosaurus；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@GrazingStegosaurus/gameTexts/1/body/0",
     "original": "This card deals the target other than itself with the second highest HP 2 melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对除自身以外生命值第二高的目标造成2点近战伤害。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：GrazingStegosaurus；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@GrazingStegosaurus/flavorQuotes/@TheArgentAdept/text",
     "original": "If we can pass this way without{BR}disturbing the creature, it should not{BR}bother us. Unless something provokes{BR}it, of course.",
-    "translation": "",
-    "stage": 0,
+    "translation": "只要经过时不惊扰它，{BR}它应该不会找我们麻烦。{BR}当然，前提是{BR}没有什么东西激怒它。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：GrazingStegosaurus / TheArgentAdept；类型：flavor.quote。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@GrazingStegosaurus/flavorReference",
     "original": "The Argent Adept, Prime Wardens Vol. 1 #2",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《原初守卫》第1卷第2期",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：GrazingStegosaurus；类型：flavor.reference。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@ImminentEruption/title",
     "original": "Imminent Eruption",
-    "translation": "",
-    "stage": 0,
+    "translation": "喷发将至",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：ImminentEruption；类型：card.title。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@ImminentEruption/gameTexts/0/body/0",
     "original": "If this card has 10 or more HP, play the top card of the Environment deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若此牌的生命值为10或更多，打出环境牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：ImminentEruption；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@ImminentEruption/gameTexts/0/body/1",
     "original": "If this card has 9 or fewer HP, this card deals each target other than itself X fire damage, where X is the current HP of this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若此牌的生命值为9或更少，此牌对除自身以外的每个目标造成X点火焰伤害，X为此牌的当前生命值。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：ImminentEruption；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@ImminentEruption/gameTexts/0/body/2",
     "original": "If this card is at 0 HP, shuffle it into the Environment deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若此牌的生命值为0，将其洗入环境牌库。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：ImminentEruption；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@ImminentEruption/flavorQuotes/@CitizenDawn/text",
     "original": "Behold! This land you dare to tread upon{BR}shall be your undoing! You never should{BR}have trespassed on my island.",
-    "translation": "",
-    "stage": 0,
+    "translation": "看清楚了！你们胆敢踏上的这片土地，{BR}将成为你们的葬身之地！{BR}你们就不该擅闯我的岛！",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：ImminentEruption / CitizenDawn；类型：flavor.quote。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@ImminentEruption/flavorReference",
     "original": "Citizen Dawn, Freedom Five #269",
-    "translation": "",
-    "stage": 0,
+    "translation": "黎明公民，《自由五杰》第269期",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：ImminentEruption；类型：flavor.reference。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@PrimordialPlantLife/title",
     "original": "Primordial Plant Life",
-    "translation": "",
-    "stage": 0,
+    "translation": "远古植被",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：PrimordialPlantLife；类型：card.title。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@PrimordialPlantLife/gameTexts/0/body/0",
     "original": "Each target regains 1 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每个目标恢复1点生命值。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：PrimordialPlantLife；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@PrimordialPlantLife/gameTexts/1/body/0",
     "original": "The non-Environment target with the lowest HP deals itself 3 fixed toxic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "生命值最低的非环境目标对自身造成3点固定毒素伤害。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：PrimordialPlantLife；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@PrimordialPlantLife/flavorQuotes/@BaronBlade/text",
     "original": "Do watch your step. The prehistoric{BR}creatures aren’t the only dangers lurking{BR}in this jungle.",
-    "translation": "",
-    "stage": 0,
+    "translation": "还请留神脚下。{BR}这片丛林里潜伏的危险，{BR}可不止那些史前生物。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：PrimordialPlantLife / BaronBlade；类型：flavor.quote。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@PrimordialPlantLife/flavorReference",
     "original": "Baron Blade, Justice Comics #584",
-    "translation": "",
-    "stage": 0,
+    "translation": "刀锋男爵，《正义漫画》第584期",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：PrimordialPlantLife；类型：flavor.reference。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@PterodactylThief/title",
     "original": "Pterodactyl Thief",
-    "translation": "",
-    "stage": 0,
+    "translation": "翼手龙窃贼",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：PterodactylThief；类型：card.title。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@PterodactylThief/gameTexts/0/body/0",
     "original": "Destroy 1 Item card. Put cards destroyed this way under this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1张物品牌。将以此法破坏的牌置于此牌下方。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：PterodactylThief；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@PterodactylThief/gameTexts/1/body/0",
     "original": "This card deals the target other than itself with the highest HP X sonic damage, where X is the number of cards under this card plus 1.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对除自身以外生命值最高的目标造成X点音波伤害，X为此牌下方的卡牌数量加1。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：PterodactylThief；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@PterodactylThief/flavorQuotes/@Fanatic/text",
     "original": "Something about the glint of my{BR}blade has drawn this creature to me! Back,{BR}back! Your grasping talons will find no{BR}purchase here!",
-    "translation": "",
-    "stage": 0,
+    "translation": "它似乎是被我剑刃上的闪光引来的！{BR}退下！退下！{BR}休想从我这里{BR}抓走任何东西！",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：PterodactylThief / Fanatic；类型：flavor.quote。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@PterodactylThief/flavorReference",
     "original": "Fanatic, Prime Wardens Vol. 1 #136",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信，《原初守卫》第1卷第136期",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：PterodactylThief；类型：flavor.reference。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@RiverOfLava/title",
     "original": "River of Lava",
-    "translation": "",
-    "stage": 0,
+    "translation": "熔岩之河",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：RiverOfLava；类型：card.title。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@RiverOfLava/gameTexts/0/body/0",
     "original": "If Imminent Eruption is not in play, summon Imminent Eruption.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若“喷发将至”不在场，召唤“喷发将至”。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：RiverOfLava；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@RiverOfLava/gameTexts/1/body/0",
     "original": "Imminent Eruption deals each target other than itself 2 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "“喷发将至”对除自身以外的每个目标造成2点火焰伤害。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：RiverOfLava；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@RiverOfLava/flavorQuotes/@AkashBhuta/text",
     "original": "A part of the world as old as I am.{BR}Not only for regrowing, this is a place of{BR}great destruction. Things are born and{BR}end in flame here.",
-    "translation": "",
-    "stage": 0,
+    "translation": "这片土地，与我同样古老。{BR}这里孕育新生，也酝酿浩劫。{BR}万物在烈焰中诞生，{BR}也在烈焰中终结。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：RiverOfLava / AkashBhuta；类型：flavor.quote。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@RiverOfLava/flavorReference",
     "original": "Akash’Bhuta, Mother Earth One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "阿卡什怖妲，《大地之母》独立特刊",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：RiverOfLava；类型：flavor.reference。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@VelociraptorPack/title",
     "original": "Velociraptor Pack",
-    "translation": "",
-    "stage": 0,
+    "translation": "迅猛龙群",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：VelociraptorPack；类型：card.title。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@VelociraptorPack/gameTexts/0/body/0",
     "original": "+2 damage dealt by this card for each other Velociraptor Pack card in play.",
-    "translation": "",
-    "stage": 0,
+    "translation": "场上每有一张其他“迅猛龙群”，此牌造成的伤害+2。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：VelociraptorPack；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@VelociraptorPack/gameTexts/1/body/0",
     "original": "This card deals the non-Velociraptor Pack target with the lowest HP 2 melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对“迅猛龙群”以外生命值最低的目标造成2点近战伤害。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：VelociraptorPack；类型：rules.body。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@VelociraptorPack/flavorQuotes/@Tempest/text",
     "original": "I have encountered many bizarre{BR}creatures on this strange planet, yet few{BR}quite so clever as these.",
-    "translation": "",
-    "stage": 0,
+    "translation": "在这颗陌生的星球上，{BR}我见过许多奇异的生物，{BR}却很少有像它们这样聪明的。",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：VelociraptorPack / Tempest；类型：flavor.quote。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "InsulaPrimalisDeckList.json::turnTakers/@InsulaPrimalis/decks/@InsulaPrimalis/cards/@VelociraptorPack/flavorReference",
     "original": "Tempest, Prime Wardens Vol. 1 #136",
-    "translation": "",
-    "stage": 0,
+    "translation": "风暴，《原初守卫》第1卷第136期",
+    "stage": 1,
     "context": "卡组：InsulaPrimalis；对象：VelociraptorPack；类型：flavor.reference。\n来源：InsulaPrimalisDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   }
 ]

@@ -2,15 +2,15 @@
   {
     "key": "display.text-types.Power",
     "original": "Power",
-    "translation": "",
-    "stage": 0,
+    "translation": "异能",
+    "stage": 1,
     "context": "显示别名；类型：text-types。仅供显示层翻译，不回写内部枚举或规则关键词。\n原值：Power；显示方式、大小写和图标组合待实机验证。"
   },
   {
     "key": "display.text-types.IncapacitatedAbility",
     "original": "IncapacitatedAbility",
-    "translation": "",
-    "stage": 0,
+    "translation": "失能能力",
+    "stage": 1,
     "context": "显示别名；类型：text-types。仅供显示层翻译，不回写内部枚举或规则关键词。\n原值：IncapacitatedAbility；显示方式、大小写和图标组合待实机验证。"
   },
   {
@@ -23,15 +23,15 @@
   {
     "key": "display.text-types.Setup",
     "original": "Setup",
-    "translation": "",
-    "stage": 0,
+    "translation": "准备",
+    "stage": 1,
     "context": "显示别名；类型：text-types。仅供显示层翻译，不回写内部枚举或规则关键词。\n原值：Setup；显示方式、大小写和图标组合待实机验证。"
   },
   {
     "key": "display.text-types.Reaction",
     "original": "Reaction",
-    "translation": "",
-    "stage": 0,
+    "translation": "反应",
+    "stage": 1,
     "context": "显示别名；类型：text-types。仅供显示层翻译，不回写内部枚举或规则关键词。\n原值：Reaction；显示方式、大小写和图标组合待实机验证。"
   },
   {
@@ -44,8 +44,8 @@
   {
     "key": "display.text-types.Ability",
     "original": "Ability",
-    "translation": "",
-    "stage": 0,
+    "translation": "能力",
+    "stage": 1,
     "context": "显示别名；类型：text-types。仅供显示层翻译，不回写内部枚举或规则关键词。\n原值：Ability；显示方式、大小写和图标组合待实机验证。"
   }
 ]

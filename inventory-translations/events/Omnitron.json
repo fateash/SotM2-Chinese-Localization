@@ -2,57 +2,57 @@
   {
     "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@SingularityEvent/title",
     "original": "Singularity",
-    "translation": "",
-    "stage": 0,
+    "translation": "奇点",
+    "stage": 1,
     "context": "卡组：Omnitron；对象：SingularityEvent；类型：events.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@SingularityEvent/gameTexts/0/title",
     "original": "Pervasive Omnicode",
-    "translation": "",
-    "stage": 0,
+    "translation": "代码渗透",
+    "stage": 1,
     "context": "卡组：Omnitron；对象：SingularityEvent；类型：ability.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@SingularityEvent/gameTexts/0/body/0",
     "original": "Each Item card gains the keyword “<style=Keywords>DEVICE</style>”, has 6 HP, and gains the following game text:",
-    "translation": "",
-    "stage": 0,
+    "translation": "每张物品牌获得关键词“<style=Keywords>装置</style>”，具有6点生命值，并获得以下规则正文：",
+    "stage": 1,
     "context": "卡组：Omnitron；对象：SingularityEvent；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@SingularityEvent/gameTexts/0/gainGameText/body/0",
     "original": "This card deals each non-Device Hero target 1 lightning damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对每个非装置英雄目标造成1点闪电伤害。",
+    "stage": 1,
     "context": "卡组：Omnitron；对象：SingularityEvent；类型：rules.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/gainGameText/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@SingularityEvent/body/0",
     "original": "Omnitron in a massive robotic form attacks the Eastern Seaboard,{BR}leading to a conflict in Megalopolis vs. the Freedom Five. The{BR}Heroes mobilize and protect the city, and even seem successful in{BR}destroying the rampaging robot... but their victory is short-lived.{BR}Omnitron isn’t a pile of metal parts -- it’s the code, and that code{BR}has started infecting all electronics it encounters.",
-    "translation": "",
-    "stage": 0,
+    "translation": "全能智创以巨型机器人的形态袭击美国东海岸，{BR}并在巨都会与自由五杰交战。英雄们动员起来守护城市，{BR}甚至似乎成功击毁了这台暴走的机器人……{BR}但胜利转瞬即逝。全能智创并非一堆金属零件，{BR}它的本体是代码，而这些代码已经开始感染{BR}接触到的一切电子设备。",
+    "stage": 1,
     "context": "卡组：Omnitron；对象：SingularityEvent；类型：events.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@SingularityEvent/body/1",
     "original": "Now that Omnitron conflicts are occurring everywhere, the heroes{BR}must scramble to deal with this incursion on many fronts, knowing{BR}that the only way to truly win is to isolate all of the Omnitron code{BR}before it can assimilate everything!",
-    "translation": "",
-    "stage": 0,
+    "translation": "如今，全能智创引发的战斗四处爆发，英雄们{BR}必须奔走于多条战线，抵御这场入侵。他们深知，{BR}唯有赶在一切遭到同化之前，隔离全部智创代码，{BR}才能取得真正的胜利！",
+    "stage": 1,
     "context": "卡组：Omnitron；对象：SingularityEvent；类型：events.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@DeusExMachinaEvent/title",
     "original": "Deus Ex Machina",
-    "translation": "",
-    "stage": 0,
+    "translation": "机械降神",
+    "stage": 1,
     "context": "卡组：Omnitron；对象：DeusExMachinaEvent；类型：events.title。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "OmnitronDeckList.json::turnTakers/@Omnitron/decks/@Omnitron/events/@DeusExMachinaEvent/body/0",
     "original": "After the events of Singularity, the various pieces of Omnitron{BR}were considered inert. They were taken to a number of labs for{BR}study. So, when a cosmic force from far beyond our own galaxy{BR}reached out to imbue the remnants of Omnitron with power, the{BR}birth of the entity known as Cosmic Omnitron was a birth of fire{BR}and destruction!",
-    "translation": "",
-    "stage": 0,
+    "translation": "《奇点》事件过后，全能智创的各个残骸{BR}被认为已失去活性，送往多家实验室研究。{BR}然而，一股来自银河系之外遥远宇宙的力量{BR}降临，为全能智创的残骸注入能量。{BR}于是，名为宇宙全能智创的存在，{BR}在烈焰与毁灭中诞生！",
+    "stage": 1,
     "context": "卡组：Omnitron；对象：DeusExMachinaEvent；类型：events.body。\n来源：OmnitronDeckList.json#/turnTakers/0/decks/0/events/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

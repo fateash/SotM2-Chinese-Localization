@@ -2,771 +2,771 @@
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/title",
     "original": "Unity",
-    "translation": "",
-    "stage": 0,
+    "translation": "优妮蒂",
+    "stage": 1,
     "context": "卡组：Unity；对象：Unity；类型：deck.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@UnityCharacter/title",
     "original": "Unity",
-    "translation": "",
-    "stage": 0,
+    "translation": "优妮蒂",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@UnityCharacter/gameTexts/0/title",
     "original": "Bot Hack",
-    "translation": "",
-    "stage": 0,
+    "translation": "拆解造偶",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：ability.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@UnityCharacter/gameTexts/0/body/0",
     "original": "Destroy 1 Item card. If you do, play or discover 1 Mechanical Golem.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1张物品牌。若如此做，打出或发现1张机偶牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@UnityCharacter/flippedGameTexts/0/title",
     "original": "Incapable Creator",
-    "translation": "",
-    "stage": 0,
+    "translation": "无力造物",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：ability.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@UnityCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Play}。",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@UnityCharacter/flippedGameTexts/0/body/1",
     "original": "1 Hero salvages 1 Item card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄回收1张物品牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@UnityCharacter/flippedGameTexts/0/body/2",
     "original": "The Hero target with the lowest HP regains 3 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "生命值最低的英雄目标恢复3点生命值。",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ArsenalBot/title",
     "original": "Arsenal Bot",
-    "translation": "",
-    "stage": 0,
+    "translation": "武库机偶",
+    "stage": 1,
     "context": "卡组：Unity；对象：ArsenalBot；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ArsenalBot/gameTexts/0/body/0",
     "original": "This card cannot be played during your {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌无法在你的{Play}打出。",
+    "stage": 1,
     "context": "卡组：Unity；对象：ArsenalBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ArsenalBot/gameTexts/1/body/0",
     "original": "This card deals up to 2 targets 2 projectile damage each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对至多2个目标各造成2点投射伤害。",
+    "stage": 1,
     "context": "卡组：Unity；对象：ArsenalBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ArsenalBot/flavorQuotes/@ArsenalBot/text",
     "original": "<b>BUDDA BUDDA BUDDA.</b>",
-    "translation": "",
-    "stage": 0,
+    "translation": "<b>哒哒哒。哒哒哒。</b>",
+    "stage": 1,
     "context": "卡组：Unity；对象：ArsenalBot / ArsenalBot；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ArsenalBot/flavorReference",
     "original": "Arsenal Bot, Freedom Five Annual #12",
-    "translation": "",
-    "stage": 0,
+    "translation": "武库机偶，《自由五杰年刊》第12期",
+    "stage": 1,
     "context": "卡组：Unity；对象：ArsenalBot；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@BeeBot/title",
     "original": "Bee Bot",
-    "translation": "",
-    "stage": 0,
+    "translation": "蜜蜂机偶",
+    "stage": 1,
     "context": "卡组：Unity；对象：BeeBot；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@BeeBot/gameTexts/0/body/0",
     "original": "This card cannot be played during your {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌无法在你的{Play}打出。",
+    "stage": 1,
     "context": "卡组：Unity；对象：BeeBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@BeeBot/gameTexts/1/body/0",
     "original": "When this card is destroyed, you may destroy 1 Ongoing card. Then, {Unity} deals 1 target 2 projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌被破坏时，你可以破坏1张持续牌。然后，{Unity}对1个目标造成2点投射伤害。",
+    "stage": 1,
     "context": "卡组：Unity；对象：BeeBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@BeeBot/flavorQuotes/@Unity/text",
     "original": "I know it’s more like a hornet, Dr. Boring...{BR}but Bee Bot is more <b>fun</b> to say!",
-    "translation": "",
-    "stage": 0,
+    "translation": "我知道它更像胡蜂，无聊博士……{BR}可“蜜蜂机偶”叫起来更<b>好玩</b>嘛！",
+    "stage": 1,
     "context": "卡组：Unity；对象：BeeBot / Unity；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@BeeBot/flavorReference",
     "original": "Unity, Freedom Five Annual #20",
-    "translation": "",
-    "stage": 0,
+    "translation": "优妮蒂，《自由五杰年刊》第20期",
+    "stage": 1,
     "context": "卡组：Unity；对象：BeeBot；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@Brainstorm/title",
     "original": "Brainstorm",
-    "translation": "",
-    "stage": 0,
+    "translation": "头脑风暴",
+    "stage": 1,
     "context": "卡组：Unity；对象：Brainstorm；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@Brainstorm/gameTexts/0/body/0",
     "original": "Draw 3 cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽3张牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：Brainstorm；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@Brainstorm/gameTexts/1/body/0",
     "original": "{Unity} deals up to 3 targets 1 lightning damage each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Unity}对至多3个目标各造成1点闪电伤害。",
+    "stage": 1,
     "context": "卡组：Unity；对象：Brainstorm；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@Brainstorm/flavorQuotes/@Unity/text",
     "original": "The stuff I make up is <b>way</b> better{BR}than most actual facts.",
-    "translation": "",
-    "stage": 0,
+    "translation": "我想出来的东西，{BR}可比大多数真事儿<b>精彩多了</b>。",
+    "stage": 1,
     "context": "卡组：Unity；对象：Brainstorm / Unity；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@Brainstorm/flavorReference",
     "original": "Unity, Cosmic Tales Vol. 2 #371",
-    "translation": "",
-    "stage": 0,
+    "translation": "优妮蒂，《宇宙奇谭》第2卷第371期",
+    "stage": 1,
     "context": "卡组：Unity；对象：Brainstorm；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ChampionBot/title",
     "original": "Champion Bot",
-    "translation": "",
-    "stage": 0,
+    "translation": "冠军机偶",
+    "stage": 1,
     "context": "卡组：Unity；对象：ChampionBot；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ChampionBot/gameTexts/0/body/0",
     "original": "This card cannot be played during your {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌无法在你的{Play}打出。",
+    "stage": 1,
     "context": "卡组：Unity；对象：ChampionBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ChampionBot/gameTexts/1/body/0",
     "original": "+1 damage dealt by {Unity} and Mechanical Golem cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Unity}和机偶牌造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：Unity；对象：ChampionBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ChampionBot/flavorQuotes/@Unity/text",
     "original": "Let’s go save the world, Champion Bot!",
-    "translation": "",
-    "stage": 0,
+    "translation": "走吧，冠军机偶！咱们去拯救世界！",
+    "stage": 1,
     "context": "卡组：Unity；对象：ChampionBot / Unity；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ChampionBot/flavorReference",
     "original": "Unity, Freedom Five Annual #12",
-    "translation": "",
-    "stage": 0,
+    "translation": "优妮蒂，《自由五杰年刊》第12期",
+    "stage": 1,
     "context": "卡组：Unity；对象：ChampionBot；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ConstructionPylon/title",
     "original": "Construction Pylon",
-    "translation": "",
-    "stage": 0,
+    "translation": "建造支柱",
+    "stage": 1,
     "context": "卡组：Unity；对象：ConstructionPylon；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ConstructionPylon/gameTexts/0/body/0",
     "original": "Play up to 2 Mechanical Golem cards. Then, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "打出至多2张机偶牌。然后，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：ConstructionPylon；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ConstructionPylon/flavorQuotes/@Tachyon/text",
     "original": "See, you can do anything that you put your mind to!{BR}Quite literally in your case!",
-    "translation": "",
-    "stage": 0,
+    "translation": "瞧，只要用心，你就什么都做得到！{BR}对你来说，这话还真是字面意思！",
+    "stage": 1,
     "context": "卡组：Unity；对象：ConstructionPylon / Tachyon；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ConstructionPylon/flavorReference",
     "original": "Tachyon, Freedom Five #489",
-    "translation": "",
-    "stage": 0,
+    "translation": "快子，《自由五杰》第489期",
+    "stage": 1,
     "context": "卡组：Unity；对象：ConstructionPylon；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@CryoBot/title",
     "original": "Cryo Bot",
-    "translation": "",
-    "stage": 0,
+    "translation": "低温机偶",
+    "stage": 1,
     "context": "卡组：Unity；对象：CryoBot；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@CryoBot/gameTexts/0/body/0",
     "original": "This card cannot be played during your {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌无法在你的{Play}打出。",
+    "stage": 1,
     "context": "卡组：Unity；对象：CryoBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@CryoBot/gameTexts/1/body/0",
     "original": "After this card is dealt fire damage, it deals that much cold damage to 1 target.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌受到火焰伤害后，对1个目标造成等量的寒冷伤害。",
+    "stage": 1,
     "context": "卡组：Unity；对象：CryoBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@CryoBot/gameTexts/2/body/0",
     "original": "This card deals up to 3 targets 1 cold damage each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对至多3个目标各造成1点寒冷伤害。",
+    "stage": 1,
     "context": "卡组：Unity；对象：CryoBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@CryoBot/flavorQuotes/@Unity/text",
     "original": "Don’t be sad, Cryo Bot! Everyone loves you!",
-    "translation": "",
-    "stage": 0,
+    "translation": "别难过啦，低温机偶！大家都喜欢你！",
+    "stage": 1,
     "context": "卡组：Unity；对象：CryoBot / Unity；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@CryoBot/flavorReference",
     "original": "Unity, Freedom Five Annual #12",
-    "translation": "",
-    "stage": 0,
+    "translation": "优妮蒂，《自由五杰年刊》第12期",
+    "stage": 1,
     "context": "卡组：Unity；对象：CryoBot；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@FlashForge/title",
     "original": "Flash Forge",
-    "translation": "",
-    "stage": 0,
+    "translation": "瞬间锻造",
+    "stage": 1,
     "context": "卡组：Unity；对象：FlashForge；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@FlashForge/gameTexts/0/body/0",
     "original": "{Unity} deals herself 1 fixed psychic damage. Each Mechanical Golem card regains 1 HP. Either discover 1 Mechanical Golem card or discover 1 Item card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Unity}对自己造成1点固定精神伤害。每张机偶牌恢复1点生命值。发现1张机偶牌，或发现1张物品牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：FlashForge；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@FlashForge/flavorQuotes/@Unity/text",
     "original": "Eek! I need some help here!{BR}Time to make a new friend!",
-    "translation": "",
-    "stage": 0,
+    "translation": "呀！我这儿需要帮忙！{BR}该造个新朋友了！",
+    "stage": 1,
     "context": "卡组：Unity；对象：FlashForge / Unity；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@FlashForge/flavorReference",
     "original": "Unity, Freedom Five Annual #20",
-    "translation": "",
-    "stage": 0,
+    "translation": "优妮蒂，《自由五杰年刊》第20期",
+    "stage": 1,
     "context": "卡组：Unity；对象：FlashForge；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@HastyAugmentation/title",
     "original": "Hasty Augmentation",
-    "translation": "",
-    "stage": 0,
+    "translation": "临阵强化",
+    "stage": 1,
     "context": "卡组：Unity；对象：HastyAugmentation；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@HastyAugmentation/gameTexts/0/body/0",
     "original": "1 Hero may use 1 power. +2 to damage dealt by that Hero with that power.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄可以使用1个异能。该英雄通过该异能造成的伤害+2。",
+    "stage": 1,
     "context": "卡组：Unity；对象：HastyAugmentation；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@HastyAugmentation/flavorQuotes/@Benchmark/text",
     "original": "Hey! Direct control of targeting?{BR}Now <b>that's</b> what I'm talking about!",
-    "translation": "",
-    "stage": 0,
+    "translation": "嘿！能直接控制瞄准了？{BR}<b>这才像话嘛！</b>",
+    "stage": 1,
     "context": "卡组：Unity；对象：HastyAugmentation / Benchmark；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@HastyAugmentation/flavorReference",
     "original": "Benchmark, RevoCorp Present #35",
-    "translation": "",
-    "stage": 0,
+    "translation": "标杆，《锐沃呈献》第35期",
+    "stage": 1,
     "context": "卡组：Unity；对象：HastyAugmentation；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@InspiredRepair/title",
     "original": "Inspired Repair",
-    "translation": "",
-    "stage": 0,
+    "translation": "灵感修复",
+    "stage": 1,
     "context": "卡组：Unity；对象：InspiredRepair；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@InspiredRepair/gameTexts/0/body/0",
     "original": "Draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽1张牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：InspiredRepair；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@InspiredRepair/gameTexts/1/body/0",
     "original": "Each Mechanical Golem card regains 3 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每张机偶牌恢复3点生命值。",
+    "stage": 1,
     "context": "卡组：Unity；对象：InspiredRepair；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@InspiredRepair/gameTexts/2/body/0",
     "original": "Play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "打出1张牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：InspiredRepair；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@InspiredRepair/flavorQuotes/@Chokepoint/text",
     "original": "You call them your friends, but you are enslaving{BR}living metal for your purposes! Cease your-- Hey. Wait.{BR}Stop that. Stop <b>fixing</b> them!",
-    "translation": "",
-    "stage": 0,
+    "translation": "你口口声声说它们是朋友，却为了自己{BR}奴役活生生的金属！立刻停止你的——喂。等等。{BR}住手。别再<b>修</b>它们了！",
+    "stage": 1,
     "context": "卡组：Unity；对象：InspiredRepair / Chokepoint；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@InspiredRepair/flavorReference",
     "original": "Chokepoint, Freedom Five #773",
-    "translation": "",
-    "stage": 0,
+    "translation": "扼机女，《自由五杰》第773期",
+    "stage": 1,
     "context": "卡组：Unity；对象：InspiredRepair；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ModularWorkbench/title",
     "original": "Modular Workbench",
-    "translation": "",
-    "stage": 0,
+    "translation": "模块工作台",
+    "stage": 1,
     "context": "卡组：Unity；对象：ModularWorkbench；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ModularWorkbench/gameTexts/0/body/0",
     "original": "Play 1 card. If that card is not a Mechanical Golem card, draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "打出1张牌。若该牌不是机偶牌，抽1张牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：ModularWorkbench；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ModularWorkbench/flavorQuotes/@Unity/text",
     "original": "Of course I built it myself!{BR}I mean, Tacky helped... but still!",
-    "translation": "",
-    "stage": 0,
+    "translation": "当然是我自己造的！{BR}我是说，快快也帮了忙……可那也算！",
+    "stage": 1,
     "context": "卡组：Unity；对象：ModularWorkbench / Unity；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ModularWorkbench/flavorReference",
     "original": "Unity, Science & Progress One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "优妮蒂，《科学与进步》独立特刊",
+    "stage": 1,
     "context": "卡组：Unity；对象：ModularWorkbench；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@PlatformBot/title",
     "original": "Platform Bot",
-    "translation": "",
-    "stage": 0,
+    "translation": "平台机偶",
+    "stage": 1,
     "context": "卡组：Unity；对象：PlatformBot；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@PlatformBot/gameTexts/0/body/0",
     "original": "This card cannot be played during your {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌无法在你的{Play}打出。",
+    "stage": 1,
     "context": "卡组：Unity；对象：PlatformBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@PlatformBot/gameTexts/1/body/0",
     "original": "−1 damage dealt to this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：Unity；对象：PlatformBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@PlatformBot/gameTexts/2/body/0",
     "original": "This card deals 1 target 3 energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对1个目标造成3点能量伤害。",
+    "stage": 1,
     "context": "卡组：Unity；对象：PlatformBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@PlatformBot/flavorQuotes/@Unity/text",
     "original": "Pew pew! <b>Lasers!</b>{BR}Just like the real thing, right?",
-    "translation": "",
-    "stage": 0,
+    "translation": "咻咻！<b>激光！</b>{BR}跟真的一样，对吧？",
+    "stage": 1,
     "context": "卡组：Unity；对象：PlatformBot / Unity；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@PlatformBot/flavorReference",
     "original": "Unity, Freedom Five #792",
-    "translation": "",
-    "stage": 0,
+    "translation": "优妮蒂，《自由五杰》第792期",
+    "stage": 1,
     "context": "卡组：Unity；对象：PlatformBot；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@PoweredShockWave/title",
     "original": "Powered Shock Wave",
-    "translation": "",
-    "stage": 0,
+    "translation": "电能震波",
+    "stage": 1,
     "context": "卡组：Unity；对象：PoweredShockWave；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/12/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@PoweredShockWave/gameTexts/0/body/0",
     "original": "{Unity} deals each non-Hero target X lightning damage, where X is the number of Mechanical Golem cards in play.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Unity}对每个非英雄目标各造成X点闪电伤害，X为场上的机偶牌数量。",
+    "stage": 1,
     "context": "卡组：Unity；对象：PoweredShockWave；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@PoweredShockWave/flavorQuotes/@Radioactivist/text",
     "original": "Argh! That actually hurt me! You can make{BR}lightning, too? Not fair!",
-    "translation": "",
-    "stage": 0,
+    "translation": "啊！这一下还真打疼我了！{BR}你居然也能放电？不公平！",
+    "stage": 1,
     "context": "卡组：Unity；对象：PoweredShockWave / Radioactivist；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/12/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@PoweredShockWave/flavorReference",
     "original": "Radioactivist, Freedom Five #498",
-    "translation": "",
-    "stage": 0,
+    "translation": "核激士，《自由五杰》第498期",
+    "stage": 1,
     "context": "卡组：Unity；对象：PoweredShockWave；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/12/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@RaptorBot/title",
     "original": "Raptor Bot",
-    "translation": "",
-    "stage": 0,
+    "translation": "迅猛龙机偶",
+    "stage": 1,
     "context": "卡组：Unity；对象：RaptorBot；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/13/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@RaptorBot/gameTexts/0/body/0",
     "original": "This card cannot be played during your {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌无法在你的{Play}打出。",
+    "stage": 1,
     "context": "卡组：Unity；对象：RaptorBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@RaptorBot/gameTexts/1/body/0",
     "original": "This card deals 1 target X melee damage,{BR}where X is the number of Mechanical Golem{BR}cards in play.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对1个目标造成X点近战伤害，{BR}X为场上的{BR}机偶牌数量。",
+    "stage": 1,
     "context": "卡组：Unity；对象：RaptorBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@RaptorBot/flavorQuotes/@Unity/text",
     "original": "Hi there, Mr. Chomps! Where are all your friends?",
-    "translation": "",
-    "stage": 0,
+    "translation": "嗨，咔嚓先生！你的朋友们都去哪儿了？",
+    "stage": 1,
     "context": "卡组：Unity；对象：RaptorBot / Unity；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/13/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@RaptorBot/flavorReference",
     "original": "Unity, Freedom Five #588",
-    "translation": "",
-    "stage": 0,
+    "translation": "优妮蒂，《自由五杰》第588期",
+    "stage": 1,
     "context": "卡组：Unity；对象：RaptorBot；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/13/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@RobotReclamation/title",
     "original": "Robot Reclamation",
-    "translation": "",
-    "stage": 0,
+    "translation": "机偶回收",
+    "stage": 1,
     "context": "卡组：Unity；对象：RobotReclamation；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/14/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@RobotReclamation/gameTexts/0/body/0",
     "original": "Salvage up to 3 Mechanical Golem cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "回收至多3张机偶牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：RobotReclamation；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@RobotReclamation/flavorQuotes/@OmnitronX/text",
     "original": "Inquiry: with focus and motivation, could your{BR}capabilities extend to altering my form?",
-    "translation": "",
-    "stage": 0,
+    "translation": "询问：如果集中注意力，并且愿意尝试，{BR}你的能力是否也能改变我的形态？",
+    "stage": 1,
     "context": "卡组：Unity；对象：RobotReclamation / OmnitronX；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/14/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@RobotReclamation/flavorReference",
     "original": "Omnitron-X, Freedom Five #697",
-    "translation": "",
-    "stage": 0,
+    "translation": "全能智创-X，《自由五杰》第697期",
+    "stage": 1,
     "context": "卡组：Unity；对象：RobotReclamation；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/14/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ScrapMetal/title",
     "original": "Scrap Metal",
-    "translation": "",
-    "stage": 0,
+    "translation": "废旧金属",
+    "stage": 1,
     "context": "卡组：Unity；对象：ScrapMetal；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/15/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ScrapMetal/gameTexts/0/body/0",
     "original": "After any Mechanical Golem card is destroyed, you may put it in your hand. If you do, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "任何机偶牌被破坏后，你可以将其加入手牌。若如此做，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：ScrapMetal；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ScrapMetal/gameTexts/1/body/0",
     "original": "You may play 1 card. If you do, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你可以打出1张牌。若如此做，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：ScrapMetal；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ScrapMetal/flavorQuotes/@Unity/text",
     "original": "Yeah, you’re right, champ. It’s been a long day.",
-    "translation": "",
-    "stage": 0,
+    "translation": "嗯，你说得对，冠军。今天可真够累的。",
+    "stage": 1,
     "context": "卡组：Unity；对象：ScrapMetal / Unity；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/15/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@ScrapMetal/flavorReference",
     "original": "Unity, Freedom Five #505",
-    "translation": "",
-    "stage": 0,
+    "translation": "优妮蒂，《自由五杰》第505期",
+    "stage": 1,
     "context": "卡组：Unity；对象：ScrapMetal；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/15/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@StealthBot/title",
     "original": "Stealth Bot",
-    "translation": "",
-    "stage": 0,
+    "translation": "潜行机偶",
+    "stage": 1,
     "context": "卡组：Unity；对象：StealthBot；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/16/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@StealthBot/gameTexts/0/body/0",
     "original": "This card cannot be played during your {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌无法在你的{Play}打出。",
+    "stage": 1,
     "context": "卡组：Unity；对象：StealthBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@StealthBot/gameTexts/1/body/0",
     "original": "−1 damage dealt to this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：Unity；对象：StealthBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@StealthBot/gameTexts/2/body/0",
     "original": "Whenever {Unity} or a Mechanical Golem card would be dealt damage, you may redirect it to this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每当{Unity}或机偶牌将受到伤害时，你可以将该次伤害转移给此牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：StealthBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@StealthBot/flavorQuotes/@Unity/text",
     "original": "So sneaky! Go get ‘em!",
-    "translation": "",
-    "stage": 0,
+    "translation": "真会藏！去收拾他们！",
+    "stage": 1,
     "context": "卡组：Unity；对象：StealthBot / Unity；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/16/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@StealthBot/flavorReference",
     "original": "Unity, Freedom Five Annual #12",
-    "translation": "",
-    "stage": 0,
+    "translation": "优妮蒂，《自由五杰年刊》第12期",
+    "stage": 1,
     "context": "卡组：Unity；对象：StealthBot；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/16/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@SupplyCrate/title",
     "original": "Supply Crate",
-    "translation": "",
-    "stage": 0,
+    "translation": "补给货箱",
+    "stage": 1,
     "context": "卡组：Unity；对象：SupplyCrate；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/17/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@SupplyCrate/gameTexts/0/body/0",
     "original": "After this card is played, draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌打出后，抽1张牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：SupplyCrate；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/17/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@SupplyCrate/gameTexts/1/body/0",
     "original": "You may draw 2 cards. If you do, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你可以抽2张牌。若如此做，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：SupplyCrate；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/17/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@SupplyCrate/flavorQuotes/@Unity/text",
     "original": "Don’t mind me. Gotta bring in just a few boxes of,{BR}uh, important metal... things.",
-    "translation": "",
-    "stage": 0,
+    "translation": "不用管我。我就是要搬进来几箱，{BR}呃，重要的金属……东西。",
+    "stage": 1,
     "context": "卡组：Unity；对象：SupplyCrate / Unity；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/17/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@SupplyCrate/flavorReference",
     "original": "Unity, Freedom Five Annual #11",
-    "translation": "",
-    "stage": 0,
+    "translation": "优妮蒂，《自由五杰年刊》第11期",
+    "stage": 1,
     "context": "卡组：Unity；对象：SupplyCrate；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/17/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@SwiftBot/title",
     "original": "Swift Bot",
-    "translation": "",
-    "stage": 0,
+    "translation": "疾速机偶",
+    "stage": 1,
     "context": "卡组：Unity；对象：SwiftBot；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/18/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@SwiftBot/gameTexts/0/body/0",
     "original": "This card cannot be played during your {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌无法在你的{Play}打出。",
+    "stage": 1,
     "context": "卡组：Unity；对象：SwiftBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/18/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@SwiftBot/gameTexts/1/body/0",
     "original": "You may play 1 additional card this phase.",
-    "translation": "",
-    "stage": 0,
+    "translation": "本阶段你可以额外打出1张牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：SwiftBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/18/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@SwiftBot/gameTexts/2/body/0",
     "original": "You may draw 1 additional card this phase.",
-    "translation": "",
-    "stage": 0,
+    "translation": "本阶段你可以额外抽1张牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：SwiftBot；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/18/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@SwiftBot/flavorQuotes/@SwiftBot/text",
     "original": "I am uptight about science and hate explosions{BR}in the lab.",
-    "translation": "",
-    "stage": 0,
+    "translation": "我对科学非常较真，{BR}而且讨厌实验室里发生爆炸。",
+    "stage": 1,
     "context": "卡组：Unity；对象：SwiftBot / SwiftBot；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/18/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@SwiftBot/flavorReference",
     "original": "Swift Bot, Freedom Five Annual #12",
-    "translation": "",
-    "stage": 0,
+    "translation": "疾速机偶，《自由五杰年刊》第12期",
+    "stage": 1,
     "context": "卡组：Unity；对象：SwiftBot；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/18/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@VolatileParts/title",
     "original": "Volatile Parts",
-    "translation": "",
-    "stage": 0,
+    "translation": "易爆零件",
+    "stage": 1,
     "context": "卡组：Unity；对象：VolatileParts；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/19/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@VolatileParts/gameTexts/0/body/0",
     "original": "After any Mechanical Golem card is destroyed, {Unity} deals the non-Hero target with the lowest HP 2 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "任何机偶牌被破坏后，{Unity}对生命值最低的非英雄目标造成2点火焰伤害。",
+    "stage": 1,
     "context": "卡组：Unity；对象：VolatileParts；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/19/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@VolatileParts/flavorQuotes/@Unity/text",
     "original": "What? Don’t look at me that way!{BR}Look, I can always rebuild you.",
-    "translation": "",
-    "stage": 0,
+    "translation": "怎么？别用那种眼神看我！{BR}我随时都能把你重新造出来嘛。",
+    "stage": 1,
     "context": "卡组：Unity；对象：VolatileParts / Unity；类型：flavor.quote。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/19/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/cards/@VolatileParts/flavorReference",
     "original": "Unity, Freedom Five #685",
-    "translation": "",
-    "stage": 0,
+    "translation": "优妮蒂，《自由五杰》第685期",
+    "stage": 1,
     "context": "卡组：Unity；对象：VolatileParts；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/cards/19/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/variants/@UnityCharacter/title",
     "original": "First Appearance: Unity",
-    "translation": "",
-    "stage": 0,
+    "translation": "初次登场：优妮蒂",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：card.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/variants/@UnityCharacter/gameTexts/0/title",
     "original": "Sparks!",
-    "translation": "",
-    "stage": 0,
+    "translation": "火花四溅！",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：ability.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/variants/@UnityCharacter/gameTexts/0/body/0",
     "original": "{Unity} deals 1 target 1 lightning damage. Play the top card of your deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Unity}对1个目标造成1点闪电伤害。打出你的牌库顶牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/variants/@UnityCharacter/flippedGameTexts/0/title",
     "original": "Not-tastic...",
-    "translation": "",
-    "stage": 0,
+    "translation": "妙极了……才怪！",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：ability.title。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/variants/@UnityCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Power}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Power}。",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/variants/@UnityCharacter/flippedGameTexts/0/body/1",
     "original": "1 Hero takes their {Draw}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Draw}。",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/variants/@UnityCharacter/flippedGameTexts/0/body/2",
     "original": "1 Hero discovers 1 Item card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄发现1张物品牌。",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：rules.body。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/variants/@UnityCharacter/flavorReference",
     "original": "Freedom Five Annual #11, June 1990",
-    "translation": "",
-    "stage": 0,
+    "translation": "《自由五杰年刊》第11期，1990年6月",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/variants/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "UnityDeckList.json::turnTakers/@Unity/decks/@Unity/variants/@UnityCharacter/flippedFlavorReference",
     "original": "Freedom Five Annual #12, Jun 1991",
-    "translation": "",
-    "stage": 0,
+    "translation": "《自由五杰年刊》第12期，1991年6月",
+    "stage": 1,
     "context": "卡组：Unity；对象：UnityCharacter；类型：flavor.reference。\n来源：UnityDeckList.json#/turnTakers/0/decks/0/variants/0/flippedFlavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

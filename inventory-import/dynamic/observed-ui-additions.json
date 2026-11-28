@@ -1,0 +1,128 @@
+[
+  {
+    "key": "editorial.ui.finish.regain",
+    "original": "{0} targets regain HP",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。{0}是所选目标数；单数target，复数targets；不是恢复量。"
+  },
+  {
+    "key": "editorial.ui.button.put.here",
+    "original": "Put Here",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。英雄手牌目的地；与Play Here在场打出不同。"
+  },
+  {
+    "key": "editorial.ui.button.reshuffle",
+    "original": "Reshuffle",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。本次为弃牌堆洗回所属牌库，需接入该用途；其他语境不全局替换。"
+  },
+  {
+    "key": "editorial.ui.button.play.item",
+    "original": "Play Item",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。卡牌效果按钮。"
+  },
+  {
+    "key": "editorial.ui.hint.dealer",
+    "original": "Click a target to have it deal damage.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。选伤害来源，不是受伤目标。"
+  },
+  {
+    "key": "editorial.ui.hint.regain",
+    "original": "Click up to {0} targets to regain HP.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。原文未给恢复量，不增添。"
+  },
+  {
+    "key": "editorial.ui.hint.most.consequences",
+    "original": "Click the hero who is considered to have the most cards in play (will take damage and destroy cards).",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。附加后果必须保留。"
+  },
+  {
+    "key": "editorial.ui.hint.immune",
+    "original": "Click a target to make it immune to damage.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。免疫受到的伤害。"
+  },
+  {
+    "key": "editorial.ui.hint.hero.lowest",
+    "original": "Click a Hero to determine which has the lowest HP.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。Hero对象限制。"
+  },
+  {
+    "key": "editorial.ui.hint.replace.card",
+    "original": "Click a card to replace it.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。Arcane Cadence展示后的五选分配。"
+  },
+  {
+    "key": "editorial.ui.hint.draw.card",
+    "original": "Click a card to draw it.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。抽取展示的牌。"
+  },
+  {
+    "key": "editorial.ui.hint.discard.card",
+    "original": "Click a card to discard it.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。不限定牌来自手牌。"
+  },
+  {
+    "key": "editorial.ui.hint.bury.card",
+    "original": "Click a card to bury it.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。Bury沿用冻结术语埋藏，不另造置底术语。"
+  },
+  {
+    "key": "editorial.ui.hint.put.hand",
+    "original": "Click a Hero's hand to to put {0} there.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。保留原文重复to；{0}为卡牌名称。"
+  },
+  {
+    "key": "editorial.ui.hint.most.ongoing",
+    "original": "Click the hero who is considered to have the most Ongoing cards in play.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。不可省略Ongoing限定。"
+  },
+  {
+    "key": "editorial.ui.hint.reduce.single",
+    "original": "Click a target to reduce damage dealt to it.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。不能译为减少造成的伤害。"
+  },
+  {
+    "key": "editorial.ui.hint.play.and.power",
+    "original": "Click or drag a card to play it. Click a power to use it.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。完整两句；额外后缀另审。"
+  },
+  {
+    "key": "editorial.ui.hint.shuffle.trash",
+    "original": "Click {0}'s trash to to shuffle it into its deck.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。{0}为牌库持有者；保留重复to原文。"
+  },
+  {
+    "key": "editorial.ui.hint.draw.owner.one",
+    "original": "Click {0}'s deck to draw a card.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。a card明确单张；{0}为持有者。"
+  },
+  {
+    "key": "editorial.ui.hint.blank",
+    "original": "Click a card in play to make it have no game text.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。未移除卡牌，也不等同于破坏。"
+  },
+  {
+    "key": "editorial.ui.hint.attack.noheader",
+    "original": "Click up to {0} targets to deal them <nobr>{1} {2}</nobr> damage.",
+    "translation": "",
+    "context": "已捕获完整句的编辑归一化；显示尚未接入。无来源标题变体；依次为上限、伤害量、伤害类型。"
+  }
+]

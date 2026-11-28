@@ -2,372 +2,372 @@
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/title",
     "original": "Freedom Tower",
-    "translation": "",
-    "stage": 0,
+    "translation": "自由大厦",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：FreedomTower；类型：deck.title。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@CaspitsPlayground/title",
     "original": "Caspit's “Playground”",
-    "translation": "",
-    "stage": 0,
+    "translation": "卡斯皮特的“乐园”",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：CaspitsPlayground；类型：card.title。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@CaspitsPlayground/gameTexts/0/body/0",
     "original": "Hero Ongoing cards gain the keyword “<style=Keywords>ITEM</style>”.",
-    "translation": "",
-    "stage": 0,
+    "translation": "英雄持续牌获得“<style=Keywords>物品</style>”关键词。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：CaspitsPlayground；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@CaspitsPlayground/flavorQuotes/@Unity/text",
     "original": "Quiet!{BR}In fact, I’d recommend staying out entirely.{BR}I’m... <b>creating</b>.",
-    "translation": "",
-    "stage": 0,
+    "translation": "安静！{BR}其实，我建议你们干脆别进来。{BR}我正在……<b>创造</b>。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：CaspitsPlayground / Unity；类型：flavor.quote。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/0/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@CaspitsPlayground/flavorReference",
     "original": "Devra Caspit, Freedom Five #645",
-    "translation": "",
-    "stage": 0,
+    "translation": "德芙拉·卡斯皮特，《自由五杰》第645期",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：CaspitsPlayground；类型：flavor.reference。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@DrStinsonsSecondaryLab/title",
     "original": "Dr. Stinson's Secondary Lab",
-    "translation": "",
-    "stage": 0,
+    "translation": "斯廷森博士的副实验室",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：DrStinsonsSecondaryLab；类型：card.title。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@DrStinsonsSecondaryLab/gameTexts/0/body/0",
     "original": "Each Hero reveals the top card of their deck and either discards it or replaces it.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每名英雄展示自己的牌库顶牌，然后弃置该牌或将其放回牌库顶。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：DrStinsonsSecondaryLab；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@DrStinsonsSecondaryLab/flavorQuotes/@Tachyon/text",
     "original": "Sure, I could get to the Eaken-Rubendall{BR}labs in a few seconds, but sometimes I don’t{BR}<b>have</b> a few seconds. Plus, no one touches{BR}my stuff here.",
-    "translation": "",
-    "stage": 0,
+    "translation": "没错，去伊肯-鲁本德尔实验室只要几秒。{BR}可有时候，{BR}我连这几秒都<b>没有</b>。{BR}再说，在这里没人乱碰我的东西。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：DrStinsonsSecondaryLab / Tachyon；类型：flavor.quote。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@DrStinsonsSecondaryLab/flavorReference",
     "original": "Dr. Meredith Stinson, Freedom Five #793",
-    "translation": "",
-    "stage": 0,
+    "translation": "梅雷迪思·斯廷森博士，《自由五杰》第793期",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：DrStinsonsSecondaryLab；类型：flavor.reference。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@EntryPoint/title",
     "original": "Entry Point",
-    "translation": "",
-    "stage": 0,
+    "translation": "破墙而入",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：EntryPoint；类型：card.title。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@EntryPoint/gameTexts/0/body/0",
     "original": "After this card is played, destroy 1 Room card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌打出后，破坏1张房间牌。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：EntryPoint；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@EntryPoint/gameTexts/1/body/0",
     "original": "+1 damage dealt by Villain targets.",
-    "translation": "",
-    "stage": 0,
+    "translation": "反派目标造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：EntryPoint；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@EntryPoint/flavorQuotes/@FrightTrain/text",
     "original": "You thought you’d be safe in here? Bad{BR}news: the Fright Train is pulling into the{BR}station! All aboard!",
-    "translation": "",
-    "stage": 0,
+    "translation": "以为躲在这里就安全了？{BR}坏消息：惊魂列车进站啦！{BR}都上车！",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：EntryPoint / FrightTrain；类型：flavor.quote。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@EntryPoint/flavorReference",
     "original": "Fright Train, Freedom Five Annual #27",
-    "translation": "",
-    "stage": 0,
+    "translation": "惊魂列车，《自由五杰年刊》第27期",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：EntryPoint；类型：flavor.reference。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@FreedomSecurityStaff/title",
     "original": "Freedom Security Staff",
-    "translation": "",
-    "stage": 0,
+    "translation": "自由安保",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：FreedomSecurityStaff；类型：card.title。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@FreedomSecurityStaff/gameTexts/0/body/0",
     "original": "This card counts as a Hero target. It is immune to damage dealt by Hero targets.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌视为英雄目标。此牌免疫英雄目标造成的伤害。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：FreedomSecurityStaff；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@FreedomSecurityStaff/gameTexts/1/body/0",
     "original": "1 Hero may discard 2 cards. If they do, destroy 1 Environment card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1名英雄可以弃置2张牌。若如此做，破坏1张环境牌。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：FreedomSecurityStaff；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@FreedomSecurityStaff/gameTexts/2/body/0",
     "original": "This card deals the Villain target with the highest HP 2 lightning damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对生命值最高的反派目标造成2点闪电伤害。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：FreedomSecurityStaff；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@FreedomSecurityStaff/flavorQuotes/@FreedomSecurityStaff/text",
     "original": "Seriously, why does this place even need{BR}security? It’s a building full of heroes! After{BR}one more round of patrols, I’m taking the{BR}rest of the night off.",
-    "translation": "",
-    "stage": 0,
+    "translation": "说真的，这地方还要什么保安？{BR}整栋楼都是超级英雄！{BR}再巡一圈，{BR}今晚我就歇了。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：FreedomSecurityStaff / FreedomSecurityStaff；类型：flavor.quote。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@FreedomSecurityStaff/flavorReference",
     "original": "Don Vickers, Freedom Five #511",
-    "translation": "",
-    "stage": 0,
+    "translation": "唐·维克斯，《自由五杰》第511期",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：FreedomSecurityStaff；类型：flavor.reference。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@FrostsCryoChamber/title",
     "original": "Frost's Cryo Chamber",
-    "translation": "",
-    "stage": 0,
+    "translation": "弗罗斯特的低温舱",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：FrostsCryoChamber；类型：card.title。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@FrostsCryoChamber/gameTexts/0/body/0",
     "original": "After an Item card is destroyed, the associated Hero draws 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "一张物品牌被破坏后，与该牌关联的英雄抽1张牌。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：FrostsCryoChamber；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@FrostsCryoChamber/gameTexts/1/body/0",
     "original": "Each target deals itself 1 fixed cold damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每个目标对自身造成1点固定寒冷伤害。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：FrostsCryoChamber；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@FrostsCryoChamber/flavorQuotes/@AbsoluteZero/text",
     "original": "Better comfortable in here than bored{BR}out there.",
-    "translation": "",
-    "stage": 0,
+    "translation": "外头待着也是无聊，{BR}还不如在这里舒服点。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：FrostsCryoChamber / AbsoluteZero；类型：flavor.quote。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@FrostsCryoChamber/flavorReference",
     "original": "Ryan Frost, Freedom Five #631",
-    "translation": "",
-    "stage": 0,
+    "translation": "瑞安·弗罗斯特，《自由五杰》第631期",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：FrostsCryoChamber；类型：flavor.reference。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@IroncladMaintenanceBay/title",
     "original": "Ironclad Maintenance Bay",
-    "translation": "",
-    "stage": 0,
+    "translation": "铁甲工坊",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：IroncladMaintenanceBay；类型：card.title。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@IroncladMaintenanceBay/gameTexts/0/body/0",
     "original": "Each Hero may salvage 1 Item card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每名英雄可以回收1张物品牌。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：IroncladMaintenanceBay；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@IroncladMaintenanceBay/flavorQuotes/@Bunker/text",
     "original": "Don’t mind me, folks. Just here to do{BR}another quick diagnostic on everything.{BR}Pull up the charts from yesterday, just{BR}to compare.",
-    "translation": "",
-    "stage": 0,
+    "translation": "各位，忙你们的。{BR}我就是再给所有装备做个快速检查。{BR}把昨天的图表调出来，{BR}对照一下。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：IroncladMaintenanceBay / Bunker；类型：flavor.quote。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@IroncladMaintenanceBay/flavorReference",
     "original": "Lt. Tyler Vance, Freedom Five #529",
-    "translation": "",
-    "stage": 0,
+    "translation": "泰勒·万斯中尉，《自由五杰》第529期",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：IroncladMaintenanceBay；类型：flavor.reference。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@LegacysLandingPad/title",
     "original": "Legacy's Landing Pad",
-    "translation": "",
-    "stage": 0,
+    "translation": "传承侠着陆台",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：LegacysLandingPad；类型：card.title。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@LegacysLandingPad/gameTexts/0/body/0",
     "original": "1 Hero may collect 1 Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1名英雄可以搜集1张持续牌。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：LegacysLandingPad；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@LegacysLandingPad/flavorQuotes/@FeliciaParsons/text",
     "original": "Yeah, Dad, I know how to fly. I’ve been{BR}flying for years. I very rarely mess up and{BR}fly through solid objects!",
-    "translation": "",
-    "stage": 0,
+    "translation": "知道啦，爸，我会飞。{BR}我都飞了多少年了！{BR}我已经很少失手撞穿东西了！",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：LegacysLandingPad / FeliciaParsons；类型：flavor.quote。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@LegacysLandingPad/flavorReference",
     "original": "Felicia Parsons, America’s Newest Legacy #500",
-    "translation": "",
-    "stage": 0,
+    "translation": "菲莉西娅·帕森斯，《美国新生：传承侠》第500期",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：LegacysLandingPad；类型：flavor.reference。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@MedicalWard/title",
     "original": "Medical Ward",
-    "translation": "",
-    "stage": 0,
+    "translation": "医疗病房",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：MedicalWard；类型：card.title。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@MedicalWard/gameTexts/0/body/0",
     "original": "Each target regains 1 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每个目标恢复1点生命值。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：MedicalWard；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@MedicalWard/flavorQuotes/@TheWraith/text",
     "original": "These medical bots are great, but{BR}did they have to be quite so... pink? I mean, I{BR}know that's your thing and all.{BR}But still.",
-    "translation": "",
-    "stage": 0,
+    "translation": "这些医疗机器人是挺好，{BR}可非得这么……粉吗？{BR}我是说，我知道你就喜欢这个。{BR}可这也太……",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：MedicalWard / TheWraith；类型：flavor.quote。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@MedicalWard/flavorReference",
     "original": "Maia Montgomery, Justice Comics #612",
-    "translation": "",
-    "stage": 0,
+    "translation": "玛雅·蒙哥马利，《正义漫画》第612期",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：MedicalWard；类型：flavor.reference。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@MissionControl/title",
     "original": "Mission Control",
-    "translation": "",
-    "stage": 0,
+    "translation": "任务中枢",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：MissionControl；类型：card.title。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@MissionControl/gameTexts/0/body/0",
     "original": "Each Hero reveals the top card of their deck. If the revealed card is a One-Shot card, discard that card. Otherwise, play it.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每名英雄展示自己的牌库顶牌。若展示的牌是瞬发牌，弃置该牌。否则，打出该牌。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：MissionControl；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@MissionControl/flavorQuotes/@Legacy/text",
     "original": "Good morning, heroes! Another big day{BR}today, and there’s no one I’d rather spend{BR}it with! Ready to get started?",
-    "translation": "",
-    "stage": 0,
+    "translation": "早上好，英雄们！今天又有得忙了，{BR}能和你们一起，我再高兴不过！{BR}准备开工了吗？",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：MissionControl / Legacy；类型：flavor.quote。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@MissionControl/flavorReference",
     "original": "Paul Parsons, Freedom Five #577",
-    "translation": "",
-    "stage": 0,
+    "translation": "保罗·帕森斯，《自由五杰》第577期",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：MissionControl；类型：flavor.reference。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@TheFrontDesk/title",
     "original": "The Front Desk",
-    "translation": "",
-    "stage": 0,
+    "translation": "接待前台",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：TheFrontDesk；类型：card.title。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@TheFrontDesk/gameTexts/0/body/0",
     "original": "Play the top card of the Environment deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "打出环境牌库顶的一张牌。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：TheFrontDesk；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@TheFrontDesk/flavorQuotes/@MissInformation/text",
     "original": "Welcome to the new Freedom Five{BR}headquarters! We’re here to help. What can{BR}we do for you today?",
-    "translation": "",
-    "stage": 0,
+    "translation": "欢迎来到自由五杰的新总部！{BR}我们很乐意提供帮助。{BR}今天有什么可以为您效劳的？",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：TheFrontDesk / MissInformation；类型：flavor.quote。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@TheFrontDesk/flavorReference",
     "original": "Aminia Twain, Freedom Five #510",
-    "translation": "",
-    "stage": 0,
+    "translation": "阿米妮娅·吐温，《自由五杰》第510期",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：TheFrontDesk；类型：flavor.reference。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@TheWraithsArsenal/title",
     "original": "The Wraith's Arsenal",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽魂武库",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：TheWraithsArsenal；类型：card.title。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@TheWraithsArsenal/gameTexts/0/body/0",
     "original": "Each Hero may draw 1 card. If all active Heroes draw cards this way, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每名英雄可以抽1张牌。若所有未失能的英雄均以此法抽牌，破坏此牌。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：TheWraithsArsenal；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@TheWraithsArsenal/flavorQuotes/@TheWraith/text",
     "original": "That’s the issue with projectiles. I’m{BR}constantly throwing away all my best{BR}stuff. I have to carry lots of extras.",
-    "translation": "",
-    "stage": 0,
+    "translation": "投掷武器就这点麻烦：{BR}最好的装备，总被我一件件扔出去。{BR}只好多带些备用的。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：TheWraithsArsenal / TheWraith；类型：flavor.quote。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@TheWraithsArsenal/flavorReference",
     "original": "The Wraith, Mystery Comics Vol. 2 #344",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽魂，《悬谜漫画》第2卷第344期",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：TheWraithsArsenal；类型：flavor.reference。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@TrainingSimulator/title",
     "original": "Training Simulator",
-    "translation": "",
-    "stage": 0,
+    "translation": "模拟训练室",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：TrainingSimulator；类型：card.title。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@TrainingSimulator/gameTexts/0/body/0",
     "original": "Discover 1 target from the Villain deck. Then, 1 Hero may use 1 power.",
-    "translation": "",
-    "stage": 0,
+    "translation": "从反派牌库中发现1张目标牌。然后，1名英雄可以使用1个异能。",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：TrainingSimulator；类型：rules.body。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@TrainingSimulator/flavorQuotes/@Legacy/text",
     "original": "Well, well... another one?{BR}Quite the punishing training session,{BR}indeed! Only way to improve!",
-    "translation": "",
-    "stage": 0,
+    "translation": "嚯……又来一个？{BR}这训练可真够狠的！{BR}就得这样，才有长进！",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：TrainingSimulator / Legacy；类型：flavor.quote。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "FreedomTowerDeckList.json::turnTakers/@FreedomTower/decks/@FreedomTower/cards/@TrainingSimulator/flavorReference",
     "original": "Legacy, America’s Finest Legacy #430",
-    "translation": "",
-    "stage": 0,
+    "translation": "传承侠，《美国至杰：传承侠》第430期",
+    "stage": 1,
     "context": "卡组：FreedomTower；对象：TrainingSimulator；类型：flavor.reference。\n来源：FreedomTowerDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   }
 ]

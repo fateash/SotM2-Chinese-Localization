@@ -2,750 +2,750 @@
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/title",
     "original": "The Argent Adept",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdept；类型：deck.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@TheArgentAdeptCharacter/title",
     "original": "The Argent Adept",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@TheArgentAdeptCharacter/gameTexts/0/title",
     "original": "Vocalize",
-    "translation": "",
-    "stage": 0,
+    "translation": "放声吟唱",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：ability.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@TheArgentAdeptCharacter/gameTexts/0/body/0",
     "original": "Activate 1 {PerformAbility}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发动1个{PerformAbility}。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@TheArgentAdeptCharacter/flippedGameTexts/0/title",
     "original": "Virtuoso's Final Note",
-    "translation": "",
-    "stage": 0,
+    "translation": "乐圣绝响",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：ability.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@TheArgentAdeptCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Power}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Power}。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@TheArgentAdeptCharacter/flippedGameTexts/0/body/1",
     "original": "1 target regains 2 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1个目标恢复2点生命值。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@TheArgentAdeptCharacter/flippedGameTexts/0/body/2",
     "original": "Select 1 damage type. Until your {Start}, +1 damage dealt of that type by Hero targets.",
-    "translation": "",
-    "stage": 0,
+    "translation": "选择1种伤害类型。直到你的{Start}，英雄目标造成的该类型伤害+1。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@AkpunkusDrum/title",
     "original": "Akpunku's Drum",
-    "translation": "",
-    "stage": 0,
+    "translation": "阿克蓬库之鼓",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：AkpunkusDrum；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@AkpunkusDrum/gameTexts/0/body/0",
     "original": "Activate the {AccompanyAbility} of 1 Rhythm card. Then, activate the {PerformAbility} of 1 Rhythm card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发动1张节奏牌的{AccompanyAbility}。然后，发动1张节奏牌的{PerformAbility}。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：AkpunkusDrum；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@AkpunkusDrum/flavorQuotes/@GloomWeaver/text",
     "original": "How can this mere <b>mortal</b> counter my despair?!",
-    "translation": "",
-    "stage": 0,
+    "translation": "区区一个<b>凡人</b>，怎能抗衡我的绝望之力？！",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：AkpunkusDrum / GloomWeaver；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@AkpunkusDrum/flavorReference",
     "original": "Gloomweaver, Nightmist #21",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽暗织魔，《夜雾》第21期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：AkpunkusDrum；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@AlacritousSubdominant/title",
     "original": "Alacritous Subdominant",
-    "translation": "",
-    "stage": 0,
+    "translation": "轻快下属音",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：AlacritousSubdominant；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@AlacritousSubdominant/gameTexts/0/body/0",
     "original": "1 Hero may play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄可以打出1张牌。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：AlacritousSubdominant；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@AlacritousSubdominant/gameTexts/1/body/0",
     "original": "You may use 1 Power. After you do so, put this card on the top of your deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你可以使用1个异能。如此做后，将此牌置于你的牌库顶。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：AlacritousSubdominant；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@AlacritousSubdominant/flavorQuotes/@CaptainCosmic/text",
     "original": "I feel the timbre of your verse flowing through{BR}me, shaping this construct like nothing I’ve{BR}ever manifested before!",
-    "translation": "",
-    "stage": 0,
+    "translation": "我能感到，你吟唱的音色正流过全身，{BR}将这件构造塑造成{BR}我从未具现过的模样！",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：AlacritousSubdominant / CaptainCosmic；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@AlacritousSubdominant/flavorReference",
     "original": "Captain Cosmic, Prime Wardens Vol. 1 #116",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙队长，《原初守卫》第1卷第116期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：AlacritousSubdominant；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@ArcaneCadence/title",
     "original": "Arcane Cadence",
-    "translation": "",
-    "stage": 0,
+    "translation": "奥术终止式",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：ArcaneCadence；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@ArcaneCadence/gameTexts/0/body/0",
     "original": "Reveal the top 5 cards of your deck. Draw 1 of them, replace 1, discard 1, bury 1, and play 1.",
-    "translation": "",
-    "stage": 0,
+    "translation": "展示你的牌库顶的5张牌。从中抽取1张，将1张放回原处，弃置1张，埋藏1张，并打出1张。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：ArcaneCadence；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@ArcaneCadence/flavorQuotes/@TheArgentAdept/text",
     "original": "I am pulled by magical forces beyond the{BR}knowledge of man. Nature, Void, Blood...{BR}<b>all</b> are my domain!",
-    "translation": "",
-    "stage": 0,
+    "translation": "超乎人类认知的魔力牵引着我。{BR}自然、虚空、鲜血……{BR}<b>皆</b>属我的领域！",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：ArcaneCadence / TheArgentAdept；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@ArcaneCadence/flavorReference",
     "original": "The Argent Adept, Virtuoso of the Void Vol. 2 #65",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《虚空乐圣》第2卷第65期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：ArcaneCadence；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@CedisticDissonant/title",
     "original": "Cedistic Dissonant",
-    "translation": "",
-    "stage": 0,
+    "translation": "献器不协和音",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：CedisticDissonant；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@CedisticDissonant/gameTexts/0/body/0",
     "original": "Destroy 1 Instrument card. If you do, you may destroy 1 non-character card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1张乐器牌。若如此做，你可以破坏1张非角色牌。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：CedisticDissonant；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@CedisticDissonant/gameTexts/1/body/0",
     "original": "1 ally may play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1个盟友可以打出1张牌。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：CedisticDissonant；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@CedisticDissonant/flavorQuotes/@TheArgentAdept/text",
     "original": "Power for power. Be no more.",
-    "translation": "",
-    "stage": 0,
+    "translation": "以力换力。就此消散。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：CedisticDissonant / TheArgentAdept；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@CedisticDissonant/flavorReference",
     "original": "The Argent Adept, Nightmist #61",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《夜雾》第61期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：CedisticDissonant；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@CounterpointBulwark/title",
     "original": "Counterpoint Bulwark",
-    "translation": "",
-    "stage": 0,
+    "translation": "对位壁垒",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：CounterpointBulwark；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@CounterpointBulwark/gameTexts/0/body/0",
     "original": "Select up to 3 targets. Until your {Start}, −1 damage dealt to those targets.",
-    "translation": "",
-    "stage": 0,
+    "translation": "选择至多3个目标。直到你的{Start}，这些目标受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：CounterpointBulwark；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@CounterpointBulwark/gameTexts/1/body/0",
     "original": "Up to 3 Heroes may draw 1 card each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "至多3位英雄可以各抽1张牌。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：CounterpointBulwark；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@CounterpointBulwark/flavorQuotes/@TheArgentAdept/text",
     "original": "She seeks to be your undoing on an ethereal{BR}level. Hold fast. You can overcome this curse.",
-    "translation": "",
-    "stage": 0,
+    "translation": "她想从灵性层面摧毁你。{BR}撑住，你能战胜这道诅咒。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：CounterpointBulwark / TheArgentAdept；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@CounterpointBulwark/flavorReference",
     "original": "The Argent Adept, Mystery Comics Vol 2. #302",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《悬谜漫画》第2卷第302期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：CounterpointBulwark；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@DrakesPipes/title",
     "original": "Drake's Pipes",
-    "translation": "",
-    "stage": 0,
+    "translation": "德雷克排箫",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：DrakesPipes；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@DrakesPipes/gameTexts/0/body/0",
     "original": "Activate the {PerformAbility} of 1 Melody card. Then, activate the {PerformAbility} of 1 other card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发动1张旋律牌的{PerformAbility}。然后，发动另1张牌的{PerformAbility}。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：DrakesPipes；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@DrakesPipes/flavorQuotes/@TheArgentAdept/text",
     "original": "With the creation of my own instrument, I become{BR}the latest in the line of Virtuosos of the Void:{BR}The Argent Adept!",
-    "translation": "",
-    "stage": 0,
+    "translation": "随着我自己的乐器诞生，{BR}我成为了新一代虚空乐圣——{BR}银音秘师！",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：DrakesPipes / TheArgentAdept；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@DrakesPipes/flavorReference",
     "original": "Anthony Drake, Toll of Destiny #5",
-    "translation": "",
-    "stage": 0,
+    "translation": "安东尼·德雷克，《命运钟声》第5期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：DrakesPipes；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@EydisarsHorn/title",
     "original": "Eydisar's Horn",
-    "translation": "",
-    "stage": 0,
+    "translation": "艾迪萨尔号角",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：EydisarsHorn；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@EydisarsHorn/gameTexts/0/body/0",
     "original": "Activate the {PerformAbility} of 1 Melody card. Then, activate 1 {AccompanyAbility}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发动1张旋律牌的{PerformAbility}。然后，发动1个{AccompanyAbility}。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：EydisarsHorn；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@EydisarsHorn/flavorQuotes/@TheArgentAdept/text",
     "original": "Come forth! Halt your battles in Valhalla{BR}and stand strong against these forces of evil!",
-    "translation": "",
-    "stage": 0,
+    "translation": "现身吧！暂歇英灵殿中的争战，{BR}挺身抵御这些邪恶势力！",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：EydisarsHorn / TheArgentAdept；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@EydisarsHorn/flavorReference",
     "original": "The Argent Adept, Absolution #9",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《赦罪》第9期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：EydisarsHorn；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@InspiringSupertonic/title",
     "original": "Inspiring Supertonic",
-    "translation": "",
-    "stage": 0,
+    "translation": "振奋上主音",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：InspiringSupertonic；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@InspiringSupertonic/gameTexts/0/body/0",
     "original": "1 Hero may use 1 power.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄可以使用1个异能。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：InspiringSupertonic；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@InspiringSupertonic/gameTexts/1/body/0",
     "original": "{TheArgentAdept} regains 2 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheArgentAdept}恢复2点生命值。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：InspiringSupertonic；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@InspiringSupertonic/flavorQuotes/@Tempest/text",
     "original": "Sing more power into my storm, musical magician!{BR}That dread titan won’t be able to weather{BR}such an onslaught.",
-    "translation": "",
-    "stage": 0,
+    "translation": "音乐法师，让你的歌声为我的风暴再添力量！{BR}那可怕的巨人{BR}扛不住这样的攻势。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：InspiringSupertonic / Tempest；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@InspiringSupertonic/flavorReference",
     "original": "Tempest, Prime Wardens Vol. 2, #38",
-    "translation": "",
-    "stage": 0,
+    "translation": "风暴，《原初守卫》第2卷第38期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：InspiringSupertonic；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@InstrumentalConjuration/title",
     "original": "Instrumental Conjuration",
-    "translation": "",
-    "stage": 0,
+    "translation": "乐器召唤",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：InstrumentalConjuration；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@InstrumentalConjuration/gameTexts/0/body/0",
     "original": "Summon 1 Instrument card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "召唤1张乐器牌。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：InstrumentalConjuration；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@InstrumentalConjuration/gameTexts/1/body/0",
     "original": "You may play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你可以打出1张牌。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：InstrumentalConjuration；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@InstrumentalConjuration/flavorQuotes/@TheArgentAdept/text",
     "original": "Virtuosos of the ages, lend me your strength!",
-    "translation": "",
-    "stage": 0,
+    "translation": "历代乐圣，请借我力量！",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：InstrumentalConjuration / TheArgentAdept；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@InstrumentalConjuration/flavorReference",
     "original": "The Argent Adept, Virtuoso of the Void Vol. 1 #145",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《虚空乐圣》第1卷第145期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：InstrumentalConjuration；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@InventivePreparation/title",
     "original": "Inventive Preparation",
-    "translation": "",
-    "stage": 0,
+    "translation": "巧思筹备",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：InventivePreparation；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@InventivePreparation/gameTexts/0/body/0",
     "original": "Each Hero reveals the top card of their deck, then replaces it or discards it. Then, 1 Hero may draw 2 cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每位英雄展示其牌库顶牌，然后将其放回原处或弃置。然后，1位英雄可以抽2张牌。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：InventivePreparation；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@InventivePreparation/gameTexts/1/body/0",
     "original": "Discover 1 Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发现1张持续牌。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：InventivePreparation；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@InventivePreparation/flavorQuotes/@Fanatic/text",
     "original": "I hear, I see now. My faith is my strength,{BR}but my faith need not endure in solitude.{BR}My friends, too, give me strength.",
-    "translation": "",
-    "stage": 0,
+    "translation": "我听见了，也终于明白了。信仰是我的力量，{BR}但我不必独自坚守信仰。{BR}朋友们同样给我力量。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：InventivePreparation / Fanatic；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@InventivePreparation/flavorReference",
     "original": "Fanatic, Fanatic Vol. 2 #115",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信，《狂信》第2卷第115期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：InventivePreparation；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@MusaragnisHarp/title",
     "original": "Musaragni's Harp",
-    "translation": "",
-    "stage": 0,
+    "translation": "穆萨拉尼竖琴",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：MusaragnisHarp；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@MusaragnisHarp/gameTexts/0/body/0",
     "original": "Activate the {PerformAbility} of 1 Harmony card. Then, activate the {AccompanyAbility} of 1 Harmony card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发动1张和声牌的{PerformAbility}。然后，发动1张和声牌的{AccompanyAbility}。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：MusaragnisHarp；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@MusaragnisHarp/flavorQuotes/@TheArgentAdept/text",
     "original": "It’s strings can play as quietly as a mouse,{BR}or as loud as a lion!",
-    "translation": "",
-    "stage": 0,
+    "translation": "它的弦声可轻如鼠步，{BR}也可响若狮吼！",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：MusaragnisHarp / TheArgentAdept；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@MusaragnisHarp/flavorReference",
     "original": "The Argent Adept, Toll of Destiny #2",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《命运钟声》第2期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：MusaragnisHarp；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@PolyphonicFlare/title",
     "original": "Polyphonic Flare",
-    "translation": "",
-    "stage": 0,
+    "translation": "复调迸发",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：PolyphonicFlare；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/12/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@PolyphonicFlare/gameTexts/0/body/0",
     "original": "{TheArgentAdept} deals himself 2 fixed energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheArgentAdept}对自己造成2点固定能量伤害。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：PolyphonicFlare；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@PolyphonicFlare/gameTexts/1/body/0",
     "original": "Either use 1 power or draw 2 cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "使用1个异能，或抽2张牌。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：PolyphonicFlare；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@PolyphonicFlare/flavorQuotes/@BalTaranerach/text",
     "original": "So long as your essence persists in any realm{BR}you shall never be free of me!",
-    "translation": "",
-    "stage": 0,
+    "translation": "只要你的本源尚存于任何一界，{BR}你就永远摆脱不了我！",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：PolyphonicFlare / BalTaranerach；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/12/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@PolyphonicFlare/flavorReference",
     "original": "Bal’Taranerach, Virtuoso of the Void Vol. 2 #100",
-    "translation": "",
-    "stage": 0,
+    "translation": "巴尔·塔拉内拉克，《虚空乐圣》第2卷第100期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：PolyphonicFlare；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/12/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@RhapsodyOfVigor/title",
     "original": "Rhapsody of Vigor",
-    "translation": "",
-    "stage": 0,
+    "translation": "活力狂想曲",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：RhapsodyOfVigor；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/13/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@RhapsodyOfVigor/gameTexts/0/body/0",
     "original": "Up to 5 targets regain 2 HP each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "至多5个目标各恢复2点生命值。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：RhapsodyOfVigor；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@RhapsodyOfVigor/flavorQuotes/@TheArgentAdept/text",
     "original": "Prepare yourselves. The <b>worst</b> is yet to come.",
-    "translation": "",
-    "stage": 0,
+    "translation": "做好准备。<b>最糟的</b>还在后面。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：RhapsodyOfVigor / TheArgentAdept；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/13/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@RhapsodyOfVigor/flavorReference",
     "original": "The Argent Adept, Prime Wardens Vol. 1 #1",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《原初守卫》第1卷第1期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：RhapsodyOfVigor；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/13/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@SarabandeOfDestruction/title",
     "original": "Sarabande of Destruction",
-    "translation": "",
-    "stage": 0,
+    "translation": "毁灭萨拉班德",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：SarabandeOfDestruction；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/14/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@SarabandeOfDestruction/gameTexts/0/body/0",
     "original": "Destroy 1 Ongoing card or 1 target with 2 or fewer HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1张持续牌，或破坏1个生命值不高于2的目标。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：SarabandeOfDestruction；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@SarabandeOfDestruction/flavorQuotes/@TheArgentAdept/text",
     "original": "You cannot return!{BR}Your base machinations shall fail!",
-    "translation": "",
-    "stage": 0,
+    "translation": "你休想归来！{BR}你的卑劣阴谋绝不会得逞！",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：SarabandeOfDestruction / TheArgentAdept；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/14/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@SarabandeOfDestruction/flavorReference",
     "original": "The Argent Adept, Virtuoso of the Void Vol. 1 #152",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《虚空乐圣》第1卷第152期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：SarabandeOfDestruction；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/14/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@ScherzoOfFrostAndFlame/title",
     "original": "Scherzo of Frost and Flame",
-    "translation": "",
-    "stage": 0,
+    "translation": "霜火谐谑曲",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：ScherzoOfFrostAndFlame；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/15/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@ScherzoOfFrostAndFlame/gameTexts/0/body/0",
     "original": "{TheArgentAdept} deals 1 target 2 cold damage. Then, {TheArgentAdept} may deal 1 different target 2 fire damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheArgentAdept}对1个目标造成2点寒冷伤害。然后，{TheArgentAdept}可以对另1个目标造成2点火焰伤害。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：ScherzoOfFrostAndFlame；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@ScherzoOfFrostAndFlame/flavorQuotes/@TheArgentAdept/text",
     "original": "A touch of the elements to keep foes at bay.",
-    "translation": "",
-    "stage": 0,
+    "translation": "略施元素之力，就能让敌人难以近身。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：ScherzoOfFrostAndFlame / TheArgentAdept；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/15/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@ScherzoOfFrostAndFlame/flavorReference",
     "original": "The Argent Adept, Prime Wardens Vol. 2 #17",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《原初守卫》第2卷第17期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：ScherzoOfFrostAndFlame；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/15/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@SilverShadow/title",
     "original": "Silver Shadow",
-    "translation": "",
-    "stage": 0,
+    "translation": "银色幻影",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：SilverShadow；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/16/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@SilverShadow/gameTexts/0/body/0",
     "original": "Activate 1 {AccompanyAbility}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发动1个{AccompanyAbility}。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：SilverShadow；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@SilverShadow/gameTexts/1/body/0",
     "original": "Either draw 1 card or play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽1张牌，或打出1张牌。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：SilverShadow；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/16/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@SilverShadow/flavorQuotes/@TheArgentAdept/text",
     "original": "Music of the Void, course through{BR}my lungs and give life to my refrain!{BR}I <b>sing</b> you into creation!",
-    "translation": "",
-    "stage": 0,
+    "translation": "虚空之乐，流贯我的肺腑，{BR}赋予我的叠歌生命！{BR}我将以<b>歌声</b>，令你诞生！",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：SilverShadow / TheArgentAdept；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/16/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@SilverShadow/flavorReference",
     "original": "The Argent Adept, Virtuoso of the Void Vol. 2 #38",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《虚空乐圣》第2卷第38期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：SilverShadow；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/16/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@SyncopatedOnslaught/title",
     "original": "Syncopated Onslaught",
-    "translation": "",
-    "stage": 0,
+    "translation": "切分猛攻",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：SyncopatedOnslaught；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/17/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@SyncopatedOnslaught/gameTexts/0/body/0",
     "original": "Select up to 3 targets. Until your {Start}, +1 damage dealt by those targets.",
-    "translation": "",
-    "stage": 0,
+    "translation": "选择至多3个目标。直到你的{Start}，这些目标造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：SyncopatedOnslaught；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/17/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@SyncopatedOnslaught/gameTexts/1/body/0",
     "original": "{TheArgentAdept} deals 1 target 1 irreducible sonic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{TheArgentAdept}对1个目标造成1点不可削减的音波伤害。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：SyncopatedOnslaught；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/17/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@SyncopatedOnslaught/flavorQuotes/@Haka/text",
     "original": "Ah! It is good to do a <b>Haka</b>{BR}with such fine accompaniment!",
-    "translation": "",
-    "stage": 0,
+    "translation": "啊！有这么好的伴奏，{BR}跳起<b>战舞</b>来真是痛快！",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：SyncopatedOnslaught / Haka；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/17/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@SyncopatedOnslaught/flavorReference",
     "original": "Haka, The Savage Haka #242",
-    "translation": "",
-    "stage": 0,
+    "translation": "哈卡，《狂野哈卡》第242期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：SyncopatedOnslaught；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/17/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@TelamonsLyra/title",
     "original": "Telamon's Lyra",
-    "translation": "",
-    "stage": 0,
+    "translation": "忒拉蒙里拉琴",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TelamonsLyra；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/18/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@TelamonsLyra/gameTexts/0/body/0",
     "original": "Either activate the {PerformAbility} of 1 Harmony card and activate the {AccompanyAbility} of 1 Rhythm card, or activate the {PerformAbility} of 1 Rhythm card and activate the {AccompanyAbility} of 1 Harmony card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发动1张和声牌的{PerformAbility}并发动1张节奏牌的{AccompanyAbility}；或发动1张节奏牌的{PerformAbility}并发动1张和声牌的{AccompanyAbility}。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TelamonsLyra；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/18/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@TelamonsLyra/flavorQuotes/@TheArgentAdept/text",
     "original": "Back! Begone!{BR}I know not how I brought you into this world,{BR}but I shall <b>surely</b> send you from it!",
-    "translation": "",
-    "stage": 0,
+    "translation": "退后！离开这里！{BR}我不知道自己如何把你带进了这个世界，{BR}但我<b>一定</b>会把你送出去！",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TelamonsLyra / TheArgentAdept；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/18/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@TelamonsLyra/flavorReference",
     "original": "Anthony Drake, Toll of Destiny #3",
-    "translation": "",
-    "stage": 0,
+    "translation": "安东尼·德雷克，《命运钟声》第3期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TelamonsLyra；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/18/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@VernalSonata/title",
     "original": "Vernal Sonata",
-    "translation": "",
-    "stage": 0,
+    "translation": "春日奏鸣曲",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：VernalSonata；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/19/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@VernalSonata/gameTexts/0/body/0",
     "original": "Each Hero target regains 1 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每个英雄目标恢复1点生命值。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：VernalSonata；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/19/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@VernalSonata/gameTexts/1/body/0",
     "original": "Each Hero may put 1 card from their trash on top of their deck.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每位英雄可以将其弃牌堆中的1张牌置于其牌库顶。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：VernalSonata；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/19/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@VernalSonata/flavorQuotes/@TheArgentAdept/text",
     "original": "Don’t get too comfortable;{BR}we’re not out of the woods yet.",
-    "translation": "",
-    "stage": 0,
+    "translation": "别太放松，{BR}我们还没脱离险境。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：VernalSonata / TheArgentAdept；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/19/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@VernalSonata/flavorReference",
     "original": "The Argent Adept, Prime Wardens Vol. 2 #29",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《原初守卫》第2卷第29期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：VernalSonata；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/19/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@XusBell/title",
     "original": "Xu's Bell",
-    "translation": "",
-    "stage": 0,
+    "translation": "徐氏铜钟",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：XusBell；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/20/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@XusBell/gameTexts/0/body/0",
     "original": "Either activate 1 {PerformAbility}, or activate the {AccompanyAbility} of up to 2 different cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "发动1个{PerformAbility}，或发动至多2张不同牌各自的{AccompanyAbility}。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：XusBell；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/20/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@XusBell/flavorQuotes/@Ra/text",
     "original": "Hey, you can’t touch that!{BR}It’s a priceless artifact!",
-    "translation": "",
-    "stage": 0,
+    "translation": "嘿，那个不能碰！{BR}那可是无价的文物！",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：XusBell / Ra；类型：flavor.quote。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/20/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/cards/@XusBell/flavorReference",
     "original": "Dr. Blake Washington, Jr., Toll of Destiny #1",
-    "translation": "",
-    "stage": 0,
+    "translation": "小布莱克·华盛顿博士，《命运钟声》第1期",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：XusBell；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/cards/20/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/variants/@TheArgentAdeptCharacter/title",
     "original": "First Appearance: The Argent Adept",
-    "translation": "",
-    "stage": 0,
+    "translation": "初次登场：银音秘师",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：card.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/variants/@TheArgentAdeptCharacter/gameTexts/0/title",
     "original": "Improvise",
-    "translation": "",
-    "stage": 0,
+    "translation": "即兴演奏",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：ability.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/variants/@TheArgentAdeptCharacter/gameTexts/0/body/0",
     "original": "Play the top card of your deck. If it is an Ongoing card, activate the Perform on it.",
-    "translation": "",
-    "stage": 0,
+    "translation": "打出你的牌库顶牌。若该牌是持续牌，发动其演奏能力。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/variants/@TheArgentAdeptCharacter/flippedGameTexts/0/title",
     "original": "The Void: Untamed!",
-    "translation": "",
-    "stage": 0,
+    "translation": "虚空失控！",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：ability.title。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/variants/@TheArgentAdeptCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Play}。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/variants/@TheArgentAdeptCharacter/flippedGameTexts/0/body/1",
     "original": "1 Hero discovers 1 Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄发现1张持续牌。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/variants/@TheArgentAdeptCharacter/flippedGameTexts/0/body/2",
     "original": "Destroy up to 2 targets with 1 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏至多2个生命值为1的目标。",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：rules.body。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/variants/@TheArgentAdeptCharacter/flavorReference",
     "original": "Toll of Destiny #1, Dec 1972",
-    "translation": "",
-    "stage": 0,
+    "translation": "《命运钟声》第1期，1972年12月",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/variants/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheArgentAdeptDeckList.json::turnTakers/@TheArgentAdept/decks/@TheArgentAdept/variants/@TheArgentAdeptCharacter/flippedFlavorReference",
     "original": "Toll of Destiny #3, April 1973",
-    "translation": "",
-    "stage": 0,
+    "translation": "《命运钟声》第3期，1973年4月",
+    "stage": 1,
     "context": "卡组：TheArgentAdept；对象：TheArgentAdeptCharacter；类型：flavor.reference。\n来源：TheArgentAdeptDeckList.json#/turnTakers/0/decks/0/variants/0/flippedFlavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

@@ -2,554 +2,554 @@
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/title",
     "original": "Haka",
-    "translation": "",
-    "stage": 0,
+    "translation": "哈卡",
+    "stage": 1,
     "context": "卡组：Haka；对象：Haka；类型：deck.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaCharacter/title",
     "original": "Haka",
-    "translation": "",
-    "stage": 0,
+    "translation": "哈卡",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：card.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaCharacter/gameTexts/0/title",
     "original": "Riri",
-    "translation": "",
-    "stage": 0,
+    "translation": "战怒",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：ability.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaCharacter/gameTexts/0/body/0",
     "original": "{Haka} deals 1 target 2 melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Haka}对1个目标造成2点近战伤害。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaCharacter/flippedGameTexts/0/title",
     "original": "Defender to the Last",
-    "translation": "",
-    "stage": 0,
+    "translation": "守护到底",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：ability.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Play}。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaCharacter/flippedGameTexts/0/body/1",
     "original": "1 Hero takes their {Draw}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Draw}。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaCharacter/flippedGameTexts/0/body/2",
     "original": "Until your {Start}, −1 damage dealt to Hero targets.",
-    "translation": "",
-    "stage": 0,
+    "translation": "直到你的{Start}，英雄目标受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@DanceInTheFray/title",
     "original": "Dance in the Fray",
-    "translation": "",
-    "stage": 0,
+    "translation": "阵中起舞",
+    "stage": 1,
     "context": "卡组：Haka；对象：DanceInTheFray；类型：card.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@DanceInTheFray/gameTexts/0/body/0",
     "original": "After any of your Ongoing cards are destroyed, {Haka} deals 1 target 2 melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你的任何持续牌被破坏后，{Haka}对1个目标造成2点近战伤害。",
+    "stage": 1,
     "context": "卡组：Haka；对象：DanceInTheFray；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@DanceInTheFray/gameTexts/1/body/0",
     "original": "Draw 1 card. Play 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽1张牌。打出1张牌。",
+    "stage": 1,
     "context": "卡组：Haka；对象：DanceInTheFray；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@DanceInTheFray/flavorQuotes/@LaCapitan/text",
     "original": "His boundless energy... Almost as if he draws{BR}strength and vitality from <b>BEYOND</b> his own realm.",
-    "translation": "",
-    "stage": 0,
+    "translation": "他那无穷无尽的精力……简直像是从自身所在世界{BR}<b>之外</b>汲取力量与生机。",
+    "stage": 1,
     "context": "卡组：Haka；对象：DanceInTheFray / LaCapitan；类型：flavor.quote。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@DanceInTheFray/flavorReference",
     "original": "La Capitan, The Savage Haka #268",
-    "translation": "",
-    "stage": 0,
+    "translation": "时海船长，《狂野哈卡》第268期",
+    "stage": 1,
     "context": "卡组：Haka；对象：DanceInTheFray；类型：flavor.reference。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaOfBattle/title",
     "original": "Haka of Battle",
-    "translation": "",
-    "stage": 0,
+    "translation": "征战战舞",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaOfBattle；类型：card.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaOfBattle/gameTexts/0/body/0",
     "original": "+1 damage dealt by {Haka}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Haka}造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaOfBattle；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaOfBattle/gameTexts/1/body/0",
     "original": "Discard any number of cards. {Haka} deals 1 target X melee damage, where X is the number of cards discarded this way plus 2. Then, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "弃置任意数量的牌。{Haka}对1个目标造成X点近战伤害，X为以此法弃置的牌数加2。然后，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaOfBattle；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaOfBattle/flavorQuotes/@Haka/text",
     "original": "Ka mate ka mate! Ka ora’ ka ora’!{BR}Ka mate ka mate! Ka ora’ ka ora’!",
-    "translation": "",
-    "stage": 0,
+    "translation": "我将死去！我将死去！我将活下去！我将活下去！{BR}我将死去！我将死去！我将活下去！我将活下去！",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaOfBattle / Haka；类型：flavor.quote。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaOfBattle/flavorReference",
     "original": "Haka, Prime Wardens Vol. 1 #97",
-    "translation": "",
-    "stage": 0,
+    "translation": "哈卡，《原初守卫》第1卷第97期",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaOfBattle；类型：flavor.reference。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaOfFrenzy/title",
     "original": "Haka of Frenzy",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂热战舞",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaOfFrenzy；类型：card.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaOfFrenzy/gameTexts/0/body/0",
     "original": "Damage dealt by {Haka} is irreducible.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Haka}造成的伤害不可削减。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaOfFrenzy；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaOfFrenzy/gameTexts/1/body/0",
     "original": "Discard any number of cards. {Haka} deals X targets 3 melee damage each, where X is the number of cards discarded this way plus 1. Then, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "弃置任意数量的牌。{Haka}对X个目标各造成3点近战伤害，X为以此法弃置的牌数加1。然后，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaOfFrenzy；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaOfFrenzy/flavorQuotes/@Tempest/text",
     "original": "Some prepare for battle in quiet contemplation{BR}or prayer. Aata finds his strength in exultant{BR}expression.",
-    "translation": "",
-    "stage": 0,
+    "translation": "有人以静思或祈祷备战。{BR}阿塔则在欢腾的表达中{BR}找到力量。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaOfFrenzy / Tempest；类型：flavor.quote。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaOfFrenzy/flavorReference",
     "original": "Tempest, Prime Wardens Vol. 1 #1",
-    "translation": "",
-    "stage": 0,
+    "translation": "风暴，《原初守卫》第1卷第1期",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaOfFrenzy；类型：flavor.reference。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaOfRecovery/title",
     "original": "Haka of Recovery",
-    "translation": "",
-    "stage": 0,
+    "translation": "复苏战舞",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaOfRecovery；类型：card.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaOfRecovery/gameTexts/0/body/0",
     "original": "−1 damage dealt to {Haka}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Haka}受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaOfRecovery；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaOfRecovery/gameTexts/1/body/0",
     "original": "Discard any number of cards. {Haka} regains X HP, where X is the number of cards discarded this way times 2. Then, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "弃置任意数量的牌。{Haka}恢复X点生命值，X为以此法弃置的牌数乘以2。然后，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaOfRecovery；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaOfRecovery/flavorQuotes/@TheArgentAdept/text",
     "original": "I know not how you do what you do, my friend,{BR}but I cannot deny the power in your songs and{BR}chants.",
-    "translation": "",
-    "stage": 0,
+    "translation": "朋友，我虽不知你如何做到，{BR}但你歌声与吟唱中的力量，{BR}我无法否认。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaOfRecovery / TheArgentAdept；类型：flavor.quote。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@HakaOfRecovery/flavorReference",
     "original": "The Argent Adept, Prime Wardens Vol. 1 #14",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《原初守卫》第1卷第14期",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaOfRecovery；类型：flavor.reference。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@KnockHeads/title",
     "original": "Knock Heads",
-    "translation": "",
-    "stage": 0,
+    "translation": "脑袋对撞",
+    "stage": 1,
     "context": "卡组：Haka；对象：KnockHeads；类型：card.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@KnockHeads/gameTexts/0/body/0",
     "original": "After this card is played, {Haka} deals up to 2 targets 2 melee damage each. −1 damage dealt by those targets.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌打出后，{Haka}对至多2个目标各造成2点近战伤害。这些目标造成的伤害−1。",
+    "stage": 1,
     "context": "卡组：Haka；对象：KnockHeads；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@KnockHeads/gameTexts/1/body/0",
     "original": "Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌。",
+    "stage": 1,
     "context": "卡组：Haka；对象：KnockHeads；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@KnockHeads/flavorQuotes/@DesertEagle/text",
     "original": "I could have sworn he was right here. How could{BR}such a huge man have escaped <b>MY</b> sight?",
-    "translation": "",
-    "stage": 0,
+    "translation": "我敢发誓，他刚才明明就在这里。这么大个块头，{BR}怎么可能逃过<b>我的</b>眼睛？",
+    "stage": 1,
     "context": "卡组：Haka；对象：KnockHeads / DesertEagle；类型：flavor.quote。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@KnockHeads/flavorReference",
     "original": "Desert Eagle, Freedom Five Annual #11",
-    "translation": "",
-    "stage": 0,
+    "translation": "沙漠之鹰，《自由五杰年刊》第11期",
+    "stage": 1,
     "context": "卡组：Haka；对象：KnockHeads；类型：flavor.reference。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@Mere/title",
     "original": "Mere",
-    "translation": "",
-    "stage": 0,
+    "translation": "梅雷玉棒",
+    "stage": 1,
     "context": "卡组：Haka；对象：Mere；类型：card.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@Mere/gameTexts/0/body/0",
     "original": "{Haka} deals 1 target 3 melee damage. Draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Haka}对1个目标造成3点近战伤害。抽1张牌。",
+    "stage": 1,
     "context": "卡组：Haka；对象：Mere；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@Mere/flavorQuotes/@Haka/text",
     "original": "This club is as much me as my fist or my leg.{BR}Let me show you!",
-    "translation": "",
-    "stage": 0,
+    "translation": "这根玉棒和我的拳脚一样，都是我身体的一部分。{BR}让你见识见识！",
+    "stage": 1,
     "context": "卡组：Haka；对象：Mere / Haka；类型：flavor.quote。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@Mere/flavorReference",
     "original": "Haka, Battle Unending #1",
-    "translation": "",
-    "stage": 0,
+    "translation": "哈卡，《无尽之战》第1期",
+    "stage": 1,
     "context": "卡组：Haka；对象：Mere；类型：flavor.reference。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@Rampage/title",
     "original": "Rampage",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂暴横扫",
+    "stage": 1,
     "context": "卡组：Haka；对象：Rampage；类型：card.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@Rampage/gameTexts/0/body/0",
     "original": "{Haka} deals each non-Hero target 5 melee damage and each Hero target 2 melee damage. Whenever {Haka} destroys a target with this damage, draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Haka}对每个非英雄目标各造成5点近战伤害，并对每个英雄目标各造成2点近战伤害。每当{Haka}以该伤害破坏一个目标时，抽1张牌。",
+    "stage": 1,
     "context": "卡组：Haka；对象：Rampage；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@Rampage/flavorQuotes/@Ra/text",
     "original": "I share no love for these robotic nuisances...{BR}but that was a bit much.",
-    "translation": "",
-    "stage": 0,
+    "translation": "我也不喜欢这些烦人的机器人……{BR}不过，你这有点过头了。",
+    "stage": 1,
     "context": "卡组：Haka；对象：Rampage / Ra；类型：flavor.quote。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@Rampage/flavorReference",
     "original": "Ra, Singularity #5",
-    "translation": "",
-    "stage": 0,
+    "translation": "拉神，《奇点》第5期",
+    "stage": 1,
     "context": "卡组：Haka；对象：Rampage；类型：flavor.reference。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@SuddenUtu/title",
     "original": "Sudden Utu",
-    "translation": "",
-    "stage": 0,
+    "translation": "即刻还击",
+    "stage": 1,
     "context": "卡组：Haka；对象：SuddenUtu；类型：card.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@SuddenUtu/gameTexts/0/body/0",
     "original": "{Haka} deals the attacker 2 melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Haka}对攻击者造成2点近战伤害。",
+    "stage": 1,
     "context": "卡组：Haka；对象：SuddenUtu；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@SuddenUtu/flavorQuotes/@Haka/text",
     "original": "You are not nearly as <b>FEARSOME</b>{BR}as your namesake.",
-    "translation": "",
-    "stage": 0,
+    "translation": "跟你借名的那种动物比起来，{BR}你可远没那么<b>可怕</b>。",
+    "stage": 1,
     "context": "卡组：Haka；对象：SuddenUtu / Haka；类型：flavor.quote。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@SuddenUtu/flavorReference",
     "original": "Haka, Battle Unending #8",
-    "translation": "",
-    "stage": 0,
+    "translation": "哈卡，《无尽之战》第8期",
+    "stage": 1,
     "context": "卡组：Haka；对象：SuddenUtu；类型：flavor.reference。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@SurgeOfIhi/title",
     "original": "Surge of Ihi",
-    "translation": "",
-    "stage": 0,
+    "translation": "气魄勃发",
+    "stage": 1,
     "context": "卡组：Haka；对象：SurgeOfIhi；类型：card.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@SurgeOfIhi/gameTexts/0/body/0",
     "original": "{Haka} deals 1 target 2 melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Haka}对1个目标造成2点近战伤害。",
+    "stage": 1,
     "context": "卡组：Haka；对象：SurgeOfIhi；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@SurgeOfIhi/gameTexts/1/body/0",
     "original": "Draw 2 cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽2张牌。",
+    "stage": 1,
     "context": "卡组：Haka；对象：SurgeOfIhi；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@SurgeOfIhi/flavorQuotes/@Fanatic/text",
     "original": "True might comes from faith.{BR}I cannot ignore your strength, large man.{BR}But do <b>NOT</b> think it enough.",
-    "translation": "",
-    "stage": 0,
+    "translation": "真正的力量源于信仰。{BR}大个子，我无法无视你的力量。{BR}但<b>别</b>以为这就够了。",
+    "stage": 1,
     "context": "卡组：Haka；对象：SurgeOfIhi / Fanatic；类型：flavor.quote。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@SurgeOfIhi/flavorReference",
     "original": "Fanatic, Tome of the Bizarre Vol. 2 #200",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信，《诡奇之书》第2卷第200期",
+    "stage": 1,
     "context": "卡组：Haka；对象：SurgeOfIhi；类型：flavor.reference。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@TaMoko/title",
     "original": "Tā Moko",
-    "translation": "",
-    "stage": 0,
+    "translation": "莫科刺青",
+    "stage": 1,
     "context": "卡组：Haka；对象：TaMoko；类型：card.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@TaMoko/gameTexts/0/body/0",
     "original": "−1 damage dealt to {Haka}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Haka}受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：Haka；对象：TaMoko；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@TaMoko/gameTexts/1/body/0",
     "original": "You may draw 1 additional card this phase.",
-    "translation": "",
-    "stage": 0,
+    "translation": "本阶段你可以额外抽1张牌。",
+    "stage": 1,
     "context": "卡组：Haka；对象：TaMoko；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@TaMoko/flavorQuotes/@Haka/text",
     "original": "These markings I wear on my face?{BR}I did them myself with a sharp stick and snake venom.{BR}Your threats mean nothing to me.",
-    "translation": "",
-    "stage": 0,
+    "translation": "我脸上这些纹样？{BR}是我拿尖木棍和蛇毒，亲手刺出来的。{BR}你的威胁吓不到我。",
+    "stage": 1,
     "context": "卡组：Haka；对象：TaMoko / Haka；类型：flavor.quote。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@TaMoko/flavorReference",
     "original": "Haka, Arcane Tales Vol. 1 #14",
-    "translation": "",
-    "stage": 0,
+    "translation": "哈卡，《奥秘奇谭》第1卷第14期",
+    "stage": 1,
     "context": "卡组：Haka；对象：TaMoko；类型：flavor.reference。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@Taiaha/title",
     "original": "Taiaha",
-    "translation": "",
-    "stage": 0,
+    "translation": "泰阿哈战杖",
+    "stage": 1,
     "context": "卡组：Haka；对象：Taiaha；类型：card.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@Taiaha/gameTexts/0/body/0",
     "original": "{Haka} deals up to 2 targets 3 melee each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Haka}对至多2个目标各造成3点近战伤害。",
+    "stage": 1,
     "context": "卡组：Haka；对象：Taiaha；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@Taiaha/gameTexts/1/body/0",
     "original": "You may destroy 1 Ongoing card. If you do, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你可以破坏1张持续牌。若如此做，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Haka；对象：Taiaha；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@Taiaha/flavorQuotes/@Haka/text",
     "original": "Using the Taiaha is all about balance.{BR}It also helps to be stronger than everyone else.",
-    "translation": "",
-    "stage": 0,
+    "translation": "用泰阿哈战杖，讲究的是平衡。{BR}当然，力气比所有人都大，也很有帮助。",
+    "stage": 1,
     "context": "卡组：Haka；对象：Taiaha / Haka；类型：flavor.quote。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@Taiaha/flavorReference",
     "original": "Haka, The Savage Haka #1",
-    "translation": "",
-    "stage": 0,
+    "translation": "哈卡，《狂野哈卡》第1期",
+    "stage": 1,
     "context": "卡组：Haka；对象：Taiaha；类型：flavor.reference。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@TaongaMana/title",
     "original": "Taonga Mana",
-    "translation": "",
-    "stage": 0,
+    "translation": "威能之赐",
+    "stage": 1,
     "context": "卡组：Haka；对象：TaongaMana；类型：card.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/12/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@TaongaMana/gameTexts/0/body/0",
     "original": "After {Haka} destroys any non-Hero target, draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Haka}破坏任何非英雄目标后，抽1张牌。",
+    "stage": 1,
     "context": "卡组：Haka；对象：TaongaMana；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@TaongaMana/gameTexts/1/body/0",
     "original": "You may draw 3 cards. If you do, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你可以抽3张牌。若如此做，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Haka；对象：TaongaMana；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@TaongaMana/flavorQuotes/@CaptainCosmic/text",
     "original": "I have oft remarked upon your 'gentle giant' nature.{BR}I appreciate your ability to drop the 'gentle' part,{BR}at times.",
-    "translation": "",
-    "stage": 0,
+    "translation": "我常说，你是个“温柔的巨人”。{BR}有时候，我也很欣赏{BR}你把“温柔”两个字省掉。",
+    "stage": 1,
     "context": "卡组：Haka；对象：TaongaMana / CaptainCosmic；类型：flavor.quote。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/12/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@TaongaMana/flavorReference",
     "original": "Captain Cosmic, Prime Wardens Vol. #160",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙队长，《原初守卫》第160期",
+    "stage": 1,
     "context": "卡组：Haka；对象：TaongaMana；类型：flavor.reference。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/12/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@TiakiDefender/title",
     "original": "Tiaki Defender",
-    "translation": "",
-    "stage": 0,
+    "translation": "坚毅守护",
+    "stage": 1,
     "context": "卡组：Haka；对象：TiakiDefender；类型：card.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/13/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@TiakiDefender/gameTexts/0/body/0",
     "original": "Whenever an ally would be dealt damage by a non-Hero target, you may redirect that damage to {Haka}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每当盟友将受到非英雄目标造成的伤害时，你可以将该次伤害转移给{Haka}。",
+    "stage": 1,
     "context": "卡组：Haka；对象：TiakiDefender；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@TiakiDefender/gameTexts/1/body/0",
     "original": "Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌。",
+    "stage": 1,
     "context": "卡组：Haka；对象：TiakiDefender；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@TiakiDefender/flavorQuotes/@Legacy/text",
     "original": "You've always inspired me to be a better hero,{BR}and now, I owe you my life as well.{BR}Thank you, old friend.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你一直激励着我成为更好的英雄。{BR}现在，我又欠你一条命。{BR}谢谢你，老朋友。",
+    "stage": 1,
     "context": "卡组：Haka；对象：TiakiDefender / Legacy；类型：flavor.quote。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/13/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/cards/@TiakiDefender/flavorReference",
     "original": "Legacy, Vengeance #5",
-    "translation": "",
-    "stage": 0,
+    "translation": "传承侠，《复仇》第5期",
+    "stage": 1,
     "context": "卡组：Haka；对象：TiakiDefender；类型：flavor.reference。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/cards/13/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/variants/@HakaCharacter/title",
     "original": "First Appearance: Haka",
-    "translation": "",
-    "stage": 0,
+    "translation": "初次登场：哈卡",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：card.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/variants/@HakaCharacter/gameTexts/0/title",
     "original": "Aranga",
-    "translation": "",
-    "stage": 0,
+    "translation": "再起",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：ability.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/variants/@HakaCharacter/gameTexts/0/body/0",
     "original": "Destroy 1 target with 3 or fewer HP. {Haka} regains 3 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1个生命值不高于3的目标。{Haka}恢复3点生命值。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/variants/@HakaCharacter/flippedGameTexts/0/title",
     "original": "Indomitable",
-    "translation": "",
-    "stage": 0,
+    "translation": "百折不挠",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：ability.title。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/variants/@HakaCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Power}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Power}。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/variants/@HakaCharacter/flippedGameTexts/0/body/1",
     "original": "1 Hero salvages 1 Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄回收1张持续牌。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/variants/@HakaCharacter/flippedGameTexts/0/body/2",
     "original": "Bury 1 Environment card with 4 or fewer HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "埋藏1张生命值不高于4的环境牌。",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：rules.body。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/variants/@HakaCharacter/flavorReference",
     "original": "Arcane Tales Vol. 1 #14, Oct 1948",
-    "translation": "",
-    "stage": 0,
+    "translation": "《奥秘奇谭》第1卷第14期，1948年10月",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：flavor.reference。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/variants/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "HakaDeckList.json::turnTakers/@Haka/decks/@Haka/variants/@HakaCharacter/flippedFlavorReference",
     "original": "Battle Unending #5, Jun 1970",
-    "translation": "",
-    "stage": 0,
+    "translation": "《无尽之战》第5期，1970年6月",
+    "stage": 1,
     "context": "卡组：Haka；对象：HakaCharacter；类型：flavor.reference。\n来源：HakaDeckList.json#/turnTakers/0/decks/0/variants/0/flippedFlavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

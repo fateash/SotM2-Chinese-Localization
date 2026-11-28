@@ -2,57 +2,57 @@
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/events/@MoonfallEvent/title",
     "original": "Moonfall",
-    "translation": "",
-    "stage": 0,
+    "translation": "月陨",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：MoonfallEvent；类型：events.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/events/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/events/@MoonfallEvent/gameTexts/0/title",
     "original": "My Life for Mordengrad!",
-    "translation": "",
-    "stage": 0,
+    "translation": "为莫登格勒献身！",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：MoonfallEvent；类型：ability.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/events/@MoonfallEvent/gameTexts/0/body/0",
     "original": "Whenever {BaronBlade} would be dealt damage, reveal the top card of the Villain deck. If it is a Minion card, play it and redirect the damage to that Minion card. Otherwise, bury the revealed card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "每当{BaronBlade}将要受到伤害时，展示反派牌库顶的一张牌。若该牌是爪牙牌，将其打出，并将该伤害转移至该爪牙牌。否则，埋藏展示的牌。",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：MoonfallEvent；类型：rules.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/events/@MoonfallEvent/body/0",
     "original": "The dastardly Baron Blade has a world-ending plan to destroy his{BR}nemesis Legacy once and for all! If the Freedom Five don’t stop him{BR}in time, his terrible plot will spell doom for humanity.",
-    "translation": "",
-    "stage": 0,
+    "translation": "卑劣的刀锋男爵策划了一场灭世阴谋，誓要彻底除掉{BR}他的宿敌传承侠！自由五杰若不及时阻止他，{BR}这场可怕的阴谋便将给人类带来灭顶之灾。",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：MoonfallEvent；类型：events.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/events/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/events/@MoonfallEvent/body/1",
     "original": "The revenge-fueled Baron set up his TerraLunar Impulsion Beam{BR}in the long abandoned Ruins of Atlantis, hoping that after the{BR}pyrrhic victory of pulling the moon into the Earth, he and his{BR}forces will emerge to rule what’s left.",
-    "translation": "",
-    "stage": 0,
+    "translation": "复仇心切的男爵将地月牵引光束架设在{BR}荒废已久的亚特兰蒂斯遗迹中。他妄想将月球拉向地球，{BR}以这场代价惨重的胜利扫平一切，随后率领部队{BR}重见天日，统治残存的世界。",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：MoonfallEvent；类型：events.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/events/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/events/@MoonfallEvent/body/2",
     "original": "The heroes must find their way through the twisting ruins to{BR}destroy the mad Baron’s doomsday device before it’s too late!",
-    "translation": "",
-    "stage": 0,
+    "translation": "英雄们必须穿过曲折的遗迹，{BR}在为时已晚之前，破坏疯狂男爵的末日装置！",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：MoonfallEvent；类型：events.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/events/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/events/@MadBomberBladeEvent/title",
     "original": "Mad Bomber Blade",
-    "translation": "",
-    "stage": 0,
+    "translation": "爆破狂人刀锋",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：MadBomberBladeEvent；类型：events.title。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/events/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BaronBladeDeckList.json::turnTakers/@BaronBlade/decks/@BaronBlade/events/@MadBomberBladeEvent/body/0",
     "original": "Baron Blade has been counted as deceased ever since his ill-{BR}fated attack on Megalopolis. So, when his broadcasts appeared{BR}on all the TV sets in Megalopolis, threatening explosions and{BR}destruction, it was a shock to everyone, especially the heroes. You{BR}must find the Baron and avoid his explosives to save the city, and{BR}yourselves!",
-    "translation": "",
-    "stage": 0,
+    "translation": "自从那场对巨都会的进攻以失败告终，{BR}人们便认定刀锋男爵已经死亡。因此，当他的广播{BR}出现在巨都会的每一台电视上，扬言要以爆炸毁灭城市时，{BR}所有人都大吃一惊，英雄们尤其如此。{BR}你们必须找到男爵，避开他埋设的炸药，{BR}拯救这座城市，也拯救自己！",
+    "stage": 1,
     "context": "卡组：BaronBlade；对象：MadBomberBladeEvent；类型：events.body。\n来源：BaronBladeDeckList.json#/turnTakers/0/decks/0/events/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

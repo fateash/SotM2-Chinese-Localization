@@ -2,617 +2,617 @@
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/title",
     "original": "Bunker",
-    "translation": "",
-    "stage": 0,
+    "translation": "堡垒",
+    "stage": 1,
     "context": "卡组：Bunker；对象：Bunker；类型：deck.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@BunkerCharacter/title",
     "original": "Bunker",
-    "translation": "",
-    "stage": 0,
+    "translation": "堡垒",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@BunkerCharacter/gameTexts/0/title",
     "original": "Initialize",
-    "translation": "",
-    "stage": 0,
+    "translation": "系统启动",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：ability.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@BunkerCharacter/gameTexts/0/body/0",
     "original": "Either draw 1 card, or put the top card of your deck under 1 Ordnance card in play.",
-    "translation": "",
-    "stage": 0,
+    "translation": "抽1张牌，或将你的牌库顶牌置于场上的1张军械牌下。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@BunkerCharacter/flippedGameTexts/0/title",
     "original": "Impossible Destruction",
-    "translation": "",
-    "stage": 0,
+    "translation": "不可能的毁灭",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：ability.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@BunkerCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Play}。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@BunkerCharacter/flippedGameTexts/0/body/1",
     "original": "1 Hero salvages 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄回收1张牌。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@BunkerCharacter/flippedGameTexts/0/body/2",
     "original": "Select 1 Hero target. Until your {Start}, −2 damage dealt to that target.",
-    "translation": "",
-    "stage": 0,
+    "translation": "选择1个英雄目标。直到你的{Start}，该目标受到的伤害−2。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@AdhesiveFoamGrenade/title",
     "original": "Adhesive Foam Grenade",
-    "translation": "",
-    "stage": 0,
+    "translation": "黏性泡沫手雷",
+    "stage": 1,
     "context": "卡组：Bunker；对象：AdhesiveFoamGrenade；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@AdhesiveFoamGrenade/gameTexts/0/body/0",
     "original": "Environment cards cannot be played.",
-    "translation": "",
-    "stage": 0,
+    "translation": "无法打出环境牌。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：AdhesiveFoamGrenade；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@AdhesiveFoamGrenade/gameTexts/1/body/0",
     "original": "Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：AdhesiveFoamGrenade；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@AdhesiveFoamGrenade/flavorQuotes/@Bunker/text",
     "original": "I was worried when you took a shot at Lady Liberty,{BR}soldier. But good work saving the day!",
-    "translation": "",
-    "stage": 0,
+    "translation": "你朝自由女神开火时，我还真捏了把汗，{BR}战士。不过，干得好，危机解除了！",
+    "stage": 1,
     "context": "卡组：Bunker；对象：AdhesiveFoamGrenade / Bunker；类型：flavor.quote。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@AdhesiveFoamGrenade/flavorReference",
     "original": "Legacy, Freedom Four #94",
-    "translation": "",
-    "stage": 0,
+    "translation": "传承侠，《自由四杰》第94期",
+    "stage": 1,
     "context": "卡组：Bunker；对象：AdhesiveFoamGrenade；类型：flavor.reference。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@EmergencyShielding/title",
     "original": "Emergency Shielding",
-    "translation": "",
-    "stage": 0,
+    "translation": "应急护盾",
+    "stage": 1,
     "context": "卡组：Bunker；对象：EmergencyShielding；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@EmergencyShielding/gameTexts/0/body/0",
     "original": "When this card is destroyed, {Bunker} regains 2 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌被破坏时，{Bunker}恢复2点生命值。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：EmergencyShielding；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@EmergencyShielding/gameTexts/1/body/0",
     "original": "−2 to the damage {Bunker} would be dealt. Then, if {Bunker} is still dealt damage, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Bunker}将受到的伤害−2。然后，若{Bunker}仍受到伤害，破坏此牌。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：EmergencyShielding；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@EmergencyShielding/flavorQuotes/@GeneralArmstrong/text",
     "original": "We’ve got some new damage reduction protocols{BR}for you. Could be literally life saving. Can’t go{BR}losing my best soldier, now can I?",
-    "translation": "",
-    "stage": 0,
+    "translation": "给你备了几套新的减伤方案，{BR}关键时刻能保命。我可不能{BR}折了手底下最好的兵，对吧？",
+    "stage": 1,
     "context": "卡组：Bunker；对象：EmergencyShielding / GeneralArmstrong；类型：flavor.quote。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@EmergencyShielding/flavorReference",
     "original": "General Armstrong, Justice Comics #452",
-    "translation": "",
-    "stage": 0,
+    "translation": "阿姆斯特朗将军，《正义漫画》第452期",
+    "stage": 1,
     "context": "卡组：Bunker；对象：EmergencyShielding；类型：flavor.reference。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@ExpendablePowerBank/title",
     "original": "Expendable Power Bank",
-    "translation": "",
-    "stage": 0,
+    "translation": "一次性电源",
+    "stage": 1,
     "context": "卡组：Bunker；对象：ExpendablePowerBank；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@ExpendablePowerBank/gameTexts/0/body/0",
     "original": "You may put 1 card from your trash under 1 Ordnance card in play. If you do, put this card under 1 Ordnance card in play.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你可以将你的弃牌堆中的1张牌置于场上的1张军械牌下。若如此做，将此牌置于场上的1张军械牌下。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：ExpendablePowerBank；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@ExpendablePowerBank/gameTexts/1/body/0",
     "original": "Put the top card of your deck under 1 Ordnance card in play.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将你的牌库顶牌置于场上的1张军械牌下。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：ExpendablePowerBank；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@ExpendablePowerBank/flavorQuotes/@Bunker/text",
     "original": "Sure, it’s a bit of a weak point, but the other{BR}alternative is fewer bells and whistles, and{BR}we can’t have that!",
-    "translation": "",
-    "stage": 0,
+    "translation": "是，这算个薄弱点，可另一个选择{BR}就是少装些好东西，{BR}那可不行！",
+    "stage": 1,
     "context": "卡组：Bunker；对象：ExpendablePowerBank / Bunker；类型：flavor.quote。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@ExpendablePowerBank/flavorReference",
     "original": "Bunker, Freedom Five #410",
-    "translation": "",
-    "stage": 0,
+    "translation": "堡垒，《自由五杰》第410期",
+    "stage": 1,
     "context": "卡组：Bunker；对象：ExpendablePowerBank；类型：flavor.reference。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@FlakCannon/title",
     "original": "Flak Cannon",
-    "translation": "",
-    "stage": 0,
+    "translation": "高射火炮",
+    "stage": 1,
     "context": "卡组：Bunker；对象：FlakCannon；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@FlakCannon/gameTexts/0/body/0",
     "original": "Destroy up to 2 cards under this card. Each time you destroy 1 card this way, {Bunker} deals 1 target 3 projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌下至多2张牌。每以此法破坏1张牌，{Bunker}便对1个目标造成3点投射伤害。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：FlakCannon；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@FlakCannon/gameTexts/1/body/0",
     "original": "Put the top card of your deck under this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将你的牌库顶牌置于此牌下。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：FlakCannon；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@FlakCannon/flavorQuotes/@FrightTrain/text",
     "original": "Not going to climb out of your fancy tin can and{BR}give your old squadmate a hug? What, am I{BR}below your station?",
-    "translation": "",
-    "stage": 0,
+    "translation": "不从你那身花哨铁皮里爬出来，{BR}给老战友一个拥抱吗？怎么，{BR}我高攀不起你了？",
+    "stage": 1,
     "context": "卡组：Bunker；对象：FlakCannon / FrightTrain；类型：flavor.quote。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@FlakCannon/flavorReference",
     "original": "Fright Train, Freedom Five #463",
-    "translation": "",
-    "stage": 0,
+    "translation": "惊魂列车，《自由五杰》第463期",
+    "stage": 1,
     "context": "卡组：Bunker；对象：FlakCannon；类型：flavor.reference。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@GatlingGun/title",
     "original": "Gatling Gun",
-    "translation": "",
-    "stage": 0,
+    "translation": "加特林机炮",
+    "stage": 1,
     "context": "卡组：Bunker；对象：GatlingGun；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@GatlingGun/gameTexts/0/body/0",
     "original": "Put the top card of your deck under this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将你的牌库顶牌置于此牌下。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：GatlingGun；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@GatlingGun/gameTexts/1/body/0",
     "original": "Destroy up to 3 cards under this card. Each time you destroy 1 card this way, {Bunker} deals 1 target 1 projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌下至多3张牌。每以此法破坏1张牌，{Bunker}便对1个目标造成1点投射伤害。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：GatlingGun；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@GatlingGun/flavorQuotes/@Bunker/text",
     "original": "I provide my <b><i>own</i></b> suppressive fire.",
-    "translation": "",
-    "stage": 0,
+    "translation": "压制火力？我<b><i>自己</i></b>就有。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：GatlingGun / Bunker；类型：flavor.quote。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@GatlingGun/flavorReference",
     "original": "Bunker, One Man Army One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "堡垒，《一人成军》独立特刊",
+    "stage": 1,
     "context": "卡组：Bunker；对象：GatlingGun；类型：flavor.reference。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@GrenadeLauncher/title",
     "original": "Grenade Launcher",
-    "translation": "",
-    "stage": 0,
+    "translation": "榴弹发射器",
+    "stage": 1,
     "context": "卡组：Bunker；对象：GrenadeLauncher；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@GrenadeLauncher/gameTexts/0/body/0",
     "original": "Destroy up to 2 cards under this card. Each time you destroy 1 card this way, {Bunker} deals 3 targets 2 fire damage each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌下至多2张牌。每以此法破坏1张牌，{Bunker}便对3个目标各造成2点火焰伤害。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：GrenadeLauncher；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@GrenadeLauncher/gameTexts/1/body/0",
     "original": "Put the top card of your deck under this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将你的牌库顶牌置于此牌下。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：GrenadeLauncher；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@GrenadeLauncher/flavorQuotes/@Bunker/text",
     "original": "Not letting me draw a bead on you? That’s a smart{BR}move, provided I don’t have any explosives.",
-    "translation": "",
-    "stage": 0,
+    "translation": "不让我瞄准你？聪明。{BR}前提是，我没带爆炸物。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：GrenadeLauncher / Bunker；类型：flavor.quote。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@GrenadeLauncher/flavorReference",
     "original": "Bunker, Indestructible Bunker #29",
-    "translation": "",
-    "stage": 0,
+    "translation": "堡垒，《不灭堡垒》第29期",
+    "stage": 1,
     "context": "卡组：Bunker；对象：GrenadeLauncher；类型：flavor.reference。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@LidarIntel/title",
     "original": "LIDAR Intel",
-    "translation": "",
-    "stage": 0,
+    "translation": "激光侦测",
+    "stage": 1,
     "context": "卡组：Bunker；对象：LidarIntel；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@LidarIntel/gameTexts/0/body/0",
     "original": "After any non-Hero target is played, you may draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "任何非英雄目标打出后，你可以抽1张牌。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：LidarIntel；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@LidarIntel/gameTexts/1/body/0",
     "original": "Reveal and replace the top card of 1 deck. Draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "展示1个牌库的顶牌，然后将其放回原处。抽1张牌。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：LidarIntel；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@LidarIntel/flavorQuotes/@Bunker/text",
     "original": "You think you’re sneaky, dontcha? I see you...",
-    "translation": "",
-    "stage": 0,
+    "translation": "以为自己藏得挺好，是吧？我看见你了……",
+    "stage": 1,
     "context": "卡组：Bunker；对象：LidarIntel / Bunker；类型：flavor.quote。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@LidarIntel/flavorReference",
     "original": "Bunker, Justice Comics #617",
-    "translation": "",
-    "stage": 0,
+    "translation": "堡垒，《正义漫画》第617期",
+    "stage": 1,
     "context": "卡组：Bunker；对象：LidarIntel；类型：flavor.reference。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@MountedAPGun/title",
     "original": "Mounted AP Gun",
-    "translation": "",
-    "stage": 0,
+    "translation": "挂载穿甲炮",
+    "stage": 1,
     "context": "卡组：Bunker；对象：MountedAPGun；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@MountedAPGun/gameTexts/0/body/0",
     "original": "Destroy 2 cards under this card. If you do, {Bunker} deals 1 target 6 irreducible projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌下的2张牌。若如此做，{Bunker}对1个目标造成6点不可削减的投射伤害。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：MountedAPGun；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@MountedAPGun/gameTexts/1/body/0",
     "original": "Put the top card of your deck under this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将你的牌库顶牌置于此牌下。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：MountedAPGun；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@MountedAPGun/flavorQuotes/@Bunker/text",
     "original": "Stop all your fretting. They’re not getting away.",
-    "translation": "",
-    "stage": 0,
+    "translation": "别担心了。他们跑不了。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：MountedAPGun / Bunker；类型：flavor.quote。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@MountedAPGun/flavorReference",
     "original": "Bunker, Indestructible Bunker #154",
-    "translation": "",
-    "stage": 0,
+    "translation": "堡垒，《不灭堡垒》第154期",
+    "stage": 1,
     "context": "卡组：Bunker；对象：MountedAPGun；类型：flavor.reference。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@OmniCannon/title",
     "original": "Omni-Cannon",
-    "translation": "",
-    "stage": 0,
+    "translation": "聚能巨炮",
+    "stage": 1,
     "context": "卡组：Bunker；对象：OmniCannon；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@OmniCannon/gameTexts/0/body/0",
     "original": "Destroy all cards under this card. {Bunker} deals 1 target X energy damage, where X is the number of cards destroyed this way times 2.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌下的所有牌。{Bunker}对1个目标造成X点能量伤害，X为以此法破坏的牌数乘以2。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：OmniCannon；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@OmniCannon/gameTexts/1/body/0",
     "original": "Put the top card of your deck under this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将你的牌库顶牌置于此牌下。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：OmniCannon；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@OmniCannon/flavorQuotes/@Tachyon/text",
     "original": "Scrambling antimatter particles in a graviton{BR}launcher controls and directs a steady stream of{BR}hyper-excited leptons. Translation:{BR}big gun go boom.",
-    "translation": "",
-    "stage": 0,
+    "translation": "在引力子发射器中扰动反物质粒子，{BR}就能控制并引导一股持续的{BR}超激发态轻子流。翻译一下：{BR}大炮，轰！",
+    "stage": 1,
     "context": "卡组：Bunker；对象：OmniCannon / Tachyon；类型：flavor.quote。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@OmniCannon/flavorReference",
     "original": "Tachyon, Freedom Five #571",
-    "translation": "",
-    "stage": 0,
+    "translation": "快子，《自由五杰》第571期",
+    "stage": 1,
     "context": "卡组：Bunker；对象：OmniCannon；类型：flavor.reference。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@PistonPunch/title",
     "original": "Piston Punch",
-    "translation": "",
-    "stage": 0,
+    "translation": "活塞重拳",
+    "stage": 1,
     "context": "卡组：Bunker；对象：PistonPunch；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@PistonPunch/gameTexts/0/body/0",
     "original": "{Bunker} deals 1 target 3 melee damage. If that damage destroys a target, put this card under 1 Ordnance card in play.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Bunker}对1个目标造成3点近战伤害。若该次伤害破坏了目标，将此牌置于场上的1张军械牌下。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：PistonPunch；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@PistonPunch/flavorQuotes/@AbsoluteZero/text",
     "original": "Ooh, look at the big army man and his fancy suit{BR}built for combat instead of <b><i>just</i></b> making sure{BR}he doesn’t die.",
-    "translation": "",
-    "stage": 0,
+    "translation": "哟，瞧这位大兵，还有他那身花哨战甲，{BR}专为打仗设计，可不<b><i>只是</i></b>{BR}为了让他活着。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：PistonPunch / AbsoluteZero；类型：flavor.quote。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@PistonPunch/flavorReference",
     "original": "Absolute Zero, Freedom Five #323",
-    "translation": "",
-    "stage": 0,
+    "translation": "绝对零度，《自由五杰》第323期",
+    "stage": 1,
     "context": "卡组：Bunker；对象：PistonPunch；类型：flavor.reference。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@RechargeMode/title",
     "original": "Recharge Mode",
-    "translation": "",
-    "stage": 0,
+    "translation": "充能模式",
+    "stage": 1,
     "context": "卡组：Bunker；对象：RechargeMode；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@RechargeMode/gameTexts/0/body/0",
     "original": "You cannot use powers.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你无法使用异能。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：RechargeMode；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@RechargeMode/gameTexts/1/body/0",
     "original": "Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：RechargeMode；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@RechargeMode/gameTexts/2/body/0",
     "original": "You may draw 4 additional cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你可以额外抽4张牌。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：RechargeMode；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@RechargeMode/gameTexts/3/body/0",
     "original": "Put any number of cards from hand under any Ordnance cards in play.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将任意数量的手牌置于场上的任意军械牌下。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：RechargeMode；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@RechargeMode/flavorQuotes/@Bunker/text",
     "original": "It’s a fine plan, and I’m all for it.{BR}But I’m going to need a LOT more power.",
-    "translation": "",
-    "stage": 0,
+    "translation": "计划不错，我完全赞成。{BR}不过，我还得要多得多的能量。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：RechargeMode / Bunker；类型：flavor.quote。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@RechargeMode/flavorReference",
     "original": "Bunker, Freedom Five #369",
-    "translation": "",
-    "stage": 0,
+    "translation": "堡垒，《自由五杰》第369期",
+    "stage": 1,
     "context": "卡组：Bunker；对象：RechargeMode；类型：flavor.reference。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@TacticalCommand/title",
     "original": "Tactical Command",
-    "translation": "",
-    "stage": 0,
+    "translation": "战术指挥",
+    "stage": 1,
     "context": "卡组：Bunker；对象：TacticalCommand；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/12/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@TacticalCommand/gameTexts/0/body/0",
     "original": "1 ally uses 1 power. If that power would deal damage, that damage is irreducible.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1个盟友使用1个异能。若该异能将造成伤害，该伤害不可削减。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：TacticalCommand；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@TacticalCommand/flavorQuotes/@TheWraith/text",
     "original": "He doesn’t often speak up, but when he does,{BR}it’s well worth listening.",
-    "translation": "",
-    "stage": 0,
+    "translation": "他不常开口，可他一旦说话，{BR}就很值得一听。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：TacticalCommand / TheWraith；类型：flavor.quote。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/12/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@TacticalCommand/flavorReference",
     "original": "The Wraith, Freedom Five Annual #13",
-    "translation": "",
-    "stage": 0,
+    "translation": "幽魂，《自由五杰年刊》第13期",
+    "stage": 1,
     "context": "卡组：Bunker；对象：TacticalCommand；类型：flavor.reference。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/12/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@TurretMode/title",
     "original": "Turret Mode",
-    "translation": "",
-    "stage": 0,
+    "translation": "炮塔模式",
+    "stage": 1,
     "context": "卡组：Bunker；对象：TurretMode；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/13/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@TurretMode/gameTexts/0/body/0",
     "original": "+1 Damage dealt by {Bunker}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Bunker}造成的伤害+1。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：TurretMode；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@TurretMode/gameTexts/1/body/0",
     "original": "Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：TurretMode；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@TurretMode/gameTexts/2/body/0",
     "original": "You may use 2 additional powers this phase.",
-    "translation": "",
-    "stage": 0,
+    "translation": "本阶段你可以额外使用2个异能。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：TurretMode；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@UpgradeMode/title",
     "original": "Upgrade Mode",
-    "translation": "",
-    "stage": 0,
+    "translation": "升级模式",
+    "stage": 1,
     "context": "卡组：Bunker；对象：UpgradeMode；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/14/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@UpgradeMode/gameTexts/0/body/0",
     "original": "After this card is played, summon 1 Item card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌打出后，召唤1张物品牌。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：UpgradeMode；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@UpgradeMode/gameTexts/1/body/0",
     "original": "You cannot use powers.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你无法使用异能。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：UpgradeMode；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@UpgradeMode/gameTexts/2/body/0",
     "original": "Destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：UpgradeMode；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@UpgradeMode/gameTexts/3/body/0",
     "original": "Play up to 2 cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "打出至多2张牌。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：UpgradeMode；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/3/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@UpgradeMode/flavorQuotes/@Bunker/text",
     "original": "No, it’s not like driving a car!{BR}OK, it’s like driving a car blindfolded with{BR}shoes on your hands and also you’re late.",
-    "translation": "",
-    "stage": 0,
+    "translation": "不，这可不像开车！{BR}好吧，像是蒙着眼，手上套着鞋开车，{BR}而且你还迟到了。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：UpgradeMode / Bunker；类型：flavor.quote。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/14/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/cards/@UpgradeMode/flavorReference",
     "original": "Bunker, Freedom Five #370",
-    "translation": "",
-    "stage": 0,
+    "translation": "堡垒，《自由五杰》第370期",
+    "stage": 1,
     "context": "卡组：Bunker；对象：UpgradeMode；类型：flavor.reference。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/cards/14/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/variants/@BunkerCharacter/title",
     "original": "First Appearance: Bunker",
-    "translation": "",
-    "stage": 0,
+    "translation": "初次登场：堡垒",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：card.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/variants/@BunkerCharacter/gameTexts/0/title",
     "original": "Dispatch",
-    "translation": "",
-    "stage": 0,
+    "translation": "战场处置",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：ability.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/variants/@BunkerCharacter/gameTexts/0/body/0",
     "original": "Either {Bunker} deals 1 target 2 melee damage, or salvage 1 Item card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{Bunker}对1个目标造成2点近战伤害，或回收1张物品牌。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/variants/@BunkerCharacter/flippedGameTexts/0/title",
     "original": "Armored Unit MIA",
-    "translation": "",
-    "stage": 0,
+    "translation": "装甲单位失踪",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：ability.title。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/variants/@BunkerCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Power}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Power}。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/variants/@BunkerCharacter/flippedGameTexts/0/body/1",
     "original": "Destroy 1 Ongoing card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1张持续牌。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/variants/@BunkerCharacter/flippedGameTexts/0/body/2",
     "original": "1 Hero target deals 1 target 2 projectile damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1个英雄目标对1个目标造成2点投射伤害。",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：rules.body。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/variants/@BunkerCharacter/flavorReference",
     "original": "Indestructible Bunker #29, March 1955",
-    "translation": "",
-    "stage": 0,
+    "translation": "《不灭堡垒》第29期，1955年3月",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：flavor.reference。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/variants/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "BunkerDeckList.json::turnTakers/@Bunker/decks/@Bunker/variants/@BunkerCharacter/flippedFlavorReference",
     "original": "Indestructible Bunker #200, June 1969",
-    "translation": "",
-    "stage": 0,
+    "translation": "《不灭堡垒》第200期，1969年6月",
+    "stage": 1,
     "context": "卡组：Bunker；对象：BunkerCharacter；类型：flavor.reference。\n来源：BunkerDeckList.json#/turnTakers/0/decks/0/variants/0/flippedFlavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

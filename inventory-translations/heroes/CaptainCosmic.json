@@ -2,645 +2,645 @@
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/title",
     "original": "Captain Cosmic",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙队长",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmic；类型：deck.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CaptainCosmicCharacter/title",
     "original": "Captain Cosmic",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙队长",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CaptainCosmicCharacter/gameTexts/0/title",
     "original": "Fabrication",
-    "translation": "",
-    "stage": 0,
+    "translation": "能量塑形",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：ability.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CaptainCosmicCharacter/gameTexts/0/body/0",
     "original": "Reveal the top card of your deck. Play it or draw it.",
-    "translation": "",
-    "stage": 0,
+    "translation": "展示你的牌库顶牌。打出或抽取该牌。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CaptainCosmicCharacter/flippedGameTexts/0/title",
     "original": "Painful Revelations",
-    "translation": "",
-    "stage": 0,
+    "translation": "痛悟真相",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：ability.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CaptainCosmicCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Play}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Play}。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CaptainCosmicCharacter/flippedGameTexts/0/body/1",
     "original": "1 Hero takes their {Power}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Power}。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CaptainCosmicCharacter/flippedGameTexts/0/body/2",
     "original": "Until your {Start}, −2 damage to all targets.",
-    "translation": "",
-    "stage": 0,
+    "translation": "直到你的{Start}，所有目标受到的伤害−2。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@AugmentedAlly/title",
     "original": "Augmented Ally",
-    "translation": "",
-    "stage": 0,
+    "translation": "协战分身",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：AugmentedAlly；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@AugmentedAlly/gameTexts/0/body/0",
     "original": "Play this card next to a Hero character.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将此牌打出至一名英雄角色旁。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：AugmentedAlly；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@AugmentedAlly/gameTexts/1/body/0",
     "original": "This Hero may discard 1 card. If they do, they may use 1 additional power this phase.",
-    "translation": "",
-    "stage": 0,
+    "translation": "该英雄可以弃置1张牌。若如此做，其本阶段可以额外使用1个异能。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：AugmentedAlly；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/1/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@AugmentedAlly/flavorQuotes/@Haka/text",
     "original": "I am used to fighting with you, my friend,{BR}but not with me as well!",
-    "translation": "",
-    "stage": 0,
+    "translation": "朋友，和你并肩作战，我早就习惯了。{BR}可和我自己并肩，还是头一回！",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：AugmentedAlly / Haka；类型：flavor.quote。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/1/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@AugmentedAlly/flavorReference",
     "original": "Haka, Prime Wardens Vol. 1 #74",
-    "translation": "",
-    "stage": 0,
+    "translation": "哈卡，《原初守卫》第1卷第74期",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：AugmentedAlly；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/1/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@AutonomousBlade/title",
     "original": "Autonomous Blade",
-    "translation": "",
-    "stage": 0,
+    "translation": "自主锋刃",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：AutonomousBlade；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/2/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@AutonomousBlade/gameTexts/0/body/0",
     "original": "Play this card next to a Hero target.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将此牌打出至一个英雄目标旁。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：AutonomousBlade；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@AutonomousBlade/gameTexts/1/body/0",
     "original": "After that target deals damage for the first time each turn, this card deals 1 target 2 energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "该目标每回合首次造成伤害后，此牌对1个目标造成2点能量伤害。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：AutonomousBlade；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/2/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@AutonomousBlade/flavorQuotes/@CaptainCosmic/text",
     "original": "Stand and fight or give up now!{BR}You <b>cannot</b> escape justice.",
-    "translation": "",
-    "stage": 0,
+    "translation": "留下迎战，或者现在投降！{BR}你<b>逃不过</b>正义的制裁。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：AutonomousBlade / CaptainCosmic；类型：flavor.quote。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/2/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@AutonomousBlade/flavorReference",
     "original": "Captain Cosmic, Prime Wardens Vol. 2 #39",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙队长，《原初守卫》第2卷第39期",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：AutonomousBlade；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/2/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@ConservationOfEnergy/title",
     "original": "Conservation of Energy",
-    "translation": "",
-    "stage": 0,
+    "translation": "能量守恒",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：ConservationOfEnergy；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/3/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@ConservationOfEnergy/gameTexts/0/body/0",
     "original": "After any Construct card is destroyed, you may draw 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "任何构造牌被破坏后，你可以抽1张牌。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：ConservationOfEnergy；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@ConservationOfEnergy/gameTexts/1/body/0",
     "original": "You may play 1 Construct card from your trash. If you do, destroy this card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你可以从你的弃牌堆中打出1张构造牌。若如此做，破坏此牌。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：ConservationOfEnergy；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/3/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@ConservationOfEnergy/flavorQuotes/@Infinitor/text",
     "original": "Your command over the energy...{BR}the stability of your creations... I make up for the{BR}difference with <b>raw</b> power!",
-    "translation": "",
-    "stage": 0,
+    "translation": "你对能量的掌控……{BR}你造物的稳定性……这些差距，{BR}我会用<b>纯粹的力量</b>补上！",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：ConservationOfEnergy / Infinitor；类型：flavor.quote。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/3/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@ConservationOfEnergy/flavorReference",
     "original": "Infinitor, Conflux #2",
-    "translation": "",
-    "stage": 0,
+    "translation": "疯无限，《交汇》第2期",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：ConservationOfEnergy；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/3/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@ConstructCataclysm/title",
     "original": "Construct Cataclysm",
-    "translation": "",
-    "stage": 0,
+    "translation": "构造灾变",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：ConstructCataclysm；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/4/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@ConstructCataclysm/gameTexts/0/body/0",
     "original": "Destroy any number of Construct cards. {CaptainCosmic} either deals 1 target X irreducible energy damage, or deals up to X targets 3 energy damage each, where X is the number of Construct cards in your trash.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏任意数量的构造牌。{CaptainCosmic}对1个目标造成X点不可削减的能量伤害，或对至多X个目标各造成3点能量伤害，X为你的弃牌堆中的构造牌数量。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：ConstructCataclysm；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/4/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@ConstructCataclysm/flavorQuotes/@CaptainCosmic/text",
     "original": "Er, heads up chaps.{BR}Getting a little extra <b>showy</b> here.",
-    "translation": "",
-    "stage": 0,
+    "translation": "呃，伙计们，当心。{BR}这回的场面，稍微有点<b>夸张</b>。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：ConstructCataclysm / CaptainCosmic；类型：flavor.quote。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/4/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@ConstructCataclysm/flavorReference",
     "original": "Captain Cosmic, Cosmic Tales Vol. 2 #431",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙队长，《宇宙奇谭》第2卷第431期",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：ConstructCataclysm；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/4/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CosmicCrest/title",
     "original": "Cosmic Crest",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙冠饰",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CosmicCrest；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/5/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CosmicCrest/gameTexts/0/body/0",
     "original": "−1 damage dealt to {CaptainCosmic}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{CaptainCosmic}受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CosmicCrest；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CosmicCrest/gameTexts/1/body/0",
     "original": "Play or discover 1 Construct card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "打出或发现1张构造牌。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CosmicCrest；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/5/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CosmicCrest/flavorQuotes/@CaptainCosmic/text",
     "original": "Who put me in charge? No one.{BR}But someone must stand for the world.",
-    "translation": "",
-    "stage": 0,
+    "translation": "谁让我来领头的？没人。{BR}但总得有人为这个世界站出来。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CosmicCrest / CaptainCosmic；类型：flavor.quote。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/5/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CosmicCrest/flavorReference",
     "original": "Captain Cosmic, Prime Wardens Vol. 1 #116",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙队长，《原初守卫》第1卷第116期",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CosmicCrest；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/5/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CosmicWeapon/title",
     "original": "Cosmic Weapon",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙武器",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CosmicWeapon；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/6/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CosmicWeapon/gameTexts/0/body/0",
     "original": "Play this card next to a Hero character.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将此牌打出至一名英雄角色旁。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CosmicWeapon；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CosmicWeapon/gameTexts/1/body/0",
     "original": "They gain this power:",
-    "translation": "",
-    "stage": 0,
+    "translation": "其获得以下异能：",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CosmicWeapon；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CosmicWeapon/gameTexts/1/gainGameText/body/0",
     "original": "This Hero deals 1 target 3 energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "该英雄对1个目标造成3点能量伤害。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CosmicWeapon；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/6/gameTexts/1/gainGameText/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CosmicWeapon/flavorQuotes/@Fanatic/text",
     "original": "This temporary blade will last longer{BR}than the foes we face!",
-    "translation": "",
-    "stage": 0,
+    "translation": "这把剑虽只能暂存，{BR}却也比眼前的敌人更长命！",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CosmicWeapon / Fanatic；类型：flavor.quote。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/6/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@CosmicWeapon/flavorReference",
     "original": "Fanatic, Prime Wardens Vol. 2 #56",
-    "translation": "",
-    "stage": 0,
+    "translation": "狂信，《原初守卫》第2卷第56期",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CosmicWeapon；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/6/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@DestructiveResponse/title",
     "original": "Destructive Response",
-    "translation": "",
-    "stage": 0,
+    "translation": "毁灭回击",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：DestructiveResponse；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/7/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@DestructiveResponse/gameTexts/0/body/0",
     "original": "After any Construct card is destroyed, {CaptainCosmic} deals up to 3 targets 1 energy damage each.",
-    "translation": "",
-    "stage": 0,
+    "translation": "任何构造牌被破坏后，{CaptainCosmic}对至多3个目标各造成1点能量伤害。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：DestructiveResponse；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/7/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@DestructiveResponse/flavorQuotes/@CaptainCosmic/text",
     "original": "Certainly are a <b>lot</b> of you...{BR}Well, come and get me.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你们还<b>真够多</b>的……{BR}好吧，尽管来。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：DestructiveResponse / CaptainCosmic；类型：flavor.quote。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/7/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@DestructiveResponse/flavorReference",
     "original": "Captain Cosmic, Cosmic Tales Vol. 2 #232",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙队长，《宇宙奇谭》第2卷第232期",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：DestructiveResponse；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/7/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@DynamicSiphon/title",
     "original": "Dynamic Siphon",
-    "translation": "",
-    "stage": 0,
+    "translation": "动力虹吸",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：DynamicSiphon；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/8/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@DynamicSiphon/gameTexts/0/body/0",
     "original": "Play this card next to a Hero character.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将此牌打出至一名英雄角色旁。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：DynamicSiphon；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@DynamicSiphon/gameTexts/1/body/0",
     "original": "They gain this reaction:",
-    "translation": "",
-    "stage": 0,
+    "translation": "其获得以下反应：",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：DynamicSiphon；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@DynamicSiphon/gameTexts/1/gainGameText/body/0",
     "original": "Use 1 power.",
-    "translation": "",
-    "stage": 0,
+    "translation": "使用1个异能。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：DynamicSiphon；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/8/gameTexts/1/gainGameText/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@DynamicSiphon/flavorQuotes/@TheArgentAdept/text",
     "original": "A duet? We will play the <b>anthems</b>{BR}of the heavens.",
-    "translation": "",
-    "stage": 0,
+    "translation": "二重奏？{BR}那就让我们奏响诸天的<b>颂歌</b>。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：DynamicSiphon / TheArgentAdept；类型：flavor.quote。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/8/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@DynamicSiphon/flavorReference",
     "original": "The Argent Adept, Prime Wardens Vol. 1 #39",
-    "translation": "",
-    "stage": 0,
+    "translation": "银音秘师，《原初守卫》第1卷第39期",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：DynamicSiphon；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/8/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@EnergyBracer/title",
     "original": "Energy Bracer",
-    "translation": "",
-    "stage": 0,
+    "translation": "能量护腕",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：EnergyBracer；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/9/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@EnergyBracer/gameTexts/0/body/0",
     "original": "Play this card next to a Hero target.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将此牌打出至一个英雄目标旁。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：EnergyBracer；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@EnergyBracer/gameTexts/1/body/0",
     "original": "−1 damage dealt to that Hero target.",
-    "translation": "",
-    "stage": 0,
+    "translation": "该英雄目标受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：EnergyBracer；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/9/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@EnergyBracer/flavorQuotes/@Tempest/text",
     "original": "I will not fight for their homeworld,{BR}but I will fight for the good of the galaxy.",
-    "translation": "",
-    "stage": 0,
+    "translation": "我不会为他们的母星而战。{BR}但我会为银河的安危而战。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：EnergyBracer / Tempest；类型：flavor.quote。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/9/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@EnergyBracer/flavorReference",
     "original": "Tempest, Thorathian War One-Shot",
-    "translation": "",
-    "stage": 0,
+    "translation": "风暴，《索拉宪战争》独立特刊",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：EnergyBracer；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/9/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@HarshOffense/title",
     "original": "Harsh Offense",
-    "translation": "",
-    "stage": 0,
+    "translation": "凌厉攻势",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：HarshOffense；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/10/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@HarshOffense/gameTexts/0/body/0",
     "original": "{CaptainCosmic} deals 1 target 3 energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "{CaptainCosmic}对1个目标造成3点能量伤害。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：HarshOffense；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@HarshOffense/gameTexts/1/body/0",
     "original": "If that target is still in play, draw 2 cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "若该目标仍在场，抽2张牌。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：HarshOffense；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/10/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@HarshOffense/flavorQuotes/@CaptainCosmic/text",
     "original": "You bring the <b>worst</b> out in me.{BR}I shall return the favor.",
-    "translation": "",
-    "stage": 0,
+    "translation": "你逼出了我<b>最糟的一面</b>。{BR}我会好好回敬你的。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：HarshOffense / CaptainCosmic；类型：flavor.quote。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/10/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@HarshOffense/flavorReference",
     "original": "Captain Cosmic, Cosmic Tales Vol. 2 #36",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙队长，《宇宙奇谭》第2卷第36期",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：HarshOffense；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/10/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@HeartOfGold/title",
     "original": "Heart of Gold",
-    "translation": "",
-    "stage": 0,
+    "translation": "黄金之心",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：HeartOfGold；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/11/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@HeartOfGold/gameTexts/0/body/0",
     "original": "Discard up to 3 cards. 1 Hero draws up to X cards. You may play up to X Construct cards. X is the number of cards you discarded this phase.",
-    "translation": "",
-    "stage": 0,
+    "translation": "弃置至多3张牌。1位英雄抽至多X张牌。你可以打出至多X张构造牌。X为本阶段你弃置的牌数。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：HeartOfGold；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/11/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@HeartOfGold/flavorQuotes/@Galactra/text",
     "original": "I just really need someone to help me here.{BR}There has to be <b>some</b> justice in the galaxy,{BR}right?",
-    "translation": "",
-    "stage": 0,
+    "translation": "我现在真的很需要有人帮我。{BR}银河里总该还有<b>那么一点</b>正义，{BR}对吧？",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：HeartOfGold / Galactra；类型：flavor.quote。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/11/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@HeartOfGold/flavorReference",
     "original": "Galactra, Cosmic Tales Vol. 1 #180",
-    "translation": "",
-    "stage": 0,
+    "translation": "伽拉克特拉，《宇宙奇谭》第1卷第180期",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：HeartOfGold；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/11/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@PotentDisruption/title",
     "original": "Potent Disruption",
-    "translation": "",
-    "stage": 0,
+    "translation": "强能破击",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：PotentDisruption；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/12/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@PotentDisruption/gameTexts/0/body/0",
     "original": "Destroy 1 Construct card. If you do, {CaptainCosmic} deals 1 target 5 irreducible energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏1张构造牌。若如此做，{CaptainCosmic}对1个目标造成5点不可削减的能量伤害。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：PotentDisruption；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/12/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@PotentDisruption/flavorQuotes/@Empyreon/text",
     "original": "You <b>foolish</b> Earthling!{BR}You will fall before the might of{BR}<b>eYeyyeyYEAYeyayaeeRRGHH</b>!!",
-    "translation": "",
-    "stage": 0,
+    "translation": "你这<b>愚蠢</b>的地球人！{BR}你必将在我的威能之下——{BR}<b>呃呀呀呀啊啊啊</b>！！",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：PotentDisruption / Empyreon；类型：flavor.quote。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/12/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@PotentDisruption/flavorReference",
     "original": "Empyreon, Cosmic Concurrence #15",
-    "translation": "",
-    "stage": 0,
+    "translation": "恩匹里昂，《宇宙际会》第15期",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：PotentDisruption；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/12/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@UnflaggingAnimation/title",
     "original": "Unflagging Animation",
-    "translation": "",
-    "stage": 0,
+    "translation": "不懈赋生",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：UnflaggingAnimation；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/13/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@UnflaggingAnimation/gameTexts/0/body/0",
     "original": "−1 damage dealt to Construct cards.",
-    "translation": "",
-    "stage": 0,
+    "translation": "构造牌受到的伤害−1。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：UnflaggingAnimation；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@UnflaggingAnimation/gameTexts/1/body/0",
     "original": "Either destroy this card or discard 1 card.",
-    "translation": "",
-    "stage": 0,
+    "translation": "破坏此牌，或弃置1张牌。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：UnflaggingAnimation；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@UnflaggingAnimation/gameTexts/2/body/0",
     "original": "The Construct card with the lowest HP regains 2 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "生命值最低的构造牌恢复2点生命值。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：UnflaggingAnimation；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/13/gameTexts/2/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@UnflaggingAnimation/flavorQuotes/@CaptainCosmic/text",
     "original": "I know little of your people, but I understand{BR}fear, and innocent lives in danger. I will keep{BR}you safe. I swear it.",
-    "translation": "",
-    "stage": 0,
+    "translation": "我对你们的族群了解不多，但我懂得恐惧，{BR}也知道无辜的生命正处于危险之中。{BR}我会保护你们。我发誓。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：UnflaggingAnimation / CaptainCosmic；类型：flavor.quote。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/13/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@UnflaggingAnimation/flavorReference",
     "original": "Captain Cosmic, Prime Wardens Vol. 2 #27",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙队长，《原初守卫》第2卷第27期",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：UnflaggingAnimation；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/13/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@VitalityConduit/title",
     "original": "Vitality Conduit",
-    "translation": "",
-    "stage": 0,
+    "translation": "活力法渠",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：VitalityConduit；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/14/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@VitalityConduit/gameTexts/0/body/0",
     "original": "Play this card next to a Hero target.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将此牌打出至一个英雄目标旁。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：VitalityConduit；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@VitalityConduit/gameTexts/1/body/0",
     "original": "That target regains 2 HP.",
-    "translation": "",
-    "stage": 0,
+    "translation": "该目标恢复2点生命值。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：VitalityConduit；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/14/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@VitalityConduit/flavorQuotes/@CaptainCosmic/text",
     "original": "Careful, m'dear! I know you're quite capable, but{BR}that fellow looks rather intent on your{BR}destruction!",
-    "translation": "",
-    "stage": 0,
+    "translation": "小心些，姑娘！我知道你本事不小，{BR}不过，那家伙似乎铁了心{BR}要置你于死地！",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：VitalityConduit / CaptainCosmic；类型：flavor.quote。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/14/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@VitalityConduit/flavorReference",
     "original": "Captain Cosmic, Cosmic Concurrence #7",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙队长，《宇宙际会》第7期",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：VitalityConduit；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/14/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@WoundingBuffer/title",
     "original": "Wounding Buffer",
-    "translation": "",
-    "stage": 0,
+    "translation": "反击屏障",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：WoundingBuffer；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/15/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@WoundingBuffer/gameTexts/0/body/0",
     "original": "Play this card next to a Hero character.",
-    "translation": "",
-    "stage": 0,
+    "translation": "将此牌打出至一名英雄角色旁。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：WoundingBuffer；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@WoundingBuffer/gameTexts/1/body/0",
     "original": "They gain this reaction:",
-    "translation": "",
-    "stage": 0,
+    "translation": "其获得以下反应：",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：WoundingBuffer；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@WoundingBuffer/gameTexts/1/gainGameText/body/0",
     "original": "This card deals the attacker 3 energy damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "此牌对攻击者造成3点能量伤害。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：WoundingBuffer；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/15/gameTexts/1/gainGameText/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@WoundingBuffer/flavorQuotes/@JudgeMental/text",
     "original": "Order! Order!{BR}I demand you stop all this nonsense at once!{BR}I was attempting to have a real trial here!",
-    "translation": "",
-    "stage": 0,
+    "translation": "肃静！肃静！{BR}我命令你们立刻停止这些胡闹！{BR}我可是打算在这里正经审案的！",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：WoundingBuffer / JudgeMental；类型：flavor.quote。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/15/flavorQuotes/0/text。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/cards/@WoundingBuffer/flavorReference",
     "original": "Judge Mental, Justice Comics #543",
-    "translation": "",
-    "stage": 0,
+    "translation": "诛心法官，《正义漫画》第543期",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：WoundingBuffer；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/cards/15/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/variants/@CaptainCosmicCharacter/title",
     "original": "First Appearance: Captain Cosmic",
-    "translation": "",
-    "stage": 0,
+    "translation": "初次登场：宇宙队长",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：card.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/variants/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/variants/@CaptainCosmicCharacter/gameTexts/0/title",
     "original": "Cosmic Pummel",
-    "translation": "",
-    "stage": 0,
+    "translation": "宇宙痛击",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：ability.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/variants/@CaptainCosmicCharacter/gameTexts/0/body/0",
     "original": "1 Construct card in play regains 3 HP, then deals 1 target 4 melee damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "场上的1张构造牌恢复3点生命值，然后对1个目标造成4点近战伤害。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/variants/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/variants/@CaptainCosmicCharacter/flippedGameTexts/0/title",
     "original": "Starstruck Rube",
-    "translation": "",
-    "stage": 0,
+    "translation": "星际乡巴佬",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：ability.title。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/variants/@CaptainCosmicCharacter/flippedGameTexts/0/body/0",
     "original": "1 Hero takes their {Draw}.",
-    "translation": "",
-    "stage": 0,
+    "translation": "1位英雄进行其{Draw}。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/variants/@CaptainCosmicCharacter/flippedGameTexts/0/body/1",
     "original": "Reveal the top card of 1 deck. Replace it or discard it.",
-    "translation": "",
-    "stage": 0,
+    "translation": "展示1个牌库的顶牌。将其放回原处或弃置。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/variants/@CaptainCosmicCharacter/flippedGameTexts/0/body/2",
     "original": "Select 1 target. Until your {Start}, −1 damage dealt by that target.",
-    "translation": "",
-    "stage": 0,
+    "translation": "选择1个目标。直到你的{Start}，该目标造成的伤害−1。",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：rules.body。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/variants/0/flippedGameTexts/0/body/2。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/variants/@CaptainCosmicCharacter/flavorReference",
     "original": "Conflux #1, Mar 1970",
-    "translation": "",
-    "stage": 0,
+    "translation": "《交汇》第1期，1970年3月",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/variants/0/flavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "CaptainCosmicDeckList.json::turnTakers/@CaptainCosmic/decks/@CaptainCosmic/variants/@CaptainCosmicCharacter/flippedFlavorReference",
     "original": "Conflux #3, March 1972",
-    "translation": "",
-    "stage": 0,
+    "translation": "《交汇》第3期，1972年3月",
+    "stage": 1,
     "context": "卡组：CaptainCosmic；对象：CaptainCosmicCharacter；类型：flavor.reference。\n来源：CaptainCosmicDeckList.json#/turnTakers/0/decks/0/variants/0/flippedFlavorReference。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

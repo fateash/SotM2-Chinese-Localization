@@ -2,85 +2,85 @@
   {
     "key": "ui.source.81a00b61d7b24fa48efc",
     "original": "Forever (click to proceed)",
-    "translation": "",
-    "stage": 0,
+    "translation": "保持显示（点击继续）",
+    "stage": 1,
     "context": "界面对象：Max Hint；用途：settings。\nlevel5 path_id=201 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.81eff08294890f368d17",
     "original": "Slow",
-    "translation": "",
-    "stage": 0,
+    "translation": "慢",
+    "stage": 1,
     "context": "界面对象：Left Label；用途：settings。\nlevel5 path_id=206 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.bcd9ea4e5f077c265639",
     "original": "Long",
-    "translation": "",
-    "stage": 0,
+    "translation": "长",
+    "stage": 1,
     "context": "界面对象：Left Label；用途：settings。\nlevel5 path_id=208 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.05964032aee353f90e6c",
     "original": "Card Display Time",
-    "translation": "",
-    "stage": 0,
+    "translation": "卡牌展示时间",
+    "stage": 1,
     "context": "界面对象：Title Label；用途：settings。\nlevel5 path_id=210 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.3e8eab99c0783fc97923",
     "original": "Effects Volume",
-    "translation": "",
-    "stage": 0,
+    "translation": "音效音量",
+    "stage": 1,
     "context": "界面对象：Title Label；用途：settings。\nlevel5 path_id=211 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.9c5c7aa3a9846da14c15",
     "original": "Animation Speed",
-    "translation": "",
-    "stage": 0,
+    "translation": "动画速度",
+    "stage": 1,
     "context": "界面对象：Title Label；用途：settings。\nlevel5 path_id=212 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.10a59318c9f02a1d5d76",
     "original": "Music Volume",
-    "translation": "",
-    "stage": 0,
+    "translation": "音乐音量",
+    "stage": 1,
     "context": "界面对象：Title Label；用途：settings。\nlevel5 path_id=213 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.66c7283ffa470dd4e527",
     "original": "Full Screen",
-    "translation": "",
-    "stage": 0,
+    "translation": "全屏",
+    "stage": 1,
     "context": "界面对象：Text (TMP)；用途：settings。\nlevel5 path_id=215 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.73728c21726e37fdbaef",
     "original": "Automatically choose order & draw cards when it is safe to do so",
-    "translation": "",
-    "stage": 0,
+    "translation": "在可安全自动处理时，自动选择顺序并抽牌",
+    "stage": 1,
     "context": "界面对象：Text (TMP)；用途：settings。\nlevel5 path_id=216 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.450f16580b7b5caafdb9",
     "original": "Bold card game text",
-    "translation": "",
-    "stage": 0,
+    "translation": "加粗卡牌规则文本",
+    "stage": 1,
     "context": "界面对象：Text (TMP)；用途：settings。\nlevel5 path_id=217 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.2de483b7a69dfb567a86",
     "original": "Short",
-    "translation": "",
-    "stage": 0,
+    "translation": "短",
+    "stage": 1,
     "context": "界面对象：Right Label；用途：settings。\nlevel5 path_id=219 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.890c3c134701d6761c8b",
     "original": "Fast",
-    "translation": "",
-    "stage": 0,
+    "translation": "快",
+    "stage": 1,
     "context": "界面对象：Right Label；用途：settings。\nlevel5 path_id=221 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   }
 ]

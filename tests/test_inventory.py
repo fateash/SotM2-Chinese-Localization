@@ -1,4 +1,4 @@
-import copy,sys,unittest
+import copy,sys,unittest,re,collections
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'tools'))
 import catalog as c
@@ -16,7 +16,7 @@ class InventoryTests(unittest.TestCase):
  def test_all_sources_and_legacy_translations_preserved(self):
   out,r=i.build(self.data,self.rows)
   old,_=c.compile_catalog(c.load(ROOT/'baseline/registry.json'),c.snapshot((ROOT/'translations').glob('*.json')),'translated')
-  self.assertEqual(len(self.rows),2444);self.assertEqual(len(self.config['files']),48)
+  self.assertEqual(len(self.rows),2552);self.assertEqual(len(self.config['files']),50)
   self.assertEqual(out['Ui'],old['Ui']);self.assertEqual(set(map(str,out['Cards'])),set(map(str,old['Cards'])))
   self.assertEqual(out['Display'],[]);self.assertEqual(r['included'],89)
  def test_new_translation_routes_and_crlf(self):
@@ -49,6 +49,19 @@ class InventoryTests(unittest.TestCase):
   self.assertTrue(any(x['Mode']=='style' and x['Style']=='PowerTitle' and x['Card']=='LegacyCharacter' for x in out['Display']))
   self.assertTrue(any(x['Mode']=='phase-inline' and x['Source']=='START PHASE' for x in out['Display']))
 
+ def test_production_rules_do_not_add_literal_numbers(self):
+  # Check actual translations, including held events/variants/Collection.
+  # The source uses an em dash as a minus in Invasion of Earth; compare its
+  # arithmetic sign as minus while retaining the untouched source text.
+  rows=i.snapshot(ROOT/'inventory-translations',self.data)
+  def literals(text):
+   raw=re.findall(r'[+\-−—]?\d+(?:\.\d+)?',c.TOKEN.sub('',text))
+   return collections.Counter(x.replace('—','−').replace('-','−') for x in raw)
+  for e in self.data['entries']:
+   if e['kind']!='rules.body' or not rows[e['key']]['translation'].strip():continue
+   with self.subTest(key=e['key']):
+    self.assertEqual(literals(e['original']),literals(rows[e['key']]['translation']))
+
 class MigrationTests(unittest.TestCase):
  setUp=InventoryTests.setUp
  def fake(self,unknown=False):
@@ -74,9 +87,9 @@ class MigrationTests(unittest.TestCase):
   return request
  def test_full_additive_migration_preserves_89(self):
   result,resolved=s.migrate(self.config,self.data,self.fake(),True)
-  self.assertEqual(len(result),48);self.assertEqual(sum(map(len,result.values())),2444)
+  self.assertEqual(len(result),50);self.assertEqual(sum(map(len,result.values())),2552)
   self.assertEqual(resolved['files']['heroes/Legacy.json'],3595650)
-  self.assertEqual(len(self.writes),48)
+  self.assertEqual(len(self.writes),50)
   new={r['key']:r for rows in result.values() for r in rows}
   for k,r in self.rows.items():self.assertEqual((new[k]['translation'],new[k]['stage']),(r['translation'],r['stage']))
  def test_preflight_failure_performs_no_writes(self):
@@ -84,7 +97,7 @@ class MigrationTests(unittest.TestCase):
   self.assertEqual(self.writes,[])
  def test_plan_is_read_only(self):
   plan=s.migrate(self.config,self.data,self.fake(),False)
-  self.assertEqual(len(plan),48);self.assertEqual(self.writes,[])
+  self.assertEqual(len(plan),50);self.assertEqual(self.writes,[])
  def test_incomplete_remote_pull_rejected(self):
   with self.assertRaises(c.Invalid):s.pull(self.config,self.data,self.fake())
 

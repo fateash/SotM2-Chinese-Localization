@@ -2,50 +2,50 @@
   {
     "key": "ui.source.fff88057e26417dd0239",
     "original": "Potentially related cards (click to view)",
-    "translation": "",
-    "stage": 0,
+    "translation": "可能相关的卡牌（点击查看）",
+    "stage": 1,
     "context": "界面对象：Text (TMP)；用途：game-results。\nlevel1 path_id=500 offset=88\nlevel2 path_id=798 offset=88\nlevel4 path_id=351 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.e1aca904551edb43c87c",
     "original": "Try Again",
-    "translation": "",
-    "stage": 0,
+    "translation": "再试一次",
+    "stage": 1,
     "context": "界面对象：Text (TMP)；用途：game-results。\nlevel4 path_id=353 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.9058d35dbee2d625b78b",
     "original": "Share",
-    "translation": "",
-    "stage": 0,
+    "translation": "分享",
+    "stage": 1,
     "context": "界面对象：Text (TMP)；用途：game-results。\nlevel4 path_id=354 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.fa3513b2fb4f98e088fb",
     "original": "New Game\n",
-    "translation": "",
-    "stage": 0,
+    "translation": "新建游戏\n",
+    "stage": 1,
     "context": "界面对象：Text (TMP)；用途：game-results。\nlevel4 path_id=355 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.de74480a9911126a56ca",
     "original": "Try Again",
-    "translation": "",
-    "stage": 0,
+    "translation": "再试一次",
+    "stage": 1,
     "context": "界面对象：Text；用途：game-results。\nlevel4 path_id=357 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.1e6e66d23b9818f4aec5",
     "original": "Share",
-    "translation": "",
-    "stage": 0,
+    "translation": "分享",
+    "stage": 1,
     "context": "界面对象：Text；用途：game-results。\nlevel4 path_id=359 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   },
   {
     "key": "ui.source.269e99b40f8eca2ff3dc",
     "original": "Shared!",
-    "translation": "",
-    "stage": 0,
+    "translation": "分享成功！",
+    "stage": 1,
     "context": "界面对象：Share Results Label；用途：game-results。\nlevel4 path_id=360 offset=88\n静态组件文本，运行时显示与替换待验证。保留标签和换行。"
   }
 ]

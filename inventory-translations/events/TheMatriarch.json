@@ -2,50 +2,50 @@
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/events/@NightsPlutonianShoreEvent/title",
     "original": "Night's Plutonian Shore",
-    "translation": "",
-    "stage": 0,
+    "translation": "冥夜之岸",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：NightsPlutonianShoreEvent；类型：events.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/events/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/events/@NightsPlutonianShoreEvent/gameTexts/0/title",
     "original": "Pestilent Corvids",
-    "translation": "",
-    "stage": 0,
+    "translation": "瘟疫鸦群",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：NightsPlutonianShoreEvent；类型：ability.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/events/@NightsPlutonianShoreEvent/gameTexts/0/body/0",
     "original": "When a Cohort card is destroyed, it deals the Hero target with the highest HP 3 toxic damage.",
-    "translation": "",
-    "stage": 0,
+    "translation": "一张羽随牌被破坏时，该牌对生命值最高的英雄目标造成3点毒素伤害。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：NightsPlutonianShoreEvent；类型：rules.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/events/0/gameTexts/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/events/@NightsPlutonianShoreEvent/body/0",
     "original": "The Matriarch’s classic first appearance in the Silver Age of{BR}Sentinel Comics was reprised in the late ‘90s with the “Night’s{BR}Plutonian Shore” One-Shot. In this telling of the story, The{BR}Matriarch posed a far greater threat, surrounded by scores of{BR}corvids and accompanied by two powerful avian cohorts.",
-    "translation": "",
-    "stage": 0,
+    "translation": "鸦母在守护者漫画白银时代的经典初登场故事，{BR}于上世纪90年代末通过《冥夜之岸》独立特刊{BR}再度演绎。在这个版本中，鸦母{BR}带来了远胜以往的威胁：成群的鸦科飞鸟环绕左右，{BR}还有两只强大的羽随伴其同行。",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：NightsPlutonianShoreEvent；类型：events.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/events/0/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/events/@NightsPlutonianShoreEvent/body/1",
     "original": "When the foul avian swarm descends upon Rook City, the Heroes{BR}assemble to try to protect the citizens of the blighted boroughs.{BR}Ultimately, the story is a battle of science vs. magic, with the{BR}super-scientist Tachyon attempting to outwit the overwhelming{BR}power of her cousin The Matriarch!",
-    "translation": "",
-    "stage": 0,
+    "translation": "邪恶的鸟群席卷鸦城，英雄们{BR}集结起来，竭力保护破败街区中的市民。{BR}这场故事最终成为科学与魔法的较量：{BR}超级科学家快子试图以智慧，{BR}战胜表妹鸦母那压倒性的力量！",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：NightsPlutonianShoreEvent；类型：events.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/events/0/body/1。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/events/@AMurderMostFowlEvent/title",
     "original": "A Murder Most Fowl",
-    "translation": "",
-    "stage": 0,
+    "translation": "凶禽血案",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：AMurderMostFowlEvent；类型：events.title。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/events/1/title。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   },
   {
     "key": "TheMatriarchDeckList.json::turnTakers/@TheMatriarch/decks/@TheMatriarch/events/@AMurderMostFowlEvent/body/0",
     "original": "Lillian Corvus has taken the name \"The Harpy\" and fights alongside{BR}the hero team Dark Watch, mostly operating in the Rook City{BR}area. So when the Matriarch shows up and unleashes her flocks{BR}on unsuspecting citizens, the heroes know that this must be a{BR}fleshchild, made by the nefarious Biomancer! Can this clone be{BR}revealed for what it really is, before the reputation of the Harpy is{BR}forever ruined?",
-    "translation": "",
-    "stage": 0,
+    "translation": "莉莉安·科尔沃斯已改用“巫鸦”之名，{BR}与英雄队伍暗夜守望并肩作战，主要活动于{BR}鸦城一带。因此，当鸦母现身，放出鸟群{BR}袭击毫无防备的市民时，英雄们便知道，眼前的她{BR}必是邪恶的塑生使制造的血肉造物！{BR}在巫鸦的名誉遭到彻底毁坏之前，{BR}他们能否揭穿这个克隆体的真面目？",
+    "stage": 1,
     "context": "卡组：TheMatriarch；对象：AMurderMostFowlEvent；类型：events.body。\n来源：TheMatriarchDeckList.json#/turnTakers/0/decks/0/events/1/body/0。\n保留占位符、富文本标签、数字及原有换行；译文使用项目术语库。\n资源已提取；当前版本的可见性与显示入口待验证。"
   }
 ]

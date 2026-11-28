@@ -8,9 +8,13 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class DynamicReviewTests(unittest.TestCase):
     def test_drafts_cover_exact_source_keys_and_preserve_parameters(self):
-        sources = {r['key']: (str(p.relative_to(ROOT / 'inventory-import')), r['original'])
+        registry = json.loads((ROOT / 'baseline/inventory.json').read_text())['entries']
+        candidate_keys = {e['key'] for e in registry if e['kind'] == 'dynamic.candidate'}
+        all_sources = {r['key']: (str(p.relative_to(ROOT / 'inventory-import')), r['original'])
                    for p in (ROOT / 'inventory-import/dynamic').glob('*.json')
                    for r in json.loads(p.read_text())}
+        self.assertEqual(set(all_sources), {e['key'] for e in registry if e['file'].startswith('dynamic/')})
+        sources = {k: v for k, v in all_sources.items() if k in candidate_keys}
         rows = json.loads((ROOT / 'probe/dynamic-text-review.json').read_text())['entries']
         self.assertEqual(len(rows), len(sources))
         self.assertEqual(len(rows), len({r['key'] for r in rows}))
@@ -28,6 +32,14 @@ class DynamicReviewTests(unittest.TestCase):
                     self.assertEqual(row['status'], 'assembly-only')
                 self.assertIn(row['status'], ['assembly-only', 'parameter-semantics-review',
                                              'display-route-review', 'stage-2-fixed-text'])
+
+    def test_editorial_additions_remain_distinct_from_literal_review(self):
+        registry = json.loads((ROOT / 'baseline/inventory.json').read_text())['entries']
+        additions = [e for e in registry if e['kind'] in {'dynamic.editorial-template', 'ui.editorial-candidate'}]
+        self.assertEqual(len(additions), 108)
+        self.assertTrue(all(e['route'] == 'inventory' and e['holdReason'] == 'editorial-template-runtime-binding-pending' for e in additions))
+        drafts = json.loads((ROOT / 'probe/dynamic-text-review.json').read_text())['entries']
+        self.assertFalse({e['key'] for e in additions} & {e['key'] for e in drafts})
 
 if __name__ == '__main__':
     unittest.main()
