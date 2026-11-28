@@ -264,14 +264,14 @@ class CaptureWaiverTests(unittest.TestCase):
         before = copy.deepcopy(self.sessions)
         errors, accepted = audit.session_gate_issues(self.sessions, self.waivers)
         self.assertEqual(errors, [])
-        self.assertEqual(len(accepted), 4)
+        self.assertEqual(len(accepted), len(self.waivers['entries']))
         self.assertEqual(self.sessions, before)
         self.assertTrue(all(s['captureLimitReached'] and not s['exhaustive'] for s in self.sessions))
-        self.assertEqual(len(audit.capture_closure_errors(accepted)), 4)
+        self.assertEqual(len(audit.capture_closure_errors(accepted)), 0)
 
     def test_no_waiver_still_blocks_capture_limit(self):
         errors, accepted = audit.session_gate_issues(self.sessions)
-        self.assertEqual(len(errors), 4)
+        self.assertEqual(len(errors), len(self.sessions))
         self.assertEqual(accepted, [])
 
     def test_new_renamed_or_changed_session_does_not_inherit_waiver(self):
@@ -280,7 +280,7 @@ class CaptureWaiverTests(unittest.TestCase):
                 added = self.sessions[0] | delta
                 errors, accepted = audit.session_gate_issues(self.sessions + [added], self.waivers)
                 self.assertEqual(errors, [added['file'] + ':bounded-capture-limit-reached'])
-                self.assertEqual(len(accepted), 4)
+                self.assertEqual(len(accepted), len(self.waivers['entries']))
 
     def test_other_issue_in_waived_session_still_blocks(self):
         self.sessions[0]['issues'].append('missing-installed-hashes')
@@ -314,7 +314,7 @@ class CaptureWaiverTests(unittest.TestCase):
         replay = {'rows': [{'id': self.sample['id'], 'reason': 'unresolved-full-string', 'target': None}]}
         report = audit.make_report(snapshot, replay, {'entries': []}, 'test-hash', [], self.waivers)
         self.assertEqual(report['gateErrors'], ['untriaged:' + self.sample['id']])
-        self.assertEqual(len(report['acceptedGateWaivers']), 4)
+        self.assertEqual(len(report['acceptedGateWaivers']), len(self.waivers['entries']))
         self.assertFalse(report['entries'][0]['stages']['liveAccepted'])
         self.assertIn('本批合并放行', audit.markdown(report))
         self.assertEqual(report['sessions'], self.sessions)
@@ -325,6 +325,22 @@ class CaptureWaiverTests(unittest.TestCase):
             sessions[0].update(delta)
             with self.assertRaises(ValueError):
                 audit.session_gate_issues(sessions, self.waivers)
+
+    def test_merge_waiver_without_separate_closeout_still_blocks_closure(self):
+        waivers = copy.deepcopy(self.waivers)
+        for row in waivers['entries']:
+            row.pop('closureApproval', None)
+        errors, accepted = audit.session_gate_issues(self.sessions, waivers)
+        self.assertEqual(errors, [])
+        self.assertEqual(len(audit.capture_closure_errors(accepted)), len(self.sessions))
+
+    def test_closeout_cannot_omit_authorization_or_cover_future_sessions(self):
+        for field, value in [('authorization', ''), ('scope', 'all-future-sessions'),
+                             ('baselineVersion', '')]:
+            waivers = copy.deepcopy(self.waivers)
+            waivers['entries'][0]['closureApproval'][field] = value
+            with self.assertRaisesRegex(ValueError, 'session-scoped'):
+                audit.session_gate_issues(self.sessions, waivers)
 
 if __name__ == '__main__':
     unittest.main()
@@ -422,10 +438,12 @@ class Evidence037Tests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'scenario missing'):
             audit.validate_acceptance(plan, audit.read(ROOT / 'coverage/contracts.json'), audit.read(ROOT / 'coverage/inventory-status.json'))
 
-    def test_character_visual_confirmation_does_not_approve_clicks_or_other_face(self):
+    def test_character_old_visual_confirmation_is_preserved_under_new_batch_acceptance(self):
         plan = audit.read(ROOT / 'coverage/acceptance-plan.json')
         scene = next(s for g in plan['groups'] for s in g['scenarios'] if s['id'] == 'omnitron')
-        self.assertEqual(scene['status'], 'pending')
+        self.assertEqual(scene['status'], 'accepted')
+        self.assertEqual(scene['evidence']['confirmationKind'], 'maintainer-batch-acceptance')
+        self.assertIn('目前的验收记录全部通过', scene['evidence']['humanConfirmation'])
         self.assertEqual(scene['visualObservations'][0]['status'], 'visual-accepted')
         self.assertEqual(scene['visualObservations'][0]['humanConfirmation'], '全能智创角色大图文字通过')
 

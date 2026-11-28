@@ -373,14 +373,22 @@ def session_gate_issues(sessions, waivers=None):
                    ('file', 'sha256', 'version', 'buildId'))]
         if len(matches) != 1 or matches[0].get('captureLimitReached') is not True or row['issue'] not in matches[0]['issues']:
             raise ValueError('Capture waiver must match an existing capped session exactly')
+        if 'closureApproval' in row:
+            approval = row['closureApproval']
+            if (not isinstance(approval, dict) or
+                    not all(isinstance(approval.get(k), str) and approval[k].strip() for k in
+                            ('approvedBy', 'approvedAt', 'authorization', 'reason', 'baselineVersion')) or
+                    approval.get('scope') != 'this-session-capture-limit-closeout'):
+                raise ValueError('Capture closeout needs explicit session-scoped authorization')
         accepted.append(dict(row))
     errors = [s['file'] + ':' + issue for s in sessions for issue in s['issues']
               if tuple(s.get(k) for k in ('file', 'sha256', 'version', 'buildId')) + (issue,) not in seen]
     return errors, accepted
 
 def capture_closure_errors(waivers):
-    # Release/phase completion still requires resolution of accepted evidence gaps.
-    return ['waived-capture-limit:' + row['sha256'] for row in waivers]
+    # Merge-only waivers do not imply closeout; a separate explicit decision is required.
+    return ['waived-capture-limit:' + row['sha256'] for row in waivers
+            if 'closureApproval' not in row]
 
 def translation_completeness(row, result):
     """Residual audit, not semantic/click acceptance. Keep old match reason as provenance."""

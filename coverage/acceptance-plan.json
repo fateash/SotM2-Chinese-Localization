@@ -65,25 +65,61 @@
           "id": "button-roles",
           "check": "小图、大图、英雄／反派／环境的完整动作按钮",
           "passCriteria": "译文一致；数字不变；点击动作与原按钮一致",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "new-host",
           "check": "不同容器中的Play Here／Put Here／Skip Draw Phase",
           "passCriteria": "组件身份记录buttonLabel=true；无需增加角色或路径补丁",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "guards",
           "check": "输入框、生命值、裸数字、正文中相同词组",
           "passCriteria": "不翻译不改数；没有因匹配规则产生无关按钮",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "damage-types",
           "check": "11类伤害类型选择按钮",
           "passCriteria": "使用既定伤害类型译名，选中后效果与原类型对应",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         }
       ],
       "kind": "live-functional"
@@ -116,19 +152,46 @@
           "id": "three",
           "check": "三英雄局，当前英雄和两个非当前槽位",
           "passCriteria": "在此打出／放在此处显示正确，实际放置归属正确",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "four",
           "check": "四英雄局，当前英雄和三个非当前槽位",
           "passCriteria": "切换当前英雄后仍正确；没有裁切或错位",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "five",
           "check": "五英雄局，当前英雄和四个非当前槽位",
           "passCriteria": "实际点击与当前／非当前角色归属一致",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         }
       ],
       "kind": "live-functional"
@@ -173,13 +236,31 @@
           "id": "hero",
           "check": "一名英雄的抽牌／弃置／放回／召唤代表效果",
           "passCriteria": "区域和动作语义准确，牌数与实际去向正确",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "nonhero",
           "check": "一个反派和一个环境的牌库／弃牌堆入口",
           "passCriteria": "区域用途没有串线；不要求逐对象重复同一入口",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         }
       ],
       "kind": "live-functional"
@@ -223,13 +304,31 @@
           "id": "count",
           "check": "单张／多张弃置、埋藏以及伤害确认",
           "passCriteria": "数量和单复数条件正确；确认后结算正确",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "phase",
           "check": "剩余行动数与跳过阶段",
           "passCriteria": "显示计数实时变化，跳过操作推进到正确阶段",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         }
       ],
       "kind": "live-functional"
@@ -267,13 +366,31 @@
           "id": "single-multiple",
           "check": "单／多目标，带来源／无来源提示",
           "passCriteria": "目标上限、伤害量、类型及实际生命值变化正确",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "ordered",
           "check": "火焰加能量等多段伤害与选取顺序",
           "passCriteria": "连接关系、顺序与点击实际结算一致",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         }
       ],
       "kind": "live-functional"
@@ -377,25 +494,61 @@
           "id": "draw",
           "check": "黄金之心选择英雄抽牌",
           "passCriteria": "英雄目标和抽牌数量正确",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "target-purpose",
           "check": "塑石工匠减伤及塔玛元帅指定伤害来源",
           "passCriteria": "对其造成伤害／由其造成伤害没有颠倒",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "variable",
           "check": "含数量、名称和单复数的其他代表提示",
           "passCriteria": "整句无半译，名称与动态参数正确",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "regain-target",
           "check": "银音秘师选择目标恢复生命值提示",
           "passCriteria": "完整中文及角色名称正确，选中目标后恢复数值正常",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "most-ongoing",
@@ -449,13 +602,31 @@
           "id": "power",
           "check": "异能阶段提示与点击／拖动使用异能",
           "passCriteria": "图标、阶段名、动作说明完整，实际使用正确",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "phase-layout",
           "check": "充能及开始／结束阶段组合提示",
           "passCriteria": "换行行距、图标与正文没有重叠",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         }
       ],
       "kind": "live-functional"
@@ -508,25 +679,52 @@
           "id": "h-formula",
           "check": "黑／白H图标和英雄人数加减公式，小图／大图",
           "passCriteria": "图标颜色、数字及正负含义保留，无minus残留",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "grant",
           "check": "宇宙武器授予的异能与失能能力",
           "passCriteria": "来源和接受者语义正确，点击后伤害数值正确",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "reaction",
           "check": "反应提示中动态人名与伤害值",
           "passCriteria": "完整译文随参数变化；无英文残留",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "omnitron",
           "check": "全能智创双面制造／灭绝文本",
           "passCriteria": "新版完整正文无Omnitron／FABRICATE／EXTERMINATE残留；翻面和结算正确",
-          "status": "pending",
+          "status": "accepted",
           "visualObservations": [
             {
               "version": "0.1.36-rc.1",
@@ -538,7 +736,16 @@
               "interaction": "未由本次截图确认",
               "otherFace": "本截图未覆盖"
             }
-          ]
+          ],
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "ability-fonts",
@@ -597,7 +804,16 @@
           "id": "names",
           "check": "抽牌、展示、牌组背面及短标题",
           "passCriteria": "按审定译名一致显示；S-83等合法型号保留",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "environment-back-titles",
@@ -715,19 +931,46 @@
           "id": "normal",
           "check": "普通胜利、英雄全失能和环境结算",
           "passCriteria": "实际触发的结算标题与正文完整一致",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "baron",
           "check": "刀锋男爵弃牌堆达到阈值的失败",
           "passCriteria": "特殊月球撞击文本完整显示",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "voss",
           "check": "大军阀沃斯达成特殊失败条件",
           "passCriteria": "征服类结算文本完整显示，数字条件不变",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "wagner",
@@ -784,13 +1027,31 @@
           "id": "associated",
           "check": "附属／下置牌及弹窗描述",
           "passCriteria": "标题和计数正确，弹窗可正常关闭",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         },
         {
           "id": "menu",
           "check": "已开放菜单与基础词典范围",
           "passCriteria": "操作按钮不串用途；条件词典不冒充默认覆盖",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         }
       ],
       "kind": "live-functional"
@@ -813,7 +1074,7 @@
           "id": "selection",
           "check": "英雄、反派、环境选择；选3／4／5英雄",
           "passCriteria": "选择标题、难度和危险度完整；数值随选项变化",
-          "status": "pending",
+          "status": "accepted",
           "visualObservations": [
             {
               "version": "0.1.37-rc.1（本轮测试上下文）",
@@ -824,7 +1085,16 @@
               "status": "visual-failed",
               "resolution": "0.1.38调整独立Rating Label布局，待复验"
             }
-          ]
+          ],
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         }
       ],
       "kind": "live-functional"
@@ -847,7 +1117,16 @@
           "id": "spacing",
           "check": "突破极限等多阶段卡牌小图／大图",
           "passCriteria": "行距舒展，标题与正文不重叠，长文本不裁切",
-          "status": "pending"
+          "status": "accepted",
+          "evidence": {
+            "version": "0.1.42-rc.1（本轮收束基线，包含此前版本修复）",
+            "source": "用户2026-11-28本轮明确统一验收确认",
+            "humanConfirmation": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+            "visualResult": "用户确认已观察的接口缺失／问题全部解决，目前无肉眼可见漏译；按本次授权关闭既有记录。",
+            "interactionResult": "用户明确将目前验收记录全部通过；包含本场景，未另行提供逐场景操作明细，不补造截图、日志或数值测量。",
+            "confirmationKind": "maintainer-batch-acceptance",
+            "closureRef": "coverage/acceptance-closeout-0.1.42.json"
+          }
         }
       ],
       "kind": "live-functional"
@@ -981,5 +1260,10 @@
       "kind": "inventory-review",
       "reviewTask": "对未接入的日志／状态片段确定实际调用方与完整句"
     }
-  ]
+  ],
+  "closeout": {
+    "version": "0.1.42-rc.1",
+    "date": "2026-11-28",
+    "record": "coverage/acceptance-closeout-0.1.42.json"
+  }
 }

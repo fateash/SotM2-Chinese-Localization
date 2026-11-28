@@ -11,7 +11,15 @@
       "approvedAt": "2026-11-28",
       "authorization": "放行本批审计阻断，并合并pr13",
       "reason": "维护者明确接受本批四份日志的采集不完整风险，允许PR #13合并；原始问题及待实机验收项继续保留。",
-      "scope": "merge-only-not-live-acceptance"
+      "scope": "merge-only-not-live-acceptance",
+      "closureApproval": {
+        "approvedBy": "项目维护者（用户）",
+        "approvedAt": "2026-11-28",
+        "authorization": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+        "reason": "本次明确放行该历史会话的采集上限收尾阻断；保留原始采集不完整事实，不传播到新会话。",
+        "scope": "this-session-capture-limit-closeout",
+        "baselineVersion": "0.1.42-rc.1"
+      }
     },
     {
       "file": "SotM2-Dynamic-Evidence-20261128-150229-9ef90a.zip",
@@ -23,7 +31,15 @@
       "approvedAt": "2026-11-28",
       "authorization": "放行本批审计阻断，并合并pr13",
       "reason": "维护者明确接受本批四份日志的采集不完整风险，允许PR #13合并；原始问题及待实机验收项继续保留。",
-      "scope": "merge-only-not-live-acceptance"
+      "scope": "merge-only-not-live-acceptance",
+      "closureApproval": {
+        "approvedBy": "项目维护者（用户）",
+        "approvedAt": "2026-11-28",
+        "authorization": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+        "reason": "本次明确放行该历史会话的采集上限收尾阻断；保留原始采集不完整事实，不传播到新会话。",
+        "scope": "this-session-capture-limit-closeout",
+        "baselineVersion": "0.1.42-rc.1"
+      }
     },
     {
       "file": "SotM2-Dynamic-Evidence-20261128-155546-3d36e4.zip",
@@ -35,7 +51,15 @@
       "approvedAt": "2026-11-28",
       "authorization": "放行本批审计阻断，并合并pr13",
       "reason": "维护者明确接受本批四份日志的采集不完整风险，允许PR #13合并；原始问题及待实机验收项继续保留。",
-      "scope": "merge-only-not-live-acceptance"
+      "scope": "merge-only-not-live-acceptance",
+      "closureApproval": {
+        "approvedBy": "项目维护者（用户）",
+        "approvedAt": "2026-11-28",
+        "authorization": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+        "reason": "本次明确放行该历史会话的采集上限收尾阻断；保留原始采集不完整事实，不传播到新会话。",
+        "scope": "this-session-capture-limit-closeout",
+        "baselineVersion": "0.1.42-rc.1"
+      }
     },
     {
       "file": "SotM2-Dynamic-Evidence-20261128-155836-e1c4d5.zip",
@@ -47,7 +71,35 @@
       "approvedAt": "2026-11-28",
       "authorization": "放行本批审计阻断，并合并pr13",
       "reason": "维护者明确接受本批四份日志的采集不完整风险，允许PR #13合并；原始问题及待实机验收项继续保留。",
-      "scope": "merge-only-not-live-acceptance"
+      "scope": "merge-only-not-live-acceptance",
+      "closureApproval": {
+        "approvedBy": "项目维护者（用户）",
+        "approvedAt": "2026-11-28",
+        "authorization": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+        "reason": "本次明确放行该历史会话的采集上限收尾阻断；保留原始采集不完整事实，不传播到新会话。",
+        "scope": "this-session-capture-limit-closeout",
+        "baselineVersion": "0.1.42-rc.1"
+      }
+    },
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-163956-325080.zip",
+      "sha256": "0c1112a9d7977e2498fb56a357c095ad7d478c572a25a1cfe065553bd1c6da0b",
+      "version": "0.1.31-rc.1",
+      "buildId": "26880829",
+      "issue": "bounded-capture-limit-reached",
+      "approvedBy": "项目维护者（用户）",
+      "approvedAt": "2026-11-28",
+      "authorization": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+      "reason": "用户明确收束本轮验收并放行历史采集阻断。",
+      "scope": "merge-only-not-live-acceptance",
+      "closureApproval": {
+        "approvedBy": "项目维护者（用户）",
+        "approvedAt": "2026-11-28",
+        "authorization": "在之前所有我观察到的接口缺失/问题均已在你的多个版本修正中全部解决，目前没有肉眼观察到的缺失汉化，后续仍需通过测试包在实机中发现。目前的验收记录全部通过，采集阻挡放行",
+        "reason": "本次明确放行该历史会话的采集上限收尾阻断；保留原始采集不完整事实，不传播到新会话。",
+        "scope": "this-session-capture-limit-closeout",
+        "baselineVersion": "0.1.42-rc.1"
+      }
     }
   ]
 }
