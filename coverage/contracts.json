@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "70f60eb8db53110397a265efe881f737c52be3282f56796b3f4791162a471b38",
+    "runtime/DynamicDisplayRules.cs": "5b91bd1fdff9b2a802aa6020cffa791a4e3c26f665136c4d62fa62c9655edbe2",
     "runtime/SurfaceProbeRules.cs": "1d8071f2bb04ac9d4f69936e07ff9fbc933c5805644ac323d080566fce0d9e00",
     "runtime/SurfaceProbe.cs": "3848374ccfe3e4c4df22927b6b78d093924fc2c0be2743abc0d17d95482a4940",
-    "runtime/Plugin.cs": "cd4a3e869083d358747b06bc738aa561e3ff888784524d13b62969ed6b3d8862",
+    "runtime/Plugin.cs": "2cd5ad782056fd72de6c30098c4345397319060ad2d26862dfec65d0b7579e4e",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "ace70e032530818441cfe962016ec23e81992c56bfc471a2a5a2102a7f81d898",
+    "probe/dynamic-pilot.json": "24f488ec75feccf3488ec9dc4e00a9ce86ec85b2fcf33509216569f5454b867f",
     "runtime/RenderedDisplayRules.cs": "4075608df14dc5a1d29010d39a234c7ed98a066c6fe47372b1ee70abd05ffdf9"
   },
   "families": [
@@ -102,7 +102,10 @@
         "hint.attack.remaining",
         "hint.attack.required.unspecified",
         "hint.hp.rank.multiple",
-        "hint.target.topdeck"
+        "hint.target.topdeck",
+        "hint.destroy.play.under.upto",
+        "hint.destroy.play.under.upto.first",
+        "hint.destroy.play.under.exact.first"
       ],
       "contexts": [
         {
@@ -4139,6 +4142,486 @@
             "objectName": "Hint Label",
             "cardId": "",
             "inCardView": false
+          }
+        },
+        {
+          "id": "024-True-True-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 0 cards in play or under Flak Cannon to destroy them before other cards.",
+            "expected": "<b>终焉之日:</b> 点击至多0张在场或位于高射火炮下方的牌，先于其他牌将其破坏。"
+          }
+        },
+        {
+          "id": "024-True-True-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 1 card in play or under Flak Cannon to destroy it before other cards.",
+            "expected": "<b>终焉之日:</b> 点击至多1张在场或位于高射火炮下方的牌，先于其他牌将其破坏。"
+          }
+        },
+        {
+          "id": "024-True-True-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 2 cards in play or under Flak Cannon to destroy them before other cards.",
+            "expected": "<b>终焉之日:</b> 点击至多2张在场或位于高射火炮下方的牌，先于其他牌将其破坏。"
+          }
+        },
+        {
+          "id": "024-True-True-23",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 23 cards in play or under Flak Cannon to destroy them before other cards.",
+            "expected": "<b>终焉之日:</b> 点击至多23张在场或位于高射火炮下方的牌，先于其他牌将其破坏。"
+          }
+        },
+        {
+          "id": "024-True-True-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 999999 cards in play or under Flak Cannon to destroy them before other cards.",
+            "expected": "<b>终焉之日:</b> 点击至多999999张在场或位于高射火炮下方的牌，先于其他牌将其破坏。"
+          }
+        },
+        {
+          "id": "024-True-False-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 0 cards in play or under Flak Cannon to destroy them.",
+            "expected": "<b>终焉之日:</b> 点击至多0张在场或位于高射火炮下方的牌以将其破坏。"
+          }
+        },
+        {
+          "id": "024-True-False-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 1 card in play or under Flak Cannon to destroy it.",
+            "expected": "<b>终焉之日:</b> 点击至多1张在场或位于高射火炮下方的牌以将其破坏。"
+          }
+        },
+        {
+          "id": "024-True-False-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 2 cards in play or under Flak Cannon to destroy them.",
+            "expected": "<b>终焉之日:</b> 点击至多2张在场或位于高射火炮下方的牌以将其破坏。"
+          }
+        },
+        {
+          "id": "024-True-False-23",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 23 cards in play or under Flak Cannon to destroy them.",
+            "expected": "<b>终焉之日:</b> 点击至多23张在场或位于高射火炮下方的牌以将其破坏。"
+          }
+        },
+        {
+          "id": "024-True-False-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 999999 cards in play or under Flak Cannon to destroy them.",
+            "expected": "<b>终焉之日:</b> 点击至多999999张在场或位于高射火炮下方的牌以将其破坏。"
+          }
+        },
+        {
+          "id": "024-False-True-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click 0 cards in play or under Flak Cannon to destroy them before other cards.",
+            "expected": "<b>终焉之日:</b> 点击0张在场或位于高射火炮下方的牌，先于其他牌将其破坏。"
+          }
+        },
+        {
+          "id": "024-False-True-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click 1 card in play or under Flak Cannon to destroy it before other cards.",
+            "expected": "<b>终焉之日:</b> 点击1张在场或位于高射火炮下方的牌，先于其他牌将其破坏。"
+          }
+        },
+        {
+          "id": "024-False-True-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click 2 cards in play or under Flak Cannon to destroy them before other cards.",
+            "expected": "<b>终焉之日:</b> 点击2张在场或位于高射火炮下方的牌，先于其他牌将其破坏。"
+          }
+        },
+        {
+          "id": "024-False-True-23",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click 23 cards in play or under Flak Cannon to destroy them before other cards.",
+            "expected": "<b>终焉之日:</b> 点击23张在场或位于高射火炮下方的牌，先于其他牌将其破坏。"
+          }
+        },
+        {
+          "id": "024-False-True-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click 999999 cards in play or under Flak Cannon to destroy them before other cards.",
+            "expected": "<b>终焉之日:</b> 点击999999张在场或位于高射火炮下方的牌，先于其他牌将其破坏。"
+          }
+        },
+        {
+          "id": "024-False-False-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click 0 cards in play or under Flak Cannon to destroy them.",
+            "expected": "<b>终焉之日:</b> 点击0张在场或位于高射火炮下方的牌以将其破坏。"
+          }
+        },
+        {
+          "id": "024-False-False-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click 1 card in play or under Flak Cannon to destroy it.",
+            "expected": "<b>终焉之日:</b> 点击1张在场或位于高射火炮下方的牌以将其破坏。"
+          }
+        },
+        {
+          "id": "024-False-False-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click 2 cards in play or under Flak Cannon to destroy them.",
+            "expected": "<b>终焉之日:</b> 点击2张在场或位于高射火炮下方的牌以将其破坏。"
+          }
+        },
+        {
+          "id": "024-False-False-23",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click 23 cards in play or under Flak Cannon to destroy them.",
+            "expected": "<b>终焉之日:</b> 点击23张在场或位于高射火炮下方的牌以将其破坏。"
+          }
+        },
+        {
+          "id": "024-False-False-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click 999999 cards in play or under Flak Cannon to destroy them.",
+            "expected": "<b>终焉之日:</b> 点击999999张在场或位于高射火炮下方的牌以将其破坏。"
+          }
+        },
+        {
+          "id": "024-wrong-role",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 23 cards in play or under Flak Cannon to destroy them before other cards.",
+            "expected": null
+          }
+        },
+        {
+          "id": "024-unknown-name",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 23 cards in play or under Unknown Card to destroy them before other cards.",
+            "expected": "<b>终焉之日:</b> 点击至多23张在场或位于Unknown Card下方的牌，先于其他牌将其破坏。"
+          }
+        },
+        {
+          "id": "024-reject-0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 1 cards in play or under Flak Cannon to destroy them before other cards.",
+            "expected": null
+          }
+        },
+        {
+          "id": "024-reject-1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 23 card in play or under Flak Cannon to destroy them before other cards.",
+            "expected": null
+          }
+        },
+        {
+          "id": "024-reject-2",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 23 cards in play or under Flak Cannon to destroy it before other cards.",
+            "expected": null
+          }
+        },
+        {
+          "id": "024-reject-3",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click at least 23 cards in play or under Flak Cannon to destroy them before other cards.",
+            "expected": null
+          }
+        },
+        {
+          "id": "024-reject-4",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 23 cards in play or under Flak Cannon to destroy them after other cards.",
+            "expected": null
+          }
+        },
+        {
+          "id": "024-reject-5",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 23 cards in play or next to Flak Cannon to destroy them before other cards.",
+            "expected": null
+          }
+        },
+        {
+          "id": "024-reject-6",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 23 cards in play or under Flak Cannon to destroy them before other cards. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "024-reject-7",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整破坏提示复核：数量上限、牌下范围与先后顺序独立保留；扩展参数为合成检查，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>End of Days:</b> Click up to 23 cards in play or under <b>Flak Cannon</b> to destroy them before other cards.",
+            "expected": null
           }
         }
       ]

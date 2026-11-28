@@ -15,6 +15,7 @@ public sealed class DynamicDisplayRules {
  readonly Dictionary<string,string> templates;
  readonly Func<string,string> resolveName;
  static readonly Dictionary<string,(int Args,string Tags)> Specs=new(){
+  ["hint.destroy.play.under.upto"]=(3,""),["hint.destroy.play.under.upto.first"]=(3,""),["hint.destroy.play.under.exact.first"]=(3,""),
   ["hint.target.topdeck"]=(0,""),
   ["hint.attack.required.unspecified"]=(4,""),["hint.hp.rank.multiple"]=(3,""),
   ["hint.damage.amount"]=(0,""),["hint.attack.remaining"]=(4,"<nobr></nobr>"),
@@ -225,7 +226,8 @@ public sealed class DynamicDisplayRules {
  static readonly Regex RelatedCards=Rx(@"\ACards (?<relation>under|next to) (?<name>[^<>\r\n]{1,200})\z");
  static readonly Regex PutUnder=Rx(@"\AClick a card in play to put (?<name>[^<>\r\n]{1,200}) under it\.\z");
  static readonly Regex DestroyPlayOrUnder=Rx(@"\AClick a card in play or under (?<name>[^<>\r\n]{1,200}) to destroy it\.\z");
- static readonly Regex DestroyPlayOrUnderExact=Rx(@"\AClick (?<n>[0-9]{1,6}) (?<unit>card|cards) in play or under (?<name>[^<>\r\n]{1,200}) to destroy (?<pronoun>it|them)\.\z");
+ static readonly Regex DestroyPlayOrUnderExact=Rx(@"\AClick (?<n>[0-9]{1,6}) (?<unit>card|cards) in play or under (?<name>[^<>\r\n]{1,200}) to destroy (?<pronoun>it|them)(?<first> before other cards)?\.\z");
+ static readonly Regex DestroyPlayOrUnderUpTo=Rx(@"\AClick up to (?<n>[0-9]{1,6}) (?<unit>card|cards) in play or under (?<name>[^<>\r\n]{1,200}) to destroy (?<pronoun>it|them)(?<first> before other cards)?\.\z");
  static readonly Regex TrashOwnerDiscard=Rx(@"\AClick (?<owner>[^<>\r\n]{1,200})'s trash to discard (?<card>[^<>\r\n]{1,200})\.\z");
  public DynamicDisplayRules(Dictionary<string,string> values,Func<string,string>? nameResolver=null){
   resolveName=nameResolver??(s=>s);
@@ -326,7 +328,9 @@ public sealed class DynamicDisplayRules {
   var ownerDiscard=TrashOwnerDiscard.Match(body);
   if(ownerDiscard.Success)return Format("hint.trash.owner.discard",prefix,ownerDiscard.Groups["owner"].Value,ownerDiscard.Groups["card"].Value);
   var underExact=DestroyPlayOrUnderExact.Match(body);
-  if(underExact.Success && (underExact.Groups["n"].Value=="1")== (underExact.Groups["unit"].Value=="card") && (underExact.Groups["n"].Value=="1")== (underExact.Groups["pronoun"].Value=="it"))return Format("hint.destroy.play.under.exact",prefix,underExact.Groups["n"].Value,underExact.Groups["name"].Value);
+  if(underExact.Success && (underExact.Groups["n"].Value=="1")== (underExact.Groups["unit"].Value=="card") && (underExact.Groups["n"].Value=="1")== (underExact.Groups["pronoun"].Value=="it"))return Format(underExact.Groups["first"].Success?"hint.destroy.play.under.exact.first":"hint.destroy.play.under.exact",prefix,underExact.Groups["n"].Value,underExact.Groups["name"].Value);
+  var underUpTo=DestroyPlayOrUnderUpTo.Match(body);
+  if(underUpTo.Success && !string.IsNullOrWhiteSpace(underUpTo.Groups["name"].Value) && (underUpTo.Groups["n"].Value=="1")== (underUpTo.Groups["unit"].Value=="card") && (underUpTo.Groups["n"].Value=="1")== (underUpTo.Groups["pronoun"].Value=="it"))return Format(underUpTo.Groups["first"].Success?"hint.destroy.play.under.upto.first":"hint.destroy.play.under.upto",prefix,underUpTo.Groups["n"].Value,underUpTo.Groups["name"].Value);
   var replace=ReplaceDiscard.Match(body);
   if(replace.Success)return Format("hint.replace-discard",prefix,replace.Groups["card"].Value);
   var ownerDraw=DrawOwner.Match(body);
