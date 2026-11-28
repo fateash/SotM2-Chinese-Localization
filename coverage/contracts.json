@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "841c7cfacf8de76d8ccbb96e067db896922be962689eb65963ee057509cbacb2",
+    "runtime/DynamicDisplayRules.cs": "7444bdb3d535b82bb934b5e0b383fc552ed4e21b7f85c40bc24edead675d37c8",
     "runtime/SurfaceProbeRules.cs": "1d8071f2bb04ac9d4f69936e07ff9fbc933c5805644ac323d080566fce0d9e00",
     "runtime/SurfaceProbe.cs": "3848374ccfe3e4c4df22927b6b78d093924fc2c0be2743abc0d17d95482a4940",
-    "runtime/Plugin.cs": "42db77dea2a560ebe9317ab2a7fb8c0c6314854f77cdf93177107d0053596d3d",
+    "runtime/Plugin.cs": "6d2b78757cea70004453660f682e46523fbab29a164197b4d06fffce97f62563",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "a46a8156a933441e3aa683824aa136f0663f8f2b61926d26db3a45ab3a16569b",
-    "runtime/RenderedDisplayRules.cs": "4606de126c3973c00d6de3b2636205d6bfd2576e5e0d0df022f9f4e3bc6f847a"
+    "probe/dynamic-pilot.json": "959f976c756136f06785389fa32b65c3d44c6fafe7e868ebe3b7cb50e2c93ee1",
+    "runtime/RenderedDisplayRules.cs": "ff4dc4192084a8e2ae83c09ab8e5abc6e3d0f85e810523e1957d1982926f7699"
   },
   "families": [
     {
@@ -36484,7 +36484,7 @@
             "cardId": "PushingTheLimits",
             "inCardView": true,
             "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
-            "expected": "<line-height=100%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+            "expected": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
           }
         },
         {
@@ -36500,7 +36500,7 @@
             "cardId": "PushingTheLimits",
             "inCardView": true,
             "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
-            "expected": "<line-height=100%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+            "expected": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
           }
         },
         {
@@ -36516,7 +36516,7 @@
             "cardId": "PushingTheLimits",
             "inCardView": true,
             "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
-            "expected": "<line-height=100%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+            "expected": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
           }
         },
         {
@@ -36532,7 +36532,7 @@
             "cardId": "PushingTheLimits",
             "inCardView": true,
             "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\n快子对自己造成2点固定火焰伤害。\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\n本阶段你可以额外打出1张牌。\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\n本阶段你可以额外抽1张牌。\n",
-            "expected": "<line-height=100%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\n快子对自己造成2点固定火焰伤害。\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\n本阶段你可以额外打出1张牌。\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\n本阶段你可以额外抽1张牌。\n</line-height>"
+            "expected": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\n快子对自己造成2点固定火焰伤害。\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\n本阶段你可以额外打出1张牌。\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\n本阶段你可以额外抽1张牌。\n</line-height>"
           }
         },
         {
@@ -36548,7 +36548,7 @@
             "cardId": "PushingTheLimits",
             "inCardView": true,
             "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\\r\\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\\r\\n快子对自己造成2点固定火焰伤害。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\\r\\n本阶段你可以额外打出1张牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\\r\\n本阶段你可以额外抽1张牌。\\r\\n",
-            "expected": "<line-height=100%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\\r\\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\\r\\n快子对自己造成2点固定火焰伤害。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\\r\\n本阶段你可以额外打出1张牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\\r\\n本阶段你可以额外抽1张牌。\\r\\n</line-height>"
+            "expected": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\\r\\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\\r\\n快子对自己造成2点固定火焰伤害。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\\r\\n本阶段你可以额外打出1张牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\\r\\n本阶段你可以额外抽1张牌。\\r\\n</line-height>"
           }
         },
         {
@@ -36645,6 +36645,40 @@
             "inCardView": true,
             "source": "<style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n额外规则",
             "expected": null
+          }
+        },
+        {
+          "id": "030-pushing-observed-3bac41270c791dac3f62a8e5",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.29实机完整TextString与路径已采集；100%画面全文可见但偏紧。110%由用户要求调整，离线覆盖，待新画面验收。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Canvas/Main Panel/Tachyon/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView PushingTheLimits-2 SmallCardFront/Tooltip/CardView PushingTheLimits-2 FullCardFront/Body Box/Body Label",
+            "cardId": "PushingTheLimits",
+            "source": "<style=PowerHeading>POWER: </style><style=PowerBody>Tachyon对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\nTachyon对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>PLAY PHASE</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
+            "inCardView": true,
+            "cardButtonCandidate": false,
+            "expected": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+          }
+        },
+        {
+          "id": "030-pushing-observed-a0eb061f32abfe68b390adff",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.29实机完整TextString与路径已采集；100%画面全文可见但偏紧。110%由用户要求调整，离线覆盖，待新画面验收。",
+          "case": {
+            "objectName": "Body Label",
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView PushingTheLimits-2 FullCardFront/Body Box/Body Label",
+            "cardId": "PushingTheLimits",
+            "source": "<style=PowerHeading>POWER: </style><style=PowerBody>Tachyon对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\nTachyon对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>PLAY PHASE</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n",
+            "inCardView": true,
+            "cardButtonCandidate": false,
+            "expected": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
           }
         }
       ]
@@ -38749,6 +38783,3088 @@
             "cardId": "",
             "inCardView": false,
             "source": "Reshuffle\n",
+            "expected": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "trash-bury-selection",
+      "templates": [
+        "hint.trash.bury.upto",
+        "finish.bury"
+      ],
+      "contexts": [
+        {
+          "id": "030-bury-hint-0-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click up to 0 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击弃牌堆中至多0张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-0-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click up to 1 card in the trash to bury it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击弃牌堆中至多1张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-0-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click up to 2 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击弃牌堆中至多2张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-0-3",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click up to 3 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击弃牌堆中至多3张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-0-10",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click up to 10 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击弃牌堆中至多10张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-0-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click up to 999999 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "点击弃牌堆中至多999999张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-1-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Excavation:</b> Click up to 0 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>考古发掘:</b> 点击弃牌堆中至多0张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-1-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Excavation:</b> Click up to 1 card in the trash to bury it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>考古发掘:</b> 点击弃牌堆中至多1张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-1-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Excavation:</b> Click up to 2 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>考古发掘:</b> 点击弃牌堆中至多2张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-1-3",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.29实机已记录完整原文和路径；0.1.30离线修复。BURY 2 CARDS另有截图，但未虚构其日志观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Excavation:</b> Click up to 3 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>考古发掘:</b> 点击弃牌堆中至多3张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-1-10",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Excavation:</b> Click up to 10 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>考古发掘:</b> 点击弃牌堆中至多10张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-1-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Excavation:</b> Click up to 999999 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>考古发掘:</b> 点击弃牌堆中至多999999张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-2-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Omnitron:</b> Click up to 0 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>全能智创:</b> 点击弃牌堆中至多0张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-2-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Omnitron:</b> Click up to 1 card in the trash to bury it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>全能智创:</b> 点击弃牌堆中至多1张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-2-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Omnitron:</b> Click up to 2 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>全能智创:</b> 点击弃牌堆中至多2张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-2-3",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Omnitron:</b> Click up to 3 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>全能智创:</b> 点击弃牌堆中至多3张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-2-10",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Omnitron:</b> Click up to 10 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>全能智创:</b> 点击弃牌堆中至多10张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-2-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Omnitron:</b> Click up to 999999 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>全能智创:</b> 点击弃牌堆中至多999999张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-3-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Wagner Mars Base:</b> Click up to 0 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>瓦格纳火星基地:</b> 点击弃牌堆中至多0张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-3-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Wagner Mars Base:</b> Click up to 1 card in the trash to bury it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>瓦格纳火星基地:</b> 点击弃牌堆中至多1张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-3-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Wagner Mars Base:</b> Click up to 2 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>瓦格纳火星基地:</b> 点击弃牌堆中至多2张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-3-3",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Wagner Mars Base:</b> Click up to 3 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>瓦格纳火星基地:</b> 点击弃牌堆中至多3张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-3-10",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Wagner Mars Base:</b> Click up to 10 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>瓦格纳火星基地:</b> 点击弃牌堆中至多10张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-hint-3-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "<b>Wagner Mars Base:</b> Click up to 999999 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "<b>瓦格纳火星基地:</b> 点击弃牌堆中至多999999张牌，将其埋藏。"
+          }
+        },
+        {
+          "id": "030-bury-finish-0",
+          "status": "offline-covered",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "0.1.29实机已记录完整原文和路径；0.1.30离线修复。BURY 2 CARDS另有截图，但未虚构其日志观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "Bury 0 cards",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "埋藏0张牌"
+          }
+        },
+        {
+          "id": "030-bury-finish-1",
+          "status": "offline-covered",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "Bury 1 card",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "埋藏1张牌"
+          }
+        },
+        {
+          "id": "030-bury-finish-2",
+          "status": "offline-covered",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "Bury 2 cards",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "埋藏2张牌"
+          }
+        },
+        {
+          "id": "030-bury-finish-3",
+          "status": "offline-covered",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "Bury 3 cards",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "埋藏3张牌"
+          }
+        },
+        {
+          "id": "030-bury-finish-10",
+          "status": "offline-covered",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "Bury 10 cards",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "埋藏10张牌"
+          }
+        },
+        {
+          "id": "030-bury-finish-999999",
+          "status": "offline-covered",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "Bury 999999 cards",
+            "cardId": "",
+            "inCardView": false,
+            "expected": "埋藏999999张牌"
+          }
+        },
+        {
+          "id": "030-bury-reject-hint-0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click up to 1 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-reject-hint-1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click up to 3 card in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-reject-hint-2",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click up to 3 cards in the trash to bury it.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-reject-hint-3",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click up to -3 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-reject-hint-4",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click up to 1000000 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-reject-hint-5",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click up to 3 cards in the deck to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-reject-hint-6",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click up to 3 cards in the trash to bury them. Extra",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-reject-hint-7",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "Click up to <b>3</b> cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-reject-finish-0",
+          "status": "excluded",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "Bury 1 cards",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-reject-finish-1",
+          "status": "excluded",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "Bury 2 card",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-reject-finish-2",
+          "status": "excluded",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "Bury -2 cards",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-reject-finish-3",
+          "status": "excluded",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "Bury 1000000 cards",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-reject-finish-4",
+          "status": "excluded",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "Bury 2 targets",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-reject-finish-5",
+          "status": "excluded",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "Bury 2 HP",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-reject-finish-6",
+          "status": "excluded",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "Bury 2 cards Extra",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-reject-finish-7",
+          "status": "excluded",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "Bury <b>2</b> cards",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-wrong-hint-path",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/Other/Hint Label",
+            "source": "Click up to 3 cards in the trash to bury them.",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-wrong-finish-path",
+          "status": "excluded",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Other/Finish Button Label",
+            "source": "Bury 2 cards",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-localized-hint",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Hint Label",
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "source": "点击弃牌堆中至多3张牌，将其埋藏。",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-bury-localized-finish",
+          "status": "excluded",
+          "view": "confirmation",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "合成数量／来源／用途边界契约，执行真实显示转换；不代表实机观察。",
+          "case": {
+            "objectName": "Finish Button Label",
+            "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+            "source": "埋藏2张牌",
+            "cardId": "",
+            "inCardView": false,
+            "expected": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "card-discard-count",
+      "templates": [
+        "button.discard.count"
+      ],
+      "contexts": [
+        {
+          "id": "030-discard-028-item-0-0",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView FlashForge-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "FlashForge",
+            "inCardView": true,
+            "source": "Discard 0 cards",
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-0-1",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView FlashForge-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "FlashForge",
+            "inCardView": true,
+            "source": "Discard 1 card",
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-0-2",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView FlashForge-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "FlashForge",
+            "inCardView": true,
+            "source": "Discard 2 cards",
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-0-3",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView FlashForge-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "FlashForge",
+            "inCardView": true,
+            "source": "Discard 3 cards",
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-0-0",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView FlashForge-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "FlashForge",
+            "inCardView": true,
+            "source": "Discard 0 cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-0-1",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView FlashForge-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "FlashForge",
+            "inCardView": true,
+            "source": "Discard 1 card",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-0-2",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView FlashForge-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "FlashForge",
+            "inCardView": true,
+            "source": "Discard 2 cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-0-3",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Unity/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView FlashForge-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "FlashForge",
+            "inCardView": true,
+            "source": "Discard 3 cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-1-0",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UnityCharacter",
+            "inCardView": true,
+            "source": "Discard 0 cards",
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-1-1",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UnityCharacter",
+            "inCardView": true,
+            "source": "Discard 1 card",
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-1-2",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UnityCharacter",
+            "inCardView": true,
+            "source": "Discard 2 cards",
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-1-3",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UnityCharacter",
+            "inCardView": true,
+            "source": "Discard 3 cards",
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-1-0",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UnityCharacter",
+            "inCardView": true,
+            "source": "Discard 0 cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-1-1",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UnityCharacter",
+            "inCardView": true,
+            "source": "Discard 1 card",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-1-2",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UnityCharacter",
+            "inCardView": true,
+            "source": "Discard 2 cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-1-3",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UnityCharacter",
+            "inCardView": true,
+            "source": "Discard 3 cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-2-0",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true,
+            "source": "Discard 0 cards",
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-2-1",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true,
+            "source": "Discard 1 card",
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-2-2",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true,
+            "source": "Discard 2 cards",
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-2-3",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true,
+            "source": "Discard 3 cards",
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-2-0",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true,
+            "source": "Discard 0 cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-2-1",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true,
+            "source": "Discard 1 card",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-2-2",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true,
+            "source": "Discard 2 cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-2-3",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/Ra/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView TheStaffOfRa-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "TheStaffOfRa",
+            "inCardView": true,
+            "source": "Discard 3 cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-3-0",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView UtilityBelt-2 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UtilityBelt",
+            "inCardView": true,
+            "source": "Discard 0 cards",
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-3-1",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView UtilityBelt-2 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UtilityBelt",
+            "inCardView": true,
+            "source": "Discard 1 card",
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-3-2",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView UtilityBelt-2 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UtilityBelt",
+            "inCardView": true,
+            "source": "Discard 2 cards",
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-3-3",
+          "status": "offline-covered",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView UtilityBelt-2 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UtilityBelt",
+            "inCardView": true,
+            "source": "Discard 3 cards",
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-3-0",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView UtilityBelt-2 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UtilityBelt",
+            "inCardView": true,
+            "source": "Discard 0 cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-3-1",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView UtilityBelt-2 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UtilityBelt",
+            "inCardView": true,
+            "source": "Discard 1 card",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-3-2",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView UtilityBelt-2 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UtilityBelt",
+            "inCardView": true,
+            "source": "Discard 2 cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-outside-3-3",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Other/Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView UtilityBelt-2 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "objectName": "Label",
+            "cardId": "UtilityBelt",
+            "inCardView": true,
+            "source": "Discard 3 cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-power-0",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView UtilityBelt-2 SmallCardFront/Power Container/UsePower/Label",
+            "objectName": "Label",
+            "cardId": "UtilityBelt",
+            "inCardView": true,
+            "source": "Discard 0 cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-power-1",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView UtilityBelt-2 SmallCardFront/Power Container/UsePower/Label",
+            "objectName": "Label",
+            "cardId": "UtilityBelt",
+            "inCardView": true,
+            "source": "Discard 1 card",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-power-2",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView UtilityBelt-2 SmallCardFront/Power Container/UsePower/Label",
+            "objectName": "Label",
+            "cardId": "UtilityBelt",
+            "inCardView": true,
+            "source": "Discard 2 cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-power-3",
+          "status": "excluded",
+          "view": "effect-button",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "path": "Canvas/Main Panel/TheWraith/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView UtilityBelt-2 SmallCardFront/Power Container/UsePower/Label",
+            "objectName": "Label",
+            "cardId": "UtilityBelt",
+            "inCardView": true,
+            "source": "Discard 3 cards",
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-AkashBhuta-small-effect-0",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView AkashBhutaCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AkashBhutaCharacter",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-AkashBhuta-small-effect-1",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView AkashBhutaCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AkashBhutaCharacter",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-AkashBhuta-small-effect-2",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView AkashBhutaCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AkashBhutaCharacter",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-AkashBhuta-small-effect-3",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/AkashBhuta/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView AkashBhutaCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AkashBhutaCharacter",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-AkashBhuta-full-effect-0",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/AkashBhutaCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AkashBhutaCharacter",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-AkashBhuta-full-effect-1",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/AkashBhutaCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AkashBhutaCharacter",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-AkashBhuta-full-effect-2",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/AkashBhutaCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AkashBhutaCharacter",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-AkashBhuta-full-effect-3",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/AkashBhutaCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AkashBhutaCharacter",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-BaronBlade-small-effect-0",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView BaronBladeCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BaronBladeCharacter",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-BaronBlade-small-effect-1",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView BaronBladeCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BaronBladeCharacter",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-BaronBlade-small-effect-2",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView BaronBladeCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BaronBladeCharacter",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-BaronBlade-small-effect-3",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/BaronBlade/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView BaronBladeCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BaronBladeCharacter",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-BaronBlade-full-effect-0",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/BaronBladeCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BaronBladeCharacter",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-BaronBlade-full-effect-1",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/BaronBladeCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BaronBladeCharacter",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-BaronBlade-full-effect-2",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/BaronBladeCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BaronBladeCharacter",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-BaronBlade-full-effect-3",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/BaronBladeCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BaronBladeCharacter",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-CitizenDawn-small-effect-0",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView CitizenDawnCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CitizenDawnCharacter",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-CitizenDawn-small-effect-1",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView CitizenDawnCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CitizenDawnCharacter",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-CitizenDawn-small-effect-2",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView CitizenDawnCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CitizenDawnCharacter",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-CitizenDawn-small-effect-3",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/CitizenDawn/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView CitizenDawnCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CitizenDawnCharacter",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-CitizenDawn-full-effect-0",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CitizenDawnCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CitizenDawnCharacter",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-CitizenDawn-full-effect-1",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CitizenDawnCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CitizenDawnCharacter",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-CitizenDawn-full-effect-2",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CitizenDawnCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CitizenDawnCharacter",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-CitizenDawn-full-effect-3",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CitizenDawnCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CitizenDawnCharacter",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-GrandWarlordVoss-small-effect-0",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView GrandWarlordVossCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "GrandWarlordVossCharacter",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-GrandWarlordVoss-small-effect-1",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView GrandWarlordVossCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "GrandWarlordVossCharacter",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-GrandWarlordVoss-small-effect-2",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView GrandWarlordVossCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "GrandWarlordVossCharacter",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-GrandWarlordVoss-small-effect-3",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/GrandWarlordVoss/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView GrandWarlordVossCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "GrandWarlordVossCharacter",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-GrandWarlordVoss-full-effect-0",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/GrandWarlordVossCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "GrandWarlordVossCharacter",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-GrandWarlordVoss-full-effect-1",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/GrandWarlordVossCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "GrandWarlordVossCharacter",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-GrandWarlordVoss-full-effect-2",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/GrandWarlordVossCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "GrandWarlordVossCharacter",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-GrandWarlordVoss-full-effect-3",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/GrandWarlordVossCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "GrandWarlordVossCharacter",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Omnitron-small-effect-0",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView OmnitronCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "OmnitronCharacter",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Omnitron-small-effect-1",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView OmnitronCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "OmnitronCharacter",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Omnitron-small-effect-2",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView OmnitronCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "OmnitronCharacter",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Omnitron-small-effect-3",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView OmnitronCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "OmnitronCharacter",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Omnitron-full-effect-0",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/OmnitronCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "OmnitronCharacter",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Omnitron-full-effect-1",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/OmnitronCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "OmnitronCharacter",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Omnitron-full-effect-2",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/OmnitronCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "OmnitronCharacter",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Omnitron-full-effect-3",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/OmnitronCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "OmnitronCharacter",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheMatriarch-small-effect-0",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView TheMatriarchCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "TheMatriarchCharacter",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheMatriarch-small-effect-1",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView TheMatriarchCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "TheMatriarchCharacter",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheMatriarch-small-effect-2",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView TheMatriarchCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "TheMatriarchCharacter",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheMatriarch-small-effect-3",
+          "status": "offline-covered",
+          "view": "villain-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView TheMatriarchCharacter-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "TheMatriarchCharacter",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheMatriarch-full-effect-0",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/TheMatriarchCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "TheMatriarchCharacter",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheMatriarch-full-effect-1",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/TheMatriarchCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "TheMatriarchCharacter",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheMatriarch-full-effect-2",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/TheMatriarchCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "TheMatriarchCharacter",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheMatriarch-full-effect-3",
+          "status": "offline-covered",
+          "view": "villain-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/TheMatriarchCharacter/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "TheMatriarchCharacter",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-FreedomTower-small-effect-0",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CaspitsPlayground-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CaspitsPlayground",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-FreedomTower-small-effect-1",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CaspitsPlayground-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CaspitsPlayground",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-FreedomTower-small-effect-2",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CaspitsPlayground-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CaspitsPlayground",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-FreedomTower-small-effect-3",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/FreedomTower/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CaspitsPlayground-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CaspitsPlayground",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-FreedomTower-full-effect-0",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CaspitsPlayground/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CaspitsPlayground",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-FreedomTower-full-effect-1",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CaspitsPlayground/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CaspitsPlayground",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-FreedomTower-full-effect-2",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CaspitsPlayground/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CaspitsPlayground",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-FreedomTower-full-effect-3",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CaspitsPlayground/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CaspitsPlayground",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-InsulaPrimalis-small-effect-0",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CorneredAnkylosaurus-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CorneredAnkylosaurus",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-InsulaPrimalis-small-effect-1",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CorneredAnkylosaurus-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CorneredAnkylosaurus",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-InsulaPrimalis-small-effect-2",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CorneredAnkylosaurus-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CorneredAnkylosaurus",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-InsulaPrimalis-small-effect-3",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CorneredAnkylosaurus-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CorneredAnkylosaurus",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-InsulaPrimalis-full-effect-0",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CorneredAnkylosaurus/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CorneredAnkylosaurus",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-InsulaPrimalis-full-effect-1",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CorneredAnkylosaurus/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CorneredAnkylosaurus",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-InsulaPrimalis-full-effect-2",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CorneredAnkylosaurus/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CorneredAnkylosaurus",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-InsulaPrimalis-full-effect-3",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CorneredAnkylosaurus/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CorneredAnkylosaurus",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Magmaria-small-effect-0",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CrystalCollector-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CrystalCollector",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Magmaria-small-effect-1",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CrystalCollector-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CrystalCollector",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Magmaria-small-effect-2",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CrystalCollector-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CrystalCollector",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Magmaria-small-effect-3",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Magmaria/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView CrystalCollector-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CrystalCollector",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Magmaria-full-effect-0",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CrystalCollector/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CrystalCollector",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Magmaria-full-effect-1",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CrystalCollector/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CrystalCollector",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Magmaria-full-effect-2",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CrystalCollector/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CrystalCollector",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Magmaria-full-effect-3",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/CrystalCollector/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "CrystalCollector",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Megalopolis-small-effect-0",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView BankHeistInProgress-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BankHeistInProgress",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Megalopolis-small-effect-1",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView BankHeistInProgress-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BankHeistInProgress",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Megalopolis-small-effect-2",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView BankHeistInProgress-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BankHeistInProgress",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Megalopolis-small-effect-3",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Megalopolis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView BankHeistInProgress-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BankHeistInProgress",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Megalopolis-full-effect-0",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/BankHeistInProgress/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BankHeistInProgress",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Megalopolis-full-effect-1",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/BankHeistInProgress/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BankHeistInProgress",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Megalopolis-full-effect-2",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/BankHeistInProgress/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BankHeistInProgress",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-Megalopolis-full-effect-3",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/BankHeistInProgress/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "BankHeistInProgress",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheRuinsOfAtlantis-small-effect-0",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView AtlanteanFontOfPower-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AtlanteanFontOfPower",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheRuinsOfAtlantis-small-effect-1",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView AtlanteanFontOfPower-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AtlanteanFontOfPower",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheRuinsOfAtlantis-small-effect-2",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView AtlanteanFontOfPower-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AtlanteanFontOfPower",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheRuinsOfAtlantis-small-effect-3",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/TheRuinsOfAtlantis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView AtlanteanFontOfPower-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AtlanteanFontOfPower",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheRuinsOfAtlantis-full-effect-0",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/AtlanteanFontOfPower/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AtlanteanFontOfPower",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheRuinsOfAtlantis-full-effect-1",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/AtlanteanFontOfPower/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AtlanteanFontOfPower",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheRuinsOfAtlantis-full-effect-2",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/AtlanteanFontOfPower/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AtlanteanFontOfPower",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-TheRuinsOfAtlantis-full-effect-3",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/AtlanteanFontOfPower/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "AtlanteanFontOfPower",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-WagnerMarsBase-small-effect-0",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView Biosphere-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "Biosphere",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-WagnerMarsBase-small-effect-1",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView Biosphere-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "Biosphere",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-WagnerMarsBase-small-effect-2",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView Biosphere-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "Biosphere",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-WagnerMarsBase-small-effect-3",
+          "status": "offline-covered",
+          "view": "environment-small-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/WagnerMarsBase/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView Biosphere-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "Biosphere",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-WagnerMarsBase-full-effect-0",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Biosphere/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "Biosphere",
+            "source": "Discard 0 cards",
+            "inCardView": true,
+            "expected": "弃置0张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-WagnerMarsBase-full-effect-1",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Biosphere/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "Biosphere",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-WagnerMarsBase-full-effect-2",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Biosphere/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "Biosphere",
+            "source": "Discard 2 cards",
+            "inCardView": true,
+            "expected": "弃置2张牌"
+          }
+        },
+        {
+          "id": "030-discard-028-item-nonhero-WagnerMarsBase-full-effect-3",
+          "status": "offline-covered",
+          "view": "environment-full-effect",
+          "heroState": "not-applicable",
+          "layout": "nonhero-shared",
+          "reason": "复用已声明效果按钮入口；数量弃置为合成契约。英雄／反派／环境共用入口不等于均有此能力。",
+          "case": {
+            "objectName": "Label",
+            "path": "Full Card Canvas/Full Card Panel/Biosphere/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "Biosphere",
+            "source": "Discard 3 cards",
+            "inCardView": true,
+            "expected": "弃置3张牌"
+          }
+        },
+        {
+          "id": "030-discard-observed-rolling-fog",
+          "status": "offline-covered",
+          "view": "small-card",
+          "heroState": "current",
+          "layout": "shared",
+          "reason": "0.1.29浓雾翻涌日志含完整路径、原文、cardButtonCandidate=true；用户截图仍英文。0.1.30离线修复待新画面及点击验收。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView RollingFog-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "RollingFog",
+            "source": "Discard 1 card",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "expected": "弃置1张牌"
+          }
+        },
+        {
+          "id": "030-discard-reject-0",
+          "status": "excluded",
+          "view": "small-card",
+          "heroState": "current",
+          "layout": "shared",
+          "reason": "不完整／单位不符／数量越界／中文幂等边界。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView RollingFog-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "RollingFog",
+            "source": "Discard 1 cards",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-reject-1",
+          "status": "excluded",
+          "view": "small-card",
+          "heroState": "current",
+          "layout": "shared",
+          "reason": "不完整／单位不符／数量越界／中文幂等边界。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView RollingFog-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "RollingFog",
+            "source": "Discard 2 card",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-reject-2",
+          "status": "excluded",
+          "view": "small-card",
+          "heroState": "current",
+          "layout": "shared",
+          "reason": "不完整／单位不符／数量越界／中文幂等边界。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView RollingFog-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "RollingFog",
+            "source": "Discard -1 card",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-reject-3",
+          "status": "excluded",
+          "view": "small-card",
+          "heroState": "current",
+          "layout": "shared",
+          "reason": "不完整／单位不符／数量越界／中文幂等边界。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView RollingFog-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "RollingFog",
+            "source": "Discard 2 targets",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-reject-4",
+          "status": "excluded",
+          "view": "small-card",
+          "heroState": "current",
+          "layout": "shared",
+          "reason": "不完整／单位不符／数量越界／中文幂等边界。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView RollingFog-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "RollingFog",
+            "source": "Discard 2 HP",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-reject-5",
+          "status": "excluded",
+          "view": "small-card",
+          "heroState": "current",
+          "layout": "shared",
+          "reason": "不完整／单位不符／数量越界／中文幂等边界。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView RollingFog-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "RollingFog",
+            "source": "Discard 1000000 cards",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-reject-6",
+          "status": "excluded",
+          "view": "small-card",
+          "heroState": "current",
+          "layout": "shared",
+          "reason": "不完整／单位不符／数量越界／中文幂等边界。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView RollingFog-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "RollingFog",
+            "source": "Discard 1 card Extra",
+            "inCardView": true,
+            "cardButtonCandidate": true,
+            "expected": null
+          }
+        },
+        {
+          "id": "030-discard-reject-7",
+          "status": "excluded",
+          "view": "small-card",
+          "heroState": "current",
+          "layout": "shared",
+          "reason": "不完整／单位不符／数量越界／中文幂等边界。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView RollingFog-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "RollingFog",
+            "source": "弃置1张牌",
+            "inCardView": true,
+            "cardButtonCandidate": true,
             "expected": null
           }
         }

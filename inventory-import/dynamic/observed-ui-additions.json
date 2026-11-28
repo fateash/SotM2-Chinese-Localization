@@ -124,5 +124,17 @@
     "original": "Click up to {0} targets to deal them <nobr>{1} {2}</nobr> damage.",
     "translation": "",
     "context": "已捕获完整句的编辑归一化；显示尚未接入。无来源标题变体；依次为上限、伤害量、伤害类型。"
+  },
+  {
+    "key": "editorial.ui.hint.trash.bury.upto",
+    "original": "Click up to {0} cards in the trash to bury them.",
+    "translation": "",
+    "context": "0.1.29考古发掘实机原句的编辑归一化；0.1.30接入HUD完整提示／确认按钮。数量动态保留，单复数调用端核验；待实机验收。"
+  },
+  {
+    "key": "editorial.ui.finish.bury",
+    "original": "Bury {0} cards",
+    "translation": "",
+    "context": "0.1.29考古发掘实机原句的编辑归一化；0.1.30接入HUD完整提示／确认按钮。数量动态保留，单复数调用端核验；待实机验收。"
   }
 ]

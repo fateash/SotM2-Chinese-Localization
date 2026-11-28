@@ -3255,6 +3255,61 @@
         "expected": "<b>异星气象:</b> 点击风暴的弃牌堆，将其洗入所属牌库。",
         "evidence": "coverage/contracts.json#trash-reshuffle"
       }
+    },
+    {
+      "id": "2f83bb0fa1af933c7c49543c",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "考古发掘正文与Ra.json两条审定正文逐字核对；残留拉丁字符仅规则变量X，两处X及数字3保留，不属于英文漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "保持规则变量；本条仅登记既有中文正文，不提升点击行为验收。"
+    },
+    {
+      "id": "968681b5f4f33c838683ac85",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "考古发掘正文与Ra.json两条审定正文逐字核对；残留拉丁字符仅规则变量X，两处X及数字3保留，不属于英文漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "保持规则变量；本条仅登记既有中文正文，不提升点击行为验收。"
+    },
+    {
+      "id": "cd0e2b34f66018caefa2a58f",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.29截图／日志确认完整句未接入；0.1.30增加完整数量语法及用途入口。",
+      "owner": "本地化维护者",
+      "nextAction": "重启0.1.30后复现考古发掘的埋藏选择与浓雾翻涌的弃置效果按钮，检查数字和点击行为。",
+      "resolution": {
+        "version": "0.1.30-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#trash-bury-selection"
+      }
+    },
+    {
+      "id": "10a4ea82d532fe30f5128a40",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.29截图／日志确认完整句未接入；0.1.30增加完整数量语法及用途入口。",
+      "owner": "本地化维护者",
+      "nextAction": "重启0.1.30后复现考古发掘的埋藏选择与浓雾翻涌的弃置效果按钮，检查数字和点击行为。",
+      "resolution": {
+        "version": "0.1.30-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#trash-bury-selection"
+      }
+    },
+    {
+      "id": "7ffe24f0af36c56749b0da04",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "fix-stage-1",
+      "reason": "0.1.29截图／日志确认完整句未接入；0.1.30增加完整数量语法及用途入口。",
+      "owner": "本地化维护者",
+      "nextAction": "重启0.1.30后复现考古发掘的埋藏选择与浓雾翻涌的弃置效果按钮，检查数字和点击行为。",
+      "resolution": {
+        "version": "0.1.30-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#card-discard-count"
+      }
     }
   ]
 }

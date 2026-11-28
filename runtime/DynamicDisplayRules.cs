@@ -33,6 +33,7 @@ public sealed class DynamicDisplayRules {
   ["hint.card.draw"]=(0,""),
   ["hint.card.discard"]=(0,""),
   ["hint.card.bury"]=(0,""),
+  ["hint.trash.bury.upto"]=(2,""),["finish.bury"]=(1,""),["button.discard.count"]=(1,""),
   ["hint.trash.salvage.upto"]=(2,""),
   ["hint.target.topdeck"]=(0,""),
   ["hint.attack.required.unspecified"]=(4,""),["hint.hp.rank.multiple"]=(3,""),
@@ -214,6 +215,8 @@ public sealed class DynamicDisplayRules {
  static readonly Dictionary<string,string> SelectionTitles=new(StringComparer.Ordinal){["Select Damage Source to Deal Damage"]="hint.selection.1",["Select Hero to Discover"]="hint.selection.2",["Select Hero to destroy cards"]="hint.selection.3",["Select Hero to discard cards"]="hint.selection.4",["Select Hero to salvage cards"]="hint.selection.5",["Select Hero to take a phase now"]="hint.selection.6",["Select Location to play card to"]="hint.selection.7",["Select Location to play from"]="hint.selection.8",["Select Location to put a card from into the deck"]="hint.selection.9",["Select Location to put a card from on top of the deck"]="hint.selection.10",["Select Location to reveal from"]="hint.selection.11",["Select Location to shuffle its cards into the deck"]="hint.selection.12",["Select Redirection Target"]="hint.selection.13",["Select location to Summon from (decks will be shuffled)"]="hint.selection.14",["Select location to send destroyed card"]="hint.selection.15",["Select someone to put a card back in their deck"]="hint.selection.16",["Select someone to put a card back on top of their deck"]="hint.selection.17",["Select where it the card should be drawn or discarded."]="hint.selection.18",["Select where the card should go."]="hint.selection.19",["Select whether or not to draw a card."]="hint.selection.20",["Select which Hero is considered to have the most cards in hand"]="hint.selection.21",["Select which deck to draw from..."]="hint.selection.22",["Select which of these targets is considered to have the Lowest HP"]="hint.selection.23",["Select who is considered to have the most cards in play"]="hint.selection.24"};
  static readonly Regex EffectAmount=Rx(@"\A(?<before>Regain |Deal 1 Target |Deal Self |Deal )(?<n>[0-9]{1,6})(?<after> HP| Damage| damage| Targets 3 Damage)\z");
  string? CommonButton(string source){
+  var confirmation=ParseConfirmation(source);
+  if(confirmation is {Action:"Discard",NumberKind:"card-count"})return Format("button.discard.count",confirmation.Number);
   if(source=="Play Item")return Format("button.play.item");
   if(source=="Play Golem")return Format("button.play.golem");
   if(source=="Discover Item")return Format("button.discover.item");
@@ -256,6 +259,7 @@ public sealed class DynamicDisplayRules {
  static readonly Regex Description=Rx(@"\A(?<name>[^<>\r\n]{1,200}) (?<verb>drew|revealed|played|discovered|summoned|collected):\z");
  static readonly Regex RelatedCards=Rx(@"\ACards (?<relation>under|next to) (?<name>[^<>\r\n]{1,200})\z");
  static readonly Regex PutUnder=Rx(@"\AClick a card in play to put (?<name>[^<>\r\n]{1,200}) under it\.\z");
+ static readonly Regex BuryTrashUpTo=Rx(@"\AClick up to (?<n>[0-9]{1,6}) (?<unit>card|cards) in the trash to bury (?<pronoun>it|them)\.\z");
  static readonly Regex SalvageTrashUpTo=Rx(@"\AClick up to (?<n>[0-9]{1,6}) (?<unit>card|cards) in the trash to salvage (?<pronoun>it|them)\.\z");
  static readonly Regex DestroyPlayOrUnder=Rx(@"\AClick a card in play or under (?<name>[^<>\r\n]{1,200}) to destroy it\.\z");
  static readonly Regex DestroyPlayOrUnderExact=Rx(@"\AClick (?<n>[0-9]{1,6}) (?<unit>card|cards) in play or under (?<name>[^<>\r\n]{1,200}) to destroy (?<pronoun>it|them)(?<first> before other cards)?\.\z");
@@ -300,6 +304,7 @@ public sealed class DynamicDisplayRules {
    // Shared grammar does not authorize translating an unverified action/unit pair.
    return parts switch {
     {Action:"Damage",NumberKind:"target-count"}=>Format("finish.damage",parts.Number),
+    {Action:"Bury",NumberKind:"card-count"}=>Format("finish.bury",parts.Number),
     {Action:"Discard",NumberKind:"card-count"}=>Format("finish.discard",parts.Number),
     {Action:"Destroy",NumberKind:"card-count"}=>Format("finish.destroy",parts.Number),
     {Action:"Select",NumberKind:"card-count"}=>Format("finish.select",parts.Number),_=>null};
@@ -374,6 +379,8 @@ public sealed class DynamicDisplayRules {
   if(SelectionTitles.TryGetValue(body,out var selectionTitle))return prefix+Format(selectionTitle);
   var shuffle=TrashOwnerShuffle.Match(body);
   if(shuffle.Success && !string.IsNullOrWhiteSpace(shuffle.Groups["owner"].Value))return Format("hint.trash.owner.shuffle",prefix,shuffle.Groups["owner"].Value);
+  var bury=BuryTrashUpTo.Match(body);
+  if(bury.Success && (bury.Groups["n"].Value=="1")== (bury.Groups["unit"].Value=="card") && (bury.Groups["n"].Value=="1")== (bury.Groups["pronoun"].Value=="it"))return Format("hint.trash.bury.upto",prefix,bury.Groups["n"].Value);
   var salvage=SalvageTrashUpTo.Match(body);
   if(salvage.Success && (salvage.Groups["n"].Value=="1")== (salvage.Groups["unit"].Value=="card") && (salvage.Groups["n"].Value=="1")== (salvage.Groups["pronoun"].Value=="it"))return Format("hint.trash.salvage.upto",prefix,salvage.Groups["n"].Value);
   var ownerDiscard=TrashOwnerDiscard.Match(body);

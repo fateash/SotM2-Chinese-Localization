@@ -170,7 +170,7 @@ public sealed class RenderedDisplayRules {
     string plain=Regex.Replace(result,@"<[^<>]*>","").Replace("\\r\\n","\n").Replace("\\n","\n").Replace("\r\n","\n").Replace("\r","\n");
     plain=string.Join("\n",plain.Split('\n').Select(x=>x.Trim()).Where(x=>x.Length>0));
     const string reviewed="异能: 快子对1个目标造成3点近战伤害。破坏此牌。\n开始阶段\n快子对自己造成2点固定火焰伤害。\n出牌阶段\n本阶段你可以额外打出1张牌。\n抽牌阶段\n本阶段你可以额外抽1张牌。";
-    if(plain==reviewed)result="<line-height=100%>"+result+"</line-height>";
+    if(plain==reviewed)result="<line-height=110%>"+result+"</line-height>";
    }
    if(result==source)result=previous??source;
   }

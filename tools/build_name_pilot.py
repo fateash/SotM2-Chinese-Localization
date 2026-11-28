@@ -18,7 +18,7 @@ def build(dll, catalog, font, license_file, base_payload, out, commit):
     build_update(dll, temporary, commit)
     old = json.loads(next(temporary.glob('*/manifest.json')).read_text())
     shutil.rmtree(temporary)
-    package = out / 'SotM2-Names-Clean-Test-0.1.29-rc.1'
+    package = out / 'SotM2-Names-Clean-Test-0.1.30-rc.1'
     (package / 'payload').mkdir(parents=True, exist_ok=False)
     sources = {'SotM2ChinesePrototype.dll': dll, 'surface-probe.json': ROOT / 'probe/dynamic-pilot.json',
                'sample-texts.json': catalog, 'NotoSansCJKsc-Regular.otf': font, 'OFL.txt': license_file}
@@ -27,7 +27,7 @@ def build(dll, catalog, font, license_file, base_payload, out, commit):
     config = package / 'payload/sotm2.zh.prototype.cfg'
     config.write_bytes(b'[Prototype]\r\nEnableChinese = true\r\n')
     shutil.copy2(ROOT / 'probe/Manage-Names.ps1', package / 'Manage.ps1')
-    shutil.copy2(ROOT / 'docs/NAME-CLEAN-TEST-0.1.29.md', package / '使用说明.md')
+    shutil.copy2(ROOT / 'docs/NAME-CLEAN-TEST-0.1.30.md', package / '使用说明.md')
     runtime_files = ['BepInEx/core/BepInEx.Unity.IL2CPP.dll', 'BepInEx/core/Il2CppInterop.Runtime.dll',
                      'BepInEx/interop/Sentinels2.dll', 'BepInEx/interop/Sentinels2Engine.dll',
                      'BepInEx/interop/Unity.TextMeshPro.dll']

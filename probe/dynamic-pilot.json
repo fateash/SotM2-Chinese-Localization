@@ -203,7 +203,10 @@
     "message.villain.targets10": "场上有至少10个反派目标。",
     "hint.hero.discard.hand": "点击一名英雄，使其弃置全部手牌。",
     "button.trash.reshuffle": "洗回牌库",
-    "hint.trash.owner.shuffle": "{0}点击{1}的弃牌堆，将其洗入所属牌库。"
+    "hint.trash.owner.shuffle": "{0}点击{1}的弃牌堆，将其洗入所属牌库。",
+    "hint.trash.bury.upto": "{0}点击弃牌堆中至多{1}张牌，将其埋藏。",
+    "finish.bury": "埋藏{0}张牌",
+    "button.discard.count": "弃置{0}张牌"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",

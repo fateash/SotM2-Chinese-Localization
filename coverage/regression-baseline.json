@@ -3606,6 +3606,31 @@
       "id": "e0ca66b1e202a5fcb892a513",
       "reason": "current-rule-match",
       "target": "<b>异星气象:</b> 点击风暴的弃牌堆，将其洗入所属牌库。"
+    },
+    {
+      "id": "10a4ea82d532fe30f5128a40",
+      "reason": "current-rule-match",
+      "target": "埋藏0张牌"
+    },
+    {
+      "id": "3bac41270c791dac3f62a8e5",
+      "reason": "current-rule-match",
+      "target": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+    },
+    {
+      "id": "7ffe24f0af36c56749b0da04",
+      "reason": "current-rule-match",
+      "target": "弃置1张牌"
+    },
+    {
+      "id": "a0eb061f32abfe68b390adff",
+      "reason": "current-rule-match",
+      "target": "<line-height=110%><style=PowerHeading>异能: </style><style=PowerBody>快子对1个目标造成3点近战伤害。破坏此牌。\r\n</style><voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n快子对自己造成2点固定火焰伤害。\r\n<voffset=-0.3em><space=-1em><sprite name=\"PlayPhase\"><space=.5em><style=PlayPhase>出牌阶段</style></voffset>\r\n本阶段你可以额外打出1张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n本阶段你可以额外抽1张牌。\r\n</line-height>"
+    },
+    {
+      "id": "cd0e2b34f66018caefa2a58f",
+      "reason": "current-rule-match",
+      "target": "<b>考古发掘:</b> 点击弃牌堆中至多3张牌，将其埋藏。"
     }
   ]
 }

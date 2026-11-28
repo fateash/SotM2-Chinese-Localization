@@ -145,5 +145,19 @@
     "translation": "点击至多{0}个目标，对其各造成<nobr>{1}点{2}伤害</nobr>。",
     "stage": 1,
     "context": "已捕获完整句的编辑归一化；显示尚未接入。无来源标题变体；依次为上限、伤害量、伤害类型。"
+  },
+  {
+    "key": "editorial.ui.hint.trash.bury.upto",
+    "original": "Click up to {0} cards in the trash to bury them.",
+    "translation": "点击弃牌堆中至多{0}张牌，将其埋藏。",
+    "stage": 1,
+    "context": "0.1.29考古发掘实机原句的编辑归一化；0.1.30接入HUD完整提示／确认按钮。数量动态保留，单复数调用端核验；待实机验收。"
+  },
+  {
+    "key": "editorial.ui.finish.bury",
+    "original": "Bury {0} cards",
+    "translation": "埋藏{0}张牌",
+    "stage": 1,
+    "context": "0.1.29考古发掘实机原句的编辑归一化；0.1.30接入HUD完整提示／确认按钮。数量动态保留，单复数调用端核验；待实机验收。"
   }
 ]
