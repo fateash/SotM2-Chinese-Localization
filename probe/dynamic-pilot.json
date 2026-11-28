@@ -168,7 +168,9 @@
     "hint.regain.upto": "{0}点击至多{1}个目标，使其恢复生命值。",
     "hint.attack.required.list": "{0}点击{1}及另外{2}个目标，对其各造成<nobr>{3}点{4}伤害</nobr>。",
     "hint.attack.exact.unspecified": "{0}点击{1}个目标，对其各造成{2}伤害。",
-    "hint.attack.dual": "{0}点击一个目标，对其造成<nobr>{1}点{2}伤害</nobr>和<nobr>{3}点{4}伤害</nobr>。"
+    "hint.attack.dual": "{0}点击一个目标，对其造成<nobr>{1}点{2}伤害</nobr>和<nobr>{3}点{4}伤害</nobr>。",
+    "hint.damage.amount": "点击一个按钮，选择造成的伤害量。",
+    "hint.attack.remaining": "{0}再点击{1}个目标，对其各造成<nobr>{2}点{3}伤害</nobr>。"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "66bbeb48d3d4ff250824e676a4621ab6d70766f995d7cc4f9cc6eafab9728af1",
+    "runtime/DynamicDisplayRules.cs": "1b2764bfc8e64a89cd527b50147d47807a030b06a278d055ea2ded0ac8faa90b",
     "runtime/SurfaceProbeRules.cs": "1d8071f2bb04ac9d4f69936e07ff9fbc933c5805644ac323d080566fce0d9e00",
     "runtime/SurfaceProbe.cs": "3848374ccfe3e4c4df22927b6b78d093924fc2c0be2743abc0d17d95482a4940",
     "runtime/Plugin.cs": "00a3ab2cd2a786e6550dc043cd0563d41bc0de02b37887a3dc01493da7961790",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "b0431e693fdf3c6ae5c93df52a637c0cc22c6ecc3a7ecf5f59124f699ce67d11",
+    "probe/dynamic-pilot.json": "264dd2f10f2e2a473c19f22e7aac6ba15dbcd08b8010772ff359f65d55678735",
     "runtime/RenderedDisplayRules.cs": "4075608df14dc5a1d29010d39a234c7ed98a066c6fe47372b1ee70abd05ffdf9"
   },
   "families": [
@@ -97,7 +97,9 @@
         "hint.regain.upto",
         "hint.attack.required.list",
         "hint.attack.exact.unspecified",
-        "hint.attack.dual"
+        "hint.attack.dual",
+        "hint.damage.amount",
+        "hint.attack.remaining"
       ],
       "contexts": [
         {
@@ -3206,6 +3208,294 @@
             "inCardView": false,
             "source": "<b>Test:</b> Click 12 targets to deal them sonic damage.",
             "expected": "<b>Test:</b> 点击12个目标，对其各造成音波伤害。"
+          }
+        },
+        {
+          "id": "022-divine-amount",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click a button to choose how much damage to deal.",
+            "expected": "<b>神圣献身:</b> 点击一个按钮，选择造成的伤害量。"
+          }
+        },
+        {
+          "id": "022-divine-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click 0 more targets to deal them <nobr>3 radiant</nobr> damage.",
+            "expected": "<b>神圣献身:</b> 再点击0个目标，对其各造成<nobr>3点光耀伤害</nobr>。"
+          }
+        },
+        {
+          "id": "022-divine-0-outside",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click 0 more targets to deal them <nobr>3 radiant</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-divine-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click 1 more target to deal them <nobr>3 radiant</nobr> damage.",
+            "expected": "<b>神圣献身:</b> 再点击1个目标，对其各造成<nobr>3点光耀伤害</nobr>。"
+          }
+        },
+        {
+          "id": "022-divine-1-outside",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click 1 more target to deal them <nobr>3 radiant</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-divine-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click 2 more targets to deal them <nobr>3 radiant</nobr> damage.",
+            "expected": "<b>神圣献身:</b> 再点击2个目标，对其各造成<nobr>3点光耀伤害</nobr>。"
+          }
+        },
+        {
+          "id": "022-divine-2-outside",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click 2 more targets to deal them <nobr>3 radiant</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-divine-6",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click 6 more targets to deal them <nobr>3 radiant</nobr> damage.",
+            "expected": "<b>神圣献身:</b> 再点击6个目标，对其各造成<nobr>3点光耀伤害</nobr>。"
+          }
+        },
+        {
+          "id": "022-divine-6-outside",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click 6 more targets to deal them <nobr>3 radiant</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-divine-8",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click 8 more targets to deal them <nobr>3 radiant</nobr> damage.",
+            "expected": "<b>神圣献身:</b> 再点击8个目标，对其各造成<nobr>3点光耀伤害</nobr>。"
+          }
+        },
+        {
+          "id": "022-divine-8-outside",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click 8 more targets to deal them <nobr>3 radiant</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-divine-12",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click 12 more targets to deal them <nobr>3 radiant</nobr> damage.",
+            "expected": "<b>神圣献身:</b> 再点击12个目标，对其各造成<nobr>3点光耀伤害</nobr>。"
+          }
+        },
+        {
+          "id": "022-divine-12-outside",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click 12 more targets to deal them <nobr>3 radiant</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-divine-reject0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click 1 more targets to deal them <nobr>3 radiant</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-divine-reject1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click 2 more target to deal them <nobr>3 radiant</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-divine-reject2",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click 2 more targets to deal them <nobr>3 unknown</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-divine-reject3",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click -2 more targets to deal them <nobr>3 radiant</nobr> damage.",
+            "expected": null
+          }
+        },
+        {
+          "id": "022-divine-reject4",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "伤害量选择与剩余目标数分别核对；边界为合成契约，待实机。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Divine Sacrifice:</b> Click a button to choose how much HP to regain.",
+            "expected": null
           }
         }
       ]

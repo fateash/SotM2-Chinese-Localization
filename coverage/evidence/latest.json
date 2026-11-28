@@ -13377,6 +13377,327 @@
       "observations": 238,
       "captureLimitReached": false,
       "exhaustive": false
+    },
+    {
+      "file": "SotM2-Dynamic-Evidence-20261128-132200-427650.zip",
+      "sha256": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+      "issues": [],
+      "version": "0.1.21-rc.1",
+      "buildId": "26880829",
+      "installed": {
+        "sample-texts.json": "f267dc836d38da3395eda9dd02dce5815369452682b538cbf449fc7f08fda4ee",
+        "NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+        "SotM2ChinesePrototype.dll": "79306d1ce713d826e3493aa282381fdc9a42b55be66827a190a28db26aecd38b",
+        "surface-probe.json": "ac4d19974cd5adbcca9ee5652611b94a8f946a986e8bbee8c0d7256c6de8ed29",
+        "OFL.txt": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+      },
+      "manifestSourceCommit": "9ca5d685e47d06e167aa875880d19cea58f7c87e",
+      "runtimeWarnings": [],
+      "applicationSignals": [
+        {
+          "objectName": "Text",
+          "source": "Options"
+        },
+        {
+          "objectName": "Text",
+          "source": "New Game"
+        },
+        {
+          "objectName": "Text",
+          "source": "Online\nMultiplayer"
+        },
+        {
+          "objectName": "Text",
+          "source": "Send Early \nAccess Feedback"
+        },
+        {
+          "objectName": "Text",
+          "source": "Credits"
+        },
+        {
+          "objectName": "Text",
+          "source": "Quick Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "How to Play"
+        },
+        {
+          "objectName": "Text",
+          "source": "Achievements"
+        },
+        {
+          "objectName": "Text",
+          "source": "Continue Game"
+        },
+        {
+          "objectName": "Text",
+          "source": "Early Access Info"
+        },
+        {
+          "objectName": "Text",
+          "source": "Help & Feedback"
+        },
+        {
+          "objectName": "Text",
+          "source": "Card Library"
+        },
+        {
+          "objectName": "Phase Label",
+          "source": "PLAY PHASE"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Menu"
+        },
+        {
+          "objectName": "Turn Taker Label",
+          "source": "Fanatic"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "HANGAR BAY"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing, dome"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "CONSECRATED GROUND"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "one-shot"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "DIVINE SACRIFICE"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Face <b>me</b> and tremble!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Fanatic, Mystery Comics Vol. 2, #369"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "Fanatic对自己造成至多3点光耀伤害。\r\nFanatic对X个目标各造成3点光耀伤害，X为本回合Fanatic受到的伤害总量。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "FINAL DIVE"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Meet thy maker.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Fanatic, Tome of the Bizarre Vol. 3, #9"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "破坏1个生命值不高于4的非角色目标。\r\nFanatic对1个目标造成X点投射伤害，X为被破坏目标在被破坏前的生命值。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "PRAYER OF DESPERATION"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Let this not be the last breath your servant draws.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Fanatic, Prime Wardens Vol. 1, #152"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "展示你的牌库顶的4张牌。将以此法展示的物品牌和持续牌加入手牌。弃置其余展示的牌。\r\n若Fanatic的生命值不高于10，打出至多2张牌。\r\n"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "UNDAUNTED"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“You took on <b>nine</b> gods by yourself.\r\nWill you not even take a moment to rest?!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Ra, Baptism by Fire #5"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "每当Fanatic将受到1点伤害时，该次伤害−1。\r\n若Fanatic的生命值不高于10且将受到5点或更多伤害，该次伤害−3。\r\n"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing, limited"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "S-84 AUTOMATON DRONES"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "device"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "E-P EXPLOSIVE"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "ELECTRO-MAGNETIC RAILGUN"
+        },
+        {
+          "objectName": "Keywords Label",
+          "source": "ongoing"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "PROTOMATTER CONVERTER"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "S-85 REPAIR DRONES"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "S-83 ASSAULT DRONES"
+        },
+        {
+          "objectName": "Text (TMP)",
+          "source": "Skip Play Phase"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "Click or drag a card to play it."
+        },
+        {
+          "objectName": "Skip Button Label",
+          "source": "Skip"
+        },
+        {
+          "objectName": "Label",
+          "source": "Deal 0 damage"
+        },
+        {
+          "objectName": "Label",
+          "source": "Deal 1 damage"
+        },
+        {
+          "objectName": "Label",
+          "source": "Deal 2 damage"
+        },
+        {
+          "objectName": "Label",
+          "source": "Deal 3 damage"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“This collection of man-made trash\r\ndares to assault an angel of the Lord?!\r\nThere can be <b>no</b> absolution for you!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Fanatic, Mystery Comics Vol. 1 #359"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\nOmnitron对生命值最高的2个英雄目标各造成<b>*5*</b>点投射伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n若场上有超过<b>*5*</b>张反派持续牌，破坏1张反派持续牌。若以此法破坏了一张牌，每位英雄弃置1张牌。\r\n"
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 0 targets"
+        },
+        {
+          "objectName": "Hint Label",
+          "source": "<b>Divine Sacrifice:</b> Click 3 targets to deal them <nobr>3 radiant</nobr> damage."
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 1 target"
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 2 targets"
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 3 targets"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“Hundreds of those skittering knife-legged\r\nrobots surrounded me! It was <b>GREAT</b>!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Haka, Singularity #5"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最低的2个英雄目标各造成<b>*4*</b>点近战伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n直到反派<nobr><b>START PHASE</b></nobr>，任意装置牌受到英雄目标造成的伤害后，此牌对该伤害的来源造成2点近战伤害。\r\n"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“The endless sounds of stomping metal feet\r\nfilled the air. There was no element of\r\nsurprise. They didn't need it.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--The Wraith, Singularity #7"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最高的3个英雄目标各造成<b>*4*</b>点能量伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n发现1张装置牌。\r\n"
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 4 targets"
+        },
+        {
+          "objectName": "Title Label",
+          "source": "ELECTRO-PULSE EXPLOSIVE"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“It's already gone off once. I don't think this\r\nbuilding can survive another round!”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Legacy, Freedom Five #219"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最高的<b>*5*</b>个英雄目标各造成3点闪电伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n直到反派<nobr><b>START PHASE</b></nobr>，装置牌受到的伤害−1。\r\n"
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 5 targets"
+        },
+        {
+          "objectName": "Finish Button Label",
+          "source": "Damage 6 targets"
+        },
+        {
+          "objectName": "Flavor Text Label",
+          "source": "“In principle, a molecular-decoupling wave could\r\nrealign protomatter at the subatomic level.”"
+        },
+        {
+          "objectName": "Flavor Reference Label",
+          "source": "--Tachyon, Freedom Five #315"
+        },
+        {
+          "objectName": "Body Label",
+          "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n破坏1张环境牌。打出环境牌库顶的一张牌。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n打出反派牌库顶的一张牌。\r\n"
+        }
+      ],
+      "observations": 65,
+      "captureLimitReached": false,
+      "exhaustive": false
     }
   ],
   "samples": [
@@ -14163,6 +14484,12 @@
           "line": 523,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 98,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -14390,6 +14717,12 @@
         {
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 307,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 57,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
@@ -14721,6 +15054,12 @@
           "line": 45,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 47,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -14803,6 +15142,29 @@
         }
       ],
       "cardButtonCandidate": false
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/CardView DivineSacrifice-0 FullCardFront/Body Box/Body Label",
+      "cardId": "DivineSacrifice",
+      "source": "狂信对自己造成至多3点光耀伤害。\r\n狂信对X个目标各造成3点光耀伤害，X为本回合狂信受到的伤害总量。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "0771bd977c3d24ea480e27a9",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 132,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        }
+      ]
     },
     {
       "objectName": "Body Label",
@@ -15513,6 +15875,29 @@
           "line": 654,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Finish Button Label",
+      "path": "Canvas/Main Panel/Button Panel/Finish Button/Finish Button Label",
+      "cardId": "",
+      "source": "Damage 6 targets",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "0d5fe3e558cb65e724e2af51",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 213,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -17772,6 +18157,29 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Hand/Card Container/CardView Undaunted-0 FullCardFront/Body Box/Body Label",
+      "cardId": "Undaunted",
+      "source": "每当狂信将受到1点伤害时，该次伤害−1。\r\n若狂信的生命值不高于10且将受到5点或更多伤害，该次伤害−3。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "190f153615e192337e88885c",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 158,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Label",
       "path": "Canvas/Main Panel/InsulaPrimalis/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView VelociraptorPack-1 SmallCardFront/Tooltip/CardView VelociraptorPack-1 FullCardFront/Effect Panel/Effect View(Clone)/Label",
       "cardId": "VelociraptorPack",
@@ -18786,6 +19194,12 @@
           "line": 391,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 65,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -18890,6 +19304,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 238,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 124,
+          "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
       ]
@@ -19111,6 +19531,12 @@
           "line": 40,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 40,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -19194,6 +19620,12 @@
         {
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 482,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 59,
           "version": "0.1.21-rc.1",
           "markerCandidate": true
         }
@@ -19481,6 +19913,29 @@
           "line": 429,
           "version": "0.1.15-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 3/TheWraith/Inner Panel/Character Card Container/TheWraithCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "TheWraithCharacter",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "2157f4922e3b9235bc444a1e",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 64,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -20532,6 +20987,12 @@
           "line": 312,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 194,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -21495,6 +21956,29 @@
           "line": 259,
           "version": "0.1.20-rc.1",
           "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView DivineSacrifice-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "cardId": "DivineSacrifice",
+      "source": "Deal 3 damage",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "2c7c5c62873cef5501702162",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 144,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -22857,6 +23341,12 @@
           "line": 161,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 63,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -23886,6 +24376,12 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 239,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 121,
+          "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
       ]
@@ -26097,6 +26593,12 @@
           "line": 609,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 206,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -26471,6 +26973,29 @@
           "session": "fb257cfa8b87dbf94696bf0c035c0995b43492d1422aeb871bf0523921d83b01",
           "line": 275,
           "version": "0.1.13-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Divine Sacrifice:</b> Click a button to choose how much damage to deal.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "45f04972c8b1f20af2fc3920",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 147,
+          "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
       ]
@@ -27910,6 +28435,29 @@
       ]
     },
     {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView DivineSacrifice-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "cardId": "DivineSacrifice",
+      "source": "Deal 2 damage",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "4ec81d442358b83e201625ce",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 141,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
       "objectName": "Hint Label",
       "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
       "cardId": "",
@@ -28234,6 +28782,29 @@
           "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
           "line": 252,
           "version": "0.1.14-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView ElectroMagneticRailgun-1 SmallCardFront/Tooltip/CardView ElectroMagneticRailgun-1 FullCardFront/Body Box/Body Label",
+      "cardId": "ElectroMagneticRailgun",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\nOmnitron对生命值最高的2个英雄目标各造成<b>*5*</b>点投射伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n若场上有超过<b>*5*</b>张反派持续牌，破坏1张反派持续牌。若以此法破坏了一张牌，每位英雄弃置1张牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "5028aeb9fe900c9b2afc7a5c",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 156,
+          "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
       ]
@@ -28974,6 +29545,29 @@
       ]
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView S84AutomatonDrones-2 SmallCardFront/Tooltip/CardView S84AutomatonDrones-2 FullCardFront/Body Box/Body Label",
+      "cardId": "S84AutomatonDrones",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最高的3个英雄目标各造成<b>*4*</b>点能量伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n发现1张装置牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "53b5fcc605d7d2de4b47defa",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 192,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Selection Button Label",
       "path": "Canvas/Main Panel/Tempest/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
       "cardId": "",
@@ -29009,6 +29603,29 @@
           "session": "4de2425af165a6d224567543a024d31be1ca7bccd918c9215a6182d8d78aaff6",
           "line": 631,
           "version": "0.1.14-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView S83AssaultDrones-2 SmallCardFront/Tooltip/CardView S83AssaultDrones-2 FullCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "S83AssaultDrones",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "54120e3222d95b9737d6dcd6",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 184,
+          "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
       ]
@@ -30020,6 +30637,12 @@
           "line": 419,
           "version": "0.1.21-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 171,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -30365,6 +30988,12 @@
         {
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 513,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 88,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
@@ -31322,6 +31951,12 @@
         {
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 410,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 168,
           "version": "0.1.21-rc.1",
           "markerCandidate": true
         }
@@ -32515,6 +33150,12 @@
           "line": 433,
           "version": "0.1.21-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 125,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
         }
       ],
       "cardButtonCandidate": false
@@ -33244,6 +33885,12 @@
         {
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 599,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 133,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
@@ -34099,6 +34746,29 @@
     },
     {
       "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S83AssaultDrones-2 FullCardFront/Body Box/Body Label",
+      "cardId": "S83AssaultDrones",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最低的2个英雄目标各造成<b>*4*</b>点近战伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n直到反派<nobr><b>START PHASE</b></nobr>，任意装置牌受到英雄目标造成的伤害后，此牌对该伤害的来源造成2点近战伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "68cb4c5f612cbfce1f894ed3",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 217,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
       "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView MaskOfTheMatriarch-0 SmallCardFront/Tooltip/CardView MaskOfTheMatriarch-0 FullCardFront/Body Box/Body Label",
       "cardId": "MaskOfTheMatriarch",
       "source": "鸟群牌造成的伤害不可削减。\r\n每回合首次打出除此牌以外的非鸟群反派牌后，打出反派牌库顶的一张牌。\r\n",
@@ -34660,6 +35330,12 @@
         },
         {
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
+          "line": 34,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
           "line": 34,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
@@ -37241,6 +37917,12 @@
           "line": 49,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 51,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -37390,6 +38072,12 @@
         {
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 47,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 49,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
@@ -37997,6 +38685,29 @@
     },
     {
       "objectName": "Label",
+      "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView DivineSacrifice-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "cardId": "DivineSacrifice",
+      "source": "Deal 0 damage",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "7f94af363ca81c977b16ed93",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 135,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
       "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Effect Panel/Effect View(Clone)/Label",
       "cardId": "UnityCharacter",
       "source": "<size=75%>+</size><space=-0.1em>1",
@@ -38169,6 +38880,12 @@
           "line": 43,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 43,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -38190,6 +38907,29 @@
           "line": 588,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView S85RepairDrones-0 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "S85RepairDrones",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "80011f67f91e1c2502f89d5d",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 120,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -38327,6 +39067,29 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 188,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView S83AssaultDrones-2 SmallCardFront/Tooltip/CardView S83AssaultDrones-2 FullCardFront/Body Box/Body Label",
+      "cardId": "S83AssaultDrones",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n此牌对生命值最低的2个英雄目标各造成<b>*4*</b>点近战伤害。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n直到反派<nobr><b>START PHASE</b></nobr>，任意装置牌受到英雄目标造成的伤害后，此牌对该伤害的来源造成2点近战伤害。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "81a32e84b9edb2e9bcfeac5a",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 182,
+          "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
       ]
@@ -38540,6 +39303,12 @@
         {
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 388,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 54,
           "version": "0.1.21-rc.1",
           "markerCandidate": true
         }
@@ -39435,6 +40204,29 @@
         }
       ],
       "cardButtonCandidate": false
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView DivineSacrifice-0 FullCardFront/Body Box/Body Label",
+      "cardId": "DivineSacrifice",
+      "source": "Fanatic对自己造成至多3点光耀伤害。\r\nFanatic对X个目标各造成3点光耀伤害，X为本回合Fanatic受到的伤害总量。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "86769b65a4c03a021f21ca58",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 220,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        }
+      ]
     },
     {
       "objectName": "Body Label",
@@ -41604,6 +42396,29 @@
     },
     {
       "objectName": "Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView S84AutomatonDrones-1 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "S84AutomatonDrones",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "930c2158198a60fd231decf3",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 122,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
       "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/CardView MaskOfTheMatriarch-0 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
       "cardId": "MaskOfTheMatriarch",
       "source": "<size=75%>+</size><space=-0.1em>1",
@@ -41809,6 +42624,29 @@
     },
     {
       "objectName": "Label",
+      "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView S83AssaultDrones-2 FullCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "S83AssaultDrones",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "94a8b56502333d758e138eb5",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 218,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
       "path": "Canvas/Main Panel/Villain Row/TheMatriarch/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView KettleOfVultures-1 SmallCardFront/Tooltip/CardView KettleOfVultures-1 FullCardFront/Effect Panel/Effect View(Clone)/Label",
       "cardId": "KettleOfVultures",
       "source": "<size=75%>+</size><space=-0.1em>1",
@@ -41832,6 +42670,29 @@
           "session": "c53fec320fd6359886486e837dbb90aefcea904781c1a00eeae064871b0c98d4",
           "line": 775,
           "version": "0.1.20-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView DivineSacrifice-0 SmallCardFront/Tooltip/CardView DivineSacrifice-0 FullCardFront/Body Box/Body Label",
+      "cardId": "DivineSacrifice",
+      "source": "Fanatic对自己造成至多3点光耀伤害。\r\nFanatic对X个目标各造成3点光耀伤害，X为本回合Fanatic受到的伤害总量。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "94d19a5f0094ed5cdf3af705",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 159,
+          "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
       ]
@@ -42087,6 +42948,12 @@
         {
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 526,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 131,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
@@ -42790,6 +43657,29 @@
           "line": 546,
           "version": "0.1.14-rc.1",
           "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Tooltip/CardView DivineSacrifice-0 FullCardFront/Body Box/Body Label",
+      "cardId": "DivineSacrifice",
+      "source": "Fanatic对自己造成至多3点光耀伤害。\r\nFanatic对X个目标各造成3点光耀伤害，X为本回合Fanatic受到的伤害总量。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "9abe0a94d97690c76b5d26e5",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 148,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -45475,6 +46365,29 @@
       "cardButtonCandidate": false
     },
     {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Hand/Card Container/CardView Undaunted-0 FullCardFront/Body Box/Body Label",
+      "cardId": "Undaunted",
+      "source": "每当Fanatic将受到1点伤害时，该次伤害−1。\r\n若Fanatic的生命值不高于10且将受到5点或更多伤害，该次伤害−3。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "a783d33a550ff30edd3f223a",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 108,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Hint Label",
       "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
       "cardId": "",
@@ -47482,6 +48395,12 @@
           "line": 36,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 36,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -48568,6 +49487,12 @@
           "line": 718,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 210,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -49522,6 +50447,12 @@
           "line": 32,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 32,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -49764,6 +50695,12 @@
           "line": 30,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 30,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -49868,6 +50805,29 @@
           "session": "d856bbaada7571a8e2c1b8ff4e7a91f5f0f24f3ccfbc14f7c128bf898f85cec3",
           "line": 402,
           "version": "0.1.16-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView S84AutomatonDrones-0 SmallCardFront/Effect Panel/Effect View(Clone)/Label",
+      "cardId": "S84AutomatonDrones",
+      "source": "-1",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "be968b2b0682a0d0c23ccef6",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 113,
+          "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
       ]
@@ -52533,6 +53493,12 @@
           "line": 237,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 115,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -52769,6 +53735,12 @@
         {
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 528,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 219,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
@@ -54444,6 +55416,12 @@
           "line": 503,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 78,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -54584,6 +55562,12 @@
           "session": "c53fec320fd6359886486e837dbb90aefcea904781c1a00eeae064871b0c98d4",
           "line": 45,
           "version": "0.1.20-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 45,
+          "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
       ],
@@ -55021,6 +56005,12 @@
           "line": 422,
           "version": "0.1.21-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 160,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -55358,6 +56348,12 @@
         {
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 530,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 128,
           "version": "0.1.21-rc.1",
           "markerCandidate": true
         }
@@ -55851,6 +56847,29 @@
       ]
     },
     {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Divine Sacrifice:</b> Click 8 more targets to deal them <nobr>3 radiant</nobr> damage.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "df73f1d013ad9fd9de34ae09",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 216,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
       "objectName": "Selection Button Label",
       "path": "Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 4/CaptainCosmic/Inner Panel/Foreground Elements/Selection Button/Selection Button Label",
       "cardId": "",
@@ -56096,6 +57115,35 @@
           "line": 320,
           "version": "0.1.16-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 208,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Label",
+      "path": "Canvas/Main Panel/Fanatic/Inner Panel/Foreground Elements/Play Area/Scroll View/Viewport/Card Container/CardView DivineSacrifice-0 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label",
+      "cardId": "DivineSacrifice",
+      "source": "Deal 1 damage",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": true,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "e0c5c5ad43b79235d8f19e87",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 138,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -56580,6 +57628,29 @@
       ]
     },
     {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Divine Sacrifice:</b> Click 3 targets to deal them <nobr>3 radiant</nobr> damage.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": true,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "e303544d3dabb146449c2405",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 163,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
       "objectName": "Description Label",
       "path": "Canvas/Temporary Full Card Panel/Description Label",
       "cardId": "",
@@ -56836,6 +57907,12 @@
         },
         {
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
+          "line": 41,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
           "line": 41,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
@@ -57164,6 +58241,12 @@
         },
         {
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
+          "line": 28,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
           "line": 28,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
@@ -57505,6 +58588,12 @@
         {
           "session": "fd016752e952be93b3e13c93d8c24fb701c12912a2cad177575c70d5ea061184",
           "line": 527,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 209,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
@@ -58080,6 +59169,12 @@
           "line": 715,
           "version": "0.1.16-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 195,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
         }
       ]
     },
@@ -58576,6 +59671,35 @@
           "line": 426,
           "version": "0.1.21-rc.1",
           "markerCandidate": true
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 165,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": true
+        }
+      ]
+    },
+    {
+      "objectName": "Hint Label",
+      "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+      "cardId": "",
+      "source": "<b>Divine Sacrifice:</b> Click 6 more targets to deal them <nobr>3 radiant</nobr> damage.",
+      "inCardView": false,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "ec37f62d85c9d30be846da9b",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 174,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ]
     },
@@ -61320,6 +62444,12 @@
           "line": 38,
           "version": "0.1.21-rc.1",
           "markerCandidate": false
+        },
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 38,
+          "version": "0.1.21-rc.1",
+          "markerCandidate": false
         }
       ],
       "cardButtonCandidate": false
@@ -61789,6 +62919,29 @@
           "session": "b87d4d41188fc6e6e2dbb4cd73e9ac388ac9aff5e9eb2f15e5746ef98c81bd84",
           "line": 447,
           "version": "0.1.13-rc.1",
+          "markerCandidate": false
+        }
+      ]
+    },
+    {
+      "objectName": "Body Label",
+      "path": "Canvas/Main Panel/Villain Row/Omnitron/Inner Panel/Foreground Elements/Play Area Background/Play Area/Scroll View/Viewport/Card Container/CardView ProtomatterConverter-1 SmallCardFront/Tooltip/CardView ProtomatterConverter-1 FullCardFront/Body Box/Body Label",
+      "cardId": "ProtomatterConverter",
+      "source": "<style=AbilityHeading><sprite name=\"Exterminate\"> EXTERMINATE</style>\r\n破坏1张环境牌。打出环境牌库顶的一张牌。\r\n<style=AbilityHeading><sprite name=\"Fabricate\"> FABRICATE</style>\r\n打出反派牌库顶的一张牌。\r\n",
+      "inCardView": true,
+      "inputSource": "TextString",
+      "truncated": false,
+      "markerCandidate": false,
+      "effectTooltip": false,
+      "cardButtonCandidate": false,
+      "deckNameTitle": false,
+      "buildId": "26880829",
+      "id": "fde599cd8b4852dc5fc52c43",
+      "evidence": [
+        {
+          "session": "939d8c22ee4451116a40214d14910412c90d0cce884663c8cbbbff227060d861",
+          "line": 228,
+          "version": "0.1.21-rc.1",
           "markerCandidate": false
         }
       ]

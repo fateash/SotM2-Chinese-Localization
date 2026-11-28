@@ -3211,6 +3211,14 @@
         "expected": "抽牌阶段",
         "evidence": "tests/fixtures/dynamic-0.1.13.json"
       }
+    },
+    {
+      "id": "0771bd977c3d24ea480e27a9",
+      "reviewedReason": "unresolved-full-string",
+      "disposition": "nonlinguistic",
+      "reason": "神圣献身正文已为审定中文；残留拉丁字母仅规则变量X，必须保留。与Fanatic.json两条正文逐字核对，不属于英文漏译。",
+      "owner": "本地化维护者",
+      "nextAction": "保留X和明确数字；本条不新增替换规则，不据此提升实机交互验收。"
     }
   ]
 }
