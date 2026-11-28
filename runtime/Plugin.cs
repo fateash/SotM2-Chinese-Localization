@@ -14,7 +14,7 @@ using Handelabra.Sentinels2.Engine.Controller;
 using UObj=UnityEngine.Object;
 namespace SotM2Chinese;
 
-[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Prototype", "0.1.44")]
+[BepInPlugin("sotm2.zh.prototype", "SotM2 Chinese Localization", "0.1.45")]
 public sealed class Plugin:BasePlugin {
  internal static Plugin Instance=null!;
  internal static Catalog Texts=new();
@@ -29,13 +29,18 @@ public sealed class Plugin:BasePlugin {
   Instance=this; Root=Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)!;
   Chinese=Config.Bind("Prototype","EnableChinese",false,"Enable limited Chinese display; restart game after changing.").Value;
   Texts=Catalog.Read(Path.Combine(Root,"sample-texts.json"));
+#if SOTM_DIAGNOSTICS
   var surfacePath=Path.Combine(Root,"surface-probe.json");
-  if(File.Exists(surfacePath)){Surface=new SurfaceProbe(surfacePath);Log.LogInfo("SURFACE_PROBE_ENABLED configured-pilot bounded-capture");}
+#else
+  var surfacePath=Path.Combine(Root,"display-rules.json");
+#endif
+  if(File.Exists(surfacePath)){Surface=new SurfaceProbe(surfacePath);Diagnostics.Info("SURFACE_PROBE_ENABLED configured-pilot bounded-capture");}
   UiSources=new HashSet<string>(Texts.Ui.Select(e=>e.Source),StringComparer.Ordinal);
-  Log.LogInfo("PROTOTYPE_LOADED 0.1.44-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
+  Diagnostics.Info("PROTOTYPE_LOADED 0.1.45-rc.1 build=26880829 mode="+(Chinese?"Chinese":"Probe"));
+  Log.LogMessage("SotM2 Chinese Localization 0.1.45-rc.1; game build 26880829");
   // Resolve types/methods without patching the game model or rule engine.
   var method=typeof(TextHelper).GetMethods().Single(m=>m.Name=="ReplaceTemplatesAndInsertSpecifics"&&m.GetParameters().Length==8);
-  Log.LogInfo("DISPLAY_METHOD_RESOLVED "+method);
+  Diagnostics.Info("DISPLAY_METHOD_RESOLVED "+method);
   AddComponent<ProbeBehaviour>();
   if(Chinese) {
    var harmony=new Harmony("sotm2.zh.prototype");
@@ -49,7 +54,7 @@ public sealed class Plugin:BasePlugin {
     harmony.Patch(loadImage,prefix:new HarmonyMethod(typeof(Plugin),nameof(DeckBackImageLoading)));
     var sprite=typeof(UnityEngine.UI.Image).GetProperty("sprite")!.GetSetMethod()!;
     harmony.Patch(sprite,prefix:new HarmonyMethod(typeof(Plugin),nameof(LogoSpriteInput)));
-    Log.LogInfo("VILLAIN_LOGO_HOOK_INSTALLED exact-name + bound-LogoImage; VILLAIN_DECKBACK_HOOK_INSTALLED LoadCardImage + bound-MainImage + small-deckback + atlas-dimensions");
+    Diagnostics.Info("VILLAIN_LOGO_HOOK_INSTALLED exact-name + bound-LogoImage; VILLAIN_DECKBACK_HOOK_INSTALLED LoadCardImage + bound-MainImage + small-deckback + atlas-dimensions");
    }catch(Exception e){Log.LogWarning("VILLAIN_LOGO_HOOK_FALLBACK original artwork retained: "+e);}
    // This build writes card titles through the virtual text property setter.
    // SetText(string) and SetText(string,bool) share one native address: patch it once.
@@ -59,7 +64,7 @@ public sealed class Plugin:BasePlugin {
     if(entry==null)throw new MissingMethodException("TMP title string input");
     harmony.Patch(entry,prefix:new HarmonyMethod(typeof(Plugin),nameof(EnvironmentTitleStringInput)));
    }
-   Log.LogInfo("ENVIRONMENT_TITLE_INPUT_HOOK_INSTALLED text-setter-and-string-SetText-no-buffer-access");
+   Diagnostics.Info("ENVIRONMENT_TITLE_INPUT_HOOK_INSTALLED text-setter-and-string-SetText-no-buffer-access");
    try {
     // Configure is async: register the view immediately, then read its bound title
     // on the Unity canvas pre-render phase, never on a Task continuation thread.
@@ -69,17 +74,17 @@ public sealed class Plugin:BasePlugin {
     var canvas=typeof(Canvas).GetMethod("SendPreWillRenderCanvases",BindingFlags.Static|BindingFlags.NonPublic|BindingFlags.Public)
      ?? throw new MissingMethodException("Canvas pre-render callback");
     harmony.Patch(canvas,prefix:new HarmonyMethod(typeof(Plugin),nameof(BeforeCanvasRender)));
-    Log.LogInfo("ENVIRONMENT_TITLE_CANVAS_HOOK_INSTALLED configure-register + canvas-pre-render");
+    Diagnostics.Info("ENVIRONMENT_TITLE_CANVAS_HOOK_INSTALLED configure-register + canvas-pre-render");
    }catch(Exception e){Log.LogWarning("ENVIRONMENT_TITLE_CANVAS_HOOK_FALLBACK bounded scan retained: "+e);}
    foreach(var render in new[]{
     typeof(TextMeshProUGUI).GetMethod("OnPreRenderCanvas",BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic),
     typeof(TextMeshPro).GetMethod("OnPreRenderObject",BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic)}) {
     if(render==null || render.GetParameters().Length!=0) throw new MissingMethodException("TMP pre-render entry not found");
     harmony.Patch(render,prefix:new HarmonyMethod(typeof(Plugin),nameof(BeforeTextRender)));
-    Log.LogInfo("UI_RENDER_HOOK_INSTALLED "+render.DeclaringType!.Name+"."+render.Name);
+    Diagnostics.Info("UI_RENDER_HOOK_INSTALLED "+render.DeclaringType!.Name+"."+render.Name);
    }
   }
-  Log.LogInfo("PROTOTYPE_READY component registered; awaiting Unity Update");
+  Diagnostics.Info("PROTOTYPE_READY component registered; awaiting Unity Update");
  }
  public static void RegisterEnvironmentBack(CardBackView __instance){
   try {Surface?.TrackBackView(__instance);}catch(Exception e){Once("track-back-error","ENVIRONMENT_TITLE_TRACK_ERROR "+e);}
@@ -104,12 +109,13 @@ public sealed class Plugin:BasePlugin {
   finally {inCanvas=false;}
  }
  internal static readonly Dictionary<string,string> LastCardState=new(StringComparer.Ordinal);
+ [System.Diagnostics.Conditional("SOTM_DIAGNOSTICS")]
  internal static void CardState(string card,string source,string state) {
   string key=card+"|"+source;
   if(LastCardState.Count>=100 && !LastCardState.ContainsKey(key))return;
   if(!LastCardState.TryGetValue(key,out var previous) || previous!=state) {
    LastCardState[key]=state;
-   if(cardStateLogs++<200)Instance.Log.LogInfo("CARD_DISPLAY_STATE card="+card+" state="+state+" previous="+(previous??"none"));
+   if(cardStateLogs++<200)Diagnostics.Info("CARD_DISPLAY_STATE card="+card+" state="+state+" previous="+(previous??"none"));
   }
  }
  private static int cardStateLogs;
@@ -171,8 +177,9 @@ public sealed class Plugin:BasePlugin {
   return !string.IsNullOrEmpty(source);
  }
  internal static string Clip(string? text) => JsonSerializer.Serialize(text==null?null:text.Length>640?text.Substring(0,640)+"…":text);
+ [System.Diagnostics.Conditional("SOTM_DIAGNOSTICS")]
  internal static void Once(string key,string message) {
-  if(Events.Count<500 && Events.Add(key)) Instance.Log.LogInfo(message);
+  if(Events.Count<500 && Events.Add(key)) Diagnostics.Info(message);
  }
  // Argument replacement affects only this display call. The stored English model is never changed.
  public static void CardPrefix(CardController __0,GameTextController __1,ref string __2) {
@@ -279,7 +286,7 @@ internal static class FontSupport {
    if(!ok || !string.IsNullOrEmpty(missing)) {Plugin.Once("font-missing","FONT_GLYPHS_MISSING "+missing);return false;}
    KeepFontAlive();Plugin.Ready=true;
    EnvironmentTitleFont.Prepare(Plugin.Surface?.EnvironmentTitleGlyphs()??"");
-   Plugin.Instance.Log.LogInfo("FONT_READY generation="+generation+" glyphs="+chars.Length+" atlas=2048 multiAtlas="+Plugin.Cjk.isMultiAtlasTexturesEnabled);
+   Diagnostics.Info("FONT_READY generation="+generation+" glyphs="+chars.Length+" atlas=2048 multiAtlas="+Plugin.Cjk.isMultiAtlasTexturesEnabled);
    return true;
   } catch(Exception e) {Plugin.Ready=false;Plugin.Once("font-error","FONT_INIT_FALLBACK "+e);return false;}
   finally {preparing=false;}

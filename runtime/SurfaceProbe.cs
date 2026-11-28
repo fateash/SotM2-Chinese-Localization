@@ -12,7 +12,9 @@ internal sealed class SurfaceProbe {
  internal SurfaceProbe(string path){rules=SurfaceProbeRules.Read(path);completion=new RenderedDisplayRules(Plugin.Texts,rules.DeckNames,rules.Templates);}
  // Diagnostic metadata only: never read buffered title text, mutate flags, or touch HP.
  readonly HashSet<string> blockedTitles=new(StringComparer.Ordinal);
+ [System.Diagnostics.Conditional("SOTM_DIAGNOSTICS")]
  internal void ObserveBlockedTitle(TMP_Text text){
+#if SOTM_DIAGNOSTICS
   try {
    if(blockedTitles.Count>=24 || text.gameObject.name!="Title Label" || text.GetComponentInParent<TMP_InputField>()!=null)return;
    var view=text.GetComponentInParent<CardView>();
@@ -22,10 +24,13 @@ internal sealed class SurfaceProbe {
     path,inputSource=text.m_inputSource.ToString(),backingStringDirty=text.m_IsTextBackingStringDirty,
     isDeckBack=view.IsDeckBack,cardId=view.Card?.Card?.CardDefinition.Identifier??"",policy="metadata-only-no-text-read-no-write"}));
   }catch(Exception e){Plugin.Once("title-input-probe-error","TITLE_INPUT_PROBE_STOPPED "+e.GetType().Name);}
+#endif
  }
  readonly HashSet<string> titleSnapshots=new(StringComparer.Ordinal);
  readonly HashSet<string> titleInputs=new(StringComparer.Ordinal);
+ [System.Diagnostics.Conditional("SOTM_DIAGNOSTICS")]
  internal void ObserveTitleInput(TMP_Text text,string argument){
+#if SOTM_DIAGNOSTICS
   try {
   if(titleInputs.Count>=80 || text.gameObject.name.IndexOf("title",StringComparison.OrdinalIgnoreCase)<0 || text.GetComponentInParent<TMP_InputField>()!=null)return;
   string path=PathOf(text);var view=text.GetComponentInParent<CardView>();var back=text.GetComponentInParent<CardBackView>();
@@ -36,8 +41,11 @@ internal sealed class SurfaceProbe {
    isDeckBack=view!=null && view.IsDeckBack,boundTitle=view!=null && view.TitleLabel==text,policy="original-string-argument-only-observer"}));
 
   }catch(Exception e){Plugin.Once("ObserveTitleInput-error","ENV_TITLE_DIAGNOSTIC_STOPPED ObserveTitleInput "+e.GetType().Name);}
+#endif
  }
+ [System.Diagnostics.Conditional("SOTM_DIAGNOSTICS")]
  internal void ObserveTitleSnapshot(TMP_Text text){
+#if SOTM_DIAGNOSTICS
   try {
   if(titleSnapshots.Count>=100 || text.gameObject.name.IndexOf("title",StringComparison.OrdinalIgnoreCase)<0 || text.GetComponentInParent<TMP_InputField>()!=null)return;
   string path=PathOf(text);var view=text.GetComponentInParent<CardView>();var back=text.GetComponentInParent<CardBackView>();
@@ -51,6 +59,7 @@ internal sealed class SurfaceProbe {
    policy="active-title-observer-no-buffer-read-no-write"}));
 
   }catch(Exception e){Plugin.Once("ObserveTitleSnapshot-error","ENV_TITLE_DIAGNOSTIC_STOPPED ObserveTitleSnapshot "+e.GetType().Name);}
+#endif
  }
  internal string EnvironmentTitleGlyphs()=>rules.EnvironmentTitleGlyphs();
  readonly Dictionary<int,CardBackView> trackedBacks=new();
@@ -90,14 +99,17 @@ internal sealed class SurfaceProbe {
     EnvironmentTitleFont.Apply(title,rules.EnvironmentTitleGlyphs());
    else EnvironmentTitleFont.Restore(title);
    if(target==null){
+#if SOTM_DIAGNOSTICS
     if(bound && rules.IsDeckName(source) && titleWrites.Contains(path) && titlePersistence.Count<40 && titlePersistence.Add(path))
      Plugin.Instance.Log.LogInfo("ENV_TITLE_PERSISTED "+JsonSerializer.Serialize(new{path,source}));
+#endif
     return;
    }
    if(!FontSupport.EnsureReady())return;
    FontSupport.AttachFallback(title,target);
    title.text=target;
    title.SetAllDirty();
+#if SOTM_DIAGNOSTICS
    if(titleWrites.Count<40 && titleWrites.Add(path)){
     bool readable=Plugin.TryReadStringLabel(title,out var written);
     Plugin.Instance.Log.LogInfo("ENV_TITLE_BOUND_WRITE "+JsonSerializer.Serialize(new{
@@ -105,9 +117,12 @@ internal sealed class SurfaceProbe {
      inputSource=title.m_inputSource.ToString(),backingStringDirty=title.m_IsTextBackingStringDirty,
      identity="active CardBackView.TitleLabel",frame=UnityEngine.Time.frameCount,policy="safe-string-only"}));
    }
+#endif
   }catch(Exception e){Plugin.Once("bound-title-write-error","ENV_TITLE_BOUND_WRITE_ERROR "+e);}
  }
+ [System.Diagnostics.Conditional("SOTM_DIAGNOSTICS")]
  internal void ObserveBackSnapshot(CardBackView view){
+#if SOTM_DIAGNOSTICS
   try {
   if(backSnapshots.Count>=40)return;
   var title=view.TitleLabel;string path=title!=null?PathOf(title):view.gameObject.name;
@@ -119,6 +134,7 @@ internal sealed class SurfaceProbe {
    policy="view-bindings-only-no-text-read-no-write"}));
 
   }catch(Exception e){Plugin.Once("ObserveBackSnapshot-error","ENV_TITLE_DIAGNOSTIC_STOPPED ObserveBackSnapshot "+e.GetType().Name);}
+#endif
  }
  internal static bool IsEnvironmentDeckTitle(TMP_Text text){
   if(text.gameObject.name!="Title Label" || text.GetComponentInParent<TMP_InputField>()!=null)return false;
@@ -205,6 +221,7 @@ internal sealed class SurfaceProbe {
    approvedDeckName=target!=null;
    target ??= inCard?rules.Dynamic?.ApplyCardButton(path,card,source):rules.Apply(path,source);
    target ??= rules.Dynamic?.ApplyStableButton(name,buttonLabel,source);
+#if SOTM_DIAGNOSTICS
    if(!source.StartsWith("示·",StringComparison.Ordinal) && !source.StartsWith("组·",StringComparison.Ordinal)){
     string clipped=source.Length>3072?source.Substring(0,3072):source;
     string key=path+"\0"+clipped;
@@ -218,6 +235,7 @@ internal sealed class SurfaceProbe {
       status="observed-not-live-accepted"}));
     }
    }
+#endif
    return target;
   }catch(Exception e){stopped=true;Plugin.Instance.Log.LogWarning("SURFACE_PROBE_STOPPED "+e);return null;}
  }
