@@ -16,6 +16,11 @@ public sealed class DynamicDisplayRules {
  readonly Func<string,string> resolveName;
  static readonly Dictionary<string,(int Args,string Tags)> Specs=new(){
   ["hint.destroy.play.under.upto"]=(3,""),["hint.destroy.play.under.upto.first"]=(3,""),["hint.destroy.play.under.exact.first"]=(3,""),
+  ["hint.card.replace"]=(0,""),
+  ["hint.card.draw"]=(0,""),
+  ["hint.card.discard"]=(0,""),
+  ["hint.card.bury"]=(0,""),
+  ["hint.trash.salvage.upto"]=(2,""),
   ["hint.target.topdeck"]=(0,""),
   ["hint.attack.required.unspecified"]=(4,""),["hint.hp.rank.multiple"]=(3,""),
   ["hint.damage.amount"]=(0,""),["hint.attack.remaining"]=(4,"<nobr></nobr>"),
@@ -225,6 +230,7 @@ public sealed class DynamicDisplayRules {
  static readonly Regex Description=Rx(@"\A(?<name>[^<>\r\n]{1,200}) (?<verb>drew|revealed|played|discovered|summoned|collected):\z");
  static readonly Regex RelatedCards=Rx(@"\ACards (?<relation>under|next to) (?<name>[^<>\r\n]{1,200})\z");
  static readonly Regex PutUnder=Rx(@"\AClick a card in play to put (?<name>[^<>\r\n]{1,200}) under it\.\z");
+ static readonly Regex SalvageTrashUpTo=Rx(@"\AClick up to (?<n>[0-9]{1,6}) (?<unit>card|cards) in the trash to salvage (?<pronoun>it|them)\.\z");
  static readonly Regex DestroyPlayOrUnder=Rx(@"\AClick a card in play or under (?<name>[^<>\r\n]{1,200}) to destroy it\.\z");
  static readonly Regex DestroyPlayOrUnderExact=Rx(@"\AClick (?<n>[0-9]{1,6}) (?<unit>card|cards) in play or under (?<name>[^<>\r\n]{1,200}) to destroy (?<pronoun>it|them)(?<first> before other cards)?\.\z");
  static readonly Regex DestroyPlayOrUnderUpTo=Rx(@"\AClick up to (?<n>[0-9]{1,6}) (?<unit>card|cards) in play or under (?<name>[^<>\r\n]{1,200}) to destroy (?<pronoun>it|them)(?<first> before other cards)?\.\z");
@@ -298,6 +304,10 @@ public sealed class DynamicDisplayRules {
   string prefix=header.Success?header.Groups["prefix"].Value:"",body=header.Success?header.Groups["body"].Value:source;
   var fixedText=body switch {
    "Click a button to choose how much damage to deal."=>"hint.damage.amount",
+   "Click a card to replace it."=>"hint.card.replace",
+   "Click a card to draw it."=>"hint.card.draw",
+   "Click a card to discard it."=>"hint.card.discard",
+   "Click a card to bury it."=>"hint.card.bury",
    "Click a target to put it on top of its deck."=>"hint.target.topdeck",
    "Click a Hero to regain HP."=>"hint.regain.hero",
    "Click the hero who is considered to have the most cards in play."=>"hint.hero.most.play",
@@ -325,6 +335,8 @@ public sealed class DynamicDisplayRules {
    "Click a card in hand to discard it."=>"hint.discard.single", "Click a deck to reveal a card."=>"hint.deck.reveal",_=>null};
   if(fixedText!=null)return prefix+Format(fixedText);
   if(SelectionTitles.TryGetValue(body,out var selectionTitle))return prefix+Format(selectionTitle);
+  var salvage=SalvageTrashUpTo.Match(body);
+  if(salvage.Success && (salvage.Groups["n"].Value=="1")== (salvage.Groups["unit"].Value=="card") && (salvage.Groups["n"].Value=="1")== (salvage.Groups["pronoun"].Value=="it"))return Format("hint.trash.salvage.upto",prefix,salvage.Groups["n"].Value);
   var ownerDiscard=TrashOwnerDiscard.Match(body);
   if(ownerDiscard.Success)return Format("hint.trash.owner.discard",prefix,ownerDiscard.Groups["owner"].Value,ownerDiscard.Groups["card"].Value);
   var underExact=DestroyPlayOrUnderExact.Match(body);

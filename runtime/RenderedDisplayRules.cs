@@ -152,6 +152,14 @@ public sealed class RenderedDisplayRules {
    const string omnitronOpening="全能智创生命值为0且为场上唯一装置牌时，英雄才能获胜。";
    if(card=="OmnitronCharacter" && obj=="Body Label" && result.StartsWith(omnitronOpening,StringComparison.Ordinal))
     result=(source.Contains("\\r\\n",StringComparison.Ordinal)?"\\r\\n":source.Contains("\r\n",StringComparison.Ordinal)?"\r\n":"\n")+result;
+   // Recharge Mode: seven lines overrun the full-card rules box with the CJK font.
+   // Scope to the reviewed full body; preserve text, phase sprites, font size and newline bytes.
+   const string rechargeBody="你无法使用异能。\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\n破坏此牌。\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\n你可以额外抽4张牌。\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\n将任意数量的手牌置于场上的任意军械牌下。\n";
+   if(card=="RechargeMode" && obj=="Body Label" &&
+      (path.StartsWith("Canvas/",StringComparison.Ordinal) || path.StartsWith("Full Card Canvas/Full Card Panel/",StringComparison.Ordinal)) &&
+      Regex.IsMatch(path,@"/CardView RechargeMode-[0-9]+ FullCardFront(?: \(Temporary\))?/Body Box/Body Label\z") &&
+      result.Replace("\\r\\n","\n").Replace("\\n","\n").Replace("\r\n","\n").Replace("\r","\n")==rechargeBody)
+    result="<line-height=85%>"+result+"</line-height>";
    if(result==source)result=previous??source;
   }
   if(inCard && obj=="Advanced Heading Label"){

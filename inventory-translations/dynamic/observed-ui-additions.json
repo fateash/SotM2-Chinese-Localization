@@ -67,28 +67,28 @@
     "original": "Click a card to replace it.",
     "translation": "点击一张牌，将其放回原处。",
     "stage": 1,
-    "context": "已捕获完整句的编辑归一化；显示尚未接入。Arcane Cadence展示后的五选分配。"
+    "context": "已捕获完整句的编辑归一化；0.1.25已接入HUD完整选牌提示，待实机验收。Arcane Cadence展示后的五选分配。"
   },
   {
     "key": "editorial.ui.hint.draw.card",
     "original": "Click a card to draw it.",
     "translation": "点击一张牌以将其抽入手牌。",
     "stage": 1,
-    "context": "已捕获完整句的编辑归一化；显示尚未接入。抽取展示的牌。"
+    "context": "已捕获完整句的编辑归一化；0.1.25已接入HUD完整选牌提示，待实机验收。抽取展示的牌。"
   },
   {
     "key": "editorial.ui.hint.discard.card",
     "original": "Click a card to discard it.",
     "translation": "点击一张牌以将其弃置。",
     "stage": 1,
-    "context": "已捕获完整句的编辑归一化；显示尚未接入。不限定牌来自手牌。"
+    "context": "已捕获完整句的编辑归一化；0.1.25已接入HUD完整选牌提示，待实机验收。不限定牌来自手牌。"
   },
   {
     "key": "editorial.ui.hint.bury.card",
     "original": "Click a card to bury it.",
     "translation": "点击一张牌以将其埋藏。",
     "stage": 1,
-    "context": "已捕获完整句的编辑归一化；显示尚未接入。Bury沿用冻结术语埋藏，不另造置底术语。"
+    "context": "已捕获完整句的编辑归一化；0.1.25已接入HUD完整选牌提示，待实机验收。Bury沿用冻结术语埋藏，不另造置底术语。"
   },
   {
     "key": "editorial.ui.hint.put.hand",

@@ -325,7 +325,7 @@ foreach(var role in new[]{deckRole,trashRole}){
  Check(pilot.Apply(role.Replace("Selection Button Label","HP Label"),"Draw")==null,"numeric counter role excluded");
 }
 foreach(var action in new[]{"Discover Item","Discover Golem"}){
- Check(pilot.Dynamic.ApplyCardButton(effectPath,"FlashForge",action)==(action=="Discover Item"?"发现物品牌":"发现Golem牌"),"common discovery action keeps unreviewed subtype literal");
+ Check(pilot.Dynamic.ApplyCardButton(effectPath,"FlashForge",action)==(action=="Discover Item"?"发现物品牌":"发现机偶牌"),"common discovery action uses reviewed subtype");
  Check(pilot.Dynamic.ApplyCardButton(effectPath.Replace("Select Effect Container/Select Effect Button(Clone)","Power Container/UsePower"),"FlashForge",action)==null,"discover action cannot rewrite rule body");
 }
 Check(pilot.Apply(DynamicDisplayRules.ContinuePath,"Skip Draw")=="跳过抽牌","skip draw action without assuming phase scope");
@@ -362,7 +362,7 @@ foreach(var phase in phaseMap){
 }
 Check(pilot.Apply(fiveHero,"Has the Most")=="最多","most button does not invent hand or play area");
 Check(pilot.Apply(fiveHero.Replace("/Legacy/","/Omnitron/"),"Has the Most")==null,"nonhero cannot inherit inactive hero selector");
-Check(pilot.Dynamic.ApplyCardButton(effectPath,"UnityCharacter","Play Golem")=="打出Golem牌","play golem action keeps deferred subtype");
+Check(pilot.Dynamic.ApplyCardButton(effectPath,"UnityCharacter","Play Golem")=="打出机偶牌","play golem action uses reviewed subtype");
 Check(pilot.Dynamic.ApplyCardButton(effectPath.Replace("Select Effect Container/Select Effect Button(Clone)","Power Container/UsePower"),"UnityCharacter","Play Golem")==null,"play golem cannot rewrite power body");
 using(var evidence=System.Text.Json.JsonDocument.Parse(File.ReadAllText("tests/fixtures/dynamic-0.1.17.json"))){
  foreach(var x in evidence.RootElement.GetProperty("samples").EnumerateArray()){

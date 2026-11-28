@@ -139,7 +139,7 @@
     "button.replace": "放回原处",
     "button.skip.draw.action": "跳过抽牌",
     "button.discover.item": "发现物品牌",
-    "button.discover.golem": "发现Golem牌",
+    "button.discover.golem": "发现机偶牌",
     "hint.replace-discard": "{0}选择一个区域，将{1}放回原处或弃置。",
     "hint.draw.owner": "{0}点击{1}的牌库，抽{2}张牌。",
     "hint.hero.draw": "点击一位英雄，让其抽1张牌。",
@@ -149,7 +149,7 @@
     "hint.destroy.exact": "{0}点击{1}张在场的牌以将其破坏。",
     "hint.phase.target": "点击一个目标，发动其<nobr>{0} <b>{1}</b></nobr>效果。",
     "button.most": "最多",
-    "button.play.golem": "打出Golem牌",
+    "button.play.golem": "打出机偶牌",
     "hint.hero.most.play": "点击视为场上牌最多的英雄。",
     "hint.trash.under": "点击弃牌堆中的一张牌，将其置于一张牌下方。",
     "hint.hero.salvage": "点击一位英雄，让其回收1张牌。",
@@ -176,7 +176,12 @@
     "hint.target.topdeck": "点击一个目标，将其置于所属牌库顶。",
     "hint.destroy.play.under.upto": "{0}点击至多{1}张在场或位于{2}下方的牌以将其破坏。",
     "hint.destroy.play.under.upto.first": "{0}点击至多{1}张在场或位于{2}下方的牌，先于其他牌将其破坏。",
-    "hint.destroy.play.under.exact.first": "{0}点击{1}张在场或位于{2}下方的牌，先于其他牌将其破坏。"
+    "hint.destroy.play.under.exact.first": "{0}点击{1}张在场或位于{2}下方的牌，先于其他牌将其破坏。",
+    "hint.card.replace": "点击一张牌，将其放回原处。",
+    "hint.card.draw": "点击一张牌以将其抽入手牌。",
+    "hint.card.discard": "点击一张牌以将其弃置。",
+    "hint.card.bury": "点击一张牌以将其埋藏。",
+    "hint.trash.salvage.upto": "{0}点击弃牌堆中的至多{1}张牌以将其回收。"
   },
   "DeckNames": {
     "Absolute Zero": "绝对零度",

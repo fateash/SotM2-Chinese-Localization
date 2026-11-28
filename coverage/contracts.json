@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "reviewedFiles": {
-    "runtime/DynamicDisplayRules.cs": "5b91bd1fdff9b2a802aa6020cffa791a4e3c26f665136c4d62fa62c9655edbe2",
+    "runtime/DynamicDisplayRules.cs": "06a7031a26a4a462f8e43eed4cee6f2ee670bea209856cf555c004fe91083b49",
     "runtime/SurfaceProbeRules.cs": "1d8071f2bb04ac9d4f69936e07ff9fbc933c5805644ac323d080566fce0d9e00",
     "runtime/SurfaceProbe.cs": "3848374ccfe3e4c4df22927b6b78d093924fc2c0be2743abc0d17d95482a4940",
-    "runtime/Plugin.cs": "2cd5ad782056fd72de6c30098c4345397319060ad2d26862dfec65d0b7579e4e",
+    "runtime/Plugin.cs": "93d4ccfc3f9059e155f1b327f0c3faa1582fc1727b5ab5db8edb8975d47a1be4",
     "runtime/DisplayRules.cs": "a2d9ce20b06781608cdd07b35eb364c7ea930f0d5934a7e8a124655d253ca6a4",
-    "probe/dynamic-pilot.json": "24f488ec75feccf3488ec9dc4e00a9ce86ec85b2fcf33509216569f5454b867f",
-    "runtime/RenderedDisplayRules.cs": "4075608df14dc5a1d29010d39a234c7ed98a066c6fe47372b1ee70abd05ffdf9"
+    "probe/dynamic-pilot.json": "d700a73f552d4ffd5c3427f097db8ad164f02ff7b7432ed2bad4e007f845d194",
+    "runtime/RenderedDisplayRules.cs": "ddf13120fc5bd41105518099a000a67effe68334449caa8efed31e8c958117fb"
   },
   "families": [
     {
@@ -105,7 +105,12 @@
         "hint.target.topdeck",
         "hint.destroy.play.under.upto",
         "hint.destroy.play.under.upto.first",
-        "hint.destroy.play.under.exact.first"
+        "hint.destroy.play.under.exact.first",
+        "hint.card.replace",
+        "hint.card.draw",
+        "hint.card.discard",
+        "hint.card.bury",
+        "hint.trash.salvage.upto"
       ],
       "contexts": [
         {
@@ -4622,6 +4627,678 @@
             "inCardView": false,
             "source": "<b>End of Days:</b> Click up to 23 cards in play or under <b>Flak Cannon</b> to destroy them before other cards.",
             "expected": null
+          }
+        },
+        {
+          "id": "025-replace",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a card to replace it.",
+            "expected": "点击一张牌，将其放回原处。"
+          }
+        },
+        {
+          "id": "025-replace-named",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Arcane Cadence:</b> Click a card to replace it.",
+            "expected": "<b>奥术终止式:</b> 点击一张牌，将其放回原处。"
+          }
+        },
+        {
+          "id": "025-replace-villain",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Omnitron:</b> Click a card to replace it.",
+            "expected": "<b>全能智创:</b> 点击一张牌，将其放回原处。"
+          }
+        },
+        {
+          "id": "025-replace-environment",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Wagner Mars Base:</b> Click a card to replace it.",
+            "expected": "<b>瓦格纳火星基地:</b> 点击一张牌，将其放回原处。"
+          }
+        },
+        {
+          "id": "025-replace-outside",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a card to replace it.",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-replace-suffix",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a card to replace it. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-replace-wrong-object",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a target to replace it.",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-draw",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a card to draw it.",
+            "expected": "点击一张牌以将其抽入手牌。"
+          }
+        },
+        {
+          "id": "025-draw-named",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Arcane Cadence:</b> Click a card to draw it.",
+            "expected": "<b>奥术终止式:</b> 点击一张牌以将其抽入手牌。"
+          }
+        },
+        {
+          "id": "025-draw-villain",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Omnitron:</b> Click a card to draw it.",
+            "expected": "<b>全能智创:</b> 点击一张牌以将其抽入手牌。"
+          }
+        },
+        {
+          "id": "025-draw-environment",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Wagner Mars Base:</b> Click a card to draw it.",
+            "expected": "<b>瓦格纳火星基地:</b> 点击一张牌以将其抽入手牌。"
+          }
+        },
+        {
+          "id": "025-draw-outside",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a card to draw it.",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-draw-suffix",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a card to draw it. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-draw-wrong-object",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a target to draw it.",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-discard",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a card to discard it.",
+            "expected": "点击一张牌以将其弃置。"
+          }
+        },
+        {
+          "id": "025-discard-named",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Arcane Cadence:</b> Click a card to discard it.",
+            "expected": "<b>奥术终止式:</b> 点击一张牌以将其弃置。"
+          }
+        },
+        {
+          "id": "025-discard-villain",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Omnitron:</b> Click a card to discard it.",
+            "expected": "<b>全能智创:</b> 点击一张牌以将其弃置。"
+          }
+        },
+        {
+          "id": "025-discard-environment",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Wagner Mars Base:</b> Click a card to discard it.",
+            "expected": "<b>瓦格纳火星基地:</b> 点击一张牌以将其弃置。"
+          }
+        },
+        {
+          "id": "025-discard-outside",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a card to discard it.",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-discard-suffix",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a card to discard it. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-discard-wrong-object",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a target to discard it.",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-bury",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a card to bury it.",
+            "expected": "点击一张牌以将其埋藏。"
+          }
+        },
+        {
+          "id": "025-bury-named",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Arcane Cadence:</b> Click a card to bury it.",
+            "expected": "<b>奥术终止式:</b> 点击一张牌以将其埋藏。"
+          }
+        },
+        {
+          "id": "025-bury-villain",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Omnitron:</b> Click a card to bury it.",
+            "expected": "<b>全能智创:</b> 点击一张牌以将其埋藏。"
+          }
+        },
+        {
+          "id": "025-bury-environment",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Wagner Mars Base:</b> Click a card to bury it.",
+            "expected": "<b>瓦格纳火星基地:</b> 点击一张牌以将其埋藏。"
+          }
+        },
+        {
+          "id": "025-bury-outside",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a card to bury it.",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-bury-suffix",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a card to bury it. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-bury-wrong-object",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "Click a target to bury it.",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-salvage-0",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Robot Reclamation:</b> Click up to 0 cards in the trash to salvage them.",
+            "expected": "<b>机偶回收:</b> 点击弃牌堆中的至多0张牌以将其回收。"
+          }
+        },
+        {
+          "id": "025-salvage-1",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Robot Reclamation:</b> Click up to 1 card in the trash to salvage it.",
+            "expected": "<b>机偶回收:</b> 点击弃牌堆中的至多1张牌以将其回收。"
+          }
+        },
+        {
+          "id": "025-salvage-2",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Robot Reclamation:</b> Click up to 2 cards in the trash to salvage them.",
+            "expected": "<b>机偶回收:</b> 点击弃牌堆中的至多2张牌以将其回收。"
+          }
+        },
+        {
+          "id": "025-salvage-3",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Robot Reclamation:</b> Click up to 3 cards in the trash to salvage them.",
+            "expected": "<b>机偶回收:</b> 点击弃牌堆中的至多3张牌以将其回收。"
+          }
+        },
+        {
+          "id": "025-salvage-12",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Robot Reclamation:</b> Click up to 12 cards in the trash to salvage them.",
+            "expected": "<b>机偶回收:</b> 点击弃牌堆中的至多12张牌以将其回收。"
+          }
+        },
+        {
+          "id": "025-salvage-999999",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Robot Reclamation:</b> Click up to 999999 cards in the trash to salvage them.",
+            "expected": "<b>机偶回收:</b> 点击弃牌堆中的至多999999张牌以将其回收。"
+          }
+        },
+        {
+          "id": "025-salvage-reject-0",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Robot Reclamation:</b> Click up to 1 cards in the trash to salvage them.",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-salvage-reject-1",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Robot Reclamation:</b> Click up to 3 cards in the trash to salvage it.",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-salvage-reject-2",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Robot Reclamation:</b> Click up to 3 cards in the deck to salvage them.",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-salvage-reject-3",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Robot Reclamation:</b> Click at least 3 cards in the trash to salvage them.",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-salvage-reject-4",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Robot Reclamation:</b> Click up to 3 cards in the trash to salvage them. Extra",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-salvage-reject-5",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Robot Reclamation:</b> Click up to -3 cards in the trash to salvage them.",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-salvage-outside",
+          "status": "excluded",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Other/Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Robot Reclamation:</b> Click up to 3 cards in the trash to salvage them.",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-play-existing",
+          "status": "offline-covered",
+          "view": "HUD",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "既有审译与真实完整句式对账；四种选牌动作互不替换，隐含单数不数字化。扩展为离线契约，非实机验收。",
+          "case": {
+            "path": "Canvas/HUD Panel/Hint Panel/Hint Box/Hint Label",
+            "objectName": "Hint Label",
+            "cardId": "",
+            "inCardView": false,
+            "source": "<b>Arcane Cadence:</b> Click a card to play it.",
+            "expected": "<b>奥术终止式:</b> 点击一张牌以将其打出。"
           }
         }
       ]
@@ -13680,7 +14357,7 @@
             "cardId": "FlashForge",
             "source": "Discover Golem",
             "inCardView": true,
-            "expected": "发现Golem牌",
+            "expected": "发现机偶牌",
             "observationId": "56cfcf0a4d4bf5e7810c5bc1"
           }
         },
@@ -13748,7 +14425,7 @@
             "cardId": "UnityCharacter",
             "source": "Play Golem",
             "inCardView": true,
-            "expected": "打出Golem牌",
+            "expected": "打出机偶牌",
             "observationId": "bc6c0ff01d3bbbb0cdddc3c5"
           }
         },
@@ -14615,6 +15292,22 @@
             "expected": "恢复3点生命值",
             "cardId": "TheStaffOfRa",
             "inCardView": true
+          }
+        },
+        {
+          "id": "025-discover-golem-character",
+          "status": "offline-covered",
+          "view": "observed-control",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "新日志确认优妮蒂角色牌选择效果按钮；采用库存已审译名机偶，待修订版实机验收。",
+          "case": {
+            "objectName": "Label",
+            "path": "Canvas/Main Panel/Unity/Inner Panel/Character Card Container/UnityCharacter/Foreground Elements/Select Effect Container/Select Effect Button(Clone)/Label",
+            "cardId": "UnityCharacter",
+            "source": "Discover Golem",
+            "inCardView": true,
+            "expected": "发现机偶牌"
           }
         }
       ]
@@ -29137,6 +29830,268 @@
             "inCardView": false,
             "source": "Skip Power",
             "expected": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "recharge-layout",
+      "templates": [],
+      "contexts": [
+        {
+          "id": "025-recharge-observed-0",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "日志完整正文与大图控件；85%行距为待实机验收方案，不改字号、数字或规则。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView RechargeMode-3 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "RechargeMode",
+            "inCardView": true,
+            "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
+            "expected": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
+          }
+        },
+        {
+          "id": "025-recharge-observed-1",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "日志完整正文与大图控件；85%行距为待实机验收方案，不改字号、数字或规则。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView RechargeMode-3 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "RechargeMode",
+            "inCardView": true,
+            "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
+            "expected": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
+          }
+        },
+        {
+          "id": "025-recharge-observed-2",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "日志完整正文与大图控件；85%行距为待实机验收方案，不改字号、数字或规则。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Hand/Card Container/CardView RechargeMode-3 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "RechargeMode",
+            "inCardView": true,
+            "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
+            "expected": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
+          }
+        },
+        {
+          "id": "025-recharge-observed-3",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "日志完整正文与大图控件；85%行距为待实机验收方案，不改字号、数字或规则。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Hand/Card Container/CardView RechargeMode-3 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "RechargeMode",
+            "inCardView": true,
+            "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
+            "expected": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
+          }
+        },
+        {
+          "id": "025-recharge-observed-4",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "日志完整正文与大图控件；85%行距为待实机验收方案，不改字号、数字或规则。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/Hand/Card Container/CardView RechargeMode-3 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "RechargeMode",
+            "inCardView": true,
+            "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
+            "expected": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
+          }
+        },
+        {
+          "id": "025-recharge-observed-5",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "日志完整正文与大图控件；85%行距为待实机验收方案，不改字号、数字或规则。",
+          "case": {
+            "path": "Canvas/Main Panel/Bunker/Inner Panel/Foreground Elements/CardView RechargeMode-3 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "RechargeMode",
+            "inCardView": true,
+            "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
+            "expected": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
+          }
+        },
+        {
+          "id": "025-recharge-observed-6",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "日志完整正文与大图控件；85%行距为待实机验收方案，不改字号、数字或规则。",
+          "case": {
+            "path": "Full Card Canvas/Full Card Panel/Card Parent/CardView RechargeMode-3 FullCardFront/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "RechargeMode",
+            "inCardView": true,
+            "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>START PHASE</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>DRAW PHASE</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>END PHASE</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
+            "expected": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>"
+          }
+        },
+        {
+          "id": "025-recharge-idempotent",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整正文/组件/卡牌边界及重复处理反例。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView RechargeMode-3 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "RechargeMode",
+            "inCardView": true,
+            "source": "<line-height=85%>你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n</line-height>",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-recharge-small",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整正文/组件/卡牌边界及重复处理反例。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView RechargeMode-3 SmallCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "RechargeMode",
+            "inCardView": true,
+            "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-recharge-other-card",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整正文/组件/卡牌边界及重复处理反例。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView RechargeMode-3 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "OtherCard",
+            "inCardView": true,
+            "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-recharge-wrong-object",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整正文/组件/卡牌边界及重复处理反例。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView RechargeMode-3 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "HP Label",
+            "cardId": "RechargeMode",
+            "inCardView": true,
+            "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-recharge-unbound",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整正文/组件/卡牌边界及重复处理反例。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView RechargeMode-3 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "RechargeMode",
+            "inCardView": false,
+            "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-recharge-changed-body",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整正文/组件/卡牌边界及重复处理反例。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView RechargeMode-3 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "RechargeMode",
+            "inCardView": true,
+            "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽5张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-recharge-suffix",
+          "status": "excluded",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "完整正文/组件/卡牌边界及重复处理反例。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView RechargeMode-3 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "RechargeMode",
+            "inCardView": true,
+            "source": "你无法使用异能。\r\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\r\n破坏此牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\r\n你可以额外抽4张牌。\r\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\r\n将任意数量的手牌置于场上的任意军械牌下。\r\n额外规则",
+            "expected": null
+          }
+        },
+        {
+          "id": "025-recharge-lf",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "保留实际或转义换行，不重复套用行距。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView RechargeMode-3 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "RechargeMode",
+            "inCardView": true,
+            "source": "你无法使用异能。\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\n破坏此牌。\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\n你可以额外抽4张牌。\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\n将任意数量的手牌置于场上的任意军械牌下。\n",
+            "expected": "<line-height=85%>你无法使用异能。\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\n破坏此牌。\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\n你可以额外抽4张牌。\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\n将任意数量的手牌置于场上的任意军械牌下。\n</line-height>"
+          }
+        },
+        {
+          "id": "025-recharge-escaped",
+          "status": "offline-covered",
+          "view": "full-card",
+          "heroState": "not-applicable",
+          "layout": "shared",
+          "reason": "保留实际或转义换行，不重复套用行距。",
+          "case": {
+            "path": "Canvas/Temporary Full Card Panel/CardView RechargeMode-3 FullCardFront (Temporary)/Body Box/Body Label",
+            "objectName": "Body Label",
+            "cardId": "RechargeMode",
+            "inCardView": true,
+            "source": "你无法使用异能。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\\r\\n破坏此牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\\r\\n你可以额外抽4张牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\\r\\n将任意数量的手牌置于场上的任意军械牌下。\\r\\n",
+            "expected": "<line-height=85%>你无法使用异能。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"StartPhase\"><space=.5em><style=StartPhase>开始阶段</style></voffset>\\r\\n破坏此牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"DrawPhase\"><space=.5em><style=DrawPhase>抽牌阶段</style></voffset>\\r\\n你可以额外抽4张牌。\\r\\n<voffset=-0.3em><space=-1em><sprite name=\"EndPhase\"><space=.5em><style=EndPhase>结束阶段</style></voffset>\\r\\n将任意数量的手牌置于场上的任意军械牌下。\\r\\n</line-height>"
           }
         }
       ]
