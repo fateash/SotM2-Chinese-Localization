@@ -24,9 +24,9 @@ public sealed class RenderedDisplayRules {
  }
  static readonly Regex PowerPath=new(@"/Power Container/[0-9]{1,6}/UsePower-[A-Za-z0-9_]+-(?<card>[A-Za-z0-9_]+)/Label\z",RegexOptions.CultureInvariant);
  const string Heroes="AbsoluteZero|Bunker|CaptainCosmic|Fanatic|Haka|Legacy|Ra|Tachyon|Tempest|TheArgentAdept|TheWraith|Unity";
- static readonly Regex GrantedHeroPowerPath=new(@"\ACanvas/Main Panel/(?:(?:3 Hero Layout/Inactive Hero Location [12]|5 Hero Layout/Inactive Hero Location [1-4])/)?(?<hero>"+Heroes+@")/Inner Panel/Character Card Container/\k<hero>Character/Foreground Elements/Power Container/[0-9]{1,6}/UsePower-\k<hero>-\k<hero>Character/Label\z",RegexOptions.CultureInvariant);
+ static readonly Regex GrantedHeroPowerPath=new(@"\ACanvas/Main Panel/(?:(?:"+DynamicDisplayRules.InactiveHeroLayoutPattern+@")/)?(?<hero>"+Heroes+@")/Inner Panel/Character Card Container/\k<hero>Character/Foreground Elements/Power Container/[0-9]{1,6}/UsePower-\k<hero>-\k<hero>Character/Label\z",RegexOptions.CultureInvariant);
  static readonly string[] PowerLineEndings={"\r\n","\n","\r","\\r\\n","\\n",""};
- static readonly Regex IncapPath=new(@"\ACanvas/Main Panel/(?:(?:3 Hero Layout/Inactive Hero Location [12]|5 Hero Layout/Inactive Hero Location [1-4])/)?(?<hero>"+Heroes+@")/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button\(Clone\)/Label\z",RegexOptions.CultureInvariant);
+ static readonly Regex IncapPath=new(@"\ACanvas/Main Panel/(?:(?:"+DynamicDisplayRules.InactiveHeroLayoutPattern+@")/)?(?<hero>"+Heroes+@")/Inner Panel/Foreground Elements/Incap Ability Container/Incap Ability Button\(Clone\)/Label\z",RegexOptions.CultureInvariant);
  const string Bullet="<size=70%><sprite name=\"BulletPoint\"></size><indent=1em>";
  const string Setup="<b><i>Setup</i></b>: ";
  public const string Glyphs="准备进阶演奏伴奏制造灭绝减加确定要放弃本局游戏吗点击一位英雄确定谁视为生命值最低者不会因此受到伤害牌库抽张先行动在场无法不可削减最高任何造成受到寒冷火焰能量近战投射精神闪电毒素光耀音波邪能";

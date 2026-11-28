@@ -3701,6 +3701,45 @@
         "status": "implemented-pending-live-test",
         "evidence": "coverage/contracts.json#hero-count-sprite-colors"
       }
+    },
+    {
+      "id": "5c3dfb97d8f9e747406d2b91",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "四英雄非当前角色附属牌目的地入口未接入；已有在此打出译文，0.1.35补齐布局。",
+      "owner": "本地化维护者",
+      "nextAction": "复查四英雄三个非当前位置及切换当前英雄后按钮与附属牌归属。",
+      "resolution": {
+        "version": "0.1.35-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#four-hero-layout-routes"
+      }
+    },
+    {
+      "id": "b3603c9c5a2027547377e12b",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "四英雄非当前角色附属牌目的地入口未接入；已有在此打出译文，0.1.35补齐布局。",
+      "owner": "本地化维护者",
+      "nextAction": "复查四英雄三个非当前位置及切换当前英雄后按钮与附属牌归属。",
+      "resolution": {
+        "version": "0.1.35-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#four-hero-layout-routes"
+      }
+    },
+    {
+      "id": "cfd285190c06af44b76b6c6c",
+      "reviewedReason": "known-source-route-gap",
+      "disposition": "fix-stage-1",
+      "reason": "四英雄非当前角色附属牌目的地入口未接入；已有在此打出译文，0.1.35补齐布局。",
+      "owner": "本地化维护者",
+      "nextAction": "复查四英雄三个非当前位置及切换当前英雄后按钮与附属牌归属。",
+      "resolution": {
+        "version": "0.1.35-rc.1",
+        "status": "implemented-pending-live-test",
+        "evidence": "coverage/contracts.json#four-hero-layout-routes"
+      }
     }
   ]
 }

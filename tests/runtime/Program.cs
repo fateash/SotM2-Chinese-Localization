@@ -240,7 +240,7 @@ foreach(var slot in new[]{1,2,3,4}){
  Check(pilot.Dynamic.ApplyCardButton(character,"RaCharacter","Play Here")==null,"five-hero mismatched character excluded");
 }
 string fiveHero="Canvas/Main Panel/5 Hero Layout/Inactive Hero Location 1/Legacy/Inner Panel/Foreground Elements/Selection Button/Selection Button Label";
-foreach(var wrong in new[]{"5 Hero Layout/Inactive Hero Location 0","5 Hero Layout/Inactive Hero Location 5","3 Hero Layout/Inactive Hero Location 3","4 Hero Layout/Inactive Hero Location 1"})
+foreach(var wrong in new[]{"5 Hero Layout/Inactive Hero Location 0","5 Hero Layout/Inactive Hero Location 5","3 Hero Layout/Inactive Hero Location 3","4 Hero Layout/Inactive Hero Location 4"})
  Check(pilot.Apply(fiveHero.Replace("5 Hero Layout/Inactive Hero Location 1",wrong),"Play a Card")==null,"layout/index pairing must be authorized");
 string popup="Canvas/Revealed Cards Manager/[RevealCardsAction: Source=Captain Cosmic]/Title Label";
 Check(pilot.Apply(popup,"Captain Cosmic revealed:")=="Captain Cosmic展示的牌：","reveal popup matches action owner");
@@ -319,7 +319,7 @@ Check(pilot.Apply(deckRole,"Discard")==null,"discard cannot bind to deck destina
 Check(pilot.Apply(trashRole,"Replace")==null,"replace cannot bind to trash destination");
 Check(pilot.Apply(trashRole,"Draw")==null,"draw cannot bind to trash destination");
 foreach(var role in new[]{deckRole,trashRole}){
- foreach(var bad in new[]{"5 Hero Layout/Inactive Hero Location 0","5 Hero Layout/Inactive Hero Location 5","3 Hero Layout/Inactive Hero Location 3","4 Hero Layout/Inactive Hero Location 1"})
+ foreach(var bad in new[]{"5 Hero Layout/Inactive Hero Location 0","5 Hero Layout/Inactive Hero Location 5","3 Hero Layout/Inactive Hero Location 3","4 Hero Layout/Inactive Hero Location 4"})
   Check(pilot.Apply(role.Replace("5 Hero Layout/Inactive Hero Location 4",bad),role==deckRole?"Replace":"Discard")==null,"invalid layout-slot pair rejected for destination button");
  Check(pilot.Apply(role.Replace("/Unity/","/UnknownHero/"),role==deckRole?"Draw":"Discard")==null,"unknown owner route excluded");
  Check(pilot.Apply(role.Replace("Selection Button Label","HP Label"),"Draw")==null,"numeric counter role excluded");
@@ -436,4 +436,48 @@ using(var evidence034=System.Text.Json.JsonDocument.Parse(File.ReadAllText("test
 }
 Check(SurfaceProbeRules.CanObserve("Rating Label",false,false),"new-game rating label observable");
 Check(!SurfaceProbeRules.CanObserve("Rating Label",false,true),"rating input field remains protected");
+
+foreach(var hero035 in pilot.DeckNames.Keys.Where(x=>new[]{"Legacy","Tachyon","Absolute Zero"}.Contains(x))){
+ string hero=hero035.Replace(" ","");
+ for(int slot=1;slot<=3;slot++){
+  string path="Canvas/Main Panel/4 Hero Layout/Inactive Hero Location "+slot+"/"+hero+"/Inner Panel/Character Card Container/"+hero+"Character/Foreground Elements/Next To Selection Button/Selection Button Label";
+  Check(pilot.Dynamic!.ApplyCardButton(path,hero+"Character","Play Here")=="在此打出","four-hero placement full source and identity");
+  Check(pilot.Dynamic.ApplyCardButton(path,"WrongCharacter","Play Here")==null,"four-hero placement bound identity required");
+ }
+}
+// Every known hero is hosted by the same view in current/3/4/5-player slots.
+// Exhaust the role/action matrix independently of individual screenshot identities.
+var heroActions035=new[]{("Draw","抽牌"),("Discard","弃置"),("Play a Card","打出一张牌"),("Use a Power","使用异能"),("Put a Card","放置一张牌"),("Destroy a Card","破坏一张牌"),("Has the Fewest","最少"),("Has the Most","最多"),("Take Play Phase","进行出牌阶段"),("Take Power Phase","进行异能阶段")};
+var deckActions035=new[]{("Deck","牌库"),("Reveal","展示"),("Draw","抽牌"),("Replace","放回原处")};
+var trashActions035=new[]{("Trash","弃牌堆"),("Discard","弃置"),("Reshuffle","洗回牌库")};
+foreach(string hero in "AbsoluteZero Bunker CaptainCosmic Fanatic Haka Legacy Ra Tachyon Tempest TheArgentAdept TheWraith Unity".Split(' ')){
+ foreach(int players in new[]{0,3,4,5})for(int slot=1;slot<=(players==0?1:players-1);slot++){
+  string host="Canvas/Main Panel/"+(players==0?"":players+" Hero Layout/Inactive Hero Location "+slot+"/")+hero+"/Inner Panel/";
+  string selection=host+"Foreground Elements/Selection Button/Selection Button Label";
+  foreach(var a in heroActions035)Check(pilot.Apply(selection,a.Item1)==a.Item2,"3/4/5/current hero action "+hero+" "+players+"/"+slot+" "+a.Item1);
+  string deck=host+"Foreground Elements/"+(players==0?"Deck and Trash/Active Deck View":"Inactive Deck View")+"/Selection Button/Selection Button Label";
+  foreach(var a in deckActions035)Check(pilot.Apply(deck,a.Item1)==a.Item2,"3/4/5/current deck action "+a.Item1);
+  string trash=host+"Foreground Elements/"+(players==0?"Deck and Trash/Active Trash View":"Bottom Area Panel/Inactive Trash View")+"/Selection Button/Selection Button Label";
+  foreach(var a in trashActions035)Check(pilot.Apply(trash,a.Item1)==a.Item2,"3/4/5/current trash action "+a.Item1);
+  string hand=host+"Foreground Elements/"+(players==0?"Hand":"Bottom Area Panel/Inactive Hand View")+"/Selection Button/Selection Button Label";
+  Check(pilot.Apply(hand,"Put Here")=="放在此处","3/4/5/current hand destination");
+  string character=host+"Character Card Container/"+hero+"Character/Foreground Elements/Next To Selection Button/Selection Button Label";
+  Check(pilot.Dynamic!.ApplyCardButton(character,hero+"Character","Play Here")=="在此打出","3/4/5/current character destination");
+  Check(pilot.Dynamic.ApplyCardButton(character,"WrongCharacter","Play Here")==null,"3/4/5/current mismatched destination identity excluded");
+  foreach(string zone in new[]{"Foreground Elements/Play Area/Scroll View/Viewport/Card Container/","Character Card Container/"+hero+"Character/Next To Location View/Card Container/"}){
+   string small=host+zone+"CardView CosmicCrest-1 SmallCardFront/Next To Selection Button/Selection Button Label";
+   Check(pilot.Dynamic.ApplyCardButton(small,"CosmicCrest","Play Here")=="在此打出","3/4/5/current small-card destination");
+   string effect=host+zone+"CardView CosmicCrest-1 SmallCardFront/Select Effect Container/Select Effect Button(Clone)/Label";
+   Check(pilot.Dynamic.ApplyCardButton(effect,"CosmicCrest","Play Construct")=="打出构造牌","3/4/5/current play construct");
+   Check(pilot.Dynamic.ApplyCardButton(effect,"CosmicCrest","Discover Construct")=="发现构造牌","3/4/5/current discover construct");
+  }
+  string power=host+"Character Card Container/"+hero+"Character/Foreground Elements/Power Container/761/UsePower-"+hero+"-"+hero+"Character/Label";
+  Check(grantCompletion033.Apply(power,"Label",hero+"Character",true,true,grantSource033)==grantTarget033,"3/4/5/current granted power");
+  Check(pilot.Apply(deck,"Discard")==null && pilot.Apply(trash,"Draw")==null && pilot.Apply(hand,"Play Here")==null,"3/4/5/current destination purposes separated");
+  if(players>0)foreach(int invalidSlot035 in new[]{0,players}){
+   string bad=character.Replace("Inactive Hero Location "+slot+"/","Inactive Hero Location "+invalidSlot035+"/");
+   Check(pilot.Dynamic.ApplyCardButton(bad,hero+"Character","Play Here")==null,"layout-specific placement bounds retained");
+  }
+ }
+}
 Console.WriteLine("Total checks including deck names: "+count);

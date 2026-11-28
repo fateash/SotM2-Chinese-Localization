@@ -3786,6 +3786,21 @@
       "id": "d3a88d647d7801f7d4f9339a",
       "reason": "current-rule-match",
       "target": "<b><i>准备</i></b>: 发现<sprite name=\"H\" color=#FFFFFF>减1张光民牌。"
+    },
+    {
+      "id": "5c3dfb97d8f9e747406d2b91",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "b3603c9c5a2027547377e12b",
+      "reason": "current-rule-match",
+      "target": "在此打出"
+    },
+    {
+      "id": "cfd285190c06af44b76b6c6c",
+      "reason": "current-rule-match",
+      "target": "在此打出"
     }
   ]
 }
